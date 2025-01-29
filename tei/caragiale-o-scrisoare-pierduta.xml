@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000014" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">O scrisoare pierdută</title>
+        <author>
+          <persName type="pseudo">Ion Luca Caragiale</persName>
+          <idno type="wikidata">Q315132</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>rev. „Convorbiri literare”, XVIII, nr.11+12, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="stefan_tipatescu" sex="MALE">
+            <persName>ȘTEFAN TIPĂTESCU, prefectul județului</persName>
+          </person>
+          <person xml:id="agamemnon_dandanache" sex="MALE">
+            <persName>AGAMEMNON DANDANACHE, vechi luptător de la ’48</persName>
+          </person>
+          <person xml:id="zaharia_trahanache" sex="MALE">
+            <persName>ZAHARIA TRAHANACHE, prezidentul Comitetului permanent, Comitetului electoral, Comitetului școlar, Comițiului agricol și al altor comitete și comiții</persName>
+          </person>
+          <person xml:id="tache_farfuri" sex="MALE">
+            <persName>TACHE FARFURIDI, avocat, membru al acestor comitete și comiții</persName>
+          </person>
+          <person xml:id="iordache_brinzovenescu" sex="MALE">
+            <persName>IORDACHE BRÂNZOVENESCU, asemenea lui Tache Farfuridi</persName>
+          </person>
+          <person xml:id="nae_catavencu" sex="MALE">
+            <persName>NAE CAȚAVENCU, avocat, director-proprietar al ziarului Răcnetul Carpaților, prezident-fondator al Societății enciclopedice-cooperative 'Aurora economică română'</persName>
+          </person>
+          <person xml:id="ionescu" sex="MALE">
+            <persName>IONESCU, institutor, colaborator la acel ziar și membru al acestei societăți</persName>
+          </person>
+          <person xml:id="popescu" sex="MALE">
+            <persName>POPESCU, asemenea lui Ionescu</persName>
+          </person>
+          <person xml:id="ghita_pristanda" sex="MALE">
+            <persName>GHIȚĂ PRISTANDA, polițaiul orașului</persName>
+          </person>
+          <person xml:id="un_cetatean_turmentat" sex="MALE">
+            <persName>UN CETĂȚEAN TURMENTAT</persName>
+          </person>
+          <person xml:id="zoe_trahanache" sex="FEMALE">
+            <persName>ZOE TRAHANACHE, soția lui ZAHARIA TRAHANACHE</persName>
+          </person>
+          <person xml:id="un_fecior" sex="MALE">
+            <persName>UN FECIOR</persName>
+          </person>
+          <person xml:id="alegatori" sex="UNKNOWN">
+            <persName>ALEGĂTORI</persName>
+          </person>
+          <person xml:id="cetateni" sex="UNKNOWN">
+            <persName>CETĂȚENI</persName>
+          </person>
+          <person xml:id="public" sex="UNKNOWN">
+            <persName>PUBLIC</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1885">
+        <desc/>
+      </event>
+      <event type="premiere" when="1884">
+        <desc></desc>
+      </event>
+      <event type="print" when="1885">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000014" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">O scrisoare pierdută</titlePart>
+        </docTitle>
+        <docAuthor>Ion Luca Caragiale</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ȘTEFAN TIPĂTESCU</role>
+          <roleDesc> prefectul județului</roleDesc>
+        </castItem>
+        <castItem>
+          <role>AGAMEMNON DANDANACHE</role>
+          <roleDesc> vechi luptător de la ’48</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ZAHARIA TRAHANACHE</role>
+          <roleDesc> prezidentul Comitetului permanent,  Comitetului electoral,  Comitetului școlar,  Comițiului agricol și al altor comitete și comiții</roleDesc>
+        </castItem>
+        <castItem>
+          <role>TACHE FARFURIDI</role>
+          <roleDesc> avocat,  membru al acestor comitete și comiții</roleDesc>
+        </castItem>
+        <castItem>
+          <role>IORDACHE BRÂNZOVENESCU</role>
+          <roleDesc> asemenea lui Tache Farfuridi</roleDesc>
+        </castItem>
+        <castItem>
+          <role>NAE CAȚAVENCU</role>
+          <roleDesc> avocat,  director-proprietar al ziarului Răcnetul Carpaților,  prezident-fondator al Societății enciclopedice-cooperative 'Aurora economică română'</roleDesc>
+        </castItem>
+        <castItem>
+          <role>IONESCU</role>
+          <roleDesc> institutor,  colaborator la acel ziar și membru al acestei societăți</roleDesc>
+        </castItem>
+        <castItem>
+          <role>POPESCU</role>
+          <roleDesc> asemenea lui Ionescu</roleDesc>
+        </castItem>
+        <castItem>
+          <role>GHIȚĂ PRISTANDA</role>
+          <roleDesc> polițaiul orașului</roleDesc>
+        </castItem>
+        <castItem>
+          <role>UN CETĂȚEAN TURMENTAT</role>
+        </castItem>
+        <castItem>
+          <role>ZOE TRAHANACHE</role>
+          <roleDesc> soția lui ZAHARIA TRAHANACHE</roleDesc>
+        </castItem>
+        <castItem>
+          <role>UN FECIOR</role>
+        </castItem>
+        <castItem>
+          <role>ALEGĂTORI</role>
+        </castItem>
+        <castItem>
+          <role>CETĂȚENI</role>
+        </castItem>
+        <castItem>
+          <role>PUBLIC</role>
+        </castItem>
+      </castList>
+    </front>
+    <body/>
+  </text>
+</TEI>

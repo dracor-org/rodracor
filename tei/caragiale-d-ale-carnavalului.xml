@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000013" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">D'ale carnavalului</title>
+        <author>
+          <persName type="pseudo">Ion Luca Caragiale</persName>
+          <idno type="wikidata">Q315132</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>rev. „Convorbiri literare”, XIX, nr.2, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="nae_girimea" sex="MALE">
+            <persName>NAE GIRIMEA, frizer și subchirurg</persName>
+          </person>
+          <person xml:id="iancu_pampon" sex="MALE">
+            <persName>IANCU PAMPON</persName>
+          </person>
+          <person xml:id="mache_razachescu" sex="MALE">
+            <persName>MACHE RAZACHESCU, ce-i mai zice și CRĂCĂNEL</persName>
+          </person>
+          <person xml:id="un_catindat_de_la_perceptie" sex="MALE">
+            <persName>UN CATINDAT DE LA PERCEPȚIE</persName>
+          </person>
+          <person xml:id="iordache" sex="MALE">
+            <persName>IORDACHE, calfă la Girimea</persName>
+          </person>
+          <person xml:id="un_ipistat" sex="MALE">
+            <persName>UN IPISTAT</persName>
+          </person>
+          <person xml:id="didina_mazu" sex="FEMALE">
+            <persName>DIDINA MAZU</persName>
+          </person>
+          <person xml:id="mita_baston" sex="FEMALE">
+            <persName>MIȚA BASTON</persName>
+          </person>
+          <person xml:id="un_chelner" sex="MALE">
+            <persName>UN CHELNER</persName>
+          </person>
+          <person xml:id="o_masca" sex="UNKNOWN">
+            <persName>O MASCĂ</persName>
+          </person>
+          <person xml:id="masti" sex="UNKNOWN">
+            <persName>MĂȘTI</persName>
+          </person>
+          <person xml:id="public" sex="UNKNOWN">
+            <persName>PUBLIC</persName>
+          </person>
+          <person xml:id="sergenti_de_noapte" sex="MALE">
+            <persName>SERGENȚI DE NOAPTE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1885">
+        <desc/>
+      </event>
+      <event type="premiere" when="1885">
+        <desc></desc>
+      </event>
+      <event type="print" when="1885">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000013" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">D'ale carnavalului</titlePart>
+        </docTitle>
+        <docAuthor>Ion Luca Caragiale</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>NAE GIRIMEA</role>
+          <roleDesc> frizer și subchirurg</roleDesc>
+        </castItem>
+        <castItem>
+          <role>IANCU PAMPON</role>
+        </castItem>
+        <castItem>
+          <role>MACHE RAZACHESCU</role>
+          <roleDesc> ce-i mai zice și CRĂCĂNEL</roleDesc>
+        </castItem>
+        <castItem>
+          <role>UN CATINDAT DE LA PERCEPȚIE</role>
+        </castItem>
+        <castItem>
+          <role>IORDACHE</role>
+          <roleDesc> calfă la Girimea</roleDesc>
+        </castItem>
+        <castItem>
+          <role>UN IPISTAT</role>
+        </castItem>
+        <castItem>
+          <role>DIDINA MAZU</role>
+        </castItem>
+        <castItem>
+          <role>MIȚA BASTON</role>
+        </castItem>
+        <castItem>
+          <role>UN CHELNER</role>
+        </castItem>
+        <castItem>
+          <role>O MASCĂ</role>
+        </castItem>
+        <castItem>
+          <role>MĂȘTI</role>
+        </castItem>
+        <castItem>
+          <role>PUBLIC</role>
+        </castItem>
+        <castItem>
+          <role>SERGENȚI DE NOAPTE</role>
+        </castItem>
+      </castList>
+    </front>
+    <body/>
+  </text>
+</TEI>

@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000006" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Gaspar Grațiani, domnul Moldovei</title>
+        <author>
+          <persName type="pseudo">Ioan Slavici</persName>
+          <idno type="wikidata">Q961107</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>1888, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="gaspar_gratiani" sex="MALE">
+            <persName>GASPAR GRAŢIANI</persName>
+          </person>
+          <person xml:id="sara" sex="FEMALE">
+            <persName>SARA</persName>
+            <persDesc>evreică, favorita sultanei</persDesc>
+          </person>
+          <person xml:id="baruch" sex="MALE">
+            <persName>BARUCH</persName>
+            <persDesc>unchiul Sarei</persDesc>
+          </person>
+          <person xml:id="mapeiker" sex="FEMALE">
+            <persName>MAPEIKER</persName>
+            <persDesc>sultana favorită</persDesc>
+          </person>
+          <person xml:id="sultanele_ahmed" sex="MALE">
+            <persName>SULTANUL AHMED I</persName>
+          </person>
+          <person xml:id="vornicul_bucioc" sex="MALE">
+            <persName>VORNICUL BUCIOC</persName>
+          </person>
+          <person xml:id="logofatul_dragan" sex="MALE">
+            <persName>LOGOFĂTUL DRĂGAN</persName>
+          </person>
+          <person xml:id="hatmanul_septilici" sex="MALE">
+            <persName>HATMANUL SEPTILICI</persName>
+          </person>
+          <person xml:id="postelnicul_goia" sex="MALE">
+            <persName>POSTELNICUL GOIA</persName>
+          </person>
+          <person xml:id="vistiernicul_vasile_lupu" sex="MALE">
+            <persName>VISTIERNICUL VASILE LUPU</persName>
+          </person>
+          <person xml:id="furlani_si_bobo" sex="MALE">
+            <persName>FURLANI și BOBO</persName>
+            <persDesc>căpitani de lefegii</persDesc>
+          </person>
+          <person xml:id="borisi" sex="MALE">
+            <persName>BORISI</persName>
+            <persDesc>dragomanul veneţian</persDesc>
+          </person>
+          <person xml:id="elvira" sex="FEMALE">
+            <persName>ELVIRA</persName>
+            <persDesc>fiica acestuia</persDesc>
+          </person>
+          <person xml:id="locadelo" sex="MALE">
+            <persName>LOCadeLO</persName>
+            <persDesc>un pretendent</persDesc>
+          </person>
+          <person xml:id="van_olen" sex="MALE">
+            <persName>VAN OLEN</persName>
+            <persDesc>ambasadorul olandez</persDesc>
+          </person>
+          <person xml:id="nani" sex="MALE">
+            <persName>NANI</persName>
+            <persDesc>bailul Veneţiei</persDesc>
+          </person>
+          <person xml:id="nino" sex="MALE">
+            <persName>NINO</persName>
+            <persDesc>om de credinţă al lui Gratiani</persDesc>
+          </person>
+          <person xml:id="un_targovet" sex="MALE">
+            <persName>UN TÂRGOVEȚ</persName>
+          </person>
+          <person xml:id="un_ostean" sex="MALE">
+            <persName>UN OŞTEAN</persName>
+          </person>
+          <person xml:id="un_ceaus" sex="MALE">
+            <persName>UN CEAUŞ</persName>
+          </person>
+          <person xml:id="omer_aga" sex="MALE">
+            <persName>OMER-AGA</persName>
+            <persDesc>un eunuc</persDesc>
+          </person>
+          <person xml:id="aisa" sex="FEMALE">
+            <persName>AIŞA</persName>
+            <persDesc>o sclavă</persDesc>
+          </person>
+          <person xml:id="osteni" sex="MALE">
+            <persName>OŞTENI</persName>
+          </person>
+          <person xml:id="tarani" sex="MALE">
+            <persName>ŢĂRANI</persName>
+          </person>
+          <person xml:id="targoveti" sex="MALE">
+            <persName>TÂRGOVEŢI</persName>
+          </person>
+          <person xml:id="boieri" sex="MALE">
+            <persName>BOIERI</persName>
+          </person>
+          <person xml:id="lefegii" sex="MALE">
+            <persName>LEFEGII</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1888">
+        <desc/>
+      </event>
+      <event type="premiere" when="1888-03-11">
+        <desc>Premieră: 11 martie 1888, Teatrul Național București</desc>
+      </event>
+      <event type="print" when="1888">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000006" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Gaspar Grațiani, domnul Moldovei</titlePart>
+        </docTitle>
+        <docAuthor>Ioan Slavici</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>GASPAR GRAŢIANI</role>
+        </castItem>
+        <castItem>
+          <role>SARA</role>
+        </castItem>
+        <castItem>
+          <role>BARUCH</role>
+        </castItem>
+        <castItem>
+          <role>MAPEIKER</role>
+        </castItem>
+        <castItem>
+          <role>SULTANUL AHMED I</role>
+        </castItem>
+        <castItem>
+          <role>VORNICUL BUCIOC</role>
+        </castItem>
+        <castItem>
+          <role>LOGOFĂTUL DRĂGAN</role>
+        </castItem>
+        <castItem>
+          <role>HATMANUL SEPTILICI</role>
+        </castItem>
+        <castItem>
+          <role>POSTELNICUL GOIA</role>
+        </castItem>
+        <castItem>
+          <role>VISTIERNICUL VASILE LUPU</role>
+        </castItem>
+        <castItem>
+          <role>FURLANI și BOBO</role>
+        </castItem>
+        <castItem>
+          <role>BORISI</role>
+        </castItem>
+        <castItem>
+          <role>ELVIRA</role>
+        </castItem>
+        <castItem>
+          <role>LOCadeLO</role>
+        </castItem>
+        <castItem>
+          <role>VAN OLEN</role>
+        </castItem>
+        <castItem>
+          <role>NANI</role>
+        </castItem>
+        <castItem>
+          <role>NINO</role>
+        </castItem>
+        <castItem>
+          <role>UN TÂRGOVEȚ</role>
+        </castItem>
+        <castItem>
+          <role>UN OŞTEAN</role>
+        </castItem>
+        <castItem>
+          <role>UN CEAUŞ</role>
+        </castItem>
+        <castItem>
+          <role>OMER-AGA</role>
+        </castItem>
+        <castItem>
+          <role>AIŞA</role>
+        </castItem>
+        <castItem>
+          <role>OŞTENI</role>
+        </castItem>
+        <castItem>
+          <role>ŢĂRANI</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEŢI</role>
+        </castItem>
+        <castItem>
+          <role>BOIERI</role>
+        </castItem>
+        <castItem>
+          <role>LEFEGII</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Îl cunosc de-aproape; îl ştiu încă de pe când a venit aici: Gaspar Graţiani, ce se mai zicea şi nobil de Gratişad, un ceasornicar, un biet muritor ce bătea pe la toate uşile ca să-şi vândă marfa.</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Nu-1 căuta ce-a fost odinioară, ci-1 vezi ce este acum: duce de Paros şi Naxos, ambasador al sultanului Ahmed I, om de încredere al marelui vizir Chalil-paşa, persoană grată atât împăratului roman, cât şi regelui din Polonia, om norocos şi dibaci, care ştie să se folosească de împrejurări. Ai un rival primejdios, foarte primejdios rival!</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Mai puţin primejdios ca pân-acum!</p>
+          </sp>
+          <sp who="#van ole n">
+            <speaker>VAN OLE N</speaker>
+            <p>Vrei să zici fiindcă SARA, ovreica, nu-1 mai ajută. Da, ovreica are multă trecere în serai; multe poate când voieşte; astăzi însă, când marele vizir, ambasadorul imperial Molard, solul polonez Sobieski şi bailul veneţian Nani deopotrivă îl sprijinesc, el poate să se urce şi fără de ajutorul ei în scaunul Moldovii. Apoi mai ştii? Pe femeie mult temei să nu punem: ovreica a avut odinioară multă slăbiciune pentru dânsul...</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Acum nu mai are.</p>
+            <stage>(Tainic.)</stage>
+            <p>Nu ştie, ce-i drept, că Gaspar Graţiani râvneşte şi el la scaunul Moldovii; de când a aflat însă că e vorba ca el să ia în căsătorie pe fiica dragomanului, ovreica e tăcută şi întunecată. N-are să-1 ajute.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Iertaţi. Domnia-sa dragomanul Borisi ne-a poftit... Dacă cumva...</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>L-am lăsat la Poartă pe dragomanul. Are să se întoarcă în curând cu ovreica.</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai!</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Duşmani vom fi abia după ce-1 vom fi răsturnat.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Mai vârtos nu, căci atunci măria-sa va fi mai tare, iară noi încă mai slabi ne vom socoti. Când de o parte se ridică Alexandru, fiu al lui Iliaş-vodă, iubit de mulţi dintre mai-marii de la Poartă şi ajutat de cel mai cu trecere om din Stambul &lt;didsacalie&gt; (arată la Van Olen) &lt;/didsacalie&gt;, de alta se iveşte Gaspar Graţiani, ca un luceafăr luminos, iar de-a treia stă măria-sa, mai ajutat ca Alexandru şi mai strălucit ca Graţiani, Ştefan Tomşa, cerut numai de noi, trebuie să se retragă.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Cel mai vrednic dintre toţi.</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai!</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Noi nu voim decât să avem un domn care ne ia sub ocrotirea sa şi îşi aduce în toate timpurile aminte de noi.</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Ţoale la timpul lor, boierilor. Deocamdată să-l vedem răsturnat pe Radu.</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Cu SARA cum staţi?</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Cu ovreica? Bine, destul de bine.</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Brăţara aţi cumpărat-o?</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Nu tocmai, dar a rămas vorba ca dragomanul să o plătească şi să-i rămânem datornici. Dragomanul are trecere!</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Rău ați chibzuit! Nu ştiţi, precum se vede...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu vreau!</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Ce este, Saro? Ce s-a întîmplat?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Saro, o mie două sute de ţechini!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Am zis că nu vreau!</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ce te priveşte! Am cerut o mie două sute de ţechini, şi mi s-au dat o mie două sute de ţechini. Nu mi s-au dat? Mi s-au dat. Saro, ce cauţi mai departe? Ce vrei? Ce doreşti? Ce-ţi pasă cine cumpără, de ce cumpără şi ce vrea să facă cu brăţara?! Eu am marfă si o vând!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu vreau.</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Ce este, Saro, de ce te-ai supărat?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ce te priveşte, Saro, ce te priveşte?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Baruch! Vine cineva şi-ţi zice: „Baruch, ai o brăţară; voiesc s-o cumpăr pentru cineva pe care nu ţi-1 numesc; care ţi-e preţul?”.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>O mie două sute de ţechini.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Şi dacă vei afla mâine că fratele tău e cumpărătorul?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Tu n-ai nici un frate.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Dar pot să am vreun prieten ori vreun duşman. Baruch, eu lucrez şi voiesc să ştiu pentru cine lucrez. Tu auzi că acum nu mai e vorba numai de Tomşa şi de Radu: voieşte şi Locadelo să fie domn în Moldova, şi Alexandru cel de la Rodos şi Graţiani, — Baruch, îl ştii pe Graţiani, pentru care am lucrat atât de mult. Cel ce vrea să-1 ajut, să vie la mine şi să-mi zică: „Saro, tu poţi multe; iacă ce te rog...” Nu-i aşa, Baruch?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu eşti, Baruch, dar te pripeşti când vezi bani.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu ştiu; să vedem!</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Dragomanul dă o mie două sute.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Banii dumneavoastră nu sunt mai buni ca ai dragomanului. &lt;didsacalie&gt; (Către Locadelp.) &lt;/didsacalie&gt; Nu-i aşa? Bani şi bani, totuna fac. &lt;didsacalie&gt; (Către boieri.) &lt;/didsacalie&gt; Se găsesc poate alţii care dau mai mult. &lt;didsacalie&gt; (Către Sara.) &lt;/didsacalie&gt;  Nu-i aşa, Saro?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu ştiu; să vedem!</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Graţiani dă, eu ştiu cât dă.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ce te priveşte, Saro, ce te priveşte?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Mă priveşte, Baruch!</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Ia pe fiica dragomanului!</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Radu-vodă, fiul lui Mihnea, domnul Moldovii, e mazilit.</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Mazilit? Și eu stau aici? &lt;didsacalie&gt; (Pleacă.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Se află. pe drum, şi eu nu ştiu nimic? &lt;didsacalie&gt; (Pleacă.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>O mie cinci sute de ţechini!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Dragomane, ai văzut că Baruch a plecat cu boierii, ca să primească banii pentru brăţară?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Ce vrei? Fără de mine brăţara nu preţuieşte nimic, iar eu sunt aici.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Pe mine mă roagă Graţiani? Cine e Graţiani? Eu nu-1 cunosc. Mă cunoaşte el pe mine?</p>
+          </sp>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Îl cunoşti, Saro.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu-1 cunosc, nu l-am văzut niciodată, nu ştiu cine este, nu-mi aduc aminte de el.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu vreau să-1 văd. &lt;didsacalie&gt; (Iese repede.) &lt;/didsacalie&gt;</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Prea mică şi neînsemnată mă simt alăturea cu tine: te-am pierdut parcă de când le-am aflat aceste.</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Atât de sus mă pui, încât mă cuprinde ameţeala.</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Şi tot eu mă voi căi dacă te voi vedea în faţa primejdiilor de care e înconjurată mărirea.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Dar ovreica? Cine e ovreica? Ce fel de ovreică?</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Şi cum vine ea să se amestece în trebile aceste?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>De cine? De ovreică? Ce vrea dînsa?</p>
+          </sp>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Trebuie! Boierii au cumpărat brăţara, dară sunt gata să ţi-o dea drept dar. LOCADELO intră la învoială. VAN OLEN mai ţine încă la preţ, dar îl vom îndupleca; numai cu ovreica nu e chip să ne înţelegem.</p>
+          </sp>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Ovreica te scapă de toţi ceilalţi.</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Ei bine! E ovreica aceea atît de puternică?</p>
+          </sp>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Aşa te înţeleg! (Iese.)</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Şi pe SARA cum poate cineva s-o stăpînească?</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Nici s-o cumpere?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Auzi vorbă? Barba-mi era mare când turcii fugeau la Ragusa de frica lui.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Acel Mihai-vodă, când voia să ştie mai bine ca marele vizir cele ce se petrec în tabăra turcească, îmi trăgea mie cu ochiul. Eu sunt oştean, Nino, şi când urmăresc pe cineva, îl urmăresc!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Şi dacă lui Graţiani nu-i trebuiesc lefegii?</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Îi trebuiesc. Fără de noi, nu poate. Eu şi Bobo suntem două braţe tari şi sigure. Cunosc Moldova; fără de noi, n-are ce să caute în ea. Eu sunt de felul meu veronez, şi veronezii sunt oameni, Nino!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>O ştiu aceasta.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Bobo e, ce-i drept, pisan, numai pisan, dar un băiat ieşit din creierii Diavolului: bea pentru şapte şi se bate pentru zece. îl cunoşti pe căpitanul Bobo?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Căpitane, mă superi. Cine nu cunoaşte pe Bobo?</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Eram la Genova când i-am făcut cunoştinţa. De acolo am plecat împreună la Ferara, de la Ferara la Florenţa, de acolo la Veneţia, apoi la Neapoli, la Madrid, la Maienţa, opt ani de-a rândul. Nino, tot împreună am băut, împreună ne-am bătut, împreună ne-am făcut aventurile galante, şi nu ne-am despărţit decât la Cracovia, în Polonia. Iar acum, după douăzeci şi trei de ani, iar ne întâlnim. Înţelegi, Nino, că trebuie să ne ia pe amindoi!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Dac-am venit eu, este şi el aici.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>La poruncă! &lt;didsacalie&gt; (Iese.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>E timp de pace: haimanale destule!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Eu cu Bobo îi adunăm!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Asta mi-e meseria: sunt oştean din ceata lui Baba Novac!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Las’ pe mine, stăpâne!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Am înţeles, stăpâne! &lt;didsacalie&gt; (Salută şi iese.) &lt;/didsacalie&gt;</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>De ce am dorit? &lt;didsacalie&gt; (Dă din umeri.) &lt;/didsacalie&gt;  Nu ştiu, cum nu ştie râul de ce curge la vale. Tu însă n-ai dorit. Ţi-ai zis: „Sara mă iubeşte şi n-are să facă nimic ce-ar putea să fie rău pentru mine”.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Aveai toată dreptatea! Graţiani, maică-mea îmi zicea adeseori: „Saro, fii cuminte şi nu te pripi!”. Am stat deci închisă la mine acasă, eu singură, şi m-am întrebat: „Ce trebuie să faci tu, Saro?”. Tu ai dreptate, Graţiani: eu nu pot să nu fac ceea ce doreşti tu. Baruch m-a trimis cu giuvaericale în serai. M-am dus azi, m-am dus mâine, de multe ori m-am dus, şi-mi părea bine când vedeam că Baruch ia preţ bun pentru marfă. Cînd întâia oară m-am dus pentru tine, Graţiani, nu mi-a mai părut bine de bucuria lui Baruch, ci mă simţeam fericită că pot să-ţi fac ţie o mulţumire. O, Graţiani! Tu nu ştii cât de fericită mă faci când îmi zici: „Saro, iacă ce doresc; tu poţi, fă dar!”.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Ştiu că aceasta o doreşti, Graţiani! Sultana Mapeiker, care mă iubeşte, îmi spunea adeseori că am obraji rumeni, ochi plini de văpaie, trup mlădios, braţe rotunde şi umeri frumoşi; nu înţelegeam ce zice. Odată însă tu te-ai uitat la mine — nu ştiu cum — încât m-a trecut un fior de spaimă, şi de atunci o înţeleg pe sultana şi mă uit mereu în oglindă. Tu ai dreptate, Graţiani: eu fac tot ceea ce doreşti tu, nu pentru că vreau, ci pentru că nu pot să nu voiesc. Dac-ai zice să-1 părăsesc pe Baruch, eu n-aş putea să nu-1 părăsesc; dac-ai zice să rămân la tine, eu n-aş mai putea să plec; dac-ai zice să mă fac creştină, eu aş săruta crucea!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Ştiu că nu le doreşti. Doreşti numai să te faci domn in Moldova.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>De ce vrei să te faci domn? Graţiani, de ce vrei?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Graţiani, eu sunt femeie şi ştiu pentru ce vrei. Graţiani! Graţiani! Dac-ai fi un cerşitor plin de răni, eu te-aş iubi şi m-aş simţi fericită că mă laşi să te caut şi hrănesc, iară tu vrei să te faci domn pentru ca să fii băgat în seamă de dânsa?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>N-am crezut, dar nici că puteam să ştiu ce are să fie când ele s-ar despărţi. Abia acum simt că nu pot. Uite, nu pot! Mi-am pierdut parcă minţile. Ştiu, Graţiani, că de mult o iubeşti; am iubit-o adeseori şi eu, fiindcă îţi era ţie iubită; dar acum e altfel. De când te fereşti de mine, ca să nu se supere ea, Graţiani, de atunci e altfel, cu totul altfel! Eu nu vreau să fii domn!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu, Graţiani, fiindcă nu pot. &lt;didsacalie&gt; (Priveşte drept în fata lui, apoi cu hotărâre.) &lt;/didsacalie&gt; Graţiani, fă-te domn, dar ia-mă şi pe mine cu tine!</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Saro, fii femeie, nu demon!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu pot, Graţiani, nu pot, nu pot! Uite, nu pot! Mi s-a înfipt în mine gândul că trebuie să fiu aproape de tine, şi o singură simţire mă stăpâneşte: „Ce mai eşti tu dacă nu mai e Graţiani! Ce-ţi foloseşte mintea ta dacă nu mai poţi să-1 slujeşti pe el cu ea? Ce-ţi foloseşte inima ta dacă nu poţi să-1 înveseleşti pe el prin simţirile ei? Ce-ţi foloseşte trupul tău, braţele aceste, gâtul acesta, sânul acesta ce-mi foloseşte mie dacă tu nu te mai uiţi la ele, dacă ele nu te mai încântă pe tine?”. O, Graţiani! De ce te-ai uitat dacă nu mai vrei să te uiţi? Demon îmi zici? Nu eu sunt demon: demonul este în mine; e blestemul din facere care m-a ajuns, şi prin tine m-a ajuns, Graţiani, sub farmecul ochilor tăi!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu vreau nimic; ştiu numai că dacă ea nu mă suferă pe mine în apropierea ta, nu o sufăr nici eu pe dânsa!</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Nici draci în iad câţi oameni flămânzi la Stambul! Nino, spune că n-ai mai văzut atâta lume, mărturiseşte că nu ţi s-a mai pomenit aşa îmbulzeală!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Niciodată, căpitane! &lt;didsacalie&gt; (Pune săculeţele pe o meşcioară din apropierea ferestrei şi începe a le dezlega.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Are să facă.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>I-a băgat în draci pe toţi. „Căpitane — mi-a zis el — mâine am să mă întorc cu semnele domniei de la Poartă la Patriarhie, iar de acolo la conac. Voiesc să fie lume în calea mea. Umple toate uliţele, spune că am să arunc banii cu pumnul.” Am adunat, Nino? Sunt oştean din timpurile lui Baba Novac! Mărturiseşte c-am adunat!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Eşti, căpitane, ai adunat, căpitane, dar şi alaiul a fost frumos, iar pe acela eu l-am chibzuit.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Era frumos, Nino, asta n-o pot tăgădui; dar lumea tot lume rămâne. Mai ales când ne întorceam de la Patriarhie, furtună, viscol, vârtej, nu alta. Când mă vedeau că bag mâna în săculeţul cu bani, se uitau cu toţii de-a ţinta ca haita de câini flămânzi la bucata de carne, şi apoi să fi văzut, Nino, cum se îngrămădeau unii peste alţii când vedeau că zboară talerii prin aer şi cad jos pe caldarâmul de la picioarele lor şi cum îi căutau printre pietrele rotogoale şi cum se târau pe jos ca nişte şopârle deşălate, — o clipă, zic, mai mult nu ţinea, şi erau suflaţi ca din palmă.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Iar Graţiani râdea în el.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Are apucături de domn, Nino.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Cuvenită supunere! Toate le-am văzut cu ochii noştri, cu mâinile noastre le-am pipăit.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Nici acum nu mă mai pot dezmetici.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Şi v-aţi bucurat? Nu-i aşa că v-aţi bucurat şi voi? Dar Baruch? Le-a văzut oare şi el? Nu l-aţi văzut pe Baruch? Pe ovreiul? Pe unchiul meu, Baruch?</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Cuvenită supunere! Eram călare şi, călare fiind, puteam să privesc peste capetele oamenilor şi să văd pe toţi cei ce se aflau împrejurul meu: pe Baruch nu l-am văzut.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Să trăieşti, măria-ta! &lt;didsacalie&gt; (Iese.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>La mulţi ani, măria-ta! &lt;didsacalie&gt; (Iese.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu, Graţiani, zi şi noapte nu, căci aş uita în curând de ce o port: numai în zilele de sărbătoare... Sunt acum mai frumoasă.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Brăţara e mai frumoasă.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>De ce? Înţeleg. Pune-mi brăţara, pentru că cei ce se uită la ea să-mi vază braţul, şi braţul e frumos. &lt;didsacalie&gt; (Se ridică.) &lt;/didsacalie&gt;  Graţiani! Baruch a fost şi el acolo? L-ai văzut? A strigat şi el?</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Iar Baruch? Saro, goneşte acest nor de pe cerul senin al zilei de astăzi.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Dar n-am şti că e frumos cerul dacă n-ar fi şi nori pe el.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Acum du-te, dragă, căci lumea mă aşteaptă. &lt;didsacalie&gt; (O cuprinde cu braţul.) &lt;/didsacalie&gt; Apoi iar rămânem singuri.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Da, mă duc! &lt;didsacalie&gt; (Pe gânduri.) &lt;/didsacalie&gt;  Uite, mi-e oarecum frică.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Eşti o copilă nebunatică. Haide, dragă! &lt;didsacalie&gt; (O scoate la stânga.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Apoi iar rămînem singuri. &lt;didsacalie&gt; (Iese.) &lt;/didsacalie&gt;</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Baruch! Mereu Baruch! Când sufletul îi este mai înveselit, se iveşte în el amintirea lui Baruch, ca să i-1 turbure. Nu se poate să scap eu de acest ovreu?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Stăpâne! Boierii, Mehemet Ali-aga, Locadelo, Mineti, cumnatul lui Radu-vodă, bailul Nani, solul Sobieski...</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Dragomanul Borisi?</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>N-a sosit încă.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Ceilalţi să mai aştepte.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Baruch? Acum?!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>I-am spus să plece, dar nu vrea. Să-1 dăm afară?</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Depărtaţi-1!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>E rău, măria-ta, foarte rău.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>E rău, măria-ta, foarte rău.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Eu? Ce-am făcut eu? Nimic n-am făcut. Eu sunt un ovreu neputincios. Măria-ta eşti un domn puternic. Ce vrei cu mine? Sara e nepoata mea, fiica surorii mele Rachila, şi eu sunt unchiul ei; e ovreică, întocmai precum eu sunt ovreu, iar măria-ta eşti creştin. Ce vrei cu dânsa? Vrei s-o ţii cu puterea? Se poate, fiindcă eşti puternic, dar nu se poate.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>E foarte rău, măria-ta! Ea se simte fericită, iară eu, Baruch, unchiul ei, ovreul neputincios, eu umblu zăpăcit şi nu-mi mai găsesc loc de repaos, mă culc şi nu pot să dorm, mi-e foame şi nu pot mînca. Ea se simte fericită, iară eu mă ascund să nu mă vază cei ce mă cunosc. Nu-i adevărat, măria-ta: ea nu se simte fericită. Sara nu poate să-1 uite pe Baruch, şi dacă ştie că el nu poate dormi, nu doarme nici ea.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ştiu eu că aşa este!</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ştiu eu că aşa este.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Eu nu mă bucur: de ce să mă bucur?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Dar eu sunt un ovreu neputincios, şi Sara are să te întrebe: „N-ai văzut pe Baruch? Ce-a zis BARUCH?”. Vrei, dar nu se poate.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Nu cer nimic: nu-i marfă, nu se vinde.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Uiţi tu că sunt acum opt zile de când se află în casa mea?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Sunt numai şapte şi jumătate! Vreau s-o văd, şi dacă vrea să rămâie, nu-mi pasă, dar ştiu că nu vrea.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Saro, îţi aduci tu aminte de soră-mea Rachila?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Îmi aduc aminte: era muma mea.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Nu-ţi aduci aminte. Dacă ţi-ai aduce, n-ai fi aici.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu-i adevărat, Baruch. Mumă-mea m-a iubit, şi când iubim pe cineva şi-l vedem fericit, ne mulţumim de a şti că se simte fericit. Şi tu mă iubeşti, Baruch, dar nu te mulţumeşti cu fericirea mea, fiindcă-1 crezi fericit şi pe Graţiani, iară pe el nu-1 iubeşti. Tu voieşti mai bucuros ca eu să fiu nefericită decît ca un creştin să fie fericit. Asta nu e bine, Baruch, fiindcă toţi suntem carne de om, sânge de om, toţi avem suflet de om — şi de aceea am zis: „Saro, tu nu trebuie să asculţi pe Baruch, pentru că Baruch e orb şi nu vede cu ochii; lui, e ameţit şi nu simte cu inima lui, nici judecă cu mintea lui”.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Şi ţie nu-ţi pasă de mine?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Îmi pasă, Baruch, dar mi-am zis: „Saro, dacă-l alegi pe Baruch, are să te doară pentru Graţiani, iar dacă-l alegi pe Graţiani, are să te doară pentru Baruch. Când are să-ţi fie durerea mai mare şi mai îndelungată?”. L-am ales pe Graţiani, fiindcă alegându-te pe tine, durerea mi-ar fi fost aşa de mare, încât mi-ai fii plâns chiar şi tu de milă.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>El nu poate: nu-l iartă legea lui.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Eu nu cunosc legea aceasta. Unde este scrisă? Cine mă pedepseşte dacă n-o împlinesc? Saro, tu vrei dar să rămâi?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Vreau, Baruch.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Şi dacă te blestem eu şi te blestemă fraţii tăi şi te blestemă tot neamul tău, poţi tu să fii fericită?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu pot, şi de aceea fac rău cei ce mă blestemă.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Îmi pasă, Graţiani, şi nu trebuie să zic că nu-mi pasă dacă ştiu că-mi pasă.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ştiu eu că-i pasă! Saro, dacă rămâi între fraţii tăi, când cineva se uită rău la tine, toţi se uită rău la el când te doare ceva, toţi aleargă să-ţi caute leacul; când eşti tristă, toţi umblă să te înveselească; eşti între oameni, Saro. Iar dacă ieşi din mijlocul lor, acolo unde te vei fi dus, toţi zic: „Aceasta e ovreica, ovreica cea urâtă, care a spânzurat pe Christos! Depărtaţi-vă de ea, feriţi-vă de dânsa, alungaţi-o din mijlocul vostru!”.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu-i adevărat, Baruch! Graţiani, spune şi tu că nu-i adevărat! Nu-i aşa că voi nu sunteţi ca noi?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Îmi pasă, Graţiani.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Iară fraţii tăi se adună şi-şi acoper capetele cu cenuşă şi toţi într-un glas blestemă bucata pe care o duci la gură, apa pe care o bei; blestemă somnul tău, munca mâinilor tale, blestemă copilul din pântecele tău şi scuipă când te văd, şi fug de tine ca de ciumă.</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Saro, nu-ţi batjocori neamul, nu-ţi spurca sîngele! Iacă, încetez, am încetat, nu mai zic nimic.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Vezi, acum nu-mi mai pasă de Baruch, de ovreul acela nesuferit. Nu-mi mai pasă de el, şi mi-e nesuferit gândul că şi eu sunt ovreică.</p>
+          </sp>
+          <sp who="#grațiani">
+            <speaker>GRAȚIANI</speaker>
+            <p>Te rog.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>O, Graţiani! Baruch are dreptate, dar eu nu pot. &lt;didsacalie&gt; (Pleacă, apoi se opreşte şi se întoarce spre el.) &lt;/didsacalie&gt;  Graţiani, Sara nu ştie şi nu vrea să mintă, nici să fie făţarnică. Tu eşti domn, dar Elvira n-are să fie doamnă! Eu pot să ridic şi să răstorn domni, viziri pot să pun şi să răstorn; ambasadorii toţi şi bailul Veneţiei, bailul, Graţiani, tremură când îmi încreţesc eu sprîncenele. Şi dacă pot pentru alţii, mai vârtos pot când e vorba de mine însămi, de fericirea mea. Ovreica e stăpânită de-o slăbiciune, dar nu e slabă ovreica, nu e slabă! &lt;didsacalie&gt; (Iese.) &lt;/didsacalie&gt;</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Prea mare este pentru fiică-mea şi mine onoarea de a fi cei dintâi care-ţi urăm stăpânire îndelungată şi glorioasă!</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Şi o viaţă mai puţin zgomotoasă ca-n ziua de astăzi. Am văzut atâta lume, atâta îmbulzeală, atâtea frământări, atâtea strigăte! Mă cuprinsese parcă un fel de ameţeală şi îmi închipuiam cât de greu trebuie să fie a te şti privit de atâta mulţime de oameni. &lt;didsacalie&gt; (Privindu-l mai cu dinadins.) &lt;/didsacalie&gt; Dar vorbeai de revărsatul zorilor; soarele s-a ivit el pe cer senin? Mie îmi pare înnorat.</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Nimeni nu-şi cunoaşte soarta; mi-e frică să zic da, iar aş grăi neadevărat dacă aş zice nu. Să fie ceea ce ne e scris!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Nouă ni se cuvine, măria-ta, să fericim cei dintâi pe Moldova că te are domn, să-ţi urăm din partea ei domnie fericită şi îndelungată şi să te încredinţăm despre iubirea moldovenilor.</p>
+          </sp>
+          <sp who="#van olen">
+            <speaker>VAN OLEN</speaker>
+            <p>Vom găsi mijloace ca să o zădărnicim.</p>
+          </sp>
+          <sp who="#locadelo">
+            <speaker>LOCADELO</speaker>
+            <p>Singură ovreica ar putea... dar ovreica... &lt;didsacalie&gt; (Vorbesc încet mai departe.) &lt;/didsacalie&gt;.</p>
+          </sp>
+          <sp who="#nani">
+            <speaker>NANI</speaker>
+            <p>Un vechi obicei al republicii, păstrat şi astăzi cu multă sfinţenie.</p>
+          </sp>
+          <sp who="#borisi">
+            <speaker>BORISI</speaker>
+            <p>Altfel ar trebui să ne lepădăm de protecţiunea republicii.</p>
+          </sp>
+          <sp who="#elvira">
+            <speaker>ELVIRA</speaker>
+            <p>Încredinţările ce ni se dau mă fac să sper că nu mult va trebui să aştepţi pentru ca să nu pleci singur.</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Nici una, căpitane! Asta mi-o zic în toate zilele.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Păcatele mele, ştiu eu ce zic! Sunt oştean din timpurile lui Baba Novac. Dac-aş avea zece mâini, tot nu aş putea să număr pe degete curţile prin care am trecut, zic, nu are nici o apucătură de domn!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Nici una, căpitane!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Radu-vodă se întoarce în scaunul Munteniei; Alexandru-vodă stă de pândă; Bethlen din Ardeal urzeşte mereu planuri; boierii îl sapă prin ascuns; iar el şade frumos în curtea lui, îşi petrece timpul împăcând certurile dintre mojici şi boieri, ba mai trimete şi solie la dogele Veneţiei, ca să-i dea nevastă.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Asta e, mai ales asta! N-a mai trimes o dată? Nu ştie că dogele nu-i dă dragomanului voie să-şi mărite fata cu el dacă bailul îl sfătuieşte să nu-i dea? Iar acesta se teme de ovreica!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Corpo di Bacco! S-o alunge de la curtea lui şi să taie numai câteva capete de boier; apoi o să vezi cum merg toate.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>El ar vrea poate să taie, dar nu-1 lasă ovreica.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Nino! Eu vorbesc lămurit. S-o alunge mai înainte de toate pe ea, dacă e om. &lt;didsacalie&gt; (Se apropie. Tainic.) &lt;/didsacalie&gt;  Dar nu e om, Nino, se vede că a fost negustor. &lt;didsacalie&gt; (Mai tare.) &lt;/didsacalie&gt;  Adecă ce-i? Am venit noi la curtea lui Gaspar-vodă ca să ne călugărim? Dacă faci un chef şi bagi puţintică spaimă în oameni, merge vestea la ovreică, şi vodă îşi încreţeşte sprâncenele. Bobo a dat o raită printr-un sat şi i-a răpit aprodului Călin o fată. Parcă nu se răpesc fete în toate zilele...</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Aşa zic şi eu, căpitane.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Pentru atâta treabă să se facă o gălăgie, parcă s-a răsturnat toată ţara! L-au pus pe aprodul Călin în temniţă. Să le fie de bine! Dar cu Bobo ce voieşte?</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Vin, se înţelege. Şi adecă de ce să nu vie? Cine-i opreşte? Nino, îmi vine să turb cînd mă gîndesc că eu trebuie să stau drept, cu arma la picior. Dar nu 15    se poate, Nino! De cîte ori mă gîndesc că e vorba de Bobo, îmi zic că nu se poate.</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>N-are nici o apucătură de domn. (Iese la stingă.)</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Intraţi, intraţi fără de frică, fără de sfială, cu capul ridicat. Porţile curţii domneşti sunt deschise pentru toţi. Nu mai e Radu al lui Mihnea, Radu cel îngâmfat în scaun.</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Curtea e a ţării, şi noi suntem ţara, care vine să-şi ceară dreptatea şi să şi-o facă, dacă nu i se va da.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>O veţi vedea cu ochii voştri! E străin vodă, ce-i drept, nu cunoaşte legea ţării &lt;didsacalie&gt; (mişcare in popor) &lt;/didsacalie&gt;, mănîncă carne în zilele de post &lt;didsacalie&gt; (mişcare) &lt;/didsacalie&gt;, dar este drept şi îngăduitor, priveghează asupra binelui tuturora şi al fiecăruia îndeosebi. &lt;didsacalie&gt; (Aprobare in popor.) &lt;/didsacalie&gt;  El nu sufere ca satele voastre să fie prădate, nu va suferi ca fetele voastre să fie răpite.</p>
+          </sp>
+          <sp who="#întâia voce din popor">
+            <speaker>ÎNTÂIA VOCE DIN POPOR</speaker>
+            <p>Dar nu vrem să ne spurce!</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Aşa este! &lt;didsacalie&gt; (îmbărbătează pe popor.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#voci">
+            <speaker>VOCI</speaker>
+            <p>Să le dea drumul, să iasă din ţară.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Nu vă pripiţi, prea de tot nu vă avântaţi: Măria-sa vodă e domn în ţara aceasta şi nu vi se cuvine vouă să-i croiţi legi şi obiceiuri.</p>
+          </sp>
+          <sp who="#un târgoveț">
+            <speaker>UN TÂRGOVEȚ</speaker>
+            <p>Eu mai ales socotesc că după cum din bătrâni se obicinuieşte, cinstea posturilor şi a sărbătorilor şi supunerea la legea cea adevărată cu deosebire trebuie să se ceară de la un domn, fiindcă cuvântarea lui Dumnezeu se leagă de ele şi urgia lui Dumnezeu trebuie să ajungă mai curând ori mai târziu ţara ce sufere în fruntea ei un domn nelegiuit. &lt;didsacalie&gt; (Aprobări.) &lt;/didsacalie&gt; Şi fiindcă vodă, măria-sa, pomenindu-se în ţara nelegiuită, nu ştie cum, şi în ce fel, din sfatul boierilor ar trebui să i se spună pe înţeles că nu se poate ca într-o ţară creştină curtea să se spurce în zilele sfinte, şi pe ovreica să n-o sufere vodă la curte, că mare nenorocire o să-1 ajungă.</p>
+          </sp>
+          <sp who="#voci">
+            <speaker>VOCI</speaker>
+            <p>Ovreica! Ovreica să iasă din curte! S-o alunge pe ovreica!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai!</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Dac-ar fi să fie în adevăr încurcate, tot eu o să le descurc.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Curtea lui Gaspar-vodă e deschisă pentru toţi, şi treaba credincioşilor lui e să-i ţină şi inima deschisă.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>O să descurcăm noi aceasta! &lt;didsacalie&gt; (Se întoarce spre popor.) &lt;/didsacalie&gt; Ştiu ce vreţi, ştiu de ce vă plângeţi, ştiu chiar ceea ce voi nu ştiţi. De ce aţi venit aici? Ia puneţi mâna pe inimă: puteţi jura pe sfânta cruce că vă aduceţi aminte să vă fi mers vreodată mai bine ca în zilele lui Gaspar-vodă? &lt;didsacalie&gt; (Mişcare de aprobare.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#voci">
+            <speaker>VOCI</speaker>
+            <p>Aşa este. Să nu spurce curtea! Pe ovreica s-o alunge.</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Poporul se plânge, măria-ta, şi noi l-am adus aici, ca să-ţi vază dreptatea cu ochii. &lt;didsacalie&gt; (Mişcare în popor.) &lt;/didsacalie&gt;</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Şi mai vârtos să te preamărească.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Ne-ai scutit, măria-ta!</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai, măria-ta, întocmai!</p>
+          </sp>
+          <sp who="#boierii">
+            <speaker>BOIERII</speaker>
+            <p>Să trăieşti, măria-ta!</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Măria-ta...</p>
+          </sp>
+          <sp who="#bobo">
+            <speaker>BOBO</speaker>
+            <p>Recunosc, măria-ta.</p>
+          </sp>
+          <sp who="#bobo">
+            <speaker>BOBO</speaker>
+            <p>Mă supun, măria-ta!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Ei! Corpo di Bacco! Nu mă supun eu! Ce-ţi pasă ţie când e vorba numai de tine!</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Ţi-o dă, măria-ta, toată pe care o are, şi Moldova e tare.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Zi că vrei s-o vezi, şi la un semn dat de măria-ta, floarea Moldovii va sta în picioare.</p>
+          </sp>
+          <sp who="#voci">
+            <speaker>VOCI</speaker>
+            <p>Aşa-i, măria-ta!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Gloatele aduse de sfetnicii măriei-tale! Măria-ta azi îl dai pe Bobo. Mâine cer mai mult. Dar noi nu te lăsăm.</p>
+          </sp>
+          <sp who="#dragan">
+            <speaker>DRAGAN</speaker>
+            <p>Măria-ta, cea mai credincioasă slugă...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Ai zis, măria-ta, dar nu se poate. Porunceşte lefegiilor să mă scoată. Ştiu că îţi împlinesc porunca, dacă asta le-o porunceşti, şi mă voi apăra cu arma în mână, dar viu nu te părăsesc, pentru că ştiu ce se unelteşte.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Da, măria-ta, nu-ţi pasă. N-a mai şezut poate nimeni aşa de tare ca măria-ta în scaunul Moldovei, dar e vorba de ţara mea, pe care vor s-o sfâşie, şi pot s-o sfâşie şi s-o arunce în lupte zadarnice, măria-ta, fără îndoială zadarnice, dar lupte între frate şi frate. Măria-ta, nu ne lăsa pradă uneltirilor.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Uneltiri să fie, măria-ta ziceai că îngăduitor ai fost fiindcă nici într-o zi, nici într-un an o ţară nu poate să-şi schimbe deprinderile. Nu cere ca într-un an un popor să-şi schimbe firea şi credinţele.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Măria-ta, Moldova te iubeşte!</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Adu-ţi aminte, măria-ta, c-ai deşteptat în sufletele moldovenilor gândul neatârnării. Leşii sunt gata să te ajute cu oaste. Împăratul te sprijineşte, Veneţia, măria-ta, şi Veneţia ar putea să te ajute, iar Moldova nu aşteaptă decât să-i dai un semn.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Măria-ta! &lt;didsacalie&gt; (Face un pas spre Graţiani. Încet şi stăruitor.) &lt;/didsacalie&gt;  Măria-ta, ascultă glasul ţării, ascultă-1, măria-ta, şi Moldova toată va sări ca un om în picioare. Desfă-te de muierea aceasta, care te ţine legat de Poartă, te-a despărţit de Veneţia şi te înstrăinează de ţară! Nu le lăsa uneltitorilor arma asta!</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Nu mai departe decât mă mână datoria! Ştiu, măria-ta, că multe uşurări are Moldova de pe urma ei, ştiu că ea te-a ridicat şi ea te ţine în scaun.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Aşa crede ţara. Măria-ta, razemă-te pe noi!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Ai făcut rău, Graţiani, pentru că boierii sunt neputincioşi, iar poporul sunt oameni fără de pricepere, care nu ştiu ce fac şi cred că fac bine când fac rău. Nu-i aşa, vornice?</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Aşa zic unii, altfel alţii.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Da, fiindcă sunt ovreică. A spus şi Baruch, unchiul meu, ovreul Baruch, că poporul o va cere aceasta. Mi-a spus şi Nino, că o cere poporul. O cer şi boierii, o cere şi vornicul, o cer toţi, fiindcă sunt creştini, fiindcă toţi oamenii sunt ca noi, ovreii; dar eu nu mă duc, căci sunt mai cuminte ca dânşii şi zic: „Saro! tu trebuie să rămâi aici şi să nu laşi pe lefegii să bată poporul când cere izgonirea ta, nici pe boieri să jăfuiască ţara pentru ca ei să te sufere la curte. Trebuie să rămâi şi să faci bine, tot bine, pentru ca poporul să vază că mint aceia care spun că ovreii sunt răi, totdeauna răi, şi să te iubească, cu toate că eşti ovreică”. Lasă-i, Graţiani, căci sunt şi ei ca Baruch!</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Ce-ţi pasă de ura lor? Nu eşti tu oare domn? Marele vizir nu te iubeşte? Sultana Mapeiker, Graţiani, sultana nu e oare puternică? Te temi tu de ei? Eu nu te las pe tine, Graţiani.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Unealtă e tot omul, măria-ta, în lumea aceasta; vorba e numai în mâinile cui. Te-ai urcat oare în scaun ca să faci încercarea de a-i învăţa pe moldoveni să o iubească pe ea, ori ca să ridici un neam, pentru ca numele să-ţi rămâie în strălucire?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Graţiani! El mă batjocoreşte. Ai auzit tu ce-a zis? L-ai văzut cum s-a uitat la mine? Graţiani, nu-ţi mai aduci tu aminte ce a zis Baruch?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu, Graţiani, eu nu mă duc, nu te părăsesc. Iubirea mea e tare.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Graţiani, tu mă goneşti de la tine?</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL IV</note>
+      <div type="act" n="IV">
+        <head>ACTUL IV</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Priveste-mă şi dă în lături! Nu mă cunoşti? Nu mai ştii cine sunt? Omer-aga, nu vezi în a cui cale te-ai pus?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ce te priveşte, Sara? Nu ai tot ceea ce-ţi trebuie? Toate le ai: şi masă bogată, şi haine frumoase, şi giuvaericale scumpe, şi nimeni nu te supără, şi toţi te cinstesc. Ce vrei? Ce cauţi? După ce umbli? De ce nu te mulţumeşti, de ce nu stai pe pace? Ce cauţi la sultan?</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Baruch! Tu nu înţelegi nimic. Lucrurile omului nu preţuiesc nimic când omul el însuşi lipseşte. Graţiani a trimis haraciul la Poartă dimpreună cu deosebite daruri scumpe pentru marele vizir, Mehemet Ali-aga, Handi-paşa, doisprezece armăsari moldoveneşti pentru padişahul şi un ceasornic pentru sultana, iar mie nu mi-a spus nimic. Tu nu înţelegi, Baruch?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Ce te priveşte? Bine a făcut că a trimis, dacă poate,</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Graţiani nu i-a alungat pe lefegii, ci i-a mai sporit. El a aruncat pe vistiernicul Vasile în temniţă, dimpreună cu alţi boieri, şi iar le-au dat drumul. El s-a împăcat cu vornicul Bucioc, duşmanul meu. Baruch! Graţiani iar a trimis solie la dogele Veneţiei. Nu înţelegi tu?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Înţeleg, Saro; dar ce te priveşte? Vrei tu să fii doamna lui? Nu vrei, nu poţi, nu te vrea el, nu te iartă legea ta, Saro! Tu zici că îl iubeşti pe Graţiani şi ai să plângi dacă-i faci vreun rău.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Am să plâng, ştiu că am să plâng, dar nu pot altfel, Baruch. Orişicine să-i fie doamnă, numai dânsa nu. Eu ştiu ce vrea el, Baruch. Îi ştiu gândurile; mi-a destăinuit chiar el planurile sale. Vrea să câştige timp spre a se pregăti, pentru ca, ajutat de Polonia, de dogele Veneţiei şi de împăratul, să se desfacă de Poartă şi să mă înlăture pe mine, de care atunci nu va mai avea trebuinţă. N-am să-i las timp! El nu trebuie să fie domn! Are să fie mai fericit dacă se va întoarce iar aici!</p>
+            <stage>(Pleacă spre interiorul seraiului.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#aisa">
+            <speaker>AISA</speaker>
+            <p>Sunt gata, stăpână, şi dacă Muhamed profetul te-ar vedea, n-ar mai putea să se întoarcă în al şaptelea cer.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Eu sunt, sultano, copila care te-a iubit odinioară mai mult ca pe orişicine şi care, iubind acum pe altul, umblă perdută şi părăsită pe cărările vieţii.</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Vino să te strâng la sân &lt;didascalie&gt; (o îmbrăţişează) &lt;didascalie&gt; şi să ne reamintim poveştile frumoase în care ne-am perdut atât de adeseori pe timpurile scutite de griji. Frumoasă te-ai făcut, copilă, mai frumoasă încă. Dar văd o umbră pe fruntea ta, un nour în zâmbetul tău, obrajii nu-ţi mai sunt rumeni, şi ochii tăi, atât de râzători odinioară, întunecaţi mi se par.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>În faţă-i oglindită, sultano, durerea inimii, şi cum o vezi din faţă, ea se strecoară pe nesimţite în sufletul tău, iar dacă n-o vezi din destul cu ochiul, o voi trece cuvânt cu cuvînt prin mintea ta.</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Vorbeşte, draga mea copilă.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Sultano, m-a gonit de la dânsul!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Căci alta 1-a răpit prin farmecele ei mai mari. Mângăie-te, copilă, voieşte, adună-ţi toate puterile, aruncă iar mrejele farmecelor tale asupra lui, fură-1 cu dulceaţa vorbei, cu nourul de pe fruntea ta, ia-i minţile cu un zâmbet îndărătnic; noi suntem stăpânele lor dacă ştim să ne folosim de armele noastre.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>O, sultano, tu nu mă înţelegi! Nu ştii tu ce dor, ce sete, ce foc mă mistuie pe mine, ce mânie îmi încoardă mintea şi mă mână la nebunie. Tu stai aici, închisă între ziduri păzite şi apărate, şi-1 aştepţi să vie. Eu umblu prin lume, şi mări mă despart de dânsul, ţări, munţi şi râuri; departe şi tot mai departe mi-1 ştiu, şi aproape, tot mai aproape mi-1 văd, căci în toţi oamenii ce întâlnesc în calea mea pe dânsul îl simt. Sultano! Lasă ziua cu gândurile, pe care le întunecă lumea cu zgomotul ei, ziua trece; dar noaptea, când rămân eu singură cu mine, atunci mi se dezleagă dorinţele şi mă poartă ca într-un vîrtej, în vis şi pe nedormite, cu ştirea şi fără de ştirea mea. Am păcătuit, greu am păcătuit, mi-am călcat legea mea, am părăsit pe fraţii mei, m-am încărcat cu blăstemurile lor, ca să mă dau lui, iară el, pe când eu mă mistuiesc de dor şi de mustrare, el se aruncă în mrejele alteia şi cere ajutorul tău, ca să poată cădea în ele. Nu-1 da, sultano! Fie-ţi milă de mine! Lasă-1 să cadă, căci în braţele mele cade.</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Da, îmi aduc acum aminte de ea.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>E a mea, sultano! Sunt acum doi ani, am adus-o aici, ca să ţi-o arăt, voiai s-o cumperi. Ţi-am spus că e cumpărată de boierii ce voiau să-1 răstoarne pe Radu-vodă, ca să ţi-o dăruiască, dacă o primeşti de la ei. I-am dăruit-o lui Graţiani, pentru ca el să ţi-o dăruiască, iar el mi-a dăruit-o mie, fiindcă a zis: „Sultana Mapeiker e slabă; sultana Mapeiker nu poate nimic; n-am trebuinţă de sultana Mapeiker, eu pot şi fără de dânsa. Când marele vizir mă ţine şi padişahul are slăbiciune de mine, sultana Mapeiker, ce-mi pasă de ea?”. Eu ţi-o dau, Mapeiker, pentru că ştiu ce poţi, că eşti tare, că stăpâneşti  când vrei.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Sultană, viaţa lui o cruţă mai mult ca pe a mea.</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Miloase stăpîne!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Sunt veselă, stăpâne, zâmbesc.</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Nu eşti. Spune, vorbeşte, râde! Ce ai mai văzut? Ce ai mai auzit? Ce-ţi mai trece prin minte?</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Stăpâne, paserea zboară din ram în ram şi cântă veselă în revărsatul zorilor, iar în amurgul serii ea îşi caută culcuşul tăcut şi liniştit.</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Astfel, Mapeiker, astfel! Spune mai departe!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Dar veselia o varsă razele dimineţii în inima păsării; nu pasărea cântă, ci razele soarelui, străbătute în inima păsării, sunt o chitară de dimineaţă. Şi dacă sunt veselă, veselia tu mi-o verşi în suflet; ochiul tău, zâmbirea ta, mila ta e raza de soare.</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Nebunii sunt şi acestea. Nu înţelegi că nu poate să fie vesel acela pe care o dorinţă ori un gând neîmpăcat îl mână spre un ţel hotărât? Veselia e pasăre ce zboară din creangă în creangă şi nici nu ştie, nici nu vrea să ştie unde îi merge calea. Când te văd şi îţi simt mila, mi se împacă toate gîndurile, toate dorinţele mi se împlinesc, şi sunt veselă.</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Nu eşti, Mapeiker!</p>
+            <stage>(Se ridică şi priveşte împrejur.)</stage>
+            <p>Ce s-a întîmplat? Cine a fost aici? A îndrăznit cineva să întunece prin vreo faptă ori prin vreo vorbă nesocotită ceasul meu de repaus? Mapeiker, răspunde!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Ademenitoare este puterea pentru o roabă ca mine, dar frică îmi este ca nu cumva să fac o rea întrebuinţare din ea. Ai, stăpâne, şi biciul şi cornul dărniciei, dar ele nu sunt ale tale, ci ale scaunului tău, şi alţii te păzesc şi ţin mâna ta, ca nu cumva biciul să lovească pe cel nevinovat, ori cornul să se verse asupra celui nevrednic. Eu, roaba nepricepută, de unde aş şti să le port, când chiar nici tu, stăpânul, nu îndrăzneşti a le purta singur, ci cauţi povaţa sfetnicilor înţelepţi, care sunt stâlpii puterii tale?</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Iar tu eşti preţul ei. Mapeiker, te-a jignit vreunul dintre dânşii? Grăieşte!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Cei ce au puterea în mâinile lor, chiar şi numai prin aceea că o au, jignesc pe o roabă ca mine. Jignită ; sunt în toate zilele, dar trebuie să rabd, căci binele tău îl voiesc cu toţii, şi ştiu să-1 facă mai bine ca mine. Eu sunt o femeie slabă şi orbită de porniri pătimaşe, de iubire ori de ură; eu voiesc să-mi bat joc de putere şi să te împing la fapte rele, nedrepte, nesocotite. Aşa zice marele vizir; iară eu rabd, fiindcă el îţi este sfetnic bun şi credincios. Rabd, stăpâne, şi iar îmi va trece.</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Tu te-ai mâniat, Mapeiker! Nu vreau să te mânii. Lasă-1 pe marele vizir; e un moşneag fără de minte, care nu înţelege nimic. Ce farmec ar mai avea puterea dacă eu, padişahul, aş fi ca oamenii de rând! Dreptatea toţi pot să o facă; binele tuturora li se cuvine: eu singur am puterea de a face şi nedreptatea, daca o vreau, şi răul, dacă îl vreau. Mapeiker! Ce vrei? Cere mult, ca să simt mărirea puterii mele.</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Nu cer nimic, stăpîne. Am fost rău batjocorită de Gaspar-vodă din Moldova, dar nu cer nimic. Ştiu că ai slăbiciune pentru el. Iar îmi va trece!</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Lasă-1, e un nebun care nu înţelege nimic!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Îl las, stăpîne, dar valurile nu se alină mai nainte de a fi încetat viscolul, şi e adâncă mâhnirea ce-mi turbură sufletul. Nu vei înţelege mâhnirea aceasta, căci nu cunoşti tainele inimii femeieşti. Dar lasă, că încă mâine mă vei vedea iar veselă.</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Mâine! Azi vreau, acum! Sunt numărate zilele mele, şi nici una nu voi să pierd; cerşetorul, omul de rând să piardă, eu, padişahul, nici una! Un padişah este, şi o dată sunt eu padişah!</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Lasă-1, e un nebun care nu ştie să trăiască!</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Ghiaur spurcat! Aici, la picioarele tale, voi să văd trupul lui de câine!</p>
+            <stage>(Strigă.)</stage>
+            <p>Aga!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Ceartă-1, stăpâne, dar cu blândeţe!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Mehemet Ali-aga să-1 prinză pe marele vizir şi să mi-1 aducă neîntârziat strâns în fiare.</p>
+            <stage>(îi face semn să iasă.)</stage>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Mai repede ca fulgerul îi va ajunge mânia mea. Skender-paşa se află cu oaste la Dunăre. Cantimir-bei stă gata în Bugeac, iar Badu-vodă aşteaptă poruncile mele în Muntenia. Vreau să fii veselă!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Acum sunt veselă!</p>
+          </sp>
+          <sp who="#sultanul">
+            <speaker>SULTANUL</speaker>
+            <p>Acum, în clipa aceasta, nu mai târziu, voi porunci</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Fii femeie, Saro!</p>
+          </sp>
+          <sp who="#mapeiker">
+            <speaker>MAPEIKER</speaker>
+            <p>Vei merge, Saro, cu oastea, şi Skender-paşa va asculta de tine.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu este nimeni mai puternic ca Mapeiker!</p>
+            <stage>(Se retrage. În parte.)</stage>
+            <p>Sara îl va răsturna, dar și-l va scapă!</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL V</note>
+      <div type="act" n="V">
+        <head>ACTUL V</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Întocmai, hatmane, întocmai!</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Dar oastea se clatină, hatmane.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Toate sunt adevărate; le-am văzut cu ochii mei. De trei zile de când am plecat, n-am mai ieşit din mijlocul lor. Când credeau că pun mâna pe mine, se pomeneau deodată c-am perit din faţa lor, şi când mă socoteau perdut, mă iveam din nou, unde nici prin gând nu le trecea. Eu sunt oştean, nu om de ieri, de-alaltăieri.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Te ştim, căpitane!</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Bethlen? Vreo şase mii de oameni. Răspund eu cu capul meu că nu sunt mai mulţi. Bună oaste, dar puţină. Radu? Sunt vreo opt mii — oameni adunaţi în pripă! Skender-paşa? Gunoi, adunături, douăzeci de mii, mai mult, nu. Iar Cantimir nici pînă poimâine nu poate sosi aici.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Hatmanul Iolkowski nu iese la război cu oaste adunată în pripă: unul ca unul, tot oameni trăiţi în lupte. Moldovenii nu-mi plac mie. Nu mai sunt precum i-am lăsat. Ce s-a întâmplat pe aici în timpul de cînd am plecat?</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Gaspar-vodă?... Niciodată! El viu nu se dă în mâinile turcilor.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Ce-mi pasă mie!... Treaba noastră e să batem pe turci şi să ţinem pe vodă aici.</p>
+          </sp>
+          <sp who="#furlani">
+            <speaker>FURLANI</speaker>
+            <p>Să le ducem vestea cea bună, să-i îmbărbătăm şi să înduplecăm pe vodă să nu ne mai amâne.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Nu ne mai amână. A plecat aşa fără de veste prin tabără, ca să vadă cum stau lucrurile, şi ăsta mi-e semnul că înclină spre hotărâre. Să mergem, căpitane, să-i ducem ştirile şi să nu-1 mai lăsăm.</p>
+            <stage>(Pleacă.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Bine stau.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Bine!</p>
+            <stage>(Se întoarce şi face semn lui Baruch să se apropie.)</stage>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Ce zici acum, postelnice?</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Lasă-mă să mă mai gîndesc.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Hei!... de mult am zis eu că Gaspar-vodă ne vinde; de mult v-am zis vouă să nu mergeţi după el, că vă duce la marginea prăpastiei şi apoi vă părăseşte. Ce zici, postelnice?</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Să mă înţeleg cu hatmanul.</p>
+            <stage>(Către Baruch.)</stage>
+            <p>Zici că ovreica e în tabăra lui Skender-paşa?</p>
+          </sp>
+          <sp who="#baruch">
+            <speaker>BARUCH</speaker>
+            <p>Pe cât de adevărat e că sunt eu aici. Ce caut eu aici dacă Sara nu este acolo? Îmi pasă mie oare, cine are şi cine nu are să fie domn în Moldova? Nu-mi pasă. Eu vreau numai ca Sara să nu poată scăpa pe Graţiani, şi fiindcă logofătul tot asta o doreşte, iar dumneata, postelnice, eşti om care vorbeşte puţin, dar ştie să lucreze, am venit aici cu o vorbă din partea lui Alexandru-vodă. El mi-a făcut loc să intru în tabără, dumneata fă-mi loc să ies din ea.</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Şi care este vorba pe care o aduci din partea lui Alexandru-vodă?</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Vorba care e?</p>
+          </sp>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Să vorbesc cu hatmanul.</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Clipa e bine aleasă, măria-ta, şi Moldova are să binecuvinteze ceasul în care ai luat această hotărâre.</p>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>În ceas bun să fie, măria-ta!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>A intrat dinspre cetele logofătului Drăgan, măria-ta! Căpitanul Bobo a plecat s-o urmărească.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Suntem pierduţi, măria-ta! Oastea se risipeşte, şi numai leşii mai ţin piept cu Skender-paşa. Să scăpăm, măria-ta, căci azi ne-am risipit şi mâine mai numeroşi ne vom aduna la glasul măriei-tale.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Tot eu, care am venit să-mi împlinesc făgăduinţe</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Am venit să te scap, Graţiani. Skender-paşa răspunde cu viaţa lui că întreg şi neatins te voi găsi şi lua cu mine.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Nu, Graţiani, eu nu opresc pe turci. Viaţa mea ce-ar mai preţui dacă te-aş lăsa să scapi din raza puterii mele? Dacă nu vii de bunăvoie, te iau ca rob al meu!</p>
+          </sp>
+          <sp who="#nino">
+            <speaker>NINO</speaker>
+            <p>Măria-ta, să fugim! Turcii se văd în zarea focului ivit spre cortul lefegiilor.</p>
+          </sp>
+          <sp who="#sara">
+            <speaker>SARA</speaker>
+            <p>Ah!</p>
+            <stage>(Cade.)</stage>
+            <p>M-ai lovit! De ce m-ai lovit? Skender-paşa, eu mor, mor! Skender-paşa,  sultanul a poruncit; sultana Mapeiker e puternică! Scapă pe Graţiani, întreg, nevătămat! Trupul meu să-1 dai lui Baruch... Baruch, Baruch...</p>
+            <stage>(Moare.)</stage>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Acum e prea târziu, măria-ta; nu ne mai rămâne decât să scăpăm în tabăra leşilor. Oastea se va aduna ea de ea, după ce va afla cele petreeute aici.</p>
+            <stage>(Se depărtează de la stânga la dreapta, înspre fundul scenei.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#goia">
+            <speaker>GOIA</speaker>
+            <p>Nu scapă!</p>
+            <stage>(Se repede cu sabia ridicată asupra lui Graţiani.)</stage>
+          </sp>
+          <sp who="#bucioc">
+            <speaker>BUCIOC</speaker>
+            <p>Stai, postelnice, nu da!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

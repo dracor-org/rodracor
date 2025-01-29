@@ -1,0 +1,4124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000007" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Jocul de-a vacanța</title>
+        <author>
+          <persName type="pseudo">Mihai Sebastian</persName>
+          <idno type="wikidata">Q698444</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Publicat în 1939, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="domnul_bogoiu" sex="MALE">
+            <persName>DOMNUL BOGOIU</persName>
+          </person>
+          <person xml:id="stefan_valeriu" sex="MALE">
+            <persName>ȘTEFAN VALERIU</persName>
+          </person>
+          <person xml:id="madame_vintila" sex="FEMALE">
+            <persName>MADAME VINTILĂ</persName>
+          </person>
+          <person xml:id="maiorul" sex="MALE">
+            <persName>MAIORUL</persName>
+          </person>
+          <person xml:id="corina" sex="FEMALE">
+            <persName>CORINA</persName>
+          </person>
+          <person xml:id="jeff" sex="MALE">
+            <persName>JEFF</persName>
+          </person>
+          <person xml:id="agnes" sex="FEMALE">
+            <persName>AGNEȘ</persName>
+          </person>
+          <person xml:id="un_mecanic" sex="MALE">
+            <persName>UN MECANIC</persName>
+          </person>
+          <person xml:id="un_calator" sex="MALE">
+            <persName>UN CĂLĂTOR</persName>
+          </person>
+          <person xml:id="nevasta_lui" sex="FEMALE">
+            <persName>NEVASTA LUI</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1938">
+        <desc/>
+      </event>
+      <event type="premiere" when="1938">
+        <desc>Premiera în 1938, București</desc>
+      </event>
+      <event type="print" when="1938">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000007" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Jocul de-a vacanța</titlePart>
+        </docTitle>
+        <docAuthor>Mihai Sebastian</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>DOMNUL BOGOIU</role>
+        </castItem>
+        <castItem>
+          <role>ȘTEFAN VALERIU</role>
+        </castItem>
+        <castItem>
+          <role>MADAME VINTILĂ</role>
+        </castItem>
+        <castItem>
+          <role>MAIORUL</role>
+        </castItem>
+        <castItem>
+          <role>CORINA</role>
+        </castItem>
+        <castItem>
+          <role>JEFF</role>
+        </castItem>
+        <castItem>
+          <role>AGNEȘ</role>
+        </castItem>
+        <castItem>
+          <role>UN MECANIC</role>
+        </castItem>
+        <castItem>
+          <role>UN CĂLĂTOR</role>
+        </castItem>
+        <castItem>
+          <role>NEVASTA LUI</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Te sculași?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>După cum se vede.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Buna dimineața.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>’Neata.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Asta e șezlongul dumitale?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Care va să zică, îl duseși aseară înăuntru, în vilă…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Exact.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Da’ pe astealaltele de ce mi le lăsași afară?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mi-era lene.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Lene! Ia te uită la ele.</p>
+            <stage>(Arată spre cele două șezlonguri)</stage>
+            <p>. Leoarcă. Leoarcă, dom’le. Cade roua aicea, de parcă-i potop. Lene, zici… Da’ lene să ne strici aparatul de colo</p>
+            <stage>(arată spre aparatul de radio)</stage>
+            <p>nu-ți fuse.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ba nu. Eu. Zi că eu, că numai’ asta mai lipsește. Trei ceasuri am stat azi-noapte de-am înșurubat și deșurubat la el, doar-doar o să cânte. Lemn! Nu vrea și nu vrea. Se uita biata domnișoară Corina la el, de-ți făcea milă. Zicea că are nu-ș’ ce să asculte de la Stuttgart. Nu zău</p>
+            <stage>(se îndreaptă spre măsuța din stânga, pe care se afla aparatul, și ia în fiecare mână câte o lampă, întinzându-le declamator.)</stage>
+            <p>, ce-i fi având dumneata cu nenorocitul ăsta de radio?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Domnul meu, la asemenea calomnii nu răspund.</p>
+            <stage>(Se pregătește să iasă în stânga.)</stage>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Calomnii?</p>
+            <stage>(Ridică mâna dreaptă, în care ține unul din becurile demontate.)</stage>
+            <p>Asta numești dumneata calomnie? Și asta? Și asta?</p>
+            <stage>(Întoarce de câteva ori butonul aparatului.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cine? Agneș?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ei, Agneș? De Agneș ne arde nouă? Poșta. Scrisorile.</p>
+            <stage>(Caută nervoasă printre hârtii.)</stage>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Păi n-avea când, madame Vintilă. N-avea când. Nici de opt nu s-a făcut, și autobuzul trece la nouă.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu știu când trece autobuzul, da’ eu una știu: că nu mai rabd. Uite, azi e a cincea zi de când n-a mai venit nicio scrisoare în pensiunea asta blestemată.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ssst! Să nu te audă Fräulein Weber.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ba să mă audă. Unde e, să mă audă? Fräulein Weber!… Și telefonul ăsta…</p>
+            <stage>(Învârtește cu necaz manivela telefonului.)</stage>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu-l zgâlțâi, că-i faci mai rău. Eu cred că de asta s-a stricat. S-a speriat, săracul. Prea v-ați răstit la el.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>A venit?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cine? Agneș?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Ce Agneș, nene?! Agneș! Ziarul. A venit?</p>
+            <stage>(Se îndreaptă și el spre etajera telefonului și caută în vraful de jurnale, citindu-le, cu glas tare, data:)</stage>
+            <p>28 iulie, 23 iulie, 25 iulie. Numai vechituri. De cinci zile, nicio gazetă. Eu, unul, nu mai pot. Dacă mai ține mult așa, ne tâmpim cu toții. Să nu știi tu ce se petrece în lume… Poate-i război, domnule… Poate a căzut guvernul…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei și? Ți-e că n-o să cadă fără dumneata?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Lasă gluma, domnule. Lasă gluma, că nu-i timp de glumă. E serios. Dacă nu primesc nici azi gazeta, eu am terminat. Plec. Asta-i viață? Gazetă nu, radio nu…</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Scrisori nu, telefon nu…</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Stai toată ziua cu ochii în zare și-ți vine să strigi într-acolo, spre București: „Hei, mă! Răspunde, mă! N-auzi, mă?”</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>N-aude. N-aude nimeni, nu răspunde nimeni. Nici țipenie de om. Parc-am fi undeva la capătul pământului. Naufragiați. Pierduți.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Unde suntem? Pe ce insulă? Pe ce continent? Unde?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Aici! Trei sute patruzeci și doi de kilometri de la București, treizeci și șase de kilometri de la Gheorghieni. Altitudine: una mie două sute optzeci și cinci metri deasupra mării.</p>
+            <stage>(Între timp a ajuns jos, în hol.)</stage>
+            <p>Bună dimineața. Da ce-i asta? Nu răspunde nimeni! Am spus bună dimineața.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>A, nu așa. Nu-mi place deloc. Mai tare. Nu vă e rușine de soarele ăsta? Mai tare, pentru Dumnezeu! Hai, curaj: bună dimineața!... Nu vreți. Păcat. Aveam să vă dau o veste bună, dar n-o meritați. Prea sunteți lugubri.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>O veste?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Bună?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>O veste bună?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Așa mai merge. Ei bine, aflați că în curând, peste jumătate de oră – azi dimineață în orice caz – telefonul nostru va funcționa.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Serios?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Se poate, e adevărat și e serios. Aștept un mecanic de la Gheorghieni. Un om de la telefoane. Trebuie să vie cu autobuzul de nouă.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>De unde știi?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pentru că l-am chemat eu. Ieri, după prânz, în timp ce dumneavoastră v-ați dus cu maiorul la pescuit… Ai prins ceva domnule maior?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Vorba vine la pescuit.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Nu mai taci, domnule?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ba tac, da’ mai întâi să spui dumneatale, cu mâna pe conștiință, câți pești ai prins de când ești aici?</p>
+            <stage>(Maiorul tace încurcat.)</stage>
+            <p>Buuun. Va să zică ai prins… câți ai zis. Păi asta se cheamă pescuit, nene? Prinde și dumneata ceva. Nu zic mare lucru. Nu cer un rechin. Prinde colo un obleț, ca să fie. Un, cap de obleț, o coadă de obleț. Un solz, domnule, un solz. Prinde-l și atunci mă închin. Te fotografiez. Pe onoarea mea! Când te-oi vedea cu oblețul în undită, te fotografiez. Uite, aparatul e aici.</p>
+            <stage>(Arată spre un aparat fotografic, care atârnă într-un cui sau e undeva pe-o etajeră.)</stage>
+            <p>Pe dumneatale te așteaptă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce ești rea? E prietenul meu, e pajul meu.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Fie și paj – dacă vrei – dar spune odată ce e cu telefonul.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ieri după masă, m-am dus cu Jeff pe șosea și am oprit o mașină.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da. Închipuiți-vă, o mașină! Mă mir și eu ce căuta pe aici. Rătăcise drumul poate. Mergea spre Gheorghieni. Am oprit-o și am vorbit cu un domn de la volan.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Tânăr?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu mă-ntrerupeți. Un domn. I-am spus: „Domnule, salvează-ne. Suntem un grup de oameni pierduți în mijlocul pădurii. Ni s-a stricat telefonul. Dumneata tot treci prin Gheorghieni. Oprește un minut la Oficiul telefonic și spune să ne trimită cu autobuzul de mâine dimineață un mecanic la vila Weber.”</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Și?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și nimic. A salutat, i-am mulțumit și s-a dus.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Și crezi că vine?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Mecanicul? Sigur. Nu se poate să nu vie.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Mă rog, dumneavoastră nu vi se pare ciudat?</p>
+          </sp>
+          <sp who="#toți trei">
+            <speaker>TOȚI TREI</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Suspect?</p>
+          </sp>
+          <sp who="#toți trei">
+            <speaker>TOȚI TREI</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Madame Vintilă, de când n-ai mai primit scrisori?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ultima a fost… duminică parcă. Da. Duminică.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Păi să ne uităm.</p>
+            <stage>(Caută prin vraful de jurnale.)</stage>
+            <p>Ăsta a fost ultimul. Duminică 1 august..</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Perfect. Radioul când s-a stricat?</p>
+            <stage>(Către Corina:)</stage>
+            <p>Când l-ai ascultat dumneata ultima oară?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cred că… sâmbătă seara.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Și duminică la prânz…</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Nu mai mergea.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Întocmai. Nu mai mergea. Dar telefonul? De când nu mai avem telefon?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Ce „ei?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cum, dom’le, asta-i puțin? Nu-nțelegeți? Păi sare-n ochi.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ce s-a întâmplat duminică aici?</p>
+            <stage>(Nu răspunde nimeni.)</stage>
+            <p>Cine a venit duminică în pensiunea Weber?</p>
+            <stage>(Iar nu răspunde nimeni.)</stage>
+            <p>Nu știți. Să va spun eu: a venit domnul Ștefan Valeriu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și vrei să, spui…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu vreau să spun. Sunt sigur. Asta e.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu m-aș mira; nesuferit cum e…</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>În fond, ce susții dumneata?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Eu nu susțin. Simt. Simt că el e. Îmi spune inima că e el. Nu știu de ce, nu știu cum, probe n-am, dar îmi spune inima. Și pe urmă, un lucru e limpede. Pân-a venit ăsta, toate mergeau strună-n pensiunea Weber. Scrisori aveam, ziare aveam, radioul cânta, telefonul era bun-zdravăn. De cum a venit el, toate s-au întors pe dos; scrisori nu mai sunt, ziare nu mai sosesc, telefonul nu mai umblă, radioul a amuțit. Ba de două zile, dacă ați băgat de seamă, nici autobuzul nu se mai oprește aici.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Dacă am băgat de seamă? Sufletul mi-a ieșit ieri dimineață, alergând după el. „Oprește, dom’le, oprește!” strigam eu. Aș! Nici gând. Alerga cu o sută de kilometri pe oră.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Probabil că nu avea de ce să oprească. N-or fi fost călători. N-o fi avut poștă.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Da’nainte vreme cum oprea? Avea călători, n-avea călători, avea poștă, n-avea poștă, el oprea. Uite-așa, ca să-l vedem și noi.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Jóreggelt kivánok! Bună dimineața.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Unde umbli, Jeff, așa de dimineață? Eu credeam că mai dormi.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Să dorm? Glumiți, domnișoara Corina. Eram de santinelă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cum de santinelă? Și ce e parul acesta pe care-l porți după tine?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>E descoperirea mea.</p>
+            <stage>(Tace un moment, pentru a-și pregăti efectul. A împlântat marțial parul în pământ și-l prezintă ca pe un trofeu.)</stage>
+            <p>Acum știu de ce nu se mai oprește autobuzul la pensiunea Weber.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Autobuzul?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ce vrei să zici?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>E simplu. De câteva zile firma pensiunii – știți firma de jos, de pe șosea – dispare la fiecare dimineață. Dispare pe la opt-nouă, înainte de trecerea autobuzului, și pe urmă, după ce-a trecut apare la loc.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu vorbi copilării, Jeff.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>O fi vreo stafie.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Nu vorbesc copilării, domnișoară Corina, și nu e nicio stafie, domnule maior. E un domn. Îl cunoașteți foarte bine. E domnul Ștefan Valeriu.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Tot el. Frate?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu v-am spus eu?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Faci glume proaste, Jeff.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Zău că nu e glumă, domnișoară Corina.</p>
+            <stage>(Cu timiditate, încet, numai către ea:)</stage>
+            <p>Știți bine că n-aș îndrăzni să glumesc cu dumneavoastră.</p>
+            <stage>(Tare, către toți:)</stage>
+            <p>E el. Am bănuit de ieri, de alaltăieri, dar n-am vrut să spun nimic, pentru că nu eram încă sigur. De două zile îl pândesc de la fereastra mea când pleacă dimineața pe munte. și azi-dimineață a plecat. Nu s-a întors încă?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Acu trebuie să pice.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Îl urmăream de ia fereastra mea, dar de acolo nu se prea vede bine, din cauza brazilor. Azi dimineață am vrut să mă conving. Am ieșit cel dintâi din pensiune – nici dumneata nu te sculaseși, domnule Bogoiu – am ieșit prin bucătărie, ca să nu mă simtă nimeni, și m-am dus jos la pod. M-am ascuns acolo bine și am așteptat până a venit. Vă spun că e el.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Dar de ce-o fi făcând toate astea?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Nu știu. Probabil ca să nu se mai oprească autobuzul. O fi având motivele lui. Daca nu e firma pe șosea, șoferul nici nu știe unde să oprească. De jos, pensiunea nu se vede de loc. E pierdută toată între brazi.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Și de ce n-ai bătut firma la ioc? Acu trece autobuzul și iar rămânem mofluzi.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Am încercat s-o bat, dar singur mi-era greu. Nu veniți să-mi ajutați?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Dacă vă duceți, grăbiți-vă, că mult nu mai e.</p>
+            <stage>(Se aude de departe, de pe șosea, zgomotul și claxonul unui automobil, care se apropie.)</stage>
+            <p>Na! Ce vă spusei eu?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Vai de mine! Scrisorile mele!</p>
+            <stage>(Aleargă spre stânga alarmată, strigând spre autobuzul ce trece undeva departe în culise:)</stage>
+            <p>Aaaa! Aaaa!</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Haide repede, domnule maior, poate-l mai prindem.</p>
+            <stage>(Strigă și el:)</stage>
+            <p>Aaaa! Aaaa!</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Jurnalul meu! Să știți că iar îl pierd. Opriți-l. Nu-l lăsați!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei, duduie, văzuși? Îți place?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu înțeleg nimic.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nici eu nu înțeleg. Dar un lucru e limpede Valeriu ăsta e o canalie.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Exagerezi.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Exagerez? Păi, ca să nu mergem mai departe, te întreb eu: ce are ed cu mine? Stai, stai să vezi…</p>
+            <stage>(Se îndreaptă aproape cu teamă spre tabla din stânga și observă că i-a fost șters tot ce scrisese el pe tablă.)</stage>
+            <p>Sigur! Iar a șters. Eu scriu, el șterge. Eu scriu, el șterge.</p>
+            <stage>(Cu disperare:)</stage>
+            <p>O să mă-nnebunească. O să mă scoată din sărite. Să știi că eu nu răspund dacă s-o-ntâmpla o nenorocire.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vrei să-l omori?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu știu. Poate și asta. Da, da, poate și asta. Să i-o spui. Îți dau voie să i-o spui. Te autorizez să i-o spui.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce nu i-o spui singur?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Să-mi pun eu mintea cu el?</p>
+            <stage>(În timpul ultimelor patru replici, Bogoiu a luat creta și a început să scrie din nou pe tablă: Joi, 5 august. Presiunea atmosferică: 767 mm. Temperatura… Dar în momentul acesta i se rupe creta și, dezolat, renunță, pentru a se apropia de Corina.)</stage>
+            <p>Nu zău, domnișoară Corina, ce o fi având cu mine? Supăr eu pe careva? De ce nu mă lasă să-mi văd liniștit de ocupațiile mele?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu știu, domnule Bogoiu. N-am vorbit niciodată cu el și nici nu mă interesează. Ai dreptate. E un tip urâcios. Dar și dumneata… Ce e gustul ăsta să scrii mereu pe tablă cât e ceasul, de unde bate vântul, cât arată termometrul?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Curioasă manie…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Curioasă, duduie, dar blândă. Cinci oameni suntem în birou – și nu se supără niciunul. Mă lasă. El de ce nu mă lasă?</p>
+            <stage>(După o secundă de tăcere, tainic:)</stage>
+            <p>Și să știi că nici nu e o manie. E o pasiune. Domnișoară!</p>
+            <stage>(Îi vorbește cu solemnitate:)</stage>
+            <p>Dumneata știi unde sunt eu acum?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Deloc. Navighez. Da, da, navighez. Vezi tabla asta? E jurnalul meu de bord. În fiecare zi, în fiecare dimineață, notez temperatura, vânturile, presiunea atmosferică… Umblu cu busola în buzunar și, oriunde aș fi, eu caut nordul. Aicea știi unde e? Uite-l colo!</p>
+            <stage>(Arată cu degetul în zare, dincolo de rampă.)</stage>
+            <p>Îl vezi?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nimeni nu-și închipuie, domnișoară. Din fericire. Altfel n-ar mai fi chip de trăit. Bunăoară la minister… Știi dumneata câți țipă la mine? Bogoiu, unde-i dosaru’ cutare? Bogoiu-n sus, Bogoiu-n jos. Ei țipă și eu tac. De unde să știe ei că, în timp ce caută dosarul care s-a pierdut, eu sunt în insulele Azore?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Călătorești mult…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Tot timpul. O iau prin Mediterana, dau în Atlantic, trec în Pacific. Numa-n Oceanul Înghețat de Nord n-am fost încă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei, e greu. Frig, furtuni… Și nici n-am echipaj ca lumea. Dar odată și odată o să mă duc și p-acolo. Aștept condiții atmosferice.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Te interesează condițiile atmosferice?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei, știi că-mi placi? Auzi vorbă… Cum n-o să mă intereseze? Păi asta-i principalul. Nu plec niciodată orbește la drum. Îmi iau mai întâi toate măsurile. Am un prieten la Institutul meteorologic, știi, casa aia galbenă, cu un etaj, din Calea Dorobanți, la numărul 1. În fiecare zi la prânz, când ies de la minister, mă urc în autobuz, drept acolo mă duc… Mă așteaptă în poarta. Băiat de treabă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>E și el marinar?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu. E astronom. Da’ lucrează la Institutul meteorologic. E la arhivă. Mâncăm împreuna la același birt. Ei acolo, la institut, știu tot ce se-ntâmplă pe tot pământul. Cum bate vântul, cum vin norii, cum se mișcă stelele… Cum plouă pe Mediterană, ei au și aflat. Când se apropie ciclonul în Pacific, când vine hula în Atlantic, când se înseninează pe oceanul Indian… De la prietenul acesta aflu eu în fiecare zi tot ce-mi trebuie. Cum e azi la prânz, el îmi dă situația, și până mâine la prânz sunt liniștit. Rar se întâmplă să mă prindă pe mine furtuna în larg… Dar ce-i cu dumneatale? Al rămas pe gânduri…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nuu… Te ascultam.</p>
+            <stage>(Tace o secundă și apoi brusc:)</stage>
+            <p>Cunoști bine Mediterana?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Auzi, colo, dacă o cunosc?! Ca pe buzunarul meu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Știi unde vine Civitavecchia?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei bravo, mi-ai plăcut! Cum să nu știu?</p>
+            <stage>(Îi arată cu mina pe o hartă imaginară.)</stage>
+            <p>Păi, uite, aicea e Genova, aicea Neapole, și între ele două, la cotitură, e Civitavecchia.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Și… nu navighezi singură…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ești cu un domn… cu un prieten…</p>
+            <stage>(Surâde cu subînțeles.)</stage>
+            <p>Dar nu trebuie să fii necăjită. Știi, pe Mediterană, și mai ales aici, pe lângă coastă… Nu sunt furtuni.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Păcat că nu sunt. Ar merita să fie.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Îl iubești… Dumneatale îl iubești și el se plimbă pe mare. Și nici nu-ți scrie…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cum ai zis? Pe cine iubesc și cine nu-mi scrie? Da’ știi că ai fantezie dumneata? De unde mi-ai scos toate astea? Mai bine…</p>
+            <stage>(e încurcată, vrea să schimbe vorba)</stage>
+            <p>mai bine te-ai duce să te îmbraci. Ia te uită în ce hal ești! Aproape gol.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Fii liniștit, domnule Bogoiu. Suntem prieteni.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Al lui Ștefan Valeriu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și de asta trebuie să strigi așa? M-ai speriat.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>În loc să-mi fii recunoscătoare, îmi faci reproșuri. Nici nu știi de la ce te-am salvat. Omul ăsta e în stare de orice.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De exemplu, e în stare să mă împuște pentru că m-am așezat un moment pe șezlongul lui.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu. Dar de exemplu e în stare să-ți facă ce mi-a făcut mie ieri. N-ai decât să-l întrebi pe maior, că era de față. Eram după masă și o rugasem pe Agneș să-mi dea cafeaua aici pe terasă. M-am întins pe șezlong, fără să bag de seamă că era al lui. Domnul s-a apropiat de mine și, fără să clipească, s-a uitat drept în ochii mei: „Doamnă, scaunul acesta îmi aparține”. Îți jur, așa mi-a spus: „Îmi aparține”. Un moment, nici n-am înțeles ce vrea. Dar el a continuat foarte calm: „Va rog să vă ridicați”. Mi s-a urcat atunci tot sângele în obraz. Îmi venea să plâng, să țip.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și ce-ai făcut?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ce era să fac? M-am sculat. Eu m-am sculat și el s-a așezat în locul meu. Ah, dacă n-a fost bărbatul meu aici, i-ar fi arătat lui.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și maiorul n-a zis nimic?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Când?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ieri, când domnul Ștefan Valeriu a sculat-o pe madame Vintilă de pe scaun.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Păi ce era să zic?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Frumos, domnule maior, foarte frumos. Ce fel de cavaler ești dumneata? Ce fel de militar ești dumneata?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>În retragere, duduie.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>A, așa da… Și tu, Jeff?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Eu nu eram aici.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Felicitările mele, domnilor. Unul e în retragere, altul nu e aici și al treilea este… în Oceanul Pacific.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Unde? Ce vrei să spui?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nimic. Vreau să spun că. Sunteți trei bărbați în pensiune, și din trei, nu e unul în stare să ia apărarea unei femei. Nu crâcnește nimeni când trece domnul Ștefan Valeriu. V-a pus pe toți la respect. Dă-mi o hârtie albă, Jeff. Un carton…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Ce vreți să faceți, domnișoara?.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>O să vezi… Nu asta. E prea subțire</p>
+            <stage>(Caută singură în vraful de ziare și hârtie de pe măsuță și găsește un carton gros.)</stage>
+            <p>Asta.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Reserved.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și cum se scrie</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Reserved.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Buuun. Acum dați-mi o sfoară.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Fie și asta! Vă place? Să poftească, înfumuratu’!</p>
+            <stage>(Face o gaură în carton, trece sfoara prin gaură, se apropie de șezlong și leagă cartonul de spetează, ca pe un aviz.)</stage>
+            <p>Așa.</p>
+            <stage>(Se instalează în șezlong, cu aerul cuiva care așteaptă lupta.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Altul.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Al cui al „lui”?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Al lui Valeriu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ei și?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei și? Ei și? O să vezi dumneata „ei și”, când o veni el. A spus lui Fräulein Weber că pe care-l găsește pe șezlongul lui, mai mult nu-i trebuie.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu-i nimic. Îl aștept. Să vie.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Uite-l.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Unde ai fost Agneș, până acum? De un ceas te strigăm.</p>
+          </sp>
+          <sp who="#agneș">
+            <speaker>AGNEȘ</speaker>
+            <p>Focut curat.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Și nu puteai să ne aduci până acum cafeaua? Tu „focut curat”, și noi murim de foame.</p>
+          </sp>
+          <sp who="#agneș">
+            <speaker>AGNEȘ</speaker>
+            <p>N-o fost gata cafe.</p>
+            <stage>(Pune tava cu cești pe masa din hol și apoi iese. Madame Vintilă, Maiorul și Bogoiu iau fiecare câte o ceașcă, se așază pe divan, pe scaun. Rămân pe terasă Corina și Jeff, acesta pironit în atitudinea dinainte.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Lasă, Jeff. E o prostie. Hai să mănânci.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Asta n-am să i-o iert.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Lasă, Jeff. Nu e nimic grav. Trece. Du-te și mănâncă.</p>
+            <stage>(Cu o severitate de soră mai mare, dar și de puțină cochetărie:)</stage>
+            <p>Jeff, du-te și mănâncă.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Și mai repede, tinere, că e târziu. Nu mai mergem astăzi la scăldat? Dacă ne mai dichisim mult, ne-apucă douăsprezece. Agnteș, adu costumele de baie.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>N-ați văzut undița mea?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Domnule maior, ai uitat să-mi spui: ce s-a întâmplat cu autobuzul?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ce să se-ntâmple? Ca de obicei. Nici gând să se oprească. Când am ajuns noi jos, pe șosea, era prea târziu. Nu se mai vedea decât un nor de praf. Acuma să știi ca nici omul de la telefoane nu mai vine.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba eu cred că da. În orice caz, îl aștept.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Păi dacă trebuia să-l dreg!</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei, ce faci atâta zarvă? Parcă cu sfoară sau fără sfoară nu-i tot aia? Tot atâta pește prinzi.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu te necăji, domnule maior. Iartă-l. Eu sunt de vină. Voiam să ascult un concert de la Stuttgart și-l rugasem pe domnul Bogoiu să mi-l prindă.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Cu sfoara mea, domnișoară? Și pe urmă, barem să-l fi prins. Da’ n-a făcut nicio ispravă.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei, aici mi-ai plăcut. N-am făcut nicio ispravă. S-a și găsit cine să mi-o zică. Păi dumneata cu prăpădita aia de sfoară, în cinșpe zile de când chipurile pescuiești, niciun pește nu mi-ai prins, și eu să prind de prima seară Stuttgartul? Știu că ți-ar plăcea.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#agneș">
+            <speaker>AGNEȘ</speaker>
+            <p>Adus costum.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>S-au uscat?</p>
+          </sp>
+          <sp who="#agneș">
+            <speaker>AGNEȘ</speaker>
+            <p>Uscat.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Rămân eu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu, Jeff, ești prea drăguț. Aștept un telefon. Trebuie să mă cheme cineva.</p>
+            <stage>(Și ca să-l îmbuneze, fiindcă refuzul ei l-a întunecat:)</stage>
+            <p>Dar dacă vrei, rămâi cu mine. Îmi ții de urât până vine mecanicul să repare telefonul. Vrei?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Atunci dumneavoastră duceți-vă înainte. Vi-l trimit pe Jeff mai târziu.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Treaba dumneavoastră. Numai’ să nu vă pară rău. Ia uite ce soare. O s-avem o baie ca în povești. Hai, maiorule! Ia-ți uneltele și-nainte. Vii, madame Vintilă?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Vin.</p>
+            <stage>(Către Corina și Jeff:)</stage>
+            <p>La revedere. Și… să fiți cuminți.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vino aici, Jeff. Mai aproape, lângă mine. Așa.</p>
+            <stage>(Îi dă o pernă, jos, pe podea.)</stage>
+            <p>Și acum să stăm serios de vorbă. Cum merge cu matematica?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Domnișoară Corina, v-am rugat să nu mai vorbiți de asta. Nu-mi face plăcere.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Aș vrea să uitați că sunt un băiat de liceu. E jignitor.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Să mă supăr?</p>
+            <stage>(Cu elan:)</stage>
+            <p>Dar sunt fericit!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Atunci, de ce nu-mi spui și tu la fel?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>A, cu dumneavoastră e cu totul altceva. N-am să pot niciodată. Țineți minte, acu două săptămâni, când ați sosit? Îmi spusese Fräulein Weber că trebuie să vină o domnișoară și m-a rugat să aștept la autobuz, ca să-i arăt drumul. Nici eu nu eram decât de două zile aici, dar mă plictiseam de moarte. Când v-am văzut coborând din mașină…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Civita?... N-am auzit niciodată.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>E un port. Un port mic în Mediterana, între Genova și Neapole. Știi să desenezi harta Mediteranei?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Știam pe vremuri. Acuma cred c-am uitat. N-am mai geografia Europei din clasa a treia.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>De unde să începem? De la Bosfor, sau de la Gibraltar?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De unde vrei tu. De unde-i mai repede.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>S-o luăm de aici.</p>
+            <stage>(Desenează.)</stage>
+            <p>Uite, să zicem că aici e capul Fimister, asta e peninsula Iberică aici e strâmtoarea Gibraltar, p-ăsta am uitat cum îl cheamă…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu-i nimic. Mergi înainte.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Aici începe Italia, golful Genua, golful Neapole.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Destul, Jeff, oprește. E de ajuns. Cred că Genova trebuie să fie pe aici…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Nu. Puțin mai sus. Uite aici.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și dacă aici este Genova, atunci mai jos, la cotitură, trebuie să fie… da… aicia e… să știi că-i aici.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Bună ziua. Mă rog, aicia este pensiunea Weber?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Aici. Dumneata ești de la Gheorghieni. De la telefoane?…</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>D-acolo sunt. Da’ departe mai stați! Credeam că nu mai dau de dumneavoastră.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Un moment, te rog. Așteaptă-mă un moment.</p>
+            <stage>(Către Jeff:)</stage>
+            <p>Du-te, Jeff. Du-te la baie.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Rămân!</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Veniți dumneavoastră mai târziu?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Poate, Jeff. Dacă termin mai devreme. Du-te acum. Pa!</p>
+            <stage>(El a ieșit din scenă. Corina se duce după el și-l strigă:)</stage>
+            <p>Și vezi, fii cu băgare de seamă, înotătorule. Nu cumva să aud că ai fost iar la adânc.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Să vedem.</p>
+            <stage>(Se apropie de aparat, își scoate uneltele, deșurubează. Corina, lângă el, urmărește cu atenție operația, în timp ce-i vorbește.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ai venit cu autobuzul?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Cu autobuzul… Numai că nu știam un’ să cobor. M-a dus, hăt departe, pân’ la Trei Izvoare, și d-acolo a trebuit să mă-ntorc pe jos. Am tot întrebat pe unul, pe altul, nimenea nu știe de pensiunea asta. Se vede că nu-i de mult pe aici.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>S-a clădit astă-primăvară.</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Așa da. Că eu altminteri mă cunosc prin locurile astea.</p>
+            <stage>(A demontat cu totul telefonul.)</stage>
+            <p>Hi, drăcia dracului!.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce s-a întâmplat?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Telefonul ăsta…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>E grav? Nu poți să-l dregi?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Ba bine că nu. Până numeri trei, e gata. Da să știți că aici a umblat cineva. Zău așa. Parcă-ntr-adins a făcut.</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Vedeți șurubul acesta?</p>
+            <stage>(Corina privește foarte atentă, absorbită de explicație.)</stage>
+            <p>L-a clătinat din loc, și s-a terminat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și nu se poate pune la loc?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Ba l-am pus. Asta-i tot.</p>
+            <stage>(Învârtește manivela telefonului.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce faci acum?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Chem Oficiul Gheorghieni. Să vedem dacă răspunde.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Spune-i, te rog, domnișoarei de acolo că aștept un telefon azi dimineață.</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Alo! Alo! Oficiul… Alo! Gheorghieni… Domnișoara Bözsi… Da, eu… N-a fost nimic… Da, da, ascultă, e aici cineva care așteaptă un telefon… Să-i dai legătura când o veni…</p>
+            <stage>(Închide telefonul, apoi către Corina:)</stage>
+            <p>S-a făcut.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Acuma, dacă ai vrea – nu știu dacă te pricepi – dacă ai vrea să te uiți puțin la aparatul ăsta de radio, că nu merge deloc.</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Se poate sa nu mă pricep? Eu sunt de la București, domnișoară.</p>
+            <stage>(Se apropie de radio și-l cercetează, demontându-l.)</stage>
+            <p>A! Bine că-mi adusei aminte. A zis domnul diriginte de la Gheorghieni de la Poștă, că ce să facă cu scrisorile?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Care scrisori?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Scrisorile pentru pensiunea Weber… S-au strâns vreo douășpe pân-acum.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cum ce să facă? Să le trimită aici.</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Păi, le-ar fi trimis el, da’ a venit un domn de la dumneavoastră și a zis să le țină acolo.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce să țină?</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>. Scrisorile. Zicea că jurnalele să le trimită-napoi la București, că nu mai e nevoie de ele, și scrisorile să le țină la Poștă la Gheorghieni, pân-o veni cineva să le ia…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Un domn? A spus asta un domn?… Da… da… adevărat… uitasem.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Sus, pe acoperiș.</p>
+          </sp>
+          <sp who="#mecanicul">
+            <speaker>MECANICUL</speaker>
+            <p>Pot s-o văd?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Sigur. Uite, du-te dumneata pe aici, pe la bucătărie. E o fată acolo. O cheamă Agneș. O să-ți dea o scară și tot ce-ți trebuie.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>În fond. Dumneata de ce ții cu tot dinadinsul să fii interesant?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu sunt, da’ să știi că nu-mi comunici nimic nou. Sunt treizeci și patru de ani – la 5 octombrie vor fi treizeci și cinci – de când știu cu precizie că nu sunt interesant. Nu făcea, zău, să pierzi baia și nici mie să-mi strici lectura, numai ca să-mi aduci la cunoștință o știre atât de veche.</p>
+            <stage>(Își reia cartea și se pregătește să-și continue lectura.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ești odios.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Asta se poate.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și ești ridicul.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și asta se poate. Dar vezi să nu te încurci. Prea multe lucruri deodată. Ar trebui să alegi: neinteresant, odios, sau ridicul?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Toate la un loc.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sunt un cumulard.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Glumeam?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da. Glumeam.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Perfect. Atunci, să nu mai glumim.</p>
+            <stage>(Se trântește din nou în șezlong, își reia cartea și e gata să se cufunde din nou în tăcere.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Să nu glumim, dar să încercăm a fi politicoși. Și atunci când ne vorbește o femeie, să încercăm a-i răspunde.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vai, ce urât vorbești, duduie! Politicoși! Păi eu de asta am venit aici? Ca să fiu politicos?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ascultă-mă, îți vorbesc cu oarecare prietenie. Atâta prietenie, cât merită un tip bosumflat ca dumneata. Nu te prinde.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce nu mă prinde?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Genul ăsta pe care l-ai ales. Bădărănia asta pe care o simulezi.</p>
+            <stage>(Aproape confidențial)</stage>
+            <p>: Dumneata nu ești un mitocan.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vai nu! E un vis vechi al meu. Un ideal.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Irealizabil, ca toate idealurile. Crede-mă pe mine, îți pierzi vremea. Nu ești și n-ai să fii. Asta se observă din primul moment.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Foarte serios. E zadarnic orice efort. Dumneata în materie de proastă creștere ești un impostor.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Un impostor?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da. Vreau să spun că dumneata ești…</p>
+            <stage>(cu oarecare dispreț)</stage>
+            <p>un om cumsecade.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Sigur c-am aflat. Sau mai bine zis am văzut. Ei, ce-ți imaginezi dumneata, că o mitocănie – dar știi? – o bună mitocănie se improvizează așa, de la o zi la alta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Dar, oricum… cu putină aplicațiune… cu puțină silință.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu ajută. Asta nu se învață. Asta e de la Dumnezeu. Uite, dumneata ce nu faci ca să fii prost-crescut? Nu răspunzi când ți se vorbește, te servești primul la masă, nu dai bună ziua, nu spui bună seara, lupți din răsputeri să fii dezagreabil și izbutești uneori —dar cu câte eforturi, cu câtă oboseală! Îl exasperezi pe bietul domnu Bogoiu, îl revolți pe maior, o înfurii pe madame Vintilă…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu, pe mine mă amuzi. Eu văd foarte bine jocul dumitale. Ești un băiat de treaba, care și-a lipit barbă și mustăți. Fioroase, ca să sperie lumea. Dar când se răstește mai tare, îl pufnește râsul și i se dezlipesc mustățile. Au fost prost lipite.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E un simbol? Nu înțeleg simbolurile.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba înțelegi. Dar faci tot ce e posibil să nu înțelegi; ai dumneata impresia ca-ți șade bine să fii prost.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>…că nu sunt politicoasă. Nu sunt. Dar parcă spuneai că n-am venit aici ca să fim politicoși.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vreau să spun că nu mă sperii. Vreau să-ți spun că te cunosc. Și mai vreau să-ți spun că tot jocul dumitale e naiv. De cinci zile, de când ai intrat în pensiune, te căznești să fii interesant. Tăcerile dumitale! Singurătatea dumitale! Fruntea dumitale copleșită de gânduri! Calmul dumitale, superbul, absolutul dumitale calm!</p>
+            <stage>(Râde, bună, prietenoasă, cu o subită destindere.)</stage>
+            <p>Ce copil ești! Ți-a intrat în cap să fii</p>
+            <stage>(cu un gest declamator)</stage>
+            <p>„teroarea pensiunii Weber”. Ei bine, m-aș sufoca dacă nu ți-aș spune: nu ești. Poate că o sperii pe domnișoara Weber, poate pe madame Vintilă, sigur pe Agneș. Pe mine nu. Zău că nu. Nu ți-o spun din orgoliu. Ți-o spun – dar ai să înțelegi? – ți-o spun din loialitate. Mi se pare că nu e cinstit din partea mea să stau deoparte, să te privesc și să râd, fără ca dumneata să știi că ești observat și că ești puțin – dar știi? – foarte puțin… ridicul.</p>
+            <stage>(Cu o tresărire:)</stage>
+            <p>Stai! Nu te supăra. Nu te supăra încă. Mai este!… Vezi, e ca și cum am fi la o masă de bridge… joci bridge?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nici eu. Dar nu-i nimic. Parc-am fi la o masă de bridge și – fără voia mea – din neatenție, din neglijență, m-aș uita în cărțile dumitale. Aș trișa dacă nu ți-aș spune că le-am văzut. Le-am văzut, înțelegi? Nu mai putem continua. Hai să începem de la început. Să începem alt joc… Vrei?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu vreau.</p>
+            <stage>(Se ridică din șezlong și face câțiva pași.)</stage>
+            <p>Așadar, dumneata îți închipui că eu joc. Joc ca să te seduc pe dumneata.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu să mă seduci. Să mă impresionezi.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pe dumneata, pe domnul Bogoiu – Bogoiu îl cheamă, nu? – pe maior, pe madame Vintilă?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vintilă o cheamă.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ești odioasă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>E rândul meu. Și pe urmii, nici nu sunt odioasă Dar ți se pare așa de distins lucru să te faci că nu știi cum îi cheamă pe oamenii din pensiune? Ești un om distrat, ești un om distins.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Știi ce-ar trebui să fac eu acuma? Dacă aș fi un tip tare…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar nu ești…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Dar dacă aș fi… Ar trebui să-mi iau din nou cartea, să mă întind iar în șezlong și să-ți spun: „Bravo, duduie, ești foarte inteligentă, ai înțeles tot, să crești mare!” Și pe urma mi-aș vedea de treabă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Totuși…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Totuși, n-am s-o fac. Din slăbiciune, din vanitate. Bag de seamă că nu pot suporta în liniște să mă crezi un imbecil. Păcat. Ar fi așa de odihnitor…</p>
+            <stage>(A rămas o secunda pe gânduri. Pe urmă, cu o anumită decizie, apropiindu-se de ea și apucând-o de braț:)</stage>
+            <p>Dumneata ești tot ce am detestat mai mult în viață.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O fată deșteaptă. Groaznică specie!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Obositoare. Vorbește mult, vede tot, e ironică. E teribilă. Cunoști ceva mai insuportabil decât oamenii teribili?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și dumneata ești un om teribil.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Eu sunt un om leneș. Dar asta n-ai s-o înțelegi dumneata.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu înțeleg aproape tot.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E încă drăguț că ai spus „aproape”. Înțelegi aproape tot, dar asta n-ai s-o înțelegi. Lenea, știi ce este… lenea?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cred că da.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cred că nu. Ești prea superficială pentru a fi leneșă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>În schimb, dumneata ești destul de profund.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vezi, aveai dreptate când spuneai adineauri ca sunt un om cumsecade. Da. Unsprezece luni pe an. Dar am și eu luna mea de libertate – și nu există decât o singură formă – supremă! – de libertate: lenea. Am și eu luna mea de lene. De la 1 august la 31. Și fac tot ce pot ca să n-o pierd. Dumneata te agiți, vorbești, repari telefoane, ești într-o veșnică mișcare, într-o veșnică așteptare. Eu stau, privesc, tac și nu aștept nimic… Dacă ai ști ce mare lucru este să nu aștepți nimic… Unsprezece luni pe an sunt și eu un om grăbit, un om crispat, un om care aleargă, care discută, care rezistă, dar după unsprezece luni mă duc undeva departe de oraș, să iau lecții de lene, de la piatra, asta, de la copacul ăla. Uită-te la el. Nu ți se pare că e ceva împărătesc în indiferența lui? Totdeauna lângă un pom m-am simțit puțin umilit. Nemișcarea lui…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Încă un vers dacă mai spui, încă un autor dacă mai citezi, am terminat cu dumneata. Văd bine că nu m-am înșelat.</p>
+            <stage>(Cu compătimire:)</stage>
+            <p>Ești o intelectuală!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ba da. Ești plină de lecturi, de muzică, de idei. Nu e nimic de făcut cu dumneata. Mă întreb ce cauți aici. Nu simți, nu vezi că ești prea deșteaptă pentru locurile astea somnoroase? Stai! Lasă mâna asta în jos.</p>
+            <stage>(S-a apropiat iar de ea, o apucă de mână, cu oarecare severitate.)</stage>
+            <p>Și pe asta! Rămâi așa. Încearcă să nu gesticulezi cinci minute. Și termină cu surâsul ăsta. Termină, îți spun. Nu te-ai plictisit de douăzeci și cinci de ani, de când îl porți?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Douăzeci și doi.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Douăzeci și doi. Și? Găsești că nu-i deajuns? Eu sunt aici de cinci zile, și m-am săturat de el. Schimbă-l. Uită-l. Dar dumneata nu știi să uiți. Nici unul din voi, dumneata și ăștia – Bogoiu „sau cum le mai zice? – nu știe să uite. Amețiți când vi se întâmplă să nu vă aduceți aminte, trei secunde în ce zi sunteți. D-aia zăpăcitul ăla de bătrân, de cum se scoală, n-are altă treabă decât să scrie pe tablă: 5 august, 6 august… D-aia vă strângeți pâlc în jurul aparatului de radio, ca să vă spună ora exactă.</p>
+            <stage>(Aproape violent:)</stage>
+            <p>Eu nu vreau să știu ora exactă. Și nu vreau să știu ce e azi, ce va fi mâine și ce a fost alaltăieri. Ce e azi? O zi cu soare. Mi-e de ajuns. Îmi faceți milă, zău, când vă văd cu ce disperare, cu ce panică vă agățați de tot ce ați lăsat dincolo, acasă, la București. Și, la drept vorbind, n-ați lăsat nimic acolo. Ați adus totul cu voi, în valiză: manii, regrete, zâmbete, amoruri. Ziceai: „Vrei să începem un joc nou?” Sigur că vreau, dar nu vezi că jocul meu e nou, și că al vostru e vechi, bătrân, trist?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și cum se cheamă jocul dumitale?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Are mai multe nume, dar dumneata ești o fată cinică și ai să râzi.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și ți-e frică de râsul meu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Se cheamă jocul de-a vacanța. Și se mai cheamă jocul de-a uitarea. Și s-ar mai putea chema jocul de-a fericirea.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ai dreptate. E un nume puțin comic. Totuși, n-am să râd. Jocul de-a fericirea… Și e greu jocul ăsta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A! Sigur că da. E un lucru complicat fericirea. Trebuie învățat cu răbdare, cu metodă… Acasă, la București, n-am timp. Am alte lucruri, mai urgente. Nu mai serioase – pentru că nimic nu e mai serios decât fericirea – dar mai urgente. Însă, aici sunt absolut decis să fiu fericit. Cu orice preț. Cu brutalitate, dacă nu se poate altfel. Cu grosolănie, după cum ai văzut. Vezi șezlongul acesta? Eu sunt un om care unsprezece luni pe an cedez locul în tramvai femeilor. Ei bine</p>
+            <stage>(cu vitejie)</stage>
+            <p>, scaunul ăsta nu-l voi ceda!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ești feroce.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu râde. E foarte grav ce-ți spun. Ți se pare puțin lucru un șezlong? Vai, cum te înșeli! E prima treaptă spre fericire.</p>
+            <stage>(Privește șezlongul cu afecțiune, aproape cu emoție și, vorbind, îl mângâie.)</stage>
+            <p>Dacă am uneori stimă pentru civilizație, este că a izbutit să născocească un lucru așa de amical, așa de leneș. O brută n-ar fi putut să descopere asta. Ascultă-mă pe mine: a fost un poet.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și dumneata ești un poet.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Eu sunt un tip terre-á-terre. Plat. De asta nici nu-mi placi dumneata. Ești prea strălucitoare. Nu ai umbre.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Lasă-mă pe mine. Să vorbim despre dumneata. Încă nu mi-ai spus cum procedezi ca să fii fericit.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Păi nu mai am mult de spus. Un șezlong. Un pantalon alb. O cămașă ca asta. O carte pe care n-o termini… Nicio amintire, nicio nostalgie, și o mare, mare indiferență. Cam asta e tot.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De ce râzi?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Faci rău că nu spui. Eu de două ori nu întreb.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ține. Un moment. Ia-le în mână.</p>
+            <stage>(I le pune în mână și-i închide pumnul, ca să strângă bine buchetul.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu, nu. Ești mult mai frumos decât îți închipui. Stai. Stai așa. Asta trebuie fotografiat. Neapărat fotografiat.</p>
+            <stage>(Aleargă în hol și se întoarce repede cu aparatul de fotografiat al lui Bogoiu.)</stage>
+            <p>O secundă. Atenție! Gata.</p>
+            <stage>(Își trece aparatul după gât și vine spre el.)</stage>
+            <p>Îți mulțumesc. Ai fost admirabil.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu înțeleg nimic.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>A! Pentru ca să înțelegi, ar trebui sa te vezi. Ești delicios. Cu florile în mână, ai ceva speriat, solemn, teatral. S-ar zice că nu știi ce să faci unde să le arunci, cui să le dai. Te uiți bănuitor la ele, ca la un lucru suspect, ca la o bombă, ca la un exploziv. Drăguțul de el! Vorbeai adineauri de pomi, de plante, de fluturi. Eram aproape emoționată. Mi se făcuse brusc rușine de frivolitatea mea. Erai bucolic. Uite: erai Pan. Un Pan cu pantaloni albi și cu pantofi de tenis. Un Pan pe șezlong. Dar Pan nu știe să țină o floare în mână!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>M-ai prins. Sunt caraghios, nu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Știu. În fiecare dimineață sunt caraghios. Cu bună știință. E adevărat. Nu știu să țiu o floare în mână. N-am știut niciodată. Am trimis uneori – destul de rar – flori unei prietene sau unei iubite, dar eu cu mâna mea nu le-am dus niciodată. Aș fi murit de rușine. Uite, o singură dată, la București, astă-primăvară, era în martie, mă-ntorceam de la lucru… eram grăbit… pe la prânz… Era un soare… și coșuri mari cu flori galbene și albastre… țigăncile care te pofteau să cumperi… M-a lovit și pe mine, nu știu de unde, dorul să port o floare, în soarele ăla de amiază. Cât am suferit pe urmă! De la Corso la Capșa, mi se părea că toata lumea mă privește, mă arată cu degetul. Duceam în mână câteva fire galbene și parcă mă-nțepau. Eram ridicul, eram comic. Pe la Cercul Militar, în îmbulzeală, am închis ochii și… le-am aruncat.</p>
+            <stage>(Cu anumită candoare:)</stage>
+            <p>Dacă nu știu! Eu trăiesc între dosare, între hârtii… De unde vrei să știu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ai dreptate. Din instinct. Dar e un instinct pe care l-am pierdut. Încerc acum să-l regăsesc, să-i fac din nou educația, să-l aduc la lumină. De aceea mă duc în fiecare dimineață pe munte și de aceea mă întorc de acolo cu câteva flori culese, pe care le port prostește, fără îndemânare, fără simplicitate, știind că sunt caraghios, știind că vei râde dar voind să fiu caraghios și voind să râzi. Cu vremea am să învăț. Nu se poate să nu învăț. Sunt un elev silitor. Nu ți-am spus că e greu să fii fericit?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-am de ce să te iert. Hai! Încearcă și dumneata jocul ăsta. Merită.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce e, Agneș?</p>
+          </sp>
+          <sp who="#agneș">
+            <speaker>AGNEȘ</speaker>
+            <p>Spus domnișoara, sun… târziu…</p>
+            <stage>(Bate de câteva ori din gong, pe urmă trece în hol, de unde strânge ceștile de ceai, le pune pe tavă și iese cu ele din scenă, tot prin ușa din dreapta, în fundul holului.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să fie așa târziu? Mergem la masă?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. Mai e mult până la prânz. Dar îi dă de știre lui Bogoiu. Până se adună cu toții, până se îmbrăcă, până-l strigă pe maior de la pescuit. Și de la lac până aici e o bucată bună de drum.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Oricum, ce repede a trecut vremea…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Într-adevăr… nu mi-am dat seama. Ne-am luat cu vorba. Și abia acum îmi aduc aminte, veneam să-ți spun un lucru foarte important..</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Găsești că nu mi-ai spus destule?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu glumi. Era ceva foarte serios.</p>
+            <stage>(Se gândește, încearcă să-și aducă aminte, și în cele din urmă găsește.)</stage>
+            <p>Da. Aștept un telefon.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Aștept un telefon și aș vrea ca aparatul să funcționeze.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să sperăm că va funcționa. Mai ales că l-ai reparat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Tocmai de aceea. L-am reparat și aș vrea ca între timp să nu se strice.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu e de ajuns.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai mult nu pot face.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba da. Poți face un lucru foarte precis.</p>
+            <stage>(Se apropie de el și îl privește drept în ochi, scontând efectul.)</stage>
+            <p>Să nu-l strici.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu încerca să protestezi. Dumitale îți stă bine când ești sincer. Haide, puțin curaj, ce Dumnezeu! Suntem bărbați. Ai stricat telefonul și aparatul de radio. Nu-ți fac niciun reproș. Poate că asta intră în programul dumitale de fericire. Nici nu întreb de ce l-ai stricat…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Gelos?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nuu! Amorul nu intră în programul meu de vară.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Atunci, suntem înțeleși. Îmi lași telefonul în pace. Cel puțin până voi termina convorbirea. Aștept să mă cheme.</p>
+          </sp>
+          <sp who="#corona">
+            <speaker>CORONA</speaker>
+            <p>Intră indiscreția în programul dumitale de vară?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Uneori. Nu vrei să-mi spui?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Domnul de la Civitavecchia?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cine?</p>
+            <stage>(Dă cu ochii de tablă, pe care a rămas desenul Mediteranei, înțelege și exclamă.)</stage>
+            <p>A!… ai ascultat? Prin urmare, domnul meu, din absoluta dumneavoastră indiferență, mai aveți din când în când timpul să trageți cu urechea…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Domnul de la Civitavecchia?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Poate. Poate el. Poate altcineva.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Să vedem.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Am observat că ai oarecare influență asupra dobitocului bătrân.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Bogoiu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da. Bogoiu. Convinge-l să nu mai scrie de dimineață până seara foi de calendar, pe unde apucă. Mă scoate din sărite. Într-o zi o să terminam, cu un scandal.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dai ce ai cu el? În fond, nu e decât un viciu inocent.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu e joc inocent. E o perversitate. Aș vrea să nu știu că azi e în 5 august, dar nu pot. Bogoiu e mereu aici să mi-o amintească.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și te deranjează?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Enorm. Îmi tulbură sentimentul meu de eternitate.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce copil ești!</p>
+            <stage>(Râde.)</stage>
+            <p>Bine. Am să încerc. Dar trebuie să-mi faci și dumneata un serviciu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Păi, ne-am înțeles. Telefonul.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Lasă telefonul. Cu el am terminat.</p>
+            <stage>(Se apropie de radio și-l arată rugătoare, ca și cum ar cere, pentru el, cruțare.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu fi încăpățânat.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu sunt încăpățânat. Sunt decis. Dacă mai fac un singur pas, pe calea concesiilor, simt că-mi pierd toată vacanța. Nu înțelegi că n-are ce căuta aici? Suntem destule voci și fără el.</p>
+          </sp>
+          <sp who="#corinâ">
+            <speaker>CORINÂ</speaker>
+            <p>Chiar dacă te rog?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Chiar.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Chiar dacă te implor?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai ales dacă mă implori.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>. Și totuși, l-am reparat.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu e nimic. Eu am să-l stric.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și eu am să-l repar din nou.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și eu am să-l stric din nou.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De granit.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Șezi!</p>
+            <stage>(Îi arată șezlongul.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Așa cum ești, în picioare și de granit, mi-e frică de dumneata. Te rog șezi.</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Numai’ să nu fie în zece…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>În câte zici! În zece? Nu, nu. În zece nu. Adică… de ce nu?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Păi asta zic și eu: de ce nu?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Stai! Va să zică</p>
+            <stage>(număra pe degete)</stage>
+            <p>azi una, ieri două, alaltăieri trei… Nu știu, nu știu și pace. Am pierdut toate socotelile. O fi treispce? O fi paișpce? Să fie miercuri? Să fie joi?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Să fie vineri? Vorba dumitale… M-au zăpăcit de tot. M-au amețit.</p>
+            <stage>(O clipa de tăcere. Se aude din culise mingea de ping-pong.)</stage>
+            <p>Îi auzi? Bat mingea aia de-o sfărâmă. Taca-taca-taca-taca, taca-taca-taca-taca…</p>
+            <stage>(După un moment de tăcere.)</stage>
+            <p>Să fie vineri?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Ai?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Zic, să fie vineri?…</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>De…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Eu parcă tot zic că nu-i.</p>
+            <stage>(Miroase în vânt.)</stage>
+            <p>Nu miroase a vineri…</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Le cunoști după miros?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>După miros. După lumină. După gust. Miercurea, bunăoară…</p>
+            <stage>(Se oprește ca străbătut de o revelație… Aspiră o dată scurt pe nas, și pe urmă încă o dată, lung.)</stage>
+            <p>Miercuri! Să știi că-i miercuri.</p>
+            <stage>(Aspiră grăbit și scurt pe nas de câteva ori, adulmecând aerul, văzduhul, lumina… Se ridică în picioare nervos.)</stage>
+            <p>Miercuri e. Zău că-i miercuri.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba nu e miercuri!</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Da’ ce e?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>„O zi cu soare”. Asta de la el a învățat-o. A-nnebunit-o și pe ea. Pe toți i-a-nnebunit. Înainte se aveau ca șoarecele cu pisica, și acum Ștefan în sus, Ștefan în jos. Barem madame Vintilă aia se ține de el din zori până-n noapte. Și s-au pus cu toții pe capul meu. Creta mi-au luat-o. Creionul – confiscat. Tocul – dispărut. Numai unghiile mi-au rămas. Ăștia-s nebuni, dom’le. Te joci cu ei? Om bătrân cu pantaloni scurți… Te întreb eu pe dumneatale, să mă vadă la minister în halul ăsta, nu mă dă afară? Mă dă.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Te dă.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Zic: te dă.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Păi, mă dă.</p>
+            <stage>(Tăcere. Îl privește apoi lung pe Maior.)</stage>
+            <p>Ei lasă, maiorule, că nici dumneatale nu ești mai frumos.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Dar ce cusur am?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ce? Asta-i ținută de maior? Asta-i micu echipament, nene? Te lăsași să te-mbrace cum le-a trăsnit lor prin cap.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Dacă-i ordin!… Toată lumea în alb!</p>
+            <stage>(Cochet:)</stage>
+            <p>Și să știi dumneata că nu-mi stă rău.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Fac o pauză. Pentru moment sunt obosit.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>A! Înțeleg. Am uitat să-i cer consimțământul.</p>
+            <stage>(către Corina:)</stage>
+            <p>Îl lași să joace cu mine?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu-i nimic; ea înțelege.</p>
+            <stage>(Către Corina:)</stage>
+            <p>Spune, îl lași?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Doamnă Vintilă, e o glumă proastă. Renunță.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar nu e deloc o glumă, Ștefan.</p>
+            <stage>(Către madame Vintilă:)</stage>
+            <p>Îl las.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Mulțumesc. Cât ești de generoasă! Să știi că n-am să abuzez. Peste un sfert de oră ți-l dau înapoi.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ești modestă și meriți o recompensă. Uite, ți-l las… trei sferturi de oră…</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ce imprudență! Nu ți-e frică?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba da. Tremur. Că se vede.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu joc. Ți-am spus că nu joc. Sunt obosit. Mai târziu. Acuma, uite, joacă cu domnul Bogoiu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sau cu maiorul.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Perfect. Și dumneata ne arbitrezi. Hai, domnule maior.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Cum să nu poți! Cu așa arbitru…</p>
+            <stage>(Îl ia de mână pe Maior și-l trage după ea. Către Ștefan:)</stage>
+            <p>Hai!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Zău, sunt obosit? Să vă arbitreze Jeff.</p>
+            <stage>(Strigă spre culise.)</stage>
+            <p>Jeff!</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Lasă-l pe Jeff. Dumneata ne arbitrezi.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Țiu.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Da. Lasă.. Mai târziu…</p>
+            <stage>(Iese împreună cu Maiorul și Ștefan.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Supărat?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Supărat rău?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cine să ți le dea?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cine mi le-a luat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ți le-a luat cineva?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Te faci că nu știi? Dumneata nu vezi că eu umblu de atâtea zile despuiat, cu gâtul gol?</p>
+            <stage>(Cu o reală pudoare:)</stage>
+            <p>Mi-e rușine. Zău că mi-e rușine. Mi-a luat pantalonii mei buni și mi-a dat pe ăștia scurți. N-am zis nimic. Mi-a luat cămașa și mi-a dat pe asta tăiată. N-am zis nimic. Dar cravata, frate, cravata? Am cincizeci și doi de ani, și în cincizeci și doi de ani eu numa cu cravată am umblat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ai început de tânăr.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei! Îți vine bine să glumești. Dumitale nu ti-a luat nimeni cravata.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba mi-a luat-o.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Sigur. Uite.</p>
+            <stage>(Îi arată gâtul gol.)</stage>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu, duduie. Să lăsăm gluma. Eu așa nu pot să trăiesc…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cum așa?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Fără cravată. Mă-năbuș.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Am.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Atunci… ascultă-mă.</p>
+            <stage>(Îi ia ușor mâna cu care Bogoiu s-a ținut tot timpul scenei, acoperindu-și gâtul gol, și i-o dă jos. El rezistă puțin, cum ar rezista un bolnav căruia îi deplasezi o mână scrântită, de teamă să nu-l doară. După ce a terminat operația asta, care de altfel n-a durat decât două secunde, Corina face doi pași înapoi, și-l privește.)</stage>
+            <p>Ești mai frumos așa.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dacă-ți spun! Mult mai frumos. Mai tânăr, mai bărbat, mai… marinar. Da, da, mai marinar. Cu cravata aia oribilă – fiindcă să știi: era o-ri-bi-lă cravata aia – cu gulerul ăla, ce erai? Un civil. Pe când așa ai o înfățișare stranie, o înfățișare de navigator… Ei, ce vrei dumneata? Când treci pe aici, pe terasă, cu gulerul dumitale de cauciuc și cu cravata neagră, să te arate toți cu degetul: uite-l pe domnul Bogoiu, subșef de birou la Ministerul de Finanțe? Sau să întrebe în sinea lor, cu puțină neliniște, cine să fie oare străinul ăsta, cu gâtul ars de soare, cu obrajii bătuți de vânt? De unde vine? Unde se duce? Pe ce mări a călătorit? Ce oceane a străbătut? Și spre ce zări nevăzute privește, atunci când trece pe terasa pensiunii Weber, cum ar trece pe coverta unui vapor?</p>
+            <stage>(A vorbit fără ironie, cu sinceritate, cu convingere, cu convingerea cuiva care se joacă cu un copil, dar se lasă prins în acest joc și crede în el. Bogoiu ascultă cu gravitate, readus la visurile lui. Moment de tăcere.)</stage>
+            <p>Crede-mă pe mine, domnule Bogoiu. Noi suntem vechi prieteni. Rămâi așa cum ești: ești foarte bine. Când mă uit la dumneata, am impresia că ești un adevărat lup de mare.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu știu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Îți dau cuvântul meu de onoare că nu știu.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Atunci, sunt pierdut.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Fiindcă eu nu pot să trăiesc așa. Cu ziua asta care nu știi de unde începe și unde se termină… Parcă-i o singură zi, una. Singură, lungă, lungă, lungă. N-are nume, n-are număr. Ai vrea s-o prinzi din zbor, s-o iei de gât și s-o întrebi: cum te cheamă? Te cheamă luni? Te cheamă marți? Spune!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și ea nu vrea să spună.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu. Nu vrea.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu vrea, și bine face…</p>
+            <stage>(Se apropie de el.)</stage>
+            <p>Nu ești cuminte, domnule Bogoiu, și, drept să-ți spun, nu te pricep de loc. De ani de zile umbli după un vis, și acum când în sfârșit visul este sub ochii dumitale, când e aici la un pas și nu așteaptă decât să-l vezi, dumneata întorci capul, închizi ochii și-l lași să treacă. „Unde mi-e cravata?” „În câte e azi?” De asta îți arde dumitale?</p>
+            <stage>(Îl scutură ușor de umăr.)</stage>
+            <p>Trezește-te! Ce ai vrut dumneata să ai mai mult în viață? Un vapor. Ei bine, îl ai.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Unde e?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Aici. Ăsta nu e un vapor? Ssst! Asculta, nu auzi nimic?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu sunt brazii. Sunt valurile. Dacă vrei… sunt valurile. Nu vrei?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Atunci, ce mai aștepți ca să iei comanda vaporului? Suntem pe un vapor și dumneata ești căpitanul nostru. Nu vezi? Suntem pe mare. Nu știu pe ce mare. Spune dumneata una. Alege-o dumneata. Suntem în larg. Nimeni nu vine, nimeni nu pleacă. Și nu se vede nicio pânză cât e marea de mare, nici un catarg, nici o sirenă.</p>
+            <stage>(Se duce spre stânga și strigă, cu mâinile pâlnie la gură:)</stage>
+            <p>Uuu!</p>
+            <stage>(Se întoarce spre Bogoiu:)</stage>
+            <p>Vezi? Nimeni. Liniște. Mergem așa de lin, că parcă nici motoarele nu se mai aud! Doar apa cum plescăie la proră…</p>
+            <stage>(Cu o schimbare de voce:)</stage>
+            <p>Ce viteză avem, căpitane?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Să trecem. Pe unde o luăm?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>După dumneata, căpitane! Ia-o-nainte, să-mi arăți drumul.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Duduie Corina…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Voiam să-ți spun un cuvânt.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Acuma? Nu se poate mai târziu? Tocmai îmi explica ceva căpitanul.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da. Te prevenisem. Nu sunt bun de arbitru.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Mă întreb de ce ești bun, când e vorba de mine?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E un reproș?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu. O vorbă așa…</p>
+            <stage>(Moment de tăcere. Ea se apropie de șezlong, se oprește o clipă la spatele lui Ștefan și pe urmă îi trece mâna prin păr.)</stage>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Da… știu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu o deschizi?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ești curios?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cred că ți-am mai spus: eu nu am nicio curiozitate.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Știu… te-ar surmena.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Întocmai. M-ar surmena. Dar mă gândesc ca era un timp când plângeai dacă-ți întârzia o scrisoare. Și acum le lași să treneze ceasuri întregi, fără să le deschizi.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Era un timp… Acuma e alt timp. Vacanță! De la dumneata am învățat cu toții vorba asta.</p>
+            <stage>(Se înclină spre el, cochetă, aproape obraz la obraz)</stage>
+            <p>. Te superi c-am învățat-o așa de bine?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Grav?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Foarte grav.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Bănuiam. Trebuie să fie foarte grav, de vreme ce te-ai sculat în picioare.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Foarte grav și… foarte greu de spus.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Să te ajut eu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Spun singur. Da’ să știi că e ceva complet caraghios… Uite:</p>
+            <stage>(retezat)</stage>
+            <p>am impresia că-mi faci curte.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu ți-am spus că e caraghios?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A! E o manie. O idee fixă. Mi se pare mereu că mi se face curte. Evident, e ridicul. Mă cunosc doar foarte bine. Curte! Curte pe ce? Pe nasul ăsta jupuit? Pe fruntea asta îngustă? Pe ochii ăștia fără culoare?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Totuși…</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Te asigur…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Că nu-i adevărat. Știu. Asta ar mai lipsi. Dar pentru liniștea mea, pentru buna noastră prietenie, pentru pacea pensiunii Weber, lasă-mă să-ți spun că dacă cumva, prin absurd, prin imposibil, ar fi totuși adevărat…</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Da…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Daca printr-o aberație, prin cea mai stupidă aberație, m-ai iubi, sau ai vrea să mă iubești, sau ți s-ar părea că mă iubești…</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ei bine…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei bine, ți-aș spune nu!</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>De ce nu?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu ți se pare că abia acum începi să fii ridicul?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu. Ridicol sunt mai demult. Acum încep să fiu clar. Asculta-mă.</p>
+            <stage>(Îi vorbește neted, bărbătește, fără brutalitate însă:)</stage>
+            <p>Jocul ăsta nu mă interesează. Aici, nu mă interesează E prea complicat. Scene, cuvinte cu subînțeles, zâmbete. De ce ai râs? De ce n-ai râs? Vino aici, du-te-ncolo, iubește-mă, nu mă iubi, de ce nu mă iubești?... Nu, nu și nu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da. Și încă o dată nu. De foarte multe ori nu.. Fii ironică, dacă vrei, dar înțelege-mă dacă poți. E și asta o voluptate: să nu iubești. E mai simplu. E mai sigur.</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Nu știu, zău, ce să cred despre dumneata.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Crede că sunt un îngâmfat, un vanitos, un închipuit, un prost-crescut, un imbecil… crede toate astea și dă-mi mâna.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și te mai lauzi că l-ai bătut!... Așa adversar, așa victorie. Bravo, Jeff!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu te cheamă Jeff?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Pentru dumneata, nu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Sigur. Iar n-ai batistă.</p>
+            <stage>(O scoate pe a ei din buzunar, îl șterge pe frunte, pe obraji. El se lasă ca un copil bosumflat. Moment de tăcere încurcată.)</stage>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Mulțumesc. Am făcut astăzi una cu dumneata, și mi-e de ajuns.</p>
+            <stage>(Iese ostentativ prin fund, dreapta.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Am rămas fără partener.</p>
+            <stage>(Strigă:)</stage>
+            <p>Domnu’ Bogoiu!…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Atunci, domnule maior, cu tot regretul, trebuie să recurg la dumneata. Hai.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Iar, frate?... Abia mă așezai.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu-i nimic. Te antrenezi.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar nu e o glumă.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Eu am șaisprezece ani…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cei mulți înainte.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pentru că?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Cine „el”?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Știți prea bine. El.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu are nume?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Are, dar eu nu pot să-l spun.</p>
+            <stage>(Gata să plângă:)</stage>
+            <p>Nu pot, nu vreau.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Uită-te la mine.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu vrei să te uiți la mine?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pe tine.</p>
+            <stage>(Îl sărută pe obraz.)</stage>
+            <p>„El”! Dar el n-are timp de noi, Jeff.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Ei?</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Cutia!</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Ce cutie?</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Cutia roșie de pălării…</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Cum o să plece, dragă, că nici nu l-am plătit. Și n-a rămas și cufărul ăl mare?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dumneavoastră… pe cine căutați?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Dumneata ești domnișoara Weber.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Noi pe dumneaei o căutam.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pe care „dumneaei”?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Pe domnișoara Weber.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Care domnișoara Weber?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>A, sunt mai multe! Păi, pe una din ele.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Pentru cameră.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce cameră?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Camera…</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Camera de la jurnal…</p>
+            <stage>(Își deschide poșeta și scoate de acolo o coupură de ziar, pe care o citește:)</stage>
+            <p>„Vila Weber. Județul Ciuc. Gara Gheorghieni. Lângă Ghilcoș. Poziție admirabilă în pădure. Pensiune completă, 180 de lei pe zi. Adresați domnișoara Weber.”</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Și nimic. Am venit</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vino un moment, te rog.</p>
+            <stage>(Către cei doi :)</stage>
+            <p>Ați venit… ca să stați…</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Că n-om fi venit ca să plecăm.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Au venit.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cum au venit?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Au venit să stea aici.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Aici, la noi?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da, în pensiune.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu se poate.</p>
+            <stage>(Face un pas spre cei doi.)</stage>
+            <p>Dumneavoastră pe cine căutați?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Am mai spus o dată: pe domnișoara Weber.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu există.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Cum nu există, dom’le, cum nu există? Mă rog, pensiunea Weber…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>, Nu-i aici.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Da’ unde-i?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Habar n-am.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Ia ascultă, tinere, dumneata îți bați joc de noi? Ce? Noi nu știm pe ce lume umblăm?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>N-am luat noi automobilul de la Gheorghieni, că zicea că autobuz nu mai este până mâine dimineață?</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Și nu ne-am tocmit cu trei sute de lei pân-aici?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Și nu ne-a zis șoferul că-i aici, sus, între brazi?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei, și dacă scrie? Ce, dumneata crezi tot ce scrie? Dac-o scrie afară Karlsbad, înseamnă că aici e Karlsbad?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Ba strig, domnule, strig.</p>
+            <stage>(Se îneacă, tușește.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Nu te calma, Costache!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vai de mine! I se face rău. Apă, apă!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Astmă. E astmatic, săracul.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>STEFAN</speaker>
+            <p>E astmatic și vine la munte Moarte sigură.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Costache! Scoal’ d-acolo! Scoal’ d-acolo n-auzi?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>M-ați chemat?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Căpitane, sunt doi pasageri clandestini pe vapor.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ăștia.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Te faci că nu ști? Adă-ncoa bilete. Să le văd.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Și cine ești dumneata?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Voiajezi fără bilete și mă mai întrebi cine sunt. O să vezi dumneata cine sunt eu.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Ba, pardon. Nu voiajăm fără bilete. Biletele le am eu. Sunt aici</p>
+            <stage>(Își deschide poșeta – o poșetă imensă – în care scotocește un timp, și scoate, în fine, două jumătăți de bilet de tren.)</stage>
+            <p>Poftim.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Cum să nu fie bune, păcatele mele? Noi plătim jumătate de preț, ca dumnealui e funcționar la Regie. Uite și carnetul</p>
+            <stage>(Scoate un carnet de identitate, pe care i-l întinde, dar la care Bogoiu nici nu se ostenește să se uite.)</stage>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu-s bune, madam. Astea-s de tren.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Păi da’ de ce să fie?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>De vapor.</p>
+          </sp>
+          <sp who="#cucoana">
+            <speaker>CUCOANA</speaker>
+            <p>Costache!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Dumneata ești domnișoara Weber?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Atunci, ce te-amesteci?</p>
+            <stage>(Continuă să țipe.)</stage>
+            <p>Weber! Weber!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce e nou, Jeff?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>A auzit voci și a vrut să coboare. Am încercat s-o opresc, n-a vrut și… am închis-o. Uite cheia.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dă-o-ncoa.</p>
+            <stage>(Către cei doi intruși:)</stage>
+            <p>Așa. Și acum să stăm liniștiți de vorbă.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Rău faci. Ascultă-mă. Ascultați-mă. Dumneavoastră vreți s-o vedeți pe domnișoara Weber? N-o s-o vedeți. Nu e. Nu mai e. O să strigați. O dată, de două ori, de nouă ori. Și n-o să vie. Vedeți, cheia asta? E de la odaia ei.</p>
+            <stage>(Pune cheia în buzunar.)</stage>
+            <p>Cred că înțelegeți.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A! Știu ce o să spuneți. Că, țipând, v-ar putea auzi cineva. Un vecin… un jandarm…</p>
+          </sp>
+          <sp who="#șțefan">
+            <speaker>ȘȚEFAN</speaker>
+            <p>Eroare, domnul meu. Profundă eroare. Ziceați că ați venit cu automobilul. Mă rog, ați văzut dumneavoastră pe tot drumul, până aici, o casă?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>O singură casă?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Un bordei?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>N-ați văzut. Și de unde să vedeți daca nu e?!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Suntem singuri. Absolut singuri. Până la Ghilcoș, paisprezece kilometri.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Până la Gheorghieni, treizeci și șase.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cine să vă audă până acolo?</p>
+            <stage>(Domnul și Cucoana ascultă consternați, reduși la tăcere de „logica faptelor”.)</stage>
+            <p>Prin urmare, nu e mai bine să stă cuminte de vorbă? O să ne înțelegem. Ia dumneata loc.</p>
+            <stage>(Îl ia pe Domn și-l duce din nou pe șezlong. Domnul se lasă greu, dar nu rezistă propriu-zis – mai ales Corina fiind lângă el și ajutându-l, cu multe menajamente, să se așeze.)</stage>
+            <p>Și dumneata…</p>
+            <stage>(Îndreptându-se spre Cucoana:)</stage>
+            <p>Dumneata aici…</p>
+            <stage>(Se duce la șezlongul lui, îl apropie de cel care șade Domnul și pe urmă continuă, cu gravitate:)</stage>
+            <p>Doamnă! Nu știu dacă vă dați seama de importanta gestului meu. Dumnealor mă cunosc și mă vor înțelege.</p>
+            <stage>(Arătând-o pe madame Vintilă:)</stage>
+            <p>Dumneaei mai ales. Scaunul acesta este al meu.</p>
+            <stage>(Magnanim:)</stage>
+            <p>Vi-l ofer, Da. Vi-l ofer. Ședeți.</p>
+            <stage>(Cucoana l-a urmărit buimăcită de locvacitatea lui. Se apropie timidă – e primul ei moment de timiditate – și ia loc cu un sentiment de nesiguranță.)</stage>
+            <p>Da, da, puteți ședea. Așa… Și acum, prietenește – da’ știți? – prietenește: ce căutați dumneavoastră aici?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Aici… în pustietatea asta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De ce nu va duceți la Borsec, că-i apă gazoasă?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce nu vă duceți, la Sovata, că-i muzică militară?</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>De ce nu la Sinaia, că-i ruletă?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>De ce nu la mare?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>De ce nu la șes?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>De ce nu la deal?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da’ aici? Ce să vedeți aici?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Sau ați fi venit să-l vedeți pe dumnealui</p>
+            <stage>(îl arată pe Maior)</stage>
+            <p>cum prinde pești? V-ați ars. Nu prinde niciunul. Vă spun eu.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Sunt, dar cine i-a văzut?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Se putea, nene? E jos în automobil.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Cum de ce? Ca să pescuiesc.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Să pescuiești, ce?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Pești.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Peștii mei?!</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Peștii lui?!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vedeți? Și doamna e de aceeași părere. Să discutăm civilizat. Așadar… dumneavoastră n-ați vrea să plecați de aici?</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Nici mort.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Păcat… Păcat, fiindcă dacă nu plecați singuri, o să fim siliți să vă expulzăm.</p>
+            <stage>(Explicând:)</stage>
+            <p>Să vă dăm afară. Și cu cât întârziați, cu atât e mai neplăcut. Vedeți? Se înserează.</p>
+            <stage>(Într-adevăr, lumina a început să scadă.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Se face frig.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>O s-o vezi. Ascultați-mă pe mine: o s-o vezi. Dumneatale nu știi ce te așteaptă. Întreabă-mă pe mine. Întâi și-ntâi îți ia creta.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Care cretă?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Creta. Pe urmă… Vezi cravata asta?</p>
+            <stage>(Îi ia cravata în mână și o pipăie.)</stage>
+            <p>Frumoasă, n-am ce zice. Frumoasă da’ ți-o ia. Și pantalonii…</p>
+            <stage>(Pipăie stofa pantalonilor.)</stage>
+            <p>Tii! Teribilă, dom’le! N-are moarte. Stofă englezească! Ți-i ia și pe ăștia.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Și să te-ntreb și eu ceva…</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>Nu era nevoie… se vede…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Noi, ăștia, câți suntem aici, avem fiecare scrânteala noastră, mica noastră scrânteală. Și s-a potrivit să ne înțelegem destul de bine. Nu de la început.</p>
+            <stage>(Către Ștefan:)</stage>
+            <p>Nu e așa că nu de la început?</p>
+            <stage>(Din nou către cei doi:)</stage>
+            <p>Acuma însă facem un fel de familie… o echipă… un joc… E un joc pe care n-o să știți niciodată să-l jucați. Pentru că… voi veniți direct de la București. În timp ce noi… noi picăm puțin din lună.</p>
+            <stage>(Domnul și Cucoana au rămas pironiți, la dreapta și la stânga Corinei. Se privesc peste capul ei cu o mirare în care licărește parcă un început de înțelegere. Par a-și spune: „nu vezi că cu ăștia nu e nimic de făcut?”)</stage>
+            <p>. Nu spuneți nimic. Nu e nevoie. Ați înțeles. Știu, simt că ați înțeles… Poate că trebuia să vă vorbim așa de la început. Ce vreți? Ne-ați speriat… Când v-am văzut intrând, ni s-a părut că tot jocul nostru se sfârșește… că se sfârșește prea devreme… Dar acum… fiindcă ați înțeles, o să vă duceți.</p>
+            <stage>(Îi ia și pe unul, și pe altul de braț și merge cu ei spre stânga, pe unde au intrat.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vă așteaptă jos o mașină. Fără nicio grabă sunteți într-un ceas și jumătate la Gheorghieni.</p>
+            <stage>(În timp ce vorbește, Domnul și Cucoana își ridică valizele, pledurile, pachetele pe care le lăsaseră jos, la intrare.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Se înserează și e senin.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O să aveți un drum minunat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce bun e pledul ăsta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vă înveliți bine și nici nu știți când ați ajuns în oraș.</p>
+            <stage>(Cei doi și-au luat toate bagajele, așa cum au intrat prima dată, în scenă. Se retrag puțin buimăciți, cu fața spre grup, privindu-i pe toți lung.)</stage>
+            <p>N-ați uitat nimic? Ba da. Ați uitat să ne spuneți bună seara.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>E, da’ e cam lung. O zi și jumătate.</p>
+          </sp>
+          <sp who="#domnul">
+            <speaker>DOMNUL</speaker>
+            <p>O zi și jumătate. Care va să zică, azi avem joi, 12… Dacă plecăm diseară…</p>
+            <stage>(Vocea Cucoanei din culise: „Costache!”)</stage>
+            <p>Vin, soro, vin…</p>
+            <stage>(Iese din scenă.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Ce e la 15?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Păi ce să fie… Ministerul… Serviciul… Se termină vacanța… Trebuie să plec… Lumina aia galbenă de la birou… Mirosul de hârtie veche…</p>
+            <stage>(Tresărind, aproape violent:)</stage>
+            <p>Eu nu plec. Rămân. Fie ce-o fi, rămân.</p>
+          </sp>
+          <sp who="#maiorul">
+            <speaker>MAIORUL</speaker>
+            <p>Ba o să pleci. Toți plecăm. Azi unul, mâine altul… Cum trece vremea, domnule… Și când mă gândesc că mă-ntorc acolo…</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>Și alții, pe care ai să-i vezi mereu, întotdeauna…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>De… dacă știam… Acuma… să uităm și noi…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dacă putem… E mai greu de uitat…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu e greu.. Uite, o să mergem la masă și să vezi cum uităm. Nu mergem la masă?</p>
+          </sp>
+          <sp who="#madame vintilă">
+            <speaker>MADAME VINTILĂ</speaker>
+            <p>S-a făcut răcoare. Mă duc să mă schimb și viu și eu.</p>
+            <stage>(Iese)</stage>
+            <p>.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>O să țipe.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O s-o-mpaci. Faceți un tabinet, o lași să câștige, și se-mpacă ea.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ești glumeață.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. Întreb cu toată seriozitatea în câte e azi?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu-ți spune nimic data asta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nimic. Cel, puțin nimic special. E o aniversare?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Gândește-te bine!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Kleine Nachtmusik… Salzburg…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Niciun „Ooo”! Avem un pact și cer să-l respecți. Recunoaște că de când am reparat aparatul de radio, nu l-am pus niciodată să cânte. Așa era învoiala. Uite, l-am lăsat, săracul „la colț”. Dar acum…</p>
+            <stage>(Ia aparatul de radio și-l ridică cu destulă greutate, încercând să-l ducă spre măsuța lui obișnuită.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Prin Viena.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu vă oblig să rămâneți aici. Vă puteți duce la masă.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Foame nu mi-e, și după o zi așa de agitată, nimic mai bun decât un ceas de șezlong. Fie și muzical, dacă nu se poate altfel.</p>
+            <stage>(Fiecare se așază pe câte un șezlong. Între timp, Jeff a continuat să caute postul Viena. S-au auzit diverse zgomote și țârâituri, iar acum se aude destul de clar tic-tacul obișnuit al postului Viena.)</stage>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Oprește Jeff. Aici e, Viena. Recunosc semnalul.</p>
+            <stage>(Se uită la ceas.)</stage>
+            <p>Trebuie să înceapă curând. În câteva minute. Vino aici. &lt;/didascalie&gt; (Jeff a rămas lângă aparatul de radio și îi privește de sus, din umbră, pe amândoi.) &lt;/didascalie&gt;  Nu vii?</p>
+            <stage>(Tăcere.)</stage>
+            <p>Nu vrei să vii, Jeff?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Eu zic să vii. Am citit undeva că între muzică și matematică există legături foarte strânse. Or, dumneata, Jeff, care ești cel mai eminent corigent la matematici pe care l-am cunoscut vreodată…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce ai cu el?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nimic.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Mie mi-e drag.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și mie.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Atunci, de ce-l repezi?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pentru că așa se vorbește între bărbați. Scurt. Fără mofturi… L-ai văzut când joacă cu mine ping-pong? Simt că fiecare minge, pe care mi-o trimite e un pumn. Are șaisprezece ani. În fundul inimii lui, îmi e recunoscător că mă port cu el ca și cum ar avea douăzeci și cinci.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar ești prea aspru.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E felul meu de tandrețe. La șaisprezece ani, e singurul fel de tandrețe care se suportă bine.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu poți să-l suferi.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mi-e foarte drag. Întâi… întâi pentru că e corigent… Nu râde. Am un sentiment de familie pentru toți corigenții din lume. Și eu am fost pe vremea mea… Și sunt și astăzi…</p>
+            <stage>(Tăcere.)</stage>
+            <p>Pe urmă… mi-e drag pentru că te iubește. În felul lui. Cu pumnii strânși. Încruntat. Cred că nu știi cum te iubește. Și nici nu trebuie să știi. Nu ți-ar ierta-o…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Îl cunoști bine?</p>
+            <stage>(Întrebarea nu e apăsată. Ea trece mai departe. Visează altceva.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Destul de bine. L-am mai întâlnit o dată, mai demult. Acum vreo douăzeci de ani. Nu s-a schimbat prea tare. Aceeași privire care trece înaintea cuvintelor. Aceeași frunte care se deschide singură – ca o fereastră – când totul ar voi să se închidă, să se refuze… Și un fel de tăcere bruscată, colțuroasă, de care se lovesc gesturi și cuvinte… Gesturi pe care nu le va, duce niciodată până la capăt… Cuvinte pe care niciodată nu le va spune pe de-a-ntregul.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu nu l-am cunoscut, dar l-am așteptat. L-am așteptat mereu, în toți oamenii pe care i-am întâlnit… în acei câțiva, foarte puțini, pe care mi se părea că-i iubesc. Îmi ziceam: nu-ți pierde răbdarea. Are să vină. Așteaptă. Este poate sub încruntarea asta care te rănește, este poate sub această indiferență, sub această uitare… Așteaptă. Are să vină.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și când vine, nu-l vezi. Și când vorbește, nu-l auzi.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și când îl vezi, el trece mai departe. Și când îl auzi, el a tăcut.</p>
+            <stage>(După o tăcere:)</stage>
+            <p>Ștefan!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Daa.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Mi-a frig.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>La munte, nopțile sunt reci.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Este în hol, pe divan, un șal – șalul meu albastru.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E o informație asta?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. E o rugăminte.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu așa, dragul meu. Învelește-mă.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mă exploatezi.</p>
+            <stage>(O acoperă cu șalul pe picioare, pe urmă se întoarce la locul lui și se întinde în șezlong.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ba da… ca prin vis. Ciudat. Am sentimentul că dorm, că dorm profund. Și chiar dacă-ți mai este frig, n-am să mă pot ridica de aici, să mai caut un șal.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ștefan… Vreau să te sărut.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E o rugăminte?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. E o informație.</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ai spus ceva?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>A mai căzut încă una. E a șaptesprezecea. Ieri au fost unsprezece. Alaltăieri cinci.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vrei să le numeri pe toate?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Aș vrea! Sunt așa de multe, că mi-ar trebui o eternitate… Ștefan!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pot să spun o prostie?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Te rog. Nu te jena.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu până acum nu văzusem niciodată cum cade o frunză. Credeam că se rupe și cade.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ai intuiții miraculoase, Corina. Închipuiește-ți că într-adevăr asta e singura metodă a frunzelor de a cădea: se rup și cad. Mă epatezi.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și tu mă epatezi, dragul meu. Prin ignoranță. Nu știi, nu bănuiești câte gesturi mărunte sunt într-o cădere de frunză…</p>
+            <stage>(Tăcere.)</stage>
+            <p>Optsprezece…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Zic, optsprezece. A optsprezecea frunză de azi-dimineață.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Corina!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Te plictisești?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da, dragul meu. Mă plictisesc. Mi se întâmplă prima oară în viață – și e delicios.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Eu te plictisesc?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da, dragul meu. Mă plictisești – și n-am să te uit niciodată din cauza asta… Hm! E curios poate: eu n-am cunoscut până acum decât numai oameni amuzanți. Tu ești primul care nu mă amuză.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mă flatezi, Corina.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu, nu – sunt foarte sinceră. În prima zi când ne-am vorbit, țiu minte că mi-ai spus: „Eu sunt un tip terre-à-terre: plat”. Credeam că te lauzi, dar nu te lăudai. Ești într-adevăr foarte terre-à-terre, Ștefan. N-ai vervă. N-ai fantezie. Și taci. Taaci! Tu ești primul om din viața mea care tace.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sunt primul care te iubește, Corina.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>În momentul ăsta, nu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ai dreptate, acum nu. Am gust de vorbă, dar o să-mi treacă. De obicei însă, fii loial, Ștefan, și recunoaște: am învățat să tac. Mă mir și eu uneori când mă surprind tăcând. Nu mă recunosc. Mi se pare că ani de zile am trăit într-un vacarm, și că a încetat dedată. Era vacarmul meu personal, erau gesturile mele, pașii mei, mâinile mele, care se agitau… Eram plină de gesturi, ca un pom plin de vrăbii…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dacă nu mă înșel, e o imagine.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da, dragul meu. Iartă-mă. N-am să mai fac. Dar lasă-mă s-o termin pe asta: tot am început-o. Ziceam: ca un pom plin de vrăbii Ai venit tu, le-ai speriat și s-au dus. Acuma, uite-mă aici, fără gesturi, fără vorbe…</p>
+            <stage>(Tăcere. Își duce mâna la ureche ca și cum ar asculta bătaia unui ceas de mână.)</stage>
+            <p>Îl auzi?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pulsul.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu îl aud. E ciudat cum nu l-am auzit douăzeci și cinci de ani… Ș-acuma îl aud. Sunt atâtea lucruri pe care nu le știam… Din câte voci mici e făcută o mare tăcere… Ștefan, tu le auzi?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce să aud?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vocile.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Una singură, Corina: pe a ta.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu am mai multe, dragul meu. Abia aici le-am descoperit. Vocile mele interioare…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Trebuie să fie un scandal când vorbesc toate-deodată…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. Se înțeleg destul de bine între ele…</p>
+            <stage>(Tăcere.)</stage>
+            <p>Nouăsprezece. A căzut a nouăsprezecea frunză.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Înseamnă pe hârtie, să nu le uiți.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nouăsprezece într-o singură dimineață; nu e mult? Vine toamna. Mi se pare că a și venit. E o pată roșcată pe Hășmașul Mare. Ieri era mai palidă, azi-dimineață mai aprinsă… Septembrie…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Încă nu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba da. Două zile, trei zile, și pe urmă…</p>
+            <stage>(Tăcere.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cum te-ai schimbat, Corina! Ești tu fata pe care am întâlnit-o aici, pe terasa, acum douăzeci și… câte zile?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu, le-am numărat. Mai târziu o să le vină și lor rândul. Acuma sunt ocupată cu frunzele.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ești tu? Aveai un surâs scurt, bătăios. Unde e? Grava mea iubită!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Mai spune odată.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>„Grava mea iubită”.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Îți place?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Mă surprinde. Nu credeam că voi putea fi o iubită gravă.</p>
+            <stage>(Încercând să glumească.)</stage>
+            <p>Nu era genul meu… gravul meu domn. Necunoscutul meu domn.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce vrei să spui?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu nu vreau să spun nimic. Cel mult aș vrea să întreb.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Întreabă.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar să nu râzi.</p>
+            <stage>(Se ridică de la locul ei: cu o foarte mare simplicitate, fără și sconteze niciun efect:)</stage>
+            <p>Ștefan, cine ești tu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu m-am prezentat?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Te-am rugat să nu râzi. Cine ești? Ești un domn bun cu un șezlong și cu câteva manii simpatice de vacanță. Și pe urmă? Și mai departe?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai departe…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da. Știu cine ești în august. Dar în septembrie, cine ești?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei bine, Corina, în septembrie și în octombrie, „mai departe”, cum zici tu…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ștefan.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vrei să faci un lucru oribil.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vrei să răspunzi.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>M-ai întrebat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>N-am întrebat nimic.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Corina…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>N-am întrebat nimic. Nu vreau să-mi spui nimic.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Totuși…</p>
+          </sp>
+          <sp who="#corwa">
+            <speaker>CORWA</speaker>
+            <p>Te rog, Ștefan, te rog, taci. Tu, care știi să nu taci așa de bine, taci și de astă dată. Nu te întreb, nu-ți cer, nu vreau, nu mă interesează…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Corina, ce înseamnă copilăria asta? Liniștește-te.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Lasă-mă, te rog, lasă-mă. Sunt zăpăcită. Nu știu ce spun. Nu știu ce întreb. Nu întreb nimic. Lasă-mă singură, cinci minute, două minute.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dar nu se poate. Dar trebuie să-mi explici.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Las’, că știm noi. Nicio vină. N-o să-mi spui mie că duduia s-a legat de dumneata.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Zău, domnule căpitan.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nimic. Te rog să fii la docul dumitale. Să nu mă silești să chem echipajul.</p>
+            <stage>(Ducându-l puțin de spate:)</stage>
+            <p>Hai, du-te-n cabină și lasă-ne singuri!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Trist?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu! Trist nu. Dar serios. Mai serios decât credeam la început.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Pe vaporul meu, domnișoară Corina, se întâmplă numai lucruri serioase.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Crede-mă, când am venit aici eram foarte departe de tot ce avea să se întâmple. Lăsasem acasă o iubire… un fel de iubire.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Daa… Civitavecchia… O! nu mare lucru… Câteva obișnuințe, câteva amintiri… Venisem aici bucuroasă că sunt singură și că le pot uita… Totul era așa de simplu: dumneata, maiorul, Jeff… Până când a venit el… Ții minte seara în care au fost pasagerii clandestini?… În Seara aceea…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Știu.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Da, știu. Eu știu tot ce se petrece pe vaporul meu. Iartă-mă. Nu sunt indiscret, dar e datoria mea. Am știut din prima zi. Cred că am știut înaintea dumitale și înaintea lui.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Vezi, la început încă nu era prea grav. O întâmplare de vacanță. O mică întâmplare de vacanță. Dar pe urmă… Nu întreba cum… n-aș ști să-ți răspund. Așa cum se face toamna. Așa cum descrește ziua. Fără să prinzi de veste, fără să știi când. L-am iubit. Credeam că e un joc ușor de vară. Bag de seamă că e mai mult, că amenință să fie mai mult decât un joc. Dumneata, domnule Bogoiu, care ești un bătrân căpitan de vapor…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ei, nu chiar așa de bătrân.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>…ai cunoscut poate multe întâmplări de felul asta… Nimeni nu le știe, decât poate căpitanul vasului, care zâmbește și uită.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Trebuie neapărat să uite?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cunosc eu un căpitan care n-ar voi…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și eu cunosc o fată, care nici ea n-ar voi… Adineauri, când ai intrat aici, era să fac o prostie. O mare prostie. Era să-i spun tânărului domn întâlnit într-o dimineață de august, pe puntea vaporului dumitale, era să-i spun că, deși ne apropiem de port, eu la debarcader nu mă voi despărți. Era să-i spun că iubirea mea nu este un joc și că nu vrea să fie de pe acum o amintire. Era să-i spun…</p>
+            <stage>(Tăcere, apoi o schimbare de glas:)</stage>
+            <p>Domnule Bogoiu, eu plec.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Cum pleci? Unde pleci?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Plec, la București. Acasă.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Când?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Astăzi. Acum.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nu se poate.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba da. E mai bine așa. E simplu.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Domnișoară Corina, nu te las.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Domnule Bogoiu, te rog, înțelege. Înțelege și nu-mi cere explicații. O să-mi ceară el destule.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Dar e o prostie ce vrei să faci.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. E un lucru cuminte. E poate primul lucru cuminte pe care-l fac de când mă știu. Nu mai pot rămâne. Nu mai trebuie să rămân. Haide, domnule Bogoiu, dă-mi o mină de ajutor, dă-mi puțin curaj. Am nevoie. Azi e duminică. Zi de târg la Sîn Dominic. Mai târziu trebuie să treacă, pe la prânz, camioneta O.N.E.F.-ului, de la Borsec. O să-i facem semn. O să mă ia și pe mine…</p>
+            <stage>(Cu bruscă deschidere de expresie:)</stage>
+            <p>Ții minte duminica trecută, la Sîn Dominic… Era o nebunie: în costume de baie pe străzi; era o nebunie. Cum se uitau unguroaicele tinere la noi, speriate… Să nu pierzi pipa pe care ți-am cumpărat-o de-acolo.</p>
+            <stage>(Bogoiu scoate din buzunar o pipă, arătând-o demonstrativ.)</stage>
+            <p>E proastă, săraca. E urâtă, săraca. Dar e de la Sîn Dominic…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Domnișoară Corina!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. Un căpitan, domnule Bogoiu, nu-și părăsește niciodată vaporul.</p>
+            <stage>(Se urcă pe scară.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Da, Jeff.</p>
+            <stage>(Îi pune ușor o mână pe umăr.)</stage>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Ca pe apă. La algebră, douăsprezece pagini: ecuațiile de gradul al doilea.</p>
+            <stage>(Se oprește, se uită drept în ochii ei, așteptând un cuvânt de aprobare.)</stage>
+            <p>N-am lucrat bine?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ba da. Ai fost harnic.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Știți, am făcut mai mult decât mi-ați însemnat dumneavoastră. Vedeți</p>
+            <stage>(îi arată pe carte:)</stage>
+            <p>era însemnat numai până aici… Eu am făcut și…</p>
+            <stage>(Pentru că ea tace, el are impresia că se îndoiește de spusele lui. Îi întinde cu un gest brusc cartea deschisă.)</stage>
+            <p>Dacă nu credeți, puteți să mă ascultați.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Te cred, Jeff.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Atunci, după masă la patru…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Domnișoară Corina, mi-ați promis. Eram înțeleși. Dacă termin într-o săptămână până unde ați făcut semn, atunci duminică după masă, la patru veniți cu mine pe lac, numai cu mine, numai noi doi, și vâslesc eu. Mi-ați promis…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>După masă nu se poate. Nu se mai poate.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Jeff, te-am rugat de atâtea ori să nu mai spui așa: „el”.</p>
+            <stage>(Pauză. Pe urmă cu o voce care încearcă să fie fără emoție:)</stage>
+            <p>După masă… nu mai sunt aici.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Pleacă.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Când? De ce?</p>
+          </sp>
+          <sp who="#corâna">
+            <speaker>CORÂNA</speaker>
+            <p>Plec chiar acum. Înainte de prânz. De ce?</p>
+            <stage>(Ridicare din umeri.)</stage>
+            <p>Am primit o veste de la București.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Ce veste? Când? Poșta n-a trecut. Telefonul n-a sunat. De ce glumiți cu mine? V-am rugat de atâtea ori să nu glumiți cu mine.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Pe mine, băiete, să nu mă întrebi nimic. Nu știu nimic. Nu pricep nimic.</p>
+            <stage>(În momentul acesta intră Ștefan. Jeff îl zărește, îl fixează intens și pe urmă izbucnește.)</stage>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Din cauza ta…</p>
+            <stage>(Iese alergând și trântind cu violență ușa.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Trebuia să meargă după masă cu el pe lac, și acuma… și acuma, cică nu mai merge.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Foarte rău. De ce nu merge?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Capricii. Capricii cu Jeff! I-am spus că nu se cochetează cu un copil ca el. Bietul băiat!</p>
+            <stage>(Pauză.)</stage>
+            <p>Nu știu ce e cu Corina. Nu înțeleg ce are. Ai văzut adineauri… Vorbeam foarte calm amândoi. Deodată, din senin lacrimi în ochi, palidă, gata să plângă… Nu o recunosc. Ea, care de obicei este așa de simplă, așa de deschisă… Dacă n-ai fi intrat dumneata nu știu ce ar fi făcut. Era într-un hal de nervi… Într-adins v-am lăsat împreună. I-ai vorbit?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cam puțin. Daa… Dee… Ce spune?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și altceva?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nici eu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Domnule Bogoiu… Explică-mi.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Da’ mai lăsați-mă, pentru Dumnezeu, mai lăsați-mă. Da’ ce vină am eu? Da’ cine sunt eu? Pe toate, să le explic. Pe toți să-i consolez. Da’ mie cine-mi explică? Și pe mine cine mă consolează?</p>
+          </sp>
+          <sp who="#bogqiu">
+            <speaker>BOGQIU</speaker>
+            <p>Da. S-a întâmplat.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu știu ce vrei și nici nu mă interesează. Văd ce vorbești și mi-e de-ajuns. (E lângă șezlongul lui. Bate cu degetul în speteaza lui de lemn, cum ar bate pe un om pe umăr.) Mi se pare că o să mă întorc la ăsta. E mai sigur… și n-are mistere… și nu se enervează.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Eu.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Mă ierți?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Acum…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Erau în odaia mea. Le și uitasem. Am dat de ele adineauri făcându-mi valiza.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce valiză, Corina?</p>
+            <stage>(O privește întrebător, ea își îndreaptă de asemenea ochii asupra lui, dar nu-i suportă privirea și înclină ușor capul, eschivându-se.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ștefan… eu plec.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sigur că pleci. Plecăm cu toții. Azi e duminică, joi e întâi, miercuri seara plecăm.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu miercuri. Astăzi.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. Nimic. Plec.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Corina!…</p>
+            <stage>(O apucă de mâini.)</stage>
+            <p>Uită-te la mine. Ce palidă ești azi! Ce obosită pari! Iartă-mă. Sunt un monstru. Un monstru de indiferență. Ar fi trebuit să văd singur. Înaintea ta. Sigur, ai dreptate. Nu mai poți rămâne aici. Dar înțeleg… E prea pustiu, prea multă tăcere, prea multă singurătate. Eu rabd foarte bine. Sunt obișnuit. Sunt antrenat. Dar tu…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar nu e asta…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ba da, ba da. Văd foarte bine. Ți-am spus-o și azi-dimineață. Te plictisești. Lasă nu protesta. Nu e o rușine. Ai nevoie să umbli pe o stradă, să vezi lume, să auzi un clopot de tramvai, să te oprești la o vitrină. Cu ce entuziasm te uitai săptămâna trecută la bietele vitrine de la Sîn Dominic! Parcă erai un copil într-o prăvălie de jucării. Ar fi trebuit să înțeleg de-atunci.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar te înșeli…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu mă înșel de loc și te asigur, n-ai niciun motiv să te ascunzi. Ai dreptate, e și asta o bucurie, să umbli pe o stradă cu lume multă, să vezi lumini de oraș, să auzi zgomote de oraș, după ce patru săptămâni n-ai auzit decât greierii țârâind și n-ai văzut decât norii trecând. Uite, și eu sunt fericit – m-auzi? – fericit că mă întorc. E adevărat, mi se părea că încă două-trei zile am mai putea aștepta. Dar nu. Îmi dau seama că e prea mult Plecăm. Plecăm imediat.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu „plecăm”. Plec. Singură.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Singură? Cum singură? De ce singură?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Înțeleg. Telefonul!</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar nu… Nu e nici un domn… Și puțin îmi pasă de el…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Îți pasă așa de puțin, că la primul lui semn alergi. Domnul a terminat cu Mediterana. E azi la Piure, mâine la Constanța, marți la București. Trebuie să fii în gară, pe peron, să-l aștepți, să-l primești, să-l săruți – sărutul de întoarcere.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ștefan, ești stupid.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sunt stupid pentru că înțeleg.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ești stupid pentru că vrei să înțelegi. Nu e nimic de înțeles. Nu e nimic de întrebat.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Așa credeam și eu: ca nu-i nimic de întrebat. Telefonul acela care venea, nici astăzi nu știu de la cine… nici astăzi nu știu de unde… Dintr-o lume care aveam impresia că nu există.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Eram convins că ceea ce se întâmplă aici, între noi doi, este mai adânc și mai grav decât tot ce lăsaseși în urmă. Și de aceea nici nu mă interesa, și de aceea nu întrebam. Dar m-am înșelat. Cumplit: ca un imbecil, ca un licean, ca un începător. E de ajuns să te cheme, pentru ca să fugi și să lași totul aici, ca și cum n-ar fi fost decât o glumă, ca și cum n-ar fi fost decât un joc.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Dar un joc a fost, Ștefan… Jocul de-a vacanța. L-ai uitat așa de repede? Tu m-ai învățat să-l joc și tocmai tu îl strici! Ce artă ai tu să înveți pe alții jocuri, pe care pe urmă le pierzi! (Încercând să surâdă:) Așa a fost și cu ping-pongul. Ții minte? Tu mi-ai pus racheta în mână și după trei zile ai pierdut. Ești un profesor prost sau poate că sunt eu o elevă prea bună…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Totuși, nu poți pleca așa, Corina. Ce știu eu despre tine?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Ce-ai zis? Ce știi tu despre mine?</p>
+            <stage>(Îl sărută.)</stage>
+            <p>Știi asta.</p>
+            <stage>(Îl sărută iar.)</stage>
+            <p>Și asta. Și multe altele. Știi totul.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și nu știu nimic.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Întocmai. Știi totul și nu știi nimic. Mai mult decât totul și mai puțin decât nimic nu se poate. Ce mai vrei?</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pentru că trebuie. Pentru că se sfârșește. Pentru că mă întorc.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Unde? Lângă cine?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>O lași să plece? N-o lăsa. Numai dumneata poți s-o oprești, dacă vrei.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cred că nimeni nu poate s-o oprească. Și mi se pare că nici nu trebuie.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Pentru că n-o iubești.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ca tine, Jeff, nu. Nimeni nu iubește ca tine.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>N-o lăsa să plece. Uite… poate te supără că trebuie să meargă cu mine singură pe lac. Renunț. Dar n-o lăsa să plece. Știu, m-am purtat rău cu dumneata. Nu-mi pare rău și nu-ți cer scuze. Dar dacă te răzbuni, răzbună-te altfel.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu te-ai purtat rău cu mine. Te-ai purtat dârz. Ca un camarad. Suntem doi camarazi, Jeff. Noi, când vorbim, ne privim în față.</p>
+            <stage>(Jeff, care până acum avea ochii în pământ, îi ridică asupra lui Ștefan.)</stage>
+            <p>Dacă n-ai fi așa de tânăr, aș spune „doi bătrâni camarazi”. Fiindcă într-adevăr te cunosc foarte de mult.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Eu pe dumneata, nu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și răspunsul ăsta îl cunosc.</p>
+            <stage>(Face un pas spre el. Jeff tace cu încăpățânare.)</stage>
+            <p>Jeff, mă tem că nu mai e nimic de făcut. Ne părăsește… Acum, că rămânem singuri, e timpul să facem pace.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Niciodată.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu spune vorbe mari. Gândește-te că vine seara. Că ea n-o să mai fie aici. Și că amândoi – și tu, și eu – o să avem nevoie să stăm de vorbă despre ea. O să mă găsești colo la masă, lângă lampă, citind… Încercând să citesc… Serile sunt lungi, băiatule, și seara asta va fi foarte lungă… O să-ți dau o pipă și o să fumăm împreună. Tutunul e cam tare pentru tine, dar nimic nu e mai bun decât o pipă tare, într-o seară ca asta. Și ca să ne treacă de urât, o să rezolvăm ecuații de gradul al treilea, în amintirea ei.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>În amintirea ei… Cel puțin pe dumneata te-a iubit.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu știu. Cred că și în mine ea descoperise un Jeff din trecut. Un Jeff pe care-l pierduse… și pe care i-am ajutat să-l regăsească…</p>
+            <stage>(Tăcere.)</stage>
+            <p>Mă pricepeam destul de bine pe vremuri la ecuațiile de gradul al treilea. Cu puțin exercițiu, cred că o să-mi reamintesc. Tot ecuațiile le faceți într-a șasea?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Nu. Le-am făcut într-a cincea. Acuma facem trigonometrie și geometrie în spațiu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Stai! Poate mi-amintesc. Cos pătrat de x…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E minunat, Jeff. Au trecut douăzeci de ani și cos pătrat de x plus sin pătrat de x este tot egal cu unu. Nimic nu s-a schimbat… Parcă văd tabla mea de logaritmi. Era în franțuzește, de la Hachette, de unul Dupuis.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>A mea tot de Dupuis este.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu se poate.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Ba da. Uite-o.</p>
+            <stage>(Ridică de jos, de lângă scara, cărțile pe care le lăsase să cadă la prima ieșire din scenă a Corinei.)</stage>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Ai fost corigent?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>În clasa șasea?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>De ce nu mi-ai spus? Totdeauna am crezut că râzi de mine.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Niciodată n-am râs de tine. Tu nu vezi câte lucruri ne leagă? Corina, trigonometria, logaritmul lui Dupuis, corigența… Toate sunt astăzi neschimbate, cum au fost acum douăzeci de ani. Toate sunt la fel. Parcă am fi doi colegi de bancă.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu „dumneata”. Tu.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Tu?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da. Tu. E mai simplu. Încearcă.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Tu.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vezi?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și dumneata… o iubești?</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ba nu. Numai voi. Că eu… inimă… n-am.</p>
+            <stage>(Se așază pe unul din scaunele de nuia albă. În timp ce vorbește, Jeff și Ștefan se vor așeza și ei pe câte un scaun, la dreapta și la stânga lui, ascultându-l.)</stage>
+            <p>Nu credeam să mi se întâmple una ca asta tocmai acum, la bătrânețe… Seamănă… seamănă grozav cu o fată pe care am văzut-o eu odată, mai demult… Tot blondă… Mă-namorasem de ea, dar nu i-am spus nici un cuvânt. Nici nu puteam, că tocmai eram în călătorie. Făceam primul meu drum la Madagascar. Drum lung. Da’, ziceam, lasă, că mă-ntorc eu, și-i vorbesc, dar n-am mai găsit-o: se măritase. De-atunci n-am mai iubit pe nimeni. Era și greu. Nu prea aveam timp. Știi, mereu pe drumuri, mereu pe apă… câte fete nu mi-au zâmbit mie prin porturi… În fiecare port câte una. Uneori, eram obosit de călătorie și aș fi vrut să rămân… Da’ nu mă răbda inima: a doua zi ridicam ancora și mă duceam mai departe, singur, că, se vede, așa mi-a fost scris. Când am venit aici și am văzut-o, am tresărit. Parcă era fata mea de pe vremuri. Aș fi vrut sa-i spun: uite, m-am întors și te iubesc. Nu i-am spus nimic, se înțelege, că doar văd eu bine, mi-a trecut vremea. Da’ eram fericit că o știu pe aici, pe aproape, că pot s-o privesc și că mă ascultă când am chef de vorbă… Pe mine nu m-a ascultat nimeni niciodată ce ziceam și ce nu ziceam. Nici acasă, nici la minister. Numai ea mă ascultă…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și noi…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Voi… Dumneata, barem, când te-am văzut venind prima oară, parcă mi-a dat cu un cuțit în inimă. Sigur eram că ne-o furi. Și… ne-ai furat-o.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Lasă, lasă, că acuma totuna e. M-am obișnuit și cu asta. Ba, dacă vrei să mă crezi, într-un fel eram bucuros. Mă uitam la dumneata și-mi ziceam, că sunt eu, cu douăzeci de ani în urmă. Și dacă te săruta, ziceam că mă sărută pe mine… în trecut… Acuma… se duce. Ne lasă. Ce-o să ne facem fără ea?…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Nimeni n-o să-mi mai spună: „Bună dimineața, căpitane! Ce viteză avem?”</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Nimeni n-o să-mi facă semne pe cartea de trigonometrie: „Uite, până aici să înveți”.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>… ca pe Fräulein Weber…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>…în ziua când au venit clandestinii…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Da. Ca pe Fräulein Weber. Cu cheia… De multe ori m-am gândit la asta. S-o facem prizoniera noastră. Am eu pământ în Argeș. Îl vând, și cu banii ăia trăim toți patru aici. Nimeni să nu ne știe…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Facem o fermă. Câteva vaci, găini…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Vacile le duc eu să pască…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>…Și seara le mulg eu, în hârdaie mari.</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Duminică dimineața mergem la Sîn Dominic, la târg, după cumpărături…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Ne luăm o căruță și doi cai. Duminica la Sîn Dominic, și joia la Gheorghieni.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Eu îmi aleg o pușcă bună de vânătoare, și mă duc la pădure după vânat. Spre Hășmaș sunt și mistreți.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>Un mistreț ne ajunge pe o lună.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și pe urmă împușcăm altul.</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>O fermă, o fermă mică… Noi trei și ea.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai târziu, spre iarnă…</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>…când o începe să ningă…</p>
+          </sp>
+          <sp who="#bogoiu">
+            <speaker>BOGOIU</speaker>
+            <p>…și drumurile vor fi înzăpezite…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>…seara…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dă-mi valiza, Corina.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu. Valiza îi aparține lui Jeff. El mi-a adus-o până aici în ziua când am sosit, el mi-o duce înapoi. Nu-i așa, Jeff?</p>
+          </sp>
+          <sp who="#jeff">
+            <speaker>JEFF</speaker>
+            <p>Da!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu te recunosc, Corina. În rochia asta, cu pantofi, cu poșetă, cu pălăria asta, nu te mai recunosc. Parcă ești o fată întâlnită pe stradă, o fată frumoasă, după care întorci capul…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>…și pe care o uiți…</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>…pentru că a trecut mai departe, pentru că n-a vrut să se oprească.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>…i-a fost frică să se oprească.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Corina, te voi căuta…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Și eu te voi căuta, dragul meu… Dar te voi găsi? Niciodată n-am visat un vis de două ori.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Un vis din care fugi de bunăvoie…</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Pentru ca să nu se sfârșească singur. Voi reveni, Ștefan. Totdeauna. Mereu. Va fi de-ajuns să închid ochii, pentru ca să revin. Și tu vei fi mereu aici, pe terasă, la locul tău pe șezlong, cu cartea în mână, leneș, visător și prost-crescut, cum te-am cunoscut în prima zi. În prima zi… Ștefan! Vreau să-ți fac o ultimă rugăminte. O ultimă copilărie.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Spune.</p>
+          </sp>
+          <sp who="#corina">
+            <speaker>CORINA</speaker>
+            <p>Nu veni cu mine la autobuz. Rămâi aici. Vreau să mă despart de tine aici. Uite-ți cartea. Uite-ți ochelarii de soare.</p>
+            <stage>(S-a apropiat de șezlongul lui, îl mângâie ca pe un om, cu gestul obișnuit al lui Ștefan.)</stage>
+            <p>Șezi! Ca atunci. Ca în prima dimineață. Și citește.</p>
+            <stage>(Îi deschide cartea, el o privește și întoarce capul după ea.)</stage>
+            <p>Uită-te în carte, nu la mine. Te rog, Ștefan, promite-mi că n-ai să ridici capul. Rămâi așa. Poate că nici eu n-am fost altceva decât o fată dintr-o carte, din cartea pe care o citești… Poate că, într-adevăr, totul n-a fost decât o părere, o glumă, un joc.</p>
+            <stage>(Se depărtează ușor de el, privindu-l mereu, până ce iese din scenă, în timp ce foarte încet se lasă cortina.)</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

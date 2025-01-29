@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000009" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Răzvan și Vidra</title>
+        <author>
+          <persName type="pseudo">Bogdan Petriceicu Hasdeu</persName>
+          <idno type="wikidata">Q2389145</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Tip. Lucrătorilor Asociați - ed. a III-a, revăzută, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="razvan" sex="MALE">
+            <persName>RĂZVAN</persName>
+            <age>ţigan desrobit</age>
+          </person>
+          <person xml:id="sbiera" sex="MALE">
+            <persName>SBIERA</persName>
+            <age>boer bătrân</age>
+          </person>
+          <person xml:id="tanase" sex="MALE">
+            <persName>TĂNASE</persName>
+            <age>cerşetor</age>
+          </person>
+          <person xml:id="basota" sex="MALE">
+            <persName>BAŞOTĂ</persName>
+            <age>mare vătaf</age>
+          </person>
+          <person xml:id="dascalul" sex="MALE">
+            <persName>DASCĂLUL</persName>
+          </person>
+          <person xml:id="targoveata_i" sex="FEMALE">
+            <persName>TÂRGOVEAȚA I</persName>
+          </person>
+          <person xml:id="targoveata_ii" sex="FEMALE">
+            <persName>TÂRGOVEAŢA II</persName>
+          </person>
+          <person xml:id="targoveata_iii" sex="FEMALE">
+            <persName>TÂRGOVEAȚA III</persName>
+          </person>
+          <person xml:id="targoveata_iv" sex="FEMALE">
+            <persName>TÂRGOVEAȚA IV</persName>
+          </person>
+          <person xml:id="targovetul_i" sex="MALE">
+            <persName>TÂRGOVEŢUL I</persName>
+          </person>
+          <person xml:id="targovetul_ii" sex="MALE">
+            <persName>TÂRGOVEŢUL II</persName>
+          </person>
+          <person xml:id="targovetul_iii" sex="MALE">
+            <persName>TÂRGOVEŢUL III</persName>
+          </person>
+          <person xml:id="fata_i" sex="FEMALE">
+            <persName>FATA I</persName>
+          </person>
+          <person xml:id="fata_ii" sex="FEMALE">
+            <persName>FATA II</persName>
+          </person>
+          <person xml:id="slujitorii_dela_vatafie" sex="MALE">
+            <persName>SLUJITORII dela vătăfie</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1869">
+        <desc/>
+      </event>
+      <event type="premiere" when="1869">
+        <desc></desc>
+      </event>
+      <event type="print" when="1869">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000009" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Răzvan și Vidra</titlePart>
+        </docTitle>
+        <docAuthor>Bogdan Petriceicu Hasdeu</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>RĂZVAN</role>
+        </castItem>
+        <castItem>
+          <role>SBIERA</role>
+        </castItem>
+        <castItem>
+          <role>TĂNASE</role>
+        </castItem>
+        <castItem>
+          <role>BAŞOTĂ</role>
+        </castItem>
+        <castItem>
+          <role>DASCĂLUL</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEAȚA I</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEAŢA II</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEAȚA III</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEAȚA IV</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEŢUL I</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEŢUL II</role>
+        </castItem>
+        <castItem>
+          <role>TÂRGOVEŢUL III</role>
+        </castItem>
+        <castItem>
+          <role>FATA I</role>
+        </castItem>
+        <castItem>
+          <role>FATA II</role>
+        </castItem>
+        <castItem>
+          <role>SLUJITORII dela vătăfie</role>
+        </castItem>
+      </castList>
+    </front>
+    <body/>
+  </text>
+</TEI>

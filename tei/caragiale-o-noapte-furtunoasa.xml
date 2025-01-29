@@ -1,0 +1,2740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000012" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">O noapte furtunoasă</title>
+        <author>
+          <persName type="pseudo">Ion Luca Caragiale</persName>
+          <idno type="wikidata">Q315132</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>rev. Convorbiri literare, XIII, nr. 7+8, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="jupan_dumitru_titirca_inima_rea" sex="MALE">
+            <persName>JUPÂN DUMITRACHE TITIRCĂ INIMĂ-REA</persName>
+            <persDesc>cherestigiu, căpitan în garda civică</persDesc>
+          </person>
+          <person xml:id="nae_ipingescu" sex="MALE">
+            <persName>NAE IPINGESCU</persName>
+            <persDesc>ipistat, amic politic al căpitanului</persDesc>
+          </person>
+          <person xml:id="chiriac" sex="MALE">
+            <persName>CHIRIAC</persName>
+            <persDesc>tejghetar, om de încredere al lui Dumitrache, sergent în gardă</persDesc>
+          </person>
+          <person xml:id="spiridon" sex="MALE">
+            <persName>SPIRIDON</persName>
+            <persDesc>băiat pe procopseală în casa lui Titircă</persDesc>
+          </person>
+          <person xml:id="rica_venturiano" sex="MALE">
+            <persName>RICĂ VENTURIANO</persName>
+            <persDesc>arhivar la o judecătorie de ocol, student în drept și publicist</persDesc>
+          </person>
+          <person xml:id="veta" sex="FEMALE">
+            <persName>VETA</persName>
+            <persDesc>consoarta lui Jupân Dumitrache</persDesc>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1879">
+        <desc/>
+      </event>
+      <event type="premiere" when="1879">
+        <desc></desc>
+      </event>
+      <event type="print" when="1879">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000012" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">O noapte furtunoasă</titlePart>
+        </docTitle>
+        <docAuthor>Ion Luca Caragiale</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>JUPÂN DUMITRACHE TITIRCĂ INIMĂ-REA</role>
+        </castItem>
+        <castItem>
+          <role>NAE IPINGESCU</role>
+        </castItem>
+        <castItem>
+          <role>CHIRIAC</role>
+        </castItem>
+        <castItem>
+          <role>SPIRIDON</role>
+        </castItem>
+        <castItem>
+          <role>RICĂ VENTURIANO</role>
+        </castItem>
+        <castItem>
+          <role>VETA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA I</note>
+        <div type="scene" n="I">
+          <head>SCENA I</head>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(urmând o vorbă începută)</stage>
+            <p>Iaca, niște papugii... niște scârța-scârța pe hârtie! ’i știm noi! Mănâncă pe datorie, bea pe veresie, trag lumea pe sfoară cu pișicherlicuri... și seara... se gătesc frumos și umblă după nevestele oamenilor să le facă cu ochiul. N-ai să mai ieși cu o femeie pe uliță, că se ia bagabonții laie după dumneata. Un ăla... un prăpădit de amploiat, n-are chiară în pungă și se ține după nevestele negustorilor, să le spargă casele, d-le!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Nu se ia după toate, jupân Dumitrache; după cum e și femeia: dacă trage la ei cu coada ochiului și face fasoane, vezi bine! bagabonții atât așteaptă.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ba să am pardon! Știu eu ce vrei dumneata să zici... Dar nevastă-mea nu-i d-alea, d-le.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Vai de mine! jupân Dumitrache, adică, gândești că am vrut pentru ca să-ți fac un atac? Îmi pare rău!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Nu, nene Nae; dar vreau să zic adică că nevasta mea nu-i d-alea cum ziseși, și iaca, după mine de ce s-a luat?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>S-a luat bagabonții și după dumneata?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>S-a luat și se ia...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Și cum ești dumneata!...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Eu am ambiț, domnule, când e vorba la o adică de onoarea mea de familist...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Apoi să știu de bine că intru în cremenal! Să mai văz eu numai că se ține bagabontul după mine, lasă-l...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Care bagabont?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! iaca... un bagabont! de unde-l cunosc eu?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Apoi, dacă nu-l cunoști, de unde știi că-i bagabont?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Asta-i! Una vorbim și bașca ne-nțelegem. Dar de! ai dreptul; nu știi ce mi s-a întâmplat, nu știi cum mă fierbe el pe mine de două săptămâni de zile... Nu că mi-e frică de ceva, adică de nevastă-mea... să nu...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>’Aida de! Coana Veta! Mie-mi spui? n-o știu eu?...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Nu că mi-e frică... dar am ambiț, domnule; când e vorba la o adică de onoarea mea de familist...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Bagabontul...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Că bine zici! începuseși să-mi spui istoria.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Stai s-o iau de la cap.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Stau.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Știi dumneata că la lăsata secului am mers la grădină la „Iunion”; erau eu, consoarta mea și cumnată-mea Zița. Ne punem la o masă, ca să vedem și noi comediile alea de le joacă Ionescu. Trece așa preț ca la un sfert de ceas, și numai ce mă pomenesc cu un ăla, cu un bagabont de amploiat...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>De unde știi că era amploiat?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>După port nu semăna a fi negustor. Mă pomenesc că vine și se pune la altă masă alături, cu fața spre masa noastră și cu spatele la comedie. Șade rezemat într-un peș, șade, șade, șade, și se uită lung și galiș la cocoane, se uită, se... Eu, cum m-a făcut Dumnezeu cu ambiț, mă scol ca să plecăm; cocoanele nu! că să mai ședem, că încă nu s-a isprăvit comèdia. Încep să mă-ncruntez la bagabontul și mai că-mi venea să-l cârpesc, dar mi-era rușine de lume; eu de! negustor, să mă pui în poblic cu un coate-goale nu vine bine... Mai mă uit eu încolo, mai mă fac că nu mă sinchisesc de el... bagabontul cu ochii zgâiți la cocoane; ba încă-și pune și ochilarii pe nas. Tii! frate Nae, să fi fost el aici să mă fiarbă așa, că-i sărea ochilarii din ochi și giubenul din cap, de auzea câinii din Giurgiu.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>În sfârșit, se isprăvește comèdia. Ne sculăm să plecăm; coate-goale se scoală și dumnealui. Plecăm noi, pleacă și dumnealui după noi. Eu îl vedeam cu coada ochiului; dar nu vream să le spui cocoanelor, ca să nu le rușinez. Știi cum e Veta mea, ... rușinoasă.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Mie-mi spui? n-o știu eu?... Ei?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! Apucăm pe la Sfântul Ionică ca să ieșim pe Podul-de-pământ, papugiul cât colea după noi; ieșim în dosul Agiei, coate-goale după noi; ajungem la Sfântul Ilie în Gorgani, moftangiul după noi; mergem pe la Mihai-Vodă ca să apucăm spre Stabilament, mațe-fripte după noi... Eu trăgeam cu coada ochiului... fierbeam în mine, dar nu vream să spui cocoanelor...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon! ca să nu le rușinezi.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Știi cum e Veta mea...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rușinoasă, mie-mi spui?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Când apucăm de la Stabilament în sus, mă uit înapoi cu coada ochiului și nu mai văd pe coate-goale. Mai mergem ce mai mergem, mă uit iar... mă iertase bagabontul.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Jupân Dumitrache, adică să am pardon de impresie, eu gândesc că numa’ ți-ai făcut spaimă degeaba. Poate că omul o fi șezând prin partea locului, pe Dealul Spirii. Ei! a venit și el la grădină ca și dumneavoastră, a stat și el până la isprăvitul comediei, și s-a nemerit să apucați tot pe-un drum ca să vă înturnați la domiciliu. El a rămas la al lui și dumneavoastră ați mers înainte.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Așa am crezut și eu întâi, dar stai să vezi!... A trecut după aia o săptămână la mijloc. Îmi ca și uitasem eu de istoria bagabondului; gândeam și eu: poate c-o fi stând coate-goale prin partea locului, – bunioară vorba dumitale. Așa, zice cumnată-mea ieri: „Nene, hai deseară la «Iunion» la Ionescu!” Cum auzii eu de „Iunion”, mă făcui verde la față. „Ce să mai căutăm la comediile alea nemțești, niște mofturi; dăm parale și nu înțelegem nimica; mai bine punem banii în buzunarul ălălalt și zicem că ne-am dus.” – „’Aide, nene, zău! parol! să n-ai parte de mine și de Veta!” Ei! când am auzit așa vorbă mare, n-am putut pentru ca s-o tratez cu refuz.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! haide!... dar unde mă gândeam eu că o să mi se întâmple un așa ceva. Ne ducem. Ședem la o masă mai la o parte; ședem cât ședem, și începe comedia. Nu știu cum     mă-ntorc cu ochii înapoi, și pe cine gândești că văz la masa de la spate?...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Pe bagabontul...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Pe coate-goale, domnule, pe moftangiul, pe mațe-fripte, d-le! Fir-ai al dracului de pungaș!... Bagabontul, nene, cu sticlele-n ochi, cu giubenul în cap și cu basmaua        iac-așa scoasă. Cum m-a văzut, – că trebuie să fi fost schimbat la față, cum sunt eu când mă necăjesc (își mângâie favoritele) - cum m-a văzut, a sfeclit-o... A întorsc capu-ncolo și a început să bea din țigară știi așa, niznai. Dar mă trăgea cu coada ochiului. Mă-ntorc eu iar la loc și mă fac că mă uit la comedii, se-ntoarce și bagabontul iar cu ochii la cocoane!... mă it iar la el, iar se-ntoarce-ncolo; ... mă-ntorc iar la comedii, iar se uită la cocoane;... mă uit iar la el, iar se-ntoarce-ncolo; mă-ntorc iar comedii...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Iar se uită la cocoane...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! iac-așa m-a fiert fără apă toată seara...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>În sfârșit?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>În sfârșit... plecăm; coate-goale după noi. Era să mă-ntorc în poarta „Iunionului”, să-i zic numa’: „Ce poftești, mă musiu?” și să-l și umflu; dar știi, am ambiț; m-am gândit: eu negustor... să mă pui în poblic cu un bagabont ca ăla, nu face...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!... Ei! pe urmă?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Pe urmă s-a ținut iar gaie după mine.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Până la Stabilament...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Da, până la Stabilament! S-a ținut după mine până la răscruci, știi, unde vrei s-apuci spre cazarmă. Ce ziceam eu? „Haide, drace, haide! să intri tu pe strada lui Marcu Aoleriu ori Catilina și lasă!” Aveam de gând să intru cu cocoanele în casă, să trimit repede pe Chiriac pe poarta de din dos pe maidan să-i iasă înainte, și eu să-l iau pe la spate, ... să-l apucăm la mijloc pentru ca să-l întreb: „Ce poftești, mă musiu?” și să-l și umflu!... Și dacă nu-i ajungea, să-mi tai mie favuridele!</p>
+            <stage>(își mângâie favoritele)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Ei! dacă nu-i ajungea, despărțirea e aproape; să fi poftit la mine la despărțire cu lăcrămație, că-i împlineam eu cât îi mai lipsea.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>A avut noroc! mare noroc a avut bagabontul; a scăpat!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Iii! păcat... Cum?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Când am trecut eu de răscruci cu cocoanele, și bagabontul era să intre după noi în uliță, a ieșit haita de câini de la maiorul din colț, și i-a tăiat drumul lui coate-goale. Am lăsat pe Zița acasă, m-am suit degrab cu Veta sus, am trimis pe Chiriac repede pe maidan, eu i-am ieșit înainte peste uluci tocmai pe la prăvălia lui Bursuc; dar... geaba! până să ieșim noi, fugise bagabontul!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Iacătă vine Chiriac. Să n-auză.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Aș! de el nu mă sfiesc. La din contra, el știe toată istoria, i-am spus-o de la început... Atâta om de încredere am... Băiat bun!... ține la onoarea mea de familist. Dacă nu l-aș fi avut pe el, mi-ar fi mers treaba greu. Eu, știi, cu negustoria, mai mergi colo, mai du-te dincolo, mă rog, ca omul cu daraveri, toată ziua trebuie să lipsesc de-acasă. Pe de altă parte, ce să-ți spui! am ambiț, țiu când e vorba la o adică la onoarea mea de familist. De! când lipsesc eu de-acasă, cine să-mi păzească onoarea? Chiriac săracul! N-am ce zice! onorabil băiat! De-aia m-am hotărât și eu, cum m-oi vedea la un fel cu meremetul caselor, îl fac tovarăș la parte și-l și însor!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Da’... coana Veta ce zice?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Consoarta mea?... Ce să zică?... De! ca muierea... mai ursuză. Am cam băgat eu de seamă că nu-l prea are ea la ochi buni pe Chiriac; dar - știi cum m-a făcut Dumnezeu pe mine, nu-i trec muierii nici atitica din al meu, – i-am zis pe șleau: „Nevastă, e băiat onorabil și credincios; n-ai ce-i face: ce-i al omului e al omului!”</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(intrând prin fund)</stage>
+            <p>Jupâne, trebuie să facem mandat de arestare pentru Tache pantofarul de la Sf. Lefteri; nu vrea să iasă mâine la izirciț cu nici un preț.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Dar pentru ce nu vrea?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Zice că-i bolnav. Am trimis gornistul de trei ori la el cu biletul, și l-a primit cu refuz. Zice mă-sa că nu poate umbla, că de-abia s-a sculat după lingoare.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Să dea certificat medical.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>M-am dus eu la el chiar în persoană; zic: pe ce bază nu vrei să vii mâine la ezirciț,        d-le? zice: sunt bolnav, d-le sergent, zice, de-abia mă țiu pe picioare, nu pot să merg nici pân’ la prăvălie, zice; zic: nu cunosc la un așa rezon fără motiv; zice: aduc martori, d-le sergent, că am zăcut o lună de zile, zice, întreabă și pe popa Zăbavă de la Sfântul Lefterie, zice, alaltăieri m-a grijit, m-a spovedit; zic: n-am eu de-a face cu popa Zăbavă, nu-l am pe listă, zic, eu pe dumneata te am pe listă; să te prezanți mâini la companie. – Acu, trebuie să-i dăm mandat, pentru ca să-l iau mâine dimineață.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Să-i dăm, să-l iei! Ala-i de-al ciocoilor, îl știu eu; cât a umblat dânsul fel și chip să scape de gardă...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Și eu îl am însemnat pe musiu Tache la catastiful meu; e finul lui Popa Tache.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! vezi!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Lasă-l că nu se sfințește el cu mine, jupâne, îl pocăiesc eu... Ei! după aia pe nea Ghiță Țircădău nu l-a putut găsi gornistul deloc. A fost la el și ieri și astăzi cu biletul; cică n-a dat pe-acasă de 3 zile!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Pricopsitul de cumnatu-meu, n-aș fi mai avut parte de el! Cine știe în ce cârciumă s-a-nfundat!...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>L-am văzut eu azi dimineață, trece pe la despărțire.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Mă duc să-i trimeț gornistul cu biletul pentru mâine.</p>
+            <stage>(iese repede)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Era afumat rău nenea Ghiță.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! bravos! asta e una la mână. Om stricat, d-le! Păi de ce am dezvorțat-o pe Zița de el, gândești? Nu mai putea trăi cu mitocanul, d-le...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Fată frumoasă, modistă și învățată și trei ani la pansion, să-și mănânce ea tinerețele cu un ăla... Tot gândeam la început, că de! e tânăr, o să-i treacă mai încolo, o să-și vie la pocăință. Aș, ți-ai găsit! Țircădău și om de treabă! Eu, ca ăla, cumnat mai mare, cum am zice ca și un frate, tot i dam povețe fetii să mai rabde, să nu strice casa. Cu azi, cu mâine, a răbdat biata fată - biată să nu fie! – a răbdat cât a răbdat, până m-am pomenit într-o zi că vine țipând la mine, pe cum că: „Nene, moartă, tăiată, nu mai stau cu mitocanul, scapă-mă de pastramagiul! să știu de bine că mă duc la mănăstire, pâine și sare nu mai mănânc cu el!” Ei! dacă am văzut ș-am văzut, zic: „Lasă, Zițo, zic, îți găsești tu norocul, n-a intrat zilele-n sac! acu e vremea ta! Lac să fie, că broaște destul!” – ș-am și dezvorțat-o. Apoi nu mai era de suferit așa trai. N-o mai maltrata, domnule, măcar cu o vorbă bună. Mă rog, o dată ce nu e bărbatul levent, ce fel de casă să mai fie ș-aia?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Mie-mi spui? Nu i-am încheiat eu procestul-verbal atuncea noaptea, când a tratat-o cu insulte și cu bătaie?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Apoi de! n-a avut dreptul muierea să-l? Om fără ambiț, d-le, nu ținea la onoarea lui de familist! Un mitocan, mă rog; zice că-i negustor, alege-s-ar praful!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Jupâne, da’ deseară că ești de rond... mergi?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Mai e vorbă? cum să nu merg? De ce m-am îmbrăcat? nu vezi?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Jupâne, da’ face toate posturile? nu-i așa? Nu sunt multe... până pe două după 12 le isprăvești.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Așa, cam pe la 2 după 12, ca totdeauna... Chiriac băiete</p>
+            <stage>(îl trage la o parte)</stage>
+            <p>ia vezi tu... mă știi că am ambiț, când e vorba la o adică, țiu la...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Lasă, jupâne, că doar nu mă cunoști de ieri de-alaltăieri.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(lui Spiridon)</stage>
+            <p>Dar mai mult nu puteai să șezi, mă?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Vezi că era mulți muștirii, jupâne, până să-mi dea madama gazeta.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Mă Spiridoane, fii băiat de treabă, mă, că iau pe sfântul Niculae din cui; știi că i-am pus sfârcul nou de ibrișim să nu-i fac saftea pe spinarea ta!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Da’ de ce, jupâne?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Atâta-ți spui eu ție: ’aida! du-te iute și cere cocoanii să-mi dea sabia și cintironul.</p>
+            <stage>(Spiridon pleacă.)</stage>
+            <p>Chiriac băiete,</p>
+            <stage>(îl ia la o parte.)</stage>
+            <p>ia vezi, știi că am ambiț, țiu când e la o adică...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Lasă, jupâne, mă știi că consimț la onoarea dumitale de familist.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! ia vezi...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>N-ai grije, jupâne... Eu mă duc să închiz cantorul și magazia. (cătră Ipingescu, care, de când a adus Spiridon gazeta, a sorbit-o cu ochii pe toate fețele.) Bonsoar, nene Nae.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Salutare, onorabile!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(vine din dreapta cu sabia și cintironul)</stage>
+            <p>Iaca, na, jupâne, poftim.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ce făcea cocoana, mă?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Cosea galoanele la mondirul lui nea Chiriac.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ce a zis?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Zicea că să vii mai devreme la noapte, că-i e urât singură-n casă.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Uită mă! Ce ți-e cu muierea fricoasă!</p>
+            <stage>(strajnic)</stage>
+            <p>Da’ Chiriac nu-i aicea?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Jupâne, nea Chiriac mi-a zic să-nchidem mai degrabă, că ai să pleci de rond.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Du-t’ de adu cheile și le du lui Chiriac jos.</p>
+            <stage>(Spiridon iese.)</stage>
+            <p>Nene Nae, auziși cum îmi poartă Chiriac de grija rondului? Ei! i-e tot frică să nu uit reglementul. Are ambiț băiatul, ca să fie compania noastră cea mai abitir din toate. Gândești d-ta că mai primeam eu să fiu căpitan dacă nu-l alegea pe el sergent? Știi cum a regulat compania? Ei, d-le, poci să zic...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Bravos!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Face să-i dea și dicorație!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Să-i dea! de ce să nu-i dea? Și el e d-ai noștri, băiat din popor...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Firește, dicorățiile nu sunt făcute tot din sudoarea poporului?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(venind din fund)</stage>
+            <p>S-a închis, jupâne; acuma eu... mă duc să mă culc?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Da, dar tutun și cărticică ți-ai luat? Chibrituri ai?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Ce tutun, jupâne?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Te face că nu înțelegi, ai? Nu știi ce tutun? Eu n-am aflat că tragi țigară? Aoleo, Spiridoane, nu te-oi prinde odată!... Săracul sf. Niculae! i știi tu păpara lui...</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Zău, jupâne.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Haida pleacă.</p>
+            <stage>(Spiridon pleacă.)</stage>
+            <p>Mă! spune lui nen-tu Chiriac să nu uite de ce ne-a fost vorba... să fie cu ochii-n patru.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(ieșind)</stage>
+            <p>Bine, jupâne.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(șezând pe scaun)</stage>
+            <p>Hei! ia să vedem acu ce mai zice politica. Citiși ceva?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Bravos ziar, d-le! Ăsta știu că combate bine.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Apoi nu-i zice lui degeaba „Vocea Patriotului Naționale”!...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(citește greoi și fără interpunctație)</stage>
+            <p>„București 15/27 răpciune. – Amicul și colaboratorele nostru R. Vent. ..., un june scriitor democrat, a cărui asinuitate o cunoaște demult publicul cititor, ne trimite următoarea prefațiune a unui nou op al său. I dăm astăzi locul de onoare, recomandând cu căldură poporului suveran scrierea amicului nostru. Republica și Reacțiunea sau Venitorele și Trecutul. – Prefațiune. – Democrațiunea romană, sau mai bine zis ținta Democrațiunii romane este de a persuada pe cetățeni, că nimeni nu trebuie a mânca de la datoriile ce ne impun solemnaminte pactul nostru fundamentale, sfânta Constituțiune...”</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(mulțumit)</stage>
+            <p>Ei, bravos! Aici a adus-o bine.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(căutând șirul unde a rămas)</stage>
+            <p>„... A manca... sfânta Constituțiune...”</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(cam nedomirit)</stage>
+            <p>Adică, cum s-o mănânce?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Stai să vei... că spune el... „Sfânta Constituțiune, și mai ales cei din masa poporului...”</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(nedumirit)</stage>
+            <p>E scris adânc.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Ba nu-i adânc deloc. Nu pricepi? Vezi cum vine vorba lui: să nu mai mănânce nimeni din sudoarea bunioară a unuia ca mine și ca dumneata, care suntem din popor; adică să șază numai poporul la masă, că el e stăpân.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(lămurit)</stage>
+            <p>Ei! așa mai vii de-acasă. Bravos! Zi-i nainte.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Stai să vezi: acuma vine un ce și mai tare.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei!?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(urmând citirea)</stage>
+            <p>„... A mânca poporul mai ales, este o greșală neiertată, ba putem zice chiar o crimă...”</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(cu deplină aprobare)</stage>
+            <p>Știi că și aici lovește bine! Da! cine mănâncă poporul să meargă la cremenal!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(bătând cu mâna-n gazetă)</stage>
+            <p>Apoi de ce scrie el, sireacul!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Dă-i nainte, că-mi place.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>„... Ba putem zice chiar o crimă.</p>
+            <stage>(schimbând tonul și mai grav.)</stage>
+            <p>Nu! Orice s-ar zice și orice s-ar face, cu toate zbieretele reacțiunii, ce se zvârcolește sub disprețul strivitor al opiniunii publice; cu toate urletele acelora ce cu nerușinare se intitulează sistematici opozanți...”</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(care la fiece accent al lui Ipingescu a dat mereu din cap în semn de aprobare, îl întrerupe cu entuziasm)</stage>
+            <p>Hahahaha! i-a-nfundat!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(urmând cu tărie)</stage>
+            <p>„... Nu! în van! noi am spus-o și o mai spune: situațiunea Romaniei nu se va putea chiarifica; ceva mai mult, nu vom putea intra pe calea viritabilelui progres, până ce nu vom avea un sufragiu universale...”</p>
+            <stage>(amândoi rămân foarte încurcați.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Adicătele, cum vine vorba asta?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(după adâncă reflecție)</stage>
+            <p>A! înțeleg! bate în ciocoi, unde mănâncă sudoarea poporului suveran... știi: masă... sufragiu...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! acu înțeleg eu unde bate vorba lui! Ei! bravos! bine vorbește...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Ăsta combate, d-le, nu ți-am spus eu!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Apoi, nu-i zice lui degeaba „Vocea Patriotului Naționale”!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>„... Până ce nu vom avea un sufragiu universal. Am zis și subsemnez! R. Vent... studinte în drept și publicist.”</p>
+          </sp>
+          <sp who="#un glas de bărbat">
+            <speaker>UN GLAS DE BĂRBAT</speaker>
+            <stage>(de afară)</stage>
+            <p>Lasă, cocoană! Poate că să mor și să nu ți-o fac!</p>
+          </sp>
+          <sp who="#glasul ziții">
+            <speaker>GLASUL ZIȚII</speaker>
+            <stage>(de afară)</stage>
+            <p>Mitocane! pastramagiule! la polițiune! (amândouă glasurile vorbesc deodată) &lt;/didascalie&gt; Nene Dumitrache!</p>
+            <stage>(Jupân Dumitrache și Nae Ipingescu rămân uimiți.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(ascultând)</stage>
+            <p>Săi, nene Nae!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Urgent!</p>
+            <stage>(strânge repede gazeta și scoate fluierul de la cheotoarea mondirului. Amândoi ies fuga prin fund, Ipingescu șuierând signalul de alarmă.)</stage>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(singur, intră din dreapta făcându-și o țigară)</stage>
+            <p>Măă! al dracului rumân și jupânul nostru! Bine l-a botezat cine l-a botezat „Titircă Inimă-Rea”. Ce are el cu mine? Zău! Biata cocoană și cu nea Chiriac! Cu ei mai am noroc, ei mai mă scapă de afurisitul, că despre partea lui jupân Titircă Inimă-Rea, halal să fie de oasele mele! m-ar cotonogi. Ieri săptămâna, când s-a întors de la grădină cu cocoanele, m-a găsit deștept: „Bravos, musiu Spiridoane! zice, nu te-ai culcat pân-acuma; mâine dimineață jupânul săracul să deschiză prăvălia; ai stat pân-acuma să bei la tutun, ’ai? – Nu jupâne, zic, da’ dacă nu mi-e somn. -Nu ți-i somn, ’ai? stai că-ți fac eu ție poftă de culcat!” ... Bietul nea Chiriac m-a scăpat, că luase pe sfântul Niculae din cui... Ieri seară m-a găsit dormind: „Bravos, musiu Spiridoane! zice; dormi, ce-ți mai pasă! tutun ai tras destul, acum te-ai pus să tragi la aghioase; trai, neneaco, cu banii băbachii! - Nu, jupâne, da’ dacă mi-a fost somn, zic. - Somn, ’ai? Te trage traiul îl bun la somn!</p>
+            <stage>(Auzi, cu sfântul Niculae trai bun, căde-i-ar bunul pe inimă lui jupânul!)</stage>
+            <p>Tragi la somn? Stai că am eu leac să-ți tai de piroteală.” Și mi-a și pus mâna-n păr. Dacă nu era cocoana să sară pentru mine tocmai la apropot, mă rupea, că nu-ș’ ce-avea, era turbat rău de tot</p>
+            <stage>(s-aude zgomot)</stage>
+            <p>Auliu! Vine!</p>
+            <stage>(stinge repede țigara cu degetele și o bagă în buzunar.)</stage>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Auzi mizerabilul! să se-ntinză până-ntr-atâta ca să-mi facă un afront.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>D-ta ești, cocoană Zițo? Bine că veniși. Eu n-am putut să viu. Mi-era frică să nu mă spuie nea Chiriac lui jupânul, că am umblat noaptea pe drum...</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(repede)</stage>
+            <p>Ei! L-ai găsit? I-ai vorbit? I-ai dat? I-ai spus?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Da, cocoană.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Ce-a zis?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>„Mersi!”</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Și tu ce i-ai spus?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>„Pentru puțin.”</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Nu i-ai spus cum ți-am zis eu?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Ba da, l-am luat să-i arăt casa.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Nu mai trebuia să-i arăți nimic, că-i scrisesem eu în bilet unde să vie.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Așa mi-a zis, să-i arăt casa, ca să meargă la sigur... Dar când să ies de pă maidan cu dumnealui, tocmai trecea jupânul de la vale; am lăsat pe persoana în chestiune să m-aștepte pe maidan și eu am sărit peste uluci prin fundul curții, că mi-era frică să nu dea jupânul cu ochii de mine, ori să vie acasă și să nu mă găsească.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Prostule! Nu știi că nenea e de rond la noapte? Nu mai dă pe-acasă până la ziuă.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Dar dacă mă găsea pe uliță, plăteai dumneata pielea mea?</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Ei! Și zi persoana în chestiune așteaptă pe maidan?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Da, și mi-a dat și biletul ăsta ca să ți-l aduc.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(luând biletul)</stage>
+            <p>Și nu mi-l dai mai curând! Adu să văz.</p>
+            <stage>(merge la o parte și citește.)</stage>
+            <p>„Angel radios! De când te-am văzut întâiași dată pentru prima oară, mi-am pierdut uzul rațiunii...</p>
+            <stage>(își comprimă palpitațiile.)</stage>
+            <p>Te iubesc la nemurire, Je vous aime et vous adore: que prétendez-vous encore? Inima-mi palpită de amoare. Sunt într-o pozițiune pitorească și mizericordioasă și sufăr peste poate. O da! Tu ești aurora sublimă, care deschide bolta azurie într-o adorațiune poetică infinită de suspine misterioase, pline de reverie și inspirațiune, care m-a făcut pentru ca să-ti fac aci anexata poezie:</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Nu pot, cocoană, să mă duc, până nu mi-o da voie ori nea Chiriac, ori cocoana.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Unde-i Chiriac?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Nu știu, pân curte.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Dar țața?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Lucrează dincolo.</p>
+            <stage>(Zița pornește spre ușa din stânga, când ușa se deschide și Veta intră.)</stage>
+            <p>Iacătă-i cocoana.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(intră cu lucrul în mână; coase galoanele la un mondir de sergent de gardă civică; este obosită și distrată, vorbește rar și încet)</stage>
+            <p>Cine-i aici?</p>
+            <stage>(văzând pe Zița.)</stage>
+            <p>A! Tu erai? mă miram cine-i.</p>
+            <stage>(trece încet să șază cu lucrul la masa din dreapta.)</stage>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Eu, țățico; te rog lasă pe Spiridon să se ducă pân’ la mine acasă, ca să-mi aducă mantelul; bate vântul și mi-e frică să nu răcesc când m-o întoarce...</p>
+            <stage>(tăcere. Veta șade la dreapta și lucrează adâncită în gânduri.)</stage>
+            <p>Îl lași, țațo?</p>
+            <stage>(se apropie de ea.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>’Ai? Ce să las?</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Să lași pe Spiridon să-mi aducă ceva de acasă.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da, îl las.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Du-te, Spiridoane.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Dar tu, Zițo, la ce-ai venit?</p>
+            <stage>(lucrează înainte.)</stage>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Stai să-ți spui... Dar nu mă-ntrebi, țațo, să-ți povestesc ce am pățit cu mitocanul! Să vezi, e halima... Auzi, mizerabilul! să-ndrăznească să-mi ție drumul ca să-mi facă un atac... Stai, țațo, să-ți spui și să te crucești, nu altceva. Mai adineaori ședeam acasă. Tușica, cum știi c-a făcut-o Dumnezeu, se culcă o dată cu găinile. Eram ambetată absolut. Dramele Parisului câte au ieșit până acuma le-am citit de trei ori. Ce să fac? N-aveam ce citi. Zic: hai să mă duc la țața, dacă nu s-o fi culcat, să mai stăm de vorbă. Scoț ivărul de la șalon și plec. Când să trec pe maidan, mă pomenesc cu mitocaul, cu pricopsitul de Țircădău, că-mi taie drumul. „Bonsoar-bonsoar”, și știi așa deodată, sanfasò: „Hei, cocoană, zice, mai bine ți-e acuma văduvă? – Pardon, domnule, zic, n-am de-a face cu dumneta, și mai când e la o adică, nu sunt văduvă, sunt liberă, trăiesc cum îmi place, cine ce are cu mine! Acu mi-e timpul: jună sunt, de nimini nu depand, și când oi vrea, îmi găsește nenea Dumitrache bărbat mai de onoarea ca dumneata. – Mi-i că t-ei căi! – Zic: pardon, d-le, nu-ți permit să te-ntinzi mai mult la un așa afront; mă-nțelegi? – zice...”</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(întrerupând-o scurt)</stage>
+            <p>Zițo... ce e când ți se bate tâmpla a dreaptă?</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Îți vine o bucurie.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Mie, bucurie?... nu crez.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Da’ de ce nu?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Dar când ți se bate a’ stângă?</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Te-mpaci cu o persoană cu care ești certată.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(ridicând capul cu mult interes)</stage>
+            <p>Da?</p>
+            <stage>(dând din umeri.)</stage>
+            <p>Cu cine să mă-mpac?... Nu sunt certată cu nimeni.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Așa... zic mitocanului... țațo, că era trăsnit... Am auzit că de la o vreme-ncoace într-o băutură o duce. Uf! țățico, mașer, bine că m-a scăpat Dumnezeu de traiul cu pastramagiul! Să trăiesc eu cu un mitocan! Nu era de mine; eu sunt o persoană delicată; bine că m-am văzut liberă!... Așa – să nu-mi uit vorba – zic mitocanului: „Nu-ți permit, domnule, să te naintezi la un așa afront! Da’ el: „Gândești, zice, că o să te măriți, cocoană? -Asta mă-mportă pe mine, cine ce treabă are! – Să te măriți, ’ai? Cât o trăi Ghiță Țircădău, ori să te-nhăitezi cu vreunul? Săracul! Dar să știu de bine că merg cu el de gât până la Dumnezeu, tot n-ai dumneata parte de un așa ceva; încai dacă m-ai lăsat pe mine, să te duci la mănăstire, că așa te lăudai la trebunar!... – Mitocane, pastramagiul! La polițiune! Vardist! Nene Dumitrache! ...” Am avut țațo, parte că a sărit nenea Dumitrache și cu Nae ipistatul! aminteri, mitocanul scosese șicul de la baston pentru ca să mă sinucidă... Ei! Ce zici dumneata, țățico, de nasul care și l-a luat mitocanul?</p>
+            <stage>(Veta nu răspunde; Zița s-apropie de ea și o observă.)</stage>
+            <p>„Țațo! Ce ai? Plângi?”</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(ștergându-se la ochi)</stage>
+            <p>Eu? De ce să plâng? Mă doare capul, mi-e cam rău.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Îți sunt ochii turburi grozav...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu-ș’ ce am; parcă mă-ncearcă niște friguri.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Nenea e de rond la noapte?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da.</p>
+            <stage>(s-apucă iar de lucru.)</stage>
+            <p>Tu mai stai, Zițo</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Nu, țațo; o să mă duc și eu să mă culc; trebuie să fie târziu.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(intră și trece repede lângă Zița)</stage>
+            <p>Cocoană!</p>
+            <stage>(încet.)</stage>
+            <p>Până acu am așteptat degeaba. L-am căutat peste tot, și pe maidan, și pe uliță, nu e nicăieri.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(încet)</stage>
+            <p>Biletul, zici că i l-ai dat.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Nu știi? I l-am dat de când m-am dus la tutungerie, când m-a trimes jupânul.</p>
+            <stage>(iese în dreapta)</stage>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Bine.</p>
+            <stage>(cătră Veta.)</stage>
+            <p>Ei! țațo, eu mă duc, bonsoar, alevoa. Culcă-te și matale, nu mai lucra dacă ți-e rău.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Lasă să-mi fie rău.</p>
+            <stage>(râzând silit.)</stage>
+            <p>Mai bine ar fi să mor.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Vai de mine! Ce vorbă-i asta? Ce, ți-e rău de tot? Să trimitem să caute pe nenea.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Aș! Ești nebună! Nu vezi că glumesc. Mă doare capul; nu ți-am spus? Am lucrat mult la lumânare.</p>
+            <stage>(are un fior.)</stage>
+            <p>M-a tras și fereastra... Cum m-oi culca, îmi trece.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Atunci, alevoa, bonsoir, țațo.</p>
+            <stage>(pleacă și se întoarce.)</stage>
+            <p>A! să nu uit; mâine ne vedem, știi că-i sărbătoare. Să ne legăm de nenea să ne ducă la „Iunion”.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(repede)</stage>
+            <p>La „Iunion”? Nu Zițo, nu mai merg la „Iunion”.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Da’ de ce?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Pentru că... pentru că nu-mi face nici o plăcere acolo, nu-nțeleg comediile alea... Ei! Ce să-ți spui! Nu voi.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Ei, Doamne! Țato, parol, știi că ești curioasă! Ce, pentru comediile alea mergem noi? Mergem să mai vedem și noi lumea. Ce, adică toți câți merg acolo înțeleg ceva, gândești? Merg numai așa de un capriț, de un pamplezir; de ce să nu mergem și noi?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>De ce, de ne-ce, nu voi să merg.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>’Aide, zău, țațo; i zic eu lui nenea, ... vrei?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu voi, ți-am spus o dată, și nici dumnealui nu mai vrea să meargă; mi-a spus de azi dimineață: degeaba-i zici.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Zău! Țățico, parol! Să mă-ngropi!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu merg, Zițo, nu. Mă știi tu; când zic o vorbă e vorbă.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Zi, nu vrei să mergi, țațo?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(obidindu-se treptat)</stage>
+            <p>Nu?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(podidind-o plânsul)</stage>
+            <p>Fir-ar a dracului de viață ș-afurisită! Că m-a făcut mama fără noroc!</p>
+            <stage>(pleacă.)</stage>
+            <p>N-am avut parte și eu pe lume măcar de o compătimire!</p>
+            <stage>(iese, plângând și trântind ușa, prin fund. – Spiridon intră din dreapta.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(lasă mondirul din mână)</stage>
+            <p>Spiridoane băiete, tu de ce mai stai? Mai ai vreo treabă?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Nu, cocoană.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Apoi, dut-t’ te culcă, ce mai aștepți? – Domnul Chiriac unde este?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>E jos pân curte; adineaori șede pe lavița de la poartă. Dar... nu știu ce o fi având nea Chiriac, cocoană... parcă nu-i sunt toți boii acasă...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Cine știe ce-o fi având și dumnealui.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>E necăjit foc; un ceas s-a tot plimbat pe jos; când am trecut pân curte, umbla de colo până colo, parcă vorbea singur și se bătea cu pumnii-n piept...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>O fi supărat, cine știe!... Spune-i să-nchiză poarta. Galoanele i le-am cusut; uite mondirul, să i-l duci.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Bine, cocoană.</p>
+            <stage>(vrea să plece cu mondirul.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Pe urmă, să-i spui... nu; pe urmă, să te duci să te culci, nu mai ai ce căuta p-aci. Să nu vie dumnealui să te găsească deștept, că iar o pați.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(aparte)</stage>
+            <p>Ei, că parcă dacă m-o găsi dormind nu-i tot un drac!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>’Aide, du-te.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Mă duc; noapte bună, cocoană.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Noapte bună, Spiridoane.</p>
+            <stage>(Spiridon iese.)</stage>
+            <p>Noapte bună!... Săracul Spiridon! Nu știe el ce-i pe sufletul meu, nu știe el cum râde de mine! Eu și noapte bună!...</p>
+            <stage>(merge încet la fereastra din dreapta ușii din fund, se uită în curte, apoi se-ntoarce tot adâncită în gânduri.)</stage>
+            <p>Ei! Iacă nu vrea omul, nu vrea! Dragoste cu sila nu se poate. - Nu-i mai place, nu mai vrea!... Bine! N-o să mor nici eu!... De unde știi? Poate mai bine că s-a întâmplat așa... A! De ce mai dă Dumnezeu omului fericire, dacă e să i-o ia înapoi!? De ce nu moare omul când e fericit!? De ce am mai trăit eu s-ajung la așa ceva!?...</p>
+            <stage>(plânge; se aude zgomot.)</stage>
+            <p>Vine!</p>
+            <stage>(se șterge la ochi repede și vrea să plece.)</stage>
+            <p>Nu! Nu mai voi să fiu proastă: dragoste cu sila nu se poate!</p>
+            <stage>(pornește să iasă spre stânga, când intră Chiriac, care rămâne un moment la ușă. Veta stă locului. Tăcere.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Dumneata m-ai chemat?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Eu?... Nu.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Spiridon mi-a spus că...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da... am zis lui Spiridon să-ți aducă mondirul; l-am cusut.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Mersi!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Pentru puțin.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Poarta... am închis-o.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Bine.</p>
+            <stage>(întoarce capul în fața scenii; e mișcată.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Alt nimic nu mai ai să-mi poruncești?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ce! Eu să-ți poruncesc d-tale?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Să-mi poruncești, firește; nu-mi ești stăpână?... Nu sunt slugă în casa d-tale, cu simbrie?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(întorcându-se cu fața spre Chiriac)</stage>
+            <p>: Bine, domnule Chiriac, bine; zi înainte, că n-ai zis destule.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(înaintează)</stage>
+            <p>Ei! De ieri seara până acu cum ai petrecut? Ți-e mai bine așa?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(scoborând un pas spre a se depărta de el)</stage>
+            <p>Da.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Îți pare bine de ce-ai făcut?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu mă știu să fi făcut nimic; dar nu-mi pare rău că s-a-ntâmplat așa.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(mai apropiindu-se)</stage>
+            <p>Mâine seară mergi iar la „Iunion”?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Dacă o vrea dumnealui să mergem, trebuie să merg, firește.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ca să te curtezi cu amploiatul dumitale?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(tresărind și ridicând capul spre el)</stage>
+            <p>Domnule, te-am rugat să fii bun să nu-mi mai zici vorba asta. Dacă n-ai avut destul vreme să mă cunoști, păcat! Eu te credeam pe dumneata mai deștept.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(stă la îndoială, apoi se mai apropie)</stage>
+            <p>Jură-te încă o dată!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Să mă mai jur – eu?... Nu m-am jurat? N-am plâns? Cu ce m-am ales? Nu mai mă jur, pentru că nu mă crezi; de plâns aș mai plânge, dar nu mai pot... Dar... în sfârșit, nu strici dumneata... eu stric... nu trebuia să-mi pui mintea cu un copil ca dumneata... D-aia zic și eu mai bine că s-a întâmplat așa. Tot trebuia să isprăvim odată... Am isprăvit...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Jură-te încă o dată și...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(cu emoție din ce în ce mai nestăpânită)</stage>
+            <p>Ce folos! Dumneata crezi mai mult în prostiile și în bănuielile lui bărbatu-meu, decât în jurământul meu, și gândesc că trebuia să ne cunoști destul de bine și pe mine și pe dânsul. Dar... foarte bine ai făcut să nu mă crezi. Așa e. Eu sunt o femeie rea; am vrut numai să râz de dumneata. Eu te las pe dumneata ca p-o slugă „cu simbrie” să păzești casa, și târăsc pe dumnealui pe la grădini ca să curtez cu alții. Eu sunt o femeie mincinoasă; n-am simțit nimic când ți-am spus că nu știu să mai fi trăit până să nu te cunosc pe dumneata... Toate le-am făcut pentru dumneata numai din prefăcătorie... totdeauna alta ți-am spus și alta am gândit; te-am mințit, te-am amăgit, am râs de dumneata atâta vreme... Acuma, bine că ți-ai deschis și dumneata în sfârșit ochii ca să vezi cine sunt. De! Ți-am făcut rău, dar... ai scăpat de mine. Lasă! Ce-a fost a trecut... Bonsoar.</p>
+            <stage>(vrea să plece spre stânga.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(ieșindu-i cu un pas înainte)</stage>
+            <p>Te duci?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>La ce să mai stau? Ce mai am eu cu dumneata?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Nu-mi mai zice „dumneata”.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Cum poftești să-ți zic?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Cum mi-ai zis până ieri.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Azi e azi, ieri a trecut.</p>
+            <stage>(pornește să iasă.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(tăindu-i drumul)</stage>
+            <p>Și nu vrei să se mai întoarcă?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(scoboară un pas, depărtându-se de el la dreapta)</stage>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(apropiindu-se)</stage>
+            <p>Veto!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu; lasă-mă... Ce folos câtă fericire am avut un an, dacă într-o zi mi-am plâns-o toată! Nu, nu mai voi; mai bine mi-este așa cum sunt...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Dar eu... eu ce să fac?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ce fac și eu... Învățul are și dezvăț, nu știi dumneata?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Dezvăț! Lesne din gură. Îi scoți rumânului ochii și după aia-i zici: „Lasă că nu e rău și fără să mai vezi... mai bine că s-a întâmplat așa! N-o să mori fără luminile ochilor!... Învățul are și dezvăț!...” Dar dacă n-oi vrea eu să mai trăiesc așa!... care va să zică să mor, ’ai?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ei, bine ar fi să poată muri omul când vrea; dar... nu moare nimeni de asta!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Dar dacă eu oi muri?</p>
+            <stage>(se repede și ia spanga de la pușcă.)</stage>
+            <p>Vezi dumneata șpanga asta?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(se redepe la el și vrea să i-o smucească)</stage>
+            <p>Chiriac!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(luptându-se cu ea)</stage>
+            <p>Fugi!... Lasă-mă!...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu te las! Te știu eu cine ești. Nu te las! Nu voi să ți se tragă moartea de la mine.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Lasă-mă! Lasă-mă!...</p>
+            <stage>(se luptă.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(desperată)</stage>
+            <p>Chiriac!</p>
+            <stage>(înecându-se.)</stage>
+            <p>Dacă vrei să te omori, omoară-mă întâi pe mine!</p>
+            <stage>(se luptă din putere.)</stage>
+            <p>Chiriac!... Nu ți-e milă ție de mine? Toate, toate de un an și mai bine le-ai uitat într-o zi?... Chiriac!...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Tocmai pentru că nu le-am uitat, vreau mai bine să mor. Dacă nu mai este nimic între noi, spune-mi dumneata cum să mai trăiesc! Dacă mă lași, dacă nu mai mă vrei, tot mort sunt eu; mai bine, lasă-mă: adio, viață!</p>
+            <stage>(se smucește.)</stage>
+            <p>Lasă-mă!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(ținându-l strâns)</stage>
+            <p>Chiriac! Vrei să strig? Ești nebun?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da! Sunt nebun, firește că sunt nebun; m-ai înnebunit dumneata; dumneata să-mi tragi păcatul! Câte gânduri și dor m-a ars pe mine, nu mă-ntrebi?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Dar tu pe mine nu mă-ntrebi?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Nu mai voi să știu de nimic, nu mai știu cine sunt! Am vrut să mă omor adineori în curte, dar ți-am văzut trecând umbra peste perdeaua de la fereastră, ș-am vrut să te mai văz o dată. Încai să mor lângă tine, cum am trăit.</p>
+            <stage>(cu vorbele acestea Chiriac s-a mai domolit.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Chiriac, ascultă. Nu mi-ai zis tu să mă jur încă o dată? Dacă m-oi jura, mă crezi?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Te crez.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(repede)</stage>
+            <p>Dragă Chiriac, să n-am parte de ochii mei, să n-am parte de viața ta, să nu mai apuc măcar o zi fericită cu tine – na! Ce mai vrei? – Dacă știu eu ceva la sufletul meu din câte ți le-a sporit dumnealui.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>De ce te-ai dus la grădină?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>M-am dus numai de gura sorii-mii Ziții. Era lume multă, de n-aveam unde sta; cânta muzica; juca comedii; n-am auzit nimic, n-am văzut nimic. Toatea seara în vuietul grădinii m-am gândit numai la tine; parcă dormeam și visam ceva... Știam eu că o să mi se întâmple mie un necaz mare; mi se făcuse semn: răsturnasem de dimineață candela... Încă dumnealui, dacă m-a văzut că mă speriu, zice: „Ei ce e dacă s-a răsturnat! Nu mai crede în prostii de-alea. Ce! Ce-o să ni               se-ntâmple? Să-mi arză cherestigiria? Arză sănătoasă! Nu m-a făcut ea pe mine! Este asiguripsită... Atâta pagubă!...” Răsturnasem candela; pe urmă ochiul ăl drept mi se bătea într-una de vreo trei zile. Pe tine te lăsasem acasă ștergându-ți pușca: știi că ruginise încărcătura înăuntru și te apucaseși s-o scoți cu vergeaua. Nu puteam să-mi iau gândul de la pușcă. Mă gândeam: dacă s-o descărca, Doamne ferește! Pușca în mâna lui, ce să mă fac eu când l-oi găsi mort întins acasă!... Da’ de ce nu i-am spus să bage de seamă! De ce nu l-am rugat să o lase cu gândurile toată seara. N-am văzut, zău! N-am văzut nimic, n-am auzit nimic! Mă jur pe ce vrei tu; mă crezi?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(biruit cu desăvârșite)</stage>
+            <p>Te crez!</p>
+            <stage>(aruncă departe spanga și ia pe Veta în brațe.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(strângându-l cu putere)</stage>
+            <p>Chiriac!</p>
+            <stage>(rămân o clipă îmbrățișați în tăcere.)</stage>
+            <p>Chiriac, să nu mai faci ce mi-ai făcut, că mor... zău! mă omori...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Nu, nu mai fac.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Îmi făgăduiești? Te juri?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Și o să mă crezi că eu numai la tine mă gândesc?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Că numai pentru tine trăiesc?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Și n-o să-mi mai zici nici o vorbă rea?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Și n-o să mai mă faci să plâng?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Nu! Nu! Nu! Dar mă ierți?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Dar tu pe mine mă ierți?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Eu te-am iertat de mult.</p>
+            <stage>(se strâng bine în brațe.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(d-afară, sub fereastră)  Chiriac! Chiriac!</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Hii! Dumnealui...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(repede, fără s-o lase din brațe, merge spre fereastră)</stage>
+            <p>Nu-i nimic! Trece la posturile dinspre Marmizon...</p>
+            <stage>(cătră jupân Dumitrache, pe fereastră.)</stage>
+            <p>D-ta ești, jupâne?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(d-afară)</stage>
+            <p>Dar ce, Chiriac puiule, nu te-ai mai culcat?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Încă nu, jupâne, acu mă culc.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(d-afară)</stage>
+            <p>Somn ușor!...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>&lt;/didascalie&gt; (asemenea) &lt;/didascalie&gt; Și vise plăcute, onorabile!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(depărtându-se treptat)</stage>
+            <p>Chiriac, puiule, ia vezi de ce am vorbit, fii cu ochii-n patru, d-aproape de tot: mă știi că țiu când e la o adică...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(strângând pe Veta cu putere)</stage>
+            <p>Lasă, jupâne, mă știi că consimț la onoarea dumitale de familist!...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Du-te, puiule, du-te; fii cuminte, sunt aproape de unsprezece... Cine știe? Vine fără veste!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Aș! Mai are două ceasuri bune de alergat; nu poate veni așa degrab’.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>De unde știi ce se-ntâmplă? Paza bună trece primejdia rea.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>N-ai grijă, dragă, când îți spui eu că nu vine; are să meargă până la Cotroceni, ce te gândești? Nu-l știi pe el că umblă agalea?...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Bine, dar aș vrea și eu să mă culc; zău, sunt obosită grozav. Știi tu că de ieri seară de când ne-am certat, până acum n-am închis ochii?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ei! D-apoi eu i-am închis!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Tocmai d-aia; sărută-mă încă o dată și du-te și tu de te culcă. Mâine ai să ieși la ezirciț; ai uitat că trebuie să te scoli până-n ziuă?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Bine zici! Cum să uit, se poate? Mâine trebuie să mă scol la patru ceasuri. Are să vie gornistul, să mergem să luăm doi oameni din companie, ca să ridicăm pe Tache pantofarul de la Sfântul Lefterie.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Apoi mi-a spus lelița Safta, că-i bolnav de lingoare.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ce treabă am eu cu boala lui? Ce, eu sunt bolnav? Nu mă privește pe mine. Îl am pe listă, trebuie să se prezante la ezirciț.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(tresărind, ca cum ar fi auzit ceva)</stage>
+            <p>Ia taci!</p>
+            <stage>(ascultă.)</stage>
+            <p>Mi s-a părut că umblă cineva pe portiță. ’Aide, Chiriac, sărută-mă și du-te.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(o sărută)</stage>
+            <p>Mâine seară nu te mai duci la „Iunion”?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nu, nu mai mă duc fără tine... Dar tu... nu uiți ce mi-ai făgăduit, – n-o să mă mai necăjești niciodată?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Niciodată.</p>
+            <stage>(o sărută, o strânge-n brațe și pleacă.)</stage>
+            <p>Bonsoar.</p>
+            <stage>(se mai întoarce spre a repeta jocul și iese în stânga planul din fund.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(singură, fredonează încet, coborând la masă)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(intră, se oprește pe prag, vede pe Veta în spate, răsuflă din adânc, pune mâna la inimă și înaintează în vârful degetelor până la spatele scaunului ei; cade în genunchi și începe cu putere)</stage>
+            <p>Angel radios!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(dă un țipăt, se scoală și fuge în partea ceailaltă a scenii făcându-și cruce și scuipându-și în sân)</stage>
+            <p>A!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(întorcându-se în genunchi spre partea unde a fugit ea):</stage>
+            <p>Angel radios! Precum am avut onoarea a vă comunica în precedenta mea epistolă, de când te-am văzut întâiași dată pentru prima oară mi-am pierdut uzul rațiunii; da! Sunt nebun...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Nebun!</p>
+            <stage>(strigând.)</stage>
+            <p>Săriți, Chiriac! Spiridoane!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Nu striga, madam,</p>
+            <stage>(se târăște un pas în genunchi)</stage>
+            <p>fii mizericordioasă! Sunt nebun de amor; da, fruntea mea îmi arde, tâmplele-mi se bat, sufer peste poate, parcă sunt turbat.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Turbat?... D-le, spune-mi degrab’, c-aminteri, strig: cine ești, ce poftești, ce cauți pe vremea asta în casele oamenilor?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(se ridică și se apropie de dânsa tăindu-i drumul)</stage>
+            <p>Cine sunt? Mă întrebi cine sunt? Sunt un june tânăr și nefericit, care sufere peste poate și iubește la nemurire.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ei! Ș-apoi? Ce-mi pasă mie!</p>
+            <stage>(după o mică reflecție.)</stage>
+            <p>Vai de mine! Ăsta e vun pungaș: a aflat că nu-i dumnealui acasă și umblă să ne pungășească.</p>
+            <stage>(tare strigând.)</stage>
+            <p>Chiriac! Spiridoane! Săriți! Hoții!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(cu mâinile rugătoare)</stage>
+            <p>Nu striga! Nu striga! Fii mizericordioasă; aibi pietate! M-ai întrebat să-ți spui cine sunt, ți-am spus. Mă întrebi să-ți spui ce caut... Ingrato! Nu mi-ai scris chiar tu însuți în original?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Da!</p>
+            <stage>(se ridică.)</stage>
+            <p>Nu mi-ai scris să intru fără grijă după zece ceasuri la numărul nouă, strada Catilina, când oi vedea la fereastr că se micșorează lampa? Iată-mă. M-am transportat la localitate pentru ca să-ți repet că te iubesc precum iubește sclavul lumina și orbul libertatea.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Adevărat, domnule, parol că ești nebun. Visezi; ți-am scris eu dumitale vreo scrisoare? Auzi obrăznicie! Știi dumneata cu cine vorbești?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Cum să nu știu? În van te aperi. Și tu mă iubești pe mine, nu mai umbla cu mofturi. Te-am văzut d-atunci seara de la „Iunion”...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>De la „Iunion”?</p>
+            <stage>(caută cu gândul.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Da; chiar de atunci seara, când privirile noastre s-au întâlnit, am citit în ochii tăi cei sublimi că și tu corespunzi la amoarea mea. M-am luat după tine chiar în seara aceea până la Stabiliment. Simțisem că mitocanul de cumnatu-tău mă mirosise, știa că mă țiu după voi; și, abandonându-mă curajul de a mai intra într-o stradă fără lampe gazoase, m-am întors îndărăt, pentru că-mi era frică să nu paț vun conflict cu mitocanul. Alaltăieri seară, amoarea mi-a inspirat curaj; m-am ținut după voi până în această suburbie, în colțul stradei; dar când să-ți văz justaminte adresa, mi-a tăiat drumul niște câini. Când am aflat că șezi pe aci, te-am căutat la nemurire și m-am informat prin băiatul de la cherestegeria lui cumnatu-tău cum stai cu familia ta. Am aflat că acum ești liberă, ți-am scris prima mea epistolă într-un moment de inspirațiune, ai primit-o, mi-ai răspuns să viu, și am venit... pentru ca să-ți repet că:</p>
+            <stage>(cade iar în genunchi)</stage>
+            <p>nu, orice s-ar zice și orice s-ar face, eu voi susținea, sus și tare, că tu ești aurora, care deschide bolta înstelată într-o adorație poetică, plină de...</p>
+            <stage>(urmează declarația foarte iute până ce-l întrerupe Veta.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(a ascultat cu mult interes toată tirada lui Rică și-l întrerupe izbucnind de râs)</stage>
+            <p>Ha! Ha! Ha! Acu înțeleg eu tot! Ha! Ha! Ha!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Râzi, râzi, ingrato, de amoarea mea?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da’ cum, Doamne iartă-mă! Să nu râz?... Vezi bine că râz. Apoi știi dumneata cu cine vorbești?... Mă cunoști?... Știi bine cine sunt?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Cum să nu știu! Tu ești angelul visurilor mele, tu ești steaua, pot pentru ca să zic chiar luceafărul, care strălucește sublim în noaptea tenebroasă a existenții mele, tu ești...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(care trece la lampă, îi mărește focul și se pune cu chipul în bătaia luminii)</stage>
+            <p>Zău? Ia uite-te bine!</p>
+            <stage>(râde.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(foarte încurcat, se scoală de jos și se dă înapoi împiedicându-se)</stage>
+            <p>Madam! Să am pardon! Scuzați! Cocoană! Considerând că... adică, vreau să zic, respectul... pardon... sub pretext că și pe motivul... scuzați... pardon...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(râzând)</stage>
+            <p>Bine, pardonul ca pardonul, dar te rog, dacă ții la pielea d-tale, să te duci mai degrabă, să ieși curând din casa asta, că, Doamne ferește! De te-o călca aici bărbatu-meu</p>
+            <stage>(accentuând)</stage>
+            <p>mitocanul... De!...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Scuzați... pardon...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Apoi zău nu știu ce s-o mai alege de dumneata. Bărbatu-meu sufere grozav de gelozie și e în stare a fi capabil să te omoare.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(speriat)</stage>
+            <p>Să mă omoare!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Deja alaltăieri seara ai avut noroc de ți-a tăiat drumul câinii și nu te-a lăsat să intri în ulița noastră. Aminteri, dumnealui s-a suit repede sus, a deșteptat pe Chiriac...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Chiriac!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da, tejghetarul nostru, și au ieșit amândoi, unul pe maidan și altul pe la poartă ca să te prinză în uliță. Încă Chiriac luase și levorverul; dar până să iasă ei, dumneata fugiseși...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(îngrijat)</stage>
+            <p>Levorverul!... Madam, vă rog binevoiți a-mi da drumul d-aici de urgență...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ei! Știi că-mi place! Ce! Te țiu eu? Du-te, ușa-i deschisă; du-te repede, și bagă de seamă la poartă să nu dai piept în piept cu dumnealui, că de-acum încolo trebuie să se întoarcă acasă. Apucă pe maidan și ieși devale spre Antim. Bagă de seamă să nu te întâlnești cu bărbatu-meu, că te cunoaște, și cum te-o vedea, zău! Te umflă.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Mă umflă!...</p>
+            <stage>(vrea să plece, apoi stă și se întoarce.)</stage>
+            <p>Cocoană, ești o damă venerabilă; profit de ocaziune, spre a vă ruga</p>
+            <stage>(cu multă volubilitate)</stage>
+            <p>să primiți asigurarea înaltei stime și profundului respect, cu care am onoare a fi al domniei-voastre prea supus și prea plecat, Rică Venturiano, arhivar la judecătoria de pace circumscripția de galben, poet liric, colaboratore la ziarul „Vocea Patriotului Naționale”, publicist și studinte în drept...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>În drept, în strâmb, ce-mi pasă mie! Du-te odată, ori ți s-a făcut pesemne de vun conflict...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Nu, madam, nu; eu sunt june cu educație, nu voi să paț nici un conflict!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Apoi, atunci du-te! Ce mai stai?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Mă duc; scuzați, pardon, bonsoar!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>’Aide!</p>
+            <stage>(vrea să-l conducă până la ușă; când vrea să deschiză ușa ca să-i dea drumul, s-aude glasul lui jupân Dumitrache în curte. - Rică și Veta coboară înspăimântați.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(afară în curte)</stage>
+            <p>Îți spui că i-am văzut eu capul pe fereastră. E aici în casă. Chiriac! Spiridoane!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(îngrozită)</stage>
+            <p>Muziu! Domnule! M-ai nenorocit, și dumitale atâta ți-a fost! Fugi, fugi, că te omoară!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Aoleo!</p>
+            <stage>(se repede să fugă pe ușă.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(oprindu-l)</stage>
+            <p>Nu p-acolo!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(d-afară)</stage>
+            <p>Dacă nu i-o ajunge ce i-oi da eu moftangiului, să-mi tai mie favuridele!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(tot d-afară)</stage>
+            <p>Rezon!</p>
+            <stage>(se aud pași repezi suind scările.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(desperat)</stage>
+            <p>Madam, cocoană! Ai mizericordie de un june român în primăvara existenții sale! De-abia douăzeci și cinci de roze și jumătate în număr, douăzeci și șase le împlinesc tocmai la sfântul Apostol Andrei... Scapă-mă!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da... dar pe unde? A! Pe fereastra asta; ieși curând, treci binișor pe schele la stânga, lasă-te pe scară în capătul binalii; jos e o portiță scurtă, care dă în maidan... Fugi iute!...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(iese pe fereastră, se lovește cu capul de zid și-și turtește pălăria)</stage>
+            <p>Pardon!... Scuzați!... Bonsoar!</p>
+            <stage>(dispare pe fereastră, pașii se apropie.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>A scăpat sărmanul... Ce comedie! Doamne sfinte! Dacă-l prindea Chiriac, îl omora. Vezi dumneata cine mi-a fost soră-mea Zița! D-aia se ținea dumneaei de capul meu să tot batem grădinile; era amorezată. Și eu, proastă, să nu știu nimic, și să-mi fac zile amare cu Chiriac din pricina lui musiu ăsta... Bine că a scăpat, vai de el; acum trebuie să-i sfârâie călcâiele pe maidanul lui Bursuc.</p>
+            <stage>(coboară la masă și se face că lucrează. Ușa din fund se deschide de perete și intră furioși jupân Dumitrache și Ipingescu cu săbiile scoase.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(înaintează strajnic)</stage>
+            <p>Cocoană! Cine a fost acum aici?</p>
+            <stage>(Ipingescu caută cu ochii în toate părțile, se uită pe sub pat, pe sub masă, peste tot.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Cine să fie?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(fierbând)</stage>
+            <p>Cine să fie?... Știu eu cine să fie? Dacă aș ști, nu te-aș întreba.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon! (caută mereu.) &lt;/didascalie&gt;</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ei! Știi că ești nu știu cum! Ce vii așa turbat? Uite, cu sabia scoasă, ca la bătălie.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Nu râde, cocoană, după ce că paț un afront tocmai la ce-am ținut eu, nu râde; du-te dincolo, cocoană!... De ce nu te-ai culcat pân-acum?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Zău, că nu ești în toată firea! Auzi că de ce nu m-am culcat; pentru că nu mi-a fost somn. Ce! Vrei să mă culc și să-mi las lucru? Mâine e sărbătoare, trebuie să mă gătesc să merg la biserică.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Cocoană, du-te dincolo, aci avem treabă; du-te curând.</p>
+            <stage>(umblă agitat, strigând.)</stage>
+            <p>Spiridoane! Spiridoane! Chiriac! Spiridoane! Chiriac! (către Veta.) Rău ai făcut, cocoană!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ce rău? Ce visezi? Ce-am făcut?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Știi dumneata bine! Dumneata să tragi păcatul de ce s-o întâmpla</p>
+            <stage>(sinistru)</stage>
+            <p>, că are să se întâmple lucru mare, cocoană, măcar să știu de bine că merg la cremenal!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ești nebun!</p>
+            <stage>(aparte.)</stage>
+            <p>Acu nu mai mi-e frică.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(strajnic la culme)</stage>
+            <p>Du-te, cocoană, și nu râde.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Iaca, mă duc.</p>
+            <stage>(iese răzând în stânga planul I.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Știi</p>
+            <stage>(se îneacă de emoție)</stage>
+            <p>, mă stăpânesc, adică-i vorbesc cu perdea, nu voi să-i isplic lucru formal, ca să n-o rușinez.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Știi cum e dânsa...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Coana Veta? Rușinoasă, ... mie-mi spui?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(plimbându-se agitat)</stage>
+            <p>Adică chiar în casa mea să nu pot eu pune mâna pe bagabontul? Că n-a avut pe unde ieși; altă scară nu mai are casa.</p>
+            <stage>(strigă.)</stage>
+            <p>Spiridoane! Chiriac! Chiriac! Spiridoane!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(vine din dreapta, cu părul vâlvoi, sculat zăpăcit din somn)</stage>
+            <p>Ce-i porunca, jupâne?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Porunca? Vino să-ți dau poruncă.</p>
+            <stage>(îl ia de păr.)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Hahahaha! Dă-l, dă-l cățeaua!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Apoi parcă ne-a fost vorba, musiu Spiridoane băiete, să nu te mai găsesc dormind când mă-ntorc acasă! Na poruncă! Na poruncă! Mai na poruncă! Să-ți mai treacă de piroteală!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(plângând)</stage>
+            <p>Auliu, jupâne, auliu! Ce ți-am făcut eu, jupâne, dacă am dormit?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(strajnic cătră Spiridon)</stage>
+            <p>Pentru ce nu ești prezent la apelul nominal?...</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Auliu!</p>
+            <stage>(se jelește.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Taci! Unde-i Chiriac?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(fugind într-un colț)</stage>
+            <p>Nu știu...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(se repede la el; Spiridon fuge)</stage>
+            <p>Da’ să mănânci și să dormi știi?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Doarme în odaia dumnealui, jupâne.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Doarme? Toți dormiți, dormire-ați somnul ăl lung! Pâinea știți să mi-o mâncați. Cheamă pe Chiriac degrabă... mergi!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(cătră Spiridon, bătându-i din picior)</stage>
+            <p>Urgent!</p>
+            <stage>(Spiridon iese degrab’ în stânga.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Chiriac! Chiriac!... Eu arz în foc și toți trag la aghioase! Eu arz de onoarea mea de familist și lor de somn le arde... Chiriac!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(Ștergându-se la ochi, în costum de noapte, vine moale de somn, din stânga)</stage>
+            <p>Ce-i jupâne? Ce s-a aprins? Arde? Unde arde?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(luându-l de mână și aducându-l în fața scenii)</stage>
+            <p>Chiriac!</p>
+            <stage>(scurt.)</stage>
+            <p>M-am nenorocit!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>S-a dus ambițul!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Tocmai la ce am ținut...</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Mi s-a necinstit onoarea de familist!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Aș! nu se poate; ți s-a părut!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Am văzut cu ochii.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Aș! Așa m-ai speriat și alaltăieri seara; așa ți se năzare dumitale.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Chiriac, întreabă și pe nenea Nae!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(grav)</stage>
+            <p>Aprob pozitiv.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(dezmeticit)</stage>
+            <p>Cum? Când? Unde? Cine?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Bagabontul!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ei?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Mațe-fripte, Chiriac puiule, l-am văzut din uliță pe fereastră aici în casă... cu ochelarii pe nas, cu giubenu-n cap.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Idem.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Aici în casă? Nu mă băga-n păcate, jupâne!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(aparte)</stage>
+            <p>Cu ochelari? Cu giuben? E persoana cocoanii Ziții.</p>
+            <stage>(iese pe furiș prin fund.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>L-am văzut cu ochii mei, și nu se poate să fi ieșit d-aici, că n-avea pe unde! Pe scară m-am suit eu cu nenea Nae, trebuia să dau piept în piept cu el. Trebuie să fie aici în casă ascuns. - Trebuie să-l găsim. &lt;didascalie&gt; (iese în dreapta.) &lt;didascalie&gt;</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(bătându-se-n piept)</stage>
+            <p>Las’ pe mine, jupâne.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(care se află la fereastra din stânga)  Să am pardon: fereastra asta dă pe schele, schelele merg până-n capătul binalii.</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Ei! Acolo nu-i scară? Dacă o fi ieșit pe aici pe fereastră, s-a dus, a scăpat pe maidanul lui Bursuc.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Nu se poate să fi găsit scara. Schelele se-nfundă în podul grajdului; podul nu-i podit până acuma, e gratie numa, și scara este în partea ailaltă, în dosul binalii.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(reintră în stânga desperat)</stage>
+            <p>Mi s-a dus ambițul, nu mai voi să știu de nimic! Mi s-a necinstit onoarea de familist, acum nu mai îmi pasă măcar să intru și-n cremenal!</p>
+            <stage>(căutând cu ochii, găsește bastonul lui Rică uitat pe scânduri lângă scaunul unde acesta a căzut în genunchi la intrare. - Chiriac și Ipingescu caută și ei în toate părțile.)</stage>
+            <p>Chiriac! Chiriac! puiule, uite!</p>
+            <stage>(arată bastonul.)</stage>
+            <p>Mai zi că mi s-a părut.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Ce e, frate, ce e?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(cu putere cătră ea)</stage>
+            <p>Nu scapă el, cocoană, nici mort din gheara mea!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(asemenea)</stage>
+            <p>Da, cocoană, nici mort.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(asemenea)</stage>
+            <p>A! Rezon!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>’Aide, jupâne, ’aide, nene Nae!</p>
+            <stage>(vrea să se repează peste fereastră cu pușca-n mână.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(aleargă și se pune în dreptul ferestrii)</stage>
+            <p>Sunteți nebuni? Vreți să se rupă schelele cu voi? Chiriac, nu știi că schelele sunt părăsite de trei săptămâni? Vrei să te prăpădești?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Lasă-ne cocoană!</p>
+            <stage>(vrea s-o dea în lături, ea nu se lasă.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(asemenea)</stage>
+            <p>Lasă-ne cocoană!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(asemenea)</stage>
+            <p>Pardon!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(lui Chiriac)</stage>
+            <p>Iar te iei după vreo bănuială de-a dumnealui, iar? Ai uitat ce...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Da, bănuială... cu ochilari la nas și cu giobenu-n cap!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(se luptă cu Veta)</stage>
+            <p>Lasă-mă, cocoană!</p>
+            <stage>(scapă din mâinile ei și iese pe fereastră.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(șovăie și cade pe scaun)</stage>
+            <p>Chiriac!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Înainte, Chiriac! Înainte, nene Nae!</p>
+            <stage>(iese pe fereastră, Nae Ipingescu îl urmează.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(sculându-se șovăind, scoate capul pe fereastră)</stage>
+            <p>Chiriac! Chiriac! Binișor! Să nu cazi!</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(intră prin fund repede)</stage>
+            <p>Ce e, țațo? Ce s-a întâmplat? Mi-a spus Spiridon...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(sculându-se repede de pe scaun)</stage>
+            <p>Zițo, Zițo, tu mi le faci toate, tu m-ai dus la „Iunion”, tu ai dat nas amploiatului să se ție după noi, de mi-am găsit beleaua cu Chiriac...</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Cu Chiriac?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(dregând-o)</stage>
+            <p>Cu dumnealui, cu Chiriac, cu toți; l-ai chemat să vie, și în loc să vie la tine a venit aici.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Și?...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Și tocmai când să-i dau drumul înapoi pe ușe, iacătă-i dumnealui cu Nae ipistatul se suia pe scară strigând ca niște turbați...</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Și pe urmă?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>L-am făcut scăpat pe fereastră, i-am dat drumul pe schelă, ca să iasă pe la spatele binalii, pe portița dinspre maidan.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(cu spaimă)</stage>
+            <p>Pe portița dinspre maidan!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Da, pentru că pe scara a mare s-ar fi întâlnit piept în piept cu dumnealui.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(zdrobită)</stage>
+            <p>Țațo! Per l’amour di Dieu! Portița dinspre maidan e încuiată; adineori am vrut să viu eu p-acolo, ca să nu mai ocolesc, și a trebuit să mă întorc iar pe uliță ca să intru în curte.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Încuiată? Și ulucile sunt de doi stânjeni! Atunci persoana în chestie n-a putut fugi! Zițo, Zițo! E primejdie! dumnealui e grozav, Chiriac e nebun!</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Vai de mine! Monșerul meu! Mi-l omoară!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Chiriac a luat pușca cu spangă și dumnealui a scos sabia...</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Nu mai spune țațo, că mor!</p>
+            <stage>(se aude o dărâmare de scânduri.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Taci!</p>
+            <stage>(ascultă amândouă.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(de afară)</stage>
+            <p>Ațin’te, Chiriac!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(de afară)</stage>
+            <p>Stai! În numele Costituțiunii!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(îngrozită)</stage>
+            <p>L-a prins!</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(asemenea)</stage>
+            <p>Ah! Mor!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Sunt în curte, ’aide să mergem degrabă. Tu ai făcut încurcătura, tu s-o descurci! ’Aide repede de scapă omul din primejdie.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>’Aide!</p>
+            <stage>(Amândoi pornesc să iasă prin fund; când ele vor să pășească pragul, s-aude alt zgomot afară și strigăte.)</stage>
+          </sp>
+          <sp who="#glasul lui jupân dumitrache">
+            <speaker>GLASUL LUI JUPÂN DUMITRACHE</speaker>
+            <p>Nu le lăsa, Chiriac!</p>
+            <stage>(zgomot, strigăte și o detunătură de pușcă.)</stage>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Chiriac!</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Monșerul meu!</p>
+            <stage>(ies amândouă desperate.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(Coboară încet pe fereastră pe unde a ieșit; este prăfuit de var, ciment și cărămidă; părul îi este în neorânduială; pălăria ruptă; e galben și tras la față; tremură și i se încurcă limba la vorbă; i se nălucește a spaimă din când în când și îl apucă slăbiciune la încheieturi.)</stage>
+            <p>Am scăpat până acum! Sfinte Andrei, scapă-mă și de acu încolo: sunt încă june! Geniu bun al venitorului României, protege-mă; și eu sunt român!</p>
+            <stage>(răsuflă din greu și își apasă palpitațiile.)</stage>
+            <p>O ce noapte furtunoasă! Oribilă tragedie!</p>
+            <stage>(i se pare că aude ceva și tresare.)</stage>
+            <p>Ce de peripețiuni!... Ies pe fereastră și pornesc pe dibuite pe schele! Mă țiu binișor de zid și ajung în capătul binalii... Destinul mă persecută implacabil... Schelele se-nfundă; nici o scară... Cocoana perfidă mă indusese în eroare... Vreau să mă-ntorc și d-odată auz pe inimici venind în fața mea pe schele. O iau înapoi fără să știu unde merg; mă împiedic de un butoi cu țiment... O inspirațiune,... – eu ca poet am totdeauna inspirațiuni! – m-ascunz în butoi! Pașii inimicilor s-apropie în fuga mare, mulți inși trec iute pe lângă butoiul meu înjurându-mă; eu, ca june cu educațiune, mă fac că n-auz... Toți se depărtează... Auz un zgomot, strigăte, țipete de femei, în fine o împușcătură. Zgomotul apoi cu încetul se stinge, totul rămâne într-un silențiu lugubru, numai din depărtare se aude orologiul de la Stabiliment bătând 11:20... oră fatală pentru mine! - Ies binișor din butoiul meu, mă târăsc de-a bușele pe schele și mă pomenesc înapoi aci... Ce să fac? Pe unde să ies? Îmi trebuie o inspirațiune ingenioasă...</p>
+            <stage>(pune mâna la frunte și caută în gând.)</stage>
+            <p>Da, am găsit-o! Să ies pe ușe.</p>
+            <stage>(merge repede în vârful degetelor la ușa din fund, o deschide; afară, în sală, e beznă.)</stage>
+            <p>Obscuritate absolută!</p>
+            <stage>(merge la fereastră.)</stage>
+            <p>A! Auz  pași; vine cineva pe schele.</p>
+            <stage>(se repede la ușa din dreapta, a odăii lui Spiridon.) P-aici!  (Spiridon intră în același moment repede, și se lovesc amândoi în piept.)</stage>
+            <p>Ah! Cum m-ai speriat!</p>
+            <stage>(îi vine rău.)</stage>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>D-le, musiu, tot aici ești? E foc mare, trebuie să fugi! Dacă o pune mâna pe dumneata, te omoară...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Mă omoară?... Scapă-mă, băiete, scoate-mă de aici... Pe unde să ies?</p>
+            <stage>(pornind spre ușa din dreapta, pe unde a intrat Spiridon.)</stage>
+            <p>Pe aici...</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Nu se poate.</p>
+            <stage>(îi taie drumul.)</stage>
+            <p>Odaia d-acolo răspunde tot pe scara a’ mare; vrei să te-ntâlnești cu ei piept în piept?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Nu, nu voi; dar atunci ce-i de făcut! Existența mi-este periclitată. Voi să scap. Scapă-mă: îți dau bacșiș trei sferturi de rublă.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Trei sferturi de rublă: șase pachete de tutun! Te scap.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Cum? Pe unde? Spune-mi iute, că mi-e degrabă, îmi vine stenahorie.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Dumneata stăi aici. Eu mă duc colea în odăiță</p>
+            <stage>(la dreapta)</stage>
+            <p>, deschiz ușa care dă în scară, cum i-oi vedea că se urcă sus, te chem în odaie, închidem ușa de la mijloc, și când or intra cu toții aici, îți dau drumul pe dincolo pe scară, te cobori și ieși repede pe poartă... Lasă că te scap, n-ai grijă.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Da, du-te degrabă!</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(cu șiretenie)</stage>
+            <p>Apoi, nu-mi dai?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Ce mi-ai făgăduit.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Ba da, îți dau.</p>
+            <stage>(se caută în toate buzunarele și completează suma din mărunțele; Spiridon o socotește cu scumpătate.)</stage>
+            <p>Băiete, (solemn) tânărule! Știi tu în ce pozițiune mă găsesc? Știi tu ce pericol mă amenință?</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Ba bine că nu! Dacă n-oi ști eu păpara lui jupânul!... Hehei! Lasă; dacă n-ăi putea scăpa...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>’Ai?</p>
+            <stage>(șovăie.)</stage>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <p>Ai să vezi și dumneata al dracului ce e... De ce-i zice lui „Titircă Inimă-Rea”?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Nu, nu voi să văz, scapă-mă.</p>
+          </sp>
+          <sp who="#spiridon">
+            <speaker>SPIRIDON</speaker>
+            <stage>(cam rece)</stage>
+            <p>Ei! Lasă, dacă oi putea, te scap eu, firește.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>A!</p>
+            <stage>(șovăie.)</stage>
+            <p>Auz zgomot pe scară; se suie...</p>
+            <stage>(șovăie.)</stage>
+            <p>Aleargă; scapă-mă!</p>
+            <stage>(Spiridon iese încet în dreapta, numărând gologanii; Rică îl zorește de la spate.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(o clipă singur; joc de scenă mută; deodată se aud în odaia din dreapta palme, și Spiridon țipând)</stage>
+            <p>A!</p>
+            <stage>(pași pe scară; Rică se repede la ușa din dreapta.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(întâmpinându-l cu sabia scoasă)</stage>
+            <p>Stăi!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(dându-se înapoi)</stage>
+            <p>Sunt mort, sfinte Andrei!</p>
+            <stage>(se repede la fereastra schelelor în stânga.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(dându-se înapoi șovăind)</stage>
+            <p>Geniu bun al venitorului României!</p>
+            <stage>(se repede la ușa din fund.)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(întâmpinându-l cu sabia scoasă)</stage>
+            <p>Stăi!</p>
+            <stage>(recunoscând pe Rică, îi cade sabia din mână.)</stage>
+            <p>Nu mă nebuni, onorabile! D-ta ești?</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(tremurând grozav)</stage>
+            <p>Eu!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ce poftești, mă musiu?</p>
+            <stage>(se repede să-l umfle. Zița i sare-n piept și-l oprește.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(trântește pușca și scuipă în palme) &lt;:didascalie&gt; Lasă-mi-l mie, jupâne!  (se repede și el să-l umfle.)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(sărind și oprind în piept pe Chiriac)</stage>
+            <p>Nu da, onorabile!... îl cunosc eu.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(lui Ipingescu)</stage>
+            <p>Dă-te la o parte!</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(lui Jupân Dumitrache)</stage>
+            <p>Nene Dumitrache, nu-mi asasina viitorul!</p>
+            <stage>(se luptă cu el.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Lasă-l să-l întreb numai: ce poftești, mă musiu?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Lasă-mă, nene Nae, să-l învăț eu pe mațe-fripte să mai umble după nevestele negustorilor!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(strigând tare ca să acopere toate strigătele)</stage>
+            <p>Stați! Stați! Că e-ncurcătură! Pe dumnealui îl cunosc eu! D-lui nu-i d-ei de care credeți dvs.; e cetățean onorabil.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da’ de onorabil n-are-ncotro!</p>
+            <stage>(vrea să se repează.)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(oprindu-l)</stage>
+            <p>E d-ai noștri, e patriot!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Dacă-i patriot, de ce umbră să-mi strice casa? De ce mă atacă la onoarea de familist?</p>
+            <stage>(vrea să se repează; Veta intră prin fund.)</stage>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Nene! Nene! Iartă-mă! Nu e ce crezi dumneata.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Dar ce e?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ce e?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(trecând lângă Chiriac și luându-l la o parte necăjită)</stage>
+            <p>Ce e, ce e! Oameni în toată firea și nu-nțelegeți ce e! Umblați ca nebunii!</p>
+            <stage>(șoptindu-i repede.)</stage>
+            <p>Iaca ce e! Tânărul umbă după Zița, s-a amorezat cu ea de la „Iunion”, știi din seara când s-a luat după noi, și-a trimes unul la altul bilete de amor, și-n loc să meargă la ea acasă, a greșit ș-a venit aici. Nu ți-am spus eu că e tot o bănuială proastă de-a d-lui. Mă faci să intru în alte alea cu nebuniile tale. Iaca ce e; ai văzut?</p>
+            <stage>(în timpul acesta jupân Dumitrache, cam încurcat de potolirea lui Chiriac, vrea să asculte și el explicația.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(domirindu-se)  A!</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(trecând lângă Veta)</stage>
+            <p>Ei! Ce e!</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(cătră Chiriac)</stage>
+            <p>Spune-i ce e.</p>
+            <stage>(trece în fund.)</stage>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(luând la o parte pe Jupân Dumitrache și șoptindu-i)</stage>
+            <p>Ce e, ce e! Oameni în toată firea și nu înțelegem! Umblăm ca nebunii! Iaca ce e! Tânărul umblă după Zița; s-a amorezat cu ea de la „Iunion”, știi, din seara aia când s-a luat după dumneavoastră, și-a trimes unul la altul bilete de amor, și în loc să meargă la ea acasă, a greșit ș-a venit aici. Nu ți-am spus eu, jupâne, că așa îți cășunează dumitale! M-ai făcut să alerg ca nebunii, să-mi rup gâtul! Doamne ferește! Dacă făceam și moarte de om? Iacă ce e; ai văzut?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(înseninat și domirit)</stage>
+            <p>A!</p>
+            <stage>(căutând la Zița cu coada ochiului.)</stage>
+            <p>Ei! Bată-te, Zițo, să te bată!</p>
+            <stage>(Chiriac trece lângă Ipingescu.)</stage>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <stage>(plecând ochii cu nevinovăție)</stage>
+            <p>Nene!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(cu părinție)</stage>
+            <p>Ei! Nu te rușina! Ale tinereții valuri!</p>
+            <stage>(cătră public.)</stage>
+            <p>Fată romanțioasă! D-aia dumneaei: „’Ai, nene, la «Iunion», parol! Să mă-ngropi!”</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(înaintând lângă Jupân Dumitrache)</stage>
+            <p>Onorabile!</p>
+            <stage>(cu ifos.)</stage>
+            <p>Știi cine-i tânărul ăsta?</p>
+            <stage>(arată pe Rică.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Ăsta e ăl care scrie la „Vocea Patriotului Naționale”.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Nu mă nebuni!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Parol.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei, fugi că mor!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>D-apoi ce crezi! Chiar el însuși în persoană: e băiat bun, d-ai noștri, din popor. El combate în articolul ăl de astă-seară, știi cu „sufragiul”.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(încântat)</stage>
+            <p>Ei bravos!</p>
+            <stage>(încet.)</stage>
+            <p>Apoi de! Să facem cunoștință. Cum e amorezat cu Zița, mai știi? De unde a fost să iasă norocul fetii!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon! Aia ziceam și eu.</p>
+            <stage>(cătră Rică.)</stage>
+            <p>Onorabile domn, permite-mi pentru ca să-ți prezant pe cetățeanul Dumitrache Titircă, comersant, apropitar și căpitan în gvarda civică.</p>
+            <stage>(cu importanță.)</stage>
+            <p>E d-ai noștri.</p>
+            <stage>(grupul din fund înaintează.)</stage>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Sunt încântat.</p>
+            <stage>(se confundă în complimente.)</stage>
+            <p>Mersi de cunoștință.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Dumnealui este cetățeanul Rică Venturiano, amploiat judiciar, student la Academie - învață legile, - și redactor la „Vocea Patriotului Naționale”...</p>
+            <stage>(cu putere.)</stage>
+            <p>E d-ai noștri... ce să mai stăm să mai vorbim... îl știi...</p>
+            <stage>(amândoi recomandații se complimentează și-și dau mâna.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(cu respect amestecat cu sfială)</stage>
+            <p>Da, tocmai astă-seară citeam cu nenea Nae, în gazeta dvs., cum scriți despre ciocoi că mănâncă sudoarea poporului suveran. Ei, bravos! Îmi place! Bine combateți reacțiunea, nu pot să zic, știi colea, verde, românește. Să vă ajute Dumnezeu ca să scăpați poporul de ciocoi!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(prinzând limbă, după ce a zâmbit cu multă satisfacție de vorbele lui jupân Dumitrache)</stage>
+            <p>D-le, D-zeul nostru este poporul: box populi, box dei! Noi n-avem altă credință, altă speranță, decât poporul.</p>
+            <stage>(jupân Dumitrache ascultă uimit.)</stage>
+            <p>Noi n-avem altă politică decât suveranitatea poporului; de aceea în lupta noastră politică, am spus-o și o mai spunem și o repetăm necontenit tuturor cetățenilor: „Ori toți să muriți, ori toți să scăpăm!”</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Bravos! Să trăiești!</p>
+            <stage>(bate-n palme, încet către Ipingescu.)</stage>
+            <p>Vorbește abitir, d-le. Ăsta e bun de dipotat.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Hei! Lasă-l că ajunge el și dipotat curând-curând...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Cum combate el, poate să ajungă și ministru.</p>
+            <stage>(tare cătră Rică, care stă tot în grup.)</stage>
+            <p>Mă rog, onorabile, eu îmi cer iertare, știți că poate, adineaori, cum țiu eu la... poate, v-am adus un afront; dar e și vina dvs.; nu știam că veniserăți pentru Zița...</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Mă rog, pardon, vina nu este nici a mea, nici a dumitale, nici a madam Ziții: este a tăbliții de la poartă... D-ei îmi scrisese că șade la numărul nouă... am văzut la poartă numărul nouă și am intrat.</p>
+            <stage>(vorbește încet cu Zița, Veta și Chiriac.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(către Ipingescu)</stage>
+            <p>Așa e; asta meșterul Dincă binagiul mi-a făcut-o; a tencuit zidul de la poartă și mi-a bătut numărul șase d-a-ndoaselea; să-l pui mâine să mi-l întoarcă la loc, să nu mi se mai întâmple vreun conflict.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Frate.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ce-i, Chiriac, puiule? Ce-i Veto?</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Avem să te rugăm ceva.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Da’... să nu ne tratezi cu refuz.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Orice; mă știi cum țiu la nevastă și la tine.</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <p>Uite ce e: musiu Rică și cu Zița compătimesc împreună.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Și le e rușine să-ți spuie că ar vrea să...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Să... ce?</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Ei! Nu știi dumneata? Să puie pirostriile!... Vrei și Dumneata?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(răpit)</stage>
+            <p>Dacă d-lui cabulipsește să ne onoreze cu atâta cinste... de! Zestrea nu-i așa mare, și d-lui e... știi, ceva mai sus... noi suntem negustori.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <stage>(coborând)</stage>
+            <p>Cetățene, suntem sub regimul libertății, egalității și fraternității: unul nu poate fi mai sus decât altul, nu permite Constituția.</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(lui Ipingescu)</stage>
+            <p>Bine vorbește, d-le, bravos!</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Eu, dacă compătimește și madam Zița la suferința mea...</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Mai e vorbă! Cum să nu compătimească? Zițo, nene, ia vino-ncoa.</p>
+            <stage>(Zița vine rușinoasă.)</stage>
+            <p>Ei! Nu-ți mai fie rușine: ale tinereții valuri... Vrei?</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Eu fac ce vrei d-ta; îmi ești ca și un frate mai mare.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Ei! Să vă fie de bine, și ceasul ăl bun să-l dea Pronia.</p>
+            <stage>(încet Ziții.)</stage>
+            <p>Să-ți cinstești bărbatul: ăsta e om, nu glumă; ți-ai găsit norocul.</p>
+          </sp>
+          <sp who="#zița">
+            <speaker>ZIȚA</speaker>
+            <p>Mersi, nene.</p>
+            <stage>(trece în fund.)</stage>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Pentru puțin.</p>
+            <stage>(lui Rică.)</stage>
+            <p>Ei acum, cumnate, ia să vorbim o vorbă colea între bărbați, cocoanele să nu asculte; știin dumneata, nene Nae, cum sunt cocoanele...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rușinoase... mie-mi spui?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(lui Rică care a venit lângă ei)</stage>
+            <p>Toate ca toate, dar la onoarea de familist să ții.</p>
+          </sp>
+          <sp who="#rică">
+            <speaker>RICĂ</speaker>
+            <p>Da, familia e patria cea mică, precum patria e familia cea mare; familia este baza societății.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Așa e, bravos!</p>
+            <stage>(lui Ipingescu.)</stage>
+            <p>Toate le știe, îmi place...</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Apoi dacă-i jurnalist...</p>
+          </sp>
+          <sp who="#veta">
+            <speaker>VETA</speaker>
+            <stage>(din fund către Jupân Dumitrache)</stage>
+            <p>Ei! Toate bune, frățico, dar noi nu dormim în noaptea asta? Chiriac are să se scoale mâine până-n ziuă la ezirciț.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Mai e vorbă, soro, cum să nu?</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <stage>(lui Jupân Dumitrache)</stage>
+            <p>Onorabile, îndatorează-mă cu o țigară de tutun.</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Și cu două, nene Nae.</p>
+            <stage>(bagă mâna să scoață tabachera și se oprește încruntat cu mâna în buzunar)</stage>
+            <p>Nene Nae! Chiriac!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <stage>(coborând lângă Jupân Dumitrache)</stage>
+            <p>Ce-i, jupâne?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(luând pe Chiriac și pe Ipingescu de mână și aducându-i dramatic în fața scenii)</stage>
+            <p>Toate le-am lămurit; bine, de cumnatul Rică nu mai am ce să zic; dar să vă arăt ce am găsit pe pernele patului d-ei, ... că uitasem; ... îmi vine să intru la bănuieli rele.</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>&lt;/didascalie&gt; (înfiorat) &lt;didascalie&gt; Ce-ai găsit, jupâne?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <p>Uite.</p>
+            <stage>(scoate din buzunar o legătură de gât.)</stage>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Frumoasă legătură, de șic!</p>
+          </sp>
+          <sp who="#chiriac">
+            <speaker>CHIRIAC</speaker>
+            <p>Aș! Ado-ncoa, jupâne; asta-i legătura mea, n-o știi dumneata?</p>
+          </sp>
+          <sp who="#jupân dumitrache">
+            <speaker>JUPÂN DUMITRACHE</speaker>
+            <stage>(lămurit)</stage>
+            <p>Ei, bată-te să te bată! De ce nu spui așa, frate? (lui Ipingescu, cu filozofie.) Ei! Vezi?... Uite așa se orbește omul la necaz!</p>
+          </sp>
+          <sp who="#ipingescu">
+            <speaker>IPINGESCU</speaker>
+            <p>Rezon!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

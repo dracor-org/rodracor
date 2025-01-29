@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000015" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Bogdan Vodă</title>
+        <author>
+          <persName type="pseudo">Ioan Slavici</persName>
+          <idno type="wikidata">Q961107</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title></title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="bogdan" sex="MALE">
+            <persName>BOGDAN</persName>
+            <age>hatman şi-n urmă domn al Moldovii</age>
+          </person>
+          <person xml:id="alexandru" sex="MALE">
+            <persName>ALEXANDRU</persName>
+            <age>domn al Moldovii</age>
+          </person>
+          <person xml:id="hulpe" sex="MALE">
+            <persName>HULPE</persName>
+            <age>mare logofăt</age>
+          </person>
+          <person xml:id="andronic" sex="MALE">
+            <persName>ANDRONIC</persName>
+            <age>postelnic şi, în urmă, hatman</age>
+          </person>
+          <person xml:id="aron" sex="MALE">
+            <persName>ARON</persName>
+            <age>boier</age>
+          </person>
+          <person xml:id="onciul" sex="MALE">
+            <persName>ONCIUL</persName>
+            <age>boier</age>
+          </person>
+          <person xml:id="coste" sex="MALE">
+            <persName>COSTE</persName>
+            <age>boier</age>
+          </person>
+          <person xml:id="stefan" sex="MALE">
+            <persName>ŞTEFAN</persName>
+            <age>fiul lui Bogdan</age>
+          </person>
+          <person xml:id="diacul" sex="MALE">
+            <persName>DIACUL</persName>
+            <age>oștean</age>
+          </person>
+          <person xml:id="linte" sex="MALE">
+            <persName>LINTE</persName>
+            <age>oștean</age>
+          </person>
+          <person xml:id="veriga" sex="MALE">
+            <persName>VERIGĂ</persName>
+            <age>oștean</age>
+          </person>
+          <person xml:id="codac" sex="MALE">
+            <persName>CODAC</persName>
+            <age>oștean</age>
+          </person>
+          <person xml:id="barbalat" sex="MALE">
+            <persName>BARBĂLAT</persName>
+            <age>oștean</age>
+          </person>
+          <person xml:id="doamna_oltea" sex="FEMALE">
+            <persName>DOAMNA OLTEA</persName>
+            <age>soţia lui Bogdan</age>
+          </person>
+          <person xml:id="boieri" sex="MALE">
+            <persName>BOIERI</persName>
+          </person>
+          <person xml:id="targoveti" sex="MALE">
+            <persName>TÎRGOVEŢI</persName>
+          </person>
+          <person xml:id="osteni" sex="MALE">
+            <persName>OŞTENI</persName>
+          </person>
+          <person xml:id="lesi" sex="MALE">
+            <persName>LEŞI</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1876">
+        <desc/>
+      </event>
+      <event type="premiere" when="">
+        <desc></desc>
+      </event>
+      <event type="print" when="1876">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000015" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Bogdan Vodă</titlePart>
+        </docTitle>
+        <docAuthor>Ioan Slavici</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>BOGDAN</role>
+        </castItem>
+        <castItem>
+          <role>ALEXANDRU</role>
+        </castItem>
+        <castItem>
+          <role>HULPE</role>
+        </castItem>
+        <castItem>
+          <role>ANDRONIC</role>
+        </castItem>
+        <castItem>
+          <role>ARON</role>
+        </castItem>
+        <castItem>
+          <role>ONCIUL</role>
+        </castItem>
+        <castItem>
+          <role>COSTE</role>
+        </castItem>
+        <castItem>
+          <role>ŞTEFAN</role>
+        </castItem>
+        <castItem>
+          <role>DIACUL</role>
+        </castItem>
+        <castItem>
+          <role>LINTE</role>
+        </castItem>
+        <castItem>
+          <role>VERIGĂ</role>
+        </castItem>
+        <castItem>
+          <role>CODAC</role>
+        </castItem>
+        <castItem>
+          <role>BARBĂLAT</role>
+        </castItem>
+        <castItem>
+          <role>DOAMNA OLTEA</role>
+        </castItem>
+        <castItem>
+          <role>BOIERI</role>
+        </castItem>
+        <castItem>
+          <role>TÎRGOVEŢI</role>
+        </castItem>
+        <castItem>
+          <role>OŞTENI</role>
+        </castItem>
+        <castItem>
+          <role>LEŞI</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Sărmană ţara mea! Te-ai istovit.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Atât avem, atât ni-a mai rămas:</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Copil din flori ar vrea să-1 ştim.</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Nu el,</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Hatmanul vrei să zici?</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Mai ştii? Nu ştie nimeni dintre noi</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Prea e tăcut şi prea îl văd supus.</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>E, poate, rostul lui de-a fi supus.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Mă mir şi eu! Să juri! Dar în zadar;</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Hatmane, să trăieşti!</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Cum o mai duci?</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Nu ştiu nimic.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nici eu.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Boieri de sfat,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Am zis că dă porunci, dar sfat nu ia</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>A fi, n-a fi cum zici... Nimic nu ştiu.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Aşa-i! şi treaba ta păzind, aştepţi</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Aşa-i! În adevăr, destul a fost.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Prea mult chiar am stricat al ţării rost.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Din noi!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Numai din noi!</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Nu chiar din toţi.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Nici unul nu-i, măria-ta. Noi toţi</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Supuşi suntem, supuşi şi umiliţi,</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>E om hatmanul!</p>
+          </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
+            <p>Om întreg! Mă tem...</p>
+          </sp>
+          <sp who="#a treia">
+            <speaker>A TREIA</speaker>
+            <p>Că se porneşte iar.</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>O să-i vedem.</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>Nici vodă nu se dă!</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>Ce ai?</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>S-a dezgheţat.</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Mai stai.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Eu n-o mai port.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>E lucru ruşinos</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>E ruşinos când n-o ridici să speli</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>A noastră-a fost Moldova şi numai</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>N-ai zis-o tu, dar ştii că mulţi gândesc</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Aşa numai, prin tainică-nvoială,</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Tot neamul cel vânjos ne socotim.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Ne dăm numai învinşi în câmp deschis.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Ori el, ori noi: s-o rupem într-un fel!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Mişeii doar ca câinele flămând</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Mişei, ziseşi?! Da, sunt prea mulţi mişei.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Lăsa-l-vom părăsit de toţi cei buni,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nu-i pentru domn nimica mai urât</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Nu-s părăsite curţile domneşti</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Aşa-i!</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Ce-o să iasă?! Vodă ăsta e altul, nu e ca ceilalţi; îi ţine, colea, de mânecă.</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Ba te pomeneşti că prinde el cu ei.</p>
+          </sp>
+          <sp who="#iar altul">
+            <speaker>IAR ALTUL</speaker>
+            <p>Dacă s-a legat, cum spuseră boierii, cu craiul, care îi dă ajutor.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Uite colea Codac.</p>
+            <stage>(Sare-n picioare.)</stage>
+            <p>Măi Codace! Ia mai scurtează din drum!</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ce-i, măi Linte? Dă-i zor, că umblu-n treabă.</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Treaba-i treabă şi vorba-i vorbă. Dai răspuns şi-ţi cauţi de drum. Au fost şi pe la voi nişte boieri?</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Umblă unii aşa forfota prin tabără.</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Pare-mi-se că iar se burzuluiesc.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ei, şi?! Ce-avem noi cu ei?! Nici în clin, nici în mânecă, nici la urcuş, nici la coborâş nu-njugăm. Ei cu vodă – ţară; iară noi cu hatmanul – oaste.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Tocmai aşa n-o fi, Codace. Boierii spun că vorba e să ne deie alt hatman.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Apoi una ca aceasta nu se poate. Cum să ne deie altul când nu e decât el?!</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Uite, îl dă-ncolo şi pune vodă alt om în locul lui.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Pune pe dracul! De unde să-1 puie dacă nu-1 are?!</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Îl face vodă hatman pe acela pe care-l vrea.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Haida-dee! Nu vezi, omule, că nu se poate? Hatmanul nu e doară vodă. Da, vodă faci pe cine vrei, fie slut, fie şchiop, fie chiar şi orb, cum a fost Iliaş. Dacă l-au făcut vodă, e vodă, şi n-ai ce să-i faci. Pentru ca să fie însă hatman, trebuie să aibă ceva ce nu orişicine are, să fie cumva...</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Şi n-o găseşti dacă n-o ai.</p>
+          </sp>
+          <sp who="#iar altul">
+            <speaker>IAR ALTUL</speaker>
+            <p>Nu calcă hatmanul ca alţii. Alta îi este căutătura. Altul e felul lui de a vorbi.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ei, vezi, asta e! De ce zic eu că nu se poate?! Oi fi eu prost, cum vi se pare vouă, dar mai prost de cum m-a făcut mama n-o să mă faceţi. Ce naiba?! Am văzut eu cum se bat cocoşii între dânşii, darmite hatmanii, dac-ar fi mai mulţi?!</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Unde s-au pomenit mai mulţi hatmani?!</p>
+          </sp>
+          <sp who="#iar altul">
+            <speaker>IAR ALTUL</speaker>
+            <p>Nu se poate, şi dacă nu se poate, nu e cu putinţă.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Şi dacă-1 dai pe gânsac între gâşte care nu-1 cunosc, vai de capul lui, că-i spulberă toate penele.</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Rămâne golaş ca puiul de vrabie.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Dar dacă-1 dai pe vier în turma de care nu se ţine?</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Nu se poate, măi Linte. Măi Verigă, nu se poate, O fi, n-o fi hatmanul a lui vodă, dar oastea e a hatmanului, şi vodă o pate rău de tot dacă nu-şi păzeşte treaba.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#voci">
+            <speaker>VOCI</speaker>
+            <p>Să trăieşti, boierule!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Ce mai e nou pe la voi?</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Tot cele vechi.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Toate bune.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Nu s-a zvonit cumva ceva pe-aici?</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Mai știu și eu?! Codace, tu ce zici?</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Eu zic că-n tabără sunt oameni mulţi,</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Tăcem şi ascultăm şi iar tăcând,</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>De spus, noi, biet de noi, n-avem nimic.</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Dar sunt pe-aici boieri ce multe zic.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Ei sunt pe-aici? (La o parte.) Urzesc ceva-n ascuns!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Cum vrei să te-nţeleg?</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Tot nu!</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Tot nu?</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Vorbiţi-i mai pe şleau.</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Noi ăşti de-aici ştim numai un hatman,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>El nu mai vrea în frunte să vă stea.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Auzi? Bogdan el însuşi nu mai vrea.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Nu ştiu ce să mai cred. Ceilalţi boieri</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Ei au minţit.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Ori au minţit, ori nu, îl vrea ori nu,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Să vă feriţi de Hulpe, că-i viclean.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ce viclenii mai pot să-ncapă-aici?!</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>De el!</p>
+          </sp>
+          <sp who="#iar altul">
+            <speaker>IAR ALTUL</speaker>
+            <p>Ai lui suntem!</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Ai lui</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>N-ai oaste, nici hatman nu poţi să ai;</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Vezi, cam aşa ceva mi s-a părut</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Şi eu lui Hulpe multă grijă-i port.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>I s-ar putea-ntâmpla ceva</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Şi dacă vrei să scapi nevătămat,</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Noi nu te-am întrebat,</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Ce crezi?!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>E drumul mult mai scurt.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Dar nu e bun.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>S-au îndârjit!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Nu-ncepi nimic cu ei!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Măi Barbălat, dar ce-i?</p>
+          </sp>
+          <sp who="#barbălat">
+            <speaker>BARBĂLAT</speaker>
+            <p>Să vă mai prind pe-aici! Auzi, mişei?!</p>
+          </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
+            <p>Să nu-i slăbim.</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>Nu vă lăsaţi!</p>
+          </sp>
+          <sp who="#barbălat">
+            <speaker>BARBĂLAT</speaker>
+            <p>Să-i judece hatmanu-n legea lui.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>De e pe noi, îi facem şi scăpaţi.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Am zis acum: cu mine aţi sfârşit.</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Eu tremur. Tot mă tem de răzvrătiri.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Da, e a mea, a mea e oastea, eu</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>De ce să mai întrebe când ştia</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>O! dacă e aşa, e şi mai rău.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Am înţeles,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Codace, sunt stăpân în casa mea.</p>
+          </sp>
+          <sp who="#barbalat">
+            <speaker>BARBALAT</speaker>
+            <p>Nu zicem ba, dar nu ieşim din ea,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Vă descurcaţi voi înşivă cum vreţi.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ne-am dumirit pe din destul şi-aşa</p>
+            <stage>(Iese.)</stage>
+          </sp>
+          <sp who="#barbălat">
+            <speaker>BARBĂLAT</speaker>
+            <p>Ne-am dumirit şi-o iau pe barba mea.</p>
+            <stage>(Iese.)</stage>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Bogdane, nu-i lăsa de capul lor! Gândeşte-te la noi, la casa ta,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Eu, nu! Să-i stăpânească el, că-i domn,</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Dar el nici nu aşteaptă ca să-1 scapi,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Va trece el? Aş vrea să-i văd luptând</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Ce e? Ce s-a-ntîmplat?</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Staţi! Pân-acum</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nu-s hatman.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Ba mie-mi eşti! Aşa te-am pomenit şi-aşa te ştiu.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Da, m-a silit să plec.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Am încercat</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Lăsaţi, că-i va-nstruni măria-sa</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Li-a dat. Andronic e, dar l-au gonit.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>De-aceasta nu mă mir, dar stau uimit</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Descurce-se cum ştiu. E treaba lor.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Şi dacă oastea se va risipi?</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Norocul lor. De ea nevoie n-au</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Ba eu mă tem că ei nu vor putea</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Eu asta vreau s-o văd. Ajunşi aici,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Şi tu croieşti asemenea urzeli?!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Eu nu croiesc nimic. De-o crezi, te-nşeli.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Tu vezi şi stai, nimic nu faci.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nimic!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Şi poţi?</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Da, pot.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Ce să mai zic?!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Ce e? Ce se petrece-acolo jos?</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Sunt tunetele, suflet nemilos!</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Eu casa mi-o păzesc, la vatră-mi stau</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Se-ncaieră! Sunt pept la pept ajunşi,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Dar cine vrei să spui</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Lefegii</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>O vorbă e destul ca să le zici.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Zi-o şi pleacă-te, că te ridici!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nu! Eu nu ştiu nimic, n-aud, nu văd,</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Dar focul ce-n ascuns s-aprinde-acum</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Să-1 văd pe mâne cum va fi.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Îl vezi</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Acum, când îi găseşti nepregătiţi.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Mişeii să-i lovesc? Dar unde sunt?</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>N-o să-i mai poţi lovi de-i laşi acum.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Îi socotesc puţini şi mititei.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Aşa-i! Cînd lupta-i grea, ei se ascund.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Iar nu cu laşi.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Amarnic vă-nşelaţi!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Să-i potoleşti</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Eu să-i supun poruncilor domneşti?</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Nu! încă nu! şi cât vom mai trăi,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Bogdane,-acuma gândul tău ascuns îl văd, l-am înţeles şi l-am pătruns.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Acolo stăm înfipţi, şi nu ne dăm!</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Vai mie, vai! Ce vijelie grea,</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>O s-o muiem. Văzând, măria-ta,</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Mă plec şi mă supun, dar îndrăznesc</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Am vrut, măria-ta, dar nu putem:</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Azi n-ai, măria-ta; o văd şi-o spun.</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Mai eşti, dar blând şi bun.</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Ruşinea cade-ntreagă-asupra mea.</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Nu pot!</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Mai eşti, cum e tot domnul înţelept,</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Ba mulţi! Puţini sunt cei din minte scoşi.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Puţini sunt ca Bogdan cel îngâmfat.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>De el ca prin minune am scăpat.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Din răutate-i dânsul plămădit</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Caut-o la cei ce-o au.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Măria-ta, prea multe ai răbdat.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Îţi iei puterea de afară.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>La leşi, măria-ta.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Nu mă-ndoiesc</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Da, văd acum şi eu că s-a pornit.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Un bolovan, din vârf de deal urnit,</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>În moldoveni ai razăm neclintit.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Nu, asta să n-o faci, măria-ta,</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Ori când hainii-ţi se ridică-n cap,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Mai bine e să piară azi un om,</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Măria-ta, şi altele-am aflat.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Şi mâine-l vezi căutând</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Te-nşeli, măria-ta. Năpăstuieşti</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Sunt mulţi!</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Mulţi sunt ca noi! Rămâi, şi ai să vezi.</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Plecăm! Acestea-s vorbe, nu dovezi.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Rău am ajuns.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>A și cerut!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Rea faptă-a săvârşit!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Da, Bogdan cel răzvrătit.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Nu e, boierilor, nici unul nu-i!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>În faţa lui oricare dintre noi</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Mai zi: e tuturora urgisit.</p>
+            <stage>(îşi dau toţi trei mâna, stând Onciul la mijloc.)</stage>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Da, urgisit!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>E făr’ de seamăn mişelia lor.</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Mişel în rând cu dânşii sunt şi eu,</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>De-aceea soarta oarbă i-a împins</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Acum e rândul nostru să vorbim.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Noi, oastea, pe hatman domn ni-1 dorim.</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>Pe el!</p>
+          </sp>
+          <sp who="#altele">
+            <speaker>ALTELE</speaker>
+            <p>Da, da, pe el!</p>
+          </sp>
+          <sp who="#iar altele">
+            <speaker>IAR ALTELE</speaker>
+            <p>Aşa voim!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Voiau să te ucidă prin ascuns.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>De unde ştii ce-au vrut şi ce n-au vrut?</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Avem să-i cerem socoteală lui.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Aceasta, nu! căci rostul armei nu-i</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>De crezi că noi ne speriem, greşeşti!</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Hatmane,-aceste sunt urâte veşti.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Urâte-or fi, dar tocmai rele nu-s.</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>Să vie!</p>
+          </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
+            <p>Să-i vedem!</p>
+          </sp>
+          <sp who="#iar altele">
+            <speaker>IAR ALTELE</speaker>
+            <p>Îi aşteptăm!</p>
+          </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
+            <p>Ne vom lupta şi foarte scump ne dăm.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Să vie, da’ mi-e gândul răzvrătit,</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Să meargă sănătoşi unde-au plecat!</p>
+          </sp>
+          <sp who="#barbălat">
+            <speaker>BARBĂLAT</speaker>
+            <p>De ce să nu-i lăsăm?</p>
+          </sp>
+          <sp who="#voce">
+            <speaker>VOCE</speaker>
+            <p>Ar fi păcat!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>E o ruşine făr’ de seamăn, dar</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Da, da! Nu singur el e vinovat,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>E vinovat de-a nu fi înţeles</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ce să mai zic? Rău drum am apucat!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Boieri, oşteni, voi mie scumpilor</p>
+          </sp>
+          <sp who="#voci">
+            <speaker>VOCI</speaker>
+            <p>Pierdut e!</p>
+          </sp>
+          <sp who="#alte voci">
+            <speaker>ALTE VOCI</speaker>
+            <p>Da! de noi s-a lepădat!</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL IV</note>
+      <div type="act" n="IV">
+        <head>ACTUL IV</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#luncanu">
+            <speaker>LUNCANU</speaker>
+            <p>Numai dacă nu ne-ar simţi cumva leşii.</p>
+          </sp>
+          <sp who="#luncanu">
+            <speaker>LUNCANU</speaker>
+            <p>Uite, lumea zice că nu mai sunt nici leşii atât de haini ca mai nainte: n-au venit cu gând rău, cică să ni-l aducă iar, ca prieteni, pe Alexandru-vodă.</p>
+          </sp>
+          <sp who="#luncanu">
+            <speaker>LUNCANU</speaker>
+            <p>Mai e mult? (Ridică sacul.)</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Aici e gura văii.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>În zadar.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>E strâmt.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Ce facem dar?</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>E greu, o văd şi eu, dar pe Bogdan</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Hatmane, lasă-l, să mai aşteptăm.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Nu mai putem. [Ei] pot, că sunt puţini,</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Urâtă şi grea soartă am avut:</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Dar eu? Aş fi primit mai bucuros</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Strivit mă simt şi eu şi mă-nfior,</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Dar dac-atunci n-am reuşit, acum,</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Tot ăsta e, îţi jur, şi gândul meu!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Și nu suntem noi numai, tu și eu!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Să vă mănânce haitele de lupi</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Diacul!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Dânsul e!</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Staţi voi!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Şi zici că trag beţii?</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Dar ce beţii?</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Cum i-ai lăsat acum?</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Ce să le faci?!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Dar vin de unde au?</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>N-ai grija lor.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>E drumul bun?</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Călare şi pe jos.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Pe-acolo haid’. Îi apucăm din dos!</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Aoleu! Dar cum să nu îl ştiu?</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Să vii să ni-1 arăţi.</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Să viu, de pot,</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Oricum ar fi, hatmane, sunt pierduţi.</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Dar stăm, măria-ta, legaţi.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nu ei ne ţin, ci noi i-am prins în laţ</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Suntem de tot puţini.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Puţini, dar noi.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Eu, nu, măria-ta.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Tu stai şi-aştepţi ca să ne vezi luptând.</p>
+          </sp>
+          <sp who="#barbălat">
+            <speaker>BARBĂLAT</speaker>
+            <p>Ei, vezi? Atunci venim şi noi la rând.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Veniţi. De astă grijă să n-aveţi.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Suntem cu toţii gata să murim.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Ba să trăiţi! Oşteni, viteji să fim,</p>
+          </sp>
+          <sp who="#coste">
+            <speaker>COSTE</speaker>
+            <p>Ci căutaţi să li-o scurtaţi pe-a lor.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Să vă înfioraţi de negrul gând</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Pst! Iată-i că vin. Dar nu sunt leşi, ci moldoveni.</p>
+          </sp>
+          <sp who="#barbălat">
+            <speaker>BARBĂLAT</speaker>
+            <p>Tont mai eşti! Sunt ai lui Alexandru-vodă.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Dar, minune! Diacul ce caută în fruntea lor?</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Să ne strecurăm, cum a poruncit vodă.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#un boier">
+            <speaker>UN BOIER</speaker>
+            <p>Băieţilor, încolo s-o luaţi.</p>
+          </sp>
+          <sp who="#alt boier">
+            <speaker>ALT BOIER</speaker>
+            <p>La cap, la pept, la pântece să daţi!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Colo, boieri! Acum să-nvălmăşesc.</p>
+          </sp>
+          <sp who="#andronic">
+            <speaker>ANDRONIC</speaker>
+            <p>Acolo îl găsim.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Dați zor!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Grăbiţi!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Cu toţii la un loc!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Şi nu-1 slăbiţi!</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Ce bun vânat! o scroafă cu purcei</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#boier">
+            <speaker>BOIER</speaker>
+            <p>Îngrozitor măcel!</p>
+          </sp>
+          <sp who="#alt boier">
+            <speaker>ALT BOIER</speaker>
+            <p>Cum n-a mai fost!</p>
+          </sp>
+          <sp who="#boier">
+            <speaker>BOIER</speaker>
+            <p>Şi mulţi boieri.</p>
+          </sp>
+          <sp who="#alt boier">
+            <speaker>ALT BOIER</speaker>
+            <p>Dar şi hatmanul Coste a perit.</p>
+          </sp>
+          <sp who="#alt leah">
+            <speaker>ALT LEAH</speaker>
+            <p>El a scăpat şi e pornit pe drum.</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Spurcaţilor!</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>Să mai veniţi pe-aici!</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Şi-n mari, şi-n mici</p>
+          </sp>
+          <sp who="#linte">
+            <speaker>LINTE</speaker>
+            <p>S-a dus sărmanul Barbălat!</p>
+          </sp>
+          <sp who="#verigă">
+            <speaker>VERIGĂ</speaker>
+            <p>Dar după ce vro zece a tăiat.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Mândria lui?! O, dacă nu-1 răpui,</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Iar noi cădem din ce în ce mai rău.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>O, da! Cădem, căzând mereu tânjim.</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>O faptă?! Eu sunt gata de-a-1 lovi,</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>El însuşi, iată-1!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Singur, în sfârşit!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>O, nu! Atât de jos nu mă cobor.</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>Cu mine ai să lupţi, ori te omor!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Tu poţi s-o zici, dar n-o şi faci uşor:</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Prea mult te socoteşti!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>M-am cântărit.</p>
+          </sp>
+          <sp who="#codac">
+            <speaker>CODAC</speaker>
+            <p>Pe ei, băieţi! Mistreţ afurisit!</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Ah, sunt lovit!</p>
+            <stage>(Şovăie.)</stage>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Nu mai loviţi. Destul e să-i legaţi!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Eu, nu!</p>
+          </sp>
+          <sp who="#onciul">
+            <speaker>ONCIUL</speaker>
+            <p>O, nici atât?!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Sărman de tine! Ce păcat! Un om</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Ce văd? Şi Hulpe? E şi el aici?</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Mă-nchin, măria-ta, şi, umilit,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Credinţa mi-o păstrez şi eu.</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>O, da!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Un domn cu rost se scutură de ei:</p>
+          </sp>
+          <sp who="#hulpe">
+            <speaker>HULPE</speaker>
+            <p>Aşa-i, măria-ta. În adevăr,</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Credinţa către domn nu e păcat.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Am zis şi n-am uitat, dar nu vă iert.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Uşor vă tai, fiind învingător,</p>
+          </sp>
+          <sp who="#aron">
+            <speaker>ARON</speaker>
+            <p>Suntem destui ca, preţuindu-ne</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Destul! Puteţi acuma să plecaţi</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL V</note>
+      <div type="act" n="V">
+        <head>ACTUL V</head>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Vorbeşte desluşit! Ce vrei să zici?</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Ţi-o spun, măria-ta, eu desluşit.</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Şi-un singur adăpost să ne găsim.</p>
+          </sp>
+          <sp who="#diacul">
+            <speaker>DIACUL</speaker>
+            <p>Luminăţia-sa a-ncălecat</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Ştefan viaţa lui şi-a pus-o-n joc.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Rămâi cu gândul împăcat! Ştefan,</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Viaţa-n joc noi muritorii toţi</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Şi-aşa mereu de moarte ne ferim.</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>O, nu! Noi o-nfruntăm! Cum poţi să ştii</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Ah, mă cutremur de hidosul gând</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Înfrânt ai zis?! în luptă cu mişei</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#voce">
+            <speaker>VOCE</speaker>
+            <p>Ce e?</p>
+          </sp>
+          <sp who="#altă voce">
+            <speaker>ALTĂ VOCE</speaker>
+            <p>Suntem împresuraţi!</p>
+          </sp>
+          <sp who="#voce">
+            <speaker>VOCE</speaker>
+            <p>Săriţi!</p>
+          </sp>
+          <sp who="#iar alta">
+            <speaker>IAR ALTA</speaker>
+            <p>De cine?</p>
+          </sp>
+          <sp who="#voce">
+            <speaker>VOCE</speaker>
+            <p>De boieri.</p>
+          </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
+            <p>Nu vă pripiţi.</p>
+          </sp>
+          <sp who="#oltea">
+            <speaker>OLTEA</speaker>
+            <p>Bogdane, noi suntem nedespărţiţi!</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Domoli, deştepţi şi cumpătaţi să fiţi!</p>
+            <stage>(Către Ştefan.)</stage>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Ce arme au?</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Porniţi strânşi în mănunchi bine-nchegat.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

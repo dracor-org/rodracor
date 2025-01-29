@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000002" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Năpasta</title>
+        <author>
+          <persName type="pseudo">Ion Luca Caragiale</persName>
+          <idno type="wikidata">Q315132</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>A apărut prima dată în revista „Convorbiri literare”, XXIII, nr.10, 1 ian. 1890. În același an apare și în volum (IG. Haimann, Librar-Editor). Retipărită în 1894, Iași, editura Librăriei Frații Șaraga.</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="dragomir" sex="MALE">
+            <persName>DRAGOMIR, cârciumar</persName>
+          </person>
+          <person xml:id="gheorghe" sex="MALE">
+            <persName>GHEORGHE, învățătorul satului</persName>
+          </person>
+          <person xml:id="ion" sex="MALE">
+            <persName>ION, ocnaș</persName>
+          </person>
+          <person xml:id="anca" sex="FEMALE">
+            <persName>ANCA, soția lui Dragomir</persName>
+          </person>
+          <person xml:id="oameni" sex="UNKNOWN">
+            <persName>CÂȚIVA OAMENI</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1890">
+        <desc/>
+      </event>
+      <event type="premiere" when="1890-02-03">
+        <desc>Reprezentată prima oară în București, la 3 feb. 1890 pe scena Teatrului Național.</desc>
+      </event>
+      <event type="print" when="1890">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000002" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Năpasta</titlePart>
+        </docTitle>
+        <docAuthor>Ion Luca Caragiale</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>DRAGOMIR</role>
+          <roleDesc> cârciumar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>GHEORGHE</role>
+          <roleDesc> învățătorul satului</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ION</role>
+          <roleDesc> ocnaș</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ANCA</role>
+          <roleDesc> soția lui Dragomir</roleDesc>
+        </castItem>
+        <castItem>
+          <role>CÂȚIVA OAMENI</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA I</note>
+        <div type="scene" n="I">
+          <head>SCENA I</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>... E greu să scape, firește... dar se-ntâmplă... Așa fac mai toți câți scapă: dintru-i   s-arată pocăiți, se prefac proști, se dau tot cu binișorul, și odată, când le vine bine, p-aici ți-e drumul...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Adică și ăsta era șiret... se prefăcea...</p>
+            <stage>(zâmbind)</stage>
+            <p>Am înțeles!</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Știu eu?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Fugi, mă, d-acolo!</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>De ce să nu crezi că s-a prefăcut?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Asta e! 9 ani de zile!... Cine se preface atâta vreme așa, și să nu fi fost nebun, tot acolo ajunge... până la urmă tot nebunește.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Dac-a fost ticălos, prostul! L-a găsit cu cămașa plină de sânge, a văzut la el luleaua, tutunul și amnarul mortului... Dacă s-a bucurat să fure niște nimicuri de la un mort pe care l-a găsit în pădure, eu stric?... Era tâmpit... când i-a citit osânda, râdea...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Am fost la judecată.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ai fost?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ai fost tu la jurați!... și mie atâția ani de zile să nu-mi spui!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ți-am spus...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ba nu.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ba bine că nu.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ia spune, Dragomire, ce fel de om era... Eu n-am văzut de când sunt o judecată la jurați... Aș vrea să văz și eu o dată... Ce face, ce zice, omul pe care-l judecă?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ce să facă?... Stă și el între puști și așteaptă să se isprăvească mai degrab’...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nimic... Ascult.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Asculți!</p>
+            <stage>(din ce în ce mai aspru)</stage>
+            <p>Nu-ncepi iar să bocești pe răposatul? Că iar am vorbit de el... ’Aide de! Începe... jelește-l!...</p>
+            <stage>(Anca trece binișor și iese în stânga; - cătră Gheorghe)</stage>
+            <p>Eu zic că nebunul nu era vinovat; degeaba l-a băgat 20 de ani la ocnă!</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Știi c-ar fi ciudat - că s-a mai întâmplat așa lucru... să te pomenești că prinde vreun tâlhar și ala spune: tot eu am făcut acu câțiva ani omorul din pădurea Corbenilor... Uite de ce și uite cum... ’Ai?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Se prea poate.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ce te faci atuncea cu nebunul?...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Care?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Care a fost osândit degeaba.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ai zis c-a murit.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Să zicem că trăiește...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Cum să trăiască?... A căzut în ocna părăsită...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Nu... să zicem că n-a căzut, să zicem c-a fugit și pun mâna pe el... Cine-i plătește atâția ani la necaz?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Dumnezeu...</p>
+            <stage>(pauză)</stage>
+            <p>Mă, Gheorghe, tu cam știi legile...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Așa ș-așa...</p>
+            <stage>(Anca intră și se oprește în ușe)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu-i așa că un om care a făcut o faptă... un omor... nu-i așa că dacă vine singur peste 10 ani și se mărturisește, nu mai are nici o pedeapsă?...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Cât e nu știu sigur, dar știu că e un termen: dacă trece ala, s-a isprăvit...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Așa e legea...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Bună lege, zău!</p>
+            <stage>(se șterge la ochi)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>De ce nu te pui tu să faci alta mai bună?</p>
+            <stage>(fixând-o)</stage>
+            <p>Iar ai venit!</p>
+            <stage>(lui Gheorghe)</stage>
+            <p>Vezi de ce nu i-am spus... pentru că de câte ori vine vorba de răposatul, ori își aduce aminte de el cât de departe, îmi urlă toată ziua.</p>
+            <stage>(cătră ea)</stage>
+            <p>Mergi d-aici, și nu mai mă boci pe cap, cobe!... Știu că dacă m-ar omorî pe mine, mi-ai juca hora la soroace în loc să-mi faci pomană...</p>
+            <stage>(pauză; Anca se retrage)</stage>
+            <p>Dacă era să bocești toată viața pe bărbatu-tău ăla, de ce te-ai măritat a II-a oară?... ’Aide.. mergi!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De ce nu ești mai blând, Dragomire?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pleacă odată...!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Mă duc.</p>
+            <stage>(iese în fund)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA II</note>
+        <div type="scene" n="II">
+          <head>SCENA II</head>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Du-te la păcatele!</p>
+            <stage>(se scoală supărat)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ia lasă-mă-n pace și tu. Știi tu cum trăiesc eu?... Știi tu ce am făcut eu pentru femeia asta?... Că mai bine îmi frângeam gâtul până să n-o fi întâlnit!... Dacă nu era femeia asta îndărătnică, eu eram astăzi altfel de om! Tu nu știi ce s-a petrecut între mine și ea.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, da’ văz ce se petrece. Vă canoniți unul pe altul degeaba: nici tu nu ești de ea, nici ea de tine.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ea m-a luat ca să aibă cine să-i ție soroacele de sufletul răposatului. Din ziua I a cununiei și până astăzi, o dată n-am văzut-o zâmbind; de atunci și până astăzi cu trupul e aicea pe lumea asta și cu gândul e la Dumitru pe lumea ailaltă.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>O fi fost cu ea mai bun ca tine.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Mai bun!... De unde știa ea din ziua I că n-o să fiu și eu poate mai bun decât el. Eu n-o iubeam?... Că dacă n-aș fi iubit-o!... Și mai în sfârșit, înțeleg să plângă o femeie pe bărbat dacă e văduvă... da’ dacă s-a măritat o dată cu altul... Care-i ala să rabde asta?... Atunci de ce s-a mai măritat?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ei!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da; de ce... dacă nu se poate despărți de umbra răposatului? Ba zi că e o femeie nebună, care mi-a stricat mintea și mie. Eu sunt sănătos, crezi, de când am luat-o?... Uf! M-am săturat! De 8 ani de zile, Dumitru și iar Dumitru; pe îl auz când vorbește ea, când mă uit la ea, îl văz pe el... Eu trăiesc în casă, mănânc la masă, dorm la un loc cu stafia lui... Așa! Asta n-o să mai meargă mult!</p>
+            <stage>(Anca intră din fund încetinel, se oprește în ușă și ascultă; Gheorghe o vede și face o mișcare; Dragomir, atras de mișcarea lui Gheorghe, se întoarce și o vede)</stage>
+            <p>Uite-o! Uite-l! El e... Dumitru!</p>
+            <stage>(cătră ea)</stage>
+            <p>Ieși! Ieși! Fugi, să nu te văz!</p>
+            <stage>(Anca stă locului cu ochii pironiți asupra lui)</stage>
+            <p>Te duci? Or mă duc eu... Să nu te văz!</p>
+            <stage>(pornește spre ea, ea înaintează spre el; el se repede, o apucă de mână ș-o duce hotărât în față)</stage>
+            <p>Ce vrei?... Ce te uiți așa la mine?... Ce gândești?... Eu l-am omorât?... Da? Spune!</p>
+            <stage>(o smucește)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nebun?... Spune...</p>
+            <stage>(o smucește iar)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Dragomire!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>O!... Nebun!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu, să spui... Din 21: or crezi că l-am omorât eu...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Poftim! Asta-i vorbă de vorbit!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da... și atunci de ce mai trăiești cu mine... or nu crezi și atunci de ce mă chinuiești pe mine?... Ce ai cu mine? Lasă-mă în pace pe mine cu Dumitru al tău!</p>
+            <stage>(o împinge de mână și suie; ea vrea să facă un pas spre el)</stage>
+            <p>Lasă-mă în pace!</p>
+            <stage>(același joc)</stage>
+            <p>Lasă-mă în pace!</p>
+            <stage>(iese foarte turburat prin fund trântind ușa)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA III</note>
+        <div type="scene" n="III">
+          <head>SCENA III</head>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Tot aici ești?... Gheorghe, de ce nu-ți schimbi tu gândurile, mă băiete, și vrei să mi le schimbi pe ale mele? Îmi pare rău de tine!... Așa necăjită cum sunt, de ce nu mă lași tu necazului meu și mai mă turburi și tu?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Pentru că...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Pentru că mă iubești... Asta o știu...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, pentru că te iubesc...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Lasă-mă păcatelor mele, Gheorghe, și du-te. Ești tânăr, mergi de-ți caută norocul aiurea... Așa cum mă iubești tu pe mine eu nu te poci iubi...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Tu nu poți iubi?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ba... oi fi iubit și eu odată... dar n-am avut parte. Acu la mine a trecut vremea iubitului... D-aia Gheorghe, îți mai spui o dată, caută-ți norocul în altă parte...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>În altă parte?... Bine...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>... De ce să-ți încurci tu o viață tânără cu pățeli trecute, să iei o femeie cu gânduri vechi?... Ș-apoi chiar așa... cum să mă iei?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ți-am spus...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Să mă desparț eu acum de Dragomir?... Nu se poate.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Zici că ți-e greu să-l vezi.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da... da’ mie Dumnezeu mi l-a trimis pe el; și Dumnezeu știe ce face... eu trebuie să fac voia lui...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Bine, Anco, fă cum vrei, trăiește cum îți vine... Eu m-am hotărât să plec din satul ăsta...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da... Eu te iubesc, tu nu mă poți iubi... ce ar semăna să mai stau aici degeaba?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da... Lumea a cam simțit... eu să mă stăpânesc nu poci... și nu voi să mă fac de batjocură, să mă țiu de urmele tale ca un nătărău.</p>
+            <stage>(Anca stă pe gânduri)</stage>
+            <p>Nu mai merge... să fiu prieten cu bărbatu-tău, care nu-i om de felul meu, numai ca să te poci vedea mai des!... Ești o femeie... nu știu cum să-ți zic... Ți-e drag să trăiești cu un om care se poată cu tine ca cu un câine, și mă gonești pe mine, care te iubesc... Bine... Atunci mai bine să nu te mai văz de loc.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Care va să zică, pleci?... Adevărat?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Când?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Cât s-ar putea mai curând... peste câteva zile.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Rău îmi pare.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De ce, de ne-ce, îmi pare rău...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Dacă nu mă iubești?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce copil ești?... Eu nu te iubesc pe tine, dar tu mă iubești pe mine: nu înțelegi tu că mai dor o să-mi fie mai la urmă mie de tine decât ție de mine...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Atuncea...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Vino cu mine.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu se poate.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Prin urmare, eu ce să fac?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Tu... tu să te duci, Gheorghe, cu Dumnezeu; de dorul meu să nu-ți pese... (plânge.)</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Anco, plângi?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De prisos să-ți spui.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Dacă plângi...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Să-ți vorbesc drept, Gheorghe: eu îți sunt cu mult datoare ție... Multă putere mi-a dat prieteșugul tău și gândul că un om așa de voinic ca tine mă iubește... Gândul că tu ai fi în stare să faci odată ș-odată o jertfă mare pentru mine era sprijinul sufletului meu amărât... Dacă tu te duci, cum rămâi eu?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ce jertfă? S-o fac.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu poci acuma... nu știu... n-am ce să-ți spui. (stă 1 minut la gânduri.) Gheorghe, dacă mă iubești mult... mult... (schimbând repede tonul) du-te acuma de dormi liniștit și vino mâine dimineață aici: Dragomir pleacă la târg, putem sta mai mult de vorbă... Du-te... Noapte bună.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Noapte bună, Anco.</p>
+            <stage>(pleacă spre fund)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu...</p>
+            <stage>(el o privește lung, apoi vrea să plece)</stage>
+            <p>Ba da!</p>
+            <stage>(el se întoarce iar și coboară cu aerul întrebător)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu pricepi?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Tu... pe mine?... Adevărat?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Adevărat... Trebuie să-ți spui, că nu mai poci.</p>
+            <stage>(foarte volubil)</stage>
+            <p>Gheorghe, Dragomir o să vie acum beat... Când se-ntoarce beat, mă-njură și se culcă și doarme dus de poți tăia lemne pe el... Vino! De la tine din deal se vede fereastra asta... oblonul este închis... Pândește: când ăi vedea lampa la ochiul oblonului, vino degrabă... te aștept!</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Mă iubești?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da, da’ să nu uiți că sunt nevasta lui Dragomir... dacă moare el sunt a ta!... Gheorghe, m-am jurat: când o cădea a I lopată de pământ pe coșciugul lui, eu să fiu în brațele tale... Ai priceput?...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>S-aștept o viață întreagă...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da, da, te iubesc.</p>
+            <stage>(îl strânge în brațe cu putere, apoi îi face vânt prin fund și încuie)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA V</note>
+        <div type="scene" n="V">
+          <head>SCENA V</head>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Mulțumim dumitale, om bun... Ce poftești?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Îmi dai de mâncare?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Da’... mă lași să dorm?... lasă-mă să dorm...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Dec! De ce să te bat?... Du-te sănătos.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ăi fi bolnav?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da’ ce ai?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Mi-e foame... sunt ostenit...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da’... de unde vii dumneata?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Hehe, de departe... tocma’ de la munte.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și ce vânt te-a bătut pe la noi?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>M-am rătăcit.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da-ncotro mergeai?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Nu știu...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Cum să nu știi unde mergeai?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nebun?!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Hăhă!... Da’ nu m-apucă totdeauna... Și când mă chinuiește Necuratul, numa’ vine Maica Domnului de mă scapă... Necuratul mi-a poruncit de 2 ori să-mi fac seama singur... ca să-mi ia sufletul...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Sărmane, cine știe ce păcate!...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Da’ Maica Domnului nu m-a lăsat.</p>
+            <stage>(se închină)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și din ce ți-a venit?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Din bătaie... Și când mă speriu m-apucă, fie pe pustii locuri! Și, când e să m-apuce, îmi vine I cu grije și cu scârbă și pe urmă cu spaimă... și mă arde.</p>
+            <stage>(arată moalele capului)</stage>
+            <p>Eu am o bubă aici înăuntru... Da-mi dai?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>De mâncare...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>A! Uitasem, uita-te-ar relele!</p>
+            <stage>(merge la tarabă, taie un codru de pâne și i-l dă)</stage>
+            <p>Na, omule.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Bodaproste!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Vrei ș-un rachiu?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Dacă-mi dai...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Vreo 10 ani...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>10 ani... Și cine te-a bătut?... De ce?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Degeaba... Eu eram pădurar la Corbeni...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>La judecată... că nu vream să spui.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Că de ce l-am omorât...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Omorât!</p>
+            <stage>(aparte)</stage>
+            <p>Doamne Iisuse Hristoase! Cine e omul ăsta?</p>
+            <stage>(cu teamă c-a aflat adevărul)</stage>
+            <p>Te cheamă... Ion...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și zice c-ai omorât pe...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>... Pe Dumitru Cirezarul...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu urlă nici un câine.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Ascultă...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Scoală.</p>
+            <stage>(îl ajută să se ridice)</stage>
+            <p>Vino cu mine... ’Aide p-aici.</p>
+            <stage>(îl duce de mâini încetinel spre stânga, planul I)</stage>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Când urlă câinele, moare cineva...</p>
+            <stage>(șovăie, ea îl sprijinește)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Încetinel...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Tu știi cine o să moară... O să moară Ion?... Dacă Ion moare, scapă de dracul?...</p>
+            <stage>(se oprește, face o grimasă de durere și pune mâna la cap)</stage>
+            <p>Mă doare!</p>
+            <stage>(Amândoi ies încet)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA VI</note>
+        <div type="scene" n="VI">
+          <head>SCENA VI</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Stai să-ți spui... Am venit să-ți aduc o veste bună...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce veste bună?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Viu de la cârciuma Popii. Dragomir e tot acolo... E băut... A jucat cărți, a pierdut și-a făcut cinste la toți... E acolo popa, notarul, primarul, sunt toți în odaie...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Asta ți-e vestea a bună?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Stai... Dragomir pleacă până-n ziuă.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ei! Merge la târg.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Nu... pleacă, nu se mai întoarce.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Te lasă... se duce în lume!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Cum!</p>
+            <stage>(aparte)</stage>
+            <p>Nu crez eu asta.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Anco...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>’Aida-de! Mai sunt și eu p-aici.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Nu-ți pare bine? N-ai zis că mă iubești?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ei da! Ș-apoi... dacă te iubesc?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Când bărbatul își părăsește nevasta, ea are drept, după lege, să se desparță de el și să ia pe cine-i place.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>N-a spus unde, dar își ia bună ziua de la toți... zău! Până în ziuă se pornește...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Om vedea...</p>
+            <stage>(aparte)</stage>
+            <p>Așa?</p>
+            <stage>(stă pe gânduri)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>La ce te gândești?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Gheorghe, uite-te la mine bine! Ești tu bărbat în toată firea, ori ești un om ușurel?... Mă poci eu încrede în tine? Faci ce ți-oi zice eu?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Fac.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Dar dacă nu faci?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Spune ce, să fac!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Bine... Să vedem ce-ți poate dragostea: du-te și orice s-ar întâmpla, până nu vezi semnul, nu te mișca.</p>
+            <stage>(Gheorghe face o mișcare)</stage>
+            <p>Fără vorbă multă, pleacă.</p>
+            <stage>(îl împinge spre fund)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Anco!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Du-te.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Mă iubești?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA VIII</note>
+        <div type="scene" n="VIII">
+          <head>SCENA VIII</head>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da... îți pare rău? Dacă îți pare rău... mă duc iar...</p>
+            <stage>(șovăie)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu-mi pare rău c-ai venit, îmi pare rău c-ai venit iar beat.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Asta așa e... sunt... ce e drept sunt cam beat... Am băut... dar de necaz am băut.</p>
+            <stage>(oftează)</stage>
+            <p>Da, să știi tu... numai de necazul tău!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De ce ai băut nu știu, știu că ești beat... culcă-te.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu voi să mă culc... Am de vorbă cu tine...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Las’ că mai vorbim mâine dimineață, acuma nu poți vorbi...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ba poci... Dă-mi să beau.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Tot mai vrei?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Tot mai vreau... Adu vin și să stai aici, că am să vorbesc cu tine.</p>
+            <stage>(el stă la masă, ea îi aduce o cană cu vin)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Na... să-ți treacă necazul.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ești nebun, vai de capul tău! Da’ de ce să te otrăvesc?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ca să scapi de mine, știu eu!... Și să trăiești cu altul... Poate că ai pus ochii pe Gheorghe, învățătorul... Am cam mirosit eu ceva...</p>
+            <stage>(rânjind)</stage>
+            <p>Vai de voi!... Vă pui capul la amândoi!</p>
+            <stage>(aduce cana la gură și iar se oprește)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Vorbești aiurea...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Să mă otrăvești, ’ai?</p>
+            <stage>(îi dă cana și aspru)</stage>
+            <p>Na ici! Bea tu... să te văz eu că bei.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Tu, Anco, spune drept, ce gândești tu de mine?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Bine?... Bine să fie... Las-o încurcată...</p>
+            <stage>(pauză)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Aba, Dragomire, când pleci tu?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Unde să plec?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>În lume... știu eu unde? Am auzit că vrei să mă lași și să te duci încotro ăi vedea cu ochii...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Cine ți-a spus?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce-ți pasă... De ce, Dragomire?...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pentru că nu trăiesc bine cu tine... nu mă iubești... tu nu-mi ești nevastă, îmi ești vrăjmaș... pentru că tu m-ai nenorocit pe mine...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Eu? Aș vrea să știu și eu cum.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da, tu... Dacă nu te cunoșteam pe tine, eu era să fiu altfel de om...</p>
+            <stage>(bea și oftează)</stage>
+            <p>Hehe! Ce om era să fiu eu... Dar s-a dus... acu e degeaba... las-o încurcată!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și vrei să mă lași?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da, numai câtăva vreme... să vezi cum îți este și fără mine...</p>
+            <stage>(bea)</stage>
+            <p>Ascultă ici la mine... unde ți-e gândul?... Eu am o daraveră departe... trebuie să plec mâine dimineață... Tu... fii cuminte... stai acasă și m-așteaptă. Să nu dea dracul!... Că te tai!...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>O să zăbovești mult?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>1 lună, 2, 3, mai mult... 1 an, nu știu...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Dar ai să vii înapoi?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Firește că viu... Tu ai să iei cu înscris de la Popa, -să-mi aduci aminte să-ți dau înscrisul - cinci sute de lei... Hanul poți să-l dai cu chirire; tot Popa vrea să-l ia... Șița de sub șură poți s-o vinzi... Scândurile de la deal o să le aducă peste câteva zile... mai ai să mai plătești vreo 35 de lei... să le vinzi; poți apuca pe ele până la 100 de lei.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Să mai crez eu că ai să te întorci? Eu nu văz că-ți faci adiata?</p>
+            <stage>(se scoală)</stage>
+            <p>Dragomire, tu n-ai să pleci... Cum se poate una ca asta! Să-ți lași tu casa ta și să fugi așa în lume... De ce? Ai scăpătat și mergi să slugărești unde nu te cunoaște nimeni?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Aș!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ori te-a ars focul și mergi să cauți adăpost în altă parte?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Atunci ai făcut poate vreo faptă rea și ți-e teamă de răspundere, de pleci așa în străinătăți de la tine și de la ai tăi...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Dec!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Că cine fuge așa? Cine își părăsește așa casa și locul, tam-nisam și-și ia lumea în cap?... Doar oamenii deznădăjduiți, or făcătorii de rele, or... nebunii.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Deznădăjduit n-ai de ce să fii, că slava Domnului, ai după ce bea apă... Fapte rele zici că n-ai făcut, că tu știi și Dumnezeu ce stă pe cugetul tău... Atunci, Doamne iartă-mă, ăi fi nebun!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De asta să nu râzi... ești tu nițel cam țicnit... adică, ce nițel! Ești bine de tot; de mult ți-ai pierdut sărita...</p>
+            <stage>(Dragomir ascultă nervos)</stage>
+            <p>Noaptea visezi urât și sai din somn mereu... Ți-e frică să dormi cu lampa stinsă... Mai-nainte, unde se întâmpla la tine să te îmbeți!... Acuma îți bei mințile dintr-un țoi de rachiu... Mai-nainte mă sileai tu să fac pomană și să țiu soroacele de sufletul lui Dumitru</p>
+            <stage>(Dragomir mișcare)</stage>
+            <p>-ba că ți-a fost prieten bun, ba că e păcat că s-a prăpădit așa om de omenie! - Ajunsesem să mă mir eu de tine, cum tu bărbatul meu să nu mă lași o clipă măcar să-mi uit de bărbatu-meu... De la o vreme încoace, alta ș-alta: dacă pomenesc cât de rar de el, te-apucă alte alea... Tu n-ai băgat de seamă ce-ai făcut adineaori?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Când adineaori?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Adineaori, când citea Gheorghe.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ei?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Vorbeștii niște vorbe... de nu te-ar cunoaște omul ar crede...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ce vorbe? Ce-am zis?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce nu se cade să vorbești... Încai la băutură, calea-valea... e omul cu mintea împăienjenită... Dar erai treaz...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ei! Ce-am vorbit?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Mi-ai zis să-ți spui ce crez eu de tine, că tu ai omorât pe Dumitru... și Gheorghe era de față...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Și tu ce-ai răspuns?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ți-am răspuns ca totdeauna... că ești nebun.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Uite, vezi... am luat seama că nu-ți place de loc s-auzi vorba asta. Ce să fie cu tine, Dragomire? Eu gândesc c-o fi vreun păcat... Să te spovedești... să te grijești...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ce, am să mor?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu se spovedește omul numai când are să moară...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Când?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Când m-oi întoarce...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Dacă t-ei mai întoarce...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ei, așa! Dacă m-oi mai întoarce...</p>
+            <stage>(se ridică amețit)</stage>
+            <p>m-oi spovedi... Ei, ș-apoi ce? Așa e viața omului! Pe toți dracul îi încalecă... toți o să moară, toți! Și eu o să mor... și tu o să mori, și Gheorghe și toți... pe rând, pe rând, ca la moară.</p>
+            <stage>(se uită lung unul la altul)</stage>
+            <p>Tu, femeie, tu ești ispita... Anco! Anco!</p>
+            <stage>(îi face șovăind semn să vie după el)</stage>
+            <p>’Aide!... ’Aide, tu, n-auzi?... Mâini dimineață plec... Tu! De ce nu mă iubești tu pe mine?</p>
+            <stage>(o apucă)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu te las...</p>
+            <stage>(o ține cu d-a sila)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ăla de semăna grozav cu Dumitru...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Tu știi care e ăla.</p>
+            <stage>(se întoarce spre masă)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Atunci, culcă-te... ai și băut... e aproape de miezul nopții...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Crez...</p>
+            <stage>(urmându-l încet)</stage>
+            <p>Du-te de te odihnește...</p>
+            <stage>(subliniind)</stage>
+            <p>și...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Închină-te... să nu mai visezi urât.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Bine!</p>
+            <stage>(iese în stânga. Anca se uită din ușe în odaie)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Așa... Dormi acuma.</p>
+            <stage>(închide ușa și ascultă, trece apoi și ascultă la ușa cealaltă, apoi coboară)</stage>
+            <p>Închină-te, Dragomire, că se apropie ceasul!</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA II</note>
+        <div type="scene" n="II">
+          <head>SCENA II</head>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Anco, am visat urât... mă doare mâna!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Aiurezi... te doare mâna din vis...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Mă înjunghie unde am semnul de mușcătură.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Șezi jos... tremuri.</p>
+            <stage>(el șade)</stage>
+            <p>De unde ai tu mușcătura aia la mână, Dragomire?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>De mult.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Bine, de mult; dar de unde?... N-auzi?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>M-a bătut când eram copil și m-a mușcat unu pe care îl trântisem...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De ce nu vrei tu să-mi spui ce ai pe suflet? Eu văz că tu nu ești în toate ale tale... Tu ai un ghimpe în cugetul tău... Destăinuiește-te mie.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ție?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da, mie</p>
+            <stage>(Dragomir mișcă din cap negativ)</stage>
+            <p>spune și te ușurează; dacă ai duce-o mult așa, o să înnebunești...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Să înnebunesc!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da... Ce ai visat?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Un cap de mort... cu dinții mari... vrea să mă mușce... mă doare...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Te doare că nu vrei să spui, te doare că nu te hotărăști să spargi buba și s-arunci răutatea afară...</p>
+            <stage>(pauză - se apropie binișor de el și-l apucă pe după gât)</stage>
+            <p>Ia ascultă, Dragomire... adică ce ar fi, cum stăm noi aici amândoi, să te pomenești cu Dumitru</p>
+            <stage>(el face o mișcare)</stage>
+            <p>că intră binișor pe ușe... uite pe colo...</p>
+            <stage>(arată în fund)</stage>
+            <p>să-l vezi că vine, cum era el înalt și voinic, și se așează frumos colea la masă în fața ta: „Ei, bună seara, frate Dragomire... Ce mai faci? Mai îți aduci tu aminte de mine?...”</p>
+            <stage>(Dragomir se zgârcește pe scaun și s-apucă de masă; ea îi ia repede capul în mâini și cearcă să i-l întoarcă cu d-a sila spre fund)  Ia uite colo... colo... Iacătă-l... iacătă-l!... Vino, vino, Dumitre!...  (vrea să-l întoarcă cu toată puterea)</stage>
+            <p>Ci uite-te!...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ascultă...</p>
+            <stage>(Dragomir își întoarce privirile de la stânga, ea se repede aproape de el și, jucând spaima, șoptit)</stage>
+            <p>Dragomire!</p>
+            <stage>(îl smucește și-l întoarce în loc cu fața spre stânga; el dă cu ochii de nebun, scoate un strigăt înecat și rămâne încremenit)</stage>
+            <p>Uite-l... Știi cine e? E nebunul care a scăpat de la ocnă...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ion!</p>
+            <stage>(cade zdrobit pe scaun)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>El!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA III</note>
+        <div type="scene" n="III">
+          <head>SCENA III</head>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Șez.</p>
+            <stage>(șade sfios în fața lui Dragomir, care se dă înapoi cu scaunul)</stage>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Bodaproste... e bine.</p>
+            <stage>(la întrebările ei, Ion răspunde lui Dragomir)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și cum ai fugit de acolo?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ei?...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Pe urmă, vere, m-am dus la fântâna de sub deal și am pus donițele jos... Ei! Era frumos și cald... și era pădurea singură... doar într-o tufă fluiera de departe o mierlă... Numa’, dinspre partea dealului, iacătă că-mi iese înainte o veveriță,  ̶  vezi, o trimisese Maica Domnului!  ̶  Sta în fața mea în 2 labe și se uita la mine drept cu ochii ei mititei și galbeni. Eu am dat s-o prinz, când colo ea... țușt! A sărit p-o cracă subțire de alun: acu se încovoia craca și s-apleca cu ea până la pământ, acu se ridica, acu se ridica, acu se apleca. Eu după ea, ea iar înaintea mea, în 2 labe, se uita la mine... Îi sclipea ochii, vere, de parcă era 2 schintei și mă chema iac-așa...</p>
+            <stage>(face gestul)</stage>
+            <p>Am umblat o zi întreagă: la urmă a pierit și am rămas rătăcit... Da’ acuma o să mă duc înapoi acasă.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Unde acasă?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>La ocnă.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ai scăpat și vrei să te duci singur înapoi?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da’ de ce te-a închis pe tine, Ioane?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Pentru că am omorât pe Dumitru.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da’ tu l-ai omorât?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Eu.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ba nu tu.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Ba eu... Luleaua și tutunul și amnarul lui era la mine.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ei, ș-apoi? Dacă s-o găsi luleaua și tutunul și amnarul tău la mine, se cheamă că   te-am omorât, ’ai?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ascultă-l pe el, Ioane, tu stai degeaba închis.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Și o să scapi curând de acolo... Peste un an...</p>
+            <stage>(se oprește privind bănuitor la Anca; ea face o mișcare de inteligență, trece la tarabă, d-acolo în celar și ascultă prin ușe, pe care a lăsat-o crăpată)</stage>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Mai am 11 ani.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ba unu.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Ba 11...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Altcineva... Ei! Așa a făcut unul de la noi de la ocnă... om milos, vere, Dumnezeu să-l miluiască...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Ba nu...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ba era mort... cu fața la pământ...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Ba nu, era trântit pe spate</p>
+            <stage>(Anca mișcare)</stage>
+            <p>și a deschis ochii la mine...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ce!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Apoi l-a podidit sângele pe nas și pe gură ș-a murit...</p>
+            <stage>(mănâncă. Anca își șterge ochii și se uită la Dragomir)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Cine te bate?... șezi jos...</p>
+            <stage>(Ion șade înfricoșat)</stage>
+            <p>Pentru ce să te bat?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Pentru că am omorât pe Dumitru...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Spune cine, Dragomire.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Doi nebuni!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Anco, mi-a stins puterile!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>M-a răpus!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>De ce să mă chinuiești tu pe mine?</p>
+            <stage>(îl lasă un moment și-l privește rânjind sălbatic)</stage>
+            <p>Măi!... este la noi o ocnă părăsită... În fund e o baltă neagră... Dacă arunci o piatră-n fund, numa’, de departe, din inima pământului, începe să aue, și aue tot mereu, și tocma a doua zi tace, când zice Maica Domnului: destul!... Acolo trebuie să vii tu cu mine... să te iau de gât</p>
+            <stage>(îl înhață)</stage>
+            <p>să te ridic și să te arunc în fundul bălții... așa!... Haide.</p>
+            <stage>(urlând)</stage>
+            <p>Haide!...</p>
+            <stage>(îl târăște; Dragomir se zbate)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Săi, Anco!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>S-a dus?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Se duce-n sat... Trebuie să-l întoarcem înapoi și să-l ținem aci până vedem ce e de făcut... ’Aide după el!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu merg...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Fuge! N-o să-l mai ajungem...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Du-te tu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA IV</note>
+        <div type="scene" n="IV">
+          <head>SCENA IV</head>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>N-o să-l mai poată ajunge... și chiar să-l ajungă, ce folos! Parc-o să aibă ea destul putere să se lupte cu nebunul... A putut femeia să mă vânză... acu ar vrea să mă scape, dar n-o să poată... Ion o să spuie... Încă un an... Pentru 1 an, să pierz viața întreagă!... Pentru un an! A! Când n-are omul noroc!</p>
+            <stage>(își apucă cu mâinile capul. Ion a apărut la vorbele din urmă, coboară și pune mâna pe umărul lui Dragomir; acesta se scoală și rămâne ca trăsnit)</stage>
+            <p>Anco!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>A trecut pe lângă mine acuma... eram pe laviță; s-a dus încolo la vale... Mi-e foame, dă-mi să mănânc.</p>
+            <stage>(șade)</stage>
+            <p>Șezi și tu.</p>
+            <stage>(bea)</stage>
+            <p>Bea și tu.</p>
+            <stage>(Dragomir se supune; după o pauză lungă)</stage>
+            <p>E unu la noi la ocnă... Ce om bun, vere! Cum mă miluiește el pe mine: mănâncă numai câte o fărimiță și tainul lui mi-l dă mie! Ăla a fost ucis pe tată-său, și-l băgase pe frate-său la ocnă... Pe urmă, vezi ce l-a învățat pe el Maica Domnului, să vie la ocnă și să spuie: eu am răpus pe taica, lui neica să-i dați drumul, că nu e vinovat...</p>
+            <stage>(simplu)</stage>
+            <p>Iac-așa.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Și i-a dat drumul lui frățini-său și l-a închis pe el.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pe el...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>D-apăi!... Într-un târziu după aia, a aflat el că frățini-său umblă să moară, și s-a rugat să-l lase de la ocnă să meargă acasă cu soldați numai pentru trei zile, că zice că: ce-am avut eu cu taica aia a fost altă socoteală; dar nu voi să plece alde neica până nu m-o ierta...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Și l-a iertat?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Da’ de unde!...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Nu l-a iertat?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Nu, n-a vrut să-l lase de la ocnă să meargă...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Și frate-său a murit așa?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Vezi... Tu la ce n-ai venit să spui pe cum că Ion nu-i vinovat... Pe Ion l-ați bătut în cap degeaba... Luați-mă pe mine. Ce-am avut eu cu Dumitru e altă socoteală, dar pe Ion lăsați-l săracul!</p>
+            <stage>(cu obidă adâncă)</stage>
+            <p>și Ion s-ar fi rugat la Maica Domnului Buna pentru păcatele tale... Vezi!... Vezi.</p>
+            <stage>(plânge liniștit)</stage>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Da’ unde o să mă duc eu?</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Unde?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Colea în beci... să scoatem banii</p>
+            <stage>(ia lampa)</stage>
+            <p>și să plecăm... ’Aide...</p>
+            <stage>(Dragomir pleacă cu lampa înainte spre chepengul beciului; Ion îl urmează. Dragomir deschide și pornește să scoboare. Ion se retrage)</stage>
+            <p>’Aide!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Da’ să nu pleci!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Or nu... stăi</p>
+            <stage>(iese din beci, aleargă la ușa din fund, o încuie și ia cheia; o pune în buzunar și coboară iar în beci)</stage>
+            <p>Viu acuș...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Acu plecăm... Tu să nu vorbești nimic pe drum... să mă lași pe mine. ’Aide...</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>’Aide!</p>
+            <stage>(alt fior. Pornesc amân2... Ușa e încuiată.)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ne-a închis pe dinafară!</p>
+            <stage>(stă un moment, caută cu gândul și aducându-și aminte)</stage>
+            <p>A!</p>
+            <stage>(se caută în buzunare... găsește cheia și deschide. Anca le vine în față; ei se dau înapoi; ea intră și închide ușa)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA V</note>
+        <div type="scene" n="V">
+          <head>SCENA V</head>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da’ încotro, Dragomire?... Încotro, neică Ioane?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ascultă, Anco...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce copil o să auză asta și n-o să priceapă ce legătură e între oamenii ăștia 2, de pribegesc în lume, fără să poată spune de unde vin, fără să știe unde se duc?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Să rămâi aici și să-l ținem și pe el până ne-om gândi la altceva mai cuminte.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Dacă n-o vrea... dacă nu-l putem ține...</p>
+            <stage>(Ion geme și se zbuciumă în somn; Dragomir se sperie și se îndeasă spre Anca)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Trebuie să putem... Cât o fi aici, îl iau eu pe seamă.</p>
+            <stage>(merge la Ion, care se muncește rău în somn și zguduindu-l forte brusc)</stage>
+            <p>Ioane! Ioane!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ioane!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pleacă!</p>
+            <stage>(amândoi se reped după el și vor să-l apuce)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>După el!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu e nimic!... După el, să-l liniștim! Dacă răcnește așa, aude cineva de pe drum.</p>
+            <stage>(vrea să meargă spre stânga; Ion, cu figura radioasă, reapare ținând în sus cuțitul plin de sânge; face doi pași și se prăbușește; amândoi se reped la el și-l ridică)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>S-a înjunghiat!</p>
+            <stage>(îl așază pe o laviță lângă masă)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Înjunghiat aici!... În casa noastră!</p>
+            <stage>(stă pe gânduri; pe chipul ei strălucește o inspirație)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ascultă, Dragomire.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>... Că eu, Maica Domnului, o să pui stavilă între tine și rele... ș-o să dormi... o să dormi... Dă-mi apă... mă arde...</p>
+            <stage>(Anca îi dă)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ioane!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Să dăm de știre...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Vrei să intri, or să mă bagi pe mine în fundul ocnii! Să zică că l-am omorât noi!... Nu. Până acuma nu știe nimeni c-a venit aici: să-l aruncăm în puțul ăl părăsit. Mâine om astupa, puțul și atât... ’Aide! Nu e vreme de pierdut! Se luminează de ziuă; rămânem cu mortu-n casă până mâine noaptea... A! Să sting lumina... trece cineva pe drum și ne vede ieșind așa...</p>
+            <stage>(stinge lampa.)</stage>
+            <p>Pune mâna...</p>
+            <stage>(Amândoi iau pe Ion și pornesc spre fund; se aud în depărtare clopotele de la biserică... Ei se opresc s-asculte)</stage>
+            <p>Toacă de utrenie... Ai avut încai noroc la moarte, Ioane: îți trage clopotele ca la toți creștinii!... La alții nici măcar atâta!...</p>
+            <stage>(Ies prin fund... Pauză - în timp ce clopotele urmează. Amândoi reintră. Anca aprinde lampa ș-o aduce pe masă. Dragomir foarte deprimat șade; cămașa îi e mânjită puțin de sânge)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA VI</note>
+        <div type="scene" n="VI">
+          <head>SCENA VI</head>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Acu, ce stai? Trebuie să te gătești de plecare.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>De plecare...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Firește.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>De ce să mai plec?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ca să scapi și tu și să mă scapi și pe mine. Dacă se află, și ești tot aici, și eu am tăcut, se cheamă că amândoi l-am omorât... Eu... sunt nevinovată și nu vreau să cază vina pe mine. Dacă vrei să stai, eu caută să mă duc în sat și să spui tot, tot, tot... Dacă pleci, mă fac că găsesc pe Ion în puț și dau de știre... N-ai grije; îți las eu vreme destul s-ajungi departe... Tu ești fugarul, tu vinovatul... ș-am scăpat amândoi...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Vino și tu.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Dacă fug și eu, cade vina pe mine; nu poci asta...</p>
+            <stage>(suie; după o pauză mare, coborând la el cu brațele încrucișate)</stage>
+            <p>Nu ți-e rușine! Nu ți-a fost milă și păcat de Dumnezeu!... Creștin ești tu?... Om ești tu? Vine un biet păcătos în casa ta, îți cere o bucățică de pâine la masa ta, e obosit și te roagă de adăpost sub acoperemântul tău, îți spune taina lui, și tu, fiară fără de lege, pui mâna pe cuțit și spinteci omul!</p>
+            <stage>(Dragomir face niște ochi foarte mirați)</stage>
+            <p>Cu ce-ți greșise bietul nebun?... Ce piedică ți-era el în lumea asta largă, unde e loc pentru toți?</p>
+            <stage>(cu toată energia)</stage>
+            <p>De ce ai omorât pe Ion?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Eu... pe Ion!...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Pe Ion.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Eu... am omorât... pe Ion!</p>
+            <stage>(râde febril)</stage>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Râzi? Nu tu, da’ cine?</p>
+            <stage>(el se uită la ea lung; ea îi înfruntă căutătura; merge la el și-l apucă de pieptul cămășii)</stage>
+            <p>Asta ce e? Sângele ăsta al cui e? Nu-i sângele lui Ion?...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu te-ncheia, Dragomire; pe cămașe e puțin; în odaie dincolo e mult; uite, ici e plin... Du-te în curte, e stropit peste tot; mergi de scoate o găleată din puț, să vezi apa roșie... Tu, ucigașule, tu! O să te gunoiești de viu între pereții de sare umezi până o socoti Dumnezeu c-a venit ceasul să te cheme ca să te judece el mai bine...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Pentru că ai ridicat viața altuia...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>A cui?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>A lui Ion.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ce-am văzut.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Tu?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Care va să zică...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Faci ce-ți spui eu: mărturisești c-ai ucis pe Ion și te alegi numai cu pedeapsa; încai scapi de chinuri.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Asta e! Începem iar; ba nu, ba da, ba da, ba nu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA VII</note>
+        <div type="scene" n="VII">
+          <head>SCENA VII</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ce e?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Mergi, îți spui... o să vezi... Vino iute!</p>
+            <stage>(îl mână afară)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA VIII</note>
+        <div type="scene" n="VIII">
+          <head>SCENA VIII</head>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Ceasul socotelii. Stăi drept... adună-ți mințile câte le mai ai și răspunde la ce te-oi întreba... Pentru ce l-ai omorât?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu pe Ion... pe Ion lasă-l... De altcineva îți vorbesc eu acuma...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Știi de cine, nu te mai preface... Tu vrei să pleci, tu caută să pleci.</p>
+            <stage>(el face trist din cap că da; ea, aspru)</stage>
+            <p>Ei!... Nu faci un pas de-aici până nu-i zici pe nume...</p>
+            <stage>(privindu-l cu toată puterea)</stage>
+            <p>Zi-i odată pe nume!</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pentru tine...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Pentru mine...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ca să te iau eu...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Cum l-ai ucis? Spune.</p>
+            <stage>(își pune coatele pe masă și bărbia în palma și ascultă nemișcată; el stă drept, se încheie cu îngrijire în mintean și povestește simplu)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Mă tot goneai... Odată, când ai ieșit de la biserică la Vinerea Mare, seara - ți-aduci aminte - m-am dat pe lângă tine și ți-am zis încet: „Anco! De ce n-ai vrut să mă iei pe mine? Eu tot te iubesc... Lasă-l pe Dumitru și vino!...” Ți-aduci aminte?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da, mi-aduc.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Tu mi-ai răspuns: „Am bărbat, lasă-mă-n pace!...”</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și tu?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Eu am plecat acasă, n-am dormit toată noaptea și dimineața... m-am hotărât.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Cum ai făcut?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Știam când se-ntoarce de la deal pân pădure... și l-am așteptat... Venea șuierând... Ne-am întâlnit, ne-am dat în vorbă... i-am arătat o plută înaltă; el a ridicat ochii în sus. Am tras cuțitul, și până s-aplece iar ochii...</p>
+            <stage>(se oprește, stingându-i-se glasul)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Ce să-ți mai spui?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>El ce-a făcut?</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>A țipat ș-a căzut în genunchi... a dat să scoață cuțitul... da’ m-am repezit și l-am lovit peste mână și la beregată... când m-am aplecat la el, m-a mușcat de mână.</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>De la el era mușcătura!</p>
+            <stage>(îi face semn să urmeze)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pe urmă, l-am întors cu fața în jos, am mers la fântână de m-am spălat și m-am dus acasă să mă culc, că nu mai puteam, cădeam d-a-n picioarele de ostenit... Ion l-a găsit acolo... Pe urmă... știi...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Eu te-am iubit... și...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Și?...</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Și... da’ acu e degeaba... Eu trebuie să plec în lume; tu... poate să iei pe Gheorghe...</p>
+            <stage>(înecat și foarte încet)</stage>
+            <p>dar să știi că tot te iubesc...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da?</p>
+            <stage>(râde)</stage>
+            <p>Așteaptă să vezi tu acuma cum o să-ți plătesc eu ție dragostea.</p>
+            <stage>(pauză)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Anco, eu plec... să mă ierți!</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Să te iert! D-aia te-am răbdat eu lângă mine, d-aia am umblat eu atâta vreme să te aduc aici, ca să te iert?</p>
+            <stage>(râde. Se aud pași și glasuri afară)</stage>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Taci!... Anco, vine cineva...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Da, vine Gheorghe, cu oameni... vin să te ridice că ai omorât pe Ion.</p>
+          </sp>
+          <sp who="#dragomir">
+            <speaker>DRAGOMIR</speaker>
+            <p>Pe Ion!</p>
+            <stage>(izbucnind)</stage>
+            <p>Tu m-ai vândut... cu Gheorghe...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>D-apoi cine?</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Nu se mai poate!</p>
+            <stage>(s-aude glasul lui Gheorghe)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA IX</note>
+        <div type="scene" n="IX">
+          <head>SCENA IX</head>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Oameni buni... a tras aseară la noi în gazdă un biet drumeț; nu știu de unde venea, nici unde se ducea... L-a ucis bărbatu-meu! În odaie și colea, uitați-vă, e lac de sânge!... Căutați în puțul ăl părăsit de lângă grădină... Avea nenorocitul de el un chimir la picior... acu e la Dragomir în buzunar.</p>
+            <stage>(Dragomir pune machinal mâna, scoate chimirul și-l dă râzând prostește 1ia din oameni)</stage>
+          </sp>
+          <sp who="#alt om">
+            <speaker>ALT OM</speaker>
+            <p>Luați-l!... La primărie...</p>
+          </sp>
+          <sp who="#anca">
+            <speaker>ANCA</speaker>
+            <p>Oameni buni... eu v-am descoperit fapta; dar omul ăsta e bărbatul meu... O să mi-l luați de tot.. rămâi singură. Trebuie să mă lăsați să-i spui și eu o vorbă...</p>
+            <stage>(Oamenii se dau cu respect în lături; ea s-apropie de Dragomir, care stă nemișcat, și răspicat îi șoptește)</stage>
+            <p>Dragomire, uite-te la mine (el o privește) pentru faptă răsplată și năpastă pentru năpastă!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

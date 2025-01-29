@@ -1,0 +1,3189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000011" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Radul Calonfirescu</title>
+        <title type="sub">Dramă vodevilă în 4 acte</title>
+        <author>
+          <persName type="pseudo">Ioan Dumitrescu-Movileanu</persName>
+          <idno type="wikidata"></idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Tip. Buciumului Romanu, Iași</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="mihaiu_viteazul" sex="MALE">
+            <persName>Mihaiu Viteazul</persName>
+            <persDesc>prințul țării Românești</persDesc>
+          </person>
+          <person xml:id="spat_vintila" sex="MALE">
+            <persName>Spat. Vintilă</persName>
+            <persDesc>locoțiitor domnesc</persDesc>
+          </person>
+          <person xml:id="stroe_buzescu" sex="MALE">
+            <persName>Stroe Buzescu</persName>
+            <persDesc>generalul trupelor Române</persDesc>
+          </person>
+          <person xml:id="capitan_preda" sex="MALE">
+            <persName>Căpitan Preda</persName>
+            <persDesc>din Popești, șeful pandurilor</persDesc>
+          </person>
+          <person xml:id="radul_calofirescu" sex="MALE">
+            <persName>Radul Calofirescu</persName>
+            <persDesc>june ofițer</persDesc>
+          </person>
+          <person xml:id="lambru_ciortan" sex="MALE">
+            <persName>Lambru Ciortan</persName>
+            <persDesc>căpitanul seimenilor</persDesc>
+          </person>
+          <person xml:id="stapica_halaci" sex="MALE">
+            <persName>Stăpică Hălâci</persName>
+            <persDesc>copil pe procopsală la Vintilă</persDesc>
+          </person>
+          <person xml:id="ancuta" sex="FEMALE">
+            <persName>Ancuța</persName>
+            <persDesc>fiica lui căpitan Preda</persDesc>
+          </person>
+          <person xml:id="cristina" sex="FEMALE">
+            <persName>Cristina</persName>
+            <persDesc>muma lui Radu Calofirescu</persDesc>
+          </person>
+          <person xml:id="vlad" sex="MALE">
+            <persName>Vlad</persName>
+            <persDesc>sătean</persDesc>
+          </person>
+          <person xml:id="neanicu" sex="MALE">
+            <persName>Neanicu</persName>
+            <persDesc>sătean</persDesc>
+          </person>
+          <person xml:id="un_om_domnesc" sex="MALE">
+            <persName>Un om domnesc</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1854">
+        <desc/>
+      </event>
+      <event type="premiere" when="1854">
+        <desc>Reprezentată pentru prima oară în beneficiul D. C. Dimitread, pe scena din orașul Craiova; Subt direcțiea D. Costache Mihaileano. </desc>
+      </event>
+      <event type="print" when="1854">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000011" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Radul Calonfirescu. Dramă vodevilă în 4 acte</titlePart>
+        </docTitle>
+        <docAuthor>Ioan DUMITRESCU-MOVILEANU</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Mihaiu Viteazul</role>
+        </castItem>
+        <castItem>
+          <role>Spat. Vintilă</role>
+        </castItem>
+        <castItem>
+          <role>Stroe Buzescu</role>
+        </castItem>
+        <castItem>
+          <role>Căpitan Preda</role>
+        </castItem>
+        <castItem>
+          <role>Radul Calofirescu</role>
+        </castItem>
+        <castItem>
+          <role>Lambru Ciortan</role>
+        </castItem>
+        <castItem>
+          <role>Stăpică Hălâci</role>
+        </castItem>
+        <castItem>
+          <role>Ancuța</role>
+        </castItem>
+        <castItem>
+          <role>Cristina</role>
+        </castItem>
+        <castItem>
+          <role>Vlad</role>
+        </castItem>
+        <castItem>
+          <role>Neanicu</role>
+        </castItem>
+        <castItem>
+          <role>Un om domnesc</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#soldați">
+            <speaker>SOLDAȚI</speaker>
+            <p>ura! ura ! .</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Copii! . . mergiți la tabără și vă pregătiți căci peste câteva ore trebue să pornim.</p>
+          </sp>
+          <sp who="#soldați">
+            <speaker>SOLDAȚI</speaker>
+            <p>Ura! ura! generale . . . &lt;didascalie&gt; (es toți prin dreapta și prin stânga.)</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Acum frate Predo, Măriea sa Vodă mă cheamă la Brașov cu trupele mele, și astăzi trebue să pornesc.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Poate că vicleanul Batori va fi făcând iarăș vre o noă preparație de rezbel?</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Adevăr . . . el au căutat legăturile pacifice vrând cu aceasta să înșale pe bravul nostru prinț; dar s’au înmâlat pe seine însuși!</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>O! trădătorul . . .</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Niște aseminea știri s’au mai priimit și de la generalul Deli-Marcu din Moldova, că după multe loviri au cam slabit oștirea de acolo, și Eremiea Moghilă se pregătește din nou să atace frontiera cu Polonezi.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Aceasta este iarăș un neîmpăcat enemic al bravului nostru prinț.</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Dumneata ești invitat căpitane chiar mâine să alergi în ajutorul generalului Deli-Marcu, cu bravi panduri. Iată și ordinul prințului</p>
+            <stage>(îi dă un plic.)</stage>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(după ce au cetit încet)</stage>
+            <p>O! mulțămită</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Câți viteji ai subt steag acum ?</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Zece mii de voinici tot unu și unu.</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Destui pentru cauza aceasta.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Da sânt în mirare de Moghilă generale? . . cum mai îndrăznește să calce frontiera Moldovii, în vreme ce de doă ori i s’au hărăzit vieața? . . zău ! generale, ar fi fost mai bine de’l ștergeam dintre cei vii.</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Românul este tot deauna îndurător dar și vingător enemicilor săi.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Oh! Moghilă! Moghilă! . . am mare nerebdare să ne mai întâlnim încă odată piept în piept.</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Silește frate Predp ! silește de a sui gloriea nații tale, și spală prin desăvârșită biruință or ce pată a armii de acolo.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Generalul meu ! . . eu ca român și ca volintir îți jur că or voiu muri pe câmpul onoarei cu toți panduri mei până la unul, sau mă voiu reîntoarce încărcat de trofeele enemicului! . . aceasta este destinul lui căpitan Preda din Popești când pleacă la bătae!</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Im place foarte mult destinu’ți căpitane . . răspunsul tău este acela pe care trebue să’l aibă săpat în inima sa tot românul și tot oșteanul . . . eu chiar dintracest moment îți anunț că vei triumfa.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Iar de nu, voiu muri . . .</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>După ce vei sfărâma pe enemicul de acolo, să te întorci cu oștirea în Transilvaniea, căci măriea sa Vodă are trebuință de o armie mai numeroasă, fiind că s’au revoltat Ungurimea, și atât Sigismund Batori cât și generalul Basta conspiră în contra noastră.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>O! scelerații . . . Dar Mihaiu știe ai face să’l respecteze, și stindardile noastre iarăș vor face să tremure toată Unguriea și Transilvaniea.</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Pasă cu Dumnezeu bravule Predo ! . ora pornirei se apropie . . . Aleargă cât mai curând acolo unde cauza patriei tale te chiamă, înbrățișază pe generalul Deli-Marcu, și amândoi într’o unire spulberați pe Moghilă ! . . . facețil să cunoască eroismul românului și să respecteze pe eroul acela, care de doă ori iau hărăzit vieața.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Generale ! . . . încă odată jur că or voiu muri, sau voiu birui . . . stindardul Moldova-român va fâlfâi pe zidurile Hotinului în numele lui Dumnezeu și al patriei . . . salutare generalul meu !</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Salutare bravule căpitan . . . se ne vedem sănătoși în Transilvaniea</p>
+            <stage>(se înbărțisez.)</stage>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Dea ceriul să ne mai revedem!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <stage>(singur)</stage>
+            <p>Cât de mult admir curagiul acestei brav căpitan! . . . . cărunteța sa dezvoltă un eroism d’un adevărat aștean, d’un adevărat patriot, vrednic de servițiul bravului nostru prinț!. . o! Mihaiu! Mihaiu!o! tu care ești fala și soarele românilor! tu care înfrunți pe tot enemicul și’l faci să tremure.. saltă! saltă fiind că afli azil în inimile tuturor românilor . . .  toți preferă mai bine să moară de cât să te piarză pe tine…numele tă va rămânea neșters din analele patrii, și resuvenirea ta va fi o mândrie pentru tot românul în viitor! … iată dar că aleg după ordinu’ți, alerg să’ți înbrățișez eroicele tale genunche. și să mă satur de măreața’ți privire . . . sbor cătră lafărul sacru cu trupele ce’mi mai rămân și doresc să mor lângă tine luptândumă subt stindardul națiuni mele.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>A! . iată pe cine doream să întâlnesc . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Eu după ordinu’ți veneam la largul pandurilor . . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Ei bine; eu am să’ți anunț ceva de care îm place să crez că te vei interesa prea mult.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Îm face onoare căpitanul!</p>
+            <stage>(apart)</stage>
+            <p>oare o fi presimțit el ceva? . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Ascultă Radule . . . eu trebuie să mă duc unde cauza patriei mele mă chiamă . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(mișcat)</stage>
+            <p>Te duci? . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Dară, mă duc . . .mă duc, la resbel! . și las pe unica mea fiică aici . . pe Ancuța! singura consolanție a bătrâneților mele . . .vai! . . . să rămâe orfelină! . . ea n’are o mumă care să’i conducă pașii pe drumul cel bun, ferind’o de cărarea amăgitoare care ar putea s’o piarză!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Cum? . . vrei să pornești și să lași pe fiicăta aici, singură, ase lupta în contra a o mie de pericole? . . vrei să pornești și s’o lași în aceste locuri, subt puterea unui conrunt locotenent?</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Ce îndrăznești a rosti? . . gândești că voiu sta în cumpănă între fiică și patriea mea? . dar oare care voce este mai puternic al fiicei sau al patrii? . . O! Radule . . . vezi cum te sforță amorul . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart)</stage>
+            <p>Amorul! . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Cunosc instinctul care te face a te ecsprima astfel . . gândește însă, câți vei compromita nobilați origină și cariera ta de oștean . . nu! Radule . . . nu voesc să te arăți slab nici odată, glasul patrii să ocupe în centrul inimii tale cel întâiu loc; căci nici odată amorul unei femei nu este glorios ca amorul patrii!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart)</stage>
+            <p>Ea știe tot! . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Și cel ce abandonă patriea sa, abandonă pre Dumnezeu!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Mă conving căpitane! . . sânt pătruns până în rărunchi de înțeleptele voastre consultări . . . chiar întracest moment vă declar că sânt cel din tâi român care va înfrunta plumbul enemicilor patrii mele ! – dovadă la aceasta este că voiu să te urmez în ecspedițiea ce vei să întreprinzi acum.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Mă bucur prea mult tinere ! știu că ești un brav resboinic și prin urmare îm vei fi de mare folos; dar mai întâi voesc ați încrede un tezaur . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Un tezaur? . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Ascultă Radule . . . tu iubești pe Ancuța . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart)</stage>
+            <p>Dumnezeule! ce’auzi?</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Când este adevăr, de ce te sfiești? eu sânt părintele ei.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(entusiast)</stage>
+            <p>O! dară! dară! căpitane . . . o iubesc cu patimă . . . iată tot adevărul!</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Destul tinere! eu cunosc frumoasa ta inimă și lăcrămez de bucurie că porți sentimentul fiicii mele . . . da! Ancuța numai lângă tine poate fi ferice! . . numai tu unu singur îi poți crea un viitor vrednic de dânsa . . . oh! vino să te înbrățișez copilul meu, vino să las pe măreața ta frunte o sărutare părintească !</p>
+            <stage>(îl înbrățișază)</stage>
+            <p>OH! acum viitorul fiicii mele este asigurat! . . nu mă mai sfiesc de nici o cursă amăgitoare ce s’ar destinde înaintea pasurilor sale.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! cât sânt de fericit!</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Mâine dar, mai nainte de a da semnalul de plecare voi veți fi logodiți, și logodnica ta va rămâne lângă venerabila Cristină până la întoarcirea noastră din resbel, când atunci în prezența lui Vodă și a toată curea veți priimi bine cuvântările altarului, . . iată ultima mea dorință!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! aceasta este prea mare fericire pentru mine !</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Dar se aud niște pasuri . . . vine cineva? . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Este locotenentul Domnesc . . . el se apropie de noi . . . să ne depărtăm scaunul meu căpitane, căci nu’i pociu suferi presența lui cea deșanțată ! . .</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Ei bine; eu te urmez.</p>
+            <stage>(esu amândoi prin stinga)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Astăzi iarăși mai aflaiu ceva nou în favorul meu. Ungurii s’au revoltat și Andrei Batori au strâns oștire în contra lui Mihaiu, pentru această aventură cheamă pe Buzescu cu oștirea de aici; negreșit se teme de vr’o învingere, fiind că și generalul Basta pismuește fama lui Mihaiu! — Așa dară resbelul va fi crunt! . . . O! ce stau  eu de mă gândescu ? . . . Lasă’i pe toți acolo să inghițe la gloanțe; iar eu să’mi realizez plăcerile mele personale . . . trebuie să mă folosesc de fie care moment ce trece, până când sânt stăpân desevârșit. — Am trimes pe activul meu Ciortan să spioneze pasurile fiicei pandurului, căria m’am prezentat mai dăunăzi înaintea ei și iam declarat arzătorul amor ce simțesc . . . dar ea, mizera ! . . .  m’au înpins cu despreț... vai de ea acum ! . . . ar fi fost mai bine să nu se fi mai născut în această lume!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Stăpâne! . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Lambre . . . ce veste? …. ai descoperit ceva?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Totul stăpâne.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Spune Ciortame . . .</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Ancuța este amorezată . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>De mine? . . .este cu putință?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Ba de un altul stăpâne!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Nu este adevărat.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Iam privit însumi cu ochii…am auzit chiar cu aceste urechi a le mele jurămintele ce’și făceau unul altuia de a rămâne statornici amorului lor.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei bine; cunoști tu pe acel mizerabil care ea preferă în locul meu?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Dar stăpâne!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Numeștel…eu voiu ști să le taiu ori ce speranță de a se mai vedea unul cu altul.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Un june ofițer din ceata domnească…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Numele lui?...</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Radul Calonfirescu!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Radul Calonfirescu! … Oh! cum de nu l’ai jertfit? … cum n’ai profitat de momentul indulgent? … tu mi-ai fi ridicat acum cea mai crudă neodihnă.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>O! bunul meu stăpân; dar această întreprindere o pociu comite ori și cându v’aru plăcea.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Oare adevărat vorbești? … ei bine, cum? …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Cunosc locul întâlnirilor … știu ora destinată ce în fie care seară petrecu în secretu…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Petrec în secret? . . . și unde? …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Într’un fund de grădină ce este situat pe malul gârlii… acolo pe la mijlocul nopții se întâlnesc acești doi amanți de’și prennoesc jurămintele; însă între dânșii este un amor’ înflăcărat, dar innocent!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultă Ciortane … soarta ta este în mâna mea, și în voea’mi stă d’ a ț’io face strălucită … eu prin influința ce am la Vodă pociu a te face să devii boer mare … gândește? …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Mai întâiu să’mi poroncești …</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Voiu moarte ! … moarte acelui june amorez … până ce nu va muri acela, eu nu voiu putea să înduplec pe frumoasa Ancuță; îți poroncesc dar cu ori ce preâ să omori pe Calonfirescul.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Înțeleg stăpâne, dar întâmplânduse ca să afle Vodă la întoarcerea’i din resbel ce vom face? … Mihaiu este aspru și vrăjmaș neânpăcat crimelor!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Trebue să afli mai ’nainte, că Mihaiu se încrede ’n mine mai mult de cât în el însuși: și …</p>
+            <stage>(apart)</stage>
+            <p>sper că nu se va mai întoarce …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>El cunoaște pe Radul de un brav ofițeriu …</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Dar și eu știu mai bine să’l abat din adevăr …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Poate că va lua măsuri mai energice …</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei bine; eu te văz astăzi că ești fără curaj … simte odată că numai este timp de diealoguri nefolositoare; eu voesc să te ocupi numai de dorința mea! – ține această pungă cu monede … ea va înprăștiea toate temerile tale.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(Luând punga)</stage>
+            <p>Stăpâne! … sânt omul cel mai hotărît din lume … jur că chiar într’această noapte va înceta dintre cei vii numele Calonfirescu !</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ast-feliu te voiu tot deauna, hotărît ca un brav seimen ce ești. Mergi acum de’ți ea pozițiea …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>La revedere stăpâne!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>La revedere Ciortane !</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(Apart uitânduse în pungă.)</stage>
+            <p>Într’această pungă este aur! … curat aur! … o! acum s’a sfârșit! s’a sfârșit! …</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Peste puține ore mă voiu curăța și de acest rival al amorului meu … după perderea Calonfirescului poate că voiu îndupleca pe mândra Ancuță să mă iubească; carea nu va putea ști că eu sânt pricinuitoriul morții amantului seu; iar la din împotrivă nevrând a se îndupleca cu binele, voiu întrebuința sila … spre însă a o ameți cu gloriea și averile mele… o! cât de norocit ași fi atunci …</p>
+            <stage>(într’acest moment, se aude un tun)</stage>
+            <p>A! … acest tun vestește pornirea generalului</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>acum mă duc și eu la palat unde trebue resultatul bravusui Ciortan.</p>
+            <stage>(esă)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(singur)</stage>
+            <p>Iatămă aici locul de întâlnire al acelor doi amorezați. Ce ai dracului mai sânt… cum le simț toate secretele lor mișcării, fără să dau cea mai ușoară bănueală … odată spion! … vrednic de confidența lui Vintilă; dar aces înalt protector al meu îi place ca tot omul să se ocupe numai de dorințele sale … hm! … daca cumva Vodă la întoarcere va desvăli crima aceasta, atunci oare ce va face? … și până la dânsul eu poate voiu bânânâi în furcele din piață … zău! când mă gândesc la toate acestea, îmi piere tot curagiul … ar fi mai bine să mă întorx și să arunc lui Vintilă aurul ce ’miau dat … aurul! … acea cătățime mare de monedă, acea pungă plină! … o! nu …iatămă iarăși hotărit … nu mă mai sfiesc de nimene în această lume … fac tot, trădez tot … chiar furcele din piață le nesocotesc la lucirea acestuu frumos metal! … mă duc … trebuie să omor pe Radul! sîngele lui vândut, și Vintilă cere a se aduna cu dânsul! …</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Parcă se aud niște pasuri … a! o femeie … trebuie să fie Ancuța; să mă dau la o parte.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(în fund.)</stage>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apart)</stage>
+            <p>Pre legea mea! această fetiță este în stare să deștepte și ființele ne’nsuflețite cu melodiea vocelui său … are toată dreptatea spătariul să fie încântat de dânsa!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(înaintând cu sfieală)</stage>
+            <p>Ora au sunat, și Radul nu se mai ivește … nu știu ce cauză l’ar putea ține departe de acest loc în momentele acestea care sânt destinate amoriului nostru … vai! poate m’au uitat … poate alta … ce îndrăzniiu a cugeta? … nu ! el este prea statornic … frumoasa lui inimă nu se va păta nici odată de inferna cugetare a trădărei…</p>
+            <stage>(trebue numai de cât să vie)</stage>
+            <p>…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apart)</stage>
+            <p>Ce bine ar fi; căci și eu sânt foarte amorezat de dânsul astă noapte.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>El ’mi a declarat patima sa cu lăcrămile pe ochi, arătându’mi la cer pe cel atot puternic ca secondat inocenții noastre! … mai lesne pociu cred că vre o înpiedacare a imfamului Vintilă iar întârziea apropierea de aceste locuri…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apart)</stage>
+            <p>Parcă ești prooroacă!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dară; acesta este de crezut fiind că iam reîmpins scandalosului amoriu, ce nu era de cât o creație vicleană spre a desonora o ființă, care lui nu ’i a pricinuit nici un rău: dar văzinduse înșelat în urâtele sale dorințe și că’l desprețuesc… atunci ’mi a jurat resbunare!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apart)</stage>
+            <p>Pe care a și pus’o în lucrare.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dar eu nu mă sfiesc nici de cum … Dumnezeu este în cer …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(încet)</stage>
+            <p>Om vedea.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Puterea sa este mai presus de toate puterile, și nu va acorda desnaturalului Vintilă resbunarea; ce va sfărâma nelegiuitele sale proecte, trăsnindul din înălțime ca pe un satan! . .</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apart)</stage>
+            <p>O! aceasta este prea mare obrăznicie … dacă nu miar fi de spătariul, iași trânti numai un glonț …</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(singur)</stage>
+            <p>O! ce bine ai făcut că te duci…era cât pe ce să mă orbească măniea și se fac unele în loc de altele. — Sărmana! ce frumoase iluzii își face, în vreme ce fatalitate’i prepăritoare vine s’o arunce în torente de amărăciuni! … ea nu știe că moartea amantului seu pe care ’l adastă cu atâta nerăbdare, este hotărită … nu știe că chiar într’această noapte va privi cu ochii sei cum își va da respirațiea cea mai de pre urmă …sărmană copilă! … de ai ști, nu ’lai mai aștepta cu atâta căldură, sau de ai ști ’țiai lua un veșnic adio de la dânsul. — O! ce lume amăgitoare! … mi se turbură simțimântul oare cum! … niște fiori reci străbatu prin tot corpul meu … vai! de ar ști spătariul slăbăciunea mea dintr’acest moment, n’ar mai voi să mă vază nici odată … îndată ’miar cere înapoi bani! … bani! … acea cătățime de aur! acea pungă plină … o! nu !... nu! … unde este sacrificiul ce mi se cere? … unde este Radul? … voesc să mă adăp cu sîngele lui! … oh! … ce metal blestemat! ce invenție drăcească! … cum abate pe om din hotarele firei! cum îl face să se cărmuiască de pornirile cele mai infernale!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(ivinduse pe pod)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Radule! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Iubito! …</p>
+            <stage>(Se îmbrățișază)</stage>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dar de ce ai întârzieat atâta Radule? … eu tremuram de nevenirea ta … feliurimi de fantasme venea de’mi turbura imaginaâiea.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Nu iubito! … eu sânt mai liber de cât tot deauna.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Cât îmi pare de bine!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Voiu să’ți anunț draga mea că într’această noapte va fi cea mai de urmă revedere a noastră în secret…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Cum? … ce vrei să zici tu? …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Voiu să zic că suferințile noastre au luat sfârșitul dorit, și sântem fericiți!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Adevărat? … oh! Radule esplicăte mai lămuri… de unde teai informat la aceasta?</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>De la părintele tău…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>De la părintele meu? … oh! este cu putință …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Astăzi m’au chemat la lagărul panduriloe …</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>E! și ce ți a vorbit mai întâi?</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Că mâne pornește la resbel…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Mâine… tătămeu? …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Plecat în Moldova în contra lui Ieremiea Moghilă …</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>O! ceriu … eu n’am nici o știință de toate acestea …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Eu iam răspuns, cum se duce și lasă pe fiicăsa singură în centru a o mie de pericole?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ce feliu Radule? … socotești că eu l’ași fi putut opri la aceasta? … l’ași fi putu opri de la cea mei sântă datorie a sa? … nu! Radule; căci atunci m’ași face nevrednic de origina mea!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! scumpa mea! … dacă toate fiicele române vor repurta nobilul tău sentement, atunci ferice de patriea noastră…ea nu va mai produce nici o dată fii lași!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dară Radule … chiar într’acest moment având patriea trebuință de brațul tău … chiar într’acest moment când amoriul nostru este în culmea lui; eu m’ași smulge cu repeziciune din brațele tale, și l’ași înpinge cătră vocele acelea care resună în tot piptul adevăratului român! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! Ancuțo! … o! fiică vrednică d’un asemenea părinte … statorniciea, eroismul, toate se văd sapate în inimă’ți ca și într’a venerabilului tău părinte!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(observând în prejur)</stage>
+            <p>Ascultă Radule … ai tu arme asupră’ți?</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Pentru ce, această întrebare iubito?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Pentru cp tremur de vieața ta! … pentru că neomenitul Vintilă ț’ia jurat pierderea! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! sceleratul … nu mă tem de loc scumpa mea! … desprețuesc jurământul lui cel nelegiuit … Dumnezeu este d’asupra noastră, și această sabie n’au lovit nici o dată în zadar.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Da nu știu ce am Radule? … sânt într’o mare neodihnă, și pieptul mi se bate foarte ecstraordinar! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! nu te sfii nici de cum draga mea… aceste simtome sânt pornite din efectul bucuriei… acum s’au sfârșit suferințele noastre … părintele tău căpitanul m’ia declarat că cunoaște secretul nostru amor…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Îl cunoaște? …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Și’l primește. Mâine până a nu porni în Moldova ne va logodi înpreună!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ah! … Radule! … ce mare bucurie! …</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(încet)</stage>
+            <p>Ei sânt … aide , să le mai hărăzesc de la mine câteva momente.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart să fie auzit de Ancuța)</stage>
+            <p>Aici nu sântem singuri… auziiu niște pasuri și o șoptire criminală îmi trecu pe la urechi.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dar ce observezi tu Radule?...</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O nimic scumpa mea … zefirul au început să sufle cam rece, și tu ești numai într’un rob subțire…gârla atrage oare cum: eu teași ruga să intri în cabinetul tău fiind că numai câteva ore ția mai remas de odihnă.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ei bine; dacă vrei aceasta, eu sânt gata a te săruta cu toată durerea ce’mi pricinuește despărțirea ta.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Dară iubita mea! o voiu prea mult… este de neaparată trebuință a te retrage; ține brațul meu să te conduc până la antreaoa palatului.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Acum este al nostru, — mergeți șase inși și vă așezați de amândoue părțile podului, iar ceilalți rămâneți cu mine supt arbori îndată ce va păși pe pod lovițil de moarte cu iataganele; iar sgomot cu focuri să nu faceți fără comanda mea,</p>
+            <stage>(toți se așază la pândă)</stage>
+            <p>Stați gata că se apropie… să’mi eau și eupozițiea</p>
+            <stage>(pleacă mai în fund.)</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Încă o șoptire hoțească! …</p>
+            <stage>(Trăgând sabiea)</stage>
+            <p>Acum fie pericolul cel mai mare, și mă voiu lupta osășește! —</p>
+            <stage>(pleacă)</stage>
+            <p>Îndrăznească cineva a se arăta în potriva mea și’i voiu arăta ce poate această sabie lucitoare! …</p>
+            <stage>(merge în fund și când se apropie de pod, de o dată se repede Lambru cu toți seimeni se respândesc)</stage>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(ivinduse din nou)</stage>
+            <p>Să nu scape din mână … foc! …</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(singură)</stage>
+            <p>Iată șase luni trecute de când m’am despărțit de adorabilul meu logodnic … Iată șase luni trecute de când aștept în aceste locuri singuratice, dulcea lui reîntoarcere … fie care zi ce trece mi se pare un secol, și nu pociu gusta nici o plăcere naturală, nici un moment de odihnă chiar în orele nopturne ce sînt distinate repaosului! … Aș fi preferat de mii de ori ca să’l însoțesc în resbel, ca să fiu alăturea cu dânsul, și nici un glonte nu l’ar fi putu atinge mai’nainte de a pătrunde sînul meu! … O! cât de dulce ar fi fost acea moarte pentru mine! … Dar nu! eu nu m’am putut învrednici de o asăminea grație! … Tatămio s’au opus la această dorință a mea poruncindu’mi cu strășnicie ca să rămâiu în acest sătuleâ megieșesc întovărășită de muma lui Radul, spre a putea fi apărată de cursele imfamului Vintilă până la alor reîntoarcere. Mulțumesc lui Dumnezeu că până astăzi nu s’au auzit nici o bănueală despre retragerea mea în aceste locuri: toți sătenii mă cinstește fără ca să poată devina adevărata noastră poziție. Dar vai … eu sufer foarte mult ne având nici o știință despre amăruntele resbelului … de multe ori niște idei îngrozitoare vine să străbată centrul inimi mele și să’m inspire numai teroare!... O! dacă fatalitatea ar fi contrastă fericirii mele … Dacă fierul enemic ar pătrunde inima acelui ce iubesc … vai! mie atunci un moment n’aș mai putea să respir în această lume fără dânsul… umbra lui va fi îndată însoțită de amea și vom merge înpreună în tăcerea eternități spre a rămânea în veci uniți,</p>
+            <stage>(aice devine oare care delir)</stage>
+            <p>Dar nu… Ah! … ce zic? . . parcă sânt mai liniștitp…O! nu… eu trebue să mai sper… să mai sper totul de la înaltul cer și de la această sântă cruce …</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Ancuțo! Ancuțo!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Oare cine mă strigă?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>A! este buna mea mumă;</p>
+            <stage>(merge spre Cristina)</stage>
+            <p>sânt aici iubită maică! . .</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Oh! bine că te revez dragă mea fetiță,</p>
+            <stage>(o înbrățișază)</stage>
+            <p>mulțumesc ceriului că ești aice!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dar eu nu doream să’ți strici odihna iubită maică . .</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Ce vei să zici scumpa mea ? . . eu te iubesc mai mult de cât pe Radul și tremur în or ce moment pentru tine; când m’am deșteptat și nu team găsit în așternutul tău, puțin au fost să nu’m pierz simțirile!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dar dumneata știi dragă maică, că de la plecarea lui Radul adorabilul meu logodnic, eu în toate nopțile viu întracest loc unde românii se încununară cu atâta glorie ca să mă rog și să vărs câteva lacrime pe aceste sacri monumente sunt care zic o mulțime de maritri!</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>O! dulcea mea copilă . . .  cât ești de mare tu la suflet! . . eu până astă noapte nnu țiam arătat unde odihnește tatăl logodnicului tău . . .</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ah! sânt în nerăbdare maică . . .</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Vezi tu acea cruce singuratică dasupra căriea se mai zărește rămășițele unei cununi de laur? . . acolo zace stolnicul Preda Calonfirescu iubitul meu soț! . .</p>
+            <stage>(lăcrămează)</stage>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Nu te întrista bună maică!</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>El căzu în înfricoșatul acel rezbel de acum cinci ani și se sfârși pe brațul fiiului seu! . .</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>O! el ș’au îndeplinit sânta datorie cătră patrie, și astăzi fiul său îi susține locul.</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Ah! . . Ancuțo! . . . Iartămă copila mea . . . eu nu mai pociu suferi presența acestor victime… slăbăciunea mea este mare, și nu mă iartă a mai privi rămășițele lor cele sacre! . . curând și voiu însoți și eu pe acela care zace supt acest monument ce țiam arătat… dar numai nainte până ce nu te voiu vedea cununată cu fiiul meu, și întregimea fericirii voastre restatornicită! . . atunci numai pociu muri cu mulțămire.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ah! bună maică . . dar oare Radul veniva mai curând sănătos? . . astăzi au fost șase luni de zile de la pornirea lui.</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Acel atot puternic poartă de grijă tuturor muritorilor iubită copilă . . . noi sântem datori să ne rugăm lui zioa și noaptea precum faci tu, iar întâmplările soartii rămân în voea sa cea sântă! . . dar . . oh! . : ajutămă Ancuțo să mă depărtez de aces loc dureros!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(sprijinindu’o)</stage>
+            <p>Aideți! și Dumnezeu să aducă pe Radul sănătos…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Ascultați!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(în costium de vânătoare)</stage>
+            <p>Pentru întăea oară astăzi, am părăsit palatul ca să fac o vânătoare prin aceste păduri mari cu bravii mei haiduci spre a mi se mai înprăștie multele griji ce am, și tot de odată aș dori să vizitez în persoană aceste sate țărănești ca să auz cu urechile mele ce opinie poartă ei despre mine; dar aceasta voesc să o aflu fiind că este de neapărată trebuință am crea o partidă și dintr’ acești țărani între Jureni. — Aceste locuri . . . aceste monumente . . . nu mi-aduc aminte unde sânt . . . dar iată vine Ciortan.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Stăpâne! . . viu să’ți anunț un ecstaz de bucurie . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ce vrei să zici? . .</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>O mare bucurie pentru voi . . . după multele cercetări am dovedit că frumoasa Ancuța…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Că frumoasa Ancuța . .</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Nu este și dânsă dusă cu tatăso căpitanul în Moldova, dupre cum se respândisă vorba, ci se află aici . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Aici! cum se poate, de unde ai putut afla aceasta?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Aproape de viziună am întâlnit pe un unchiaș și în conversațiea ce am avut cu dânsul iau scăpat câteva cuvinte din gură; apoi luândul eu mai de scurt îm mărturisi că întrun sat ce se învecinește cu aceste locrui se află ascunsă o fată de boer, care are un tată căpitan de panduri și este dus la bătălie.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Negreșit ea este . . . cât îm pare de bine! . . îți mulțumesc din inimă dragul meu Ciortane pentru această delicioasă nuvelă. Acum trebue să ne gândim foarte bine cum să o fruăm din acel sat fără să dăm cea mai mică bănueală.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Această slavă întreprindere lasăo cu totul asupra mea stăpîne.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Bagă bine de samă însă, să nu faci ca cu Calonfirescu în grădina șefului pandurilor…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Stăpâne! înzadar ești iritat asupra mea; crediți că atunci peste cincezi de plumburi s’au aruncat în trânsul… apoi la dracu! nu știu nici eu ce să mai crez.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ce folos dacă nici unul nu l’au lovit, și groznicul meu rival eczistă încă.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Radul tot murea deacă n’ar fi fost gârla; îndacă ce s’au aruncat în apă, l’am pierdut din vedere și aceasta au fost care iau cruțat vieața.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ia… se aud niște pasuri…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Doi săteni vin drept aici; negreșit aceștia trebue să fie din satul vecin.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Să ne dăm la o parte spre a nu fi văzuți de dânșii; căci poate din conversația lor să aflăm ceva.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Aideți tuma la unchiașu Mircea de la Năzdrăvanu de la viziună, să’i spunem șu lui de răutățile haiducilor, să vedem ca ce ne o învăța să facem.</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Auziți acuma na! … zioa ’nameazea mare să te pomenești tu cu hoți ’n casă, să te muncească cu fierul ars în foc și să’ți ea până și cămașa fără nici o temere … e! apoi asta n’am pățito nici când era țara cotrunită de vrăjmași.</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Să’ți spuiu drept mări Neacșule, eu unu, numai pot duce cu sataralile astea! … darear Dumnezeu să se întoarcă mai curând sănătos Machidonu nostru!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Să te auză Dumnezeu vericule! … Dacă ar fi fost el aici, noi n’am mai trage nevoile astea … lovil’ar cu foc să’l lovească pe Vintilă ăla din București, că ș’a dar umeri cu toți haiducii din țara ca să chinuească și să jăfuească pe bieții creștini… nelegiuitu! . . pă el la lăsat Machidonu ca să ia aminte să nu se nedreptățească norodu; iar nu să ne dispoae pe toate zilele.</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>El o fi socotind că nimini nu poate ști urmările lui, e! he! dar norodul măre îi află până și rândurile mai nainte d’ale pune în lucrare.</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Așteaptă o vini el Machidonu nostru și atunci să vedem ce va di de jupân Vintilă…Machidon nu’i de cei e cojocu!</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Mă vere Neacșule; toată țeara o să dea jalbă pentru el când o vini Machidon, și ti mira de nu li’i vedea bănănăind în furcile Bucureștilor!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(încet printre arbori)</stage>
+            <p>O! Mizerabililor.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(încet printre arbori)</stage>
+            <p>O! Mizerabililor.</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Toată fapta își ea plata, măre . . . uite parcă ’l văz svârcolindusă… dă doamne gând bun lui Vodă!</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Auziși tu mă vere Neacșule?... e! asta este o bună vestire cît nu se mai poate!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Dar cine să fie rumânașu ala carele știe toate acestea?</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <stage>(uitânduse în fund)</stage>
+            <p>Uite un ostaș… a! negreșit acesta vine de la București… plin dă praz… o! el trebue să știe multe…</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <stage>(Strigând tare)</stage>
+            <p>U! mai frate ostaș mă.. vin paicea mă! …</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Uitel că arărmito în coace … oh! cât îm pare de bine să aflu dacă Machidonu nostru o fi fost la București.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>A! iacătăl…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Bună zioa megieași!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Mulțumim dumitale voinice.</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Da de unde vii fate ostaș?</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Viu de departe bunilor mei megieași; dar am să vă spuiu o taină care se atinge de fericirea tuturor românilor.</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Ia spunene mai curând vericule…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ascultați; voi știți că vodă lipsește la bătălie? . . .</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Apoi asta vorbeam și noi mai adineauri și ne rugam la Dumnezeu ca să ni’l aducă mai curând sănătos și cu isbândă bună.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Oare adevărat este ceia ce spuneți?</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Prea adevărat! să ne crezi frate ostașu . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Oh! . . . veniți să vă înbrățișez fraților . . . veniți să vă înbrățișez și să vă mulțumesc pentru că ați săvârșit o datorie sântă! și vrednică de origina voastră . . . o! ce bine ar fi dacă și secoli viitori ar produce tot asemenea barbați virtuoși în popolul român dar ce zic! . . . chiar acum se află oameni stricați și plini de patimi atât între popol cum și lângă prințul . . . vai! . . . chiar astăzi omul cel mai conrupt cârmuește țara în locul celui mai bun domnitor! . . . o! Dumnezeul meu ce aspră fatalitate!</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Darar Dumnezeu să mă scpae de acel om fără de lege! . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ertațimă! ertațimă fraților megieași . . . eu m’am redus prea tare cu gândirea, voi bucurațivă însă, că măriea sa vodă se întoarce biruitor în țară peste doă trei zile.</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>I! . . . ce bucurie o să fie atunci pe toți românii!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Îndată ce va sosi vodă în București vor înceta abuzurile, și suferințele voastre vor dobândi oare care ușurare.</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Ba o să fim voioși cît se poate!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Dar trebue să știți și aceasta că încă nu veți putea fi fericiți cu desăvârșire pe câtă vreme va eczista tiranul Vintilă lângă Mihaiu și pe câtă vreme se va bucura de favoarea Domnească . . . Acest monstru trebue dărâmat de lângă tron! . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(Încet din pădure)</stage>
+            <p>O! mizerabile . . vom vedea care pe care!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(Încet din pădure)</stage>
+            <p>O! mizerabile . . vom vedea care pe care!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Dar apoi cum și ce fel așa? . . . ala’i boer mare!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Iată cum. — Vodă este vrăjmaș nedreptăților! el preferă drepturile poporului său mai mult de cât pe sine însuși . . . răutățile dușmanului nostru sânt mari . . .</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>O! cât despre asta, sa dus pomina în toată țara.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Mulți dintre boeri patrioți și cu sintemente curate care încungură tronul, cunosc toate mișeliile lui Vintilă și ’l au foarte nesuferit în inimile lor! . . . așa dar să cere numai un semnal din partea voastră și ruina sceleratului va fi gata . . .</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Ce bine ar fi atunci!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ascultați chinul cu care s’ar putea să isbutim. . .</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Spune! spune vericule . . . o! Dumnezeu tra trimis la noi!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Toate satile câte sânt cu apropiere de oraș, să vă arătați cu petiții la întrarea lui vodă în București, spuind toate jafurile și necinstile câte ați suferit în aceste șase luni de zile, și veți vedea atunci ce dreptate frumoasă o să ni se facă… vă jur! că pe Vintilă o să’l vedeți cu ochi voștri bănăbăind în furcile din pieață! . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(apart din pădure)</stage>
+            <p>Mii de diavoli să te ea!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apart din pădure)</stage>
+            <p>Mii de diavoli să te ea!</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Of! să te auză Dumnezeu frate ostaș! … să te auză Dumnezeu! … aideți să arătăm și satului în ce fel dă socoteală atârnă mântuirea noastră!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Of! să te auză Dumnezeu frate ostaș! … să te auză Dumnezeu! … aideți să arătăm și satului în ce fel dă socoteală atârnă mântuirea noastră!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Oprițivă puțin căci voesc să vă întreb ceva.</p>
+            <stage>(După ce se uită în toate părțile)</stage>
+            <p>În satul acesta trăea o megieașă văduvă anume Cristina.</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>A! da, da; știi vere Neacșule, da da, Cristina care are o fetiță frumușică anume… oare cum o chiamă? …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ancuța! . . .</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Da da, Ancuța! este sănătoasă, mare, grasă . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Oh! … Dumnezeule! . . îți mulțumesc! … Aideți! aideți! fraților să o revăz căci arz de nerăbdare…</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Aideți, aideți: dumneata îi fi poate logodnicu fiici sale care era dus la bătălie? … așa mi se cam pare; aideți.</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Toți megieașii sânt strânși la obârșiea lui Zbârcioi.</p>
+            <stage>(es prin dreapta)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(Ochind cu pușca)</stage>
+            <p>Voești să’l culc la pământ stăpâne?</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Nici o mișcare… lasă acea armă la locul ei, căci în urmă poate să perdem pe Ancuța; și aldoilea această ușoară moarte se fie o grație pentru precugetuările lui cele vinovate.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Ce poponcești dar?</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei bine; auzita’i tu defăimările ce aruncă acest mizerabil în fața mea? auzita’i cum mă înegrește în ochi acestor țărani? … ai văzut tu cum conspiră în contra protectorului tău? . . amar lui ticălosul! . .până astăzi se va mai îndulci de lumina acestu’i soare… mulțumită cerului că am descoperit imfamul său plan mai nainte de al pune în lucrare.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Dumnezeu vă proteze stăpîne.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultă… tu acum cunoști pe acest semeț care țiau scăpat din mâini în frădina șefului pandurilor? . . ai aflat acum unde se află înghesuit și înpreună cu dânsul frumoasa Ancuță? . . .</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Voiți să vil predau în mână viu nevătămat?</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Maiu întâi să pui mâna pe Ancuța, căci el apoi vine singur în mâinile noastre.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Înțeleaptă este această părere a domnii voastre; mă duc dar să’mi adun camarazi din pădurea vecină și să puiu în faptă ordinul vostru. — La revedere . . .</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>La revedere Ciortan; fii zdravăn astă dată.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Cu or ce preț…</p>
+            <stage>(apart)</stage>
+            <p>când mi aduc aminte că 50 de gloanțe au tras în trânsu și nici unu nu l’a lovit, mă ia fiori!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(singur)</stage>
+            <p>Peste puțin trebue să adăst un frumos succes… peste puțin acei mizerabili vor fi târâți la picioarele mele… vor cere îndurarea mea, dar nici odată nu o vor dobândi! . . . oasele lor vor putrezi în temnița cea mai umedă… oh! voiu fi răsbunat în sfârșit! — &lt;setting&gt; (Vremea începe să se înnoreze de ploae) &lt;/setting&gt;  Cât pentru Ancuța de se va îndupleca a mă iubi, poate că o voiu erta; iar semețul Calonfirescu care s’au arătat cel mai neîmpacat enemic al meu îl voiu omorî negreșit! … da! îl voiu omorî… siguranțiea me cere acest sacrifițiu! — voiu arunca în față’i o culpă ne ertată de va cere trebuința, și nimini nu va putea să reclame moartea lui de cât numai singur Mihaiu! … o! dar el după științele ce am priimit de la amicul meu Batori, sper că nu se va mai întoarce în țara românească . . . &lt;setting&gt; (în vremea aceasta se vede fulgerând) &lt;/setting&gt;  sau și de se va întoarce . . . vom ști noi al pune bine! …</p>
+            <stage>(uitânduse cu atenție înprejur)</stage>
+            <p>Nimini! … nimini crezu că nu miau auzit cele din urmă vorbe!</p>
+            <stage>(Deodată un tunet grozav se face și un trăsnet trece pe dinaintea lui Vintilă care rămâne în oare care frică.)</stage>
+            <p>Ce vreme grozavă se iscă! … ploea răpăe foarte repede, și aceste tunete… oh! … ce vreme nesuferită… trebue să mă duc să mă adăpostesc în vre o colibă până va sta ploea</p>
+            <stage>(ese prin stânga. — În oare care depărtare se aude un sgomot mare de arme și chilomanuri. Cât trece, sgomotul se mărește și se apropie. Peste câteva momente se ivește Lambru repede fugând cu o femee leșinată în brațe și precedat de o trupă de haiduci sperioși și uitânduse înapoi, fug pe dealuri cu prada lor; îndată după dânșii vin alți haiduci sperioși și cu capetile goale se fac revăzuți prin parude. — După câteva momente se ivește Radul urmat de o trupă de săteni armați cu ciomage, topoară și altele.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Durere! desnădejde! … săriți fraților! … nainte după dânșii… să nu le dăm pas…</p>
+          </sp>
+          <sp who="#săteni">
+            <speaker>SĂTENI</speaker>
+            <p>Aideți! aideți mai tare să’i ajungem! (se fac nevăzuți pe dealuri cu mare iuțeală. Îndată după dânși se umple scena de săteni, femei și barbați toți sperieați.)</p>
+          </sp>
+        </div>
+        <note type="title">SCENA XI</note>
+        <div type="scene" n="XI">
+          <head>SCENA XI</head>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Răducanu s’a luat după ei cu vre o 50 de flăcăi… m’aș duce și eu, dar nu știu pă care poate că or fi apucat.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Dă Doamne! să se prinză acei haiduci!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Parcă mi se rupe inima de mila bieti Ancuți, zău așa! . . .</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Sârmana fetiță! . . .</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Stăi măi . . . o vini el Machidonu nostru . . . Atunci să alergăm toți cu jalbă la dânsul.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Dară! dară! . . . toți cu mic cu mare!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Ia! . . . ce se mai aude?</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Ce sa mai întâmplat?</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <stage>(care se uită din fund)</stage>
+            <p>Of! Dumnezeule… sârmana biată dada Cristina! își smulge păru capului de durere! . . .</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage>(desperată)</stage>
+            <p>Oh! . . . unde este fiica mea, unde este fiul meu? . . . oameni buni! dațimii . . . dațimii să’i mai văz odată și apoi faceți cu dânșii ce veți vrea!</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Linișteșite dadă! nu’ți mai strivi inima, Dumnezeu îi va aduce sănătoși.</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Oh! . . . sânt cea mai nenorocită mumă din lume! . . . oh! mângâerea mea… unde sânteți voi? … oh! nu mă lăsați oameni buni…dațimi copii! … copii! … oh! …</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Dadă Cristino! Dadă Cristino! … linișteștite Dadă Cristino că vine Răducanu cu toți rumâni . . .</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Unde? … oare este și Ancuța cu dânsul? … spune mai curând, spune mai curând, …</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Este … poate să fie… cât pentru aceasta o să ne încredințăm când s’or apropiea… iatăi! iatăi!</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Vai!... ei nășesc în tăcere! … acesta este un semnal de cea mai mare întristare! …</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Acei haiduci nu se știe încotro au apucat… urma lor am pierduto cu totul… cât sânt de nenorocit!</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage>(vrând se înbrățișeze pe Radul)</stage>
+            <p>Ah! iubitul meu fiu! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Oh! lasimă maică… lăsațimă! … sânt omul cel mai nenorocit … oh! Ancuțo!. unde ești tu scumpa mea? … unde ești ca să alerg să te răsbun? … Vai! tu cum vei fi gemând în vre o închisoare când eu sânt liber încă … Dumnezeule! Dumnezeule!</p>
+          </sp>
+          <sp who="#neacșu">
+            <speaker>NEACȘU</speaker>
+            <p>Mai vere Răducane … țineți inima, nu da brânci odată necazului.</p>
+          </sp>
+          <sp who="#vlad">
+            <speaker>VLAD</speaker>
+            <p>Așa verișcane … să ne mai luăm seama binișor că poate vom afla cre o lesnire ca să călcăm făr de veste pe acei haiduci.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Dară! dară! … să’i călcăm fără veste.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ei bine fraților! să alergăm cât mai curând și să smulgem pe Ancuța din mâinile acestor haiduci! . . . în niște momente atât de crude nu trebue lacrimi, nu! ci arme, cu armele să pedepsesc tâlhari! … vai de voi de mă veți părăsi! … dacă ei nu s’au temut a smulge pe o fiică din brațele maici sale, apoi să tremurați pentru fiicile, amantele și soțiile voastre! …</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Nu! … noi nu vom lăsa nici odată să ni se calce cinstea în picioare.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Gândițivă că Vodă este departe, încurcat în resbel, și legile astăzi sânt fără putere; dar vai! … pe când eu vă vorbesc acestea … Ancuța! Ancuța mea este prada siluiri! victima suferinților! … oh! … sânt cu totul pierdut! …</p>
+          </sp>
+          <sp who="#săteni">
+            <speaker>SĂTENI</speaker>
+            <p>Nu te mai întrista frate megieaș! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Turburarea și desnădejdea sânt în inima mea … fie care moment ce trece îmi pătrunde rărunchii, nici un fel de răpaos! nici un fel de mângâere nu pot gusta până ce Ancuța nu va fi reântoarsă iarăș în brațile maicii sale.</p>
+          </sp>
+          <sp who="#săteni">
+            <speaker>SĂTENI</speaker>
+            <p>Dară! dară! … noi sântem gata a ne jertfi pâră la unul pentru pricina asta.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Cu cea mai mare bucurie văz fraților că toți luați parte la durerea mea! … voi sânteți hotărâți a mă urma? … ei bine să mergem … răsbunare! sau moarte!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Dară! dară! răsbunare sau moarte! . . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(Cristini)</stage>
+            <p>Nu mai plânge iubită maică! mâine cu ajutorul lui Dumnezeu, Ancuța va fi iarăș lângă tine… lasă lacrimile! ele nu ne pot folosi nici de cum.</p>
+            <stage>(întorcânduse cătră sătence)</stage>
+            <p>, o! femei, priimiți în brațele voastre pe această nenorocită mumă! . . . ștergeți lacrimile și mângâiațio!</p>
+            <stage>(îngenunchid înnaintea Cristini)</stage>
+            <p>o! scumpa mea maică… bine cuvintează pe fiul tău acesta care merge a se lupta pentru onoarea tuturor! …</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Mergi scumpule fiu! … te bine cuvintez! … Dumnezeu care’ți inspiră acest coraj, va povățui pașii cătră culmea biruinții! … mergi, și din preună cu frați tăi aceștia, luptațivă pentru onoarea tuturor! … Dumnezeu să vă ajute! …</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Dumnezeu să ne ajute! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(întorcânduse cătră țărance)</stage>
+            <p>o! femei… o! voi drăgălașe și timide ființe care umpleți lumea de plăceri … nu încetați de a vă ruga celui prea înalt pentru noi toți aceștiea care sântem hotărâți a ne jertfi pentru liniștea și fericirea voastră! … rădicați plăpândile voastre mâini cătră cer! … lăcrămați cerând sânta lui protecție! … rugațil cu inimi zdrobite și veți dob</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Îndurătorule Doamne! …</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Amici mei! … mai nainte de a proni, trebue să rostim cu toți o sântă rugăciune cătră pre puternicul Împărat al cerurilor! … veniți să îngenunchem înaintea aceștii sântem cruci carea acum cinci ani neau izbăvit de acea nenumărată mulțime de vrăjmași ce voea să ne cutropască țara!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Acum fraților să ne depărtăm de acest loc dureros, și să alergăm cătră ținta resbunări!</p>
+          </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Aideți! aideți! aideți!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Aideți frați cu Dumnezeu</p>
+          </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Piară tiranul</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(uimită)</stage>
+            <p>Radule! … maică…dar unde mă aflu? … întru palat … ce văz? … arme! … oh! Dumnezeul meiu!… poate c visez!</p>
+            <stage>(frecânduse la ochi)</stage>
+            <p>ba nu… este aievea… mi aduc aminte… niște hrănitori! niște oameni nelegiuiți m’au adus aici… oh! amețesc… tremur! …</p>
+            <stage>(umblând amețită)</stage>
+            <p>pă unde aș putea să es dintracest loc fioros? … toate ușile sânt încuete … nici o speranță de scăpare! … ce să fac? … vai! eu singur aici? …</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(Fără a vedea pă Ancuța vine cu o mătură în mână)</stage>
+            <p>Darar Dumnezeu să nu mai putrezească oșcioarele aceluea care a mai scornit și slugăriea asta… de, de… să nu poți sta tu la un loc nici cât dai în cremene; am scuturat cinci odăi darându d’azi dimineață până acum și nu mai potu de mijloc… starar pustii să stea dă hârca cui le are. Oh! bine zice zicătoarea: dă cât slugă la ciocoi mai bine cioban la oi; și’i prea adevărat asta, Dumnezeu să’i erte șapte păcate ălui care a scronito. —</p>
+            <stage>(întorcânduse vede pe Ancuța)</stage>
+            <p>Dec… oare ce’o fi cătând asta?… ia so’ntreb.</p>
+            <stage>(tare,)</stage>
+            <p>jupâneșică! pă fereastră ai întrat aici?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ascltă… om ești tu?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Apoi că doar nu’s drac… om vezi bine.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Însurat ești?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Ba; îs flăcău, și odată flăcău!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ești amorezat?… iubești vre o femee?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Nu… ba, da… he, he, … ca să nu’ți minț, am pupat mai adineauri Chibuța fata bucătarului nostru.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Așa dar iată că ești amorezat?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Numa cât nițel așa… he, he, … Dacă vrei mătăluță, eu numai dă cât las pă Chivuța fata bucătarului pentru că este și cam colțată ea o fărâmă… zău! o las …</p>
+            <stage>(apart)</stage>
+            <p>uliu! da frumușică mai e doamne!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Te înșeli amice… eu nu’ți zic să o lași, ci din potrivă…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(tăinui vorba cu repeziciune)</stage>
+            <p>Ba zău pre legea mea o las! … iată m’am și jurat acum, ce mai poftești? (apart) so’nbunez cu vorbe dulci.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(apart)</stage>
+            <p>Am face cu’n smintit.</p>
+            <stage>(tare)</stage>
+            <p>Ascultămă amice, cine lăcuește în acest palat?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(puinduse e un scaun)</stage>
+            <p>Aice șade măriea sa spătarul Vintilă care este al doilea după vodă.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Vintilă?… vai! sânt prierdută!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Poftim pă scaun jupâneșică.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Îți mulțumesc.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Ia poftim de, poftim de șezi pe scaun, să mă îngropi dacă nu’i șădea…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Îți mulțumesc țiam spus.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Aceasta am auzito, dar îm pare foarte rău!</p>
+            <stage>(apart)</stage>
+            <p>mititica peică! rușinoasă ma e!</p>
+            <stage>(tare)</stage>
+            <p>apoi știi mătăluță cine sânt eu juăâneșică?… mă chiem Stănucă Hălciugă marele copil din casă și scuturătot dimineața; dar mai știi una? avem trebuință de o jupâneasă în casă, vrei să intri mătăluță?… e, he!… aici trăesc bine jupânesile, au tain câte doă trei oca de vin pă zi. He, he,… ce mare pomană țiai face cu mine, că mor dă urât singur pân părăginile astea de case.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Taci din gură becisnicule… vorbele’ți mă îngrețoșază ca și înfățișarea ta cea mișăloasă!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(sărind de pe scaun)</stage>
+            <p>Ce fel?… acum nu’ți mai placu?… e, he,… da lesne’ți ei vorba ’n dărăt leiculițe!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Piei din naintea mea satano!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Apoi eu nu’s ucigasul toaca să pieiu, auzi tu fă?…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Depărteazăte… fugi mai tare!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Fulgi să’ți meargă… da cine dracu’i asta dă să ristește așa la mine?… ia ascultă fa jupâneasă… e! e! teai trecut cu gluma… bagăți mințile ân cap, nu mă face să mă ’ndârjesc c’apoi… hm! …</p>
+            <stage>(apart)</stage>
+            <p>daca n’ar fi așa frumușică, mai că iaș fi umplut ceafa dă pumni!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Oh! . . simț că puterile mă părăsește…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Stane! . . .</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(apart)</stage>
+            <p>Aoleo! . . . Spataru!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Monstrul!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Stane!… mergi de aicea.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(eșind)</stage>
+            <p>Bine că scăpaiu…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei bine Ancuțo… gândeai vre odată să lăcuești în palatul spătării?… oare acum ți-aduci aminte câte rele miai pricinuit?… ții minte zioa în care țiam declarat amorul meu, când  țiam depus la picere golirea și bogățiile mele?… dar vai! tu ăn loc d’a mă plânge, în loc de a coppătimi cel puțin… m’ai înpins cu dispreț!… încă din fatalul moment am făcut cel mai strașnic jurământ de a întreprindre tot ce’mi va sta prin putință spre a te putea dobândi. Însfârșit am isbutit, și astăzi ești lângă mine.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>O!… te înșeli foarte mult… o inimă nici odată nu se poate dobândi prin hrăpirea hoțească, precum iarăș nici prin viclenie și lașitate!… dar domnule! în van țiau fost toate ostenelele ce ai întreprins, și în van îți vor fi și cele ce vei voi a mai întreprinde în viitor!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultă Ancuțo!… leapădă aceste himere zadarnice… trebue să știi că de multe ori unile femei chiar din roabe apăsate au devenit regine, dacă au conrăspuns adorațiilor stăpânilor lor… tu ești frumoasă! meriți o slavă… eu iarăș sânt mare și tare… te iubesc, și te voiu încărca de slavă mare făcândute cea mai porocită femee din toată țara Românească!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>O!… mă înfiorez spatare.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(îngenunchind)</stage>
+            <p>Ancuțo!… iară că’m plec genunchile înnaintea ta… iată cât de mult te iubesc… pătrundete și nu fii crudă cu prințul și amantul tău!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>În veci nu vei putea dobândi tu o aseminea grație.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei bine, ce mai vrei?… ceți place?… vrei aur? giuvaericale neprețuite?… glorie!… toate se vor vărsa chiar întracest moment la picioarele tale…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Destul… isprăvește o! spătare de ami mai deșira toate avuțiile tale, învațăte a cunoaște mai bine pă Ancuța… ea nesocotește bogățiile care se dobândesc numai prin des-onoare!… o! eu cinstesc toate ipocrisiile tale… mergi!… mergi de găsește alte femei în lume mai amatoare de averi și mai lesne crezătoare; iar mie dăm voe să es dintracest palat infernal!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>În veci nu vei eși tu de aici… de te vei opune mai mult adorinților mele, să știi că’ți vor putrezi oasele în închisorile acestui palat… află că după ce m’am micșorat a mă ruga de tine, știu să și ordonez ca stăpân!…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Crude!… cunosc îndestul mijloacele ce vei întreprinde asupră’mi, știu că siluirea nu costă pe un infam ca tine… știu până la ce grad se poate întina sufletu’ți desnaturat!… dar trebue să afli însă, o! spătaro și camarade al Iudei, că Ancuța, acea fiică română prin ale căriea vine mai circulă un sânge eroic, este mai pre sus de toată grăzăviea!. da! voiu înfrunta chiar pe gâzii tăi cărora le ești tatăl!… îmi voiu da ultima respirație în mâinile lor, mai nainte d’a mă îndupleca uritelor și plegiuitelor tale dorințe!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Oh! mi a amețit creeri… această scorpie veninoasă, ar fi în stare să ’nnebunească o lume întreagă!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(intrând repede)</stage>
+            <p>Aoleu! aoleu! măriea ta! măriea ta!… niște kilomanuri pe uliță, o gălăgie… ti! fug rumâni în toate părțile și răcnesc cât pot…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Aleargă mai curând de vezi ce s’a întâmplat…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Cine? eu măriea ta?… aoleu sărăcuț de zilele mele… apoi nu’i glumă asta…cum să mă duc?</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ești mai curând…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Măria ta! nu’ți face păcat dă mă trimite să văz grozăvii d’ale grozavele, de care mă apucă groazele, mi se vântură auzu și în asurzesc ochi…asta, urechile…pre legea mea mărirea ta!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(turburat)</stage>
+            <p>Deșchide fereasta despre uliță…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Amintirea sânt prea cu coraj pre legea mea.</p>
+            <stage>(în momentul când deșchide fereastra și vrea să se uite pă uliță de odată o ploae de gloanțe pârâe pă dinaintea ochilor lui, el trântește fereasta speriinduse, aleargă prin casă).</stage>
+            <p>Uliu!… hait!… neam potopit măriea ta… bătălie întreagă uliu! Dumnezeule! Dumnezeule! unde să mă ascunz eu?…</p>
+            <stage>(aleargă în sus și în jos).</stage>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(armânduse se prepară să easă)</stage>
+            <p>Rămâi de privighează asupra acestii prizoniere.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(vârânduse supt o sofa)</stage>
+            <p>Da! da! mă vâr… asta rămâiu, rămâiu, dute măriea ta, dă te bate cu ei…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>O! aceștiea sânt bravi mei seimeni… ei au isprăvit aceia ce eu trebuea să încep; prin aceste aclamații îm dă să înțăleg cât de mare este jerfirea lor pentru mine! bravo! bravo!… ei vor fi bine prețuiți!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(dă supt sofa)</stage>
+            <p>Biet fuga’i cam rușinoasă dar sănătoasă!… slavă ție doamne! am niște picere știi ca sfârleaza… fug cu ele la deal întocmai ca la vale.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Înalte spătar!… înfățișitorul prizonier inspirat de dorința anarșii, se ivi cu o trupă de țărani armați în capitală, uneltind mari turburări și multe omoruri; dară iatăl căzut în mâinile bravilor tăi soldați… ordonă acum pedeapsa ce i se cuvinte…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(aruncânduse în brațile lui Radul) &lt;/desc&gt;  Radule ce! tu ești rănit?… acest singe!… Ah!…</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Scumpa mea Ancuță!… mărire cerului că te revăz iarăș… oh! ce moment ferice! cât de mult sint datoriu celor ce m’au condus aicea!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Soldați!… smulgețio din brațile acestui turburător!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Vai ție! ticăloase muritor… oare tu ești vinovatul acela care însrăznești a te revolta în contra prințului și a domnitorului tău?</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(lovind cu piciorul în pământ și scuturând lanțurile)</stage>
+            <p>Stăi!… opreștete scelerate de a maltrata un titlu sfânt! numai singur Mihaiu îl poartă… el este prințul și domnitorul românilor… el care în momentele acestea se luptă în contra ungurilor! și deca dânsul ar fi fost acum aici, poporul nu ar geme în unghiile tale… tu prințul nostru?… o tu nu ești de cât un tiran.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Soldați!… luați pe rebelistul acesta… înbrâncițil în temnița cea mai nevăzută de soare, și să aștepte acolo în tăcere ceia ce îm va plăcea să hotărăsc pentru soarta lui.</p>
+            <stage>(Soldați înconjoară pe Radul).</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(cu aprindire)</stage>
+            <p>Tu minți ca un scelerat, eu nu sânt nici de cum un rebelist precum mă numești… toți români mă cunoaște de Radul Calonfirescu… strămoși mei ș’au vărsat singele secoli întregi în nenumărate resboae; asemenea și eu sânt zece ani de când am încins sabiea și mă lupt supt stendardele nații mele! iară tu!… tu! mizerabile, care n’ai avut onoarea măcar de ați vâjâi un glonț pe la ureche… tu care șezi ca un trântor înfășurat de moliciuni, îndeletnicindute numai la întreprinderi criminale… tu însuți ești cel mai mare rebelist, care prin hrănirile și calomniile tale, vrei să înegrești și să pătezi în ochi poporului pe cel mai bun prinț român!… pe Mihaiu bravul cu care națiea noastră se va făli în viitor… dar te înșeli prea mult dacă crezi că’ți vei putea cârfui această imfamie a ta!…puțin și îți vei priimi resplătirea!… ceriul nu va îngădui a se păta fama celui mai mare și mai drept prinț!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Arie N. 5,</p>
+          </sp>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Luațil! luațil!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Radule! scumpul meu… te despart de mine?… oh! sânt pierdută… oh! lăsațimă barbarilor să’l însoțesc și să suferim înpreună supliciurile ce ne veți da… oh! cruzilor! lăsațimă, lăsațimă!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(din afară)</stage>
+            <p>Linișteștete scuma mea!… peste puțin ne vom revedea… Dumnezeu este în cer! și inocența va triumfa!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(după mică tăcere)</stage>
+            <p>Cunoașteam eu demult pe acest împrudent care tu preferi în locul meu, iată vrednicul meu rival… obrăzniciea lui trebuea îndată pedepsită, dar n’am voit să mă aseamăn nebunii sale. — Mai adog însă o ușurință la alui osândă, sau mai bine o dovadă de amea îndurare; că de la tine eczistă vieața sa… Moartea lui fi prețul neânduplecări tale!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Moartea lui?… tirane!… oare în câte rânduri n’ai cercat să’ți văpsești mâinile în sângele lui? acela care l’au ocrotit atunci, îl va ocroti și acum.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Nici odată nu veți mai putea scăpa dân puterea mea… resbunarea cea mai crudă vă va preceda, și cărnurile voastre vor putrezi în închisorile cele mai umede și întunecoase.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Desprețuesc toate amerințările tale, te înșeli foarte mult dacă socotești că cu aceasta mă poți face să’mi ridic iubirea de a asupra lui, și să o promit ție… ție celui mai conrupt muritor!… să vegetez lîngă tine, și să sufer grețoasa’ți privire?… o! nu!… moarte înzecit, moarte mai bine!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Moarte?… he, bine; veți muri dar.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Nu! prea puternicul Dumnezeu, nu va răbda ca doi logodnici sinceri să devie victima unui scelerat ca tine… Dumnezeu ne va proteja, și tu o! spătare vei cădea spărgînduți capul de chiar întreprinderile tale!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(apart)</stage>
+            <p>Oh! ce fatală prezicere?… ce dieavol de femee!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Stăpâne!…rebelistul acela zace acum încărcat de lanțuti în temnița cea mai rece și întunecoasă.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Priveghează să fie bine asigurat până ce ora morți sale va suna.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Imfamilor!… voi vreți să vă adăpați cu sângele lui?… dar să știți că cel atot puternic va sfărâma planul vostru cel nelegiuit!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(apropiinduse de Vintilă îi șoptește încet)</stage>
+            <p>Mihaiu concherantul  ungurilor va intra peste câteva ore în București.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ești sigur!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Prea sigur!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(întorcânduse cătră Ancuța)</stage>
+            <p>Ei bine nesocotito… îți mai hărăzesc câteva ore… mergi în sala de alături și te gândește bine la indulgența mea; căci peste puțin trebue să’ți dai sentența cea mai de pre urmă.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Aceasta este numai un plan al viclenii voastre sceleraților!… sentența mea este dată până în sfrâșit…</p>
+            <stage>(eșind prin stânga)</stage>
+            <p>Miseilor!… vă desprețuesc!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Lambre! conduo în sala ceelantă…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(singur)</stage>
+            <p>Mihaiu se reîntoarce!… Mihaiu încărcat de glorie va păși în București… oh!… prezența lui nimiccește toată puterea mea! — Pă dată ce va sosi, îl vor năpădi plângerile celor acuzați de mine și voiu perde totul, încă și vieața poate… ce să fac dar?… ca să mă potu scuza înaintea lui, nici nu mă mai măgulesc… Preda volintirul tatăl Ancuți este destul să mă dărapine până în pământm de va afla că fiicăsa este hrăpită! Calonfireștii asemenea pentru Radul vor ridica toată țara asupră’mi… vai!… nu văz împrejurul meu de cât numai abisui… din toate părțile mă vor strivi abuzurile ce leam săvârșit, și ora morți mele îndată va suna! — Ce folos va fi pentru mine care am grămădit aur peste aur, bogății peste bogății, slavă peste slavă! de cumva voiu muri osândit ca un criminal?… o! iată momentul desperații mele!… iată momentul cel mai depre urmă care ar putea să’și cruțe vieața!… voiu pune în lucrare sfatul lui Batori spre a’mi deschide drum la tron!… da! trebue ca printr’o însrăsneață lovire să me spăl de toată temerea… Batoriși Basta generalul mă ajută, cu vizirul sânt înțeles prin aur și chiar aici în București am destui partizani cumpărați… toate acestea îm promit un sigur rezultat. Sultanul îndată ce se va înforma de moartea lui Mihaiu, îm va trimite semnele Domnii numindumă credinciosul său; iată dar mijlocul cel mai bun prin care pociu deveni și mai fericit!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Lambre…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Stăpâne!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Mihaiu se reîntoarce?…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Dară stăpîne.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei bine; știi tu că de acum înnainte puterile mele se sfârșesc?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Cum stăpâne?…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>De odată cu sosirea lui Mihaiu în București, sânt lipsit de mijloacele cu care m’aș putea plăti de unu ca tine, care șase luni de zile mi au dat dovezi sigure de tot zelul ce nutrește pentru mine… înțelegi acum?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Înțeleg fatalitatea cea mai aspră mi’a stătut în veci contrastă porociri mele, și chiar acum când speram ceva mai mult… când era aproape să puiu mâna pe realitate… de odată mă văz trântit iarăș în mizerie!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Lambre! nu te despera… țineți corajul, înbărbăteazăte, hotărăștete… și eu atunci te voiu umplea de slavă și bogăție!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>De bogăție?… o! stăpâne… tu poți face ce vei vrea cu mine! sânt omul cel mai hotărât din lume… porunceștim!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(dapă ce observează a nu fi auziți de cineva)</stage>
+            <p>ascultă!… eu mă simț creat de a guverna… de a domni!… mă înțălegi tu?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(uimit)</stage>
+            <p>Dar…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Mihaiu au dormit destul… tu îl cunoști mai bine de cât mine!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Este vrăjmașul chilipirelor!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Trebue să știi că îndată ce sgomotul abuzurilor noastre va ajunge până la dânsul sântem pierduți… dacă țarani aceia vor îndrăzni ai înfățișa plângerile lor, vai noă atunci!… s’a dus reazămul tău!… căderea mea va pricinui pe ata, și moartea…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Și moartea?</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ne va preceda. — vai!… să privesc eu pe singurul meu amic devenind victima nevrednicii mele?… nu!… această singură imaginare mă face să întreprinz totul!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>O! bunul meu stăpân!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(trăgând sabiea)</stage>
+            <p>Vezi tu fierul acesta?… este singurul unelt al libertăți noastre!… numai prin trânsul putem scăpa de furcile din piață… dar ce?… tu nu conrăspunzi? ești în oare care nedomirere?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(entusieast)</stage>
+            <p>O nici de cum stăpânul meu…încredete în mine și vei fi îndestulat.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultă!… îndată ce Mihaiu va păși în capitală, chiar întracea noapte, după astâmpărarea poporului, tu vei încungiura palatul domnesc cu o ceată aleasă de seimeni bine plătiți, vei străbate în cabinet și tăindu’i capul, îl vom trimite amicului meu Sigismund…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Înțăleg stăpâne; dar… în urmă oare nu vom pătimi ceva?… Mihaiu este un om mare și protegiat de împăratul Rudol.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Acum s’au schimbat politica… Mihaiu au devenit nesuferit tuturor vecinilor, și sultanul este foarte aprins asupră’i… pociu să’ți arăt destule dovezi de voești.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Mă încrez stăpâne!… moară dar acest vrăjmaș al independenți noastre!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Trage’ți sabiea și jură!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(trăgând sabiea)</stage>
+            <p>Jur moarte lui Mihaiu!… trăească Vintilă!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Destul. — Acum este timpul să mergem spre a întâmpina întoarcerea lui cu cea mai mare pompă, ca să nu se simță cel mai mic preună; după țeremonie eu voiu rămânea singur cu Mihaiu în cabinet și îl voiu adormi prin felurimi de lingușiri; apoi voiu trage în parte’mi pe toți boeri nemulțămiți. Mergi acu însuți și pregătește alaiul, căci au sosit ora.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Peste puține minute toate vor fi gata</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(singur)</stage>
+            <p>Încă un pas și voiu fi prinț… este prea multă vreme de când mă plec ordinilor altuea, da! peste puțin mă voiu urca pe treptele de aur ale tronului Români… o! ce soartă strălucită! ce destin mare!... înnapoi cu vreo câți va ani eram numai un simplu logofăt de țată de jos și în scură vreme devinu spătar mare!... dar oare cui sânt dator această răpede înălțare a mea?… aceluea căruia eu astăzi… jur moarte!… o! nu… nu’i adevărat… sânt dator numai destinului meu… dară! dară!… oh! risipeascăse aceste simtome de slăbiciune… stingăse odată aceste imagine afemeeate!… eu peste puțin trebue să deviu un prinț! un domnitor!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(apart)</stage>
+            <p>Săracu, spătaru! a nebunit… se ceartă singur singurel!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ce vrei tu aici?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Eu?… am venit… zău! am uitat la ce am venit…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Spune curând…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(apart)</stage>
+            <p>Ce dracu să’i spuiu!</p>
+            <stage>(tare)</stage>
+            <p>Am venit… la… apoi nu mă lua la zor, măriea ta că sânt în stare să’mi pierz mințile!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Tu ai ascultat la ușă?… ai auzit ceva?…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Cine eu?… ferească Dumnezeu n’am auzit nimic…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Zici că n’ai auzit nimic?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Nimic! nimic! știi când zici nimic; dar cum cioarele să auz că sânt și cam tăricel de urechi dela mila Domnului. — eu biet eșiiiu nițel din odaea țărăncuți ălia care mi ai dato măriea ta supt îngrijire; și alergam să vă spuiu că aici în gură n’a băgat, d’azi dimineață unde într’un colț dă odae și tot plânge și se bocește. Dar apoi eu mă tot mir de măriea ta de ce nu’i dai drumul să se ducă n’aibi d’aici, bato nevoile s’o bată de toantă!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Iată că’ți poruncesc să ai cea mai mare îngrijire de dânsa, și îți hotărăsc odată pentru tot d’auna că vei răspumde cu vieața ta de i se ba pricinui cea mai mică insultă!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Să ferească Dumnezeu măriea ta! nu e slută!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Leapădăți neroziile și pune în lucrare ordinul meu.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Odoru măriei tale!… foarte bine!…foarte bine!. eu sânt prea supus și plecat la toate poruncile și poruncile mării tale.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Alaiul este înșuruit pe uliță…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(pregătinduse)</stage>
+            <p>Ei bine iacătămă și eu sânt gata.</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Primește stăpâne cheile grosului… ordonați cui se cuvine ale încrede?</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ele vor rămânea aici în cabinetul meu, și Stan va respunde cu vieața sa de dânsele.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(apart)</stage>
+            <p>Iar cu vieața?… Dumnezeule! da câte vieți oiu fi având eu?…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <stage>(dând cheile lui Stan)</stage>
+            <p>Făleștite amice de nemărginita încredere ce’ți acordează spătaru!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(apart)</stage>
+            <p>Ba pă tine să te încordeze!</p>
+            <stage>(tare cătră Lambru)</stage>
+            <p>he, he,… ce se potrivește mă rog!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(singur)</stage>
+            <p>Slavă ție Doamne! am ajuns în doaga răposatului tata, să fiu chelaru grosului… aferim, aferim procopseală… p’asta slujesc eu zece ani la spătaru! adevărat… ce naște din pisică șoarice mănâncă. — Dar unde s’o fi ducând spătaru așa înpodobit?… după cât am putut înțelege se zică că este să sosească vodă, și ei se duc să’i easă înainte. Cu toate acestea mie me a lăsat o sumă de porunci… cea din tii și mai mare este pentru țărăncuța aea frumușică; dar apoi să nu se îngrijască măriea dumisale, că și mie îm cere inimioara mere pere acre! care se tălmăcește că și mie îm place jupâneșica aea încât mă usuc, mă topesc și mă frig pă un jaratic de foc înfocat nestin! Apoi la naiba! să lăsăm la o parte și glumă și tot… uite, când se uită ea la tine numai c’un sfert de coada ochiului pe loc te amețește, și dă so’ntâmpla ferească Dumnezeu! ca să fii suit sus pă casă, ori în vre un copaciu nalt pă loc faci alivanta jos!… lucru de primejdie! are așa un lipiciu, un vino’ncoace, dă te atrage știi ca magnetu!…bunioară cum eu, spătaru, și hoțu ăla de Ciortan… noi aștiea câte’ș trei, sântem amorezați lulea după dânsa și ce e mai rău, că ea nu visază de nici unul!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Aoleo!… iacăt’o… dă m’o fi auzit, a sburat în vânt toată nădejdea mea.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Tu ești aici?… spune te rog ce s’au mai întâmplat, unde au plecat spătaru?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>O! nimic, nimic frumușico! ce Doamne iartămă spărioasă ai mai fost… spătaru a luat alaiu și s’a dus înaintea lui Vodă care vine dela bătălie; asta’i toată pricina.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Vine Vodă?…știi bine aceasta?…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Cum nu?… cum să nu știu eu care sânt copil în casă și credinceru spătarului?… uite vezi cheile astea? sânt de la gros, și le a lăsat spătaru ca să le păstrez până s’o întoarce; iată dar câtă credință are în mine… e! he!… și mătăluță puiculiță tot nu vrei să mă iubești, în vreme ce toate fetile din curte, să omoară după mine.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(apart)</stage>
+            <p>Cheile grosului în mâna lui?… îm vine o idee!…</p>
+            <stage>(lui Stan)</stage>
+            <p>dacă teaș ruga să’m faci o slujbă, priimești?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Apoi mă iubești?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Mai întâi spunem dacă primești?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Ba mai întâi spuneam dacă mă iubești…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Ei bine; te iubesc…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(Sărind de bucurie)</stage>
+            <p>Lică! lică!… cât îm pare de bine! spune frumușica mea, spune ce ceri de la ine, pentru că eu sânt în stare să săr și în gârlă pentru mătăluță.</p>
+            <stage>(apart)</stage>
+            <p>când o seca apa.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Nimic alt, de cât un răvășel al meu să’l dai…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Cui, cui, cui să’l dau?…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Tu cunoști pe tovarășul meu de nenorocire care este închis în gors?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Acela care se sculase cu zurba asupra spătarului?… știu! știu!… o! da ce om grozav! ’mi e tare frică de el… parcă ’l văz, cu păru sbârlit, cu sprincenele lăsate, cu ochi roșii…brrr… dar eu am cam mirosutun lucru; se zice pă dălături că este drăguțu mătăluți… îm?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(puindusă la mase și scriind)</stage>
+            <p>Minciuni!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Minciuni! minciuni!…într’adevăr eu n’am putut crede; dar cu toate acestea bagă bine dă seamă mătăluță, nu care cumva să greșăști să scrii ceva în răvășel despre îndrăgostirea noastră, care aceasta poate să’l supere și mai tare… mai știi? paza bună trece primejdiea.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(isprăvind scrisoarea)</stage>
+            <p>Dumnezeu îl va învăța ce să facă!</p>
+            <stage>(tare)</stage>
+            <p>, ține acest răvășel dăil în mână și cere’i răspuns; însă păzește să nu țil vadă cineva.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Dea!… nici puiu dă om; o să mă duc colea pe la miezul nopți când dorm și lilieci, lasă pă mine.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Să te văz iubite Stănică!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Cum ai zis? cum ai zis?… iubite Stănică! lică! lică! lică! ia mai zi odată…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Iubite Stănică!</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>He, he, bravos! bravos!… vin să te pup odată.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Apoi țiai uitat cum ne este legătura?… întiiu trebue să’mi aduci răspunsu care’ți cer.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(îngenunchind)</stage>
+            <p>Mă rog puiculiță! cu ochi dă zahăr și cu gura dă miere dulce… barim pupămă mătăluță pă mine!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Nu se poate, isprăveștimi slujba mai întiiu; eu mă duc să nu ne zărească cineva c’apoi pierdem totul, mai înțeles?. — Te aștept cu respuns în odaea mea.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(singur)</stage>
+            <p>A sburat puiculița… râdeam de spăraiu, dar iatătmă și eu în doaga lui… pre adevărat, cine râde de altul îl duce Dumnezeu și pă dânsu dă pătimește.</p>
+            <stage>(se ridică)</stage>
+            <p>Dar cu toate acestea eu am mai bune nădejdi de cât toți; nu ma mi e teamă să nu dau dă vr’o șugubină! —</p>
+            <stage>(în momentul acela se aude un tun)</stage>
+            <p>A!… tunul acesta vestește întrarea lui  vodă în București!</p>
+            <stage>(alergând la fereastră)</stage>
+            <p>bre!… alerg rumâni în toate părțile pă uliță, chiar parc’a nnebunit… cei mai mulți sânt cu mănunchiuri de flori în brațe… e! he!… bag samă să duc înnaintea lui vodă, da, da, așa mi se pare; ia să’ntreb pă ăștia care trec p’aci,</p>
+            <stage>(strigând tare)</stage>
+            <p>Măi! măi! n’auziți voi, unde alergați?… măi băete! ia opreștete aș, ei își cată de drum.</p>
+            <stage>(mai tare)</stage>
+            <p>Măi! ia stați acolo bre!… stați când vă poruncește copilu din casă al marelui spătar… ce tot nu vreți?… A! așteaptămă… vam ochit eu… îți vedea voi ce’o să pățiți când miți cădea în mânile mele.</p>
+            <stage>(închizind fereastra)</stage>
+            <p>Nu vrură nici unul să se uite la mine… cam ciudat lucru!… îm!. asta nu’i semn bun… unde altă dată când mă răsteam, o sută aleargă! — Dar așteaptă leiu arăta eu lor mâne poimâne când or vini la spătărie. Mă duc acum să mă urc în foișor ca să pociu vedea și eu pă vodă când o trece.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Arie N. 7.</p>
+          </sp>
+          <sp who="#mihaiu">
+            <speaker>MIHAIU</speaker>
+            <p>O! români… iatăne reîntorși cu triumf în dulcea noastră patrie… iatăne reîntorși lângă acest tron strămoșesc carele șase luni de zile dispăruse din naintea ochilor noștri!… acum însă, el ne zimbește și ne mulțumește fie-căruea în parte pentru că iam susținut onoarea și drepturile sale; dar mai nainte de a păși pe treptele lui cele mărețe sântem datori să rostim cu toți o sfântă rugăciune către cel atot puternic carele neau hărăzit acest tron și eczistența naționalități noastre! să ne plecăm genunchile fraților!…</p>
+          </sp>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Arie N. 9.</p>
+          </sp>
+          <sp who="#mihaiu">
+            <speaker>MIHAIU</speaker>
+            <p>O! bravilor mei oșteni, și dumneavoastră cinstiți boeri!… această campanie asupra ungurilor au fost una din cele mai grele de reputat; căci au fost îngrădit cu nenumărate curse secrete și intrgi infernale ce sânt mult mai periculoase pentru o armie de cât chiar boambele răpezite din gurile a o mie de tunuri!… dar mulțămită cerului!… românul au călcat deasupra tuturor și au supărat pe enemic cu desăvârșire!… fie care din noi trebue să știe că au arătat o bărbăție rară într’acest mare resbel prin care astăzi origina noastră se glorifică și prin care tronul acesta se încununează cu luare triumfător în onoarea tuturor românilor!… o! cât de mândru sânt astăzi, aflândumă în centru vostru… o! cât de mândru sânt astăzi, aflândumă încungiurat de un popol brav care știe a înfrunta pe enemici săi și ași patriea cu vitejie… primiți fraților amea întreagă recunoștință ce vă sânt dator, și fiți bine încredințați că prințul vostru, va păstra pentru fie care în parte meritul și resplătirea ce i se cuvine!…</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Să trăești măriea ta! ura! ura!</p>
+          </sp>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Arie N. 10.</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL IV</note>
+      <div type="act" n="IV">
+        <head>ACTUL IV</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(ca amăgit de visuri)</stage>
+            <p>Oh!… ce transport!… ce bucurie!. ce moment fericit!… se părea că sânt lângă scumpa mea Ancuță!… se părea că o înbrățișez și mă îndulcesc de sunetul glasului său… dar vai!. un vis… o imagine numai, care se stinse ca un fum de suflarea zefirului!… oh!… iată trei nopți de când n’am putut gusta odihna nici un moment… iată trei nopți de când scumpa mea Ancuță se află în mâinile imfamului Vintilă… cât sânt de nenorocit!… acest monstru! aceste nelegiuit, poate a și întrebuințat siluirea spre ași vârfui infernala sa patimă! sprea a desonora o vergină!… oh!… ideea asta mă face furios!… mă omoară!… îm stinge cea mai scânteindă speranță!…</p>
+            <stage>(devine afară de sine și tremură din toate mădularile)</stage>
+            <p>oh!… oh!… ce!… ce văz?… vai! ce văz acolo?… stăi!… stăi!… oprește imfame… fugi! fugi în fundul pământului nelegiuite…</p>
+            <stage>(viinduși în simțire)</stage>
+            <p>dar ce… ce fac?… cu cine mă disput?… sânt numai eu singur… oh!… Dumnezeul meu!… oare ce îndrăzniiu a cugeta pentru Ancuța?… o! nu!… Ancuța este virtuoasă! ea nu se va îndupleca pentru nimic în lumea aceasta… își va da ultima resuflare m’ai nainte de a se preda și nu va lăsa desnaturatului său hrăpitor de cât un cadavru fără simțiri! . .</p>
+            <stage>(într’acest moment se aude un sgomot pă ulicioara din dreapta a temniți, și Radul se uită cu băgare de samă în partea aceea)</stage>
+            <p>Ușile grosului se aud deșchizânduse… un om învălit într’o manta apare cu un felinar în mână… iată și alți doi după dândul… acești din urmă țin o greutate pe brațe… la lucirea felinarului ar sămăna… au lăsato jos cu băgare de samă și se pregătesc a eși…</p>
+            <stage>(ușile temniți se aud închizinduse cu sgomot)</stage>
+            <p>s’au dus! și acel mister au rămas în lăuntru… ce să fie oare?… negreșit vre-o noă crimă sau mai comis în noaptea aceasta… Aș dori să descopere… să puiu mâna pe realitate… dar simț că curagiul mă părăsește… întunericul îm prezentează mulțime de fantome spăimântătoare, și o putere nesplicabilă mă reîmpinge!… oare ce vor di însemnând aceste temeri lăuntrale?… aceste slăbiciuni de curaj… Vai! toate acestea îm prevestesc vre-o noă nenorocire!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(Se aude gemând în ulicioara din dreapta fără a fi văzut de public)</stage>
+            <p>of! of!… unde mă aflu eu? acest intunerec… nici o scântee de lumină nu zăresc…of!… daca aș putea să mă râdic… daca aș putea să descoper acest loc în care mă aflu…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Un om!… ce teribil mister!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(Se ivește în dreapta sprijininduse de păreți și tremurând din toate mădularile)</stage>
+            <p>Această umezală ce simț pe perete… întunericul ce mă înfășoară… și răceala de supt picioarele mele…dovedesc că sânt aruncat în vre-o temniță de imfamu. Vintilă!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Imfamul Vintilă? oh! acest glas… de și întrerumpt, dar mi este prea cunoscut… când aș putea să’mi aduc aminte… oh! cum îm bate inima!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(tot în aceiaș poziție)</stage>
+            <p>of!… cel puțin n’am putut să’m revăz pe unica mea fiică… dar va mai fi ea în vieață?… sau va di căzut victima nelegiuitului Vintilă… oare nu este vre-un creștin adevărat care să conpătimească și să’mi arate adevărata stare a iubiților mei copii?…vai!… zădarnică dorință!… trebue să mă sfârșesc mai nainte d’a mă îndulci cu această grație!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(cu uimire)</stage>
+            <p>Dumnezeule!… ce’auz?… el este… da! el însuși… nu mă înșel oare?…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(mai făcând un pas)</stage>
+            <p>Oh!… dulce resuvenire a copiilor mei… Ancuțo! Radule iubiți mei copii… alergați!… alergați de sprijiniți pe murindul vostru părinte!… oh!</p>
+            <stage>(cade alăture cu peretile).</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(alergând la căpitan Preda îl apucă în brațile sale)</stage>
+            <p>Tată!… scoală tată!… scoală de înbrățișază pe fiitorul tău copil… el îți va pricinui oare-care consolație! și te va informa despre trista soartă a prea iubitei tale fiice… oh! deșteaptăte! deșteaptăte!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(viinduși în oare care simțire)</stage>
+            <p>Ce!… un om lângă mine… adevăr este ceia ce simț?… sau vre-o fantomă vine să mă amăgească în ora cea mai de pre urmă…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Lasăte pe brațul meu, și vei cunoaște că sânt om… un nenorocit ca și tine care zac de mai multe zile în această închisoare.</p>
+            <stage>(sprijinește brațul lui C. Preda și’l aude mai în față de’l așază pe banca de lemn).</stage>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>O!… spune! spune!… cine ești tu care te afli aici cu mine?!… sunetul glasului tău mă atinge… fivei oare?… o! nu… sânt amăgit!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(înecat în lacrimi)</stage>
+            <p>Sânt Radul!… fiitorul tău finere!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(cu transport)</stage>
+            <p>Radul?… oh!… este cu putință?…</p>
+            <stage>(îl pipăe pe obraz cu grăbire)</stage>
+            <p>Scumpul meu copil!… tu aici?… încprcat de lanțuri!… ce mister neașteptat!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Trei zile sânt de când m’au aruncat îmfamul Vintilă în această închisoare!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>O! Nelegiuitul!… spune! spune Radule… unde este Ancuța?… unde este reazămul bătrâneților mele?… dacă se află și dânsa într’această închisoare, dămio… dămio în brațele mele pentru câteva momente; căci mă sfârșesc de dorința ei!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! bunul meu părinte… eu aș repurta cu cea mai mare mulțumire greutatea acestor lanțuri când aș fi însoțit de adorabila mea logodnică… dar vai!… ea se află acum în mâinile nelegiuitului Vintilă… trei zile sânt de când nu mai știu nimic de dânsa!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>O! Dumnezeul meu!… eu credeam să o regăsesc liniștită în acel cătun în care o condusesem îmnpreună… îndată ce sosirăm în București, abandonaiu suita domnească și alergaiu cu inima palpitândă cătră dumbrava Călugărenilor… dar vai!… am întâmpinat numai pe biata Cristină înnecată în lacrimii!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Maica?… Dumnezeule! întăreștei inima cea sfășieată de durerile cele mai oribile.</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Mă întorsiu îndată în București, alergaiu la palat și mă înfățișaiu înaintea lui Vodă, depuindu’i la picioare plângerea mea!… Marinimosul prinț se umili foarte mult de compătimirea’mi, și ordonă înrăutățitului Vintilă ca în douăzeci și patru de ore să mi se regăsească copii!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Cum?… dar oare nu ai arătat prințului că Vintilă este însuși criminelul?…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>O! scumpul meu copil… Vintilă au știut așa de bine a se scuza în ochi poporului, în cât toți cred de la mare până la mic că niște adevărați haiduci ai marelor păduri au rănito din acel cătun megieșesc… chiar înaintea lui Vodă și a tot divanul, au făcut să se aprobeze această plăsmuire!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! Dumnezeule!… oare au fost cu putință una ca aceasta?…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>De ai fi văzut Radule nemărginitele lui ipocresii… cum lacrăma și mă consola în deperațiea mea… tu singur ai fi crezut și ai fi mărturisit că este omul cel mai giust, cel mai innocent!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! mizerie!… iată până la ce grad se poate intinde profanarea în lume!… iată cum au perit frica de Dumnezeu și dragostea dintre fii oaminilor!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Plecaiu înpreună cu Vintilă din palatul domnesc spre a ne pregăti să vă căutăm pe unde zicea că are sigure nedejdi… eu nu’mi închipueam nici de cum că mă conduce în cursă, ceia ce se părea foarte de necrezut!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! nelegiuitul…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Îndată ce călcaiu pragul spătării, de odată străbătu ideea de trădare prin centrul inimii mele… dar atunci era târziu! porțile palatului se auzea închizânduse cu zgomot în urma mea, și cete se seimeni armați umbla’nprejur… mă conduse într’o cameră și Vintilă se retrase pentru un moment!… dar deodată mă pomeniu în lăuntru cu doisprezece asasini!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Vai!… trădarea era pregătită!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>Căppiteniea lor îm ceru armele; însă eu îi răspunseu prin ascuțitul sabii… am răsturnat patru dintrânșii… dar îndată ce simțiiu că mă arsă un plumb prin mina dreaptă și o adâncă înțepătură de lace în partea stângă… mă părăsiră puterile și am căzut la pământ!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart)</stage>
+            <p>El trebue să fie rănit foarte greu!… de cumva pericolul…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <p>De atunci numai știu nimic până în momentul când mă deșteptaiu în acest loc… dar… Radule… oh!… simț o mare slăbiciune… toate membrile-mi tremură… oh!… puterile iarăș mă părăsesc!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(cercetând legăturile ranelor; apart)</stage>
+            <p>Sângele s’a pornit!…pericolul cel mai mare… ce să fac oare?… de la cine să cer ajutor?… întunericul acesta înpiedică și cea mai mică salvare.</p>
+            <stage>(vrând să dreagă legăturile ranelor)</stage>
+            <p>Ce simț? lac de sânge!… pierzare!… oh! Dumnezeule ce voiu face?…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(abia ecsprimânduse)</stage>
+            <p>Radule!…fiitorul meu ginere!… eu sânt aproape de momentele cele mai de pre urmă! vino! . vino.!… să te mai înbrățișez odată și în locul Ancuți oh! fiica mea! fiica mea… priimește ultima binecuvintare a murindului tău părinte!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>O! tată!… tată!…oh! durere… desnădejde!… alergați oamenilor… alergați să întimpinăm pierderea celui mai virtuos român!…</p>
+          </sp>
+          <sp who="#căpitan preda">
+            <speaker>CĂPITAN PREDA</speaker>
+            <stage>(reânsufleținduse puțin)</stage>
+            <p>Radule!… nu te depera Radule… păstreazăți eczistența… ea este necesară patrii tale și fiici mele, fiitoarea ta consoartă… o dulce presimțire de viitorul vostru cel ferice, străbătu centrul inimii mele… da!… peste puțin puternicul creator va sfărâma lanțurile tale… și… imfamul Vintilă… o! iatăl, iatăl cum se svârcolește în teribile agonii!… iată cereasca resplătire!… o!… acum… mor!… dar.. mulțumit!… resbunat!…</p>
+            <stage>(moare pe brațile lui Radul).</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(desperat)</stage>
+            <p>Oh! tată!… tată!… iubite tată!… deșteaptăte!… ajutor! . ajutor… o! el s’au sfârșit… da s’au sfârșit… răceala morței a străbătut prin toate membrile corpului său…o! crudă și fioroasă moarte!… cum hrăpiși pe cel mai bun părinte! pe cel mai bun patriot!… oare nu găseai tu pe un altul cu care să îndeplinești locul acestui brav bărbat?… oare nu sânt destui criminali în lume, a căror eczistență este ruina fericiri celoralalți oamini?… de ce nu hrăpeai pe unul dintre acei mizerabili?… de ce nu’ți stingeai setea în singele  unor aseminea atei, cu care ai fi făcut un servițiu neamului omenesc?… dar nu, tu n’ai voit… oh! crudă și ne’npăcată fatalitate!… cât am fost de nenorocit!…</p>
+            <stage>(întracest moment ușile se aud deșchizinduse, trei oameni învăliți în mantale lungi apare, unul poartă în mână un mic fanar aprins.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#slujb">
+            <speaker>SLUJB</speaker>
+            <p>Să vedem de mai trăește încă.</p>
+          </sp>
+          <sp who="#slujb">
+            <speaker>SLUJB</speaker>
+            <p>Aici nu se zărește nimic…</p>
+          </sp>
+          <sp who="#slujb">
+            <speaker>SLUJB</speaker>
+            <p>Să înaintăm mai în lăuntru.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(înaintând spre dânșii)</stage>
+            <p>Veniți sceleraților!… veniți de vă adăpați cu sângele acestui innocent care iatăl cum zace întins fără simțire… el au murit…!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Au mirut?…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Da, au murit… au murit ucis de voi nelegiuiților!… au murit blesemânduvă și chemînd dreptatea cerului asupra capetelor voastre!… puțin, și vă veți priimi resplătirea pentru toate crimele ce ați săvîrșit!… o! amar!… amar voă mizerabililor!…</p>
+            <stage>(rămâne în oare care delir, în vremea aceasta cei trei slujbași ridică corpul lui Preda și se fac nevăzuți în fund prin ulicioara din stânga.)</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(desmeticinduse)</stage>
+            <p>Dar unde sânt?…</p>
+            <stage>(zărind în fund lumina fanarului)</stage>
+            <p>Acolo!… ei au ridicat corpul… ce vor să facă cu dânsul?…</p>
+            <stage>(observând de departe)</stage>
+            <p>în acel loc… deșchid o subt-pământă… înbrâncesc corpul în lăuntru, aș dori să nu mă vază că iam observat. —</p>
+            <stage>(se trage la o parte în față; cei trei slujbași se văd trecând înnapoi prin fund și se fac nevăzuți prin ulicioara din dreapta. Ușile temniți se aud închizinduse cu sgomot în urma lor.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(singur)</stage>
+            <p>ARIE N. 1.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(ivinduse în fund învălit într’o manta făr a fi văzut de Radul)</stage>
+            <p>Slavă Domnului! că sosi ceasul ca să îndeplinesc făgădueala ce am dat frumușichi mele drăguțe pentru ca asemenea și frumușica mea drăguțe săși îndeplinească făgădueala ce mia dat mie: cu toate acestea a cioarelor femeușcă mai e!… iam cerut de la obraz ca săm dea un sărutat, și n’a vrut nici de cumu cumului… haină! haină!… foarte haină!…</p>
+            <stage>(scoțind un mic fanar aprins de supt manta)</stage>
+            <p>Bre!…da’întuneric mai e aici…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(zărind lumina)</stage>
+            <p>Oare ce însămnează această lumină?…iarăș vre un satelit… A! iatăl…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Aideți acum să găsim pă rumânu ăla grozavu.</p>
+            <stage>(face un pas și se oprește)</stage>
+            <p>Uliu!… mi se face păru măciucă… ce fioros voeaj… îm vine s’o tulesc înnapoi… A! dar atunci vez că nici să mai dau ochi cu bălăioara că mă opărește cu apă hiartă… negreșit! coragi, coragi, mai bine…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart)</stage>
+            <p>Ce zice el oare?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(înaintează vre o trei pași și ear se oprește)</stage>
+            <p>Mai bine ’m vine să merg îndărăt de cât înainte… apoi la naiba că nici nu pociu să mă mai mișc, îm atârnă trupu taman cinci mii de oca… o să strig în gura mare, să vedem nu m’o auzi?</p>
+            <stage>(tare)</stage>
+            <p>Măi! omule care ești închis aicea?…</p>
+            <stage>(încet)</stage>
+            <p>iaca că nu mă aude… ciudat! ciudat lucru… n’are cum să fie mai ciudat!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apart)</stage>
+            <p>Oare care ușurință străbate prin inima mea!…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>C a să mi se mai potolească frica o să’m iau inima ’n dinți și o să plec cântând.</p>
+            <stage>(cântă)</stage>
+            <p>trai, lai, lai, lai, lea…</p>
+            <stage>(tare)</stage>
+            <p>măi omule mă! . . trai, lai, lai, lai, lea…</p>
+            <stage>(în parte)</stage>
+            <p>știi că cânți al dracului de frică?… lai! lai! lai! lea! . .</p>
+            <stage>(înnaintează spre Radul)</stage>
+            <p>vezi așa… coragi! coragi! . .</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(înaintând spre Stan)</stage>
+            <p>Prietene! . .</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(spăimântânduse)</stage>
+            <p>Bu!…</p>
+            <stage>(îi cade felinaru jos,)</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Pă cine cauți într’acest loc de</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(desmeticinduse)</stage>
+            <p>A!… pă tine… pă dumneata te căutam cu acest felinar…</p>
+            <stage>(apart)</stage>
+            <p>uliu!… ce om grozav!…</p>
+            <stage>(tare)</stage>
+            <p>eu gândeam c’ai răposat întri fericire; cu toate că m’am supărat foarte mult când umblai să faci răsmiriță ca să dobori pă spătaru din scaun…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(cu dispreț)</stage>
+            <p>Ei bine… ce vrei tu de la mine acum?</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Nimic mai mult, de cât…</p>
+            <stage>(cătânduse în sin)</stage>
+            <p>ține acest răvășel de la ruda dumitale care este în palat la noi, și să’m dai numai de cât răspuns înnapoi că mi-e foarte de grabă.</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(apucând revașul cu grăbire)</stage>
+            <p>O scrisoare!…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Da, da… o scrisoare… Am cam zăbovito, pentru că era să viu d’alalta eri noapte când a intrat Vodă în București, dar apoi mi s’a ntâmplat prea multe înpiedicări. Iar acum ducândusă spătaru din preună cu Ciortan la un loc acolo unde nu știu eu, și lăsând în grija mea toate cheile grosului, adicătele astea, miam luat inima’n dinți și plecaiu aici ca să te găsesc.</p>
+            <stage>(în vremea aceasta Radul citește scrisoarea în lumina fanarului; după ce a isprăvit o sărută de mai multe ori și o bagă în sân)</stage>
+            <p>îți pare bine?… he, he, he. și mie-mi pare bine; dar apoi dăm răspunsu să mă duc mai curând…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ascultă iubite prietene!…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Eu prieten cu tine?… ba să mă ferească Dumnezeu!… dăm răspunsu că plec…</p>
+            <stage>(se trage înapoi.)</stage>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Apoi fiind că tu mi-ai pricinuit așa de mare bucurie, lasămă să te înbrățișez și să’ți mulțumesc cel puțin…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(trăgânduse înnapoi cu sfieală)</stage>
+            <p>Foarte mulțumim! foarte mulțumim de dragoste… dăm răspunsu că mă duc…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(deodată îl apucă de grumaz cu putere și’l trântește la pământ)</stage>
+            <p>Deți va scăpa cea mai mică vorbă ești mort îndată!… dăm cheile care ai la tine.</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(abia vorbind)</stage>
+            <p>Cheile?… aoleo!… da cum să țile dau că mă omoară spăraru la urmă?…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(amerințindul cu lanțurile)</stage>
+            <p>Eu te omor acum!…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Tu mă omori acu?… națile! națile!</p>
+            <stage>(îi dă cheile, Radul le apucă cu grăbire)</stage>
+            <p>și ce pomană țiai face morților când m’ai lăsa să mă ridic în sus…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Nu mișca…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Da bine ce’ai dă gând tu cu mine, mă?</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(după ce se descarcă de lanțuri și ea sabiea de la Stan)</stage>
+            <p>Acum te poți ridica</p>
+            <stage>(încinge sabiea.)</stage>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(ridicânduse)</stage>
+            <p>E! dăm răspunsu să mă duc…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(ia felinaru întro mână și cu ceilantă apucă pă Stan)</stage>
+            <p>Vino încoace să’ți dau răspunsu care ceri.</p>
+            <stage>(îl trage’n fund, și se fac nevăzuți prin ulicioara din stânga)</stage>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(apart până a nu se duce)</stage>
+            <p>Ce naiba o fi având de gând haiducu ăsta cu mine oameni buni?</p>
+            <stage>(lovinduse cu pumni în cap)</stage>
+            <p>Na! na! cap sec… în ce foc intraiu eu!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(fără a fi văzut)</stage>
+            <p>Trebue să intri în această subt-pământ pentru câteva ore…</p>
+          </sp>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <p>Aoleo! aoleo! măriea ta, cucoane boeruile! jupâne!… nu mă ’ngropa dă viu sărăcuț dă maica mea!… aoleo!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Mergi odată! iasmo!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(singur)</stage>
+            <p>Oh!… iatămă iarăș liber… acum pociu înfrunta or ce pericol cu această ageră sabie… trebue să mă duc… trebue să alerg în palat să smulg pe iubita mea Ancuța! pe pricinuitoarea libertăți mele… oh! cât sint de fericit într’acest moment!…Vintilă lipsește, întunericul mă favorează și supt această manta mă pociu strecura cu înlesnire printre santinelile palatului.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#stan">
+            <speaker>STAN</speaker>
+            <stage>(singur, strigând tare de supt pământ)</stage>
+            <p>U! măi Domnule mă! u! măi domnule mă!…</p>
+            <stage>(lovind cu un lemn capacu)</stage>
+            <p>, jupâne! măi jupâne!…</p>
+            <stage>(ridicând capacu)</stage>
+            <p>lasămă zău! să es afară din ocnița asta că moare biată Chivuța fata bucătarului nostru și ibovniceaoa mea… fieți milă jupânele dragă că e păcat să se prăpădească bunătate de fată cu toate că’i cam colțată, dar apoi… este… ar fi poate să fie…</p>
+            <stage>(apart)</stage>
+            <p>ce naiba! dă nu m’aude ia să es eu de aici.</p>
+            <stage>(se aude lăsinduse capacu supt pământei și Stan vine în față)</stage>
+            <p>slavă ție doamne că mai văzuiu lumina cu ochi… oare haiducu ăla n’o fi p’aci?… vre! da’ntuneric mai e!…</p>
+            <stage>(începe a să învărti cu mâinile întinse prin scenă)</stage>
+            <p>nui nimini… s’a dus pă semne afară, i!… cine știe pă unde io fi sfârâind călcâile de fugă?… săracu! apoi era și nevinovat după cum am înțeles, mai multă asupreală era la dânsu. — Ei bine da când o afla spătaru ca s scăpat hoțu de la gros, ce o să fac eu atunci? unde o să mă ascunz?… Dumnezeule! Dumnezeule! îmvățămă ce să fac ca să nu mă pominesc atârnat în furcile din piață!…</p>
+            <stage>(începe a căuta ușa păpitite)</stage>
+            <p>da’ncotro o fi ușa… ti! că ’ntuneric mai e… ha, ha… p’aici…</p>
+            <stage>(găsind ușa încueată să întoarce repede înapoi)</stage>
+            <p>vai de mine! vai de mine… ma ’ncueat în gros… ce să fac eu acum? cum să mai es d’aici?… Dumnezeule! Dumnezeule!… nici o nădejde de scăpare… oh! Chivuțo! sări de mă scapă de aici că mă prăpădesc…</p>
+            <stage>(plânge și se bocește)</stage>
+            <p>Aoleo! ce să mă fac eu?… hm, hm, hm… aoleo! Chivuța mea… hm, hm, hm… aoleo! mor, vai de mine! hm, hm, hm! — Dă geaba plâng eu că nu m’aude nimini… trebue să caut vr’un mijloc ca să scap d’aici…</p>
+            <stage>(după puțină gândire)</stage>
+            <p>Mi-aduseiu aminte ceva… spunea întro zi răposatu tat că pă când era el chelaru grosului spătării, a scăpat pă o răsuflătoare care este în fundu grosului în partea stângă… în depărtare de zece pași de la cotitură… A! trebue să fie chiar aceia în care am fost aruncat de omu ăla grozavu… negreșit, fiind că simțeam și un vânt rece care se părea că vine d’afară… zicea bietu tata că răspunde tocma supt un pod al gârli afară din București… o! de va fi așa apoi sânt scăpat, iar de nu…</p>
+            <stage>(suspinând)</stage>
+            <p>Rămâneți sănătoși că eu plec pă tărâmu ăllant…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(singur)</stage>
+            <p>Aici tăcere!… întunerec… nu s’aude nici un sgomot… oare în ce parte de loc va fi Ancuța închisă?… pă cine să întreb, cui să mă arăt?… un moment și poate voiu cădea iarăș în puterea tiranului…</p>
+            <stage>(ascultând)</stage>
+            <p>se audu niște gemite! niște ohtări!… dar nu știu din care parte es?… aici mi se pare… voiu intra… sînt hotărât a mă lupta până la cea mai mică picătură de sânge. — Dar… parcă se aude un sgomot… niște pasuri se urcă pe scară…</p>
+            <stage>(crăpând ușa din fund se uită afară)</stage>
+            <p>adevărat… lumina torțelor străbate până în această sală… aicea vine…</p>
+            <stage>(închizind ușa)</stage>
+            <p>Ce voiu face?… sânt pierdut de mă vor găsi aici!… trebue să mă ascunz… dar unde?… speranță! speranță!… sunt această sofa pociu observa tot ce se va face…</p>
+            <stage>(în momentul când se vâră Radul supt sofa, ușile se deschid cu sgomot și intră Vintilă precedat de Lambru, și lumânări se așază pe masa din mijloc).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Este în bună siguranță acel nou prizonier?</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Ușile grosului sânt zăvorâte cu grele fiară…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultă!… cea mai mică întârziere este moarte pentru noi… lipsa lui căpitan Preda va pune la bănueală pe Mihaiu… el știe că am plecat din palat înpreună și de la mine îl va cere… el mi a ordonat cu severitate ca să’i întorc pe fie-sa Ancuța!… pe aceia care ador mai mult de cît toată lumea aceasta!… o! asta’i grozav!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Nu stăpâne, ea va fi tot a voastră, și Mihaiu peste câteva ore nu va mai putea să’ți ceară acest tezaur, nici vre o altă notă în or care pricină.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Lambre!… să nu mai pierdem nici un moment, Lambre!… trebue ca în noaptea aceasta să dăm sfârșit temerilor noastre!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Fii sigur stăpâne! aștept numai pe voinici mei, care trebue se sosească îndată aici.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Venivor curând oare?…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Câteva momente numai…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Se știi cu hotărâre însă; că dacă din anoastră nenorocire nu vom putea isbuti de a pierde pe Mihaiu întraceastă noapte misterioasă, apoi vai noă!… mâine în zori, cadavrele noastre vor bănăbăni în furcile din piață!… vom muri isolați de lume! și resuvenirea noastră în viitor va rămânea ca o pată neștearsă în fața urmașilor noștri!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Nu stăpânul meu!… chiar acum… acum peste câteva momente Mihaiu va înceta dintre cei vii! și cu dânsul, toată temerea noastră se va stinge pentru tot deauna!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultămă… îndată ce vei agiunge, inconjoară palatul, pune stăpânire pe toate întrăbările lui, și apoi numai tu cu vre o cinsprezece viteji aleși, urcațivă sus… acolo tu cunoști cabinetul lui… intră cu hotărâre și loveștel de moarte…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Fii prea sigur!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Îndată ce te vei întoarce aici cu capul lui Mihaiu, sint sigur… numai atunci putem fi siguri că am scăpat de furci!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Aceștie sânt bravi noștri… numai din înțelesul baladei, vă puteți asigura cât de mult sânt ei întărâtați în contra oblăduiri lui Mihaiu… numai din aceasta zic, puteți prevedea ce frumoasă isbândă o să avem!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ei au pășit în curtea palatului meu, sânt în mare nerăbdare de ai priimi! — O! Lambre… de la tine spânzură astăzi domniea țări rumânești… oh! vino să te sărut iubitul meu companion!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>O! bunul meu stăpân!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#seimeni">
+            <speaker>SEIMENI</speaker>
+            <p>Să trăească spătaru!...</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Bine ați venit bravilor! voi cunoașteți causa care vă aduce aci, și socotesc de prisos să o ma repetuesc, pierzind timpul în zadar… să ne ocupăm dar numai de aceia ce poate fi mai important. —</p>
+            <stage>(trăgând sabiea)</stage>
+            <p>vedeți voi această armă?… este singura noastră speranță… jurați dar pe dânsa cu toți că nu mă veți abandona până la cea mai de pre urmă picătură de sânge!…</p>
+          </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Jurăm! jurăm! jurăm</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Jurați în urmă să primiți,</p>
+          </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Dară! dară!… se trăească!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ascultați bravilor!… eu voiu recunoaște zeul fie-căruea dintre voi… vă voiu umplea de averi nenumărate făcânduvă norociți pentru toată vieața voastră!…</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Noi sântem prea siguri de indulgența domnii-voastre!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Acum fie-care să cunoască ceia ce are de făcut. — Eu rămâiu în acest palat ca să nu dau vre-o bănueală, în vreme ce bravul vostru căpitan vă va conduce la palatul domnesc… noaptea aceasta vă favorează pasurile atât mai mult, cu cât soldați români mândri de victoriea lor, dar foarte obosiți de groaznicul resbel, se află cu toți în momentele acestea predați odihni prin casele lor; și Mihaiu plin de o mare încredere s’au lăsat fără altă pază a persoani sale, de cât numai câteva santinele iarăș de seimeni ai noștri; așa dar va cădea prea lesne în mâinile voastre… daca însă cereți ca să vă însoțesc și eu, sânt gata a merge în frontul vostru!</p>
+          </sp>
+          <sp who="#lambru">
+            <speaker>LAMBRU</speaker>
+            <p>Nu! noi nu vom suferi să te ecspui, vieața Domnii-tale ni este foarte prețioasă!</p>
+          </sp>
+          <sp who="#seimeni">
+            <speaker>SEIMENI</speaker>
+            <p>Dară! dară!… căpitan Lambru va susține locul.</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Eu nu doresc domnirea țări, dragi mei viteji, decât numai și numai spre a vă putea face desăvârșit fericiți!… toată mulțumea aurului care se va găsi la Mihaiu îl voiu împărți voă ca uni ce ați săvârșit fapta cea mai îmdrăzneață!… mergeți dar… este timpul… au sunat ora!…</p>
+          </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Arie N. 5.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(singur)</stage>
+            <p>Iată însfârșit că ating momentul înnălțări mele pe tron… da!… mâine în auroră spătarul Vintilă se va proclama de prinț!… de cumva partida lui Mihaiu se va opune, vizirul îm va trimite îndată doăzeci de mii de spahii spre ai spune în sâlnicie… vai de ei atunci!… cadavrele lor vor zăcea discăpuite prin toate răspântiile… voiu desființa îndată armata română, și voiu întemeea iarăș ogiacul seimenilor spre mai bună întărirea mea. — Dar încă îm mai rămâne ceva de făcut… Lambru Ciortan văz că are prea mare influență asupra seimenilor… mai mare de cât mine chiar… o! el poate în urmă să ajungă am fi opozant… cine poate cunoaște secretul inimi sale?… da trebue și dânsu curățat cât mai curând… siguranța persoani mele cere acest sacrifițiu! — Dar nu știu ce am?… oh!… simț oare care neodihnă, o răutate secretă apasă centrul inimii mele… chiar parcă mi-ar fi și sosit ora cea mai de pre urmă!… dar ce zic?… toate acestea devin numai din ecstazul în care mă aflu… din marea bucurie ce am … o! nimic… nimic mai mult!… să es nițel pe terasă ca să mi se mai înprăștie aceste simtome sinistre!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <stage>(eșind de supt sofa)</stage>
+            <p>O! ce groaznice crime auziiu din gura acestui scelerat!… mi se cutremură rărunchi de sacrilegile ce putrește în inima sa acest despaturat!. încă nu s’au săturat de atâtea alte răutăți, ci acum voește să se adape cu sângele celui mai bun prinț!… o! mizerabilul!… o! nelegiuitul!… Dumnezeule! cum de’l poți răbdarea?… de nu mă voiu strecura mai curând dintracest loc… de nu voiu alrga să anunț popolului că niște criminali vor să ridice vieața bravului nostru domnitor… vai!… peste puțin va cădea subt fatalile lor loviri! — Dar cum să mă depărtez fără de a smulge pe draga mea logodnică dintracest supliciu?.. oare să ascult amorul și să’m trădez patriea?…Dumnezeule! în ce teribilă posiție mă aflu!… da ce?… trebue a sta în cumpănă între amantă și patrie?…nu!… cerul este drept!… el va ocroti ăe Ancuța mea ca și până astăzi de pericolul ce o amerință! — Mă duc să anunț popolulu și să întâmpin teribila conspirație!…o! Dumnezeule! Dumnezeule! . . revarsați peste noi îndurarea ta cerească!… întăreștimă și mă păzăște ca să pociu cruța nenorocirile unui neam întreg ce se amenință întraceastă noapte fatală!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(singură)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Tirane!… tu chinuești pe acela cu care eu trebue să fiu însoțită?…ei bine! sfârșaște acum de ați vârfui cruzimea-ți… lovește acest piept care geme de varvariea ta!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(azvârlinduși armile pe masă)</stage>
+            <p>Dar ce ai?… tot furii… tot iritări imaginare?…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Eu cer moartea de la tine, și arz de nerăbdare să însoțesc pe adorabilul meu logodnic!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Linișteșite frumoasă Ancuțo!… logodnicul tău eczistă încă. Țipetele ce ai auzit, au fost ale unor paznici nevrednici, care au lăsat slobodă eșirea unui om necunoscut, și pentru această greșală am ordonat să’i pedepsească cu câte cinci sute de lovituri în falangă.</p>
+            <stage>(se apropie de Ancuța și voește să o apuce de mână, dar ea se smucește depărtânduse)</stage>
+            <p>Dar ce… nimic nu te liniștește încă?</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Nimic scelerate!… tu gândești că fiica volintirului orbit de această strălucore mincinoasă care te înfășoară, de grab ar înceta de a mai fi virtuoasă!… dar teai înșelat, o! spătare…Ancuța va muri mai nainte de ași vinde onoarea!</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(înverșunatu de patimă)</stage>
+            <p>Oh!… oh!…</p>
+            <stage>(se repede la dânsa cu furie și o trage cătră ușa din stânga)</stage>
+            <p>Tu te vei supune și fără de boe…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(svârcolinduse)</stage>
+            <p>Ah!… lasămă… rușește om desnaturat!…</p>
+            <stage>(se smâcește din mâinile lui Vintilă și se repede de apucă în mână un pistol ce era pă masă)</stage>
+            <p>Dumnezeule! agiutămă!…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <p>Ce vrei cu acea armă?… este închercată!…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <stage>(ochind pă Vintilă cu pistolu)</stage>
+            <p>Voesc să te trimiț în tartar!… voesc să-mi spăl patriea d’un monstru ca tine, și să izbăvesc poporul român de asprimea unui tiran… ai aflat acum?…</p>
+          </sp>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(trăgând sabiea)</stage>
+            <p>Trădătoareo!… leapădă arma sau te omor…</p>
+            <stage>(în momentul când vrea să o lovească cu sabiea, Ancuța face foc și Vintilă cade pe parchet).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#vintilă">
+            <speaker>VINTILĂ</speaker>
+            <stage>(singur)</stage>
+            <p>Oh!… ce visuri spăimântătoare…ce imaginii alergătoare!… se părea că ating cuca domnească!… se părea că sosise fermanul împărătesc pentru întărirea mea… dar nu!… încă nuau venit ceasul… tot trebue să mai așteptăm…o! crudă este așteptarea în niște asemenea înprejurări…</p>
+            <stage>(se ridică în picere cu ecstraordinare tremurături ale membrelor sale)</stage>
+            <p>ce văz?… sânge!… vai!… eu sânt rănit!… rănit de moarte!… mor!… simț că mă sfârșesc… ajutor! ajutor!…leacuri!…oh!…nimini nu mă mai aude… glasul meu s’au stins… acum… iată… sfârșitu’mi se ivește… trebue să mor!… vai!… aur!… glorie!…toate rămân de mine… toate dispar ca vântul de la ochi mei… cui vor rămânea toate averile mele?…cine le va preceda?… aș dori… să se înparță sărăcilor!… dar… oh!… iată mă sfârșesc… ertațimă!… ertațimă!… o! Mihaiu!…o! prințul meu!… iartămă!… iartămă dacă ești creștin adevărat… nu este precum omul gândește…ci… precum Dumnezeu voește!… dar!… iată!…iată!… acum mă sfârșesc…oh!… nu mă lăsați… Ajutor!. ajutor… mor!… oh!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#seimeni">
+            <speaker>SEIMENI</speaker>
+            <p>Arie N.7.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Nimini nu se vede…</p>
+          </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>O! cer… un cadavru!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Dară! dară… să mergem să murim în centrul luptii!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#strigări">
+            <speaker>STRIGĂRI</speaker>
+            <p>Biruință! biruință!…să trăească măriea sa vodă!…moarte trădătorilor!… moarte mișeilor!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ticăloșilor!… lepădați armele că sânteți pierduți!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 18</note>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <sp who="#popolul">
+            <speaker>POPOLUL</speaker>
+            <p>Să trească măriea sa vodă!</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Fraților!… toți protivnici sânt învinși și sfărâmați cu desăvârșire… să nu mai aveți nici o grijă de acum înnainte… măriea sa vodă este sănătos și mâine de dimineață se va arăta în persoană pe uliță!…</p>
+          </sp>
+          <sp who="#popolul">
+            <speaker>POPOLUL</speaker>
+            <p>Să trăească măriea sa vodă!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 19</note>
+        <div type="scene" n="19">
+          <head>SCENA 19</head>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Generale!… palatul este în puterea noastră, toți potrivnici seimeni sânt subt sabie; dar pă imfamul Vintilă încă nu lam putut găsi…</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Îți mulțumesc bravule!…ție sântem datori astăzi toți români, cruțarea zilelor marelui nostru domnitor… această faptă strălucită va rămânea neștearsă din analele patrii noastre!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 20</note>
+        <div type="scene" n="20">
+          <head>SCENA 20</head>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Grație1 grație! pentru o nenorocită!</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ancuța?…ah!…</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Grație pentru o nenorocită mare generale!… ea’și au apărat onoarea pintr’o crimă, imfamul Vintilă au îndrăznit să întinză asupra’m o mână nelegiuită, o mână de scandal… el au voit rușința și des-onoarea mea!… dar eu nemai ascultând de cât desperațiea mea, lam isbit de moarte!… iatăl dar unde zace întins fără simțiri!…</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Minune cerească!… tiranul pedepsit!…</p>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Linișteștete eroină română!…n’ai a te stii de nimini… vai de acela care va cuteza să răsbune moartea acestui vânzător!… prea puternicule Dumnezeu au voit ca prin tine o plăpândă fecioară, să dărâme pe cel mai mare enemic al unui neam întreg!…</p>
+            <stage>(o ia de mână și o dă lui Radul)</stage>
+            <p>iată vrednicul tău logodnic!</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Radule!…</p>
+          </sp>
+          <sp who="#radul">
+            <speaker>RADUL</speaker>
+            <p>Ancuța mea!…</p>
+            <stage>(se înbrățișază).</stage>
+          </sp>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Luați acest cadavru al trădătorului Vintilă și târâțil la furcile din piață spre ași priimi osânda pe deplin;</p>
+            <stage>(doi inși târăsc cadavru afară)</stage>
+            <p>ear noi cu toți să mergem la palat…</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>La palat! la palat!. . aideți la palat!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 21</note>
+        <div type="scene" n="21">
+          <head>SCENA 21</head>
+          <sp who="#popolul">
+            <speaker>POPOLUL</speaker>
+            <p>Vine măriea sa vodă…</p>
+          </sp>
+          <sp who="#omul">
+            <speaker>OMUL</speaker>
+            <p>Astăzi la doă ore din zi, s’au osândit la moarte de spânzurătoare Lambru Ciortan camaradul de crime al lui Vintilă; cine voește să’i vază să alerge în furcile din piață.</p>
+          </sp>
+          <sp who="#popolul">
+            <speaker>POPOLUL</speaker>
+            <p>Vine măriea sa vodă!… Vine măriea sa Vodă!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 22</note>
+        <div type="scene" n="22">
+          <head>SCENA 22</head>
+          <sp who="#buzescu">
+            <speaker>BUZESCU</speaker>
+            <p>Români!… ascultați toți cu mic cu mare ordinile prea luminatului și prea puternicului nostru prinț și stăpânitorul Românii, Moldavii și Transilvanii…</p>
+          </sp>
+          <sp who="#popolul">
+            <speaker>POPOLUL</speaker>
+            <p>Ura!…ura!…</p>
+          </sp>
+          <sp who="#mihaiu">
+            <speaker>MIHAIU</speaker>
+            <p>Pentru dovezile de patriotism ce au dat junele ofițer Radul Calonfirescu, pentru vitejia sa în resbelul din Ungariea, și pentru nemărginita credință ce au arătat către persoana domnii mele, precum îndeobște este cunoscut, îl înnalț astăzi în treapta de Spătar mare, în locul lui Vintilă necredinciosu!</p>
+          </sp>
+          <sp who="#popolul">
+            <speaker>POPOLUL</speaker>
+            <p>Ura!…ura!…</p>
+          </sp>
+          <sp who="#mihaiu">
+            <speaker>MIHAIU</speaker>
+            <p>Asemenea și voă tuturor bravilor români, vă mulțemesc pentru corajul și bărbățiea ce ați arătat la asaltul palatului spătarii…fiți siguri dar că vă iubesc întocmai ca pe copii mei!…</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Să trăești măriea ta!…ura!… ura!…</p>
+          </sp>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Prințul nostru să trăească</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

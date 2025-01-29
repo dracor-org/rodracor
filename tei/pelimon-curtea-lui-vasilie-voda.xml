@@ -1,0 +1,3172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000004" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Curtea lui Vasilie Vodă</title>
+        <author>
+          <persName type="pseudo">Alexandru Pelimon</persName>
+          <idno type="wikidata">Q26202487</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Tipografia lui Vinterhalder și Komp.</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="vasilie_voda" sex="MALE">
+            <persName>VASILIE VODĂ, stăpânitor al Moldaviei</persName>
+          </person>
+          <person xml:id="domnita_rocsandra" sex="FEMALE">
+            <persName>DOMNIȚA ROCSANDRA, fiica sa</persName>
+          </person>
+          <person xml:id="comisul" sex="MALE">
+            <persName>COMISUL, omul de curtea lui Vasile Vodă</persName>
+          </person>
+          <person xml:id="stroe" sex="MALE">
+            <persName>STROE, fiul adoptiv de la cea dintâi soție a sa</persName>
+          </person>
+          <person xml:id="costin" sex="MALE">
+            <persName>COSTIN, adevăratul fiu al comisului frate dintr-o mumă cu Stroe</persName>
+          </person>
+          <person xml:id="marta" sex="FEMALE">
+            <persName>MARTA, a doua soție a comisului</persName>
+          </person>
+          <person xml:id="elena" sex="FEMALE">
+            <persName>ELENA</persName>
+          </person>
+          <person xml:id="taut" sex="MALE">
+            <persName>TĂUT, postelnicul domnesc</persName>
+          </person>
+          <person xml:id="lupu" sex="MALE">
+            <persName>LUPU, căpetenie peste vânători domnești</persName>
+          </person>
+          <person xml:id="doctorul" sex="MALE">
+            <persName>DOCTORUL CURȚII</persName>
+          </person>
+          <person xml:id="geanta" sex="MALE">
+            <persName>GEANTA, sclavul comisului</persName>
+          </person>
+          <person xml:id="motul" sex="MALE">
+            <persName>MOȚUL, un păstor</persName>
+          </person>
+          <person xml:id="doi_slubasi" sex="MALE">
+            <persName>DOI SLUBAȘI AI POLIȚIEI</persName>
+          </person>
+          <person xml:id="judecatori" sex="MALE">
+            <persName>JUDECĂTORI, condicar divanului criminal</persName>
+          </person>
+          <person xml:id="aprodul" sex="MALE">
+            <persName>APRODUL de la curte</persName>
+          </person>
+          <person xml:id="suita_domneasca" sex="FEMALE">
+            <persName>SUITA DOMNEASCĂ – fetele d-onoare</persName>
+          </person>
+          <person xml:id="cimpoesul" sex="MALE">
+            <persName>CIMPOEȘUL secerișului de câmp</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1852">
+        <desc/>
+      </event>
+      <event type="premiere" when="">
+        <desc></desc>
+      </event>
+      <event type="print" when="1852">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000004" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">CURTEA LUI VASILIE VODĂ</titlePart>
+        </docTitle>
+        <docAuthor>Alexandru Pelimon</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>VASILIE VODĂ</role>
+          <roleDesc> stăpânitor al Moldaviei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DOMNIȚA ROCSANDRA</role>
+          <roleDesc> fiica sa</roleDesc>
+        </castItem>
+        <castItem>
+          <role>COMISUL</role>
+          <roleDesc> omul de curtea lui Vasile Vodă</roleDesc>
+        </castItem>
+        <castItem>
+          <role>STROE</role>
+          <roleDesc> fiul adoptiv de la cea dintâi soție a sa</roleDesc>
+        </castItem>
+        <castItem>
+          <role>COSTIN</role>
+          <roleDesc> adevăratul fiu al comisului frate dintr-o mumă cu Stroe</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MARTA</role>
+          <roleDesc> a doua soție a comisului</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ELENA</role>
+        </castItem>
+        <castItem>
+          <role>TĂUT</role>
+          <roleDesc> postelnicul domnesc</roleDesc>
+        </castItem>
+        <castItem>
+          <role>LUPU</role>
+          <roleDesc> căpetenie peste vânători domnești</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DOCTORUL CURȚII</role>
+        </castItem>
+        <castItem>
+          <role>GEANTA</role>
+          <roleDesc> sclavul comisului</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MOȚUL</role>
+          <roleDesc> un păstor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DOI SLUBAȘI AI POLIȚIEI</role>
+        </castItem>
+        <castItem>
+          <role>JUDECĂTORI</role>
+          <roleDesc> condicar divanului criminal</roleDesc>
+        </castItem>
+        <castItem>
+          <role>APRODUL de la curte</role>
+        </castItem>
+        <castItem>
+          <role>SUITA DOMNEASCĂ – fetele d-onoare</role>
+        </castItem>
+        <castItem>
+          <role>CIMPOEȘUL secerișului de câmp</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Am venit dintr-adins ca să găsesc pe boierul comisul acasă, să-l înștiințez că astăzi Măria Sa Vodă primește la curte, parcă văz cum o să curgă jelbile din toate părțile; o să fie mai multă lume astăzi la curte decât în ziua de Paște la biserica Trisfetitelor. Postelnicul însă a arătat Mării Sale rugăciunea Comisului precum că voiește să se înființeze astăzi, și eu sunt trimis să-i dau de știre.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Boierul nostru a ieșit de azi dimineață cu fiul său cel mai mic căci pe el îl iubește mai mult.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>O fi luat de știre ca să vie la curte?</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Așa se vede treaba. Mie atât numai mi-a poruncit că dacă va veni fiul său cel mare Stroe, să-i spui să-l aștepte acasă.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Dar cela unde tot umblă că nu face nici o treabă, nu intră în nici o slujbă, nu se apucă de nimica și tată-său ar avea multă trecere la curte și la Hatmanul. Păcat de unii ca ăștia că le-a dat Dumnezeu mijloace, dar ei cei mai mulți ies oameni... hm!...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Despre mine încailea sunt rob, n-am ce să zic, căci dacă aș fi fost de capul meu, aș fi muncit de m-aș fi umplut de bani, pe când unii ca ăștia toată ceea ce găsesc de la părinții lor.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Uite, ce au, ce fac băieții Comisului se înnebunesc femeile după ei.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>În toate zilele vine câte vreo bătrână să se plângă că Stroe i-a furat pe fiică-sa. Femeile o să-i răpuie capul.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Voinic este! Bine le face!... Dacă eram eu în locul lui despărțeam pe toate femeile de bărbații lor, despre fete încailea nu mai zic nimic...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Dar lasă că Stroe nu e așa de prost. El o să mănânce și capul lui tată-său. Îl vezi că turbează, mai rău decât un leu dacă nu-i dă bani pentru beții, să joace în curți și alte cheltuieli derăpănătoare.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Se vede că și tată-său este un om avar, cumplit, topenia pământului!</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>După ce s-a însurat acum la bătrânețe a doua oară, și a luat pe nemțoaica asta, leașcă, ce este, nu mai dă nimic copiilor săi, ci cheltuiește numai pentru gusturile ei.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Fie, zău, că nu este urâtă, și nu știu cum o să ție bătrânul oița între lupi.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>El o iubește și o ține mai bine decât în sânul mume-si de când s-a botezat în legea noastră cea creștinească.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Ea îl iubește ca pe un tată; îi trebuie însă un june căruia să-i dea inima. Stroe este meșter a deschide lacătele inimilor.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Ferit-a Dumnezeu, el și cu frate-său nu o poate suferi, fiindcă din pricina ei nu mai văd o lescaie de la tatăl lor.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Ca mâine îl trimite pe lumea cealaltă dimpreună cu ea, pentru ca să înfigă odată mâna în aur, atunci o să vezi ce n-ai mai văzut de când ești...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Cine poate citi în inimile lor! E drept că cel mai mic este tăcut și cu ochiul băgător de seamă, cel mare arată curat turburarea și vijelia creierilor lor. Pe lângă aceasta este vicleanul, e mare intrigant...</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Domnul să-i apere!</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Îi vezi totdeauna când sunt amândoi preocupați în vorbire parcă ar da planuri de bătălie. Dacă vreodată intru fără de veste, ei schimbă vorba: uneori rămân tăcuți și cu ochii spun unul altuia, parcă ar zice: să nu ne auză acesta!... Degrabă îmi fac de drum: mă și pornește pe unde n-ai gândi după bani, și creditorii curg din toate părțile ca ploaia pe capul lor. Nu a rămas femeie tânără sau bătrână, frumoasă sau urâtă să nu le fi intrat eu în casă; prin urmare, eu sunt libcanul lor... Însă preocuparea aceasta a lor, după care îi văz mai totdeauna căzuți în gândire, ca într-un fel de îndoială, mie nu-mi prea place, și nici că îmi vine să crez că este vreun lucru curat, m-ai înțeles?</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Creșterea urâtă ce o dă părinții copiilor și rătăcește până într-atât a nu avea nici frică de Dumnezeu.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Muma lor îi răsfăța prea mult, tata lor, din parte-i, nici nu băga de seamă de ei și puii de șarpe creșteau, se făceau mari... Am mai auzit și aceasta că Stroe n-ar fi fiul adevărat al Comisului. Pe mumă-sa a fost luat-o însărcinată de două luni.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Se vorbește prea mult că pe soția sa cea dintâi Comisul a luat-o chiar din curtea lui Vasilie Vodă.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Sunt acum douăzeci de ani de când ea a răposat făcând o călătorie la mănăstirea Agapia.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Oricum, ferească Dumnezeu pe oricare părinte de-a neîngriji creșterea copiilor săi. Pâine uscată să mănânce iar pe copii să-i învețe a fi creștini, căci când se fac mari nu-i mai poți schimba din ceea ce au apucat. Eu mă duc să dau răspuns la ispravnicul curții că n-am găsit pe jupân Comisul acasă.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Mai stai, nu te grăbi așa că te-i duce. De-ai ști măre ce sufăr eu de la diavolii ăștia pe care Satana nu i-ar putea ține ferecați nici în iad... Aș vrea să mă fac frate cu dracul pentru ca să-i mai pot îmblânzi...</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Eu te las măi frate. Domnul să te bucure pe tine și să dea minte stăpânilor tăi. Mai vino pe la curte că ne vom mai vedea. Minte stăpânilor tăi să le dea Dumnezeu, mai auzit tu!...</p>
+            <stage>(iese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Îți sărut ochii îngerul meu cu pași de porumbiță, cu picioarele încălțate mai frumoase decât ale păsărelelor cele moțate! (vine în avanscenă). Ce o vrea Dumnezeu! O adusei și pe aceasta pe calea dorințelor mele! Ea socotește că mă are prins în lanțurile ei... Draga mea fetiță! Dragele mele femei!.. O! voi care completați lumea și împărăția femeiască! Mult îmi sunteți plăcute! Vă iubesc pe toate fără deosebire! Vouă vă închin sufletul și inima mea, căci în voi se cumpănește cerul cu iadul... Între voi domnește bucuria cea mai curată și de la voi ne avem viața. Lumea dacă era fără femei, pentru mine n-ar fi fost decât o stâncă prea stearpă și râpoasă de care ar fi trebuit să-mi zdrobesc capul tot muritorul nenorocit... Da, împărăția aurului și femeile fac raiul pre pământ!...</p>
+            <stage>(Geanta intră dintre culise).</stage>
+            <p>Ei, tu, vino aici! Acasă este bătrânul? Pe frate-meu Costin l-ai văzut?...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>A ieșit împreună cu boierul de azi-dimineață și mie mi s-a poruncit să vă zic ca să așteptați pe boierul acasă până se va întoarce.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cine ți-a zis aceasta?</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Însuși boierul.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tată-meu vrea să-mi vorbească!...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Astăzi este ca să se înființeze la curte căci Măria Sa Vodă primește, și toată lumea aleargă...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Du-te degrabă la curte și te înapoiază până nu va veni bătrânul. Caută de găsește pe aprodul de la Ispravnicul curții: bagă de seamă bine la ceea ce îți va ieși din gură, pătrunde până unde vei putea ca să zărești o femeie de la haremul domnesc. Întreabă dacă stăpâna Vornicesi se găsește astăzi ca să fie văzută în sala de adunare. Dacă cineva te va ochi, spune-i că ai treabă cu aprodu; și deschide-ți ochii bine făcându-i în patru, întoarce-te cu ispravă și cu răspuns bun, căci de unde nu, stricăm calimera amândoi.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Într-o clipă alerg și mă înapoiez!...</p>
+            <stage>(la o parte)</stage>
+            <p>Am să-mi fac ochii în patru și urechile am să mi le lungesc până voi găsi vreo femeie de la harem. Bine că nu este pe la miezul nopții că m-ar strânge de gât stafiile și pricolicii ce ocolesc zidurile haremului care este lipit de palatul cel mare domnesc.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Bună și vrednică slugă credincioasă! Tu ai alergat și m-ai ajutat în toate păsurile mele!... Tu ai alergat orișicând am avut nevoie de credința ta și ai păzit secretul oricând ți-am poruncit... Dar aurul îmi lipsește!... Acesta este care îmi amărăște toate plăcerile mele și mă oprește de-a izbuti în orice pui de gând să fac... Avuția noastră este în mâna tată-meu pe care nu mă pot face eu stăpân până când nu va închide el ochii... El pare că acum întinerește mai mult având dinaintea ochilor săi o femeie jună, frumoasă, care îi îmblânzește viața întocmai ca soarele de iunie pre pământ... Of! eu nu mai pot suferi aceasta ca părinții să fie piedica la fericirea și plăcerile copiilor în viață. Destul este un șir de șaizeci și cinci de ani cât trăiește un părinte până ce ajung fiii săi în vârstă. Apue plăcerile pentru dânsul acuma! Facă loc fiilor săi ca să trăiască bine! Mie îmi trebuiește starea părintească ca să am ce cheltui... Aurul strâns de alții face să surâdă buzele cele însetate ale cheltuitorului!... Îmi trebuiește starea părintească căci, de unde nu mă îngrop de viu, ori părintele meu!...</p>
+            <stage>(se uită afară pe o fereastră).</stage>
+            <p>Geanta s-a depărtat că nu se mai vede... Dea Dumnezeu ca să pot vedea astăzi pe Rocsandra!... Câtă anevoință am avut ieri până ce am putut pătrunde prin grădinile palatului ca să văz pe dânsa la ferestrele cele mari cu zăbrele de fier. După cum însă m-a încredințat femeile ei, se vede că ea mă iubește căci totdeauna întreabă de mine.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Bărbatu-meu trebuie să vie acum de la curtea lui Vodă. Nu știu de ce o fi întârziat așa de mult căci a ieșit prea de dimineață astăzi ca niciodată</p>
+            <stage>(citește).</stage>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(la o parte zărind pe Marta)</stage>
+            <p>Bun cumaș ar fi și mumă-mea asta, cu obiceiurile ei nemțești. Se pare a fi cufundată cu totul în rugăciunea de dimineață.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <stage>(se oprește în loc, se uită la Stroe).</stage>
+            <p>A! Aici ai fost domnule? Ce te-ai făcut de vreo trei zile încoace? Toată lumea întreabă de Dumneata, bărbatu-meu mai cu seamă.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tată-meu?</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Și cine ai fi vrut ca să întrebe mai cu interes?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Așteptam niște cunoscuți care erau să vie să mă vază.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Cu deosebire numai că acești cunoscuți erau de alt sex, și aveau a reclama pentru Dumneata.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>La cine? La tată-meu?...</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Așa, la bărbatu-meu, și eu muma dumitale te mustrez ca pe un fiu, pe care trebuie să-l pui în genunchi de câte face.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Eu ca fiul dumitale voi da în genunchi cerându-ți iertare, și voi săruta cu o îndoită mulțumire delicatele mâini ale unei mumi ca dumneata.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Unei mumi prea neiertătoare.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cel puțin dumneata vei îmblânzi pe tata!</p>
+            <stage>(la o parte).</stage>
+            <p>Pe viața mea, pe lângă respect ochi și maniera acestei femei îmi inspiră vii pasiuni.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Încep dar de acum lecțiile dumitale până a nu te pune la pâine și apă ca pe copiii cei vinovați.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(râzând oarecum).</stage>
+            <p>Ascult buna mea mamă și frumoasă Comisoaie.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Începi și cu mine de acolo?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Am vrut să arăt numai că lecțiile și sfaturile dumitale fac un îndoit efect în inima mea și că numai îngerul face pe dracul să știe de frică.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Trei mume sărmane ieri a adus plângere dinaintea părintelui dumitale căci amorul a întrebuințat armele sale, pentru ca fiul cel rău crescut să amăgească pe plăpândele lor fiice.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cu aceasta dăm dreptul părintelui cel aspru să pună pe fiii săi sub epitropie, și pe criminali de felul acesta să se dea în judecata cea mult indulgentă a femeilor frumoase.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Părerea mea ar fi să te însori.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(la o parte).</stage>
+            <p>Îmi trebuie starea părintească!...</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Să nu se mai plângă mumele că domnia voastră sunteți peirea fetelor...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ele sunt peirea noastră!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(căzând în genunchi și apucând mâinile Marti)</stage>
+            <p>Scumpa noastră mumă și frumoasă Comisoaie, cât îți este de suspus fiul și elevul dumitale. Amândoi frații vă suntem datori dragostea și orice grație dobândită de la un tată așa de aspru ca al nostru.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Scoală-te domnule căci văzându-ne cineva, poate va lua rău aceste glume și jucării ale dumitale.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Este cu putință ca un tată să fie gelos până și pe fiii săi?</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Te părăsesc căci îndată este să vie bărbatu-meu și să nu ne găsească aici astfel.</p>
+            <stage>(Marta iese pe o ușă laterală. Costin vine către frate-său și-l lovește cu mâna pe umărul cel drept).</stage>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tată-meu!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Noi îl vom!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(îi pune mâna la gură și se uită în toate părțile ca nu cumva să-i fi auzit cineva).</stage>
+            <p>Taci îți zic! Îneacă în inima ta secretul care trebuie să-l știm numai noi... În vremea și întunericul cel amorțit al nopții, când toată conspirația și crima este însufle. Țipă de singurătate și fără marturi, un semn va fi îndestul ca să ne dea de știre la aceea ce trebuie să facem. Însuși Dumnezeu atât de drept osândește prin fiii săi pe un părinte care este surd la glasul naturii și nu vrea să-și aducă aminte de fiii săi.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>El se ia bine pe lângă mine, îmi făgăduiește un viitor fericit.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Toate aceste le face numai ca pe tine să te oprească. Pe mine tu vezi cât mă urăște. Se vede în chipul său zugrăvite mânia și nepăsarea când îi spun că creditorii mă întind, și-i arăt câte-mi trebuiesc. El ar vrea să-și ție fiii ca pe niște robi, uitându-se rău până și pentru bucățica de pâine care le-o dă.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Tu ai dreptate fratele meu!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Iată-te acum și tu june, în toată vârsta. Unde ți-e dar armăsarul cel mândru și scump cu care să te arăți că ești fiu de Comis, fecior de boier, precum vezi pe ceilalți cu șalul cel bogat de Persia, și purtând armele cele mai scumpe. Zgârcenia și cumplirea unui tată așa de nedrept te-a lăsat într-această curea fără nici un bumb de argint măcar pe dânsa.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Destul de crud și aspru este părintele nostru.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cerșetorii care se milogesc pe la porțile sfântului Spiridon și ale bisericii Golea au o soartă mai bună decât a noastră care ne-am născut din părinți bogați.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Părintele nostru trăiește numai pentru dânsul. De noi fiii săi și a uitat.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Nu-și uită însă cele mai mici făgăduieli făcute tinerii sale femei ca să fie iubit de către dânsa.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Va muri și ea deodată cu dânsul!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce ne-a greșit ea, o biată femeie care vrând să-și îmbunătățească soarta, așteptând un viitor mai fericit, și-a părăsit arpa cu care cerșea pâine unind pe lângă aceasta grațiile și frumusețea unei june dănțuitoare.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ea va trăi dar!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Crima ce noi vom săvârși va fi mânjită de sângele unui tiran, iar pe femei noi le vom cruța.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ea nu ne-a făcut nici un rău!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Auzi tu!...</p>
+            <stage>(apucă pe Costin de mână).</stage>
+            <p>Nenorocirile noastre și piedica ce ne oprește de-a gusta și noi din plăcerile acestei lumi este numai părintele nostru.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Iubirea de argint cea mult nesățioasă unui tată este un păcat de moarte.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce sunt datori fiii a suferi greutatea păcatelor părintești.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Îți zic, trebuie să ne răzbunăm!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(uitându-se în toate părțile).</stage>
+            <p>Gura mică, îți spun, să nu ne auză cineva, căci când o dată secretul nostru va fi surprins, noi suntem pierduți.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Moarte și aceluia ce ne va trăda.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Izbândă întru toate!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Tu comandă.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tu ai curaj și întreprinde.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ne vom găsi îndată ca să punem la cale ce ne mai rămâne de făcut.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Vom trage sorții, care din doi trebuie ca să lovească!...</p>
+            <stage>(es amândoi pe deosebite uși. Geanta se arată în fundul teatrului).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Amândoi nu știu ce vorbeau și acum se despărțiră!... Aș fi vrut însă să ascult ce vorbeau ei. Ast păcat îl am totdeauna, căci voi să le aflu și să știu toate și n-auz nu știu, nimic. Sunt bun să mă facă cineva omul cel interesant la vreun ambasador strein, pot fi siguri că de la mine nu va ieși o vorbă, căci eu am urechi și nu văz, am ochi și nu auz... O! Lume și necazuri! Toate sunt grămădite astă dată pe capul boierului nostru Comisul și pe capul fiilor săi, cel mare și cel mic... Am alergat până acum teleleu după porunca lui Stroe fiul boierului. Mi-am lungit urechile și am căscat gura până acuma ca doar voi găsi vreo femeie de la haremul domnesc. Ce mai femeie și ce mai vorbe pe spinare era să-mi dea arnăutul cela cu cârja lui de argint când mă întreba ce caut eu la curtea lui Vodă, și eu nu știam ce să-i răspund, ce să-i zic... Doamne apără! Doamne ferește! P-aici mi-a fost drumul; abia am nemerit casa stăpânului meu, și fiii săi iarăși vorbeau ce vorbeau între ei!... Asta nu-mi prea place!... Asta va răpune capul și părintelui și fiilor cei rău crescuți!...</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Astăzi am fost pe la curte dar n-am putut să mă înfățișez la Vodă, era să-mi iasă sufletul, așa de mare era îmbulzeala. A rămas acum pentru mâine.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Ziceai că o să dai în genunchi dinaintea Mării Sale ca să-ți ia copiii în curte: ar fi bun cel mare să intre între ceata arcașilor și cel mic între Postelnicei domnești.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Să vedem, am nădejdi bune, m-am rugat de postelnicul și el mi-a făgăduit că va pândi timp ca să vorbească cu Vodă. Dar toată mâhnirea sufletului meu este că acum la bătrânețe... în loc să-i văz oameni cum trebuie... ei au ajuns spaima lumii și dispreția mea.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Liniștește-te, ei sunt încă juni, sunt copii, n-ai ce face până la vârsta care se găsesc...</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Ce fel, copii!... ei sunt copii, pentru că până acum n-au avut nevoie să se gândească la greutățile vieții, pâinea de toate zilele cum se câștigă și patria cum se apără... Eu nu eram copil când în vârstă de cincisprezece ani mi-a zis părintele meu: fiule, tu vei fi reazămul mumei tale și a doi frați mai mici decât mine care în urmă au căzut și ei pentru patrie. Eram supus, ascultător, îndemânatec, tată-meu fusese unul dintre păstorii cei mai înavuțiți care își păștea turmele aproape de Valea Albă. Ciuma, războaiele, jafurile, și refugiul oamenilor către munții Bucovinei a făcut ca să cază cele mai grase turme și hergheliile de cursieri în mâinile inamicilor. Tată-meu și-a pierdut starea ce o avusese și eu fiul său cel al șaptelea născut, vedeam de o mumă și de doi frați ai mei mai mici decât mine, căci tată-meu cu alt frate mai mare înarmase în ceata vrăncenilor ca să meargă a opri năvălirea inamicului ce intra în Moldova...</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Ah! Dumnezeule!</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Mergeam pe douăzeci și unul de ani când tată-meu m-a dat sub mâna unui învățat care avusese influența domnească sub Iliaș Vodă. După moartea stăpânului meu, Vodă, făcându-i-se milă de soarta mea, m-a luat pe lângă sine și-n puțină vreme am ajuns al treilea după Ispravnicul curții. Trei domni stăpânitori am servit după aceea în urmă până ce am ajuns Comis mare sub Vodă Vasilie. Am trăit bine cu răposata soția mea cea dintâi, pe care am fost-o luat din curtea lui Vodă. Am binecuvântat cerul la nașterea celui dintâi fiu al meu... Dar durerea mea s-a făcut îndoită la nenorocirea de-a vedea pe-amândoi fiii mei, că au rele apucături; cel mai mare știu bine că strică și pe cel mic...</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Ei amândoi sunt fiii dumitale.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Cerul și-a-ntors fața sa de la robul cel umilit, căci eu ca părinte privesc cu ai mei ochi neorânduiala și desfrânarea fiilor mei.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Ei se vor corecta, lasă-i în plata Domnului căci mintea trebuie să le vie odată. Dar ia spune-mi scumpul meu, darul ce mi-ai făgăduit să mi-l faci de ziua nașterii mele care va fi pe curând: crez că nu l-ai uitat. Ori nu vrei să mi-l spui ca ce lucru o să fie până în minutul cel de pe urmă, pentru ca surpriza să-mi fie mai mare.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>O! buna și dulcea mea copilă!</p>
+            <stage>(o sărută pe frunte).</stage>
+            <p>Eu care ți-am făgăduit tot pentru mulțumirea și fericirea ta, crezi că eu pot uita pe îngerul mângâietor al zilelor mele, pe tine care ești lumina ochilor mei.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Așa am vrut numai să-ți zic...</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>În mijlocul bătrânețelor eram singur, nemângâiat de fiii mei, strein, lipsit de prieteni pe care cerul și patria i-a strămutat de pe pământ. În tine am găsit plăcerea d-a te numi fiică și soție. Dragostea ta și-a fost trebuincioasă ca roua dimineții pentru frunzele unui arbore.</p>
+            <stage>(Stroe se vede în ușa din fundul scenei).</stage>
+            <p>Îți mulțumesc pentru pacea dinlăuntrul sufletului, și-ți voi răspunde cu căldură la amorul și tinerele simțiminte ce le nutrești tu pentru mine, soțul și părintele tău!</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Sunt mari bunătățile dumitale pentru mine care nu eram decât o săracă femeie nenorocită, silită să-mi cerșesc pâinea desfătând auzul și a încânta ochii persoanelor generoase care compătimeau pentru o săracă artistă. Am încântat sufletul dumitale și m-ai numit soție, mi-ai acordat stare și fericire numai să părăsesc danțul și muzica. Eu caz la picioarele Dumitale plină de mulțumire și recunoștință. Vârsta și frumusețea unui bărbat june, ajung puțin lucru pe lângă bunătățile neașteptate ce izvorăsc din inima unui părinte bun ca dumneata. Eu sunt supusă la picioarele dumitale!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>O! Femei! Femei!... Ea îl fermecă, părintele își deschide inima la vorbele ei!...</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Da, tu vei pune pe fruntea ta cea jună și frumoasă o diademă încărcată cu diamanturi și safir și cerceii cei scumpi de emerald. Vei merge alăturea cu soțul părintele tău la balul domnesc și oricine te va zări, va zice cu adânc respect: iată cât e de jună și frumoasă consoarta marelui comis!...</p>
+            <stage>(îi dă brațul și ies).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Fiilor săi le trebuie starea părintească! Și diamantele vor fi contopite în aur după ce marele comis va da brațul la îngerii nevăzuți ca să călătorească la ceruri, părăsind pe acești îngeri ai pământului!...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Satana lucrează aici pierea tuturor...</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Ei, măre, dar brațul acesta al meu, nu este așa lesne de încovoiat! În piept, în șale, am luat destule lovituri de glonț și de sabie!... Nu mă prea sfiesc eu așa ca voi, nu mă tem eu de vânătoarea la urși și la vulpi, unde vrea să meargă Vodă cu toată suita sa.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Bravo! Așa îmi place să te auz. Să trăiești ostaș moldovean bătrân, care știi să te porți când ești foc și când te vezi la horă între fete. Să trăiești! Lupușor! Să trăiești, așa îmi place să te auz!...</p>
+            <stage>(îl bate pe umeri).</stage>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Vezi bine! Dumneavoastră, domnișori, coconași din zilele de acum care v-ați obicinuit și v-ați molipsit de trândăvia și lingușirea de la Fanar, știți numai să bateți în palme de pe saltea, și nu vreți să vă asemănați cu mojicii... Vă place să vă curgă de-a gata untul și mierea, dar vă vine cu greu a rădica de jos copacul trunchiat la pământ de mâna vremii. Vă vine cu greu să auziți că ursul s-a-nfuriat într-o vânătoare când îi vâjâie plumbul pe la ureche. Dar colo în mijlocul câmpului de bătaie, în mijlocul taberii înflăcărate, unde cerul și pământul se împreună ca într-o mare de sânge și nori de pulbere și fumul se înfășoară și se rostogolesc ca valurile mării, ce ați face voi?...</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ce tu ai vrea să zici că eu n-aș ști să înfruntez aceste pericole pe care strămoșii noștri le-au înfruntat cu atâta bărbăție în mai multe resboaie ce le-au avut ei...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <stage>(întinzând mâna către stindarde).</stage>
+            <p>Vezi tu trofeele ce Moldovenii au știut să smulgă din mijlocul vrăjmașilor numeroși! Vezi tu stindardele și armele ostașilor Unguri, Poloni, Tătari, și ale atâtor vrăjmași câți și-au arătat colții peste dealurile și prin umbroasele noastre văi, gonind după urmă zimbrul fâlfâitor pe steagurile lui Ștefan cel Mare!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ei de multe ori s-au întors cum n-au intrat; rupți, sfărâmați!...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Vezi tu dealurile și munții noștri, ei pot spune multe cu vâjâitul vânturilor și cu urletul înfiorător al lupului turbat!...</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Sunt trecute acele timpuri care făceau atât zgomot spre apărarea crucii și apărarea întregei Europi...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Dar moldoveanul a fost și va rămânea totdeauna Român și brav!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ei ce zici tu de vânătoarea la care a poruncit Vodă să ieșim cu toții, toată suita sa.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>N-am decât să-mi încing cuțitul și să-mi arunc ghioaga la spinare...</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Copoerul și căpetenia de vânători vor merge îninate.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Așa prea multă dăscălie nu prea înțeleg eu. Îți împărțesc bătăiași de patru muchii, ți-i atașez cam pe costiș, pui să dea chiot unu la altul cei ce au să ție la poteci. Asmuț câinii cu iuțimea săgeții. Dau comanda pe rând, când unul împușcă altul ține arma plină până încarcă cel de-al doilea. Îți aduc atunci pe paloș degrabă, și până ce se sfârșește războiul pot fi de față și Măria Sa cu boierii și haremul tot.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>O să meargă și domnița Rocsandra și Vorniceasa haremului.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Eu voi depune la picioarele lor căprioara cea neagră curată cu ochi frumoși; o voi îngenunchea dinaintea ei vie nevătămată.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Tu căpitan peste vânători domnești, la grajduri al doilea după comisul cel mare, ar trebui să te văz îmbrăcat numai în argint și cu o femeie d-alăturea ta care să se schimbe numai pe șaluri.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Această treabă o fac numai când sunt în Suceava la Cernăuți, unde mă duc câte o dată pe fiecare lună să-mi prenoesc viața din ochii cei șerpești ai frumoaselor moldovene d-acolo. Când sunt însă dinaintea stăpânitorului moldovenilor, îl aștept cu brațele încrucișate pe piept ca călugării și port straiul căpeteniei de vânători...</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Vine Vodă, s-aude zgomot afară!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Așa, copila mea, grijile țării sunt foarte mari și adânci pentru un stăpânitor drept, și cu atât poate fi mai nenorocit când nu vede orice cu ochii săi și nu aude cu chiar urechea sa păsul și plângerile supușilor săi...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Măria ta, totdeauna te-ai arătat cu veghere și cu prea multă generozitate asupra poporului. Boierii Mării tale pot lua esemplu.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Soarele, fiica mea, care este așa de mare și atât de puternic peste univers, nenumăratele sale raze, nu pot pătrunde toate unghiurile abisurilor. Prin urmare omul; cu tot zelul și privegherea ce o va avea nu poate cu desăvârșire a stăpâni abuzurile făcute de către alții... Destul. Ca conștiința unui stăpânitor să fie curată, și limpede nepătată, întocmai ca lumina acestui împărat al orizontului, ce se pogoară a încălzi și a lumina pământul pentru fericirea oamenilor.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>În toate duminicile și sărbătorile am hotărât de aici înainte a trimite pe la biserici unde se adună sărăcimea ca să se împarță ajutoare de bani; pe la văduve, sărace mume de familii, pe la instituturile pruncilor ce i aruncați găsiți pe la ușile bisericilor. Am îndatorat pe părintele preotul de la capelă să-mi facă cunoscut orice nenorocit, orice ființă pieritoare de foame, orice părinte împovărat de grea familie, de orice clasă va fi... Fiica Mării tale, urmează simțimentului părintesc, după creșterea și principiul ce a luat ca să ajute pe toți.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Aceasta a fost în toată vremea și este singura mea dorință a ușura pe cei nenorociți. Binele țării și al supușilor mei îmi este scris cu litere de aur dinaintea ochilor mei, mă mângâie în tot minutul și-n tot timpul... Somnul meu este pacinic, visele mele sunt senine, bucuria râde pe dinaintea mea. Când mă deștept și-mi aduc aminte, când îmi închipuiesc că poporul doarme și el în pace, în liniște fără ca cineva să fie nedreptățit sau Vasilie Vodă... care însă pedepsește cu moarte pe făcătorii de rele, pe furi și pe ucigători de oameni!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Sunt o sumă de fiice nenorocite, sărace, dintre care un număr mare o să le iau în palatul meu, căci fiind fără stare, bunele lor calități și talente rămân necunoscute și fără preț de a-și găsi soții lor spre a se căsători după lege...</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Dau în dispoziția ta oricâte sume de bani trebuința va cere spre a îndeplini nobilul tău scop.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Creșterea cea bună, și educația fetelor sărmane, este întâia necesitate spre a forma mume bune ca ele să dea creștere fiilor Patriei.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Tatăl din cer să te binecuvânteze, fiica mea, pentru curatele și generoasele tale simțiminte către aceste sărmane ființe. Lăsăm toate acestea, fiica mea, ca să mai vorbim câte ceva. Ai auzit și tu poate că Hamanul Cosacilor! a căruia țară este în apropiere cu țara noastră, te-a cerut în căsătorie de la mine. Ce răspuns trebuie să-i dau?</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Eu sunt fiica Mării Tale cea supusă și ascultătoare la înaltele Mării Tale porunci. Eu caz la picioarele tale arătând îndestul simțimintul inimii mele, și niciodată nu mă abat dinaintea voințelor tale părintești.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Ba nu, fiica mea, eu mă las după hotărârea și voința ta. Fiica mea, este îndestul de cu minte pentru a judeca lucrurile după cum trebuie la o fiică de domn...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Eu care încă din pruncia mea întâiul simțimânt ce l-am avut a fost închinat înaintea Maicii Domnului. Fecioarele și damele de care am fost înconjurată totdeauna mi-au urmat asemenea după dorința mea. Nenumărate faceri de bine pe care a trebuit totdeauna să le am de țintă nu mi-au dat pas ca să mă gândesc și la consoartele meu. Moldova întreagă este grija Mării tale, nenumărații nenorociți, fecioarele cele sărmane și ajutoarele ce trebuiesc făcute pe la sfintele locașuri Dumnezeiești sunt grija mea și ocupația fiicei de Domn.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Judecata ta este dreaptă; părintele tău te face stăpână de alegerea ta.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#corul fetelor">
+            <speaker>CORUL FETELOR</speaker>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Să trăiți copii și voi fetelor, vă mulțumesc de râvna și sinceritatea ce o cunosc că aveți către stăpânul și către fiica stăpânului vostru.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <stage>(căzând la picioarele lui Vodă).</stage>
+            <p>Eu sunt robul Mării tale și cu fierbinți lacrimi de rugăciune aștept îndurarea și ajutorul Mării tale.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Scoală-te în sus jupân Comise, știu care este cauza venirii tale aici. Mi-a vorbit Postelnicul pentru fiii tăi amândoi: vom îngriji ca să-i așezăm în oștire.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Eu n-am altă nădejde pe pământ decât în Dumnezeu și în Măria ta.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Fii pe pace, fii odihnit. Vom căpătui copiii tăi.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Ei sunt și ai Mării tale.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(la o parte).</stage>
+            <p>Pe unul din fiii acestuia pare-mi-se că l-am văzut viind în grădina palatului!...</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Tăut să-mi aducă aminte deseară ca să poruncesc Hatmanului.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Sănătate și fericire poftesc la Măria Ta.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Îți mulțumesc, căpitane!</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Măria ta ce poruncește căpeteniei de vânători?</p>
+          </sp>
+          <sp who="#vod">
+            <speaker>VOD</speaker>
+            <p>A! Mi-am adus aminte! Poruncesc ca după ce s-o isprăvi iarmarocul de toamnă, să pui la cale toate pregătirile la Ceahlău pentru vânătoarea de urși. Să dați de știre ocoloșilor să gătească conac pentru 300 oameni</p>
+            <stage>(la o parte).</stage>
+            <p>O să fie o mare sărbătoare! Mă voi sili să îndulec pe fii-mea dacă va voi să primească mâna Hatmanului Cosacilor!</p>
+            <stage>(Vodă se trage cu toată suita sa. – Comisul rămâne. Intră în urmă Stroe).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Iată-mă un părinte cu totul nemângâiat pentru copiii săi!... Ei poate că acum roagă cerul pentru moartea mea, când eu alerg la stăpânitorul nostru pentru înaintarea lor în slujbe ca să le dea rang după vremuri. Astfel viermele cel rozător al blestemului și al păcatului roade înlăuntru puternicului copac până la cea mai de pe urmă mlădiță. Pacea mea, odihna mea atât de trebuincioase vârstei mele, sunt roase de viermele supărărilor ce acești copii neîncetat îmi pricinuiesc cu relele lor apucături, și grețoasele desfrânări ale celui mai mare...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(fără a vedea pe comisul).</stage>
+            <p>Acum este vremea să mă arunc la picioarele fiicei de Domn. Sunt două primăveri trecute de când am pus tot planul meu în lucrare... Inima ei căzută fiind odată, norocul meu va surâde îndestul dorințelor mele... Acesta este veacul nostru de acum ce se aseamănă sistemului ipocritilor, care zic: cu orice preț la scopul lor!... Conștiință, suflet și chiar Dumnezeu este în bani și în favorul celor mari... Cine poate știe dacă eu într-o nu voi ajunge și stăpânitor peste această țară!... Toți aceia câți acum pot să-mi facă rău, atunci vor fi siliți a cădea la picioarele mele... Oh! Rocsandro! Rocsandro! Tu ești îngerul meu pe care inima mea atât de mult îl adorează!... Mă lepăd de toți ceilalți chiar de Dumnezeu și de părintele meu!...</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <stage>(cu un pas ferm i se descoperă).</stage>
+            <p>Părintele tău te-a auzit ingrate!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ah! Iertare taică!</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Iertare ceri tu de la părintele tău de care cu atâta neomenie te lepezi!... Cutezi mai mult a te uita în ochii lui, după ce l-ai dezonorat prin atâtea ticăloșii săvârșite din partea ta!... Iadul cu a sa îndărătnicie hrănește inima ta cea spurcată și înveninată de răutăți... Sunt multe zile de când te-am căutat într-adins, ca să-ți arăt că am aflat nenumărate plângeri ce toți din toate părțile mi-aduc pentru îndrăcita ta ființă!... Tu mai mult fiul meu de-aici înainte! Tu moștenitor al numelui și al avuției mele strânsă cu sudoarea mea! Tu mai mult să îndrăznești a călca în casa părintelui tău de care te lepezi cu atâta nerușinare!... La iaduri! La iaduri, ticăloasă ființă! Gâde omorâtor de oameni, ștrengar de ulițele Iașiului. Iadul te-a născut numai și numai ca să spăimânteze universul cu tine, și sfârșitul tău ticălosule, va îngrozi pe toți făcătorii de rele ca să se curețe pământul de ei... Tu ai corupt și pe fratele tău cel mic și care era atât de înțelept!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Eu, taică?</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Cutezi a mă mai numi astfel! Tu, care mai întâi te-ai lepădat de Dumnezeu și apoi de părintele tău, care s-a aruncat la picioarele lui Vodă ca să vă asigureze vouă viitor, este tot acela pentru toți timpii și pentru toți oamenii! Dacă moda de astăzi ne-a adus corupția în țară, dacă noi am primit de la alte neamuri aceea ce ei au avut mai rău la dânșii sub nume de civilizație, tu trebuie să te arunci în gârlă fiincă s-au aruncat și alții!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Eu am urmat principiului ce am primit din sânul părintesc.</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <p>Taci ticălosule! De la părinții tăi ai învățat jocul cărților care este atât de derăpănător pentru societate, de la mine ai învățat intriga și toate răutățile câte iadul a născut pre pământ ca să doboare neamul omenesc. Minciuna, lingușirea, lepădarea de Dumnezeu, vânzarea de patrie, bețiile, violația către femei, a pizmui avutul și dreptul altuia, a face fiice nenorocite, mume disperate... Te-ai suit cu gândul până la fiica de Domn!... Toate acestea de la mine le-ai învățat?... De la mine care m-am silit să vă dau creștere și a vă face oameni mari! Mângâierea mea, bucuria mea ar fi fost să vă văz patrioți buni, onorați de societate, onorați de lumea întreagă și eu în loc de blesteme să vă dau binecuvântare... Binecuvântarea mea este blestemul care îl merită spurcata ta inimă!... Vai! Bătrânețele mele! Vai! Lacrimile mele!... ce nenorocire!..</p>
+            <stage>(cade ca într-un leșin pe unjâț).</stage>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Destul atâta, destule ai zis!...</p>
+          </sp>
+          <sp who="#comisul">
+            <speaker>COMISUL</speaker>
+            <stage>(iar se ridică în sus).</stage>
+            <p>Dacă destul este atâta, dacă destule ai auzit până acum, de ce dar nu te-ai corectat?... de ce inima ta niciodată n-a fost atinsă, căci ai hulit în contra lui Dumnezeu, și în contra părintelui tău!... Părintele tău dar te blestemă și te dezmoștenește de acum înainte! Merg la Vodă să dau în genunchi a doua oară, ca în loc de a-ți da slujbe de înaintare, să te surghiunească pentru toată viața ta, pe tine și pe toți câți vor mai fi asemenea ție.</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Boierul comisul s-a bolnăvit de câteva zile încoace de când s-a supărat așa de mult pe fiii săi și i-a gonit din casă. Din zi în zi este mai rău cu toate doctoriile și cu toți doctorii câți sunt trimiși de la curte ca să-l scoale.</p>
+            <stage>(Așază mobilele și deschide ferestrele).</stage>
+            <p>Ferestrele și ușile trebuiesc lăsate deschide când este cineva bolnav într-o casă, pentru ca să intre aerul prin odăi... Mult a întârziat astăzi doctorul curții că n-a mai venit până acum!... Mult mă rog lui Dumnezeu ca să se facă boierul sănătos, dar băieților lui le-aș suci gâtul ca la puii de găină. Mă mir de ei cum nu se lipește nimic, nici troahnă, nici ciumă; și numai oamenii cei buni și drepți înaintea lui Dumnezeu, pătimesc mai mult în lumea aceasta.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Doctorul tot n-a mai venit încă?</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Eu hojma am fost nelipsit de aici după porunca lui Stroe. Mă iartă jupâneasă, aș cuteza să te întreb cum îi mai este boierului?</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Dumnezeu știe cum îi mai este. Eu mereu veghez lângă patul său și frigurile nu-l mai lasă.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Boierul s-a bolnăvit din ziua când s-a fost supărat așa de mult.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Du-te de găsește pe vreunul din băieții boierului și spune-i că îi cheamă părintele lor.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Eu sunt gata la poruncile dumitale. Îndată alerg cum se cade să fie un fecior de casă boierească.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Fatala mea ursitoare se pare a fi în veci neîmpăcată în contra mea. Ea mă urmează în tot cursul vieții și eu nenorocita sunt destinată să vărs totdeauna lacrimi... Bunul meu soț! Bunul meu bătrân! Cât suferă, și durerea lui naște pe a mea. Amorul și îngrijirea mea nu se vor dezlipi niciodată de lângă dânsul!... Amorul și devuația unei femei de caracterul către consoartele ei, este parte din jocul Dumnezeiesc care încălzește viața unui bărbat bun!...</p>
+            <stage>(își șterge ochii cu batista). &lt;/didascalie &gt;Viața bătrânului meu soț îmi este scumpă, și de o mie de ori aș da pe a mea ca să se scoale el.  (Face câțiva pași).</stage>
+            <p>Orologiul a sunat și doctorul nu s-a mai văzut până acum.</p>
+            <stage>(Se uită pe fereastră afară).</stage>
+            <p>Nici un servitor nu vine ca să-l trimeț pe câte undeva, unde cere trebuința. Amândoi fiii soțului meu nu s-au văzut de aseară. Are dreptate bătrânul ca să se plângă de dânșii... Este timpul acum ca ei să lipsească de lângă părintele lor?... Mi se pare că auz gemând în apartamentul bolnavului; trebuie să intru...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Sănătate și bucuria cea mai fericită poftesc onorabilei domnei Comisoaiei.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Ah! Domnule doctore îți mulțumesc din tot sufletul. Bine ai venit că te așteptam.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Ce veste? Ce nou? Cum merge Comisul?</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Nu știu ce să zic domnule doctore.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Intrăm să vizităm și să observăm boala Comisului.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Mă mustră cugetul, nu pot s-o fac.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Puțin înțelegi avantajele de stare și de fericirea care surâde cât mai curând pentru tine și pentru mine. Mâine, poimâine bătrânul având încă un fiu născut cu a doua lui soție, pierdem a treia parte din starea noastră. Pe lângă aceasta suntem goniți, blasfemați, desomeniți...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>O! dar răsplătirea Dumnezeiască!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Taci, ești un copil... fă ce-ți zic eu, nu te teme!... am mai făcut multe în viața mea, cunosc eu treburile.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu mă hotărăsc, nu voi!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Multe ți-am descântat și prea puține ai priceput din câte ți-am vorbit! Spune-mi, bine e așa, să suferim noi tirania și nedreptățirea unui tată cumplit, avar pentru fiii săi și răsipitor pentru propriile sale plăceri?... Să suferim lipsa când ne trebuiesc multe. Tu vezi, sunt vândut în datorii, persoana mea, viața, numele, reputația, toate-mi sunt amerințate!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Vom căuta ca să muncim!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ea oricând tot a noastră va fi. De ce dar să săvârșim crima?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Copil ce ești, lipsit de dreapta judecată și n-ai deloc esperiență! Întâiul pas e anevoie de făcut, în urmă te deprinzi. Eu am săvârșit zece omoruri și nici unul nu s-a descoperit.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Întreprinde tu.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sorțiul n-a căzut pentru tine?... și afară de aceasta, de ieri s-a vestit pornirea lui Vodă cu toată suita sa la vânătoarea de la Ceahlău. Spune-mi poate fi altă ocazie mai favorabilă pentru a mă recomanda? Căpetenia peste vânătorii domnești îmi este întocmai ca un frate; el însuși m-a subscris în lista celor câți vor face escorta domnească. Răspunde-mi, pot eu întârzia aicea mai mult?... Pot eu rămânea să nu mă găsesc la postul meu când ar trebui să fiu?... Tu nu ai nici o treabă alta... Pe când...</p>
+            <stage>(uitându-se în toate părțile să nu fie auziți de cineva).</stage>
+            <p>Auzi tu... În mijlocul torentului vijelios al frigurilor, nu dăm nici un prepus. Fii îndrăzneț, mă auzi ce-ți zic eu... Pasul să-ți fie ferm căci bărbatul care se dă înapoi din fruntea pericolului este un laș... Te pierzi pe tine, mă pierzi și pe mine dacă nu vei avea îndestulă fermitate și coraj...</p>
+            <stage>(se aude de departe cornul vânătorilor domnești).</stage>
+            <p>Auzi tu, cornul vânătorilor mă chiamă...</p>
+            <stage>(îl ia de mână; Costin este dus pe gânduri).</stage>
+            <p>Când m-oi întoarce tot să fie isprăvit!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Fatalitatea și sgrințul iadurilor îmi turbură creierii!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Na, ține.</p>
+            <stage>(îi dă o sticluță mică).</stage>
+            <p>Aceasta este otrava pentru care mi-am chezășuit capul că voi păzi secret de unde o am dobândit.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Pentru blasfemul și păcatele lui Cain!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ține-ți jurământul!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Mai bine ai fi făcut de îndreptai arma ce o ții în mână în pieptul și în capul meu!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Vom avea stare și vom fi răsbunați în contra tiranului!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Moarte și trăsnetul cerurilor va cădea pe capul parucizilor.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cel ce umblă cu crucea se usucă ca dânsa. Ai auzit tu?... la noapte pe când și apele dorm duse, intră la bolnav, apropie sticluța ce ți-am dat-o de obrajii bătrânului, deodată cu transpirația porilor, după care urmează o sudoare rece, se și împarte veninul prin toate nervele și fibrele corpului său, până în rărunchi și creieri... de atunci încolo să nu ne gândim decât la strălucitorul viitor ce ne așteaptă...</p>
+            <stage>(Cornul iar s-aude).</stage>
+            <p>Rămas bun fratele meu, acuma te las întru ale tale!... (face câțiva pași spre ușă și iar se întoarce: lovește pe umerii lui Costin care se deșteaptă ca dintr-un vis și este cu căutătura turbată asupra lui Stroe). Vezi de nu-ți călca jurământul! Întreprinde cât mai curând căci sorțiul a căzut în partea ta... Fă loc crimei în accidentele frigurilor și nu te teme că dăm vreun prepus!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Nu este nimic: îți răspunz pe capul meu că boala merge în bine.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Eu sunt rău speriată.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>N-ai pentru ce.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Aștept tot ajutorul de la dumneata.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Legile doctoricești ne leagă prin adânc jurământ ca să căutăm bine pe bolnavi...</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Dumneata ai un suflet compătimitor.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Deocamdată remediuri nu-i trebuiesc decât pază; paza și cumpătarea sunt remediurile cele mai sigure.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Eu neîncetat priveghez lângă dânsul. Somnul nu mă poate lua; oboseala nu se apropie de mine, sfânta datorie de soață, amorul și fidelitatea am consfințit în tot timpul aceluia căruia am jurat la altar dinaintea lui Dumnezeu. Lacrimile ce adesea le vărs, durerea ce se naște înlăuntru inimii mele, este numai pentru dânsul; când îl văz că suferă, când văz că este trist, când are vreo mâhnire, eu sacrifiez tot pentru consoartele meu!...</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Nu este altă virtute mai mare pre pământ decât virtutea cea desăvârșită a unei femei simțitoare.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Martur îmi este cerul și Dumnezeu că eu n-am abuzat niciodată, n-am otrăvit niciodată odihna generosului meu soț, și pe lângă toate, el este așa de bun către mine...</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Comisul a fost totdeauna om onest.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>O consoartă bună este recunoscătoare.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Domnul să vă fie întru bine! Adio, scumpa mea doamnă, adio, rămâi sănătoasă, și fii liniștită, și să vă găsesc întru bine. Adio!...</p>
+            <stage>(es).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Fatalitate, fatalitate și furii ale iadului, veniți în ajutorul meu astăzi căci nu cutez a mai invoca numele Domnului... Afurisitul sorțiu ce a căzut pentru mine și jurământul ce l-am făcut nu pot să le calc pentru că Satana m-a legat cu totul. Frate-meu s-a depărtat și eu am rămas mâna răului și a nelegiuirei... Nu pot mai mult să fac nici un pas înapoi! Un ce infernal parcă mă târaște tot înainte, și noaptea grăbește cu pași repezi pentru a acoperi crima... Încă un pas să fac, și s-a isprăvit totul!... Numai am părinte de azi înainte; vai! Ce blestem și nenorocire!... Mâna care lovește este a fiului său!...</p>
+            <stage>(Dă să intre în odaia unde este bolnavul; se trage înapoi parcă n-ar cuteza). Noaptea nu va întârzia și eu pășesc înlăuntrul locașului furiilor!...</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Oare câte îmi spunea cugetul adevărate să fie?... ba nu, nu! Oricum, fiul său cel mai mic este acela pe care l-a iubit mai mult boierul și el totdeauna s-a arătat supus și ascultător la poruncile tatălui său. O! nu, el se ruga lui Dumnezeu pentru însănătoșarea părintelui său!... Stroe este un om primejdios, iar Costin judecă adânc... Doctorul însă n-a venit acum, căci unui bolnav văzând numai p-acești domni i se face rău...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Aleargă curând până la curte, vezi de vei putea să afli ceva despre Stroe fiul boierului. Caută de vei putea să-l găsești.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>El nu s-a mai întors?</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Numai frate-său a venit.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Nu cumva boierului îi este rău?</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>După o zăcere de patru zile ferbințeala nu l-a lăsat deloc, și el își cere copiii săi-i vază.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Mă duc ca să-l găsesc.</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Spune-i că părintele său îl chiamă ca să-i dea binecuvântarea.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Alerg cât mai curând.</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <p>Am să plâng în de ajuns și lacrimile îmi mai ușurează puțin durerea. Singura mea mângâiere este viața și sănătatea soțului meu. Speranța-mi însă apune spre înmormântare dacă ferbințeala cea mult arzătoare nu-l va slăbi cât mai îndată. Când am ieșit adineaori l-am lăsat cu fiul său cel mai mic, și el s-a dus în aiurare, striga din patul său: să vie copiii mei! Copiii mei aduceți-mi!... și cel mai mare Stroe, n-a mai dat de mult p-acasă. Și unde o fi el?... Nu vine mai curând servul trimis ca să-l caute: să vedem ce veste aduce.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Peste... peste... puțin!... încă ceva și s-a isprăvit!... S-a isprăvit tot... și frate-meu este departe d-aici...</p>
+            <stage>(Tunetul din nou s-aude).</stage>
+            <p>Ce s-aude, parcă răzbune de departe ca glasul din bolta cerească!... Cerul parcă este mâniat de multele crime pre pământ... Vai! Ce am făcut!... ce am făcut!... unde să alerg... unde... Ah! Nici în iaduri nu mai găsesc loc... Scăpare nu am pre pământ!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cerul se va însenina îndată pentru noi iubite frățitoare!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Cerul!... mergi... lasă-mă, fugi dinaintea mea, căci tu m-ai orbit!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(uitându-se în toate părțile ca să nu fie auziți de cineva).</stage>
+            <p>Tăcere căci capul ne este în spânzurătoare!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Tot s-a isprăvit: mustră-te acum cugetul tău ca și pe mine!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Pe mine nu mă mustră deloc.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Te va mustra într-o zi...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Fapta a fost meritată.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Tu o zici.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Starea părintească o avem în mâini d-aici înainte!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ce va zice dreptatea?...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Nimeni nu va cunoaște secretul... Tăcere acum!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Ai venit!... Cât am alergat după dumneata și nu te găseam.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ieși afară că avem treabă, vei intra mai pe urmă.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <stage>(la o parte).</stage>
+            <p>Iar se clocește vreo drăcie!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Așa, lasă-ne... du-te.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <stage>(la o parte).</stage>
+            <p>O să mă furișez p-aici ca să ascult ce vorbesc ei.</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Chiar de mâine punem la cale împărățirea stări părintești!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Voia îți e împlinită?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sunt mulțumit!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>N-avem nimic a ne teme de dreptate... de niscaiva cercetări făcute de către doctor...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Le închidem gura cu aur. Aurul reparează totul. Eu mă duc însă să nu întârziez căci, din oarecare ordine, avangarda suitei domnești a rămas să plece mâine seară; și eu m-am folosit de această amânare ca să viu să te încorajez pe tine.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Blestem acest coragiu!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Te mlădii însă ca lăstarele unui arbure de vânturi.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Vrei să și râzi de mine?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ai prea multă conștiință?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Tu ai prea multă nepăsare!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Spune-mi dacă îți mai palpită sufletul.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Mi-a palpitat înainte, acum este prea târziu!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>De aici înainte vom trăi bine.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Dacă este așa, amândoi și în iaduri!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Afurisită noapte a fost aceasta pentru mine, căci n-am putut să închiz ochii nici un pic și visurile m-a muncitără tot mereu... Ce s-o fi făcut oare cu acești fii lepădați?... nu știu nimic încă! Amândoi toată noaptea i-am văzut priveghind ca niște tâlhari de codru, și eu i-am pândit cât colea. Am vrut să înțeleg bine tot ce vorbeau, dar a fost peste putință, căci în cele din urmă, abia șopteau unul altuia... Amândoi nu se prea învoiau, parcă nu știu ce aveau să împărățească...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>No, acasă sunt gospodari?</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Dar domnule.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Doamna Marta ș-a isprăvit toaleta? Comisul s-a sculat?</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Poftim, intră.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Ce este?... ce s-a întâmplat!...</p>
+          </sp>
+          <sp who="#marta">
+            <speaker>MARTA</speaker>
+            <stage>(înecată în lacrime).</stage>
+            <p>Bărbatu-meu... vai! Trage să moară!...</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Dar cum se poate!...</p>
+            <stage>(Marta cade ca într-un leșin pe brațul doctorului).</stage>
+            <p>Nu e nimic... Aibi curagiu: să vedem, să intrăm înlăuntru...</p>
+            <stage>(Duce pe Marta încet până în apartamentul bolnavului).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Costin a adormit acum despre ziua în sala cea mare fără ca să se dezbrace. Și această sticluță am scos-o încetinel dintr-un pozonar al său, ce era puțin căscat. O s-o arăt doctorului să vedem ce fermece o fi într-însa!</p>
+            <stage>(ese după doctor. Costin și Stroe intră dintr-altă parte. Stroe, ține o pungă într-o mână și cu cealaltă pe Costin care este cu totul înfuriat).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 18</note>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Lasă-mă, lasă-mă că voi să mă ucig!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Vino-ți în simțiri îți zic!... uite, acest aur este pentru doctor!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(tremurând)</stage>
+            <p>Ce blestem! Ce grozăvie!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Rușine pentru un bărbat de-a nu avea inimă!... oprește-te îți zic!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(în delir)</stage>
+            <p>Nu, nu, el nu a murit... trăiește încă... Alerg ca să-i cer iertare!... dar mă perz prin desele cotituri și mulțimea oamenilor... Ce vor oamenii aceștia cu mine?... Vai! Părintele meu!... Iertare, iertare dă fiului tău cel orbit în nelegiuri!...</p>
+            <stage>(Cortina din fund se ridică. Marta în haine negre este îngenunchiată dinaintea unui iconostas. În fund se vede Comisul murind ca printr-un transparante. Costin și Stroe es cu genunche și apoi se văd îngenunchiați lângă patul murindului. Doctorul se oprește în avanscenă cu sticluța în mână făcându-i observații, și după fizionomia lui cea schimbată se esprimă totul. Geanta ceva mai îndărăt arată cu degetul către fiii îngenunchiați; muzica ține acord patetic).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 19</note>
+        <div type="scene" n="19">
+          <head>SCENA 19</head>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Dumnezeule el a fost otrăvit!...</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL IV</note>
+      <div type="act" n="IV">
+        <head>ACTUL IV</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ia spune-mi pe unde să apuc ca să ies la Fântâna Murgului sub Ceahlău.</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Mult te-ai depărtat dumneata din cale.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ce, nu pot ieși țiind mereu drumul care l-am apucat?</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Nu dragă boerule, căci eu număr pe degete toate drumurile și toate potecele câte se fac din Săcuime spre Bacău, și de la Iași spre Galați și Munteni.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>De vânătoarea cea mare a lui Vodă auzit-ai oare?</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Cum să n-auz eu de drăguțul Vodă al nostru! Numai, de, nu știu de ce o fi scumpit ocaua de pită, căci de la tatăl ceresc iestimp a fost an roditor.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <stage>(la o parte).</stage>
+            <p>Să nu mă descoper acestuia ca să aflu ideile poporului...</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Eu aicea îmi fac veacul în munții aceștia și nu aș da oile mele pentru toată curtea lui Vodă, căci eu am destul ca să trăiesc.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Cum te chiamă pe tine om bun?</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Tată-meu a crescut în munții Abrudului de unde es văile de aur pe pământul Românesc în Ardeal. Nașul meu când m-a ținut în brațe mi-a pus numele său Pavel și mumă-mea când ne-am tras cu toții în Moldova ca să rămânem aici, m-a numit Moțu după numele ce-l port vitejii romani unde m-am născut eu.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Bine, frate Moțule, ce mai știi, ce s-aude p-aici pe la voi: ce se vorbește despre străpânitorul nostru.</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Iaca, lumea este ca o holdă de grâu: unele spice le vezi aurii frumoase, și altele uscate și pernicioase. Unii, care știu să se roage mai bine, sunt bogați, au nume și fericire, alții se usuc în ocolul lipsei și al neaverii. Unii nasc, alții mor, unii se mândresc cu câte ceva al pământului, alții se mulțumesc cu aceea ce le aduce norocul. Această nestatornicie a soartei pre pământ domnește întru toate. Pe cer stelele uneori strălucesc cu mărire, alteori se sting și cad în nemărginitul haos. Copacul cel puternic care în anul trecut umbrea pământul cu creștetul său cel mândru, astăzi zace la pământ retezat de tăișul securei. Unii râd, alții plâng; unii laudă, alții blesteamă... Și astfel lumea de când sunt munții aceștia mari a trăit și este nemulțumită. Eu mulțumesc sântului, mă împac cu oile mele.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <stage>(la o parte)</stage>
+            <p>Nimic n-am aflat din aceea ce doream!... Ai dreptate, omule bun, orice faptă își găsește răsplătirea aici pre pământ.</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Vorbind adevărul, apoi și spânzurătoarea este sântă pentru acei ce fac rău neamului omenesc!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Omule, ia fă bine de-mi arată poteca care să mă scoață în drumul ce voi să-l apuc.</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Mai rămâi de te odihnește puțin până mă repez să mulg oile de namezi și după ce vom ospăta cu toții, te duc eu mai d-a dreptul peste creasta Ceahlăului pe la izvoare.</p>
+            <stage>(Moțu ese. Cornul de vânătoare s-aude răsunând prin munți, detună un pocnet de armă. Lupu intră).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ce auz eu?.. Să ascult!... Pare-mi-se c-am auzit nu departe de acest munte cornul vânătorilor noștri! Arcașii suitei domnești sunt în apropiere de aici?...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Ha! Iată oaia cea rătăcită de păstorul ei!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ce norocită întâmplare!</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Ți-a apucat altul locul de cavaler orânduit din partea lui Vodă ca să însoțești pe jupânesele curții!...</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Fiul Comisului mi-a jucat festa.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>El a ajuns în mare favor pe lângă curtea domnească.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Care împrejurare l-a rădicat așa de sus?</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Lingușirea, întâiul merit al său, ș-al fiecăruia curtezan laș.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Am urât totdeauna pe lingușitori.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Este întâiul mijloc de înaintare pe lângă cei mari...</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Cu ce cauză s-a vestit fiul răposatului Marele Comis?...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Careta domnească fugea în puterea armăsarilor cu domnița și cu jupânesele curții. Cocișul care se lupta cu putere a scăpat hățurile furioșilor Bistrițeni, ar fi mai puțin spăimântătoare pe lângă țipetele și spaima femeilor; și vânătorii alergau din toate părțile ca să oprească armăsarii înfuriați. Iată că din întâmplare ei se opriră de sine împiedicându-se roatele caretei de trunchiul unui arbore resturnat la pământ. Stroe găsindu-se în apropiere cu bătăiașii de la poteci, s-a pus înaintea cailor.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>E! și aceasta va să zică vrednicie?</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Vestea s-a dus ca un fulger până la auzul lui Vodă, și dintr-acel minut poziția lui Stroe fiul reposatului Comisul este mare.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Tivga nu duce până în sfârșit la apă... Minciuna se dă odată pe față.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Celor mari anevoie le ese din cap aceea ce li se întipărește odată. Își fac odată idee bună despre tine, te fac norocit; își fac ei odată idee urâtă, te urăsc până în sfârșit.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Și unde ne găsim acum noi?</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Vodă voiește aicea sub coastele acestor dealuri mărețe. S-a hotărât ca să tăbărască aici de namezi.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Auzi că s-apropie pompoasa vânătoare și toată curtea domnească!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Alerg locuitorii munților ca să întâmpine pe stăpânitorul Moldovenilor!... Am întâlnit pe Ocolaș cu o suită de oameni și femei; am lăsat oile păscând ca să viu și eu să văz atâta mândrețe ce n-am mai văzut de când sunt pe lume!...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <stage>(întorcându-se despre fundul teatrului).</stage>
+            <p>Alergați toți cu mănunchiuri de flori în mâini și îngenunchiați dinaintea celui mare.</p>
+          </sp>
+          <sp who="#corul de țărani">
+            <speaker>CORUL DE ȚĂRANI</speaker>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Ce veste căpitane.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Să trăiești Măria ta, eu viu la porunci.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Sunt prea mulțumit de buna orânduială ce ai păstrat în rândul acesta.</p>
+            <stage>(Lupu se pleacă cu reverență) &lt;/didascalie &gt;și spre semn de stima ce am pentru tine, drept atâtea slujbe ce ai săvârșit în curgere de mai mulți ani, primește postul de Vornic al curții, și postul ce l-ai avut până acuma să se încredințeze bravului Stroe fiul Comisului.  (Lupu se închină și se trage. Vodă se adresează către fiica sa).</stage>
+            <p>Rău mi-a părut când am auzit despre moartea Comisului curții mele, și pentru aceasta sunt hotărât să iau pe fiii săi în curte, spre semn de răsplătirea slujbelor ce tata lor a săvărșit.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Unul dintre cei doi frați s-a purtat cu prea mult curaj când s-a aruncat înaintea cailor din marea lor fugă. Numele lui mi-au spus că este Stroe.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Fiindcă Stroe s-a pus ca să scape fiica de Domn din pericol, este în dreptul tău, fiica mea, să-i dai inelul acesta spre semn de onoarea meritului său...</p>
+            <stage>(Vodă scoate inelul din deget și-l dă Rocsandrei).</stage>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>El este unul dintre sutașii cei bravi!</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Merită toate laudele mele.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>De față cu toate fecioarele suitei mele îi voi face acest dar.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Dar spune-mi copila mea, nu te-ai hotărât încă până acum în pricina căsătorii tale cu Hatmanul Cosacilor care te-a cerut de la mine?</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Dumnezeu, părintele meu, poruncește soartei noastre pre pământ. Acela care va fi scris, acela va fi soțul meu.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Se vede că atâți fii de boer de întâiul clas ți-a plăcut pre unul...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Locul nașterii, atâtea obiecte în mijlocul cărora am trăit și persoane ale cărora datini și limbă nu ne sunt streine, ne leagă sufletele mai mult ca să nu ne înstrăinăm din mijlocul neamului nostru.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Voisc ca să sărbătoresc nunta ta cu mare sunet și pompă. Vor fi chemați mai mulți stăpânitori din țări învecinate ca să însoțească țeremonia nunții tale.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Înalta voință a Mării tale va fi ascultată de mine.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Apropie-te june plin de bravură. Am cunoscut îndestul vredniciile virtosului tău părinte, a căruia moarte m-a costat prea mult. Primește onoarele ce se dau unui credincios ostaș când își pune viața ca în pericol pentru familia stăpânitorului său... Viața fiicei mele îți sunt dator.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Măria ta ai multă generozitate către supusul mării tale! Fiu al patriei sunt dator stăpânitorului meu până și cu viața! Gonit de multele nenorociri, perdui pe cel mai scump al meu părinte. De durere și disperație, negăsindu-mi nicăieri pacea am alergat în cariera armelor. Soarta m-a scos înainte când furioșii armăsari, ne mai fiind înfrânați de mâna celui care îi conducea, luaseră câmpii și p-aci era să facă pradă perzării pe fiica de Prinț. Eu m-am aruncat asupra lor ca ori să isbutesc ori să per și eu.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Cunosc june toate acestea. De azi înainte cariera ta este făcută. Un strălucit viitor va surâde înaintea destinului tău. Ne întoarcem acum la Iași cu toții!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Acesta este darul ce inima mea drept recunoștință îl face viteazului Stroe.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Norocul se pare a se ridica pentru mine din zi în zi... Parcă iadul încoronează virtuțile și atâtea crime cu care s-a pecetluit fruntea lui Cain!... Norocul surâde cu desăvârșire în favorul meu!... Avuția părintelui meu se revarsă spre împlinirea dorințelor și plăcerilor mele, și fiica de Prinț.. hm!... nu mă mai gândesc de acum înainte decât la fericirea și plăcerea d-a fi cavalerul luptător în onoare ei, adorator al sexului ei cel frumos!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Măria sa, drept merite, îți trimite în dar această spadă.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Într-o zi poate voi ajunge și stăpânitor al Moldovenilor. Toți aceia de care aș avea să mă tem astăzi se vor târî dinaintea mea!</p>
+            <stage>(către Tăut)</stage>
+            <p>Primesc și sărut cu sfințenie domnescul dar!...</p>
+          </sp>
+          <sp who="#glasuri de din afară">
+            <speaker>GLASURI DE DIN AFARĂ</speaker>
+            <p>Să trăiască Vasilie Vodă!... Să trăiască Vasilie Vodă!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(vine din avanscenă)</stage>
+            <p>Nu mă îmbăt d-aici înainte decât de un amor mai presus de toate dorințele mele... Amorul, patima cea mai înfocată voi jura la picioarele Rocsandri și ea mă va crede căci toate femeile sunt slabe și cad lesne! Îmi voi juca și d-aici înainte rolul care se începe din copilăria mea!... Aurul și favoarea pe lângă cei mari va deschide cu desăvârșire pentru mine porțile paradisului!...</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Sunt aproape șase săptămâni de când a murit boerul. Câte lucruri nu s-a prefăcut de atunci până acuma! Nu știu Dumnezeu cum mai poate suferi atâtea câte se fac pre pământ! Este învederat și cunoscut de o lume întreagă că el a fost otrăvit de fiii lui cei ingrați pentru ca să pue mai curând mâna pe starea sa!... și în loc ca să se dea pe față această a lor nelegiuire, pentru care trebuiau osândiți, ei din zi în zi dobândesc favor mare la curtea lui Vodă, și gurele tuturor rămân închise de frică!... Eu însă nu voi să tac!... O să țip o să alerg! O să sbier!.. o să cer dreptatea lui Dumnezeu și a oamenilor!... Ieșiți morții din morminte și ascultați, și cei vii deschideți-vă gurele pentru ca să mărturisiți adevărul!...</p>
+            <stage>(se plimbă de colo până colo. Costin se arată la ușa din fund).</stage>
+            <p>Veniți de răsbunați sângele cel vinovat al stăpânului meu!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(la o parte)</stage>
+            <p>Acesta ne va perde!...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <stage>(văzând pe Costin)</stage>
+            <p>Ah! Ce-am făcut! Am dat în cursă... m-au auzit stăpânii mei!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(la o parte)</stage>
+            <p>Un sclav cutează a ațâța teama în inima stăpânilor săi!...</p>
+            <stage>(către Geanta)</stage>
+            <p>Ce vorbeai tu acuma când erai singur?</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <stage>(învălmășit)</stage>
+            <p>Am zis... vorbeam singur... că am visat în astă noapte pe răposatul boierul, și parcă straiul său cel alb ca neaua de pe munți era mânjit de un sânge nevinovat...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(ca mișcat în sine)</stage>
+            <p>Sângele tată-meu!... ce ai mai zis?...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Așa, sângele stăpânului meu am văzut în vis... și deșteptându-mă am zis în mine: nimeni n-a împărțit daruri pe la biserici și nu s-a făcut încă soroacele pomenirei sale, căci până acum nimeni nu s-a gândit...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Muma noastră, a doua soție a părintelui nostru, s-a tras la mănăstirea Agapia spre a se ruga în toată viața ei pentru sufletul răposatului.</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Ah! Stăpâne, d-ai ști cât am plâns eu la moartea boerului!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(la o parte)</stage>
+            <p>Te vom face cât mai curând va să ți usuce ochii!...</p>
+            <stage>(către sclav)</stage>
+            <p>Mergi la grajd unde sunt armăsarii frate-meu, înșelează pe cel roib favoritul meu cursier, căci am să ies călare</p>
+            <stage>(Geanta ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ce ne vom face cu acest mizerabil sclav, care, nu mă îndoiesc, că într-o zi va descoperi secretul morții tată-meu!... Eu de mult l-aș fi uitat, dacă afurisitul acesta nu ne-ar fi stat totdeauna înaintea ochilor noștri ca o icoană vie a trecutului și a crimei săvârșită. Vom căuta negreșit să-l perdem căci de el avem totdeauna a ne teme!... pe cât omul acesta va fi în viață, viitorul nostru va fi ocolit de trădare, și pacea noastră va fi întreruptă de bătăile inimii. Alerg ca să dau de știre fratelui meu cel mare, despre răul care ne amenință pe amândoi... Și cu cât poziția lui Stroe este strălucită, cu atât de grea va fi căderea lui, și sfârșitul nostru numai Dumnezeu îl poate ști... Iadul negreșit ne va înghiți, căci cerul nu ne poate apăra!...</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Fecioarelor, ziceți să intre cimpoerul secerișului de câmp!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Poruncește, Măria ta, ca să cânte o doină și amorul câmpean.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Să înceapă!...</p>
+          </sp>
+          <sp who="#cântărețul">
+            <speaker>CÂNTĂREȚUL</speaker>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Măria ta asculți totdeauna cu mulțumire istoria vieții cea plină de nevinovăție a poporului câmpean și cum pasiunea cea mai înfocată însuflețește inimile junelor ființe pe care Măria Voastră le stăpâniți.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Cel puțin inimile acestora nu sunt corupte și fidelitatea sfințește unirea lor.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Crezi Măria ta că omul de la curte nu simte îndestul pentru ca să iubească pe o damă de condiție înaltă. Crezi că inima unui june care ș-a pus de mai multe ori viața în pericol nu știe a face jertfe și a păzi cu sfințenie legile amorului!</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Cel puțin la dânșii un jurământ făcut din partea amantului, izvoraște din curata sa inimă și nenorocirea nu află adesea ori loc în amorul lor.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Măria ta nu cunoști încă bine aplecările inimelor simțitoare. Cerul a înzestrat cu mai mult foc pe unii oameni decât pe alții. Omul plebeu de rând, mărginit într-o viață nesimțitoare, nu dorește mai departe decât patimile cele de jos. Omul de ambiție, omul a căruia scrisă este gloria și mărirea a privit soarele și cerul cu ochi ațintați, a adorat frumusețea în toată plinitatea ei. Cavalerul este îndrăzneț, omul de jos este nevoiaș, fricos și brutal.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Multă îndrăzneală ajunge impertinență.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(cade la picioarele Rocsandri)</stage>
+            <p>Înaltă stăpână iată-mă la picioarele tale ca să-ți cer iertare și cutez a-mi desvălui inima dinaintea suveranei mele. Sunt vinovat pentru că m-am suit cu dorința până la cer și până la soare adorând însuși cerul în persoana ta!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Rădică-te june, rădică-te îți zic.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Caz din nou la picioarele Mării tale, capul puindu-mi-l la trunchere, cutez a descoperi aceea ce inima mea simte pentru înalta mea suverană. Pacea mea de mult este pierdută! Am străbătut toate unghiurile palatului și am vegheat nopți întregi prin grădinile lui ca să te văz de dimineață în răsărirea soarelui când veneai cu fecioarele ca să culegeți florile dimineții erai întocmai ca regina stelelor încongiurată de nimfele sale! V-am văzut atunci și am oftat; am vrut să mă arunc la picioarele tale dar m-am temut să nu-ți compromit onoarea!... Ți-am spus totul, și iată-mă subjugat, nenorocit; de unde nu mă scol până nu vei hotărî soarta mea!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Femeea știe a fermeca, bărbatul are darul de a amăgi. Scoală-te în sus și gândește-te că ești dinaintea acelei căreia-i ești dator respect.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Adorația cea mai înfocată și respectul cel mai adânc depui la picioarele tale.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(la o parte)</stage>
+            <p>El mă iubește!... Scoală-te îți zic și pentru a treia oară; nu este nobil pentru un cavaler de curte să se târască astfel!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>O! Sufer tot pentru tine, tot pentru înalta mea suverană! Și ce n-aș fi dat soartei când m-ar fi întrebat cu ce jertfe aș ști să tămâiez altarul dumnezeiescului tău amor! Iată-mă în genunchi dinaintea ta, cu lacrimi în ochii-mi și cu durerea în sfâșiata mea inimă. O vorbă numai, o căutătură este îndestul ca să mă faci fericit! Ești un înger, ești Dumnezeul meu, ești suverana mea; poruncește-mi, sunt supus, dă-mi voie să-ți spui că te iubesc!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(cu oarecare mișcare)</stage>
+            <p>Uite, patria ca mâine va chema pe fiii săi în fruntea armiei sale, mergi în câmpul de bătaie, și de acolo întoarce-te încărcat de triumfuri, fă-te vrednic de gloria ce o dorești ș-atunci, fiica de Prinț dimpreună cu damele curții va ieși să încoroneze cu fericire pe cavalerul ei erou! Până atunci însă să nu-mi mai vorbești de amorul ce simți.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sunt un nenorocit pre pământ! Sunt omul cel mai de plâns cunoscându-mi cineva durerile sufletului. Sunt aproape de acel înger, acea ființă în care mă închin ca în Dumnezeu!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>O fiică de stăpânitor, un sânge nobil de părinții săi, caută fapte și virtuți mari ca să se poată uni. Nu-mi vorbi de patimi de rând căci nu sunt învățată să le auz; și pentru ca să fii demn de mine, amorul meu, gândește-te bine ce faci, gândește-te unde te sui!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>E vorba de fapte, e vorba de virtute, timpul le desvoltează toate... eu întreprinz și fac tot pentru suverana mea!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ea își râde de durerea mea! Bine dar, aurul d-aici înainte va restatornici toate trebile mele: aur în dreapta și-n stânga voi da pentru ca să ajung la ținta mea... voi cumpăra o lume întreagă! Toți vor fi ai mei supuși! Toți își vor aduce aminte de mine și voi fi mai folosit, decât cu inima și cu simțirea căzând cu fața la pământ dinaintea îngerului meu ingrat.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#aprodu">
+            <speaker>APRODU</speaker>
+            <p>O femee jună întreabă de dumneata afară.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Să intre, cine e?</p>
+            <stage>(aprodu ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Abia am străbătut până aici ca să-l găsesc, să-l văz.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Elena la mine, în palatul domnesc!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(la o parte)</stage>
+            <p>El m-a uitat și m-a părăsit cu totul. Nu-și aduce aminte cum se ruga altă dată și plângea la picioarele mele!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tu, Eleno!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Eu sunt negreșit, aceea care te asculta totdeauna în nenorocirile tale; atunci când erai sărac, când nu aveai nimic în mâna ta, când jurai că nu mă vei uita, când mă numeai și pe mine îngerul tău, când plângeai, când te rugai și în urmă m-ai părăsit, m-ai uitat, nu vrei să-ți mai aduci aminte de mine, nu mă mai iubești, m-ai făcut nenorocită! Mi-ai rușinat viitorul! M-ai dus la disperație!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Eleno, moderează-te, ce sunt toate acestea!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Am plâns și am suferit mult cunoscând mai târziu greșeala și rătăcirea mea! Am vrut ca să găsesc să-ți vorbesc... știu că poziția ta este schimbată din ceea ce era înainte. Acum ești încongiurat de dame mari, ești la curte, ești fericit! Dar conștiința nu te mustră pentru mine? De aceea am venit ca să te întreb.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce stai să te gândești Eleno!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Mâine voi fi mumă de un copil bastard, lipsit de numele părintelui său... ce se va face acest copil?... și tu pentru nenorocirile mele vei da seama înaintea lui Dumnezeu!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Of! Eleno, pentru numele lui Dumnezeu, mă ascultă!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Eu te-am iubit și am ascultat rugăciunile tale! Într-o zi dar, când nenorociri neașteptate vor veni la capul tău, adu-ți aminte de mine; poate că-ți voi fi de oarecare folos!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Această femee îmi turbură mintea!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Atât am avut ca să-ți vorbesc și ceea ce-ți spui sunt prea adevărate. Peste puțin vei da socoteală despre câte ai făcut. Atunci gândește-te la mine!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(cu oarecare turburare)</stage>
+            <p>Eleno ești amăgită că eu nu te iubesc. Cine ți-a băgat aceste visuri în capul tău că eu te-am părăsit?... nu, niciodată, nu. Eu te iubesc, eu sunt tot același ca mai-nainte. Însă, tu vezi, treburi de stat, treburi de la curte, lumea din toate părțile mă întinde: nu știu pe cine să ascult mai întâi, unde să alerg mai degrabă... sunt ocupat prea mult, și de aceea n-am mai putut să viu să te văz...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nenorocite, capul tău este în pieire!... După curgere de o lună și jumătate de la moartea părintelui tău, se vorbește în lume că tu ai fost ucigătorul lui ca să-i iei starea!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu-ți vorbesc mai mult nimica. Tu m-ai amăgit subt mască de iubire, și am văzut că din ce în ce m-ai urât de tot; dar eu caut ca să-ți fac bine. Toți au ochii asupra ta. Tu te bucuri de oarecare aparință de fericire, ești totdeauna la picioarele domniței Rocsandri, dar cu toate acestea lumea așteaptă cea mai mică ocazie de învinovățire în care vei cădea tu ș-atunci vor năvăli toți asupra ta ca apele de pe munți când se unesc într-un torent ca să înece câmpiile.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Eleno, toate câte mi le spui sunt spăimântătoare!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ține minte ceea ce ți-am spus și când vei fi în nenorociri gândește-te la mine!...</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Pentru Dumnezeu, Eleno, spune-mi tot... mai rămâi, oprește-te... Ea s-a dus... s-a dus... Această copilă!... părintele meu!... mort de însuși fiii săi!... Starea sa... eu... pierdut!... Nu cumva soarta vrea să-și râdă de mine?... Nu cumva ea mi-a zâmbit ca să mă facă cu desăvârșire nenorocit?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Suntem împreună!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Fratele meu!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Iată-mă.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce veste, ce nou?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Fatalitate!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce s-a întâmplat?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Cerul îmi turbură lumina și seninul pentru noi, mă auzi?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ce însemnează acestea toate!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Te voi face să înțelegi.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Spune mai degrabă.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Adu-ți aminte de acea noapte turburată de atâtea spăimântătoare vijelii, adu-ți aminte când părintele nostru zăcea în agonia nopții sale și tu mi-ai dat o sticluță în care era otravă... De a doua zi, de atunci, n-am mai avut în stăpânirea mea acea sticluță! Sclavul nostru a prins secretul și doctorul după operațiile făcute, manifestează omorul părintelui nostru!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(turburat peste măsură).</stage>
+            <p>Moartea părintelui nostru!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Dreptatea ne va cere socoteală despre cele trecute.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sclavul zici!... Doctorul!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>El însuși!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Doctorului îi vom da aur pentru ca să tacă.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Pe sclav?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Secretul se poate ține numai între noi, sclavul trebuie să piară...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Îl lovesc eu!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Nu aici în palat!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu, nici pe ulițele Iașiului...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Chiar într-această noapte, pe întunerecul cel mai greu, ajutorați abia de lumina stelelor, vom zice sclavului să ne urmeze în valea Bahluiului că avem să dezgropăm o comoară. Acolo îl vom pune să sape cu un mic târnăcop. Tu trage cu un pistol în capul lui, eu înfig sabia în inimă. Îl lăsăm mort pe loc, și noi ne întoarcem fără de nicio grijă în paturile noastre de odihnă.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Bine, mă unesc!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Scăpând și de acest afurisit sclav, suntem în siguranță... N-avem de cine să ne mai temem.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(dă mâna frate-său)</stage>
+            <p>Bine... Ieșim amândoi și miezul nopții ne va găsi cu Geanta sclavul nostru în valea Bahluiului.</p>
+            <stage>(es amândoi).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <stage>(uitându-se pe cer)</stage>
+            <p>Crucea n-a venit încă în dreptul Toacei, și Cloșca cu puii de aur se arată încă la o margine a cerului. Este mult până la ziuă!... Nu este încă vremea ca să scoț oile căci în April este răceală despre ziuă. Noi păstorii am cunoscut totdeauna schimbările în timp și oile trebuiesc îngrijite precum un stăpânitor este dator a îngriji de soarta supușilor săi...</p>
+            <stage>(Se aude în apropiere trăsunetul unui pistol)</stage>
+            <p>Ce auzii oare?... răsunetul unei arme aici în marginea Iașului?... Să alerg, să vedem dincotro a venit sunetul acesta!... Ce este?... Ce s-a-ntâmplat?</p>
+            <stage>(Moțu ese prin fund, Stroe, Costin, intră pe de altă parte speriați uitându-se în toate părțile ca nu cumva să-i fi văzut cineva).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>S-a sfârșit acum aceasta!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>L-ai lovit bine?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu va mai cere pâine!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Să ne tragem acum cât mai curând în Iași, să nu ne vază cineva p-aici și să ne cunoască.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ziua ne va găsi în paturile noastre!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 18</note>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <p>Valeu! Ce nenorocire!... Un om împușcat, aici!... Cine o fi ucigătorul lui?... Să vedem dacă este mort de tot sau mai are oleacă de viață în vinele lui!... și sângele curge din capul lui șiroaie... Ajutor!... ajutor!.. Apă dacă aș găsi să pot să torn pe dânsul poate că se va deștepta. Bietul om!... Of! ce nelegiuire!...</p>
+            <stage>(Aduce apă cu un fedeleș și toarnă pe Geantă).</stage>
+            <p>Pare-mi-se că mișcă! Nu este mort de tot... O să alerg în Iași să dau de știre la stăpânire... Dreptatea va pune mâna pe ucigător... vai! Ce nelegiuiri se fac pe la târgurile cele mari!...</p>
+          </sp>
+          <sp who="#geanta">
+            <speaker>GEANTA</speaker>
+            <p>Fiii cei lepădați de Dumnezeu frații... ucigători... de părintele lor... plini de răutate căutară să-mi rădice și mie viața!... Blestemul și a cerului răzbunare va ajunge de pe urmă pe făcătorii de rele... și cei ce țin dreptatea în mâinile lor... vor judeca și vor da morții pe săvârșitori de moarte!... Îngrozească-se pământul și tremure neamul omucizilor și toți care fac rău, căci sângele cere sânge și răul își răcește răsplătirea sa!... Sunt rănit de moarte!... Mă voi târî ca viermele până la picioarele dreptății ca să judece fără părtinire pe vinovații pământului... Ajută-mi omule bun căci puterile mă părăsesc din ce în ce... Peste puțin... voi fi și mort!...</p>
+          </sp>
+          <sp who="#moțu">
+            <speaker>MOȚU</speaker>
+            <stage>(dând oarecare ajutoare lui Geanta ca să se rădice în sus).</stage>
+            <p>Fii ai crimei care de toată omenirea trebuiesc goniți, moartea cea mai crudă va fi sfârșitul lor!!!...</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL V</note>
+      <div type="act" n="V">
+        <head>ACTUL V</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Astă dată chipul său s-arată așa schimbat și parcă fiecare trăsură a obrazului înfățișează neodihna și turburarea sa. De mai multe ori am vrut ca să-l deștept dar iarăși m-am oprit să nu-i stric odihna, căci odihna și mulțumirea lui mi-a fost totdeauna scumpe ca pentru acel singur bărbat pe care l-am iubit în viața mea!... Dar el a fost totdeauna ingrat!... Și eu, Elena lui, pe când el era în sărăcie ascultam plângerea și rugăciunile lui! Acum eu alerg către dânsul și el nici că se gândește la mine, nici că visează că eu sunt la capul lui veghindu-l ca o mumă, ca o soră, ca amantă nenorocită, abandonată, amăgită de dânsul!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(îngână în vis)</stage>
+            <p>Oh! Rocsandro, îngerul meu, suverana mea!..</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Îl auz parcă, vorbește în vis...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Focul vânătoarei s-a început copii... alergați... uite ursul se pogoară de pe stânci...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Vai! El visează teribila vânătoare de la munți...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Este p-aici... frate meu Costin... care de seamă îți zic!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>El o să se deștepte acum și eu nu voi să mă arăt. Mă voi întoarce mai târziu ca să-i vorbesc, să plâng la picioarele lui...</p>
+            <stage>(îl mai privește încă o dată).</stage>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ea este împărăteasa inimei mele!... ea!... ea!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(cu bucurie)</stage>
+            <p>Ah! El, în visurile lui își aduce aminte de mine! De aceea care îl iubește! Inima lui simte focul din palpitul inimei mele! Oh! Cât l-am iubit!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ei bine... murim amândoi!..</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>O! doamne, nimic mai sfânt pentru mine, nimic mai de dorit!... atunci cel puțin voi fi fericită... Nu mai pot răbda... voi să știu, poate că el s-o fi căit... s-o fi căit și mă iubește încă... Oh!... Inima mea saltă de bucurie!... voi să caz la picioarele lui: îi voi îmbrățișa genunchii ca o nebună, căci d-a iubi până într-atâta este o nebunie!... Voi să fiu nebună pentru dânsul!.. Îl iubesc și o mărturisesc în fața lumii!... Mă trag acum căci nu voi să-i turbur odihna încă... Îl las să mai doarmă; trebile sale l-o fi ținut prea mult în picioare în această noapte!...</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(se deșteaptă)</stage>
+            <p>Teribilă noapte pentru mine a fost aceasta! Nici un minut n-am putut să închiz ochii până despre ziuă, atât de mult negrele învinuiri și visuri apăsătoare mi-a turburat odihna! Inima mea am simțit-o greu apăsată întâia oară în viața mea! Pentru întâia oară sufletul meu a gemut ca osânditul în temnițe! Îmi bat joc însă de prejudiții și de prevestiri cobitoare de care eu niciodată nu m-am temut... Pare-mi-se însă că în somn aș fi văzut umbra unei femei frumoase învârtindu-se p-aici împrejurul meu! Nu cumva a fost umbra Rocsandrei?... Ea însă niciodată nu s-a înjosit ca să se pogoare la mine! Nu cumva în apartamentul acesta ea m-o fi vizitat?... Negreșit o iluzie înșelătoare, vreo ursitoare a nopților; poate vreo vrăjitoare ș-a împlinit descântecele ei!...</p>
+            <stage>(intră Costin).</stage>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Fratele meu!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Scumpe!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Așa de dimineață te-ai deșteptat astăzi?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>N-am dormit deloc în noaptea aceasta: cam despre ziuă m-am trântit pe acest divan așa îmbrăcat, cum mă găseam.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Se vede că conștiința te mustră!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Omul de arme, omul ce s-a născut ca să înfrunte mari pericole cu curajul său, se mai gândește la mici lucruri?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Mie pare-mi-se că văz umbra părintelui nostru adesea înfățișată înaintea mea. Ochii lui cei vesteji ca moartea și degetul său amenințător mă urmează pretutindeni. Glasul său cel răgușit, greu detunător îmi aduce aminte despre judecata cerească înaintea căreia nu va fi cruțat.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tu îmi vorbești parcă ai fi crescut la vreo chinovie, între călugări...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Eu îți vorbesc numai aceea ce sufletul meu simte, și ceea ce ochii mei văd. Păcatele săvârșite și remușcarea se târăsc pe dinaintea ochilor mei pentru a-mi aduce aminte că cerul are ochi atotvăzător!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Lasă toate acestea, spune-mi, sclavul nostru a murit?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Și-n această împrejurare m-ai lăsat singur. Vorba ne-a fost... amândoi...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Mâna ta este creată pentru a ucide.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Tu pentru a îndemna la ucideri.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Soarta m-a făcut ca să comandez.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Și cel slab cu mintea trebuie să se ia după tine!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Acum n-avem de ce a ne mai teme, nici la ce a ne mai gândi. Secretul atâtor morți rămâne ascuns în inimile noastre pentru totdeauna. Cei mai mari oameni ai universului au fost învinovățiți pentru câte ceva: noi n-avem de ce a ne da îndărăt. Fiecare stăpânitor, fiecare pontif sau călugăr l-a bătut cugetul în viața sa. Noi oameni destinați pentru păcatul lui Adam și blestemul lui Cain vom cădea la rugi și vom săvârși faceri de bine înaintea sfântului pentru ca să ne mântuim.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>De dreptatea de pe pământ nu te temi?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce stai să vorbești! Ce vorbe mari îți ese din gură! Te asemeni cu copiii pe care acum întâi îi duce alții de mână la dascăl!... Vrei tu să vezi dreptate?...</p>
+            <stage>(trage trăgătoarea unei mese).</stage>
+            <p>Uite dreptatea!... Uite aceste grămezi de aur!... Acesta este metalul dinaintea căruia o lume întreagă ș-apleacă capul, întreg universul îți este în favor, păcatul se curăță la picioarele altarului, criminalul devine în ochii tuturor omul cel onest... Aceștia sunt două mii de pungi de bani, venitul părintesc anual, din care pierdeam a treia parte de nu săvârșeam aceea ce am făcut. Ești mulțumit acum?... cugetul te mai mustră?...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Vasilie Vodă nu se orbește cu bani.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Cumperi pe ai săi.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu poți să cumperi și pe gâdea.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ajunși odată până acolo ne lăsăm în voia soartei.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Soarta noastră va începe peste puțin.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Muma noastră ne-at dat zilele pentru ca să le săvârșim în chinuri.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Daca nu în culmea fericiri.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Eu nu o crez!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Vino după mine că-ți voi arăta fericirea, eu sunt stăpân și pe dânsa!..</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(către Stroe la o parte).</stage>
+            <p>Tot e descoperit!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Care este învinovățirea noastră?...</p>
+          </sp>
+          <sp who="#slujbaș">
+            <speaker>SLUJBAȘ</speaker>
+            <p>Nu e treaba noastră ca să vă răspundem.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>De ce dar suntem arestați?</p>
+          </sp>
+          <sp who="#slujbaș">
+            <speaker>SLUJBAȘ</speaker>
+            <p>Vodă poruncește.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(la o parte)</stage>
+            <p>Suntem trădați!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(către Costin)</stage>
+            <p>Se vede că n-ai lovit bine victima de astă noapte!</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(învălmășit).</stage>
+            <p>El e, negreșit!...</p>
+          </sp>
+          <sp who="#alt slujbaș">
+            <speaker>ALT SLUJBAȘ</speaker>
+            <p>Mie-mi este poruncit să vă cer armele.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(ia armele din cuier, le dă slujbașului)</stage>
+            <p>Primește, dă-le înapoi aceluia de la cine le-am primit.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Aceasta îți este fericirea!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Suntem trădați, vânduți, nenorociți... în arest, fără reazăm, fără speranță!... N-avem un părinte care să alerge... și noi amândoi frații suntem compromiși!... Pe cine să rugăm! La ale lui picioare trebuie să cădem! Cine ne va auzi!... nimeni nu va fi pentru noi căci toată lumea mă uraște. Toți era geloși pe soarta mea, și acum vor căuta să mă afunde de tot. Ce soartă crudă și fără îndurare!.. Ea mi-a surâs odinioară, urcându-mă către fericire ca să mă arunce într-o zi în abis!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ți le-am zis eu dinainte!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Fața lui este palidă ca moartea, și ochii lui arată o adâncă turburare a sufletului său!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Unde sunt!... unde mă găsesc!... ce voi face acum!... Cum ne vom dezvinovăți!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ți-am prevestit mai dinainte nenorocirile tale!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Și unde nu sunt eu pentru tine când este vorba să-ți fac ție vreun bine!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Știu totul. Cunosc îndestul nenorocirea și fatalitatea ursitei tale. Cunosc unde ți-este pus capul și pentru aceasta alerg ca o umbră pe urma ta. Tu dormeai adineaori pe patul tău și nici că te gândeai că eu vegheam la capul tău. Am auzit vorbind o lume întreagă că voi amândoi frații ați săvârșit omorul părintelui vostru și pentru aceasta o să fiți osândiți. O lume întreagă cunoaște criza în care ați căzut. Nimeni nu cutează ca să vă plângă sau să vă căiască, ci fiecare vă insultă oricum îi vine la gură. Eu ca femeie cu patima în inimă am alergat să iau parte la nenorocirile voastre. Am lacrimi ca să plâng, am pentru ca să țip, voi alerga, voi plânge, voi îngenunchea, mă voi târî dinaintea acelora care pot să te ajute!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>O! Eleno, o! e târziu!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu este niciun târziu! Nu poate fi pentru mine nicio piedică sau stavilă ca să mă poată opri d-a intra oriunde voiesc să merg, ori la cine voi să alerg.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Din ce în îmi cunosc rătăcirea, îmi cunosc orbirea, și remușcarea începe a se deștepta în sufletul meu!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Bine dar, asta am vrut-o și eu, îți cunoști zici rătăcirea.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Soarta mi-a fost crudă.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Este îndestul că te căiești. Tu știi prea bine că m-ai iubit înainte și în urmă mă desprețuiești, mă uitase-și cu totul și acum te căiești... Îți aduni iar inima la un loc cu sufletul, îți unești cugetările prin conștiință, uiți rătăcirea și îți îmblânzești amorul. Pipăi virtutea și deosebești dulcele de amar. Iată-mă caz la picioarele tale! Trebuie să mă auzi, trebuie să mă asculți....</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce vrei tu, Eleno? Ce cutezi a-mi zice?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Acum sunt fericită, acum sunt mulțumită, acum sunt desăvârșit a ta și tu al meu. Acum trebuie să mă lupt spre a-ți câștiga viața: a-ți câștiga deplina libertate și mântuire.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce zici tu, Eleno?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu e nimic: într-adins am alergat să-ți fac cunoscute cugetările și sfâșierea inimii mele. Niciodată nu te-am iubit mai mult și n-am simțit ca acum pentru tine atâta patimă. Îndată voi alerga să mă arunc la picioarele generoasei Rocsandrei, la picioarele fiicei de Domn; și ea de la tată-său îți va câștiga iertarea. Ea este cunoscută de generoasă, bună, îndurătoare, recunoscătoare.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Mă afunzi și mai rău.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ea își va aduce aminte de mine cum îi voi spune eu. Îi voi aduce aminte că sânul maicii mele a hrănit copilăria ei. Suntem surori de lapte, muma mea a fost și a ei, și pentru aceasta ea mă va auzi.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce-i vei zice că sânt eu pentru tine.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Voi zice că sunt sora ta, o prietenă a ta, o cunoscută, nu voi descoperi amăgire, nu desvălui o pasiune decât nenorocirile tale, nimic mai mult.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ea te va înțelege!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(căzând în genunchi îmbrățișându-i mâinile)</stage>
+            <p>Oh! Nu-mi vorbi mai mult, nu mă mai întreba că nu știu ce trebuie să-ți răspunz. Aceea ce întâmplarea și trebuința mă va povățui, aceea voi răspunde pentru ca să-ți pot fi ție folositoare, pentru ca să-ți pot câștiga viața mă voi lupta!... Oh! Spune-mi însă dacă mă iubești, spune-mi dacă te-ai căit de disprețul ce aveai către mine: către aceea care te-a iubit, care te iubește!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Oh! Dumnezeule!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Mă trag acum. Te las cu Dumnezeu, care va priveghea și va auzi plângerile mele.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Te iubesc, Elena mea, și m-am căit!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Rămas bun, scumpul meu iubit. Mă întorc cât mai degrabă ca să-ți aduc vreo veste bună... Precum ți-am zis, la picioarele domniței Rocsandri mă voi arunca!...</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ce-ți mai rămâne de zis!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Când vom fi judecați vom tăgădui oricare articol al învinovățirei noastre.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Eu nu tăgăduiesc nimic.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Ce, vrei să-ți duci singur capul la pieire?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu trebuia să-l ducem de la început.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sunt stăpân pe părerea mea, pot să tăgăduiesc.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Omul de caracter se ține de una. Este nestrămutat în hotărârea sa.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Și astă dată vrei să fii copil?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Faptele noastre sunt crime netăgăduite.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>A fost scris în cartea ursitei noastre ca să se împlinească așa.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Părintele nostru!... adu-ți aminte sticluța, acea infernală otravă!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Greșeala a fost a ta și atunci, căci ai violat secretul.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu cu precugetare.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Trebuie să tăgăduim, îți zic.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Dar sclavul?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Vom zice că a fost un smintit. Nu se poate lua drept temei mărturisirea unui sclav.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Doctorul a protestat.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Am fost trădați căci el a primit arginți.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Auzi tu, fratele meu, cerul ce persecutează.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Eu nu-mi pierd speranța.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Mă aștept la toate cu curaj. Îți spui însă să știi nu tăgăduiesc nimic!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#slujabșul">
+            <speaker>SLUJABȘUL</speaker>
+            <p>Amândoi frații arestați din ordinul domnesc sunt chemați la judecată.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Elena o fi ajuns la generoasa Rocsandra.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Suntem gata</p>
+            <stage>(es toți).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Scoală-te, copilă, scoală-te în sus!</p>
+            <stage>(îi întinde mâna, Elena se ridică).</stage>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Da, prea generoasă doamnă. Eu sunt nenorocita fiică a acelei care a fost doica Luminății tale. Muma-mea a murit, și eu rămâind orfană, am crescut la o mătușă a mea, care trăiește acum la Focșani Muntenilor.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Cum ai rămas singură dumneata?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(la o parte).</stage>
+            <p>Oh! Să zic că-mi este frate!.. Am și frați.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Ai frați dumneata, și cum de nu te-ai arătat până acum la curte?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(la o parte).</stage>
+            <p>Dumnezeule, îmi pierz vorbele, nu știuce să-i mai răspunz!... ei sunt...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Au soartă bună? Au poziție în Moldova?...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Unul a fost ostaș.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Un ostaș moldovean?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Acum a părăsit slujba.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Pentru care cuvânt?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(la o parte).</stage>
+            <p>Ce să-i răspunz!... Pentru... pentru... el!...</p>
+            <stage>(cade în genunchi din nou la picioarele Rocsandri)</stage>
+            <p>este învinovățit de ucigător, este dat în criminal...</p>
+            <stage>(plânge).</stage>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Arestat! În criminal! Ucigător!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu o crede, prințesă, generoasă, nu crede ca el să fi săvârșit crimă. Este o calomnie din partea altora ce îl pizmuiau. A avut inamici, a avut rivali!</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Cum este numele lui?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Oh! Stăpâna mea, el este june, frumos, în floarea vârstei sale. Dacă ai fi auzit vorbele lui, sunetul glasului său, căutătura și focul ochilor săi; curajul său mai presus de puterea omenească: numai înfățișarea lui este îndestul ca să farmece pe oricare ființă pre pământ.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Numele lui.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Eu, sora lui, cu inima de rudă, de prietenă, cu amorul și cu compătimirea în suflet, am alergat la picioarele tale. Sunt o biată fiică săracă fără mijloace și fără reazăm: nenorocită plâng la picioarele tale. Te rog în numele lui Dumnezeu și al Maicii tale care te-a crescut, aibi îndurare de mine și de nenorocirea lor! ascultă-mi rugăciunea ce îndrăznesc să-ți fac! Tu, fiica stăpânitorului nostru! Tu, milostivă și atât de mult simțitoare!... Privește-mă, vezi-mă în ce stare am ajuns! Sunt de o vârstă cu tine, am supt amândouă același lapte, am fost stăpâne la același piept. Mama mea a fost și a ta, frații mei sunt și ai tăi...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Această copilă îmi strivește inima.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Da, simțitoare și strălucită Prințesă, bunătatea sufletului tău, înalta ta poziție pe lângă Vodă părintele tău, va mijloci iertarea acelor nenorociți juni.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Numele lor!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(viindu-și oarecum în sine, la o parte)</stage>
+            <p>Cum să minț!... El este cel mai mare acela pentru care mă târăsc dinaintea ta, la picioarele tale!...</p>
+            <stage>(plânge).</stage>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Prea bine, voi face tot ce se va putea, spune-mi numai cum se cheamă, ca să vorbesc despre dânsul...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>El se cheamă... Stroe, căpetenia peste vânătorii domnești.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(cu estaz, la o parte)</stage>
+            <p>Ce nerușinare! Ea este amanta lui!...</p>
+            <stage>(către Elena)</stage>
+            <p>Este fratele tău acesta?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Prințesă generoasă, oricine va fi și orice nume îi voi da, este un om nenorocit, care are trebuință de ajutorul tău! Nu voi să-ți vorbesc d-aici înainte ca la o fiică de Domn, înaintea căreia mi-a trebuit pretextul de frate. Îți voi vorbi ca la o femeie cu inimă, cu simțire, cu amor și cu generozitate. Este un om nenorocit, un criminal, poate se va și osândi la moarte!.</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(la o parte)</stage>
+            <p>El totdeauna s-a arătat un amăgitor!..</p>
+            <stage>(către Elena)</stage>
+            <p>În ce crimă a căzut fiul răposatului Comisul Curții?...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu cunosc bine pricina cu toate împrejurările ca să-l pot învinovăți sau apăra. Știu atât numai că este dat subt judecată și eu ca o femeie plâng soarta lui și mă rog ție!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(la o parte)</stage>
+            <p>El s-a pus înaintea caretei pe munți și a oprit speriații armăsari când fugeau cu mine...</p>
+            <stage>(către Elena)</stage>
+            <p>Bine, copilă, îți făgăduiesc tot pentru mântuirea acestui june!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu știu cum să-ți mulțumesc de bucuria ce o simț: îți mulțumesc din suflet... Mă voi ruga lui Dumnezeu pentru fericirea ta, Prințesă generoasă! Tatăl ceresc să-ți dăruiască aceea ce dorești. Faptele și virtuțile tale să fie răsplătite cu coroana nemurirei, și-n ziua nunții tale să-ți înfățișeze pe acela care îl iubești!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Copila acesta a cercat și cunoaște lovirea soartei sexului nostru</p>
+            <stage>(către Elena).</stage>
+            <p>Fii încredințată că voi cădea la picioarele părintelui meu. Am numai să-i pândesc timpul.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Oh! Sunt nebună de bucurie... Alerg să dau vestea de bine ca columba ce s-a pus pe sfântul chivot!</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <p>Fii pe pace Eleno!</p>
+            <stage>(es amândouă).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <stage>(singur)</stage>
+            <p>Vodă a dat ordine preparative pentru nunta domniței fiicei sale. O să fie într-adevăr o nuntă domnească, încărcată cu tot felul de pompă și țeremonii religioase. Țeremonia cununiei o să se săvârșească în mănăstirea Comislui Nicolae. Gătiți-vă curtezani de straie noi și vindeți-vă moșiile ca să vă împodobiți femeile cu fir și cu mătăsuri.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <stage>(intrând)</stage>
+            <p>Sănătate cavalerului de curtea domnească.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Te-am așteptat prea mult astăzi până să vii.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Am întârziat căci m-am abătut pe la Criminal ca să aflu ceva de soarta băieților comisului.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Se zice că cel mai mic a apucat de și-a dat demisia unde se găsea mai mare peste cinci sute, fiindcă legile ostășești nu sunt nicidecum indulgente pentru un criminal.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Cine ar fi gândit una ca aceasta!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Eu să-ți spui drept, oameni aceștia nu mi-au plăcut niciodată. Ei ajunseseră în mare favor pe lângă Vodă prin lingușire. Cel mare dintre amândoi frați era om intrigant.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Cel mai mic era om posomorât.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ce s-a hotărât pentru ei?</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Divanul îi osândește la moarte.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Mai întâi ei au fost ucigători de al lor tată, pe urmă a omorât și pe sclavul lor ca să nu li se pierde secretul.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Sângele nevinovat strigă!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Rămâne acum la indulgența Marii Sale ce va hotărî.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Știu că ei au hotărât să dea toată starea părintească ca să se dezvinovățească dar nu scapă oricum!</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ei au ucis pe părintele lor pentru ca să puie mâna pe această stare!</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>La noapte se dă cea mai de pe urmă hotărâre întărită de Domnul.</p>
+          </sp>
+          <sp who="#tăutu">
+            <speaker>TĂUTU</speaker>
+            <p>Toți criminalii sunt de plâns pre pământ</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#un judecător">
+            <speaker>UN JUDECĂTOR</speaker>
+            <p>Legile și pravila pământului osândește la moarte pe ucigătorii de om: cu cât mai vârtos pe fiii care au săvârșit moarte împotriva părintelui lor. Pe lângă aceasta, amândoi frații precum este dovedit, au săvârșit a doua ucidere cu armă de foc împotriva sclavului care a mai trăit două zile după ce mai întâi a mărturisit secretul crimei săvârșite de fii răposatului. Raportul doctorului curții este dat ca o dovadă că răposatul Comisul a fost otrăvit.</p>
+          </sp>
+          <sp who="#alt judecător">
+            <speaker>ALT JUDECĂTOR</speaker>
+            <p>Ce cuvinte îți rămâne la toate acestea?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Nu cunosc nimic.</p>
+          </sp>
+          <sp who="#condicarul">
+            <speaker>CONDICARUL</speaker>
+            <p>Mărturia unui sclav nu se poate lua drept temeiuri pravilnice.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sunt fiu de boier pământean și cel puțin dacă eu n-am adus niciun serviciu patriei mele luați domnilor în considerație rangul nașterii mele.</p>
+          </sp>
+          <sp who="#alt judecător">
+            <speaker>ALT JUDECĂTOR</speaker>
+            <p>Rangul în țara noastră se dă ca o răsplătire de merite slujbașilor patriei. Noblețea nu este moștenitoare!</p>
+          </sp>
+          <sp who="#procurorul">
+            <speaker>PROCURORUL</speaker>
+            <p>Mă unesc cu părerea dumneavoastră.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Sunt un criminal Sunt un osândit, fie la ocnă, fie la moarte! Este drept că crima trebuie osândită ca să slujească altora de pildă. Bine dar, mă unesc, mă învoiesc pentru acel criminal. Eu însă nu sunt un criminal pentru dumneavoastră căci n-ați putut avea mai întâi dovezi sigure despre crima aceluia pe care îl osândiți. Să zicem iarăși că pe mărturisirea unui sclav se bazează osânda mea! Acela putea să fie un nebun, un om cumpărat, putea să fie o intrigă țesută într-adins; este o calomnie pe care eu cu tot dreptul cuvânt o tăgăduiesc! Fie dar ș-așa! Sunt un criminal!... De ce la moarte să mă osândiți când dumneavoastră nu-mi puteți da viața?... Să zicem că sunt un criminal osândit!... Am făcut-o poate într-o vârstă de rătăcire, pentru care acum mă căiesc... Pe lângă aceasta, osânditul la moarte pe viitor se poate face om virtuos și care poate fi folositor omenirii: gândiți-vă bine domnilor că veți răspunde înaintea lui Dumnezeu pentru acei care îi osândiți.</p>
+          </sp>
+          <sp who="#un judecător">
+            <speaker>UN JUDECĂTOR</speaker>
+            <stage>(către Costin)</stage>
+            <p>Dumneata ce răspunzi? Tăgăduiești crima?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Nu pot ascunde în fața lui Dumnezeu ceea ce s-a săvârșit departe de ochii oamenilor.</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(cu oarecare turburare)</stage>
+            <p>Nu știe ce vorbește, judecata l-a părăsit. Nu-i dați ascultare domnilor!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ca să câștig în cer sufletul mărturisesc crima mea aici!...</p>
+          </sp>
+          <sp who="#un judecător">
+            <speaker>UN JUDECĂTOR</speaker>
+            <p>Fapta este descoperită el nu o tăgăduiește.</p>
+          </sp>
+          <sp who="#judecătorul">
+            <speaker>JUDECĂTORUL</speaker>
+            <p>Ține, domnule, într-aceste isvoade se coprind tacriruile date de către amândoi frații parucizi. Părerea judecătorilor a fost într-o unire cu părerea Prezidentului. Divanul îi osândește la moarte. Rămâne acum la înalta milostivire a Mării Sale lui Vodă! Vă rog, să se înainteze!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Fatalitatea căzută d-asupra capului nostru ne va deschide în grabă mormântul, și o lume întreagă ne va huli și ne vor desprețui toți... Eu sunt fratele tău, tu ești fratele meu. Amândoi avem aceeași soartă. Aceleași nenorociri și chinuri ne roade!... Eu voi muri negreșit, căci eu sunt cel culpabil. Mâna ta a fost totdeauna înarmată spre lovire, îndemnurile mele te-a împins până la crime. Eu sunt dar cel criminal!... iar nu tu. Eu am fost cel rătăcit și soarta și-a râs de mândria mea! Ascultă-mă, fratele meu! Eu mor fără nicio părere de rău, pe tine voi să te scap!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(care până aici a fost pe gânduri)</stage>
+            <p>Încotro va fi scăparea mea?</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>M-am gândit îndestul și caut vreunul din prietenii mei care îmi va servi spre aceasta.</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Eu!... O! Nu, nu!... Voi muri mai bine lângă tine... Sunt mai mulțumit decât a te părăsi!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Veste bună! Veste bună v-aduc!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Tu Eleno! Ce veste ne aduci?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Viu de la generoasa Rocsandra, nobila Prințesă, fiica marelui Vasilie Vodă. Am plâns la picioarele ei, i-am îmbrățișat genunchii, m-am rugat de dânsa, i-am spus tot păsul meu! I-am arătat durerea mea, i-am descoperit nenorocirile și patimile mele și ea m-a ascultat; am jurat-o în numele cerului, în numele lui Dumnezeu, pentru sufletul maicii sale, pentru dragostea părintelui ei, pentru fericirea care o dorește ea pre pământ, și ea mi-a făgăduit și mi-a jurat că va stărui lângă părintele ei pentru tine scumpul meu!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(pe gânduri).</stage>
+            <p>Ea va stărui lângă părintele ei!... Atâta numai?...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Da, ea se va ruga, ea va mijloci, ea care este atât de bună, ea care este... Oh!... ea!... ea!... e totul ce nădăjduiesc, tot ce mai aștept, căci altfel, mor de disperație și de durere!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <stage>(către Stroe)</stage>
+            <p>Nu spera nimic!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ah! Scumpul meu! Fața ta este schimbată, ochii tăi sunt turburați, căutătura ta cea posomorâtă ascunde cugetările sufletului tău... Ce oare tu nu simți durerea mea? Tu nu simți focul care mă arde și mă împinge pretutindenea oriunde alerg ca să mă rog pentru tine?... Scumpul meu! Eu sunt Elena ta!... tu nici nu bagi în seamă vorbele mele!... Ah! cât sunt de nenorocită!... Ce mă voi face eu perzându-te pe tine?... Disperația ta! Neîncrederea ce văz că o ai... mă face... Ah! Mor și eu la picioarele tale neputând cumva să-ți dobândesc iertare!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Fratele meu! Fratele meu! Un mormânt cel puțin va coprinde inimile noastre!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Vai! Nu! Eu nu vă las, nu mă depărtez de lângă voi!...</p>
+            <stage>(Teatrul se întunecă)</stage>
+            <p>Nu mă duc... sau, aleg pentru că să mă asigurez din gura Rocsandri!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <stage>(către Costin)</stage>
+            <p>Pe tine voi să te scap fratele meu, îmi stă prin putință... gătește-te!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Eu nu voi, nu!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(plângând)</stage>
+            <p>Ah! Ce mă fac eu cu atâta disperație!...</p>
+            <stage>(către Stroe)</stage>
+            <p>Cu tine, vai! Fie soarta-mi nenorocirea și un mormânt!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Ce văz eu!.. Uumbra tată-meu! O Dumnezeule! O cer!...</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Fatalitate! Fatalitate și blestem!... A cerului mânie despică cu al său trăsnet gura iadului subt picioarele mele ca să mă înghită de viu!... În deșert soarta și-a râs de slăbiciunea cugetărilor mele, căci ea m-a orbit cu vanitățile omului, și eu ca omul n-am făcut decât m-am urcat mai presus de dorințele unui om de rând! Soarta și norocul întindea curse la dorințele mele! Virtutea pentru mine a fost un vis de care eu mi-am bătut totdeauna joc!... În mijlocul crimei însă, al vițiurilor și calamitățile în care înoată clasele tuturor soțietăților din lume, o femeie îmi deșteaptă amorul și mă învață ce este lumea, pe când o Prințesă m-a uitat!... Astăzi, iată-mă criminal, osândit, fără ca să aștept ziua de mâine. Vai! Văz la picioarele mele! Oh! Inima mea de frate!...</p>
+            <stage>(îmbrățișează pe Costin)</stage>
+            <p>Inima mea ingrată către această copilă!... Vai!..</p>
+            <stage>(orologiul sună zece ore dintr-un turn al orașului).</stage>
+            <p>Să ascultăm!... Este târziu!... Jos nume mari și îngâmfata vanitate a oamenilor! Jos visuri și deșarte dorințe produse de la vițiuri de tot felul!... Gâdea ne mai rămâne spre mângâiere! Gâdea cu ochii de sânge, gâdea omorâtorul de oameni!... și tu Elena mea! Îngerul meu!... a mea iubită, cer pardonul tău!...</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Vai! Moartea părintelui meu!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Vai! Ce vor oamenii aceștia?</p>
+          </sp>
+          <sp who="#costin">
+            <speaker>COSTIN</speaker>
+            <p>Domnul ne-a pedepsit!</p>
+          </sp>
+          <sp who="#stroe">
+            <speaker>STROE</speaker>
+            <p>Acum o cunosc!... Este târziu!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Și cum s-a întâmplat ca sfinția ta să vii așa de rar pe la târgul Iașului și pe la curtea domnească!</p>
+          </sp>
+          <sp who="#religioasa">
+            <speaker>RELIGIOASA</speaker>
+            <p>Cei ce s-a închinat odată sfintei mănăstiri ca să slujească Maicii Domnului, uită cele lumești! Aș fi avut mult ca să mă plâng de soarta mea, dar datoria credinței și neîncetatele privegheri ale bisericii m-au făcut să uit cele trecute.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Dacă nu mă amăgesc, cunosc în cuvioșia ta pe văduva, fosta soție a răposatului COMISUL curții.</p>
+          </sp>
+          <sp who="#religioasa">
+            <speaker>RELIGIOASA</speaker>
+            <p>Însuși aceea: eu sunt Maria care după moartea răposatului, m-am tras la mănăstirea Agapia, unde până ieri am fost primită ca soră. Acum sunt trimisă din partea stareței cu o însărcinare bisericească către domnița Rocsandra.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Pohtim, intră</p>
+            <stage>(Religioasa ese pe ușa laterală).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Ce mai nou vere Tăut?</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>S-a hotărât nunta domniței Rocsandri cu Hatmanul armiei Moldovenești.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Dar pe hatmanul acel strein.</p>
+          </sp>
+          <sp who="#tăut">
+            <speaker>TĂUT</speaker>
+            <p>Ea nu a vrut.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Carevasăzică pe tine o să te vedem Cămăraș mare.</p>
+          </sp>
+          <sp who="#un aprod">
+            <speaker>UN APROD</speaker>
+            <stage>(anunțând).</stage>
+            <p>Măria sa Vodă vine!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Toată curtea mea și slujbașii statului, toate dregătoriile și stărostiile a mai multor isnafuri, părțile judecătorești, civile și militare, tuturor să li se facă cunoscute poruncile mele: toate corporațiile au să însoțească țeremonia nunții fiicei noastre</p>
+            <stage>(către Lupu).</stage>
+            <p>Pe tine Vornice, te însărcinăm cu toate punerile la cale.</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <stage>(închinânduse).</stage>
+            <p>Sunt supus la poruncile Mării Tale!</p>
+          </sp>
+          <sp who="#religioasa">
+            <speaker>RELIGIOASA</speaker>
+            <stage>(către Rocsandra)</stage>
+            <p>Primește Măria Ta inelul ce sunt din partea stareței mănăstirii Agapia ca să vi-l dau spre a-l înfățișa Mării Sale părintele nostru; mai este și această anaforă.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <stage>(către suita sa)</stage>
+            <p>Fiecare poate nădăjdui naintare după merite și bune recomandații.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage>(căzând în genunche către Rocsandra)</stage>
+            <p>Stăpâna mea! Nobila mea doamnă! Târgul urlă că Măria Sa părintele tău a întărit osânda lui!...</p>
+          </sp>
+          <sp who="#rocsandra">
+            <speaker>ROCSANDRA</speaker>
+            <stage>(uitându-se pe decret la o parte)</stage>
+            <p>Vai! El este fratele meu!... Această religioasă a descoperit mari evenimente! Ce nenorocire ne amenință acum!... Părintele meu își va aduce aminte.</p>
+            <stage>(cade la picioarele lui Vodă)</stage>
+            <p>Taică, în a mea inimă mult zdrobită, mulțumirea și recunoștința se unesc spre a-ți înfățișa respectul meu filial. Încă de când ai voit ca să hotărăști ziua nunții mele, văzut-am în vis, trei fecioare învestite cu albe straie și cu coroane pe fruntea lor. Căutătura lor și a lor înfățișare m-a făcut să crez că ele sunt ursitorile nașterii mele. Ele mi-au zis: plângi fiica stăpânitorului Moldovenilor! Plângi la ziua nunții tale moartea fratelui tău pe care fatalitatea și ordinul părintelui tău îl va da în gheara gâdei... M-am deșteptat îndată după acest vis. O călugăriță de la mănăstirea Agapia, închinată spre serviciul Maicii Domnului a intrat în palat și mi-a dat acest inel și acest act... Măria ta îl cunoști ți-aduci aminte!... Iertare în numele lui Dumnezeu îți cer pentru un osândit la moarte!...</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Să vedem! Acest act!... acest inel.. este al meu!</p>
+          </sp>
+          <sp who="#religioasa">
+            <speaker>RELIGIOASA</speaker>
+            <stage>(către Vodă)</stage>
+            <p>Aceste depozite au fost încredințate bătrânei noastre starețe de către o femeie la ceasul morții sale, subt jurământ ca să nu le dea la lumină decât după o curgere de douăzeci de ani. Pe mine m-a însărcinat stareța noastră ca să viu să le înfățișez la picioarele tronului Mării tale.</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <stage>(cu estaz)</stage>
+            <p>Mi-aduc aminte!... Într-una din călătoriile ce am făcut în pământului Suceavei în junia mea, tot norodul îmi ieșea înainte cu pompă și cu famfare. Între o mulțime de dame moldovene, o fecioară se deosebea! Ea mi-a părut mult frumoasă, cu ochii negri, cu fizionomia dulce. Da, îmi aduc minte precum și de câte s-a mai întâmplat!... Însă acest inel i l-am fost dat eu însumi drept favoarea unui prunc ce trebuia să-l nască ea peste puțin.</p>
+          </sp>
+          <sp who="#religioasa">
+            <speaker>RELIGIOASA</speaker>
+            <p>Îndată după aceea, acea damă a devenit soția răposatului Comisul curții Mării tale!</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Am mai alăturat și acest decret subt însemnat de însuși mâna ta, prin care acel copil trebuia să mă numească într-o zi părintele său. Îmi aduc prea bine aminte!... Dar vai! Acum este prea târziu!... Nu pot da un alt ordin în contra celui dintâi. Dreptatea îmi impune datoria de stăpânitor, natura și inima-mi reclamă protecția fiului meu!... Și cum aș face oare!... el este fiul meu! Vai! Este fiul meu!... Să vie Lupu îndată. Credinciosul meu Vornic îmi va sluji în această împrejuare! Tăute mergi de cheamă pe Lupu.</p>
+            <stage>(Tăut iese)</stage>
+            <p>Teribilă și mult fatală nenorocire în ajunul nunții iubitei mele fiice și lacrimi care vor ține locul bucuriei unui părinte nenorocit totodată și stăpânito!...</p>
+          </sp>
+          <sp who="#lupu">
+            <speaker>LUPU</speaker>
+            <p>Amândoi frații parucizi, osândiți la moarte de înalta hotărâte s-au spânzurat față în față unul de altul!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ah! Dumnezeule, ce auzii!...</p>
+          </sp>
+          <sp who="#vodă">
+            <speaker>VODĂ</speaker>
+            <p>Dreptatea i-au osândit pe amândoi!...</p>
+          </sp>
+          <sp who="#religioasa">
+            <speaker>RELIGIOASA</speaker>
+            <stage>(către Elena)</stage>
+            <p>Sfânta mănăstire îți rămâne d-aici înainte locașul de mângâiere pentru nenorocirile, greșeala și disperația ta.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Vai! Să mor și eu dacă el este mort!!...</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

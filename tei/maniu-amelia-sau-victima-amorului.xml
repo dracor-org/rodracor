@@ -1,0 +1,3302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000001" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Amelia sau Victima amorului</title>
+        <author>
+          <persName type="pseudo">D. V. Manio</persName>
+          <idno type="wikidata">Q18541659</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>BUCUREȘTI. Tipărit în Tipografia lui Iosef Copainig. 1849</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="comitele" sex="MALE">
+            <persName>Comitele Marini, Colonel pensionat</persName>
+            <age>50</age>
+          </person>
+          <person xml:id="vernei" sex="MALE">
+            <persName>Verneĭ, Presedent al Comitatuluĭ Temes</persName>
+            <age>40</age>
+          </person>
+          <person xml:id="miron" sex="MALE">
+            <persName>Miron, nobil Român</persName>
+            <age>25</age>
+          </person>
+          <person xml:id="amelia" sex="FEMALE">
+            <persName>Amelia, consoarta luĭ Marini</persName>
+            <age>20</age>
+          </person>
+          <person xml:id="teresa" sex="FEMALE">
+            <persName>Teresa, Guvernantă</persName>
+            <age>18</age>
+          </person>
+          <person xml:id="ferdinand" sex="MALE">
+            <persName>Ferdinand, Director de Poliție</persName>
+            <age>30</age>
+          </person>
+          <person xml:id="păulean" sex="MALE">
+            <persName>Păulean, Căpitan, amicul Comiteluĭ</persName>
+            <age>45</age>
+          </person>
+          <person xml:id="petruț" sex="MALE">
+            <persName>Petruț, Valet în servițiul Comiteluĭ</persName>
+          </person>
+          <person xml:id="nicolae" sex="MALE">
+            <persName>Nicolae, păstor bătrân, tata luĭ Petruț</persName>
+          </person>
+          <person xml:id="comisar_regesc" sex="MALE">
+            <persName>Un Comisar Regesc</persName>
+          </person>
+          <person xml:id="temnicer" sex="MALE">
+            <persName>Un Temnicer</persName>
+          </person>
+          <person xml:id="carnefice" sex="MALE">
+            <persName>Un Carnefice</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1849">
+        <desc/>
+      </event>
+      <event type="premiere" when="1848-04-28">
+        <desc>S’a representat pentru întiea dată, pe scena Română din București, la 28 Aprilie, 1848.</desc>
+      </event>
+      <event type="print" when="1849">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000001" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">AMELIA sau VICTIMA AMORULUI</titlePart>
+        </docTitle>
+        <docAuthor>D. V. Manio</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Comitele Marini</role>
+          <roleDesc> Colonel pensionat</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Verneĭ</role>
+          <roleDesc> Presedent al Comitatuluĭ Temes</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Miron</role>
+          <roleDesc> nobil Român</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Amelia</role>
+          <roleDesc> consoarta luĭ Marini</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Teresa</role>
+          <roleDesc> Guvernantă</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Ferdinand</role>
+          <roleDesc> Director de Poliție</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Păulean</role>
+          <roleDesc> Căpitan,  amicul Comiteluĭ</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Petruț</role>
+          <roleDesc> Valet în servițiul Comiteluĭ</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Nicolae</role>
+          <roleDesc> păstor bătrân,  tata luĭ Petruț</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Un Comisar Regesc</role>
+        </castItem>
+        <castItem>
+          <role>Un Temnicer</role>
+        </castItem>
+        <castItem>
+          <role>Un Carnefice</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(singur meditând.)</stage>
+            <p>Nu’mi pociu ăndestula curiositatea; oare cum se va termnina gelosia ce domnește într’acești doi bărbați? mă temu să nu resulte ceva trist. Vernei e prea imvidios… nu știu cum să mă esprim!… în peptul lui Miron s’a înredăcinat ambiția, însă nu e fără judecată, ș’apoi își ține autoritatea… E un june respectat; și tot nu urmează dupe cum se cere de la unul ca d’ânsul,…de la un Miron!… într’adevăr are sentimente fine, dar e prea îmfocat, și trebue a se tempera. Ei!… de ce mă perzu în confusiea visurilor… ce nu face junețea?…toate astea vor peri cu trecerea de timp.</p>
+            <stage>(aude pasuri)</stage>
+            <p>A! vine cine-va.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Bună dimineața, frate!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Bine ai venit, bătrâne!… cum de te ai sculat așa de dimineață?</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Ce eram să fac… nu putam să dorm, și în pat a trândevi nu m’am dedat; m’am sculat la patru ore și am ești să mă preumblu puțin; dar în ainte d’amă reîntoarce, eșiiu pe portița din fundul grădinei, ce duce spre câmpie; văzuiu cu mirare aci oaspeții noștrii preumblându-se; ce-va mai departe de d’ânșii zăriiu și pe Miron, pășind încet cu fața palidă; allăturea cu el mergea și Vernei, cu ochii țintiți la pământ, și aruncând câte o dată o căutătură severă spre d’ânsul.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Așa e; junii aceștia sunt între d’ânsii ca doă elemente contrarie. Trei săptămâni de când suntem împreună: — în acest timp îmvățaiu a cunoaște pe amândoi: adevărat, Miron îmi este cel mai bun amic. Îl văzuiu stimat de toți junii noștrii: asemenea și Vernei, e un vărbat știentific; onorat cu dregătorii înalte, și tot, cu ce fapte copilărești se occupă… Unul imvidios, cela-l-alt ambițios; unul, uraște pe cela-l-alt fără cel mai mic motiv. Crede-mă, frate, de câte ori cuget la d’ânșii, mă întristez.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Să cercăm a’i abate de la asemenea patimi.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>De când leam studiat defectele tot meditez, cum, s’au ce s’ar putea în favoarea lor.</p>
+            <stage>(pausă)</stage>
+            <p>A!… îmi veni o idee. Amicia lor se va reînnoi, pentru astă dată avem ocasie bună: în ainte d’a pleca la vânătoare, o să dejunăm, serbând tot-d’odată zioa lui Vaccu!… între toaste, între pahare, toate se pot face, și între alte comborbiri vom resolva ș’această problemă. Astfel supt sigur că vom reeși, o!… fără îndoință.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Dacă însă Miron n’o veni să dejune?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Va fi de ajuns de o cam dată a comvinge pe cel imvidios.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>E bine!… Eu îți servesc de secundant la această întreprindere.</p>
+          </sp>
+          <sp who="#un serv">
+            <speaker>UN SERV</speaker>
+            <stage>(annuțând)</stage>
+            <p>Domnii s’au întors de la preumblare.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Sunt în castel?</p>
+          </sp>
+          <sp who="#servul">
+            <speaker>SERVUL</speaker>
+            <p>În castel.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Aduceți curând dejunul: mai multe butele de șampanie; ai înțelesu:</p>
+          </sp>
+          <sp who="#servul">
+            <speaker>SERVUL</speaker>
+            <p>Da,</p>
+            <stage>(ese.)</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Așa dar, remânem la propusul nostru?</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Fără îndoire!</p>
+            <stage>(zărindu’i)</stage>
+            <p>A!… iată’i…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>A! iată vânătorii noștrii. Curând v’ați întors… Eu mă temeam, Domnii mei, că frumusețea dimineții, și aerul curat ce respiră omul, făcând preumblare pe câmpuri, va face să uitați vânătoarea ce o destinarăm pentru astăzi.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Din contră; ne-a iritat mai multă plăcere de vânătoare</p>
+            <stage>(servii aduc bucatele.)</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>E… acum să nu mai perdem din timp.</p>
+            <stage>(toți se pun la masă.)</stage>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Unde e Domnul Miron?</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Va fi poate în camera sa.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Cum văzu, Doamna Comitesa n’are plăcere a serba cu noi amorul domesnic.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Îi este cam rău, și…</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Rău!… așa dar, trist început are partida vânătoarei noastre!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Nu vă temeți, toate vor urma dupe cuviință; ș’apoi nu e tot aur ce lucește. Doamnelor noastre le place câte o dată și caprițiul. E… să precumpem acest discurs; aici nu e loc de întristare: mai bine să cercăm a deșărta aceste butelii.</p>
+            <stage>(umplând paharele)</stage>
+            <p>În sănătatea voastră! &lt;didascalie&gt; (bea, depune paharul) &lt;didascalie&gt; așa!… lăsați să intre bucuria cu toate legionele sale în meziul nostru.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(închinând.)</stage>
+            <p>Pentru un succesu bun la vânătoare!</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <stage>(Comitelui.)</stage>
+            <p>În sănătatea ta, și a Comitesii!</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Zău, frate! pentru un asemenea înger fie ce piept poate simți amor; Eu din parte’mi te felicitez, Domnule Comite.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Îți mulțumesc; într’adevăr… consoarta mea e Regina modestiei; o prețuesc mai mult de ori ce tesaur. Toată fericirea mea este ea. În amorul nostru e constantă; pociu zice, că mai multă încredere am într’ânsa de cât în mine însu’mi.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Prea mult supuni, Domnule, despre un om; de nu mă înșel, erai odată cel mai mare curtezan!…ș’aceea poate…</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Da, eram; ș’acum curtenesc eu damele. Acest drept numai un bărbat îl poate avea, și nici o dată o femee. E mare diferință între secsul nostru, și cel frumos.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Dacă însă, zic spre esemplu, s’ar aduce vr’o scădere caracterului Dumitale din partea vr’unui curteza?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Acel curtezan resplăti cu sângele său!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Rezbunarea prin sânge e remășiță a secolilor barbare, ș’acum ne e oprită. pentru ce supt legi? pentru ce sunt tribunale?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Asemenea crimă este afară de legi: un ultragiu ca acela cere resplătire cu sânge… Judele meu e spada sau glonțul: eu mă judec cu rivalul meu în armat. Cel ce cutează să nimicească dreptul firesc, nepăciuind pe cei căsătoriți, e un imfam, și în pentru’i aș îmfige ferul de o palmă.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Îmfricoșat propus!</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Încetați o dată, Domnilor, cu astfel de nimicuri și discute; să ne terminăm gustarea, și să plecăm mai curând</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(închinând.)</stage>
+            <p>Așa da,… în sănătatea Comitesei și a…</p>
+            <stage>(bea.)</stage>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(la o parte.)</stage>
+            <p>Și a!… înțeleg… a lui Miron!…</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Apropo, Domnule Vernei; am auzit adesea dispute, ba încă și certe formale între Domnia-ta, și Miron. Aș avea plăcere să știu de unde provine această desarmonie între doi juni, dotați cu ralități sublime, cum sunteți Domniea-Voastră.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(cu ironie.)</stage>
+            <p>Nu știu ce armonie poate să esiste între doă persoane cu calități diferite.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Așa doi bărbați nobili, carii occupă posturi politice, cum se pot înjosi până la atâta debilitate?…Nu se cuvinte, amicii mei, fiți frați și uitați cele trecute.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Adevărat! este o debilitate; dar supt alte motive care… ș’apoi un nobil maghear…</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(întrerumpându’l)</stage>
+            <p>Eu crez că un nobil; — înțeleg un nobil adevărat: de și maghear, nu poate ură pe compatriotul său nobil ca și d’ânsul, numai pentru că e Român. Să nu crezi, Domnule, că Români, și chear cei inobili nu sunt buni patrioți; ei merită stima Domniei-Voastre, ca ori care alt maghear, căci pe când streinii cumpărau nobilitatea cu aur, ei își vărsau sângele pentru apărarea patriei; dacă circonstanțele aduseră în urmă ca ei să poarte sarcinele aceștii Patrii în mai mare grad de aristocrații lor, aceasta nu crez să fie un cuvânt de degrădare pentr d’ânșii;… dar să ne întoarcem la vorba noastră. Eu sper, Domnule, că vei fi atât generos, ca uitând trecutul, dând la o parte naționalitatea, să te împaci cu Miron. De la asemenea juni ca Domniea-Voastră, poate aștepta cine-va multă virtute.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>O astfel de faptă nu crez să aducă scădere nobilității Domniei-tale. Sunt sigur că discordia aceasta nu provine din vr’o politică; ș’apoi… — D. Miron, e un june delicat, nobil, stimat de toți!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Nu’i deneg meritul.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Așa dar, de oare ce sunteți egali, făcând o mică escepție între dignități, nu văz nici o degradare, ce ar necuviința amiciea Domniei-voastre.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Da, ar fi o mare plăcere pentru noi când s’ar putea reînnoi această amicie. Eu sper, Domnule, că nu vei refusa cererea comună, și ca un bărbat adevărat nobil, te vei împăca cu fratele nostru.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ei! bine, Domnilor! vă dau parola.</p>
+            <stage>(în parte)</stage>
+            <p>Știu eu ce e de făcut! —</p>
+            <stage>(cornul de vânătoare se aude.)</stage>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Iată, Domnilor! cornul de vânătoare ne strigă; pe semne am întârziat. Să plecăm: trebue să recâștigăm timpul perdut.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Aidem, să plecăm!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Dar să cercetez mai întâiu cum îi este Amelii… De voiți, domnii mei, poftiți în ainte, și vă voiu însoți numai de cât</p>
+            <stage>(vrând să intre în dreapta, Tereza vine)</stage>
+            <p>A!… Terezo! ce face Amelia?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Îi este mai bine.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Așa dar pociu pleca fără temere la vânătoare. Adio, fata mea…</p>
+            <stage>(ese dupe ceilalți, — servii scot masa.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Miron! nu era cu d’ânșii; nici eri nu’l am văzut: de vr’o câte-va zile e tot supărat, trist, palid, nu știu ce să crez despre d’ânsul, și eu supt atât de comfusă. Ah!… dar nu, el mă iubește, surâsul, bunătatea, dulceața ce’mi arată de câte ori îmi vorbește… tot, tot mă asigurează de amorul său…</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(întrând, încărcat cu pușci și traeste.)</stage>
+            <p>Of!… nu mai pociu.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ce! tu n’ai plecat?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Am fost plecat; dar m’am întors.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Pentru ce te ai întors?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Am uitat carabina Domnului; aibi bunătatea Domnișoară să mi’o dai… așa te rog.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Tu, nu te poți duce în armatoriul contelui s’o ei?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Pre legea mea ești curioasă nu vezi cât supt de încărcat.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ca o cămilă!… ha… ha…a…!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Tocmai… așa… mai râdeți de mine… La dracu supt de râs tuturor aici în castel.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ciudat mai ești!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Da, ciudat!… să fii Dumneata în posiția mea te-ași vedea eu cum ai râde.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Și ce, te superi?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Cine nu s’ar supăra!… Eu camarierul Camarierul Comitelui, eu valetul Domniei Comitesii, eu îngrijitorul de curte, eu tot aici în caste! ș’apoi cu afurisita de vânătoare am ajuns să fiu și ogar. Alerg câtu e zioa prin pădure, încărcat cu arme, mai cu vânat… uite, cum mă vezi. Zău am perdut toată plăcerea.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Lasă, Petruț!… nu te plânge; n’o să ție asta mult… încă vr’o câte-va zile, ș’ai scăpat.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Așa e… dar pân’atunci am s’asud, seara când mă întorc a casă supt numai apă, ca și când m’ar fi muiat într’un rău. Ș’apoi când m’arunc în așternut știi cefel adorm?… ca mort, sunt dus dupe lume… și vezi asta nu e bine… zău! mă tem… Dar ce fac eu? stau aici de vorbă cu Dumnea-ta și oamenii mă așteaptă… Zici că carabina e în…</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>În armatoriul Comitelui?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Prea bine, prea bine, mă duc.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Vezi, să aduci mult vânat.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(eșind.)</stage>
+            <p>Cu cât mai puțin vânat, atât mai bine pentru spinarea mea</p>
+            <stage>(ese.)</stage>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(singură.)</stage>
+            <p>Ce ciudat omu! mă face să râz când supt mai tristă; i s’a urât de vânătoare. Dar are dreptate. Într’adevăr mă mir și eu, ce atâta plăcere poate să aducă bărbaților vânătoarea!… pentru o distracție, e frumoasă; dar să nu treacă în pasiune. Și supt mulți carii pentru’un asemenea gust, pociu zice stravagant, își punu viața în pericol. Astfel e și cu domnii noștrii, supt cei mai pasionați vânătorii; mai ales Comitele și bătrânul Capitan, au caprițiu nebunesc: în toate vor să esceleze, supt în stare să risce ori ce, numai ca să’mi arate curajul de soldat. A!…Doamna Comiteasa!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(întrând pe scenă.)</stage>
+            <p>Plecat-au la vânătoare, Terezo?</p>
+            <stage>(se pune pe fotel.)</stage>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Au plecat, Doamna mea!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ah!… capul meu!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Pentru Dumnezeu!… Doamnă!… ce’ți este?… ești atât de palidă!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Da, Terezo, ai dreptate, caută să fiu plaidă… Ah!… ce noapte teribilă am petrecut, de trei săptămâni sunt în cel mai mare neastâmpăr.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>De trei săptămâni? adevărat de atunci și tumultul au început în castel. Vânătorii aștia’ți-a turburat pacea, Doamnă; tot de atunci să află în castel și Domnul Miron!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(mișcată.)</stage>
+            <p>Miron?…ce vrei să zici, Terezo!…de ce ai numit pe Miron?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Pentru că el e mai ilar, și’mi vine a crede că Domnia-lui ar fi causa necurmatelui tumult.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Domnul Miron e june, și ca unui june îi plac desfătările, pentru aceasta nu se cuvinte să’l acusăm.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>A, Doamnă, prea mult îl pătrinești.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Terezo, cugetările tale mă supără; nu te esprima astfel; nu’mi pătrunde frageta’mi inimă.</p>
+            <stage>(în parte)</stage>
+            <p>Ah, Dumnezeule!</p>
+            <stage>(șezând pe fotel, razemă capul pe mână, și cu totul în meditații; afară se aude tumult. Tereza ese fără să fie observată de Amelia. — Pasuri reînnoite o deștept)</stage>
+            <p>Pasuri!… fără îndoire el este… Miron!… epistola sa’mi-anunță această visită…și eu… Ah!… eu m’am învoit al revedea? — nu putuiu să încredințez Trezi acest secre?… și pentru ce nu?… ea… e innorentă… dar nu!…căutătura ei severă mă retrăgea… mă tem să nu fie pătruns secretul inimii mele…Ah!… ce fatalitate!… Dumnezeul meu!… ce să fac?… nu… nu voiu… nu’l pociu revedea…dar el… Ah! el nefericit ca și mine</p>
+            <stage>(dupe o pausă)</stage>
+            <p>Așa… o voiu trimite înderept… însă desigilată?… va ști c’am citit’o, și în loc d’a se lăsa de această visită, se va întări mai mult în cugetarea sa… O cer!… dacă Comitele surprins de absența lui, va voi să cerceteze?… unul din amândoi va fi prada morții… Miron… nefericitul june… nu prevede teribile urmări… O!… Dumnezeul meu!…</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(întrând)</stage>
+            <p>Domnul Miron s’au întors de la vânătoare!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(confusă)</stage>
+            <p>Miron!!… nu Terezo!… nici de cum… nu pociu, nu pociu priimi visite în absența bărbătului meu. Spune’i că sunt lângedă.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Am cercat să te ascunz, Doamnă; dat nu voea să mă asculte: zice că are să’ți spue un secret.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(în parte)</stage>
+            <p>Un secret!</p>
+            <stage>(tare)</stage>
+            <p>Nu, nu voiu; nu’l pociu revedea… Terezo, dă biletul acesta Domnului Miron!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Prea bine; dar… au intrat în anticameră!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(dupe o pausă)</stage>
+            <p>Bine, Terezo, voiu respunde eu însu’mi; poate intra</p>
+            <stage>(Tereza ese).</stage>
+            <p>Dumnezeule! dă’mi putere un moment!!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(intrând)</stage>
+            <p>Amelio!… ce revedere!…</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(tremurând)</stage>
+            <p>Miron!… acceptă biletul ce mi-ai trimis; și în viitor, te rog, nu mă însărcina cu asemenea corespondință.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(în mirare)</stage>
+            <p>Amelio!… Doamna mea!… ce vrei să zici cu aceasta?… nu pociu străbate înțelesul cuvintelor tale.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Te-am stimat ca pe un amic, ca pe un frate; dar acum…</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(întrerumpând)</stage>
+            <p>Acum Amelio?!…acum supt mai mult de cât un frate!… acum supt sentimentul amorului</p>
+            <stage>(amorii)</stage>
+            <p>lucrează în pentrul meu… Ah Amelio!… fără tine, viața ’mi-e supliciu; fără tine nu simț nici o fericire. Focul amorului scânteează de mult în peptul meu: ș’al tempera, îmi este cu neputință.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Încetează, Miron! vrei să abuzi de fregezimea unei femei… Prejudecă!…Ah!… în loc să’mi întinzi o mână frățească, îmi răpești puțina fericire, tot repaosul.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio! de ai putea să pătrunzi secretul inimii mele, când ’mi-ai cunoaște suferințele, când ai vedea simțirile ce nutresc în sufletul meu, atunci sentimente mai nobile ar cuprinde sânul tău!… Ce?… într’atât au secat surgenta</p>
+            <stage>(fonte)</stage>
+            <p>amorului tău pentru mine?… Ah Amelio!… de câte ori în singuritatea mea cugetam la tine, lacrămi râura din ochii mei… ’mi înnundau fața; luptându-mă cu amorul, fantasiea mea mă arunca în delir; ș’acum când sunt la picioarele tale, tu mă reîmpingi?… Ah, Amelio!… nu’mi nega compătimirea ta!…un cuvânt!… un singur cuvând din buzele tale mă va face fericit.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(lăcrămând)</stage>
+            <p>Miron!… aibi compătimire!… Ah!… aceste lacrimi sunt numai pentru tine, amorul tău mă face să plâng</p>
+            <stage>(cade pe fotel)</stage>
+            <p>.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(îngenuchind)</stage>
+            <p>Amelio! tu ești tesaurul vieții mele, tu’mi ești cel mai prețuit odor. Acum, acum sunt fericit</p>
+            <stage>(îi sărută mâna).</stage>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(redicându-se dinpreună cu Miron)</stage>
+            <p>Ah, Miron! te am iubit, și te iubesc; dar te rog nu mă condemna: amorul m’a îmvins</p>
+            <stage>(aclină capul pe brațul lui).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Brațele mele strâng o ființă cerească la peptu’mi înamorat.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ah! ce azu?…</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu e nimic, Amelio!… de ce te temi?…</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Mi se pare că auzu o voce!… Dumnezeule! de va di bărbatul meu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>El e la vânătoare.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Dacă va auzi despre această visită?… Ah! îmfricoșate visuri… Lasă-mă, Miron, depărtează-te… și… mă uită.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio!… fața ta e trpărită în inimă’mi… și nu voiu putea să te uit.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Destul, destul, de’mi ești amic. Te jur pe ce’ți este sant, pe amorul nostru, depărtează-te de castel… și… chiar… de astăzi!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Să mă depărtez, Amelio!… nu, nu pociu; acum, acum, când mă simț în sânul amorului, însuflețit de o bucurie triumfătoare? Ah!…nu pretinde aceasta de la mine.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>De se va observa absența ta, de va avea Comitele cel mai mic prepus, atunci locul desfătării poate să’ți fie mormânt!…Ah! Miron, depărtează-te: aici te așteaptă moartea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Moartea?!… și ce’mi va folosi viața departe de tine? Ah, Amelio!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(intrând)</stage>
+            <p>Comitele s’a întors.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ah! Dumnezeule!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Peste un moment este aici.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Supt perdută!</p>
+            <stage>(plecând)</stage>
+            <p>Adio</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(cu desperare)</stage>
+            <p>Domnule, te ai arătat cu mare însolință; asta nu așteptam de la Dumnea-ta.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Pentru Dumnezeu! tăcere. Te rog ori ce vei fi auzit ține în secret și’ți voiu fi datar mai mult de cât viața; de Terezo, vei fi fericită… Eu mă’ntorc acum la vânătoare, și grăbindu’mi pașii voiu ajunge pe ceilalți. Adio</p>
+            <stage>(vede biletul pe masă)</stage>
+            <p>Ah!… biletul</p>
+            <stage>(îl ea și ese).</stage>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(singură)</stage>
+            <p>Toate le am auzit Miron e înamorat de Amelia, și amorul meu să fie neprețuit!…Ah Dumnezeule!… o orfelină e tot d’auna nenorocită… și ce?…eu copilă din popul, adoptat de părinții Comitesii să puiu temeiu pe amorul unui om nobil! dar nu; nu voiu suferi un asemenea desprețu; sunt tânără, cultă, mă simțu demnă de d’ânsul; deffectul averii ar fi putut să rumpă cununa unui amor; însă Dumnezeu ’mi a păstrat un omu și puse într’ânsul un deposit! ș’apoi o femee măritată să rivaliseze cu mine? A! ce debilitate, dar așteaptă ambițioaso.</p>
+            <stage>(să uită pe fereastră)</stage>
+            <p>A! s’a depărtat; prea bine, această surpică îmi va servi, pentru astă dată prerunseiu plăcerea amoresilor. O minciună combinată bine, e de mare prețu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Pe cum văzu, nu suntemu toți: Comitele și Vernei au perit dintre noi, Miron a remas în derptu. Să’i așteptămu.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Ai dreptate, amice, să’i așteptămu; până ce or veni să gustu puțin repaos p’această verdeață.</p>
+            <stage>(către ceilalți)</stage>
+            <p>Băeți, odihniți-vă, puțintel.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Așa zău! eu sunt rupt de ostenitu!</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Te crezu; tu ești tot d’auna celu din urmă la lucru și celu din tâiu la odihnă.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Ce felu, Domnule, nu portu eu câtu e zioa armele Domniei-Voastre? ș’apoi vântalu  cine’lu duce în spinare pân’ la castelu?</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Da, da, ai cuvântu! Câtu pentru vânatu, astăzi vei fi scutitu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Eu voiu fi scutitu; dar spinarea mea nu.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Vezi că n’avemu nici unu vânat.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Așa?…e!… asta n’o știeam.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Umblarămu două ore întregi prin păduri ca nebunii fără să vânămu ce-va. nu sunt mulțumitu de locu cu zioa de astăzi.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Mă miru cumu Domniea-ta, vânătoru așa de bunu, să nu…</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Nu’mi a eșitu în cale nici măcaru unu epure.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Cumu să’ți iasă, nu știi, Domnule, că epurii sânt fricoși?</p>
+            <stage>(toți râdu)</stage>
+            <p>Ce râdeți? socotiți că nu cunoscu firea loru?…E…e… știu eu prea bine; și ast’ dimineață am văzutu epuri, și încă de cei mari.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Și nu’l ai pușcatu?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Era p’aci să pușcu unulu, dar m’a zărit; și până când să’mi umplu pușca, elu fugise.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Bunu vânătoru ești, băete!</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>La dracu, oamenii aștia nu mai vinu.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Cine știe pe unde ori fi retăcindu.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Apropo, pe Miron nu’l am văzutu de azi-dimineață.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>A remasu în apoiea noastră, poate se va fi întâlnitu cu ceilalți; într’adevăru și pe mine mă supără întârzierea loru. Petruț, dă semnu cu cornul celoru depărtați ca să ne poată găsi.</p>
+            <stage>(Petruț se scoală Căpitanul vede două persoane)</stage>
+            <p>A! întoarce-te, e de prisosu semnulu, văzu două persoane îndreptându pașii spre noi, de nu mă înșelu sunt ei, așa e; dar Miron nu e cu d’ânșii.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(uitându-se)</stage>
+            <p>Într’adevăru, ei sunt… Comitele și Vernii!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Nu cumva aducu ce-va vânat?!…</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>A! iatăi!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Ajunserămu și noi.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Unde a’ți fostu pân’acumu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Am văzutu niște caprioare și le am urmăritu, însă fără nici unu succesu.</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>Dar Miron, unde a remas?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Ce, au nu e cu voi? nu știți ce s’a făcutu?</p>
+          </sp>
+          <sp who="#capitanul">
+            <speaker>CAPITANUL</speaker>
+            <p>A peritu de o dată, unde? nu știmu!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>E cu neputință să piară nevăzutu de cine-va!</p>
+            <stage>(către vânători)</stage>
+            <p>Ei, băeți, n’ați văzutu pe Domnul Miron, nu știți ce s’a făcutu?…Ce felu? sunteți mulți de nu’mi respundeți?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Eu… Domnule?… m se pare că… l’am văzutu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Ei bine.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Adecă într’adevăru nu pociu spune.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Ce nu poți spune?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Că s’aru fi întors la Castelu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>La castelu?… nu pociu să crezu!… și pentru ce nu’mi ai spusu îndată?</p>
+          </sp>
+          <sp who="#ferdinand și vernei">
+            <speaker>FERDINAND ȘI VERNEI</speaker>
+            <stage>(retrași la o parte, vorbescu).</stage>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Să mă erți, domnule. Îți mărturisescu, eu… nu știu dacă, într’adevăru, s’a întorsu dumnea-lui la castelu; așa mi se pare.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Cară-te, neghiobule.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>Mai bine era să fi tăcutu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Bună cursă pentru Domnulu Miron.</p>
+            <stage>(tare)</stage>
+            <p>Nu te supără, amice, sărmanulu omu nu se știe esprima; eu îți voiu esprima cugetulu său: elu voia să zică că Miron s’ar fi depărtat cu repeziciune de soțietate ținând spre castelu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Da, Domnule, așa voiam să zicu.</p>
+            <stage>(în parte)</stage>
+            <p>Cum dracu află gândul meu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Din ce causă s’ar fi dusu la castelu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>La această întrebare îmi va di cu greu a’ți răspunde!</p>
+            <stage>(încetu)</stage>
+            <p>Poate că ’l fi attrasu magnetulu amorului.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>A, a, a, înțelegu, înțelegu acumu. Tereza, tânăra copilă! fie fericită în amorul său!… însă… așa de curându să fie ea răpită de amoru? Hi, hi, hi…</p>
+            <stage>(uitându-se la Vernei ce sta în uimire)</stage>
+            <p>Ce ai, Vernei, de ce te-ai întristatu? nu cumva ești și Domnia-ta unulu din adoratorii ei?… ș’acum… gelosiea…</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Te înșeli, amice, pentru ast’dată gelosia e departe de mine; despre această te pociu convinge prea lesne: eu cunoscu pe Mironu de unu june ambițiosu, și ca astfelu, nu crezu că se va mulțumi cu amorulu unei gubernante.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Domnule, esplică’mi această enigmă.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Eu crezu că m’amu espicatu destulu de lămuritu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(dupe o meditație)</stage>
+            <p>Aideți, Domniloru; să mergemu.</p>
+            <stage>(se ducu toți, afară de Vernei).</stage>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(singuru)</stage>
+            <p>M’au înțelesu; cuprinsu de gelosie, se ba întoarce la castelu; acolo va afla fără ’ndoință pe escelentulu său amicu, pe care’lu protegea atâtu de multu, desfătându-se în brațele unei consoarte plină de virtute, și de care se credea siguru. Ha, ha, ha, să vedemu însă ce e de făcutu și în favoarea amorului meu; cumu se începu ruinarea loru? Am să mă luptu cu unu rivalu ambițiosu, și unu soțu gelosu!… Mai ’nainte de toate să mă presentu Ameliei, să’i declaru amprulu; dar de ’mi va refusa?… nu, nu va cuteza. Ori cumu, caută să mijlocescu o ceartă între amândoi rivalii, ș’atunci triumfezu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>E…e…e… Dumneata ești aici! și eu te căutam în toate părțiel.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ce vrei cu mine?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Domnule Comite vrea să’lu însoțești, până la castelu; m’au trasu la o parte și’mi a vorbitu încetu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Și ce’ți a zisu?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>’Mi a zisu, să te cautu, și să’ți spuiu că te așteaptă la crucea de piatră; dar să nu te vază cei-lalți domni.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Unde sunt ei acumu?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Au reînceputu vânătoarea Comitele așteaptă până ce s’oru respândi prin păduri.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Să’lu însoțescu! prea bine.</p>
+            <stage>(tare)</stage>
+            <p>Petruț, vrei tu să mă îndatorezi; ’ți voiu plăti bine.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Ce să facu, Domnule?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ești siguru că Domnulu Miron s’a întorsu la castelu?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>L’am văzutu prea bine.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Așa dar dute; ia calul meu și te răpezi pân’a casă, de va fi Miron acolo, să te întorci numai de câtu; eu te așteptu în aleea cea mare.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Mă ducu, Domnule.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Pe drumul celu scurtu, în câte-va minute ai ajunsu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(eșindu)</stage>
+            <p>Prea bine.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Te așteptu</p>
+            <stage>(Petruț ese).</stage>
+            <p>Acumu să cautu pe Comitele, să’lu țiu cu vorba, până ce se va întoarce Petruțu!… Ha, ha, de minune!… A! vânătorii…</p>
+            <stage>(ese pe dreapta, Comitele s’arată în fundulu scenei).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(singuru pășește încetu meditându.)</stage>
+            <p>Toată vorba din buzele acestui demonu ia unu sarcasmu, și’mi ațâță unu prepusu. Ce voea elu să zică?… Din ce causă să se fi depărtatu Miron? nu știu ce să cugetu! cumu să’mi esplicu aceasta mai bine? Dumnezeule, de va fi vorbitu Vernei adevăratulu?… de ce s’aru fi întorsu la Castelu?…reflecsiuni fatale!… cându îmi aducu aminte cu câtu amoru și entusiasmu îmi vorbea Amelia despre Miron, cându cugetu la puterea lui către d’ânsa, mii de simțiri sfâșiitoare îmi pătrundu inima! O femei, femei! voi ați suptu din sânulumaternu modulu d’a’nșela pe bărbații voștri. A! nenorocite, de vei fi cutezatu a păta onoarea casei mele, nimei nu te va putea scăpa mintea cu așa cugetări deșarte? voiu să mă comvingu mai bine</p>
+            <stage>(dupe o pausă).</stage>
+            <p>Da să plecu!…</p>
+            <stage>(Uitânduse în dreapta, observă ceva)</stage>
+            <p>dar ce văzu?…unu omu în costumu vânătorescu!… nu va fi oare dintre vânătorii mei?…nu vine spre mine, apucă în dreapta, se întoarce, în apoi, stă în locu; fără îndoire au retăcitu. A! mă observă, își îndreptă pașii spre mine.</p>
+            <stage>(cunoscând pe Miron)</stage>
+            <p>O ceru! ce văzu? elu este, elu!… Miron!… o fericire!…</p>
+            <stage>(Miron intră)</stage>
+            <p>A!… Miron…! amiculu meu!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Domnia-ta aici? ce s’a întâmplatu? unde sunt cei-lalți?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Voiamu să mă întorcu la castelu. Ah! frate, de ai ști!… eram într’o amăgire; dar acumu supt luniștitu, presența ta îmi redică totu prepusulu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(în parte)</stage>
+            <p>Prepusulu!…</p>
+            <stage>(se retrage).</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Dar tu te pari mișcatu!… de ce această tăcere?…te văzu a fi tristu, indispusu; ce ai Miron, întâlnirea noastră, nu e destul subiectu de bucurie pentru tine.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(confusu)</stage>
+            <p>Ți se pare, eu, nu sunt tristu. Frumusețele naturii m’a  pusu în mirare.</p>
+            <stage>(Cu prefacere)</stage>
+            <p>Vezi ce locuri Romantice</p>
+            <stage>(uitânduse în toate părțile),</stage>
+            <p>cumu curge de linu râulu acesta, cumu ne surrâdu florile plantate de puternica natură! ce mirosuri plăcute au. Cumu văzu între mulțimea carpeniloru sunt și arburi fructiferi; așa e; să vedemu ce gustu au poamele loru</p>
+            <stage>(scutură dintr’unu ramu, câte-va poame cadu josu, elu scoate batista din buzunaru ca să puie într’ânsa, unu biletu cade afară, Comitele, ce ta la spatele lui, redică biletulu fără să fie observatuu de Miron, se retrage și citește încetu).</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>O ceru! unu biletu adresatu Ameliei! visezu eu?… Ah! dar nu, nu mă înșelu, iată cumu îi jură amorulu. A, ticălosule!…</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Dumnezeule! minunate supt lucrurile tale! Acestu pomu selbaticu, ce fructe produce! Totu cuprinsul acesta e alu Domniei-tale, frate?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Eu! alu tău frate?… nerușinatule, mai cutezi pângări acestu nume? Ce te putu îndemna la crimă așa orendă? asta e resplata amicii ce’ți consecrasemu?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(cu mirare)</stage>
+            <p>Pentru Dumnezeu! ce auzu? ce va să zică aceasta? Amice, eu…</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(întrerupându’lu)</stage>
+            <p>Nu cerca a te scuza, însuși fapta ta te tradă; cunoști acestu biletu?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ah!… sunt perdutu!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Îlu cunoști însfârșitu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Astâmpărăți furia, și mă ascultă: îmi precunoscu necuviința și nu voiu cerca să mă scuzu; cu toate acestea juru pe Dumnezeu, pe ce’mi este mai sântu, Amelia e innocentă.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Amelia e innocentă zici? ei bine, crezu; dar ori cumu purtarea ta e de condemnatu, ai călcat cea mai sântă datorie, ai cugetatu în contra onoarei mele; și, voiu satisfacere.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Asupră’mi, îți poți vărsa mânia; lovește, și ți resbună.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>O! asemenea faptă nu e demnă de mine, de și într’o treaptă mai ’naltă de câtu tine; însă pentru respectul ce’mi sunt datoru de încrederea ce am avutu în sentimentele tale, pentru naționalitatea noastră, și stima ce am către ori cine poartă numele de Românu, ne vomu bate. Scoate’ți pistolulu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Voiu aștepta fără sfială momentulu din urmă, propunerea Domniei-tale nu mă îmfiorează, și te înșeli de vei crede că mă temu de moarte. Eu îmi recunoscu crima ce numai ne încercarea juneței a pututu naște, și nici că voiu a mă justifica; dar îți mai repetu: Amelia e innocentă, și speru că vei fi atât de generosu ca să nu maltratezi o femee ce te stimă, și te iubește. Acumu lovește, Domnule, eu îți dau voe, și poți fără mustrare, de cugetu a deșărta pistolulu asupră’mi.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Nu priimescu; scoate pistolulu’ți zicu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Stau desarmatu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Apără-te.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Așa dar, mori</p>
+            <stage>(deșartă pistolul).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(dând unu țipăt)</stage>
+            <p>A!…</p>
+            <stage>(cade vulneratu).</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(dupe o pausă, confusu de spaimă, se uită la cadavru)</stage>
+            <p>Dumnezeule, ce văzu?… elu a căzutu mortu… Eu am pușcat pe singurul meu amicu, p’acela, a cărui viață eram datoru a păstra, pe care’lu iubeamu mai multu de cât pe minie însu’mi!…vai!… ce sarcină îmi apasă sufletul!…</p>
+            <stage>(în deliru)</stage>
+            <p>Nu, nu poate di, visezu?… Ah capulu meu!… nu e adevăratu!… eu să’lu amoru ca un bărbaru?… cine va cuteza să zică?… se poate presupune în mine o inimă atâtu de stricată?… să ajungu la atâta înjosire?…</p>
+            <stage>(cu totulu în deliru)</stage>
+            <p>A!… nu credeți!… minciuni!…nu… eu nu l’am… da eu l’am omorâtu!… iată-mă omucidu!…Ah!… ce am făcutu?… Dar ce auzu?… tumultu!… pasuri… vinu să mă târască la escafodu!…ha…a…a…’miamu rezbunatu!… O! nu, nu mă delăsați amicii mei!…ha!… furiile tartarului, mă persecută.</p>
+            <stage>(se apără)</stage>
+            <p>Depărtați-vă ticăloșilor!…eu nu sunt omucidu… lăsați-mă, lăsați-mă</p>
+            <stage>(sare în apă)!</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(deșteptându-se se ridică cu încetulu)</stage>
+            <p>Ah! ce somnu adâncu, ce letargie, ce visuri fatale!… Fantazii, iluzii, apărea ’naintea ochiloru mei!… eram pusu subtu pază, fuiu judecatu de moarte, mă târâră la supliciu, și când era să’mi sboare capul cu securea calăului; de o dată unu bătrânu căruntu se îmfățișă…</p>
+            <stage>(vede mâna sângerată)</stage>
+            <p>Dar acestu sânge! supt vulneratu la brațu! puterile mă delasă!… Elu a deșărtatu pistolulu său asupră’mi</p>
+            <stage>(zărește pe Comitele în apă ce se luptă cu valurile, la începutu nu’lu cunoaște).</stage>
+            <p>O ceru! unu omu se luptă cu valurile apeloru</p>
+            <stage>(se apropie de țărmu și’lu vede).</stage>
+            <p>Ah!… Dumnezeule!…acestu nenorocit este elu, amiculu meu; ajutoru!… totu mai tare…acum… se afundă!…Ah!… elu m’au crezutu de mortu, și pentru mine… Ha!… nu se mai vede… a peritu!… și eu sunt causa peirii sale… ce crimă am făcutu!… Ah! Dumnezeule!…</p>
+            <stage>(vrând să s’arunce în apă cade josu).</stage>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(singuru)</stage>
+            <p>Iată zece luni de cându imenulu sântu a unitu, amorul meu prin legăturile consoțiale, de cându începuiu a gusta orele vieții mele ca amantu, și soțu unei femei atâtu de sublime, pe care o adoramu, o stimamu, o iubiamu; care era unica plăcere, singurul geniu alu juneței mele, și care acumu, împresurându-mă pe totu momentulu cu grațiile sale, mă face celu mai ferice consoarte, mi se ardicară toate suferințele, mi se alinară toate durerile, reîntorcândumu pacea… Pacea?…Ah! aceasta îmi lipsește, pacea e depărtată de mine, și va fi pentru totu d’auna!…Dumnezeul meu, atâtea fericiri, atâtea plăceri cumu de nu potu să restoarne insidiile unui sentimentu, atâtu de micu? să’mi facă plăcută această prețioasă, dar totu d’odată și fatală pace?… O!… ea este imfirmitatea suffletului meu…Ah! simțu că turburarea’mi reîncepe!… O singură culpă să mă mustre atâtu de multu!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(văzându’lu tristu zice la o parte)</stage>
+            <p>Iară în meditații!…</p>
+            <stage>(se apropie)</stage>
+            <p>Mironu, te căutamu…! Ah! eartă-mă, poate că te am turburatu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce zici, Amelio? presențea ta poate să aducă neplăcere unui soț atâtu de fericitu?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ah! Miron, zici că ești fericitu? dar suferințele, întristarea, ce observezu pe fie- care zi în trăsurile tale, mă facu să dubitezu despre amorul tău. Unu soțu, unu amantu poate s’ascunză durerile sale de consoartea lui?… A, Miron, câtu ești de nedreptu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio, ai putea să te îndoești despre mine?… Nu, nici o dată nu voiu fi atâtu de crudu ca să abuzu de amorulu conjugalu!… te amăgești, Amelio, motivulu confusiei mele e causatu de occupații esterne; dar să lăsămu acestu discursu. Spene’mi ce visite ai avutu eri în absența mea?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Domnulu Capitanu ’mi a făcutu această onoare aducându’mi totu d’odată testimoniulu medicului, și alte atestate ce adeverescu moartea Comitelui, și întărescu căsătoria noastră.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(în parte)</stage>
+            <p>Ah, ce suvenire!…</p>
+            <stage>(tare)</stage>
+            <p>Unde sunt acele hărtii?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Le am pusu între actele tale. M’ai zicea că are să se consulte cu tine și despre alte lucrări prea importante.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu’ți a comunicatu nimicu?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>N’am vrutu să mai aflu alta.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Mă voiu duce chiaru astăzi la d’ânsulu.</p>
+            <stage>(afară s’aude o trăsură)</stage>
+            <p>O trăsură se opri în curtea noastră, cine poate să fie?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Iară visite!… nu pociu fi singură cu tine nici unu pătrariu de oră; ș’apoi cum pocu să priimescu sunt în neorândueală.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Du-te de’ți fă toaleta, Amelio; eu te voiu escusa, însă curându, ce știi cine este.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(anunțând)</stage>
+            <p>O Doamnă streină așteaptă în antecameră, și voește să intre.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Spunei să aibă puțină îndulgență, și să erte căci soțiea mea fiindu indispusă, nu poate primi nici o visită; de are însă plăcere să mă vază, eu sunt paratu a o servi. Mergi curând</p>
+            <stage>(Petruț ese, către Amelia).</stage>
+            <p>Amelio, dute să te prepari.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(întrându confusu)</stage>
+            <p>Do…o… omule!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce e?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Pre legea mea Doamana asta să pare a fi smintită.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce zici?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Anunțându’i neputința priimirei dupe cum’mi a’ți ordinatu, se păru ofensată; auzindu numele Dumitale se făcu palidă, și mă întrebă cu unu glasu tremurătoru: cine e indispusă, muma sau soțiea Domnului Miron? Respunsulu meu fu: soțiea Domnealui. La cuvintele acestea, se văzu a fi surprinsă, nici c’așteaptă să mai vorbescu, ci sări asupră’mi ca unu tigru îmverșunat, zicându’mi că mintu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(în parte)</stage>
+            <p>Ce misteriu e asta?</p>
+            <stage>(tare)</stage>
+            <p>să vie</p>
+            <stage>(Petruț ese).</stage>
+            <p>Ce femee poate să fie, de se ’nteresează atât de multu de mine?…A!… vine…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>(cunoscând’o) &lt;/didascalie&gt;  A!… Domnișoara Tereza!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Domnulu Miron!… visita mea, se vede a fi suprinsă pentru Dumneata, precumu, și presența Dumitale în acestu locu e pentru mine. Nu credeam să te revăzu în otelulu Doamnei Comitesii.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Mă eartă Domnișoară; visita Dumitale de și e o raritate, dar nu poate fi surprinsă, fiindu familiară; adevăratu, Dumneata, de la despărțirea noastră nu ne ai onoratu cu nici o crisoare; și, m’am temeutu…</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Te ai temutu a mă revedea? te credeai liberatu de mine? dar nu, eu supt esactă la promisionea mea; am păstratu celu mai viu sentimentu, celu mai înfocatu amoru pentru Dumneata. Ah! Miron, de ai citi până în fundul inimei mele, cându ’mi ai cunoaște suferințele! Vezi, mai ’nainte de unu momentu mă aflamu în cele mai încântătoare visuri; sângele a înghețatu în vinele mele cându am auzitu de la valetul tău… Ah! înfruntă, pedepsește p’acestu ticălosu; cumu au cutezatu am spune minciuni, a mă comvinge despre însurătoarea ta; asta nu poate fi, nu, nu suferu să fie adevăratu! Ah, cumu m’au amăgitu! dar nu crezu, sunt sigură că mă iubești; și tu, tu nu ești însuratu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Un asemenea limbaju nu pociu auzi în pozițiea mea d’acumu. Eu ’ți cunoscu sentimentele, și stimu amorulu ce’mi acorezi; m’așu crede celu mai ferice cându s’aru putea să mă adornu cu junele Dumitale amoru; acum însă nu’mi mai remâne altu de câtu să felicitezu p’acela ce va putea să câștige inima și mâna Dumitale.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Miron, nu te pricepu! ce vrei să zici? esplică-te.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Sunt însuratu.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Însuratu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Așa! sunt însuratu, Terezo. Cu toate acestea, am păstratu pentru Dumneata unu amoru fratenu; vomu fi cei mai sinceri și intimi amici.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Nu, eu nu voiu fi amică unui amantu perfidu; te voiu persecuta până în mormântu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(cu mirare)</stage>
+            <p>Terezo!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Cumu ai potutu avea inimă să amăgești junețea mea, amorulu meu, și să preferi mâna unei văduve? ai pretinde să văzu pe rivala mea desfătându-se în brațele amantului meu? Nu, nu pociu suferi aceasta; inima mea palpită numai pentru tine: te iubescu. Ah, Miron, fără tine nu voiu să trăescu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Terezo, ai uitatu că sunt însuratu?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ah! nu mai repeta unu lucru pe care voiu să’lu uitu; acestu pretestu nu te escusă, nu vei putea să refuzi amorulu meu; voiu înfrunta totu ca să rănescu ne un amantu de la care depinde esistențiea mea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Terezo, te amăgești! posițiea mea nici o dată nu m’au ertatu a’ți declara amorulu cându inima’mi palpită de mult pentru Amelia; dar deacă puterea mea cea familiară, surrâsul meu innocent, au atrasu amorulu Dumitale, atunci n’ai dreptu a mă mustra ș’a’mi face atâtea împutări.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ah! astfelu e secsul vostru; și cei mai delicați curtesani; sunteți periculoși; vă arătați ’naintea femeiloru cu maniera cea mai sublimă, vă înjosiți până la gradulu servirei, vă faceți sclavi amanteloru voastre, vă târâți în genunche înaintea loru, până cându care în lanțurile voastre; și dupe ce vați alinatu setea plăceriloru depravate, atunci le călcați în picioare fără cea mai mică compătimire, și râdeți de judecata unei femei</p>
+            <stage>(plânge).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Terezo, aceste lacrămi!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Te temi să nu te trade’naintea Ameliei!…A văzu ce plasă de cugete poartă sânulu tău!…Căci de multu m’am amăgitu!…Miron, am meritatu eu acestea? Dar nu, nimicu nu’mi va resista, sunt jună, avută, te iubescum și ceru pretinsu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ei bine Terezo, ce pretinzi?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Să corespunzi la amorulu meu, să te smulgu din brațele Ameliei, să mă urmezi.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Pentru Dumnezeu, ai uitat?…</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(întrerupându’lu)</stage>
+            <p>N’am uitatu de locu secretulu ce’mi ai încredințatu în crisea mortului tău; delirulu te a trădatu; eram dupe ușa secretă din camera ta, am auzitu totu</p>
+            <stage>(încetu):</stage>
+            <p>duelulu între Comitele și Domnulu Miron, biletulu de randevu alu Comitesii adresatu către Dumneata, e în mâinele mele.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(comfusu)</stage>
+            <p>A!…tăcere!…</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Vrei să’mi urmezi?…Pân’la zece ore ’ți lasu timpu să meditezi proiectulu meu, să’ți alegi amorulu sau resbunarea mea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(văzându pe Amelia)</stage>
+            <p>Dumnezeule!…e Amelia!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(salutându)</stage>
+            <p>Poate că presența mea în acestu minutu era neașteptată, și ca astfelu superfluă; dar vă rogu să mă ertați pentru îndrăsneală.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Visita Dumitale ne aduce plăcere.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ocupă, Domnule, unu scaunu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Îți mulțumescu, Doamnă</p>
+            <stage>(șezându).</stage>
+            <p>O novelă de mare interesu m’a încurcatu să fiu spărătoru prin această visită estraordinară.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Din contra, visita Dumitale ne a fostu tot d’auna plăcută.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Frasea aceasta mă îndatorează. Novela ce voiu să vă spuiu e privată, și ca ș’unu secretu; până acumu numai eu singuru o cunoscu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ne interesează prea multu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Așa e, numai pe Domniea-Voastră vă interesează mai cu prisos.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Nu mai pe noi, Domnule!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Nu voiu esplica: sunt șese-spre-zece luni trecute de cându a muritu consoartele Dumitale; acestu evenimentu ne au ținutu până acumu într’o opinione fatală, și în amăgire despre perirea lui; sunt însă trei zile, de cându am priimitu o scrisoare în care mă înștiințează unuul din egenții mei că aru fi trecutu în părțile transalpine, unde trăește cu totulu retrasu; îmi scrie că se află într’o posiție miseră, și cugetă a se reîntoarce în patria sa. Câtu pentru cadaverulu ce s’a găsitu în pădure, cu ocasia vânătoarei, și luânduse drept alu Comitelui, s’a depusu în cemiteriulu familiei Domniei-Voastre: am aflatu că era alu uniu țeranu ce chiaru în acelu locu unde se presupunea că a peritu Comitele, fu atacatu de lotrii.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Dumnezeule!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(la o parte)</stage>
+            <p>Ce auzu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Așa, Domnii mei, ne înșelarăm cu moartea Comitelui.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Unde e scrisoarea aceea, Domnule?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Din întâmplare am uitat’o a casă pe scriptoriu; dar o voiu aduce, și veți vedea dacă vorbescu adevărulu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Dar atestatulu medicului, probele oamenilor ce erau de față cându s’a depusu cadaverulu în coșciugu, actulu Consistorialu, ce decide maritagiulu Comitesii?…</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>E ilegitimu, actele sunt annulate.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce vrei să zici cu aceasta, Domnule?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Trebuea să fimu mai circonspecți, să cercetămu mai seriosu unu lucru atâtu de importantu, și să ne asigurămu mai bine de asemenea întâmplări. Adevăratu, amorulu adessea orbește pe omu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Esplică-te, Domnule!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Vă mai repetu că Comitele este în viață, pentru astă dată, nu vă pociu servi cu altă esplicare; poate, că mai târziu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu se poate, nu e adevăratu, toate sunt minciuni.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Cu ce cuvântu zici asta, Domnule?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Cu ce cuvântu?… da, e minciună, calomnie, inventate de inimicii mei; este o imfamie, am probe și voiu îmfrunta.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>S’a prinsu în cursă.</p>
+            <stage>(Tare)</stage>
+            <p>Așa dar Dumneata afirmi moartea Comitelui, prin urmare ești singuru de d’ânsa; prea bine, prea bine, Domnule!… Eu mă retragu și voiu aștepta să văzu o dată lemurirea acestui misteru, câtu pentru acum speru că generositatea Doamnei Comitesei și a Dumitale, mă va escusa, dacă venirea mea a fostu deșartă.</p>
+            <stage>(Salutându)</stage>
+            <p>Sunt servulu Dumnea-voastră</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(dupe o pausă)</stage>
+            <p>Dumnezeule, ce situație!…Ah! Miron! de va fi spuindu Vernei adevărulu? dacă Comitele va fi trăindu?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(comfusu)</stage>
+            <p>Cine?… Comitele?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Începe ’ami fi teamă d’acestu sceleratu, cuvintele lui mă înspăimântă.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ești copilă, Amelio; ce ai să te temi? de ce acordezi atâta încredere unui monstru? nu vezi că totu cuvântulu ce pronunță e sarcasmu, e minciună? sunt siguru că elu a imventatu ș’această noutate. Acestu imfamu meditează pe fie-care momentu o nouă crimă,</p>
+            <stage>(elu se accupă numai cu perderea noastră).</stage>
+            <p>Știi că este inimiculu meu, știi că’mi am lăsatu postulu numai ca să nu asistu la congregațiuni subt presidia lui; ai uitatu că persecuțiile sale fură causa dimisiunei mele? M’a costatu prea multu a mă retrage de amicii  mei, dar n’am vrutu să’i arătu că sunt ignavu</p>
+            <stage>(lașu);</stage>
+            <p>’mi am păstratu drepturile ce ’mi a remasu de la strebunii mei într’această patrie, într’o egalitate cu a le magheariloru; am arătatu că Românulu sacrifică viața ca să’și susție dreptulu; și unde se cere lingușire, trădare de patrie, elu refusă ori ce dignitate, ori ce tesauru; și tu, tu ești atâtu de timidă, în câtu o minciună te aduce în estasu? ai crezutu că Comitele trăește?… Nu’ți fie teamă, elu a muritu, viața lui a apusu pentru tot d’auna; fii sigură, Amelio, eu l’am văzutu muri…</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(cu frică)</stage>
+            <p>Ce zici! tu l’ai văzutu murindu?…Ah! Miron mă faci să tremuru.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Mă iartă, sunt comfusu. Voeamu să zicu, că am cunoscutu prea bine cadavrulu, am pututu să distingu toate trăsurile feții; și ce te poate înspăimânta, cându eu, eu sunt liniștitu? Tu vezi, amica mea, toată lumea se opune fericirei noastre; cu toate acestea eu nu sunt desperatu, sunt celu mai fericitu soțu, nu negligu unu momentu în care să pociu gusta amorulu conjugalu; dar acumu, nu știu de am, pressența acestui imfamu, aerulu său celu picantu mă îmvenină; îmtr’adevăru mă simțu fatigatu! ’mi aru fi de neapăratu puținu repausu. Însă am să facu visită Capitanului; ziceai, Amelio, că va veni la noi astăzi? mă ducu să mă consultu cu d’ânsulu, să autenticezu actele.</p>
+            <stage>(În parte)</stage>
+            <p>Da, caută să mă asigurezu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Miron, mă însărcinezu eu cu misiunea aceasta; voiu duce actele amicului nostru, îlu voiu ruga să ne asigureze viitorulu, îlu voiu imforma despre calomniile nescocite de Vernei, și crezu că nu’mi va refusa ajutorulu său. Elu e unu omu respectabilu, bărbatu de merite, de virtute; are stima publică. și protecțiea sa va apăra onoarea noastră; de va contribui în procedura aceasta, sunt sigură că vomu reeși a ne opune ultrageloru acestui sceleratu, vomu putea să îmfruntămu ori ce pericolu, cu unu cuvântu iau asupră’mi toată responsabilitatea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Așa dar să nu perdemu din timpu; dute, Amelio, te prepară, de visită; eu voiu ordina să pue caii la trăsură, vei lua cu tine unu servu; vezi, nu uita să mă escuzi, roagă’lu să vie la noi îndată ce’lu erta occupațiile.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Îți voiu supleni loculu cu cea mai mare essactitate, dar și tu să’mi promiți că vei aștepta întoarcerea mea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Voiu aștepta.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Acumu mă ducu; adio, Miron</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(singuru, după o pausă):</stage>
+            <p>Ah, câte imfortuni balanță asupra capului meu!… imfamulu Vernei nici îndrăsnește să calce praulu locuinții mele, ce infamie! subtu ce pretestu a venitu demonulu mascatu se’mi turbure pacea, ce abia începusemu a simți; ș’apoi cuteza să se declare de amicu!… Ah, Demone amăgitoru! de ce n’am pututu fi atâtu de insolentă ca să te dau afară ca pe unu mișelu de rându</p>
+            <stage>(sună)?</stage>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(intrându)</stage>
+            <p>Ai sunatu, Domnule?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Se pue caii la trăsură: Doamna va eși, unu servu s’o însoțească, tu remâi a casă, mergi</p>
+            <stage>(Pătruțu ese).</stage>
+            <p>Ah!… sunt în neastâmperu, situația minții mele era atâtu de retăcită, în câtu ’mi am perdutu presențea; mă temu, nu cum-va paloarea mea să mă fie trădatu în aintea lui Vernei? îmfocarea și delirulu să mă fie încusatu la Amelia?…</p>
+            <stage>(dupe o pausă)</stage>
+            <p>Comitele să trăească? peste putință!… Eu l’am văzutu luptându-se cu valurile undeloru, am asistatu la țermuri până ce a peritu din ochii mei, am văzut cadavrul plutindu pe apă; dar să nu mai cugetu la d’ânsulu, să alungu din minte’mi această imagină teribilă! Nu, nu pociu; e tipărită în inima mea, umbra lui mă persecută; dar Dumnezeu îmi vede inocența, eu nu’i am căutatu moartea, elu o destinase mie, și a aleso pentru sine. Dar cine mă va crede? cine mă va apăra? nimini, nimini! toți voru fugi de mine, ca de unu criminalu! Ah, Dumnezeule! de așu afla un assilu, m’așu retrage în celu mai adânc dezertu! dar unde, unde îl pociu afla? nu esistă nici unu unghu nepătrunsu de ochiulu divinu!</p>
+            <stage>(sună)</stage>
+            <p>Ah!… o litargie mă oboară dupe picioare!</p>
+            <stage>(Pentruțu întră)</stage>
+            <p>Remâi în salonu, eu sunt în camera mea</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(singuru)</stage>
+            <p>Ce’o fi oare? Domnulu nostru n’a fostu nici o dată așa de supăratu ca astăzi; Doamna parcă era afară din minte cându am urcat’o în trăsură; Domnișoara cea tânără, gândeai că e unu tigru îmverșunatu, astfelu se restea la mine, mi să perea cunoscută. Umbletulu trupulu…</p>
+            <stage>(gândindu-se)</stage>
+            <p>nu știu cine o fi, n’am pututu să’i văzu fața de voalul ce o acoperea; ’mi a zisu că vine mai târziu, caută să aflu eu cine este. Se vede treaba că Domnișoara asta, și Vernei ăla, indispuseră atâtu pe Domnulu câtu și pe Doamna. A! ce omu rău e Vernei, n’așu putea fi în servițiulu lui pentru mare lucru; de cându cu vânătoarea l’amu urmatu, parcă’mi aducu aminte de vorbele lui cele aspre cu care ’mi ordinea: să ’lu însoțescu pretutindenea, să mă uitu cu băgare de seamă la pasurile Domnului Mironu, și cându îmi smulge pistolulu ce găsisemu în pădure, unde am aflatu și pe Domnulu nostru de l’am adusu până la castelu mustrându-mă pentru că n’am vrutu să ilu dau. Ufu, ce omu afurisitu! dar nu e mirare, cei mai mulți magheari sunt astfelu: Să vezi pe un jude nobilu cându face vr’o revisie prin sate, fugu țăranii de elu ca de anticristu! Apoiu cum să nu fugă? omenii aștea sunt fără milă, tragu și cămașa dupe bietulu țeranu!… Domnulu Miron, câtu timpu a fostu jude nobilu primariu în ținutul nostru, nu s’a văzutu în elu nici o trufie, nu s’a auzitu nici cea mai mică plângere, îlu iubea până și copilulu de la țâță; așa zău! era omu bunu, pentru că era poate Românu!… totu așa era și reposatulu Comite, ah! fiei țărâna ușoară! mai bunu omu nici că se poate; uite! cându eramu afară la Dominiu, se punea în mijloculu țeraniloru și historisea de țări streine. Ah! zău! ce fericiți am fostu atunci; adevăratu, nici acum nu ne merge rău, mulțumită cerului, n’avemu nici o lipsă, nu simțimu cea mai mică schimbare, numai d’aru lipsi o dată cercetările astea ce să facu mai în toate zilele, la castelu, la moșie, prin păduri; dar ca eri, și astăzi, n’a fostu de multu, uite! în tocmai ca în lunele cele șase din tâiu până a nu se mărita Doamna Comitesa dupe D. Miron: Vernei a venitu de trei ori și numai odată a întratu la Doamna Comitesa, erau singuri, și eu… Dumnezeu, să mă erte! am ascultatu la ușă, n’am pututu să înțelegu nici o vorbă; dar auzeamu certându–se, și astăzi am auzitu că vorbea, despre Comitele, despre o scrisoare. Toate astea nu sunt bune, zău, nu știu!… ș’apoi, pistolulu ăla îmi dă unu prepusu, d’omai veni o dată ticălos…</p>
+            <stage>(văzându pe Vernei)</stage>
+            <p>A, a, a! iată dracu! să mă prefacu, ca să nu priceapă c’am vorbitu de elu!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Unde e Domnulu Miron?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>În cammera sa.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Doamna Comitesa?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Lipsește.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Lipsește!…prea bine.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Să te anunțu Domnului Miron?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Stăi, am să’ți vorbescu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>’Mi a însuflatu o frică!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Ăsta îmi va fi de instrumestu.</p>
+            <stage>(Tare)</stage>
+            <p>Petruț, tu mă cunoști prea bine, și e de prisosu să’ți mai spuiu, rangulu, dignitatea, puterea mea, știi ce imfluință am la Comitatulu ce presidezu; ei bine, de te vei suppune la toate, de vei împlini propunerea ce am să’ți facu, îți dau 50. Fior: argintu; iar de te vei opune, te acusu, și te puiu la închisoare pe toată viața ta.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>Aole…o…o, Dumnezeule! ce vrea cu mine?</p>
+            <stage>(Tare)</stage>
+            <p>Ce să facu, Domnule?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Comitele era omu bunu, și dupe cumu am înțelesu, totu Dominiu au fostu mulțumitu de d’ânsulu, moartea lui va fi pricinuitu multă întristare supușilor săi.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Așa e, Domnule.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Vânătoarea aceea fu blestemată, alu aru trăi până astăzi; dar, cine știe, poate că și trăește!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Ce zici, Domnule? Comitele să trăiască!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Eu nu camu crezu în moartea lui!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Dar cadavrulu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>A fostu alu unui țeranu omorâtu de lotri.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Toți țeranii au cunoscutu cadavrul Comitelui, și Dumneata ai întăritu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>M’am înșelatu, ș’apoi știi, că era despuiatu, față stricată, și nami așa zicându pe nemerite, am zisu că e cadavrul Comitelui; acumu, așu vrea să’mi îndreptezu eroarea, am și pusu în lucrare proiectulu meu, am datu cele mai serioase ordini, și voru reeși cercetările mele; atunci pociu să vă reîntorcu pe stăpânulu vostru.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Și ce o să facă Doamna Comitesa cu doi bărbați?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Tăcere! va fi despărțită de Miron, și va lua iarăși pe celu dintâiu, însă am o pedecă, și numai ajutorulu tău poate să’mi o ridice din cale.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Ce să facu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Să te duci afară la dominiu, s’aduci câți-va martori care au fostu de față când s’a înmormântatu acelu cadavru; aceia, să arate că n’a fostu alu Comitelui, ci alu unui din consătenii loru. Tu vei fi în fruntea marturiloru, pistolulu ce’mi ai datu, vei zice că a căzutu de la brâulu Comitelui ce alerga prin pădure dupe o feară sălbatică; tu l’ai urmăritu pân la o distanță, și perzândulu din vedere, te ai întorsu fiind noapte; pădurile sunt mari, Comitele se știe că nu se lasa, până nu punea mâna pe vânatulu său, și prea lesne se poate crede c’a retăcitu; și cele-l-alte, lasă-le pe mine.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Cumu voiu putea să adeverezu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Mă însărcinezu eu cu asta.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>Ce omu afurisitu!</p>
+            <stage>(tare)</stage>
+            <p>A! Domnu Miron a sunatu, mă ducu să’i…</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>De vei spune unu cuvântu, ești perdutu; cugetă la suma ce’ți dau de vei ămplini propunerea mea; iar de nu, pedeapsa cea mai aspră te așteaptă; lucru nu trebue întârziatu.</p>
+            <stage>(în parte)</stage>
+            <p>Toate cercările mele până acum au fostu deșarte, am persecutatu pe Miron până ce’și a datu demissiuna, cu toate acestea nu’mi am ajunsu scopulu: să vedem dacă acestu pretestu ’mi va succede să smulgu din brațele inemicului meu pe Amelia. A! femee ambițioasă; ’mi ai refusatu amorul; dar acestu afrontu ’mi a iritatu ardoarea. A, Miron, ’mi voiu resbuna. Adevăratu, are partisani; dar puterea este în mâna mea, și ușoru pociu dispune de soartea unui Românu. (lui Petruț) Voiu veni mai târziu, să nu spui c’amu fostu aici</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(uitându-se dupe el)</stage>
+            <p>Am înlemnitu! auzi ce născocire diavolească! Comitele să trăească? par’ c’așu fi nebunu să crezu! ș’apoi vrea să mărturisescu pe nedreptu, să îmvionovățescu pe Domnulu meu. Asta n’o facu, întâmple-se ori-ce, caută să’i spuiu toate. Nu știu ce totu vorbia încetu de amor, de soartă, de Românu. E… e!… sermane! de n’aru fi bietulu Românu, ai muri tu de foame, și nu te ai îngâmfa în desfrânări.</p>
+            <stage>(se aude o trăsură)</stage>
+            <p>Ha! o trăsură intră în curte, fără îndoială s’a întorsu Doamna Comitesa;</p>
+            <stage>(uitându-se)</stage>
+            <p>se dete josu, vine, iat’o.</p>
+            <stage>(vede pe Tereza).</stage>
+            <p>A, a, nu e Doamna; e Domnișoara deadineaori. Aid! astăzi ne merge bine, priimimu totu visite posace; a, vine: mă ducu s’o anunțu Domnului, n’am plăcere să mă mai întâlnescu cu d’ânsa</p>
+            <stage>(ese în dreapta, Tereza s’arată în ușa principală).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(singură)</stage>
+            <p>Nimini. În anticameră nu întâmpinaiu nici unu domesticu. Amelia m’au întâlnitu pe strada capitalii, fără îndoire face visite. Să profitu d’această ocasie, se înceru cu delicateță naivă a’i câștiga amorulu ce’mi a inspiratu; acumu cunoscu importanța, simțu efectulu primului amoru, și acumu să mă văzu lipsită de d’ânsulu. Dumnezeulu meu! cât sunt de nenorocită! în ce abisu m’au aruncatu neîncercarea, de ce acordă junețea’mi atâta credulitate secsului bărbătescu? dar îmi voiu resbuna, îlu voiu smulge din brațele Ameliei, și chiaru de mă va costa viața. Ah! câtu de multu urăscu p’această femee, o voiu face să tremure, ’mi ba reîntoare tesaurulu ce ’mi a răpitu, și tu Miron! amantu perfidu! vei plăti cu mare prețu disprețul; dar crede, te voiu persecuta; de nu vei accepta propunearea mea, de nu vei corespunde la sentimentele mele, te voiu declara în publicu, te voiu acusa de omucidu; ș’atunci Amelia, rivala mea, femee atâtu de adorată pe care ai preferat’o, să te ascuse; dar nu va putea probele sunt la mine…</p>
+            <stage>(cu durere)</stage>
+            <p>Ah! și ce’mi voru folosi? nenorocirile lui nu’mi voru putea împlini dorința; suferințele lui, voru fi și a le mele! Ah! câtu de confusă! ce să facu? cumu să începu proectulu meu? junețea mea poate să îi pătrunză simțurile înmărmurite, îi oferescu toată averea, dispue de viața mea, dar elu va refusa! aceasta aru fi mai multu de câtu moartea: nu, nu pociu să esistu fără elu! mă voiu arunca la picioarele lui, să vază câtu de multu îlu iubescu!</p>
+            <stage>(auzindu pasuri)</stage>
+            <p>A! pasuri, el e, miron! să’mi ascunzu suferințele, să nu vază turburarea mea.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Mă eartă, Domnișoară, te am făcutu să aștepți; ocupațiile domestice mă opriră d’a mă presenta mai curându, indulgența Dumitale va escusa această necuviință.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Asemenea necuviință se poate îndrepta prea lesne, amorulu Dumitale o va suplini; câtu pentru mine, eu m’am ținutu de cuvântu, ș’am venitu la ora destinată, urmează să fi meditatu asupra proectului meu. Miron, toate sunt preparate, zi o vorbă și suntemu fericiți; Amelia lipsește, decide.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Terezo, pretențiile Dumitale sunt peste putință, eu nu le pociu împlini: să delasu pe Amelia! nu, nici o dată; nu voiu face aceasta, întâmplese ori-ce, eu nu voiu comite unu sacrificiu. Prejudecă și vezi dacă posițiea mea mă eartă.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ori-care va fi posițiea Dumitale nu voiu să cercetezu, am prejudecatu destulu. Miron, aibi milă de mine, nu mă constrânge să mă declaru în publicu; știi că, cu unu căvântu te pociu perde: viața, onoarea ta, atârnă de la tăcerea mea. Miron, timpulu nu e trecutu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Terezo, nu știi că ești datoare essistențea ta Amelii? ai uitatu facerile de bine cu care ai fostu împresurată din frageta ta junețe, în casa părințiloru ei? ai uitatu că adolescențea Amelii au protesu primii tăi anni? Unu amoru ne dreptu, nelegiuit, să te amăgească, să te facă atâtu de injustă, barbară, ca să smulgi fericirea unei femei atâtu de sacre ce te a iubitu, ce te a adoratu de soru? Terezo, asta e resplata? Ah! n’am crezutu că vei fi atâtu de nerecunoscătoare!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Eu sunt nerecunoscătoare? și ce împutări meritezi Dumneata care ’mi redici singura mângâere ce’mi a remasu! mă nimicești în minunatulu cându mă credeam pe tronulu amorului; ce pretinzi de la mine? vorbește! cu ce prețu se rescumpără pacea ce’mi ai răpit’o? să cazu la picioarele tale? să mă târăscu pe genunchi?…A, crude! te retragi? râzi de frăgezimea unei femei? ei bine! eu voiu face și mai multu, ’mi voiu înneca suferințele; dar te voiu maltrata, te voiu desonera, peste unu momentu vei vedea efectulu unui disprețu; peste puținu vei fi condamnatu, arestatu: ai uitatu destulu cu Comitele?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu e adevăratu.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Cine te va crede? inemicii tăi? căci vezi tu! amici nu ai, probele sunt la mine, unu cuvântu mă costă, și ești perdutu! Miron, mai e timpu; nu mă reduce la desperare!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(confusu)</stage>
+            <p>Ce să facu?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Să’mi reîntorci fericirea, să’mi dai amorulu tău, să vii cu mine. A, Miron toată averea mea este a ta, în mâinile tale stă viața unei femei ce te adoră; aibi compătimire, nu întârzia, vino, urmează-mă: peste o oră suntemu la unu asilu singuru.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Să mă ducu, să delasu pe consoarta mea, pe Amelia? să lasu pe copilulu meu orfanu? Dumnezeule! nu, nu pociu, Terezo; cere’mi viața, și o perzu bucurosu pentru tine; dar la acestu pasu nu mă pociu determina, mai bine preferu moartea.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Moartea? e prea puținu; dar onoarea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Onoarea? Ah! soară barbară! ce să facu? nu; întâmplese ori-ce; nu te voiu urma; mergi, mergi, și mă lasă, vezi că ’mi am perdutu mintea, că suntu în cea mai teribilă turbare; însă, nu, nici această estremitate nu mă va face să acceptezu propunerea ta; du-te de mă tradă, predă-mă gâzilor, nu mă mai temu. Amelio, alu tău sunt până la celu din urmă momentu.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Așa dar ’ți ai pronunțatu sentența.</p>
+          </sp>
+          <sp who="#unu servu">
+            <speaker>UNU SERVU</speaker>
+            <stage>(anunțându)</stage>
+            <p>Domnul Vernei…</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(comfusu)</stage>
+            <p>Vernei!</p>
+            <stage>(în parte)</stage>
+            <p>și Amelia nu mai vine.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(salutând)</stage>
+            <p>Domnule, Miron,</p>
+            <stage>(vede pe Tereza)</stage>
+            <p>A! domnișoara Tereza, Dumneata aici în Capitală? mă bucuru d’această revedere, dar poate că am întreruptu comversațiea Dumneavoastră, ne ertați.</p>
+            <stage>(lui Miron)</stage>
+            <p>Domnule, eu ’mi am ținutu parola, ș’am venitu să te comviingu despre adevăratulu noveli ce’ți comunicat’o de mai ’nainte, aducându tot d’odată și corespondența Domnului Ferdinandu, ce au fostu de față cându am priimitu scirsorile.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Așa e, Domnule, în presența mea le a primitu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(dându’i scrisoare)</stage>
+            <p>Ține, citește și vei vedea dacă e minciună sau nescocire.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(citindu încetu)</stage>
+            <p>Dumnezeule, ce imfamie!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Se turbură, merge de minune!</p>
+            <stage>(tare)</stage>
+            <p>Ei bine! te ai comvinsu? crezu că nu vei mai putea să te îndoești, vezi cumu se amăgește omulu? cu toate acestea nu e culpa Dumitale, de și grabnica Dumnea-Voastră însoțire au pututu să atragă suspițiea publică; însă toate se potu îndrepta.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce vrei să zici, Domnule?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Lucru e prea naturalu, Comitele este în viață, și…</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ce auzu!</p>
+            <stage>(lui miron)</stage>
+            <p>Tremură, tremură, căci ora ’ți a sunatu.</p>
+            <stage>(lui Vernei și Ferdinandu)</stage>
+            <p>Domniloru, sunteți în amăgire, Comitele e mortu, și Domnulu Miron e omorâtorulu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ce! cum, Domnișoară? această acusare e impotentă.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Eu voiu adeveri.</p>
+            <stage>(dându’i unu biletu)</stage>
+            <p>Esaminează acestu biletu. Un servu alu Comitelui l’a găsitu în pădure; Miron, în crisa delirului său, ’mi a mărturisitu destulu ce au avutu cu Comitele.</p>
+            <stage>(Vernei ia biletulu).</stage>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Cumu de n’ai raportatu atunci îndată? știi că unu actu criminalu nu poate remânea în secretu șase-spre-zece luni.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Comfusiea ce era în totu domniulu și curânda mea depărtare de la castelu, au favoratu pe criminalu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(deperatu)</stage>
+            <p>Nu e adevăratu, această acusare e nedreaptă.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Este activă, Domnule, și defensiunea Dumitale n’are nici unu temeiu; eu ca presedentele dreptății caută să esecutezu legile, asertulu Domnișoarei ca acusare positivă; o acceptezu, în presența Domnului directoru de poliție,</p>
+            <stage>(adresându-se la Miron)</stage>
+            <p>Te oprescu, Domnule, d’a te depărta din camera aceasta, până ce nu se va legitima acusarea. Domnișoară, te rogu să mă urmezi.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>A! ’mi am resbunatu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Te ai demascatu, sceleratule, ’ți ai descoperitu nelegiuirea, dar nu mă temu, desprețuescu amerințările și insidiile tale.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(cu minte)</stage>
+            <p>Mironu, ești prinsulu meu!</p>
+            <stage>(lui Ferdinantu)</stage>
+            <p>Domnule directoru, te însărcinezu să veghezi asupră’i până la întoarcerea mea, onoarea Dumitale ’mi va respunde pentru d’ânsulu.</p>
+            <stage>(Ese cu Tereza, Ferdinand se pune la masă și face însemnări).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(dupe o pausă)</stage>
+            <p>Eu omucidu! nnu, nu sunt! Dumnezeulu meu! cumu suferi ca unu sceleratu să triumfeze? dar nu se poate, suntu legi, și urmează să fie și dreptate</p>
+            <stage>(d’afară se aude vocea Amelii)</stage>
+            <p>A, Amelia!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(comfusă)</stage>
+            <p>Ah! ce auzu? Dumnezeule! Miorn, tu, tu acusatu de omucidu; nu, nu poate fi.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(îmbrățișându o)</stage>
+            <p>Amelio! (către Ferdinand, dupe o pausă) Domnule, cuteza-voiu să reclamu unu servițiu de la Dumneata? te rogu lasă-mă unu minutu singuru cu soțiea mea, întră în camera aceasta, fii siguru de mine, îți juru.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Destulu, Domnule, onoarea Dumitale mă asigurează</p>
+            <stage>(ese în dreapta).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio, îngerulu meu, eartă-mă, eu’ți am causatu atâtea nenorociri; dar îți juru, sunt inocent. Crima ce mi se împută, este numai unu pretestu ca să te poată smulge din brațele mele; Vernei au juratu peirea mea; Tereza, neputându’ți ajunge scopulu, a conspiratu asupra vieții mele, și unindu sceleratele loru proiecte, voru să mă desonoreze, să mă pearză. Ah! toți m’au delăsatu în acestu momentu criticu, până și Capitanulu, celu mai sinceru amicu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>A, Miron, o datorie a postului său ’l a constrânsu să lase de eri dimineață capitala.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu mai remâne dar nici o speranță, inimicii mei sunt în putere, și noi n’avemu nici unu documentu cu care să mă pociu justifica. Onoarea, viața, totu e perdutu; dar fii liniștită, Amelio, providența cunoaște puritatea sufflutului meu, și va protege o femee pură, și unu copilașu orfanu. A, Dumnezeule! eu să fiu esemplul de o asemenea nelegiuire? eu să aducu desonoare națiunei mele? nu, Amelio, nu sunt culpabilu, sunt martiru; dar cine mă va crede? toată lumea mă va specta ca pe unu criminalu; și tu, tu Amelio, te vei îndoi de inocența mea?</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Nici o dată; tu ai fostu totu-d’a una modelu de probitate, și acusarea ce ți se face e numai o calomnie. Eu voiu demasca p’acelu sceleratu! da Mironu. Vernei ’mi a declaratu amorulu său, și eu ’l am refusatu: d’aci provine pâra lui, însă reclamu până la tronulu magestății, și cându toatî lumea te aru delăsa, eu voiu remânea lângă tine, te voiu apăra în contra gărziloru chiaru cu viața mea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio, pentrue Dumnezeu! nu pronunța acestu cuvântu; tu nu vei muri, caută să trăești pentru copilulu tău; nu lăsa să mă mustre inocența ta, nu mă face să tremuru de moarte; dacă vomu muri amândoi, cine va arăta filui nostru, mormântulu părintelui său? cine vărsa o lacrămă pe d’ânsul? Tu vei trăi; mergi, depărtează-te, Amelio; delasă capitala pentru câteva zile, caută’ți unu asilu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ailulu meu e inima ta, nimeni nu mă va putea deslipi de lângă tine</p>
+            <stage>(s’aude tumultu).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>A! iatăi; Amelio, depărtează-te, nu întârzia, te juru pe totu ce ai tu mai sântu!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Domnule, Mironu, Dumneata fiindu acusatu de omucidu, ești arestatulu statului; condica legioru îmi comandă să mă asigurezu de persoana Dumitale până se va termina procesulu. Domnule temnicieru, ai auzitu instrucțiile; te rogu să le asecutezi.</p>
+          </sp>
+          <sp who="#temnicierulu">
+            <speaker>TEMNICIERULU</speaker>
+            <stage>(lui Miron)</stage>
+            <p>Urmează-mă.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(țiindu pe Miron, dupe o meditație)</stage>
+            <p>A! Dumnezeu’mi a inspiratu!</p>
+            <stage>(lui Vernei)</stage>
+            <p>Domnule, unu cuvântu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Te ascultu, Doamna mea.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Iată-mă la picioarele Dumitale, te rogu aibi compătimire de o mumă; juru pe numele Cristului, pe alu dreptății, soțulu meu e inocentu și această acusare e injustă.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Adeverează contrariulu!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Da, voiu adeveri; Miron au fostu la mine în zioa cându s’a comisu omorulu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>(redicând’o) &lt;/didascalie&gt; Amelio!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Și prin urmare n’a pututu să comite o crimă.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(cu ironie)</stage>
+            <p>Această defensiune te acusă, Doamna mea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Dumnezeule!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(cu ironie)</stage>
+            <p>Eucompătimescu de posițiea Dumitale, nu voiu să esplicu importența vorbeloru ce Dumneata le crezi de apărare.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>A, Dumnezeule! fără îndoință Dumneata ești autorulu acestoru imfamii; împinsu de ură, ai vrut să’ți resbuni de amorulu ce’ți am refusatu: vrei să desonorezi numele familiei mele, dar eu voiu reclama până la tronu, te voiu demasca, și voiu arăta inocența soțului meu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Zici, Doamnă, că Miron a fostu în zioa omorului la Dumneata? așa dar această crimă s’a comis prin vrerea și consentimentulu Dumitale! Dumneata, Doamnă, ești complicea lui. Ați auzitu, Domniloru! esecutarea legiloru atinge și pe Doamna Comitesa.</p>
+            <stage>(temnicerului)</stage>
+            <p>Ai să’mi respunzi, de ambele persoane.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(desperatu)</stage>
+            <p>Stați escusarea Comitesii e în favoarea mea; nici o relație nu poate să esiste între randevu și omoru, câte le a zisu nu sunt adevărate; nu, nu credeți; eu, sunt, da, eu sunt omucidulu!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Dumnezeule!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Vei trăi, Amelia mea!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Alte adeveriri nu se cere; Miron, recunoaște delictulu său; să mergemu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio, eartă-mă, nu șterge din inimăți imaginea mea.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ah, Miron!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(cu durere)</stage>
+            <p>Adio, Amelio!</p>
+            <stage>(să smulge din brațele ei și pleacă, stându în ușa prințipală, se mai uită la d’ânsa).</stage>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Barbariloru, ’mi răniți celu mai dulce odoru! Miron, soțulu meu!</p>
+            <stage>(naintează șovăindu)</stage>
+            <p>A! cruziloru! Dumnezeu să vă detune.</p>
+            <stage>(cade).</stage>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(singuru, șade pe bancă)</stage>
+            <p>Iată trei luni de cându isolatu de lume, petrecu în acestu întunerecu ce necontenitu mă înpresoară, de cându corpulu meu încearcă puținulu repausu p’această marmore, toți m’au delăsatu, niminea n’au venitu în acestu cursu de timpu să ea parte la infortunele mele, să mă console; frați, amici, consoartă, toți au sfărâmatu legăturile sacre care îi ținea aproape de mine; nimicu n’au remasu pentru cei infortunați, toate sunt numai vanitate. Ah! soartă barbară! cât de injustă te ai arătatu, m’ai espusu suferințiloru pe nedreptate, fără să aibi cea mai mică compătimire de junețea mea; calci în picioare cu desprețu floarea vieții mele, ș’acumu îți râzi de nenorocire’mi. Nu te temi că vei respunde înaintea tronului dreptății? nu te temi de resplata Dumnezeească pentru nedreptatea ce’mi faci? gemetele orfanului meu copilu n’au pătrunsu până la tine? nu te au pututu atinge?</p>
+            <stage>(dupe o pausă)</stage>
+            <p>Dar nu, n’am dreptu a’ți face împutări; tu ești neutrală, ești esecutorulu voințeloru mai înalte. tu nu poți resista la crima umană, nu poți să îndreptezi depravatulu caracteru alu soțietății, Ah, amici larvați! voi m’ați trădatu; de ce n’am pututu pătrunde viclenele voastre cugete, cându vineați cu surâsulu pe buză, și’mi dați sărutări de Iudă.</p>
+            <stage>(o pausă)</stage>
+            <p>Amelio, Amelio, și tu m’ai uitatu, ai alungatu din sufletulu tău suvenirea mea, ai călcatu jurământulu ce ai depusu înaintea altarului, crede-vei tu că sunt omucidu? nu, nu e adevăratu; sunt numai autorulu suferințeloru tale. Doamne! caută din tronulu tău celu prea înaltu spre inocența mea, și nu trece cu vederea această nedreptate. Ah! nu mai pociu sta, nu mă mai ținu picioarele, capulu mi se turbură; întunereculu au conjuratu asupră’mi, până și chiaru natura.</p>
+            <stage>(afară s’aude pasuri)</stage>
+            <p>ce auzu! pasuri,</p>
+            <stage>(se deschide ușa)</stage>
+            <p>înferata ușă se deschide, poate mi s’anunță ultima oră.</p>
+            <stage>(Tereza intră).</stage>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(temnicierului ce sta în ușă)</stage>
+            <p>Iată, Domnule, 100 f. argi: pentru ostenelile Dumitale; acumu te rogu veghează să nu fimu surprinși.</p>
+          </sp>
+          <sp who="#temnicierulu">
+            <speaker>TEMNICIERULU</speaker>
+            <p>Fii sigură, Doamnă; vezi nu uita să treceți prin caverna ce’ți am arătatu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(stându în ușă)</stage>
+            <p>Dumnezeule, ce întunerecu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(în sine)</stage>
+            <p>Ce auzu?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(în parte)</stage>
+            <p>Mă temu, să nu mă trade vocea mea.</p>
+            <stage>(tare)</stage>
+            <p>Miron, Miron!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Cine e?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Unde ești, Mironu? vino curându, urmează-mă.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce vrei cu mine?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(cu glas prefăcutu)</stage>
+            <p>Să’ți scapu viața, să te scotu din acestu locu infernalu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Să mă scapi? și ce te interesează viața mea? spune’mi, cine ești?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Vei afla mai în urmă cine sunt; dar acumu urmează-mă, avem puținu timpu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Unde vrei să mă duci?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelia! Dumnezeulu meu!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Da, Miron, Amelia, te așteaptă.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Unde e? Ah! de așu putea s’o mai văzu!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Pre malulu temisiului stă o nabă preparată, astăzi veți adăsta la unu locu siguru, și dupe câte-va zile puteți trece peste Carpați.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce? să fugu? nici o dată, la acestu pasu nu mă pociu determina; această fugă aru face să triumfeze sceleratulu meu inamicu; acusarea lui aru fi reală, toată lumea m’aru crede de criminalu; numele meu aru fo condemnatu și țintuitu pe murii închisorii, așu desonora toată națiunea mea, așu desprețui… nu, nu voiu să dau ocasiune acestui disprețu, nu periclitezu onoarea, ca să câștigu o viață simplă.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Sentența de moarte ți s’a pronunțatu și astăzi se va esecuta.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Moartea! fi-va oare mai îmfricoșată de câtu acestu infernu? nu, ea va termina patimile mele;</p>
+            <stage>(în parte)</stage>
+            <p>dar, să moru fără să mai pociu vedea pe Amelia. Ah Dumnezeule!</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(în parte)</stage>
+            <p>Ce teroare mă cuprinde!</p>
+            <stage>(tare cu glasulu firescu)</stage>
+            <p>Miron, resoluția ta estremă mă pune în desperanță. Ah! vino, să delăsămu acestu locu, te juru.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(cunoscându-o)</stage>
+            <p>A! acestă voce, este a ei? Terezo, tu ești?</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Eu sunt.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Tu ești scelerato? ai venitu să’mi îmviezi minutele din urmă; fugi, depărtează-te: nu te pociu vedea.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ah, Miron, nu mă reîmpinge, am venitu să’mi reparu crima; d’am fostu prea aspră cu pretențiile mele, te am iubitu cu pasiune; desprețulu tău ’mi a insiratu cruzime, dar toate le voiu îndrepta; averea, vieața mea, o consacrezu pentru libertatea ta. Miron, te rogu, vino, să te  reîntorcu în brațele Ameliei, să te scapu de moartea ce ți să preapară. Ah! nu mă lăsa în prada remușcării, aibi compasiune.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Și tu ai avutu când mai acusatu? au nu sunt condamnatu dupe urma ta? crudo! acumu subtu pretestu d’a mă libera, vrei să speculezi onoarea mea; îți cunoscu intențile vânătoare, precum cunoști și tu puritatea sufletului meu; și cu toate acestea n’ai avutu compasiunea; m’ai văzutu desonoratu, ș’ai fostu nesimțitoare; ai văzutu e Amelia târându-se în pulbere înaintea unui omu mișelu, și tu triumfai; ai pronunțatu prin unu singuru cuvântu peirea mea și desperanța ei. Femeea aceea te a fostu adoptatu de soru, îți consacră toată tenerețea sa, mâna’i te nutri, și trădași celu mai sântu sentimentu; în locu de recunoștință, plătiși facerea de bine, frățiea, cu cea mai terifică nepăsare.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ah, Miron! de ai ști câtu de multu suferu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>O pasiune, un amoru nedreptu, potu să te îndatoreze a comite fapta cea mai neagră. Rugile mele, lacrimile Ameliei, n’au pututu pătrunde inima ta? nu te vei îmfiora cându infantele meu copilu va cere în toate părțile cu tinerele salle căutături pe părintele său? O, tremură Terezo! atunci Ameli va redica mâinile la cer, și te va blestema.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(desperată)</stage>
+            <p>Destulu; te rogu încetează îmi recunoscu crima, și voiu s’o îndreptezu; îți juru. Nu, tu nu vei muri, nu voiu să fiu causa morții tale și a nenorociriloru Amelii, nu voiu să cază lestemulu ei asupra mea. Miron, vino, urmează-mă, nu mă face să desperezu; peste câte-va minute poate să fie târziu; să eșimu d’aici.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu, nu mă voiu depărta, cugetulu meu e curatu și înfruntă moartea. Dreptatea cerească nu va întârzia să descopere innocența mea, și să demascheze pe scelerați.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Promitemu dar că nu mă vei blestema.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ridică-te.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <p>Ah, Miron, iartă-mă.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Îți ertu inportanța! acumu depărtează-te, poate să fimu surprinși.</p>
+          </sp>
+          <sp who="#tereza">
+            <speaker>TEREZA</speaker>
+            <stage>(cu durere)</stage>
+            <p>Adio, Miron</p>
+            <stage>(pleacă).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Adio,</p>
+            <stage>(o petrece până la ușă, Tereza ese, închide ușa, Miron se întoarce, și dupe o pausă).</stage>
+            <p>Iacă ce efectu produce unu amoru prea multu afectuosu; iacă resultatulu neprejudecății: o faptă imprudentă pune pe omu în estasu și’lu precipită în desperanță estremă; tânără copilă! tu îți ai resbunatu sentimentulu ilegitimu, și amorulu refusatu; ’mi ai dictatu o moarte simplă o moarte fisică; dar tu ’ți ai alesu pe cea morală; ’ți ai impusu unu judecătoru aspru, terificu, elu te va urma pretutindenea, îți va arăta necontenitu unu tată târâtu la supliciu, o soție, o mumă chemându asupră’ți urgia cerească; și un fiu cu totul inocinte cerânduți pe părintele său. Atunci judecătoriulu, remușcarea, va fi singurulu meu rebunătoru. O, durerea ta va fi mai curându voiu da ultima îmbrățoșare fiului meu,</p>
+            <stage>(ora bate)</stage>
+            <p>Trei ore, de aru cea din urmă a vieței mele, să gustu unu repausu eternu, să depuiu în sânulu divinității aceea ce’mi a datu. Dumnezele! dar să moru subt securea nedreptății, să moru victima inviziei, să moru ca omucidu? Ah! această cugetare mă înfiorează; nu, n’am meritatu atâta cruzime. Doamne alu puteri, cumu permiți ca creatura ta ce ai denumito regină alu universului să fie sacrificiu pasiuniloru depravate ale soțietăți; legile tale sacre să fie anulate; unu monarhu, unu despotu, suveranu, legislatoru, poate dicta legi, poate dispune desoartea, iar nu de viața confratelui său; acestu dreptu nu mai ție ’ți este datu, căci de la tine provine viața geniului Umanu! Însă ce drept am eu să mă plâng? eu care am causatu moartea amicului meu; dar iar o culpă comisă încă prin imprudență și neîncercarea juneței nu e îndestulu punită prin mustrarea de cugetu? și ca inimici mei să se poată bucura de cugetările loru, să moru? o Dumnezeulu meu! astfelu sunt ordinile tale? astfelu se usează cei mari de puterile ce le ai datu să fericească pe semenii loru? egoismulu, interesulu, să le fie singurulu ductoru? să abuse de încrederea frațiloru săi, ca să’și mulțumească desfrânatele plăceri? să specule cu sudoarea și onoarea celoru mai mici? O! și cându vre unulu din tr’aceștia urmându căile tale, persecuția, și chiaru moartea să le fie ultimulu mijlocu de reeșitu? Asta fu și soartea mea; monstrulu de Vernei m’aupersecutatu subtu sininime de preteste, până ce ’mi am lăsatu postulu, ș’acumu…Dar ce auzu, tumultu; fără îndoire ei sunt, carnificii mei, vinu să mă târască la moarte.</p>
+            <stage>(ușa se deschide, Vernei, temnicierulu și soldații intră).</stage>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(soldațiloru)</stage>
+            <p>Stați la ușă.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(cu felinariu în mână, dând mantaoa unui soldatu)</stage>
+            <p>Domnule Mironu, proțesulu Dumitale, s’a terminatu, legile Patriei ’ți a pronunțat sentența de moarte, și majestatea sa regală a întărit’o, eu sunt însărcinatu cu esecutarea ei.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Și ce oră ai determinatu ca să te adăpi cu sângele meu?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Vorbele Dumitale sunt cu atâtu mai aspre, cu câtu judecata noastră a fostu mai indulgentă și favoroasă pentru Dumneata; și în locu de o moarte terifică ce ți se cuvinea dupe importența crimei, am căutatu să’ți ușurămu suferințele printr’o simplă descăpitare.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce? judecata voastră, zici că au fostu indulgentă și dreaptă, a, sceleratule, și mai cutezi…</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(întrerumpându’lu)</stage>
+            <p>Să lăsămu insultele și să ne consultămu despre lucruri mai necesarii. Fiind că unu condamnatu nu se cuvine să moară fără de ajutoarele religiunei, ’ți așu propune să petreci momentele din urmă în ocupații religioase: de vei voi, să trimitemu dupe unu comfesariu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Comfesariulu meu e celu de susu; tu, și semeni tăi aveți lipsă de ajutorulu unui ministru religiosu. Voi carii călcați în picioare legile patriei, vă târâți înaintea suveraniloru voștri, îi împresorații cu lingușiri, cerșând comfidența loru, ca să puteți subjuga popululu, să vă umpleți tesaurariatul propriu din sudorile sale, voi aveți lipsă, iaru nu eu; voi, subtu a cărora gubernare geme popululu d’atâtea împlilări; voi, carii sunteți gata a vă vinde patria, pentru unu interesu, ce v’aru asigura viața desfrânată; voi, carii abuzați de favoarea ce vă acordez suvenranii voștri; voi, carii formați dintr’unu monarhu generosu, dintr’unu părinte înduratu, unu tiranu, unu despotu; da, voi aveți necese de unu judecătoriu supremu; iaru nu incentulu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Eu am venitu să’mi împlinescu datoriea, iaru nu să ascultu mustrările și împutările ce’mi faci.</p>
+            <stage>(temnicerului)</stage>
+            <p>Să nu întârziemu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Da; setea de sângele meu te arde; ei bine, vino de ’ți o alină.</p>
+            <stage>(Ese cu soldații, Vernei și temnicierulu remâne).</stage>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ai îngrijitu, să nu poată veni niminea la dânsulu; vezi să’lu conduci în camera ce’ți am ordonatu, dar să nu’lu vază cine-va.</p>
+          </sp>
+          <sp who="#temnicierulu">
+            <speaker>TEMNICIERULU</speaker>
+            <p>Toate sunt în cea mai bună posiție, loculu supliciului e preparatu; dar să nu întârziemu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Mâine dimineață va muri.</p>
+          </sp>
+          <sp who="#temnicierulu">
+            <speaker>TEMNICIERULU</speaker>
+            <p>Prea bine, eu mă ducu,</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(singuru)</stage>
+            <p>Te urmezu îndată. Acumu, numai am nici o temere, sunt asecuratu de moartea lui; mâine dimineață numai esistă; cu toate acestea să’mi iau bine măsurile, unu pasu imprudentu, și totu planulu e perdutu; ș’apoi să vedemu ce e de făcutu cu Amelia? cumu să puiu în lucrare acestu proiectu. Nu, deunăzi am făcutu o mare imprudență cu asprimea mea, trebuia să fiu mai delicatu, să mă arătu mai compătimitoru, dar virtuțile și moralulu ei îmi inspiră cruzime: o desprețueamu, și acumu o iubescu mai multu de câtu credeamu; ce să facu? subtu ce pretestu să mergu la d’ânsa? cu ce maniere să’i propuiu? sunt siguru că iaru îmi va refuza amorulu; însă nu mă descorajezu! să încercu cu o sublimă modestie, poate că îmi va reeși; de nu’mi voiu ajunge scopulu prin această manieră, începu metodulu vechiu. Acusare, amerințări, până ce nu va putea să mai resiste; ș’atunci, am triumfatu. Ha, a, a! triumfulu e lesne cându sunt mai multe puteri concentrate în una ș’aceeași persoană.</p>
+            <stage>(uitându-se la orologiu)</stage>
+            <p>Cinci ore, să nu mă dau meditațiiloru; a casă poate sunt așteptatu.</p>
+            <stage>(voindu să plece, aude pasuri)</stage>
+            <p>A! mi se pare că auzu niște pasuri; cine poate să fie în acestu timpu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(de afară)</stage>
+            <p>Miron.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Această voce; a! este Amelia! Eri a cerutu voe să intre la Mironu: să profitu d’această ocasie, să stingu felinaru.</p>
+            <stage>(stinge, și se învălue în manta)</stage>
+            <p>Așa.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(deschizându ușa)</stage>
+            <p>Mironu, nobilulu meu soțu, unde ești? Ah, vino îmbrățișează pe Amelia ta</p>
+            <stage>(văzându pe Vernei ce s’a retras lângă ușa).</stage>
+            <p>A, Dumnezeule!</p>
+            <stage>(va să fugă).</stage>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Stăi, Doamne!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Lăsă-mă, fugi, presența Dumitale mă omoară.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Unu momentu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Amăgitorule, îmi ai datu voie să văzu pe soțulu meu, îmi ai destinatu ora veniri ca să mă poți urmări.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Îți juru Amelio…</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Spune’mi, unde e Miron.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>L’am scosu din închisoare.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Și unde este? spune’mi, să mă ducu la dânsulu, să’lu văzu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Numai subtu unu pretestu vei putea să’lu vezi.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ce ceri de la mine?</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Promite’mi că nu vei refusa amorulu meu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Amorulu Dumitale? nu; nu’lu voiu priimi nici o dată; fugi, eu te desprețuescu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Amelio! Doamnă, de ce mă urăști atâtu de multu; de ce mă reîmpingi, cându eu, eu te stimu, te adoru, te iubescu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>A, Dumnezeule! dupe ce’mi ai redicatu toată fericirea; dupe ce m’ai smulsu din brațele consoartelui meu; ai inventatu atâtea calomnii, ca să desonorezi numele familii mele; dupe ce ai refusatu grația ce’ți cerut-o în genunche o soție pentru soțulu său, o mumă tremurândă pentru părintele fiului său, îți râzi acumu și de nenorocirele mele, cutezi am oferi amorulu Dumitale? Ah, Dumnezeule!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Amelio, ai uitatu că Miron singuru s’a incusatu de asasinulu Comitelui în presența tutuloru? și cumu așu fi pututu să calcu legile, eu, eu care sunt pusu ale esecuta;  eu care sunt pusu să asigurezu fericirea statului: vezi Doamnă câtu ești de amăgită.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Miron, s’a incusatu? da, au făcut’o, neputându să mai resiste la imfamiile voastre; a sacrificatu viața, onoarea sa, ca să scape pe a mea. Ah! nu, nici o dată nu’mi voiu trăda datoria.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Așa dar îmi redici toată speranța, de a putea fi fericitu cu mâna Dumitale; refuzi amorulu meu, amorulu unui omu ce e gata a sacrifica totu pentru Dumneata;</p>
+            <stage>(îngenunchindu)</stage>
+            <p>o, Amelio, dispune de onoarea, averea, cugetarea, de toată ființa mea; singura vorbă a Dumitale va fi ordini pentru mine; desonorarea ce ți s’a făcutu va fi ștearsă prin unu nume respectabilu. Amelio, nu te opune la atâtea fericiri.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(cu trufie)</stage>
+            <p>Încetează, Domnule; nu te înjosi pân’ la atâta degradare; îți cunoscu sufletulu imfectu, și chiaru virtutea ce’mi arăți, e numai vițiu; pretențiile Dumitale îmi adaogă ura.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(cu mânie)</stage>
+            <p>Gândește că ești în puterea mea; cu o singură vorbă, te pociu espune la o nouă imfamie, de nu’mi vei priimi mâna.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Sceleratule, îți descoperi teribilulu proiectu, îți arăți moralulu tău coruntu; eu să priimescu mâna ta, nici o dată. Sunt victimă nelegiuitei tale crime, dar în posesiunea ta nu voiu fi!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Actulu ce te acusă de complicea lui Miron, este în mâna mea; cu d’ânsulu te voiu desonora, te voiu târâ în cea mai adâncă închisoare.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Nimicu nu mă poate înfricoșa, înfruntezu desonorarea, imfamiea, și chiaru supliciulu; dar numele tău nu voiu purta: mai bine prefirumoartea.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Nici această grație nu ți se va face; nu, nu vei muri, caută să suferi mai întâiu calomnia, închisoarea, și înfine să fii a mea. Nu, nu vei face un pasu.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(întretumpându’lu)</stage>
+            <p>Desprețuescu amerințările tale: am amici, poate și virtutea loru mă va apăra de insidiile unui monstru.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ori ce ajutoru va fi tărziu.</p>
+            <stage>(stându în pragulu ușei)</stage>
+            <p>Ei, soldați.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Dumnezeule!</p>
+            <stage>(ea pumnalulu de la brâu)</stage>
+            <p>ha! acestu pumnalu mă va scăpa de tine, sceleratule! (vrându să’lu îmfigă).</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(oprind’o)</stage>
+            <p>A! stăi, ce vrei să faci!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Retrage-te, lasă-mă se esu de aici; sau vei vedea sângele meu curându subtu picioarele tale.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ei bine, te lasu; dar să știi că soțulu tău mâine, mâine chiaru, va fi târât le moarte; și tu înpovărată de lanțuri, te vei consola cu virtuțele tale atâtu de stabile</p>
+            <stage>(Amelia ese).</stage>
+            <p>A! n’am pututu reuși! această femee e unu demonu! ș’acum mă înfiorezu de curajulu ei: Unu cuvântu, unu pasu de făceamu, ferulu iaru fi pătrunsu inima! Ce ocasie am perdutu! cu mâna pe tesauru și să ’mi scape? ha! turbezu! dar să nu fiu descorajatu: curându, sau mai târziu, va fi a mea.</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(singuru totu în costumu de valetu)</stage>
+            <p>Nu e aici, unde o fi oare tata? îlu cautu în toate părțile și nu’lu pociu găsi, așu vrea să mă întâlnescu o dată cu elu; nu l’am văzutu de sunt doi ani. E, e, ce o să se mire cându o auzi c’am eșitu din servițiulu Comitelui; dar vezi elu nu știe câte sau întâmplatu pe la noi; când’i oiu spune că Comitele au muritu, că Doamna Comitesa sau măritu dupe Domnulu Mironu, că Domnulu Miron e la închisoare pentru Comitele; că…și alte historii de care mă îngrozescu când ’mi aducu aminte, dar să uitu cele trecute.</p>
+            <stage>(Esaminându locurile)</stage>
+            <p>A! ce locuri frumoase, ce verdeață, ce munți! aici o să trăești tu Petruț, pe munții aștiea cu păstorii să te hrănești cu plante dulce, cu brânză, cu carne de mielu. Adevăratusunt bune bucate, sunt sănătoase, o să mă îngrașu ca unu purcelu: uite bietulu tata, din junețea lui tot cu oile petrece, și d’aea e sănătosu ca unu munte. O să’mi fie cu greu la începutu, pentru că de, nu sunt îmvățatu să mă urcu în munte, să păzescu oile noaptea; dar nimicu, mă dedeau eu, încetu, încetu; ce bine o să petrecu cu ceilalți păstori, oiu să le historisescu toate câte le am văzutu, sp le spuiu cumu e pe la curțile celor mari; par că’i văzu cumu o să se mire de duhulu meu, o să rămâe toți cu gura căscată, eu o să fiu celu mai istețu dintre ei. Zău! e frumosu cându știe omulu ceva, dar mai cu seamă cându cunoaște și puțină carte; eu de cându am îmvățatu să citescu, m’am procopsitu, uite! ne spunea Comitele, că în țările pe unde a umblatu Dumnealui, totu țăranulu caută să știe câte puținu ce citească, și se scrie, și că de aceea sunt fericiți oamneii p’acolo; e, e, lucruri frumoase n’am îmvățatu de la d’ânsulu! Dar ce o fi făcându tata de nu mai vine? sunt curiosu să știu, unde este? ce să facu? A! mă ducu să văzu, pe unde s’oru fi aflându oile noastre, poate să fie și tata cu d’ânsele.</p>
+            <stage>(Vrându să plece, vede pe Comitele ce ese din coliba sa)</stage>
+            <p>He, e! cine să fie săraculu asta?</p>
+            <stage>(să retrage, uitându-se la d’ânsulu).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(îmbrăcatu simplu, cu fața palidă, cu barba mare, confusu)</stage>
+            <p>A! femee demnă de ură; îți trădași credința ce’mi ai juratu, și mă aruncași în nefericire!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>Ce zice?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Și tu omu desfrănatu, amicu fățarnicu, ai călcatu în picioare’ți unu dreptu atâtu de sântu. Eu te am protejatu, te am strânsu la peptulu meu, ’ți am datu confidența și amiciea mea! și tu, tu ’mi ai smulsu fericirea, ’mi ai rănitu femeea, consoarta, ce îndulcea paharulu zileloru mele, ’mi ai răpitu tesaurulu ce asigura etatea mea; pentru ultragiulu ce ai commisu, pentru nedreptatea ce ’mi ai făcutu, m’am esilatu din sânulu amiciloru mei, din sânulu familiei mele, și retăcescu prin deserturi;</p>
+            <stage>(în deliru)</stage>
+            <p>dar ’mi am resunatu, m’am adepatu cu sângele tău de tigriu; și amanta ta, acea soție tredătoare, nu ’mi va scăpa, voiu îmfige pumnalulu în peptu’i, voiu pătrunde inima ei cea nelegiuită; da, crudo! nimeni nu’mi va putea inmuia furia, nimeni nu va putea să te smulgă din mâinile mele; nu, tu nu meriți compătimire: o femee ce tradă pe soțiulu său, nu se cuvinte a mai trăi.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>Nu înțelegu nici unu cuvântu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în deliru)</stage>
+            <p>Da, te voiu târâ la altariulu unde ’mi ai juratu credință, și acolo, îți voiu sfâșia inima. O! tu nu vei mai putea să mă amăgești, rugăciunile tale nu vor avea putere asupră’mi. Da, cazi, cazi în genunchi în aintea judecătorului tău, și’ți mărturisește crima. Zi c’ai preferatu amorulu mascatului meu amicu, zi că n’ai respectatu datoriile tale conjugale. Zi, zi</p>
+            <stage>(se înfuriază, și ca și cându aru fi avutu unu punaru va să lovească).</stage>
+            <p>A! tu plângi, Amelia mea, tu juri că ești inocentă, tu juri că nu te ai avutu nici o dată credința ce’mi erai datoare. O! dar biletulu acela, biletulu acela, perfido! te a amăgitu? da, Amelio, elu te a amăgitu; ș’acumu vii să ei parte la infortunele mele?</p>
+            <stage>(dupe o pausă)</stage>
+            <p>Ilusii deșarte! nu, ea nu e aici. Ah, Amelio!…</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Oare pe cine o fi chemându Amelia? n’o fi cumva elu? dar nu, nu se poate, au muritu de multu</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Ce văzu? un strinu, un june?</p>
+            <stage>(s’apropie)</stage>
+            <p>Cine ești tu, fiulu meu?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Eu, eu sunt.</p>
+            <stage>(în parte)</stage>
+            <p>De m’așu putea stecora de aci.</p>
+            <stage>(tare)</stage>
+            <p>Do-omnule, eu sunt; tata e păstoru.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Dar cumu eu nu te amu văzutu nici o dată?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Da, ai dreptate; nu mai văzutu, pentru, că, vezi nici eu…</p>
+            <stage>(vrea să easă).</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Stăi! nu te teme; nu’ți facu nici unu rău!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Te crezu, Domnule; dar, mă iartă, am treabă, și…</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Cum te cheamă?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Petruț, am fostu în servițiulu Comitelui Marini.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>În servițiul Comitelui? așa dar tu ’l ai cunoscutu?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>’L am cunoscutu prea bine, era celu mai bunu omu, sărmanul; îmi vine să plângu, cându’mi aducu aminte de elu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în parte)</stage>
+            <p>Ah, Dumnezeule!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(în parte)</stage>
+            <p>Plânge? ’i o fi fostu amicu!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Da, fiulu meu, Comitele era omu bunu; dar inimicii…</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>’L au omorâtu!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(singuru)</stage>
+            <p>Ce zici? l’au omorâtu? nu, nu crede, băete.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Ce felu, Domnule? cumu să nu crezu? sunt nouă-spre-zece luni de cându a reposatu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în parte)</stage>
+            <p>Imfamii! au profitatu de retăcirea mea ca să’mi amăgească poate iarăși femeea.</p>
+            <stage>(tare)</stage>
+            <p>Crede-mă, fătulu meu, Comitele trăește.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Poate</p>
+            <stage>(privindu’lu)</stage>
+            <p>că o fi îmviatu!</p>
+            <stage>(în pare)</stage>
+            <p>Ce’o fi asta?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Spune’mi, ce face Amelia?</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Doamna Comitesa?</p>
+            <stage>(în parte)</stage>
+            <p>Prelegea mea, îmi vine să crezu că e… nu, nu se poate</p>
+            <stage>(tare)</stage>
+            <p>Doamna Comitesa s’a măritatu dupe Domnulu Miron.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(confusu)</stage>
+            <p>Măritată dupe Miron? minți, elu e mortu, l’au omorâtu la vânătoare.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Așa e, Comitele a murit la vânătoare.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Nu e adevăratu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Nu, nu? așa zău!</p>
+            <stage>(în parte)</stage>
+            <p>Elu e; ei, lucru cioriloru</p>
+            <stage>(văzându pe tată-său)</stage>
+            <p>Dar iacă taica! o să aflu eu de la elu!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Bună dimineața, Domnule.</p>
+            <stage>(Văzându pe Petruț)</stage>
+            <p>Petruțu! fiulu meu! tu ai venitu</p>
+            <stage>(îlu sărută îmbrățisându’lu)</stage>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Da, tată, am venitu să șezu acumu cu tine; e, e! cându îi afla câte mi s’a întâmplatu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(retrăgându-se, în parte)</stage>
+            <p>Nici aici nu pociu fi singuru, să’mi cautu altu asilu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Tată, ia spunemu, te rogu, omulu asta mi se pare că e…</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Lasă, o să’ți spuiu mai târziu. O, fiulu meu, câtu de multu mă bucuru că te mai văzu o dată, mintea mea era totu la tine,</p>
+            <stage>(privindu’lu)</stage>
+            <p>dar tu te ai făcutu mai vioiu!</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>E, e! tată, dar cându vei vedea câtă carte știu, zău, o stă te miri; și vezi, toată procopseala mea pociu mulțumi reposatului Comite.</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Taci, Petruț, taci, să nu te auză</p>
+            <stage>(privindu pe Comitele).</stage>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în parte)</stage>
+            <p>Da, să mă retragu în profunditatea unui caveri.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Cine e omulu asta? mie mi se pare că e, dar tu îlu vei fi cunoscându mai bine, spune’mi. Eu nu pociu să crezu că…</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Este unu necunoscutu, fiulu meu! Petruț, retrage-te puțintelu, voiu să’i vorbesc, și…</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Dar ’mi aru fi plăcutu să știu.</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Du-te de vezi unde suntu băeții noștri.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Mă ducu, tată</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>&lt;/didascalie&gt; (privindu pe Comitele ce sta uimitu și confusu) &lt;/didascalie&gt; Elu ’mi a ascunsu suferințele sale, dar eu le am aflatu toate; lumea îlu crede de mortu, și unu inocente pătimește pentru dânsulu, este în închisoare; se zice că chiar astăzi, o să’și piearză viața. O, Domnezulu meu! dă’mi putere ca să pociu da de față atâtea nelegiuiri, atâtea amăgiri; dar cum să ducu pe Comitele în capitală, până în deseară caută să ajungu, să împiedecu: însă de nu va voi să meargă? ce să facu?</p>
+            <stage>(dupe puțină meditație)</stage>
+            <p>Da, să zicu că voiu să’mi trecu oile peste munți; suntu siguru că va veni cu mine</p>
+            <stage>(s’apropie de Comitele).</stage>
+            <p>Domnule, noi caută să plecămu din aceste locuri.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Să plecămu? da, ai dreptate, nu mai pociu petrece aici.</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Am trimisu băeții să’mi strângă oile de peste câmpuri, de vei voi să mergi cu mine.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Unde?</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Să trecemu peste munți, acolo vei fi poate mai liniștitu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Merg, mergu; dar, cându.</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Acumu îndată.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Acumu? da, bătrâne, te urmezu.</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <stage>(în parte)</stage>
+            <p>Mulțumescu’ți, Dumnezeule! acumu să iau drumulu celu mai scurtu din pădure, caută să ajung până nu se înserează.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(ce era ascuns în fundulu scenii)</stage>
+            <p>Ce zice tata?</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Să nu întârziemu, Domnule; de vrei, putemu pleca.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Unde vor să se ducă?</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Da, să mergemu.</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <stage>(strigându)</stage>
+            <p>Petruț, Petruț.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Iacă-mă, tată</p>
+            <stage>(vine).</stage>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <stage>(încetu)</stage>
+            <p>Tu să remâi aici până mă voiu întoarce eu.</p>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <p>Bine, tată; dar…</p>
+          </sp>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Să plecămu, Domnule.</p>
+            <stage>(Comitele se ridică)</stage>
+            <p>Vino, eu îți voiu fi de povățuitoru;</p>
+            <stage>(plecându amândoi)</stage>
+            <p>așa, încetu, așa</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#petruț">
+            <speaker>PETRUȚ</speaker>
+            <stage>(uitându-se dupe ei până ce esu)</stage>
+            <p>Așa! ei se ducu, și pe mine mă lasă singuru aici, asta, zău; nu’mi prea place. Oare unde ’l o fi ducându tata? e! dar mergu și eu dupe ei, am să’i spuiu mai multe lucruri, tata nu știe, că omul asta e Comitele, adevăratu nici mie nu’mi vine să crezu, n’am mai pomenit-o că unu mortu să fie înviatu, zău! aci nu e lucru curatu; d’o fi așa, apoi trebue să spuiu și tati, că Doamna Comitesa s’a măritatu, că Domnul Miron e la închisoare, și că să grăbimu a’lu scăpa, da, să’i ajungu,</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#ferdinand și vernei">
+            <speaker>FERDINAND ȘI VERNEI</speaker>
+            <stage>(viindu din dreapta).</stage>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Am comandatu temnicieriului să aducă pe arestați.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Să nu întârziemu.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Mă temu însă prea multu, această essecutare este în contra legiloru, și putemu fi…</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>N’ai să te temi de nimicu, iau asupră’mi toată responsabilitatea; câtu pentru servițiul ce’mi faci, supliindu’mi loculu de esecutoru, îți voiu fi recunoscătoru.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Și cumu așu fi pututu să’ți refusezu cererea? postulu ce acupu îlu amu de la Dumnezeu și ai dreptu a dispune de pasurile mele.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Eram siguru de amicia ta; dar să lăsămu acestea, ai demăndatu să închiză toate întrările.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>M’am asiguratu de toate.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Vezi, ține’ți autoritatea, nu perde curajulu; să nu vază că te temi, ș’apoi pe scurtu…</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Am luatu asupră’mi această sarcină, voiu fi dar acsactu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Dar ce facu? nu mai vinu, întârzierea asta mă supără, du-te, amice, de vezi.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(plecându)</stage>
+            <p>Îndată voiu fi aici</p>
+            <stage>(ese).</stage>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(singuru)</stage>
+            <p>Totu e în tăcere, nici celu mai micu tumultu, nici unu omu pe strade. Ha, a, a, peste câteva minute inimiculu meu nu va mai fi, și Amelia remâne în posesiunea mea; dar o fatalitate mi se opune: astăzi am priimitu grația pentru Miron; eu am pus’o la o parte până ce se va esecuta sentența venită de mai nainte; adevăratu rezicu prea multu, ’mi periclitezu onoarea, stima, poate să’mi perzu postulu; însă redicu din cale’mi pe unu inamicu, câștigu o femee belă, avută, ș’apoi, pociu zice că grația au ajunsu numai cu o oră mai rârziu, și astfelu sunt escuzatu. Cine nu va crede? esistența tutuloru depende de la mine. &lt;didascalie&gt; (văzându’i) &lt;d/idascalie&gt; A! iată’i!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(suindu-se pe estrada sa)</stage>
+            <p>Domnule, Miron, această oră e destinată pentru esecutarea sentenții ce ți s’a dictatu de către nobilii judecători ai Comitatului nostru, pentru omorulu ce ai comisu. Majestatea sa regală au confirmat-o; de ai să reclami sau să protestezi, noi vomu reporta.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>N’am nici să reclamu, nici să protestezu.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Așa dar nimicu altu nu ne mai remâne, da câtu să ne depărțimu pentru totu d’auna.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Și judecătorii mei, să respunză în aintea lui Dumnezeu pentru dreptatea loru.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(Termnicierului)</stage>
+            <p>Domnule, Temnicieru, condamnatulu va priimi moartea printr’o simplă decapitare, Dumneata să asis…</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(de afară)</stage>
+            <p>Lăsați-mă să intru, lăsați-mă, cruziloru!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ce tumultu?</p>
+            <stage>(Temnicierulu ese, priimindu unu semeu de la Ferdinandu).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(în estasu)</stage>
+            <p>Amelia! ah, Dumnezeule!</p>
+          </sp>
+          <sp who="#mai multe glasuri">
+            <speaker>MAI MULTE GLASURI</speaker>
+            <p>Deșchideți, deșchideți, sau vomu sparge porțile.</p>
+          </sp>
+          <sp who="#temnicierulu">
+            <speaker>TEMNICIERULU</speaker>
+            <stage>(intrând, lui Vernei)</stage>
+            <p>Suntemu în pericolu, o mulțime din popolu au învinsu santinela; iacă, Amelia.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Amelia!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(palidă și confusă, se aruncă în brațele lui Miron)</stage>
+            <p>Miron!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(tremurându)</stage>
+            <p>Amelio!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(lui Ferdinandu)</stage>
+            <p>Suntemu trădați!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Miron, sunt în brațele tale, acum putemu muri!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu, tu nu vei muri, Amelia mea, tu trebue să trăești; lasă ca această consolație să’mi ușureze suferințele morții.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(lui Ferdinand)</stage>
+            <p>Fă să înceteze scena aceasta!</p>
+            <stage>(Ferdinand face semnu temnicerului carele se apropie de Amelia).</stage>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ah, Miron, nu lăsa să mă smulgă din brațele tale!</p>
+            <stage>(către ceilalți)</stage>
+            <p>Gâziloru, veniți, pătrundeți’mi inima; numai astflu puteți să mă despărțiți de soțulu meu!</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Doamnă, în numele dreptății, te rogu să te retragi, sau vomu loa măsuri mai aspre.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(cu durere)</stage>
+            <p>Amelio! depărtează-te, lasă-mă</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Nu, nu mă voiu depărta de lângă tine; în brațele tale voiu să moru.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce zice, Amelio? tu să mori! ai uitatu că ești mumă? cine va îngriji de orfelinulu nostru copilașu? nu, nu vei muri, mergi Amelio.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Copilulu nostru e încredințatu subt totela amicului tău, bătrânulu Capitanu îi va ținea loculu de părinte.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(lui Ferdinand)</stage>
+            <p>Nu întârzia.</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Domnule Temnicieru, termină esecutarea.</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(țiindu de brațu pe Miron)</stage>
+            <p>Așteptați, numai unu momentu!</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <p>Depărtați pe Doamna Comitesa!</p>
+            <stage>(Temnicierul se apropie s’o tragă).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(strângând-o la pieptulu său)</stage>
+            <p>Cruziloru, vă temeți să nu întârziați; vă este multu până să vă adăpați cu sângele meu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(cu mânie)</stage>
+            <p>Târâți’lu la supliciu!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(slăbindu)</stage>
+            <p>Miron, dă’mi brațulu, nu pociu să mai stau, Ah!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(spăimântatu)</stage>
+            <p>Amelio, ce ai făcutu!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Vernei a vrutu să mă desonoreze, să mă acuse de complicea ta, au vrutu să mă târască la închisoare, m’a asiguratu de moartea ta,</p>
+            <stage>(slăbindu)</stage>
+            <p>n’am pututu să viseu fără tine.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelio, pentru Dumnezeu!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Da, am voitu să moru lândă soțulu meu!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(lui Ferdinand)</stage>
+            <p>Comândă esecutarea!</p>
+            <stage>(Ferdinandu face semnu, soldați voru să ea pe Amelia).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(țiind-o)</stage>
+            <p>Amelio, Amelio!</p>
+            <stage>(către Vernei și Ferdinand)</stage>
+            <p>Ticăloșiloru, cruzimea voastră e mai mare de cât a tigrului îmfuriatu!</p>
+          </sp>
+          <sp who="#unu glasu din afară">
+            <speaker>UNU GLASU DIN AFARĂ</speaker>
+            <p>Grație, grație innocentului.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Ce!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Ce auzu? grație! și cui?</p>
+          </sp>
+          <sp who="#unu glasu">
+            <speaker>UNU GLASU</speaker>
+            <p>Grație lui Mironu.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Sunt pierdutu!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <stage>(cu bucurie)</stage>
+            <p>Grație lui Miron? Ah! suțului meu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(cu bucurie strângând-o la peptul său)</stage>
+            <p>Ah, Amelio, vomu trăi!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Miron, soțulu meu! tu, tu vei trăi, și eu… nu, nu voiu să moru. Dar, vai! simțu efectulu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Pentru Dumnezeu, Amelio!</p>
+          </sp>
+          <sp who="#amelia">
+            <speaker>AMELIA</speaker>
+            <p>Simțu veninulu că’mi arde pieptulu. Ah! moru.</p>
+            <stage>(cade, moare).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(spăimântatu)</stage>
+            <p>Amelio, Amelio! Ah! nu mai respiră, e moartă, Dumnezeulu meu!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Moartă!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Ce am făcutu?</p>
+          </sp>
+          <sp who="#ferdinand">
+            <speaker>FERDINAND</speaker>
+            <stage>(în parte)</stage>
+            <p>Ce teroare mă cuprinde!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(lăctrămându, asupra cadaverului ei)</stage>
+            <p>Amelio, îngerulu meu!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Nu mai pociu specta acestu tablou!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ah, femee Divină, te am pierdutu! Amelio, te am perdutu cându s’aru fi cuvenitu să trăești!</p>
+            <stage>(lui Vernei)</stage>
+            <p>Monstrule, spectrează, victima nelegiuiriloru tale! Ah! de ce nu pociu să împlântu în pieptulu vostru pumnalulu resbunătoru; să vă văzu sângele curgându și să moru de bucurie!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în desperare)</stage>
+            <p>Soldați, târâți’lu la moarte!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Da, mergu; mergu la moarte, căci ea este acumu o favoare pentru mine!</p>
+            <stage>(vrându să plece).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#bătrânul">
+            <speaker>BĂTRÂNUL</speaker>
+            <p>Grație Domniloru! grație innocentului! Comitele trăește, iată’lu</p>
+            <stage>(arătându’lu).</stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(văzându pe Comitele, stă în locu și dupe o pausă)</stage>
+            <p>&lt;desc&gt; Comitele! Dumnezeulu meu. Da, elu e, elu; eu nu l’am morâtu, o Ceru! nu sunt omucid!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în deliru)</stage>
+            <p>Da, eu sunt; loviți, curmați’mi viața, am vrutu să’mi resbunu, l’am ucisu; da l’am ucisu, eu însu’mi.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage>(mergându la d’ânsul)</stage>
+            <p>Nu, nu, elu nu e mortu, trăește, e lânge tine.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în deliru)</stage>
+            <p>Ce vrei! mărturisirea mea nu e destulu? tu nu crezi c’am omorâtu…</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu l’ai omorâtu! Marini, te amăgești! recunoaște pe Miron, pe amiculu tău!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(în deliru)</stage>
+            <p>Miron, amiculu meu! Ah, elu’mi a smulsu sinfura fericire, dar’mi am resbunatu; și ea, soția perfidă! Ah! de ce n’am pututu s’o târăscu lângă d’ânsulu, s’o văzu căzându în acelașu momentu lângă amantulu ei.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelia a fostu innocentă.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Innocentă zici tu? și cine ești?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Sunt Miron, amiculu tău!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(viindușu în sine cu încetul)</stage>
+            <p>Miron! tu, amoculu meu! Da elu e,</p>
+            <stage>(se uită multu la d’ânsulu)</stage>
+            <p>elu, o Dumnezeule! Miron, trăește? nu sunt iluzii, auzu vocea lui, simțu palpitulu inimii sale! Ha, Miron, amicul meu! tu, trăești! și eu… eu nu sunt criminalu! Ah! mi se luminează mintea! o câtu sunt de mulțumitu. Mironu, vino, vino în brațele mele!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(în parte)</stage>
+            <p>Sunt pierdutu!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ah, cerule drepte!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Dar spune’mi, Amelia, soțiea mea, unde e?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Amelia! ah amiculu meu! ea e prada nelegiuiriloru lui Vernei, e victima amorului conjugalu, iată’i cadavrul!</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <stage>(spăimântatu)</stage>
+            <p>Ah, Dumnezeule! ce văzu? Amelia, soția mea, moartă! ce teroare? ce imagină terifică!</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <stage>(lui Ferdinand)</stage>
+            <p>Dă’mi, dă’mi brațulu.</p>
+          </sp>
+          <sp who="#comitele">
+            <speaker>COMITELE</speaker>
+            <p>Și Vernei, Vernei e monstrul! dar unde e?</p>
+            <stage>(îlu vede)</stage>
+            <p>A, ticălosule! tu, tu ai omorât-o! tu, sânge de tartaru păgânu; viața ta pentru a ei!</p>
+            <stage>(vrându să se arunce asupră’i).</stage>
+          </sp>
+          <sp who="#un comisaru">
+            <speaker>UN COMISARU</speaker>
+            <stage>(cu soldați)</stage>
+            <p>Vernei, ai urmatu în contra legiloru, ai amânatu grația ce ți s’a trimisu pentru Domnulu Miron; am ordinu să te arestuescu; urmează-mă.</p>
+          </sp>
+          <sp who="#vernei">
+            <speaker>VERNEI</speaker>
+            <p>Sunt maledictu.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

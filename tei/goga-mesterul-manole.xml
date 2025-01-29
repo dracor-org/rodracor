@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000020" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Meșterul Manole</title>
+        <author>
+          <persName type="pseudo">Octavian Goga</persName>
+          <idno type="wikidata">Q223414</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Editura Cartea Românească, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="iancu_baltes" sex="MALE">
+            <persName>IANCU BALTEŞ, scriitor</persName>
+            <age>60</age>
+          </person>
+          <person xml:id="vlad_braneanu" sex="MALE">
+            <persName>VLAD BRÂNEANU, proprietar</persName>
+            <age>45</age>
+          </person>
+          <person xml:id="ana" sex="FEMALE">
+            <persName>ANA, nevasta lui</persName>
+            <age>25</age>
+          </person>
+          <person xml:id="d_na_elena_caramfil" sex="FEMALE">
+            <persName>D-NA ELENA CARAMFIL</persName>
+            <age>30</age>
+          </person>
+          <person xml:id="andrei_galea" sex="MALE">
+            <persName>ANDREI GALEA, sculptor</persName>
+            <age>35</age>
+          </person>
+          <person xml:id="emil_scarlat" sex="MALE">
+            <persName>EMIL SCARLAT, arhitect</persName>
+            <age>35</age>
+          </person>
+          <person xml:id="colonel_dabija" sex="MALE">
+            <persName>COLONEL DABIJA</persName>
+          </person>
+          <person xml:id="printul_bibi_musat" sex="MALE">
+            <persName>PRINŢUL BIBI MUŞAT</persName>
+          </person>
+          <person xml:id="goldman" sex="MALE">
+            <persName>GOLDMAN, bancher</persName>
+          </person>
+          <person xml:id="rainer" sex="MALE">
+            <persName>RAINER, administratorul lui Brăneanu</persName>
+          </person>
+          <person xml:id="adolf" sex="MALE">
+            <persName>ADOLF, chelner la hotel</persName>
+          </person>
+          <person xml:id="tata_ilinca" sex="FEMALE">
+            <persName>ŢAŢA ILINCA</persName>
+          </person>
+          <person xml:id="gheorghe" sex="MALE">
+            <persName>GHEORGHE</persName>
+          </person>
+          <person xml:id="un_ministru" sex="MALE">
+            <persName>UN MINISTRU</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1928">
+        <desc/>
+      </event>
+      <event type="premiere" when="1927">
+        <desc></desc>
+      </event>
+      <event type="print" when="1928">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000020" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Meșterul Manole</titlePart>
+        </docTitle>
+        <docAuthor>Octavian Goga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>IANCU BALTEŞ</role>
+          <roleDesc> scriitor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>VLAD BRÂNEANU</role>
+          <roleDesc> proprietar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ANA</role>
+          <roleDesc> nevasta lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>D-NA ELENA CARAMFIL</role>
+        </castItem>
+        <castItem>
+          <role>ANDREI GALEA</role>
+          <roleDesc> sculptor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>EMIL SCARLAT</role>
+          <roleDesc> arhitect</roleDesc>
+        </castItem>
+        <castItem>
+          <role>COLONEL DABIJA</role>
+        </castItem>
+        <castItem>
+          <role>PRINŢUL BIBI MUŞAT</role>
+        </castItem>
+        <castItem>
+          <role>GOLDMAN</role>
+          <roleDesc> bancher</roleDesc>
+        </castItem>
+        <castItem>
+          <role>RAINER</role>
+          <roleDesc> administratorul lui Brăneanu</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ADOLF</role>
+          <roleDesc> chelner la hotel</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ŢAŢA ILINCA</role>
+        </castItem>
+        <castItem>
+          <role>GHEORGHE</role>
+        </castItem>
+        <castItem>
+          <role>UN MINISTRU</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Decât nu poţi să-1 suferi pe Wagner.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Are dreptate nenea Iancu. La Iaşi, în refugiu, era furios pe grădinarul lui, pe Iohan. Când ne plimbam seara pe Lăpuşneanu, din spion nu-1 scotea şi spunea la toată lumea că are să-l împuşte.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ei, şi cum te-ai răzbunat, nene Iancule?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Să vedeţi cum. La vreo câteva luni după ce am venit acasă, stăteam împreună la ţară, la dânsul. Casa prăpăd, grădina la fel pe urma nemţilor.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Da, jucam table în cerdac, nenea Iancu îşi plimba ochii a jale împrejur. Judeca pe pielea proprie invazia ţării. Deodată îl văd îngălbenindu-se. Stai, zice, iaca spionul! Adevărat, era Johan, venea din dreptul porţii cu pălăria în mână, mofluz... S-a apropiat de noi. începuse o cuvântare pe limba lui: gekommen... zu Haus... Nenea Iancu roşu! Îl umflă, zic. Când colo, doamnele mele, ştiţi cum s-a terminat revederea? O scurtă înjurătură şi-un surâs resemnat: „Mariţo, fă-i o ciorbă spionului şi dă-i un kilogram de vin că s-a rebegit de tot...” Aşa se răzbună dumnealui. Da, i-a iertat. Fiţi liniştite. Vă asigur că i-a iertat pe nemţi...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Înţeleg, domnule Scarlat, nenea Iancu, fire generoasă de artist, cu Johan s-a împăcat repede, cu Wagner însă, de...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Suntem într-un conflict de temperament cu concepţia de la Bayreuth, aşa spuneai mi se pare în articolul dumitale. Pasiunile noastre sunt mai puţin elementare, sunt mai perfide, nu strigă totdeauna, lucrează cu dedesubturi. Aşa scriai, nene Iancule. Vezi că mi-am însemnat.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dar de proporţii mai puţin monumentale.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Da, la Roma în San-Pietro în Vincoli. A fost delicios neamţul.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Domnul Andrei nu apreciază exhibiţiile mele muzicale.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Nu, nu, vă înşelaţi. Ascultă de pe terasă, ascultă cu smerenie. Omagiile mari se exprimă de la distanţă...</p>
+          </sp>
+          <sp who="#balteș">
+            <speaker>BALTEȘ</speaker>
+            <p>L-ar fi cucerit, desigur, din primul moment. Iaca ce spunea von Gmundeneck: e frumoasă negreşit statuia lui Moise, dar prea minusculă, domnilor! O idee monumentală nu se poate exprima într-o marmură de trei metri înălţime. Când i-am răspuns că dimensiunile mari nu sunt tocmai condiţiile cele mai esenţiale ca să fie monumendal, cum zicea el, a avut o grimasă: Aţi fost dumneavoastră la Hamburg? Nu, zic, n-am fost. El: — Acolo să mergeţi să vedeţi statuia lui Bismarck în port spre Marea Nordului. Treizeci de metri, meine Herren, şi se umfla baronul de parcă crescuse şi el... E colosal... sprânceana de un metru: ăsta, Moise, o jucărie...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Sprânceana de un metru, ce zici, Eleno? Straşnică încurcătură... Nene Iancule, de unde l-ai scos pe baron?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>E exact, doamnă Brăneanu, nu-i o invenţie. Pare că-l văd. Andrei s-a uitat aşa de cumplit la el. Avea aerul că atunci ieşise din tranşee la Mărăşeşti şi m-a întrebat cum se zice pe nemţeşte tâmpit?</p>
+          </sp>
+          <sp who="#balteș">
+            <speaker>BALTEȘ</speaker>
+            <p>Da, doamnă, sprânceana de un metru. Asta e reţeta lor. Ce vreţi, eu o văd în toate alcătuirile nemţeşti. O văd şi dau doi paşi înapoi, că de, mă doare aici...</p>
+            <stage>(Arată la frunte.)</stage>
+            <p>În sculptură sprânceana lui Bismarck, în Zepelinuri sprânceana lui Bismarck, în tun sprânceana lui Bismarck, în ariile lui Wagner sprânceana lui Bismarck. Mă oboseşte, coniţă, iartă-mă! Sunt un om sensibil, un om slab, un om cu tabieturi şi cu mare slăbiciune pentru vocea dumitale...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Va să zică sprânceana lui Bismarck... Nene Iancule, eşti extraordinar.</p>
+            <stage>(Râset general.)</stage>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Ce-i, Iancule? Iar bagi în frică cucoanele ca azi-dimineaţă la urlătoare? Ce ai cu Bismarck?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu-i adevărat, dumnealui e reacţionar.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Nenea Iancu s-a dat cu nemţii.</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Păi dacă vrea un Bismarck, atunci e cu colonelul. El ţinea una la masă că vrea să puie regulă în Dealul Mitropoliei.</p>
+          </sp>
+          <sp who="#goldman">
+            <speaker>GOLDMAN</speaker>
+            <p>Omul poporului, prinţule, omul poporului. De trei ori potul. Bancherul, popa şi doctorul sunt oamenii poporului...</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Deschid, domnule Goldman.</p>
+          </sp>
+          <sp who="#goldman">
+            <speaker>GOLDMAN</speaker>
+            <p>E, domnule Iancule, dacă vine Bismarck? Atunci stânga-mprejur cu colonelul. Ne dăm cu Bismarck.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Aferim democraţie...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Şi-i trage cacialmaua, domnul Goldman.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Foarte bine, nene Iancule, să trăieşti. îţi dau o bomboană şi-ţi spun că te iubesc. Dumneata lămureşti situaţiile oricât de încurcate! Vezi, cum ne-ai lămurit preferinţele la toţi! Fiecare ştim de cine ţine. Eu sunt cu Wagner, colonelul e cu Bismarck, prinţul Muşat e cu Goldman, domnul Goldman e omul poporului... Toţi s-au lămurit! O întrebare însă: de ce împingi discreţia prea departe, de ce acest exces de eleganţă, de ce te dai în lături? Cu cine ţii dumneata, nene Iancule? Dumneata, care eşti mai interesant ca noi toţi, dumneata scriitorul, dumneata...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ei bine, nu filozof, dar omul problemelor intelectuale!</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Al problemelor sufleteşti.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Ei bine, asta o ştiu. Tot domnul Goldman m-a învăţat.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Nu, doamnă, poliţa! Scade crescând, dacă nu plăteşti dobânzile.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>A, nene Iancule! Verva strălucitoare, ca totdeauna. Vorbeşti şi cuvintele dumitale ţâşnesc ca vârfuri de florete. Te înţeleg aşa de bine când văd că fugi de graţiile greoaie ale nordului. Vreau însă să ştiu cu cine ţii dumneata, sub ce umbrar te adăposteşti? În ce culcuş te retragi seara? Vezi, nene Iancule, dumneata mă cunoşti de mult. Ştii că după o faţadă de seninătate se pot frământa întrebări şi ascunzişuri. E şcoala dumitale. Am învăţat-o şi o practic cu oarecare îndemânare. De aceea te chestionez acum. Dumneata spuneai că sinteza unei conştiinţe se poate prinde mai uşor dintr-o glumă aruncată la desert unei femei, decât dintr-o spovedanie în două volume... Iaca te-am prins acum şi-ţi reclam patronul...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Meşterul Manole!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Vedeţi, n-am înţeles niciodată balada mănăstirii de la Argeş. Ce zici, domnule Scarlat, dumneata arhitectul, eşti tot în tradiţia predecesorului dumitale?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Nu, doamnă Brăneanu, profesorii mei de la Berlin nu mi-au explicat formula Meşterului Manole. Arhitectul modern se menţine la pură geometrie şi nu-i cere nevestii decât o colaborare mai puţin primejdioasă.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dumneata, pozitivul, fugi de mister, crezi numai în var şi cărămidă. Ce nu înţeleg eu în povestea Meşterului Manole e ideea sacrificiului dusă la absurd, nene Iancule. De ce duhurile rele i-au cerut tocmai dragostea în schimb, de ce a primit Manole acest târg ingrat, de ce n-a coborât de pe schelă cu tovarăşii lui nouă, să lase zidurile în ruine şi să-şi mângâie nevasta? De ce opera de artă să sugrume o viaţă şi să se ridice pe o îngropăciune?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Iar ţii conferinţă, nene Iancule?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Plastilină. O silabă din gândurile mele, cum ai zice dumneata.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nenea Iancu a fost macabru, nu te-a cruţat de loc, domnule Galea.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>De ce mă persecuţi, nene Iancule?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ei asta...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Te-a pus la catastif nenea Iancu.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>De ce? Eu nu fac mănăstiri, eu fac bustul doamnei Brăneanu şi sunt pe isprăvite. Mai avem două şedinţe, soclul nu s-a surpat, modelul e mai vesel ca oricând. Nu-i aşa, doamnă?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, dar nenea Iancu ne-a explicat pe Manole cu o ciudată teorie a compensaţiei.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Eu nu fac literatură.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Eu  gândesc  în  piatră,  doamnă, sunt un manual nu un cerebral, eu nu  înţeleg teoriile lui nenea Iancu.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Uite, ce e, domnule Andrei, să ne înţelegem! Cât ne-ai părăsit dumneata şi-ai stat pe terasă ca un ursuz ce eşti...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mă durea capul, doamnă.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Îl durea capul. Vedeţi-1, ce plăpând e bietul băiat.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, mă durea capul. Numai când mă doare îl simt, altfel nu, că n-am nevoie de el.</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF</speaker>
+            <p>Se poate, coane Iancule?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Mie o chartreuză.</p>
+            <stage>(Gustă din lichior.)</stage>
+            <p>Da, cât ai stat pe terasă, nenea Iancu ne-a lămurit patronul la toţi. Fiecare cu cine ţine, cine 1-a impresionat mai mult, cine 1-a zguduit mai tare. Iacă eu, de pildă, am fost categorisită pentru Wagner, colonelul s-a declarat alături de Bismarck fiindcă ţine la maniera forte, nenea Iancu e cu Meşterul Manole... Aici te-a pus şi pe dumneata, la Meşterul Manole.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>De ce la Meşterul Manole?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Fiindcă Meşterul Manole e simbolul artei creatoare, al artei care devorează şi învie.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>A, arta şi iar arta... Cunosc discuţiile astea, doamnă Brăneanu. Încep totdeauna la orice masă copioasă, de obicei la şampanie când sunt două cucoane nostime... Arta... Nenea Iancu îşi bate joc de noi.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>A fost foarte serios. Ne-a făcut să înţelegem ce egoism feroce e într-un laborator de artist, cum creaţiunea e o patimă fără frâu.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Patimă fără frâu?... Literatură...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sunt patimi mai mari, doamnă.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Bine, ştiu eu? Foamea, ar zice un cerşetor, ura, ar răspunde un proletar... Eu, doamnă, nu-1 accept pe Manole, nu-1 accept fiindcă nu-l pricep... L-aş fi priceput atunci când ar fi îngropat între zidurile lui o fiinţă fără devotament... O răzbunare, aşa da... dar încă o dată sunt pasiuni mai mari. Mai bem un coniac, nene Iancule? Afară e un concert de broaşte omeric.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Un subiect de demult...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Atlantida... Am s-o sfarm cu ciocanul într-o seară. Nu fug de Manole, cum zici dumneata, dar spun că altul m-a impresionat mai mult.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>E o poveste simplă si brutală.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Dacă dumneata mi-o ceri, eu v-o spun...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Praxitel?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu, doamnă, popa din Mestecăniş...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Ce-o mai fi şi asta...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Desigur că da...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Cine m-a zguduit mai tare în viaţă? Imediat n-o să mai r\deţi... Nu cumva credeţi dumneavoastră că pasiunile mari au nevoie de-un plastron şi de un smoking ca să poată fi invitate la masă? Eu, doamnă, le-am urmărit des în plin aer, mi s-au părut mai vii şi mai plastice... într-un sat de ţărani uscăţivi şi aţoşi găsiţi toată galeria marilor chinuiţi... şi pe Hamlet, şi pe Polonius, şi pe Ofelia, pe toţi... Sunt îmbrăcaţi în iţari, sau in cămaşe cu altiţă, mai barbari poate, dar sunt ei, aşa cum trăiesc în toate minţile... Eu nu pot potrivi vorbele, dar sunt totdeauna gata să-i apăr... Mâine nenea Iancu va spune frumos povestea mea... Ei bine, Mestecăniş e un sat în Vrancea, sub o muche de deal, cu o biserică veche, zidită de Vasile Lupu. Acolo trăia, acum douăzeci de ani, un haiduc de popă văduv pe care-1 vedeam des în copilăria mea. Trăgeam la el cu tata de câte ori treceam cu trăsura de la Focşani spre Soveja. Era înalt şi spătos ca un Ercule din Vatican, doamnă. Avea vin bun şi cântece lumeşti de la munte. într-o vară făceam iar drumul obişnuit, ne oprisem în capul satului să potrivească vizitiul o curea la hamuri. Trei ţărani au sărit să ne dea ajutor: — Să trăiţi, coane Costică. — Ce mai e pe la voi? a întrebat tata. Oamenii au pus capul în pământ: — Rău, boierule, am ajuns de râsul lumii cu părintele. Tata cu mirare: — Ce s-a întâmplat? Un moşneag cuvios ne-a spus pacostea lor... S-o vedeţi... Eu îl ascultam din fundul trăsurii unde mă zgulisem de bătaia vântului... Ne-a făcut de râs, zice. S-a încurcat cu Rafira, cârciumăreasa de la Moineşti. Şi-a adus-o în casă, o muiere cu ochi ca jarul şi cu farmece, boierule... Tata zâmbea: — Şi nu-i dă drumul? Ţăranul şi-a făcut cruce: — De-un an fierbe satul, coane Costică, de-un an ne spurcă grijania... Le-am făcut pe toate, ca să-1 scăpăm... Degeaba... Ne-am dus bătrânii la el şi l-am rugat s-o lase... Ce credeţi? A ieşit cu puşca în ceardac şi ne-a alungat... S-a răscolit toată lumea... Nimic... Într-o zi, când a plecat la iarmaroc la Panciu cu ibovnica, i-am pus gând rău... Ne-am luat cu mic cu mare şi i-am dărâmat casa... Ziceam, acum s-a isprăvit: unde se aciuieşte popa? L-am aşteptat la întoarcere: — Nimeni nu te primeşte în curte, părinte, dă-i drumul strigoaicei şi-ţi zidim casă nouă... Tata i-a tăiat vorba: — A lăsat-o? — Aş! s-a mutat în pivniţă, boierule, sub pământ... — Cu ea? — Cu  Rafira! Vizitiul potrivise hamurile şi-am pornit... Am ajuns la casa popii, nene Iancule... Era o jale, zidurile sparte, grinzile căzute, acoperişul de şindrilă în mijlocul curţii... Tata a oprit, pâre-că-1 văd cum se încruntase: — Părinte Onufrei! A ieşit din gârliciul pivniţei încadrat în muşchi şi buruiene ca un triton. — Rău ai ajuns, părinte! i-a aruncat vorba tata. Popa s-a uitat o clipă întunecat la noi şi-a întors capul spre pivniţă: — Rafiro! Ce să vă spun? Doi ochi negri s-au ivit peste umerii haiducului care a ridicat fruntea şi ne-a sfidat: — Bine-am ajuns, domnule Costică, bine-am ajuns! Tata n-a răspuns nimic şi a dat bici cailor... Eu din coşul trăsurii m-am uitat pe furiş înapoi. Doamnă, apunea soarele pe ruine, pe barba albă şi pe basmaua roşie... N-am văzut de atunci tablou mai impresionant... Ei, vedeţi că nu mai râdeţi... Pe mine m-a mişcat, doamnă Brăneanu, eu sunt cu popa din Mestecăniş...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>E pitoresc.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Adevărat haiduc...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu era vorba cine m-a impresionat mai mult? Pitoresc ziceţi dumneavoastră, omenesc zic eu, o pasiune barbară, îndărătnică şi sănătoasă, ca un legionar roman.</p>
+          </sp>
+          <sp who="#andrei">
+            <speaker>ANDREI</speaker>
+            <p>Desigur că popa.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Evident că popa.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Adevărat, cum a trecut vremea. Nenea Iancu, Vlade, a fost admirabil ca întotdeauna. BALTEŞ: Eu sunt un fel de lăutar, coniţă, să nu mă luaţi în serios pentru Dumnezeu. Aştept să mai îmbătrânesc puţin şi-mi schimb numele. Iancu lăutaru, cânt pe la ospeţe...</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Îţi mulţumesc, Iancule. Toată vara la Sinaia, dacă nu erai tu, cu ploile astea, mureau cucoanele de plictiseală.</p>
+          </sp>
+          <sp who="#goldman">
+            <speaker>GOLDMAN</speaker>
+            <p>Reciproc prinţule, reciproc!</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Domnilor, vă mulţumesc la toţi. La masa mea de bun rămas aţi fost la înălţime. Regret că trebuie să vă las, dar plec la datorie. Vă las pe nevastă-mea încă o săptămână, două. Eu, Iancule, am devenit din nou agricultor. Ştii că am întârziat cu treieratul. Un lucru însă, domnii mei. Angajamentul de la masă nu se uită. A, nu! Suntem parolişti. Peste o lună exact, la 3 octombrie, seara, ne revedem cu toţii la mine la ţară, la vânătoare de mistreţi. Nu-i aşa? Cu toţii. Ne-am înţeles.</p>
+          </sp>
+          <sp who="#goldman">
+            <speaker>GOLDMAN</speaker>
+            <p>Nu mă ierţi, domnule Balteş...</p>
+          </sp>
+          <sp who="#goldman">
+            <speaker>GOLDMAN</speaker>
+            <p>Nu, coane Iancule, Doamne fereşte, zic aşa, eşti mata crud câteodată. Nu vrei să mă ierţi...</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Ei, la revedere, dragii mei! Exact peste o jumătate de ceas îmi pleacă trenul. Ano, să ne grăbim. La revedere la Bucureşti.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, să urcăm.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Pe mâine, nene Iancule.</p>
+            <stage>(Colonelul şi Goldman salută.)</stage>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>La revedere domnule sculptor. S-a făcut, s-a făcut?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Încă două şedinţe şi am terminat. Bună seara, domnule Brăneanu!</p>
+            <stage>(Toţi urcă scara hotelului, afară de Balteş, Galea, Scarlat şi doamna Caramfil.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Nu l-ai iertat pe Goldman nici azi, nene Iancule!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Am o migrenă idioată. Mă mai plimb pe terasă. Noapte bună, doamnă Caramfil! La revedere, Scarlate! Noapte bună, nene Iancule, şi mâine cu bine, fără Manole...</p>
+            <stage>(Iese pe terasă.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Doamna Brăneanu e o fire sensibilă.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Şi isprăveşte cu un divorţ.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Comparaţia e bună, fiind vorba de compartimente secrete şi câteodată de mai multe etaje. Nu, glumesc. Am toată consideraţia pentru doamna Brăneanu.  E  inteligentă,  frumoasă, plină de talent, deşi talentul, la drept vorbind, mi se pare un sfetnic inoportun într-o căsnicie.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Vorbesc ca un burghez fără probleme. Zic un sfetnic inoportun, fiindcă se interpune, totdeauna prezent, ca un al treilea între bărbat şi nevastă. E, cum să zic, un factor extraconjugal talentul... Iaca Brăneanu, ce crezi?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Andrei, ce zice în faţa unei astfel de atitudini puţin complicate a omului politic în materie de artă plastjcă?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Dar, doamnă Caramfil, te înşeli. Andrei înregistrează cu o seninătate exasperantă opiniile bune şi rele ale de-aproapelui în meseria lui. Te întrebam adineauri numai fiindcă m-ar fi interesat răspunsul lui. Are câteodată o ripostă care loveşte la mir. Ştii ce i-a spus nu demult unui ministru care i-a vizitat expoziţia şi, fireşte, habar n-avea de Praxitel, vorbea platitudini. I-a spus: — Domnule ministru, oamenii politici nu apreciază sculptura, decât când sunt în rai. — De ce? 1-a întrebat ministrul jenat. — Fiindcă atunci partidul vine la noi cu o fotografie proastă să le facem bustul. A, e un tip Andrei, un fanatic in artă, un nepăsător în viaţă... Doisprezece ani a rătăcit în străinătate prin muzee. A cheltuit o avere bunicică rămasă de la părinţi. De obicei e tăcut, cum zicea el, gândeşte în piatră. Nu se spovedeşte decât lui nenea Iancu, noaptea la Herăstrău, la ore mici, între trei şi cinci... M-am mirat azi, când l-am auzit cu povestea din Mestecăniş. Curios, foarte curios. De felul lui e scurt la vorbă. Azi părea contrariat, aproape agresiv, în timpul din urmă îl văd pe gânduri... Are ceva! Migrena e un pretext caraghios! Când îl aud îmi vine să râd. Nu vezi ce spete de uriaş...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Ştiţi că eu sunt numai planton, nu m-a introdus în secret.</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Ei bine, să vă văd, să-mi scrieţi. Nu-1 păcăliţi prea tare că se răzbună pe Goldman. Da’ ştii că trebuie s-o şterg repede. Adolf, maşina!</p>
+          </sp>
+          <sp who="#adolf">
+            <speaker>ADOLF</speaker>
+            <p>Gata, conaşule.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>H\rtiile cu devizul sunt în geantă. La revedere, Vlade.</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>La revedere. Sărut mâinile, doamnă Caramfil. Cu bine, domnule Scarlat. La Brăneşti la vânătoare.</p>
+            <stage>(Anei.)</stage>
+            <p>Îţi scriu de la Brăneşti când termin cu lucrătorii. La revedere!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Noapte bună, Vlade.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>La mistreţi, da, la revedere, domnule Brăneanu!</p>
+            <stage>(Brăneanu pleacă.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Acum s-a terminat rolul meu de asistent la o conspiraţie în care n-am fost iniţiat. L-am îndeplinit cu discreţie. De la nenea Iancu, meşterul nostru al tuturor, eu am învăţat codul bunelor maniere pentru candidaţii de holtei bătrâni.</p>
+          </sp>
+          <sp who="#na">
+            <speaker>NA</speaker>
+            <p>Atunci, Eleno, ia seama. Domnul arhitect e un candidat de însurătoare.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Care riscă uneori să intre el în rolul nevestii lui Manole... Mă retrag acum. Mi se pare că pentru prima dată astăzi am încercat să fac un spirit. Contagiune. Şi fireşte n-am reuşit. Vă rog să mă iertaţi. Sărut mâna, doamnă Caramfil. Noapte bună, doamnă Brăneanu. Sărut mâinile...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>E prevăzător.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Nu, doamnă, cel mai inocent locatar al hotelului... Mă rezum la pură geometrie.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>La care rubrică m-ai pus: profit sau pierderi?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Iartă-mă.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Iartă-mă sunt enervată, iartă-mă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Sunt caraghioasă, sunt enervată... Ai dreptate... înţeleg...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Aş vrea să-mi stăpânesc nervii, Eleno, e greu.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dacă nu înţelege nimic acest om liniştit... serviabil... Dacă nu înţelege nimic... Eleno, sunt obosită... Viaţa nu e numai club şi rapiţă, politică şi vânătoare de mistreţi.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Desigur că da... decât sufletul e o coardă, Eleno, care se întinde şi plesneşte odată... Nu ştii când, nu-ţi dai socoteala... Te plimbi în întuneric şi te lămureşti deodată, ca la lumina unui fulger... Da, sunt străfulgerări de-o clipă care limpezesc adevăruri crude... Ştiu eu? Ani de-a rândul mergi alături de cineva fără să înregistrezi că are urechile mari şi-un punct de albeaţă la ochiul stâng... Le-ai înregistrat? Din ziua aceea nu-i mai vezi decât urechile... Nu te mira de vorba mea, aşa e... Să nu crezi că sunt o apucată, că nu mă analizez... Eu îmi dau seama, eu mă chinuiesc, mă zbat...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da. îţi mulţumesc, Eleno. Îţi mulţumesc. Tu eşti bună, eşti echilibrată, eşti înţeleaptă... eşti prietena mea, Eleno... Explică-mi tu, cum se poate descifra o pervertire de temperament? Ai avut vreodată senzaţia asta penibilă că nu mai eşti tu, că eşti altă fiinţă, alţi nervi, altă carne? Şi toată transformarea bruscă peste noapte, ca de-o otravă... ca şi când ai fi mâncat bureţi nebuni culeşi pe Caraiman?... În definitiv, Eleno, eu am trăit şapte ani cu Vlad, mi-am făcut o concepţie de viaţă din căsnicia mea, am trăit împăcată, fără zguduiri mari, adevărat, dar mulţumită... normală... Şi-acum dintr-o dată, un fulger... o destrămare... Şi eu ţin la el şi azi, pricepi, ţin... îl respect... da... Ce dedublare stupidă... Nu-mi dau seama... Aş vrea să-1 întreb pe bătrânul Balteş, să-mi explice el, nenea Iancu, boala asta grozavă dintr-un tratat de patologie...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei e pe terasă?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, e tulbure...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eleno!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eleno, am o idee...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cheamă-1 te rog de pe terasă, cheamă-l aici.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cheamă-1, vreau să am o explicaţie cu Andrei.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu, vreau să-i pun capăt... Ai dreptate, e o stare imposibilă. Voi fi scurtă, tranşantă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, îmi dau toate silinţele. Îţi făgăduiesc. Cheamă-1, te rog, şi lasă-ne singuri! Am să-ţi spun mâine... Îţi mulţumesc, Eleno...</p>
+            <stage>(D-na Caramfil iese pe terasă. Se aude: D-le Galea! Răspunde Galea: Doamnă Caramfil. Reintră împreună.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, doamnă.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Un cuvânt numai, aşează-te, te rog... Mâine nu cred să pot poza.</p>
+            <stage>(D-na Caramfil pleacă.)</stage>
+            <p>Mă urc şi eu imediat, e aşa de t\rziu ! La revedere, Eleno!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Noapte bună, doamnă.</p>
+            <stage>(Urcă scara.)</stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu e vorba de bust. Vreau să-ţi vorbesc. Nu de şedinţa de mâine... Stai, te rog...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu e nevoie.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Totuşi.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Orice explicaţie e deplasată.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>De ce eşti tulburat?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu. Orice cuvânt e o notă falsă... O tulburare mai mult... Cât despre ghemul de lut din camera 37, te rog să-i spui feciorului că nu mai trebuie să-1 ude dimineaţa. Nu mai lucrez. Sunt două luni de când faimoasa operă o simt sluţindu-se sub mâinile mele. Te rog să-1 arunci în Prahova. Da, da, e cel mai potrivit omagiu ce-1 putem aduce acestei vilegiaturi de la Sinaia, cu preocupări de artă, cu pocker, cu politică economică, cu toată ilustra pletoră a acestui hotel... A, câtă banalitate, câtă banalitate...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eşti prea agitat.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu, sunt ridicol.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eşti dezlănţuit.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sunt ridicol.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>De ce-ai plecat pe terasă, când am început să cânt astă-seară? A fost un gest rău plasat, l-au simţit toţi, a fost o imprudenţă...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Te-asigur că ultima.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>De ce spui aşa?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, ultima. Crezi că nu mi-am dat seama? Dar mă strângea de gât... Aveam în minte scena de azi-dimineaţă... în creier, în mâini, în degete; înţelegi, în degetele astea, care n-au mângâiat decât piatra, e un cutremur, e o revoltă. Plătesc scump dezertarea de la muzee... Da, sunt un exilat, un dezertor... Şi când fiecare atom din mine se risipea ca de-o prăvălire surdă, dumneata atingeai clapele pianului, cu o impecabilă linişte mondenă. Cântai cu măiestrie, cu stăpânire, cu prestanţă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce copilărie... Dar n-ai priceput...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Erai a tuturor...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dar n-ai înţeles... Alesesem aria Isoldei... Era un gând ascuns, era un val — ştiu eu? — era o mărturisire.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, aria Isoldei. Să nu crezi că în sufletul meu n-au răsunat acordurile ca într-o biserică părăsită, că nu mă flagelează, că nu mă răscolesc. Să nu crezi că din prima zi când te-am auzit, vocea dumitale nu mi-a dat acea senzaţie cotropitoare pe care trebuie s-o fi resimţit bestiile lui Orfeu. Din clipa însă când aici s-a deschis o rană, fiecare accent e un pumnal care se înfige şi doare... Eu nu mai sunt auditoriu, înţelege-mă, eu vreau să fiu stăpân... Nu pot? Plec! Toţi aceşti indivizi, care stau cu braţele încrucişate în fotoliul lor şi sorb revărsarea melodiei, mi se par nişte intruşi odioşi... Cântecul se risipeşte tuturor, ca o voluptate a simţurilor cu ferestrele deschise... Fiecare îşi smulge partea lui, o gamă, o înfloritură, un tril... Unul zâmbeşte, altul plescăie din buze, altuia i se umflă vinele la frunte... Se împart asupra lui, asupra d-tale... E o impietate, e o orgie, e obscen...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>De-aceea spectacolul este peste puterile mele. De aceea am plecat!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, ar fi mai bine...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>De aceea am să plec definitiv...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Să pleci definitiv...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, să plec... Să mă înfund din nou între ciopliturile mele de piatră, undeva departe, lângă un amfiteatru la Taormina, la Amalfi, într-un sat în Sicilia. Singur şi pribeag, fără nume, fără țară... Tortura asta continuă m-a desconcentrat... E pentru întâia oară în viaţă când nu mă mai ascultă creierul, nici mâna... Iartă-mă.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, sunt sfârşită, Andrei!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Iartă-mă... nu eşti vinovată cu nimic... Sunt brutal, ai dreptate... Sunt eu, iartă-mă, n-am înţeles  jocul  realităţilor... Sunt  un nebun... Brazii... Prahova...</p>
+            <stage>(îi ia mina.)</stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, brazii... Prahova... Andrei sunt slabă...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ano... e o prăpastie...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Vroiam să-ţi spun... să mă smulg... dar simt şi eu prăpastia... e un vârtej... E o goană... e un vârtej, Andrei...</p>
+            <stage>(Izbucneşte în plâns.)</stage>
+            <p>Brazii...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Vino  să-i  ascultăm...  Cântă  simfonia cea mare... Nu! Cântă aria Isoldei... acolo... afară, în noapte... Vino...</p>
+            <stage>(O târăște aproape spre terasă. Scena rărnâne câteva momente goală. Apare Adolf somnoros şi nevăzând pe nimeni, ia sticlele, închide pianul, stinge electrica şi pleacă. Pe scenă pătrunde numai lumina temperată a lunei care luminează terasa. Se desluşesc umbrele lui Galea şi Ana îmbrăţişaţi. Ea se desface, revine pe scenă. Galea o urmează.)</stage>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Dumneaei ca şi dumneata. Ce vă pasă? Citeşte o carte de i-a dat domnul Balteş; că şi dumnealui, om bătrân, tot de cărţi se ţine.</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Cum nu-i nimic? La urmă tot eu trag ponosul... al dracului ţigan...</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>În ceardac.</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>O chem, dar pe Lică tot îl prind, să nu credeţi</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce-i, Eleno? S-a întimplat ceva? M-ai chemat.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ei, vezi, că nu-i nimic... Mă bucur de bucuria ta. Ce om cumsecade!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Mi-e tot mai simpatic.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Când vă cununaţi?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, da, totul e întâmplare, Eleno...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce-i, ţaţă Ilinco, ce va să zică văicăreala asta?</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Sunt trei, mari ca urşii, nişte matahale să-ţi faci cruce...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Nu, coniţă. Vai de mine, trei mistreţi, i-a I adus  domnul Lorenţ cu  caru...  şi vulpi... şi</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cum, a venit administratorul? Trimete-1 imediat încoace...   Poate are vreun cuvânt de la Vlad...</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Aşa dihănii n-am mai văzut. îi spui lui domnul Lorenţ...</p>
+            <stage>(Iese.)</stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>De ce-o fi venit aşa de repede? De obicei îşi aduceau seara vânatul...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu, dar mă întreb.</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Sărut mâna, doamnă!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Bună ziua, domnule Rainer. E ceva?</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Nimic deosebit, doamnă. Domnul Brăneanu m-a trimis să vă spun că nu sosesc decât seara târziu. Am vânat până la în Muncelul şi după-amiazi trecem spre Vlădeasa, la cerbi. De aceea ne vom întoarce probabil numai noaptea.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Foarte bine. A fost cu noroc?</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Da, a ieşit bine. Domnul Brăneanu în frunte ca totdeauna.</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Doi mistreţi, doamnă, două vulpi şi un ţap.</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Domnul colonel Dabijaa împuşcat un mistreţ, un exemplar foarte frumos. Îl veţi admira. Surit toţi jos în faţa ceardacului.</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Da, un iepure, doamnă. Stătea la pândă cu prinţul Muşat.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nenea Iancu e în grădină, a ieşit de azi-dimineaţă. Bine, domnule Rainer. Apropo, domnul Galea a avut şansă?</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Nu, doamnă. Domnul Galea n-a împuşcat nimic. Adică nici n-a tras. Am fost alături multă vreme. Aşa ne-a împărţit de dimineaţă domnul Brăneanu. A trecut mult vânat pe dinaintea noastră, mistreţi, capre... N-a vrut să tragă. Eu am plecat cu gonacii înainte, pe urmă l-am pierdut din vedere. Domnul Brăneanu ne-a întrebat unde e. I-am spus că a rămas înapoi.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Bine, domnule Rainer. Spune-i bărbatului meu că-1 aşteptăm cu masa. Dumneata te întorci curând?</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Plec imediat. Un moment să odihnim caii.</p>
+          </sp>
+          <sp who="#rainer">
+            <speaker>RAINER</speaker>
+            <p>Da, doamnă, aştept.</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ai auzit?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, dezlănţuit, fără control, afișându-şi dispreţul.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cum nu? Pasionat. Dar e întunecat, e într-o tensiune continuă... Eleno, starea asta e insuportabilă, e peste puterile mele. Simt, uite am o presimţire sinistră... Simt furtuna aproape, tot mai aproape... Pare-că văd valurile cum mă ridică. Pare-că e un vifor pe mare, la farul de la Tuzla, şi-o luntre care joacă azvârlită în nebunie. O luntre care se cufundă. Luntrea mea, Eleno...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu, situaţia asta mă exasperează. Jocul ăsta frivol nu-l mai pot duce înainte... Sunt o vinovată, desigur...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Sunt o cinică. Crezi că nu văd? O femeie căzută...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Sunt o fiinţă rea, ieşită din calea normală... Şi-ţi jur că am luptat, că am vrut să scap din vârtej. Acolo la Sinaia, în noaptea aceea, când ţi-am dat cuvintul meu, eram hotarâtă. Vedeam clar primejdia, înţelegeam consecinţele... Ştiam, ştiam, că un pas încă şi cad în abis. Ei bine, nu m-am putut smulge. O forţă necunoscută mă împingea de la spate, o gheară de fier mă strângea de şira spinării, de păr, de braţe... Am fost laşă, Eleno. Am căzut înfrântă ca o cârpă, ca o femeie de stradă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Şi de atunci e un chin, o dualitate dezonorantă. Am senzaţia că joc pe-o coardă întinsă la circ, că sunt pe muchia cuţitului. Omul acesta plin de pachete de nervi, încins în negură, ca fruntea unui vulcan, înfrigurat ca un râu de lavă, mă domină... În mâinile lui mă pierd... Voinţa mea se fringe... Mă stăpâneşte, da, mă stăpâneşte cu conştiinţa omului superior. Ochii lui se aţintesc ca două suliţi asupra mea, mă ard...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Şi când îl văd pe Vlad privindu-mă întrebător, cu o căutătură necunoscută sub gene, atunci înţeleg mai bine realitatea şi mă cutremur. El nu zice nimic, nu mi-a spus un cuvânt, dar atitudinea lui nouă,  o cută parcă ivită în colţul buzelor, toate îmi dau impresia chinuitului care scrutează. Şi eu mă simt aşa de slabă, aşa de neputincioasă... Înţelegi, într-o zi o lacrimă neştearsă, o silabă care-mi scapă şi va desluşi tot... Are să fie o nenorocire...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ştiu eu, e prea greu, e prea târziu. Ştiu eu... Valul m-aruncă între două stânci, mă balansează încă şi-o să mă sfarme, Eleno...</p>
+            <stage>(Se aude sirena unui automobil.)</stage>
+            <p>Ascultă... da... vine Scarlat...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Trec dincolo, Eleno. Nu-1 pot primi în halul ăsta. Inventează un pretext, o durere de cap. Primeşte-l tu... te rog...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, da... îmi dau silinţa... la revedere...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Aici, conaşule. Poftiţi. Ne-aţi băgat la griji.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Ei, atunci ştii, nimica toată... Atâta c-a fost plicticos şi-am întârziat.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Poate un ceai. M-aş grăbi.</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Toate bunătăţile, coniţă, toate bunătăţile...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Doamna Brăneanu?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Da, trebuia să lichidez cu antreprenorul. Bine c-am scăpat. M-am convins, era escroc.</p>
+            <stage>(Ţaţa Ilinca intră cu ceaiul.)</stage>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Poftiţi, conaşule. Am adus de toate... poftiţi... Iaca şi urdă dulce de azi-dimineaţă... poftiţi...</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Dumnezeu să vă dea noroc!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Să trăieşti, băbătie! Ştii că e admirabilă urda asta de la oile lui Brăneanu. Cât facem de aici până la munte?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Ce face?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Desigur e o aluzie la Brăneanu.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Înţeleg, înţeleg. Dar ce pot eu? E o încurcătură din care se iese greu...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Are dreptate. E vinovată de la început. Viaţa, dragă Eleno... Cunoşti ideile mele. Viaţa e serioasă. Aparenţele, spuma de deasupra îţi dau impresia că se poate pluti la suprafaţă. În fond totul se plăteşte, cum spunea odinioară bătrânul Balteş într-un'a din butadele lui. Prietena dumitale n-a înţeles acest adevăr, şi plăteşte acum. Şi n-a mai înţeles încă ceva: pe Andrei. Ei bine, eu îl cunosc, îl ştiu de douăzeci de ani. Un fanatic al artei lui, un solitar, un suflet pur, incapabil de tranzacţii, un leu din Sahara visând infinitul... Ei bine! Doamna Brăneanu nu 1-a priceput. Micile cochetării, jocul obişnuit din lumea noastră care frizează păcatul fără mari scrupuluri de conştiinţă, cum aş zice, gimnastica adulterului, nu e lumea lui Andrei. Foarte puţină îndemânare îi trebuia doamnei Brăneanu ca s-o puie în gardă, să nu intre în cuşca leului. Ei bine, acum?</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Acum nu prea văd soluţia. Lucrurile s-au încurcat. în Andrei s-au răscolit instinctele de stăpân, care în raporturile noastre cu femeile îndrumă orice logică de bărbat şi cer cuvânt la un moment dat. Nu văd decât o singură ieşire: ori-ori... dar repede, fără ezitare, dacă vrea să înlăture catastrofa. Să-i vorbesc eu lui Andrei? Dar amestecul meu ar fi refuzat de la început ca o indelicateţă. Dânsa are iniţiativa. Spune-i, vor-beşte-i, convinge-o. Intru cât mă priveşte, nu pot avea altă părere decât o ruptură bruscă care salvează trei oameni: Brăneanu revine din nedumerirea lui, prietena d-tale se retrage in căsnicie cu o rană care se vindecă şi Andrei... Ei bine, Andrei se îngroapă în arta lui şi-şi urlă durerea în marmură. Crede-mă, Eleno, e cea mai bună soluţie şi cea mai onestă. Peste tot atmosfera asta e penibilă, tocmai acum în pragul fericirei noastre... Ştiu, o clipă nu-ţi bănuiesc castitatea... Cum te ridici deasupra... eşti intangibilă... eşti o sfântă.</p>
+            <stage>(îi sărută mâna. Intră ţaţa Ilinca.)</stage>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Iertaţi-mă, coniţă, domnul Lorenţ e gata. Dacă vrea conaşul ca să nu întârzie, spune domnul Lorenţ...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Adevărat, uite că viu. Plecăm imediat</p>
+            <stage>(Iese Ilinca.)</stage>
+            <p>Are dreptate, dacă nu întârziem. Te las, dragă Eleno. Fii liniştită, văd eu de Andrei. N-are să fie nimic acum. De altfel femeile, sunteţi totdeauna prăpăstioase.  Dacă vorbeşti, desigur cu tact...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Mersi. Nu cred să am noroc.</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Eu mi-am luat prada şi nu mai scapă din ghearele mele...</p>
+          </sp>
+          <sp who="#scarlat">
+            <speaker>SCARLAT</speaker>
+            <p>Şi te-am închis cu zece zăvoare...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>A plecat, l-am văzut pe fereastră.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eşti fericită, Eleno?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>A, nu, Eleno. Ai sesizat bine că te-am întrebat bătrâneşte, fiindcă sunt bătrână, foarte bătrână.Că am mai puţini ani decât tine? Dar vârsta, ce-are face vârsta? într-o lună de zile ţi se pot grămădi în suflet senzaţii, întrebări şi experienţe câte nu acumulezi o viaţă întreagă. O furtună, un incendiu, nu pustiesc mai mult într-un sfert de ceas decât o risipire înceată de decenii? De-aceea ai sesizat bine. Mă simt mult mai bătrână şi ni s-au intervertit rolurile. La Sinaia, eram, cum spui, un copil, tu o femeie matură, care-mi dai sfaturi şi-mi arătai drumul. Aici, la Brăneşti, tu eşti fiinţa senină, prinsă în farmecele tinereţii, şi eu, tante Frossa, vorbindu-ţi de la poalele unei grămezi de cenuşe... Să nu crezi că în tot zbuciumul meu n-am urmărit pas cu pas învierea ta. Dimpotrivă, m-am angajat mult mai mult decât dacă aş fi fost dezlegată de-o povară proprie. Mi s-a pus ca o problemă paralelă legătura ta, am înregistrat-o în toate amănuntele ei, pe furiş, am descifrat-o alături de povestea mea cu cruzime, cu migăleală, cum pui faţă în faţă două compoziţii muzicale pe acelaşi subiect... Câtă deosebire, Doamne, câtă deosebire! De-aceea cind te văd, când vă văd, fericirea voastră calmă, justă, legitimă, fericirea asta consacrată de legi şi de canoane, îmi dă impresia că tu eşti fetiţa de pension...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Poate ai făcut bine... Tu pol i judeca mai potrivit.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Şi ce-a zis Scarlat?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Foarte bine. Dar ce zice el, cum vede? Ce zice? în definitiv în asemenea cazuri se pronunţă totdeauna o sentinţă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>El e...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>O ruptură bruscă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei mă iubeşte, Eleno...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Crezi, Eleno, crezi?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ai dreptate, Eleno, ai dreptate...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu. îţi mulţumesc, Eleno. Linişteşte-te, uită-te în ochii mei. Nu-i aşa că sunt mai senini? Răscolirea asta a vieţii, toate întrebările de pe pământ şi de sub pământ, firele tragediei de care vorbeai, mi-au înfrânat egoismul. Mă simt mai uşoară. E poate prima clipă după Sinaia, că sunt mai liniştită, că m-am coborât mai adine...</p>
+            <stage>(Intră Balteş cu un braţ de crizanteme.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Bine că te vedem, nene Iancule, dispăruseşi de tot...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dumneata te-ai face grădinar...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Să vedem cele două antiteze.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Şi când se isprăveşte bătălia asta, nene Iancule?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Jumătate artistă. Da, e o definiţie interesantă. Decât într-un lucru te înşeli...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, nene Iancule, când spui că lupta asta e fără sfârşit.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Fiindcă într-o zi, un efort, o hotărâre eroică şi cade balanţa într-o parte...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, gospodăria, nene Iancule, e poate singura noastră justificare.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce om admirabil eşti, nene Iancule, ce om admirabil...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Din toată inima.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Din tot sufletul.</p>
+            <stage>(Se aşază la pian. Se aud primele acorduri din Sonata Lunii. Balteş se aşază obidit în fotoliu. D-na Caramfil pe canapeaua din faţă. Intră ţaţa Ilinca, avansează nedumerită spre pian. Atitudinea ei exprimă un amestec de şiretlic şi nelinişte.)</stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Imediat, nene Iancule.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Coniţă!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce vrei? Cum dai buzna peste noi, ce vrei?</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Domnul prefect, conită.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Da, domnu prefect e afară, vrea să vorbească cu dumneavoastră.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce prostii îndrugi? Când a venit domnul prefect?</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Acum... vrea să vorbească cu dumneavoastră, numai cu dumneavoastră.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ei bine, spune-i că-1 primesc... cu plăcere deosebită!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Bine, spune-i să vie...</p>
+            <stage>(Iese ţaţa Ilinca.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Cer scuze că tulbur o senină audiţie muzicală.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, pentru Dumnezeu...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Un oaspe neaşteptat, nu-i aşa?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, ce va să zică asta?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nimic.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce s-a întâmplat? Vorbeşte! O nenorocire? Andrei spune-mi, nu mă chinui.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Fii liniştită... Nu s-a întâmplat nimic. Soţul dumitale e mai întreg ca oricând. Au trecut la vânătoare de cerbi, spre Vlădeasa.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ei, şi tu? Cum se poate? Da' e ridicol, e ignobil... Gluma cu prefectul, la care asociezi pe această babă... Da' mă faci de râs, Andrei, e nedemn...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Demnitatea de mult nu mai intră în obiceiurile mele... Lasă, te rog. Vreau să-ţi vorbesc... Acolo sus în munte m-am lămurit. Azi-noapte eram tulbure, imprecis, haotic... Sus însă m-am dezmeticit. Acum văd limpede. Vreau să-ţi arăt planul meu. Ascultă...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dar cum ai venit? Cum te-ai desfăcut de societate? Au să bage de seamă, Andrei, eşti un copil...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mofturi! Nu ştie nimic. Au trecut cu toţii spre Vlădeasa... Le-am spus să plece că vin în urmă... Nu-i nimic extraordinar, nu-i nici o» bănuială. Ascultă, Ano! Vreau să-ţi comunic hotărârea ce am luat, planul meu...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce plan?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, planul meu e făcut...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Plecăm...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Vii cu mine.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Unde? Unde vin, unde plecăm? Vorbeşti ca un halucinat... Ce sunt vorbele astea?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Vorbesc ca un om cinstit, Ano, ca um om holărâl. Lucru e simplu, fără nici o greutali-, 10 absolut simplu. îţi pui pălăria şi vii. Am vorbii.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, da' eşti bolnav...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>De acord...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eşti nebun, Andrei? Cum crezi tu că într-o clipă? Automobilul aşteaptă în garaj ordinul...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>O nebunie, se poate, dar e singurul lucru pe care-1 mai văd limpede, singurul lucru, înţelegi, mă poate smulge dintr-o fierbere pe care n-o unii suport. Luna asta de patimă şi de chinuri a fost un iad, m-a risipit, mi-a muşcat în creier. Viaţa de duplicitate scârboasă, cu concesii idioate, cu umilinţe degradante, mă strânge de gât... Şi omul ăsta bolovănos care mă priveşte din albul ochilor</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Bine, Andrei, dar nu-ţi dai seama...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu văd nimic altceva, nimic...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu-ţi dai seama. Sufletul nu-i o minge pe care o arunci copilăreşte... Sufletul meu se zbate plin  de întrebări, Andrei. Eu mă chinuiesc, mă întreb; mă flagelez de o lună necontenit... Tu vii ca un uragan, ca o apă mare, vrei să sfarmi totul... ca un potop... E poate rostul tău de bărbat, e toată pornirea ta neândurată de stăpân... Eu, Andrei, eu sunt femeie, o ramură slabă în bătaia vuitului... Dumnezeu îmi vede zbuciumul, cât mă fră-mânt de când am căzut în braţele tale.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Atunci ce-a fost întreg delirul nostru de până acum? Ce-a fost săptămâna de la Sinaia? Toate încleştările care mă urmăresc pretutindeni ca un fier ars în inimă? Ce-au fost? O aventură de ocazie, o consolaţie de vilegiatură? Ai minţit?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Opreşte-te! Eşti profund nedrept... N-am minţit, Andrei, şi nu sânt o fiinţă uşoară... Ai dreptate însă când te întrebi, mă întreb şi eu: — ce-a fost volbura care m-a azvârlit ca pe o găoace? Din ce abis necunoscut s-a dezlănţuit? De ce fibră misterioasă s-a desfăcut deodată acest îndemn? Unde l-am purtat până atunci? De ce nu m-a cercetat niciodată în trecut? Cine 1-a chemat din ascunzişul lui: vântul, crestele brazilor, clocotul Prahovei, tu cu privirile tale, ori carnea asta blestemată? Andrei, n-am minţit, am fost sinceră cum sunt şi azi...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ce te opreşte atunci?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Deşteptarea, Andrei. Sunt buimăcită încă, sunt ca după o beţie... Întoarsă acasă între lucrurile mele, am simţit ceas cu ceas o reţea nouă, care mă împrejmuie... O conspiraţie parcă a mobilelor, a aerului, a tablourilor de pe pereţi... o conspiraţie împotriva mea... Din fiecare colţ se ridică un reproş, pândeşte o ameninţare... Nu-ţi închipui ce putere de persuasiune teribilă e într-un scrin unde şapte ani de-a rândul ţi-ai ţinut scrisorile... Cum vorbeşte o perdea, un covor, un gherghef... Toate sunt împrejurul meu acum, toate mă trag de mânecă. Lasă-mă, Andrei; dă-mi răgaz să înving conspiraţia asta. Voi lupta, Andrei; voi lupta... Tu eşti cel dintâi om care mi-ai dezlegat misterul sfânt al pierzării. Înţelegi, cel dintâi; celalt...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Celalt e mai tare ca mine...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu, Andrei, tăria e în mine...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Celalt e stăpânul.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu, Andrei, celalt e victima care a căzut în drumul potopului... Eu sunt glasul care 1-a împins pe valuri... Lasă-mă să îngrop victima, să arunc un bulgăre de ţărână... Cum crezi tu, cum crezi, Andrei, că nu sunt datoare cu nimic, cu un cuvânt, o explicaţie onestă acestui om? Cum vrei să fug ca o slujnică netrebnică din casa unde s-a depănat o viaţă fără adâncimi, dar o viaţă cu nenumărate tentacule de fiecare clipă... o căsnicie? Andrei, ştii tu ce e o căsnicie? Aşteaptă, pentru Dumnezeu, o zi, o lună... ştiu eu? Să mă dezmeticesc din frigurile groaznice care-mi spulberă mintea, să-mi aranjez gândurile...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ei, nu! Aşteptarea de care-mi vorbeşti e odioasă... e murdară... murdară, da, ca o conştiinţă de zaraf, ca o plapomă de hotel... Să aştept? Să te ştiu mai departe aici, sub ochii lui, în mobila lui, în patul lui? Să aştept, să înghit funinginea asta care mă îneacă? Să mă plimb pe sub fereşti, să tresar când se închide o uşă, să suport glumele slugilor? A, nu, doamnă, te înşeli...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Te înşeli. Eu nu sunt amantul suplu şi înde-mânatic, junele amorez, suplimentul de căsnicie.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, e o infamie!...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, suplimentul de căsnicie care împlineşte triunghiul burghez. Nu sunt gigolo-ul care vine tiptil când soţul pleacă de acasă. Nu sunt, înţelegi, nu sunt...</p>
+            <stage>(O ia de braţe şi o zguduie. Uşa se deschide brusc şi intră Brăneanu în costum de vânătoare cu puşca pe umeri.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>A, va să zică, am văzut bine. Aici e vânătoarea dumitale, domnule!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Vlade, Vlade! Domnul Galea...</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Cu dumneata voi vorbi mai târziu. Treci,</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Treci!</p>
+            <stage>(Ana iese.)</stage>
+            <p>Cu dumneata voi vorbi altfel mâine, la Bucureşti...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>N-am nici o lămurire de dat.</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Vreau să fie un pistol în mâna care sapă cu dalta. N-aş vrea să se spuie la club că Vlad Brăneanu, în ziua de 3 octombrie, a împuşcat la moşia lui doi mistreţi şi o canalie.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Adresa mea o cunoaşte soţia dumitale.</p>
+          </sp>
+          <sp who="#brăneanu">
+            <speaker>BRĂNEANU</speaker>
+            <p>Mizerabile!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>La dispoziţia dumitale!...</p>
+            <stage>(O clipă stă în faţa lui Brăneanu, îi întoarce spatele şi iese.)</stage>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, e o doamnă. Vine să-mi vorbească ceva. Întrebi: — Doamna Caramfil?... Şi-o pofteşti aici, în atelier, nu în salon, înţelegi, în atelier.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Bine, domnule Andrei, doamna Caramfil.</p>
+            <stage>(Iese şi revine cu doamna Caramfil.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Am fost de ieri, domnule Andrei, colţ cu Academiei, la florărie şi le-am comandat. Cum aţi spus dumneavoastră crizanteme albe, galbene, ciclamene... Tot ce-aţi spus. Am trecut şi azi-dimineaţă, le aduce negreşit. Nu le-a adus până acum, ca să fie proaspete, să nu se ofilească.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Bine, numai să nu întârzie.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Se poate? Vin negreşit. Ce să fac cu scara asta, domnule Andrei? Rărnâne aici?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Aşeaz-o în colţ, în dreptul statuei. Aşa. Cum ţi-am spus, când îţi voi face semn.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Am înţeles.</p>
+            <stage>(Se aude soneria.)</stage>
+            <p>Sună.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Poftiţi, doamnă.</p>
+            <stage>(Se retrage.)</stage>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sărut mâna, doamnă Caramfil. Aici, te rog... Iartă-mă că mă găseşti în haina asta, dar sunt ultimele momente în care aranjez expoziţia. Am primit scrisoarea dumitale azi-dimineaţă. Mă bucur că te văd...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mai întăi, lasă-mă să-ţi string eu mâna şi să te felicit pentru triumful dumitale. E mai frumos, e mai cald. A fost Scarlat pe la mine zilele astea. I-am spus cu câtă simpatie vă urmăresc... Când e evenimentul?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Un tors de centaur, reminiscenţe din drumuri depărtate.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, Atlantida. O inspiraţie de demult. Am terminat-o acum în urmă. Câţiva prieteni au stăruit s-o acopăr şi s-o dezvelim numai în faţa publicului când inaugurez expoziţia... Un capriciu al lor. Cam copilăresc, recunosc, de un efect ieftin, dar, în sfârşit, am cedat. Era atâta entuziasm curat în invenţia cu care veneau... Vrei s-o vezi? Pot să ridic vălul...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sunt fericit, doamnă Caramfil. A trecut atâta vreme...  Stai, te rog, îţi mulţumesc...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>O furtună...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Dar n-a fost nimic grav... o rană la umărul sting, s-a închis în trei săptămâni.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ce gentilă... îţi mulţumesc. Nici n-am ştiut. Exagerările doctorilor... m-au izolat de orice contact cu lumea. Poate c-au avut dreptate. Era şi altă rană, mai jos de umărul stâng... Poate de-aceea...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, doamnă Caramfil, s-au închis amândouă. Sufletul e ciudat, ca şi trupul, se vede, luptă cu</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>La ţară, în căsuţa părintească din Moldova, în părăginirea de acolo am stat până acum trei săptămâni, la mama. N-o mai văzusem de mult. Mamele de la o vârsta încolo nu mai au decât beneficiul nenorocirilor noastre. M-am închis în casa ei, neştiut de nimeni, ca într-un azil... Într-o zi am început să lucrez. Ştii, arta câteodată e un azil pentru infirmii vieţii.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Crezi?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Două aziluri?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Poate n-au răni de vindecat, doamnă. Soarta a fost mai blândă cu ele.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ar fi mai bine să închidem paranteza, doamnă Caramfil, ar fi mult mai bine.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>O însărcinare?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Acum?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mai cântă?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Asa a fost atunci...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ştiu eu?...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mai târziu cred că s-o ascult la vreun concert... un loc în stal... hm... Sunt stări, doamnă Caramfil, prin care dacă ai trecut, ori îţi frângi gâtul ori rămâi imun.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu înţeleg, doamnă, nu înţeleg. în situaţia noastră, o revedere ar fi... Lasă-mă să-ţi vorbesc sincer şi eu... Cunoşti totul, ai fost martoră, ai fost confidentă, desigur... O revedere ar fi ori o impietate, ori cum să-i zic, o credinţă deşartă, aproape frivolă, că poate învia un mort...Nu, doamnă Caramfil...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>înţeleg... înţeleg... adică bănuiesc şi eu... Te asigur, nu vreau să fiu indelicat, revederea, însă... Când să mă vadă? Unde să mă vadă?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Dar e imposibil, imposibil... tocmai acum... Are să înceapă să vie lumea peste o jumătate de</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Bine, dar sunt buimăcit... Sunt încurcat... Tocmai acum...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Vedeţi că le-a adus. Sunt foarte frumoase. Unde să le aşezăm, domnule Andrei?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Unde vrei tu... Da... Pune-le cum vrei...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Nu mă prea pricep.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu trebuie nici o pricepere... Cum crezi tu... în toate părţile... lasă-mă...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Să mai aduc câteva vase de dincolo?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Adu, dacă e nevoie.</p>
+            <stage>(Gheorghe iese şi revine, cu câteva vase. Aşează flori.)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Crizantemele, nu le-amestec culorile... Le pun fiecare separat. Astea aici pe masă, galbene. Vine frumos. Astea roşii în dreptul boierului...</p>
+            <stage>(Lângă centaur.)</stage>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ascultă, Gheorghe!</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Poftim, domnule Andrei.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu peste mult are să înceapă să vie lumea pentru expoziţie. îi duci pe toţi în salonul din dreapta. Rămân acolo până-ţi spun eu... Expoziţia se deschide numai la ora patru, înţelegi?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, domnule Andrei. îi duc în salon pe intrarea din dreapta, şi aştept să-mi spuneţi.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Se poate însă...</p>
+            <stage>(Se aude soneria.)</stage>
+            <p>Auzi că sună. Dacă e o doamnă şi vrea să-mi vorbească, o conduci aici.</p>
+            <stage>(Gheorghe iese şi revine după un minut.)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Unu cu aparat de fotografie... Unu cu ochelari, cu păru roşcat. Un fel de mânz. Îl ştiu eu pe ăsta. Mai demult era la o curelărie în Lipscani. Acum e la jurnal...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu i-ai spus că la patru?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ba da, dar poţi vorbi cu ăsta? De trei zile ţine morţiş să intre să facă fotografii... Era să dea peste mine.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Să aştepte.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>L-am repezit.</p>
+            <stage>(Sună.)</stage>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ştii, va să zică.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, dacă e o doamnă, care vrea să vă vorbească...</p>
+            <stage>(Iese şi reintră cu Ana.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Poftiţi, doamnă.</p>
+            <stage>(Se retrage.)</stage>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Bună ziua, Andrei! Cred că ai fost prevenit.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu te-aşteptai, desigur.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eşti mirat?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sunt înmărmurit.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>E o mare surpriză, deci, vizita mea...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Doi spectri care ies din groapă şi se întâlnesc la o cruce în ţintirim.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Poate era mai bine să nu vin.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Poate era mai bine...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>întâlnirile din ţintirim sunt totdeauna triste...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Răscolesc zadarnic sub cenuşe...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Să nu crezi că nu m-am gândit, să nu crezi... Lasă-mă, te rog, să stau pe scaun o clipă. Am umblat pe jos şi sunt aşa de trudită...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Aici.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, m-am gândit. E o frământare îndelungă căreia i se pune capăt acum. Am avut vreme, mi-am făcut seama cu mine însămi... Din primele zile când am auzit că eşti la Bucureşti doream să viu. Am ezitat... am amânat... am ascultat toate scrupulele de conştiinţă... Ieri, în sfârşit, citind la ziar că azi se deschide expoziţia ta, mi-am zis: e ultima zi... ultimul moment când sufletul tău trăieşte încă sub povaţa singurătăţii... M-am hotărât şi-am trimis pe Elena...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>A fost doamna Caramfil. Acum a plecat de aici. Iţi spun drept, sunt aşa de buimăcit...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, nu te-ai aşteptat... Cum ziceai adineauri, doi spectri în ţintirim. Nu sunt spectru, Andrei. Nu! Sunt mortul care a înviat!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mortul care a înviat...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, sunt mortul care a înviat. Nu e vremea să-ţi arăt azi cât am stat în groapă. Ce încordare crân-cenă şi mută, ce zvârcolire nevăzută de nimeni mi-a dat puterea să împing la o parte lespedea ce mi se aşezase pe piept.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Spunea doamna Caramfil că eşti liniştită...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Da, sunt liniştită...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Împăcată...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Elena... Dar ce poate şti Elena din lumea în care am fost eu? Fiecare din noi vede pe celălalt prin prisma propriei mulţumiri. Ea e fiinţa cu care viaţa a fost mai milostivă. Ce vede Elena? Nimic nu te leagă mai strâns la ochi, ca un vă! de cununie. Şi-apoi frământarea mea s-a dus în tăcere, surdă' fără zgomot şi fără mărturii. Andrei... Sunt aşa de copleşită acum. Cuvinteie mă ascultă greu, de mult n-am mai avut nevoie de ele... Vedeam aşa de limpede ce trebuie să-ţi spun... Mi le-am orânduit de atâtea ori ca o spovedanie... Acum se amestecă... Iartă-mă... Am un sloi de gheaţă sub limbă... Nu-i nimic, m-am dezmeticit... Da, nu m-aşteptai, te-a înmărmurit venirea mea... Ce ciudată presupunere, Andrei, o amuţire pe veci! Cum? Credeai după cele petrecute că totul s-a stins, că sufletul e o curte bine îngrădită, în care nu mai pătrunde nimic după ce ai închis poarta? Că toată povestea noastră s-a evaporat din nervii mei ca paginile unei cărţi citite pe care o pui pe o poliţă şi-o uiţi... Ai crezut în nemişcarea asta, în împietrirea asta, Andrei? M-ai putut judeca aşa de aspru, spune-mi. M-ai osândit aşa de nedrept?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nici judecată, nici osândă din partea mea. Viaţa e mai tare ca noi. Aşa mi-am zis: ea şi-a spus sentinţa. Fiecare cu pedeapsa lui.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ei bine, pedeapsa mea a trecut. Orice s-ar întâm-pla de-aci înainte, orice suferinţe m-ar mai întâm-pina în cale, lanţul lor nu mă mai doare. Sânt purificată, Andrei. Am băut cupa de otravă, am sorbit ultima picătură. Nu-ţi dezvelesc acum decât în treacăt calvarul meu. Ştiu, poate am ales rău momentul. Peste un sfert de ceas va veni lumea aici, dar nu mai puteam. Andrei, nu mai putem amâna... Mutismul meu îmi apăsa ca o crimă pe conştiinţă, trebuia să-1 întrerup.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Vorbeşte-mi, Ano. Te-ascult...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>După grozăvia despărţirei noastre, am rămas ţintită pe loc, ca o scândură de corabie naufragiată, azvârlită de furtună la mal... Un cuţit mi s-a înfipt în inimă. Vârtejul, Andrei, m-a aruncat aşa de adânc... aşa de adânc... Pricepi tu oare prăbuşirea asta? De unde vin eu? Am fost dincolo de moarte, dincolo de infern, dragul meu... Nu ştiu unde-ai fost tu, eu am fost în gol, în ţara nefiinţii... Mă mir ce minune, ce capriciu, mă mir ce fir nepriceput m-a ridicat deasupra. Când am deschis ochii şi am privit împrejur, eram alta. O străină, un călător nou venit, pe-o ţarină proaspătă. Am lăsat acolo jos toate poverile unei vieţi, tot balastul unui trecut... pricepi, tot!... gânduri vechi, inconveniente de demult, prejudecăţi, îndatoriri... S-au rupt cătuşele, Andrei. Am înviat, toate au rămas la fund. Mă uit în ochii tăi ca într-o oglindă, să desluşesc dacă vezi învierea mea... fiindcă am înviat... Nu s-a ridicat cu mine de-acolo din adâncime decât sufletul, lumina albă care se iveşte departe... Lumina asta îmi străluceşte de atunci. O clipă n-a mai adormit, m-a chemat, m-a îmbărbătat. M-a adus aici ca pe o roabă umilă... m-a adus... Acum ştii, Andrei.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Acum ştiu... da...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Trebuia să te văd...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Să mă vezi...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Simt nedumerirea ta... da, să te văd, să-ţi spun... Să te întreb: în ce lume ai fost, Andrei? Din ce lume vii tu cu obrajii ăştia palizi şi cu buzele strânse? Din ce lume vii tu?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Să-ţi spun din ce lume viu eu? Ano, am ascultat în linişte mărturisirile tale. Fiecare cuvânt mi-a căzut apăsat în minte, ca un bulgăre pe un sicriu. Crede-mă, nu mă aşteptam la întâlnirea asta. Despărţiţi, era mai bine aşa. Distanţa e un paravan care apără, distanţa e un adăpost. Nu-mi închipuiam că se vor mai încrucişa cărările noastre. Suferinţa e un rău profet, recunosc! De unde să-mi desprind eu acum vorba care să-ţi despice un întuneric? Cine ar fi crezut că azi vom sta din</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Spune-mi, Andrei, spune-mi! E dorinţa mea fierbinte, e răspunsul unei tăceri care m-a chinuit.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Ei bine, dintr-o lume mai grozavă decât a ta... Mai depărtată, mai adâncă, mai tulbure decât ţara nefiinţei... Neantul, Ano, e gol. Neantul e linişte şi repaus. La mine sunt umbre care joacă, sunt friguri care ard, sunt strigăte şi patimi... Din ce lume? Cine ar putea să ţi-o înfăţişeze lumea asta zbuciumată de chinurile facerii, lumea în care creierul, mâinile şi fiecare atom din mine se lupta cu piatra şi vrea s-o supuie? De-acolo vin, Ano! E lumea în care cine ştie ce blestem ascuns m-a surghiunit de la început şi din ale cărui gheare nu este scăpare. Când am fost cu tine am evadat, dar m-a prins din nou, acolo sub tavanul căsuţei din bătrâni... Mi-a cerut ca un vameş la poartă să arăt rănile pe care le primisem afară. I le-am arătat şi-a zgârâiat unghiile în carnea mea... înţelegi tu? Am dat bătălia cea mare, cu toată zvâcnirea tâmplelor... Am dat-o împreună... N-am fost singur acolo...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>M-ai dus cu tine, Andrei? Ai dus amintirea noastră, farmecul nopţilor care mă cheamă? Le-ai dus?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, te-am dus cu mine în călătoria grozavă. A fost o viitoare neagră la început, o uruitură în adâncuri... Pe urmă a început hora... hora păgână... Ce limbă să-ţi spuie ţie încleştarea fără milă între om şi piatră? Ştii tu ce e această duşmănie sinistră, în care se scurge toată flacăra din'vinele noastre de atâtea mii de ani? Ei bine, te-am dus cu mine. Erai zăvorită în sufletul meu ca o boală cumplită de sânge. Cu fiecare cioplitură de daltă se desfăcea un strop din clocotul meu... In fiecare fibră a materiei cu care luptam, lăsam o silabă din cântec... Mă împingea ispita înainte, zi şi noapte, fără răgaz. Eram un demon care stoarce viaţă din piatră — ştiu eu? — eram un călău care ucide necontenit... Degetele ca nişte cleşte drăceşti smulgeau ceva din mine, din tine, din dragostea noastră... Da, dragostea noastră... da, dragostea noastră... Acum îţi dai seama de lumea în care am fost?</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Dragostea noastră, Andrei, mă cutremur... Ea e lumina albă care m-a adus... Unde-i? Ce-ai făcut dragostea noastră?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Dragostea noastră, Ano? Unde-i dragostea noastră, mă-ntrebi? Acolo, sub perdeaua de stambă închisă în piatră, ferecată cu mii de lacăte.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Am sugrumat-o acolo... Peste-un sfert de ceas vor veni grămadă să-i simtă toţi arterele sub poleiul de marmură... Neştiută de nimeni, le va străluci tuturor... Va fi a lor... Vor pune stăpânire pe ea...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, noi ce suntem? Andrei, am rămas orfani...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Doi spectri în ţintirim...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, eu n-am înviat, Andrei? M-au înşelat toate simţurile mele, toate speranţele revederii m-au înşelat?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nu, nu te-au înşelat... Ai murit aici, ai înviat acolo...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Atlantida!...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nume de expoziţie, firmă pentru mulţime, etichetă de târg, cursă pentru nepricepuţi... Eşti tu, înţelegi... E tot din tine, toată fiinţa ta, tot fluidul de viaţă care se ridică peste vremi... tot ce mai trăieşte... Restul e cărbune stins, zgură de atelier, cenuşă spulberată în vânt...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>I-ai dat tot ei?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Tot!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Ţie, mie! Nu ne-a mai rămas nimic?</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nimic.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Andrei, Atlantida... Te înţeleg, Andrei... Ai dreptate... îmi dau seama acum... E povestea bătrânului Balteş, care m-a urmărit necontenit. Groaznica poveste... Andrei... Povestea lui Manole...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Povestea tuturor.</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Rămas bun, Andrei!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Rămas bun, Ano!</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Nu ne mai vedem...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Plec în străinătate...</p>
+          </sp>
+          <sp who="#ana">
+            <speaker>ANA</speaker>
+            <p>Eu mă întorc în neant...</p>
+            <stage>(Pleacă. Andrei rămâne cu capul între palme, uluit. După citeva momente se ridică, apasă butonul la sonerie. Intră Gheorghe.)</stage>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Poftiţi, domnule Andrei.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Gheorghe, a venit lumea?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, e o mulţime şi mai e vreun sfert de ceas. E plin în salon şi în sufragerie. Gazetari, cucoane de la teatru, Pincovici, Goldman, Episcopescu de la Finanţe... E domnul Balteş... A telefonat acum, vine şi un domn ministru.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Cum, domnul Balteş e aici?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, face haz într-un colţ. Nu ştiu ce spunea de ministru, râdeau toţi...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Du-te Gheorghe şi roagă-1 să vie încoace, trimite-1 aici!</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, domnule Andrei!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Bună ziua, nene Iancule... Stai, te rog... Am auzit că eşti aici... Sunt agitat... Stai, te rog...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sunt sfârşit...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Sunt desconcentrat, de aceea te-am chemat...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nene lancule...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>O vizită, nene lancule...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, Ana...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, da.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Acum a ieşit... în clipa asta.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, mi-e sufletul prins ca de-o moarte nouă... Mi-e frig... Sunt ca o holdă bătută de grindină...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Da, da, mă liniştesc, mă voi linişti... Tot tremură în mine încă... Sunt răscolit de întâlnirea neaşteptată. Când totul s-a sfârşit, când am gâtuit toată patima asta, de ce mi-a bătut la poartă azi? Eram după îngropăciune... îţi dai seama... O închisesem acolo, o ferecasem în piatră... Totul s-a sfârşit aici. De ce mai strigă din cavou? De ce apariţia asta nouă, cu ochii halucinaţi, ca o mustrare care se ridică din pământ? I-am spus... da... am lămurit vârtejul... S-a isprăvit, s-a isprăvit... Şi-acum după plecare îi aud încă glasul îngheţat de groază. Meşterul Manole, povestea bătrânului Balteş... Şi-a amintit balada de la Argeş — ştiu eu? — unadinparaboleledumitale... A fost tulburător... A fost inoportun... Acum... Acum, în clipele astea... Nu puteam să tac când te ştiam dincolo... Trebuia să-ţi spun... Iartă-mă, nene lancule...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Iartă-mă!</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Povestea lui Manole.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Cea dintâi plată mare...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Nene Iancule, îţi mulţumesc. Eram aşa de singur...</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mă duc! Mă duc...</p>
+            <stage>(Iese precipitat. Balteş, câteva momente singur. Sună. Intră Gheorghe.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>M-aţi sunat, domnule Balteş?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da, domnule Balteş. &lt;didascalie&gt; (Gheorghe iese. După câteva momente se deschid uşile în fund. Mulţimea intră şi umple atelierul. Balteş politicos face reverente în toate părţile: Bună ziua... Bine-ai venit, domnule Pincovici. Bună ziua, domnule Goldman... Bună ziua, domnule Episcopescu... Poftiţi, domnilor! Sculptorul Galea vine imediat... Poftiţi...</p>
+          </sp>
+          <sp who="#ministrul">
+            <speaker>MINISTRUL</speaker>
+            <p>Sunt fericit, domnule Galea, că pot să string mâna unui mare artist care face cinste ţării! Opera dumitale, Atalanta... da, Atlantida... e pe buzele tuturor... Ca o recompensă, mi-am făcut plăcerea să-ţi aduc medalia celor aleşi.</p>
+          </sp>
+          <sp who="#galea">
+            <speaker>GALEA</speaker>
+            <p>Mulţumesc, domnule ministru...</p>
+            <stage>(Gheorghe lasă să cadă vălul de pe Atlantida. Murmur general de admiraţie: Aa...)</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

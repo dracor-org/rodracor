@@ -1,0 +1,2639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000008" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Fiul mazâlului</title>
+        <author>
+          <persName type="pseudo">Alessandru Pelimon</persName>
+          <idno type="wikidata">Q97195663</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Tip. lui C.A. Rosetti și Vinterhalder, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="caminareasa_casandra" sex="FEMALE">
+            <persName>Căminăreasa Casandra</persName>
+          </person>
+          <person xml:id="gligore_setrarescu" sex="MALE">
+            <persName>Gligore Șetrărescu</persName>
+          </person>
+          <person xml:id="frumoasa" sex="FEMALE">
+            <persName>Frumoasa</persName>
+            <persDesc>orfană crescută în casa Șetrarului</persDesc>
+          </person>
+          <person xml:id="iean" sex="MALE">
+            <persName>Iean</persName>
+            <persDesc>Fiul Mazâlului</persDesc>
+          </person>
+          <person xml:id="carito" sex="MALE">
+            <persName>Carito</persName>
+            <persDesc>un bufon</persDesc>
+          </person>
+          <person xml:id="tudor" sex="MALE">
+            <persName>Tudor</persName>
+          </person>
+          <person xml:id="ionache" sex="MALE">
+            <persName>Ionache</persName>
+            <persDesc>tutungiu</persDesc>
+          </person>
+          <person xml:id="postelniceasa_ilinca" sex="FEMALE">
+            <persName>Postelniceasa Ilinca</persName>
+          </person>
+          <person xml:id="doctorul_sasi" sex="MALE">
+            <persName>Doctorul Sasi</persName>
+          </person>
+          <person xml:id="un_avocat" sex="MALE">
+            <persName>Un avocat</persName>
+          </person>
+          <person xml:id="moasa_sultana" sex="FEMALE">
+            <persName>Moașa Sultana</persName>
+          </person>
+          <person xml:id="bradu" sex="MALE">
+            <persName>Bradu</persName>
+            <persDesc>un țăran</persDesc>
+          </person>
+          <person xml:id="doi_dorobanti" sex="MALE">
+            <persName>Doi dorobanți</persName>
+          </person>
+          <person xml:id="doi_domestici" sex="MALE">
+            <persName>Doi domestici</persName>
+          </person>
+          <person xml:id="omul_stapanirii" sex="MALE">
+            <persName>Omul stăpânirii</persName>
+          </person>
+          <person xml:id="invitati" sex="MALE">
+            <persName>Invitați</persName>
+          </person>
+          <person xml:id="dame" sex="FEMALE">
+            <persName>Dame</persName>
+          </person>
+          <person xml:id="cavaleri" sex="MALE">
+            <persName>Cavaleri</persName>
+          </person>
+          <person xml:id="tarani" sex="MALE">
+            <persName>Țărani</persName>
+          </person>
+          <person xml:id="tarance" sex="FEMALE">
+            <persName>Țărance</persName>
+          </person>
+          <person xml:id="tigani" sex="MALE">
+            <persName>Țigani</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1851">
+        <desc/>
+      </event>
+      <event type="premiere" when="1851">
+        <desc></desc>
+      </event>
+      <event type="print" when="1851">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000008" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Fiul mazâlului</titlePart>
+        </docTitle>
+        <docAuthor>Alessandru Pelimon</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Căminăreasa Casandra</role>
+        </castItem>
+        <castItem>
+          <role>Gligore Șetrărescu</role>
+        </castItem>
+        <castItem>
+          <role>Frumoasa</role>
+        </castItem>
+        <castItem>
+          <role>Iean</role>
+        </castItem>
+        <castItem>
+          <role>Carito</role>
+        </castItem>
+        <castItem>
+          <role>Tudor</role>
+        </castItem>
+        <castItem>
+          <role>Ionache</role>
+        </castItem>
+        <castItem>
+          <role>Postelniceasa Ilinca</role>
+        </castItem>
+        <castItem>
+          <role>Doctorul Sasi</role>
+        </castItem>
+        <castItem>
+          <role>Un avocat</role>
+        </castItem>
+        <castItem>
+          <role>Moașa Sultana</role>
+        </castItem>
+        <castItem>
+          <role>Bradu</role>
+        </castItem>
+        <castItem>
+          <role>Doi dorobanți</role>
+        </castItem>
+        <castItem>
+          <role>Doi domestici</role>
+        </castItem>
+        <castItem>
+          <role>Omul stăpânirii</role>
+        </castItem>
+        <castItem>
+          <role>Invitați</role>
+        </castItem>
+        <castItem>
+          <role>Dame</role>
+        </castItem>
+        <castItem>
+          <role>Cavaleri</role>
+        </castItem>
+        <castItem>
+          <role>Țărani</role>
+        </castItem>
+        <castItem>
+          <role>Țărance</role>
+        </castItem>
+        <castItem>
+          <role>Țigani</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Să’ți spuiu drept Postelnicească, nu mai e de vorbă câte supărări am pe capul meu: casa, curtea și slugile; moșiea îmi este arenduită pentru trei ani și datoriile răposatului bărbatu-meu nu le-am plătit încă, atâtea sânt de multe. Am rămas văduvă de șase luni, aproape. Lumea o vezi cum este, îi place să’ți ia socoteala în tot ce faci, unde te duci, cu cine te înâlnești, cu cine ce ai vorbit.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ba încă și pe cine ai de amorez.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Într’aceasta îi las pe toți cu gura închisă; crezu că nu s’a auzit nimic pe urma văduvei mele.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ești zău încă frumoasă, te ții prea bine, nu te dau pe una tânără din zilele de acum.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Și ce, ai vrea să zici Postelniceaso că sânt bătrână eu?</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Nu, vai de mine! Tocmai asta vroiu să zic că coconul Gligore moare după dumneata. Unde te vede, uite, nică, îi vine leșin. Și apoi să’ți spuiu drept, un ast-fel de tânăr!…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Nu voiu; dar d’al de ăștia câți n’aș fi găsit până acuma. Alaltă eri eram la sindrofie la cocoana Trandafireasca; să’i trăească coconița dumneaei, că știe prea bine să facă cu ochiu. În urmă a mai venit încă câți-va: unul zicea că mă cunoaște de la București; eu însă nu’mi aduc aminte ca să’l fi văzutu în vre o adunare boerească pe unde eram pohtită eu.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Și cum ai petrecut la cocoana Trandafireasca seara?</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Îndată ce am intrat, abia am apucat de le am dat bon-soar, și iacătă veniră alți în urma mea: Era d’al de Trepteanu, mucalit era, bată’l să’l bată! era un ofițer, era cel de la București; veni și coconu Gligore Șetrărescu, și alte cocoane din vecinătate. Lucsița însă nu’mi mai lua ochii de la ofițer. Gligore vrea să’mi facă curte…și prefăcutul, nici c’ai mai văzut!…</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Și că se vorbeșt prea mult p’ân lume că dumneata o să te măriți cu coconu Gligore.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Așa ar fi, dacă esperiența ce am câștigat-o despre lume nu’mi ar zice că tinerii ăștia sânt numai niște flușturateci…ei caută să’mi toace biata stare; lor nu le este atât de mine, precât le este de vr’o două moșioare ce’mi a mai rămas. Dar iarăși mă ’ntorc și zic: să mă mărit, să iau unul bătrân, îți iei urâtul în casă, nu știu și ei cum să aducă o damă ca să’i iubească, în vreme că cei tineri, n’ai ce zice, îi vezi numai cu mânuși, cu pantofi de glanț și haina par’că este turnată pe dânși. La dracu, nu poți să fii atât de rece când îi vezi… pe urmă vorba lor, chinul d’a se putea, este să rămâi fără cuvânt.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>A! am înțeles; ’ți a plăcut coconul Gligore!</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Mai este și alta, când ’mi aduc aminte de răposatul tată-său, Șetraru Stamate…</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Asta nu e nimic, nu știi dumneata multe mume care’și a măritat fetele după amorezii lor. Cine mai caută acum asta. Ce a fost o dată, acuma a trecut. Tată-său, a fost tată-său, acuma să vedem de fiu, și mai întâiu că dumneata ori ce ai făcut, ai făcut cu minte; nu te a știut lumea…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Dar uite, înainte de a lua pe răposatul bărbată-meu, care a fost un om prea bun, Dumnezeu să’l odihnească! am făcut un copil cu Șetratu, pentru care numai moașa Sultana ’i o fi știind de căpătâiu. Cine știe sărmana mea copilă în ce mâini o fi ajuns</p>
+            <stage>(aci par’car plânge).</stage>
+            <p>Dea seama înaintea sfântului câinele de Șetraru că m’a amăgit că mă ia în căsătorie. Moașa Sultana mi a ajutat mai mult de cât o mumă. Ea ’mi a acoperit în ochi lumi greșala ce am fost făcut’o. Puțin după aceea ma luat pe răposatul bărbată-meu.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Mai trăește moașa Sultana?</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Da, sărmana, este trecută în bătrânețe. O să trimiț ca s’o cheme în zilele astea. Dar copila mea! copila mea! par’că îmi arde inima de dânsa, și mai ales că în viață de cinci-spre-zece ani acum, la toamnă, cât am trăit cu bărbată-meu, n’am rămas cu nici un copil. Pentru fiica mea am să plâng tot d’auna…</p>
+            <stage>(își șterge ochi cu batista).</stage>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>O Doamne, liniștește-te cocoană Casandro!… Și ce a eșit d’acolo! dumneata să trăești! Ești încă tânără, frumoasă, te poți mărita d’aici înainte! O să faci destule fete și băeți! nu te mai plânge! Lăsăm toate acestea acuma. Cele trecute să le uităm; să ne gândim la viitor, să vedem de coconu Gligore.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Uite, mă destăinuesc dumitale întocmai ca la o mumă, că nu am alta. Dumnezeu a vrut ca să trăesc singură fără ca să am măcar al noulea neam.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>O să iei pe coconu Gligore de bărbat; și apoi pe lângă alți câți se roagă lui Dumnezeu zioa și noaptea pentru sănătatea și viața dumitale, este și Ioan argatul dumitale, căci va lua în căsătorie pe o roabă a Șetraruli. Știi că e frumoasă de nebunie copila aia. Crede-mă dacă n’ar vedea-o cineva așa de prost îmbrăcată, ar zice că este o coconiță. Ioan însă îmi tot bate capul.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Eu  am vrea să o ia odată, căci s’a pocit diavolul din ceea ce era. Acum nu’l mai prinzi p’ân curte, unde îl trimiți întârziază cu ceasurile, nu pociu sluji la nima cu dânsul. Îl vezi țâfnos ca o altă aea, se laudă p’am lume că tată-său a fost mazâl, și că bărbată-meu după o moșie ce a cotropit’o de la tată-său ’i a rămas dator zece pungi de bani după hotărârea judecăți de atunci și după învoirea ce a fost făcut’o ei între ei. În aste împregimuiri, el zice că a dat ciuma și murindu’i părinții, rămase de mic orfan; bărbată-meu drept datoria ce avea să plătească la tată-său ’l a luat de suflet să’l crească. Dar însă cu nesupunerea și cu îndărătnicirea lui o să mă facă să’l trimeț la Tigveanu, să’l însoare cu vre o două sute de nuele la spete și să’l ție câte-va zile închis.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>O Doamne! dumneata ești milostivă, dumneata ești ertătoare, și mai ales dacă coconu Gligore ’și o ține cuvântul ca până la sântul Dumitru să joc și eu la nunta dumneavoastră.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Apropo: nu’ți am arătat ce am târguit de la magaziea lui Băluță. A adus marfă nouă acuma… Aideți să ți le arăt, căci eri n’ai vrut să vii pe la mine, mai am și un tocu și o capelă de modă care sânt la Fani marșanta.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Toate acestea sânt semne de puntă și dumneata mireasă.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Nu s’a împlinit încă anul de când a murit răposatul bărbată-meu.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Câte dame văduvioare,</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ai dreptate coconiță.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Aceasta este mănunchiul ce’l am luat de la Frumoasa. Într’această strânsă legătură stau legate toate dragostile la un loc adunate…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(necăjit)</stage>
+            <p>Al dracului lucru ca și asta! Ce n’ai visat, ce n’ai pomenit de când ești… Socotești că te aduni cu oameni de ispravă și te ei după muște. După ce îi fac să râză, să petreacă cu mine, apoi te pomenești că unul îmi dă una la ceafă, altul îmi zice nebunele, altul mî trimite la meșteșug, și altul glumind mă bate bine ha!… O să’i las dracului! nu o să mă mai duc pe la ei; o să’mi schimb căciula. Eri dimineață cocoana Casandra ’mi a dat un bilet să’l dau coconului Gligore Șetrărescu, și eu ’l iam perdut din buzunar. Ce dracu să’i zic acuma! Femeile n’au răbdare ca să te asculte un lucru cum trebue!… O să’i zic că ’l am dat!… ba o să zic că o să treacă pe la dumneaei…’ți ai găsit, crăișorul ăla! care de când a murit tată-său își bate capul dupe Frumoasa fata crescută în casă…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ce auz eu!…Frumoasa, coconul Gligore!… am să mă tem…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(zărind pe Ioan, zice la o parte)</stage>
+            <p>A dat vulpea în cursă!… m’a auzit copilul…să mă iau bine pe lângă Ioan ca să tacă… Ce faci Ioane? a casă este coconița?…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Da, domnișorule, a casă este coconița.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(la o parte)</stage>
+            <p>Al dracului românaș, îmi zice domnișor, par’că aș fi d’alde ăia. Nu’mi zice cocoane!…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Dar iartă-mă, mâncatea’și, am să te întreb o vorbă.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Să te vedem: spune’mi cinci-spre-zece…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Mi se pare că te auziiu adineaorea, nu știu ce spuneai, despre… Ai fost pe la coconu Gligore?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Am priceput</p>
+            <stage>(la o parte.)</stage>
+            <p>Este o pricină de rivalitate, de multe ori coconași noștri schimbându’și amorezele au rivalitatea cu toată lumea.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Șii cât te cinstesc eu pe dumneata. Te aș pune în sân ca pe un puiu golaș…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Îți foarte mulțumesc de dragoste.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Dumneata ei fi simțit ceva cum-va…În dumneata au multă încredere ai noștri…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(la o parte)</stage>
+            <p>Vezi bine, da, de multe ori mă înjură bine și apoi îmi dă palme la ceafă. Asta le vine din multă încredere și dragoste ce o au în mine.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Am auzit că coconu Gligore o să se însoare.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(la o parte)</stage>
+            <p>Bine că nu zice că a auzit că este amorezat.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Și apoi, de, m’aș bucura prea mult, căci dacă va lua pe cocoana noastră, atuncea Frumoasa este a mea.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Am înțeles. Dar ia’mi spune, coconița singură este?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Este cu Postelniceasa Ilinca.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Cu caiafa aia?… dar ne am dus pe copcă!… Nici ca’i mai văzut alta mai prefăcută și țâfnoasă…Doamne apără, ce o fi fost în zilele ei…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>’Mi e teamă că coconu Gligore nu o vrea să se insoare.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(la o parte)</stage>
+            <p>Lui îi este teamă că o să’i smulgă pe Frumoasa. Doamne apără de prostu amorezat!…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Am auzit că coconu Gligore a vrut să târguiască Frumoasei pantofi și cercei, și zău… mie nu’mi ar părea prea bine…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Mâre! cine te ’ntreabă pe tine.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Așa e, dar Frumoasa…vezi mă iubește.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Când femeea hotărește</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Nu’mi mai spune de frumoase,</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Lasă-mă cocoane dragă,</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Am văzut eu amoreze,</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Când dau ochiu cu a mea Frumoasă,</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Nu’mi mai spune de frumoase,</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Nu pociu atunci să trăesc,</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Vom mai vorbi noi… Acum am să intru la cocoana Casandra.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(după ce se gândește cât-va)</stage>
+            <p>Coconu Gligore!…Frumoasa!…Ah! ce nenorocit sânt!…căci și cea din urmă rază de nădejde și de bucurie ce’mi rămânea caută să apue în cumpăna peirei mele… Am perdut pe părinți, am perdut merzul de la ei, îmi rămâne Frumoasa, pe care nu voiu s’o pierz. Alerg cât mai curând!… Dar unde? la moșiea părinților mei care e cotropită de alți! — Voiu pune om la București ca să se judece pentru mine, și dreptatea îmi va da ce e al meu. De o cam dată alerg ca să o găsesc pe ea… pentru ea mă tem mai mult… mă duc…</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Fata mea, Domnul să ție întru cele bune. Eu sânt acuma aproape de sfârșitul vieții mele. Am trăit în de ajuns… Unde sânt acuma acele timpuri fericite pe când eu încuram calul cel mai ne-îmblânzit și între poterași răposatului Șetrarul, făceam să tremure munți și pădurile de goana mea? Ce mai boer a fost răposatul!… Om drept și cu frica lui Dumnezeu… Pe vremea aceea nu era precum vezi acum lumea așa de leneșă șu subțiată de multe defrânări și atât de rătăcită întru frica lui Dumnezeu. Atunci un fiu sta cu sfială înaintea părintelui său și cei avuți milueau pe cei săraci… A perit, fata mea, curățenia dintre oameni; acum înșelătorii vezi în tot locul, vrajbă, vânzare, nenorociri… mulțumesc sfântului că eu am scăpat… Sânt bătrân și peste puțin!…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Moș Tudorică, rea s’a făcut lumea d’acuma! Dar ia spune’mi cine a fost mama și taica?… pentru că eu nu’i am apucat nici odată, și dumneata ai rătăcit așa de mult.</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Un Dumnezeu care este în ceriu, care vede faptele oamenilor de pe pământ, acesta este părintele fiilor celor sărmani, acela este și părintele tău…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ei bine, pe cât trăia răposatul boer, îi era milă de mine. Acum sânt sărmană de tot; toată lumea îmi caută rău în curte. Aș dori să știu, n’am și eu o mumă să mă iubească precum văz pe cele-l-alte mume că își iubesc și îngrijesc de fiicele lor.</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Răutatea, fata mea, și necredința în lege și în datini, te a lipsit pe tine de mumă.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ce fel, eu nici odată n’am avut mumă?…</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Te voiu face să înțelegi… Sânt acuma ca la vre o opt-spre-zece ani, aceasta este vârsta ta, fata mea. Era tocmai în zioa de sfântul Vasile, anul nou. Tocmai orânduise stăpânirea pe boer Șetraru, zapciu în plasa de jos. Fiind că în zioa aceea a priimit pitacu, m’a trimis ca să caut pe vătafu Dulică cu tacâmul lui de lăutari, căci boerul vrea să facă zaiafet. Abia ajunseiu pe ulița de către sfântul Ioan și auziiu un țipăt ca de copil. Mă apropiaiu; ce mumă făr de lege, am zis eu; luaiu copilul, așa cum se găsia în scutece și cu o plăpomioară; mă întorseiu a casă de grab, boer a făcut haz, și în dată a poruncit ca să’l dea la doică. Aceasta erai tu, fata mea, care te am ținut în brațe precum își ține un părinte fiul.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Dumnezeu să te ție, moș Tudore, îți mulțumesc pentru viața mea.</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Am găsit la pieptul tău, copilă, această sfântă cruciuliță pe care am păstrat-o ca să’ți o dau să o porți tot d’auna ca să’ți fie într’ajutor.</p>
+            <stage>(Scoate o cruciuliță și io dă).</stage>
+            <p>Ține, fata, mea! ține crucea mântuitorului nostru Isus Hristos, care te va apăra de ori ce rău. La gâtul tău era și un răvășel pentru că nu erai botezată, și boerul fiind în chef a adus pe preotul Gheorghe ca să’ți pue numele Frumoasa, căci într’adevăr, copila mea, Domnul a dat întru curățenia ea, veselie pe buzele celui orfan, și frumusețe întru cei fără răutate. Ești frumoasă, fata mea!…și Domnul să’ți fie întru ajutor.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(luând crucea)</stage>
+            <p>Crucea cea mântuitoare,</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Este dulce cântecul tău, copilă, și credința ta va pune sfârșit durerilor tale.</p>
+            <stage>(O sărută pe frunte)</stage>
+            <p>Să fii cuvântată, fata mea… Ajută’mi să mă duc în curte să mai vedem de câte ce-va…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#coconu gligore">
+            <speaker>COCONU GLIGORE</speaker>
+            <stage>(singur)</stage>
+            <p>Ha! ha! ha! îmi place, de minune!…Am făcut marț pe toți camarazi mei!… D’al de Nojescu, d’al de Măzărescu, d’al de doctorul Sasi, d’al de Stopolu până și pe Ițic ovreiu, zarafu, ’l am potrivit în stos. Aso, riga, damă, toate au mers în favorul meu astăzi. Așa dar o să prânzesc cu poftă… O să mă duc la cazin, unde o să mă costisească doi sfanțihi pânzul. Să vă văz golani! așa se cade să faceți și voi. Par’că îmi este silă de Vistieru Oprea, care tot spune din capete de pravilă și apoi rămâne cu gura căscată căci afurisita de carte îi ia grămăjuia de firfirici de din ’nainte. Dar să lăsăm asta… O aventură nouă ’mi a trăsnit p’în cap… Dumnezeu să mă ierte, am auzit eu de Livezeanca din București: avem și aicea în Pitești una. Aceasta este cocoana Casandra, fosta căminărească ș.ce.l Vrea să o iau de nevasă… Dacă aș isbuti să’i toc ceva!… Dar este cam a dracului… Nici călugării, cât este ea de bigotă și superstițioasă, nu apucă nimica de la dânsa; va încă se judecă cu ei pentru câteva familii de țigani cotropiți… Am pus pe Postelniceasa Ilinca. Dracu n’a putut să scoață alta mai prefăcută și bună de a trage condee… Am auzit un havadiș astăzi… se zice că unul, nu știu cine, a bătut pe Carito nebunu, căci’l a trecut în lista nebunilor… Ha! ha! ha! n’am fost și eu ca să fac haz…Dar nebunu dracului n’a mai venit pe la mine, avea, să’l puiu pentru nevasta lipscanului…Să vedem ce o face! El ca nebun să ’ntroduce p’ân toate casele, șoptește pe la femei, și bărbați lor fac haz…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>A! ha! Fumoasa… stăi, ce faci tu, spune de codru?</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Lasă-mă cocoane, ca am treburi… Mă duc să calc rufele.</p>
+            <stage>(trece)</stage>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ăla nu te mai slăbește din credință în Dumnezeu, din fapte bune, cu un cuvânt lupul moralist. Ce mai fecior de lele o fi fost și el în zilele lui; și acum dă zor cu visul Maichi Precisti. Dar cu toate acestea trebue să’l respectez căci fără dânsul de mult ar fi cântat cucuveaoa în vârful caselor noastre, căci eu nu mai îngrijesc de nimica.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(intrând)</stage>
+            <p>Coconu este tot aicea!</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Iară Frumoasa!… Ia’mi spune Frumoaso, de ce fugi tu de mine…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Lasămă cocoane, n’am de ce să fug. Am să vă spuiu, că în lipsa dumitale, a venit cocoana Postelniceasa, zicând că are ca să vă vorbească…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Alt cine-va n’a mai venit?</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Moș Tudor a fost tot aici; eu n’am mai văzut pe nimeni.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Cine-va n’a venit pe care să nu’l fi văzut moș Tudor?… vre un puiu al tău dorit… vre un drăguț la care te dai jos tot d’auna când te chem eu.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Mă iartă, eu n’am obiceiu să mă cobor precum zici dumneata. Eu vorbesc zioa cu oamenii și cu îi care mă știe. Dumneavoastră coconași pândiți mai mult pe subt ferestrele oamenilor, plesnind din biciușcă și trâncănind din bastoane.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Uite, na, de unde sare epurele!</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Dar, coconașule, dacă boeru, răposatul, Dumnezeu să’i ușureze țărâna, ar fi fost încă în viață, eu n’aș fi avut atâtea supărări și aș fi avut mai puțin ca să plâng…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Iară moș Tudr te a învățat?</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Eu n’am avut nici odată mumă ca să mă îmvețe nici măcar rugăciunile. Moș Tudor îmi este tată și mumă. Pe cât este ziulița de mare îngrijesc, fac ce pociu, și seara mă închiz cu d’al de baba Stanca și cu moș Tudor care ne mai spune din zilele lui Mircea Vodă.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Eu îți poruncesc să vii de seară ca să’mi aprinzi candela în odaea cea mare. Ai auzit? să te găsesc acolo!</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>De când a murit răposatul nu te am pomenit ca să’ți aduci aminte de candelă ori de biserică.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Aducerea aminte despre tată-meu îmi sfâșie inima.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Nenorocirea, cocoane, când vine asupra unei case, este mânată însu’și de degetul lui Dumnezeu… și oamenii trebue să se teamă…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Eu’ți am poruncit, tu trebue să te supui.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Lume noă! șopte după șopte, cum zic Franțezi: tet a tet!</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Așa, așa nebunule, numai când îți arde călcâele alergi la mine.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ei, și ce, dumneata erai prea bine cum te am găsit. De ce fugi Frumoasa?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ia să vedem, scoate cutiea cu caraghioslâcurile mai curând. Ia să vedem lista nebunilor.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Pe dumneata te am pus în frunte.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Dacă vrei să te bat…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ba aea e vorbă… mai m’a bătut astăzi încă unul, mai eri altul, a-l-altă eri altul și dracu îi mai știe de la câți am pățit-o.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ai, cară-te! spune ceva de râs… că astăzi nu’ți dau să mănânci.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Mă duc la Becher neamțu să poruncesc o pereche de varme virșt și o litră de vin la două, sau un sfert de varză cu garnituri.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Bravo mișelule! Să te vedem Carito!…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>O să mă duc la cocoana Simpsihis să’i spuiu vorbe dulci din partea cavalerului ăla păsosu.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Spune nebunule!…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Boerule ăla ruginitu care trece mândru în careta cea ferecată, și tot se gândește la numărul zilelor sale ce le a petrecut în isprăvnicat în mijlocul chilipirurilor și al ghelirurilor, nu’i mai dă niminea bună dimineața fără a zâmbi de râs.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Și apoi?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>O damă, care în viața ei ’șia schimbat câte cinci-spre-zece amorezi pe fie-care lună, a pățit o festă eri dimineață, a luat câți va pumni de la un ostaș că a prins’o cu altul.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ce spui tu mă? ha! ha! ha! de unde ai auzit-o tu asta?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Este un loc, unde să nu străbat eu? se face ceva în lume ca să nu spune la urechea mea? Se dă vre un ospăț unde să nu fiu eu cel d’ântâi invitat?… Este vre o damă nobilă, care să nu’mi eserseze spiritul cu mine? nu știi că eu sânt a opt-spre-zecea minune după ce Dumnezeu a săvârșit cerul și pământul?… Unele femei, unele fete, și mai ales bătrâna cochetă.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Are stare bună?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Două moșii care sânt secfestruite înainte de a muri bărbată-său, de creditori, câte-va familii de țigani mănăstirești, cotropiți după vremuri, pe care ’i a și slobozit stăpânirea… Mai are vr’o cinci-spre-zece mațe de cocotărie; visează numai amor… Dimineața când se scoală pune carne crudă pe obraz ca să arate fragetă, seara se aburește ca să i se întinză pelea obrazului… Sprâncenile și le are meșteșugite, fruntea meșteșugită, dinții îi are prepuși și îți vorbește numai în vârful limbii ca să se înnebunească lumea după dânsa; și încă mai vrea să se mărite cu un june…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Frumoas! frumoas de tot!</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ba încă m’a ma și ales pe mine de confidentul dumneaei; ’mi a dat un bilet ca să’l dau amanutlui dumneaei; dar eu ’l am perdut… Și acest fericit cavaler căruia sântem datori închinăciunile noastre, cu multă supunere și umilință spuiu că ești dumneata.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>A! ha! ha! bravo! ai câștigat o pereche de pantaloni și un surtuc de la mine. Dute numai de spune cocoanei Casandri, că mâine seară vom vizita-o, numai să ne dea o soare.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(la o parte)</stage>
+            <p>Am isbutit!…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Cocoanei Casaneri îi vom juca o nouă festă. Astă seară vom vedea de Frumoasa.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Nu preget nimica pentru tine… Pân foc și prin apă am dat ca să viu să te găsesc. — Nu ne mai rămâne vreme de perdut… aide să fugim!… Ori unde tu vei zice, noi vom putea să ne întreptăm pașii. Într’o pădure fie, într’un munte măcar, ori unde vom fi, numai să fim împreună… într’un bordeiu, într’o colibă, subt un cort, sau măcar ori și unde… Amândoi vom fi fericiți, tu ești Frumoasa mea cea neprețuită… Tu ești privighetoarea, care îndulcește zilele unui nenorocit… Tu ești rouăa și mângâerea sufletului meu obosit de suferințe și slugărie… Tu ești paza nădejdelor mele celor mai ascunde și a mângâerilor mele celor fără sfârșit. Îți mai zic încă odată, să fugim… să fugim până nu ne vede nimeni!…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Tu știi prea bine că pentru întâi când te am văzuti ideea de argat mă înfiora, și încă până acum nu’mi poate eși din minte. Dar din minutul când mă socotești din apa Argeșului, unde trebuia să per pentru tot d’auna, căci nenorocirea mă orbise pân într’atâta, ca eusingură să mă arunc la moarte, ne mai putând suferi o viață de nenorociri, m’am cunoscut datoare ție zilele vieții mele, câte’mi a mai rămas…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Bine Frumoasa mea, toate le știu prea bine, dar îți zic, să fugim cât mai îngrab: nu avem nici un minut a pierde. Eu, sțrman, serv supus subt poruncile altuia, inima mea este simțitoare la dragostea și recunoștința ta, ce vrei ca să’mi arăți… Sufletul meu arde de dragostea cea mai curată pentru tine îngerul meu… Am priimit un mununchiu de flori de la tine astăzi. În el îmi număram zilele mele cele de fericire, le am sărutat de o mie de ori, gândindumă la dragostea ta… Dar să fugim!…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Așa este, Ioane, dar eu nu pociu face asta pân nu voiu fi cununată.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Bine cuvântarea lui Dumnezeu și toate cununiile și frumusețele din lume le voiu pune pe fruntea ta, mult scumpa mea Frumoasă, pe care stelele și însu’și soarele nu te poate întuneca. Acolo lângă vatra strămoșilor mei, pe dealul sfintei mănăstiri vom priimi bine cuvântarea-creștinească. Acolo, iubita mea, să mergem, să nu întârziem… și dacă din nenorocire, vre un vrăjmaș, vre un lup, un câine rău… vre o fiară, uite!…</p>
+            <stage>(scoate un cuțit în forma unui iatagan)</stage>
+            <p>voiu ști ca să te păzesc! voiu ști ca să te scap din nenorociri… Eu nu mă tem de nimic, mergem! mergem!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(singur)</stage>
+            <p>Acum sânt stăpân, singur în casa mea. Toată lumea este potolită… Toate slugile din curte acum dorm duse… Nime​ni nu va îndărăsni acum ca să’mi stricee planurile mele pregătite de cu zioa… și Frumoasa doarme și ea pe vre un scaun în odae la mine. O să măduc încet să nu fac sgomot… Să te văz acuma, curagiul meu!… Aceea pentru care atâta vreme ’mi am bătut capul, acum poate, este în mâinile mele… N’am de cât să intru… și eu sânt stăpân desăvârșit de dânsa.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Râul Doamnei a venit pra mare, este foarte anevoe de trecut; am așteptat atâta vreme și nu s’a ivit nici un om măcar, vre un călător cu care să putem trece dincolo.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Așa este, dar uite că decând mergem nu ne am depărtat mult de Pitești, și ne o fi luat cineva de pe urmă…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Nu te teme, așa de înnorat copoiul de obosește înzadar pe urma vulpei.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ei bine, Ioane, să rămânem în satul megiaș până s’o crăpa de zioă. Dar nu știu ce se aude…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Doamne! cine o fi omul ăla care vine către noi?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Vre un creștinaș bun. Vre un om d’aici din sat, se cam vede el…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Să cerem găsduire pentru asta poate.</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <p>Mă! da rău s’a întuneat… O să mă bată muerea după ce m’oi însura, daca voiu mai rămânea așa de târziu la cârciumă, și ș’oi întoarce beat a casă… Dar ce oameni sânt bia!…N’o fi niscai-va d’abia, care umblă cu plosca p’ân sat, care daca îți dă să bei odată, te adoarme pe loc și’ți fură tot din casă… Zău să cam luîm seama, că eri a venit zamblare de la Pitești, să întrebăm de răvaș drum pe ori cine trece. Dar ce’mi pasă mie, astae treaba juraților și a părcălabului.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Bună vremea voinice!</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <p>Mulțeam dumneavoastră, oameni buni.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Dar mare a venit Argeșul și Râul Doamnei!</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <p>Dar ce, ori vreți să treceți acuma noapte?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Aveam să mergem la mănăstirea din piscul dealului peste râu.</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <p>Mâine îmi este nunta. Iau o fată din satul de la vale de mănăstire. Astăzi am fost într’acolo…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Îți mulțumesc Dumnezeule!…Sântem scăpați! Acum sântem mântuiți!…Lasă-mă Frumoasa mea, să te sărut de bucurie, lasă-mă să mă îmbăt de fericire că sânt lângî tine și că nu mai am să mă mai tem pentru tine.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Dumnezeu este mare! Ast-fel într’o zo îmi va ajuta el ca să găsesc pe prea scumpa mea maică… Am multă nădejde în sfânta cruciuliță.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Acum ești a mea!… Eu’ți voiu fi mumă, tată, apărătorul tău!…Tu vei fi pentru mine scumpa mea cea neprețuită, porumbița mae cu aripile poleite de fericirea ce’mi o aduci tu mie!… Tu plângi ca și mine de bucurie. Vom plânge amândoi cu lacrămele fericirei.</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <stage>(care până acilea se uită și la unul și la altul, zice la o parte)</stage>
+            <p>Mă! da frumoasă e zău!…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(își șterge ochi)</stage>
+            <p>Dcă aș găsi pe scumpa mea maică!...</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <p>Mă! da grozavă este dragostea românească!</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Să rămânem aici sufletul meu!…</p>
+          </sp>
+          <sp who="#bradu">
+            <speaker>BRADU</speaker>
+            <p>De!…da nu vă las eu nici mâine! Voiu să rămâneți aici la nunta mea, să jucați în horă cu mine… și apoi, să mergem cu toții în satul nevesti mele, de acolo vom merge la mănăstire.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(dând mâna către Bradu)</stage>
+            <p>Da, frățioare, voiu rămânea mâine la nunta ta, voiu lua în horă lângă tine, lângă toți frați noștri, numai dacă’mi făgăduești că și tu vei veni să joci la nunta mea. Da, prietenul meu, voi face și eu aceea ce faci tu, numai ca să scap de slugărie, să scap de multe necazuri ce m’a mâncat până acum. Dumnezeu a vrut ca să nu am alt pe nimeni de cât pe logodnica mea, pe care o iubesc ca pe ochi mei și ea mă urmează pe mine. Viu, prietenul meu, de la oraș unde se fac toate grozăviile de care am vrut să fug. Din copilărie am argățit la ușa altuia și nu puteam să scap. Merazul părinților mei mi ’l a mâncat alții. Numele și dreptul părinților mei mi ’l a călcat streini în picioare… Nu’mi mai rămâne nimic spre bucuria mea de cât aducerea a-minte că sânt diul mazâlului cel nenorocitu.</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Măi, al dracului lucru ca și asta!.. Cine ar fi gândit, ca Frumoasa așa de șireată, să’mi o facă cât de bună. Am intrat azi noapte în odae mea, cu socoteală că am pasărea în colivie! când ce să vezi… rămasa vre un loc pe unde să n’o caut: am chemat pe toate slugile casei… Daca aveam țigani, ași fi pus să’i bată pe toți, ca să ’mi o aducă de unde or ști ei, din pământ din piatră seacă…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(frecându’și mâinile)</stage>
+            <p>Bonjur! bonjur, stăpâne! Dar cum s’a întâmplat ca a seară să fugi așa de vreme de la cazin. Socoteam că ești la cărți și eu căscam gura pe dincolo la șarlatani ăia de ovrei cu lotuăriea lor. Unul ca să câștige o pereche de sfeșice proaste a perdut vre o cinci-zeci de sfanțihi, și se jura pe urmă că nu mai vrea să dea ochi cu nici un ovreiu din lume. Se vede că și astă noapte ai perdut la cărți…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ba al dracului încă.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Așa să trăești, cam cât?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Taci nebunule, nu ca ce gândești tu.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Dar ca ce?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Am perdut a mai afurisită stratagemă la care m’am gândit mai multe zile ca să o puiu la cale, și când colo ’mi a eșit rău la văpsea.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Fără îndoială, vre o pricină de amor.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ce amor, ce secătură?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Calimerasas! calimera la boeri.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Iată acum și ăsta vine ca să’mi ceară paralele…</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Așa, dumneata, cocone Gligorascu nu ai mai trimes pentru tutunu care ’mi ai zis ca să’l opresc pentru seama dumitale. Ama, ti bocce, ti bocce a eșit ala… tutunu ala!</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(la o parte)</stage>
+            <p>Dracu să te ia și pe tine cu tutunu tău și cu boccelele tale.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce tutun ai grecule? ai adus vre o probă?... Să vede.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Malista, Malista</p>
+            <stage>(scoate chiseaoa cu tutunu, Carito umple un ciubuc).</stage>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Știu eu chiar Iane… Port eu de grijă pentru dumneata. Eram să viu eu pe la prăvălia dumitale.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Așa eu am venit singur ca să nu te ostenesti dumneata.</p>
+            <stage>(Scoate din sân o socoteală și o să coconului Gligore).</stage>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Știu eu chir Iane! nu mă înlesnesc acuma, dar ’ți o plătesc peste duoă trei zile.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Așa, cocone Gligorascu, sânt trei suta opt-zeți de lei si zumitate, și de un an de zile îmi ziți tot asa: muine, poimuine, si ego, sim omu sarac, trebue să plătesco chiriea privalii, si marfa!</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Bine, bine, chir Iane, mult a fost, puțin a rămas…</p>
+            <stage>(face semnu lui Carito ca să râză de el.)</stage>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce spui tu grecule! Ce fel de tutun este ăsta, ce mi’l ai dat: nu este bun de dracu!...</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Pos! pos! afost to canno!… Așa în tot Pitesti nu gasesti un altul mai bun.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce fel? eu am trimis pe feciorul meu, de’mi a adus tutun de minune de la Panait băcanul.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>O crez, de ala de Gaesti sau lesescu…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce fel, grecule!… Eu tutun de ala leșescu, țigănescu beau eu?… Cum îndrăsnești tu, înnaintea mea, să vorbești astfel de obrăsnicii!… Ce, eu sânt chiulafgiu ca tine?…</p>
+            <stage>(Gligore bufnește la o parte de râs).</stage>
+            <p>Eu sânt fecior de privelegiat mă!…Trebue să’ți bați mințile în cap când vorbești din naintea mea! Știi tu, că eu ca d’al tine am slugi la casa mea.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Me sinhorite, eu nu am zis nimica de rău, am numai spus ca tutuni de asta nu este, nu s’a găsesti în tot Pitesti.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Și eu grecule,</p>
+            <stage>(înpungându’l oare cum cu peptul și cu căutătura furioasă asupra lui Iane)</stage>
+            <p>știi tu, că pociu să’ți trag palme, de te vei obrăsnici mai mult…</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Ti boeru este dumnealui?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(încet)</stage>
+            <p>Este un nebun, nu’l băga în seamă.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <p>Dacă el este un nebun, da’mi boe si mie, să me fac si eu nebun ca el.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Poftim, fă cum vrei.</p>
+          </sp>
+          <sp who="#iane">
+            <speaker>IANE</speaker>
+            <stage>(către Carito, sumețându’mi mânicile anteriului).</stage>
+            <p>Am, bre puschi, la ține ai spus tu cu batae! așa bre chionoulu!…</p>
+            <stage>(Iane se îmbrâncește cu Carito, Carito îl amerință cu ciubucu).</stage>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ei, ei, ciubucul meu!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Ce este? ce s’a întâmplat? ce gălăgie este aici?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Doi nebuni ’mi a venit până în zioă astăzi, și eu ’i am pus ca să se bată pentru ca să râz…</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Unu par’că era Iane tutungiu.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Cum ’ți am zis, amânduoi nebuni…</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Cum ai petrecut, cocoane Gligore, noaptea, ești bine, sănătos?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Foarte bine, domnule Sasi; poftim de șezi.</p>
+            <stage>(Trag amândoi două jețuri în avan-scenă).</stage>
+            <p>Pătimesc în fianță și ceva moralicește.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Ești amorezat?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>De modă.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Care va să zică după câte le vezi frumoase.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Mai este și alt ceva; ’mi a sburat astă noapte un canar din colivie.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Este cu putință!</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Și apoi ce! un canar care și dumitale’ți ar fi plăcut să’l păstrezi dacă erai neînsurat ca mine.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Zioa asta, se vede că este ursuză pentru oameni. Se mai plângea și cocoana Casandra că’i a fugit argatul cel favorit al dumneaei, de eri…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Așa să trăești!…</p>
+            <stage>(Gligore se gândește într’un chip, par’că ar înțelege cevași).</stage>
+            <p>’Ia fugit și dumneaei un domestic?… Apoi, bine, eri m’am fost întâlnit cu dumneaei, se întorcea din răscruci către casă, și am văzut și pe sluga după dumneaei. Știu însă că mai a-l-altă eri, s’a înfățișat în tribunal pricina dumneaei cu călugării de la mănăstirea Mărul, pentru câte-va familii de țigani, și par’că s’a și hotărât de către tot complectul.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Cam ce fel? în favor e hotărârea sau în defavor cocoanei Casandri.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Până acum nu’ți pociu spune prea bine. Atăzi am ceva treabă pe la tribunal și voiu afla.</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Acum adio, te am vizitat…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Apoi nene doctore, de ce vii așa de rar pe la mine… văz că nu ne mai iubești seara la cărți…</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Ce să te mai iubesc eu!… ai dumneata cine să te iubească mai cu folos!…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Nu te înțeleg ce vrei să’mi zici!…</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Toată lumea vorbește că ai furat o fecioară de la părinți, pe care, după ce ai nenorocit-o, ’i ai dar drumul pe uliți ca să moară de foame. Alți zic, că pe o biată copilă, care a crescut în casa părintelui dumitale, dumneata ai dus-o pe calea perzării și  ea desperată s’a aruncat în Argeș. Se zice încă de către toată lumea că dumneata, fiind dator unuia o sumă de bani care ’i ai luat înprumut, ai chemat pe creditor la dumneata ca să’i plătești ș’i ai rupt înscrisul, pentru care a și dat creditorl jalbă la tribunal având dovezi bune… Acum se vorbește de către toți că după ce ’ți vei toca toată starea părintească în cărți, în alte desmierări și în mulțimea câinilor ce’i ții în curte, ca să te duci câte o dată la vânătoare, o să ajungi ca să cei de milă din casă în casă.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(oare cum necăjit).</stage>
+            <p>Și cine este acela care dă sfoară în lume de câte fac eu?</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Se zice încă că ai trimes vorbe și bileturi la nevasta unui neguțător cinstit, din piață, și bărbatul ei aflând chiar de la acela care îi ducea bileturile, te pândește în toate nopțile ca să te prinză. Află, iubite prietene, că eu îți voesc binele și îți spuiu ce se vorbește în lume de dumneata…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(la o parte).</stage>
+            <p>Carito ’mi a făcut’o asta!…</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Te prevestesc să nu dai în cursă…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Trecem dincolo, nene doctore, că am să’ți spuiu tot…</p>
+            <stage>(Gligore, Doctorul trec în odaea laterală).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Așa, așa tutungiule! așa blestematule!… Ce ai socotit tu că sânt eu, mă!…ai!…ai socotit că sânt ca tine?… Eu am a face cu boeri, iar nu cu d’al de tine, mojicule!… Asta fu cât de bună… la dracu!… nu gândeam că o să îndrăsnească tutungiu… Asta a întrecut pe a de eri… când vrea să mă desbrace un birjar pe uliți, zioa namezia mare, pentru că m’am plimbat duoă ceasuri cu el pe la râu, și în urmă ’l am nomolit p’ân valea Stancii; de unde abia a scos cai, și eu cu socoteală că o să’i plătească cocoana Casanra, negăsind-o acasă am zis birjarului să vie a doua zi…</p>
+          </sp>
+          <sp who="#doctorul">
+            <speaker>DOCTORUL</speaker>
+            <p>Dpărtează acest fel de oameni din pregiurul dumitale…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Afurisită întâmplare!…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce este?… ce s’a întâmplat?…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Ei bine mă, bătutear Dumnezeu și toți sfinți…te duseși și mă spuseși în lume; m’ai dat târgului pentru intriga aceia.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ca ce?…că’ți a făcut refuz!…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Bine mă, ’ți am zis să o știm numai noi…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Nimeni altul!…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Blestematule, mișelule, să nu mai dai mult pân casă pe la mine… Să te duci ticălosule, că nu ești vrednic de facerile de bine câte’ți am făcut până acum.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Apoi bine, cocoane Gligore, știu și eu, de, dumneata m’ai trimis… afară de asta dumneata te dai singur de publică bătând toba…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Taci ticălosule!… minți!… că eu n’am vorbit nicăirea despre d’al de astea, de cât numai aceea ce s’a vorbit în casă…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Iartă-mă, cocoane Gligore, iartă-mă astă dată!…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Dute, pei nemernicule din naintea mea, o să te trimiț la București de unde ai venit… și mai mult, îți spuiu, să nu mai pui picioarele în casa mea, ai auzit tu!… și aide, marș, cară-te d’acuma!…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(singur)</stage>
+            <p>Ast-fel de ființe la ce mai trăesc pe pământ, care mijlocesc corupțiea oamenilor, subt pretecst de nebuni. Îți intră în casă nebuni, îi priimești de milă căci alt-fel ar muri de foame pe drumuri, și ei drept recunoștință, îți smintesc copilul, aduce bileturi de la amorezi femei tale… Spune p’afară ce aude, ce vede într’o casă: cu un cuvânt, ei sânt iasma depravației și model în aceea ce se zice deșertăciunea și ticăloșiea noastră.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Coconașule, ș’a trimis cocoana Casandra ca să vă dau dumneavoastră răvașul acesta.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>De unde zici că este?</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>De la cocoana Casanda.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(îl ia de’l citește).</stage>
+            <p>„ Cocoane Gligore, mă iartă pentru supărarea ce’ți fac adesea ori, ca la unul ce știu că ești bun și gata a’mi servi…</p>
+            <stage>(la o parte).</stage>
+            <p>Ce se potrivește! —- Am avea însă să mă plâng oarecum pentru dumneata, căci la biletul ce ți’l am trimis cu Carito băiatu, nu’mi ai răspuns nimica — Ba ce!</p>
+            <stage>(la o parte)</stage>
+            <p>, chiar băiatu, care leagă pe dracu în sac și duce bileturi dulci, ălor amorezați… Îmi vine să te știu de neparolist, când dai cuiva o parolă — Întocmai!… Dar să lăsăm toate astea, iau îndrăsneală să te rog ceva, daca aș ști că nu te superi… De eri ’mi a fugit un omu din curte care îmi este dator o sumă mare de bani, se chiamă Ioan, om tânăr în vârstă de 25 ani; se zice că ar fi fost înamorat de mai de mult de o fată, o țigancă, nu știu ce este, care o aveți dumneavoastră în curte. Te rog, ia vezi în puterea favorului ce’l pociu avea în prieteșugul dumitale, nu cum-va s’o fi pripășit pe la dumneata în putere. Iar dacă nu este, atunci se înțelege că a fugit. Te rog, ca din partea mea, stăruește dumneata, fă o hârtie ca să’l caute pân tot orașul și pân tot județul până este în grabă.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>O fată din curtea mea!…</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Da, cocoane, Ioan Mazâlu, pentru care v’a scris cocoana noastră, era îndrăgit cu…</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(fără a băga de seamă la vorbele servului se duce la o mescioară unde sânt cele pentru  scris, face răspunsul îl dă servului. — Servul ese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Copilă, această sfântă cruciuliță, ce ’mi ai arătat-o tu, și după cele ce ’mi spuseși, îmi pare că îmi întinerește aducerea aminte de câți-va ani înapoi. Îmi aduc a-minte, căci nu eram încă atât de bătrână și neputincioasă ca acuma. Era cam în sărbătorile crăciunului, ședeam de vale în Pitești, aproape de fântâna Oescului, de la vale de Maica Precista. Eram într’o seară la foc, precum șez acuma lângă tine, copila mea! Mă pomeniiu că mă chiamă să momesc la un loc; alergaiu, pentru că eram vestită pe vremea aceea pentru moșit și pentru descântece... Am înlesnit facerea lăhuzei cu norocire... Între alte daruri ce ’mi a dăruit lăhuza, această cruciuliță am pus-o eu la sânul copilului. Să aibi credință, fata mea, și nădejde în Dumnezeu că o să găsești pe scumpa ta măiculiță.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Mult mă bucur, maică bătrânp, că cunoști această cruciuliță pe care ’mi am dat-o moș Tudor, care ’mi este ca un tată, căci el ’mi a ocrotit zilele mele! Mult mă bucur că te a scos Dumnezeu înaintea mea, casă mă luminezi mai bine întru nenorocirile mele cele trecute. Încă de copilă am fsot crescută într’o casă boerească, unde pe cât trăia boerul bătrân, am fost căutată și aveam căpătâiu; după ce a murit boerul a rămas coconașul cel june, care nu visează de cât ticăloșii. Eu desnădăjduită, tot d’auna supărată, m’am dus ca să mă arunc în Argeș ca să ’mi fac eu singură seama. Pe când eram mai de tot perdută rostogolindumă între valuri, eu nu simțeam de loc, m’am deșteptat numai în brațele unui june care ’mi da tot ajutorul să mă întoarcă la viață. Acesta era însu’și logodnicul meu, un om sărac dar frumos la față, și cu o inimă mult miloasă.</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Vai! fiică dragă, și cum ai putut să faci una ca asta!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <stage>(la o parte).</stage>
+            <p>Dumnezeu să fie lăudat, cugetul meu se va împăca acuma, cruciulița ’mi este cunoscută, fiica este dovedită, și va merge în brațele maici sale...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Îmi place Ioane să te văz pe tine și să jucăm amândoi.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#un dorobanț">
+            <speaker>UN DOROBANȚ</speaker>
+            <p>Buna zioa băeți!</p>
+          </sp>
+          <sp who="#oamenii">
+            <speaker>OAMENII</speaker>
+            <p>Sănătate să dea Dumnezeu .</p>
+          </sp>
+          <sp who="#alt dorobanț">
+            <speaker>ALT DOROBANȚ</speaker>
+            <p>N’ați văzut p’aici pân sat un om fugit cu o fată dintr’o curte boerească, pentru care sântem trimiși de la iscprăvnicat ca să’i găsim.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ah! sântem perduți!...</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Nu te teme: Eu sânt fiu de mazâl, și drepturile mele vor eși la lumină.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+          </sp>
+        </div>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Do când nu tĕ am mai văzut mămușoara mea!... De ce n’ai mai venit pe la mine de atâtat mar’ de vreme?... Ca ce o fi?...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Eu sânt bătrână acuma, cocoana maichi, nu pociu să mai alerg precum făceam altă dată… Dar acum că sânt bătrână, mă gătesc peste puțin, ca să dau socoteală înnaintea lui Dumnezeu despre toate câte am săvârșit în viață, bune și rele.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Eu însă, de multe ori m’am rugat lui Dumnezeu pentru ertarea păcatelor dumitale, căci mult bine ‘mi ai făcut…</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Ce bine am putut să fac eu, o păcătoasă ca mine, înnaintea sfântului.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Inima mea însă mai artde de o dorință pentru care de câte ori îmi aduc a minte mă podidește lacrimile, și tot d’auna am vrut să te găsescși mulțumesc lui Dumnezeu că m’am învrednicit astă dată… dar ia spune’mi cum s’a întâmplat ca să vii la mine.</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Cocoana maichi, omul are și viață și moarte, pentru aceea trebue cine-va să se mărturisească la duhovnic pentru cele trecute…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Este prea adevărat: pentru aceasta și eu m’am pornit d’a mă mai mărita după moartea bărbatului meu, cu acela, pe care, după dreptul cuvânt ar trebui să’l socotesc de fiu… Cunoști pe coconu Gligore, fiul Șetrarului?...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Cum să nu’l cunosc, coconașul maichi, care de câte ori merge la vânătoare, trebue să treacă prin satul nostru, unde șez eu…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Am să plâng cu amar când mă gândesc bine că Șetrarul, înnaitne de a lua pe răposatul bărbatu-meu, a fost părintele copilului la care ‘mi ai fost dumneata moașă… pentru care… Dumnezeu să nu ‘și întoarcă mânia sa asupra celor greșiți…</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Eu m’am mărturisit la duhovnic de vr’o trei ani, și spuind că eu am aruncat copila la biserică, precum știi, ‘i am spus că am atârnat la gâtul copilului o cruciuliță…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>O fi fost cruciulița care ‘ți am fost dat-o însu’mi eu.</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>CHiar aceea.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ei bine dar, s’ar putea!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Și părintele duhovnic, ‘mi a zis, că numai atuncea voiu fi mântuită când voiu putea dovedi copila care am lepădat-o, ca să o dau în brațele maicii sale.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Scumpa mea copilă! scumpa mea copilă!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Această cruciuliță sfântă am dovedit-o la sânul unei copile frumoase; era mare și frumoasă, era cu minte și cu o adâncă durere pomenea numele maici sale: maică, zicea ea, maică unde ești, ca să caz la picioarele tale, să’ți spuiu că eu sânt fiica ta!</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Este cu putință, Dumnezeule sfinte! este cu putință ca să ‘mi găsesc pe fiica mea cea perdută de atâți ani!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Este ea însă’și, întocmai precum tĕ am văzut pe dumneata în minutul nașterii ei. Este frumoasă și nevinovată, dar nenorocirea a aruncat’o în mari primejdii…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Arz de nerăbdare ca s’o văz… Arz de dorință ca s’o strâng la sânul meu cel părintesc!... Mumă crudă și fără suflet, aceea, care își leapădă copilul ei, stăpânită de prejudiții în ochi lumii, pentru că a fost înșelată de un bărbat necredincios, care după o plăcere într’un minut de rătăcire nu prea să ia în căsătorie pe aceea care a amăgit-o. Ori cum este o mai mare rătăcire, de a’și pierde copilul ei care îl naște cu dureri o mumă.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Aceasta este stăpâna lui Ioan, acela care m’a scăpat de la înnecăciune, precum și din giarele siluitorului meu.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Cine este această copilă, ce caută?</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Dumnezeule!... ea este!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(cu sfială)</stage>
+            <p>Nu știu cum trebue să ‘i vorbesc ca să mă rog pentru Ioan, căci am sfială din naintea ei și îmi bate inima.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Cine ești copilă?... apropiete, ce vrei?</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Viu la picioarele dumitale…</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Dumnezeu o trimite în minutul acesta…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Și cine tĕ a trimis copilă?</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Sărmana copilă!</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Dumnezeule!... dar el unde o fi!</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Spune mai de grab… copilă…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(care până aci nu văzue pe moașa Sultana, zărind-o, rămâne îmvălmășită)</stage>
+            <p>Dar mama Sultana aici de la sat!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <stage>(apropiindu-se de ea)</stage>
+            <p>Tu ești copilă… Dumnezeu tĕ a adus!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Ce vrea ca să zică bătrâna!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Uite, acesta este semnul!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Cum!...</p>
+          </sp>
+          <sp who="#sultana">
+            <speaker>SULTANA</speaker>
+            <p>Crucea care ‘mi ai dato în dar, și eu temându-mă de nelegiuire, am atârnato la gâtul copilei…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <stage>(ca lovită de trăsnet)</stage>
+            <p>Aceasta este crucea?... Să o vedem!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Ca ce va să zică toate acestea?...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <stage>(se uită în ochii frumoasei cu multă băgare de seamă. Întâi este serioasă, în urmă, recunoscând ca printr’un văl ceva de asemănare în fisionomie fiicei sale, este oare cum învinsă de un simțiment misterios).</stage>
+            <p>Ce fel!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Eu îndrăsnesc, mult milostivă cocoană, să te rog pentru…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Vai! ea este fiica mea!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Muma-mea mare!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Vino copila mea să te sărut, căci Dumnezeu a bine voit cu mine …</p>
+            <stage>(se aruncă una în brațele altiea; se strâng, se îmbrățișează. Sultana îngenuche cu mâinele ridicate către cer).</stage>
+            <p>Fiica mea!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Maică!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Însă prea scumpă și mult iubită maică, am o rugăciune ca să vă fac…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Știu ce vrei să ‘mi zici, copila mea. După portul tău și ochi tăi cei plângători, se înțelege că ai fost nenorocită, și ai suferit mult. Ori cine a fost aceea care tĕ a crescut pe tine, ori cât de bogați sau săraci vor fi ei… acum bucurăte că ai găsit pe adevărata ta mumă care te va îngriji, va plăti acelor care tĕ a crescut, te va iubi, te va face fericită ca una singură la părinți… și te va căsători după meritul adevăraților tăi părinți!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Nu e nici o fericire pre pământ în care să nu fie amestecat și ceva de durere!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>D’aici înainte starea mea, viața mea și ori ce voiu face va fi numai pentru fiimea!...</p>
+            <stage>(es).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>E gata cocoana Casandra?</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <stage>(citește)</stage>
+            <p>„Secretul cel mai atingător de onoarea și reputația unei familii este cunoscut numai lui Dumnezeu, ca acela care este a tot văzător, și acest secret descoperit în ochi oamenilor, vine din voința prea înnaltă a sa, ca să ’l mărim și mai mare. De prisos este ca să’l acoperim noi, când voea lui Dumnezeu este ca să se dea pe față... Această copilă, crescută în casa dumneavoastră ca orfelină, a crescut chiar în casa părintelui ei, fără a fi cunoscută nici de părintele ei cel adevărat, nici de muma ei cea rătăcită, nici de fratele ei care a fost siluitor pentru dânsa, și fără a ști că ’i este soră, voia să o ducă pe drumul perzării. Secretul este descoperit de însu’și degetul lui Dumnezeu, care a apărat până în vârstă de 18 ani pe fecioara nenorocită. Ea este acum recunoscută în brațele mumei sale, și nu te rușina domnule, lăsând la o parte rătăcirea de a contracta căsătoria noastră, grăbește mai bine a recunoaște pe adevărata fiică a părintelui dumitale și a dumitale legiuită soră!”</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Într’adevăr secretul acesta este descoperit prin sfânta cruciuliță care ’i a fost atârnată la gâtul ei.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Rușine într’adevăr de a maltrata în casa sa pe o soră pe care nu o cunoaște cineva... Oameni de ori ce stare și de ori ce condiție, nu desprețuiți pe cei mai mici ai noștri, care vă cerșează pâiine și adăpost, și femeea cea nenorocită este o soră a noastră...</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Într’adevăr, lacrămile mă podidesc când îmi aduc aminte starea în care era căzută Frumoasa orfană, și iarăși lacrămile îmi curg pentru fericirea ei .</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Această minune îmi va servi de esemplu spre a mă corecta din rătăcire și de la mulțimea vițiurilor în care stricarea năravurilor, și moda de acum nĕ a aruncat.</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>Eu sânt bătrân și peste puțin mă plătesc de datoriea mea ce o am pre pământ. Dar eu tĕ am crescut pe mâinile mele, și de a te sfătui întru cele bune, îmi  este ca o datorie părintească. Virtutea fătul meu, este mântuire pre pământ; iar vițiul rușinare desăvârșită a omului.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Grăbește, fata mea, de a îmbrățișa pe fratele tău; dumneata, Domnule, recunoaște pe sora dumitale.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Pe stăpânul meu!...</p>
+          </sp>
+          <sp who="#gliogore">
+            <speaker>GLIOGORE</speaker>
+            <p>Pe fratele dumitale.</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>De ce nu trăește Șertarul ca să se bucure în ajunul nunții fiicei celei frumoase.</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <stage>(apropiindu-se de Frumoasa)</stage>
+            <p>Ai văzut, fata mea, că Dumnezeu ’ți a ajutat, și sfăturile mele au eșit deplin adevărate.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Eu te voi numi în veci taică!...</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Să ne grăbim, că de seară o să vie boeri, cocoană Casandro, adu cheile ca să scoatem argintăriea; lingurițele de dulceață, și să poruncim să gătească Salonul.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>O să aduc și lăutari ca să dănțuim cu bucurie.</p>
+          </sp>
+          <sp who="#tudor">
+            <speaker>TUDOR</speaker>
+            <p>O să privesc și eu la bătrânețe, ca să ’mi aduc aminte de ani mei.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Fetei mele o să ’i dau să pue cercei de aur și o floare de diamant.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Mulțumesc scumpa mea mamă.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Gătiți toate cele trebuincioase pentru balul de diseară, că eu am să mă duc să înștiințez pe mai mulți, însă nebuni nu voiu să mai priimesc p’ân casa mea, și eu o să mă las de jocul cărților, și daca îmi voiu găsi unde-va vre o înclinație bună, fie și mai urâtă, numai să aibă vre o zece mii de galbeni, ceva acareturi și moșii, atunci hotărăsc de azi într’o săptămână nunta mea.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Mai întâi, să vedem pentru iubita mea fiică.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Cunosc unul prea bun. Dar vom vorbi numai noi pentru aceasta.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Șiretule, eu nu voiu să dau fetii mele de bărbat vre un june sărac, mai bine voiu să fie bătrân și cu stare.</p>
+          </sp>
+          <sp who="#gligore">
+            <speaker>GLIGORE</speaker>
+            <p>Bine, bine, vom vorbi…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Sânt mai bien de trei zile de când n’am mai dat p’aici, din zioa de când m’am bătut cu birjarul pentru că vrea să mă desbrace… și mai ales de când m’am bătut cu Iane tutungiu în casa coconului Gligore… Dar ce îmi pasă… eu n’am venit în casa dumnealui acuma… Eu viu la cocoana Casandra… și mai ales că am să’l încondeiu bine pe dumnealui, și încă cu asta, o s’o fac să lase de scopul căsătorii cu dânsul… O să’i spuiu că este un craiu, toată noaptea umblă pân mahalale, o să’i spuiu că joacă în cărți, ba încă o să’i spuiu c’a pus gând rău fetei care este crescută în casă… Și apoi, zău… fata aia este frumoasă, frumoasă de tot…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Vaiu! cât sânt de nenorocită!... Am găsit pe mumă-mea acuma, am o zestre, mă pociu mărita bine, nu’mi lipsește nimica… Dar, vaiu!... fericirea este departe de mine!... când mă gândesc la el! când mă gândesc la acela care ’mi a mântuit zilele din apele Argeșului, și căruia ’i am jurat dragostea mea până la mormânt… mi se sfâșie inima… aș vrea să întreb, să cercetez… Dar nu îndrăsnesc ca să vorbesc nimului… Vai! puterea amorului par că învinge pe toate cele-l-alte… O să cercetez ca să aflu cevaș… despre dânsul…</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ciudată asemănare, între domnișoara asta, cu fata din casa coconului Gligore! Dar cine o fi!... ia să întreb pe vre un fecior d’aici din casă!...</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Așa, voi vă tot plimbați, vă certați, vă împăcați, vă sărutați, și treaba cade pe spinarea mea; sânteți buni toți de duși la balamuc…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Mă, ia spune’mi, ce preafacere s’a făcut p’ân casa asta de când n’am mai dat eu p’aici?...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ca ce, mă, ia spune’mi și mie, ca să știu și eu.</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Uni vor să se însoare, altele se mărită… Cocoana noastră a adus în casă pe fata crescută în casa Șertarului Stamate și zice că este fata ei, mai deunăzilea s’auzise că coconița o să se mărite să ia pe coconu Gligore. Dumnezeu să’i aleagă că nu poți să înțelegi de la ei.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Mă, dar ce a bătut în zilele astea pe Ioan vânătorul la poliție, și ’l am văzut ducându’l cu fiarele de picioare.</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Iaca pentru ce; pentru că n’are Dumnezeu stăpân… iaca, ca slugă ce era, vânător, argat, ’l a îndemnat diavolul de a fugit cu niște bani ai cocoanei și ’l a prins încoa, către râul Doamnei.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Acum ce o să’i mai facă, mă?</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Cocoana a hotărât să’l trimiță pe Topolog în sus, la moșiea din vârful muntelui de unde să nu se mai întoarcă nici odată.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce spui tu, mă!... și ce s’a mai întâmplat?... Tu unde te duci?</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Eu am treabă să curăț policandru din sală, că astăzi ori mâiine seară avem bal.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Dar coconu Gligore vine ceva p’aici?</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>O să vie acuma îndată, că îl așteptam.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(la o parte)</stage>
+            <p>Așa dar nu este pentru mine p’aici.</p>
+          </sp>
+          <sp who="#servu">
+            <speaker>SERVU</speaker>
+            <p>Nu intri în casă la coconița?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(singur)</stage>
+            <p>S’a isprăvit pentru mine acuma aici în Pitești. O să merg la București, acolo ’mi voiu deschide o nuoă carieră… Privințiali nu sânt îndestul de generoși ca să erte o bagatelă, ca și aceea care mi s’a întâmplat cu coconu Gligore… La București zic, d’aici înainte la București…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Pândesc aicea de este mai bine de o zi și o noapte ca doar voiu întâlni pe cineva, care să ’mi fie mie cunoscut. Destul am suferit de atunccea de când mă despărțiră de Frumoasa pe care o iubeam și o iubesc încă și până acuma… Am fost pus în feare năvălind o sută pe mine unul singur, am fost mai bine de trei săptămâni închis… Fără somn, fără odihnă, fără un minut măcar de pace, dar până acuma n’am putut să aflu nimica ca ce s’a făcut ea… ’Mi a spus unul din pasnicii mei, când eram închis, că ar fi venit o fecioară să aducă hrană la un osândit, dar ea n’a fost de nimeni ascultată: a fost gonită în cele din urmă… Eu am eșit din închisoare noaptea prin ajutorul unei ferestre care era în fundul închisori cu crucile de fer. O! dragostea poate tot unde este: o slabă sguduire a fost îndestul ca să sfărame crucile de fer și eu să fiu slobod… Nu știu ca ce s’a mai întâmplat în urma mea… Destul că eu ’mi am găsit scăparea în aceste tufșoare, zilele petrec p’ân desișurile pădurei, iar noaptea es la pândă…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Eu sânt născut pentru tot felul de minuni în lume.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ce auz eu acolo…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>A trebuit să o pățesc și astă dată.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Cine o fi acela de vorbește?...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Am plecat cu un afurisit de surugiu din Pitești, n’am făcut nici poștiea jumătate și poftim că ’i a stătut cai…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ăsta n’o fi ovreiu, după cum s’arată el…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Și de necaz că ’mi a stătut cai și surugiu s’a îmbătat, am luat-o pe jos până la moșie.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Par’ că ’mi e cunoscut glasul acestui om.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Și tot ce este mai al dracului e că eu nu cunosc drumul p’aici.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>’Mi aduc aminte abia de când eram ucenic la ișlicărie, că am fost cu stăpânu-meu, la târgul de la Câmpu-Lung… dar tot nu cunosc drumu</p>
+            <stage>(zărește pe Ioan).</stage>
+            <p>A! văz un om, să’l întreb…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>CHipul ăstui om nu ’mi este așa strein, mi se pare că ’l aș fi văzut vre o dată.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ciudată întâmplare!</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Este domnu Carito!</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ce cauți tu p’aici Ioana, și așa schimbat ca dracu…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Caut aceea ce și dumneata ai fi fost căutat, daca erai ca mine pe nedrept înscris, și bătut.</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Și cefel ai ajuns tu p’aici, cum s’a întâmplat casă te văz eu?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Cum s’a întâmplat casă ’mi  eși dumneata în cale?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Eu mă duc la București, căci acolo sânt bine cu toți boeri.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Pe la cocoana Casandra n’ai fost?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Da, am fost și am. Văzut minuni și prefaceri.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ca ce?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Am văzut pe Frumoasa îmbrăcată numai în mătăsărie.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Pe Frumoasa!</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Da, pe Frumoasa, și se aude că o să o mărite cocoana Casandra dupe un om de deosebit caracter.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(care sta pe gânduri)</stage>
+            <p>Ea se mărită!... și eu nenorocit din pricina ei, am suferit atâtea necazuri, ce și până acuma la cerc, rătăcind prin păduri și prin pustietăți. O! femee!... femee!... ființă atât de ușoară și atât de lesne crezătoare! mai rău de cât copilul pe care îl înșală muma cu turte poleite… Vai! ea se mărită, și eu rămâiu nenorocit pentru tot d’auna, purtând în inima mea dragostea cea mai curată… Dragostea omului cu atât este de mare pre cât îi este și nenoricirea. Eu nu voiu înceta nici odată d’a pomeni cu dulceață numele ei, rătăcind după dânsul în toată viața mea… Dragostea ne însuflă tot d’auna douo simțiminte: unul, este de a iubi cu căldură, și altul de a ne răsbuna!... De a ne răsbuna în contra acelora care ne strică fericirea de a iubi, și câte odată chiar în contra acelora pe care îi iubim… Iubesc cu patima cea mai vie pe aceea căriea ’i am mântuit zilele de la moarte și ea ’mi a jurat credință, o iubesc până la mormânt, și nu mă pociu despărți de dânsa… Dar ea se mărită… Toate planurile și cugetările vrăjmașilor mei vor cădea jos… Trebue în sfârșit ca să mă întâlnesc cu ea, și daca anu voiu putea alege nimic, atunci, voiu face aceea ce face amantul în cea mai de pe urmă desperare!...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Eu ’ți am mai spus încă odată că femeea este capricioasă și iubitoare de varietăți!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>În sfârșit eu m’am hotărât astă dată la ori ce… Am avut multă anevoință până am putut pătrunde în casă, fără ca să fiu văzut de cinevași… Voiu căuta aicea vr’un loc unde să mă ascunz până ce o voiu vedea pe dânsa eșind… Ah! cât sânt de obosit, și capul meu cere odihnă!... odihna și pacea nu vine la om de cât după ce își va seca de tot izvoarele durerilor… Pacea mea atârnă de la voința altora și stăruința lor… și căci pentru ca să poată cineva a și câștiga dreptul său de la un altul, trebue să știe cum să’l apere; eu ’mi am dat în mâinile unui avocat pricina stării părinților mei, acum cotrănită, precum și pricina închisorii mele, pricina care mă desparte de Frumoasa… și peste puțin toate vor fi lămurite cu desăvârșire… Dar inima mea o simț că bate de neastâmpărare… (vede o perdea trasă). Aicea o să mă ascunz și voiu rămânea până noaptea… ori că pornesc cu dânsa, ori că mă găsește a doua zi mort aicea… S’aude viind nu știu cine… Să aștept, și să bag bine de seamă ca nu cumva este ea… mor de dorință ca s’o văz!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Să ’ți spuiu drept Postelniceas’o că simț în inima mea cea mai  adâncă bucurie pentru redobândirea fiicii mele… Cine ar fi gândit una ca asta, ca fiica mea să fie crescută în casa Șetrarurlui, părintele ei. Și apoi cum a adus întâmplarea, șiretul de Gligore n’a vrut să ’mi istorisească tot cursul pricinei, ce fel fiica mea s’a întâmplat ca să se vază cu moașa Sultana, să o cunoscă în cele din urmă, și să intre singură în casa mea.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Într’adevăr minune de care să se ducă vestea în toată țara Romănească.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ori cum, e bine să nu se prea facă sgomot mare p’afară: ori ce vorbim, ori ce vom face, să știm numai noi. Eu am hotărât să ’i dau un bărbat cum se cade… Gligore a umblat prea mult în pricina asta.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Să ’i ajute Dumnezeu!... Și eu doresc din suflet ca să se facă cu norocire.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>De seară, o să fie logodirea; ginerile a văzut pe fiimea a-l-altă eri seara, la sindrofiea ce am avut-o până la două-spre-zece noaptea, târziu, și se pare a fi mulțumit de dânsa.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Coconița maichi, trebue să ia un bărbat tânăr și frumos ca dânsa.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ba eu, zău, nu sânt de părerea asta, mai bine zic să fie bătrân și bogat, căci tinerețea și frumusețele se trec, dar cu starea omul trăește tot d’auna bine.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>O fi d’al de boeru Treteanu.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>O să’l vezi și dumneata de seară, o să vii ca din partea mea peftită.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Sârut mâinile, coconiță, nu voiu lipsi pentru întru tot la ori ce mă socotești vrednică.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Pentru atât numai ca să’ți dai părerea și dumneata.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>O să viu mai de vreme ca să văz când se va găti coconița.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>D’aici înnainte ’i am zis să se numească Frosa; căci este un nume mult mai delicat de cât acela care ’l a avut până acuma.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Așa, coconița Efrosina!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Dar știi, soro, ce am pățit cu afurisitul ăla de Ioan, a mai fugit încă odată după ce și’l a adus…</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ioan. Vânătorul?</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Așa, afuristul ăla!... Dar mai bine îmi pare că în lipsa lui să se isprăvească nunta fiemi… Ticălosul, cum îți pare, era îndrăgit cu o fată care a fugit cu dânsul, și a făcut minuni.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Par’ că vorbeam noi odată de spre înclinarea argatului dumitale cu o țigancă a coconului Gligore, auzisem…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>A fost minciuni; el iubea pe alta pe care a și duso cu el… Dar, de, Doamne ferește!...</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ca ce?</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ia, hoțul dracului! ai să te temi ca de dracu. Se zice că ține drumul Bucureștiului… S’a călcat niște neguțători în zilele astea care mergeau cu mărfuri.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Dar s’aude prea mult de un hoț care ține drumul Brăilei.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>S’o uni și diavolul ăla cu el și m’oi pomeni că mă calcă în vre o noapte.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Și acum n’ai dumneata nici un om sdravăn în casa dumitale, nici un arnăut…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Am hotărât să ’mi iau unul daca voiu merge la București.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Așa are unul coconu Iancu de la Tribunal; se vede a fi om harnic.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Aș dpro Postelniceasă să  te văz jucând hora de seară; o să joc și eu ca soacră mare.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Eu aș dori să te văz și mireasă cu vrerea lui Dumnezeu…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Acum m’am lăsat de hotărârea trecută.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Dar de ce?... eu ’ți am mai spus încă odată că nu te dau pe una tânără din zilele noastre.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Îți mulțumesc Postelniceaso, ori vrei să râzi de mine!...</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ba, este din inimă curată.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Aideți să vedem ce mai face fiică-mea pe dincolo. Am lăsat-o adineaorea înșirând la mărgele de cilicari pentru o trebuință a mea.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Ar trebui să o pui să învețe polca, un joc nuou de la București care a eșit acauma.</p>
+            <stage>(es amândouo).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Dar al dracului lucru ca și asta! Eu eri am fost luat drumul către București, și astăzi iată-mă iarăși în napoi în Pitești!... Cât nu este omul stăpân pe voința sa, par’ că este vre un drac în lume care răstoarnă tot d’auna planurile mele… Abia eri am fost poștia jumătate până la Cârcinov, și ’mi a stătut cai. Am luat-o pe jos, și ’mi a eșit înnainte Ioan, argatul cocoanei Casandrei, și adânc suspinătorul după secsul frumoas. Dar la dracu, pentru ce îm perz vremea în zadar după tufe verzi! ’mi am zis, am uitat să ’mi iau adio de la cocoana Casandra, și ar trebui să ’mi iau ertăciuni de la coconu Gligore, pentru că, de, să fie al dracului ăla care a gândit să ’i facă rău, al rău să ’l am eu pre sufletul meu, pre cât m’am gândit la una ca asta… și așa eu gândindu-mă la drum, în loc de a ține calea către București, m’am rătăcit în napoi și am ajuns iarăși în Pitești. Acuma o să intru la cocoana Casandra ca să ’i citesc lista nebunilor și să ’mi dea cevași de cheltueală pentru mâine.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Așa, așa, nebuni sunt aceia pe care voi îi iubiți și îi îmbrățișați; cărora pentru că n’a spus niște glume înjositoare, în care icoana noastră est batjocorită, îi trageți în apartamentele voastre cele bogate și le acordați  ori ce vă cere… Dar nu știți voi că râsu ’n râs se preface care pătează fruntea și numele vostru, fiind-că omul sărman obosit de multele nenorociri, știe a plânge… Dar nici așa nu află îndurare când se târaște din naintea picioarelor voastre care calcă totul… Mai bine de trei ceasuri am ascultat la niște femei care destinau fericirea acelia pe care eu o iubesc, precum fac ursitorile la nașterea vr’unui prunc întâiu născut la părinții săi… Am ascultat și am auzit toate; cum mă batjocorea pe mine, zicând că am fugit cu o roabă streină și țiu calea la călători… Am făcut-o și asta, dar numai pentru ca să dobândesc această otravă. Acum sânteți  toți în giara mea. Voiu otrăvi toate vasele, băuturile, și eu voiu râde văzând cum cad toți ca perele din ’naintea mea…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Nu este nimic care să mă poată înveseli… Totul îmi pare ca un vis din care încă nu se deșteaptă cineva, până nu doarme îndestul… Visul acesta e prea dureros pentru mine…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Acum o văz… ea este…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Mama îmi propune de măritiș și de fericiri însutite. Dar eu nu mă pociu bucura din toete acestea!</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ea după cum se vede pe mine m’a uitat căci nu pomenește numele meu!... Ah! simț cevaș care mă oprește d’a face ceea ce am pus de gând!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Unde o fi el?... ce s’o fi făcut? se zice că umblă fugar, rătăcind prin păduri.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Este vremea acuma ca să mă arăt ei…</p>
+            <stage>(ese de după perdea)</stage>
+            <p>sâ!... eu sânt, nu te teme…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(cu ecstaz)</stage>
+            <p>Tu ești Ioane! tu aici, și și cu ce împrejurare tĕ ai putut ascunde după această perdea?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Sânt de mult aicea: și am auzit ce s’a vorbit pentru tine și pentru toată lumea. Dar nu te unești cu părerea lor, când Ioan face tot pentru tine, pentru că te iubește!... pentru ca să știi tu…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Sântem… auzimă… trebue să te depărtezi…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Cum să mă depărtez, știindu-te pe tine aicea… Văzându-te astă-dată și mai frumoasă de cât tot d’auna.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ioane, Ioane, eu te am iubit pe tine, dar Dumnezeu nu vrea…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Vezi dumneata, dragostea tot poate, lasă-te în voea dragostei că te va scoate la un căpătâi… Uită, fericirile care zici că te înconjoară acuma. Lasă’ți hainele cele bogate, lasă’ți bogăția care îți înfățișează norocul de vre o câte-va zile, lasă tot și vino după mine… Vino că te voiu duce pe umerii mei, pe unde vom avea să trecem vre o apă. Vom sui munți… vom fugi departe de oameni, fiind-că între oameni tot d’auna este trădare… Vino, vino ca să gustăm amândoi fricirea cea mai  curată!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Vai! cum să fac eu aceasta!... cum să mă depărtez de aceea pe care abia am dobândit-o după atâta lungă vreme… și pentru care a trebuit să vărs atâtea lacrime!</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Vino, îți zic, scumpa mea!... în fericire și în nenorociri!... Noi nu vom fi zăriți de nimenea… Eu te voiu apăra de ori ce, și tu, îmi vei ajuta mie în nenorociri ca să le pociu suferi…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ascultă-mă Ioane, ai răbdare, că o să se schimbe lucrurile pentru mine și pentru tine, și tu vei fi ajutat întru toate.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Te îndoești despre dragostea mee!... ’ți e teamă că vom mai fi încă odată prinși, că eu voiu mai fi pus iarăși în fiare… Crezi tu că mie îmi lipsesc bogățiile… și cum ’m au grămădit uni alți atâtea avuții?... ast-fel voiu face și eu pentru tine… tot pentru tine… tot pentru fericirea și pentru dragostea ta…</p>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amanta">
+            <speaker>AMANTA</speaker>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amanta">
+            <speaker>AMANTA</speaker>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amanta">
+            <speaker>AMANTA</speaker>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amanta">
+            <speaker>AMANTA</speaker>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amanta">
+            <speaker>AMANTA</speaker>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amanta">
+            <speaker>AMANTA</speaker>
+          </sp>
+          <sp who="#amantul">
+            <speaker>AMANTUL</speaker>
+          </sp>
+          <sp who="#amândoi">
+            <speaker>AMÂNDOI</speaker>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Înțeleg acuma că toate vorbele mele și patima mea pentru tine, nu au sunet în inima ta. Îți zic să fugim și tu te împotrivești, îmi zici că glasul părintesc îți vorbește. De ce acest glas care te stăpânește acuma nu tĕ a ajutat înnainte, pe când erai nenorocită, pe când de câte ori te găseam îți opreai lacărimile care îți făceau ochi roșii. De ce, când tĕ ai dus să te arunci în apa Argeșului, căci nu puteai să mai  suferi nenoricirea, n’a alergat să te scoață aceea în brațele cărora tragi acuma. De ce când siluitorul tău, cu dreptul de stăpân, a hotărât de zioa ca noaptea să fii prada lui... n’a alergat părinți și protectorii tăi, c a să te scape din giarele lui… Numai eu singur am alergat la toate nenorocirile tale… Îmi zici că Dumnezeu nu vrea…Dumnezeu nu desparte nici odată pe aceia care se iubesc precum te iubesc eu pe tine, căci el este drept… Numai pentru tine eu m’am aruncat în toate pericolile, și tu nu cunoști!... Tu ’mi ai dat putere ca să pun lanțurile și crucile de fer. Cu tine am trăit prin pustietăți, suferind foamea și frigul nopții. Tu știi că eu nu tĕ am supărat pentru nimica; câtuși de puțin eu n’am fost siluitorul tău… Tĕ am însoțit cu dragostea cea mai curată și nevinovată ori și când am fost lângă tine… N’am ce să’ți arăt mai mult, n’am ce să mai fac ca să te încredințezi despre dragostea mea!... Aide, îți zic, și pentru cea mai de pe urmă oară, vino cu mine!... ori murim unul lângă altul îmbrățișați, ori trăim în pace și fericire…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Așteaptă încă puțin, că voiu pune toate la cale… eși însă din casă, să nu te vază cinevași, că sântem perduți!...</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ei bine, eu mă duc… Dar adu’ți aminte de vorbele mele.. chiar în astă noapte gătește-te să fugim!...</p>
+            <stage>(îi sărută mâna și ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ce nenorocire! ce nenorocire vine acuma pe capul meu… Ori cum, eu nu voesc să fug după cum zice el… Nu voiu să ascult vorbele lui cele ecsaltate, să părăsesc pe mumă-mea care am dobândit-o din voința lui Dumnezeu… și care cugetă atâtea bunătăți pentru mine… Nu, nu voiu face nimica care să o supere… Voiu face și pentru el ce voiu putea… Mă voiu sili întru atâta ca să ’i dobândesc ertarea despre toate…</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Dar domnule, aceste familii de robi, eu ’i am din părinți în părinți, și va fi cu nedrept ca să ’i reclame mănăstirea dumneavoastră.</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Eu, doamnă, ’mi am făcut datoriea ca să vă înștiințez că aceste familii de țigani fiind cotropite de pe vremuri, acum a eșit la lumină vechi hrisoave care arată curat că un străbun al dumneavoastră fiind fost egumen la mănăstirea Mărul, acești țigani  ’i a înstreiant el.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Eu dovedesc că ’i am în stăpânire de la părinți mei.</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Vă mai spuiu, doamnă, că procesul dumneavoastrăcu călugării mănăstirii  este perdut, și ceea ce este mai mult e, că țigani mănăstirești s’au ertat…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>O să dau jalbă la domn…</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Vom vedea.</p>
+            <stage>(scoțând din buzunar o hârtie)</stage>
+            <p>Mai este și alta doamnă.</p>
+            <stage>(îi dă hârtia).</stage>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ce este?</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Mai este un proces neisprăvit încă de când trăia boerul dumitale răposatul.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Nu mă privește pe mine.</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Este iar o pricină de cotropire, starea unui fiu orfan asupra căruia boerul dumneavoastră s’a făcut episcop.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Acesta este el…</p>
+            <stage>(cu oare care mișcare).</stage>
+            <p>O! Dumnezeule! Dumnezeule!</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Noi ’l am crescut de suflet și el a eșit un ștrengar.</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Jalba este dată din nou, și chiar astă seară se va strânge complectul spre a se da hotărârea.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Mă judec până la mormânt iar lui nu ’i dau nimica.</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Stăpânirea vă îndatorează.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>El este fiu de mazâl!</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ba, are să vă slujească în toată viața lui, îmi este ca un sclav, căci la noi a deschis ochii!</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Eu mă grăbesc să mă duc că am alte treburi… ’Mi făcut datoriea să vă înștiințeî că dumneavoastră veți da înnapoi lui Ioan aceea ce est drept rămasul părinților săi; și el va fi desfăcut de la dumneavoastră.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>El ’mi a fost argat!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ce soartă nenorocită!</p>
+          </sp>
+          <sp who="#avocatul">
+            <speaker>AVOCATUL</speaker>
+            <p>Vă sărut mâinile, atâta am avut ca să vă vorbesc!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Efrosino!</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Auz mamițico.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Pentru ce te văz așa de turburată, se înțelege pentru că vezi că o să pierz țigani care vream să ți’i dau ție de zestre când te voiu mărita.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ba nu, scumpa mea mamițo, mă gândesc la fericirea ce am ca să fiu lângă dumneata, și sânt pătrunsă de recunoștință căci văz că ai atâta iubire asupra mea.</p>
+            <stage>(îi sărută mâinile, Casandra o sărută pe frunte).</stage>
+            <p>Îți mulțumesc mamițica mea!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Am să’ți spuiu că de seară o să fie logodna ta, îți voiu spune mai târziu cine este ginerele tău… o să’l vezi tu singură și o să’ți placă…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <stage>(la o parte)</stage>
+            <p>Dumnezeule! Dumnezeule!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>O să’ți puiu cercei cei de diamant și am poruncit la boltă să’ți aducă cea mai frumoasă girlantă, căci așa trebuește să fie miresele în zioa vederii cu acela pe care o să’l ia de bărbat.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Să bagi de seamă tot d’auna sla mine, să fii modestă, râsul să’ți fie cumpătat și căutătura nu așa de sălbatecă.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Mă supuiu mamița mea!</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Astă seară o să avem bal mare și la urmă masă, pentru care s’a însărcinat frate-tău Gligore să poarte grija de toate cele trebuincioase. Vom da dulceață, cofeturi, bulion, lapte de migdale, limonadă, și să vedem daca vom putea găși giață ca să facem câte-va forme de îngețată.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>O să ’mi dai și mie ca să joc, mamițica mea?</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Da, fata mea, însă cu multă băgare de seamă, căci lumea nu iartă cea mai mică greșală…</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Dar, copila mea, cu atât mă bucur mai mult că te văz înțeleaptă și priimitoare de sfătuirile mumei tale care îți voește binele.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Da, prea scumpa mea maică, da, eu tot d’auna te voiu asculta, ca una care m’ai născut.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <stage>(plângând)</stage>
+            <p>Cerul a vrut copila mea, ca să ’mi arate și mai mult rătăcirea mea. Vai! cât am fost de rătăcită, ca copila mea să crească pe mâiini streine, și ea să fie înțeleaptă, și va avea tot d’una a împuta maici sale pentru greșala ei trecută…</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Te iubesc cu atât mai mult, scumpa mea mama, te iubesc și te voiu asculta cu multă supunere.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Dumnezeu să te bine cuvinteze în zioa logdnii tale și să fii norocită după cum gândesc eu…</p>
+            <stage>(se iau odată în brațe, Carito se vede eșind prin fundul scenei, se uită la amândouo, și zice).</stage>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Voiu veni de seară când va fi balul ca să priimesc și eu darul slujbelor mele.</p>
+            <stage>(es toți)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Avocatul meu socotesc că o fi înnaintat pricina mea la care este pus, dar de o cam dată, Frumoasa este a mea… Ea mă iubește încă precum m’a iubit din zioa când ’i am mântuit zilele ei din furia apelor… Ea voește numai ca fugind cu mine să ducă cu dânsa și hainele ei cele bogate: ca și ceva bani poate, ce ’i va putea lua din casa protectoarei sale. Eu am pregătit toate lucrurile, și pe urmă mă voiu judeca până la una pentru fuga ei cu mine… ’Mi e teamă numai să nu mă vază cine-va, în vremea asta, p’aici, și să’mi strice toate lucrurile cugetate de mine… Dar uite…</p>
+            <stage>(arată un cuțit)</stage>
+            <p>, vai de acela care va scoate o vorbă…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Cine e ăla de vorbește colo în colț singur… Mi se pare că tot văz pe Iane tutungiu, care cerea bani de la coconu Gligore că ’i era dator, și par’ că îmi mai cară la pumni ca atuncea. Dar eu acuma nu mai sânt nebun ca atuncea, să mă mai leg de oameni!...</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>M’o fi văzut ăla, cine o fi!…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Nu cumva este și ăsta vre unul pe care trebue să’l trec în lista nebunilor.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(apăsându-mi pălăriea pe ochi)</stage>
+            <p>Stăi în loc!... Cine ești tu?...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Măi, da obrasnic mai este!</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(îl apucă de pept și vrea să dea)</stage>
+            <p>Spune cine ești tu?...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Sânt, iaca, un creștinaș ca și tine, ia… un om sărac!... un ucenic de ișlicar… mă, nu sânt mai bogat de cât tine, ce vrei tu cu mine?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ce dumneata ești, domnule Carito!...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Eu, mă, ce nu ’mi zici cocoane?...</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>A! ai  venit la vreme!... știu că ești bun, dumneata le știi toate, dumneata ai pipăit inimile tutulor și te porți după vreme…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ba al dracului; mănânc și trânteli tot după vremi.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ia spune’mi te rog!...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ca ce vrei ca să mă întrebi?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Fost-ai pe sus, unde știi dumneata…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Cum nu… Astă seară se dă o soare mare, unde o să fiu și eu, căci sânt poftit…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Spune’mi ce ai mai auzit?</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Iaca, se logodește coconița Frusinica, fata cocoanei Casandrei, și pentru asta sânt poftiți boeri, o să fiu și eu…</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(ca lovit de trăsnet)</stage>
+            <p>Ea se logodește!... Ei bine ea priimit!...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Ba bine că nu… femeea fuge vr’o dată de măritiș!...</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <stage>(la o parte)</stage>
+            <p>Îmi vine să mă omor!...</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Te las sănătos Ioane, mă duc să înșel pe cineva cu vre o vestă albă, și cu vre o pereche de mănuși.</p>
+            <stage>(se duce)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ea se logodește… și eu socotind că ea o să vie după mine, tremur așteptând subt geamurile ei! O! nenorocire!... îndoită nenorocire!... ’Mi ar veni să mă ucig de zece ori cu cuțitul acesta, daca nu’mi ar fi că ea o să se dea în brațele altuia… cât este de nenorocit omul care iubește din inimă pe aceea ce însemnează o iotă mai mult în casa stăpânilor săi. Cât este de amar de a privi de aproape sau de departe cum femeea pe care o iubim, contractează a se da în brațele altuia, fără a se gândi cât de puțin la un jurământ al ei, făcut de dânsa… Cum voiu mai putea trăi eu când aceea pe care o conduceam ca pe un copil, nu este mai mult d’alăturea mea ca să ’i arăt tinerile mele îngrijiri și a ’i săruta picioarele când îmi va porunci… (se rădică perdeaoa din fund și se vede un castel luminat în lountrul căruia s’aude muzică de bal). Dar ce s’aude sus colo în palatul acela mare, de unde Argeșul nu de departe, își amestecă sgomotul valurilor sale cu armoniea sa, și lumina din lountru se aseamănă cu lumina stelelor?. A! se vede acum prea bine că femeea cea fericită ne mai gândindu-se la amantul ei, desfășură buclele sale pentru bal, căci peste puțin are să fie fericită, și se va da în brațele unui bărbat cu zestre și cu avuții… Dar mă jur pe dragostea mea care am păstrato până acuma că îmi voiu răsbuna… Îmi voiu răsbuna împrotiva mumei și împrotiva fetei… dar pe logodnic îl voiu lăsa ca unul ce nu a luat parte în vânzare, și nu ’și a călcat nici odată jurământul… Alerg ca s’o văz, încă o dată să’i  zic, să fugim… și daca nu va voi… atunci… Hâm!... vom vedea… Atunci, veniți toți, amanți și amante amăgiți, și veți vedea cum se pedepsește și se târaște iasma amăgirei!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ce zici Postelniceasa, îți plac cum sânt îmbrăcată de bal?</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Da, coconița mea, ești prea frumoasă, o să se nebunească toți după dumneata, astă seară.</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Îți place girlanda care ’mi a luat-o mama?</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Îmi placi întru toate, și trebuie să joci și dumneata.</p>
+            <stage>(es toți, tace muzica).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>S’a isprăvit, simț că din zi în îi naște în mine un duh diavolesc… Sânt în stare să’i fac marț pe toți, ori câți îndrăsnesc ca să se ia la clește cu mine…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>Lăsați-mă în pace cu toți, că după ce vă fac să râdeți, în loc de a vă aduce aminte și de mine, atunci mă dați  afară, căci sânteți sătui de mine…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <stage>(supărat)</stage>
+            <p>Lăsațimă în pace, că sânt sătul de lumea de la provinție…</p>
+          </sp>
+          <sp who="#carito">
+            <speaker>CARITO</speaker>
+            <p>O să mă duc să râz de toți; nici unul n’o să’mi scape în astă seară...</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Sânt zece ore trecute și coconu Gligore n’a mai venit încă cu ginerele… După cum văz eu m’am îmbrăcat în zadar… Nici acum n’o să se isprăvească istoria măritișului meu… Dar cu toate acestea, nu știu pentru ce câte odată inima mea îmi spune ceva de nenorocit… Mă silesc din toată puterea mea ca să depărtez aceste negre gândiri, din a cărora pricină n’am odihnă nici zioa, nici noaptea. Mă duc să poruncesc și pentru mine un tas de ciaiu, poate că acesta îmi va face bine…</p>
+            <stage>(ese).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Ea este acolo!... Se bucură de strălucirea adunări, în mijlocul danțului… și îmbătată de sgomotul muzicei și de lumină, așteaptă cu nerăbdare să pue inelul logodnicului ei și peste puțin să ’i fie nunta… Ea se bucură negreșit, căci  n’am văzut-o nici de cum coborându-se jos după făgădueala ei dată… Ea se bucură și eu plâng ca toți nenorociții. Nu știu pentru ce inima unui om, cât de tare, se moae numai de cât când este din naintea unei femei în contra căriea cugetă răsbunare… Tremur, arz, sânt înferat de mâini și de picioare, când se roagă ea… Nu sânt în stare să fac un pas măcar!... Dar nu știu ce s’aude… Vine cine-va!... Să mă asunz… dar nu știu unde!...</p>
+            <stage>(se uită în toate părțile ca să se ascunză și negăsind loc, ese pe unde a intrat).</stage>
+            <p>Voiu pândi până la zioă; în astă noapte se hotăraște, ori fuga… ori!...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#întâiul serv">
+            <speaker>ÎNTÂIUL SERV</speaker>
+            <p>Auzi tu ce mândrețe este colo în sala cea mare; muzică, joc, nebunu ăla care spune multe… boeri râd… Măre!... de s’ar isprăvi odată să mă duc și eu ca să mă înbăt…</p>
+          </sp>
+          <sp who="#alt serv">
+            <speaker>ALT SERV</speaker>
+            <p>Ba, aia e vorbă, lasă până mâine, că astăzi avem multă treabă și apoi știi tu pe cocoana noastră…</p>
+          </sp>
+          <sp who="#întâiul serv">
+            <speaker>ÎNTÂIUL SERV</speaker>
+            <p>Ce, mă, de trei zile de când alerg și să nu beau și eu în zioa încuscrirei cocoanei noastre cu boeru Tanasache…</p>
+          </sp>
+          <sp who="#alt serv">
+            <speaker>ALT SERV</speaker>
+            <p>Bine mă, ’ți am spus odată că o să bem noi mâiine toată ziulica, că o să mă cer de la cocoana să mă lase că am treabă până de la vale de cismeaua Oescului.</p>
+          </sp>
+          <sp who="#întâiul serv">
+            <speaker>ÎNTÂIUL SERV</speaker>
+            <p>A! am înțeles unde vrei să te duci tu. Nu cumva ofi la crăciumărița aia care îndoește rachiul cu apa și aruncă var în butia cu vinu ca să fie tare.</p>
+          </sp>
+          <sp who="#alt serv">
+            <speaker>ALT SERV</speaker>
+            <p>Taci, mă, că acolo m’am dus eu cu Ioan care a fugit, și el nu vrea nici de cum să bea!...</p>
+          </sp>
+          <sp who="#întâiul serv">
+            <speaker>ÎNTÂIUL SERV</speaker>
+            <p>Pe ăla ’l a făcut măsa cu opt-spre-zece tați, pentru că nu ’i mai dai de căpătâiu.</p>
+          </sp>
+          <sp who="#alt serv">
+            <speaker>ALT SERV</speaker>
+            <p>Taci, mă, că el nu este dintre proști, a fost numai crescut între țărani și între slugi…</p>
+          </sp>
+          <sp who="#alt serv">
+            <speaker>ALT SERV</speaker>
+            <p>Cine știe după ce tufă ăla o fi pândind acuma în drumul Bucureștiului.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ce stați voi aici și nu vă căutați de treburi?... Mergi tu, mă, de zi să pue cai la caretă ca să aducă pe coconu Tanasake</p>
+            <stage>(domestici es)</stage>
+            <p>Mă mir de ce o fi întârziat Gligorașcu până acuma?... Să vede că el are să vie cu șampaniea pe la sfârșit.</p>
+          </sp>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>Eu îți urez din toată inima, cele dorite, fericire și traiu bun cocoanei Frosinichi.</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Ia să mergem să bem ce mai e p’ân sală.</p>
+            <stage>(es amândoi).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 18</note>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>S’a isprăvit tot… Ea nu mă mai iubește de loc… Trăsura merge să aducă pe ginere… și… eu…</p>
+            <stage>(Zărește serviciul)</stage>
+            <p>A!... Îmi vine ideea ce trebue să fac, căci înnaintea ei parc’ că sânt legat de mâini și de picioare, nu pociu nici să ’mi răsbun…</p>
+            <stage>(După ce toarnă, din sticla care o scoate din sân, otravă în tasul cu ceaiu de pe tavă, începe să plângă și să râdă ca eșit din minți).</stage>
+            <p>Acum s’a isprăvit totul… s-a isprăvit pentru mine și pentru dânsa!...</p>
+            <stage>(lovindu’și fruntea cu disperație se trage).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 19</note>
+        <div type="scene" n="19">
+          <head>SCENA 19</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Adevărat trebue să mă rog lui Dumnezeu pentru fericirea tutulor și pentru viața mea!...</p>
+            <stage>(El îngenuche)</stage>
+            <p>Dumnezeule, care din înnălțimea cerurilor îngrijești de lumea întreagă, până și de micile păsărele care ciripesc în univers numele tău cel sfințit, tu care erți celor greșiți, și ai întors pe fecioara orfană în brațele mumei sale, bine voește a asculta rugăciunea mea cea umilită. Dă viață și sănătate maici mele, apără pe nenorocitul acela care prin voința ta ’mi a mântuit zilele mele. Iartă Doamne acelora câți fac rău aproapelui lor. Iartă și acelora cari orbiți de patima amorului se aruncă în pericole și în peire.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 20</note>
+        <div type="scene" n="20">
+          <head>SCENA 20</head>
+          <sp who="#postelniceasa">
+            <speaker>POSTELNICEASA</speaker>
+            <p>A venit ginerele, și dumneata șezi în aceată odae. Aideți că toată lumea strigă să vie mireasa!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 21</note>
+        <div type="scene" n="21">
+          <head>SCENA 21</head>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Așa, așa, mireasa va merge la ceruri. Acolo va fi mântuită de atâtea bătăi de inimă, de foame, de prejudiții, de vorbe ce se răspândesc de către oameni!... Acolo zic, vom fi toți uniți fără nici un fel de deosebire… Adio lume și oameni pe care v’am supărat ascultând soarta și nenorocirile mele.</p>
+            <stage>(se trage puțin îndărăt).</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 22</note>
+        <div type="scene" n="22">
+          <head>SCENA 22</head>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Nu știu ce simț în mine… parc’ că nu e lucru curat… ochi mi se împăejenează… și îmi vine să caz de amețeală… să fie oare oboseala?...</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Nu este oboseala… Este aducerea aminte că trebue să fugim… să fugim că nu mai este mântuire!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Ah! inima mea!... inima mea mă roade, mă roade, mă arde și mor!</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Otrava tĕ a ajuns!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Cine ’mi a dat otrava?</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>’Ți am dato eu ca să nu fii a nimului daca nu poți să fii a mea!...</p>
+            <stage>(el se lovește cu cuțitul)</stage>
+            <p>Murim amândoi, și eu espirând la picioarele tale îți spuiu din urma oară că te iubesc!...</p>
+          </sp>
+          <sp who="#omul stăpânirii">
+            <speaker>OMUL STĂPÂNIRII</speaker>
+            <p>“În pricina procesului ce a avut Dei cocoana Casandra, văduvă a răposatului Cămilarul Ignat, cu mănăstirea Mărul, pentru câte-va familii de țigani cotropiți, se face cunoscut că cocoana Casandra a perdut țigani. Și ceea ce este mai mult că Ioan fiind din părinți romani, fiu de mazâl și crescut de Căminarul Ignat, rău și fără cale a fost socotit și luat de rob. De aceea dar se face cunoscută în vileag la toți hotărârea Tribunalului ca să se dea înnapoi lui Ioan starea părinților săi cea cotropită, și Ioan d’aici înainte va eși de subt epitropia casei răposatului Cămilarul Ignat.</p>
+          </sp>
+          <sp who="#ioan">
+            <speaker>IOAN</speaker>
+            <p>Mor!...</p>
+          </sp>
+          <sp who="#frumoasa">
+            <speaker>FRUMOASA</speaker>
+            <p>Maică!...</p>
+          </sp>
+          <sp who="#casandra">
+            <speaker>CASANDRA</speaker>
+            <p>Dumnezeu m’a pedepsit!...</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

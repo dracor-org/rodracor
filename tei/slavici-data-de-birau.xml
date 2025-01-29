@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000010" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Fata de birău</title>
+        <author>
+          <persName type="pseudo">Ioan Slavici</persName>
+          <idno type="wikidata">Q961107</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>publicată în Convorbiri Literare, 1871</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="badea_harlea" sex="MALE">
+            <persName>BADEA HĂRLEA</persName>
+            <persDesc>birău în Ciohoteşti</persDesc>
+          </person>
+          <person xml:id="naica_floarea" sex="FEMALE">
+            <persName>NAICA FLOAREA</persName>
+            <persDesc>nevasta lui</persDesc>
+          </person>
+          <person xml:id="anita" sex="FEMALE">
+            <persName>ANIŢA</persName>
+            <persDesc>fata lui</persDesc>
+          </person>
+          <person xml:id="cimbru" sex="MALE">
+            <persName>CIMBRU</persName>
+            <persDesc>învăţător sătesc</persDesc>
+          </person>
+          <person xml:id="tanase_a_popii" sex="MALE">
+            <persName>TĂNASE-A-POPII</persName>
+            <persDesc>teolog</persDesc>
+          </person>
+          <person xml:id="mitru_florii_cucului" sex="MALE">
+            <persName>MITRU FLORII-CUCULUI</persName>
+            <persDesc>om din sat</persDesc>
+          </person>
+          <person xml:id="popic" sex="MALE">
+            <persName>POPIC</persName>
+            <persDesc>dobăş în Ciohoteşti</persDesc>
+          </person>
+          <person xml:id="morgo_loti" sex="MALE">
+            <persName>MORGO LOŢI</persName>
+            <persDesc>rotar ungur</persDesc>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1871">
+        <desc/>
+      </event>
+      <event type="premiere" when="1871">
+        <desc></desc>
+      </event>
+      <event type="print" when="1871">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000010" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Fata de birău</titlePart>
+        </docTitle>
+        <docAuthor>Ioan Slavici</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>BADEA HĂRLEA</role>
+        </castItem>
+        <castItem>
+          <role>NAICA FLOAREA</role>
+        </castItem>
+        <castItem>
+          <role>ANIŢA</role>
+        </castItem>
+        <castItem>
+          <role>CIMBRU</role>
+        </castItem>
+        <castItem>
+          <role>TĂNASE-A-POPII</role>
+        </castItem>
+        <castItem>
+          <role>MITRU FLORII-CUCULUI</role>
+        </castItem>
+        <castItem>
+          <role>POPIC</role>
+        </castItem>
+        <castItem>
+          <role>MORGO LOŢI</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Acela-i el!... Doamne, de ar şti cum că eu aştept după el... m-aş băga-n pământ de ruşine... Iacătă-1!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#mitru">
+            <speaker>MITRU</speaker>
+            <p>Iaca!... oare cine şi-a uitat sculele la fântână? Acela trebuie să fie dăscălaşul, că el umblă pe-aici Ia vînat. (Ia puşca-n mină şi priveşte la ea.) &lt;/didascalie&gt; Aşa e!... Asta-i puşca dăscălaşului. Ce necaz 1-a făcut însă de-a lăsat-o la fântână?</p>
+            <stage>(Priveşte-n toate părţile.)</stage>
+            <p>Apoi că iacătă-1! Oare cu cine merge?... Aceea pari-mi-se că-i Aniţa Hărleanului... Oare? Va fi zău aceea? Fata e netedă şi fecioru-i sprinten!... Caută tu măi la el... de acolo-ţi sare iepurile, de unde nici nu te visezi... Numai se lovesc bine laolaltă... Hop!... Dăscălaşule!... Dăscă-laşule!... M-auzi?!</p>
+            <stage>(Face semne cu puşca către el.)</stage>
+            <p>Ian vină, şi nu-ţi uita armele pe la fântână.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>En vin-oleacă-n casă.</p>
+            <stage>(Merge cătrE masă.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ha-ha-ha! Nimica, babă, nimica.</p>
+            <stage>(Ia o butelcă goală ş-o întoarce cu fundu-n sus.)</stage>
+            <p>Zău nimic! Uită-te numai!</p>
+          </sp>
+          <sp who="#o voce de afară">
+            <speaker>O VOCE DE AFARĂ</speaker>
+            <p>Ho-op!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Aşa-ţi trebe! De ce nu rămâi tu om la casa ta, ca tot omul bun şi strânguitor? Să fi făcut cum am zis eu. Spune-mi, ce ajungi cu birăitul tău?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Aşa!... Că tu numai cu procesurile tale îţi baţi capul... până ce nu-i ajunge la sapă de lemn, cum a ajuns Mitru Cuculeştilor.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Femeie, taci! Nu te mânca cu mine.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Că eu tac... că eu nu mă mânc... mi-i jele numai de tine când văd că alergi ca dorobanţii prin sat, când ai putea şedea în pace la moşia ta. Ce treabă ai tu cu lucrurile satului?... Tu ai ce-ţi trebe... ce mai cei dară?... Ce să îngraşi tu pe câţi perde-vară, pe toţi.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>D-apoi fie birău care îi place: ce treabă ai tu de-acolo?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce treabă am? Acea treab-o am, că-mi place mie să fiu eu birău.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>O, Doamne!... da’ şi mult bine mai ai din birăitul tău!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa el nu am, nici nu m-am băgat de birău, ca să mă fac gras de avut; că am, mulţam Domnului, cât şepte şi zece din alţii, şi asta-mi va fi mie destul cu casa mea; cât puţin, destul. Ştii tu, însă, babă, că cine are mai mult trebuie să şi deie mai mult. Cela care n-are nimic trebe să meargă la sapă, ca să câştige de mâncat la copii. Eu n-am nici un lucru... lucru dar pentru sat.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Mai lucre şi alţii... nu mai sunt alţi oameni avuţi în Ciohoteşti?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Se vede că eşti femeie. Nu-i tot omul de diregătoria asta... aici trebuie om de omenie. Unul voieşte şi nu poate, altu-ar putea şi nu voieşte...</p>
+            <stage>(Se bate-n piept.)</stage>
+            <p>Eu voiesc şi pot, ştii tu, babă... eu pot.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Acuma batjocoreşte-te tu cât voieşti; eu ştiu că nu-i om de birău în sat ca mine, şi de aceea m-am băgat eu... Sau n-a fost Florea Părcăneştilor zece ani birău în Ciohoteşti?... Și ce a rămas de el? Nimic! Şcoala nevăruită, casa satului descoperită, mormintele neîngrădite. Măi, să lese el fânul pe Valea-Păpuşenilor şepte ani nearendat!... Vezi bine c-a dus fânul la curtea lui!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ducă-1; ce treabă ai tu de acolo?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce treabă am? Cum să n-am eu treabă de ceea ce-i a satului?... Aceea nu-i nici a lui Petru, nici a lui Pavel: aceea-i a nostru, a satului întreg.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Acuma lasă, că o vei face tu mai bine.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Face... zău face, că am şi făcut. Eu-s de doi ani birău: am acoperit şcoala, am văruit-o, am îngrădit mormintele, am pus pomi pe marginea paghinei săteşti... Acuma mai am să acopăr casa satului, să fac grajdi vitelor satului, să ţâp pe notariul şi să aduc unul bun în loc; apoi după aceea fie birău cui i-o plăcea în Ciohoteşti.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Apoi că aşa vei fi tu gata-n zece ani.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Să fiu în douăzeci. Fac, cît trăiesc, ce pot; după aceea mai facă şi alţii.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Aşa vezi! Lasă tu trebile tale pentru a nimănui. Nu vezi tu că la toată lumea merg lucrurile cum se cade, numai tu rămâi năpoi în toate de când ești birău?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce? Cine? Ce lucruri rămân năpoi?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce lucruri?... Ale tale... Ian caută de vezi, că mai găsi-vei vie nesăpată pe tot dealul afară de-a ta?... A ta-i plină de ştir.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>A cui vie? A mea?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>A cui pară, dacă nu a ta? Ian lasă, că toată lumea se râde de tine şi zice că ţi-ai pierdut mintea acuma la bătrâneţe.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cine zice-aceea? Cine cutează să zică? Via mea nu-i săpată pentru că... pentru că... n-am săpat-o. Aşa e... eu-s om cu minte; viile nu sunt încă de săpat!</p>
+            <stage>(Pleacă cătră uşă.)</stage>
+            <p>Şi acuma să-ţi arăt că eu-s birău în Ciohoteşti!</p>
+            <stage>(Deschide uşa şi se loveşte în POPIC, care vine cu vinarsul.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Nu, jupâne birău.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Tu să te duci p-a seară pân sat să-mi cerci săpători! Înţeles-ai?</p>
+            <stage>(Bea.)</stage>
+            <p>Până mâne sara să-mi fie via săpată; că de nu, apoi tu nu mai baţi doba-n Ciohoteşti! Ai înţeles-o?</p>
+            <stage>(Bea.)</stage>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Înţeles, jupâne birău.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Spune cătră oameni: „Măi oameni, Hărlea, birăul nostru, vă pofteşte la o clacă”. Aşa să zici!...</p>
+            <stage>(Cătră NAICA FLOAREA.)</stage>
+            <p>Şi tu, babă, tu să fii gata cu scoverzile pe când vin lucrătorii.</p>
+            <stage>(Cătră POPIC.)</stage>
+            <p>Ţi-am spus-o acuma: aşa să zici, cum am zis eu; aşa să faci, cum eu ţi-am spus-o!... M-ai înţeles?... Şi acuma poţi merge.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Acuma grija mea!</p>
+            <stage>(Aparte.)</stage>
+            <p>Se vede cum că n-a băut azi încă nimic, că e cam spulberat.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Zică cine ce-a zice, baba-i bună la casă. Numai de n-ar mâna-o strechea cîteodată! E! ce ştiu femeile!... Care nu-i bun, dă-1 în proces... până la vlădica... până la ministeri...</p>
+            <stage>(Face din cap.)</stage>
+            <p>Ba... încă până şi la-mpăratul mă duc de se mâncă cu mine. Cu mine nu-i bine-a te mânca... Ce-i drept nu-i păcat: care-şi ia gugiba-n grumazi poarte-o cum se cade, ca om de omenie, să nu înşele însă nime lumea, c-atunci-s eu aici.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Stăi, nu fugi. Ian vină-ncoaci la tata.</p>
+            <stage>(O prinde de mâini.)</stage>
+            <p>Vezi aşa!... Acuma uite-te la mine-n ochi... Da’ nu fi aşa de brumată.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Da’, că nu-s, tată.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Dar nu eşti, cioarelor! Iar-ai spart atare oală la foc... Lâs-o necazului, nu te supăra tu pentru aceea... cumpărăm noi alta... Ştii tu că mă-ta e cam spulberată; n-asculta tu de ea.</p>
+            <stage>(O dezrniardă.)</stage>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Doamne, că şod eşti tu, tată!... D-apoi că nu am spart nici o oală, şi mama nu...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Tu, babă, ce ai făcut tu cu Aniţa?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Eu? Cu Aniţa?</p>
+            <stage>(Merge la Aniţa.)</stage>
+            <p>Cu Aniţa mamei, eu?</p>
+            <stage>(O sărută.)</stage>
+            <p>Mâncu-ţi ochii tăi!... Du-te, du-te, puiule, mai vezi de cuină... Ştii tu cum sunt oamenii.</p>
+            <stage>(Aniţa iese.)</stage>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Uită-te tu la ea... mai este aşa fată-n sat?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Bine, bine... numai tu iară te-ai spulberat pe ea.</p>
+            <stage>(Aspru.)</stage>
+            <p>Femeie, eu ţi-o spun, fii cuminte... Ştii tu că eu-s om rău.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Oare ce-ţi vine-n minte?... Eu să mă spulber pe Aniţa?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Tu, dară, tu; ştiu că nu altă lume. Dar am văzut-o eu cum că-i supărată de-un timp încoace.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>N-ai ce te mira; eu o ştiu cu de-a bună seamă.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Hm! Măi! Nici nu te-ai visa. Apoi de unde-o ştii tu?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>De unde-o ştiu?... Apoi o ştiu, c-o ştiu, şi lucru gata!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Iaca strolea!... Femeie, mâncat-ai tu ceapa-cioarei? O ştii c-o ştii... asta nu-i încă destul.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cu dăscălaşul?</p>
+            <stage>(îşi suceşte mustaţa.)</stage>
+            <p>Ce zice?, cu dăscălaşul?... Şi-apoi?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ş-apoi?... Ce ş-apoi? ş-apoi nimic! Sau doară nu-i destul asta?... Ce? Venitura acela să cuteze a se uita la fata mea? Ba, ba, ba, nu, până...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Nu te înfierbânta aşa tare! De unde ştii tu că Aniţei îi place de dăscălaşul şi dăscălaşului de Aniţa?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Apoi o ştiu, c-o ştiu!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Femeie, vorbeşte cum se vorbeşte dacă voieşti a vorbi.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Că aşa vorbesc, cum se vorbeşte!</p>
+            <stage>(Se scoală.)</stage>
+            <p>Eu o-dată cu capul nu voi lăsa să dai tu pe Aniţa după dăscălaşul!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cioarelor! Că înferbîntată eşti. Apoi zis-am eu cum că voi da-o? Însă...</p>
+            <stage>(dă din umeri)</stage>
+            <p>dacă-i place fetei de ficior şi ficiorului de fată... apoi de ce nu?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi? Iacătă-1; am zis-o?... Câtă minte are el, ar fi în stare să asculte de fată. Ba nu, până ce voi fi eu vie, nu! Aniţa e a mea, ştii tu? A mea. Eu i-am căutat ei bărbat mai de Doamne, şi n-o voi lăsa să meargă după altul, nu... până cu capul!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Şi cine-ar fi omul acela mai de Doamne?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi, orbule? Nici atâta nu ştii! Tănase-a-Popii. După ce umblă el la noi?... Acela-i om; vorbeşte tot după carte.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Tănase-a-Popii!... Fie dar Tănase-a-Popii!... Ce-mi pasă mie? Aceste-s lucruri femeieşti; gătaţi-le voi. Aniţa se va mărita după acela după care-i va fi dat să se mărite.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce-i acuma iară?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>O vorbă bună, moşule, o vorbă bună.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Femeie, tu iar voieşti să-mi cei bani.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Numai de-o rochie Aniţei.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ştie-vă cioarele, că voi nu mai gătaţi cu rochiile... Tot rochii peste rochii!... Femeie, ce cugeți tu?... Stau la mine galbenii pe gard? Sau cresc băncuţele ca suşoarcile?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Bine; c-aşa vorbeşti tu... şi laşi să se râdă lumea de tine.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>De mine?... Cine cutează să se râdă de mine?... Ian spune-mi, să-ţi arăt eu, că...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cine-a zis-o aceea? Marta Cucşorului?... Câţi bani îţi trebuie?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi... acuma-mi place de tine... aşa vorbesc oamenii cei cu minte... Douăzeci buni.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Douăzeci buni?... Femeie, căpăta-i tu? Nu-ţi dau nici un petac!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce-mi pasă mie? Nu-mi da. Lasă să îmbie Aniţa cu rochie de dulin şi Floarea cea slută cu una de matasă; ştiu că nu mă va huli lumea pe mine, ci va zice că tu eşti scump şi zgârcit.</p>
+            <stage>(Vrea să iasă.)</stage>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Tu, babă!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Văzut-ai tu rochia cea de matasă la Floarea?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Că doară am ochi!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Iară ceri? Nici un petac mai mult! Ai noroc c-am zis că-ţi dau; că acuma nu ţi-aş da nimic. Ştii tu însă că ce zic eu, aceea-i zis: fie bine sau rău, e zis dac-am zis o dată. Tu capeţi banii tăi; apoi nu te mânca mai mult cu mine; ştii tu că eu-s om rău şi iute la sânge!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Strigat, da.  Da’ nu vei bea tu oleacă de vinars?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Precum văz, tu ai mai bea, Popicule.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Că zău, şoadă eşti, naico Floareo; dară când am mai zis eu că n-aș mai bea?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Ba nu, nu osteni dumneata pentru mine... Las’, că mă duc eu.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ian dă-mi pace!</p>
+            <stage>(Merge.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Aceea voieşti a fi naica FLOAREA? Nici ea nu-i acasă. Nime nu-i acasă... numai eu cu Flocea şi cu căţeii cei mai mănunţei, care te goniră pe dumneata pân’ la uşa cuinei.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ia lasă, nu mai zice către mine „jupâneasă”; bătrânu-i jupân, el e birău.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Iaca, mă mai amărăsc şi eu pe-aici pe lângă casă ca femeile de doaga mea... Da’ şezi dac-ai venit la noi... Ce bine te-a adus? Ce nou ni-i mai şti spune?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Cum să nu-1 fi aflat?... Numai oleacă se duse pe-afară să vadă de lucrători... dar trebe să vină deloc.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Lan stăi oleacă!</p>
+            <stage>(Secret, către POPIC.)</stage>
+            <p>Pe seară să duci doi saci de larină la Moisa-ospătarul. Ştii... apo să taci!</p>
+            <stage>(Se-ntoarce spre Tănase-a-Popii.)</stage>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Da’ mult şede bătrînul!</p>
+            <stage>(Merge la uşă.)</stage>
+            <p>Bătrî-nule-e! Vină, că ai oaspeţi, oameni buni la casa ta.</p>
+            <stage>(Închide uşa şi se pune lângă Tănase-a-Popii.)</stage>
+            <p>Ştiu că are omul lucru cu oamenii aceştia!...</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Zău așa! O femeie ca mine sufere mult.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu?... Din Pesta nimic nou, şi din unde... unde şi [sic] ziseşi?... îmi ieşi numele din cap... Cum se cheamă satul de unde nu vine nimic... Nu ştiu cum ziseşi.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce zice: peri culeşi din război? Apoi, te rog, ce război e acela? Cine lucră cu el? Împărăteasa, cu de-a bună seamă.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi bine, vezi bine...</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce zice de tăciuni?... acele din Pesta.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu! din Pesta şi... cum şi ziseşi? Pe poştă.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vezi dară! D-apoi că aşa vin toate novelele, pe poştă. Cum să vină într-alt chip?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi? Ce ştii tu?... El are mici cunoscuţi.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>D-apoi că acuma dumnealui trebuie s-o ştie mai bine. Ce stăm noi încă în zadar aici?</p>
+            <stage>(Închină.)</stage>
+            <p>Să deie Dumnezeu roadă şi ospăţ la toamnă!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Barăm adus-ai ceva?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Dacă şi el ar face bine să şadă la şcoala lui decât să umble lela printre ţarine. De ce-i plăteşte satul?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa e! Fratele Tănasie are drept; dăscălaşul e om de treabă, şi nime nu-1 poate opri de la petrecerile sale dacă-şi face el numai treaba cumsecade.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce fac? Nimic nu fac; se joacă pe-acasă. Despre dăscălaşul nu poate nime să zică o vorbă rea.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ba nu tăcea; să văd ce a mai zis gură-largă acela.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce-a mai zis? Las’, c-o ştiu eu, fără să mi-o mai spuie; şi-a bătut joc de-a bună seamă de tine, că laşi să te poarte un nimene ca dăscălaşul de nas.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce? De mine? Popa Colţan... de mine?... Cutează numai!... Cu mine nu-i bine a te mânca, că eu-s om rău şi iute la sânge!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu? toate satele dimprejur... şi tu taci?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Femeie, dă-mi pace!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu? După dreptul bunilor români.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ian lasă! Dacă românul nici nu are drept.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>D-apoi că-mi pare cum că dumneata ai zis odată cum că strămoşii noştri [sic] au fost păgâni.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu acuma, că au fost creştini?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>D-apoi că acuma d-nialui trebe s-o ştie mai bine decât mine.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce zice, cu litere de aur!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu ce stă în cartea cea mare?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce zice, tocmai aşa să fie acolo scris?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Dacă tot aşa vorbeşti tu? Ce eşti tu? birău? Nimic nu eşti!... Eu să fiu bărbat, eu să fiu birău: aş vedea eu cine şi-ar bate joc de mine!...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Femeie! femeie! taci, nu te mânca cu mine... Ştii tu că eu-s iute... Apoi ce să fac dară cu el?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce să faci? încă întrebi ce să faci?... De ce eşti tu dară birău?... Hei, să fiu eu în locul tău; aş vedea eu că cu cine ar moşteni dăscălaşul în Ciohoteşti. Ba, cu mine nu!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Bine zici, un proces.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi! așa va zice lumea.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Nimic mai mult... Dumneata eşti aici, numai să o faci!... că acuma ştii dumneata.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Acuma lasă, că ştiu eu. La cine să dăm însă instanţia?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa, aşa! la episcopul!... Ba încă şi până la arhimandritul mă duc. Fă! scrie!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>D-apoi că acuma dumneata ştii cum va fi mai bine.</p>
+            <stage>(Cătră badea Hărlea.)</stage>
+            <p>Vezi, aşa-mi place mie de tine; acuma eşti tu om cu minte; învaţă pe care sunt de învăţat. Acum faceţi, că eu mă duc să mai văd de cuină.</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Să mai bem o dată. Să fii sănătos!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Eu-s prea bun; dacă mă mâniu însă: ferească Dumnezeu toată lumea de mine! Şi notarului trebuie să-i, ţâp un proces în grumaz!... Nu-mi place... nu ştiu de co nu-mi place, destul însă că nu-mi place!... Apoi cu popa Cioranu trebe să împart colacii. Vezi măi! De câte ori trece cu cădelniţa pe lângă mine, totdeauna dă în alte lături cu fumul... Hm! cu mine să nu se mânce nime, că eu nu las treaba trecută... Să curăţesc satul de gunoi, apoi nu-mi pasă să mor, barem ştiu că am făcut ce am putut.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce ziseşi?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cugetă adânc! Acuma cred că va fi bună instanţia.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ian zi... să văd.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Drept ai!</p>
+            <stage>(Din prag.)</stage>
+            <p>Tu, Floare Ian vină!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Asa vezi!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Mâncu-i gura lui; da’ frumos le mai ştie înşira!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Aşa, aşa! ce-i aceea?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Mâncu-i inima lui; da’ cum le ştie înşira toate! Nu-i minune; a umblat la şcoalele cele mari! Ce ţi-i omul care ştie carte...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Asa vezi!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Mâncu-i sufletul lui!... Aşa vorbeşte, cât nici o vorbă nu pot înţelege! Vezi bine... el vorbeşte după carte: ce ştim noi, femeile proaste!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Bine, foarte bine; să vadă el cu cine are de lucru!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Să crape dăscălaşul de mânie!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Să nu pierdem dar timpu... Grăbeşte!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Sănătate bună!</p>
+            <stage>(încet, cătră badea Hărlea.)</stage>
+            <p>Vezi, acesta-i om de ginere!</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Apoi ce faci tu? Strici sau tocmeşti?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Ierte-mă Dumnezeu, da’ eu nu ştiu, tu nu faci bine sau eu nu văd bine? Aşa se grijeşte pe la voi? Pe aici pui perinele, pe acolo bocalele, pe acolo... Tu grijeşti, Aniţă, grijeşti, hai?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Zău, eu nu ştiu că care nu e cu toată! Mie îmi pare că...</p>
+          </sp>
+          <sp who="#anita">
+            <speaker>ANITA</speaker>
+            <p>Mai taci acuma şi tu; barem tu să nu te mânci cu mine.</p>
+            <stage>(Face ordine.)</stage>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Apoi, că eu nu mă mânc dară. Aniţă!... n-ai vorbi tu cu dăscălasul?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Şi dacă ai avea, Aniţă?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Nu-mi pasă... mânie-te, numai vorbeşte cu dăscălasul.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Aniţă! N-ai nici o treabă?... Apoi n-ai: mă duc să i-o spun.</p>
+            <stage>(Face gest de mers.)</stage>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Eu l-am lăsat prin fundul grădinii. Nu o ştie nime. Zice că are de vorbit cu tine.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Ce are?... D-apoi că acuma asta voi trebuie s-o ştiţi mai bine. Să-i fac semn să vină la fereastă?</p>
+            <stage>(Face gestul.)</stage>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>De-aceea nu te teme: birăul s-a dus cu naica Floare la vie şi nu vin până la prânzul cel mare.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Aniţă!... Ai tu greuruşi în cap? Eu nu ştiu ce voieşte dăscălasul: destul că m-a rugat tare.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Nu-ţi pasă?... Bine dară: nu-ţi pasă, aşa ziseşi?... Mă duc să...</p>
+            <stage>(Gest de mers.)</stage>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Dar nu mă purta lela! Ian caută tu mă la ea, că, zău, mult mă ţine şi mult mă trimete! Să zic cătră el să vină?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Să zic să se ducă?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Apoi ce să zic dară?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Vezi bine! Să-1 las să-şi caşte gura pe pari, pe acolo pintre cucute, până ce nu 1-a lua Flocea de-a hăţul!</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Că acuma ştiu eu că va feri Dumnezeu, fiindcă barem eu am mai multă minte decât tine.</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Taci, şi nu mai turbura apa!... Ce-ntreb eu de tine... fac eu cum ştiu.</p>
+            <stage>(Merge la fereastă şi bate în palme.)</stage>
+            <p>Vezi aşa! Acuma pot merge pe unde am venit.</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Aniţă!... Sufletul meu, Aniţa mea!</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>De ce nu voieşti a vorbi cu mine?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Apoi de ce nu vii dară la fereastă?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Că eu merg.</p>
+            <stage>(Nu merge însă.)</stage>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Aniţă, vino</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Numai până acolo?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Aniță.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Aud.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>De ce n-ai venit de două săptămâni după apă la fântâna Cuculeştilor?</p>
+            <stage>(Uimit.)</stage>
+            <p>Aşa e... de ce n-ai venit?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Că eu am fost în toată ziua de te-am aşteptat. Dumneata nu ai venit.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>O, Doamne! nici nu ştiu ce vorbesc! Drept ai Aniţă, eu nu am fost. Vezi... dar eu nu sunt de vină. Şi tu...</p>
+            <stage>(o prinde de mână)</stage>
+            <p>tu, îngerule! Tu m-ai aşteptat pe mine?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Bine, bine, sufletul meu, dar ce ai voit să-mi spui?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Nimica.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Nu, Aniţă, nu? nimic?... nimic? nici un cuvânt? (Îi lasă mâinile.)</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Aniţă!</p>
+            <stage>(Priveşte lung la ea.)</stage>
+            <p>De ce te joci aşa fără de milă cu mine? M-ai lăsat să fiu fericit printr-un cuvânt al tău, numai ca să pot fi mai nefericit prin altul. Spune-mi dar acuma, care-i adevărul din două: m-ai aşteptat tu, ori nu m-ai aşteptat? Ai să-mi spui ceva, ori ba?</p>
+            <stage>(O prinde de mâini.)</stage>
+            <p>Aniţă! îngerul meu, inima mea! Spune-mi! ai tu ceva să-mi spui, ori ba?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Nu ştii! dar cine s-o ştie de n-o ştii tu? Ziseşi că m-ai aşteptat la fântână... de ce m-ai aşteptat dară dacă n-ai avut a-mi spune nimic?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Aniţă, de ce te-ai mâniet?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>De ce smunceşti dară mâna şi de ce-ţi întorci faţa de cătră mine?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Şi mâna, Aniţă?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Cum să n-o fi smuncit când...</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>De ce, Aniţă?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Dar îţi pare rău?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Ba nu-mi pare</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Apoi, de ce dară?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Numai așa!... eu nu voiesc, că eu nu-s doamnă.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>D-apoi dacă te iubesc eu pe tine, Aniță.</p>
+            <stage>(Pauză.)</stage>
+            <p>Aniță!</p>
+            <stage>(Rugător.)</stage>
+            <p>Dă-mi mâna.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Baio, zău!</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Aşadară, nu mi-o dai, Aniţă?</p>
+          </sp>
+          <sp who="#cimrbu">
+            <speaker>CIMRBU</speaker>
+            <p>Ad-o dară.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Ia-o.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>De ce eşti dară aşa de rece cu mine? Tu nu mă iubeşti pe mine.</p>
+            <stage>(Pauză.)</stage>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Tu taci, Aniţă.</p>
+            <stage>(Cu patimă.)</stage>
+            <p>Spune-mi, spune-mi acuma mi-o spune o dată: iubeşti-mă, ori ba?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Cum să nu taci când nu zici nimica. Sufletul meu Aniţa mea, zi: iubeşti-mă, ori ba?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Nu stiu.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Nu ştii. Nu ştii, că n-o voieşti s-o ştii!... Ei, Aniţă! Să ştii tu cât m-am supărat în aceste două săptămîni, apoi n-ai fi aşa fără milă cu mine.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Sufletul meu! Da’ cum să nu voiesc, când ai zis să merg?!</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>N-ai zis dară să rămân.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Dară, zis-ai?!... ba tu n-ai zis.</p>
+            <stage>(Hotărât.)</stage>
+            <p>Vezi, Aniţă, de ce nu vorbeşti tu cu mine din inimă? Acuşi vine badea Hărlea acasă, şi eu atunci trebuie să merg de aici. Tu nu ştii, sufletul meu, cum că eu m-am certat cu tată-tău, şi el a zis că mă trimete în fiere din Ciohoteşti.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Nu te speria, îngerul meu, căci asta nu se va întâmpla. Nebunul de mine!... El e om bun şi eu l-am întărâtat. Nu ştiu cine 1-a întărâtat împotriva mea şi el m-a dat în pâră, ca să mă scoată din Ciohoteşti. Eu, simţindu-mă fără de vină, am mers la el să i-o spun asta. O, de ce n-am putut şedea acasă?! Numai ce l-am întărâtat mai tare. Şi ştii tu cum e tată-tău; ce zice el o dată, aceea-i zis. Apoi şi i-am zis vorbe prea rele. Am fost nebun... cum le-am putut face eu acestea?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Ba nu! Doamne fereşte! A zis că de mă va mai vedea pe lângă casa lui, mă amuţă cu cânii sau mă prinde cu dorobanţii; şi-mi scoate ochii de voi mai cuteza să privesc la tine; îmi taie limba de mai cutez a vorbi un cuvânt cătră tine. Eu ştiu că nu le face el acestea; însă eu totuşi trebuie să merg acuma din Ciohoteşti, ca să nu-1 întărât mai tare.</p>
+            <stage>(Supărat.)</stage>
+            <p>Aniţă... atunci nu ştiu când ne mai vedem.</p>
+          </sp>
+          <sp who="#cimrbu">
+            <speaker>CIMRBU</speaker>
+            <p>Tu plângi!... Aniţă, tu plângi pentru că mă duc eu!... O, Doamne!... şi eu trebuie să merg, trebuie!</p>
+            <stage>(Hotărât.)</stage>
+            <p>Aniţă, eu mă duc; vin însă iară. Spune-mi drept, din inima ta, din sufletul tău; drept să-mi spui, Aniţă: când te măriţi tu?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>N-o zice asta, că asta nu-i adevărat. Spune-mi mărita-te-vei după mine? Sufletul meu, spune-mi mărita?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Nu ştii. Pentru numele lui Dumnezeu, nu fi aşa! Timpul e scurt; să vorbim ce avem de vorbit. Eu am un unchi, preot în Bătătura; mă duc acasă la el, mă rog de el să vină ca să împace pe badea Hărlea şi să te peţească pe tine, Aniţă, sufletul meu. Aniţa mea, ce vei zice tu?</p>
+            <stage>(Îi sărută mâna.)</stage>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Ce vei zice, Aniţă?... că eu nu pot trăi fără de tine.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Nici eu.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Ce vei zice dară?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Nimic.</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Ba zice.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Ce dară?</p>
+          </sp>
+          <sp who="#anița">
+            <speaker>ANIȚA</speaker>
+            <p>Nu știu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Doamne, mulţumescu-ţi c-o scoase o dată!</p>
+            <stage>(O priveşte iar.)</stage>
+            <p>Apoi... puiculiţa mea, unde să meargă?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Ce popă?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Bine, bine, că eu fug. Vezi însă, eu nici acuma nu ştiu ce se cade: după ce să meargă el la popa?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Adecă popa să vină?</p>
+          </sp>
+          <sp who="#popic">
+            <speaker>POPIC</speaker>
+            <p>Ian caută tu mă la ea, da’ zău, tare va să mă mai grăbească!... Apoi după ce să vină popa?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>După doi septemune fi marţe chind dat voi la minie jupunie biro baci. Io facem, facem bucuros, chind este la minie pochie face; chiar este la minie nu pochie face, nu pochie face; are lucru mult; apoi calfele nu eschie... tote mers făcut la honvezile ghie la haza.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce zice nu poţi face? Ai lucru mult?</p>
+            <stage>(Se scoală.)</stage>
+            <p>Care lucru-i mai nainte decât al meu?... Sau nu-s eu birău în sat?</p>
+          </sp>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>Ba dumnevost jupunie biro baci.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Apoi de ce nu mi-ai făcut dar căruţa?</p>
+          </sp>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>Che io facem; mergem case, apoi nu lucram alchiele lucrurile chit la dumnevost cociurile.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa să fie, că de nu, te scot cu ruda din sat, tu, cap de tătar!... Până pe sară să fie căruţa gata, că mâne trebe să merg la oraş.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce? La popa Cioranu?... Apoi e mai nainte popa Cioranu decât mine?</p>
+          </sp>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>Jupunie biro baci, nu fii mult...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Taci!... Vezi aşa! Popa Cioranu! Pentru popa Cioranu s-aştept eu după lucrul meu! Atâta se mâncă omul acela cu mine, până ce nu mai pot răbda!... Apoi, eu-s om iute la sânge, zău iute!</p>
+            <stage>(Cătră Morgo Loţi.)</stage>
+            <p>Loţi, auzi tu, Loţi!... tu să nu faci roatele popei... să faci căruţa mea, înţelesu-m-ai?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce? Şi popa voieşte să meargă mâne la oraş? Loţi, nu te mânca cu mine; ştii tu că eu-s om rău dacă mă aţâţă cineva. Tu nu faci roatele la popa.</p>
+          </sp>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>Jupunie biro baci!... Nu pochem. Chind dat io vorbele, io beciuleteş-ember che facem, apoi trebe facem.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vorba ta!... Ce-mi pasă mie de vorba ta, numai căruţa mea să fie gata! Aşa e... căruţa mea să fie gata; să fie... şi roatele popei să nu fie gata! Să steie-n creştet. Să ştie el că se mâncă cu birăul.</p>
+            <stage>(Către Morgo Loţi.)</stage>
+            <p>Cât capeţi de la popă pentru roate?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce zice?... aşa?... Bine!... voi vedea eu că cine are mai mult de-a da pentru altul... Loţi! Eu îţi dau cu două jumătăţi de grâu mai mult decât popa.</p>
+          </sp>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>Che chind daţi jupunie biro bani, apoi am facem. A teremtését neki!... io nu facem. Jupunie biro baci ominiele bun.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Apoi acum te du acasă şi lucră! Să fie căruţa gata până seară.</p>
+          </sp>
+          <sp who="#morgo loți">
+            <speaker>MORGO LOȚI</speaker>
+            <p>Che fi, fi, biro baci, fi.</p>
+            <stage>(Face gest de mers.)</stage>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Stai oleacă. Dacă-ntreabă popa că de ce nu i-ai făcut roata, spune că eu ţi-am poruncit să faci căruţa mea. Înţelesu-m-ai?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ş-aşa-i bine!... Să ştie el că cu cine are de lucru! Să meargă casa, să meargă masa, ba chiar capul să meargă; eu nu mă las din jos.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Bun venitul!... Lasă-mă, nu mă mai întreba!... Da’ şezi, Mitrule, dac-ai venit la noi.</p>
+            <stage>(Îi dă un scaun.)</stage>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Da’ cu popa am dat de rău.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cu popa Cioranu.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cugetă tu! Am dat o căruţă la rotarul...</p>
+            <stage>(Priveşte la Morgo Loţi.)</stage>
+            <p>Da’ tu ce stai aici? Du-te şi lucră!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vezi bine!... El însă... el! Lasă, că-1 voi învăţa eu pre el a se mânca cu mine!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ba eu nu ştiu, da’ voi şti dacă mi-o vei spune.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa e. Poţi veni cu mine. Mergem de vorbă.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa, zău! Da’ cum stai cu procesul acela?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Zău, aici n-ai ce face.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa e! Popa trebe să meargă din sat.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Zău, pe acesta ar fi bine să-1 aducem.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa e! Trebe să ne curăţim mai nainte de Cioranu!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Zău, asta ar fi bine?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>De cine să-şi bată joc? Ian cuteze numai!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Bună dimineaţa!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ascultă tu mă la el!... Doară nu-s eu babă.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Acuma dă-mi pace, că aci suntem noi... Ce zici tu, moşule?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce zic? Nimic nu zic. Eu am alt lucru... Şezi, taci şi ascultă.</p>
+            <stage>(Către Mitru Florii-Cucului.)</stage>
+            <p>Ian zi dară ce erai să zici.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ştiu, mi-ai spus-o.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cum să nu-1 dau când... când... Pentru ce l-am şi dat, babă?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ian uită-te tu la el! Ai şi uitat-o. Omule, omule!... Eu nu ştiu unde-ţi stă capul tău. D-apoi cine a zis cătră tine ca să-ţi fie ruşine a te lăsa să te poarte alţii de nas?!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Drept ai. Auzi tu acuma? Cum nu-1 vei da în proces</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce rău ţii tu minte! Ştii tu că l-ai dat în proces pentru că-şi perde vara cu vânătura, în loc de a fi la şcoală.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Drept ai... Auzi tu acuma?... Cum nu-1 vei da dară în proces?... Apoi încă cutează să vină după aceea la casa oraşului să se certe cu mine... Ce? Şi un ţângău ca şi acela să se mânce cu mine?... înveţe mai nainte cum se câştigă pânea. Lasă numai, că va şti el de cine s-a acăţat...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Eu să nu fi avut? Cine să fi avut dar de nu eu?... Ori nu-s eu birău în sat?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Oare să nu fi îmbiat?... Zău, atunci nu aş fi avut drept... Tu, babă, ce zici tu? Oare îmblat-a?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Îmblat-a ?... Cum să nu fi îmblat?... Eu o ştiu că de-o bună samă.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>O ştiu, c-o ştiu, şi lucru gata.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>O ştii, c-o ştii. Iară vorbeşti aşa?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ba eu nu l-am văzut, da’ mi-a spus-o oameni buni şi cu credinţă.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Tănase-a-Popii... dacă voieşti să o ştii.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Pe mine?... Asta nu-i adevărat!... Voi vedea eu cine va cuteza asta, că... că...</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Doamne fereşte! Ce ţi-e popa!... Ce ţi-e popa!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce-mi pasă mie!... Fie fericit cu ea.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Cu ciuma ceea!... Dar spune-mi: cu care?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu ce-a zis?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Da’ că bine-a zis. Eu nici nu ştiu, ce treabă am avut eu cu dăscălaşul?! M-am lăsat să-mi împleti voi capul.</p>
+          </sp>
+          <sp who="#naica floare">
+            <speaker>NAICA FLOARE</speaker>
+            <p>Ascultă tu acuma la el!... Venitura acela, acela să zică cătră tine vorba... Doamne fereşte şi apără!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>D-apoi acuma dă-mi tu mie pace, că pentru acele-1 voi învăţa eu pe el.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Auzi tu? Voieşte să se mânce cu tine.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Da’ că tot aşa zici tu... Nu vezi tu că se mâncă?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Dă-mi pace.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Ce?... Ce? Aniţa proastă? Aniţa necrescută? Aniţa sălbatică?</p>
+            <stage>(Prinde pe BADEA HĂRLEA de mână.)</stage>
+            <p>Auzi tu? omule... auzi tu ce a zis? BADEA HĂRLEA</p>
+            <stage>(stoic)</stage>
+            <p>: Ce zice, oare tocmai aşa să fi zis?</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Aniţa buhă?</p>
+            <stage>(Înfiorată, către Hărlea.)</stage>
+            <p>Omule!... Vezi-mă aici? Sau cu mine, sau cu popa-n sat. Cătrănitura asta n-o mai pot răbda!</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vai! vai! tune...</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Vezi!... Acuma-mi place de tine. Aşa vorbesc oamenii cei cu minte.</p>
+          </sp>
+          <sp who="#naica floarea">
+            <speaker>NAICA FLOAREA</speaker>
+            <p>Aşa vezi.</p>
+            <stage>(Iese repede.)</stage>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ba nu!... Ce-am făcut eu o dată, aceea-i făcut; fie bine, fie rău, e făcut de-i făcut.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>A mea nu-i?... Să-i pun de-o lăture fata, de alta tot galbeni şi taleri, apoi cumpănească dacă-i place.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Care?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Cum s-o fac?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Şi cugeți tu că chiar ar fi popa necăjit de aş da eu fata după dăscălaşul?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aşa e! Drept ai!</p>
+            <stage>(Vioi.)</stage>
+            <p>Îmi pare că văd pre popa!... Eu nu ştiu cum nu mi-o venit asta-n minte!... Ce? feciorului îi place de fată şi fetei de fecior?</p>
+            <stage>(Stă-n loc, serios.)</stage>
+            <p>Frate, asta nu o pot face. Nu ştii tu că eu m-am certat cu dăscălaşul?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Precum zici tu, nu a fost de vină; dar totuşi, totuşi...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Fie dară!... Numai tu să fii la locul tău de vine dăscălaşul.</p>
+            <stage>(Merge la uşă.)</stage>
+            <p>Măi oameni!</p>
+          </sp>
+          <sp who="#o voce afara">
+            <speaker>O VOCE AFARA</speaker>
+            <p>Aud, jupîne birăule!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Duceţi-vă careva la dăscălaşul şi ziceţi cătră el să vină-ncoace.</p>
+            <stage>(închide uşa şi iar o deschide.)</stage>
+            <p>Numai îmbla iute. Să vină deloc. Spune că-1 poftesc eu la o vorbă, două.</p>
+            <stage>(închide.)</stage>
+            <p>Aşa vezi! Acuma eu mă las pe tine.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vezi bine.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#badea hârlea">
+            <speaker>BADEA HÂRLEA</speaker>
+            <p>Apoi ştii după ce te-am chemat?</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Ba eu nu ştiu, jupâne birău; cred însă că-i ceva bun.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Şi mie-mi pare-aşa. Să ţi-o spun dară. D-apoi...</p>
+            <stage>(Nu ştie ce să zică.)</stage>
+            <p>Vorbeşte tu, mă Mitre!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Asta-i treaba mea. Place-ţi de fata mea?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ian spune-mi: place-ţi?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ian uită-te tu, măi, la el! Voiesc s-o ştiu. Da’ nu fi ca o fată mare!... Place-ţi?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vezi aşa!... Numai atâta voi să ştiu din gura ta... Tu trebuie să iei pe Aniţa de femeie.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Dară, batu-mi!... Zici că-ţi place de fată, nu mai vorbi nici o vorbă: eu voiesc, şi lucru gata!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Dar, visezi, cioarelor!</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Apoi acuma nu mai trebuie să merg de aici? Unde-i Aniţa?</p>
+            <stage>(Voieşte a merge.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Auzi tu: cunoşti-1?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Da’ place-ţi de el?</p>
+            <stage>(Aniţa tace.)</stage>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Aniţă! Da’ vorbeşte! Ian caută tu măi la ea!... Nu vezi tu că nu-i nimene-aicea decât bade-tău Mitru? Zi: place-ţi?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Dară, nu ştii, cioarelor! O ştii tu, numa nu voieşti să ni-o spui... Mărita-te-vei după el?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vorbeşte, că dacă nu, mă mâniu! Ştii tu că eu-s iute la sânge.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vorbeşte dară... Priveşte la el: mărita-te-vei după el?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Mai tare.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Vorbeşte mai tare, că te arunc afară! Ian caută tu mă la ea!</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Iară nu ştii.</p>
+            <stage>(Dezmierdând-o.)</stage>
+            <p>Da’ fii cuminte, că tu eşti fata tatei... Nu vezi tu cum priveşte el la tine?... Te-a pețit... Apoi dacă tu zici că nu ştii, nu te dau după el...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Apoi spune dară: să te dau după el?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Mai tare.</p>
+          </sp>
+          <sp who="#cimbru">
+            <speaker>CIMBRU</speaker>
+            <p>Eu... Aniţă...</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Să te dau dară?</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Nu-ţi pasă? Apoi dacă nu-ţi pasă, să fie târgul gata... Caută tu mă la ea, cât să mi se mai roage omul până să scoată o vorbă bună din ea... Acuma priveşte cel puţin la el.</p>
+            <stage>(O dă lui Cimbru.)</stage>
+            <p>Iaca! de-aici încolo e mireasa ta.</p>
+            <stage>(Stă-naintea lor şi priveşte cu mulţumire la ei.)</stage>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce-mi pasă mie de procesele voastre! Nu vezi tu cum se lovesc de bine laolaltă?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ce-i! Ce-i!... Vezi tu ce-i: Aniţa mireasa dascălului.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Ian lasă, nu-mi mai face comedii de-ale dumitale, că m-am săturat de ele! Dacă voieşti a vorbi cu mine, apoi vorbeşte cum să vorbeşte, ca să te-nţeleagă omul, iar nu ca nealtă lume.</p>
+          </sp>
+          <sp who="#badea hărlea">
+            <speaker>BADEA HĂRLEA</speaker>
+            <p>Nimic nu va fi. Doară nu mă voi lăsa să mă tot purtaţi de nas!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

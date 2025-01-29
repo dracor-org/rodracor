@@ -1,0 +1,4336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000005" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Apus de soare</title>
+        <author>
+          <persName type="pseudo">Barbu Ștefănescu Delavrancea</persName>
+          <idno type="wikidata">Q766314</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Publicat în 1909, la Editura Librăriei Socec &amp; Co</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="stefan_cel_mare" sex="MALE">
+            <persName>ȘTEFAN CEL MARE</persName>
+          </person>
+          <person xml:id="bogdan_logofatul" sex="MALE">
+            <persName>BOGDAN LOGOFĂTUL</persName>
+          </person>
+          <person xml:id="taut" sex="MALE">
+            <persName>TĂUT</persName>
+          </person>
+          <person xml:id="postelnicul" sex="MALE">
+            <persName>POSTELNICUL</persName>
+          </person>
+          <person xml:id="toader_vornicul" sex="MALE">
+            <persName>TOADER VORNICUL</persName>
+          </person>
+          <person xml:id="jurj" sex="MALE">
+            <persName>JURJ</persName>
+          </person>
+          <person xml:id="hatmanul" sex="MALE">
+            <persName>HATMANUL</persName>
+          </person>
+          <person xml:id="arbore" sex="MALE">
+            <persName>ARBORE</persName>
+          </person>
+          <person xml:id="parcalabul_dragos" sex="MALE">
+            <persName>PÂRCĂLABUL DRAGOȘ</persName>
+          </person>
+          <person xml:id="parcalabul_alexa" sex="MALE">
+            <persName>PÂRCĂLABUL ALEXA</persName>
+          </person>
+          <person xml:id="parcalabul_grumaza" sex="MALE">
+            <persName>PÂRCĂLABUL GRUMAZĂ</persName>
+          </person>
+          <person xml:id="parcalabul_sandru" sex="MALE">
+            <persName>PÂRCĂLABUL ȘANDRU</persName>
+          </person>
+          <person xml:id="parcalabul_costea" sex="MALE">
+            <persName>PÂRCĂLABUL COSTEA</persName>
+          </person>
+          <person xml:id="parcalabul_negrila" sex="MALE">
+            <persName>PÂRCĂLABUL NEGRILĂ</persName>
+          </person>
+          <person xml:id="batranul_steful" sex="MALE">
+            <persName>BĂTRÂNUL ȘTEFUL</persName>
+          </person>
+          <person xml:id="batranul_hraman" sex="MALE">
+            <persName>BĂTRÂNUL HRĂMAN</persName>
+          </person>
+          <person xml:id="paharnicul_ulea" sex="MALE">
+            <persName>PAHARNICUL ULEA</persName>
+          </person>
+          <person xml:id="clucerul_hrincovici" sex="MALE">
+            <persName>CLUCERUL HRINCOVICI</persName>
+          </person>
+          <person xml:id="vamesul_chiracola" sex="MALE">
+            <persName>VAMEȘUL CHIRACOLA</persName>
+          </person>
+          <person xml:id="clucerul_moghila" sex="MALE">
+            <persName>CLUCERUL MOGHILĂ</persName>
+          </person>
+          <person xml:id="stolnicul_dragan" sex="MALE">
+            <persName>STOLNICUL DRĂGAN</persName>
+          </person>
+          <person xml:id="jitnicerul_stavar" sex="MALE">
+            <persName>JITNICERUL STAVĂR</persName>
+          </person>
+          <person xml:id="petru_rares" sex="MALE">
+            <persName>PETRU RAREȘ</persName>
+          </person>
+          <person xml:id="doftorul_ieromino" sex="MALE">
+            <persName>DOFTORUL IERONIMO DA CESENA</persName>
+          </person>
+          <person xml:id="doftorul_smil" sex="MALE">
+            <persName>DOFTORUL ȘMIL</persName>
+          </person>
+          <person xml:id="doftorul_klingensporn" sex="MALE">
+            <persName>DOFTORUL KLINGENSPORN</persName>
+          </person>
+          <person xml:id="tugulea_moghila" sex="MALE">
+            <persName>ȚUGULEA MOGHILĂ</persName>
+          </person>
+          <person xml:id="un_pietrar" sex="MALE">
+            <persName>UN PIETRAR</persName>
+          </person>
+          <person xml:id="un_curtean" sex="MALE">
+            <persName>UN CURTEAN</persName>
+          </person>
+          <person xml:id="doamna_maria" sex="FEMALE">
+            <persName>DOAMNA MARIA</persName>
+          </person>
+          <person xml:id="irina" sex="FEMALE">
+            <persName>IRINA</persName>
+            <age>1476</age>
+          </person>
+          <person xml:id="reveca" sex="FEMALE">
+            <persName>REVECA</persName>
+            <age>1476</age>
+          </person>
+          <person xml:id="balasa" sex="FEMALE">
+            <persName>BĂLAȘA</persName>
+            <age>1484</age>
+          </person>
+          <person xml:id="ilinca" sex="FEMALE">
+            <persName>ILINCA</persName>
+            <age>1484</age>
+          </person>
+          <person xml:id="domnica" sex="FEMALE">
+            <persName>DOMNICA</persName>
+          </person>
+          <person xml:id="ancuta" sex="FEMALE">
+            <persName>ANCUȚA</persName>
+          </person>
+          <person xml:id="oleana" sex="FEMALE">
+            <persName>OLEANA</persName>
+          </person>
+          <person xml:id="fira" sex="FEMALE">
+            <persName>FIRA</persName>
+          </person>
+          <person xml:id="lisandra" sex="FEMALE">
+            <persName>LISANDRA</persName>
+          </person>
+          <person xml:id="joita" sex="FEMALE">
+            <persName>JOIȚA</persName>
+          </person>
+          <person xml:id="neaga" sex="FEMALE">
+            <persName>NEAGA</persName>
+          </person>
+          <person xml:id="ileana" sex="FEMALE">
+            <persName>ILEANA</persName>
+          </person>
+          <person xml:id="hera" sex="FEMALE">
+            <persName>HERA</persName>
+          </person>
+          <person xml:id="stanisoara" sex="FEMALE">
+            <persName>STĂNIȘOARA</persName>
+          </person>
+          <person xml:id="oana" sex="FEMALE">
+            <persName>OANA</persName>
+          </person>
+          <person xml:id="dochia" sex="FEMALE">
+            <persName>DOCHIA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1909">
+        <desc/>
+      </event>
+      <event type="premiere" when="1909-02-04">
+        <desc>Premiera a avut loc pe 4 februarie 1909, la Teatrul Național din București.</desc>
+      </event>
+      <event type="print" when="1909">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000005" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Apus de soare</titlePart>
+        </docTitle>
+        <docAuthor>Barbu Ștefănescu Delavrancea</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ȘTEFAN CEL MARE</role>
+        </castItem>
+        <castItem>
+          <role>BOGDAN LOGOFĂTUL</role>
+        </castItem>
+        <castItem>
+          <role>TĂUT</role>
+        </castItem>
+        <castItem>
+          <role>POSTELNICUL</role>
+        </castItem>
+        <castItem>
+          <role>TOADER VORNICUL</role>
+        </castItem>
+        <castItem>
+          <role>JURJ</role>
+        </castItem>
+        <castItem>
+          <role>HATMANUL</role>
+        </castItem>
+        <castItem>
+          <role>ARBORE</role>
+        </castItem>
+        <castItem>
+          <role>PÂRCĂLABUL DRAGOȘ</role>
+        </castItem>
+        <castItem>
+          <role>PÂRCĂLABUL ALEXA</role>
+        </castItem>
+        <castItem>
+          <role>PÂRCĂLABUL GRUMAZĂ</role>
+        </castItem>
+        <castItem>
+          <role>PÂRCĂLABUL ȘANDRU</role>
+        </castItem>
+        <castItem>
+          <role>PÂRCĂLABUL COSTEA</role>
+        </castItem>
+        <castItem>
+          <role>PÂRCĂLABUL NEGRILĂ</role>
+        </castItem>
+        <castItem>
+          <role>BĂTRÂNUL ȘTEFUL</role>
+        </castItem>
+        <castItem>
+          <role>BĂTRÂNUL HRĂMAN</role>
+        </castItem>
+        <castItem>
+          <role>PAHARNICUL ULEA</role>
+        </castItem>
+        <castItem>
+          <role>CLUCERUL HRINCOVICI</role>
+        </castItem>
+        <castItem>
+          <role>VAMEȘUL CHIRACOLA</role>
+        </castItem>
+        <castItem>
+          <role>CLUCERUL MOGHILĂ</role>
+        </castItem>
+        <castItem>
+          <role>STOLNICUL DRĂGAN</role>
+        </castItem>
+        <castItem>
+          <role>JITNICERUL STAVĂR</role>
+        </castItem>
+        <castItem>
+          <role>PETRU RAREȘ</role>
+        </castItem>
+        <castItem>
+          <role>DOFTORUL IERONIMO DA CESENA</role>
+        </castItem>
+        <castItem>
+          <role>DOFTORUL ȘMIL</role>
+        </castItem>
+        <castItem>
+          <role>DOFTORUL KLINGENSPORN</role>
+        </castItem>
+        <castItem>
+          <role>ȚUGULEA MOGHILĂ</role>
+        </castItem>
+        <castItem>
+          <role>UN PIETRAR</role>
+        </castItem>
+        <castItem>
+          <role>UN CURTEAN</role>
+        </castItem>
+        <castItem>
+          <role>DOAMNA MARIA</role>
+        </castItem>
+        <castItem>
+          <role>IRINA</role>
+        </castItem>
+        <castItem>
+          <role>REVECA</role>
+        </castItem>
+        <castItem>
+          <role>BĂLAȘA</role>
+        </castItem>
+        <castItem>
+          <role>ILINCA</role>
+        </castItem>
+        <castItem>
+          <role>DOMNICA</role>
+        </castItem>
+        <castItem>
+          <role>ANCUȚA</role>
+        </castItem>
+        <castItem>
+          <role>OLEANA</role>
+        </castItem>
+        <castItem>
+          <role>FIRA</role>
+        </castItem>
+        <castItem>
+          <role>LISANDRA</role>
+        </castItem>
+        <castItem>
+          <role>JOIȚA</role>
+        </castItem>
+        <castItem>
+          <role>NEAGA</role>
+        </castItem>
+        <castItem>
+          <role>ILEANA</role>
+        </castItem>
+        <castItem>
+          <role>HERA</role>
+        </castItem>
+        <castItem>
+          <role>STĂNIȘOARA</role>
+        </castItem>
+        <castItem>
+          <role>OANA</role>
+        </castItem>
+        <castItem>
+          <role>DOCHIA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Cum, cum?</p>
+          </sp>
+          <sp who="#fira">
+            <speaker>FIRA</speaker>
+            <p>Ei, așa... Zic, se duse, se duse, până dete d-un balaur...</p>
+          </sp>
+          <sp who="#joiță">
+            <speaker>JOIȚĂ</speaker>
+            <p>Mai încet, Hera. Dai peste țeavă... De un ce, Zamfiro?... Și tu, Lisandra, bate mai domol... Na! iar ai încurcat firele...</p>
+          </sp>
+          <sp who="#lisandra">
+            <speaker>LISANDRA</speaker>
+            <p>De un balaur... Stați... A sărit tindechea.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Cu gândul la Orhei. D-a mai sări o dată, să știi că rămâi, ca mine, fată bătrână.</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Ba ca mine...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ba ca mine...</p>
+          </sp>
+          <sp who="#bălașa">
+            <speaker>BĂLAȘA</speaker>
+            <p>Ca voi... ca noi...</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Dumnezeu să ție pe pârcălabul Alexa din Orhei.</p>
+          </sp>
+          <sp who="#neaga">
+            <speaker>NEAGA</speaker>
+            <p>Lasă focului basmul. La noapte. Vântul se umflă. Frunzele cad. Va fi numa bine: noapte, vijelie, basm, și eu să mă ghemuiesc lângă dada Irina.</p>
+            <stage>(S-aud toaca și clopotele.)</stage>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Mamă Dochio, e vremea la toacă. Adu bostanul fiert și fagurii de miere și ulciorul cu apă rece.</p>
+          </sp>
+          <sp who="#dochia">
+            <speaker>DOCHIA</speaker>
+            <p>S-aducă mama, bunica maichii.</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Hî-hî...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Când?...</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Iacă ș-acuma...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>O! bătu-te-ar potca!</p>
+            <stage>(Îl mângâie.)</stage>
+            <p>S-ajuți mamei       Dochii. Dar, vezi, ține-ți firea, nu-ți pune mintea cu bostanul.</p>
+            <stage>(Fetele râd.)</stage>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Apoi... dă... maică, maică!</p>
+            <stage>(Iese.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#lisandra">
+            <speaker>LISANDRA</speaker>
+            <p>Am țesut bine, dadă Reveca?</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Nu bate într-o parte. Apucă spata drept de mijloc.</p>
+          </sp>
+          <sp who="#ancuța">
+            <speaker>ANCUȚA</speaker>
+            <p>Dar eu?</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Mai bine... Nu strânge cârligele... Așa... mâinile- n voie... ca și cum te-ai juca.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Verdele ăsta, ori ăsta, dadă Reveca?</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Privește firea... Aci, școala și învățătura.</p>
+          </sp>
+          <sp who="#stănișoara">
+            <speaker>STĂNIȘOARA</speaker>
+            <p>Uf! Doamne, Doamne!</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Ce, moțato? Ți s-a urât? Binișor. Ghergheful e de răbdare.</p>
+          </sp>
+          <sp who="#joița">
+            <speaker>JOIȚA</speaker>
+            <p>Iaca și barba părintelui Ivașcu din Hotin...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ba părul tău de oaie creață.</p>
+          </sp>
+          <sp who="#hera">
+            <speaker>HERA</speaker>
+            <p>Am isprăvit. Nu mai am țevi.</p>
+          </sp>
+          <sp who="#bălașa">
+            <speaker>BĂLAȘA</speaker>
+            <p>Da, dar pe dinafară cine-a dat?</p>
+          </sp>
+          <sp who="#hera">
+            <speaker>HERA</speaker>
+            <p>Numai la două. Le desfac și le fac.</p>
+          </sp>
+          <sp who="#oleana">
+            <speaker>OLEANA</speaker>
+            <p>E bine, Reveca?</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>A! o minune! Ai zice că de când te-ai născut ții furca-n brâu. Da... da... Inul curge din caier pe fus ca un fir de păr. Nici o gâlcă. Deștele tale mulg caierul, și caierul se topește, și fusul zbârnâie și plutește parc-ar avea aripi. O! ciută zglobie, tu ai să ții casa c-un fus... Dar tu, Oană, ce ispravă mi-ai făcut?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Mai am puțintel și le nălbesc. Prea multe. Și nu mă plâng că sunt prea multe, dar pentru că sunt multe mă pui pe gânduri...</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Mă băiete că porți părul bălan ca plăieșii , ce spui? Ce gânduri?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu vedeți ce de fâșii? Și încă trei cămăși de in, dale doamnei, să le rup pentru slăvitul domn ăl mare...</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Fa Oană, ție ți-e lene.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ba...</p>
+          </sp>
+          <sp who="#bălașa">
+            <speaker>BĂLAȘA</speaker>
+            <p>Fa Oană, ție ți-e foame.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ba...</p>
+          </sp>
+          <sp who="#bălașa">
+            <speaker>BĂLAȘA</speaker>
+            <p>Fa Oană, pe tine te ține degeaba la curte.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Dă...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Fa Onișor, cin ți-a dat ție betele astea de argint?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Slăvitul.</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Dați pace fetei... Ce e, Oană, cu gândurile tale?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ce să fie?... Prea multe fâșii... Prea multe...</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Nu-i trebuie? De ce te plângi?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da... îi trebuie... Dar de ce așa de multe?... Și buna doamnă, când mi le-a dat, mi-a zis: Până diseară să le faci... Și mai lungi, Oană, mai lungi. Și-a oftat. Și, plecând, am văzut-o făcându-și cruce.</p>
+          </sp>
+          <sp who="#toate">
+            <speaker>TOATE</speaker>
+            <p>Făcându-și cruce?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da... Mie îmi miroase a război...</p>
+          </sp>
+          <sp who="#toate">
+            <speaker>TOATE</speaker>
+            <p>A!</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Război... că de mult nu fusese... Aproape de doi ani... Și se-mplinesc douăzeci de ani de când pârcălabii</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Sunt douăzeci și șapte de ani încheiați de când pieri floarea Moldovei la Războieni. Trosnea cetatea ridicată-n pripă de slăvitul nostru voievod... Flăcările se-nălțau până la cer... Și el țipa: Nu vă lăsați!... Și pârcălabul Dajbog, bietul tata, i-a zis: Nu ne-om lăsa, dar du-te... Și comisul Huru, și postelnicul Hrâncu îl târâră afară din luptă, rupându-i vestmintele de pe el, și i-au zis: Du-te, că Moldova nu piere, d-om pieri noi... Și s-au stins și Hrâncu, și Huru, și Dajbog, cu toți boierii mari și mici, bătrâni și tineri, până la unul, că Mohamed, văzându-i, a șoptit lăcrimând: Oh! țara aceasta nu va fi a mea!... Și sfântul s-a dus ș-a adunat plăieșii, și-a</p>
+          </sp>
+          <sp who="#toate">
+            <speaker>TOATE</speaker>
+            <p>Amin!</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>În patruzeci și șase de ani, treizeci și trei de bătălii, două fără izbândă și treizeci și una de biruinți! El să trăiască, și Moldovei i-e bine!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Va trăi cât Matusalem, știu eu...</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Și eu...</p>
+          </sp>
+          <sp who="#lisandra">
+            <speaker>LISANDRA</speaker>
+            <p>Și eu...</p>
+          </sp>
+          <sp who="#joița">
+            <speaker>JOIȚA</speaker>
+            <p>Și eu...</p>
+          </sp>
+          <sp who="#hera">
+            <speaker>HERA</speaker>
+            <p>E înzăoat!</p>
+          </sp>
+          <sp who="#neaga">
+            <speaker>NEAGA</speaker>
+            <p>Când s-a născut, l-a scăldat în sânge de șerpoaică...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Și de vultur... Să se strecoare și să se înalțe...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Loc, loc... struguri mășcați... parcă ar fi lacrimi... și faguri cu miros de sulcină... și pere ca...</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Iacă o vorbă.</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>De unde știi?... Șterge-te la nas... Uf! și ai și sabie... Multe urzici ai tăiat...</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Sunt moldovean... Țugulea al lui Moghilă... Să nu râzi de mine... Măria-sa doamna m-a pus să-nvăț slujbă domnească... Pân la sabie...</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Sât!... Vine...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce e tăcerea aceasta, fetelor? Parcă sunteți pui de găină când trece uliul... Parcă sunteți un stol de vrăbii încremenite în stuhăraia din iazuri când aude chiotul...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pentru cine?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Pentru preaslăvitul nostru stăpân...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pentru preaslăvitul nostru stăpân... Pentru osul lui! De câte ori îmi înfăș pulpa dreaptă zic doamnei: Oana, piciorul meu. Piciorul meu, vrednic ca Oana.</p>
+            <stage>(Scapă sabia într-adins.)</stage>
+            <p>Oană...</p>
+            <stage>(Oana ridică sabia, i-o dă și dă să-i sărute mâna, dar n-o ajunge.)</stage>
+            <p>Să mă cobor la tine, ori să te- nalți la mine? Privește drept în dreptul ochilor mei. A! tu plângi, Oană? Și de ce? Aide... vino încoace... bătrâna mea prietenă. Pe creștetul tău să cadă sărutatul voievodului ca ploaia peste holdele verzi.</p>
+            <stage>(O sărută în creștet.)</stage>
+            <p>Destul ați lucrat.</p>
+            <stage>(Face semn să se ducă. Fetele se duc binișor și în ordine.)</stage>
+            <p>Apune soarele pe după trâmbele fumurii. Să lucrăm și noi.</p>
+            <stage>(Se uită lung după ele, mai ales după Oana.)</stage>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Seamănă cu măria-ta... Ca două picături de apă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Una care pică acum și alta care a picat odinioară... Abur... risipit... Pe una o văd... pe cealaltă...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Stăpânul meu, toamna a sosit, soarele apune trist și, în urma lui, o baltă de sânge. Vremea o să se strice... Ploi subțiri care pătrund... frig... viscol... Rămâi,</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Întâiași dată...</p>
+            <stage>(Îi ia mâinile amândouă.)</stage>
+            <p>Ah! Moldovo, căci nu ți-e milă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Milă?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>De mine...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De tine și de Moldova. De una fără alta, nu... nu- mi stă-n putință. Domnul care desparte ce e al lui de ce e al țării...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Dar nu vezi măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Că sunt bătrân... DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Nu...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Că sunt bolnav...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Nu... nu... adică...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Adică, da...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Abia te văzui mai bine...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mario, Mario, ce bolnav? Ce picior? Uită-te la mine... Așa privește un om bolnav? Și nu merg bine?</p>
+            <stage>(Face câțiva pași, apăsând ceva mai adânc pe piciorul drept.)</stage>
+            <p>Ieri nu-mi zâmbiși când încălecai pe Voitiș?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Da... Păreai un arhanghel!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Rămâi, stăpâne! Îngrijești de Moldova îngrijind de sănătatea ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pocuția...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Iarnă... Viscole...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ah! Pocuția!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Să înceapă primăvara...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Iarnă e aici</p>
+            <stage>(arată părul)</stage>
+            <p>, și niciodată primăvara nu va mai sosi. Iarna, călăreți moldoveni străbat codrii, s-amestecă cu viforul și cad asupra cetăților și turnurile lor se năruie. Viforul are ochi! Și pe când ai noștri deschid pârtii prin nămeți, leșii se cocoloșesc la Halici, la Lew, care pe unde apucă.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A... Doamnele nu sunt femei... Femei sunt destule...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Nu, măria-ta...</p>
+            <stage>(Surâde.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Așa da, Mario! Râsul tău... Erai de paisprezece ani când mi-ai râs întâi... Ah! Munteanco! nu-mi strica</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De douăzeci de ani turcii stăpânesc Chilia și</p>
+          </sp>
+          <sp who="#un curtean">
+            <speaker>UN CURTEAN</speaker>
+            <p>Măria-ta, pârcălabii.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Bine ați venit, boieri d-voastră!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Să trăiești, măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cu toții.</p>
+            <stage>(Dă mâna pârcălabilor și ei i-o sărută.)</stage>
+            <p>A! și moș Hrăman! Gata! Veniși! E nuntă! Pe frunte semn... La ceafă semn... umărul drept mai jos... mâna stângă ca un</p>
+          </sp>
+          <sp who="#hrăman">
+            <speaker>HRĂMAN</speaker>
+            <p>Nu mi-e dat să vreau sau să nu vreau. Voința măriei-tale, voința țării. De vrea pace, pace, de vrea război, război. De n-aș fi venit, n-aș fi vrut ce vrea măria-ta... Ș-</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E, cum stau hotarele, pârcălabi, că după cum închideți ochii așa doarme și țara.</p>
+          </sp>
+          <sp who="#pârcălabul negrilă">
+            <speaker>PÂRCĂLABUL NEGRILĂ</speaker>
+            <p>Eu lăsai pe...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Toader.</p>
+          </sp>
+          <sp who="#pârcălabul negrilă">
+            <speaker>PÂRCĂLABUL NEGRILĂ</speaker>
+            <p>Da, la Hotin. Bine. Litvanii și rușii sunt cu minte de când i-ai cumințit măria-ta.</p>
+          </sp>
+          <sp who="#pârcălabul alexa">
+            <speaker>PÂRCĂLABUL ALEXA</speaker>
+            <p>Din turnul de la Orhei nici un</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pe pârcălabul Ivanco.</p>
+          </sp>
+          <sp who="#pârcălabul alexa">
+            <speaker>PÂRCĂLABUL ALEXA</speaker>
+            <p>De trei ori a cetit cartea măriei tale, tot i se părea că-l chemi pe el.</p>
+          </sp>
+          <sp who="#pârcălabul costea">
+            <speaker>PÂRCĂLABUL COSTEA</speaker>
+            <p>În Soroca ne-ntărim mereu, și bună pace.</p>
+          </sp>
+          <sp who="#pârcălabul șandru">
+            <speaker>PÂRCĂLABUL ȘANDRU</speaker>
+            <p>Romășcanii, ce ară și seamănă toamna, seceră și treieră vara. Se-mbogățesc, dar nu se dau lenii. Din Crăciuna, vești bune. Nimic d-a lungul</p>
+          </sp>
+          <sp who="#vornicul jurj">
+            <speaker>VORNICUL JURJ</speaker>
+            <p>În Țara-de-Jos, tihnă. Negoțul se petrece fără cârcotă. În Chilia și Cetatea-Albă că de prin partea locului viu numai doi subași cu roatele de turci, cât să păzească cetățile.</p>
+          </sp>
+          <sp who="#pârcălabul dragoș">
+            <speaker>PÂRCĂLABUL DRAGOȘ</speaker>
+            <p>Ungurii mai mult ar asculta de cuvântul măriei-tale ca de cuvântul craiului lor. Și pârcălabii din Cicei și Cetatea-de-Baltă, ca la ei acasă în mijlocul ungurimii.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da, pace de jur împrejurul țării, ca și înlăuntrul</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Gata!</p>
+          </sp>
+          <sp who="#un curtean">
+            <speaker>UN CURTEAN</speaker>
+            <p>Măria-sa Bogdan.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Să trăiești, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cu toții, boieri d-voastră!</p>
+            <stage>(Se repede spre Bogdan, șchioapătă și se oprește.)</stage>
+            <p>Ah! am să te îndrept eu!</p>
+            <stage>(Îmbrățișează pe Bogdan.)</stage>
+            <p>Măria-sa vodă Bogdan! De pe drumuri... Însemnat în bătălii înainte d-a domni singur...</p>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>Cin să te-ajungă pe măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Tu!... Și să mă-ntreci... Tu, sfios ca o fecioară, nu ești sfios când drumul calului și sabia vâjâie și luminează ca fulgerul... Da, da... Ce e, Grumază, pe la Cernăuți și dincolo?</p>
+          </sp>
+          <sp who="#pârcălabul grumază">
+            <speaker>PÂRCĂLABUL GRUMAZĂ</speaker>
+            <p>Bine-ar fi... Ce zici, clucere Hrincovici?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei...</p>
+          </sp>
+          <sp who="#clucerul hrincovici">
+            <speaker>CLUCERUL HRINCOVICI</speaker>
+            <p>Pocuția așa ș-așa...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pocuția numai așa să fie!</p>
+          </sp>
+          <sp who="#clucerul hrincovici">
+            <speaker>CLUCERUL HRINCOVICI</speaker>
+            <p>Că leșii se trag la judecată la căpitănia Haliciului, rusnecii și moldovenii se supun legilor</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dar vămile?</p>
+          </sp>
+          <sp who="#vameșul chiracola">
+            <speaker>VAMEȘUL CHIRACOLA</speaker>
+            <p>Unii plătesc, alții zic c-au plătit cardinalului...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Alea-s vămile văzduhului...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cardinal, iagelon, bolnav, trufaș, leah... Ce nu e din câte n-ar trebui să fie? Și nimic din câte ar trebui să fie... Și tu, Tăut? Și tu, Ștefule? O! prietenii mei, cu bărbile până în pământ, nămeți nenvinși de oameni, albiți de griji și de vremuri...</p>
+          </sp>
+          <sp who="#logofătul tăut">
+            <speaker>LOGOFĂTUL TĂUT</speaker>
+            <p>Cu tinerețea, măria-ta... POSTELNICUL</p>
+          </sp>
+          <sp who="#șteful">
+            <speaker>ȘTEFUL</speaker>
+            <p>...Așa, bat-o pustia...</p>
+          </sp>
+          <sp who="#pârcălabul hrăman">
+            <speaker>PÂRCĂLABUL HRĂMAN</speaker>
+            <p>Vărul Tăut zise o vorbă... Că de la Dumnezeu este...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Postelnice Toader, ce știri de pe unde-ai umblat? Ai adus?... Ai vorbit cu dogele? Te-a blagoslovit sfântul de la Roma?</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Adus, măria-ta. Om iscusit și cu știință. Venezia, ca și cum ai visa. Noul doge se logodea cu marea.</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Frumoasă mireasă!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Arunca inelul în valuri...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Bună de strâns în brațe! POSTELNICUL</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Și numele tău cinstit și lăudat...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Știu... Dar bani?...</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>De...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ce e cu banii ceia?... Cam de mult îi așteptăm...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Negustori, Moghilă... Nu mi-au dat ei nici la</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>La Roma...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Blagosloveniile urmașului lui Sân-Petru, mie, sabia lui Christos... Doamne, iartă-mă... Și cum îl cheamă pe doftor?</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Jeronimo da Cesena.</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>După nume trebuie să aibă o barbă cât toate zilele...</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Ras și cu plete lungi.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Acum la ale noastre. Boieri, știți că Alexandru al Poloniei iar a cerut zi, zi peste zi, lege peste lege, că n-ar fi fost față. Iar să ne judece frățâne-său Vladislav. La 2 noiembrie. Degeaba s-a pus. Iacob de Buczacz, omul</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu, măria-ta?...</p>
+            <stage>(Apucă pe paharnicul Ulea de guler.)</stage>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Am socotit...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce-ai socotit?</p>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Că... cu sănătatea măriei-voastre...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?... Boieri, cine e mai bolnav din noi amândoi?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Aci &lt;/didascalie&gt; (arată piciorul) &lt;/didascalie&gt;, oleacă măria ta... Aci</p>
+            <stage>(arată la cap)</stage>
+            <p>să se-ngrijească vărul Ulea...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei, nu uiți că am tăiat pe din două moșiile</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>De trei nopți ard.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ia?... Rareș, repezi...</p>
+            <stage>(Rareș se duce-n fugă. Se urcă pe zid.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Oh! săracii!... Săracii mei ș-ai voștri... Săraci și voi și eu... Ce bogată e Moldova!</p>
+            <stage>(Ștefan și boierii se reped la zidul care înconjoară ograda, afară de paharnicul Ulea, stolnicul Drăgan și jitnicerul Stavăr.)</stage>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Nu mai e Ștefan!</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Dar cine e?</p>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Umbra marelui Ștefan.</p>
+            <stage>(Tustrei se duc și s-amestecă cu ceilalți.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Ca niște turme de berbeci...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da... da...</p>
+          </sp>
+          <sp who="#hrăman">
+            <speaker>HRĂMAN</speaker>
+            <p>Parc-aud ceva... dar nu-i văd...</p>
+          </sp>
+          <sp who="#șteful">
+            <speaker>ȘTEFUL</speaker>
+            <p>Parcă văd ceva... dar nu-i aud...</p>
+          </sp>
+          <sp who="#logofătul tăut">
+            <speaker>LOGOFĂTUL TĂUT</speaker>
+            <p>Nu-i aud și nu-i văd... dar îi simt...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>I-aud și-i văd, îi văd și-i aud... O! cum se varsă apele în Siret, așa vin șuvoaiele în Suceava la chemarea voievodului lor!... Auziți?... Sub poale de codru verde...</p>
+          </sp>
+          <sp who="#hrăman">
+            <speaker>HRĂMAN</speaker>
+            <p>Încep să-i și văd...</p>
+          </sp>
+          <sp who="#șteful">
+            <speaker>ȘTEFUL</speaker>
+            <p>Încep să-i și aud...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>O, fetele mele iubite, mai lăsați lucrul... De-o lună Ștefan nu dă semn de viață... Ce-a putut să i se întâmple?... Dar ce n-a putut?... Bolnav... Abia se</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Până acum o lună primeam vești peste vești... Bine... sănătos... zdravăn... așază țara... Întocmește Pocuția... va sosi... biruitor ca totdeauna... Îmi creștea inima... Și de</p>
+            <stage>(înnumără pe dește)</stage>
+            <p>... da... de treizeci de zile, nimic...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Frumoasa mea doamnă...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>S-a dus frumusețea. Uită-te la părul meu. S-a lățit șuvița albă cu două dește de când nici o</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Ce nu se schimbă, stăpâna mea a bună! Frunzele cresc și nu sunt aceleași. Stejarul are și el o margine. Grâul e tot grâu, dar nu mai e același. Doar glasurile rămân la păsări; ele se duc, altele vin... Și noi trăim cu părerea că numai omul îmbătrânește, se scutură și cade.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Da, Reveca, gânduri, nimicuri. Să-l văd pe viteazul meu... să-i fac patul... să-l culc... Adormi, măria ta, n-a fost nimic. O gâză bate în geamuri... Ce somn ușor în grijile grele... Î, muiere rea! Uitasem pe Bogdan, odorul meu. Pe urmele tată-său calcă. Păcat că și-a pierdut ochiul. Eu am doi. La ce-mi slujește? Și cu unul v-aș vedea pe lângă mine. Am două picioare zdravene. Să împart: un ochi lui Bogdan, un picior lui Ștefan... Aș întineri...</p>
+          </sp>
+          <sp who="#hera">
+            <speaker>HERA</speaker>
+            <p>Și eu... când m-ar lăsa doamna... ce-aș mai săruta? DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Tu?</p>
+          </sp>
+          <sp who="#oleana">
+            <speaker>OLEANA</speaker>
+            <p>Și eu, când vrea doamna, cu cine aș mai umbla?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Tu... O! mușatină! Aș lua de la mine și-aș da la ai tăi...</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ție Domnul pe domnii noștri, doamnă!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Numele Tatălui... ș-al Fiului... ș-al Sfântului Duh... Amin... Țugulea!</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Poruncă, doamnă. DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Da... măria-ta...</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Da, măria-ta!</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Ele știu... Să spuie Bălașa...</p>
+          </sp>
+          <sp who="#bălașa">
+            <speaker>BĂLAȘA</speaker>
+            <p>Șotii, măria-ta... Zice c-aș fi zis eu că de ce nici la 14 ani, aproape împliniți, nu s-a dus la război cu tat-său Moșoroi, asta, Moghilă...</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Ai zis, ați zis, ai râs, ați râs, și știați bine c-am dat în genunchi la măria-sa Bogdan și la tătuca... Și ei au râs, dar nu ca d-voastră... cu moșoroi... cu vătrar... cu</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Iacă le spui...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Mă băietane, pune sabia, că va sosi și ceasul tău. Și s-o porți...</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Până când țara va avea nevoie de ea...</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Uf!</p>
+          </sp>
+          <sp who="#dochia">
+            <speaker>DOCHIA</speaker>
+            <p>La porunci.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>A fiert grâul cu lapte?</p>
+          </sp>
+          <sp who="#dochia">
+            <speaker>DOCHIA</speaker>
+            <p>Iacă-l aduc. Acuși.</p>
+            <stage>(Dochia și Țugulea ies.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Oană, Oană, ce robotești?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Spăl, măria-ta.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ce speli, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Pentru împăratul nost... Să fie gata pân-o veni... DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>N-ai isprăvit?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Isprăvit... Le-am luat a doua oară... DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Cum îți zice el, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Băbătie, măria-ta.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>De ce, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Fiindcă așa-i place, măria-ta.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Dar ție cum îți place, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum îi place și lui, măria-ta.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Și cum te mai alintă, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Dă, măria-ta...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Dă... cum, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum, măria-ta?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>A! nu vrei să spui doamnei?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum să nu, măria-ta. Până acum doi ani mă suia pe genunchiul drept... ba nu, p-ăl stâng, și mă juca și zicea:</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Sufletul măriei-tale ca chipul măriei-tale... Maica Domnului, adusă de la Roma de postelnicul Purcevici.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Soție de domn și mumă de domn, da Maica Domnului nu, Irino.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Buuuno!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Cine să guste întâi, măria-ta? DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Ilinca.</p>
+          </sp>
+          <sp who="#ilinca">
+            <speaker>ILINCA</speaker>
+            <p>Buuun, măria-ta.</p>
+          </sp>
+          <sp who="#dochia">
+            <speaker>DOCHIA</speaker>
+            <p>Grâul, spălat în zece ape, uscat, frecat, dezghiocat, puțintică miere și scorțișoară. Talgerele, boier Țugulea.</p>
+          </sp>
+          <sp who="#țugulea">
+            <speaker>ȚUGULEA</speaker>
+            <p>Iacătă-le. Cel cu aur al măriei-sale.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ah! Moghilă! Ce e? Bine?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Sărutăm dreapta, bine. Vine. Ce păcatele suflu așa...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Spune degrab...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Spui îndată, acușica... Cât ai bea o oca de vin, și e aici. M-a trimis înainte să vă spui. Calul mi-a șchiopat, c-aș fi fost de mult...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Mai iute, Moghilă, mai iute!</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Nu e nici biruit, nici rănit... DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Cum e?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Biruitor și cu rana veche ceva mai înrăită ca-n trecut...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>A!</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Și ceva mai potolită ca acum</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Da, da, Moghilă.</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Mătură tot înaintea lui. Și toți îi jurară credință, și moldoveni, și rusneci, și leși. Să fi văzut, doamnă, p-ai craiului Lixandru... in eternitate fidelitas, nos et descendentes nobis ... Se muie gerul. Se topiră zăpezile. Se umflară apele. El porunci să stăm pe loc... Se retraseră apele... Să mergem înainte, până sub Halici. Acolo se deschide o vale lărguță. Întâi sta Luca Arbore, peste o mie</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ei, ș-apoi?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Prinși de toate părțile, azvârliră armele jos. Și curse sânge până la țurloaiele cailor...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ei, ș-apoi...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Apoi porunci halicenilor să-i</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Apoi?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Apoi făcurăm moșoroaie și pietruirăm Pocuția cu bourii noștri, adânci d-un stânjen, ducând dâră oablă din apa Nistrului până-n muntele ăl mare ce stă ca șira spinării la apusul Moldovei. În sus al lor, în jos, de sub pădurea de fagi a Haliciului, al nostru. Și...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Și...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Și, după ce așeză țara, lăsă pârcălab pe Hrincovici și vameș pe Chiracola. Și ne înșiruirăm călări și plecarăm înapoi cu voievozii noștri înainte. Și începurăm să cântăm: Doină, doină, nu te duce de la mine, doină, nu fugi de bine, doină. Într-o zi Duminica Rusaliilor sta soarele să scapete, ajunserăm p-o cărăruie de piatră. O ploiță caldă stropise fâșia de drum. Voitiș, într-un</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Da...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Oh!</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>În stânga prăpastie, în dreapta piept de munte. Voitiș tremura... Când l-am scos, sângele pătrunsese prin legături... l-am dus pe mâini... El atât a zis: Unde e ața mai subțire, acolo se rupe... Doftorul Cesena aci. Până a doua zi piciorul se făcu butuc... Boli, aiuri ierte-mă Dumnezeu , se făcu mai bine, și de șapte zile, pe drum.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ah!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Măria-ta!...</p>
+            <stage>(I s-aruncă-n brațe.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ea, ca cea dintâi rândunică, îmi vestește primăvara... Cătați sub piciorul drept, și de-ți găsi cărbune, să-l beau în paharul meu de sărbătoare, că e bun de friguri; de-ți găsi plumb, să-l topim, să-l turnăm într-o cană cu apă neîncepută, și, din ce se va închega, voi vedea ce va veni mai apoi..</p>
+            <stage>(Șade pe o laiță de piatră.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vrei să-mi fie frig? Cesena, cum e mai bine: cald ori frig?</p>
+          </sp>
+          <sp who="#ieronimo da cesena">
+            <speaker>IERONIMO DA CESENA</speaker>
+            <p>Mai bine cald ca frig, ma preferisco recorito senza sentir il freddo.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Cărbune, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A, e negru, dar mai negre sunt sprâncenele doamnei... Cine-ar avea inima așa de mică și așa de neagră ca să ție pică domnului lui?... Mario! Fii mândră de Bogdan al nostru... Io, Ștefan voievod, m-am pus la porunca lui, ca și portarul Sucevei, ș-a biruit tocmai cum aș fi biruit și eu... Nu e așa, boieri? Nu e așa, paharnice Ulea?... Nu e așa?...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Îl uitasem pe el, măria-ta... Bogdane!</p>
+            <stage>(Bogdan dă-n genunchi lângă doamna.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să-mi dea vin de Cotnar... Vreau să beau în sănătatea doamnei ș-a fiului ei...</p>
+          </sp>
+          <sp who="#cesena">
+            <speaker>CESENA</speaker>
+            <p>Vin, pentru ce vin? Non, serenissime.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Rareș!...</p>
+            <stage>(Rareș se duce repede pe ușa de pe terasă.)</stage>
+            <p>Doftore, te-am ascultat până azi... Mi-e sete... Nu vezi pe cine am la genunchii mei? Pe muma care a purtat în pântecele ei pe domnul de mâine al Moldovei... Voitiș?... E bine?... El nu are abur, ci suflet... Să-l plimbe în fiece zi până m-oi întrema...</p>
+            <stage>(Rareș vine cu trei pahare, două de argint și unul de alabastru, frumos lucrat, ca un potir. Ștefan fărâmă între dește cărbunele și-l pune în paharul de alabastru. Doamna și Bogdan iau paharele de argint. (Ștefan ridică pe al său.)</stage>
+            <p>În sănătatea... Ah!...</p>
+            <stage>(Lasă paharul în jos.)</stage>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ce te doare, păcatele mele?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nimic pe domnul Moldovei... Ce e durerea?... Și toate pe Ștefan Mușatin, fiul lui Bogdan și nepotul lui</p>
+          </sp>
+          <sp who="#cesena">
+            <speaker>CESENA</speaker>
+            <p>Să ne odihnim, serenissime.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să te odihnești, doftore... În Italia se odihnesc mult principii... îî!... Ce-o fi durerea?</p>
+          </sp>
+          <sp who="#cesena">
+            <speaker>CESENA</speaker>
+            <p>Odihnă, serenissime.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mă voi odihni, dar nu acum.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Te rog... să mergem...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mă rogi?... Neadormitul Ștefan a ajuns lăuza Moldovei... Moghilă, să-mi aduci pricinile ce-a judecat</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>În curând scaunul Moldovei e văduv. Piciorul lui Ștefan obrintește. Încheieturile lui sunt prinse. Bietul domn! Mare a fost... că de mărimea lui nu mai sufla nici un boier... Ei, ce ziceți?</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Ce să zicem?... Bogdan?... De viteaz n-are cum mai fi. Dar cred că după datină ar avea drept Ștefăniță, din Țarigrad, fiul răposatului Alexandru, feciorul cel mai mare al lui Ștefan...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Ș-apoi domn schilod cine a mai văzut? Chior? treacă-meargă... dar orb? Că n-are un ochi deloc. I l-a scos cu sulița un călăreț teuton la Cosmin... O! să-l fi văzut cu ochiul scurs pe obraz, ca un ou cu puiul prins spart de-o cloșcă nedibace, cum răgea snopind pe dușmani... ai fi zis că vedea mai bine cu un ochi decât cu doi...</p>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Țara are nevoie de tihnă. Cu Bogdan, iar războaie.</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Ștefăniță e nevârstnic. Vom alcătui o epitropie...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Din cei mai de seamă boieri... Hatmanul Arbore, pârcălabul Grumază și d-ta, paharnice Ulea...</p>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Sâât! Nimic lui Arbore. Până n-o închide ochii șoimanul, să nu vorbim decât boierilor cu meteahnă. Din sfatul domnesc... lui Gavril Lepădatu și</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>O! Doamne, Doamne! Să schimbe ei ursita? Cine să închidă ochii? Domnul cel sfânt? N-are sfârșit cel care are milă de toți!</p>
+            <stage>(Dă să iasă pe după castel și se întoarce la glasul lui Rareș.)</stage>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>De ce-ți sunt ochii roșii? Ai plâns?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Ba da... Ochii tăi sunt tulburi...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ce ochi să rămâie senini când ai bunului Ștefan ard!</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>El are nouă suflete, Oană. Ploile, zăpezile, zbuciumul și drumul lung și greu... Olecuță de odihnă, și se întremează zmeul bătrân.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da, Rareș, da...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Și se face bine...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Bine?... Bine să-i dea Dumnezeu!... Bine... PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Și ție, Oană...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Și d-tale, Rareș...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Și nouă, amândurora...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Și, Rareș, și...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Dă-mi o mână, Oană...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>De ce?...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Așa, că mi-e dragă...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>O!...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Ce râzi? Nu ți-am mai spus?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ba mi-ai spus... de câte ori... În urmă mai ales...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Și dreapta mi-e dragă, și stânga mi-e dragă, și amândoi ochii cu lumini adânci, și părul tău rotunjit pe spate și învolt ca un fum auriu, și gura ta cu buze ca măceșea, și mijlocul tău ca trestia de baltă, și mersul tău ușor ca de presură, și toată ființa ta...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>O! Rareș...</p>
+            <stage>(Râde.)</stage>
+            <p>Și toată ființa mea...</p>
+            <stage>(Râde.)</stage>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Toată ființa ta mi-e dragă, că te iubesc, Oană!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum, Rareș?...</p>
+            <stage>(Râde.)</stage>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Întruna te-am visat, Oană... Și te-am văzut întruna la război... Când porneam cercetașii, când mă băteam, când mă culcam, când mă sculam, călare, pe jos, la șipote, în codru, neostiat  în fața ochilor mei...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ca p-o soră, Rareș. PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Nu ca p-o soră...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Și de când, Rareș?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>De când împliniși 14 ani... De pe la Paște...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Mi-ești drag, Rareș, dar... PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Dar...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu ții minte când mă ridicai în brațe să rup para</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Da... și te sărutam...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da, și mă sărutai... Ș-acum... na... sărută...</p>
+            <stage>(Râde.)</stage>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Nu, Oană, nu așa!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Dar cum, Rareș, cum?... Ca p-o miluită fără părinți?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Nu...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ca p-o pripășită la curtea doamnei Maria? PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Ah! nu...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ca p-o pasăre pribeagă?... Și nu uita că tu ești boier, Rareș...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Ce boier?... Al Mariei ș-al lui Rareș, pescarul din Hârlău.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ești căpitan de oaste și prieten al domnului Bogdan...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Sunt ce sunt, și fără tine mai bine să nu fiu!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Doamne, Rareș... Dar tu mi-ești ca un frate... Eu mireasă? N-ai nici cui să mă ceri.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Stăpânului a toate, ca unui drept părinte.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>A! nu, Rareș, nu!... Nu simț nimic în mine... Mi- ești drag ca un frate, dar nu te iubesc... Și domnul e</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Domnul e bun, milostiv și îndurător...</p>
+            <stage>(O sărută pe amândoi obrajii și pleacă repede.)</stage>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ciudat!... Dar să nu uit pe paharnicul Ulea!</p>
+            <stage>(Iese prin stânga pe după castel.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#cesena">
+            <speaker>CESENA</speaker>
+            <p>Serenissime, nici o mișcare...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Zău...</p>
+          </sp>
+          <sp who="#cesena">
+            <speaker>CESENA</speaker>
+            <p>Parole non piu...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Non piu... Ca un mort... uf!... când voi avea nevoie de d-ta, doftore, te chem...</p>
+            <stage>(Doftorul se duce în castel.)</stage>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ascultă-l...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Eu?... S-ascult?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-am ascultat de tătari, de leși, de unguri, de turci... și s-ascult d-un venezian... a! ha!...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>De când ai început să vorbești, a crescut căldura...</p>
+            <stage>(Îi pipăie mâinile)</stage>
+            <p>.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și va veni ș-un doftor de la Nüremberg și altul de la Mengli-Ghirai... Îmi scrie că știe și toaca-n cer... Un</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Mai puțin, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Puțin, puțin... Toți doftorii la capul unui bolnav... UN</p>
+          </sp>
+          <sp who="#curtean">
+            <speaker>CURTEAN</speaker>
+            <p>Măria-ta, foaia judecăților.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Clucerul Moghilă? Să...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Judecățile dezlegate.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Prealuminatul Bogdan s-a făgăduit că va merge însuși la fața locului.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Bine.</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Vornicul Duma, fiul lui Vlaicu, vărul măriei-tale, cu șapte sate omenești pentru robire de mori. Vornicul Duma pierde.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cine pierde?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Vărul măriei-tale.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Bine!</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Pârcălabul Ieremia cu popa Frusănel pentru vaduri de pive. Frusănel rămâne pe pan</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Î... î... î... rău... Bine a judecat, dar rău... Știu... Spune-i lui Bogdan să taie din moșia mea Trifești 3.000 de stânjeni și să dea rușilor...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Să nu ies eu scurtat, doamnă.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Cele criminalicești. Din douăzeci de pricini, două mai însemnate. Un nărăvit hoț, tăierea mâinilor. Un ucigaș, zobirea capului cu buzduganul. Toate</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Bogdan... Război și dreptate... Război împotriva oricărui dușman și dreptate față de oricine... de neamurile tale... de tine chiar, deși după legea pământului nu se cuvine să judeci. Domn d-ai fi... să stai d-oparte... Alții să aleagă.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Măria-ta, prea mult...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dacă Cesena ar avea chipul Mariei ori Maria știința lui Cesena, m-aș vindeca într-o clipă și m-aș</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Nu, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Atunci?... Ce mai e, Moghilă?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Pricinile de judecat.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Le pui zi peste... Azi e 30 iunie... Peste trei zile.</p>
+            <stage>(Clucerul Moghilă iese pe poarta din dreapta)</stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#un curtean">
+            <speaker>UN CURTEAN</speaker>
+            <p>Oana, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Oana?... Să intre...</p>
+            <stage>(Oana intră.)</stage>
+            <p>A! băbătie... Cum o duci cu bătrânețile?... Vino încoa... aci... jos... mai aproape... (Oana îi sărută mâinile și le-aduce la frunte.) O plută bătrână și scorboroșită lângă un brăduț verde, stufos și drept! Cine te-aduse pe tine pe tărâmul ăsta? Și de unde?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Măria-ta... De unde?... Nu știu...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu mai am căldură. Sunt bine. Uite, Mario... De unde?... nu știi. Ia uită-te la mine... Așa... Tu ai ceva în</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Aș vrea, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Aș vrea, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Rareș...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da, Rareș, nu ți-a mai prins vro stăncuță... Da... da... s-a făcut mare... E căpitan... Se bate cu leșii și se bate zdravăn... O s-ajungă hatman... Căci n-am avut parte de</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da... Partea mea a fost să sărut ce este al meu ca și cum n-ar fi al meu, să fur mângâierile, și mângâiere să nu am... Ce-ai vrea să-mi spui, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Aș vrea, măria-ta, să...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ei...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Aș vrea...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Doamnă... să știi că fetișcana asta s-ascunde de tine...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Da, Oană?... Vă las...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai aproape... mai... Spune-mi...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Sosiși, măria-ta... Tare mi-era dor... Mă dădui după colacul fântânii... Ș-auzii tot...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Tot și nimic...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Atunci nici tot, nici nimic...</p>
+            <stage>(O mângâie.)</stage>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu... Porni alaiul domnesc și trei boieri rămaseră...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Trei boieri?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da... Paharnicul Ulea, stolnicul Drăgan și jitnicerul Stavăr...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Paharnicul Ulea?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Vorbiră și-i auzii... O urzeală, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Împotriva mea?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Atunci, împotriva cui?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Împotriva lui Bogdan... ȘTEFAN</p>
+            <stage>(sare în sus)</stage>
+            <p>: Ce?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Vor s-aleagă domn pe nepotul măriei-tale, pe Ștefan, fiul răposatului Alexandru.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și-n locul cui s-aleagă domn? Nu este domn?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>După ce nu va mai fi...</p>
+            <stage>(Își cuprinde capul în palme.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nici n-au treierat grâul din care să-mi fiarbă colivă și mi-o și-mpart!</p>
+            <stage>(Ca și cum ar vorbi singur.)</stage>
+            <p>Patruzeci și șapte de ani am dus țara cu noroc...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da... Ca și cum ar fi fost aici și c-o lingură aș fi luat... și-aș fi aruncat în foc... a ars... și-apoi, nimic...</p>
+            <stage>(Își scutură palmele.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A!... Așa... așa... Du-te.</p>
+            <stage>(Oana se duce pe ușa de pe terasă.)</stage>
+            <p>O! ce păcat că nu i-am mărturisit de unde e!</p>
+            <stage>(Îl trec lacrimile.)</stage>
+            <p>De! nu fi muiere!</p>
+            <stage>(Bate în palme. Un curtean intră din dreapta.)</stage>
+            <p>Moghilă... Să vie îndată.</p>
+            <stage>(Din întâmplare găsește o oglindă veneziană.)</stage>
+            <p>Grozav am îmbătrânit!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Moghilă, lasă închinăciunile.</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Să-mi spuie popa, nu te mai închina... bine ori rău... Dar să iasă din icoana la care te închini o mână care să te ia de păr... O!...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Poftă de glumă... Să glumim, clucere Moghilă. CLUCERUL</p>
+          </sp>
+          <sp who="#moghilă">
+            <speaker>MOGHILĂ</speaker>
+            <p>Să glumim?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ah!... Nu e nimic... Unde-au ajuns slovenii cu letopisețul meu?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Abia la jumătate...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>La ce fapt?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>La bătălia de la Cosmin.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce spui?... Abia vro 39 de ani din viața mea. Și mai au...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Jumătate...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Încă 39 de ani...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Dacă jumătatea d-a doua n-a fi ceva mai lungă ca cea dintâi.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O! ho! ho!... Slovenii s-au pripit la scris... N-au greșit... presimțind că-n a doua jumătate... Cam grea răsuflarea de câteva zile... Moghilă, ce face Voitiș... bidiviul care m-a purtat în spinare doisprezece ani?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ar face bine dacă n-ar fi pus picioarele în sus...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>M-a lăsat?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>S-a dus bietul Voitiș... Cum</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Așa se cade să moară un domn... dar el...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Calul domnului, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da, calul domnului... Ștefan fără picioare și fără cal... O! și cum mă ducea la izbândă... ca un vifor năpustit în valea Sucevei!... Semn rău...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ei, aș!...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Semn rău, Moghilă!... Ce va să zică să mori de moarte bună?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Să mori în patul tău.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu, Moghilă... Dumnezeu a dat omului simțurile prin care veghează sufletul. La o cârnire a vieții simțurile, unul câte unul, încep să se întunece. O sită se coboară pe ochi, vezi turbure, nu mai vezi... Se vătuiește auzul. S-a dus ascuțimea lui... Aud...? Ce zici?... Nu mai aude... Și când</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>N-aveam dreptate?... Istoria a ajuns la jumătatea vieții măriei-tale.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Așa ar fi de n-ar fi și pieiri năprasnice... Nu de sabie, nu de apă, nu de foc, ci când piei ca mine... Nimic.</p>
+            <stage>(Se sprijină pe Moghilă.)</stage>
+            <p>... Cu sufletul întreg, cu dragoste pentru toată țara cu tot cuprinsul ei... oh!... Ascultă,</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Sfântă ca sfânta cumincătură din sfântul potir!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și vouă, boierilor?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Boieri, curteni, răzăși, țărani, una în fața domnului.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să strângi pe boierii și pe ostașii ce-au mai rămas în Suceava, mâine, întâi de iulie, zi în care... Nimic.</p>
+            <stage>(Se sprijină pe Moghilă.)</stage>
+            <p>... Ești tu credincios, Moghilă?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ca-n fața lui Dumnezeu și a Domnului nostru Isus Christos... Jur!...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu jura... Că n-are să afle nimeni din ce-i auzi? CLUCERUL</p>
+          </sp>
+          <sp who="#moghilă">
+            <speaker>MOGHILĂ</speaker>
+            <p>Nimeni!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mâine sui în scaunul Moldovei pe Bogdan... CLUCERUL</p>
+          </sp>
+          <sp who="#moghilă">
+            <speaker>MOGHILĂ</speaker>
+            <p>Doamne!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Doamne... Facă-se voia ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Am îmbătrânit... O! îndoială!... Și aș putea să</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Rămâi ca marmora...</p>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Multă lume grijit la</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Oțelit... în aer, în luptă... Pe trupul dumnealui numai crestături... Am milă, n-am știință... Rana de la picior îi otrăvește trupul dumnealui... Și Mengli-Ghirai e tare, dar un guturai, și la pat... Atunci să vedeți... Unde e Șmilică?... Șmilică, ai mâncat?... Șmilică, ce, tu ești</p>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>L-am văzut, amestecat cu nemții. Gemea codrii de freddo. El ajuta și încuraja pe toți... Cu miei ochii... come un fulmine dal cello nella bataglia da</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Klingensporn, ce zici de rană?</p>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Ai dreptate... Peste șaptezeci de ani... hî... Să i-o ardem cu fierul roș...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Ei! prin câte focuri a trecut dumnealui... să treacă și prin ăsta... O să vrea?</p>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Să-l încredințăm că e durere grozavă... Serenissime, ma che dolore... Io voglio... Ho studiato questo uomo maraviglioso...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Sââât... Vine!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Doftori... prieteni... sunteți bine? O! ce plecăciuni! Mă prind că Șmil a măturat dușumeaua cu fruntea... Nu, Șmil... Mie nu-mi plac toate câte îi plac bunului meu prieten Mengli-Ghirai... Nițică știință... Mario... Mario... Ce tresari...</p>
+            <stage>(la doftori)</stage>
+            <p>. Am căldură?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Oleacă, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ard?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Arzi?... A, nu...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dacă nu ard, ce vă-ngrijiți? Cine nu arde nu se sfârșește...</p>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Mai mult odihnă, măria- ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De mâine încolo, pace cu știința... Mă voi odihni... Așa... întins... nemișcat ca un mort... Nimic, Mario... Până mâine, trebile țării... Mario...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ce poruncește preaslăvitul stăpân?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai puțin ca o poruncă și mai mult decât o dorință.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ascult, Ștefane.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Așa... așa, dragă... Ah! e demult de atunci... Prea ești întunecată în straiele astea... Vreau ceva mai altfel...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Mă duc și mă întorc cum dorești.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Cârjea?... N-aș vrea să iasă cârje din teacă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Niciodată n-am scos-o împotriva unui om cumsecade.</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Niciodată n-am dorit să fiu mai cumsecade...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>O! biata mamă, tare a țipat înainte să mă scoată...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce de țipete până să scoată oțelul acesta, ce de lovituri, Șmil, privind la fiecare lovitură o parte din soarta ei viitoare.</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Putea genovezii s-o bată cât ar fi voit, dacă nu te-ai fi bătut și n-ai fi bătut măria-ta cu ea... Asta e adevărata ei soartă!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A! Știi tu, Șmil, că tu ești ca sabia mea? DOFTORUL</p>
+          </sp>
+          <sp who="#șmil">
+            <speaker>ȘMIL</speaker>
+            <p>Ca sabia?... Eu?... Și de ce?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ca și ea, ești foarte ascuțit pe dinăuntru.</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Ea taie totdeauna, eu vindec când pot.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Când poți, Șmil, dar când nu poți?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dumnezeu... Șmil, din două picioare bolnave tu poți face numai unul, dar zdravăn?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Asta?... Nu, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dar din doi oameni sănătoși ai putea să faci un bolnav?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Din doi oameni sănătoși?... Aș face și doi bolnavi dacă m-ar lăsa inima.</p>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Non, serenissime, qui.</p>
+            <stage>(Arată piciorul.)</stage>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Te simți mai bine, dar...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sunt mai rău, ho! ho! Nu mai pricep... Sunt mai rău când sunt mai bine, mai bine când aș fi mai rău, și bine de tot când aș pune mâinile pe piept... Signore, dă-mi brațul... î-î-î-î... Cu trei nu se poate să scap...</p>
+            <stage>(Se duce în dreptul portretului lui Alexandru cel Bun.)</stage>
+            <p>Acesta fu un om și nu mai e de mult... Șmil, cum ți se pare?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Parcă surâde... Bun și milostiv...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De unde știi? Tu n-ai auzit de el. Poate că nici tat-tău nu se născuse pe când domnea el.</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Ce poate fi rău în castelul acesta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ai!... Nimic... Și dacă mâna ta cea dreaptă te smintește, taie-o pe ea și-o leapădă în foc...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Da, în foc, dar nu s-o tai...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce, Șmil, tu să îndrepți Evanghelia?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Eu să-ndrept? Nu îndrept nimic, dacă nu îndrept piciorul Domnului la al căruia nume se închină stăpânul meu... Am cerca... dar sunt dureri... grozave dureri... o! brrrr!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce dureri, Șmil?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>În loc să faci un foc mare, să tai piciorul și să-l lepezi în foc, mai bine ar fi să iei tăria focului și să arzi răul care se întinde... Brrr... Grozave dureri!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Brrr! grozave dureri... Și se sfârșește. O! ho! ho! prieteni, și vă e milă?... Ardeți stricăciunea după acest stârv care a fost odinioară nebiruitul Ștefan! Puneți foc pretutindeni, ș-aici... ș-aici... ș-aici... până-ți preface în</p>
+          </sp>
+          <sp who="#un curtean">
+            <speaker>UN CURTEAN</speaker>
+            <p>Petru Rareș</p>
+            <stage>(Ștefan îi face semn să intre.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce vrei, Rareș?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Doresc domnului nostru atotputernic sănătate și voie bună.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dorești?... Te cred... Domnului nostru... hî...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Stăpâne, n-am învățat știința ierburilor, dar, pe cât mă taie capul, socul n-a dat niciodată trandafiri.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dacă te-ar tăia capul cum taie brațul tău, dintr-un pescar ar ieși preț de ce-au prins toți pescarii de la începutul lumii și până s-ar sfârși și pești și pescari... Oh!... Cine vine?... Mi s-a părut...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Doamne...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mai bine.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Ce să fie mai bine?</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>STEFAN</speaker>
+            <p>Rareș, tu nu ești un băiat cuminte... Pentru ce Oana...</p>
+            <stage>(Rareș tresare.)</stage>
+            <p>Da... Oana mi s-a plâns că nu-i prinzi pui de sălbătăciuni... De ce?... Te-ai făcut mare... O s- ajungi hatman...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Doamne...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Am venit...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dacă n-ai fi venit, n-ai fi aci. PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Să...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Iartă-mă, doamne, iubesc!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A! ha! Ba vezi c-o să mă îndrăgostesc eu! PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>E fată bună...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Bună și frumoasă, firește. PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Bună...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ca pita caldă.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Bună... săracă... și fără părinți.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A! fără părinți? Atunci cum s-a născut? PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Necunoscuți, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ai dreptate, că tu cu tat-său d-ai vorbi nu l-ai cunoaște.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Iubesc pe Oana, măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cum?... N-am auzit... O! ho! ho!!... Cu bătrânețile... Da, Oana e fată bună și frumoasă și cuminte... Piciorul meu știe, și Dumnezeu, și eu. Săracă și fără părinți... tu știi... Dumnezeu n-a aflat... Și eu mă îndoiesc... Tu mi-o pețești mie ca p-un copil... Și e copil, mititica...</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Că mă iubește ca p-un frate, dar că nu simte nimic... C-aș fi boier, și ea...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Aș, aș, aș!</p>
+            <stage>(Doamna intră pe ușa din stânga.)</stage>
+            <p>Doamnă... Ce frumos ești îmbrăcată... Rareș tocmai îmi povestea că iubește... Pe cine, mă?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Pe Oana...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Pe Oana?... Dar e un copil... Și săracă... Și...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Un copil... Nici tu nu erai mai mare...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Voitiș?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Știu... Să nu încaleci pe Voitiș, ci să iei alt cal</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Zbor...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să te văd...</p>
+            <stage>(Rareș dă să iasă repede și se încurcă.)</stage>
+            <p>Nu p-acolo, Rareș, că n-o să ieși prin zid!</p>
+            <stage>(Rareș iese în fugă.)</stage>
+            <p>Patima, Mario. Ăst copil mi-aduce aminte vremile vechi. Îîîî... Nimic... trecător... Rău am făcut... I-am crescut în neștiință... Va afla tot... Săracul Petru... Să-l privim când pleacă...</p>
+            <stage>(Se duc la fereastra din dreapta.)</stage>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Să-l privim...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da, a luat pe Dereș... Pune șeaua... Strânge</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Să zic nu, m-aș uni cu dușmanii țării împotriva copilului meu, să zic da, aș ține cu copilul împotriva tatălui. Se năruie un tron din slava lui trecută și un altul se ridică în strălucirea lui viitoare. Plâng pe unul, binecuvântez pe celălalt. Între aste două măriri inima mea de femeie nu găsește mângâiere!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ștefan a trăit, Bogdan începe!</p>
+            <stage>(Ies.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Văzuși pe paharnicul Ulea? JITNICERUL</p>
+          </sp>
+          <sp who="#stavăr">
+            <speaker>STAVĂR</speaker>
+            <p>Da, acum chiar.</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Tot așa?</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Și mai dârj. STOLNICUL</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>A vorbit cu...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Da, cu cinci boieri mari, afară de cei doi din Sfatul domnesc.</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Ei, ce e?</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Strună... Și Ștefan din ce în ce mai rău...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Așa se zice. JITNICERUL</p>
+          </sp>
+          <sp who="#stavăr">
+            <speaker>STAVĂR</speaker>
+            <p>Vor să-l arză.</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>S-a mai vorbit ș-alt dată, dar cum e el, ba azi, ba mâine, cu judecățile, cu războaiele, cu trimeșii de la unguri, de la țarul Ivan, de la leși, de la</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Poi de l-o arde, cum e el de bolnav și de bătrân...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Și de slab...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>S-a dus Ștefan...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Vecinica lui pomenire... JITNICERUL</p>
+          </sp>
+          <sp who="#stavăr">
+            <speaker>STAVĂR</speaker>
+            <p>Dumnezeu să-l ierte...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>A fost bun... nu zic... JITNICERUL</p>
+          </sp>
+          <sp who="#stavăr">
+            <speaker>STAVĂR</speaker>
+            <p>Și drept...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Cu țara, da...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Pe noi ne-a cam scurtat...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Boier, răzăș, țăran supus, era totuna în fața lui...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Moșiile le împărțea numai la ostași...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Din supuși îi făcea răzăși, din răzăși boieri sadea.</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Ce era boerul de sfat, Cosma Șerpe? Nimic. Un răzăș. După Bătălia de la Cosmin, îl boieri, ș-acum e în divanul țării...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Și cu munteanca ceea...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Jupânesele noastre, rar poftite la castel...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Că de doi ani, de când l-a întețit boala, de loc...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Ca o călugăriță... cu fetele, toată ziulica...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>De Rareș... ce zici?</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Harnic flăcău... Bun de războaie... Portarul Arbore știe multe...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>He! ba vezi că nu... Cu el a petrecut Ștefan în Hârlău... nu cu mine...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>La frumoasa pescăriță... STOLNICUL</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Păi Rareș...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Așa se zice...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Arbore știe bine... La naștere l-ar fi înfierat...</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>E!</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>...pe spata dreaptă c-un cerc. JITNICERUL</p>
+          </sp>
+          <sp who="#stavăr">
+            <speaker>STAVĂR</speaker>
+            <p>Rareș o fi știind?</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Nu se află.</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Rareș plecă mai adineauri... Unde- o fi plecat?</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Se ducea p-un dereș de nu i se vedeau picioarele... Unde? Nu știu... Ulea vine?</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Nu crez, poate da, poate nu. Mi-a zis să ne uităm bine la Ștefan, că el e cam bolnav...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Hî!</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Ai auzit c-ast-noapte o bufniță a țipat toată noaptea pe castel?</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Buha... țipă, țipă până despre ziuă... Când să zboare, o mâță neagră haț, ș-o mâncă. Mâța se spăla pe bot. Un vultur căzu săgeată și înhăță pe mâță. Pe</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Ce-o mai fi ș-asta?</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Și azi-dimineață o vacă, din vitele domnești, a sângerat în șistar, pe când o mulgea...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Ciudat!</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Urâte semne!</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Ș-acum privește...</p>
+            <stage>(Se uită pe fereastra din dreapta.)</stage>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Acușica era senin, fără pic de nori, și deodată se bolovăniră nori negri cum e catranul, că se-ntunecă ca noaptea... Și colo, departe, departe, de unde izvorăște Suceava, cerul e roșu parc-ar arde o cetate.</p>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Privește... Vezi tu un nor... ca un balaur? Cu cap, cu gura căscată, cu aripile întinse... cum se repede să înghiță p-un moșneag cu plete lungi... Vezi? Aci... aci... ha... haiti... S-a topit moșneagul... Cine vine?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Bună ziua, frate Drăgan, bună ziua, Stavăr.</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Bună să-ți fie inima! JITNICERUL</p>
+          </sp>
+          <sp who="#stavăr">
+            <speaker>STAVĂR</speaker>
+            <p>Ca totdeauna...</p>
+          </sp>
+          <sp who="#pârcălabul costea">
+            <speaker>PÂRCĂLABUL COSTEA</speaker>
+            <p>Ce? Inima lui Arbore?</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Aș... ziua de azi... Se zice că ziua bună se cunoaște de dimineață... Până mai adineaurea senin, și deodată s-a întunecat că abia se mai vede...</p>
+          </sp>
+          <sp who="#pârcălabul dragoș">
+            <speaker>PÂRCĂLABUL DRAGOȘ</speaker>
+            <p>Era să plec la Neamțu... M-ar fi murat ca p-un câine...</p>
+          </sp>
+          <sp who="#pârcălabul șandru">
+            <speaker>PÂRCĂLABUL ȘANDRU</speaker>
+            <p>Înhămase la olac , când mă vesti Moghilă...</p>
+          </sp>
+          <sp who="#vornicul jurj">
+            <speaker>VORNICUL JURJ</speaker>
+            <p>Ce sărbătoare să fie azi? HATMANUL</p>
+          </sp>
+          <sp who="#arbore">
+            <speaker>ARBORE</speaker>
+            <p>Nici una.</p>
+          </sp>
+          <sp who="#vornicul jurj">
+            <speaker>VORNICUL JURJ</speaker>
+            <p>Moghilă mi-a zis să mă îmbrac ca de sărbătoare.</p>
+          </sp>
+          <sp who="#pârcălabul alexa">
+            <speaker>PÂRCĂLABUL ALEXA</speaker>
+            <p>Și mie... STOLNICUL</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Și mie... PÂRCĂLABUL</p>
+          </sp>
+          <sp who="#șandru">
+            <speaker>ȘANDRU</speaker>
+            <p>Și mie...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Cine știe ce vrea domnul, ție-l Dumnezeu să-l ție...</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Că mult e bun... PÂRCĂLABUL</p>
+          </sp>
+          <sp who="#dragoș">
+            <speaker>DRAGOȘ</speaker>
+            <p>Și viteaz...</p>
+          </sp>
+          <sp who="#pârcălabul șandru">
+            <speaker>PÂRCĂLABUL ȘANDRU</speaker>
+            <p>Și nepărtinitor... PÂRCĂLABUL</p>
+          </sp>
+          <sp who="#dragoș">
+            <speaker>DRAGOȘ</speaker>
+            <p>Și darnic...</p>
+          </sp>
+          <sp who="#vornicul jurj">
+            <speaker>VORNICUL JURJ</speaker>
+            <p>Ce e al lui e-al țării... Ce e-al țării e-a lui Dumnezeu!</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Drepte ș-a făcut cărările lui... Și bolnav, că mai bine aș fi fost eu...</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Că parcă n-ar mai fi el...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Cum n-ar mai fi el? Dar cine vrei să fie? Cine-ar răbda cum rabdă el? Cine nu s-ar odihni în locul lui? Și cine n-ar umplea lumea cu vaietele? S-a plâns cuiva, Drăgane?</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>O vorbă, hatmane. HATMANUL</p>
+          </sp>
+          <sp who="#arbore">
+            <speaker>ARBORE</speaker>
+            <p>O vorbă neghioabă! STOLNICUL</p>
+          </sp>
+          <sp who="#drăgan">
+            <speaker>DRĂGAN</speaker>
+            <p>Fie...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>N-ar mai fi fost! POSTELNICUL</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Pace, fraților! Scena 7</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ei, asta nu înțeleg! Să mă tai și să mă presari cu sare pe crestături, și tot nu înțeleg!</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Ce, Moghilă, ce nu înțelegi?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Da d-ta, că ești tobă de învățătură, înțelegi?</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Ce, mă omule, ce să-nțeleg?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ai dreptate, că nu e de-nțeles... Mă duc la el. Se plimbă prin casă. Cum mă văzu, zbughea în pat. Și aoleo, păcatele mele... ce am...ce am... Iacă nu- nțeleg, și pace!</p>
+            <stage>(Toți boierii se uită cruciș la Moghilă.)</stage>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Nu spui eu?</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Moghilă, vino-ți în fire! Ce-ai spus? Cine a zis, ș-a făcut, ș-a dres?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Nu vă spusei?... Adevărat... Capul meu ăl zăpăcit. Paharnicul Ulea, frate...</p>
+          </sp>
+          <sp who="#mai mulți">
+            <speaker>MAI MULȚI</speaker>
+            <p>Paharnicul Ulea?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Spus din fir-a-păr... Cum Ăl de</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Sââât!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sunt între două săbii... Doamna, ș-asta...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Eu? Nu, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Parcă vedeam bine...</p>
+            <stage>(Se freacă la ochi. Către un curtean.)</stage>
+            <p>Să vie boierii. Între ei nu era. Drăgan, mai încoa, Stavăr, mai aproape...</p>
+            <stage>(Caută cu ochii.)</stage>
+            <p>Paharnicul Ulea n-a venit? Moghilă...</p>
+            <stage>(Boierii se uită încurcați.)</stage>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Aici, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-ai fost?...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Fost, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A plecat... Ți-am spus să te duci îndată... CLUCERUL</p>
+          </sp>
+          <sp who="#moghilă">
+            <speaker>MOGHILĂ</speaker>
+            <p>Îndată... măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu l-ai găsit?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Găsit, măria-ta... E cam bolnav...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?... E bolnăvior, bietul paharnic... Cine să-mi guste vinul de Cotnar...? Îl doare capul... Oh-ho!... Îl doare... Îl doare... Și ce-l doare?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ce că-l ia cu frig, că-l ia cu călduri și stă ghemuit în pat...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Îl doare capul!...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>De cap nu mi-a vorbit, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Îl doare capul! La cap e stricăciunea... Nu e la locul lui... Hatmane Arbore, să vie și ostașii... Nimic, doamnă... Ce fulgere... Ca afară... Moghilă!</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Ascult, doamne.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ascultă, până mai ai când... Du-te la paharnicul Ulea... Șade lângă castel... Cine mă iubește e-aproape de mine... Nu e așa, stolnice Drăgan?</p>
+          </sp>
+          <sp who="#stolnicul drăgan">
+            <speaker>STOLNICUL DRĂGAN</speaker>
+            <p>Da, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Du-te de-i spune că eu și jitnicerul Stavăr dorim să-l vedem... Nu dorești, Stavăr?...</p>
+            <stage>(Boierii să uită unii la alții.)</stage>
+          </sp>
+          <sp who="#jitnicerul stavăr">
+            <speaker>JITNICERUL STAVĂR</speaker>
+            <p>Cum zici, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dar tu cum zici?...</p>
+            <stage>(Lui Moghilă.)</stage>
+            <p>Că e rău să puie pe Drăgan și pe Stavăr împotrivă cu vorba lor și vorbele lor împotrivă cu ei înșiși...</p>
+            <stage>(Joc de priviri între boieri.)</stage>
+            <p>Că Ștefan n-ar sta la îndoială de ceea ce ar trebui să hotărască dacă sufletul lui ar vrea...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Preaslăvite doamne...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-ai înțeles?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Iaca sabia... taie-mă, omoară- mă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Așa de curat?</p>
+            <stage>(Jocul privirilor se întețește.)</stage>
+            <p>Nimeni din voi n-a... Cum să pricepeți ceea ce nu e de priceput? După patruzeci și șapte de ani de domnie... A! Signore, să mă reazim de brațul tău... Moghilă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce strigi așa de tare?... Du-te și-i spune să vie până să nu viu eu!...</p>
+            <stage>(Moghilă se duce repede. Din partea dreaptă intră Sfatul țării, se închină și s-așază în jețuri.)</stage>
+            <p>Ce de judecăți am vânturat împreună...</p>
+            <stage>(Intră ostași prin partea stângă din fund.)</stage>
+            <p>Ce de bătălii...</p>
+            <stage>(La sfetnici.)</stage>
+            <p>Senini și fără interes...</p>
+            <stage>(La ostași.)</stage>
+            <p>Cu patimă și cu interes... Și toate cu aceeași țintă... Signore, treci de partea astălaltă...</p>
+            <stage>(Intră  paharnicul Ulea și clucerul Moghilă prin dreapta.)</stage>
+            <p>A! Paharnice... scumpa dumneavoastră sănătate...</p>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Abia mă țin picioarele...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Schimbă-le cu ale mele... Fii, mă omule, tânăr, voinic, ca un brad, fii ca mine... Ei, oleacă suflarea... oleacă piciorul... oleacă de căldură... oleacă încheieturile... dar încolo... aproape nimic...</p>
+            <stage>(Încearcă sabia.)</stage>
+            <p>Nu vrea să iasă... Nu vreau să vrea să iasă... Și de ce-aș vrea?</p>
+            <stage>(Către Ulea.)</stage>
+            <p>Să spui feciorului tău să nu stea cu capul în jos... Signore, mută-te în partea astălaltă...</p>
+            <stage>(Bogdan vine din fund trist, îmbrăcat în zale de sus până jos, cu mai mulți ostași.)</stage>
+            <p>Pe cine zăresc? Pe tine te mai așteptam...</p>
+            <stage>(Ștefan se suie în jețul cu stemă din dreapta tronului. Bogdan dă să-i sărute mâna. Ștefan îl oprește.)</stage>
+            <p>Prea e caldă și nădușită... Așteaptă să se răcească...</p>
+            <stage>(Către doamnă și Bogdan.)</stage>
+            <p>Ce tresăriți?... Da, văz o doamnă care se plimbă pe lângă castel...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nimeni...</p>
+            <stage>(Doftorul Șmil se pleacă la urechea domnului. Îi șoptește ceva.)</stage>
+            <p>N-ai grije... Voi fi al tău sau al doamnei...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Al doamnei?... Al doamnei Maria, măria-ta...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Numele tău, măria-ta!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Așa e!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu... nu!... Eu am fost biruit la Războieni și la Chilia, Moldova a biruit pretutindenea! Am fost norocul, a fost tăria!... Sunt bătrân...</p>
+            <stage>(Se întoarce și privește grupul unde stau paharnicul Ulea, stolnicul Drăgan și Jitnicerul Stavăr.)</stage>
+          </sp>
+          <sp who="#mulțimea">
+            <speaker>MULȚIMEA</speaker>
+            <p>Nu! nu!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Oh! pădure tânără!... Unde sunt moșii voștri? Presărați... la Orbic, la Chilia, la Baia, la Lipnic, la Soci, pe Teleajen, la Racova, la Războieni... Unde sunt părinții voștri? La Cetatea-Albă, la Cătlăbugi, la Scheia, la Cosmin, la Lențești... Unde sunt... bătrânul Manuil și Goian, și Știbor, și Cânde, și Dobrul, și Juga, și Gangur, și Gotcă, și Mihai Spătarul, și Ilea Huru comisul, și Dajbog pârcălabul, și Oană, și Gherman, și fiara paloșului... Boldur?...</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Ștefane!</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Altfel nu s-ar fi putut. HATMANUL</p>
+          </sp>
+          <sp who="#arbore">
+            <speaker>ARBORE</speaker>
+            <p>A murit?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Cine să moară? Soarele nostru n- a apus încă!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Culcă-te, frumoasă doamnă, n-ai închis ochii toată noaptea...</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Măcar un ceas, doamnă.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Să-l fi văzut, o! Irino! Cu ce foc vorbea ascunzându-și durerile... părea un sfânt!... Că câtă lepădare de sine și-a scos mantia domnească și-a pus-o pe umerii lui Bogdan... A târât pe Bogdan pe tron, a îngenuncheat, a dat să-i sărute mâna... și s-a rostogolit... o!...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Osteneala, măria-ta.</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>De când se-ntoarse din pustia de Pocuția...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Sât... Să nu te auză că vorbești așa.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>E zobit de osteneală.</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>A adormit? Se face bine.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Să te-auză Maica Domnului!</p>
+            <stage>(S-aude gemând. Doamna Maria se duce binișor la pat.)</stage>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Doarme?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Doarme, bogdaproste!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Odihnă sufletului fără odihnă!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>De două nopți n-a dormit așa de liniștit. Cum ațipea, lega vorbe fără șir cu unele gânduri întunecate... A! paharnice, vrei ipitropie la scaunul</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Nu e nimica...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ca omul bolnav...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Culcă-te, frumoasă doamnă!</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Ei, da, da...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Fie... În odaia d-alături... Rămâi tu, Oană... Cum s-o scula să-mi dai de veste... Auzi?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da, doamnă.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Mititica, cum se cunoaște că n-a dormit...</p>
+            <stage>(Ies pe ușa din dreapta)</stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Dă-i, Doamne, somn dulce și mai dulce, ca la un</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce, te-ai speriat, Oană?... Dă perdelile într-o parte...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Credeam că dormi, doamne, credeam că dormi...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vino-ncoa... Așaaa...</p>
+            <stage>(Oana îngenunche lângă  pat.)</stage>
+            <p>Așaaa...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Credeam că dormi...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dormii, ș-am să dorm, ș-am să dorm... Doamna?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Acum ieși. Nu crez să-și fi scos haina...</p>
+            <stage>(Se scoală.)</stage>
+            <p>Mi-a zis s-o vestesc.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Lasă, Oană, pe biata doamnă să se întinză oleacă... Pe doftori până i-am făcut să iasă... În curând au de lucru... Oană, ție nu-ți place să vorbești cu mine?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Stăpâne...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu, băbătie, nu așa... Aci... da...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum vrei, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vreau să vorbim... mult... mult...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum vrea măria-ta, așa vreau și eu... Voința măriei tale nu-mi dă pas să voiesc altfel... Și mi-e așa de drag!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce ți-e așa de drag?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Când simț că-ți fac plăcere... când îmi zici cum îmi zici...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Băbătie?... Oh!... nimic...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?... Boala mea?... Nu, n-am să mai bolesc multă vreme...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cum de ce?... Nu vrei să-mi treacă?...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>O! ba da!... Dar măria-ta ai zis tocmai de la lingurea... n-am să mai bolesc multă vreme... că...</p>
+            <stage>(Oana se șterge la ochi.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mie nu-mi plac...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nici mie... Iacă așa, ca o proastă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Î... î... Să te sărut...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Aș vrea...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Să te faci la loc, să-ncalici pe Voitiș...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da, da, pe Voitiș...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Și să te duci, să te duci, și să te-ntorci iarăși biruitor ca totdeauna...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Să mă duc, să mă duc și să mă-ntorc iar pe Voitiș...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Iar... În fiece zi de la Dumnezeu, noi, fetele, vorbim de biruințele măriei-tale, parcă am spune niște basme vechi...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Da, da... Mâna și piciorul ăsta blestemat...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu zice așa, măria-ta... De multe ori mă gândesc că de ce nu fusei eu un băiat... Nu m-aș fi dezlipit de măria ta... P-un cal ca un zmeu... c-un paloș ca o limbă de foc... Și mi- ai fi zis: Ioane... vezi bulucul cela? Să nu mai fie! Și unde m-aș fi săltat în scări, și m-aș fi făcut nevăzut, și m-aș fi întors nădușală și sânge, și aș fi zis: Nu mai sunt, măria ta!... Ba uneori visez... Dacă...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Oană, ce suflet e-n tine!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Se vede că tata cine-o fi fost a fost ostaș. ȘTEFAN</p>
+            <stage>(se scoală într-o rână)</stage>
+            <p>: Da... și ce ostaș!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>L-ai cunoscut?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Firește!... Era un om... de măsura mea... Cu mustăți aduse... tocmai ca mine... Cu părul alb... Asta... nu... cu părul cărunt și-l purta lunguleț... ca și mine...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Bietul tata! Și cum a murit?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Rănit la picior... ca și mine... Ce fulgere...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu fulgeră, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ca și mine... Dă-mi un pahar cu apă...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Mă duc s-aduc proaspătă de la izvor...</p>
+            <stage>(Iese prin stânga)</stage>
+            <p>.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ăstor copii nu le-am spus... păcat!... Și mi-e așa de dragă ca ochii din cap... Î... Și poate să mă duc călare pe Voitiș... E sângele meu în ea... Să-i mărturisesc barim ca-n vis, până mai e vreme...</p>
+            <stage>(Se aude Oana suind repede scările.)</stage>
+            <p>În inima mea, ca o dulce moleșeală...</p>
+            <stage>(Oana vine c- un urcior de argint. Ia paharul de alabastru și toarnă de sus)</stage>
+            <p>.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ce rece și limpede e!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Limpede ca privirile tale, ca sufletul tău, ca vorbele tale... numai că privirile, sufletul și vorbele tale sunt calde ca lumina soarelui de dimineață...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>O! măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Paharul!...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Dar nu bea repede... e prea rece...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu...</p>
+            <stage>(Ștefan bea și începe să caște.)</stage>
+            <p>Mi-e somn... Îmi cad pleoapele... Oană...</p>
+            <stage>(Oana vrea să tragă perdelele.)</stage>
+            <p>Nu... parcă aș fi un osândit... Doftorii se vede vă mi-au dat un aromitor... Du-te la fereastră, Oană...</p>
+            <stage>(Cască.)</stage>
+            <p>Deschide fereastra... Aerul bun, dimineața... Soarbe-l pe gură... Răsuflă bine...</p>
+            <stage>(Cască, se face că adoarme, apoi începe să vorbească ca-n vis, rar și cu glasul schimbat.)</stage>
+            <p>O!... Ce?... Nu vreau...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...Pe valea unde se-ntinde umbra norilor ca un oghial...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>A adormit? Așa de repede? Ca un copil la sânul mă-sei... Visează...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...Zidăria cenușie... Departe... Castelul meu din Hârlău...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>L-am turburat cu vorba mea, ca o seacă... Ce să fac? Îl iubesc așa de mult... Aș vrea să fiu pielea de urs pe care calcă, vesmintele cu care se-mbracă, sabia de care nu se desparte...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...E de mult... Nu... Răreșoaia... cânta de te slăvea cântece bătrânești... Tot am uitat... Peste câteva luni născu o fată... Da... eu... Ștefan... tatăl bun al ei...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>De multe ori visezi ce cu gândul n-ai gândi.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ce Dumnezeu!</p>
+            <stage>(Să uită lung la Ștefan)</stage>
+            <p>. Răsuflarea  grea... Doarme...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...N-a înțeles... De unde?... Se face mare... Ochii verzi, părul rotunjit pe spate și galben ca spicul copt... Oana!...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Poruncă, măria-ta! O! cum mi se bătu inima! Îmi vine să-l deștept. Mâinile mi s-ar topi ca ceara... În vis multe spune omul...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...Mângâierea mea... Rodul meu din urmă... Visul meu... Căci nu i-am spus... Poate să mor...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...Pe umărul stâng are un luceafăr... semn că este ea...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Doamne!... Doarme... Visul lui mă arde... Mâna dreaptă îmi furnică... Ochii verzi, părul rotunjit, doi ani,</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Î... î... î...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ce, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ah! ce vis frumos... ș-odată într-unul urât!... Cum mi se bate inima... apă... apă...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Apă, doamne! Bea apă, să-ți treacă!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Oană, Oană! Vino încoa, aici... (Îi ia capul în mâini, o privește țintă și lung ș-o sărută de mai multe ori, pe păr, pe obraji, pe frunte.) Ai înțeles, Oană?...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da, măria-ta!</p>
+            <stage>(Îi curg lacrămile.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu plânge...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nu plâng... Sunt fericită și nefericită... Fericită de vis, nefericită că suferi așa de mult...</p>
+          </sp>
+          <sp who="#un curtean">
+            <speaker>UN CURTEAN</speaker>
+            <p>Rareș vrea să intre cu d-a sila... I-am spus...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O! Rareș, ești ca un câine scăpat din jujău... O! ho!</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>M-a dus iubirea ca vântul și m-a întors grijea ca gândul. Am trecut râuri iazuri, mocirle, viroage.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Tot?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Tot, măria-ta!... Oană, să mă iubești ca pun frate.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum ți-am spus, Rareș.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>C-a p-un frate bun, din aceeași mamă și din același...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Din aceeași mamă...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Da, frate...</p>
+            <stage>(Se îmbrățișează.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Două ramuri ale aceluiași stejar bătrân! Rareș, grozav te așteptam... Ai! ai!...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nimic...</p>
+            <stage>(lui Rareș)</stage>
+            <p>Na. Ia cartea asta. Bag-o în sân. Ia seama la pecetie. Pune caii la un olac. Alege unul bine ferecat. Și la drum. Zi și noapte. Schimbă caii din popas în popas. Și să nu te oprești decât în Țarigrad. Acolo s-o dai în mână marelui vizir. Și să vestești tuturora să nu uiți pe Ștefănel al răposatului Alexandru că ieri am pus pe Bogdan în scaunul Moldovei și azi, 2 iulie, se strâng glasurile țării să-l aleagă și mitropolitul Gheorghe să-l ungă.</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Da?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>De ce te uiți așa? PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Poi...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Poi?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu vezi suflarea mea? Nu simți încheieturile mele?... Cum să le simți... Ai!... Ai auzit pe Ștefan văietându-se vreodată?</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Nu, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>L-ai văzut vrodată lungit în pat? PETRU</p>
+          </sp>
+          <sp who="#rareș">
+            <speaker>RAREȘ</speaker>
+            <p>Nu, măria-ta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mi-a venit veleatul... O tărie mai am: să nu-mi</p>
+          </sp>
+          <sp who="#petru rareș">
+            <speaker>PETRU RAREȘ</speaker>
+            <p>Ca vântul!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#un curtean">
+            <speaker>UN CURTEAN</speaker>
+            <p>Meșterul pietrar...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cine?... Să intre... Piatra care s-acopere ce a mai rămas din deșărtăciunea omului...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Deșertăciunea omului?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Deșărt ca merticul cu boabe când ai golit merticul...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-ar fi totuna... Sunt deșert, dar de deșertăciuni niciodată n-am fost plin.</p>
+          </sp>
+          <sp who="#meșterul pietrar">
+            <speaker>MEȘTERUL PIETRAR</speaker>
+            <p>Doamne, iacă ce-am făcut!</p>
+            <stage>(Desfășură un pergament.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Tu?</p>
+          </sp>
+          <sp who="#meșterul pietrar">
+            <speaker>MEȘTERUL PIETRAR</speaker>
+            <p>Din câte mi-ai spus, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Slovele prea mari și prea mic chenarul.</p>
+          </sp>
+          <sp who="#meșterul pietrar">
+            <speaker>MEȘTERUL PIETRAR</speaker>
+            <p>Să sporesc chenarul.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Piatra e mărginită de...</p>
+            <stage>(Ș-arată.)</stage>
+            <p>Dacă sporești chenarul în măsura slovelor ca să mărești...</p>
+            <stage>(pe furiș de Oana)</stage>
+            <p>tocmai când... ai!... se micșorează... Să se ducă din el ceea ce a fost silnic cuprins și abia așteptată să izbucnească slobod... el... ai...! dar nu eu... Dacă mărești piatra, se supără</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cine se supără?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Meștere, păstrează măsura. N-am vrut un lucru uimitor, ci cumpănit. Nu-ți dau pe mână sufletul, ci trupul.</p>
+            <stage>(Meșterul pietrar iese prin stânga.)</stage>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Trupul?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Cum? Să-i dau lui să-mi împodobească sufletul?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Sufletul? Dar ce om ar mai născoci când</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Care veacuri, buna mea Marie? Ale trecute sau</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ce te-a durut, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pe mine? Tot... Pe mine? Nimic.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ți-e cald?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ți-e frig?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Cum te simți?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ca doi oameni care ar ieși din același om. Unul rănit, celălalt mândru. Mi-e milă de cel rănit, mă duc după cel mândru...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Ce mai faci, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce mai face paharnicul Ulea?</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>El? sănătos.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Adevărat? E mai bolnav ca mine.</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Mai mult se făcea...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ieri? Nu se făcea, se pregătea să facă... Umbla încet să nu-l simță nimenea... Cum vi se pare vorba lui?</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Nu i s-aude glasul. Șoptește, nu vorbește.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și ce șoptește?</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Nimicuri.</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Nimicuri?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Dar ce șoptește, Oană?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Știu eu, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Firește că tu nu știi, cum e firesc să știe portarul Sucevei...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Ce să știu, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Luați seama la Ulea, la Drăgan și la Stavăr... Bogdan ce face?</p>
+          </sp>
+          <sp who="#postelnicul toader">
+            <speaker>POSTELNICUL TOADER</speaker>
+            <p>Împotriva voinței lui, ceea ce ia poruncit măria-ta. Scrise lui Vladislav.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Eu nu dau porunci domnului meu... DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Dar fiului tău?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Până ieri, el asculta, de ieri încoa eu ascult... POSTELNICUL</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Au să vie doftorii, măria-ta. HATMANUL</p>
+          </sp>
+          <sp who="#arbore">
+            <speaker>ARBORE</speaker>
+            <p>Și noi...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O să s-adune țara, și voi slujiți domnului, nu omului, lui Bogdan, nu lui Ștefan... Să nu se țeasă vro urzeală...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Împotriva cui?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Împotriva voinței mele de când eram domn... HATMANUL</p>
+          </sp>
+          <sp who="#arbore">
+            <speaker>ARBORE</speaker>
+            <p>Voința ta, doamne? Ca apele</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ulea... Drăgan... Stavăr...</p>
+          </sp>
+          <sp who="#hatmanul arbore">
+            <speaker>HATMANUL ARBORE</speaker>
+            <p>Dar n-a ruginit sabia care a slujit lui Ștefan!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ho! domol, Arbore... domol... Vârâți-vă printre cei ce se adună și spuneți că voința mea e să nu curgă</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Sunteți câteșitrei? Să cunoaște că v-ați culcat târziu...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Și după ce s-ar cunoaște, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ochii trași... o! o! o!... Șmil... parcă un zugrav ți- ar fi încondeiat chipul... Ca un mucenic...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Ca un mucenic? Eu? Ca un mucenic? CLUCERUL</p>
+          </sp>
+          <sp who="#moghilă">
+            <speaker>MOGHILĂ</speaker>
+            <p>La măria-ta, nu se cunoaște.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu se mai cunoaște... Nu te gândi la zilele d- acuși, ci la întruchipările de mai-nainte...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Totdeauna, ai fost ca totdeauna!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Acu, ca niciodată... Șmil, dar ce sunt fașele acelea?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Astea? Pentru un copil sau pentru un om mare...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>A?... Pentru un bătrân căzut în copilărie... A? DOFTORUL</p>
+          </sp>
+          <sp who="#șmil">
+            <speaker>ȘMIL</speaker>
+            <p>Care bătrân? Care copil?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ho! Șmil... uită-te bine... DOFTORUL</p>
+          </sp>
+          <sp who="#șmil">
+            <speaker>ȘMIL</speaker>
+            <p>Iacă mă uit...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Și nu-i vezi?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Ce să văz?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-ai dormit bine, Șmil...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Iacă bătrânul... Iacă și copilul... Un copil parcă ar fi al meu... parcă...</p>
+            <stage>(Îi bagă mâna prin păr.)</stage>
+            <p>De mătase... învolt... ca un fum cald prin care ar trece razele soarelui...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Și ce vor doftorii, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vor să te sărut...</p>
+            <stage>(O sărută.)</stage>
+            <p>Nu-i așa Șmil?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>S-o săruți? La asta mă gândeam!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mario... Oană...</p>
+            <stage>(oftează lung)</stage>
+            <p>... ieșiți... Vă chem eu...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Cum oftă, milostivul...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Gata?</p>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Si, ilustrissime...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Gata?... Aproape gata... Dacă mi-ai da voie... să stai așa... cu fața în jos... Așa. Și dacă mi-ai da voie, să trec pe sub măria-ta fașa asta...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O! ho! ho!... Dacă mi-ai da voie, ș-un laț de gât... Glumiți, Șmil...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Să glumim? E vreme de glumă? Și cu măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Desfă, Șmil! Ștefan al Moldovei n-are nevoie să fie legat! &lt;didascalie&gt; (Doftorul Klingensporn aduce un mangal. În foc,</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Să fie legat? Dar când vom trece cu para focului în sus și în jos, ca să ardem bine... Cum să nu sară-n sus măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Vreau!</p>
+            <stage>(Doftorul Șmil îi desface legăturile. Ștefan își întoarce privirile spre icoană.)</stage>
+            <p>Vedeți?... Nici o legătură... A răbdat piroanele... A ridicat ochii-n sus și-a zis Iartă-i pe ei, Doamne, că nu știu ce fac! Și el a răbdat pentru alții, și eu să nu rabd pentru mine?</p>
+            <stage>(Se închină, apoi se așază cu fața în jos.)</stage>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>O!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Aide!</p>
+            <stage>(Scena se petrece după perdele.)</stage>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Acum încleștează mâinile.</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>O! părintele nostru!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>...Și ne izbăvește de cel viclean...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>O! minunat om!</p>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Gesù Maria!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ștefan... ce e, Ștefane?...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Măria-ta... Ce e, măria-ta?</p>
+          </sp>
+          <sp who="#paharnicul ulea">
+            <speaker>PAHARNICUL ULEA</speaker>
+            <p>Ca și mort... la lucru...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>E cald...</p>
+            <stage>(Îi pipăie mâinile și le sărută.)</stage>
+            <p>N-a murit...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Nu moare... Are atâtea puteri... Așa un suflet, Doamne...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Cum îi picură nădușelile pe pernă... Ce mult a suferit...</p>
+            <stage>(Reveca și Irina, la iconostas, zic rugăciuni.)</stage>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Scapă...</p>
+            <stage>(Doftorul Klingensporn și doftorul Cesena dau din cap.)</stage>
+            <p>Ce? Nu?</p>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Si, signore.</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Când s-o deștepta... oleacă de vin...</p>
+            <stage>(Oana se repede și aduce vin.)</stage>
+            <p>Așa, un vin tare, să puie la inimă...</p>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Și liniște, liniște... Dumnezeu va face și minunea asta...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Tocmai acum? Mâine nu s-ar putea?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Cum? Să ieșim din cuvântul lui?... Unde se află...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Ce strigă?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Unde e paharul?</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Iacătă-l!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Foc nestins!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Nu... nu...</p>
+            <stage>(Plânge și-i sărută mâinile.)</stage>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Atunci, de ce plângi?</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Măria-ta, nițel vin...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Șmil...</p>
+            <stage>(Un zâmbet dureros. Soarbe vinul.)</stage>
+            <p>Aaah! Dar ce mă arde așa? Că bine ziceți... Ce e focul ăsta pe lângă focul de pe inima mea... Ia!</p>
+            <stage>(S-aude tumultul mai limpede.)</stage>
+            <p>Ce?... N-auz bine? Ba, auz... Ce strigă?</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Aleg pe Bogdan, măria-ta.</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Î... î... î... Parcă ș-un alt nume... Nu strigă toți la fel... Cine să trăiască?</p>
+            <stage>(Se scoală pe jumătate.)</stage>
+            <p>Cine să trăiască?... Ștefan? Eu? Fiul cui?... Nepotul cui... Moghilă, vezi ce strigă...</p>
+            <stage>(Moghilă se duce la fereastră și se întoarce schimbat la față.)</stage>
+            <p>Spune-mi vorba care ar ucide pe oricare altul în locul meu... Ce?...</p>
+          </sp>
+          <sp who="#clucerul moghilă">
+            <speaker>CLUCERUL MOGHILĂ</speaker>
+            <p>Nedeslușit... Mă repez să aflu...</p>
+            <stage>(Iese repede prin stânga.)</stage>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>Orice mișcare... DOFTORUL</p>
+          </sp>
+          <sp who="#șmil">
+            <speaker>ȘMIL</speaker>
+            <p>E moartea!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Auzi, măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>N-auz... S-a potolit... Iar încep?... A... a... a... a!...</p>
+            <stage>(S-aude glasul lui Ulea cerând domn pe Ștefăniță.)</stage>
+            <p>Dați- mi... ah!... dați-mi...</p>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>Ce faci...</p>
+            <stage>(Toți îl înconjoară d- aproape.)</stage>
+          </sp>
+          <sp who="#doftorul cesena">
+            <speaker>DOFTORUL CESENA</speaker>
+            <p>Nu! DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Nu!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Ah! nu!</p>
+          </sp>
+          <sp who="#reveca">
+            <speaker>REVECA</speaker>
+            <p>Nu!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu!</p>
+          </sp>
+          <sp who="#doftorul klingensporn">
+            <speaker>DOFTORUL KLINGENSPORN</speaker>
+            <p>A! nu!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Toți, dușmani?... Și tu, Oană?...</p>
+            <stage>(S-aude din nou strigând pe Ștefăniță. Se ridică în picioare.)</stage>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Nu... nu te duce...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Tu să schimbi ce-mi este scris... Oană! sabia... sabia... c-am să judec!...</p>
+            <stage>(Oana îi dă sabia.)</stage>
+            <p>Ștefan, nu Ștefăniță... Viu, viu, numaidecât! O! ho! ho! să se împlinească legea!...</p>
+            <stage>(Ștefan pleacă repede și, șchiopătând mai greu, iese prin stânga.)</stage>
+          </sp>
+          <sp who="#doftorul șmil">
+            <speaker>DOFTORUL ȘMIL</speaker>
+            <p>S-a sfârșit! Păcat! DOAMNA</p>
+          </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
+            <p>Ah! Doamne!</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>N-a picat?</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Da... păcătosul...</p>
+          </sp>
+          <sp who="#oana">
+            <speaker>OANA</speaker>
+            <p>Un munte i-ar fi stat în față!</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Spune poporului ceva...</p>
+            <stage>(S-aude: Să trăiască Bogdan!)</stage>
+            <p>Se cutremură... Se întoarce... Vine...</p>
+            <stage>(Toate izbucnesc în plâns.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>O! cine vrea pe Ștefăniță, nepotul răposatului domn al Moldovei?... Cine a zis că sunt bătrân și bolnav?... Pe Ulea l-am măsurat cu privirea... Murise înainte d-a-l izbi!... Picăturile astea sunt calde... În fiece ostaș e o fiară!... Iată-l... Pândește călare... Calul îi tremură și joacă... Bagă pintenii pân la rădăcină... Chiuie de-nfioară valea Racovățului... Unde e mai greu, acolo cade... Un leu în mijlocul dihorilor... Zboară capetele până nu mai simte  mâna din umăr... Când mă văzu, își cuprinse fața cu amândouă mâinele, și eu cu amândouă o învârtii, și trecu prin el ca printr-un aluat ce se dospește... Dumnezeu să-l ierte... Dumnezeu?... Dar cine e de vină? Io, Ștefan voievod, am suit pe Bogdan pe tron... Io, Ștefan voievod, i-am așezat cu mâna mea coroana strămoșilor mei... El fu de față și văzu ce vreau eu, și tot sfatul, și toată ostășimea... Sufletu- mi nu vrea, și ca un scos din fire se aruncă în sabia mea... Cine e de vină?... Se cutremura Moldova și-o prăpastie se deschise... Și cu acest sfânt oțel oprii cutremurul și umplui</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Mă voi odihni...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Bogdan e domn... Uită tot...</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Voi uita tot... nu-mi voi aduce aminte de nimic...</p>
+            <stage>(Suflă greu. Pipăie pe Maria și pe Oana.)</stage>
+            <p>Să dăruiți paharul acesta Mânăstirei Putna... Nu vine...? Mai iute...</p>
+          </sp>
+          <sp who="#doamna maria">
+            <speaker>DOAMNA MARIA</speaker>
+            <p>Cin să vie, măria-ta?</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Nu, doamna aceea înfășurată în negru... Ea o să vie mai degrab decât am dori-o... Poftim... Te-am privit d- atâtea ori în față... Nu mi-e frică de tine...</p>
+            <stage>(Sughiță.)</stage>
+            <p>A! ci vin o dată, Bogdane, că nu pot...</p>
+            <stage>(S-aude la intrare: Să trăiască vodă Bogdan! Năvălesc Bogdan, hatmanul Arbore și toți ceilalți pârcălabi și Sfatul domnesc, ostași, popor, și cad în genunchi.)</stage>
+          </sp>
+          <sp who="#bogdan">
+            <speaker>BOGDAN</speaker>
+            <p>A! Măria-ta!</p>
+          </sp>
+          <sp who="#ștefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>E...</p>
+            <stage>(Sughiță.)</stage>
+            <p>E... mă-ri-a-ta!... Frig... frig...</p>
+            <stage>(Se uită la doamnă, apoi se uită lung la Oana.)</stage>
+            <p>Mai bine...</p>
+            <stage>(Sughiță.)</stage>
+            <p>Mă... voi... odihni...</p>
+            <stage>(Se întinde în șira spinării. Face cruce.)</stage>
+            <p>O... o... o... Moldova...</p>
+            <stage>(Îi cade capul pe pieptul Oanei.)</stage>
+            <stage>(Din mulțime s-aude un geamăt lung.)</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

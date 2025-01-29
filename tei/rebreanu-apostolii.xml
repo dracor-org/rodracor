@@ -1,0 +1,2369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000019" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Apostolii</title>
+        <author>
+          <persName type="pseudo">Liviu Rebreanu</persName>
+          <idno type="wikidata">Q462220</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name></name>
+          <idno type="URL"></idno>
+          <title>Editura Cartea Românească, București</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="mitica_ionescu" sex="MALE">
+            <persName>MITICĂ IONESCU, directorul „Biroului de cartiruiri civile şi militare“</persName>
+          </person>
+          <person xml:id="coca" sex="FEMALE">
+            <persName>Coca</persName>
+          </person>
+          <person xml:id="jenica_brihac" sex="MALE">
+            <persName>JENICĂ BRIHAC, poet și funcționar</persName>
+          </person>
+          <person xml:id="guta_turtureanu" sex="MALE">
+            <persName>GUȚĂ TURTUREANU, funcţionar</persName>
+          </person>
+          <person xml:id="vasile_harincea" sex="MALE">
+            <persName>VASILE HARINCEA, avocat</persName>
+          </person>
+          <person xml:id="d_na_harincea" sex="FEMALE">
+            <persName>D-NA HARINCEA</persName>
+          </person>
+          <person xml:id="veturia" sex="FEMALE">
+            <persName>VETURIA, fiica lor</persName>
+          </person>
+          <person xml:id="miron_dogariu" sex="MALE">
+            <persName>MIRON DOGARIU, avocat</persName>
+          </person>
+          <person xml:id="ion_garofoiu" sex="MALE">
+            <persName>ION GAROFOIU, procuror</persName>
+          </person>
+          <person xml:id="daraban" sex="MALE">
+            <persName>DARABAN, prefect</persName>
+          </person>
+          <person xml:id="harambasa" sex="MALE">
+            <persName>HARAMBAȘA, primar</persName>
+          </person>
+          <person xml:id="mihai" sex="MALE">
+            <persName>MIHAI, servitorul lui Mitică</persName>
+          </person>
+          <person xml:id="roza" sex="FEMALE">
+            <persName>ROZA, servitoare la Mitică</persName>
+          </person>
+          <person xml:id="o_servitoare" sex="FEMALE">
+            <persName>O SERVITOARE în casa Harincea</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q2323852</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1926">
+        <desc/>
+      </event>
+      <event type="premiere" when="1926">
+        <desc></desc>
+      </event>
+      <event type="print" when="1926">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/rom000019" passive="http://www.wikidata.org/entity/None"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Apostolii</titlePart>
+        </docTitle>
+        <docAuthor>Liviu Rebreanu</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>MITICĂ IONESCU</role>
+          <roleDesc> directorul „Biroului de cartiruiri civile şi militare“</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Coca</role>
+        </castItem>
+        <castItem>
+          <role>JENICĂ BRIHAC</role>
+          <roleDesc> poet și funcționar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>GUȚĂ TURTUREANU</role>
+          <roleDesc> funcţionar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>VASILE HARINCEA</role>
+          <roleDesc> avocat</roleDesc>
+        </castItem>
+        <castItem>
+          <role>D-NA HARINCEA</role>
+        </castItem>
+        <castItem>
+          <role>VETURIA</role>
+          <roleDesc> fiica lor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MIRON DOGARIU</role>
+          <roleDesc> avocat</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ION GAROFOIU</role>
+          <roleDesc> procuror</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DARABAN</role>
+          <roleDesc> prefect</roleDesc>
+        </castItem>
+        <castItem>
+          <role>HARAMBAȘA</role>
+          <roleDesc> primar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MIHAI</role>
+          <roleDesc> servitorul lui Mitică</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ROZA</role>
+          <roleDesc> servitoare la Mitică</roleDesc>
+        </castItem>
+        <castItem>
+          <role>O SERVITOARE în casa Harincea</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Dumneaei da, este... Mi se pare că se găteşte ori se odihneşte, cum i-e obiceiul... TURTUREANU</p>
+            <stage>(așezându-se)</stage>
+            <p>: Atunci să aşteptăm, ce zici, Jenică?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Slujbă de procopseală, da...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Ce are a face trecutul? Omul n-a avut noroc, dar deştept a fost întotdeauna!  BRIHAC</p>
+            <stage>(disprețuitor)</stage>
+            <p>: Deştept!... Mare lucru-i să fii deştept!... Adică eu nu-s deştept ?,.. Dar ruşinea amicului începe tocmai când a devenit omul ministrului...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Cu toate astea fata n-are de ce să se plângă. În Bucureşti era... ce era, pe când aici se bucură de consideraţie la rând cu noi...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Dacă e mai deştept?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Ca tine o fi mai deştept, dar eu nu mă dau pe zece ca el!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Nu-ți permit să fii necuviincios, înţelegi? Pe mine mă cunoaşte o lume...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Nu-i deloc plăcut să te ofileşti de urât într-un orăşel de provincie, uitat de Dumnezeu şi de oameni, când ai putea trăi în veselie şi petreceri la Bucureşti...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>A, cunoştinţele şi prieteniile de-aici!... Cât a trebuit să lupte bietul Mitică până au catadicsit să ne primească... Parcă noi, cei de la centru, am fi ciumaţi...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Sunt nişte oameni grozav de bănuitori.. Unde s-a mai pomenit atâta suspiciune între fraţi?... Or fi, nu zic, şi printre ai noştri, îndivizi de mâna a doua, dar noi...?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Sigur!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>De aceea câteodată mă apucă un dor de Bucureşti de-mi vine să urlu...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Voi ca voi, dar ce să zic eu? Pentru un poet Capitala e ca o mamă. Provincia sugrumă talentul, şi încă ce provincie... Noroc că mie mi-a dăruit Dumnezeu şi rezistenţă!... Dacă rămâneam în Bucureşti, mi-aş fi tipărit volumul de „Cântece vitejeşti”! Sunt sigur că toate mi le-ar fi luat Ministerul de Război, să le împartă pe companii ca nişte biblii ostăşeşti... A, Bucureşti, Bucureşti!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Numai adineaori am venit şi tocmai voiam să-i las...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Şi doar ți-am explicat că la şase o să vie familia Harincea cu prefectul şi primarul, să mergem împreună la serbarea orfanilor de război...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Nu mi-ai spus că vin, Miticuţă, zău... Oi fi vrut, dar...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Cel puţin nu mă enerva, ciulică, te rog...</p>
+            <stage>(Către cei doi, în treacăt)</stage>
+            <p>Iertaţi-mă, băieţi, două secunde...</p>
+            <stage>(Către Coca)</stage>
+            <p>Ştii foarte bine că, de câte ori e o serbare la teatru, domnii vin pe la noi...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Tu pregăteşte ce trebuie şi, dacă va fi timp, fireşte... Aşa, ciulică!</p>
+            <stage>(O sărută)</stage>
+            <p>Du-te!... Ce fată bună eşti tu! Eşti adorabilă!</p>
+            <stage>(Iar o sărută.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Atunci aranjez eu cum e mai bine...</p>
+            <stage>(Iese în stânga.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ai tu darul să te amesteci unde nu-ţi fierbe oala... Cine te pune? Tu eşti poet, intelectual, idealist... Ce să te bagi tu în chestiile politice?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>La voi toate, chestiile cu franci sunt politice...</p>
+          </sp>
+          <sp who="#mitica">
+            <speaker>MITICA</speaker>
+            <p>Şi tu, numai franci visezi...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Fireşte, eu îi visez şi tu îi incasezi... Mulţumesc !</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Parcă n-am eu grije şi de tine?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>De mine?... Mersi de aşa grije. Dacă n-ai fost tu în stare în doi ani, de când suntem aici, să-mi faci măcar o listă de subscripţie pentru volum...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ei da, aici ai dreptate... Unde ai, ai... Dar şi tu eşti de vină că nu mi-ai amintit... Jenică dragă, iată, îţi promit solemn... Eşti satisfacut? Un poet ca tine să nu aibă un volum pe piaţă... te cred... Am fost şi eu artist şi înţeleg durerea talentului persecutat de vitregia soartei...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Mitică, ţi-am mai spus, păcat că te-ai lăsat de artă!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Vai de mine, Miticuţă, dar când nu te-am servit eu?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Să fie cum a tost deunăzi, la dezvăluirea monumentului dorobanţului... înţelegi tu...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ar fi mai bine să începi cu ministrul, adică să se înţeleagă că vorbesc în numele lui...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Bine, dar trebuie să spunem că ai fost la Mărăşeşti şi că ai sângerat pentru neam!... Stai! Stai că mi-a venit o idee formidabilă: în timpul bătăliei, când te aruncai asupra nemților, ai găsit între tranşee un orfan pe care apoi l-ai crescut pentru patria întregită... etcetera, etcetera...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Perfect... Ai un talent colosal, Jenică!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Da, da... Du-te acum în camera mea, ori dacă vrei treci în biroul oficial, închide-te acolo, cere o sticlă de vin şi ce mai trebuie pentru inspiraţie, uite şi ţigări, şi aşează-te pe lucrul... Dacă iese straşnic ai de la mine şi un sutar!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Foarte bine şi cuminte ai lucrat, Guţă... Să poftească la birou!... Aşa...</p>
+            <stage>(Gândindu-se.)</stage>
+            <p>Nu ştiu ce mai voiam să te mai rog pe tine...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Poate că te gândeşti la trupa lui Vasilescu de s-a anunţat pentru luna viitoare?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aşa-i, Guţă... Vezi, ce uituc sunt? Să-i ia dracul pe toţi! Ne vin atâţia cerşetori pe cap de nici nu-i mai poţi ţine minte... Dar pentru Vasilescu trebuie să facem ceva. Am jucat odinioară şi eu în trupa lui. E băiat de ispravă. Merită.</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Biletele mi-au sosit la agenţie, credeam însă că mai e timp... Dacă ţii, mă duc să le iau şi putem face safteaua chiar cu barosanii care vin aici?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu, nu, ar fi nedelicat... Eu ziceam să te învoieşti cu poliţaiul să ia asupra lui parterul. La nevoie, îi vorbesc şi eu...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Nu face, Mitică dragă, că doar cu poliţaiul am afaceri curente... Uite, ca să fii complect liniştit, plec de-aci direct la poliţie, că eu la serbare tot nu merg...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Apoi da... N-are de ce? Se zice doar că Harincea e dintre foarte puţinii boieri veritabili din partea locului. Baremi la d-na Harincea omul începe să fie om numai când posedă şapte. rânduri de strămoşi cu hrisoave...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Bine, dar când veţi ajunge la boerie...?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Fireşte. Crezi că nu-mi dau seama? Dar acuma nu mă mai pot retrage. Am convingerea că, prin o renunțare a mea, ţara ar pierde un om, şi ar fi păcat, nu-i aşa, Guţă? Ar fi chiar o crimă din parte-mi...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>De... e complicat...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>E tragic, Guţă! Dacă s-ar mai întâmpla să cadă şi guvernul...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Reiai apostolatul la rând cu noi...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ce apostolat ? Omul se face apostol numai la disperare!</p>
+            <stage>(Revenindu-şi.)</stage>
+            <p>Dar mai bine să lăsăm astea, Guţă... Sunt prea triste! Şi am nevoe de entuziasm, de încredere... Contez pe discreţia ta absolută, Guţă?</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Mai e vorbă?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Sigur, e doar o chestie mare...</p>
+            <stage>(Se uită la ceas.)</stage>
+            <p>Iacă, trebue să pice şi oaspeţii...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Atunci rămâi sănătos, Mitică, şi despre mine n-ai nici o grijă... Petrecere bună!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>La revedere, Guţă dragă!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Ordonaţi !</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Mihai o să avem musafiri... ia seama, să fii deştept.</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Lăsaţi, coane Mitică, vai de mine,.. doar nu ne cunoaştem de ieri-alaltăieri...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Vine şi domnul prefect, şi domnul primar, Mihăiţă!</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Am înţeles: trebue să sosească vreo depeşă?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aşa e, Mihai... A şi sosit, uite-o!</p>
+            <stage>(Îi dă o telegramă.)</stage>
+            <p>Pune: -o bine şi să vii cu ea când o fi toată lumea, înţeles?</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Se poate?... Îmi daţi d-voastră un semn...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ce semn? N-avem timp de semne. Fii tu isteţ şi cu băgare de seamă, să nu-mi faci vre-o boroboaţă...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ascunde depeşa, nerodule!</p>
+            <stage>(Mihai o ascunde; Iese în stânga)</stage>
+            <p>Cine o fi?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Vai, doamnă, sunt aşa de fericit că o să aveţi timp să luaţi ceva la noi înainte de a trece la teatru... Dar vă rog din suflet...</p>
+            <stage>(Oferă scaune.)</stage>
+            <p>Doamnă Veturia, fii d-ta mai îndurătoare...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Uşurinţă la vorbă şi adâncime în sentimente, doamnă!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>În familia noastră şi bărbaţii se poartă ca fecioarele! lacă, de exemplu, eu!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>A, cât mă supără uneori... Nici nu vă închipuiţi ce copilăroasă e Cocuţa! Toată ziua se</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Ne-am împrietenit ca două surori...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ce-i drept, e o fiinţă încântătoare... Nu vreau să mă pronunţ despre bărbaţii din regat, dar femeile d-voastră sunt adorabile, fără discuţie!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Exact. Azi suntem toi democrați!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Din nenorocire aristocrația noastră e atât de amestecată!</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Vai, mămică dragă, ce-o să creadă domnul Ionescu?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ba nu, ba nu!... Dimpotrivă, mă emoționează tot ce spune doamna, fiindcă şi regretata maică-mea vorbea aşa. Tata era mai liberal, ca bărbaţii. Se democratizase şi de-abia se mai sinchisea de strămoşi. Mama însă a rămas dârză şi neînduplecată până a închis ochii, Ea, sărăcuţa, nu putea uita că avea în vine sânge de domnitor...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aveam câteva lăzi de hrisoave, şi din partea mamii şi din a tatii... Din nefericire toate S-au pierdut în timpul ocupaţiei nemţeşti. În conacul nostru strămoşesc a stat doi ani un căpitan neamţ, profesor de meserie, care le-a găsit probabil prea interesante şi le-a expediat cine ştie unde, în Germania...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Slavă Domnului, bine ziceţi... Războaiele au prăpădit multe hrisoave boiereşti... Dar în familia noastră a rămas tradiţia marilor fapte străbune, începând cu Măria Sa Ştefan cel Mare şi Sfânt...</p>
+            <stage>(Se scoală şi se închină ceremonios; ceilalţi îl privesc nedumeriţi.)</stage>
+            <p>Căci neamul nostru, de partea mamii, se trage de la Ştefan cel Sfânt şi Bun...</p>
+            <stage>(Acelaşi joc.)</stage>
+            <p>Anume Sultana Bălăşoiu s-a măritat cu Bogdan Căruntu, nepotul Domnului Ştefan...</p>
+            <stage>(Iar se închină.)</stage>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>De ce îţi tot faci cruce, domnule director?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>A existat vreun domnitor moldovean Bogdan Căruntu ?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Na, bravo... Eşti bărbat modern şi democrat, cum trebue să fim azi cu toţii...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Mă simt însă dator să vă mărturisesc în toată sinceritatea că din partea tatii sunt de neam mult mai modest şi mai obscur. Cel dintâi uric pomeneşte de un străbun al nostru, unul Mircea, banul Severinului, cumnat de soră cu Mihai-Vodă...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>În cursul veacurilor tot aşa a fost. Ba conflicte cu domnii, ba cu năvălitorii... Astea ne-au măcinat şi averile. Când s-au unit familiile părinților mei, fie iertaţi, de-abia mai aveau împreună vreo treisprezece moşii...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Treisprezece! Bravo! Frumuşică avere!... Eu, mă rog, pot spune liniştit că n-am moştenit decât o diplomă mâncată de şoareci, zău aşa!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>A, să nu vă închipuiţi lucru mare... Nişte moşioare micuţe, neînsemnate, toate laolaltă nu erau cincizeci de mii de pogoane...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Eu însă nu pot să mă ating de nimic, adică nu vreau... Am o soră, grija mea cea mare...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>S-ar găsi, fireşte, dar am şi eu slăbiciunea să n-o dau decât după un boier de sânge. De alfel asta a fost dorinţa mamii pe patul de moarte...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu e încă nici o grabă. E tânăra de-ajuns...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Mămică, te rog...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Îmi faceţi mare cinste, doamnă!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Se prea poate, dar fără voia mea, vă rog să mă credeţi! Eu caut să fiu cât mai demo-crat, mai burghez... nu-i vina mea dacă nu reuşesc totdeauna...</p>
+            <stage>(Cu resemnare în glas.)</stage>
+            <p>De altfel m-am aşteptat la toate din clipa când am primit să părăsesc liniştea de la conacul meu strămoşesc şi am alergat aci să-mi slujesc ţara şi pe fraţii desrobiţi...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Au venit şi mulţi nepoftiţi...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Din păcate da... multă neghină...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Şi toți apostoli... Atâţia apostoli e cam mult... Se zice că la d-voastră, dincolo, ar fi multă corupţie şi stricăciune. Nu ştiu dacă e adevărat...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Din păcate e foarte adevărat...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Atunci, mă rog d-tale, de ce nu rămân apostolii acasă, să îndrepte şi acolo ce-i de îndreptat?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu sunt, doamnă, deloc apostol, credeți-mă! Sunt un biet om de treabă care îmi dăruiesc cu drag munca şi priceperea pentru înălţarea acestei provincii minunate... Nu ştiu dacă voi fi izbutit să-mi câştig aici vreo simpatie. Cine îşi face datoria şi numai datoria, ca mine, nu poate recolta multă recunoştinţă imediată. Dar eu am îndrăgit ţara asta şi aş fi fericit dacă m-aş putea aşeza aici pentru totdeauna...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Servus... Ştii ce bine îţi vine rochia asta?... Nu ţi-am mai văzut-o... E nouă?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>D-ta eşti totdeauna drăguţ, nene Laţi baci... Se vede că eşti boer de viţă...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ba dimpotrivă... Domnişoara e adorabilă...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Bine, dar Garofoiu ?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Numai câteva minute, vă rog din inimă... Trebue să sosească şi prefectul... E de-abia şase şi până să înceapă serbarea...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Spunea şi Dogariu că va trece pe-aici cu domnul Garofoiu...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Cocuţa a pregătit o mică gustare.. Nu se poate să o refuzaţi...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Vorbeşti. de lupi şi lupii la uşă... Scuzaţi!...</p>
+            <stage>(Se duce să-i întâmpine.)</stage>
+            <p>Veniţi, domnilor, că vă aşteptăm de un secol!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Servus...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aş, zvonuri... De doi ani se aude mereu...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Scrie în toate foile, şi în cele ungureşti...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Fii liniştit...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Liniştit, liniştit, uşor de zis.... Dar dacă vine pe neaşteptate? Ar fi maremcatastrofă!</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Na, dacă-i aşa, apoi eu tot nu fac politică... Eu sunt gospodar şi administrator...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Bravo! Dar acum un an, când a fost să te numească, te băteai în piept că eşti stâlpul partidului...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Ma rog, atunci era altceva... Eu ştiu gospodărie...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Mai lăsaţi politica, fraților, că întârziem...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Aşa-i că presimţirea mea nu mă înşeală? A şi venit avertismentul...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Mi-ai luat o piatră de pe inimă...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>De mere ionathan am eu grije... Unde să trimitem patru lăzi?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Trimite-le la mine şi le expediez eu împreună cu alte lucruri...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Dar să scrii că-s alese de mine.. să ştie Excelenţa că noi suntem devotați şi mergem în foc pentru oamenii mari ai ţării!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Acuma că v-aţi liniştit, ar fi bine să trecem la o mică şi foarte modestă gustare... Faceţi-mi onoarea, doamnelor şi domnilor!</p>
+            <stage>(Alteargă la sufragerie şi deschide.)</stage>
+            <p>Poftiţi şi să ne iertaţi...</p>
+            <stage>(Oferă un braț d-nei Harincea şi altul Veturiei)</stage>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Laţi baci, mai domol cu ştrengăriile că te aude Elsa neni şi...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Nu se poate, să rămânem în vânt...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>De altfel noi am venit mai ales pentru domnul avocat Harincea...</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Demultişor... au sosit cei dintâi...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Aşa, acuma lasă-ne...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Dacă ai bănui cât mă simt, de jenat că a trebuit să trec pragul acestei case, m-ai compătimi, Garofoiule!... Numai tu mă poţi îndupleca la asemenea compromisuri... S</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Nu-mi face şi tu imputări; îmi fac eu însumi destule... Dar nu mă pot stăpâni, dragă</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Apoi. chiar asta-i buba, că nu te poţi stăpâni. În iubire, ca în toate, se cere să ai răbdare şi încredere. Veturia te simpatizează, iar pentru rest mă însărcinez eu... Va fi nevasta ta!</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Va fi, va fi... De trei luni mă amăgeşti aşa ca pe un copil fără minte...</p>
+            <stage>(Apucându-l de braţ; încet, mişcat)</stage>
+            <p>Ssst... Veturia...</p>
+            <stage>(Din sufragerie a ieşit Veturia şi merge la oglindă, căutând ceva)</stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Garofoiu m-a adus aici aproape cu forţa, Murea dacă nu te vedea o zi...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Vrei să mă măguleşti, Miroane... Eşti drăguţ!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>N-am de gând să-ţi fac ţie nicio imputare că m-ai silit să intru în casa asta... Dar...</p>
+            <stage>(Dându-se laoparte din faţa lui Garoiu)</stage>
+            <p>... mai vorbeşte şi d-ta, domnule, că doar d-ta o iubeşti...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Ai auzit ? Vrea să spuie, cu un cuvânt subţire, că nici nu e adevărat...</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Ba doamna ştie prea bine cât e de adevărat...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Ionică dragă, parcă nici n-ai fi regățean... Te roşeşti şi te zăpăceşti ca un ardelean băştinaş!</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Totdeauna eşti exagerat, Miroane, cu domnul Ionescu...</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Domniţă, te rog, nu-i lua în seamă! Are o inimă bună, dar e pătimaş uneori...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#mitica">
+            <speaker>MITICA</speaker>
+            <p>Şi servitorul nici măcar nu m'a anunţat. Ce rău îmi pare...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Eu sunt vinovatul cel mare... Dealtfel am vrut numai să scuzăm pe Garofoiu faţă de d-na Harincea pentru că nu poate asista la serbare...</p>
+          </sp>
+          <sp who="#ghrofoiu">
+            <speaker>GHROFOIU</speaker>
+            <p>Am la şase o descindere şi mi-e peste putinţă... Chiar am întârziat puţin... uitându-se la ceas...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ce păcat... D-na Harincea are să fie nemângâiată....</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Chiar aşa e, Elsa neni... Nici nu vrem să vă reținem. Numai, Garofoiu s-a crezut obligat să-ţi sărute mâna şi să-ţi ureze suces...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Doamnă, dorinţele d-voastră sunt ordine pentru mine..</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Cum? Plecaţi?... Şi eu care trebue să stau acuma să-mi supraveghiez servitoarele...</p>
+            <stage>(Către d-na Harincea.)</stage>
+            <p>Am nişte servitoare groaznice... Dacă nu stau după ele îmi mănâncă tot, ba mai sparg şi vasele... Ce să fac, Doamne?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu-i nimic, puişorule... Rămâi, isprăveşte-ţi treburile şi vii pe urmă, că teatrul e numai</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Prea mare onoare...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 18</note>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ai aerul că nu eşti mulţumită de sacrificiul meu? Şi eu care eram gata să-ţi cer o recompensă!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Am înţeles: să te las să-mi faci curte?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Asta o făceam şi fără permisiune specială... Eu însă umblam să-ţi cer mai mult...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Adică să te ascult... Poftim, te ascult!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Mulţumesc, dar să mă asculţi şi altfel?</p>
+          </sp>
+          <sp who="#hărincea">
+            <speaker>HĂRINCEA</speaker>
+            <p>Cum, cum... Parcă d-ta, bucureşteancă, nu ştii!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Să-ţi dovedesc...</p>
+            <stage>(O cuprinde.)</stage>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Cum să glumesc?... În amor mai merge cu glume? .</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ei bine, dacă nu-i glumă, te poftese să te porţi cu mine frumos şi să nu mă consideri de pe ulițe!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Adică trebue numai decât să fii de pe uliţe ca să fii iubită?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Sigur... D-ta om însurat, cu fată cât mine... Nu-i firea mea să fiu răutăcioasă, altfel n-aş avea decât să mă plâng d-nei Harincea şi...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>N-o fac ca să nu supăr pe fratele meu..</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ironia nu-ţi şade bine...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu... Mi-a venit în minte că multă lume nici nu vrea să creadă că sunteţi fraţi...</p>
+          </sp>
+          <sp who="#hărincea">
+            <speaker>HĂRINCEA</speaker>
+            <p>Ce sinceritate mai multă vrei decât să vezi pe un om serios ca mine, silit să-ţi mărturisească umil că te iubeşte?... M-aş fi aşteptat măcar la puţină simpatie adevărată...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu-ţi mai cer nimic... Când iubeşti nu începi prin a cântări ce vei da.</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Uiţi mereu că eu sunt fată, iar d-ta...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Nu... însurat! Trebue să mă apăr...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Vezi, cât eşti de rău?... Adică dacă nu te ascult pe d-ta, înseamnă că Mitică nu mai mi-e frate... Spune, n-aş avea dreptul să mă supăr?</p>
+          </sp>
+          <sp who="#harnicea">
+            <speaker>HARNICEA</speaker>
+            <p>Nu! Jigneşte-mă şi d-ta cu puţină iubire şi ai să vezi... Îngăduiemi să te îmbrăţişez măcar atât!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Nu vei reclama mai mult ?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Vrei să jur?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Dacă vrei să te cred?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ei bine, jur... căci în iubire tot nu contează jurămintele..</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nici în gând nu-mi permiţi să te iubesc deplin?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 19</note>
+        <div type="scene" n="19">
+          <head>SCENA 19</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Au plecat toţi adineaori, numai domnişoara a rămas să aranjeze...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Da... să aranjeze...</p>
+            <stage>(Pauză.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 20</note>
+        <div type="scene" n="20">
+          <head>SCENA 20</head>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Roza... Rozico... Am foarte mult de lucru şi am nevoie de inspiraţie, dar văd că aţi strâns masa?</p>
+          </sp>
+          <sp who="#roza">
+            <speaker>ROZA</speaker>
+            <p>Domnişoara a poruncit...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Sigur... domnişoara... Şi nici măcar nu m-aţi vestit când aţi servit gustarea...</p>
+          </sp>
+          <sp who="#roza">
+            <speaker>ROZA</speaker>
+            <p>Domnişoara...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Ştiu, ştiu... Şi eu munceam colea pentru... Putea să-şi aducă aminte...</p>
+          </sp>
+          <sp who="#roza">
+            <speaker>ROZA</speaker>
+            <p>Doriţi ceva?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Nu ţi-am spus?</p>
+          </sp>
+          <sp who="#roza">
+            <speaker>ROZA</speaker>
+            <p>N-avem niinic, domnule. Domnişoara a încuiat-tot...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Nimic, nimic?... Nici vin, nici măcar o dulceaţă?</p>
+          </sp>
+          <sp who="#roza">
+            <speaker>ROZA</speaker>
+            <p>Dacă domnişoară încuie, noi ce suntem de vină?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Domnişoara, mereu dornnişoara... Bine, Roza, bine... Du-te tu la munca ta, iar eu mă întorc la discursul lui... Roza dispare. Mereu domnişoara!... Uite pe cine iubesc eu de ani de zile!... Ce ruşine...Poftim de te mai inspiră, Jenică!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 21</note>
+        <div type="scene" n="21">
+          <head>SCENA 21</head>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Nu... adă-mi numa haina... &lt;didascalie&gt; (Se, aşează obosită.) &lt;didascalie&gt;</p>
+          </sp>
+          <sp who="#vetoria">
+            <speaker>VETORIA</speaker>
+            <p>Eşti prea bun... dar nu trebue să te osteneşti...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Ai fost totdeaunn amabil, dar mai mult nu pot!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Şi totuş  în faţa d-tale am rămas acelaşi...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Nu...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Nu mă joc cu d-ta, nici nu mă gândesc!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ba da, ştiu bine... Uitasem o clipă că între noi e o prăpastie...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Prăpastie ? Nu pricep...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Adică nu vrei să pricepi că între noi se află el, Garofoiu...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Oo..</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ştiam, vorbeşte doar toată lumea că eşti promisă lui... Fireşte, Garofoiu e un bărbat eminent, o figură strălucită în magistratură. Are viitor mare şi calităţi minunate. În faţa lui nu pot decât să mă închin...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Domnul Garofoiu e amabil, ca şi d-ta...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>O, ca mine... Poate eu ca el, căci el are în Dogariu un apologist pe lângă d-ta, permanent, pe când eu n-am decât detractori!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu, dar când ţi se şopteşte în fiecare zi că el e aşa de bun, că e aşa de frumos, că... de</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Eşti tare în complimente, parcă le-ai fi învăţat pe dinafară... Păcat că nu-s şi eu aşa de tare în răspunsuri...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>A, se poate? Păcat... E un artist desăvârşit, ceva...</p>
+            <stage>(Gest.)</stage>
+            <p>Pot să vă asigur şi mă puteţi crede, sunt doar specialist şi mare cunoscător de teatru, că Vasilescu-Herodot e admirabil şi a fost societar la Teatrul Naţional, afară de asta e şi prieten intim cu prietenul nostru comun Mitică Ionescu, şi are ca parteneră pe celebra Silvia Popescu, fostă la.Teatrul Naţional din Bucureşti şi cea mai frumoasă femeie din România. Mare, un talent... ah!</p>
+            <stage>(Gest de admiraţie.)</stage>
+          </sp>
+          <sp who="#hărincea">
+            <speaker>HĂRINCEA</speaker>
+            <p>Nu, mulţumesc, nu iau...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Frumos...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dar dacă eu nu fac deloc politică?</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Atât mai bine, sunteţi cu toate guvernele...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Mi se pare însă că te-ai sculat cam târziu, prietene!... Guvernul se zice că e pe ducă; să aşteptăm până vine altul!</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Nu-i rău să aveţi un suvenir chiar de la guvernul de azi, oricât ar fi de păcătos...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Mă lipsesc de suvenir... Poate guvernul de mâine..</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Să-i aducă Dumnezeu mai repede, să aibă mai multă grije şi de noi care muncim pentru izbânda neamului. Nu-i aşa, domnule Dogariu?...</p>
+            <stage>(Ton comercial.)</stage>
+            <p>Va să zică, coane Laţi baci, vă opresc câte o piesă din fiecare, nu-i aşa?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu, amice, nu...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Nu-mi închipui să ies cu mâna goală din casa d-voastră ospitalieră, spun pe onoarea mea, coane Laţi baci, şi vă rog foarte mult, în numele culturii naţionale...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Regret, dar de data asta... .</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Ei, ţi-a plăcut?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Sunt obişnuit cu apostolii!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Casa d-tale a ajuns un fel de loc de întâlnire a tuturor apostolilor care intră şi ies aici ca la cafenea... Pe mine lucrurile astea mă jignesc adânc!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ce vrei, să-mi scoată vorba că sunt regionalist... Apoi n-am nici un motiv să regret legăturile cu lonescu; dimpotrivă am făcut o plăcere nevestei mele... Ea, cu principiile aristocratice...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Şi d-ta crezi?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dacă Elsa crede, de ce n-aş crede şi eu, mai ales că nici nu mă costă nimic...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Laţi baci, mă uimeşti... Atunci o fi adevărat şi că aveţi de gând să măritaţi pe Veturia cu lonescu?</p>
+          </sp>
+          <sp who="#hărincea">
+            <speaker>HĂRINCEA</speaker>
+            <p>La urma urmelor pentru ce nu? Dacă Elsa îl agreează... .</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Şi cum rămâne atunci Grofoiu? Era ca şi logodnicul Veturiei...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ţii să mă vâri cu orice preţ în încurcături, Miroane? Eşti un tip imposibil! Nu-ţi spuneam eu că oamenii prea cumsecade sunt plicticoşi?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Merg bucuros... Cu Miron am sfârşit. De alfel nici n-am-vorbit decât mărunţişuri...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Din mărunţişuri însă a mai rămas o chestie asupra căreia trebuie să mă lămuresc cu d- ta, Elsa neni!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Da, în urma încurajării d-voastră.</p>
+            <stage>(D-na Harincea protestează.)</stage>
+            <p>Ba da, l-aţi încurajat, mărturisesc eu.. De aceea am îndemnat şi ne-am înţeles să vie azi să vă ceară pe..</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Eu am venit înainte să vă pregătesc.</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>E procuror, va să zică nu un oarecare! Şi complotul, dacă este, s-a urzit cu aprobarea tacită a d-tale!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Şi d-ta eşti fată de preot, Elsa nenil...</p>
+            <stage>(D-na Harincea tresare de indignare.)</stage>
+            <p>Dar am ţinut numai să vă previn. Nu-mi plac echivocurile. Trebue să limpezim situaţia. Atât mai rău dacă d-ta eşti încântată de aristocraticul Ionescu!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Cum văd, d-ta eşti hotărâtă şi n-aştepţi decât să binevoiască domnul lonescu? Prea bine, să mergi până la capăt şi pe urmă voi şti ce am de făcut!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Mulţumesc...</p>
+            <stage>(Se aşază.)</stage>
+            <p>Primirea aceasta atât de cordială şi mai ales acuma când am nevoie de atâta îndemn şi...</p>
+            <stage>(Eroic.)</stage>
+            <p>Trebue să ştiţi că iubesc pe d-na Veturia mai mult decât orice în lume. Miron ştie mai bine ca fost confidentul nostru... Poate că sunt prea îndrăzneţ şi prea... Şi tocmai am venit să vă cer d-voastră...</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>N-aţi înţeles că iubesc pe Veturia? O, dar martor mi-e Dogariu aici de faţă că... Şi de-aceea îmi permit, cu tot respectul, să vă rog mult, din toată inima, să-mi daţi mie de soţie pe Veturia!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Turia îl iubeşte. Mi-a mărturisit mie.</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Sigur, sigur... dar speranţă...?</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Şi cam cât timp o să dureze astea?</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>În loc de amânări fără rost, socotesc că ar fi mai bine să chemăm aici pe Veturia şi s-o întrebăm imediat! Eu primesc hotărârea ei; cred că şi Garofoiu?</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Fie atunci şi o amânare, dar cu termen!</p>
+          </sp>
+          <sp who="#garofoiu">
+            <speaker>GAROFOIU</speaker>
+            <p>Vă mulţumesc, doamnă, şi voi aştepta cu încredere şi îmi permit să sper că...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>E foarte îndrăzneț, dar e tânăr şi trebue să-i trecem cu vederea...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ai dreptate, Elsa dragă, dar nu te mai supăra acuma...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 6</note>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Vă rog să luaţi loc... Am să vestesc numai decât pe...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Sunt foarte discret, dar am să-ţi vorbesc!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Eşti zmintit?... Acuma vrei să-mi vorbeşti, în loc să-mi fi spus pe drum ce aveai?... Ascultă Jenică, tu n-ai bun simţ!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>N-am, pentru că sunt om cinstit...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Doamna vă roagă să aşteptaţi numai două minute...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Da... Mulţumesc...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Lasă, puiule, acuma nu-i vreme de onoare...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Mitică, e o imposibilitate morală să faci ce vrei să faci!... Tu nu te poţi însura cu fata lui Harincea!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Cum, e femeia ta... iubita ta!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Isprăveşte, Jenică! Nu mă face pe mine confidentul geloziilor tale!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Geloziile mele ?...</p>
+            <stage>(crucindu-se.)</stage>
+            <p>Mitică, eşti spăimântător de cinic. Auzi, el trăieşte cu Coca şi...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Da, eu trăiesc cu ea şi tu eşti gelos... Ridicol!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ai, sfârșește, Jenică... Poate să pice d-na Harincea şi n-am poftă să te găsească aici... Umblă sănătos!</p>
+            <stage>(Îl duce de mână până la uşa din fund)</stage>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Altădată, băiete... Du-te cu Dumnezeu !</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>De luni de zile numai gândul acesta mă stăpâneşte, doamnă, şi-mi dă speranţe...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Cuvintele acestea poate vor să acopere un refuz... oh!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Atunci, doamnă, mai am o singură rugăminte: să chemaţi pe Veturia şi s-o întrebaţi aici, în faţa mea, fără a o mai pregăti! Înțelegeți bine că răspunsul ei spontan are să-mi pecetluiască definitiv soarta... Dacă ea mă va respinge, voi avea măcar mângăierea că d-voastră aţi fost îndurătoare!</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Bine, doamnă...</p>
+            <stage>(Iese în dreapta.)</stage>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Vă mulţumesc, scumpă doamnă, pentru cuvintele de încurajare... Sunt un balsam: pe rana inimii mele, o nădejde de bine...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ce-i, ce-i, ce-aţi pus la cale de sâneţi așa de...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Aşa?</p>
+            <stage>(Fără entuziasm.)</stage>
+            <p>Bine. Dacă v-aţi învoit, eu, fireşte, n-am nimic de adăugat, cel mult să vă dau blagoslovenia... Iacă, v-o dau!</p>
+            <stage>(Îmbrățișează pe Veturia şi strânge mâna lui Mitică.)</stage>
+            <p>Să fiţi sănătoşi !</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>În ce priveşte zestrea Veturiei...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Eu aş primi înjosirea asta, dar dacă ţii tu...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Doamne. fereşte, dacă-i aşa, am să mă sacrific... Eu însă aveam de gând să vă cer ceva mai mult... o zestre morală! Fiindcă odată ce mă căsătoresc, vreau să mă stabilesc definitiv aici, să devin ardelean adevărat…</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Să nu uiţi totuși că eşti omul ministrului!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aş, ce bună voie.... Partidul ăsta nu pleacă până nu-l alungă lumea cu pietre!... Am să-mi prezint demisia, să fiu complet liber pe mişcările mele...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dacă e vorba să-i dăm sprijin într-adevăr serios, trebui isprăvit cât mai repede cu logodna, să aibă omul un titlu în faţa alegătorilor!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Mă rog, domnul prefect cu domnul primar doresc să vorbească urgent cu domnul nostru...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>O fi primit şi prefectul vestea căderii...</p>
+          </sp>
+          <sp who="#harince">
+            <speaker>HARINCE</speaker>
+            <p>Ba pe el lasă-mi-l aici... Dacă-i vorba de politică, să fie şi dânsul...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Vezi, am vorbit de toate, numai despre sora d-tale deloc... Dacă ar afla, ar avea tot dreptul să se supere că am fost nedelicaţi...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Coca e fată, bună… Se supără greu şi-i trece iute...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Va să zică ştii, Laţi, vestea?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu-l plânge, Harambaşa! A îndurat oraşul catastrofe şi mai mari, au trecut şi tătarii, şi tot s-a refăcut...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Nu, Laţi, situaţia e foarte serioasă! Dogariu a fost chemat telegrafic la Bucureşti. Probabil va fi numit prefect în locul meu. Dacă vine, cât e el de pătimaş, ar fi în stare să facă cine ştie ce lucruri care să compromită toată reputaţia Ardealului...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Asta ar fi ceva nemaiauzit!...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Am venit la tine, care nu te ocupi de politică şi deci eşti obiectiv, să ne sfătuim, să...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Miron nu prea ştie de glumă...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Pe tine însă te ascultă...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ei, nu totdeauna... Pe urmă acuma voi avea şi eu oarecare nevoi cu dânsul, vă spun cinstit. Viitorul meu ginere are să fie deputat şi deci ne trebuie concursul prefectului...</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Care ginere ? Ea .</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Da, chiar adineaori s-a întâmplat, încât vedeți…</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Ce Surpriză!</p>
+            <stage>(Către Mitică.)</stage>
+            <p>Sincere gratulări!... Unde Mai pui că ai scăpat şi de opoziție!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Întrebarea e dacă primeşte Dogariu?</p>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Cum să nu primească, doar toţi suntem fraţi români!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dar voi sunteţi fraţi sătui, Harambaşal... Miron are principii, cu renegaţi, cu transfugi...</p>
+          </sp>
+          <sp who="#harince">
+            <speaker>HARINCE</speaker>
+            <p>Toate astea e mai bine să le discutaţi cu Dogariu că el e…</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Cu Dogariu sau cu alţii, dacă o fi nevoie, ideea însă vrem să o realizăm negreşit, fiindcă e izvorâtă din cel mai fierbinte patriotism! De aceea doream să avem şi sprijinul tău, dragă Laţi...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Eu ce voi putea, voi face, dar să nu contaţi numai pe mine... De altfel vreme este destulă până la noile alegeri, aşa că...</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>În orice caz îţi mulţumesc, Laţi! Să trăiești şi să-ţi trăiască familia!</p>
+            <stage>(Cordială strângere de mâini.)</stage>
+          </sp>
+          <sp who="#primarul">
+            <speaker>PRIMARUL</speaker>
+            <p>Bine zici, Daraban, să nu uităm să gratulăm pe Elsa neni şi pe Veturia!</p>
+          </sp>
+          <sp who="#prefectul">
+            <speaker>PREFECTUL</speaker>
+            <p>Ne dai voie, Laţi dragă?</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Cum nu... Chiar asta era să-ţi spun şi eu. Aş avea interese. Dacă vine vreun om de treabă la ministerul nostru, aş încerca să mă mai salt şi eu puţin...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Foarte înţelept te-ai gândit... Lista noului guvern se va cunoaşte până ajungi la Bucureşti şi ai să vezi ce se poate. Vorbeşti şi cu Popescu... Ar fi bine să vii tu în locul meu…</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Sunt mulţi flămânzi, de... Dacă am găsi vreo proptea mai solidă...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>N-ar fi rău să iei cu tine şi pe Coca...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Ar fi minunat, numai să vrea dânsa. O femeie frumoasă şi deşteaptă ca ea deschide toate uşile şi înmoaie multe rezistențe. Dar.. când va afla că te însori, aoleu!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Apoi tocmai, încă nu trebuie să afle! Aici să mă ajutaţi şi voi! Trebue s-o cărăbănesc. Ocazia e perfectă. La Bucureşti pe urmă îi explici, fireşte după ce-ţi vei fi făcut afacerile, că aici nu se mai poate întoarce şi că, de se încăpăţânează, va fi arestată şi expediată la urma ei prin poliţie... Am să-ţi dau o scrisoare pentru ea. Nu vreau s-o las nici pe drumuri. A fost fată bună şi mi-ar părea rău să rămâie mâhnită. Trebue să ne despărţim ca prieteni...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Aşa e şi uman, Mitică. Apoi nu se ştie dacă nu-ţi mai poate fi de folos. Viaţa politică are multe întorsături.</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Fireşte... Dar plecaţi imediat, Guţă! Mi-ar fi penibil să se producă vreo discuţie sau chiar...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Vin şi eu îndată, numai să-mi iau rămas bun de la familie. La revedere, dragă Guţă, şi să fie cu noroc!</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Asemenea, Miticuţă...</p>
+            <stage>(Îl îmbrăţişează)</stage>
+            <p>La revedere!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 12</note>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>De-acasă până aici cel puţin zece cunoştinţe m-au oprit să mă întrebe şi să-mi spuie...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Popescu a telegrafiat lui Mitică să meargă numai decât la Bucureşti, că-i foc. Dar el, săracul, nu mai are nici o putere...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Sigur, s-a deocheat de tot cu ăștia...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Ar trebui să iei. tu afacerea în mână. Cu trecerea şi iscusinţa ta ne-ai putea salva pe toţi, Cocuţo! Eu plec cu primul tren. Am merge împreună...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Bietul Mitică, trebui să fie foarte amărât!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Sărăcuţul de el.... Să ştii că merg cu tine la Bucureşti şi nici să nu-i spunem, c-ar fi în stare să nu mă lase!</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>E în stare. E atât de ambițios că trebuie să-i faci binele cu forța!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Plec cu tine; Guţă, m-am hotărât! Du-te înainte şi spune Rozei să-mi pregătească valiza... Eu trebuie să vorbesc cu Veturia, să mă scuze; proiectasem o mică excursie cu trăsura până la moşia lor... Dar ce să ne mai ardă de distracţii când e în joc viața bietului Mitică?</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Ia seama să nu întârzii că trenul pleacă peste două ore!... Fii calmă, Coca! În astfel de cazuri îţi trebuie sânge rece şi multă, multă istețime... Mă duc şi te aştept...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Bine, Guţişor, la revedere!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ştiu ce vrei: căderea guvernului, tremuri că vei fi măturat!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Şi nu-i adevărat? Nu v-am surprins atunci sărutându-vă?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Asta se cheamă la d-ta iubire, să te săruți cu alţii?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Şi adică nu-i adevărat?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Mitică umblă să se însoare cu fata lui Harincea, auzi? Adineaori a fost aici să-i ceară mâna!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ai terminat?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Îți pierzi vremea, Jenică...</p>
+            <stage>(Îi întoarce spatele.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>M-am plictisit aşteptând. Mi se pare că servitoarea a uitat să vestească pe Veturia că am venit şi sunt grăbită din pricina lui Mitică...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Fireşte... Adineaori a ieșit de-aici cu prefectul şi primarul. S-a aranjat bine tot!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Aici e uşor de aranjat, dar să vedem la Bucureşti... Eu în orice caz plec...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Lasă-l de-acuma pe Mitică în seama noastră... D-ta gândeşte-te numai la mine! Ştii că am o promisiune dela d-ta?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Promisiune? De la mine?..</p>
+            <stage>(Drăgălaş.)</stage>
+            <p>Nu-mi amintesc.</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Cum uiţi, şireato, când nu-ţi convine? Degeaba, de mine nu scapi cu una cu două. Am să te plictisesc cu iubirea mea până vei capitula fără condiţii!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Să nu-ţi închipui că vei fi fără rival cu sistemul d-tale. Acum a ieșit de-aci poetul Jenică Brihac care mă persecută cu amorul de ani de zile...</p>
+            <stage>(Nerăbdătoare.)</stage>
+            <p>Dar Veturia nu dă nici un semn de viaţă...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dacă servitoarea a uitat să te anunțe, am să-i dau un bacşiş regal pentru că mi-a procurat bucuria de-a mai putea schimba două vorbe cu d-ta...</p>
+            <stage>(Sună.)</stage>
+            <p>Am să-mi găsesc bucluc cu nevastă-mea din pricina asta, dar nu-mi pasă... &lt;didascalie&gt; (Apare Servitoarea.) &lt;didascalie&gt; Ai spus doamnei mici c-a venit domnișoara?</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Vai, iertaţi-mă, am uitat, uita m-ar moartea...</p>
+            <stage>(Aleargă şi iese în dreapta.)</stage>
+            <p>_</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>M-a trimis: să-i comand personal, pentru masa de diseară, două torturi cu iniţiale şi să-i aduc răspuns grabnic...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>N-am să-ţi procur plăcerea asta fiindcă, uite, am fugit... Îţi sărut mânuşiţa!</p>
+            <stage>(O face.)</stage>
+            <p>Te previn însă că pe viitor n-o să mă mai încred în promisiunile d-tale!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Vai, parcă ai fi cu totul străină, Cocuţo1... Cu fratele tău...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Niciodată!...</p>
+            <stage>(Disperată.)</stage>
+            <p>Mai bine mă încurc cu Jenică ! E Ia</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 17</note>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>O mare ruşine, mamă!</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Eu ţi-am spus, mamă, destul, să fim cu băgare de seamă şi să nu ne grăbim...</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>D-ta ştiai bine că ţin la Garofoiu şi totuși l-ai îndepărtat!</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Te-am ascultat orbeşte şi vezi unde am ajuns…</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Dar ne-a înşelat, mamă!</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>Poate că nici el n-a ştiut...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Te-am lăsat să hotărăști tu...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Adevărat, în definitiv ce ne pasă nouă de soră-sa, dacă el e om de treabă? Toţi tinerii au amante...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Atunci anulăm consimţământul şi contramandez masa de astă-seară şi torturile cu iniţiale?... Bine!</p>
+          </sp>
+          <sp who="#veturia">
+            <speaker>VETURIA</speaker>
+            <p>De ce numai masa? Ce mai vrei, mamă ?, Să nu mai contezi pe supunerea mea...</p>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL III</note>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <note type="title">SCENA 1</note>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Ai rănit-o adânc... Eşti un criminal!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Eu iubesc pe Coca şi, dacă mă însor, nu înseamnă că mă despart de ea. Însurătoarea e chestie de politică...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Eu, cinstit ca totdeauna, ţin să te anunţ că de la Coca să nu mai aştepţi nimic. Nu te mai iubeşte. Iubește pe altul!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ţi-a spus ea ?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Bănuiam că tu n-ai să mă laşi pradă deznădejdii. De-aceea am şi făcut apel la tine. Fiindcă pe Coca am pierdut-o iremediabil, baremi să nu pierd şi pe fata lui Harincea...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>A, mai speri?... Eşti optimist, de... Eu m-am întâlnit ieri nas în nas cu Harincea, am salutat cu respect şi s-a făcut că nu mă vede... Din pricina ta, desigur!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Eu cred că şi ei mai aşteaptă o modalitate de împăcare... Am motive, Jenică, ascultă!... După scandalul cu Coca, Harincea mi-a trimis vorbă că masa a fost contramandată, înţelegi? Atât: masa...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Atunci de ce nu te-ai dus să te explici? Hşa ar fi fost corect…</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu mă puteam explica cu ei până ce nu aveam mai întâi o explicaţie cu Coca!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Oricum trebuia să găseşti o formă de scuze sau ceva, să nu rămâie cu impresia că...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Poate că totuși e mai bine aşa, Jenică, ascultă-mă pe mine!... De altfel mi se pare că afacerea n-a luat proporţii, cel puţin n-am auzit nimic prin oraş... A venit bine şi căderea guvernului. Oamenii nu mai au timp să se ocupe de cancanurile familiare... Cum vezi, Jenică, mi-a rămas portiţa întredeschisă. Totul atârnă de Coca şi de tine...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Eu te servesc bucuros cât voi putea...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Servindu-mă, te serveşti şi pe tine, Jenică, să vezi... Dacă eu mă însor cu Veturia, scapi şi tu definitiv de un concurent!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Bine, şi pe urmă?... Dacă mă întreabă de ce n-ai mai dat pe-acolo?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Atunci vii cu, argumentele psihologice, că doar eşti poet, Jenică.</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Dar dacă Coca te-a zugrăvit în aşa hal că oamenii nici nu mai vor să audă de tine?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Ei vezi, aici avem nevoie de Cocuţa... Bine, nu mă mai iubeşte, dar m-a iubit şi deci poate să-mi facă, ultima dată, un serviciu pentru care să-i fiu recunoscător toată viaţa!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Ea ce-ar putea să-ţi mai ajute?...</p>
+            <stage>(Bănuitor)</stage>
+            <p>Îți dai seama că eu, iubitul ei, nu voi permite nici un gest care să...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Bine, aşa îi dau voal... Dar stai, crezi că Harincea o s-o mai primească?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aici e cuiul, Jenică ! Sunt sigur că nu vor primi-o în casa lor. Urmează dar să se întâlnească într-un loc neutru. Uite, aici e biroul cartirurilor civile şi militare. Poate veni oricine. E la dispoziţia publicului...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Are să fie greu, foarte greu...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>De aceea te rog pe tine care eşti deştept şi...</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Sunt foarte deştept, dar o să fie extrem de greu!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Totuși trebuie încercat... Dacă izbutim, vom fi toţi fericiţi. Trebui să izbutim!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 2</note>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Va să zică s-a sfârşit tot?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>A, dacă mă rogi tu...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Să nu cumva să-mi vorbească însă de dragoste!... Opreste-l tu, Jenică, să-mi pomenească de amor!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>E sentința mea de moarte, dar mă supun...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 3</note>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>E un băiat de inimă, ciulică! Merită să-l iubeşti!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Toate aparențele sunt împotriva mea...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Era să plec fără să te mai văd, dar Jenică îmi spuse că eşti foarte nenorocit şi, în amintirea iubirii mele, care a fost sinceră şi cinstită, vreau să mai fac pentru d-ta un, gest, ultimul... Ştiu că asta n-are să-ţi sporească regretele după mine, ştiu, degeaba cauţi să protestezi, te cunosc prea bine...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ce-ţi pasă?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu te întreb ca să-ţi răscolesc amintiri penibile, dar trebuie să ştii, ciulică scumpă, că sunt pierdut dacă se strică logodna, cu desăvârşire pierdut !</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Mi se prăbuşeşte toată situaţia pentru care am muncit şi din pricina căreia am fost ingrat şi faţă de tine! N-am decât o singură ieșire: Să mă însor cu...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Din partea mea eşti liber...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Jenică s-a dus să caute o apropiere, dar norocul meu e în mâna ta!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Cum, să mă duc iar acolo?... Niciodată</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Nu să te duci, nu... Jenică vrea să aranjeze o întâlnire, poate chiar pe mâine... Dar presupunând că el nu izbuteşte, tu poţi face mult prin Harincea... Ştiu că-ţi cam ciupea curte...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Dacă i-ai vorbi...? .</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Numai să nu-i fie frică să vie, de bătrâna?</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>La birou, aici?... Vine sigur!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Bine. Am să-l chem. Dacă vine...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Vine... Uite colea telefonul...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Atunci tu pleacă... Du-te!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Am plecat!</p>
+            <stage>(Iese în dreapta.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 4</note>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ascultă, Mihăiţă...</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Ordonaţi duduiță...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Ştii că eu mă întorc la Bucureşti?</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Nu... Nu mi-a spus nimic conu Mitică...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Plec singură, Mihăiţă... Ei, şi mi-ar trebui să-mi impacheteze cineva lucrurile, să mi le ducă la gară, să le încarce cu băgare de seamă în vagon... Iau un vagon întreg!</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Da ce vreţi să duceţi într-un vagon întreg?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Cum ce? Toată casa! Toate lucrurile-s ale mele...</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Nu ştiu ce are să zică conu Mitică dacă-i lăsaţi casa goală, de... Mi se pare că aţi avut o neînțelegere că conaşul nici n-a dat pe-acasă...</p>
+            <stage>(Se scarpină în cap)</stage>
+            <p>: De...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Apoi d-aia şi plec. Ne-am supărat de tot...</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>De, ce să zic eu. . bine nu-i…</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Poate nu crezi că-s lucrurile mele?</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Eu vă cred, dar fără ordinul domnului director...</p>
+          </sp>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Nu vă mâniaţi, duduiţă, dar eu cu slujba...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 5</note>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Puţintel?... Ce vorbă-i ast ?... Enorm țin, Coca, mai mult decât enorm!</p>
+            <stage>(Îi sărută lung mâna.)</stage>
+            <p>Dacă d-ta ai ţine numai pe sfert, eu m-aș declara mulţumit!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ai fi găsit o formă să-mi demonstrezi că într-adevăr ţii, de atâta vreme de când ne cunoaştem... Dar însfârşit a sosit şi prilejul să repari... Imediat... Uite-aşa!</p>
+            <stage>(O sărută.)</stage>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Rău faci. Noi ne unificăm fără condiţii cu regăţencele. Nu prea ne plac regăţenii, dar adorăm pe regăţence!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>La mine faci aluzie?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Eu iubesc, dar ca să mă duc până la Bucureşti? Ceri prea mult, Coca!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Adică îţi închipui d-ta că, rămânând aici, te-ai putea întâlni vreodată cu mine fără să afle tot oraşul şi chiar Elsa neni?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Adevărat. Dar poate născocim ceva mai bun. Bucureştii, cincisprezece ore de accelerat, e prea departe... Zău, Coca, nu e deloc practic. Trebuie aă găsim ceva mai practic...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Fă-ţi rost să stai şi d-ta la Bucureşti. Alege-te senator!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>N-ar fi rău, dar dacă nu fac politică?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Când iubeşti aevea faci orice, chiar şi politică!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>. Ar părea suspect. Trebuiemotive foarte serioase...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Când iubeşti, găseşti toate motivele !</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dacă mi-ai spus neîntrebată? Amănuntele se vor specifica la Bucureşti între senatorul Harincea şi domnişoara Coca...</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Pentru ceea ce ştii, ai venit d-ta singur. Eu te-am poftit pentru altceva.</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>S-auzim!</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Pentru...</p>
+            <stage>(Șovăind.)</stage>
+            <p>Pentru... Mitică… Ionescu...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Parcă spuneai că v-ați despărţit?... A, ştrengăriţo, vrei să mă tragi pe sfoară înainte chiar de a începe alianţa?</p>
+          </sp>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Nu, crede-mă! Jur!... De altfel el rămâne aici! Dar e prea nenorocit... Trebue să iubească foarte mult pe Veturia dacă, pentru ea, m-a înşelat pe mine care i-am fost atât de credincioasă... Are să fie un ginere să-ţi facă cinste!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Eu, drept să-ţi spun, n-am nimic împotriva lui, dar nevastă-mea e cam supărată că aţi înşelat-o, iar Veturia se simte ofensată!</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Pentru asta venise Brihac? L-am văzut în conciliabul vehement cu Elsa, dar...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>S-a admis. Nu-s capabil de rezistenţă. Am să încerc!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Astâmpără-te, dragă Elsa...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Dragă Elsa...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Îți explic tot, dar nu striga... M-a chemat să-mi comunice ceva foarte important relativ la familia noastră… Fiindcă era vorba de familie, am venit...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Tu eşti în afară de orice comparaţie...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Mi-a vorbit de Ionescu... Voia să vie la tine, să-ţi ceară scuze şi să-ţi mărturisească sincer  că atunci l-a calomniat pentru că era furioasă...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>De aceea n-o fi cutezat să-şi mărturisească relaţiile cu dânsa...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 8</note>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>A, de asta sunt sigur. Ea nici n-a auzit probabil despre Ştefan cel Mare Şi Sfânt...</p>
+            <stage>(Se închină.)</stage>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Îmi spuse că pleacă definitiv acasă...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Atunci alerg să comand torturile ?</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Noul nostru prefect...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Mai bine mergem cu toţii acasă, dragă Elsa! Trebue să vezi ce zice şi Veturia, că ştii cât s-a îndârjit...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Şi baremi nu ne face să aşteptăm aici prea mult ca nişte bieţi chiriaşi fără căpătâi!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 9</note>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Exagerezi, Elsa, şi pe urmă iar o să fiu eu de vină.</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Pe mine nici nu mă mai bagă în seamă, cu toate că abia aşteptam să-l gratulez...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Iartă-mă, Laţi baci, dar trebuie să o servesc întâi pe dumneaei...</p>
+            <stage>(Strânge mâna lui Harincea, apoi sărută zâmbind mâna d-nei Harincea.)</stage>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Ai uitat?... Eu nu; obicei mocănesc!...  Deşi am avut în Bucureşti nesfârşite conciliabule şi alergături, n-am; neglijat să mă interesez de Ionescul d-tale şi de surioara dumnealui...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Dă-mi voie să completez eu : care l-a lansat pe scumpul nostru Ionescu!</p>
+            <stage>(Scoate din geantă hârtii.)</stage>
+            <p>Doreşti poate amănunte mai ample?</p>
+            <stage>(Frunzăreşte hârtiile.)</stage>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Miroane, fii cavaler!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Nu, nu despre domnişoara, ci despre urmaşul lui Mihai Viteazul... Va să zică...</p>
+            <stage>(Uitându-se în hârtii…)</stage>
+            <p>are treizeci şi cinci ani, fiul unui lucrător cărămidar…</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>A debutat în viaţa publică la un teatru de periferie ca cortinar...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Mai târziu, făcând cunoştinţă intimă cu numita Coca, a devenit întreţinutul ei...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>În sfârşit un ministru de ieri, ca să fie pe placul domnişoarei Coca, l-a trimis aici ca agent electoral şi a ajuns descendentul lui Ştefan cel Mare şi aproape ginerele lui Harincea...</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>E serios, Miroane?</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Ar fi şi chiar este un mare noroc pentru Veturia, crede-mă, Elsa neni! Şi o mai mare fericire pentru Garofoiu care merită pe Veturia!</p>
+          </sp>
+          <sp who="#harinca">
+            <speaker>HARINCA</speaker>
+            <p>Fii calmă, Elsa, fii...</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Elsa neni, ai putinţa să dregi numaidecât lucrurile.. Vrei să măriţi pe Turia cu un regăţean? Ia-l pe Garofoiu.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 10</note>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Da, chiar domnul prefect, ai ghicit!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 11</note>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Nu-ţi cheltui zadarnic elocvenţa, poete! S-a stricat!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Cum s-a stricat? Nu se poate! Nu-i mai daţi de soţie pe... Ar fi păcat</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Dacă nu-i viță de-a lui Mihai Viteazul?</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Ce are a face?</p>
+            <stage>(Mândru)</stage>
+            <p>Iaca, eu sunt fiu de ţăran din Muntenia şi totuși, prin talentul meu, am ajuns poetul neamului!</p>
+            <stage>(Se întoarce la Mitică)</stage>
+            <p>Atunci îmi pare rău, Mitică! Condoleanţele mele! Nu fi mâhnit! Reîncepi apostolatul !... Mai este atât de mult de făcut aici pentru întărirea conştiinţei naţionale!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Am venit. să fac ordine: Începem purificarea aici…</p>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Ce spui, Miroane? Şi ei care se oferiseră să se reîntoarcă la voi cu întreaga lor organizație!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Noi facem apel numai la oameni cinstiţi şi capabili... D-ta în primul rând, Laţi baci, eşti dator să ne sprijineşti!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Elsa neni, bravo! Facem pe Laţi baci, senator!</p>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Coca mi-a mărturisit adineaori că domnul Harincea merge la Bucureşti numai pentru ea şi că are să-i cumpere casă şi automobil... Domnul e rivalul meu!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>N-ai încredere nici în mine?... Ei bine, te vestesc că Garofoiu nu e rudă cu Mihai Viteazul, e odraslă de preot ca şi d-ta!</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Bravo, Turia!</p>
+            <stage>(vrea să-i sărute mâna; Garofoiu se îmbulzeşte să-i ia locul.)</stage>
+            <p>A, tu erai ?... Poftim, e dreptul tău!</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 13</note>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Ce post?</p>
+          </sp>
+          <sp who="#dogariu">
+            <speaker>DOGARIU</speaker>
+            <p>Aici?... Nu se poate</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Am ordinul de numire în buzunar, dacă vă interesează...</p>
+            <stage>(Scoate o hârtie din buzunare.)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#mihai">
+            <speaker>MIHAI</speaker>
+            <p>Două telegrame urgente de la Bucureşti pentru domnul prefect Dogariu...</p>
+            <stage>(Dându-i-le.)</stage>
+            <p>De un, ceas vă caută factorul pretutindeni...</p>
+            <stage>(Iese cu plecăciune.)</stage>
+          </sp>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Dragă Guţă, vreau să fiu cel dintâi care te felicită din toată inima. Să trăiești şi la mai mare!</p>
+            <stage>(Se îmbrăţişează.)</stage>
+          </sp>
+          <sp who="#harincea">
+            <speaker>HARINCEA</speaker>
+            <p>Miroane, fii cu minte, nu te pripi! Gestul tău ar pune în încurcătură grea guvernul abia constituit! Politica are anume tradiţii care nu se pot schimba atât de repede ca părerile iubitei mele Elsa...</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 14</note>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <sp who="#brihac">
+            <speaker>BRIHAC</speaker>
+            <p>Necioplit prefect!</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Aşa-i când îţi legi soarta de o femeie zăpăcită. Dacă era ea deşteaptă...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Bun. Îți promit solemn.</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 15</note>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Apropos, Mitică... Era să uit o chestie de mare importanţă pentru tine. Ai auzit că Daraban şi Harambaşa au trecut cu noul guvern...</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>În frunte cu tine...</p>
+          </sp>
+          <sp who="#mitică">
+            <speaker>MITICĂ</speaker>
+            <p>Cu mine: Cădem sigur, dar la guvernarea viitoare sunt deputat şi şeful organizației judeţene!</p>
+          </sp>
+          <sp who="#turtureanu">
+            <speaker>TURTUREANU</speaker>
+            <p>Să mai poftească pe urmă alde Dogariu să ne scoată de-aici</p>
+          </sp>
+        </div>
+        <note type="title">SCENA 16</note>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <sp who="#coca">
+            <speaker>COCA</speaker>
+            <p>Vreau să juri, dar sincer.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
