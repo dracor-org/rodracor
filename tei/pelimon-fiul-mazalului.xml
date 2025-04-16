@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000008" xml:lang="rom">
@@ -7,7 +7,7 @@
       <titleStmt>
         <title type="main">Fiul mazâlului</title>
         <author>
-          <persName type="pseudo">Alexandru Pelimon</persName>
+          <persName type="pseudo">Alessandru Pelimon</persName>
           <idno type="wikidata">Q26202487</idno>
         </author>
       </titleStmt>
@@ -23,8 +23,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <name></name>
-          <idno type="URL"></idno>
+          <name/>
+          <idno type="URL"/>
           <title>Tip. lui C.A. Rosetti și Vinterhalder, București</title>
           <availability>
             <licence>
@@ -38,10 +38,10 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="caminareasa_casandra" sex="FEMALE">
+          <person xml:id="casandra" sex="FEMALE">
             <persName>Căminăreasa Casandra</persName>
           </person>
-          <person xml:id="gligore_setrarescu" sex="MALE">
+          <person xml:id="gligore" sex="MALE">
             <persName>Gligore Șetrărescu</persName>
           </person>
           <person xml:id="frumoasa" sex="FEMALE">
@@ -59,21 +59,20 @@
           <person xml:id="ionache" sex="MALE">
             <persName>Ionache</persName>
           </person>
-          <person xml:id="postelniceasa_ilinca" sex="FEMALE">
+          <person xml:id="ilinca" sex="FEMALE">
             <persName>Postelniceasa Ilinca</persName>
           </person>
-          <person xml:id="doctorul_sasi" sex="MALE">
+          <person xml:id="doctorul" sex="MALE">
             <persName>Doctorul Sasi</persName>
           </person>
           <person xml:id="un_avocat" sex="MALE">
             <persName>Un avocat</persName>
           </person>
-          <person xml:id="moasa_sultana" sex="FEMALE">
+          <person xml:id="sultana" sex="FEMALE">
             <persName>Moașa Sultana</persName>
           </person>
           <person xml:id="bradu" sex="MALE">
             <persName>Bradu</persName>
-            <persDesc>un țăran</persDesc>
           </person>
           <person xml:id="doi_dorobanti" sex="MALE">
             <persName>Doi dorobanți</persName>
@@ -81,7 +80,7 @@
           <person xml:id="doi_domestici" sex="MALE">
             <persName>Doi domestici</persName>
           </person>
-          <person xml:id="omul_stapanirii" sex="MALE">
+          <person xml:id="omul_stăpânirii" sex="MALE">
             <persName>Omul stăpânirii</persName>
           </person>
           <person xml:id="invitati" sex="MALE">
@@ -118,10 +117,7 @@
         <desc/>
       </event>
       <event type="premiere" when="1851">
-        <desc></desc>
-      </event>
-      <event type="print" when="1851">
-        <desc></desc>
+        <desc>S’a representat pentru întiea dată, pe scena Română din București, la 28 Aprilie, 1848.</desc>
       </event>
     </listEvent>
     <listRelation>
@@ -176,6 +172,7 @@
         </castItem>
         <castItem>
           <role>Bradu</role>
+          <roleDesc>un țăran</roleDesc>
         </castItem>
         <castItem>
           <role>Doi dorobanți</role>
