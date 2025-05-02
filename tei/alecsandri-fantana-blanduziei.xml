@@ -1,0 +1,3215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q25468151" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Fântâna Blanduziei</title>
+        <title type="sub">Piesă în 3 acte și în versuri</title>
+        <author>
+          <persName type="pseudo">Vasile Alecsandri</persName>
+          <idno type="wikidata">Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name/>
+          <idno type="URL"/>
+          <title>Edit. Librăriei Socecu &amp; Comp., București, 1883</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="horatiu" sex="MALE">
+            <persName>Horațiu</persName>
+          </person>
+          <person xml:id="mecena" sex="MALE">
+            <persName>Mecena</persName>
+          </person>
+          <person xml:id="postumus" sex="MALE">
+            <persName>Postumus</persName>
+          </person>
+          <person xml:id="scaur" sex="MALE">
+            <persName>Scaur</persName>
+          </person>
+          <person xml:id="zoil" sex="MALE">
+            <persName>Zoil</persName>
+          </person>
+          <person xml:id="glutto" sex="MALE">
+            <persName>Glutto</persName>
+          </person>
+          <person xml:id="hebro" sex="MALE">
+            <persName>Hebro</persName>
+          </person>
+          <person xml:id="gallus" sex="MALE">
+            <persName>Gallus</persName>
+          </person>
+          <person xml:id="getta" sex="FEMALE">
+            <persName>Getta</persName>
+          </person>
+          <person xml:id="neera" sex="FEMALE">
+            <persName>Neera</persName>
+          </person>
+          <person xml:id="cebal" sex="MALE">
+            <persName>Cebal</persName>
+          </person>
+          <person xml:id="strobil" sex="MALE">
+            <persName>Strobil</persName>
+          </person>
+          <person xml:id="menas" sex="MALE">
+            <persName>Menas</persName>
+          </person>
+          <person xml:id="coerax" sex="MALE">
+            <persName>Coerax</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1883">
+        <desc></desc>
+      </event>
+      <event type="premiere" when="1884-03-22">
+        <desc>Premiera piesei a avut loc în 22 martie 1884, la Teatrul Naţional</desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/Q25468151" passive="http://www.wikidata.org/entity/ro000022"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Fântâna Blanduziei</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Horațiu</role>
+        </castItem>
+        <castItem>
+          <role>Mecena</role>
+        </castItem>
+        <castItem>
+          <role>Postumus</role>
+          <roleDesc>pretor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Scaur</role>
+          <roleDesc>libert</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Zoil</role>
+          <roleDesc>parazit</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Glutto</role>
+          <roleDesc>idem</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Hebro</role>
+        </castItem>
+        <castItem>
+          <role>Gallus</role>
+          <roleDesc>notari a lui Horațiu</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Getta</role>
+          <roleDesc>sclava lui Scaur</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Neera</role>
+          <roleDesc>celebra cântăreață</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Cebal</role>
+        </castItem>
+        <castItem>
+          <role>Strobil</role>
+        </castItem>
+        <castItem>
+          <role>Menas</role>
+        </castItem>
+        <castItem>
+          <role>Coerax</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <note type="title">ACTUL I</note>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <note type="title">SCENA I</note>
+        <div type="scene" n="I">
+          <head>SCENA I</head>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>Se pleacă pe fântână și privește în fund</stage>
+            <stage>(purtând o cunună de flori pe cap, se pogoară pe cărare și culege ierburi pe împrejurul fântânei)</stage>
+            <l n="1">A! iaca mintă-creață, și cimbru, și sulcina,</l>
+            <l n="2">Și ierburi de câmpie, și plante de grădină...</l>
+            <l n="3">Ce de mai flori în cale-mi răsar jur-împrejur</l>
+            <l n="4">Pe locurile-aceste, aproape de Tibur!</l>
+            <l n="5">S-ar crede că, în grabă, frumoasa zee Flora</l>
+            <l n="6">A părăsit culcușu-l, surprinsă de-Aurora,</l>
+            <l n="7">S-a mers ca să se scalde în Anio cu ea,</l>
+            <l n="8">Având de mărturi numai pe mine și o stea.</l>
+            <l n="9">Eu am cules pe urmă-i comoara parfumată</l>
+            <l n="10">Ș-am împletit pe frunte-mi cununa rourată</l>
+            <l n="11">Și mi-am împlut, voioasă, cămeșa de la sân,</l>
+            <l n="12">Ca să-mi alin simțirea și gândul să-mi alin.</l>
+            <l n="13">Hai, scumpe sorioare, uitându-ne sclavia,</l>
+            <l n="14">Să ne-oglindim în apa fântânei Blanduzia.</l>
+            <l n="15">Pe fașa ei, se zice, că, dup-al nostru dor,</l>
+            <l n="16">Apare-n faptul zilei un scump liberator.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA II</note>
+        <div type="scene" n="II">
+          <head>SCENA II</head>
+          <sp who="#">
+            <stage>Iese, alergând, în dreapta</stage>
+            <setting> Getta; Gallus</setting>
+            <stage>(vine repede, din stânga, grăind în cantonadă; el ține în mână un papirus și o spadă)</stage>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="17">Să duc odă Lydiei, și spadă de rugină</l>
+            <l n="18">S-o șterg? Bine.</l>
+            <stage>(Se oprește)</stage>
+            <l n="19">. A! Cine pe apă se înclină?</l>
+            <l n="20">Stăpânul meu, Horașiu, cu mintea cam în zbor,</l>
+            <l n="21">Ar zice că-i Naiada acestui mic izvor.</l>
+            <l n="22">Ce face?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="23">O! fântână cu apă limpede,</l>
+            <l n="24">Arată-mi pe ursitul, dar, vezi, plăcut să fie...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(plecându-se pe deasupra Gettii)</stage>
+            <l n="25">Eu sunt!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(speriată)</stage>
+            <l n="26">A!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="27">Ce te sperii?... doar nu-s de speriat.</l>
+            <l n="28">Tu ești frumoasă fată, și eu, frumos băiat.</l>
+            <l n="29">Privește!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="30">Dar de unde ai răsărit?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(arătând în stânga)</stage>
+            <l n="31">De-acasă,</l>
+            <l n="32">De-aice, vezi? Horațiu invită mâni la masă</l>
+            <l n="33">Pe gingașa Lydia... Mergeam... dar te-am zărit,</l>
+            <l n="34">Și iată-mă prin farmec deodată-n loc oprit.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(observându-l)</stage>
+            <l n="35">Ești sclavul lui Horațiu?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(cu mândrie)</stage>
+            <l n="36">Sunt Gallus! Al meu tată</l>
+            <l n="37">A fost un brenn puternic în Gallia Comata.</l>
+            <l n="38">El s-a luptat cu Caesar, neîmpăcat aprins,</l>
+            <l n="39">Și s-a ucis el însuși când s-a văzut învins.</l>
+            <l n="40">Eram copil atunce; dar tu ce ești?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cu sfiala)</stage>
+            <l n="41">Eu?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="42">Cine?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(tristă)</stage>
+            <l n="43">Sunt Getta, o victimă a Romei.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="44">O! destine,</l>
+            <l n="45">Aceeași umilire ne-ai dat la amândoi.</l>
+            <l n="46">Sclavia!... Dar ce-mi pasă când Venus e cu noi,</l>
+            <l n="47">Când zeea de la Pafos te-a scos în a mea cale,</l>
+            <l n="48">Să prind a mele lanțuri de lanțurile tale,</l>
+            <l n="49">Și-n veci legat de tine, să fiu un semizeu!...</l>
+            <l n="50">Precum ar spune-n versuri cântând, stăpânul meu.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="51">Bun este el cu tine?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="52">O! bun de pus pe rană,</l>
+            <l n="53">Încât eu, lângă dânsul, uit soarta mea dușmană.</l>
+            <l n="54">Poet, el cu gândirea se primbla tot prin nori,</l>
+            <l n="55">În brațe amoroase căzând adeseori.</l>
+            <l n="56">Și, pentr-un vers ce saltă pe sprintene dactile,</l>
+            <l n="57">În loc să guste somnul, preface nopți în zile</l>
+            <l n="58">Și uită pe Mecena, pe-August, amicii săi,</l>
+            <l n="59">Pe Roma-mpărăteasă și chiar pe dumnezei.</l>
+            <l n="60">El vine câteodată aici, lângă fântână,</l>
+            <l n="61">De muza-i drăgălașă condus cu drag de mână,</l>
+            <l n="62">Și pe tabliți de ceară scriind c-un stilețel</l>
+            <l n="63">A muzei blânde șoapte, ce-aude numai el.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="64">Aici?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="65">Dar, căci fântâna îndeamnă la răcoare</l>
+            <l n="66">Frumoasele vecine de versuri iubitoare,</l>
+            <l n="67">Dorite ca să vadă pe-al lor poet visând,</l>
+            <l n="68">Și sub stejar, la umbră, minuni improvizând.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="69">Lydia... și ea vine? Lydia cine este?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="70">Bachanta-ntre vestale, vestală-ntre neveste!</l>
+            <l n="71">Atât de bine știe, cu chip amăgitor,</l>
+            <l n="72">Să tulbure simțirea oricărui muritor.</l>
+            <l n="73">A fost ea multă vreme în strânsă legătură</l>
+            <l n="74">Cu dragul ei Horațiu.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="75">Și...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="76">Bate-m-aș pe gură!...</l>
+            <l n="77">Destăinuiesc secrete intime de poet,</l>
+            <l n="78">Ce nu sunt ale mele.</l>
+            <stage>(În taină)</stage>
+            <l n="79">. Și eu am un secret...</l>
+            <l n="80">Dorești să-l afli?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="81">Care?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="82">Aș vrea pe vecinicie</l>
+            <l n="83">Să fiu al tău Horațiu, și tu a mea Lydie.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cătând cu groază împrejur)</stage>
+            <l n="84">O, taci!... De-ar duce vântul cuvintele ce spui</l>
+            <l n="85">Lui Scaur sau lui Hebro, călău cumplit al lui,</l>
+            <l n="86">La mari și grele chinuri aș fi pe loc espusă.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="87">Hebro?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="88">Ei! iazmă oarbă, de furie condusă.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="89">Cum?... pe cerescul Joe! stăpânul tău barbar</l>
+            <l n="90">E-n stare?...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="91">Dar, e-n stare a mă lega de-un par,</l>
+            <l n="92">A mă sfâșia cu biciul, sau... mintea-mi se-nfioară,</l>
+            <l n="93">Întocmai ca pe-o vită a maă-nhăma la moară,</l>
+            <l n="94">Căci a decis în gându-i să-mi deie de bărbat</l>
+            <l n="95">Pe Hebro, haldeeanul, un villiac nempăcat.</l>
+            <l n="96">Urât, viclean și lacom, ce pe stăpânu-i pradă</l>
+            <l n="97">Și vecinic schinjuiește a sclavilor grămadă.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="98">O! nu mai spune, Getta... m-apucă reci sudori!...</l>
+            <l n="99">De este așa, însă, cum te găsesc în zori</l>
+            <l n="100">Pe-aice singurică, de casa lui departe?</l>
+            <l n="101">N-ai teamă de pedeapsa de care-o să ai parte</l>
+            <l n="102">Când te-i întoarce-acasă?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="103">N-am grijă-n acest rând...</l>
+            <l n="104">Stăpână-miu, Scaur, însuși mi-a poruncit, oftând,</l>
+            <l n="105">S-adun în faptul zilei, și flori și buruiene,</l>
+            <l n="106">Năvalnic, odoleană, sulcică, sânziene</l>
+            <l n="107">Și altele, pe Valea Sabină, să le scald</l>
+            <l n="108">În apa Blanduziei cât soarele nu-i cald.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="109">Și ce vrea el să facă cu ele?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(zâmbind)</stage>
+            <l n="110">Scăldătoare!</l>
+            <l n="111">Bătrâna Canidie, vestită vrăjitoare,</l>
+            <l n="112">I-a spus ca să se ude în șapte nopți pe trup</l>
+            <l n="113">Cu sânge de năpârcă de buhnă și de lup,</l>
+            <l n="114">Pe când ea-i va tot face descânteci fioroase</l>
+            <l n="115">În dealul Esquilinus, topind la foc de oase</l>
+            <l n="116">O galbenă păpușă de ceară.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(râzând)</stage>
+            <l n="117">E nebun?</l>
+            <l n="118">Vide-mi-l-aș călare pe-o creangă de alun.</l>
+            <l n="119">Luat vârtej în goana Harpiilor grozave!</l>
+            <l n="120">Și pentru ce se spurcă în farmeci și-n otrave?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="121">În taină șoptesc sclavii că el e-namorat.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="122">De tine?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(otărându-se)</stage>
+            <l n="123">Ba, departe de mine-acest păcat!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="124">Dar de cine?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="125">Să zice, de una din vecine,</l>
+            <l n="126">Ce-și bate joc de dânsul, lăsându-l în suspine.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(arată în stânga)</stage>
+            <l n="127">A fi Neera, poate? Ea șade colo, vezi?</l>
+            <l n="128">În villa cea clădită pe-o culme-ntre livezi.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(arătând asemine în stânga)</stage>
+            <l n="129">Și colo, mai departe, se-nalță-a noastră casă,</l>
+            <l n="130">Cu alba colonadă deasupra pe terasă.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="131">O văd; suntem aproape și poate chiar meniți,</l>
+            <l n="132">Scurtându-ne cărarea, să fim nedespărțiți...</l>
+            <l n="133">Ce zici?... de-o întâlnire mai pot avea sperare?...</l>
+            <l n="134">Când?...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(coborând ochii și zâmbind)</stage>
+            <l n="135">Când i-a fi lui Scaur nevoie de scăldare.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="136">Ascultă; printre ierburi aruncă la un loc</l>
+            <l n="137">Urzici, și mătrăgună, și scai, și siminoc.</l>
+            <l n="138">Când s-a udă, hurezul, să-l usture la pele,</l>
+            <l n="139">Să te trimită iară la strâns de floricele.</l>
+            <l n="140">A!... vine-aici Horațiu... Te las, odor iubit!</l>
+            <l n="141">Mă duc... și nu m-aș duce... dar vine și-s grăbit.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA III</note>
+        <div type="scene" n="III">
+          <head>SCENA III</head>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>Își reazămă capul pe mână, țintind ochii în spațiu</stage>
+            <stage>(pe gânduri)</stage>
+            <l n="142">Să ne scurtăm cărarea... amor... nedespărțire...</l>
+            <l n="143">Să fie oare-n lume atâta fericire?</l>
+            <l n="144">De câte mi-a spus Gallus mi-e cugetul uimit,</l>
+            <l n="145">Dar el s-a dus!... cu mine el numai a glumit.</l>
+            <l n="146">Ah! sclavă osândită durerei pân’la moarte</l>
+            <l n="147">Și fără vină-n viață victima crudei soarte!</l>
+            <l n="148">Ce-am fost în a mea țară, ș-aici, acum, ce sunt?</l>
+            <l n="149">Aveam palat!... aice nici parte de mormânt.</l>
+            <l n="150">Aveam părinți puternici, și nume, și mărire...</l>
+            <l n="151">Tot am perdut!... speranța mă lasă-n părăsire.</l>
+            <l n="152">Nu știu ce simt: îmi vine adeseori să plâng...</l>
+            <l n="153">Când văd o păsărică oprită noaptea-n crâng,</l>
+            <l n="154">Aș vrea să zbor la dânsa, rugand-o: „Sorioara,</l>
+            <l n="155">Mă du, mă du cu tine, pe unde-aripa-ți zboară!...”</l>
+            <l n="156">Ș-ades mi-aduc aminte, că printr-un vis duios,</l>
+            <l n="157">De-un vers cântat de mama, cu glas armonios.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA IV</note>
+        <div type="scene" n="IV">
+          <head>SCENA IV</head>
+          <sp who="#">
+            <stage>Fuge tulburată, prin fund, în stânga</stage>
+            <setting> Getta, Horațiu</setting>
+            <stage>(intră din stânga, inspirat și scriind pe tăblița de ceară)</stage>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(declamând)</stage>
+            <l n="158">„Fântâna Blanduziei! vei deveni tu încă</l>
+            <l n="159">Celebră-ntre izvoare când voi cânta stejarul</l>
+            <l n="160">Ce-nfige rădăcina-i adânc în alba stâncă</l>
+            <l n="161">Din care ieși vioaie și dulce ca nectarul!</l>
+            <l n="162">Fântâna mea iubită!...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cânta sotto voce)</stage>
+            <l n="163">În ai Daciei munți mari</l>
+            <l n="164">Cresc stejari lângă stejari</l>
+            <l n="165">Și viteji cu brațe tari...</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(cu mirare, în parte)</stage>
+            <l n="166">Ce glas pătrunzător</l>
+            <l n="167">Aud lângă fântână?!</l>
+            <stage>(Zărind pe Getta)</stage>
+            <l n="168">Tablou încântător</l>
+            <l n="169">Poetica Ivire!... Romană-i, sau străină?</l>
+            <l n="170">Ea cantă-un viers sălbatic din Dacia Transalpină.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(în parte, sculându-se)</stage>
+            <l n="171">Destule-atâte visuri; să plec acum e timp.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(în parte)</stage>
+            <l n="172">Frumoasă-i ca junia, ca Hebe din Olimp!</l>
+            <l n="173">Copilă drăgălașă...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(în parte)</stage>
+            <l n="174">Horațiu!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="175">Fii ferice,</l>
+            <l n="176">Ca gândul ce spre tine m-a îndreptat aice!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(în parte)</stage>
+            <l n="177">Ei!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="178">Spune-mi adevărul; din care lume ești</l>
+            <l n="179">Și cine sunt părinții pe care-nveselești</l>
+            <l n="180">Cu scumpa ta privire?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="181">Părinții mei, sărmanii,</l>
+            <l n="182">Perit-au lângă Istru, în luptă cu romanii.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(cu milă)</stage>
+            <l n="183">Orfană, - așa de jună?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(plecând capul)</stage>
+            <l n="184">Și sclava!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="185">Tu?... tu...?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="186">Dar!</l>
+            <l n="187">Răpitu-m-a de-acasă un crâncen mercenar</l>
+            <l n="188">Și-n Roma, sub coronă, de el am fost vândută...</l>
+            <l n="189">De-atunci în înjosire și-n umbră sunt perdută.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="190">Și cine azi dispune de tine pre pământ?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="191">Ah!... Scaur.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="192">Acel libert ce n-are nimic sfânt?...</l>
+            <l n="193">Căci n-am avut eu parte să te plătesc cu aur.</l>
+            <l n="194">Răpindu-te sclaviei și ghearelor lui Scaur?!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="195">N-au vrut cu mine zeii să fie-ndurători.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="196">Goneam din ceriu-ți aspru oricare negri nori</l>
+            <l n="197">Ș-atâta îngrijare aveam de-a ta junie.</l>
+            <l n="198">Că ne știam durerea, uitând a ta moșie.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="199">Ești bun pre cât ești mare; tu poți dintr-un cuvânt</l>
+            <l n="200">Să mângâi osândiții ce-n desperare sunt,</l>
+            <l n="201">Dar ca să merit raiul ascuns în a ta milă</l>
+            <l n="202">Ce sunt eu pentru tine?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="203">Ce ești, dragă copilă?</l>
+            <l n="204">Ești nobila odraslă a celui brav popor</l>
+            <l n="205">Ce știe ca să moară când nu-i învingător.</l>
+            <l n="206">Și meriți cu tot dreptul, de este-ncer dreptate,</l>
+            <l n="207">Respect în omenire și-n Roma libertate.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(exaltându-se)</stage>
+            <l n="208">Ah! aste mari cuvinte în veci nu le-oi uita.</l>
+            <l n="209">Cu ele soarta-mi aspră de-acum voi înfrunta,</l>
+            <l n="210">Prin ele al meu suflet renaște la mândrie,</l>
+            <l n="211">Căci ele de Horațiu au fost rostite mie!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="212">Tu mă cunoști?... De unde?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="213">De-aici, din depărtări,</l>
+            <l n="214">Și din al lumei splendid concert de admirări.</l>
+            <l n="215">Dar cine te cunoaște cu-a ta mărinimie</l>
+            <l n="216">Se pleacă în uimire și se robește ție.</l>
+            <l n="217">Horațiu, sunt o sclavă, nu am nimic al meu;</l>
+            <l n="218">Primește-astă cunună, o-nchin numelui tău.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(se pleacă să o ridice)</stage>
+            <l n="219">Copilă, suflet nobil...</l>
+            <l n="220">GETTA</l>
+            <stage>(îi apucă mâna și o sărută)</stage>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="221">Ce faci, ce faci?... ai minte?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="222">Sărut pe a ta mână duioasele-ți cuvinte.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA V</note>
+        <div type="scene" n="V">
+          <head>SCENA V</head>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>Tare</stage>
+            <stage>(pătruns)</stage>
+            <l n="223">Ce stranie ființă!... Aș crede c-am visat</l>
+            <l n="224">De n-aș vedea în mâna-mi cunună ce mi-a dat,</l>
+            <l n="225">Cunună împletită cu flori de primăvară.</l>
+            <l n="226">Ca dânsa... De ce însă grăbit-a sa dispară?</l>
+            <l n="227">Era pătrunsă, lacrimi jucau în ochii săi...</l>
+            <l n="228">Nu îndrăznea să cată fățiș în ochii mei...</l>
+            <l n="229">Și glasu-i în suspinuri... și peptu-i în mișcare...</l>
+            <l n="230">Și fata-i luminoasă... și juna-i exaltare...</l>
+            <l n="231">Să fie?... l-a mea vârstă!... Să poate?... Sunt uimit</l>
+            <l n="232">Ce simt acum în mine de mult nu am simțit,</l>
+            <l n="233">De mult!... de când voioasă și falnică-mi junie</l>
+            <l n="234">Împlea tot universul de-amor și poezie.</l>
+            <l n="235">Cununa asta simplă, neprețuit odor,</l>
+            <l n="236">Privind-o, are-un farmec mult, mai atrăgător</l>
+            <l n="237">Decât acele toate corone strălucite.</l>
+            <l n="238">În Capitolul Romei cu fața dobândite...</l>
+            <l n="239">Avut-am mari triumfuri, dar, jur, pe dumnezei...</l>
+            <l n="240">Nu e triumf mai mare în Cimpii Elizei</l>
+            <l n="241">Pentru-un poet ce-aspiră la gloria divină</l>
+            <l n="242">Cu sacra-ngenunchere de gingașa vergină,</l>
+            <l n="243">Cuvintele-i din urmă cuprind în sânul lor</l>
+            <l n="244">O taină izvorâtă din inimă, cu dor.</l>
+            <l n="245">„Ah! cine te cunoaște cu-a ta mărinimie</l>
+            <l n="246">Se pleacă în uimire și se robește ție...”</l>
+            <l n="247">Dar cine are parte de-al ei duios amor?...</l>
+            <l n="248">Poetul ce nu moare, sau omul muritor?</l>
+            <l n="249">Poetu-n veci e tânăr când omu-mbătrânește,</l>
+            <l n="250">Și geniul, nu fruntea încântă și răpește.</l>
+            <l n="251">Amară cugetare!... fior de-al iernii vânt!</l>
+            <l n="252">Voi puneți amorțire pe-al inimei avânt</l>
+            <l n="253">Și umbra îndoielii pe orice nălucire,</l>
+            <l n="254">Căci soarele cu-amurgul nu pot avea-ntâlnire!</l>
+            <l n="255">Ce-ar zice Roma-ntreagă când s-ar vesti prin ea</l>
+            <l n="256">Ca o copilă, sclavă, ocupă mintea mea?</l>
+            <l n="257">Ar zice cu un hohot ce-ar răsuna în spațiu:</l>
+            <l n="258">„Satir acum ajuns-au satiricul Horațiu!”</l>
+            <l n="259">Hei! zică!... sucul vieții tot ferbe-n al meu sân.</l>
+            <l n="260">Coroana e căzută dar fruntea nu-o înclin.</l>
+            <l n="261">Nebun acel ce vede trecând o fericire</l>
+            <l n="262">Și nu-i ține calea, s-o prindă cu grăbire!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA VI</note>
+        <div type="scene" n="VI">
+          <head>SCENA VI</head>
+          <sp who="#">
+            <stage>Neera se îndreaptă spre fund și apucă pe cărarea de pe coline, urmată de servitoare. Iese în stânga.</stage>
+            <setting> Horațiu, Nerra</setting>
+            <stage>(urmată de două servitoare, se coboară pe cărare și se apropie de Horațiu - Servitoarele rămân în fund)</stage>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="263">Și mai nebun e omul acel nepăsător</l>
+            <l n="264">Ce scapă dintre brațe-i norocul fugător.</l>
+            <l n="265">Nu este-așa, Horațiu?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="266">Neera?... Ce minune!</l>
+            <l n="267">Tu, steaua Romei, zeea plăcerilor nebune,</l>
+            <l n="268">Măiastră cântăreațăă, pe câmp, în acest loc?</l>
+            <l n="269">Cum?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(veselă)</stage>
+            <l n="270">Cine știe? Poate c-alerg dupa noroc.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(zâmbind)</stage>
+            <l n="271">E lesne pentru tine să-l întâlnești, Neera,</l>
+            <l n="272">Când tu reverși lumina pe-a Romei naltă sferă</l>
+            <l n="273">Ș-ai înhumat junimea romană l-al tău car.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="274">Sub dulcele-ți cuvinte s-ascunde-un gând amar,</l>
+            <l n="275">Horațiu; al tău zâmbet acopere-o mustrare,</l>
+            <l n="276">Dar oare-am meritat-o?... și vina mea e mare</l>
+            <l n="277">Că sunt prea adorată, că-mi place a vedea</l>
+            <l n="278">Un lung cortegi de oameni răpiți pe urma mea,</l>
+            <l n="279">Senatori și proconsuli ce poartă laticlave</l>
+            <l n="280">Și țin în a lor poale destinul lumei sclave?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="281">O știu; e mare gloata de tineri și caduci</l>
+            <l n="282">Pe care, după placu-ți, c-un deget îi conduci.</l>
+            <l n="283">Origo și Cynthia, puternice rivale,</l>
+            <l n="284">Râvnesc cu gelozie triumfurile tale.</l>
+          </sp>
+          <sp who="#nerra">
+            <speaker>NERRA</speaker>
+            <l n="285">Așa-i, dar sunt geloasă și eu... precum mă vezi.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(ironic)</stage>
+            <l n="286">De cine? de Minerva?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="287">Nu râde... Ce? nu crezi?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="288">Neero, filomela cunoaște gelozia?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="289">Horațiu, sunt geloasă de-Origo și Cyinthia.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(râzând)</stage>
+            <l n="290">Tu?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="291">Eu.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="292">A te pricepe nu pot, nu sunt augur.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="293">Ascultă: de o lună, lânga Tibur,</l>
+            <l n="294">Neera, steua Romei, de tine-așa numită,</l>
+            <l n="295">Trăiește-acum retrasă din Roma, părăsită.</l>
+            <l n="296">Neera... filomela... e chiar vecina ta,</l>
+            <l n="297">Și tu n-ai venit încă...</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(confuz)</stage>
+            <l n="298">Te rog a mă ierta.</l>
+            <l n="299">Am fost... și sunt...</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="300">N-am dreptul eu să te iert pe tine.</l>
+            <l n="301">Ce este o Neera pe lângă...</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(luând-o de mână)</stage>
+            <l n="302">O știi prea bine!</l>
+            <l n="303">Tu ești inspiratoarea poeților, tu ești</l>
+            <l n="304">Frumseță, tinereță, puteri dumnezești!</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="305">Dar aste scumpe daruri ce sunt?... o vanitate,</l>
+            <l n="306">Când nu-s de a ta liră în lume celebrate.</l>
+            <l n="307">Ce-ar fi fără luceferi cortegiul înstelat?</l>
+            <l n="308">Al meu, făr-un Horațiu, e gol și-ntunecat...</l>
+            <l n="309">Cunoști acum secretul amărăciunei mele</l>
+            <l n="310">Origo și Cynthia, ferice, ah! de ele,</l>
+            <l n="311">Au partea glorioasă, căci au... și e destul,</l>
+            <l n="312">Cynthia - pe Virgiliu, Origo - pe Tribul.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="313">Și tu?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="314">Eu?... Eu?... Admiră a inimei pornire.</l>
+            <l n="315">E stranie-ncercarea-mi, dar are-a sa mărire.</l>
+            <l n="316">Eu am decis în gându-mi să fac întâiul pas</l>
+            <l n="317">Spre cel mai viu luceafăr din falnicul Parnas</l>
+            <l n="318">Și-ți zic: Vrei tu, Horațiu, să fiu a ta iubită,</l>
+            <l n="319">Eu, care sunt de-o lume urmată și dorită?...</l>
+            <l n="320">O!... pasul meu, știu bine, e mult cutezător,</l>
+            <l n="321">Dar astfel mi-e natura sub boldul unui dor.</l>
+            <l n="322">Neera și Horațiu au dreptul de face,</l>
+            <l n="323">În sfera lor înalta, oricare pas le place.</l>
+            <l n="324">Eu dintre toti poeții pe tine te-am distins.</l>
+            <l n="325">Aș vrea să zic: Venit-am, văzut-am ș-am învins!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(în parte, cu amărare)</stage>
+            <l n="326">Și ea, și ea în mine numai poetul vede!...</l>
+            <l n="327">Neero, ale tale destăinuiri, mă crede,</l>
+            <l n="328">Ar îmblânzi pe Cerber s-ar face pe-un mort viu,</l>
+            <l n="329">Dar...</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(rapide)</stage>
+            <l n="330">Spune!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="331">În auzu-mi răsună-acum târziu!</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="332">Târziu?... Iubești pe alta?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(îngâimat)</stage>
+            <l n="333">O! nu...</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="334">Iubești, pe cine?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="335">Pe mine... l-a mea vârstă crezi tu că se cuvine?...</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="336">Un geniu vârstă n-are.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="337">Dar omul e mâhnit</l>
+            <l n="338">Când în amurgul vieții pășește neoprit...</l>
+            <l n="339">În tainele naturei e lege ca să zboare</l>
+            <l n="340">Amurgul cătră noapte, aurora cătră soare.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(în parte)</stage>
+            <l n="341">Să-l cred?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(în parte)</stage>
+            <l n="342">Oare-a crezut?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(observându-l, în parte)</stage>
+            <l n="343">Poet și ipocrit!</l>
+            <l n="344">El cată să-mi ascundă secretul său... ghicit.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(întinde-o mână)</stage>
+            <l n="345">Te-am ofensat, Neera?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(tristă)</stage>
+            <l n="346">Pe mine?... Nu.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="347">Mă iartă.</l>
+            <l n="348">Cu trista-nțelepciune aprinsu-mi dor se ceartă.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="349">Mâhnire, nu ofensa în inimă simțesc</l>
+            <l n="350">De visul cel mai dulce, ah! să mă despărțesc.</l>
+            <l n="351">Păcat!...</l>
+            <stage>(Oftând)</stage>
+            <l n="352">. Așa vrea soarta cu noi,</l>
+            <l n="353">Horațiu, fie!</l>
+            <l n="354">Amorul stins rămâne frățească amicie.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="355">Și ea nu se va stinge, mă jur pe Apolon!</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(veselă)</stage>
+            <l n="356">Acum, poate, amice, din naltul Helicon,</l>
+            <l n="357">De-ți va permite muza să te cobori în vale,</l>
+            <l n="358">La villa-mi te-i abate din visurile tale?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="359">O! Dar’, și chiar acuma de vrei...</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="360">Mă-ntrebi de vreu?</l>
+            <l n="361">Îmi place-a videa vulturi zburând la cuibul meu.</l>
+            <l n="362">Hai! o să fac cu tine primblare triumfală...</l>
+            <l n="363">De ne-ar zări-mpreună urâta mea rivală!...</l>
+            <setting> SCENA VII</setting>
+            <l n="364">Neera, Horațiu; Mecena și Postum</l>
+            <stage>(venind din dreapta)</stage>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="365">Horațiu cu Neera!</l>
+          </sp>
+          <sp who="#horțiu">
+            <speaker>HORȚIU</speaker>
+            <l n="366">Mecena cu Postum!</l>
+            <l n="367">De unde?</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="368">De la Roma.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(râzând)</stage>
+            <l n="369">Pe jos?</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="370">Ba nicidecum.</l>
+            <l n="371">Ni s-a stricat căruca, dar nu suntem de jale</l>
+            <l n="372">Când Iuno se arată cu gratiile sale.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="373">Postum e tot zburdalnic?</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="374">Tot flutur.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="375">Hei! ce vreți?</l>
+            <l n="376">Mă arde vecinic focul nebunei tinereți,</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(încet, Neerii)</stage>
+            <l n="377">Tăciune care scoate mult fum, puțină pară</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(încet, Neerii)</stage>
+            <l n="378">Cu mine nici vulcanul Vezuv nu se compară.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(zâmbind)</stage>
+            <l n="379">Te cred.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(încântat)</stage>
+            <l n="380">Zău?... A!</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="381">Horațiu, te las cu-amicii tăi,</l>
+            <l n="382">Când îți vroi, acasă v-aștept pe câte trei.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="383">Ah! te-am urma oriunde, dar să ne faci plăcere</l>
+            <l n="384">De-a ne cânta trei imnuri.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="385">Oricare le veți cere.</l>
+            <l n="386">Veniți, concertu-mi astăzi va fi înveselit</l>
+            <l n="387">Prin comica-ngâmfare a unui barbar scit.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="388">A! cine?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="389">Scaur.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(tresărind)</stage>
+            <l n="390">Scaur?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="391">Cel putred de-avuție,</l>
+            <l n="392">Ce-n pele-i se îngrașă de-amor...</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="393">Și lăcomie.</l>
+            <l n="394">Am auzit de dânsul... Un sclav înfumurat,</l>
+            <l n="395">De Scaurus Emiliu din lanțuri liberat.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(râzând)</stage>
+            <l n="396">Ar vrea să mă coboare la el pe punți de aur.</l>
+            <l n="397">Eu râd; veniți să râdem!</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(declamând)</stage>
+            <l n="398">Venim... Delendus Scaur!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA VIII</note>
+        <div type="scene" n="VIII">
+          <head>SCENA VIII</head>
+          <sp who="#">
+            <stage>Pleacă și se suie încet pe cărarea din fund, conversând și apucând în stânga.</stage>
+            <setting> Horațiu, Mecena, Postum </setting>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="399">Acum că suntem singuri, Horațiu, scump amic,</l>
+            <l n="400">Răspunde: stai pe gânduri, ești trist, ce ai?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="401">Nimic.</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="402">De patru luni, amice, din Roma zgomotoasă</l>
+            <l n="403">Ai dispărut, și lumea, surprinsă, curioasă,</l>
+            <l n="404">Chiar însuși împăratul cu tine-obicinuit</l>
+            <l n="405">Se-ntreabă ce devine poetu-i favorit?</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="406">Zoil, pizmaș, pretinde cu zâmbetul pe buze</l>
+            <l n="407">Că te-ai retras deoparte, cam părăsit de Muze,</l>
+            <l n="408">Pe-o stâncă din Ciclade, plângându-te mereu</l>
+            <l n="409">Și-nchipuindu-și falnic că ești un Prometeu.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(cu dispreț)</stage>
+            <l n="410">Zoil se crede vultur ce-ațintă ochii-n soare,</l>
+            <l n="411">Și-i oaspe-a-ntunecimei, o buhnă cobitoare.</l>
+            <l n="412">El vecinic distilează veninu-i minjutir,</l>
+            <l n="413">Cu gând ca să păteze tot ce-i strălucitor.</l>
+            <l n="414">Nu, n-am fugit de Roma, nu m-am retras pe-o stâncă,</l>
+            <l n="415">Dar am avut o sete de liniște adâncă</l>
+            <l n="416">Ș-am alergat aice, la câmpul înflorit,</l>
+            <l n="417">Întocmai ca ostașul de lupte ostenit.</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="418">Cum? tu, adoratorul frumseților romane,</l>
+            <l n="419">Distins de patriciane, iubit de curtizane,</l>
+            <l n="420">La Forum, sub portice, cu drag încungiurat,</l>
+            <l n="421">La băile sonore simpatic ascultat?</l>
+            <l n="422">Tu, fiul scump al Romei, deprins cu-a Romei viață.</l>
+            <l n="423">Om pizmuit la spate, și admirat în față,</l>
+            <l n="424">Ai părăsit deodată și circul lui Tarquin,</l>
+            <l n="425">Și templul lui Apolon pe dealul Palatin,</l>
+            <l n="426">În care ceteai versuri cu-amicul tău Virgiliu,</l>
+            <l n="427">Și marele teatru lui Scaurus Emiliu!</l>
+            <l n="428">Horațiu, orice-ai spune, nu făr-un grav motiv</l>
+            <l n="429">Te-ai izolat aice, ca un tablou votiv,</l>
+            <l n="430">Desprețuind a Romei petreceri numeroase,</l>
+            <l n="431">Cuvinte elocvente, triumfuri glorioase,</l>
+            <l n="432">Și cursele de care cu-a lor agitatori,</l>
+            <l n="433">Și luptele barbare de sclavi gladiatori.</l>
+            <l n="434">Un om ca tine, oaspe lui Caesar și Mecena,</l>
+            <l n="435">Când lumea îl aclamă, nu părăsește scena.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="436">Secretul lui Horațiu e lesne de ghicit;</l>
+            <l n="437">Neera, cântăreață, cu care l-am găsit.</l>
+            <l n="438">Ea-l ține-ascuns la sânu-i, ca pe un scump tezaur,</l>
+            <l n="439">Legat în mii de noduri c-un fir de păr de aur.</l>
+            <l n="440">Ferice de Horațiu! ah! eu îl înțeleg,</l>
+            <l n="441">Eu, care-așa de lesne mă leg și mă dezleg!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="442">Postum, ești încă tânăr și inima-ți tot zburdă,</l>
+            <l n="443">La glasul Afroditei a mea acum e surdă.</l>
+            <l n="444">Tu ești de-abia în floare, eu sunt cu capul sur,</l>
+            <l n="445">Retras din tinerețe sub cortu-mi, la Tibur.</l>
+            <l n="446">Am fost și eu pe marea iubirei furtunoase</l>
+            <l n="447">Ș-abie din ea scăpat-am... udat până la oase...</l>
+            <l n="448">E timp să las la alții de soiul lui Postum</l>
+            <l n="449">Să schimbe în tămâie a patimilor fum,</l>
+            <l n="450">Și pe altarul Gnidei la Venus s-o închine,</l>
+            <l n="451">În dor ca să atragă zâmbetele-i divine.</l>
+            <l n="452">Cât pentru mine, ziua-mi o văd spre asfințit.</l>
+            <l n="453">Sub valul vieții focul se stinge potolit.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="454">Ce? nu mai ești ca mine?... În fața frumuseții</l>
+            <l n="455">Nu să mai bate peptu-ți ca-n timpul tinereții?</l>
+            <l n="456">A ta închipuire nu saltă sprințior</l>
+            <l n="457">Prin lumea drăgălașă de visuri de amor?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="458">Dar; însă n-am curagiul s-ascult a lor șoptire...</l>
+            <l n="459">Temându-mă de-a lumei sardonică zâmbire.</l>
+            <l n="460">Căci gândul de izbândă sub frunte veștejită</l>
+            <l n="461">E chiar o spadă știrbă în teaca ruginită.</l>
+            <l n="462">Pe când dar tinereța cu pas triumfător</l>
+            <l n="463">De mine se desparte, lăsându-ma în dor;</l>
+            <l n="464">Pe când Zoilii latră în umbra mea, departe,</l>
+            <l n="465">Cu gând, pentru a-i scoate din umbră, să mă-ntărâte;</l>
+            <l n="466">Pe când Postumii zilei, la câmpii olimpii,</l>
+            <l n="467">Se-ntrec în zbor de care cu patru cai libii,</l>
+            <l n="468">Eu implu a mea cupa cu vinul din amforă</l>
+            <l n="469">S-o-nchin, făcând libații, la vesela Auroră,</l>
+            <l n="470">Culcat pe iarba verde, aproape de-un izvor,</l>
+            <l n="471">Ce-mi fura ochii, gândul, în cursul său ușor.</l>
+            <l n="472">Atunce, la răcoare, gustând o pace rece,</l>
+            <l n="473">Chem muza drăgălașă p-e brațu-mi să se culce</l>
+            <l n="474">Și, -ncoronat pe frunte cu foi de trandafiri,</l>
+            <l n="475">Văd hore vii de Nimfe, de Fauni, de Satiri,</l>
+            <l n="476">Și uit Senatul Romei cu vorbelei pompoase.</l>
+            <l n="477">Și uit chiar omenirea cu poftele-i hidoase.</l>
+            <l n="478">Amici! iată secretul...</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(râzând)</stage>
+            <l n="479">Dar, îl cunosc acum,</l>
+            <l n="480">Vezi nimfe ca Neera!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(râzând)</stage>
+            <l n="481">Și fauni ca Postum.</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="482">Horațiu, nu-i acesta motivul ce te face</l>
+            <l n="483">În viața câmpenească a te retrage-n pace</l>
+            <l n="484">Și a brăzda cu plugul ogorul părintesc,</l>
+            <l n="485">Departe de-al lui Caesar palat împărătesc.</l>
+            <l n="486">Amice, porți jignire în suflet și în minte</l>
+            <l n="487">Ca Caesar se opune la blânda-ți rugăminte</l>
+            <l n="488">Să ierte pe Ovidiu ce moare exilat!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(amărât)</stage>
+            <l n="489">Și oare n-am dreptate să fiu chiar revoltat?</l>
+            <l n="490">Ovidiu-e victimă, s-August, cezarul mare,</l>
+            <l n="491">Nu vrea să se mărească mai mult prin îndurare.</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="492">Ei bine, tot mai este un chip a te-ncerca</l>
+            <l n="493">Pe Caesar la clemența de a-l îndupleca.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="494">Ah! spune-l!</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="495">Se vorbește ca nimfa Blanduziei</l>
+            <l n="496">Ți-ar fi dictat un codex de arta poeziei;</l>
+            <l n="497">August vrea să te-audă cetind acel poem.</l>
+            <l n="498">Supune-te în grabă la ordinu-i suprem,</l>
+            <l n="499">Și muza ta, sunt sigur, prin nobila-i cântare,</l>
+            <l n="500">Va scoate pe Ovidiu din trista-i exilare.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(desperat)</stage>
+            <l n="501">Ah! ce fatalitate pe mine a căzut!</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="502">Cum? ce zici?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="503">Manuscrisul, Mecena, l-am pierdut!</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="504">Perdut? când?</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="505">Unde?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="506">Unde?... N-am cea mai mică știre.</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="507">Ce perdere fatală.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="508">Și ce nenorocire!</l>
+            <l n="509">În el îmi concentrasem întregul meu talent.</l>
+            <l n="510">Speram posteritatei să las un monument.</l>
+            <l n="511">Dar!... bine zici, Mecena, e perdere fatală,</l>
+            <l n="512">Căci ea pentru Ovidiu va deveni mortală!</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="513">Destul! deveniți tragici ca niște corifei.</l>
+            <l n="514">O carte e perdută, vei scrie alte trei!</l>
+            <l n="515">Acum să mergem sprinteni, ca tineri cu-nfocare,</l>
+            <l n="516">Conduși de a Neerii plăcută invitare.</l>
+          </sp>
+          <sp who="#mecena">
+            <speaker>MECENA</speaker>
+            <l n="517">Să mergem!</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="518">Fii, Horațiu, al nostru călăuz!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="519">De-a tale grații însă, Postum, nu face-abuz.</l>
+            <l n="520">Pe scara bătrâneții te urci tot spre junie</l>
+            <l n="521">Și, de pe vârful scarei, cade-n copilărie.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="522">Ma urc spre fericire, semeț, învingător!...</l>
+            <l n="523">Femeia-n veci respinge un braț atrăgător.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA IX</note>
+        <div type="scene" n="IX">
+          <head>SCENA IX</head>
+          <sp who="#">
+            <stage>Se pleacă amândoi pe fântână și bagă mânele în apă</stage>
+            <setting> Scaur, Zoil Glutto</setting>
+            <stage>(Scaur, în haine scumpe, este adus dintre culisele din stânga într-o sella purtată de patru sclavi. Doi alți sclavi urmează ca apărători și-i fac vânt)</stage>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="524">Încet, ba nu, mai iute... ba mai încet, zic, vite!</l>
+            <l n="525">Mă urducați!... Zoile, hei!... Glutto! parazite!</l>
+            <l n="526">Departe-i cea fântână a Blanduziei?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(posomorât)</stage>
+            <l n="527">Nu.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(cu glas blând)</stage>
+            <l n="528">Colea, umane Scaur.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(cătră sclavi)</stage>
+            <l n="529">Colea? Stați! stați acu!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(pogorându-se)</stage>
+            <l n="530">Ați meritat în parte cincizeci și cinci de bețe.</l>
+            <l n="531">Gătiți-vă spinarea.</l>
+          </sp>
+          <sp who="#un_sclav">
+            <speaker>UN SCLAV</speaker>
+            <l n="532">Stăpâne...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="533">Taci, sumete!</l>
+            <l n="534">Văd colo niște oameni pe jos mergând încet.</l>
+            <l n="535">Îi știți?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="536">Unu-i Horațiu, ce trece de poet.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="537">Horațiu? care-i? care... Cel slab și slut ca tine?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="538">Ba celălalt, în stânga... Măcar de-ar fi ca mine!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="539">Horațiu! el, Horațiu!... Acest nume pocit</l>
+            <l n="540">Mă-nghimpă ca o veste cu acu-i otrăvit.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="541">D-apoi pe mine!...</l>
+            <l n="542">Glutto:</l>
+            <stage>(râzând)</stage>
+            <l n="543">Așa e.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="544">Cum?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="545">Ah! el e de vină</l>
+            <l n="546">Ca din întunecime nu pot ieși-n lumină</l>
+            <l n="547">El nămolește drumul ce duce la Parnas,</l>
+            <l n="548">Încat de culmea-i naltă departe am rămas.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(oftând)</stage>
+            <l n="549">Așa-i.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="550">Zoil, rar geniu, sublim, fără păreche,</l>
+            <l n="551">Nu afla să-l asculte o singură ureche,</l>
+            <l n="552">Când el, oriunde merge, de toți e ascultat</l>
+            <l n="553">Și-n laude pompoase la ceruri înălțat.</l>
+            <l n="554">Și însă ce-i Horațiu?... Un om fără simțire,</l>
+            <l n="555">Iar nu, ca mine, suflet hrănit cu amărare.</l>
+            <l n="556">Nu zbuciumat, ca mine, de al furorei spasm,</l>
+            <l n="557">Nu un poet de frunte, cu turbă și sarcasm...</l>
+            <l n="558">El, om de lume, vesel, încununat cu roze,</l>
+            <l n="559">Asistă chiar în viață l-a sale-apoteoze,</l>
+            <l n="560">Și eu, o! strâmbătate!... infern!... destin amar!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="561">Stropești cu fere neagră al gloriei altar.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="562">Peri, limbă rea, de-aice!...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="563">Cu tine împreună...</l>
+            <l n="564">Ce mă interesează invidia-ți nebună?</l>
+            <l n="565">Ce-mi pasă mie, Scaur, de-un versificator</l>
+            <l n="566">Schimbat prin turba urei în câne lătrător?</l>
+            <l n="567">Eu sunt cei mai de jale, eu am un drept de ură</l>
+            <l n="568">În contra lui Horațiu, acelui hoț ce-mi fură</l>
+            <l n="569">Simțirele Neerei.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(înșelător)</stage>
+            <l n="570">Așa e!...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="571">Taci, tu!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="572">Tac.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="573">De-o lună și mai bine eu nu trăiesc, ci zac!</l>
+            <l n="574">Căci e o lună plină și altă jumătate</l>
+            <l n="575">De când, sosit din Persis, cu-averi nenumărate</l>
+            <l n="576">Zărit-am pe Neera cu peptu-i voluptuos,</l>
+            <l n="577">Ce pare-o plăsmuire în peatră de Paros.</l>
+            <l n="578">De-atunci sângele-mi ferbe, și noaptea mă muncește;</l>
+            <l n="579">Aș vrea... i-aș da tezauri... dar ea nu mă vroiește!</l>
+            <l n="580">Puteți voi înțelege să nu vroiască ea</l>
+            <l n="581">Pe-un om cu-a mea figură, un om cu starea mea?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="582">A!... nu-i de necrezut.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="583">Glutto, trimisu-i-am odoare</l>
+            <l n="584">Mulțime: stofe grele e Tyr, mândre covoare,</l>
+            <l n="585">Parfume de la Indus, în vas de chilimbar,</l>
+            <l n="586">Onyxuri, juvaere, tot ce-i mai scump, mai rar,</l>
+            <l n="587">Ș-un papagal vorbăreț, ș-o albă cățelușă,</l>
+            <l n="588">Apoi când la Neera m-am dus, chiar de la ușă</l>
+            <l n="589">Dihania cea verde în capu-mi a zburat,</l>
+            <l n="590">Și totodată haită de pulpă m-a mușcat.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="591">Dar cred că, spre răsplată, zburdalnică Neera</l>
+            <l n="592">Te-a fi primit cu brațe deschise...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="593">Hmmm, viperă!</l>
+            <l n="594">Când de-ale mele daruri am vrut să fiu plătit</l>
+            <l n="595">Măcar cu o zâmbire, ea m-a desprețuit,</l>
+            <l n="596">Zicând ca pentru dânsa au mult mai scumpe haruri</l>
+            <l n="597">Trei versuri de Horațiu decât a mele daruri.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(în parte, cu dispreț)</stage>
+            <l n="598">Trei versuri de Horațiu!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="599">Atunci, ce-ai mai făcut?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(furios)</stage>
+            <l n="600">Era... dar la picioare-i, rugând-o, am căzut.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="601">Și ea?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="602">M-a lăsat, Glutto, în trista mea postură</l>
+            <l n="603">Și a ieșit din casă cu hohotul în gură.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="604">Cum? Zău? fără sperare?...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="605">Ba, mi-a adăogit:</l>
+            <l n="606">„Fă-mi ode ca Horațiu de vrei să fii iubit!”.</l>
+            <l n="607">Pe Plutus! ode, ode, când nu știu nici a scrie!</l>
+            <l n="608">Să fac eu ode-n versuri, eu, om cu avuție?...</l>
+            <l n="609">Nu-i treaba mea!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="610">Nu, Scaur; cu drept, ești supărat.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="611">E treaba unor trântori ce nu au de mâncat.</l>
+            <l n="612">Cum sunteți voi... Eu cumpăr tot, și poeți de-mi place...</l>
+            <l n="613">Nu mă-njosesc la versuri, nici nu pot a le face.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(aprobând)</stage>
+            <l n="614">Așa-i...</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(în parte)</stage>
+            <l n="615">Ce vită proastă! Și el, ca toți ceilalți:</l>
+            <l n="616">O vită nencălțată zadarnic vrei s-o-ncalți!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(apropiindu-se de fântână, în parte)</stage>
+            <l n="617">Mai bine-oi urma sfatul ce-mi dete Canidia</l>
+            <l n="618">Ș-arunc bănuți de aur, colea, în Blanduzia,</l>
+            <l n="619">Și astfel, cu-ajutorul de vrăji ce mi-a făcut,</l>
+            <l n="620">Ș-ajung a fi Neerii și altora plăcut.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(în parte)</stage>
+            <l n="621">Ce văd?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(în parte)</stage>
+            <l n="622">Ce văd? azvârle în apă o comoară!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="623">Acuma la Neera ferice Scaur zboară!</l>
+            <l n="624">Ea te-a poftit la dânsa, și cine știe?... zău,</l>
+            <l n="625">Când te-a vedea mai bine, vai de rivalul tău!...</l>
+            <l n="626">Hai, Glutto, hai, Zoile, sărmanilor, veniți,</l>
+            <l n="627">Pe muza armoniei cântând s-o auziți.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="628">A?... unde?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="629">La Neera! Voi, sclavi, în legănare.</l>
+            <l n="630">Încet să-mi duceți sella, c-apoi vai de spinare!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(alergând la fântână)</stage>
+            <l n="631">Zoile, lăsăm banii?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(asemine)</stage>
+            <l n="632">Ba-i scoatem.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="633">Și-mpărțim?</l>
+          </sp>
+        </div>
+        <note type="title">SCENA X</note>
+        <div type="scene" n="X">
+          <head>SCENA X</head>
+          <sp who="#">
+            <stage>Cade în genunchi</stage>
+            <setting> Zoil, Glutto, Gallus </setting>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <p>Ce faceți voi aice?</p>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(surprins)</stage>
+            <p>Noi?...</p>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <p>Noi?... ne răcorim.</p>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <p>Profanatori nemernici! Spurcați cu-a voastră mână</p>
+            <p>A divului Horațiu poetică fântână!</p>
+            <p>În lături!</p>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(indignat)</stage>
+            <p>Noi?</p>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(ridică spada)</stage>
+            <p>În lăături, vă zic, de nu....</p>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(răstit)</stage>
+            <p>Ș-apoi?</p>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <p>Din doi mișei fac patru lovind cu spada-n voi.</p>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(supus)</stage>
+            <p>M-am dus...</p>
+            <p>Zoil:</p>
+            <stage>(mândru)</stage>
+            <p>Mă duc.</p>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(apropiindu-se de fântână)</stage>
+            <p>Sunt singur? O! nimfa Blanduzie,</p>
+            <p>Sub chipul scump al Getti arată-te-acum mie.</p>
+            <p>Fii zeea noastră blândă și fă pe gândul meu,</p>
+            <p>În schimb de-a mea iubire să-mi deie-amorul său!</p>
+            <setting> Cortina cade. </setting>
+          </sp>
+        </div>
+      </div>
+      <note type="title">ACTUL II</note>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <note type="title">SCENA I</note>
+        <div type="scene" n="I">
+          <head>SCENA I</head>
+          <sp who="#">
+            <stage>Îi dă un pumn</stage>
+            <l n="634">Cebal, Strobil, Menas, Coerax</l>
+            <stage>(Cei doi întâi, în picioare, rezemați de coloane. Ceilalți, la pământ, jucând murra)</stage>
+            <setting>. </setting>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="635">Te ustură spinarea, Strobil?</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <stage>(posomorât)</stage>
+            <l n="636">Rău, dar pe tine, Cebal?</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="637">Nu simt durerea pe lâng-a mea rușine.</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <l n="638">Stăpânul nostru, Scaur, n-a vrut a se-ndura</l>
+            <l n="639">Pe când ne bătea Hebro. El sta și număra</l>
+            <l n="640">Lovirile de bețe, sorbind în liniște</l>
+            <l n="641">O dușcă de Falernum în fiece lovire.</l>
+            <l n="642">Cincizeci și cinci în capăt sorbit-au, partea mea!</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="643">Ah! înghiți-l-ar moartea!</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <l n="644">Nu vezi tu că și ea</l>
+            <l n="645">Fuge de dânsul?</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="646">Poate, dar sfânta răzbunare</l>
+            <l n="647">Nu pere niciodată din lume.</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <l n="648">Nu... răbdare!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="649">Trei!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="650">Cinci!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="651">Patru!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="652">Șase!</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="653">Ian privește cum joacă amândoi</l>
+            <l n="654">La murra-n nepăsare, deși bătuți ca noi.</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <l n="655">Sărmanii! din pruncie sunt a sclaviei pradă.</l>
+            <l n="656">Și omul pe brânci cade sub lanțul ce-i degradă.</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="657">Doi!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="658">Opt!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="659">Patru!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="660">Șasă!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="661">Nulă!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="662">Șapte!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="663">Zece!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="664">Nulă!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="665">Oprește, m-ai furat!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="666">Minciuni...</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="667">Acum, la urmă, ce număr ai strigat?</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="668">Eu? Șapte.</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="669">Ba nu! zece... A! hot! Na.</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <stage>(dând în Menas)</stage>
+            <l n="670">: Na și ție!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="671">Mai nas!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="672">Și na!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="673">Corb!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <l n="674">Șarpe!</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <l n="675">Guzgan de casapie!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA II</note>
+        <div type="scene" n="II">
+          <head>SCENA II</head>
+          <sp who="#">
+            <stage>Revenind în scenă</stage>
+            <setting> Menas, Coerex, Hebro</setting>
+            <stage>(iese din stânga, purtând un bici la brâu. El are părul roș și față arămie)</stage>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="676">Ce vuiet e pe-aice?</l>
+          </sp>
+          <sp who="#menas">
+            <speaker>MENAS</speaker>
+            <stage>(spăriat)</stage>
+            <l n="677">Vai!</l>
+          </sp>
+          <sp who="#coerax">
+            <speaker>COERAX</speaker>
+            <stage>(îngrozit)</stage>
+            <l n="678">Hebro!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(răpezindu-se dupa el, se oprește între coloane)</stage>
+            <l n="679">Au fugit.</l>
+            <l n="680">Se vede că i-e poftă de biciul împătrit...</l>
+            <l n="681">Tâlharii! ticăloșii!...</l>
+            <l n="682">Un sclav, fără bătaie,</l>
+            <l n="683">Ca moara fără apă, ca vita fără pale...</l>
+            <l n="684">Stăpânul meu aseară voios mi-a poroncit</l>
+            <l n="685">Sa pregătesc pe astăzi un prânz nepomenit,</l>
+            <l n="686">Căci au să-i vie oaspeți, de frunte, mai cu seamă</l>
+            <l n="687">Neer, pentru care, sărmanu-și face samă...</l>
+            <l n="688">Atât l-a scos din minte și mi l-a prins de nas</l>
+            <l n="689">Vicleană cântăreață cu dulcele său glas,</l>
+            <l n="690">Cât el, fiind la dânsa cu tidva tulburată,</l>
+            <l n="691">I-a zis: „Cea-ntâi ființă de casa mea legată</l>
+            <l n="692">Ce-ți va ieși nainte cu flori pe pragul meu.</l>
+            <l n="693">De-a fi un sclav, om liber, l-oi face-n dorul tău.”</l>
+            <l n="694">Frumos!... și prin urmare eu, ca un om cu minte,</l>
+            <l n="695">Când a sosi Neera îi voi ieși nainte.</l>
+            <l n="696">Și-așa, de-o neghiobie de-amor m-oi folosi,</l>
+            <l n="697">Și Scaur, fără voie, chiar azi m-a dezrobi.</l>
+            <l n="698">Apoi, ieșind la lume din a sclaviei haină,</l>
+            <l n="699">Cu-averea grasulie ce-am adunat în taină...</l>
+            <l n="700">Dar cine vine? Getta? A! Getta, vin’ colea.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA III</note>
+        <div type="scene" n="III">
+          <head>SCENA III</head>
+          <sp who="#">
+            <stage>Iese.</stage>
+            <setting> Hebro, Getta</setting>
+            <stage>(venind din grădină)</stage>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="701">Ce vrei?</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(în parte)</stage>
+            <l n="702">E frumușică...</l>
+            <stage>(Tare)</stage>
+            <l n="703">Privește-n fața mea.</l>
+            <l n="704">Cum crezi tu ca m-ar prinde fudula libertate?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(vrând să iasă)</stage>
+            <l n="705">Nu știu.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(oprind-o)</stage>
+            <l n="706">Ba nu, răspunde, dând frică după spate,</l>
+            <l n="707">Cum crezi tu că m-ar prinde?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="708">Adevărat să spun?</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="709">Dar, spune!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="710">Ca pe-o bufnă cu pene de păun.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(atins)</stage>
+            <l n="711">Ce-ai zis?... e-aș crede proastă de nu te-aș ști glumeață;</l>
+            <l n="712">Dar te găsesc cu mine destul de îndrăzneață</l>
+            <l n="713">Când port și zi și noapte ast bici la brâul meu.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="714">O! nu mă spării lesne, cât ești de slut și rău.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="715">Nu te-ndârzi, sărmană, nu-aprinde-a mea mânie</l>
+            <l n="716">Când știi că-n scurtă vreme tu ai să-mi fii soție.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="717">Eu? Mai degrabă, Hebro, în lume ș-a videa</l>
+            <l n="718">Un șarpe din Libia unit cu-o rândunea.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="719">Cum îndrăznești în față-mi s-arăți împotrivire</l>
+            <l n="720">La ordinul lui Scaur?... Dar știi ce pedepsire</l>
+            <l n="721">Te-așteaptă?... Închisoare în beci întunecos,</l>
+            <l n="722">Cu furcă-n gât!... flagelul cumplit și nodoros</l>
+            <l n="723">Ce las avarci pe spate! în frunte, inferarea</l>
+            <l n="724">C-un fer aprins!...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(în parte)</stage>
+            <l n="725">Ah! tremur!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="726">Auzi? Stigmatizarea</l>
+            <l n="727">Și moartea, moartea!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="728">Fie! Voioasă eu prefer</l>
+            <l n="729">Să sufăr schinjuirea, rușinea și să per.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="730">Dar pentru ce în contra-mi atâta dușmănie?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="731">Și mă întrebi, tu, Hebro? tu, feară de urgie,</l>
+            <l n="732">Hienă îmbrăcată în pele de om!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(indignat)</stage>
+            <l n="733">Eu?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="734">Călău, ce pe-a ta urmă atragi blăstamul greu!</l>
+            <l n="735">Crud, aprig cu-ai tăi semeni și care-n lașitate,</l>
+            <l n="736">Săruți cu lingușire chiar biciul ce te bate!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(furios)</stage>
+            <l n="737">Taci!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cu dezgust)</stage>
+            <l n="738">Verme!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(turbat)</stage>
+            <l n="739">Tu chemi moartea cu glasul tău semeț!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="740">Stăpân ești pe-a mea viață, iar nu pe-al meu dispreț.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="741">Nebuno ...</l>
+            <l n="742">Dar ce-mi pasă de vorbele ce-ai spus?!</l>
+            <l n="743">Atât de jos te târâi, și eu atât de sus!...</l>
+            <l n="744">Nu-mi pun mintea cu-o fată ce în curând, smerită,</l>
+            <l n="745">De a mă strânge-n brațe-i va fi prea fericită.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="746">Infame!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(ridicând biciul)</stage>
+            <l n="747">Iar?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(demnă)</stage>
+            <l n="748">În mine?!</l>
+          </sp>
+          <sp who="#hebri">
+            <speaker>HEBRI</speaker>
+            <l n="749">Taci!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="750">Hebro!...</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="751">Ai noroc</l>
+            <l n="752">Că sunt chemat de Scaur.</l>
+            <l n="753">Am să te pun pe foc.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA IV</note>
+        <div type="scene" n="IV">
+          <head>SCENA IV</head>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="754">Ce-o să mă fac?... Pedeapsa barbară, -ngrozitoare</l>
+            <l n="755">M-amenință aice, și sprijin n-am sub soare!</l>
+            <l n="756">Sunt singură, espusă la crâncenul destin</l>
+            <l n="757">De a trăi cu Hebro sau de-a peri sub chin!</l>
+            <l n="758">Ce-o să mă fac?... în lume să fug... să fug! Dar unde?</l>
+            <l n="759">Să scap de al lui Scaur braț lung, răzbunător?...</l>
+            <l n="760">Ah! nime, nime-n lume nu-mi vine-n ajutor!</l>
+            <l n="761">El singur... Gallus, Gallus!... el singur ar vrea poate...</l>
+            <l n="762">La el se duc și doru-mi, și gândurile toate</l>
+            <l n="763">Dar când la Blanduzia cu el m-am întâlnit;</l>
+            <l n="764">Dar unde-i?... De atunce, vai! nu l-am mai zărit!</l>
+            <stage>(Plânge)</stage>
+          </sp>
+        </div>
+        <note type="title">SCENA V</note>
+        <div type="scene" n="V">
+          <head>SCENA V</head>
+          <sp who="#">
+            <stage>Rămân îmbrățișați, în dulce estaz.</stage>
+            <setting> Getta; Gallus</setting>
+            <stage>(se ivește printre coloane)</stage>
+          </sp>
+          <sp who="#gaallus">
+            <speaker>GAALLUS</speaker>
+            <stage>(cu sfială)</stage>
+            <l n="765">Pst... Getta!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="766">Gallus? Gallus!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="767">Am alergat aice</l>
+            <l n="768">Să-ți dau o bună veste.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="769">Ah! cât sunt de ferice</l>
+            <l n="770">De-a te vedea!... Crezusem că tu m-ai fi uitat.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="771">Eu să te uit? Doar moartea să mă fi înghețat!</l>
+            <l n="772">O! nu; din albă zi de când lângă fântână</l>
+            <l n="773">Mi te-am zărit, pe frunte cu flori, cu flori în mână,</l>
+            <l n="774">Gândirea mea răpită de-un vis înlungat</l>
+            <l n="775">La tine, tot la tine se-ndreaptă neîncetat.</l>
+            <l n="776">Căci din acea zi blânda eu nu mai simt durerea,</l>
+            <l n="777">Ci numai bucuria și numai renvierea.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="778">Adevărat să fie?... O! dar, adevărat,</l>
+            <l n="779">În cuget ceva-mi spune că nu m-ai înșelat.</l>
+            <l n="780">Ah! Mai grăiește, Gallus, și încă mai grăiește.</l>
+            <l n="781">Duiosu-ți glas de frate mâhnirea-mi risipește...</l>
+            <l n="782">Vai! Sunt nenorocită, amice-ndurător,</l>
+            <l n="783">Cum n-am fost niciodată, încât aș vrea să mor.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="784">Ei bine, Getta, scumpă, alungă-ți tu mâhnirea,</l>
+            <l n="785">Și-n față cu ochi veseli privește fericirea.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cu o tristă îndoială)</stage>
+            <l n="786">Eu? Ș-o privesc în față?...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="787">Ascultă: am aflat</l>
+            <l n="788">Că vine azi Neera la prânz în ast palat.</l>
+            <l n="789">Și Scaur prins de dânsa în mreji măgulitoare,</l>
+            <l n="790">Vroind a recunoaște cu fală-a ei favoare,</l>
+            <l n="791">Decis-a să libere-chiar azi din sclavii săi</l>
+            <l n="792">Pe-acela care-n drumu-i ieși-va mai întâi.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="793">De unde ai aflat-o?...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="794">Din vorbele rostite</l>
+            <l n="795">Ieri seară de Horațiu și-n treacăt auzite.</l>
+            <l n="796">Ah! Getta, într-un suflet aici am alergat,</l>
+            <l n="797">Să-ți dau de știre ție... Pândește nencetat</l>
+            <l n="798">Momentul de sosire a veselei Neere</l>
+            <l n="799">Și-n tainica sperare undește mângâiere</l>
+            <l n="800">Dorita libertate s-apropie din cer.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(uimită)</stage>
+            <l n="801">Eu, liberă? Prin tine? Și tu? Tu?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="802">Eu nu sper</l>
+            <l n="803">Nimic pe astă lume... Din ea gonit afară,</l>
+            <l n="804">Sunt gemine cu soartă nedreaptă și amară.</l>
+            <l n="805">Un sclav nu are parte în viață de-adapost.</l>
+            <l n="806">Rămân până la moarte tot sclav, precum am fost</l>
+            <l n="807">Dar fără ce-a vrea cerul!... Tu liberă fii, dragă,</l>
+            <l n="808">Ș-alt om n-ar fi ca mine ferice-n lumea-ntreagă...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cu adâncă înduioșire)</stage>
+            <l n="809">Tu mă iubești!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(confuz)</stage>
+            <l n="810">Ah! Getta...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="811">Dar, văd cât mă iubești</l>
+            <l n="812">Dorindu-mi libertatea, amorul tău jertfești,</l>
+            <l n="813">Căci libertatea sacră de care-aș avea parte</l>
+            <l n="814">Mai mult decât sclavia de tine m-ar desparte.</l>
+            <l n="815">O știi?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(plecând capul)</stage>
+            <l n="816">O știu.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="817">Și spune; tot încă mai dorești</l>
+            <l n="818">Să nu mai fie Getta ce este?... tot vroiești?</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="819">Ah! crut-a mea simțire, nu-mi face întrebare,</l>
+            <l n="820">Vai! inima-mi slăbește sub crunta-i încercare.</l>
+            <l n="821">Devii neom!... și poate în stare n-aș mai fi</l>
+            <l n="822">Dorindu-ți libertatea amoru-mi a jertfi.</l>
+            <l n="823">Tu ești pentru-al meu suflet ca raza de la soare</l>
+            <l n="824">Ce luce și mângâie pe om la închisoare,</l>
+            <l n="825">Căci din copilărie zi bună n-am avut</l>
+            <l n="826">Ca ziua neuitată în care te-am văzut,</l>
+            <l n="827">Copilă, fii ferice, dar lasă-mă a-ți spune,</l>
+            <l n="828">În ora de-a te perde, gândirile-mi nebune;</l>
+            <l n="829">Ce faci mai bun îmi pare de tot ce s-a făcut,</l>
+            <l n="830">Ce zici, mai mult îmi place de tot ce-i mai plăcut.</l>
+            <l n="831">Vorbirea-ți începută se schimbă în zâmbire,</l>
+            <l n="832">Ca mugurul de floare deschis în înflorire...</l>
+            <l n="833">Va frânge despărțirea în pept inima mea,</l>
+            <l n="834">Dar nu va putea stinge amorul meu din ea.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="835">Tu mă iubești, amice! și poți tu crede, frate,</l>
+            <l n="836">Că între-a ta iubire și între libertate</l>
+            <l n="837">M-aș cumpăni eu, Getta? O! nu!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="838">Getta...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="839">Nu, vreu</l>
+            <l n="840">Să fiu din lanț afară, și-n lanț, iubitul meu,</l>
+            <l n="841">Ce-mi face libertatea când inima-i robită?</l>
+            <l n="842">Mai fi-va cu putință să fiu eu fericită?</l>
+            <l n="843">Zadarnic printre oameni m-aș arăta zâmbind,</l>
+            <l n="844">Ca soarele de toamnă prin neguri strălucind;</l>
+            <l n="845">Zâmbirea de pe buze mi-ar fi în veci legată</l>
+            <l n="846">Cu-amărăciunea vie în suflet încuibată...</l>
+            <l n="847">Cum mă iubești tu, Gallus, așa eu te iubesc.</l>
+            <l n="848">Uitându-mă la mine, la tine mă gândesc.</l>
+            <l n="849">Renunț pe astă lume de-a fi ce-am fost odată,</l>
+            <l n="850">Sunt sclavă, rămân sclavă, dar sclavă adorată!...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="851">Gândește: libertatea e viitorul tău.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(exaltată)</stage>
+            <l n="852">Ea-i o dumnezeire, amoru-i dumnezeu!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="853">Dar Scaur? El e-n stare, în oarba lui furoare...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="854">O știu; să mă flagele și chiar să mă omoare?</l>
+            <l n="855">Nu-mi pasă; mi-e scump chinul plătit cu-al tău amor.</l>
+            <l n="856">E splendidă furtuna când soarele-i în nor.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="857">Ah! Getta, ne-a dat cerul o inima ș-o soarta.</l>
+            <l n="858">Viu cât îi fi în viață și mort când îi fi moartă.</l>
+            <l n="859">M-arunc în lupta lumei.</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="860">Lupta-vom amândoi.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(întinzând brațele)</stage>
+            <l n="861">O, Getta...</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(aruncându-se în brațele lui)</stage>
+            <l n="862">Gallus!...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="863">Cerul se va-ndura de noi!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA VI</note>
+        <div type="scene" n="VI">
+          <head>SCENA VI</head>
+          <sp who="#">
+            <stage>Sclavii rapede vin în scena din grădină</stage>
+            <setting> Getta, Gallus; Hebro</setting>
+            <stage>(ieșind din palat)</stage>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(în parte)</stage>
+            <l n="864">E timpul să-nchid toți sclavii... Acus Neera vine.</l>
+            <l n="865">Ce văd? Infern! A!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="866">Getta, te-ncrezi deplin în mine?</l>
+            <l n="867">Hai să fugim la Istru!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(în parte)</stage>
+            <l n="868">Să fugă!</l>
+            <l n="869">Să fugiți?</l>
+            <l n="870">Dar unde sunt eu?!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(cu mânie)</stage>
+            <l n="871">Hebro!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(strigă)</stage>
+            <l n="872">Cebal, Strobil, săriți!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA 7</note>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <sp who="#">
+            <stage>Vreu să plece</stage>
+            <setting> Getta, Gallus, Hebro, Cebal, Strobil, Menas, Coerax </setting>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="873">Pe dânșii! Apucați-i, legați-i iute-n, silă,</l>
+            <l n="874">S-aduceți bice triple, și-i bateși fără milă!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cu ton, poruncitor, arătând pe Hebro)</stage>
+            <l n="875">Strobil, Cebal, pe dânsul!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="876">Hein? Ce?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="877">Îl cetluiți</l>
+            <l n="878">Și-l aruncați în beciuri de vreți liberi să fiți.</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="879">Noi, liberi??</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <l n="880">Cum?</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="881">Ei? Liberi?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="882">Aici are să vie</l>
+            <l n="883">Neera... Voi, toți sclavii, ieșiți cu veselie</l>
+            <l n="884">În cale-i, și chiar astăzi vă dezrobiți cu toți.</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <l n="885">De unde-o știți?</l>
+            <stage>(Sclavilor)</stage>
+            <l n="886">Pe dânșii!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="887">Pe dânsul!</l>
+          </sp>
+          <sp who="#cebal_și_strobul">
+            <speaker>CEBAL ȘI STROBUL</speaker>
+            <stage>(apucând pe Hebro)</stage>
+            <l n="888">Pe el!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(luptând)</stage>
+            <l n="889">Hoți!</l>
+            <l n="890">Voi îndrăzniți?... Pe mine?</l>
+          </sp>
+          <sp who="#strobil">
+            <speaker>STROBIL</speaker>
+            <stage>(astupându-i gura)</stage>
+            <l n="891">Taci!</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="892">Taci, feară!</l>
+          </sp>
+          <sp who="#hebro">
+            <speaker>HEBRO</speaker>
+            <stage>(tremurând)</stage>
+            <l n="893">Iertare...</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="894">Acum ne-a sunat ora de veche răzbunare.</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="895">Și noi acum la fugă; timp n-avem de perdut.</l>
+            <l n="896">În mine ai un frate, ș-în peptul meu, un scut!</l>
+            <l n="897">Hai!...</l>
+          </sp>
+        </div>
+        <note type="title">SCENA VIII</note>
+        <div type="scene" n="VIII">
+          <head>SCENA VIII</head>
+          <sp who="#">
+            <stage>Getta intră în casă</stage>
+            <setting> Getta, Gallus, Scaur, Zoil, Glutto</setting>
+            <stage>(ieșind din palat)</stage>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(pe prag)</stage>
+            <l n="898">Getta!</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(cu otărire, în parte)</stage>
+            <l n="899">Scaur!</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <stage>(în parte)</stage>
+            <l n="900">Scitul!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(arătând pe Gallus)</stage>
+            <l n="901">Acel străin ce cată?</l>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <l n="902">E sclavul lui Horațiu...</l>
+          </sp>
+          <sp who="#gallus">
+            <speaker>GALLUS</speaker>
+            <l n="903">Vestesc că el, îndată,</l>
+            <l n="904">Cu-amicii săi, aice, la masă va sosi.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="905">Prea bucuros de oaspeți cu toții m-or găsi.</l>
+            <l n="906">Tu, Getta, adă cupe de aur.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(cu lăcomie)</stage>
+            <l n="907">Colosale!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="908">Și flori de pus pe frunte...</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(cu rugăminte comică)</stage>
+            <l n="909">Și copte cu migdale.</l>
+          </sp>
+        </div>
+        <note type="title">SCENA IX</note>
+        <div type="scene" n="IX">
+          <head>SCENA IX</head>
+          <sp who="#">
+            <stage>Își șterge gura</stage>
+            <setting> Zoil, Scaur, Glutto </setting>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="910">A!... bună-i bogăția!... Ma simt azi mulțămit</l>
+            <l n="911">Și darnic.</l>
+          </sp>
+          <sp who="#zoil_și_glutto">
+            <speaker>ZOIL ȘI GLUTTO</speaker>
+            <stage>(în parte)</stage>
+            <l n="912">Darnic?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="913">Baia de azi m-a răcorit</l>
+            <l n="914">De-a pelei usturime, pe care-o căpătasem</l>
+            <l n="915">Acum o săptămână, când trupul îmi frecasem</l>
+            <l n="916">Cu sânge de lup vânăt.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="917">Cum? Sângele de lup.</l>
+            <l n="918">Mânjit-a pelea fină a divului tău trup?</l>
+            <l n="919">Și pentru ce, stăpâne? Ah! pentru ce?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="920">Nu-ți pasă.</l>
+            <l n="921">O mare strălucire azi până pe-a mea casă!</l>
+            <l n="922">,ecena vrea să vie, amicul lui August,</l>
+            <l n="923">Aice!... cu pretorul Postum, un om de gust,</l>
+            <l n="924">Ce mi-a făcut mulțime de fine complimente</l>
+            <l n="925">Privind a mea persoană ș-a mele ornamente.</l>
+            <l n="926">Postum și cu Mecena vor fi, cred în estaz</l>
+            <l n="927">Când mi-or videa tot luxul conform cu-al meu obraz,</l>
+            <l n="928">Tablouri, mozaice, coloane porfirine,</l>
+            <l n="929">Ce-mi fac un mare cadru, precum mi se cuvine,</l>
+            <l n="930">Și, negreșit, Mecena, uimit se va grăbi</l>
+            <l n="931">De mine și de fastu-mi cu Caesar a vorbi.</l>
+            <l n="932">Ș-August, fără-ndoială, va arăta dorința</l>
+            <l n="933">Cu Scaurus a face de-aproape cunoștință;</l>
+            <l n="934">Iar când prin amicie ne vom lega noi doi...</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(cu rugăminte comidă)</stage>
+            <l n="935">Să te gândești, atunce, stăpâne, și la noi.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(cu protecție)</stage>
+            <l n="936">Dar, Glutto; voi, ca umbre, veți fi tot după spate.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(în parte)</stage>
+            <l n="937">Ce cap lipsit de crieri și plin de vanitate!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="938">D-apoi ce vor mai zice când vor gusta în plus</l>
+            <l n="939">Luxosul prânz.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="940">Vor zice că ești un Lucullus!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(așezându-se lângă masă)</stage>
+            <l n="941">Ce vom avea la masă? Rostește, Glutto, spune!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(cu lăcomie)</stage>
+            <l n="942">De toate cele rare și scumpe... de minune!</l>
+            <l n="943">Fazani umpluți cu trufe, și stridii de Lucrin,</l>
+            <l n="944">Cucoare împănate și marinate-n vin.</l>
+            <l n="945">Privigetori în șiruri pe frigărele-nfipte,</l>
+            <l n="946">Cegi grase din Tanais, trei ferte și trei fripte</l>
+            <l n="947">În untdelemn de Lesbos, și... ce este mai bun,</l>
+            <l n="948">Un blid de limbi gustoase...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="949">De care?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(înghițind)</stage>
+            <l n="950">De păun?</l>
+            <l n="951">Prea bine, și ce vinuri?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(rapide)</stage>
+            <l n="952">Falernum, Surrentinum</l>
+            <l n="953">Coecubum și Albanum, Massicum și Setinum.</l>
+            <l n="954">Și Chium, și Lesbium!... Vechi, galbin, ros, de toate.</l>
+            <l n="955">Amforele sabine, ce zac de mult pe coate,</l>
+            <l n="956">Stau gata ca să verse plăcutul lor nectar</l>
+            <l n="957">În cupe mari de aur, de jasp, de chilimbar.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="958">Prea bine; și ce fructe?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="959">De toate! pere, prune</l>
+            <l n="960">Și mere dulci, culese la lună... și alune!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="961">Îți plac?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="962">Ah!...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="963">Astă masă mi-a fi bun ajutor</l>
+            <l n="964">Să-mpingă pe Neera în lațu-mi prinzător.</l>
+            <l n="965">Stomahu-i var primire cu inima vecină</l>
+            <l n="966">Când el e plin, și dânsa dorește a fi plină.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="967">Așa-i!</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(tresărind, în parte)</stage>
+            <l n="968">Cum?... iar începe s-aprobe!... Ce neghiob!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="969">Și cât pentru Horațiu...</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="970">Așa e...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="971">Ce?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(închinându-se)</stage>
+            <l n="972">Aprob.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="973">Nu te grăbi... Ascultă, și când ți-a veni rândul...</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="974">E de prisos, stăpâne; eu îți aprob și gândul.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="975">Aproba în tăcere, cum să cuvine.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(umil)</stage>
+            <l n="976">Dar.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="977">Taci... Cât pentru Horațiu, Neera în zadar</l>
+            <l n="978">Se-ncearcasă aprindă în mine gelozie</l>
+            <l n="979">Zicând că-i amoroasă de-un falc de poezie.</l>
+            <l n="980">Sper s-o convingă Bacchus, al vinurilor zeu,</l>
+            <l n="981">Că e mai mult un Scaur decât un biet Orfeu.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(indignat)</stage>
+            <l n="982">Orfeu! Cine? Horațiu? Orfeu?? O! profanare!</l>
+            <l n="983">Orfeu! Îmi trec prin vine fiori ce-mi dau turbare.</l>
+            <l n="984">Un egoist de frunte, interesat, venal,</l>
+            <l n="985">Un curtizan nemernic de tron imperial,</l>
+            <l n="986">Împărțitor de ode în veci lingușitoare,</l>
+            <l n="987">Nesățios de lauri, de bani și de onoare!</l>
+            <l n="988">Ascult, Scaur: lumea se-nșală prea de mult</l>
+            <l n="989">Asupra lui Horațiu, în straniul ei cult!</l>
+            <l n="990">Chiar scumpa ta Neera de dânsul e orbită,</l>
+            <l n="991">Și astfel ea de tine nu poate fi-mblânzită.</l>
+            <l n="992">E timp să smulgem masca acestui scamator</l>
+            <l n="993">Ce prinde rânjitorii de ochi.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="994">Eu? Rânjitor?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(distras)</stage>
+            <l n="995">Așa-i!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="996">Ce-ai zis?!</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="997">Așa e! repet și eu ca dânsul.</l>
+            <l n="998">Horațiu nu posedă nici un talent într-însul.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="999">Dar unde?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1000">Vrei s-o afli?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1001">Cum nu?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1002">Vrei? Ești decis</l>
+            <l n="1003">În ochii tuturora să-l facem noi de râs?</l>
+            <l n="1004">Eu singur știu secretul prin care, într-o clipă.</l>
+            <l n="1005">Renumele-i de fălaș a cadă în risipă.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(rapide)</stage>
+            <l n="1006">Secretul dă-mi-l, dă-mi-l Zoile... zi curând!</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1007">Pe-o mie de sesterții sunt gata să ți-l vând.</l>
+            <l n="1008">Îi dai?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1009">Cu bucurie!</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1010">Ascultă, dar: Rivalul</l>
+            <l n="1011">Ce te oprește-n pace de a-ți juca tu calul...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(buimăcit)</stage>
+            <l n="1012">Eu? Care cal?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1013">Horațiu, acel poet... vestit,</l>
+            <l n="1014">Posedă-un sclav de merit, cu dânsu-mbătrânit,</l>
+            <l n="1015">Anume Hirsus mutul.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1016">Ei și?...</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1017">El cântă-n liră,</l>
+            <l n="1018">Și prostii pe Horațiu l-ascultă și admiră.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1019">Pricep... ba nu, grăiește mai simplu.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1020">Vreu să zic</l>
+            <l n="1021">Că sclavul face totul stăpânul lui - nimic.</l>
+            <l n="1022">El scrie-acele ode ce amețesc o lume,</l>
+            <l n="1023">Și hoțul de Horațiu cu ele-și face nume.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1024">Așa să fie, Glutto?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <l n="1025">Mi-ai zis să tac, eu tac.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1026">Apoi astfel de versuri și eu știu ca să fac.</l>
+            <l n="1027">A! scamator!... Chiar astăzi te-oi da, zău, de rușine.</l>
+            <l n="1028">Să-nșele el pe Caesar!... ba încă și pe mine!</l>
+            <l n="1029">În fața cu Neera, Zoile! - am să-l desfid</l>
+            <l n="1030">Să cânte, să-mprovize... ha, ha! mult am să râd!...</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(lingușitor)</stage>
+            <l n="1031">Să râzi; te prinde râsul.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1032">Dar să nu uiți cea mie</l>
+            <l n="1033">De sesterți, promisă.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1034">Promisă? Când? Cui?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1035">Mie.</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(încet lui Zoil)</stage>
+            <l n="1036">Zoile, parte dreaptă, ori spun ca ai mințit.</l>
+            <l n="1037">Cinci sute-mi dai?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <l n="1038">Dau, Glutto.</l>
+            <stage>(în parte)</stage>
+            <l n="1039">Ce hoț!</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(în parte, râzând)</stage>
+            <l n="1040">L-am păcălit!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA X</note>
+        <div type="scene" n="X">
+          <head>SCENA X</head>
+          <sp who="#">
+            <stage>Aleargă înaintea Neerii</stage>
+            <setting> Scaur, Zoil, Glutto, Horațiu, Postum</setting>
+            <stage>(vin amândoi prin grădină)</stage>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1041">A, iacă ș-ai mei oaspeți!... Dar nu-l văd pe Mecena!</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="1042">El s-a întors la Roma s-asculte „Adriena”.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(supărat)</stage>
+            <l n="1043">Așa?</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(în parte, râzând încet)</stage>
+            <l n="1044">Adio visuri și plante de trufie!</l>
+            <l n="1045">Adio legatură cu Caesar!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1046">S-a dus? Fie!</l>
+            <l n="1047">Postum, ilustre, salve!</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(ironic)</stage>
+            <l n="1048">Bogate Scaur, cred</l>
+            <l n="1049">Că văd pe însuși Plutus de-aproape când te văd</l>
+            <l n="1050">Grădina ta e demnă de Nimfe Hesperiade.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1051">La personagi de frunte ea porțile-și deschide</l>
+            <l n="1052">Voios... Horațiu, salve! Ce fericit om ești!</l>
+            <l n="1053">Tu, frate cu Apolon, în locul lui domnești.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(satiric)</stage>
+            <l n="1054">Ai parte prea frumoasă pe lume și tu, Scaur,</l>
+            <l n="1055">Pe brațe de Danae căzând în ploi de aur.</l>
+            <l n="1056">Glykira te-ar distinge de-ai fi un Calais.</l>
+            <l n="1057">Chiar Venus ți-ar surâde de-ai fi un Adonis.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(malițios)</stage>
+            <l n="1058">Și chiar Neera?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="1059">Poate, de-ar vrea blonda Neera.</l>
+            <l n="1060">Să se coboare...</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(triumfal)</stage>
+            <l n="1061">Sigur... și asta te desperă.</l>
+            <l n="1062">Dar ce-i?</l>
+          </sp>
+          <sp who="#glutto">
+            <speaker>GLUTTO</speaker>
+            <stage>(privind afară)</stage>
+            <l n="1063">Neera!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1064">Vine?</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(frecându-și mânele, cu mulțumire)</stage>
+            <l n="1065">A și venit?... he, he!</l>
+          </sp>
+          <sp who="#sclavii">
+            <speaker>SCLAVII</speaker>
+            <stage>(afară)</stage>
+            <l n="1066">Neera! salve, salve! Neera, evohe!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA XI</note>
+        <div type="scene" n="XI">
+          <head>SCENA XI</head>
+          <sp who="#">
+            <stage>Sclavii ies cu zgomot, nebuni de bucurie</stage>
+            <setting> Cei dinainte, Neera</setting>
+            <stage>(urmată de toți sclavii lui Scaur, care aruncă flori sub pașii săi)</stage>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(alergând înaintea Neerii)</stage>
+            <l n="1067">Neera, sunt ferice, uimit, nebun... Ah! vină!</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1068">Îmi faci, bogate Scaur, primire de regină</l>
+            <l n="1069">Scoțându-mi înainte cu flori pe-ai tăi iloți,</l>
+            <l n="1070">Și astfel liberându-i pe toți.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(cu mirare)</stage>
+            <l n="1071">Pe toți?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1072">Pe toți.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1073">Dar cum? De unde-aflat-au a mea făgăduință?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1074">Nu știu... Ți-ai dat cuvântul... De ai cumva căință.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(oprind-o)</stage>
+            <l n="1075">O! nicidecum, Neera... sunt liberi, toți, căci vreu</l>
+            <l n="1076">Să nu găsești aice decât un sclav, pe-al tău.</l>
+            <l n="1077">Pe Scaur.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1078">Bravo, Scaur... Ești demn de o favoare</l>
+            <l n="1079">Sărută-mi mâna... Iat-o!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(sărutând-o)</stage>
+            <l n="1080">Ești mândră ca un soare</l>
+            <l n="1081">Și dulce ca o lună!...</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(arătând sclavii, în fund)</stage>
+            <l n="1082">Acum, în fața lor,</l>
+            <l n="1083">Declară-a ta vroință și... junele pretor,</l>
+            <l n="1084">Postum să consacreze a ta mărinimie</l>
+            <l n="1085">Lovindu-i cu vindicta pe cap.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="1086">E uzul.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(oftând)</stage>
+            <l n="1087">Fie!</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(cătră sclavi)</stage>
+            <l n="1088">Îngenuncheați aproape de-al vostru suveran.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(sclavilor)</stage>
+            <l n="1089">Fiți liberi după uzul poporului roman.</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(atingându-i cu bățul lui pe cap)</stage>
+            <l n="1090">Declar că sunteți liberi conform cu uzul nostru</l>
+            <l n="1091">De astăzi, viașa, suflet și trup, tot e al vostru.</l>
+            <l n="1092">Vă duceți și vă tundeți în templul Feronin.</l>
+          </sp>
+          <sp who="#sclavii">
+            <speaker>SCLAVII</speaker>
+            <stage>(sculându-se, strigă)</stage>
+            <l n="1093">Evohe, Evohe!</l>
+          </sp>
+          <sp who="#cebal">
+            <speaker>CEBAL</speaker>
+            <l n="1094">Sunteți scăpați de chin!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA XII</note>
+        <div type="scene" n="XII">
+          <head>SCENA XII</head>
+          <sp who="#">
+            <stage>Zoil intră în casă și revine îndată, urmat de șese june sclave de diverse naționalități, îmbrăcate în costume bogate din țările lor. Ele aduc tablale cu fructe, cupe de preț, cununi de flori, paste zaharite etc. și le depun pe masă; apoi se retrag în fund și în dreapta, formând grupe grațioase</stage>
+            <setting> Precedenții, afară de sclavi </setting>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="1095">Acum, spre celebrarea acestei mândre zile,</l>
+            <l n="1096">Să bem în sănătatea lui Scaur.</l>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <l n="1097">Dar!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1098">Zoile,</l>
+            <l n="1099">S-aducă vin din timpul lui Bibul, și Massic,</l>
+            <l n="1100">Să facem trei libații în modul cel antic,</l>
+            <l n="1101">Neerii grațioase, a cărei sorioare,</l>
+            <l n="1102">Trei Grații, sunt modeste...</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(zâmbind)</stage>
+            <l n="1103">Și fără cingătoare.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1104">Devii poetic, Scaur.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1105">Și cum să nu devin</l>
+            <l n="1106">În față cu-Afrodita, la care mă închin,</l>
+            <l n="1107">Și-n față cu Horațiu, ce-l văd în nerăbdare,</l>
+            <l n="1108">Spre Olimp să ne urce cu dulcea sa cântare?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="1109">Eu?</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="1110">Să te văd, amice; recheamă-acum din cer</l>
+            <l n="1111">Pe muza ta.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1112">Horațiu, dă-mi voie ca să cer</l>
+            <l n="1113">Și eu astă favoare.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="1114">Favoarea-i pentru mine,</l>
+            <l n="1115">Dar nici o inspirare în minte-acum nu-mi vine.</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1116">Cu greu să poate-admite că nu ai fi dispus</l>
+            <l n="1117">Să cânți.</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="1118">Nu; a mea lira e mută.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(încet, lui Scaur)</stage>
+            <l n="1119">Ce ți-am spus?!</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(cu sarcasm)</stage>
+            <l n="1120">Adeseori sa-ntâmplă să-ți fie lira mută</l>
+            <l n="1121">Sau numai când nu-i Hirsus, ce-n taină te ajuta?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(râzând)</stage>
+            <l n="1122">Hirsus? Mutul?</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1123">Horațiu, plătești tu cu mari sume</l>
+            <l n="1124">Pe sclavul tău să scrie ca tu să-ți faci renume?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(lui Postum)</stage>
+            <l n="1125">Ce spune?</l>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <l n="1126">Bate câmpii, sărmanul; e gelos...</l>
+            <l n="1127">Cum să vorbească altfel când e Zoil în dos?</l>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <l n="1128">Horațiu, nu te aperi?</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="1129">Eu? Orice apărare</l>
+            <l n="1130">M-ar pune deopotrivă cu joasa-i acuzare.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1131">Așa?!... Să fiți dar marturi... Desfid, nu în zadar,</l>
+            <l n="1132">Pe falnicul Horațiu de-a face-un vers măcar.</l>
+            <l n="1133">Și jur pe însuși Joe să-i dau orice va cere</l>
+            <l n="1134">Pe-un cântic în onorul olimpicei Neere!</l>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <l n="1135">Mă faci să râd.</l>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <l n="1136">Hei, rade cât vrei, dar cânt-acum</l>
+            <l n="1137">De poți.</l>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(tare)</stage>
+            <l n="1138">Nu poate!</l>
+          </sp>
+        </div>
+        <note type="title">SCENA XIII</note>
+        <div type="scene" n="XIII">
+          <head>SCENA XIII</head>
+          <sp who="#">
+            <stage>Fiecare din personagi își esprimă simțirea prin jesturi și jocul fizionomiei: Neera - aruncând Getti o oschire de mânie; Scaur - râzând de Horațiu și arătându-l cu degetul lui Glutto, încremenit; Postum - aprobă alegerea amicului său; Getta - închinându-se cu recunoștință dinaintea poetului</stage>
+            <setting> Precedenții; Getta</setting>
+            <stage>(vine din palat aducând o amforă de aur)</stage>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(tresărind în parte)</stage>
+            <p>Getta!</p>
+            <p>Voi, toți, și mic și mare,</p>
+            <p>Sunteți aice marturi de oarba-i unfruntare.</p>
+            <p>A! tu pretinzi în fața-mi că a cânta nu pot?</p>
+            <p>Când te-a cioplit natura nu te-a sfârșit de tot,</p>
+            <p>Aduceți-mi verbina și martul Ioniei,</p>
+            <p>Să mă-ncunun pe frunte la glasul armoniei,</p>
+            <p>Și voi, amici, pe perne voioși, vă rezemați,</p>
+            <p>Vă-ncoronați cu roze, și beți, și m-ascultați.</p>
+          </sp>
+          <sp who="#horțiu">
+            <speaker>HORȚIU</speaker>
+            <stage>(inspirat, declamă privind la Getta)</stage>
+            <p>Hebe, tu a lui Joe iubita fiică! Zână</p>
+            <p>Ce torni nectarul vesel în cupele cerești;</p>
+            <p>Tu, care cu-o zâmbire în inimi verși lumina</p>
+            <p>Și dalba ta junie în doruri sufletești,</p>
+            <p>Privește-n a mea cupa, să se-ndulcească vinul,</p>
+            <p>În ochii mei privește, de-mi îndulcește chinul!</p>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(mirat, se întoarce spre Zoil)</stage>
+            <p>El cântă?</p>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(cu dispreț)</stage>
+            <p>Prost.</p>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(observând pe Horațiu, în parte)</stage>
+            <p>La cine Horațiu se tot uită?</p>
+          </sp>
+          <sp who="#horțiu">
+            <speaker>HORȚIU</speaker>
+            <stage>(declamă)</stage>
+            <p>Mâhnirea, tristă umbră, sub pașii tăi dispare.</p>
+            <p>Tu porți o cingătoare de splendid curcubeu.</p>
+            <p>Tovarășa de cale ai veselă sperare.</p>
+            <p>Tovarăș de iubire ai tot sufletul meu.</p>
+            <p>Și eu, în aiurire, devin, când te privesc,</p>
+            <p>Culegător de stele pe spațiul ceresc.</p>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(lui Zoil)</stage>
+            <p>Tot cântă?</p>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <p>Prost.</p>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(în parte, indignată)</stage>
+            <p>La Getta privește și mă uită?</p>
+          </sp>
+          <sp who="#horțiu">
+            <speaker>HORȚIU</speaker>
+            <stage>(declamă)</stage>
+            <p>Amice, a noastre zile sunt pasări trecătoare.</p>
+            <p>N-avem în scurtul vieții nici timpul de sperat.</p>
+            <p>Ferice care cântă cu inima la soare</p>
+            <p>Și da chiar nemurirea pe-un dulce sărutat!</p>
+            <p>Hebe, săgeată scumpă de care vreau să mor</p>
+            <p>E-n ochii tăi, în tolba divinului! Amor!</p>
+          </sp>
+          <sp who="#postum">
+            <speaker>POSTUM</speaker>
+            <stage>(lui Horațiu, golindu-și cupa)</stage>
+            <p>Evghe!</p>
+          </sp>
+          <sp who="#neera">
+            <speaker>NEERA</speaker>
+            <stage>(încet, lui Horațiu)</stage>
+            <p>Cunosc, Horațiu, ascunsă a ta gândire.</p>
+            <p>Ți-am urmărit ochirea.</p>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(zâmbind)</stage>
+            <p>Ai darul de ghicire?</p>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <stage>(lui Zoil)</stage>
+            <p>Tu ieși!</p>
+          </sp>
+          <sp who="#zoil">
+            <speaker>ZOIL</speaker>
+            <stage>(confuz)</stage>
+            <p>Dar...</p>
+          </sp>
+          <sp who="#scaur">
+            <speaker>SCAUR</speaker>
+            <p>Ieși!...</p>
+            <p>Horațiu, declar că s-a încântat</p>
+            <p>De odă ce din parte-mi tu ai improvizat</p>
+            <p>Și, drept, răsplată, darnic, țin mâna mea deschisă</p>
+            <p>Alege dar, poete, averea cea promisă.</p>
+            <p>Vrei aur, vrei palate, vrei statuie? Ce vrei?</p>
+          </sp>
+          <sp who="#horațiu">
+            <speaker>HORAȚIU</speaker>
+            <stage>(după o mică pauză se apropie de Getta, îi pune mâna pe umăr și zice tare)</stage>
+            <p>Vroiesc pe Getta!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Getta?</p>
+          </sp>
+          <sp who="#getta">
+            <speaker>GETTA</speaker>
+            <stage>(transportată)</stage>
+            <p>Pe mine? - O! dumnezei!</p>
+            <setting> Cortina cade. </setting>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
