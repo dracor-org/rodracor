@@ -1,0 +1,4174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000027" xml:lang="rom">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Chirița în Iași</title>
+        <title type="sub">Două fete ș-o neneacă</title>
+        <author>
+          <persName type="pseudo">Vasile Alecsandri</persName>
+          <idno type="wikidata">Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence>
+            <ab>CC0 1.0</ab>
+            <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
+          </licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="originalSource">
+          <name/>
+          <idno type="URL"/>
+          <title>Iași</title>
+          <availability>
+            <licence>
+              <ab>public domain</ab>
+              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+            </licence>
+          </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="chirita" sex="FEMALE">
+            <persName>Cucoana Chirița</persName>
+          </person>
+          <person xml:id="barzoi" sex="MALE">
+            <persName>Grigori Bârzoi</persName>
+          </person>
+          <person xml:id="aristita" sex="FEMALE">
+            <persName>Aristița</persName>
+          </person>
+          <person xml:id="calipsita" sex="FEMALE">
+            <persName>Calipsița</persName>
+          </person>
+          <person xml:id="pungescu" sex="MALE">
+            <persName>Pungescu</persName>
+          </person>
+          <person xml:id="bondici" sex="MALE">
+            <persName>Bondici</persName>
+          </person>
+          <person xml:id="gulita" sex="UNKNOWN">
+            <persName>Guliță</persName>
+          </person>
+          <person xml:id="afin" sex="FEMALE">
+            <persName>Văduva Afin</persName>
+          </person>
+          <person xml:id="luluta" sex="FEMALE">
+            <persName>Luluța</persName>
+          </person>
+          <person xml:id="cuculet" sex="MALE">
+            <persName>Sărdarul Cuculeț</persName>
+          </person>
+          <person xml:id="fecior_boieresc" sex="MALE">
+            <persName>Un fecior boieresc</persName>
+          </person>
+          <person xml:id="ioana" sex="FEMALE">
+            <persName>Ioana</persName>
+          </person>
+          <person xml:id="slujitor_bariera" sex="MALE">
+            <persName>Un slujitor de barieră</persName>
+          </person>
+          <person xml:id="surugiu" sex="MALE">
+            <persName>Un surugiu</persName>
+          </person>
+          <person xml:id="neamt_orga" sex="MALE">
+            <persName>Un neamț cu orgă</persName>
+          </person>
+          <person xml:id="bal_slugile" sex="UNKNOWN">
+            <persName>Poftiți la bal</persName>
+          </person>
+          <person xml:id="surugii" sex="MALE">
+            <persName>Surugii</persName>
+          </person>
+          <person xml:id="cai_posta" sex="UNKNOWN">
+            <persName>Cai de poștă</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listEvent>
+      <event type="print" when="1852">
+        <desc></desc>
+      </event>
+      <event type="premiere" when="1850-01-01">
+        <desc></desc>
+      </event>
+    </listEvent>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000027" passive="http://www.wikidata.org/entity/Q12724010"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Chirița în Iași</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Cucoana Chirița</role>
+        </castItem>
+        <castItem>
+          <role>Grigori Bârzoi</role>
+          <roleDesc>soțul ei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Aristița</role>
+          <roleDesc>fata Chiriței</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Calipsița</role>
+          <roleDesc>fata Chiriței</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Pungescu</role>
+          <roleDesc>coțcar bucureștean</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Bondici</role>
+          <roleDesc>coțcar ieșean</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Guliță</role>
+          <roleDesc>copilul Chiriței</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Văduva Afin</role>
+        </castItem>
+        <castItem>
+          <role>Luluța</role>
+          <roleDesc>copila ei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Sărdarul Cuculeț</role>
+          <roleDesc>director de agie</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Un fecior boieresc</role>
+        </castItem>
+        <castItem>
+          <role>Ioana</role>
+          <roleDesc>țiganca</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Un slujitor de barieră</role>
+        </castItem>
+        <castItem>
+          <role>Un surugiu</role>
+        </castItem>
+        <castItem>
+          <role>Un neamț cu orgă</role>
+        </castItem>
+        <castItem>
+          <role>Poftiți la bal</role>
+          <roleDesc>slugi</roleDesc>
+        </castItem>
+        <castItem>
+          <role>Surugii</role>
+        </castItem>
+        <castItem>
+          <role>Cai de poștă</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="I">
+        <head>ACTUL I</head>
+        <div type="scene" n="I">
+          <head>SCENA I</head>
+          <note type="setting"> În vremea aceasta Guliță se coboară furiș din trăsură și începe a se da pe gheață. CHIRIȚA, ARISTIȚA, CALIPSIȚA, GUGULIȚĂ, ȚIGANCA, FECIORUL, SLUJITORUL DE BARIERĂ, UN SURUGIU </note>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <stage> (alergând după trăsură, zice țigancei din coadă) </stage>
+            <p>Cine zici că-i în trăsură?...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Cucoana Chirița.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Cum?... Crița?</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Chirița... surdule.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Chirița Surdulea?... Da cască-ți pliscul mai tare... cioară, și cârâie mai dezghețat... Ce cucoană-i în trăsură?</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Du-te pârlii! că doar n-am să-ți toc la ureche până mâine.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>De!... Baragladină, te-ai pichirisit?</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Baragladină ești tu, guleratule!</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Ian vezi moachia, că s-o fudulit...</p>
+            <stage>(Azvârle în țigancă cu omăt.)</stage>
+            <p>Hâși, cârâitoare!</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Șezi binișor, blestematule, că te ia dracu.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Hâși, ciocănitoare!...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Bată-te pârdalnicu să te bată!... șezi binișor.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Hâși, duh de baltă...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (scoțând capul și primind omătul în obraz) </stage>
+            <p>Ce este? ce-ați pățit... carnacsî! că era să mă chiorască!... Cine-azvârle cu bulgări?...</p>
+            <stage> (Către țigancă) </stage>
+            <p>Ce te-o apucat, mă rog, coțofano, de cârâi ca cioara-n par?... Ie sama la lucruri bine, și taci din plisc.</p>
+            <stage> (Întorcându-se către fecior.) </stage>
+            <p>Și tu, mojicule, ce stai în capră ca un degerat și nu zici surugiilor să meargă?... Vai, bată-vă crucea, mangosiților, c-o să-mi faceți zile fripte!...</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <stage> (la oblon) </stage>
+            <p>Cucoană...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-i?</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Cum îi numele d-tale?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum mi l-o dat nânașu... Lipsești de-acole.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Așa știu și eu... d-apoi vezi, cucoană, că trebuie să te trecem la catastiful barierei.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Să mă treci la catastif pe mine?... da ce sunt eu, să mă treci la izvod?... Auzi vorbă!... Măi! că obraznici mai sunt gulerații iști cu săbiuțe...</p>
+            <p>Lipsești, mojice!</p>
+            <p>Lipsești de-aice,</p>
+            <p>Că-ți sar în păr</p>
+            <p>Și te bat măr.</p>
+            <p>Auzi dârzie! blăstămăție!</p>
+            <p>Obrăznicie</p>
+            <p>Și mojicie!</p>
+            <p>În catastifuri el să mă scrie;</p>
+            <p>Să-mi facă mie</p>
+            <p>Catagrafie,</p>
+            <p>Parcă aș fi marfă de băcălie,</p>
+            <p>Brașovenie</p>
+            <p>Sau lipscănie!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Lipsești, mojice!</p>
+            <p>Lipsești de-aice,</p>
+            <p>Că-ți sar în păr</p>
+            <p>Și te bat măr.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <stage> (astupându-și urechile) </stage>
+            <p>Ho, țară!... că doar n-am urechi de săftian... Cucoană, avem poruncă să nu lăsăm pe nime-n târg, pân-a nu-l întreba de nume.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei! c-or să-mi scoată sufletu!... Du-te de scrie c-o venit în Iași: cucoana Chirița a banului Grigori Bârzoi, de la Bârzoieni, cu Aristița, Calipsița și Guliță, copiii lor.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <stage> (în parte) </stage>
+            <p>Mă!... ce pomelnic</p>
+            <stage> (Tare) </stage>
+            <p>Cum ziseși, cucoană?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iaca surdu!...</p>
+            <stage> (Repede.) </stage>
+            <p>Chirița, Aristița, Calipsița și Guliță Bârzoi ot Bârzoieni.</p>
+            <stage> (La surugiu.) </stage>
+            <p>Mânați, măi, și luați seama la covățele.</p>
+            <stage> (În parte.) </stage>
+            <p>Aice-n capitală ești tot cu zilele-n mână.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <stage> (în parte) </stage>
+            <p>Crița, Răstița, Lăpșița și Gurluiță Brânzoi!... da... a dracului nume!... parcă se bat babele-n gură... Mă duc să-i torn în catastif.</p>
+            <stage> (Merge spre barieră.) </stage>
+            <p>Gurluiță, Lăpșița... Crița...</p>
+            <stage> (Iese.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (la surugii) </stage>
+            <p>Pornit-ați, jărpanilor?</p>
+          </sp>
+          <sp who="#surugiul">
+            <speaker>SURUGIUL</speaker>
+            <stage> (îndemnând caii) </stage>
+            <p>Hi, hi, hi, hi, copii... nu mă lăsați... Hi, hi, tătucă... Hi, hi, mânca-v-ar lupii.</p>
+            <stage>(Pocnește.)</stage>
+            <p>Hi, Iudă... Hi, jupitule. Iaca, mă! c-or să mă lase-n troian... Hi, hi, da hi... lua-v-ar dalacu... prohodi-v-ar cioarele!...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (scoțând capul repede) </stage>
+            <p>Tacă-vă gura, bețivilor, că vă aud copilele.</p>
+          </sp>
+          <sp who="#surugiul">
+            <speaker>SURUGIUL</speaker>
+            <p>Ian lasă-ne, cucoană hăi... nu ne mai necăji, că destul necaz avem noi cu rădvanul ista, ardă-l focu!...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba să te ardă pe tine focul... auzi?... rădvan!... trăsura mea de nuntă, nouă-noușoară!... de abia din vremea bejăniei!... Hai, mânați și nu mai faceți vorbă.</p>
+          </sp>
+          <sp who="#surugiul">
+            <speaker>SURUGIUL</speaker>
+            <p>Hi, hi... odată, copii, cu toții... Hi! lăsa-v-ați oasele cioarelor și pelea vameșului... Ha, ho, ha, ho, tbrr... degeaba!... de-acum ne-am troienit...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ne-am troienit?... Iaca! na, și alta acum... chiar colac peste pupăză!</p>
+            <stage> (Feciorului.) </stage>
+            <p>Ce stai ca un butuc în capră, mangositule... coboară de-agiută la trăsură... Ian vezi-l, mă rog, parcă-i un boieri!... nu-i bun nici de-o treabă...</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (leneș) </stage>
+            <p>Dacă-i chiar în zadar... nu ne scoate de-aici nici dracu...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Sărmane, sărmane... ți-oi arăta eu acuși pe dracu, somnorosule... dă... dă!...</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (scoborându-se) </stage>
+            <p>Somnoros, da! și eu n-am închis ochii de două nopți!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (sărind din trăsură) </stage>
+            <p>Ian auzi-l că și răspunde!...</p>
+            <stage> (Lunecând.) </stage>
+            <p>Carnacsî! că era să-mi rup șălele</p>
+            <stage> (Împingând feciorul.) </stage>
+            <p>Ia, colo... colo la răzor, tontule... pune umăru de-mpinge, că ești coșcoge...</p>
+            <stage> (La surugiu.) </stage>
+            <p>Hai, măi, opintiți vârtos.</p>
+          </sp>
+          <sp who="#surugiul">
+            <speaker>SURUGIUL</speaker>
+            <p>Hi, hi, zvânta-v-ar vântu și v-aș vinde păstrama!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Tacă-vă gura, blăstămaților! că vă aud copilele!</p>
+            <stage> (La fete.) </stage>
+            <p>Astupați-vă urechile!</p>
+            <stage> (În parte.) </stage>
+            <p>Îi un păcat cu niște ghiorlani.</p>
+            <stage> (La țigancă.) </stage>
+            <p>Da tu, cheramo, ce stai acolo parcă clocești ouă... de-te gios să se mai ușureze trăsura.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Cuconiță, nu mă pot scoborî făr’ de scară.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Scară?... ți-oi da eu la scară, coțofană... deschide-ți aripile și sai la pământ... da doar mi-i strica cutia... c-atâta-ți trebuie.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <stage> (sărind) </stage>
+            <p>Valeu!... că mi-am scrântit piciorul! valeu!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Tronc! parcă-nadins i-am zis să mi-o strice!... Of! săracan de mine! că-mi vine să țip și să ieu câmpii!... Mult oi să mai stau în drum?</p>
+            <stage> (Aleargă la oblon și lunecă.) </stage>
+            <p>Carnacsî! că mi-o plesnit șireturile de la rochie!... Aristițo, Calipsițo, dați-vă gios și voi, doar ne-om distroieni mai degrabă... ia așa... frumos... încet, să nu lunecați.</p>
+          </sp>
+          <sp who="#guliță">
+            <speaker>GULIȚĂ</speaker>
+            <stage> (cepeleag și alintat) </stage>
+            <p>Să mă cobor și eu cu țâțacele?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba nu, Gulița mamei... nu, drăguță; mata șezi în trăsură ca să nu răcești.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>E!... neneacă, vreau să mă cobor... na...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba nu, suflete... dacă mă iubești... șezi mătăluță locului, puiule, și te învălește cu contășu băbacăi.</p>
+          </sp>
+          <sp who="#guliță">
+            <speaker>GULIȚĂ</speaker>
+            <p>Ei, m-am săturat de contăș; vreau să mă dau pe gheață...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba... să nu faci poznă, Gulița neneacăi, c-apoi s-a mânia neneaca și nu ți-a mai cumpăra minavet... știi mata... minavetu care ți l-am făgăduit...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Așa! de trei ani de când mă porți cu făgăduința...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (sărutându-l) </stage>
+            <p>Gulița mamei!... că nostim ești... nu fi de diochi...</p>
+            <stage> (Închide oblonul și zice surugiilor) </stage>
+            <p>Hai, flăcăi, de-acum, că vă făgăduiesc bacșiș bun... câte un fifirig de om...</p>
+            <stage> (Căutând în culise.) </stage>
+            <p>Iaca poznă! da unde-s surugiii?</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Or fi fugit!... cine știe?... la vro crâșmă poate...</p>
+            <stage> (În parte.) </stage>
+            <p>Hei, că nu-s și eu cu dânșii!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>O fugit și m-o lăsat lată în mijlocul drumului!... bre! c-o să mă lovească ceva!</p>
+            <stage> (Furioasă.) </stage>
+            <p>Ei, apoi să nu te-apuce șăptezeci de năbădăici?... Kirie eleison!</p>
+            <stage> (Vine iute în fața publicului.) </stage>
+            <p>Mă rog, cine ține poștele?... cine-i otcupcicul ghipcanilor?... să deie ochi cu mine, dacă-l ține curăua... să-i zic două vorbe... da vorbe!... să le pomenească cât o trăi... știi?... cole... engolpion de anul nou 1844.</p>
+            <p>I</p>
+            <p>Ian să-ți spun, otcupcic dragă,</p>
+            <p>Vel otcupcic de ghipcani!</p>
+            <p>Toți motanii, fără șagă,</p>
+            <p>Nu-ți plătesc nici chiar doi bani!</p>
+            <p>Of! mări frate,</p>
+            <p>De ai păcate</p>
+            <p>Cu cai de poștă să te pornești;</p>
+            <p>De multă ciudă,</p>
+            <p>De multă trudă,</p>
+            <p>Te simți, cu poșta, că-mbătrânești!</p>
+            <p>Ba nu-s propele,</p>
+            <p>Nici căpițele;</p>
+            <p>Ba ștreangu-i putred de ars în foc!</p>
+            <p>Hi, pliosca, trosca,</p>
+            <p>Hi, trosca, pliosca!...</p>
+            <p>Sluga-n pricină... ești tot pe loc!</p>
+            <p>II</p>
+            <p>Drept să-ți spun, otcupcic dragă,</p>
+            <p>Vel otcupcic de ghipcani!</p>
+            <p>Toți motanii, fără șagă,</p>
+            <p>Nu-ți plătesc nici chiar doi bani!</p>
+            <p>Căci dacă pleacă,</p>
+            <p>Colbul te-neacă;</p>
+            <p>Glodu-ți lipește benghiuri pe nas;</p>
+            <p>Biciul pocnește</p>
+            <p>De te-asurzește,</p>
+            <p>Și caii poștei alerg... la pas!</p>
+            <p>Ba stau la dealuri;</p>
+            <p>Te dau de maluri;</p>
+            <p>Îți sfarmă trupul de nu mai poți!</p>
+            <p>Și de nu-ți pasă,</p>
+            <p>Ajungi acasă</p>
+            <p>C-un ochi, c-o mână, și cu trei roți!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (alergând în fund) </stage>
+            <p>Poftim poște!... dacă nu merg caii, fug surugiii!... Da unde s-o înfundat blăstămații?</p>
+            <stage> (Intră în culisa din dreapta, din fund.) </stage>
+            <p>Vai! că buni-s de spânzurat în iarmaroc!... Auzi!... carnacsî, că lunecușu-i!... Valeu!...</p>
+            <stage> (Se aude căzând pe gheață.) </stage>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <p>Vai de mine! a căzut neneaca pe gheață!...</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (căutând în dreapta) </stage>
+            <p>Haita... buf... na, c-o căzut și duducile... Ha, ha, ha... una peste alta...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Uța... a... a... Bine-i de dat de-a săniușul... Uța... a... a... Neneaca s-a dus... bine-mi pare!</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <stage> (ghemuită în cergă lângă coada trăsurii) </stage>
+            <p>Da astâmpără-te, cuconașule, că-i cădea jos și ți-i sparge capu.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Taci, coțofană... nu cârâi.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Haide, hai, că te-a vedea ea cucoana acuși.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Taci, îți zic, c-apoi știi...</p>
+            <stage> (Către fecior.) </stage>
+            <p>Măi, fecior boieresc, vin’ de te dă pe gheață cu mine.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Ce să fac?... că doar n-am zece capete de stricat...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (mânios) </stage>
+            <p>D-apoi dacă-ți poruncesc eu?... nu vrei?... Ei las’ măi bade, că te-oi drege eu.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (în parte) </stage>
+            <p>Ba-i drege tu pe cine-ai mai dres, sfrijitule.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Uța... a... las’ că te-oi spune eu și bunicăi, și mătușicăi, și băbacăi, și neneacăi... Uța... a...</p>
+            <stage> (Se aude dincolo de barieră un sunet de zurgălăi și un glas de jidov strigând: „Vio, vio.”) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="II">
+          <head>SCENA II</head>
+          <sp who="#">
+            <stage>Împreună.</stage>
+            <p>FECIORUL</p>
+            <stage>(lângă oblon)</stage>
+            <p>, ȚIGANCA</p>
+            <stage>(lângă coada trăsurii)</stage>
+            <p>, GULIȚĂ</p>
+            <stage>(dându-se de-a săniușul pe dinaintea ei)</stage>
+            <p>, BONDICI, PUNGESCU, un neamț cu orgă și slujitorul</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (la barieră) </stage>
+            <p>Mă! cel cu trăsura... fă înainte... Ce-ai închis șoseaua?</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (căutând în stânga) </stage>
+            <p>Dec! cum oi să fac înainte, dacă ne-am troienit?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ce-mi pasă mie?... dă-te-n lături că n-am să șez aici toată noaptea pentru hatârul tău.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Măi omule, da n-auzi că ne-am troienit?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (asemene la barieră) </stage>
+            <p>Înhamă-te pe tine și trage zdreavăn pănă ce-i ieși din zăpadă.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Ba-ți pune pofta-n cui.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Hait! o pățirăm de la roate... Ei, ce facem acum?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Hai să lăsăm harabagiul și să ne suim într-o sanie de birjă.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Fie ș-așa... hait... vină și tu, neamțule, cu noi.</p>
+          </sp>
+          <sp who="#neamțul">
+            <speaker>NEAMȚUL</speaker>
+            <p>No gut... maine heren.</p>
+          </sp>
+          <sp who="#slujitorul">
+            <speaker>SLUJITORUL</speaker>
+            <p>Cum îi numele d-voastră, domnilor?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>D-lui îi spătarul Hațmațuchi, și eu aga Crastavețovici: amândoi cu șezutul și cu avutul în Focșani... Cât pentru d-lui neamțul, îi vestitul baron fon Șonțberg, care vine de la Podul-Iloaiei ca să deie concerturi instrumentale în folosul său. Drept care avem cinste a ne închina d-tale cu tot respectul, noi, sus-pomeniții și jos-iscăliții: spătarul Hațmațuchi, i aga Crastavețovici, i baron fon Șoacățenberg.</p>
+            <stage> (Se închină și vine în fața scenei.) </stage>
+            <p>Zi cruce-ajută și dă înainte la catastih dacă poți, cenușerule.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ha, ha, ha!... repede mi-l luași pe bietul dorobanț, nene...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Nume voia? nume i-am dat. Să se sature.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Îra!... Iaca un minavet de canari, cum vreau eu.</p>
+            <stage> (Aleargă lângă neamț, împreună cu feciorul și cu țiganca.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Iaca neamțul dracului!... nici n-a apucat a intra în Iași și a și început a rupe urechile ieșenilor. Nu-i destul că ne-a asurzit pe noi în harabaua cea jidovească, de la Roman, și tot drumul!... Ia să vezi cum o să-mi gologănească sinpatrioții!... Păcat numai că n-are vro momiță sau vrun urs, că s-ar face stup de bani.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ce spui, vere?... care vrea să zică... dobitoacele aci în Iași?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Hai, hai!...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Apoi dar... ne-am sfințitără noi doi?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Niboisa, fricosule... nu mi te da, păcătosule... dar, ia lasă vorba asta... să venim la treaba noastră. Am scăpat din Focșani cum am putut... cu nepus în masă... că de punea mâna ispravnicul pe noi, ne trântea poate la gros...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Vrei să zici la pușcărie.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Și asta din pricina ta; dacă ești prost și lași să te prindă la cărți cu mâța-n sac?...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ce pisică-n sac, neneo? vina mea-i dacă s-a găsitără alt cartofor mai țeapăn decât mine și m-a zăritără când am tras pă riga de desubtul cărților?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>În sfârșit, ce-a fost s-a trecut... am scăpat de-acolo; acum ne rămâne să ne păzim aici vro câtăva vreme, păn’ ce s-o face lucru mușama... De aceea trebuie mai întâi să ne prefacem numele; să le mai lungim. Tu te-i chema de azi înainte Pungescovici și eu Bondicescu.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ei ș-apoi!... despre trai cum a s-o ducem?... că numai cu escu șu cu ovici, tot covrigi, tot spanac.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Despre trai?... helbet!... feți logofeți de soiul nostru, cu meseria stosului și a bancului, nu pier în Iași.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Se poate, nenișorule... dar mai bine m-aș închiorchioșa eu în București.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Pentru ce, neică?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Pentru ce?...</p>
+            <p>De-ai umbla întreaga lume;</p>
+            <p>De-ai călca pe rând anume:</p>
+            <p>Țara englezească,</p>
+            <p>Țara franțuzească,</p>
+            <p>Țara spaniolească,</p>
+            <p>Nemțească, leșască,</p>
+            <p>Italienească,</p>
+            <p>Păn’ și cea grecească,</p>
+            <p>N-ai găsi chiar într-o mie</p>
+            <p>Așa târg vestit să fie,</p>
+            <p>Pentru boscărie,</p>
+            <p>Pentru stosărie,</p>
+            <p>Pentru coțcărie,</p>
+            <p>Matrapazlărie,</p>
+            <p>Și rușfetărie</p>
+            <p>Și potlogărie!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Nu zic ba, neiculiță, dar apoi și târgul nostru... când ai ști.</p>
+            <stage> (Caută împrejur.) </stage>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Spune, că nu ne aude nime.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Iașul nostru-i chiar de gemene cu Bucureștiul vostru.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (cu bucurie) </stage>
+            <p>Aoleo!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ce-ți spun eu.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Care vrea să zică... de-om lua treaba de la mertepea ș-aci, am înfundatără pă dracu?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ba încă și pe tată-său... c-apoi vezi tu, neiculiță... viața-i un stos de la început păn’ la sfârșit, și lumea o masă de cărți. Tot meșteșugul îi să pontarisești la vreme și să găsești ruteua norocului, ca să faci roi...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Prea bine... dar dacă ai goană dă fante?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Furi o carte, ș-așa îți dregi bosuiocul.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Neneo, mă crede, viața-i un stos;</p>
+            <p>Lumea o masă cu postav verde.</p>
+            <p>Tot meșteșugu-i de-a juca gros;</p>
+            <p>De-a punta bine și... de-a nu pierde!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ei, apoi halal de mine.</p>
+            <p>BONDICI</p>
+            <p>Halal de tine dacă vei ști</p>
+            <p>Să-ți spoiești bine fruntea, obrazu,</p>
+            <p>Și, fără frică de-a te roși,</p>
+            <p>Să faci transporturi... cu cinsteamazu!</p>
+            <p>Halal de tine dacă vei ști</p>
+            <p>ș.c.l. ș.c.l.</p>
+          </sp>
+        </div>
+        <div type="scene" n="III">
+          <head>SCENA III</head>
+            <note type="setting">Bondici, Pungescu, Aristița și Calipsița ies la brațetă prin dreapta. Chirița-i urmează puțin și se oprește. Neamțul, care a stat tot în fund, începe a cânta din orgă. Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA </note>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Of!... îmi vin istericale grecești!... am alergat pin toate crâșmele, și surugiii... tufă... Of! cine mi-o zis să mă pornesc eu de la Bârzoieni?...</p>
+          </sp>
+          <sp who="#aristița">
+            <speaker>ARISTIȚA</speaker>
+            <p>Neneacă... nu te tulbura, că iar te-a durea rastul.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum să nu mă tulbur, Aristițo dragă... dacă m-o lăsat în mijlocul drumului, cu cățel... cu... Ce-o să facem acum?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (în parte) </stage>
+            <p>O neneacă cu două fete...</p>
+            <stage> (Încet, lui Pungescu.) </stage>
+            <p>Aține-te, muntene, c-aici-i pe treabă...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (scoțând repede o pereche de cărți, taie repede un stos) </stage>
+            <p>Pă trebuliță?... hareci!... stos!...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (cu deznădăjduire) </stage>
+            <p>Și nici un bărbat... nime ca să ne vie într-agiutor... Îmi vine să mă trântesc la pământ, ca jidanii.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Un bărbat!... iată-mă-s... poruncă.</p>
+            <stage> (Înaintează spre Chirița.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-mi văzură urechile și ce-mi auziră ochii!... Slavă ție, Doamne, că iată în sfârșit un creștin!...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Doi hristiani, cocoană... că sunt și eu p-acilea.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Foarte vă mulțămesc... dar, mă rog, să mă fericesc cu numele dumilorvoastră...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>D-lui, prietenul meu, este spătarul Pungescovici.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Și d-un aga Bondicescu, al meu amic...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Un spătar ș-un agă!</p>
+            <stage> (Încet și repede, fetelor.) </stage>
+            <p>Țineți-vă mai drept și zâmbiți nurliu.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Dar, mă rog, cucoană, să ne norocim și noi...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Eu sunt cucoana Chirița a banului Grigori...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Și duducile?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bârzoi...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>A! Bârzoi?... și duducile?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ot Bârzoieni...</p>
+            <stage> (Se închină.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Am înțeles... dar duducile?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Copilele mele... Aristița și Calipsița.</p>
+            <stage> (Încet, fetelor.) </stage>
+            <p>Faceți tali frumos.</p>
+            <stage> (Tare.) </stage>
+            <p>Le-am adus la Iași, drăguțile, ca să pitreacă câșlegile; și puneți-vă în gând, boierilor, că după ce ne-am necăjit pe drum două zile și două nopți, când s-agiungem la gazdă... ne fug surugiii tocmai la capătul târgului.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Cum se poate?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Așa, zău... am pățit-o chiar ca cela care s-a înecat la mal.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ei!... las’ că-oi spune eu asta vărului meu...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>D-lui ține poștile?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Dar.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (încet, lui Bondici) </stage>
+            <p>O tăiași groasă, nene...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Taci, nerodule...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Să-ți spun drept... dar să nu-ți fie cu supărare... vărul d-tale n-are nici un haz cu poștile d-sale... Lehamete și de parale.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Da de câte ori i-am spus-o eu însumi, cucoană dragă... Ce folos însă!... nu înțelege de cuvânt...</p>
+            <stage> (Încet, lui Pungescu.) </stage>
+            <p>Ce zici de fete, măi?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Au zestre oare?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Așa-mi miroase...</p>
+            <stage> (Cucoanei Chirița.) </stage>
+            <p>Cucoană Chiriță, noi amândoi suntem gata la poruncile d-tale și preafericiți de a te putea înlesni la orice-i dori în târgul nostru...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bunătatea d-voastră...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ce se potrivește!... Primiți deocamdată brațele noastre, ca să vă ducem la gazdă, și cât pentru trăsură, n-ai nici o grijă... om trimite boii noștri ca s-o aducă.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bucuros!...</p>
+            <stage> (În parte.) </stage>
+            <p>Ce cuconași de treabă!... când ar fi și holtei!</p>
+            <stage> (Încet, fetelor.) </stage>
+            <p>Dați brațul și mergeți pupuică... tot pe vârful scarpilor...</p>
+            <p>TOȚI</p>
+            <p>Haideți împreună</p>
+            <p>Vesel să pornim,</p>
+            <p>Și-ntr-o casă bună</p>
+            <p>Să ne găzduim.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (Aristiței, dându-i brațul) </stage>
+            <p>Demuazelă dragă, sunt prea fericit,</p>
+            <p>Că să-ți dau eu brațul m-am învrednicit!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (Calipsiței, asemene) </stage>
+            <p>Demuazelă scumpă, în veci n-oi uita</p>
+            <p>C-astăzi, la brațetă, merg cu dumneata!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Unul zice-i agă, celalalt spătar;</p>
+            <p>De i-aș prinde gineri, i-aș lua în dar.</p>
+            <p>Unul zice-i agă, celalalt spătar;</p>
+            <p>De i-aș prinde gineri, aș dă sărindar!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Haideți împreună</p>
+            <p>Etc. etc. etc.</p>
+          </sp>
+        </div>
+        <div type="scene" n="IV">
+          <head>SCENA IV</head>
+          <note type="setting"> CHIRIȚA, GUGULIȚĂ și ceilalți </note>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (oprindu-se) </stage>
+            <p>Da... Guliță? Kirie eleison!... că era să-mi uit odoru-n trăsură...</p>
+            <stage> (Se întoarce și găsește pe Guliță lângă neamț.) </stage>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Nu pe aista, monsiu neamțule... cântă pe cellalt...</p>
+            <stage>(Bate din picioare cu mânie.)</stage>
+            <p>Nu pe aista, e cellalt.</p>
+          </sp>
+          <sp who="#neamțul">
+            <speaker>NEAMȚUL</speaker>
+            <p>No! lasenzi șon geen.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-mi văzură ochii!... O ieșit dimonu din trăsură!... și făr’ de blană!... săracan de mine c-o fi înghețat!...</p>
+            <stage> (Aleargă la Guliță.) </stage>
+            <p>Ce faci aici, diavoli?... Nu ți-am spus să nu ieși din contășul băbacăi?...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Ei, m-am săturat de contăș ca de mere acre.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Auzi!... Ian privește cum i s-o roșit nasu!... parcă-i o sfeclă digerată!</p>
+            <stage> (Îi șterge nasul cu batista.) </stage>
+            <p>Doamne! Doamne! ce păcat cu niște plozi! Măi Ioane, adă blana din trăsură... l-o lovi un giunghi și mi-o fi mai mare beleua.</p>
+            <stage> (Feciorul aduce o blană din trăsură.) </stage>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Iaca șuba cuconașului...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Și voi... chiori ați fost de l-ați lăsat să iasă dizvălit?... vină să te-mbrac, păcatule... Ei, vină azi și nu mă supăra.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Nu mă supăra nici mata.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Auzi plodu?... las’ că ți-oi arăta eu...</p>
+            <stage> (Îl îmbracă cu de-a sila.) </stage>
+            <p>Șezi binișor... nu crâcni... țâst... să nu-ți aud gura...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (zbătându-se) </stage>
+            <p>Nu vreau, nu vreau.</p>
+            <stage> (Plânge.) </stage>
+            <p>Las’ că te-oi spune eu băbacăi...</p>
+            <p>CHIRIȚA</p>
+            <stage> (trăgându-l târâit) </stage>
+            <p>Ce face?... Of! c-o să mă nebunească dimonu... parcă văd că iar are să m-apuce rastu... Ascultă, Gulița nineacăi: hai că ne-așteaptă țâțacele.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (trântindu-se la pământ) </stage>
+            <p>Nu-mi pasă mie de țâțace... nu merg.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei, vină că-ți cumpăr minavetu cela... știi mata...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Cumperi?... dacă-i așa... ia-mi-l pe-aista, a lui monsiu neamțu. Vină cu noi, monsiu neamțule...</p>
+          </sp>
+          <sp who="#neamțul">
+            <speaker>NEAMȚUL</speaker>
+            <p>Gut... gut... ser bevol.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Las’ să te văd eu acasă, păcatule, c-apoi ți-oi da un minavet de nu l-îi putea duce... Măi Ioane, rămâi aici cu țiganca ca să păziți lucrurile, păn’ ce-or veni boii să râdice trăsura... da doar îți pierde vro cutie... c-apoi sfântu Neculai îi gata.</p>
+            <stage> (Pleacă cu Guliță spre dreapta.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="V">
+          <head>SCENA V</head>
+            <note type="setting">Toți aleargă în dreapta; Chirița trage de mână pe Guliță, care trage asemene pe neamț de poala surtucului. Feciorul boieresc și țiganca rămân lângă trăsură.</note>
+            <note type="setting">Cei dinainte, văduva AFIN, sărdarul CUCULEȚ </note>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ce minune!... Cucoana Chirița?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cucoana Nastasiica!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Bine-ai venit.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bine-am găsit.</p>
+            <stage> (Se sărută.) </stage>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da ce vânt te-a adus pe la noi, soro dragă?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Mi-am adus fetele de câșlegi, după obicei.</p>
+            <stage> (Încet.) </stage>
+            <p>Da d-ta cum te întâlnesc singură... lângă barieră?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Am ieșit puțin ca să mă primblu afară din târg, că pin târg îi potop... te ferească Dumnezeu!...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da, bine... pe gios?... ha?... Ei, dă... nu te roși, soro dragă... Lumea-i lume, și tinereța... Ce te sastisești?... între noi...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da nu mă sastisesc, soro, nicidecum... Mă primblu pe jos... pentru că așa-mi place. Am venit cu sărdarul Cuculeț.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cu sărdarul?</p>
+            <stage> (În parte.) </stage>
+            <p>Hm! mititica...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Sărut mâinile, cucoană Chiriță.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Plecăciune, arhon sărdar. Tot la agie ești?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Director și supusă slugă.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Și la mai mare.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Amin.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da... unde-s duducile?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Îra!... ba că chiar!... unde-s?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ha, ha, ha... pe mine mă-ntrebi?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bine zici, săruta-ț-aș ochii... S-o pornit de-aici la brațetă cu doi cavaleri.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>La brațetă?... cu doi cavaleri?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Precum zici, soro: unul, aga Bondicescu, și cellalt, spătarul Pungescovici... doi bujori, surioară, două zarnacadele!</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (în parte) </stage>
+            <p>Bondicescu? Pungescovici?... mare poznă!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ei bine, și-ncotro au apucat truspatru?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Hoisa, pe șoșe...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Dar, îi cunoșteai mai de mult?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba, cât hăciu!... Mi-o ieșit în drum să-mi deie agiutor; că nu știi, soro, ce-am pățit?... m-am troienit!... și să vezi d-ta: Mă pornesc de la Bârzoieni... și încă bărbatu-meu îmi zicea: „Soro dragă, nu te porni... stai...” Când ce să vezi?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Apoi bine, cucoană Chiriță, se poate să-ți lași copilele pe mâna unor necunoscuți?... Cine știe ce berbanți?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Pușche pe limbă-ți... vai de mine! că începe a mă umfla grija din tălpi... mă furnică sudori pe spate... Iaca pozna gata!... Nu cumva se zăresc pe șoșe?</p>
+            <stage> (Se apropie de culise și caută înăuntru.) </stage>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (în parte) </stage>
+            <p>Sameșul din Focșeni îmi scrie, cu poșta de astăzi, despre un Bondici și un Pungescu: doi coțcari care au dezbrăcat lumea pe-acolo... și mă sfătuiește să-i priveghez de aproape... Oare tocmai ei să fie?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Nimică! tufă!... o intrat fetele-n pământ... Vai de mine! Arhon sărdar, nu mă lăsa... de-a afla bărbatu-meu, zău, am sfeclit-o!... Ioane, aleargă; ba... ba... stai la trăsură... Arhon sărdar... ridică toată agia în picioare... săraca de mine!... așa poznă!... să-mi fure fetele de la ochi!... Hai degrabă cu toții să le căutăm... Biata Aristița!... biata Calipsița! Sfinte Mina... să știi că-ți dau șăpte paraclisuri...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Degrabă, degrabă,</p>
+            <p>Cu toți s-alergăm;</p>
+            <p>Să mergem în grabă</p>
+            <p>Să le căutăm.</p>
+            <p>Vai, bietele fete!</p>
+            <p>Că le-am prăpădit</p>
+            <p>Și le-am dat pe biete...</p>
+            <p>De-acum m-am topit!...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (furioasă, aleargă de împinge pe neamț) </stage>
+            <p>Da du-te pârlii, șonțule, cu țârlâitoarea asta.</p>
+            <stage> (Lunecă.) </stage>
+            <p>Carnacsî! că era să mă prăbușesc!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Degrabă, degrabă etc. etc. etc.</p>
+            <stage>(Cortina cade.)</stage>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="II">
+        <head>ACTUL II</head>
+        <div type="scene" n="VI">
+          <head>SCENA VI</head>
+            <note type="setting">Se aude afară următorul dialog:</note>
+            <note type="setting">CHIRIȚA</note>
+            <note type="setting">(șade dinaintea toaletei și-și face sprâncenele)</note>
+            <note type="setting"> ȚIGANCA</note>
+            <stage>(calcă rochii în fund)</stage>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (cântă) </stage>
+            <p>Ochii și sprincenile</p>
+            <p>Fac toate pricinile...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (răsărind) </stage>
+            <p>Iar!... o să mă năucească trântoru cu minavetu lui!... Cât îi ziulica de mare tot țârlâiește... de urlă câinii mahalalei... Fa, fa Ioană, du-te de zi cuconașului să tacă, că m-am săturat de mojică ca de mere pădurețe... îmi vine acru...</p>
+            <stage> (Țiganca intră în odaia lui Guliță.) </stage>
+            <p>Așa mi se cade, dacă mă potrivesc eu de-i cumpăr minavetu cela de la neamț. Las’ că ține cât dracu pe tată-său. Tronc! că mi-o dat nucușoară-n ochi... fa... fa...</p>
+            <stage> (Țiganca vine înapoi.) </stage>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Aud, cucoană.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Mă rog, ce ți-am spus când ți-am poroncit să-mi gătești păișoare cu bumbac pentru sprâncene? aud?...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Mi-ai zis...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Nu ți-am zis să mi le faci subțiri?... Ian vezi cum mi le-ai meșterit... parcă-s buzdugane de vel armaș din vremea domnilor greci!...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Da lasă, cuconiță, că-s tocmai cum trebuie... doar ți-am mai făcut eu pămătufuri și badanale de sprâncene.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum ai cârâit?...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Niciodată nu ți-ai făcut așa de frumoase sprâncene... parcă-s două lipitori umflate...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Înghinate-s cum trebuie?</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Dizghinate... dizghinate...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (strănutând tare) </stage>
+            <p>Pe brațe!... M-o fi pomenind d-lui, Ioană.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Te-o fi pomenind, cucoană.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Când ar fi față suflețelul, să mă vadă... cum și-ar mai răsuci mustețile!...</p>
+            <stage> (Iar strănută.) </stage>
+            <p>Iar mă pominește!</p>
+            <p>Ochii și sprincenile</p>
+            <p>Fac toate pricinile,</p>
+            <p>Și cu foc și cu pârjol</p>
+            <p>Pe amor îl dau de gol.</p>
+            <p>Când un tinerel îți place</p>
+            <p>Ș-amorez voiești a-l face,</p>
+            <p>Cât mi-l iei puțin la ochi,</p>
+            <p>L-ai trecut cu dediochi.</p>
+            <p>Cât îi joci și din sprâncene,</p>
+            <p>De amor se umflă-n pene.</p>
+            <p>Cât din buze mi-i zâmbești,</p>
+            <p>Chiar pe loc îl nebunești.</p>
+            <p>Iar de-i faci ș-așa din mână...</p>
+            <p>Îi călare pe prăjină!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iar! Iar!... Valeu! că mare păcate c-un plod!... îmi vine să latru.</p>
+            <stage> (Aleargă la ușa lui Guliță.) </stage>
+            <p>Țâșt, diavoli, că mă bagi în ipohondrie.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (din odaie) </stage>
+            <p>Las’, neneacă, că învăț mujica.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ți-oi da eu acuși o mojică, trântorule, de nu-i putea-o înghiți.</p>
+            <stage> (Intră în odaie.) </stage>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Vai de mine! ce păcate pe capul meu de când am venit în Ieșul ista!... ba îmbracă pe cucoana... ba gătește duducile... ba calcă rochii de bal... ba arde nucușoară de sprâncene. Mă mir cum nu s-au săturat de zbânțuit!... Ieri au fost la teatru și-n astăseară merg la bal, la Afinoaia; ș-apoi și alt păcat! că încep a se-mbrăca de pe la toacă... Îmi vine, zău, să iau câmpii...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (intrând) </stage>
+            <p>Ia așa... mai bine-i scânci tu, decât oi turba eu... Ce mirosă-aici a pârlit?... arde ceva, vro petică?...</p>
+            <stage> (Aleargă la masa cu rochii de ridică una și o arată arsă în poale.) </stage>
+            <p>Iaca poznă! c-o lăsat cioara feru pe rochii... destulă treabă!... Ian privește... rochie de bal îi asta?... Ei! apoi să n-o ucizi în bătaie! bunătate de rochie cumpărată la Leiba Grosu cu o mulțime de bani: douăzeci ș-atâți de jumătăți de irmilici noi!...</p>
+            <stage> (Aruncă rochia în obrazul țigancei.) </stage>
+            <p>Na! stahie-mpelițată... mănânc-o friptă cum îi... și lipsești din ochii mei că intru acuși într-un păcat.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <p>Cuconiță...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Lipsești, îți zic... piei, că te zgârii...</p>
+            <stage> (Țiganca fuge în odaia Chiriței.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (plimbându-se furioasă) </stage>
+            <p>Uf! că nu mai este de suferit!... de când am venit în Ieși ca să-mi mărit fetele... am prins la istericale ca o cherațiță... Poftim!... Cu ce-oi să mă duc eu acum la balul Afinoaiei?... trebuie iar să-mi pun rochia cea de catife roșie și turlubanu cel cu pene stacojii... ca să mai aud iar vrun obraznic zicând că seamăn cu Nastratin Hogea, ca mai deunăzi, la bal-masqué... Nu-i de suferit, nu-i de suferit și pace!</p>
+            <p>Dumzeneu să te ferească</p>
+            <p>De cutremur și de foc,</p>
+            <p>De ghipcani ce stau în loc</p>
+            <p>Și de slugă țigănească.</p>
+            <p>Și de-acele slugi plecate</p>
+            <p>Ce se-nchin, te lingușesc</p>
+            <p>Păn’ ce-ți sar deodată-n spate</p>
+            <p>Și ca corbii te ciupesc.</p>
+            <p>Așa slugi le e de fugă</p>
+            <p>Sau de ele singur fugi...</p>
+            <p>De nu vrei s-ajungi chiar slugă</p>
+            <p>La așa plecate slugi...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Acasă-i cucoana?</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Acasă, dar să ghilosește acum.</p>
+          </sp>
+        </div>
+        <div type="scene" n="VII">
+          <head>SCENA VII</head>
+          <note type="setting">Vorbește la urechea Afinoaiei.</note>
+          <note type="setting"> CHIRIȚA, AFIN, LULUȚA </note>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Auzi, tontu?</p>
+            <stage> (Aleargă la ușa din fund și o deschide.) </stage>
+            <p>Cucoană Nastasiică... poftim, nu te potrivi...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Poate că te deranjarisesc, cucoană Chiriță?... dar n-am vrut să-ți trec pe la poartă ca o străină...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum să mă rânjarisești tocmai d-ta?...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Rânjarisești?... ha, ha, ha...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iaca și Luluța!... Ai scos-o din pasion astăzi?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Dar, pentru că mâine îi duminică.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da vezi ce frumușică-i, diavoloaica! îți vine s-o mănânci de vie.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Să mă mănânci?... mersi.</p>
+            <stage> (În parte.) </stage>
+            <p>Și n-are măcar nici dinți.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ha, ha, ha... Bat-o norocu! Nostimă-i!... vină să te sărute mătușica, Luluța dragă...</p>
+            <stage> (O sărută.) </stage>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Alei! maman... ce-a pățit mătușica de și-a pus lipitori pe frunte?</p>
+            <stage> (Arată sprâncenele Chiriței.) </stage>
+            <p>O doare capul?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Eu, lipitori?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ce lipitori?... unde vezi tu lipitori?...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ha, ha, ha... ba-s sprâncene... și una-i numai pe jumătate!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ha, ha, ha.</p>
+            <stage> (În parte.) </stage>
+            <p>Cum i-aș suci gâtul când ar fi a mea!</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Maman, să-mi cumperi si mie o pereche de sprâncene din târg, ca să le pun păpușei de Anul Nou.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Bine, bine, ți-oi cumpăra. Taci din gură.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da de ce să tacă, soro? las’ să vorbească copila... că zice tot niște lucruri... Se cunoaște că învață la pasion.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Pansion, mătușică... nu pasion.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Fie și pansion, că doar nu m-o crescut mama cu gubernată, ca să știu nemțește.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Guvernantă, mătușică, nu gubernată... Da bine, mătușică, așa vorbiți pe-acolo, prin provincie?...</p>
+            <p>Guvernanta ne-a spus nouă</p>
+            <p>Că vorbiți o limbă nouă;</p>
+            <p>Când e vorba de parchet?</p>
+            <p>Ziceți curat că-i pichet.</p>
+            <p>Când e de tapiserie?</p>
+            <p>O numiți patiserie.</p>
+            <p>Când de botine de glanț?</p>
+            <p>Ziceți botoaie cu clanț.</p>
+            <p>Un ceasornic hronometru?</p>
+            <p>Îl numiți cu barometru.</p>
+            <p>Ș-orice lucru de bonton?</p>
+            <p>Monton, zebon sau triton!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ha, ha, ha! Ce giuvaer îi! ha, ha, ha.</p>
+            <stage> (În parte, furioasă.) </stage>
+            <p>Ce triton ți-aș trage eu, trântorule...</p>
+            <stage> (Tare.) </stage>
+            <p>Ha, ha, ha! are un duh cât șapte, și dă dintr-însa niște vorbe... ha, ha, ha.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Mă rog, să nu mi-o deochi...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (scuipând) </stage>
+            <p>Ptu... ptu... ptu...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (culegând un pai, jos) </stage>
+            <p>Na! că ți-a sărit un dinte, mătușică.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (speriată) </stage>
+            <p>Un dinte?</p>
+            <stage> (Se repede și ia paiul.) </stage>
+            <p>Ce dinte?... un pai!...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Altă dată să știi, mătușică, că aici, în Iași, nu este obicei să faci ptu, ptu în obrazul altora... nu-i frumos...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Auzi, păcatu?... auzi cum m-o înșălat? de mi-o sărit inima din loc!... Să-ți spun drept, soro dragă, ți-i hazlie Luluța... dar îi cam obrăznicuță... adică, să nu te superi.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Mademuazelă, cere pardon mătușicăi.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Bai... bai...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Nu vrei?... când îți poruncește maman?... Apoi, să te duci degrabă la caraul și să nu crâcnești...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Mersi, maman.</p>
+            <stage> (Se închină; în parte.) </stage>
+            <p>Tot mă dureau picioarele; mai bine-oi ședea pe scaun.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Bine i-o făcut.</p>
+            <stage> (Tare.) </stage>
+            <p>Da de ce treabă, soro dragă?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Las’ să mai prindă la minte, că-i prea nebună... Da ia spune- mi, mă rog, ce fac copilele d-tale?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Aristița și Calipsița?... se gătesc de bal pe deseară, la mata.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>De pe acum?... De-abia a tocat...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Știi mata cum sunt fetele când se gătesc de bal... Ba le trebuie una... ba alta... și când te trezești, o înnoptat de tot. De aceea-i mai bine să se apuce de toaletă încă cu ziuă... povestea vorbei: însuratul devreme și mâncarea de dimineață...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Apropo de însurat... nu s-a înfățișat nici un holtei ca să ceie duducile?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Of! bată-i concina holtei!... că asta mă mănâncă pe mine... Ai fete, soro? ai și peri albi... zice că este la fteatru un cântec cu of, of, of...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Îl știu... cel din Piatra din casă...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Nu știu din ce piatră o fi; dar, nu-ți uita vorba... l-am auzit o dată la Botoșeni, și de-atunci îmi huiește necontenit în cap ca un bondari... Am să ți-l cânt:</p>
+            <p>Of, of, of, ce supărare,</p>
+            <p>De-a avea o fată mare!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da, îl știu, soro... l-am auzit...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Nu-ți uita vorba...</p>
+            <p>O hrănești</p>
+            <p>Ca s-o crești,</p>
+            <p>Ș-apoi trebuie să pornești</p>
+            <p>La vânat</p>
+            <p>Prin cel sat</p>
+            <p>Ca să-i cauți un bărbat.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Și celelalte; destul... îl cântă și țiganii de ne asurzesc.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Nu-ți uita vorba.</p>
+            <p>De-i flăcău</p>
+            <p>Nătărău,</p>
+            <p>Te închini la duhul său.</p>
+            <p>De-i ghebos,</p>
+            <p>Uricios,</p>
+            <p>Îi zici nostim și mumos;</p>
+            <p>Și-i zâmbești,</p>
+            <p>Îl slăvești</p>
+            <p>Doar să-l poți să-l ginerești.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Of, of, ce supărare</p>
+            <p>De-a avea o fată mare!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Of, of, of, ce supărare</p>
+            <p>Cu-o nebună ce leac n-are!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei; apoi închipuiește-ți acum, soro... dacă cu o singură fată ai atâte supărări, dar cu două?... când ai două cucoare mari ca mine?...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Are cucoare mătușica?... am să-i cer să-mi deie una mie.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Îra!... surioară dragă... eu te țin de un ceas în picioare... alei!... ia, așa pățesc de câte ori gândesc că am fete de măritat: îmi pierd mințile.</p>
+            <stage> (Aduce scaune.) </stage>
+            <p>Poftim de șezi, mă rog... și mă iartă.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Foarte-ți mulțumesc... că trebuie să mă duc îndată acasă pentru ca să port de grijă despre cele trebuincioase pentru bal.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da ia mai șezi... pentru hatârul meu... Să mă vezi moartă... să mă-ngropi de te-i duce.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage> (în parte) </stage>
+            <p>Vai de mine! că mi-am găsit beleaua...</p>
+            <stage> (Șade.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (punându-se pe un scaun) </stage>
+            <p>Ș-așa cum îți spuneam, zic într-o zi boieriului: Frate! știi c-avem două fete mari? — Ba ce mari, îmi răspunde suflețelul, coșcogea!... cât niște zdragoni</p>
+            <stage> (Bărbatu meu îi tare mucalit, bată-l-ar norocu c-un car de galbeni!) </stage>
+            <p>— Ei bine, îi zic eu, gândit-ai, dragă, să le mărităm? — Hai, hai! le-am găsit doi bărbați șucada. — Care și care? — Paharnicul Brustur și căminarul Cociurlă, vecinii moșiei noastre. — Brustur și Cociurlă?... Elei, frate!... cum o să-mi dau fetele după niște boierinași de țară?... Fete frumușele... tinerele... curățele... hărnicele... cu franțuzasca lor... cu ghitarda lor... cu cadrilu lor... gospodine bune... iconoame... cetite... giucate... pricopsite... să le fac eu, pe una Brusturoaie și pe ceealaltă Cociurloaie!... atunci s-agiungă!... — Ea, Brusturoaie... ea, Cociurloaie... mai bine decât or mocni ș-or îmbătrâni în casa părintească... Brustur și Cociurlă au moșioare bune; au bănișori buni... au vitișoare bune. — Ei! și pentru că au vite, de aceea să-mi fac eu blestemul ca să le dau copilele?... ba, cât îi cucu!... Și-or pune d-lor pofta-n cui. — Ba nu și-or pune-o, pentru că le-am făgăduit. — Ba și-or pune-o. — Ba nu și-or pune-o. — Ba și-or. — Ba nu. — Ba și-or. — Ba nu. — Ah... Ah! ș-am leșinat!...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ai leșinat?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Fără doar și poate... da știi? Iată! Când m-am trezit, bietu suflețelul își smulgea mustețile de desnădăjduire! și pentru ca să mă liniștească, mi-o făgăduit să mă lase ca să vin în câșlegi la Iași cu fete cu tot... pentru ca să cerc doar le-aș putea mărita aici... însă mi-o hotărât ritos: că de-o n-oi izbuti să prind gineri prin Ieși, pănă la sfârșitul câșlegilor, apoi îmi brusturește și-mi cociurluiește odoarele, ca mai bine.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ei, și pân-acum nu s-a arătat nime?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum nu?... Înțălegi că îndată ce-am sosit aici, mi-am scos fetele la ivală... pe la ftreatru, pe la suarèle... ghilosite, gătite, împopoțonate, îmbrăcate tot după modă... Ce dracu să faci?... dacă ai giuvaeruri, trebuie să le arăți.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Și în sfârșit...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>În sfârșit, am prins doi în căpcană... dar însă nu mi-o pominit nici bechi de Isaia dănțuiește.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Cine și cine?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Aga Bondicescu și spătarul Pungescovici!... știi, tinerii cei doi care porniseră cu copilele la brațetă, când ne-am troienit în Păcurari, și care i-am întâlnit intrând truspatru la han la Pârlita?... Bondicescu, soro, și Pungescovici...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da, îi știu... i-am zărit, când ți-ai luat fetele înapoi.</p>
+            <stage> (În parte.) </stage>
+            <p>Sărdarul Cuculeț mi-a vorbit de ei ca de niște berbanți...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Aud?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Mă rog... îi cunoști?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum nu?... vin în toate zilele să ne vadă.</p>
+            <stage> (Încet.) </stage>
+            <p>Și știi una?... Pare-mi-se că li s-o aprins călcăile...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Aș!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-ți spune Chirița...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da n-ai cercetat... ce sunt?... de unde-s?... ce stare au?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce atâta cercetare... când unu-i agă și cellalt spătar... Ș-apoi tineri, soro... cu vorbă, cu ighemonicon... cu tabieturi... iar nu ca Brustur și Cociurlă... groși în ceafă și morocănoși... Așa gineri mai vin de-acasă, și să vezi...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Uf! m-am săturat de caraul.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage> (apropiindu-se de Luluța) </stage>
+            <p>Da ce te-ai apucat acole de făcut?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Maman, am gătit păpușa de bal... i-am făcut sprâncene... am boit-o cu roș... i-am pus benghiuri ca la mătușica... ia vezi cât îi de...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>sprâncene?... benghiuri?... roș?... da de unde le-ai găsit toate aceste?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>În besecteua mătușicăi!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (furioasă) </stage>
+            <p>Ha? în besec... iaca dimonu... că mi-o cotrobăit toate lucrușoarele...</p>
+            <stage> (Merge de ascunde gavanoșelele în besecte.) </stage>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Madmuazelă, nu-i frumos...</p>
+            <stage> (Pufnește de râs.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="VIII">
+          <head>SCENA VIII</head>
+          <sp who="#">
+            <stage>Împreună.</stage>
+            <p>Cei dinainte, GUGULIȚĂ</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (alergând cu un răvaș din odaia lui) </stage>
+            <p>Neneacă, neneacă... iaca un răvaș de la băbaca.</p>
+            <stage> (Se oprește rușinat, văzând pe Afinoaie și pe Luluța.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Un răvaș de la d-lui?... adă-l încoace...</p>
+            <stage> (Ia răvașul și-l deschide.) </stage>
+            <p>Cu voia matale, cucoană Nastasiică...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Poftim...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Ah, mon Dieu!... quel drôle de monsieur.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum îmi bate inima!... parcă-mi vestește ceva...</p>
+            <stage> (Citește.) </stage>
+            <p>„Sărut gurița matale, scumpă Chiriță. Mai întâi, nu lipsesc a cerceta despre întregimea sănătății matale și a copiilor, ca aflând că se află așa precum dorește inima mea, nu puțin să se bucure sufletul meu de soț și de părinte; al doile vei ști că din mila Proniei cerești mă găsesc și eu sănătos... însă Fifița o răposat de jigăraie!...</p>
+            <stage> (Vorbit.) </stage>
+            <p>Fifița o răposat?... mare minune!...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>A crăpat!... bine-a făcut că mă mușca tot de nas.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Taci, varvarule!... biața Fifița!... când ai ști, cucoană Nastasiică, ce cățelușă... numai atâtica; și când hămăia, nici nu-i auzeai glasul... ia așa: ham, ham, ham...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Auzi cum latră?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (ștergându-și ochii) </stage>
+            <p>În sfârșit, așa i-o fost scris; toți suntem muritori!</p>
+            <stage> (Citește:) </stage>
+            <p>„Al triilea, te înștiințez că câșlegile se apropie de sfârșit... drept care îți poroncesc să-ți iei catrafusele și să vii înapoi îndată la Bârzoieni, ca să facem cununia cu paharnicul Brustur și cu căminarul Cociurlă, căci la dimpotrivă vin eu însumi la Iași ca să vă umflu pe sus cu nepus în masă. Al d-tale soț supus și iubit... Grigori Bârzoi ot Bârzoieni. 15 Ghenarie 1844.”</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Băbaca are să vie aici!... E! bine-mi pare!... am să-i cânt toată ziua din minavet...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (caută la Guliță cu mirare și pe urmă îi întoarce spatele) </stage>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (Luluței) </stage>
+            <p>Din minavet...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ai văzut, dragă cucoană Nastasiică, ce-mi scrie d-lui?... Ce mă sfătuiești să fac?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Știu eu?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Știi ce?... îmi vine să-i strâng cu ușa pe Bondicescu și pe Pungescovici ca să-mi hotărască odată ce gânduri au?... Mi-i că m-oi trezi deodată cu bărbatu-meu, țop în spate... ș-apoi, așa-i c-am codălghit-o?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Fă cum îi socoți, dragă cucoană Chiriță... dar eu una te sfătuiesc să nu te grăbești pănă nu-i afla lămurit cine sunt tinerii...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Elei, dragă!... da nu ți-am spus de atâte ori că unu-i agă și cellalt spătar?</p>
+            <stage>(În parte.)</stage>
+            <p>Nu cumva vre să-i păstreze pentru trântorul ei?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>În sfârșit, îi treaba d-tale. Eu mă duc... dar nădăjduiesc că nu-i lipsi deseară la bal.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum, Doamne, iartă-mă! să lipsesc?... când am fete de căsătorit?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Hai, Luluță, și zi bonjur mătușicăi.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (făcând compliment) </stage>
+            <p>Bonjur.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (imitând-o) </stage>
+            <p>Îi poznă de nostimă!...</p>
+            <stage> (O sărută.) </stage>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Știrba-baba-cloanța.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Ce-o zis?... Hei, că nu ești a mea, păcatule!</p>
+            <p>CHIRIȚA,</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Adio! în astă-seară</p>
+            <p>Vom veni cu toți la bal</p>
+            <p>Să-ngropăm în veselie</p>
+            <p>Acest vesel carnaval!</p>
+            <p>AFIN,</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Adio! în astă-seară</p>
+            <p>V-așteptăm pe toți la bal</p>
+            <p>Să-ngropăm în veselie</p>
+            <p>Acest vesel carnaval!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Să nu mă dai de sminteală...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>N-ai, soro, nici o îndoială,</p>
+            <p>Căci am fete, fete mari:</p>
+            <p>Două june porumbițe,</p>
+            <p>Două blânde cănărițe...</p>
+            <p>Și le caut doi canari.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Mătușică, dinioare,</p>
+            <p>Ai zis că-ai două cucoare...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Vai, ce drac împelițat!</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ah! te rog, dă-mi una mie...</p>
+          </sp>
+          <sp who="#guliță">
+            <speaker>GULIȚĂ</speaker>
+            <stage> (Luluței) </stage>
+            <p>Poate-o vrei de jucărie?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Oh! le drôle de petit fat!</p>
+            <p>Adio! în astă-seară</p>
+            <p>ș.c.l. ș.c.l.</p>
+          </sp>
+        </div>
+        <div type="scene" n="IX">
+          <head>SCENA IX</head>
+          <sp who="#">
+            <p>CHIRIȚA, GUGULIȚĂ și pe urmă FECIORUL</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei! de-acum hai degrabă la îmbrăcat... Guliță, du-te de-ți pune straiele cele de Anul Nou și te fă pupuica, sufletul meu.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Da nu pot să mă-mbrac singur, neneacă...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Auzi, coșcoge calindroiu? Doamne! că alintat ai mai fost... Măi ficior...</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (îmbrăcat în livrea strâmtă) </stage>
+            <p>Aud, cucucoană.</p>
+            <stage> (Vine pe ușa din fund.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iaca țuțuianu... și-o pus livreua... Ian să videm, bine-o lucrat-o jidanu?</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Mă cam strânge la coate și-n spate.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da ce vrei?... să bălălăiești ca într-un sucman?... așa-i moda-n Ieși.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>Nu știu ce mâncare o fi moda ceea... dar știu că mă strânge moda-n spate de-mi ies ochii... parcă m-a pus în teasc!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Taci din gură... și mergi de-mbracă cuconașul. Guliță, să nu mă dai de sminteală.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Lezebon, maman... eu acuși sunt gata... cât ai bate-n palme.</p>
+            <stage> (Iese cu feciorul și intră în odaia lui.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Acum, ia să-mi văd și fetele...</p>
+            <stage> (Strigă.) </stage>
+            <p>Aristițo, Calipsițo...</p>
+          </sp>
+        </div>
+        <div type="scene" n="X">
+          <head>SCENA X</head>
+          <sp who="#">
+            <stage>Se aude bătând în palme în odaia fetelor.</stage>
+            <p>CHIRIȚA, ARISTIȚA, CALIPSIȚA</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage></stage>
+            <stage>(crăpând ușa odăii lor)</stage>
+            <stage> Aud, maman.</stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da veniți încoace... Ce, Doamne, iartă-mă, de-mi faceți iții?</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage> (coborând ochii) </stage>
+            <p>Maman...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-ați pățit astăzi de vă fasoliți așa?...</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <p>Nu suntem încă îmbrăcate.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Bietele copile!... Ce rușinoase-s!... vezi dacă le-am crescut cum se cade?... iar nu ca dimonu cela a cucoanei Nastasiicăi, care dă la om fără băț.</p>
+            <stage> (Tare.) </stage>
+            <p>Ei! cătați de vă-mpodobiți frumos și puneți-vă nasul în talgere cu apă rece să se disroșească, hai.</p>
+            <stage> (Fetele închid ușa.) </stage>
+            <p>Doamne!... Doamne! de când m-o adus păcatele aici, am obosit ca un cal de poștă. Ș-apoi ce folos!... cuconașii din Ieși nici nu catadicsesc să se uite la bietele copile, parcă ei sunt cu steua-n frunte.</p>
+            <p>Ce folos, vai! că am fete,</p>
+            <p>Porumbițe cucuiete,</p>
+            <p>Tinerele, frumușele,</p>
+            <p>Curățele, hărnicele;</p>
+            <p>Cu cadrilul lor,</p>
+            <p>Franțuzeasca lor,</p>
+            <p>Stăricica lor</p>
+            <p>Și ghitarda lor!</p>
+            <p>Azi bonjurii cu lungi plete</p>
+            <p>Fug de fete cucuiete</p>
+            <p>Și-ngroziți de șotii rele</p>
+            <p>Fug de ele ca de iele!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bat în palme copilele...</p>
+            <stage> (Bate și ea în palme.) </stage>
+            <p>Ioană... Ioană!... nici c-a veni azi surda!... Ioano! fa!... se vede c-o adormit strigoaica... mai știi ce?... Ian să videm...</p>
+            <stage> (Intră în odaia ei. Se aude dând o palmă și zicând:) </stage>
+            <p>Na! somnoroasă... să te-nvăț eu.</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage> (din odaie) </stage>
+            <p>Ioano... Ioano...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <stage> (ieșind din odaia Chiriței cu părul zburlit și intrând în odaia fetelor) </stage>
+            <p>Iată-mă-s... iată-mă-s... Ce este?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (din odaie) </stage>
+            <p>Ioano... Gheorghe...</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <stage> (ieșind din odaia lui Guliță) </stage>
+            <p>Aud, cucoană.</p>
+            <stage> (Aleargă până la ușa Chiriței și se întoarce înapoi la ușa lui Guliță; pe urmă face îndărăt și intră la Chirița.) </stage>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (din odaie) </stage>
+            <p>Gheorghe... Gheorghe...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (din odaie) </stage>
+            <p>Ioană... Ioană...</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage> (din odaie) </stage>
+            <p>Na! coțofană.</p>
+            <stage> (Se aude dând palme.) </stage>
+          </sp>
+          <sp who="#țiganaca">
+            <speaker>ȚIGANACA</speaker>
+            <stage> (ieșind amețită, aleargă când la o ușă, când la alta și în sfârșit intră iar la fete, care în toată vremea asta o tot cheamă) </stage>
+            <p>Mare păcat!...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (încălțat cu o singură ciubotă, aleargă după Gheorghe și intră după el în odaia Chiriței) </stage>
+            <p>Gheorghe... Gheorghe... da vină de-mi pune ciubota...</p>
+          </sp>
+        </div>
+        <div type="scene" n="XI">
+          <head>SCENA XI</head>
+          <sp who="#">
+            <stage>Împreună.</stage>
+            <p>PUNGESCU, BONDICI</p>
+          </sp>
+          <sp who="#bondiciș">
+            <speaker>BONDICIȘ</speaker>
+            <stage> (deschizând ușa din fund, încet) </stage>
+            <p>Nime în tindă, nime în odaie; tufă ca-n punga noastră...</p>
+            <stage> (Deschizând ușile.) </stage>
+            <p>Poftim, arhon spătar, că aici suntem la locul nostru.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Poftim d-ta întâi, arhon agă.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ba... mă ferească Dumnezeu!... poftim.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ce se potrivește...</p>
+            <stage> (Intră odată amândoi râzând.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ne poftim ca oarecine la temniță.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (răsărind) </stage>
+            <p>Ia... nu pomeni de temniță, neneo, că mă-nfior pân-în unghii...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Pentru ce, neiculiță?... pentru că ai pârjolit mai deunăzi la cărți pe sărdarul Cuculeț?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Precum zici... acest onorabil sărdar e director la agie și am însemnat că el ne urmărește ca umbra peste tot locul... Nu cumva oare vrea să ne joace vro coțcă?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Păn’ la coțca lui, fora tu înainte cu coțca ta și zi: buni patruzeci.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Cu urma cincizeci... o știu! dar mi-e frică... de! ce să fac... mi-e frică.</p>
+            <p>C-un director de agie</p>
+            <p>Nu e lucru de glumit,</p>
+            <p>Căci el poate-ntr-o mânie</p>
+            <p>Să te puie la dubit.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Pentru ce să-ți fie frică?</p>
+            <p>Nu ești, neneo, vel-spătar?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Azi spătar e chiar nimică...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Înțeleg... fii agă dar.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Agă? agă? bine, fie!</p>
+            <p>Rangu-i nobil și-l primesc,</p>
+            <p>Însă...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Însă...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>De agie</p>
+            <p>Eu mă tem și mă feresc.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ei, geaba! nici c-oi să pot să-l fac om... Da oare unde să fie cucoanele de gazdă?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Poate c-o fi dormind după prânz... obiceiul pământului.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Aș! obiceiurile cele bune se pierd pe toată ziua... însă, apropo... cum mergi tu cu curtea?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Cu Curtea... îi trag opoziție pă zdreavăn pân’ ce-oi prinde un os... tot obiceiul pământului...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ha, ha, ha!... Eu te întreb de curtea ce faci demuazelelor!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Merg țeapăn... da tu?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Vârtos... Ei, apoi ce facem?... ne însurăm?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Zestre este?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Trebuie să fie că-s de la țară... și știi tu că la țară se-ngrașă bobocii.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Bobocii?... vrei să zici gâscănașii?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Bine-ar fi să ne luăm de vorbă în sfârșit cu cucoana Chirița, cu neneaca.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Bine, da!... începe tu, că ești mai ischiuzar.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Numai de s-ar înfățișa. Oare unde să fie?... Ia caută printre uși.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Să trag o repede aruncătură dă ochi?... bine.</p>
+            <stage> (Se apropie de ușa Chiriței și caută înăuntru.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (în parte) </stage>
+            <p>Altă nu ne rămâne decât să ne însurăm, pentru ca să scăpăm de creditori și de lipsa de toate zilele... Duducile-s cam... dar apoi, vorba ceea: rău cu rău, însă mai rău făr’ de rău!...</p>
+            <stage> (Se apropie de besecte.) </stage>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Aoleo! ce-mi văzură ochii! baba-și pune boia-n păr?... Al naibii!</p>
+            <stage> (Merge la ușa fetelor de caută în odaie.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Bre! ce de gavanoșele cu dresuri... și alb, și roșior, și negru...</p>
+            <stage> (Deschide besecteua și găsește o hârtie.) </stage>
+            <p>Se vede că zugrăvește cucoana...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ha, aferim, frumos... așa-mi mai vine la merchez...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (citind hârtia) </stage>
+            <p>Ce văd?... o foaie de zestre!... Neiculiță... neiculiță, vin degrabă să vezi...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ce?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (citind iute) </stage>
+            <p>Șaluri... stropitori... afumători!...</p>
+            <stage> (Vorbit.) </stage>
+            <p>Buni patruzeci!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Cu urma cincizeci... știu, da ce-i?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ascultă:</p>
+            <stage> (citește:) </stage>
+            <p>„Foaia de zestre a fiicelor mele Aristița și Calipsița!”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Aoleo!... zi-nainte... cruce-ajută.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Boccealâcul: două șaluri.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Bun! unu mie, unu ție!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Două blane de jder, două de vulpe.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Bun! jderu mie...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ba vulpea ție. — „Patru rochii de satintur... două de grudinap... două de micaton!”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Adică: satin turc, gro de Naplu și micoton... provincialism!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Argintării... două afumători de argint în formă de mere domnești.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Știu c-o să ne dăm fumuri...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Două stropitori, tij, de argint, în formă de pere cu frunze poleite. 12 linguri de vermililion, patru chisele de cristal cu hulubi poleiți de dânsele, 12 pahare săpate cu slove nemțești.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ce chefuri! ce tabieturi!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Tingiri, castroane și sahane...”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Treci dincolo de bucătărie.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Două oghealuri de cutnie, patru perne de puf și opt prostiri cu mărginile cusute la gherghef...”</p>
+            <p>PUNGESCU</p>
+            <stage>(răsucindu-și mustățile)</stage>
+            <p>: Cheschevu, monsiu Bondici?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (împingându-l cu umărul) </stage>
+            <p>Du-te naibii — „Două apărători de păun”.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Aferim... să ne apere când om dormi după masă.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Două prosoape de mire, berbelăcuri pentru ras, cusute de copile la gherghef. Două chisele de tutun, tij, cusute de copile cu fluturi. Două tocuri de peptene de catife, tij, cu fluturi. Două calăfuri de imamele cu muțunachi, tij, cusute cu fluturi de copile.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Aoleo! ce dă mai fluturi! o să părem chiar grădini cu flori dă mac.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>„Și, în sfârșit, câte 1500 galbeni de fată; bani înaht, împărătești și cu zimți.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>1500 galbeni!... ișala! mașala!... m-am făcut chiabur!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Mai bine era mai puțini fluturi și mai mulți galbeni.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Lasă, neneo, că-s buni și aia... cu 1500 galbeni capital, îmi fac stare... stos, paroli, chit a dublu, setleva, chensleva și nevasta mazu!... s-a mai văzutără de alea... Da, ian spune-mi... ceva suflete de țigani nu-s în foaie?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (întorcând fila) </stage>
+            <p>Ba stai...</p>
+            <stage> (Citește.) </stage>
+            <p>„Mai adaog la această foaie de bun proeresul meu: zece suflete de țigani lingurari... Și închei zicând: să le fie de bine copilelor, ginerilor și tot neamului lor... iscălit, banu Grigori Bârzoi, ot Bârzoieni.”</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (cu entuziasm) </stage>
+            <p>O! Bârzoi!... nu te cunosc... dar pre-a mea lege! te-aș băga în sân dac-ai încăpea dă urechi!... Îmi vine să-i meșteresc un ștaer...</p>
+            <stage> (Joacă.) </stage>
+            <p>Vivat! vivat! pentru noi!</p>
+            <p>Soarta-ncepe-a fi cu nuri!</p>
+            <p>Vivat! vivat! amândoi</p>
+            <p>Ne-am făcut boieri chiaburi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="XII">
+          <head>SCENA XII</head>
+          <sp who="#">
+            <stage>Strănută o dată cu toții.</stage>
+            <p>Cei dinainte, ARISTIȚA, CALIPSIȚA</p>
+            <p>ARISTIȚA, CALIPSIȚA,</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Sărutăm mânușițele și picioarele duducilor...</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage> (închinându-se ca copile mici) </stage>
+            <p>Monsiu...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (înaintându-se) </stage>
+            <p>De ce vă sfiiți de noi, care am fost totdeauna, suntem și vom fi în veci supusele slugi a neneacăi d-voastră și...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Și chiar adoratorii copilelor neneacăi.</p>
+            <stage> (În parte.) </stage>
+            <p>Hait!... le-am turnat-o dă la mertepea.</p>
+            <stage> (ieșind din odaia lor, se opresc, zărind străinii, și cobor ochii) </stage>
+            <p>A!</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Dar... adoratorii cei mai înflăcărați!</p>
+            <stage> (Încet lui Pungescu.) </stage>
+            <p>Pe care o iei tu?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Pă Calipsița.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Treci dincolo, lângă ea.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Hait...</p>
+            <stage> (Trece lângă Calipsița.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (Aristiței, cu foc) </stage>
+            <p>Nu mă îndoiesc, duducă Aristiță, că din ceasul ce ți-am dat brațul la Păcurari... ai înțeles că te iubesc?...</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <p>Ui monsiu...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (Calipsiței, cu foc) </stage>
+            <p>Sper, domnișoară, că...</p>
+          </sp>
+          <sp who="#aristița">
+            <speaker>ARISTIȚA</speaker>
+            <p>Ui monsio...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ui?</p>
+            <p>Dar, siarmanta demuazelă</p>
+            <p>Anima-mi de columbela</p>
+            <p>În etern te va iubi!</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Chel bonior!...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <p>Mersi.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Și eu, tij, o! duducuță,</p>
+            <p>Să fiu bufnă, să fiu cuță</p>
+            <p>Dacă nu te voi slăvi...</p>
+          </sp>
+          <sp who="#aristița">
+            <speaker>ARISTIȚA</speaker>
+            <p>Pur tujur?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Tujur!</p>
+          </sp>
+          <sp who="#aristița">
+            <speaker>ARISTIȚA</speaker>
+            <p>Mersi.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Ce mulțumire!</p>
+            <p>Ce fericire</p>
+            <p>Dă peste mine...</p>
+            <p>Fie-ți de bine!</p>
+          </sp>
+        </div>
+        <div type="scene" n="XIII">
+          <head>SCENA XIII</head>
+          <sp who="#">
+            <stage>Strănută o dată cu toții.</stage>
+            <p>Cei dinainte, CHIRIȚA</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (ieșind din odaia ei și văzând scena de mai sus, vine repede și întinde mâinile deasupra lui Bondici și a lui Pungescu) </stage>
+            <p>Amin! vă blagoslovesc!... și la capul altor fete!</p>
+            <p>ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <stage> (uimite) </stage>
+            <p>Maman...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce maman?... ce vă sastisiți? parc-aș fi caua!... Vă iubiți? Să vă fie de bine!... Doar nu-s vitrigă... Ce doresc eu?... fericirea voastră... inima mea de mamă... eu v-am crescut...</p>
+            <stage> (Plânge.) </stage>
+            <p>V-am hrănit... Luați-vă... însurați-vă... cununați-vă... împărecheți-vă... ca hulubașii și ca cărăbușii... Eu vă dau blagoslovenia mea... acum și purure și în vecii vecilor...</p>
+            <stage> (În parte.) </stage>
+            <p>Of! slavă ție, Doamne, că m-am cotorosit!...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Cucoană Chiriță... suntem pătrunși până în suflet!... și crede că ne-om sili de a fi ginerii cei mai supuși... cei mai...</p>
+            <stage> (Își șterge ochii, în parte.) </stage>
+            <p>Căci n-am o frunză de ceapă!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (suflându-și nasul tare) </stage>
+            <p>Cucoană soacră... las’ pă noi... atâta-ți zic...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Te înțăleg, fătul meu... dragă arhon spătar... noroc bun!</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Ce mulțumire!</p>
+            <p>Ce fericire</p>
+            <p>A dat pe mine!</p>
+            <p>Fie-ți de bine!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Amin și într-un ceas bun!</p>
+          </sp>
+        </div>
+        <div type="scene" n="XIV">
+          <head>SCENA XIV</head>
+          <sp who="#">
+            <stage>Cortina cade</stage>
+            <p>Cei dinainte, GUGULIȚĂ, FECIORUL</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (ieșind cu feciorul din odaia Chiriței, numai cu o ciubotă) </stage>
+            <p>Neneacă... neneaca... zi feciorului să mă-mbrace.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da cum? încă nu te-ai îmbrăcat?</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>FECIORUL</speaker>
+            <p>D-apoi când era să-l îmbrac, că pân-acu m-ai ținut de ți-am pus boieua cea neagră pe cap.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ieși afară, tontule!... Guliță, mergi degrabă de te gătește, că se întârzie.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Lezebon, maman...</p>
+            <stage> (Intră în odaia lui cu feciorul.) </stage>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Da unde merg cucoanele? la teatru?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba nu... la bal, la cucoana Nastasiica a banului Afin.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Afin? vrei să zici Dafin?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba Afin.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ba Dafin...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Dafin?... să vede că acu-i moda de a-și anina un dobru?... În sfârșit, fie și Dafin... Dumneavoastră veniți la balul Afinoaiei?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Mai târziu... poate...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (încet lui Bondici) </stage>
+            <p>D-apoi nu suntem poftiți, neneo.</p>
+            <p>BONDICI</p>
+            <stage> (împingându-l cu cotul) </stage>
+            <p>Să ne dați voie a vă întovărăși până acolo.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Bucuros... Lipon, hai să ne pornim... Guliță... Guliță...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (din odaie) </stage>
+            <p>Aud, neneacă.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Gata ești, suflete?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Ca ș-un purces... iată-mă-s.</p>
+            <stage> (Iese din odaie cu minavetul în spate.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-mi văzură ochii!... Cu minavetul vrei să mergi la bal?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Cu minavetul... ca să le cânt cucoanelor.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ai nebunit?... lasă dulapul din spate...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Ei... neneacă.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Dă-l gios, c-apoi te las acasă cu Ioana țiganca... auzi! cu minavetu?... să părem că mergem cu colinda prin sat... Haideți deacum...</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Haideți toți cu veselie,</p>
+            <p>Hai la bal să alergăm;</p>
+            <p>Și-n plăcerea cea mai vie</p>
+            <p>Până mâini să tot jucăm.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <stage> (singură) </stage>
+            <p>Slavă Domnului că s-au dus... ș-am scăpat... Decât ai avea un stăpân, mai bine șapte slugi.</p>
+            <stage> (Se pune pe scaun.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (venind înapoi cu fetele, zice à la cantonade) </stage>
+            <p>Așteptați puțin în scară, că ne întoarcem îndată...</p>
+            <stage> (Fetelor.) </stage>
+            <p>Veniți încoace degrabă să vă pun puțintel roș... ia așa, să fiți mai îmbobocite... și ceva benghiuri... așa... dar ian să vă spun: doar îți fi morocănoase ca mai dăunăzi... cătați să mai zâmbiți... să mai faceți cochetărismosuri ca la Ieși, că așa se mărită fetele.</p>
+            <p>BONDICI și</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (intrând) </stage>
+            <p>Poftiți, cucoană Chiriță?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iaca... ia... Fa Ioană, ie sama la focuri... și doar îi adormi...</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <stage> (în parte) </stage>
+            <p>Ei... ba nu, că mi-a fi rușine...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Haideți de-acum.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Haideți toți cu veselie,</p>
+            <p>Hai la bal să alergăm;</p>
+            <p>Și-n plăcerea cea mai vie</p>
+            <p>Până mâini să tot jucăm.</p>
+          </sp>
+          <sp who="#țiganca">
+            <speaker>ȚIGANCA</speaker>
+            <stage> (picând pe scaun ostenită) </stage>
+            <p>Uf!</p>
+          </sp>
+        </div>
+      </div>
+      <div type="act" n="III">
+        <head>ACTUL III</head>
+        <div type="scene" n="XV">
+          <head>SCENA XV</head>
+          <sp who="#">
+            <stage>Se aude glasul Chiriței, zicând: „Carnacsî!... că era să fac bâca!”</stage>
+            <p>VĂDUVA AFIN, LULUȚA, FECIORI în livrele</p>
+          </sp>
+          <sp who="#feciorii">
+            <speaker>FECIORII</speaker>
+            <p>Las’ pe noi,</p>
+            <p>Las’ pe noi,</p>
+            <p>Că suntem biv-vel ciocoi.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Să vă văd acum la treabă,</p>
+            <p>De sunteți feciori de treabă</p>
+            <p>Și-i așa cum ziceți voi,</p>
+            <p>Că sunteți biv-vel ciocoi!</p>
+          </sp>
+          <sp who="#feciorii">
+            <speaker>FECIORII</speaker>
+            <p>Las’ pe noi</p>
+            <p>Etc., etc.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage> (la ciocoi) </stage>
+            <p>Ați înțeles bine ce v-am poruncit? Să aprindeți lumânările peste un ceas și, dacă a veni Barbu cu taraful lui, să-l puneți la scară.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ca să-l bată?... da de ce, sărmanu bietu moș Barbu?</p>
+            <p>AFIN</p>
+            <stage>(râzând)</stage>
+            <p>: Ba ca să cânte, când or veni musafirii...</p>
+            <stage> (Feciorii ies prin fund.) </stage>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Maman... eu să joc dacă m-a pofti cineva?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Să joci...</p>
+            <stage> (În parte.) </stage>
+            <p>Auzi d-ta întrebare?... Un păcat cât o schioapă de mică... știi că, zău, nu mai sunt copii în ziua de azi?...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (cu bucurie) </stage>
+            <p>Plait-il... Îmi dai voie?... quel plaisir!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Da bine, Luluță, tu știi să joci?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Cum să nu știu?... am învățat la pansion și valțu, și cotilionu, și polca, și mazurca, și cadril... toate danțurile.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Frumos!... dar ceva carte ai învățat?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Și nemțește, și italienește, și franțuzește... toate limbile.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Afară de limba ta, limba românească?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Apoi dacă nu știe nici madama...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ce este?... cine vine la bal de pe acum?... de-abia a înserat și nici măcar nu s-au aprins policandrele.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Maman, maman... vine mătușica...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage> (cu mirare) </stage>
+            <p>Cucoana Chirița... de pe acu?</p>
+          </sp>
+        </div>
+        <div type="scene" n="XVI">
+          <head>SCENA XVI</head>
+          <sp who="#">
+            <stage>Chirița cu fetele ies prin fund. Afinoaia intră în stânga.</stage>
+            <p>Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA și GUGULIȚĂ</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Of! slavă Domnului c-am agiuns cu capul teafăr... Sărut ochișorii, cucoană Nastasiică... Doamne! da rău îi pe ulița d-tale!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ca pe toate ulițele.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Lehamete!... am venit pân-aici cu zilele-n mână... ulițe îs aiste?... pave îi asta?... Nu poți face doi pași, făr-a fi... povestea vorbei: când cu capul de piatră, când cu piatra de cap... Ș-apoi vă mai lăudați cu Ieșul dumilor-voastre... Cică-i capitalie... așa capitalie!...</p>
+            <p>I</p>
+            <p>Acest târg ce-i zic în lume</p>
+            <p>Unii Iașul, alții Ieși,</p>
+            <p>Însuși ei, prin al său nume,</p>
+            <p>Te poftește ca să ieși,</p>
+            <p>Ș-are, zău, mare dreptate,</p>
+            <p>Căci în sânu-i de-ai intrat,</p>
+            <p>Crezi că multele-ți păcate</p>
+            <p>Chiar în iad te-o cufundat!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Pentru ce așa asprime asupra lui, cucoană Chiriță?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Pentru ce?... mă mai întrebi pentru ce?</p>
+            <p>II</p>
+            <p>Aici glodul, colbăria</p>
+            <p>Pe pământ și-n cer domnesc!</p>
+            <p>Și fânarel-Eforia</p>
+            <p>Tot în lună năzuiesc!</p>
+            <p>Prin urmare-n veci ieșenii</p>
+            <p>Pân-în gât sunt înglodați,</p>
+            <p>Și ca bufne, ca vedenii,</p>
+            <p>De lumine depărtați.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Frumos ne zugrăvești!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Adică... să nu bănuiești.</p>
+            <p>III</p>
+            <p>Iar de vrei să vezi pavele</p>
+            <p>Sau de piatră, sau de brad,</p>
+            <p>Vin’ de cearcă, de ai șele,</p>
+            <p>Cum se află și-n ce grad.</p>
+            <p>Vai de tine! de trăsură!</p>
+            <p>Dacă voiești primblare... tronc!</p>
+            <p>Dinții toți îți sar din gură</p>
+            <p>Într-un vecinic hodoronc!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ha, ha, ha... Soro, tare te-ai mâniat pe bietul Iași.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Așa, soro, dacă vă place; tot știți a vă bate gioc de provinție și nu vedeți în ce păcat de coclaură trăiți.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Mătușică... poate că ți-a mai sărit un dinte pe drum?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba n-a sări, că i-a fi rușine, cu paveua asta pocită... Mi-am mușcat limba de vro șăpte ori pân-aici.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Și eu mi-am mușcat limba.</p>
+          </sp>
+          <sp who="#aristița">
+            <speaker>ARISTIȚA</speaker>
+            <p>Și eu...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iacă și bietele copile și-o mușcat limba, sărmănelele!... dar nu-ți uita vorba, cucoană Nastasiică... parcă nu văd încă pe nime la bal?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>D-apoi încă nu-i vreme... Aice-n Iași, pe la noi, lumea se adună de-abia pe la nouă ceasuri... ș-acum îs de-abia opt.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Elei!... măcar... nu mă mir... aice-n Ieși, pe la d-voastră, toate lucrurile se fac pe dos... dar pe la noi, în provinție, ne apucăm de gioc cum amurgește... și, slavă Domnului, precum vezi d-ta, nu ne merge prea rău.</p>
+            <stage> (Își arată talia.) </stage>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage> (zâmbind) </stage>
+            <p>Cu adevărat.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da bine... ce-o să facem noi acum până la nouă ceasuri?... să ședem așa, cuc, amândouă?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Nu vreți să mergeți la teatru?... este lojia mea.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>La ftiatru?... da ce parastuiește în astă-seară?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>O piesă nouă... Două fete ș-o nuneacă.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei! mă duc, că drept să-ți spun... mă nebunesc de râs la cel ftiatru.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Dacă poftești să mergi... trăsura mea-i gata.</p>
+            <stage> (Bate în palme. Un fecior intră.) </stage>
+            <p>Zi să tragă la scară.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Sărut ochișorii... Aristițo, Calipsițo... veniți cu mine.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>D-apoi eu, neneacă, să nu vin?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Mata, puiule, rămâi aici ca să nu răcești pe drum... șezi cu duduca Luluța...</p>
+            <stage> (În parte.) </stage>
+            <p>Mai știi pozna?... poate să ne încuscrim mai târziu cu Afinoaia.</p>
+            <stage> (Tare.) </stage>
+            <p>Hai, fetelor.</p>
+            <p>CHIRIȚA, ARISTIȚA,</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <p>Haideți, haideți cu grăbire</p>
+            <p>La teatru românesc,</p>
+            <p>Unde relele din fire</p>
+            <p>Necruțat se biciuiesc!</p>
+            <p>AFIN, LULUȚA,</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Mergeți, mergeți cu grăbire</p>
+            <p>Etc., etc., etc.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (întorcându-se iute din salonul din fund.) </stage>
+            <p>Știi una, dragă cucoană Nastasiică?... i-am pus la mână!...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Pe cine?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Pe aga și pe spătarul. I-am prins mai dinioare cu oca mică, la picioarele fetelor în genunchi... și tronc! i-am strâns cu ușa. De-acum poți să-i privești ca ginerii mei... Ce zici?... așa-i că-s volintiroaie?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Și, zău, îți plac străinii cei doi?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Disperați tineri!... Tocmai ce-mi trebuie... că și Aristița și Calipsița îs disperate fete... Doamne ferește!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Dacă-ți plac... ce să zic? să deie Dumnezeu numai să nu te căiești mai târziu.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da vorbă-i!... să mă căiesc că m-am cotorosit de o nevoie...</p>
+            <stage> (În parte.) </stage>
+            <p>Aș vrea eu s-o văd cu două manine ca a mele.</p>
+            <stage> (Tare.) </stage>
+            <p>Cu plecăciune.</p>
+            <p>CHIRIȚA, CALIPSIȚA,</p>
+          </sp>
+          <sp who="#aristița">
+            <speaker>ARISTIȚA</speaker>
+            <p>Haideți, haideți cu grăbire ș.c.l.</p>
+            <p>GUGULIȚĂ, AFIN,</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Mergeți, mergeți ș.c.l.</p>
+          </sp>
+        </div>
+        <div type="scene" n="XVII">
+          <head>SCENA XVII</head>
+            <note type="setting">Ies amândoi în fund, jucând și împing pe sărdarul Cuculeț, care intră.</note>
+            <note type="setting"> LULUȚA, GULIȚĂ </note>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Oh! la drôle de figure!</p>
+            <stage> (Râde încet.) </stage>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (în parte) </stage>
+            <p>Când aș avea încalte minavetul aici!... aș dura un corțent, de-ar țiui urechile.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>La drôle de figure! mon Dieu! la drôle de figure.</p>
+            <stage> (Râde tare.) </stage>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (în parte) </stage>
+            <p>Dec!... ce se tot uită la mine!...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (se apropie de Guliță) </stage>
+            <p>Monsieur Guliță?... mai sunt mulți ca d-ta în provinție?... Ha, ha, ha!</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (în parte) </stage>
+            <p>Râde de mine?</p>
+            <stage> (Tare și mânios.) </stage>
+            <p>Ba nici unul... auzitu-m-ai?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Parcă te-ai mâniat?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Să știi că m-am mâniat. Ce ai să râzi de mine?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Apoi dacă nu mă pot stăpâni... ce să fac?... ha, ha, ha!</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Ian ascultă... pre legea mea.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Acuși... mă duc acasă.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Călătorie sprâncenată.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Cum ai zis... struncinată?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ei! nu te mai rățoi așa, că nu-ți șade bine. Hai mai bine să ne jucăm împreună.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (îmblânzindu-se) </stage>
+            <p>De-a puia-gaia?... ori de-a babaoarba?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ha, ha, ha!... parcă-i la școală...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Iar râzi de mine?... mă duc acasă...</p>
+            <stage> (Vrea să iasă.) </stage>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (oprindu-l) </stage>
+            <p>Șezi, că-ți făgăduiesc să-ți dau pace deacum. Numai să nu te uiți drept la mine, că iar mă umflă râsul.</p>
+          </sp>
+          <sp who="#guliță">
+            <speaker>GULIȚĂ</speaker>
+            <p>Foarte bine... m-oi uita de-a curmezișul... cu coada ochiului, dacă vrei.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ian spune-mi: știi să gioci?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Hai, hai!... m-o învățat un franțuz să gioc carcanu... Ia așa, și cu mâinile, și cu picioarele.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Și să cânți?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Hai, hai!</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Apoi să giucăm împreună tot balul...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Da mata știi să împletești din picioare?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Auzi întrebare... parcă n-aș fi din Iași!</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Nu te supăra... credeam că fiind mititică... poate că...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Mititică?...</p>
+            <stage> (Se înalță pe vârful picioarelor.) </stage>
+            <p>Te poftesc...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Măcar... că și bunica-i mititică, și-i de vro șaptezeci de ani. Așa-i tot tremură capul... Mata de câți ani ești?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>De cincisprezece...</p>
+          </sp>
+          <sp who="#guliță">
+            <speaker>GULIȚĂ</speaker>
+            <p>Treisprezece?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Cincisprezece... quinze...</p>
+            <stage> (Îi dă trei tifle.) </stage>
+            <p>Cinq... dix... quinze...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (furios) </stage>
+            <p>Îmi dai tifla!... Ian ascultă, mamzelă... pre legea mea...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (apropiindu-se de Guliță) </stage>
+            <p>Ce? mă rog, ce?...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (domolindu-se) </stage>
+            <p>Nimic...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ha, ha, ha!... Iar te-ai uitat drept la mine.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (în parte) </stage>
+            <p>Eu, zău, mă duc acuși acasă...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Iar te-ai supărat?... da iute ești...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Să știi că-s iute... ca hreanu...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Hai să ne împăcăm... vrei?... dă-mi mâna-ncoace.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (îi dă mâna, în parte) </stage>
+            <p>A dracului fetiță!... mă sucește ca pe-un titirez.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Acum... fiindcă suntem prieteni, hai să cântăm și să giucăm... Vrei, monsiu Guliță?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Bucuros... dar ce să cântăm?... frunză verde?...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Ba nu... lasă să-ți cânt eu un cântec care l-am auzit la guvernanta... cu gioc la sfârșit.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Să te văd... adică să te-aud... îmi deschid urechile-n patru.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Dacă-s destul așa cum sunt... îs deschise cât opt.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Ha, ha, ha! m-a pâcâlit.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>C’est un bon garçon...</p>
+            <stage> (Tare.) </stage>
+            <p>Ascultă...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Da cum îi zic cântecului?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Drin, drin, drin...</p>
+          </sp>
+          <sp who="#guluță">
+            <speaker>GULUȚĂ</speaker>
+            <p>Drin, drin, drin?... parcă-s zurgalăi de sanie...</p>
+            <stage> (În parte.) </stage>
+            <p>Ce păcat că n-am minavetu aici!... i-aș trage un corțent de cele tătărești.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>I-UL CUPLET</p>
+            <p>Aici, în Iași, de vrei să ai răsunet,</p>
+            <p>La toți să placi și să fii chiar slăvit,</p>
+            <p>Cel mai bun chip e să produci un sunet,</p>
+            <p>Un sunet viu și de toți prea iubit:</p>
+            <p>Drin, drin, drin, drin, drin,</p>
+            <p>Drin, diririndrin, drin drin, drin,</p>
+            <p>Drin, drin, drin, drin, drin,</p>
+            <p>Drin, diririndrin, drin.</p>
+            <p>LULUȚA și</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (făcând balanse de cadril) </stage>
+            <p>Drin, drin, drin, drin, drin.</p>
+            <p>Etc., etc., etc.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>AL II-LEA CUPLET</p>
+            <p>Aici, ades, când e vro cununie,</p>
+            <p>Orhestru-n bal răsun-armonios,</p>
+            <p>Dar pentru miri cea mai dulce-armonie</p>
+            <p>E, drin, drin, drin, sunet scump și voios:</p>
+            <p>Drin, drin, drin, drin, drin.</p>
+            <p>Etc., etc.</p>
+            <p>Drin, drin, drin, drin, drin.</p>
+            <p>Etc., etc.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>AL III-LEA CUPLET</p>
+            <p>De vrei amor, dă-ți ochii peste spate</p>
+            <p>Și la prilej fii cam obrăznicel;</p>
+            <p>Iar de voiești să ai în veci dreptate,</p>
+            <p>Cel mai bun chip e să faci frumușel:</p>
+            <p>Drin, drin, drin, drin, drin.</p>
+            <p>Etc., etc.</p>
+            <p>Drin, drin, drin, drin, drin.</p>
+            <p>Etc., etc.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Îra! iaca cofeturi!</p>
+            <stage> (Aleargă la tabla și-și umple buzunările.) </stage>
+            <p>De cele cu fâstâci sunt?...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (alergând la tabla) </stage>
+            <p>Da lasă-mi și mie, monsieur Guliță... nu le lua pe toate.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Pentru mata le-am luat, Luluță...</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>Mersi.</p>
+            <stage> (În parte.) </stage>
+            <p>C’est un charmant garçon.</p>
+            <stage> (Tare.) </stage>
+            <p>Dacă-i așa, hai să giucăm ș-o polcă.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Hai ș-o polcă... eu sunt gata să fac ce ți-a plăcea...</p>
+            <stage> (În parte.) </stage>
+            <p>Tare mi-i dragă fetița asta!</p>
+            <stage> (Se prind la polcă și joc cântând.) </stage>
+            <p>Polca, polca, vesel joc,</p>
+            <p>Polca, polca, te iubim!</p>
+            <p>Polca, polca... plini de foc</p>
+            <p>Vesel noi te dănțuim!</p>
+          </sp>
+        </div>
+        <div type="scene" n="XVIII">
+          <head>SCENA XVIII</head>
+          <sp who="#"/>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (intră prin stânga în fund) </stage>
+            <p>Na! că era să mă deie gios diavolii!... se vede că balul s-o și început, deși n-o sosit încă nici un musafir... Eu sunt cel dintâi... dar ca prieten vechi a cucoanei Nastasiicăi, îi de datoria mea să vin odată cu lăutarii... Am adus de la agie vro doi epistați ca să șeadă la ușă... după formă... că în ziua de astăzi, un bal fără slujitori la scară și-n tindă n-are nici ifos, nici ighemonicon. </p>
+          </sp>
+        </div>
+        <div type="scene" n="XIX">
+          <head>SCENA XIX</head>
+            <note type="setting">Merg amândoi înaintea damelor și a cavalerilor, care intră prin salonul din fund.</note>
+            <note type="setting"> CUCULEȚ,</note>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage>(iese din odaia sa, zicând à la cantonade)</stage>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ziceți lui domnu Timofte să gătească limonada.</p>
+            <stage> (Văzând pe Cuculeț.) </stage>
+            <p>A! sărdarul Cuculeț!...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Eu!... cel întâi și cel de pe urmă... dar pururea credincios și supusă slugă.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Cel întâi?... ba astăzi te-ai trezit prea târziu, arhon sărdar.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Au venit alții înaintea d-tale.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Și cine?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Cucoana Chirița cu tot neamul ei... Încă nu apucaseră feciorii a aprinde lumânările și dumneaei, țop!... a și fost aici.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Mare poznașă-i!... Da unde-i, te rog?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Am trimis-o la teatru ca să petreacă până ce s-a începe balul.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>La teatru?... Da se vede că nu știi ce joacă în astă- seară?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>O piesă nouă... Două fete ș-o neneacă... nu-i asta?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Ai făcut pacostea!...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ce pacoste?...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Apoi are să se mânie foc cucoana Chirița... pentru că-i chiar piesa ei.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Mări, lasă-ncolo, arhon sărdar... Dacă pentru cel mai mic lucru ar fi să se tot mânie unii și alții, când se joacă vro piesă, apoi n-ar mai fi chip de-a avea teatru național.</p>
+            <p>Teatrul este o școală</p>
+            <p>Unde-nveți, râzând voios,</p>
+            <p>A te feri ca de boală</p>
+            <p>De-orice nărav uricios.</p>
+            <p>Acolo e criticată</p>
+            <p>Îndeobște fapta rea,</p>
+            <p>Dar persoana-i respectată</p>
+            <p>Fie bună, fie rea!</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Să deie Dumnezeu să judece și cucoana Chirița ca d-ta... dar parcă nu-mi vine-a crede.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Apropo... știi pe cine și-a ales gineri cucoana Chirița?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Și-a găsit gineri în sfârșit?... Slavă Domnului!... că mult a mai umblat căutându-i cu lumânarea, biata femeie!... da pe cine ziseși?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Pe berbanții cei doi de care mi-ai vorbit mai deunăzi.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Bondici și Pungescu?... Ce zici?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Așa, frate... a ales, a ales... pân-a cules.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Da bine, soro... aceia-s niște târâie-brâu de n-au margini... Au fugit din Focșani ca să scape din mâna administratorului, fiindcă dezbrăcaseră lumea cu teșmecheriile lor... De când îi pasc eu că doar i-oi prinde cu oca mică și să-i trântesc la dubă... Până și mai alaltăieri m-am pus eu înadins la cărți cu ei...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Și nu i-ai prins cu vro coțcărie?...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Nu... se feresc de mine ca dracu de tămâie... și mi-i mai mare ciudă că mi-au luat vro cincisprezece galbeni.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Din banii d-tale?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Aș!... nebun sunt?... dar las’ că nu scapă ei de Cuculeț... nu... de-oi ști că s-or strecura toți banii agiei, am să-i înhăț... Da... ian spune-mi: nu cumva-s poftiți în astă-seară la bal?</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Nu...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Păcat!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Iaca... musafirii încep a veni... Arhon sărdar, primește d-ta boierii... că eu oi primi cucoanele.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Bucuros...</p>
+            <stage> (În parte.) </stage>
+            <p>Mai bucuros aș primi cucoanele.</p>
+          </sp>
+        </div>
+        <div type="scene" n="XX">
+          <head>SCENA XX</head>
+            <note type="setting">Damele se pun pe scaunele de lângă canapea, care rămâne slobodă. Cavalerii se pun în fund.</note>
+            <note type="setting"> AFIN, CUCULEȚ, POFTIȚII la bal </note>
+          <sp who="#poftiții">
+            <speaker>POFTIȚII</speaker>
+            <p>Iată-ne cu toți la bal!</p>
+            <p>Venim vesel, ne-adunăm,</p>
+            <p>Ne-adunăm ca să urăm</p>
+            <p>Mult plăcutul carnaval.</p>
+            <p>Vivat cei care dau bal</p>
+            <p>În plăcutul carnaval!</p>
+          </sp>
+          <sp who="#o_damă">
+            <speaker>O DAMĂ</speaker>
+            <stage> (Afinoaiei) </stage>
+            <p>Doamna mea, îți mulțumim.</p>
+            <p>Balu-ți este minunat!</p>
+          </sp>
+          <sp who="#un_boier_bătrân">
+            <speaker>UN BOIER BĂTRÂN</speaker>
+            <p>Drept să-ți spun, zău, aferim!</p>
+            <p>Parcă-i halima, curat.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Vivat cei care dau bal etc.</p>
+          </sp>
+        </div>
+        <div type="scene" n="XXI">
+          <head>SCENA XXI</head>
+            <note type="setting">Un fecior trece cu cofeturi.</note>
+            <note type="setting"> Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA, BONDICI și PUNGESCU</note>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (intrând furioasă și făcându-și vânt cu basmaua) </stage>
+            <p>Auzi d-ta așa batgiocură!... așa catigorie!... așa catahrismie!...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ce este, cucoană Chiriță?... Ce-ai pățit?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce-am pățit?... Foarte-ți mulțămesc de lozniță și de ftiatru. M-am englendisit de minune...</p>
+            <stage> (În parte.) </stage>
+            <p>Îmi vine să pleznesc... na!</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Cum?... cum?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Vai!... bată-l concina de auftor... care-a fi acela... da ce are el cu fetele mele, de se leagă nitam-nisam de dânsele?... Auzi! Două fete ș-o nineacă?... Eu cred, ca o proastă, că-i vro istorie cu moral ca din Apotichi ton pedon... și mă duc frumos la ftiatru, fără ca să-mi treacă măcar pin gând că oi să mă văd parastuind chiar pe mine...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Pe d-ta?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da știi?... bucățică tăietă... Ba încă ce?... să mă arăte la o mulțime de boieri, cum m-am troienit în Păcurari, și cum îmi fac sprâncenele, și cum mă sfădesc cu Ioana țiganca, și cum mă chinuiesc ca să-mi mărit fetele!... da ce are el cu mine!... ce are el a împărți cu copilele mele?... aud?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Lasă, cucoană Chiriță... nu-ți mai închipui lucruri de pe ceea lume... Ce te superi degeaba?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Îmi închipuiesc lucruri de pe ceea lume, eu?... da l-am văzut pe ahtoru cela... făcându-și sprâncenele dinaintea oamenilor. Așa mi-o venit un paracsân, că am ieșit din lozniță... și noroc c-am găsit în scara ftiatrului pe spătaru Pungescovici și aga Bondicescu, care m-o întovărășit aici.</p>
+            <stage> (Arătându-i.) </stage>
+            <p>Iată-i amândoi...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <stage> (în parte) </stage>
+            <p>Cine i-a poftit la bal?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (în parte) </stage>
+            <p>Iaca voinicii mei... am să le iau urma toată seara ca un prepelicar.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Doamne! de s-ar face Guliță mai mare, ca să scrie și el piesă de ftiatru... am să-l pun să toarne o piesă auftorului... da știi? să se sature.</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Ei bine, bine... treacă-ți mânia acu... și ia o înghețată, doar te-i mai răcori... De care poftești?... de alămâie?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba nu, că-mi strepezesc dinții... dă-mi de cea roșie că- mi bate mai bine la ochi.</p>
+            <stage> (Ia înghețata.) </stage>
+            <p>Rece-i, mămulica mea!... ca o ghețărie.</p>
+            <stage> (Suflă în farfurie.) </stage>
+            <p>Mă furnică nu știu ce prin vârful nasului... Pune-ți în gând, soro, că mai anțărț la iarmaroc, la Fălticeni, mă duc la un cofetar ca să iau înghețată; el îmi trimite răspuns că s-o mântuit înghețatele pe ziua aceea. Îl poftesc atunci la oblonul trăsurii și-i zic ritos: monsiu cela, mai destupă o putină pentru hatârul meu!... și el s-o mâniet zicând că nu-i de la Gogomănești!... Curioji îs nemții iștia!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Dec!... ce i-o apucat? Iaca, frate!... mă rog, boieri, de mine râdeți d-voastră?... Ei, apoi să vă arăt eu cum se râde...</p>
+            <stage> (Râde cu spasmuri.) </stage>
+            <p>Măi, că tare nu știu cum îs boierii ieșeni!</p>
+            <stage> (Merge de se pune lângă Aristița și Calipsița în fața publicului.) </stage>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (către Bondici și Pungescu) </stage>
+            <p>Domnilor, nu metahirisiți în astă-seară un stosișor ceva?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Cu mare plăcere, domnule director.</p>
+            <stage> (Încet, lui Pungescu.) </stage>
+            <p>Pil, Pungescule, și pe urmă aport...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (încet, lui Bondici) </stage>
+            <p>Oare?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (asemene) </stage>
+            <p>Dă colb agiei pă zdreavăn.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (asemene) </stage>
+            <p>Dă la mertepea?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Țeapăn...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (în parte) </stage>
+            <p>Doamne, de i-aș prinde cu vro coțcărie!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Na... că se-ncepe staeru!</p>
+            <stage> (Fetelor.) </stage>
+            <p>Țineți-vă frumos, și nu fiți așa de posomorâte c-o să vie cavalerii să vă poftească... mai zâmbiți... mai zâmbiți, soro dragă... mai trageți cu coada ochiului... ca altele.</p>
+            <stage> (În parte.) </stage>
+            <p>Doamne! de n-am păți ș-acum ca pe la celelalte baluri... Să stăm pe loc și, cum zic aice: să facem patiserie...</p>
+            <stage> (Arătând damele care joc.) </stage>
+            <p>Ian privește!... toate moachele-s poftite pe rând... numai a mele șed locului parcă-s înfipte... Să vezi că n-or să se miște toată noaptea!</p>
+            <stage> (Se scoală.) </stage>
+            <p>Un filosof fără minți</p>
+            <p>A fost, cică, de părere</p>
+            <p>Că la casă de părinți</p>
+            <p>Copii mulți sunt o avere!</p>
+            <p>De-i așa, eu pot să zic</p>
+            <p>Că-s bogată, am comoare,</p>
+            <p>Că deși n-am bani nici chic...</p>
+            <p>Am averi nemișcătoare!</p>
+            <stage> (Arată fetele.) </stage>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ștos!</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Mare noroc ai, domnule!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Nu fie dă deochi... mă paște bine norocul cărților.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Să juri că-s măsluite.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Oriste?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ha, ha, ha! că șăgalnic mai ești, arhon sărdar.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte, apropiindu-se de masă) </stage>
+            <p>Îra! da eu uitasem că am doi gineri... numai buni ca să-mi gioace fetele.</p>
+            <stage> (Tare.) </stage>
+            <p>Arhon spătar...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Poruncă?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Este o persoană care ar dori foarte mult să gioace o poalcă cu d-ta.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Cât de rău îmi pare... dar mă strânge o cizmă dă mă usuc ca o prună pă streșină.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Tronc!</p>
+            <stage> (Tare.) </stage>
+            <p>Arhon agă?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Poruncă?</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Nu metahirisiți poalca?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Cum nu, cucoană?... dar îs cernit.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ai perdut vrun neam?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Pe străbunul meu.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Dumnezeu să-l ierte.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (zărind cavalerul) </stage>
+            <p>Ha!... iaca un cavaler... dă, Doamne!... parcă cată damă de gioc?... dar... slavă ție, Doamne! c-o să-mi poftească o fată. Ba nici hâci?... vai! bată-l cucu miliord... cu orbu găinilor... Uf! iar o să facem patiserie!</p>
+            <stage> (Se pune pe canapea.) </stage>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ștos!</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Nu pot să bat măcar o carte!... ce ghinion!... zece galbeni pe valet!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (întorcând cărțile) </stage>
+            <p>Plie!</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Iar plie?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Ai goană dă fante, nenișorule.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (în parte.) </stage>
+            <p>Haide, hai, că ți-oi da eu acuși goană.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (feciorului cu tablaua) </stage>
+            <p>Măi fecior, vină-ncoace...</p>
+            <stage> (Întinde basmaua ș-o umple de cofeturi.) </stage>
+            <p>Ia așa! încalte n-oi ședea o noapte întreagă degeaba la bal!... Păcat că nu mai am o basma!... Altă dată am s-aduc o față de perină și s-o umplu cu vârf.</p>
+          </sp>
+        </div>
+        <div type="scene" n="XXII">
+          <head>SCENA XXII</head>
+            <note type="setting">Repriză.</note>
+            <note type="setting"> Cei dinainte, GUGULIȚĂ și LULUȚA </note>
+          <sp who="#luluța #gugulita">
+            <speaker>GUGULIȚĂ și LULUȚA</speaker>
+            <p>Polca, polca, vesel joc,</p>
+            <p>Polca, polca, te iubim!</p>
+            <p>Polca, polca... plini de foc</p>
+            <p>Vesel noi te dănțuim!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iaca Guliță! cum gioacă de frumusel, dragu mamei!... parcă-i un titirez!... Numai voi stați locului ca turnu Trisfetitelor... Guliță... Guliță...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Aud, neneacă...</p>
+            <stage> (Vine lângă Chirița.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Vină, Guguleo, de-ți gioacă țâțacele...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Bucuros... Hai, țâțacă Calipsițo.</p>
+          </sp>
+          <sp who="#calipsița">
+            <speaker>CALIPSIȚA</speaker>
+            <p>Baiu.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Baiu, baiu?... Ian vezi-le că se și fasolesc acu?... Mări, ian să vă arăt eu cum să gioacă poalca. Vin-încoace, Guguleo... ce atâtea marafeturi...</p>
+            <stage> (Joacă cu Guliță, cântând.) </stage>
+            <p>Polca, polca, vesel joc etc., etc.</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <stage> (cu mirare lui Pungescu) </stage>
+            <p>Monsieur... monsieur...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Mademuazel?</p>
+          </sp>
+          <sp who="#luluța">
+            <speaker>LULUȚA</speaker>
+            <p>De ce ai tras acu pe riga dedesubtul cărților?</p>
+            <stage> (Se depărtează.) </stage>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (tulburat) </stage>
+            <p>Eu?</p>
+            <stage> (În parte.) </stage>
+            <p>M-a zăritără gângania!...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Aud?... Ha! coțcarule, cu de-aste-mi umbli?... bine că te prinsei...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Ce?... Ce vorbe sunt alea, domnule?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Ce vorbe?... da de când vă pasc eu cu prăjina?...</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Domnule! numai bobocii se pasc cu prăjina... Auzitum- ai? și boboc e fecioru tătâni-tău...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Boboc?... ba zi, neneo, coșcoge gâscan.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Gâscan eu?... gâscan?</p>
+            <stage> (Dă o palmă lui Pungescu.) </stage>
+            <p>Na, gâscan!... Să te-nvăț eu a batgiocori oamenii stăpânirii.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Aoleo!... mi-a scăpăratără pă dinainte...</p>
+            <stage> (Fuge de la masă și vine în dreapta, dregându-și frizura.) </stage>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <stage> (venind din fund) </stage>
+            <p>Ce este? ce s-a întâmplat?</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (amestecându-se între musafiri) </stage>
+            <p>Cine a datără o palmă?... Cine a primitără o palmă!... aud?... o palmă?... brea!... brea!... ce scandal!...</p>
+          </sp>
+          <sp who="#poftiții">
+            <speaker>POFTIȚII</speaker>
+            <p>Vai! ce întâmplare!</p>
+            <p>Stau încremenit.</p>
+            <p>Așa scandal mare</p>
+            <p>Nu s-a pomenit.</p>
+            <p>BONDICI și</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Vai! ce scandal mare!</p>
+            <p>Stau încremenit.</p>
+            <p>De ciudă, turbare,</p>
+            <p>Mă simt amețit.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Ah! ce bine-mi pare</p>
+            <p>Că i-am căptușit.</p>
+            <p>Fie scandal mare;</p>
+            <p>Eu mi-am răsplătit.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <p>Domnule... satisfacție să ne dai.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Satisfacție?... Ian așteaptă...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (astupându-și urechile) </stage>
+            <p>Carnacsî!... că m-o asurzit... parcă-i în codru.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <stage> (epistaților, arătând pe Bondici și pe Pungescu) </stage>
+            <p>Puneți mâna pe d-lui și pe d-lui.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (în parte) </stage>
+            <p>Am codălghit-o!</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage>(asemene)</stage>
+            <p>&lt;/didascalie&gt; To esfeclisa!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Pe arhon aga și pe arhon spătar!... ce catahris îi aista, arhon sărdar?...</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Nu-i nici un catahris, cucoană... Am poruncă de la Departament să-i opresc.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Da pentru ce?</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Pentru că unu-i Bondici și celalalt Pungescu: doi coțcari vestiți din Focșani.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (țipând) </stage>
+            <p>Coți... Vai de mine!</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Care au dezbrăcat lumea cu teșmecherii și cărți măsluite... Ați înțeles acu?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (țipând) </stage>
+            <p>Coți... coți... ginerii mei?... Valeu! am dat cinstea pe rușine... Ah! ah!</p>
+            <stage> (Leșină.) </stage>
+          </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <p>Vai! ce întâmplare! etc.</p>
+          </sp>
+          <sp who="#cuculeț">
+            <speaker>CUCULEȚ</speaker>
+            <p>Ah! ce bine-mi pare etc.</p>
+            <p>BONDICI și</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Vai! ce întâmplare!</p>
+            <p>Mă simt prăpădit.</p>
+            <p>Groaza-mi este mare...</p>
+            <p>De-acum m-am topit!</p>
+          </sp>
+        </div>
+        <div type="scene" n="XXIII">
+          <head>SCENA XXIII</head>
+          <sp who="#">
+            <stage>Bârzoi apucă pe Chirița de mână și o trage spre ușa din fund. Guliță, Aristița și Calipsița îi urmează. Cuculeț face semn epistaților ca să ducă pe Bondici și pe Pungescu. Poftiții la bal se închină la familia lui Bârzoi, râzând cu hohot.</stage>
+            <p>Cei dinainte, BÂRZOI</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <stage> (intrând prin salonul din fund) </stage>
+            <p>Care-i cucoana de gazdă aici?...</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (alergând la Bârzoi) </stage>
+            <p>Băbaca!... Băbaca!... a venit băbăcuța!...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Gugulea băbacăi...</p>
+            <stage> (Îl sărută. Cu glas tare.) </stage>
+            <p>Care-i cucoana de gazdă?... cea cu balul?...</p>
+          </sp>
+          <sp who="#afin">
+            <speaker>AFIN</speaker>
+            <p>Cine răcnește așa?...</p>
+            <stage> (Întorcându-se.) </stage>
+            <p>Ce văd?... cuconu Grigore Bârzoi!...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Eu și cu mine, cucoană dragă!... Unde mi-i Chirițușca cu puii?</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <p>Neneaca?... a leșinat, băbacă.</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Ce zici, Guguleo? iar a leșinat?... mări, ce-s marghioliile aiste?</p>
+            <stage>(Merge la Chirița.)</stage>
+            <p>Ama!... ha! frumos îi mai șade!... Ia feriți într-o parte, că eu îi sunt popa. Acuși o să-nvie ca o muscă de iarnă...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (răsărind) </stage>
+            <p>Carnacsî!... Ce văd! d-lui?...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <stage> (serios) </stage>
+            <p>D-lui... banul Grigore Bârzoi ot Bârzoieni... și soțul d-tale tocmai din vremea volintirilor.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (lui Bondici) </stage>
+            <p>Asta-i socru, nene Bondici?</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (oftând) </stage>
+            <p>Neschi.</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <p>Urât tată a mai avutără.</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Înțelegi, cucoană, de ce mă aflu aici în Ieși, pe la ceasul aista, în loc de a horăi boierește la moșie... după obicei?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (tulburată) </stage>
+            <p>În... ță... leg.</p>
+            <stage> (În parte.) </stage>
+            <p>Îmi vine leșin la inimă.</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Potrivit răvașului ce ți-am scris din 15 a următoarei, anul 1844, am venit să te umflu din Ieși, cu nepus în masă... Hai... că Brustur și Cociurlă ne așteaptă cu preoții...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Brustur și Cociurlă!... scăpătații ceia?... niște răzăși!... Nu ți-i greu să vorbești, frate?</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Ian tacă-ți gura cu fleacuri de-aiste... auzi cuvinte?... scăpătați!... răzeși!... da noi ce suntem? împărați cu steaua-n frunte?... scoborâți cu hârzobul din cer?...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Hârzob sau nehârzob... nu știu... dar cât pentru familia lui Brustur și Cociurlă... mă închin cu plecăciune... răzăși și altă nimică.</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Cucoană Chiriță... să știi d-ta că răzeșii din ziua de astăzi au fost cele mai mari familii în vremea veche. Ei au apărat țara și au scăpat-o cu pieptul lor din mâna dușmanilor, pentru că pe atunci tot românul era viteaz și tot viteazul era boier... boierit pe câmpul războiului în fața Patriei întregi!</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei! iar ai să începi cu litopisițu... Mă rog, agiungă-ți...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>În sfârșit... vorbă multă, sărăcie!... Brustur și Cociurlă sunt feciori de oameni cu moșioarele lor, cu bănișorii lor...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cu vitișoarele lor... le știu...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Gospodari buni și nedatori cu nimic nimănui... înțelesu-m-ai, cucoană?... nu-s datori nici c-o lețcaie, pentru că nu-și ridică nasul mai sus decât se cuvine... ca de-alde d-ta, care vrei să te-nalți ca ciocârlia... și vii pin Ieși, cale de zece poște, ca să-ți faci fetele de râsul lumii... și ca să le găsești bărbați ca de-alde Bondici și Pungescu... niște târâie-brâu, ce sorb zestrele cu lingura...</p>
+          </sp>
+          <sp who="#pungescu">
+            <speaker>PUNGESCU</speaker>
+            <stage> (lui Bondici) </stage>
+            <p>Aoleo! ne-a pocnitără în pălărie.</p>
+          </sp>
+          <sp who="#bondici">
+            <speaker>BONDICI</speaker>
+            <stage> (asemene) </stage>
+            <p>Ghiuju dracului!...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <stage> (luând pe Chirița de mână) </stage>
+            <p>Hai la Bârzoieni, la locul nostru... și nu mai umbla după cai pe pereți.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Suflețele...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Haide-ți zic astăzi și nu mai lungi vorba... Trăsura ne-așteaptă la scară cu lucruri, cu tot.</p>
+          </sp>
+          <sp who="#gugulita">
+            <speaker>GUGULIȚĂ</speaker>
+            <stage> (în parte.) </stage>
+            <p>Și cu minavetul meu?</p>
+            <stage> (Iese cu fuga.) </stage>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Tiranule!...</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Așa... dacă-ți place... altă dată să știi de la mine o vorbă bătrânească: Nu te-ntinde mai mult decât ți-i oghealu... Haide...</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Iar letopisițe?... destul!... iaca vin... mai stai, că doar nu dau tătarii... să-mi iau măcar ziua bună de la prieteni... măi!... că avan mai ești!</p>
+            <stage> (Vine în fața publicului și face compliment.) </stage>
+            <p>Cu plecăciune, boieri d-voastră... copilele le-ați văzut: iată-le-s... Aristițo, Calipsițo...</p>
+            <stage> (Fetele vin lângă dânsa.) </stage>
+            <p>Aiste-s, cum le-am procopsit de douăzeci ș-atâți de ani... Una-i de 16 pe 17, și una de 18 pe 19... îi împlinesc la lăsatul săcului... Precum le vedeți... îs tinerele, frumușele, curățele, hărnicele, cu ghitarda lor, cu cadrilul lor, cu franțuzasca lor. Parle france, madmuzel?...</p>
+          </sp>
+          <sp who="#fetele">
+            <speaker>FETELE</speaker>
+            <p>Ui, maman.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Le-ați auzit?... ca apa!</p>
+            <stage>(Fetelor.)</stage>
+            <p>Le plese vu, monsio cavaler din Ieși?</p>
+          </sp>
+          <sp who="#fetele">
+            <speaker>FETELE</speaker>
+            <p>Ui, maman.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ei! minciuni v-am spus?... Ce ziceți?... vă place?... Ascultați-mă pe mine, că eu știu ce știu... nu pierdeți chilipirul de la mână.</p>
+            <p>Fetele-s bune</p>
+            <p>De măritat,</p>
+            <p>Îs de minune...</p>
+            <p>V-o spun curat.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Ha, ha, ha, ha.</p>
+          </sp>
+          <sp who="#chirița">
+            <speaker>CHIRIȚA</speaker>
+            <stage> (la public) </stage>
+            <p>Frunză verde măcieș,</p>
+            <p>Pân-a nu pleca din Ieși.</p>
+            <p>Spuneți-mi, mă rog, îndată,</p>
+            <p>De vă place vreo fată,</p>
+            <p>Cuscră-n Ieși ca să mă fac,</p>
+            <p>Lui Bârzoi să-i vin de hac.</p>
+            <p>Iată-le-s bibici hazlie,</p>
+            <p>Pupuice... seamănă mie.</p>
+            <p>Vreți sau ba soacră să fiu?...</p>
+            <p>Fora-n palme ca s-o știu.</p>
+          </sp>
+          <sp who="#bârzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>D-apoi vină azi.</p>
+          </sp>
+          <sp who="#toți">
+            <speaker>TOȚI</speaker>
+            <p>Fetele-s bune</p>
+            <p>etc., etc.</p>
+            <stage>(Cortina cade.)</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
