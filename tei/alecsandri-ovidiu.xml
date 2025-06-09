@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000023" xml:lang="rom">
@@ -48,9 +48,6 @@
           <person xml:id="mecena" sex="MALE">
             <persName>Mecena</persName>
           </person>
-          <person xml:id="alcidiu" sex="MALE">
-            <persName>Alcidiu Pinax</persName>
-          </person>
           <person xml:id="ibis" sex="UNKNOWN">
             <persName>Ibis</persName>
           </person>
@@ -81,14 +78,8 @@
           <person xml:id="gettor" sex="MALE">
             <persName>Gettor</persName>
           </person>
-          <person xml:id="lictori" sex="MALE">
-            <persName>Un lictor</persName>
-          </person>
           <person xml:id="marcianus" sex="MALE">
             <persName>Marcianus</persName>
-          </person>
-          <person xml:id="ambasador" sex="MALE">
-            <persName>Ambasadorul Regelui Cotizon</persName>
           </person>
           <person xml:id="iulia" sex="FEMALE">
             <persName>Iulia</persName>
@@ -120,8 +111,86 @@
           <person xml:id="pyrrha" sex="FEMALE">
             <persName>Pyrrha</persName>
           </person>
-          <person xml:id="popor" sex="UNKNOWN">
-            <persName>Popor roman</persName>
+          <person xml:id="alta">
+            <persName>Alta</persName>
+          </person>
+          <person xml:id="atea">
+            <persName>Atea</persName>
+          </person>
+          <person xml:id="celelalte">
+            <persName>Celelalte</persName>
+          </person>
+          <person xml:id="cleveticus">
+            <persName>Cleveticus</persName>
+          </person>
+          <person xml:id="clevetus">
+            <persName>Clevetus</persName>
+          </person>
+          <person xml:id="corna">
+            <persName>Corna</persName>
+          </person>
+          <person xml:id="curtizanele">
+            <persName>Curtizanele</persName>
+          </person>
+          <person xml:id="femeile">
+            <persName>Femeile</persName>
+          </person>
+          <person xml:id="glasuri_din_grupe">
+            <persName>Glasuri Din Grupe</persName>
+          </person>
+          <person xml:id="hillarius_si_rutuba">
+            <persName>Hillarius Si Rutuba</persName>
+          </person>
+          <person xml:id="ibi">
+            <persName>Ibi</persName>
+          </person>
+          <person xml:id="lictorul">
+            <persName>Lictorul</persName>
+          </person>
+          <person xml:id="mai_multi_trecatori">
+            <persName>Mai Multi Trecatori</persName>
+          </person>
+          <person xml:id="o_femeie">
+            <persName>O Femeie</persName>
+          </person>
+          <person xml:id="oviidiu">
+            <persName>Oviidiu</persName>
+          </person>
+          <person xml:id="pinax">
+            <persName>Pinax</persName>
+          </person>
+          <person xml:id="plaba">
+            <persName>Plaba</persName>
+          </person>
+          <person xml:id="pleba">
+            <persName>Pleba</persName>
+          </person>
+          <person xml:id="poporul">
+            <persName>Poporul</persName>
+          </person>
+          <person xml:id="precupetul_1">
+            <persName>Precupetul 1</persName>
+          </person>
+          <person xml:id="precupetul_2">
+            <persName>Precupetul 2</persName>
+          </person>
+          <person xml:id="pyrhha">
+            <persName>Pyrhha</persName>
+          </person>
+          <person xml:id="sarmia">
+            <persName>Sarmia</persName>
+          </person>
+          <person xml:id="solul">
+            <persName>Solul</persName>
+          </person>
+          <person xml:id="tigllius">
+            <persName>Tigllius</persName>
+          </person>
+          <person xml:id="toti">
+            <persName>Toti</persName>
+          </person>
+          <person xml:id="tyndarius">
+            <persName>Tyndarius</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -136,10 +205,10 @@
   <standOff>
     <listEvent>
       <event type="print" when="1890">
-        <desc></desc>
+        <desc/>
       </event>
       <event type="premiere" when="1885-03-09">
-        <desc></desc>
+        <desc/>
       </event>
     </listEvent>
   </standOff>
@@ -279,7 +348,7 @@
         </div>
         <div type="scene" n="III">
           <head>SCENA III</head>
-            <note type="setting"> Ibis, Corina (vine agitată, din stânga)</note>
+          <note type="setting"> Ibis, Corina (vine agitată, din stânga)</note>
           <sp who="#corina">
             <speaker>CORINA</speaker>
             <stage>(în parte)</stage>
@@ -485,7 +554,7 @@
         </div>
         <div type="scene" n="V">
           <head>SCENA V</head>
-            <note type="setting"> Ibis, Hillarius, Rutuba </note>
+          <note type="setting"> Ibis, Hillarius, Rutuba </note>
           <sp who="#hillarius">
             <speaker>HILLARIUS</speaker>
             <l n="107">Ibis, iată omul!</l>
@@ -654,7 +723,7 @@
         </div>
         <div type="scene" n="VI">
           <head>SCENA VI</head>
-            <note type="setting"> Ibis, Hillarius, Rutuba, Corina </note>
+          <note type="setting"> Ibis, Hillarius, Rutuba, Corina </note>
           <sp who="#corina">
             <speaker>CORINA</speaker>
             <stage>(alergând)</stage>
@@ -702,7 +771,7 @@
         </div>
         <div type="scene" n="VII">
           <head>SCENA VII</head>
-            <note type="setting">Ovidiu și apoi Iulia </note>
+          <note type="setting">Ovidiu și apoi Iulia </note>
           <sp who="#ovidiu">
             <speaker>OVIDIU</speaker>
             <l n="195">O! noapte-ndurătoare,</l>
@@ -964,9 +1033,9 @@
         <head>ACTUL II</head>
         <div type="scene" n="I">
           <head>SCENA I</head>
-            <note type="setting"> Rutuba, Muss, Pyrrha, Saga, histrioni, popor</note>
+          <note type="setting"> Rutuba, Muss, Pyrrha, Saga, histrioni, popor</note>
           <sp who="#precupetul_1">
-          <speaker>PRECUPEȚUL 1</speaker>
+            <speaker>PRECUPEȚUL 1</speaker>
             <stage>(purtând o cutie)</stage>
             <l n="318">Paste!</l>
           </sp>
@@ -1094,7 +1163,7 @@
         </div>
         <div type="scene" n="2">
           <head>SCENA 2</head>
-            <note type="setting"> Ibis, Hillarius (intrând din dreapta și primblându-se în fața scenii)</note>
+          <note type="setting"> Ibis, Hillarius (intrând din dreapta și primblându-se în fața scenii)</note>
           <sp who="#ibis">
             <speaker>IBIS</speaker>
             <l n="356">Augure, n-am odihnă de-acum o săptămână.</l>
@@ -1267,7 +1336,7 @@
         </div>
         <div type="scene" n="3">
           <head>SCENA 3</head>
-            <note type="setting"> Hillarius, Pinax Pinas histriotul, cărunt, slab și îmbrăcat în haine sărace, intră posomorât prin stânga și se întâlnește cu Hillarius. Ei se pribesc lung, cu un aer de sarcasm) </note>
+          <note type="setting"> Hillarius, Pinax Pinas histriotul, cărunt, slab și îmbrăcat în haine sărace, intră posomorât prin stânga și se întâlnește cu Hillarius. Ei se pribesc lung, cu un aer de sarcasm) </note>
           <sp who="#hillarius">
             <speaker>HILLARIUS</speaker>
             <stage>(în parte)</stage>
@@ -1580,7 +1649,7 @@
         </div>
         <div type="scene" n="IV">
           <head>SCENA IV</head>
-            <note type="setting"> Hillarius, Ibis (revine din fund)</note>
+          <note type="setting"> Hillarius, Ibis (revine din fund)</note>
           <sp who="#hillarius">
             <speaker>HILLARIUS</speaker>
             <l n="535">Ibis, ți-ai pregătit răsplata?</l>
@@ -1602,7 +1671,7 @@
         </div>
         <div type="scene" n="V">
           <head>SCENA V</head>
-            <note type="setting"> Ovidiu, Cotta, Clevetius, Tigellius, Ibis, Hillarius</note>
+          <note type="setting"> Ovidiu, Cotta, Clevetius, Tigellius, Ibis, Hillarius</note>
           <sp who="#ovidiu">
             <speaker>OVIDIU</speaker>
             <stage>(zărind pe Ibis)</stage>
@@ -1811,7 +1880,7 @@
         </div>
         <div type="scene" n="VI">
           <head>SCENA VI</head>
-            <note type="setting"> Precedenții, Barrus (istovit și grotesc, intră prin stânga, întovărășit de doi negri, servitorii lui)</note>
+          <note type="setting"> Precedenții, Barrus (istovit și grotesc, intră prin stânga, întovărășit de doi negri, servitorii lui)</note>
           <sp who="#clevetius">
             <speaker>CLEVETIUS</speaker>
             <l n="649">He! bun sosit! o! Barrus!... tot încă printre vii?</l>
@@ -1894,7 +1963,7 @@
         </div>
         <div type="scene" n="VII">
           <head>SCENA VII</head>
-            <note type="setting"> Precedenții; Actea, Tyndaris, Chloe, Glyce (intră din dreapta, în tualete elegante, și urmărite de tineri patriciani)</note>
+          <note type="setting"> Precedenții; Actea, Tyndaris, Chloe, Glyce (intră din dreapta, în tualete elegante, și urmărite de tineri patriciani)</note>
           <sp who="#barrus">
             <speaker>BARRUS</speaker>
             <l n="679">Ha! iaca ș-ale mele frumoasă-admiratoare.</l>
@@ -1972,7 +2041,7 @@
         </div>
         <div type="scene" n="VIII">
           <head>SCENA VIII</head>
-            <note type="setting">Ovidiu (rămas în urmă este abordat de Corina care vine din dreapta.)</note>
+          <note type="setting">Ovidiu (rămas în urmă este abordat de Corina care vine din dreapta.)</note>
           <sp who="#corina">
             <speaker>CORINA</speaker>
             <stage>(foarte agitată)</stage>
@@ -2067,7 +2136,7 @@
         </div>
         <div type="scene" n="IX">
           <head>SCENA IX</head>
-            <note type="setting"> Rutuba, Muss, popor, Iulia, un lictor (Poporul, insirat pe piața de-a lungul porticelor, având pe Rutuba în frunte. - Cortejul împărătesc intră prin fund, precedat de patru lictori și urmat de alți patru, toți înarmați cu scuturi și spade. Opt siriani duc pe umerii lor o lectică aurită, în care Iulia stă întinsă și rezemată pe perne de purpura. Două sclave, pe lângă lectica, poartă, una un cortel înfipt într-o trestie de India și alta, o apărătoare de pene de păun, cu care face vânt și răcorește pe Iulia. Doi sclavi în urma lor duc două scări poleite, pentru coborârea din lectica. Cortejul înaintează încet. - Ibis și Hillarius se arată la ușa templului.)</note>
+          <note type="setting"> Rutuba, Muss, popor, Iulia, un lictor (Poporul, insirat pe piața de-a lungul porticelor, având pe Rutuba în frunte. - Cortejul împărătesc intră prin fund, precedat de patru lictori și urmat de alți patru, toți înarmați cu scuturi și spade. Opt siriani duc pe umerii lor o lectică aurită, în care Iulia stă întinsă și rezemată pe perne de purpura. Două sclave, pe lângă lectica, poartă, una un cortel înfipt într-o trestie de India și alta, o apărătoare de pene de păun, cu care face vânt și răcorește pe Iulia. Doi sclavi în urma lor duc două scări poleite, pentru coborârea din lectica. Cortejul înaintează încet. - Ibis și Hillarius se arată la ușa templului.)</note>
           <sp who="#muss">
             <speaker>MUSS</speaker>
             <stage>(alergând din fund)</stage>
@@ -2160,7 +2229,7 @@
         </div>
         <div type="scene" n="X">
           <head>SCENA X</head>
-            <note type="setting"> Precedenții, Ovidiu și amicii lui </note>
+          <note type="setting"> Precedenții, Ovidiu și amicii lui </note>
           <sp who="#ovidiu">
             <speaker>OVIDIU</speaker>
             <stage>(se arată sub porticul din stânga; indignat, cu glas tare)</stage>
@@ -2281,7 +2350,7 @@
         <head>ACTUL III</head>
         <div type="scene" n="I">
           <head>SCENA I</head>
-            <note type="setting">Marcianus, Ibis și Pinax(intră în galerie, unul din stânga, altul din dreapta, și vin în scenă)</note>
+          <note type="setting">Marcianus, Ibis și Pinax(intră în galerie, unul din stânga, altul din dreapta, și vin în scenă)</note>
           <sp who="#pinax">
             <speaker>PINAX</speaker>
             <l n="778">Marciane, favorite al lui August slăvit!</l>
@@ -2477,7 +2546,7 @@
         </div>
         <div type="scene" n="III">
           <head>SCENA III</head>
-            <note type="setting"> August, Iulia (vine alergând din dreapta)</note>
+          <note type="setting"> August, Iulia (vine alergând din dreapta)</note>
           <sp who="#iulia">
             <speaker>IULIA</speaker>
             <l n="863">A! scumpul meu părinte!</l>
@@ -2765,7 +2834,7 @@
         </div>
         <div type="scene" n="IV">
           <head>SCENA IV</head>
-            <note type="setting"> August, Marcianus </note>
+          <note type="setting"> August, Marcianus </note>
           <sp who="#august">
             <speaker>AUGUST</speaker>
             <l n="1008">Ce este?</l>
@@ -2817,7 +2886,7 @@
         </div>
         <div type="scene" n="V">
           <head>SCENA V</head>
-            <note type="setting"> August, Ibis (vine prin fund)</note>
+          <note type="setting"> August, Ibis (vine prin fund)</note>
           <sp who="#august">
             <speaker>AUGUST</speaker>
             <l n="1032">Tu scris-ai aste rânduri?</l>
@@ -2979,7 +3048,7 @@
         </div>
         <div type="scene" n="VII">
           <head>SCENA VII</head>
-            <note type="setting"> August, Mecena, Ovidiu (vin din fund)</note>
+          <note type="setting"> August, Mecena, Ovidiu (vin din fund)</note>
           <sp who="#august">
             <speaker>AUGUST</speaker>
             <l n="1098">Adevărat, Mecena, ca Iulia, pe estradă,</l>
@@ -3270,7 +3339,7 @@
         </div>
         <div type="scene" n="IX">
           <head>SCENA IX</head>
-            <note type="setting"> August, Iulia, Cotta, Tigellius, Clevetius, Barbus și alți participanți (intră și se așează în rând în fața tronului). - Ibis (mai deoparte, în stânga)</note>
+          <note type="setting"> August, Iulia, Cotta, Tigellius, Clevetius, Barbus și alți participanți (intră și se așează în rând în fața tronului). - Ibis (mai deoparte, în stânga)</note>
           <sp who="#cotta">
             <speaker>COTTA</speaker>
             <l n="1233">Noroc, August Caesar!... a ta reînturnare</l>
@@ -3297,7 +3366,7 @@
         </div>
         <div type="scene" n="X">
           <head>SCENA X</head>
-            <note type="setting"> Cei dinainte, Mecena, apoi Solul (intră prin fund cu cortejul său)</note>
+          <note type="setting"> Cei dinainte, Mecena, apoi Solul (intră prin fund cu cortejul său)</note>
           <sp who="#mecena">
             <speaker>MECENA</speaker>
             <stage>(anunțând)</stage>
@@ -3370,7 +3439,7 @@
         <head>ACTUL IV</head>
         <div type="scene" n="I">
           <head>SCENA I</head>
-            <note type="setting">Ovidiu (intră pe ușa din stânga, urmat de un sclav)</note>
+          <note type="setting">Ovidiu (intră pe ușa din stânga, urmat de un sclav)</note>
           <sp who="#ovidiu">
             <speaker>OVIDIU</speaker>
             <l n="1243">Zici tu că o străină mă caută aice?</l>
@@ -3385,7 +3454,7 @@
         </div>
         <div type="scene" n="II">
           <head>SCENA II</head>
-            <note type="setting"> Ovidiu, Iulia (intrând rapide pe ușa din dreapta)</note>
+          <note type="setting"> Ovidiu, Iulia (intrând rapide pe ușa din dreapta)</note>
           <sp who="#iulia">
             <speaker>IULIA</speaker>
             <l n="1246">Ovidiu, fugi, te-ajunge urgia lui August...</l>
@@ -3586,7 +3655,7 @@
         </div>
         <div type="scene" n="III">
           <head>SCENA III</head>
-            <note type="setting"> Actea, Chloe, Tyndaris, Glyce (în splendide costumuri), Cotta, Clevetius, Tigellius și alți patriciani (veseli și puțin amețiți)</note>
+          <note type="setting"> Actea, Chloe, Tyndaris, Glyce (în splendide costumuri), Cotta, Clevetius, Tigellius și alți patriciani (veseli și puțin amețiți)</note>
           <sp who="#actea">
             <speaker>ACTEA</speaker>
             <l n="1342">A dispărut Ovidiu, s-a dus leul orgiei</l>
@@ -3883,7 +3952,7 @@
         </div>
         <div type="scene" n="V">
           <head>SCENA V</head>
-            <note type="setting"> Precedenții, Ovidiu (revine din dreapta)</note>
+          <note type="setting"> Precedenții, Ovidiu (revine din dreapta)</note>
           <sp who="#ovidiu">
             <speaker>OVIDIU</speaker>
             <stage>(palid)</stage>
@@ -4057,7 +4126,7 @@
         </div>
         <div type="scene" n="VI">
           <head>SCENA VI</head>
-            <note type="setting"> Precedenții; Iulia (apare în fund, pe strada din triclinium)</note>
+          <note type="setting"> Precedenții; Iulia (apare în fund, pe strada din triclinium)</note>
           <sp who="#iulia">
             <speaker>IULIA</speaker>
             <stage>(cu glas tare)</stage>
@@ -4218,7 +4287,7 @@
         </div>
         <div type="scene" n="VII">
           <head>SCENA VII</head>
-            <note type="setting"> Precedenții, August, Mecena, Lictori </note>
+          <note type="setting"> Precedenții, August, Mecena, Lictori </note>
           <sp who="#august">
             <speaker>AUGUST</speaker>
             <stage>(pe estradă)</stage>
@@ -4320,7 +4389,7 @@
         <head>ACTUL V</head>
         <div type="scene" n="I">
           <head>SCENA I</head>
-            <note type="setting"> Sarmiza, Dava, câteva femei șarmante. (Vânt mare afară)</note>
+          <note type="setting"> Sarmiza, Dava, câteva femei șarmante. (Vânt mare afară)</note>
           <sp who="#sarmiza">
             <speaker>SARMIZA</speaker>
             <stage>(pe un scăunaș, lângă vatră, ațâța focul)</stage>
@@ -4441,7 +4510,7 @@
         </div>
         <div type="scene" n="II">
           <head>SCENA II</head>
-            <note type="setting"> Precedenții, Ovidiu, Sarmis, locuitorii din Tomis</note>
+          <note type="setting"> Precedenții, Ovidiu, Sarmis, locuitorii din Tomis</note>
           <sp who="#poporul">
             <speaker>POPORUL</speaker>
             <l n="1695">Ura! Ura! trăiască romanu-nvingător!</l>
@@ -4478,7 +4547,7 @@
         </div>
         <div type="scene" n="III">
           <head>SCENA III</head>
-            <note type="setting"> Ovidiu, Sarmiza</note>
+          <note type="setting"> Ovidiu, Sarmiza</note>
           <sp who="#ovidiu">
             <speaker>OVIDIU</speaker>
             <l n="1706">Noroc și fală mie?... Mai bine-un pic de foc...</l>
@@ -4601,7 +4670,7 @@
         </div>
         <div type="scene" n="IV">
           <head>SCENA IV</head>
-            <note type="setting"> Ovidiu, Sarmiza, Gettor si, mai pe urma, Ibis (intrând prin fund)</note>
+          <note type="setting"> Ovidiu, Sarmiza, Gettor si, mai pe urma, Ibis (intrând prin fund)</note>
           <sp who="#gettor">
             <speaker>GETTOR</speaker>
             <l n="1786">Sarmiza!</l>
@@ -4921,7 +4990,7 @@
         </div>
         <div type="scene" n="VI">
           <head>SCENA VI</head>
-            <note type="setting"> Ovidiu, Iulia, Sarmiza (intrând prin fund)</note>
+          <note type="setting"> Ovidiu, Iulia, Sarmiza (intrând prin fund)</note>
           <sp who="#iulia">
             <speaker>IULIA</speaker>
             <l n="1941">Tu mi-ai spus</l>
@@ -4960,7 +5029,7 @@
         </div>
         <div type="scene" n="VII">
           <head>SCENA VII</head>
-            <note type="setting"> Iulia, Ovidiu </note>
+          <note type="setting"> Iulia, Ovidiu </note>
           <sp who="#iulia">
             <speaker>IULIA</speaker>
             <stage>(se apropie de Ovidiu și-l privește otărându-se)</stage>
@@ -5225,7 +5294,7 @@
         </div>
         <div type="scene" n="IX">
           <head>SCENA IX</head>
-            <note type="setting"> Precedenții, Cotta și amicii lui Ovidiu </note>
+          <note type="setting"> Precedenții, Cotta și amicii lui Ovidiu </note>
           <sp who="#cotta">
             <speaker>COTTA</speaker>
             <p>Ovidiu unde-i?</p>
