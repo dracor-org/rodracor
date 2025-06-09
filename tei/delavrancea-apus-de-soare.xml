@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000005" xml:lang="rom">
   <teiHeader>
@@ -102,7 +101,7 @@
           <person xml:id="petru_rares" sex="MALE">
             <persName>PETRU RAREȘ</persName>
           </person>
-          <person xml:id="doftorul_cesena" sex="MALE">
+          <person xml:id="cesena" sex="MALE">
             <persName>DOFTORUL IERONIMO DA CESENA</persName>
           </person>
           <person xml:id="doftorul_smil" sex="MALE">
@@ -171,29 +170,24 @@
           <person xml:id="dochia" sex="FEMALE">
             <persName>DOCHIA</persName>
           </person>
-          <person xml:id="cesena">
-            <persName>Cesena</persName>
           </person>
           <person xml:id="curtean">
             <persName>Curtean</persName>
           </person>
           <person xml:id="dragan">
-            <persName>Dragan</persName>
+            <persName>Drăgan</persName>
           </person>
           <person xml:id="dragos">
-            <persName>Dragos</persName>
+            <persName>DRAGOȘ</persName> 
           </person>
           <person xml:id="hatmanul_arbore">
             <persName>Hatmanul Arbore</persName>
-          </person>
-          <person xml:id="ieronimo_da_cesena">
-            <persName>Ieronimo Da Cesena</persName>
           </person>
           <person xml:id="logofatul_taut">
             <persName>Logofatul Taut</persName>
           </person>
           <person xml:id="mai_multi">
-            <persName>Mai Multi</persName>
+            <persName>Mai mulți</persName>
           </person>
           <person xml:id="maria">
             <persName>Maria</persName>
@@ -202,10 +196,10 @@
             <persName>Moghila</persName>
           </person>
           <person xml:id="multimea">
-            <persName>Multimea</persName>
+            <persName>Mulțimea</persName>
           </person>
           <person xml:id="parcalabul_hraman">
-            <persName>Parcalabul Hraman</persName>
+            <persName>Pârcălabul Hraman</persName>
           </person>
           <person xml:id="rares">
             <persName>Rares</persName>
@@ -223,7 +217,7 @@
             <persName>Toate</persName>
           </person>
           <person xml:id="toti">
-            <persName>Toti</persName>
+            <persName>Toți</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -1481,7 +1475,7 @@
             <speaker>ȘTEFAN</speaker>
             <p>Vrei să-mi fie frig? Cesena, cum e mai bine: cald ori frig?</p>
           </sp>
-          <sp who="#ieronimo_da_cesena">
+          <sp who="#cesena">
             <speaker>IERONIMO DA CESENA</speaker>
             <p>Mai bine cald ca frig, ma preferisco recorito senza sentir il freddo.</p>
           </sp>
@@ -2253,7 +2247,7 @@
         </div>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Rămâi ca marmora...</p>
           </sp>
@@ -2265,7 +2259,7 @@
             <speaker>DOFTORUL ȘMIL</speaker>
             <p>Oțelit... în aer, în luptă... Pe trupul dumnealui numai crestături... Am milă, n-am știință... Rana de la picior îi otrăvește trupul dumnealui... Și Mengli-Ghirai e tare, dar un guturai, și la pat... Atunci să vedeți... Unde e Șmilică?... Șmilică, ai mâncat?... Șmilică, ce, tu ești</p>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>L-am văzut, amestecat cu nemții. Gemea codrii de freddo. El ajuta și încuraja pe toți... Cu miei ochii... come un fulmine dal cello nella bataglia da</p>
           </sp>
@@ -2281,7 +2275,7 @@
             <speaker>DOFTORUL ȘMIL</speaker>
             <p>Ei! prin câte focuri a trecut dumnealui... să treacă și prin ăsta... O să vrea?</p>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Să-l încredințăm că e durere grozavă... Serenissime, ma che dolore... Io voglio... Ho studiato questo uomo maraviglioso...</p>
           </sp>
@@ -2405,7 +2399,7 @@
             <speaker>DOFTORUL ȘMIL</speaker>
             <p>Din doi oameni sănătoși?... Aș face și doi bolnavi dacă m-ar lăsa inima.</p>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Non, serenissime, qui.</p>
             <stage>(Arată piciorul.)</stage>
@@ -4023,7 +4017,7 @@
             <speaker>ȘTEFAN</speaker>
             <p>Gata?</p>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Si, ilustrissime...</p>
           </sp>
@@ -4079,7 +4073,7 @@
             <speaker>DOFTORUL ȘMIL</speaker>
             <p>O! minunat om!</p>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Gesù Maria!</p>
           </sp>
@@ -4119,7 +4113,7 @@
             <stage>(Doftorul Klingensporn și doftorul Cesena dau din cap.)</stage>
             <p>Ce? Nu?</p>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Si, signore.</p>
           </sp>
@@ -4218,7 +4212,7 @@
             <p>Ce faci...</p>
             <stage>(Toți îl înconjoară d- aproape.)</stage>
           </sp>
-          <sp who="#doftorul_cesena">
+          <sp who="#cesena">
             <speaker>DOFTORUL CESENA</speaker>
             <p>Nu! DOAMNA</p>
           </sp>

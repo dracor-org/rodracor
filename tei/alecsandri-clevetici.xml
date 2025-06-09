@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000024" xml:lang="rom">
   <teiHeader>
@@ -26,7 +25,7 @@
         <bibl type="originalSource">
           <name/>
           <idno type="URL"/>
-          <title/>
+          <title></title>
           <availability>
             <licence>
               <ab>public domain</ab>
@@ -39,8 +38,8 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="clevtici">
-            <persName>Clevtici</persName>
+          <person xml:id="clevetici" sex="MALE">
+            <persName>Clevetici</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -55,7 +54,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1862">
-        <desc/>
+        <desc></desc>
       </event>
       <event type="premiere" when="1862-01-01">
         <desc>Iași</desc>
@@ -82,8 +81,8 @@
         <div type="scene" n="I">
           <head>SCENA I</head>
           <note type="setting">(Teatrul reprezentă un salon.)</note>
-          <sp who="#clevtici">
-            <speaker>CLEVTICI</speaker>
+          <sp who="#clevetici">
+            <speaker>CLEVETICI</speaker>
             <stage>(cu frac negru, jiletcă Robespierre, cravată de matasă albă și cu barba-n furculiță, intră pe ușa din fund)</stage>
             <p>Sănătate și frățietate, domnilor cetățeni!… Am aflat că sunteți adunați în colegiu eleptoral pentru alegerea unui deputat, și iată-mă-s, alerg ca să vă spun profesiunea mea de credință.</p>
             <p>Eu sunt celebrul Clevetici</p>

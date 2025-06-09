@@ -1,5 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000028" xml:lang="rom">
   <teiHeader>
@@ -94,19 +93,19 @@
             <persName>Boierii</persName>
           </person>
           <person xml:id="capitanul">
-            <persName>Capitanul</persName>
+            <persName>Căpitanul</persName>
           </person>
           <person xml:id="ceilalti">
-            <persName>Ceilalti</persName>
+            <persName>Ceilalți</persName>
           </person>
           <person xml:id="ciubar">
-            <persName>Ciubar</persName>
+            <persName>Ciubăr-Vodă</persName>
           </person>
           <person xml:id="despot">
-            <persName>Despot</persName>
+            <persName>Despot-Eraclid</persName>
           </person>
           <person xml:id="doamna">
-            <persName>Doamna</persName>
+            <persName>Doamna Ruxandra</persName>
           </person>
           <person xml:id="dulce">
             <persName>Dulce</persName>
@@ -117,17 +116,15 @@
           <person xml:id="glasuri">
             <persName>Glasuri</persName>
           </person>
-          <person xml:id="lapusneanul">
-            <persName>Lapusneanul</persName>
           </person>
           <person xml:id="laski">
-            <persName>Laski</persName>
+            <persName>Albert Laski</persName>
           </person>
           <person xml:id="maica">
-            <persName>Maica</persName>
+            <persName>Maica Fevronia</persName>
           </person>
           <person xml:id="o_taranca">
-            <persName>O Taranca</persName>
+            <persName>O țărancă</persName>
           </person>
           <person xml:id="poporul">
             <persName>Poporul</persName>
@@ -136,19 +133,17 @@
             <persName>Toma</persName>
           </person>
           <person xml:id="toti">
-            <persName>Toti</persName>
+            <persName>Toți</persName>
           </person>
           <person xml:id="un_boier">
-            <persName>Un Boier</persName>
+            <persName>Un boier</persName>
           </person>
           <person xml:id="un_glas">
-            <persName>Un Glas</persName>
+            <persName>Un glas</persName>
           </person>
           <person xml:id="un_taran">
-            <persName>Un Taran</persName>
+            <persName>Un țăran</persName>
           </person>
-          <person xml:id="voda">
-            <persName>Voda</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -163,7 +158,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1879">
-        <desc/>
+        <desc></desc>
       </event>
       <event type="premiere" when="1879-09-30">
         <desc>Teatrul Național din Bucureşti</desc>
@@ -1454,7 +1449,7 @@
         <div type="scene" n="I">
           <head>SCENA I</head>
           <note type="setting">ALEXANDRU LĂPUȘNEANU, DOAMNA RUXANDRA</note>
-          <sp who="#lapusneanul">
+          <sp who="#lapusneanu">
             <speaker>LĂPUȘNEANUL</speaker>
             <l n="441">În vremea-ndelungată cât singur, cu smerire,</l>
             <l n="442">Am fost spre închinare la sfânta mănăstire</l>
@@ -1467,7 +1462,7 @@
             <l n="446">Doi îngeri lângă Sfânta Maria-născătoare,</l>
             <l n="447">Pe aer.</l>
           </sp>
-          <sp who="#lapusneanul">
+          <sp who="#lapusneanu">
             <speaker>LĂPUȘNEANUL</speaker>
             <l n="448">Este gata?</l>
           </sp>
@@ -6731,9 +6726,8 @@
           <head>SCENA XIII</head>
           <note type="setting"> TOȚI, DESPOT</note>
           <note type="setting">(și, mai pe urmă, ANA și ILIAȘ. DESPOT se arată maiestos, cu hlamida pe umeri și cu coroana pe cap.)</note>
-          <p>CIUBĂR-</p>
-          <sp who="#voda">
-            <speaker>VODĂ</speaker>
+          <sp who="#ciubar">
+            <speaker>CIUBĂR-VODĂ</speaker>
             <stage>(arătând pe Despot)</stage>
             <p>Iată-l... iată cumplitul fariseu!</p>
             <p>Tu, antihrist! tu, Despot, cuprins de duhul rău,</p>
