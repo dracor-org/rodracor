@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type="text/css" href="../css/tei.css"?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000012" xml:lang="rom">
@@ -39,9 +39,6 @@
     <profileDesc>
       <particDesc>
         <listPerson>
-          <person xml:id="jupân_dumitrache" sex="MALE">
-            <persName>JUPÂN DUMITRACHE TITIRCĂ INIMĂ-REA</persName>
-          </person>
           <person xml:id="ipingescu" sex="MALE">
             <persName>NAE IPINGESCU</persName>
           </person>
@@ -51,11 +48,26 @@
           <person xml:id="spiridon" sex="MALE">
             <persName>SPIRIDON</persName>
           </person>
-          <person xml:id="rică" sex="MALE">
-            <persName>RICĂ VENTURIANO</persName>
-          </person>
           <person xml:id="veta" sex="FEMALE">
             <persName>VETA</persName>
+          </person>
+          <person xml:id="glasul_lui_jupan_dumitrache">
+            <persName>Glasul Lui Jupan Dumitrache</persName>
+          </person>
+          <person xml:id="glasul_zitii">
+            <persName>Glasul Zitii</persName>
+          </person>
+          <person xml:id="jupan_dumitrache">
+            <persName>Jupan Dumitrache</persName>
+          </person>
+          <person xml:id="rica">
+            <persName>Rica</persName>
+          </person>
+          <person xml:id="un_glas_de_barbat">
+            <persName>Un Glas De Barbat</persName>
+          </person>
+          <person xml:id="zita">
+            <persName>Zita</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -70,10 +82,10 @@
   <standOff>
     <listEvent>
       <event type="print" when="1879">
-        <desc></desc>
+        <desc/>
       </event>
       <event type="premiere" when="1879">
-        <desc></desc>
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
