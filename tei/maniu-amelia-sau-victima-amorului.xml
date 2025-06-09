@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000001" xml:lang="rom">
   <teiHeader>
@@ -7,7 +6,7 @@
       <titleStmt>
         <title type="main">Amelia sau Victima amorului</title>
         <author>
-          <persName type="pseudo">D. V. Maniu</persName>
+          <persName type="pseudo">D. V. Manio</persName>
           <idno type="wikidata">Q18541659</idno>
         </author>
       </titleStmt>
@@ -23,8 +22,8 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <name></name>
-          <idno type="URL"></idno>
+          <name/>
+          <idno type="URL"/>
           <title>BUCUREȘTI. Tipărit în Tipografia lui Iosef Copainig. 1849</title>
           <availability>
             <licence>
@@ -42,7 +41,7 @@
             <persName>Comitele Marini</persName>
           </person>
           <person xml:id="vernei" sex="MALE">
-            <persName>Verneĭ</persName>
+            <persName>Vernei</persName>
           </person>
           <person xml:id="miron" sex="MALE">
             <persName>Miron</persName>
@@ -50,29 +49,44 @@
           <person xml:id="amelia" sex="FEMALE">
             <persName>Amelia</persName>
           </person>
-          <person xml:id="teresa" sex="FEMALE">
-            <persName>Teresa</persName>
-          </person>
           <person xml:id="ferdinand" sex="MALE">
             <persName>Ferdinand</persName>
           </person>
-          <person xml:id="păulean" sex="MALE">
-            <persName>Păulean</persName>
-          </person>
-          <person xml:id="petruț" sex="MALE">
+          <person xml:id="petrut" sex="MALE">
             <persName>Petruț</persName>
-          </person>
-          <person xml:id="nicolae" sex="MALE">
-            <persName>Nicolae</persName>
           </person>
           <person xml:id="un_comisaru" sex="MALE">
             <persName>Un Comisar Regesc</persName>
           </person>
-          <person xml:id="temnicer" sex="MALE">
-            <persName>Un Temnicer</persName>
+          <person xml:id="batranul">
+            <persName>Bătranul</persName>
           </person>
-          <person xml:id="carnefice" sex="MALE">
-            <persName>Un Carnefice</persName>
+          <person xml:id="capitanul">
+            <persName>Căpitanul</persName>
+          </person>
+          <person xml:id="mai_multe_glasuri">
+            <persName>Mai multe glasuri</persName>
+          </person>
+          <person xml:id="servul">
+            <persName>Servul</persName>
+          </person>
+          <person xml:id="temnicierulu">
+            <persName>Temnicierul</persName>
+          </person>
+          <person xml:id="tereza">
+            <persName>Tereza</persName>
+          </person>
+          <person xml:id="toti">
+            <persName>Toți</persName>
+          </person>
+          <person xml:id="un_serv">
+            <persName>Un Serv</persName>
+          </person>
+          <person xml:id="unu_glasu">
+            <persName>Un glas</persName>
+          </person>
+          <person xml:id="unu_glasu_din_afara">
+            <persName>Un glas din afară</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -92,9 +106,6 @@
       <event type="premiere" when="1848-04-28">
         <desc>S’a representat pentru întiea dată, pe scena Română din București, la 28 Aprilie, 1848.</desc>
       </event>
-      <event type="print" when="1849">
-        <desc></desc>
-      </event>
     </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000001" passive="http://www.wikidata.org/entity/Q131983930"/>
@@ -104,53 +115,46 @@
     <front>
       <titlePage>
         <docTitle>
-          <titlePart type="main">AMELIA sau VICTIMA AMORULUI</titlePart>
+          <titlePart type="main">Amelia sau Victima amorului</titlePart>
         </docTitle>
-        <docAuthor>D. V. Maniu</docAuthor>
+        <docAuthor>D. V. Manio</docAuthor>
       </titlePage>
       <castList>
         <castItem>
           <role>Comitele Marini</role>
-          <roleDesc> Colonel pensionat</roleDesc>
-          <age>50</age>
+          <roleDesc>Colonel pensionat</roleDesc>
         </castItem>
         <castItem>
-          <role>Verneĭ</role>
-          <roleDesc> Presedent al Comitatuluĭ Temes</roleDesc>
-          <age>40</age>
+          <role>Vernei</role>
+          <roleDesc>Presedent al Comitatului Temes</roleDesc>
         </castItem>
         <castItem>
           <role>Miron</role>
-          <roleDesc> nobil Român</roleDesc>
-          <age>25</age>
+          <roleDesc>nobil Român</roleDesc>
         </castItem>
         <castItem>
           <role>Amelia</role>
-          <roleDesc> consoarta luĭ Marini</roleDesc>
-          <age>20</age>
+          <roleDesc>consoarta lui Marini</roleDesc>
         </castItem>
         <castItem>
           <role>Teresa</role>
-          <roleDesc> Guvernantă</roleDesc>
-          <age>18</age>
+          <roleDesc>Guvernantă</roleDesc>
         </castItem>
         <castItem>
           <role>Ferdinand</role>
-          <roleDesc> Director de Poliție</roleDesc>
-          <age>30</age>
+          <roleDesc>Director de Poliție</roleDesc>
         </castItem>
         <castItem>
           <role>Păulean</role>
-          <roleDesc> Căpitan,  amicul Comiteluĭ</roleDesc>
-          <age>45</age>
+          <roleDesc>Căpitan, amicul Comitelui</roleDesc>
         </castItem>
         <castItem>
           <role>Petruț</role>
-          <roleDesc> Valet în servițiul Comiteluĭ</roleDesc>
+          <roleDesc>Valet în servițiul Comitelui</roleDesc>
         </castItem>
         <castItem>
           <role>Nicolae</role>
-          <roleDesc> păstor bătrân,  tata luĭ Petruț</roleDesc>
+          <roleDesc>păstor bătrân, tata lui Petruț</roleDesc>
         </castItem>
         <castItem>
           <role>Un Comisar Regesc</role>
@@ -164,10 +168,8 @@
       </castList>
     </front>
     <body>
-      <note type="title">ACTUL I</note>
       <div type="act" n="I">
         <head>ACTUL I</head>
-        <note type="title">SCENA 1</note>
         <div type="scene" n="1">
           <head>SCENA 1</head>
           <sp who="#comitele">
@@ -178,7 +180,6 @@
             <p>A! vine cine-va.</p>
           </sp>
         </div>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#capitanul">
@@ -252,7 +253,6 @@
             <p>A!… iată’i…</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#comitele">
@@ -405,7 +405,7 @@
             <speaker>CAPITANUL</speaker>
             <p>Iată, Domnilor! cornul de vânătoare ne strigă; pe semne am întârziat. Să plecăm: trebue să recâștigăm timpul perdut.</p>
           </sp>
-          <sp who="#toți">
+          <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Aidem, să plecăm!</p>
           </sp>
@@ -425,14 +425,13 @@
             <stage>(ese dupe ceilalți, — servii scot masa.)</stage>
           </sp>
         </div>
-        <note type="title">SCENA 4</note>
         <div type="scene" n="4">
           <head>SCENA 4</head>
           <sp who="#tereza">
             <speaker>TEREZA</speaker>
             <p>Miron! nu era cu d’ânșii; nici eri nu’l am văzut: de vr’o câte-va zile e tot supărat, trist, palid, nu știu ce să crez despre d’ânsul, și eu supt atât de comfusă. Ah!… dar nu, el mă iubește, surâsul, bunătatea, dulceața ce’mi arată de câte ori îmi vorbește… tot, tot mă asigurează de amorul său…</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(întrând, încărcat cu pușci și traeste.)</stage>
             <p>Of!… nu mai pociu.</p>
@@ -441,7 +440,7 @@
             <speaker>TEREZA</speaker>
             <p>Ce! tu n’ai plecat?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Am fost plecat; dar m’am întors.</p>
           </sp>
@@ -449,7 +448,7 @@
             <speaker>TEREZA</speaker>
             <p>Pentru ce te ai întors?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Am uitat carabina Domnului; aibi bunătatea Domnișoară să mi’o dai… așa te rog.</p>
           </sp>
@@ -457,7 +456,7 @@
             <speaker>TEREZA</speaker>
             <p>Tu, nu te poți duce în armatoriul contelui s’o ei?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Pre legea mea ești curioasă nu vezi cât supt de încărcat.</p>
           </sp>
@@ -465,7 +464,7 @@
             <speaker>TEREZA</speaker>
             <p>Ca o cămilă!… ha… ha…a…!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Tocmai… așa… mai râdeți de mine… La dracu supt de râs tuturor aici în castel.</p>
           </sp>
@@ -473,7 +472,7 @@
             <speaker>TEREZA</speaker>
             <p>Ciudat mai ești!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Da, ciudat!… să fii Dumneata în posiția mea te-ași vedea eu cum ai râde.</p>
           </sp>
@@ -481,7 +480,7 @@
             <speaker>TEREZA</speaker>
             <p>Și ce, te superi?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Cine nu s’ar supăra!… Eu camarierul Camarierul Comitelui, eu valetul Domniei Comitesii, eu îngrijitorul de curte, eu tot aici în caste! ș’apoi cu afurisita de vânătoare am ajuns să fiu și ogar. Alerg câtu e zioa prin pădure, încărcat cu arme, mai cu vânat… uite, cum mă vezi. Zău am perdut toată plăcerea.</p>
           </sp>
@@ -489,7 +488,7 @@
             <speaker>TEREZA</speaker>
             <p>Lasă, Petruț!… nu te plânge; n’o să ție asta mult… încă vr’o câte-va zile, ș’ai scăpat.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Așa e… dar pân’atunci am s’asud, seara când mă întorc a casă supt numai apă, ca și când m’ar fi muiat într’un rău. Ș’apoi când m’arunc în așternut știi cefel adorm?… ca mort, sunt dus dupe lume… și vezi asta nu e bine… zău! mă tem… Dar ce fac eu? stau aici de vorbă cu Dumnea-ta și oamenii mă așteaptă… Zici că carabina e în…</p>
           </sp>
@@ -497,7 +496,7 @@
             <speaker>TEREZA</speaker>
             <p>În armatoriul Comitelui?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Prea bine, prea bine, mă duc.</p>
           </sp>
@@ -505,7 +504,7 @@
             <speaker>TEREZA</speaker>
             <p>Vezi, să aduci mult vânat.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(eșind.)</stage>
             <p>Cu cât mai puțin vânat, atât mai bine pentru spinarea mea</p>
@@ -517,7 +516,6 @@
             <p>Ce ciudat omu! mă face să râz când supt mai tristă; i s’a urât de vânătoare. Dar are dreptate. Într’adevăr mă mir și eu, ce atâta plăcere poate să aducă bărbaților vânătoarea!… pentru o distracție, e frumoasă; dar să nu treacă în pasiune. Și supt mulți carii pentru’un asemenea gust, pociu zice stravagant, își punu viața în pericol. Astfel e și cu domnii noștrii, supt cei mai pasionați vânătorii; mai ales Comitele și bătrânul Capitan, au caprițiu nebunesc: în toate vor să esceleze, supt în stare să risce ori ce, numai ca să’mi arate curajul de soldat. A!…Doamna Comiteasa!…</p>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
           <sp who="#amelia">
@@ -606,7 +604,6 @@
             <p>Dumnezeule! dă’mi putere un moment!!</p>
           </sp>
         </div>
-        <note type="title">SCENA 6</note>
         <div type="scene" n="6">
           <head>SCENA 6</head>
           <sp who="#miron">
@@ -709,7 +706,6 @@
             <p>Moartea?!… și ce’mi va folosi viața departe de tine? Ah, Amelio!…</p>
           </sp>
         </div>
-        <note type="title">SCENA 7</note>
         <div type="scene" n="7">
           <head>SCENA 7</head>
           <sp who="#tereza">
@@ -752,7 +748,6 @@
             <p>A! s’a depărtat; prea bine, această surpică îmi va servi, pentru astă dată prerunseiu plăcerea amoresilor. O minciună combinată bine, e de mare prețu.</p>
           </sp>
         </div>
-        <note type="title">SCENA 8</note>
         <div type="scene" n="8">
           <head>SCENA 8</head>
           <sp who="#capitanul">
@@ -765,7 +760,7 @@
             <stage>(către ceilalți)</stage>
             <p>Băeți, odihniți-vă, puțintel.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Așa zău! eu sunt rupt de ostenitu!</p>
           </sp>
@@ -773,7 +768,7 @@
             <speaker>FERDINAND</speaker>
             <p>Te crezu; tu ești tot d’auna celu din urmă la lucru și celu din tâiu la odihnă.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Ce felu, Domnule, nu portu eu câtu e zioa armele Domniei-Voastre? ș’apoi vântalu  cine’lu duce în spinare pân’ la castelu?</p>
           </sp>
@@ -781,7 +776,7 @@
             <speaker>FERDINAND</speaker>
             <p>Da, da, ai cuvântu! Câtu pentru vânatu, astăzi vei fi scutitu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Eu voiu fi scutitu; dar spinarea mea nu.</p>
           </sp>
@@ -789,7 +784,7 @@
             <speaker>FERDINAND</speaker>
             <p>Vezi că n’avemu nici unu vânat.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Așa?…e!… asta n’o știeam.</p>
           </sp>
@@ -805,7 +800,7 @@
             <speaker>FERDINAND</speaker>
             <p>Nu’mi a eșitu în cale nici măcaru unu epure.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Cumu să’ți iasă, nu știi, Domnule, că epurii sânt fricoși?</p>
             <stage>(toți râdu)</stage>
@@ -815,7 +810,7 @@
             <speaker>CAPITANUL</speaker>
             <p>Și nu’l ai pușcatu?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Era p’aci să pușcu unulu, dar m’a zărit; și până când să’mi umplu pușca, elu fugise.</p>
           </sp>
@@ -846,7 +841,7 @@
             <stage>(uitându-se)</stage>
             <p>Într’adevăru, ei sunt… Comitele și Vernii!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Nu cumva aducu ce-va vânat?!…</p>
           </sp>
@@ -855,7 +850,6 @@
             <p>A! iatăi!…</p>
           </sp>
         </div>
-        <note type="title">SCENA 9</note>
         <div type="scene" n="9">
           <head>SCENA 9</head>
           <sp who="#comitele">
@@ -888,7 +882,7 @@
             <stage>(către vânători)</stage>
             <p>Ei, băeți, n’ați văzutu pe Domnul Miron, nu știți ce s’a făcutu?…Ce felu? sunteți mulți de nu’mi respundeți?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Eu… Domnule?… m se pare că… l’am văzutu.</p>
           </sp>
@@ -896,7 +890,7 @@
             <speaker>COMITELE</speaker>
             <p>Ei bine.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Adecă într’adevăru nu pociu spune.</p>
           </sp>
@@ -904,7 +898,7 @@
             <speaker>COMITELE</speaker>
             <p>Ce nu poți spune?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Că s’aru fi întors la Castelu.</p>
           </sp>
@@ -916,7 +910,7 @@
             <speaker>FERDINAND ȘI VERNEI</speaker>
             <stage>(retrași la o parte, vorbescu).</stage>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Să mă erți, domnule. Îți mărturisescu, eu… nu știu dacă, într’adevăru, s’a întorsu dumnea-lui la castelu; așa mi se pare.</p>
           </sp>
@@ -924,7 +918,7 @@
             <speaker>COMITELE</speaker>
             <p>Cară-te, neghiobule.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>Mai bine era să fi tăcutu.</p>
@@ -936,7 +930,7 @@
             <stage>(tare)</stage>
             <p>Nu te supără, amice, sărmanulu omu nu se știe esprima; eu îți voiu esprima cugetulu său: elu voia să zică că Miron s’ar fi depărtat cu repeziciune de soțietate ținând spre castelu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Da, Domnule, așa voiam să zicu.</p>
             <stage>(în parte)</stage>
@@ -982,10 +976,9 @@
             <p>M’au înțelesu; cuprinsu de gelosie, se ba întoarce la castelu; acolo va afla fără ’ndoință pe escelentulu său amicu, pe care’lu protegea atâtu de multu, desfătându-se în brațele unei consoarte plină de virtute, și de care se credea siguru. Ha, ha, ha, să vedemu însă ce e de făcutu și în favoarea amorului meu; cumu se începu ruinarea loru? Am să mă luptu cu unu rivalu ambițiosu, și unu soțu gelosu!… Mai ’nainte de toate să mă presentu Ameliei, să’i declaru amprulu; dar de ’mi va refusa?… nu, nu va cuteza. Ori cumu, caută să mijlocescu o ceartă între amândoi rivalii, ș’atunci triumfezu.</p>
           </sp>
         </div>
-        <note type="title">SCENA 10</note>
         <div type="scene" n="10">
           <head>SCENA 10</head>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>E…e…e… Dumneata ești aici! și eu te căutam în toate părțiel.</p>
           </sp>
@@ -993,7 +986,7 @@
             <speaker>VERNEI</speaker>
             <p>Ce vrei cu mine?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Domnule Comite vrea să’lu însoțești, până la castelu; m’au trasu la o parte și’mi a vorbitu încetu.</p>
           </sp>
@@ -1001,7 +994,7 @@
             <speaker>VERNEI</speaker>
             <p>Și ce’ți a zisu?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>’Mi a zisu, să te cautu, și să’ți spuiu că te așteaptă la crucea de piatră; dar să nu te vază cei-lalți domni.</p>
           </sp>
@@ -1009,7 +1002,7 @@
             <speaker>VERNEI</speaker>
             <p>Unde sunt ei acumu?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Au reînceputu vânătoarea Comitele așteaptă până ce s’oru respândi prin păduri.</p>
           </sp>
@@ -1020,7 +1013,7 @@
             <stage>(tare)</stage>
             <p>Petruț, vrei tu să mă îndatorezi; ’ți voiu plăti bine.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Ce să facu, Domnule?</p>
           </sp>
@@ -1028,7 +1021,7 @@
             <speaker>VERNEI</speaker>
             <p>Ești siguru că Domnulu Miron s’a întorsu la castelu?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>L’am văzutu prea bine.</p>
           </sp>
@@ -1036,7 +1029,7 @@
             <speaker>VERNEI</speaker>
             <p>Așa dar dute; ia calul meu și te răpezi pân’a casă, de va fi Miron acolo, să te întorci numai de câtu; eu te așteptu în aleea cea mare.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Mă ducu, Domnule.</p>
           </sp>
@@ -1044,7 +1037,7 @@
             <speaker>VERNEI</speaker>
             <p>Pe drumul celu scurtu, în câte-va minute ai ajunsu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(eșindu)</stage>
             <p>Prea bine.</p>
@@ -1057,7 +1050,6 @@
             <stage>(ese pe dreapta, Comitele s’arată în fundulu scenei).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 11</note>
         <div type="scene" n="11">
           <head>SCENA 11</head>
           <sp who="#comitele">
@@ -1074,7 +1066,6 @@
             <p>A!… Miron…! amiculu meu!</p>
           </sp>
         </div>
-        <note type="title">SCENA 12</note>
         <div type="scene" n="12">
           <head>SCENA 12</head>
           <sp who="#miron">
@@ -1208,10 +1199,8 @@
           </sp>
         </div>
       </div>
-      <note type="title">ACTUL II</note>
       <div type="act" n="II">
         <head>ACTUL II</head>
-        <note type="title">SCENA 1</note>
         <div type="scene" n="1">
           <head>SCENA 1</head>
           <sp who="#miron">
@@ -1220,7 +1209,6 @@
             <p>Iată zece luni de cându imenulu sântu a unitu, amorul meu prin legăturile consoțiale, de cându începuiu a gusta orele vieții mele ca amantu, și soțu unei femei atâtu de sublime, pe care o adoramu, o stimamu, o iubiamu; care era unica plăcere, singurul geniu alu juneței mele, și care acumu, împresurându-mă pe totu momentulu cu grațiile sale, mă face celu mai ferice consoarte, mi se ardicară toate suferințele, mi se alinară toate durerile, reîntorcândumu pacea… Pacea?…Ah! aceasta îmi lipsește, pacea e depărtată de mine, și va fi pentru totu d’auna!…Dumnezeul meu, atâtea fericiri, atâtea plăceri cumu de nu potu să restoarne insidiile unui sentimentu, atâtu de micu? să’mi facă plăcută această prețioasă, dar totu d’odată și fatală pace?… O!… ea este imfirmitatea suffletului meu…Ah! simțu că turburarea’mi reîncepe!… O singură culpă să mă mustre atâtu de multu!…</p>
           </sp>
         </div>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#amelia">
@@ -1279,7 +1267,7 @@
             <speaker>MIRON</speaker>
             <p>Du-te de’ți fă toaleta, Amelio; eu te voiu escusa, însă curându, ce știi cine este.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(anunțând)</stage>
             <p>O Doamnă streină așteaptă în antecameră, și voește să intre.</p>
@@ -1290,7 +1278,7 @@
             <stage>(Petruț ese, către Amelia).</stage>
             <p>Amelio, dute să te prepari.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(întrându confusu)</stage>
             <p>Do…o… omule!</p>
@@ -1299,7 +1287,7 @@
             <speaker>MIRON</speaker>
             <p>Ce e?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Pre legea mea Doamana asta să pare a fi smintită.</p>
           </sp>
@@ -1307,7 +1295,7 @@
             <speaker>MIRON</speaker>
             <p>Ce zici?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Anunțându’i neputința priimirei dupe cum’mi a’ți ordinatu, se păru ofensată; auzindu numele Dumitale se făcu palidă, și mă întrebă cu unu glasu tremurătoru: cine e indispusă, muma sau soțiea Domnului Miron? Respunsulu meu fu: soțiea Domnealui. La cuvintele acestea, se văzu a fi surprinsă, nici c’așteaptă să mai vorbescu, ci sări asupră’mi ca unu tigru îmverșunat, zicându’mi că mintu.</p>
           </sp>
@@ -1321,7 +1309,6 @@
             <p>Ce femee poate să fie, de se ’nteresează atât de multu de mine?…A!… vine…</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#miron">
@@ -1432,7 +1419,6 @@
             <p>Dumnezeule!…e Amelia!</p>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
           <sp who="#vernei">
@@ -1605,7 +1591,7 @@
             <p>Ah, câte imfortuni balanță asupra capului meu!… imfamulu Vernei nici îndrăsnește să calce praulu locuinții mele, ce infamie! subtu ce pretestu a venitu demonulu mascatu se’mi turbure pacea, ce abia începusemu a simți; ș’apoi cuteza să se declare de amicu!… Ah, Demone amăgitoru! de ce n’am pututu fi atâtu de insolentă ca să te dau afară ca pe unu mișelu de rându</p>
             <stage>(sună)?</stage>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(intrându)</stage>
             <p>Ai sunatu, Domnule?</p>
@@ -1624,10 +1610,9 @@
             <stage>(ese).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 6</note>
         <div type="scene" n="6">
           <head>SCENA 6</head>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(singuru)</stage>
             <p>Ce’o fi oare? Domnulu nostru n’a fostu nici o dată așa de supăratu ca astăzi; Doamna parcă era afară din minte cându am urcat’o în trăsură; Domnișoara cea tânără, gândeai că e unu tigru îmverșunatu, astfelu se restea la mine, mi să perea cunoscută. Umbletulu trupulu…</p>
@@ -1637,14 +1622,13 @@
             <p>A, a, a! iată dracu! să mă prefacu, ca să nu priceapă c’am vorbitu de elu!</p>
           </sp>
         </div>
-        <note type="title">SCENA 7</note>
         <div type="scene" n="7">
           <head>SCENA 7</head>
           <sp who="#vernei">
             <speaker>VERNEI</speaker>
             <p>Unde e Domnulu Miron?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>În cammera sa.</p>
           </sp>
@@ -1652,7 +1636,7 @@
             <speaker>VERNEI</speaker>
             <p>Doamna Comitesa?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Lipsește.</p>
           </sp>
@@ -1661,7 +1645,7 @@
             <stage>(în parte)</stage>
             <p>Lipsește!…prea bine.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Să te anunțu Domnului Miron?</p>
           </sp>
@@ -1669,7 +1653,7 @@
             <speaker>VERNEI</speaker>
             <p>Stăi, am să’ți vorbescu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>’Mi a însuflatu o frică!</p>
@@ -1681,7 +1665,7 @@
             <stage>(Tare)</stage>
             <p>Petruț, tu mă cunoști prea bine, și e de prisosu să’ți mai spuiu, rangulu, dignitatea, puterea mea, știi ce imfluință am la Comitatulu ce presidezu; ei bine, de te vei suppune la toate, de vei împlini propunerea ce am să’ți facu, îți dau 50. Fior: argintu; iar de te vei opune, te acusu, și te puiu la închisoare pe toată viața ta.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>Aole…o…o, Dumnezeule! ce vrea cu mine?</p>
@@ -1692,7 +1676,7 @@
             <speaker>VERNEI</speaker>
             <p>Comitele era omu bunu, și dupe cumu am înțelesu, totu Dominiu au fostu mulțumitu de d’ânsulu, moartea lui va fi pricinuitu multă întristare supușilor săi.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Așa e, Domnule.</p>
           </sp>
@@ -1700,7 +1684,7 @@
             <speaker>VERNEI</speaker>
             <p>Vânătoarea aceea fu blestemată, alu aru trăi până astăzi; dar, cine știe, poate că și trăește!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Ce zici, Domnule? Comitele să trăiască!</p>
           </sp>
@@ -1708,7 +1692,7 @@
             <speaker>VERNEI</speaker>
             <p>Eu nu camu crezu în moartea lui!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Dar cadavrulu?</p>
           </sp>
@@ -1716,7 +1700,7 @@
             <speaker>VERNEI</speaker>
             <p>A fostu alu unui țeranu omorâtu de lotri.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Toți țeranii au cunoscutu cadavrul Comitelui, și Dumneata ai întăritu.</p>
           </sp>
@@ -1724,7 +1708,7 @@
             <speaker>VERNEI</speaker>
             <p>M’am înșelatu, ș’apoi știi, că era despuiatu, față stricată, și nami așa zicându pe nemerite, am zisu că e cadavrul Comitelui; acumu, așu vrea să’mi îndreptezu eroarea, am și pusu în lucrare proiectulu meu, am datu cele mai serioase ordini, și voru reeși cercetările mele; atunci pociu să vă reîntorcu pe stăpânulu vostru.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Și ce o să facă Doamna Comitesa cu doi bărbați?</p>
           </sp>
@@ -1732,7 +1716,7 @@
             <speaker>VERNEI</speaker>
             <p>Tăcere! va fi despărțită de Miron, și va lua iarăși pe celu dintâiu, însă am o pedecă, și numai ajutorulu tău poate să’mi o ridice din cale.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Ce să facu?</p>
           </sp>
@@ -1740,7 +1724,7 @@
             <speaker>VERNEI</speaker>
             <p>Să te duci afară la dominiu, s’aduci câți-va martori care au fostu de față când s’a înmormântatu acelu cadavru; aceia, să arate că n’a fostu alu Comitelui, ci alu unui din consătenii loru. Tu vei fi în fruntea marturiloru, pistolulu ce’mi ai datu, vei zice că a căzutu de la brâulu Comitelui ce alerga prin pădure dupe o feară sălbatică; tu l’ai urmăritu pân la o distanță, și perzândulu din vedere, te ai întorsu fiind noapte; pădurile sunt mari, Comitele se știe că nu se lasa, până nu punea mâna pe vânatulu său, și prea lesne se poate crede c’a retăcitu; și cele-l-alte, lasă-le pe mine.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Cumu voiu putea să adeverezu?</p>
           </sp>
@@ -1748,7 +1732,7 @@
             <speaker>VERNEI</speaker>
             <p>Mă însărcinezu eu cu asta.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>Ce omu afurisitu!</p>
@@ -1762,7 +1746,7 @@
             <p>Toate cercările mele până acum au fostu deșarte, am persecutatu pe Miron până ce’și a datu demissiuna, cu toate acestea nu’mi am ajunsu scopulu: să vedem dacă acestu pretestu ’mi va succede să smulgu din brațele inemicului meu pe Amelia. A! femee ambițioasă; ’mi ai refusatu amorul; dar acestu afrontu ’mi a iritatu ardoarea. A, Miron, ’mi voiu resbuna. Adevăratu, are partisani; dar puterea este în mâna mea, și ușoru pociu dispune de soartea unui Românu. (lui Petruț) Voiu veni mai târziu, să nu spui c’amu fostu aici</p>
             <stage>(ese).</stage>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(uitându-se dupe el)</stage>
             <p>Am înlemnitu! auzi ce născocire diavolească! Comitele să trăească? par’ c’așu fi nebunu să crezu! ș’apoi vrea să mărturisescu pe nedreptu, să îmvionovățescu pe Domnulu meu. Asta n’o facu, întâmple-se ori-ce, caută să’i spuiu toate. Nu știu ce totu vorbia încetu de amor, de soartă, de Românu. E… e!… sermane! de n’aru fi bietulu Românu, ai muri tu de foame, și nu te ai îngâmfa în desfrânări.</p>
@@ -1775,7 +1759,6 @@
             <stage>(ese în dreapta, Tereza s’arată în ușa principală).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 8</note>
         <div type="scene" n="8">
           <head>SCENA 8</head>
           <sp who="#tereza">
@@ -1788,7 +1771,6 @@
             <p>A! pasuri, el e, miron! să’mi ascunzu suferințele, să nu vază turburarea mea.</p>
           </sp>
         </div>
-        <note type="title">SCENA 9</note>
         <div type="scene" n="9">
           <head>SCENA 9</head>
           <sp who="#miron">
@@ -1848,7 +1830,7 @@
             <speaker>TEREZA</speaker>
             <p>Așa dar ’ți ai pronunțatu sentența.</p>
           </sp>
-          <sp who="#unu_servu">
+          <sp who="#un_servu">
             <speaker>UNU SERVU</speaker>
             <stage>(anunțându)</stage>
             <p>Domnul Vernei…</p>
@@ -1861,7 +1843,6 @@
             <p>și Amelia nu mai vine.</p>
           </sp>
         </div>
-        <note type="title">SCENA 10</note>
         <div type="scene" n="10">
           <head>SCENA 10</head>
           <sp who="#vernei">
@@ -1968,7 +1949,6 @@
             <p>A, Amelia!</p>
           </sp>
         </div>
-        <note type="title">SCENA 11</note>
         <div type="scene" n="11">
           <head>SCENA 11</head>
           <sp who="#amelia">
@@ -2016,7 +1996,6 @@
             <p>A! iatăi; Amelio, depărtează-te, nu întârzia, te juru pe totu ce ai tu mai sântu!</p>
           </sp>
         </div>
-        <note type="title">SCENA 12</note>
         <div type="scene" n="12">
           <head>SCENA 12</head>
           <sp who="#vernei">
@@ -2123,10 +2102,8 @@
           </sp>
         </div>
       </div>
-      <note type="title">ACTUL III</note>
       <div type="act" n="III">
         <head>ACTUL III</head>
-        <note type="title">SCENA 1</note>
         <div type="scene" n="1">
           <head>SCENA 1</head>
           <sp who="#miron">
@@ -2153,7 +2130,6 @@
             <p>Fii sigură, Doamnă; vezi nu uita să treceți prin caverna ce’ți am arătatu.</p>
           </sp>
         </div>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#tereza">
@@ -2314,7 +2290,6 @@
             <p>Stați la ușă.</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#vernei">
@@ -2392,7 +2367,6 @@
             <p>Așa.</p>
           </sp>
         </div>
-        <note type="title">SCENA 4</note>
         <div type="scene" n="4">
           <head>SCENA 4</head>
           <sp who="#amelia">
@@ -2533,10 +2507,9 @@
             <stage>(ese).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(singuru totu în costumu de valetu)</stage>
             <p>Nu e aici, unde o fi oare tata? îlu cautu în toate părțile și nu’lu pociu găsi, așu vrea să mă întâlnescu o dată cu elu; nu l’am văzutu de sunt doi ani. E, e, ce o să se mire cându o auzi c’am eșitu din servițiulu Comitelui; dar vezi elu nu știe câte sau întâmplatu pe la noi; când’i oiu spune că Comitele au muritu, că Doamna Comitesa sau măritu dupe Domnulu Mironu, că Domnulu Miron e la închisoare pentru Comitele; că…și alte historii de care mă îngrozescu când ’mi aducu aminte, dar să uitu cele trecute.</p>
@@ -2547,7 +2520,6 @@
             <stage>(să retrage, uitându-se la d’ânsulu).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 6</note>
         <div type="scene" n="6">
           <head>SCENA 6</head>
           <sp who="#comitele">
@@ -2555,7 +2527,7 @@
             <stage>(îmbrăcatu simplu, cu fața palidă, cu barba mare, confusu)</stage>
             <p>A! femee demnă de ură; îți trădași credința ce’mi ai juratu, și mă aruncași în nefericire!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>Ce zice?</p>
@@ -2566,7 +2538,7 @@
             <stage>(în deliru)</stage>
             <p>dar ’mi am resunatu, m’am adepatu cu sângele tău de tigriu; și amanta ta, acea soție tredătoare, nu ’mi va scăpa, voiu îmfige pumnalulu în peptu’i, voiu pătrunde inima ei cea nelegiuită; da, crudo! nimeni nu’mi va putea inmuia furia, nimeni nu va putea să te smulgă din mâinile mele; nu, tu nu meriți compătimire: o femee ce tradă pe soțiulu său, nu se cuvinte a mai trăi.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>Nu înțelegu nici unu cuvântu.</p>
@@ -2580,7 +2552,7 @@
             <stage>(dupe o pausă)</stage>
             <p>Ilusii deșarte! nu, ea nu e aici. Ah, Amelio!…</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Oare pe cine o fi chemându Amelia? n’o fi cumva elu? dar nu, nu se poate, au muritu de multu</p>
           </sp>
@@ -2590,7 +2562,7 @@
             <stage>(s’apropie)</stage>
             <p>Cine ești tu, fiulu meu?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Eu, eu sunt.</p>
             <stage>(în parte)</stage>
@@ -2602,7 +2574,7 @@
             <speaker>COMITELE</speaker>
             <p>Dar cumu eu nu te amu văzutu nici o dată?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Da, ai dreptate; nu mai văzutu, pentru, că, vezi nici eu…</p>
             <stage>(vrea să easă).</stage>
@@ -2611,7 +2583,7 @@
             <speaker>COMITELE</speaker>
             <p>Stăi! nu te teme; nu’ți facu nici unu rău!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Te crezu, Domnule; dar, mă iartă, am treabă, și…</p>
           </sp>
@@ -2619,7 +2591,7 @@
             <speaker>COMITELE</speaker>
             <p>Cum te cheamă?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Petruț, am fostu în servițiulu Comitelui Marini.</p>
           </sp>
@@ -2627,7 +2599,7 @@
             <speaker>COMITELE</speaker>
             <p>În servițiul Comitelui? așa dar tu ’l ai cunoscutu?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>’L am cunoscutu prea bine, era celu mai bunu omu, sărmanul; îmi vine să plângu, cându’mi aducu aminte de elu.</p>
           </sp>
@@ -2636,7 +2608,7 @@
             <stage>(în parte)</stage>
             <p>Ah, Dumnezeule!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(în parte)</stage>
             <p>Plânge? ’i o fi fostu amicu!</p>
@@ -2645,7 +2617,7 @@
             <speaker>COMITELE</speaker>
             <p>Da, fiulu meu, Comitele era omu bunu; dar inimicii…</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>’L au omorâtu!</p>
           </sp>
@@ -2654,7 +2626,7 @@
             <stage>(singuru)</stage>
             <p>Ce zici? l’au omorâtu? nu, nu crede, băete.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Ce felu, Domnule? cumu să nu crezu? sunt nouă-spre-zece luni de cându a reposatu.</p>
           </sp>
@@ -2665,7 +2637,7 @@
             <stage>(tare)</stage>
             <p>Crede-mă, fătulu meu, Comitele trăește.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Poate</p>
             <stage>(privindu’lu)</stage>
@@ -2677,7 +2649,7 @@
             <speaker>COMITELE</speaker>
             <p>Spune’mi, ce face Amelia?</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Doamna Comitesa?</p>
             <stage>(în parte)</stage>
@@ -2690,7 +2662,7 @@
             <stage>(confusu)</stage>
             <p>Măritată dupe Miron? minți, elu e mortu, l’au omorâtu la vânătoare.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Așa e, Comitele a murit la vânătoare.</p>
           </sp>
@@ -2698,7 +2670,7 @@
             <speaker>COMITELE</speaker>
             <p>Nu e adevăratu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Nu, nu? așa zău!</p>
             <stage>(în parte)</stage>
@@ -2707,17 +2679,16 @@
             <p>Dar iacă taica! o să aflu eu de la elu!</p>
           </sp>
         </div>
-        <note type="title">SCENA 7</note>
         <div type="scene" n="7">
           <head>SCENA 7</head>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Bună dimineața, Domnule.</p>
             <stage>(Văzându pe Petruț)</stage>
             <p>Petruțu! fiulu meu! tu ai venitu</p>
             <stage>(îlu sărută îmbrățisându’lu)</stage>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Da, tată, am venitu să șezu acumu cu tine; e, e! cându îi afla câte mi s’a întâmplatu.</p>
           </sp>
@@ -2726,21 +2697,21 @@
             <stage>(retrăgându-se, în parte)</stage>
             <p>Nici aici nu pociu fi singuru, să’mi cautu altu asilu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Tată, ia spunemu, te rogu, omulu asta mi se pare că e…</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Lasă, o să’ți spuiu mai târziu. O, fiulu meu, câtu de multu mă bucuru că te mai văzu o dată, mintea mea era totu la tine,</p>
             <stage>(privindu’lu)</stage>
             <p>dar tu te ai făcutu mai vioiu!</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>E, e! tată, dar cându vei vedea câtă carte știu, zău, o stă te miri; și vezi, toată procopseala mea pociu mulțumi reposatului Comite.</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Taci, Petruț, taci, să nu te auză</p>
             <stage>(privindu pe Comitele).</stage>
@@ -2750,28 +2721,28 @@
             <stage>(în parte)</stage>
             <p>Da, să mă retragu în profunditatea unui caveri.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Cine e omulu asta? mie mi se pare că e, dar tu îlu vei fi cunoscându mai bine, spune’mi. Eu nu pociu să crezu că…</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Este unu necunoscutu, fiulu meu! Petruț, retrage-te puțintelu, voiu să’i vorbesc, și…</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Dar ’mi aru fi plăcutu să știu.</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Du-te de vezi unde suntu băeții noștri.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Mă ducu, tată</p>
             <stage>(ese).</stage>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>&lt;/didascalie&gt; (privindu pe Comitele ce sta uimitu și confusu) &lt;/didascalie&gt; Elu ’mi a ascunsu suferințele sale, dar eu le am aflatu toate; lumea îlu crede de mortu, și unu inocente pătimește pentru dânsulu, este în închisoare; se zice că chiar astăzi, o să’și piearză viața. O, Domnezulu meu! dă’mi putere ca să pociu da de față atâtea nelegiuiri, atâtea amăgiri; dar cum să ducu pe Comitele în capitală, până în deseară caută să ajungu, să împiedecu: însă de nu va voi să meargă? ce să facu?</p>
             <stage>(dupe puțină meditație)</stage>
@@ -2783,7 +2754,7 @@
             <speaker>COMITELE</speaker>
             <p>Să plecămu? da, ai dreptate, nu mai pociu petrece aici.</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Am trimisu băeții să’mi strângă oile de peste câmpuri, de vei voi să mergi cu mine.</p>
           </sp>
@@ -2791,7 +2762,7 @@
             <speaker>COMITELE</speaker>
             <p>Unde?</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Să trecemu peste munți, acolo vei fi poate mai liniștitu.</p>
           </sp>
@@ -2799,7 +2770,7 @@
             <speaker>COMITELE</speaker>
             <p>Merg, mergu; dar, cându.</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Acumu îndată.</p>
           </sp>
@@ -2807,21 +2778,21 @@
             <speaker>COMITELE</speaker>
             <p>Acumu? da, bătrâne, te urmezu.</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <stage>(în parte)</stage>
             <p>Mulțumescu’ți, Dumnezeule! acumu să iau drumulu celu mai scurtu din pădure, caută să ajung până nu se înserează.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(ce era ascuns în fundulu scenii)</stage>
             <p>Ce zice tata?</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Să nu întârziemu, Domnule; de vrei, putemu pleca.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Unde vor să se ducă?</p>
           </sp>
@@ -2829,26 +2800,26 @@
             <speaker>COMITELE</speaker>
             <p>Da, să mergemu.</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <stage>(strigându)</stage>
             <p>Petruț, Petruț.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Iacă-mă, tată</p>
             <stage>(vine).</stage>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <stage>(încetu)</stage>
             <p>Tu să remâi aici până mă voiu întoarce eu.</p>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <p>Bine, tată; dar…</p>
           </sp>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Să plecămu, Domnule.</p>
             <stage>(Comitele se ridică)</stage>
@@ -2857,14 +2828,13 @@
             <p>așa, încetu, așa</p>
             <stage>(ese).</stage>
           </sp>
-          <sp who="#petruț">
+          <sp who="#petrut">
             <speaker>PETRUȚ</speaker>
             <stage>(uitându-se dupe ei până ce esu)</stage>
             <p>Așa! ei se ducu, și pe mine mă lasă singuru aici, asta, zău; nu’mi prea place. Oare unde ’l o fi ducându tata? e! dar mergu și eu dupe ei, am să’i spuiu mai multe lucruri, tata nu știe, că omul asta e Comitele, adevăratu nici mie nu’mi vine să crezu, n’am mai pomenit-o că unu mortu să fie înviatu, zău! aci nu e lucru curatu; d’o fi așa, apoi trebue să spuiu și tati, că Doamna Comitesa s’a măritatu, că Domnul Miron e la închisoare, și că să grăbimu a’lu scăpa, da, să’i ajungu,</p>
             <stage>(ese).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 8</note>
         <div type="scene" n="8">
           <head>SCENA 8</head>
           <sp who="#ferdinand #vernei">
@@ -2923,7 +2893,6 @@
             <p>Totu e în tăcere, nici celu mai micu tumultu, nici unu omu pe strade. Ha, a, a, peste câteva minute inimiculu meu nu va mai fi, și Amelia remâne în posesiunea mea; dar o fatalitate mi se opune: astăzi am priimitu grația pentru Miron; eu am pus’o la o parte până ce se va esecuta sentența venită de mai nainte; adevăratu rezicu prea multu, ’mi periclitezu onoarea, stima, poate să’mi perzu postulu; însă redicu din cale’mi pe unu inamicu, câștigu o femee belă, avută, ș’apoi, pociu zice că grația au ajunsu numai cu o oră mai rârziu, și astfelu sunt escuzatu. Cine nu va crede? esistența tutuloru depende de la mine. &lt;didascalie&gt; (văzându’i) &lt;d/idascalie&gt; A! iată’i!</p>
           </sp>
         </div>
-        <note type="title">SCENA 9</note>
         <div type="scene" n="9">
           <head>SCENA 9</head>
           <sp who="#ferdinand">
@@ -2977,7 +2946,6 @@
             <p>Amelia!</p>
           </sp>
         </div>
-        <note type="title">SCENA 10</note>
         <div type="scene" n="10">
           <head>SCENA 10</head>
           <sp who="#amelia">
@@ -3102,7 +3070,7 @@
             <stage>(către Vernei și Ferdinand)</stage>
             <p>Ticăloșiloru, cruzimea voastră e mai mare de cât a tigrului îmfuriatu!</p>
           </sp>
-          <sp who="#unu_glasu_din_afară">
+          <sp who="#unu_glasu_din_afara">
             <speaker>UNU GLASU DIN AFARĂ</speaker>
             <p>Grație, grație innocentului.</p>
           </sp>
@@ -3155,7 +3123,7 @@
             <stage>(spăimântatu)</stage>
             <p>Amelio, Amelio! Ah! nu mai respiră, e moartă, Dumnezeulu meu!</p>
           </sp>
-          <sp who="#toți">
+          <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Moartă!</p>
           </sp>
@@ -3196,10 +3164,9 @@
             <stage>(vrându să plece).</stage>
           </sp>
         </div>
-        <note type="title">SCENA 11</note>
         <div type="scene" n="11">
           <head>SCENA 11</head>
-          <sp who="#bătrânul">
+          <sp who="#batranul">
             <speaker>BĂTRÂNUL</speaker>
             <p>Grație Domniloru! grație innocentului! Comitele trăește, iată’lu</p>
             <stage>(arătându’lu).</stage>
