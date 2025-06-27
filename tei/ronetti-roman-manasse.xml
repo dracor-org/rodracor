@@ -77,17 +77,8 @@
           <person xml:id="intaiul_martor">
             <persName>Intaiul Martor</persName>
           </person>
-          <person xml:id="jori">
-            <persName>Jori</persName>
-          </person>
-          <person xml:id="jorij">
-            <persName>Jorij</persName>
-          </person>
           <person xml:id="jorj">
             <persName>Jorj</persName>
-          </person>
-          <person xml:id="manasse_cohen">
-            <persName>Manasse Cohen</persName>
           </person>
           <person xml:id="matei">
             <persName>Matei</persName>
@@ -250,31 +241,39 @@
           <head>SCENA 1</head>
           <note type="setting">LELIA, zgâiește ochii şi nu pricepe</note>
           <note type="setting">Un salon cam prea încărcat. O ușă deschisă în fund la dreapta, dând într-o anticameră, o uşă în dreapta și o uşă în stânga. </note>
-          <sp who="#manasse_cohen">
+          <sp who="#manasse">
             <speaker>MANASSE COHEN</speaker>
             <stage> (către feciorul care intră, după el) </stage>
             <p>Spune numai că e un domn străin, că n-a vrut să-și spuie numele, atâta. Du-te, spune.</p>
             <stage> (Feciorul dă din umeri şi iese prin uşa din stânga, Manasse face încet roată prin salon, uitându-se la toate lucrurile şi se opreşte înaintea unui tablou în fund, la stânga ușii. Feciorul intră din stânga şi ese prin fund). </stage>
-            <p>NISIM COHANOVICI</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (intră prin stanga) </stage>
-            <p>: A! Tata!</p>
+            <p>A! Tata!</p>
             <stage> (Se îmbrățișează). </stage>
             <p>Bine ai venit tată! Ce surprindere!</p>
             <stage> (aleargă înapoi şi deschide ușa) </stage>
             <p>. Ester ! Ester! Vino repede.</p>
-            <p>ESTER</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (dinăuntru) </stage>
-            <p>: Îndată, îndată, ce este?</p>
+            <p>Îndată, îndată, ce este?</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>Vino repede, Ester! O să vezi, nici nu-ți închipui.</p>
-            <p>ESTER</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (dinăuntru) </stage>
-            <p>: Nu pot ieși aşa, înțelege, vin îndată.</p>
-            <p>MANASSE</p>
+            <p>Nu pot ieși aşa, înțelege, vin îndată.</p>
+          </sp>
+          <sp who="#manasse">
+            <speaker>MANASSE</speaker>
             <stage> (arătând tabloul)  </stage>
-            <p>: Spune-mi, Nisim, ce caută aici muierea asta goală, care se luptă cu un tânăr?</p>
+            <p>Spune-mi, Nisim, ce caută aici muierea asta goală, care se luptă cu un tânăr?</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -283,11 +282,13 @@
           <sp who="#manasse">
             <speaker>MANASSE</speaker>
             <p>Din biblie? N-ați găsit lucru mai frumos în biblie? Și rușinea asta se spânzură pe păreţi? Şi ai fată mare în casă! Nu, Nisim, una ca asta nu e pentru o casă evreiască.</p>
-            <p>ESTER</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (intră şi se opreşte) </stage>
-            <p>: Tata socru! Asta e frumos</p>
+            <p>Tata socru! Asta e frumos</p>
             <stage> (îi dă mâna) </stage>
-            <p>. M-am gândit eu la d-ta, dar tot nu-mi venea a crede. Să faci d-ta un drum aşa de lung de la Fălticeni până la București. Poftim, șezi, tată socrule. Nu aici, mai bine în fotoliu.</p>
+            <p>M-am gândit eu la d-ta, dar tot nu-mi venea a crede. Să faci d-ta un drum aşa de lung de la Fălticeni până la București. Poftim, șezi, tată socrule. Nu aici, mai bine în fotoliu.</p>
           </sp>
           <sp who="#manasse">
             <speaker>MANASSE</speaker>
@@ -310,12 +311,16 @@
             <speaker>LELIA</speaker>
             <p>Bunicu!</p>
             <stage> (Îi sare la gât, Manasse o strânge în brațe şi o sărută în creştet. Nisim se întoarce cu un scaun de paie.) </stage>
-            <p>MANASSE</p>
+          </sp>
+          <sp who="#manasse">
+            <speaker>MANASSE</speaker>
             <stage> (zâmbind de plăcere) </stage>
-            <p>: Tot sălbatică și zburdalnică? Tot? Am crezut că voi găsi o fată aşezată, dar tot căprioară de munte.</p>
-            <p>NISIM</p>
+            <p>Tot sălbatică și zburdalnică? Tot? Am crezut că voi găsi o fată aşezată, dar tot căprioară de munte.</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (oferind scaunul) </stage>
-            <p>: Poftim, tată, șezi.</p>
+            <p>Poftim, tată, șezi.</p>
             <stage> (Se aşează toţi, afară de Lelia. Manasse cu faţa spre public). </stage>
           </sp>
           <sp who="#manasse">
@@ -341,9 +346,11 @@
           <sp who="#manasse">
             <speaker>MANASSE</speaker>
             <p>Tu eşti fată bună, Lea, dar eşti copilă încă. Unde încape mângâiere! Și cu ce? Cu vorbe? O rană în inimă nu se astupă cu vânt. Iată, azi sînt drept două luni de cînd mi-a murit Sara. Crezi că mi-e mai ușor acuma ? Dimpotrivă, mi-e mai greu. Doar nu e șagă să trăiești cu o femeie patruzeci și nouă de ani, să te culci cu dânsa și să te scoli cu dânsa, şi de câte ori m-am dus la drum, m-am gândit, ce să-i aduc Sarei, să-i fac plăcere, şi de câte ori am făcut o afacere, ştiam mai dinainte ce o să zică Sara și chibzuim ce trebuie să-i răspund. Acum, nimica, n-am la cine mă gândi, mă învârtesc singur prin casă ca un strigoi, e gol în toate colțurile, parcă ar fi pustie lumea toată – și cu vremea golul creşte...</p>
-            <p>LELIA</p>
+          </sp>
+          <sp who="#lelia">
+            <speaker>LELIA</speaker>
             <stage> (ștergându-și ochii pe furiș, către mama ei încet) </stage>
-            <p>: Săracul bunic!</p>
+            <p>Săracul bunic!</p>
           </sp>
           <sp who="#manasse">
             <speaker>MANASSE</speaker>
@@ -364,11 +371,11 @@
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>Trebui să vie îndată.</p>
-            <p>ZELIG ȘOR</p>
-            <stage> (intră din fund; vorbește îndărăt feciorului) </stage>
-            <p>: Să mă anunți pe mine ? N-am nevoie să mă anunți. Pentru ce am eu gură ? M-anunț eu singur. – Bună Ziua ! —</p>
+          </sp>
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <stage> (către fecior) </stage>
-            <p>. Iată, m-am anunțat, mai poftești ceva ?</p>
+            <p>Iată, m-am anunțat, mai poftești ceva ?</p>
             <stage> (Feciorul dă din umeri şi iese). </stage>
           </sp>
           <sp who="#nisim">
@@ -378,20 +385,24 @@
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Da, Zelig Şor, el şi?</p>
-            <p>NISIM</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (dându-i mâna) </stage>
-            <p>: Bună ziua, Şor, ce vânt te aduce pe d-ta?</p>
+            <p>Bună ziua, Şor, ce vânt te aduce pe d-ta?</p>
           </sp>
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Tatăl matale e vânt?</p>
-            <p>MANASSE</p>
-            <stage>: (așezând lanţul în cutia pe care o pune în buzunar) </stage>
+          </sp>
+          <sp who="#manasse">
+            <speaker>MANASSE</speaker>
+            <stage> (așezând lanţul în cutia pe care o pune în buzunar) </stage>
             <p>Așa-i, pe Zelig l-am luat eu cu mine. N-am vrut să fac drumul ăsta lung singur.</p>
           </sp>
           <sp who="#sor">
             <speaker>ȘOR</speaker>
-            <p>Acum, oameni buni, lăsați vorba. Ce fac eu cu genţile d-lui Manasse?</p>
+            <p>Acum, oameni buni, lăsați vorba. Ce fac eu cu gențile d-lui Manasse?</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -410,23 +421,30 @@
             <speaker>ȘOR</speaker>
             <p>Taxă! Nisim, te țineam minte parcă mai deștept. Taxa-i pentru proşti.</p>
             <stage> (Intră feciorul) </stage>
-            <p>NISIM</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (către Şor) </stage>
-            <p>: Unde-s genţile ?</p>
+            <p>Unde-s gențile ?</p>
           </sp>
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Tâlharul de birjar mi-a spus să mă duc eu înauntru, să-i las lui genţile și să trimit pe o slugă să le ia, dar și-a găsit omul? Le-am luat cât singur şi le-am târât până în antret şi am închis uşa.</p>
-            <p>ESTER</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (către fecior) </stage>
-            <p>: Ghiţă, ia gențile din antret și du-le în odaia cea albastră.</p>
+            <p>Ghiță, ia gențile din antret și du-le în odaia cea albastră.</p>
             <stage>  (Feciorul iese) </stage>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <stage> (către Șor)  </stage>
             <p>Puteai foarte bine să le lași în birjă, doar are număr la felinar.</p>
-            <p>Șor: Nisim, zău, mi te-ai schimbat aici, nu te mai cunosc; şi dacă fuge şi pune alt felinar?</p>
+          </sp>
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
+            <p>Nisim, zău, mi te-ai schimbat aici, nu te mai cunosc; şi dacă fuge şi pune alt felinar?</p>
           </sp>
           <sp who="#ester">
             <speaker>ESTER</speaker>
@@ -439,9 +457,11 @@
           <sp who="#ester">
             <speaker>ESTER</speaker>
             <p>Acuma, tată socrule, ce iei? Ceai? Cafea cu lapte? Desigur că n-ai luat nimic toată noaptea.</p>
-            <p>MANASSE</p>
+          </sp>
+          <sp who="#manasse">
+            <speaker>MANASSE</speaker>
             <stage> (scoate ceasornicul) </stage>
-            <p>: Nouă ceasuri și jumătate. Da, trebuie să iau ceva. O să iau un ceai. Poate să mi se aducă chiar încoace.</p>
+            <p>Nouă ceasuri și jumătate. Da, trebuie să iau ceva. O să iau un ceai. Poate să mi se aducă chiar încoace.</p>
             <stage> (Uitându-se la mâini) </stage>
             <p>Dar nici nu m-am spălat încă bine, Trebuie să mă spăl întâi.</p>
             <stage> (Se scoată) </stage>
@@ -542,9 +562,11 @@
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Femeia mea o duce greu numai câteva luni, restul îl duc eu. Dar drept să vă spun, n-am fost mai bogat când am avut numai unul și nu sunt mai sărac având acuma zece. Mare-i Dumnezeu. Fiecare copil vine cu norocul lui în lume. Încă o burtă, încă o turtă.</p>
-            <p>MANASSE</p>
+          </sp>
+          <sp who="#manasse">
+            <speaker>MANASSE</speaker>
             <stage> (intră frecându-și mâinile şi netezindu-și barba) </stage>
-            <p>: Așa. Parcă eşti alt om când te-ai spălat puţin.</p>
+            <p>Așa. Parcă eşti alt om când te-ai spălat puţin.</p>
             <stage> (Către Şor) </stage>
             <p>Te-ai spălat şi tu Zelig?</p>
           </sp>
@@ -607,9 +629,11 @@
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Obișnuiesc eu şi pentru domnul Manasse.</p>
-            <p>NISIM</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (întinde iui Manasse un coşuleţ cu pişcoturi)  </stage>
-            <p>: Poftim tată, pişcoturile astea sunt foarte ușoare.</p>
+            <p>Poftim tată, pişcoturile astea sunt foarte ușoare.</p>
           </sp>
           <sp who="#manasse">
             <speaker>MANASSE</speaker>
@@ -1175,9 +1199,11 @@
             <p>Încă unul. Asta înțeleg. Un doctor de medicină se hrănește de bolnavi; un doctor de drept se hrăneşte de impricinați, dar din ce se hrăneşte un doctor de filosofie?</p>
             <stage> (Lazar şi Frunză zâmbesc) </stage>
             <p>Iacă mă râdeți. De unde să știi eu? La Fălticeni îmi zic şi mie filosof şi, zău, n-am învățat. Spune d-le, Nisim, ce face un doctor de filosofie ?</p>
-            <p>NISIM</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (oficază și dă din cap) </stage>
-            <p>: Parcă nu i-am spus-o și eu! Nu mai vorbesc de cheltuială. Aici şi în străinătate, căci, slavă Domnului, am avut de unde. Dar ca părinte, aș fi vrut să am și eu o plăcere, să văd pe copilul mei că ajunge la ceva ca alții, că-l ia lumea în seamă. Dar așa doctor! Când îl prezint undeva, nici nu mai spun că e doctor! Și stă nopți întregi și învață; până și la birou, când are un sfert de ceas liber, repede cartea în mână, și tot cumpără la cărți, și tot învață, și tot învață, și mă întreb și eu: ce se mai învață atâta și la ce folos?</p>
+            <p>Parcă nu i-am spus-o și eu! Nu mai vorbesc de cheltuială. Aici şi în străinătate, căci, slavă Domnului, am avut de unde. Dar ca părinte, aș fi vrut să am și eu o plăcere, să văd pe copilul mei că ajunge la ceva ca alții, că-l ia lumea în seamă. Dar așa doctor! Când îl prezint undeva, nici nu mai spun că e doctor! Și stă nopți întregi și învață; până și la birou, când are un sfert de ceas liber, repede cartea în mână, și tot cumpără la cărți, și tot învață, și tot învață, și mă întreb și eu: ce se mai învață atâta și la ce folos?</p>
           </sp>
           <sp who="#manasse">
             <speaker>MANASSE</speaker>
@@ -1553,9 +1579,11 @@
             <speaker>ȘOR</speaker>
             <p>Dacă cineva ţi-e dator cu bani, şi-ţi aduce tutun, e semn rău.</p>
             <stage> (Feciorul aduce o tablă cu vin, pișcoturi și două pahare, le pune pe masă şi iese) </stage>
-            <p>ŞOR</p>
+          </sp>
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <stage> (se aşează, ia sticla şi umple un pahar) </stage>
-            <p>: Bei, Nisim?</p>
+            <p>Bei, Nisim?</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -1576,9 +1604,9 @@
           <sp who="#nisim">
             <p>Spune-mi, Nisim, ai ghicit-o asta din capul d-tale ?</p>
             <stage> (Ca o taină) </stage>
-            <p>. Am adus un mire pentru Lelia.</p>
+            <p>Am adus un mire pentru Lelia.</p>
             <stage> (Pauză) </stage>
-            <p>. M-am înțeles cu el să se suie în tren la Bacău, fără să bănuiască măcar cineva că mergem împreună. Mă așteaptă acuma la hotel.</p>
+            <p>M-am înțeles cu el să se suie în tren la Bacău, fără să bănuiască măcar cineva că mergem împreună. Mă așteaptă acuma la hotel.</p>
             <stage> (Tăcere) </stage>
             <p>Tăcerea asta o cunosc, e în regulă. Și conu Costache Buhălău, dacă vin și-i spun: „Coane Costache, am un cumpărător pentru grâu” – conu Costache tace, parcă nici gând n-ar avea de vândut, şi are nevoie de bani de crapă. Ce, nu vi-e fata de dat? Fată și lingoare e bucuros omul când scapă de ele. Așteptați să vă rog ? Iată nu vă rog.</p>
             <stage> (Își toarnă vin şi bea) </stage>
@@ -1586,7 +1614,7 @@
             <stage> (Nisim scoate tabacherea și i-o dă. Șor își pune tutun în tabacherea sa şi-i dă lui Nisim tabacherea lui mai goală înapoi) </stage>
             <p>Așa ! Ca să nu tot cer.</p>
             <stage> (Își face o ţigară. Nisim şi Ester se privesc) </stage>
-            <p>. Ce vă tot uitaţi unul la altul ca doi cocoși?</p>
+            <p>Ce vă tot uitaţi unul la altul ca doi cocoși?</p>
             <stage> (Îşi aprinde țigara) </stage>
             <p>Parcă eu nu știu să tac? Iată tac şi eu.</p>
             <stage> (Îşi toarnă vin şi bea. Pune un picior peste altul, se reazămă de spată şi suflă fumul în sus.) </stage>
@@ -1607,12 +1635,14 @@
             <speaker>ȘOR</speaker>
             <p>Slavă Domnului ! Un pas înainte am făcut.</p>
             <stage> (Îşi toarnă vin cu încetul şi bea încet) </stage>
-            <p>. Dacă nu-l vrei de pe acuma, Ester, ce-ţi pasă cine este?</p>
+            <p>Dacă nu-l vrei de pe acuma, Ester, ce-ţi pasă cine este?</p>
           </sp>
           <sp who="#ester">
             <speaker>ESTER</speaker>
             <p>Dacă d-ta singur găseşti că nu e pentru noi, de ce ai mai început vorba?</p>
-            <p>ŞOR</p>
+          </sp>
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <stage> (bea restul de pahar, se uită la Ester şi izbucneşte într-un hohot de râs) </stage>
             <p>: Toate femeile sunt trase pe același calapod! De câte ori crezi că n-am avut aceeași conversaţie, cu aceleași tăceri, cu aceleaşi priviri, şi femeia care vorbeşte și bărbatul care se uită şi nu știe ce să zică! Şi cred, când va trebui să mărit şi eu o fată, D-zeu va face o minune ca și cu Bileam și va deschide gura femeii mele și ea o să vorbească, drept ca toate mamele, și cu o să șed ca un prost. Dacă așa voi aș putea să mai lungesc vorba trei ceasuri, dar nu vreau. Îndată o să ne cadă pe cap quartretul împreună cu studenta care taie bărbaţii goi, și atunci adio treabă! Şi nenorocitul meu care așteaptă răspuns la hotel!</p>
           </sp>
@@ -1708,9 +1738,11 @@
           <sp who="#lelia">
             <speaker>LELIA</speaker>
             <p>Merge de minune! Încă o repetiţie, două, și sâmbătă seară, strună.</p>
-            <p>NATALIA</p>
+            </sp>
+          <sp who="#natalia">
+            <speaker>NATALIA</speaker>
             <stage> (luându-și ziua bună împreună cu Roza; către Matei) </stage>
-            <p>: Știi, Matei, Roza dejunează azi la noi, să nu ne faci să așteptăm mult.</p>
+            <p>Știi, Matei, Roza dejunează azi la noi, să nu ne faci să așteptăm mult.</p>
           </sp>
           <sp who="#lazar">
             <speaker>LAZAR</speaker>
@@ -1937,15 +1969,21 @@
           <sp who="#frunza">
             <speaker>FRUNZĂ</speaker>
             <p>Ba nu, mai mult, vreau un consimțământ. Vă cer mâna d-șoarei Lelia.</p>
-            <p>NISIM</p>
+            </sp>
+            <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (sare de pe scaun) </stage>
-            <p>: Copila mea?</p>
-            <p>ESTER</p>
+            <p>Copila mea?</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (Se face palidă ca moartea, se clatină pe scaun, duce mâna la inimă şi suflă încet) </stage>
-            <p>: Apă, Nisim, apă!</p>
-            <p>ŞOR</p>
+            <p>Apă, Nisim, apă!</p>
+          </sp>
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <stage> (întră repede) </stage>
-            <p>: Ia o înghițitură de vin, Ester, ia o înghițitură de vin!</p>
+            <p>Ia o înghițitură de vin, Ester, ia o înghițitură de vin!</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -1962,7 +2000,9 @@
             <stage> (către Frunză) </stage>
             <p>Toate cele cu dragă inimă, domnule Frunză, dar asta, vezi singur.</p>
             <stage> (Se închină şi iese cu Ester prin stânga.) </stage>
-            <p>FRUNZĂ</p>
+            </sp>
+            <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
             <stage>(Se uită lung la ușa prin care au ieşit Ester şi Nisim, îşi pune amândouă mâinile în cap şi le trece încet peste obraz) </stage>
           </sp>
           <sp who="#sor">
@@ -2048,21 +2088,27 @@
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>Ce era să zic? Da. Apropo de Emil Horn. Pe la trei ceasuri ai putea să vii cu el. Sper că Ester o să-și vină în fire până atuncea. Să-l mai vedem, să vorbim, poate…</p>
-            <p>ESTER</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (dinăuntru, cu vocea plânsuroasă) </stage>
-            <p>: Nisim ! Nisim !</p>
+            <p>Nisim ! Nisim !</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>Îndată – Rămâne dar așa, pe la trei.</p>
             <stage> (iese) </stage>
-            <p>ȘOR</p>
+          </sp>
+            <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <stage> (îşi freacă mâinile) </stage>
-            <p>: Merge, Merge !</p>
+            <p>Merge, Merge !</p>
             <stage> (ia paharul de pe masă, se uită la el, e gol. Trece în salonaș, şi-şi aduce tablaua, umple paharul şi bea. Își face o ţigară, scoate un chibrit şi-l freacă de fața de masă, aprinde ţigara şi azvârle chibritul într-un colţ). </stage>
-            <p>LAZAR</p>
+          </sp>
+          <sp who="#lazar">
+            <speaker>LAZAR</speaker>
             <stage> (intră) </stage>
-            <p>: Singur, domnule Şor?</p>
+            <p>Singur, domnule Şor?</p>
           </sp>
           <sp who="#sor">
             <speaker>ȘOR</speaker>
@@ -2161,9 +2207,11 @@
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>Nu! Vrea banii mei.</p>
-            <p>LELIA</p>
+          </sp>
+          <sp who="#lelia">
+            <speaker>LELIA</speaker>
             <stage> (aprinsă.) </stage>
-            <p>: Toate cele, tată, dar asta nu e drept. Nu cere nici un ban.</p>
+            <p>Toate cele, tată, dar asta nu e drept. Nu cere nici un ban.</p>
           </sp>
           <sp who="#ester">
             <speaker>ESTER</speaker>
@@ -2258,9 +2306,11 @@
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>Nu, asta nu pricepem, asta nu o pricepe nimeni. Sunt lucruri care nu pot intra în cap, nu. Şi-i încă bine că tatăl meu nu știe nimic. Cât te iubeşte el, ar fi moartea lui.</p>
-            <p>LELIA</p>
+          </sp>
+          <sp who="#lelia">
+            <speaker>LELIA</speaker>
             <stage> (dă din cap) </stage>
-            <p>: Săracul bunic!</p>
+            <p>Săracul bunic!</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -2315,9 +2365,11 @@
             <p>Acuma du-te, copilă, de te îmbracă, vezi singură, trebuie să te îmbraci, nu merge altfel, și eu mă duc să văd de mamă şi să-i spun că tot ești copila noastră cea bună şi dulce.</p>
             <stage> (O sărută şi iese prin stânga. Lelia își ascunde obrazul în mâini. Intră Lazar din dreapta) </stage>
             <p>.</p>
-            <p>LAZAR</p>
+          </sp>
+          <sp who="#lazar">
+            <speaker>LAZAR</speaker>
             <stage> (se apropie de Lelia) </stage>
-            <p>: A trecut furtuna?</p>
+            <p>A trecut furtuna?</p>
           </sp>
           <sp who="#lelia">
             <speaker>LELIA</speaker>
@@ -2891,9 +2943,11 @@
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Cine ţi-a propus-o? Vezi una ca asta n-aș fi făcut-o eu. Ferească D-zeu! Întreabă-l pe Nisim, dacă nu mă crezi, mă cunoaşte de mai mult; fiindcă o fată de ovrei care a avut o dragoste cu un creştin...</p>
-            <p>LELIA</p>
+          </sp>
+          <sp who="#lelia">
+            <speaker>LELIA</speaker>
             <stage> (Se duce drept la Emil și-i întinde mâna.) </stage>
-            <p>: Buna ziua, d-le Horn..</p>
+            <p>Buna ziua, d-le Horn..</p>
           </sp>
           <sp who="#horn">
             <speaker>HORN</speaker>
@@ -3060,10 +3114,14 @@
             <speaker>HORN</speaker>
             <p>Mă rog, mă rog.</p>
             <stage> (Ester cu Lelia ies prin stânga, Ghiţă vine din fund, aducând pe o tablă pahare cu ceai , zaharniţa și pişcoturi, le pune pe masă şi iese.) </stage>
-            <p>ŞOR</p>
+          </sp>
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <stage> (către Horn.) </stage>
-            <p>: Ai vorbit? Ei? Ce zice?</p>
-            <p>HORN</p>
+            <p>Ai vorbit? Ei? Ce zice?</p>
+          </sp>
+          <sp who="#horn">
+            <speaker>HORN</speaker>
             <stage> (zâmbind.) </stage>
             <p>: Adică, ce să zică?... Dar mă rog, Şor, ce este cu Lazar? Stă ca mut, nu ştie să scoată un cuvânt. S-a prostit de tot tânărul.</p>
             </sp>
@@ -3150,14 +3208,18 @@
           <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Zidurile din Ieriho, d-le Manasse.</p>
-            <p>HORN</p>
+          </sp>
+          <sp who="#horn">
+            <speaker>HORN</speaker>
             <stage> (către Manasse.) </stage>
-            <p>: Ce ziduri?</p>
+            <p>Ce ziduri?</p>
             </sp>
             <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Nişte ziduri slabe, construcţie veche, nu le-ai făcut d-ta, când li s-a cântat au căzut, Și construcțiile d-tale cad când li se cântă?</p>
-            <p>HORN</p>
+          </sp>
+          <sp who="#horn">
+            <speaker>HORN</speaker>
             <stage> (cu dispreţ.) </stage>
             <p>: Lasă-mă, mă rog, cu astfel de întrebări, zidurile mele nu cad.</p>
             </sp>
@@ -3273,9 +3335,11 @@
             <sp who="#sor">
             <speaker>ȘOR</speaker>
             <p>Ei, ei! Domnule Horn, dacă nu s-ar naște oameni decât numai sub plapumi de mătasă, mulţi nu s-ar mai fi născut, nici eu, și ar fi fost mare păcat.</p>
-            <p>LELIA</p>
+            </sp>
+            <sp who="#lelia">
+            <speaker>LELIA</speaker>
             <stage> (Luând mâna lui Şor.) </stage>
-            <p>: Foarte bine așa, domnule Șor. La nuntă să mă inviți şi pe mine, vreau s-o cunosc pe fata d-tale.</p>
+            <p>Foarte bine așa, domnule Șor. La nuntă să mă inviți şi pe mine, vreau s-o cunosc pe fata d-tale.</p>
             <stage> (Horn o priveşte mirat.) </stage>
             </sp>
             <sp who="#sor">
@@ -3298,7 +3362,7 @@
             <sp who="#horn">
             <speaker>HORN</speaker>
             <stage> (se uită la ceas.) </stage>
-            <p>: Pe mine mă veţi scuza dar până la opt.</p>
+            <p>Pe mine mă veţi scuza dar până la opt.</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -3639,7 +3703,10 @@
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <p>E schimbată de tot copila, de când e asta?</p>
-            <p>ESTER De când! De când! Şi dacă ţi-oi spune de când, ție-ți pasă mult de ce spun eu! Când ți-am spus şi te-am rugat, nu-mi nenoroci copila, nu-mi place omul ăsta, nu vreau să-l văd, miroase a scrumbii din dugheana mumii sale din Botoșani, m-ai ascultat? Tu şi tatăl tău, nu și nu şi nu, şi numai ăsta, acuma vezi?</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
+            <p>De când! De când! Şi dacă ţi-oi spune de când, ție-ți pasă mult de ce spun eu! Când ți-am spus şi te-am rugat, nu-mi nenoroci copila, nu-mi place omul ăsta, nu vreau să-l văd, miroase a scrumbii din dugheana mumii sale din Botoșani, m-ai ascultat? Tu şi tatăl tău, nu și nu şi nu, şi numai ăsta, acuma vezi?</p>
           </sp>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
@@ -3680,9 +3747,11 @@
           <sp who="#ester">
             <speaker>ESTER</speaker>
             <p>Ai fi făcut o mare voinicie! Ce ţi-a făcut Emil? Ce te legi de cl? El e vinovat? Lui i-a plăcut fata. Cum să nu-i placă? E șchioapă? E gheboasă? A văzut el multe fete ca Lelia mea?</p>
-            <p>NISIM</p>
+          </sp>
+          <sp who="#nisim">
+            <speaker>NISIM</speaker>
             <stage> (Ștergându-şi fruntea.) </stage>
-            <p>: Asta nu, și ceea nu, ce este dar cu Lelia?</p>
+            <p>Asta nu, și ceea nu, ce este dar cu Lelia?</p>
           </sp>
           <sp who="#ester">
             <speaker>ESTER</speaker>
@@ -4054,8 +4123,8 @@
             <speaker>ȘOR</speaker>
             <p>Ce să poftesc? Îmi trebue cineva să ia jos din trăsură cufărul, geamantanele...</p>
           </sp>
-          <sp who="#jori">
-            <speaker>JORI</speaker>
+          <sp who="#jorj">
+            <speaker>JORJ</speaker>
             <p>Eu nu sunt hamal.</p>
           </sp>
           <sp who="#sor">
@@ -4359,8 +4428,8 @@
             <stage> (Se uită la dreapta) </stage>
             <p>Jorj, trimite îndată pe un chelner la d-nu Mestecescu, ştii unde?</p>
           </sp>
-          <sp who="#jori">
-            <speaker>JORI</speaker>
+          <sp who="#jorj">
+            <speaker>JORJ</speaker>
             <p>Ştiu.</p>
           </sp>
           <sp who="#nisim">
@@ -4383,8 +4452,8 @@
             <speaker>ȘOR</speaker>
             <p>Iţic, ai făcut o poznă!</p>
           </sp>
-          <sp who="#jorij">
-            <speaker>JORIJ</speaker>
+          <sp who="#jorj">
+            <speaker>JORJ</speaker>
             <p>Ștergându-se cu şervetul. Te rog, d-le Șor, gândeşte-te...</p>
           </sp>
           <sp who="#sor">
@@ -4961,7 +5030,9 @@
             <speaker>NISIM</speaker>
             <p>Asta nu, Lelia nu fuge.</p>
             <stage> (Iese cu Şor. Prin ușa din stânga se aud ţipetele Esterii: Lelia! Lelia! Din dreapta se aude muzica. Intră din fund Nisim cu părul vulvoii, Lazar cu ochii zgâiți, Horn aiurit, Șor foarte abătut, din stânga Ester cu Roza.) </stage>
-            <p>ESTER</p>
+          </sp>
+          <sp who="#ester">
+            <speaker>ESTER</speaker>
             <stage> (tremurând) </stage>
             <p>Ei?</p>
             </sp>
@@ -5095,7 +5166,7 @@
             <sp who="#un_batran">
             <speaker>UN BĂTRÂN SCURT</speaker>
             <stage> (către Horn.) </stage>
-            <p>: Domnule, iartă-mă că mă amestec și eu, nu mă cunoşti, mă recomand, mă cheamă Wurmkraut, fac negoț de manufactură en gros, ascultă pe un om bătrân: Dumnealui</p>
+            <p>Domnule, iartă-mă că mă amestec și eu, nu mă cunoşti, mă recomand, mă cheamă Wurmkraut, fac negoț de manufactură en gros, ascultă pe un om bătrân: Dumnealui</p>
             <stage> (arătând pe Șor) </stage>
             <p>are dreptate, mai bine așa. La un nepot al meu a fugit trei zile după nuntă, și acuma pentru o nimica toată trebuie divorţ.</p>
             </sp>
@@ -5259,16 +5330,18 @@
             <sp who="#sor">
             <speaker>ȘOR</speaker>
             <stage> (Urmează încet cu vorba, gesticulează, se aude: Frunză, muzică, Calman…) </stage>
-            <p>MANASSE</p>
+            </sp>
+            <sp who="#manasse">
+            <speaker>MANASSE</speaker>
             <stage> (răcnește) </stage>
-            <p>: Beţiv ticălos! Îndrăznești?</p>
+            <p>Beţiv ticălos! Îndrăznești?</p>
             <stage> (Apucă un scaun) </stage>
             <p>Îţi sparg capul! Te învăţ eu glume!Ieși afară! Ieşi, îţi zic!</p>
             </sp>
             <sp who="#sor">
             <speaker>ȘOR</speaker>
             <stage> (Retrăgându-se.) </stage>
-            <p>: Ies, ies, dar poftim, întrebați</p>
+            <p>Ies, ies, dar poftim, întrebați</p>
             <stage> (Muzica vine din dreapta şi iese erin fund) </stage>
             <p>nu e secret, știu toți. Iată, pleacă şi muzica.</p>
             </sp>
