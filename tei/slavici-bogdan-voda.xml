@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../css/tei.css"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000015" xml:lang="rom">
   <teiHeader>
@@ -23,9 +22,9 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="originalSource">
-          <name></name>
-          <idno type="URL"></idno>
-          <title></title>
+          <name/>
+          <idno type="URL"/>
+          <title/>
           <availability>
             <licence>
               <ab>public domain</ab>
@@ -40,9 +39,6 @@
         <listPerson>
           <person xml:id="bogdan" sex="MALE">
             <persName>BOGDAN</persName>
-          </person>
-          <person xml:id="alexandru" sex="MALE">
-            <persName>ALEXANDRU</persName>
           </person>
           <person xml:id="hulpe" sex="MALE">
             <persName>HULPE</persName>
@@ -59,38 +55,74 @@
           <person xml:id="coste" sex="MALE">
             <persName>COSTE</persName>
           </person>
-          <person xml:id="stefan" sex="MALE">
-            <persName>ŞTEFAN</persName>
-          </person>
           <person xml:id="diacul" sex="MALE">
             <persName>DIACUL</persName>
           </person>
           <person xml:id="linte" sex="MALE">
             <persName>LINTE</persName>
           </person>
-          <person xml:id="veriga" sex="MALE">
-            <persName>VERIGĂ</persName>
-          </person>
           <person xml:id="codac" sex="MALE">
             <persName>CODAC</persName>
           </person>
-          <person xml:id="barbalat" sex="MALE">
-            <persName>BARBĂLAT</persName>
-          </person>
-          <person xml:id="doamna_oltea" sex="FEMALE">
+          <person xml:id="oltea" sex="FEMALE">
             <persName>DOAMNA OLTEA</persName>
           </person>
-          <person xml:id="boieri" sex="MALE">
+          <person xml:id="boier" sex="MALE">
             <persName>BOIERI</persName>
           </person>
-          <person xml:id="targoveti" sex="MALE">
-            <persName>TÎRGOVEŢI</persName>
+          <person xml:id="a_treia">
+            <persName>A Treia</persName>
           </person>
-          <person xml:id="osteni" sex="MALE">
-            <persName>OŞTENI</persName>
+          <person xml:id="alt_boier">
+            <persName>Alt Boier</persName>
           </person>
-          <person xml:id="lesi" sex="MALE">
-            <persName>LEŞI</persName>
+          <person xml:id="alt_leah">
+            <persName>Alt Leah</persName>
+          </person>
+          <person xml:id="alta">
+            <persName>Alta</persName>
+          </person>
+          <person xml:id="alta_voce">
+            <persName>Alta Voce</persName>
+          </person>
+          <person xml:id="alte_voci">
+            <persName>Alte Voci</persName>
+          </person>
+          <person xml:id="altele">
+            <persName>Altele</persName>
+          </person>
+          <person xml:id="altul">
+            <persName>Altul</persName>
+          </person>
+          <person xml:id="barbalat">
+            <persName>Barbalat</persName>
+          </person>
+          <person xml:id="iar_alta">
+            <persName>Iar Alta</persName>
+          </person>
+          <person xml:id="iar_altele">
+            <persName>Iar Altele</persName>
+          </person>
+          <person xml:id="iar_altul">
+            <persName>Iar Altul</persName>
+          </person>
+          <person xml:id="luncanu">
+            <persName>Luncanu</persName>
+          </person>
+          <person xml:id="un_boier">
+            <persName>Un Boier</persName>
+          </person>
+          <person xml:id="una">
+            <persName>Una</persName>
+          </person>
+          <person xml:id="veriga">
+            <persName>Veriga</persName>
+          </person>
+          <person xml:id="voce">
+            <persName>Voce</persName>
+          </person>
+          <person xml:id="voci">
+            <persName>Voci</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -107,11 +139,11 @@
       <event type="print" when="1876">
         <desc/>
       </event>
-      <event type="premiere" when="">
-        <desc></desc>
+      <event type="premiere" when="1876-01-01">
+        <desc/>
       </event>
       <event type="print" when="1876">
-        <desc></desc>
+        <desc/>
       </event>
     </listEvent>
     <listRelation>
@@ -198,10 +230,8 @@
       </castList>
     </front>
     <body>
-      <note type="title">ACTUL I</note>
       <div type="act" n="I">
         <head>ACTUL I</head>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#onciul">
@@ -237,7 +267,6 @@
             <p>E, poate, rostul lui de-a fi supus.</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#hulpe">
@@ -277,7 +306,6 @@
             <p>Aşa-i! şi treaba ta păzind, aştepţi</p>
           </sp>
         </div>
-        <note type="title">SCENA 4</note>
         <div type="scene" n="4">
           <head>SCENA 4</head>
           <sp who="#hulpe">
@@ -309,7 +337,6 @@
             <p>Supuşi suntem, supuşi şi umiliţi,</p>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
           <sp who="#una">
@@ -406,13 +433,11 @@
           </sp>
         </div>
       </div>
-      <note type="title">ACTUL II</note>
       <div type="act" n="II">
         <head>ACTUL II</head>
-        <note type="title">SCENA 1</note>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Ce-o să iasă?! Vodă ăsta e altul, nu e ca ceilalţi; îi ţine, colea, de mânecă.</p>
           </sp>
@@ -425,7 +450,6 @@
             <p>Dacă s-a legat, cum spuseră boierii, cu craiul, care îi dă ajutor.</p>
           </sp>
         </div>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#linte">
@@ -454,7 +478,7 @@
             <speaker>CODAC</speaker>
             <p>Ei, şi?! Ce-avem noi cu ei?! Nici în clin, nici în mânecă, nici la urcuş, nici la coborâş nu-njugăm. Ei cu vodă – ţară; iară noi cu hatmanul – oaste.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Tocmai aşa n-o fi, Codace. Boierii spun că vorba e să ne deie alt hatman.</p>
           </sp>
@@ -470,7 +494,7 @@
             <speaker>CODAC</speaker>
             <p>Pune pe dracul! De unde să-1 puie dacă nu-1 are?!</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Îl face vodă hatman pe acela pe care-l vrea.</p>
           </sp>
@@ -515,7 +539,6 @@
             <p>Nu se poate, măi Linte. Măi Verigă, nu se poate, O fi, n-o fi hatmanul a lui vodă, dar oastea e a hatmanului, şi vodă o pate rău de tot dacă nu-şi păzeşte treaba.</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#voci">
@@ -530,7 +553,7 @@
             <speaker>LINTE</speaker>
             <p>Tot cele vechi.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Toate bune.</p>
           </sp>
@@ -546,7 +569,7 @@
             <speaker>CODAC</speaker>
             <p>Eu zic că-n tabără sunt oameni mulţi,</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Tăcem şi ascultăm şi iar tăcând,</p>
           </sp>
@@ -574,7 +597,7 @@
             <speaker>CODAC</speaker>
             <p>Tot nu?</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Vorbiţi-i mai pe şleau.</p>
           </sp>
@@ -590,7 +613,7 @@
             <speaker>CODAC</speaker>
             <p>Auzi? Bogdan el însuşi nu mai vrea.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Nu ştiu ce să mai cred. Ceilalţi boieri</p>
           </sp>
@@ -598,7 +621,7 @@
             <speaker>ONCIUL</speaker>
             <p>Ei au minţit.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Ori au minţit, ori nu, îl vrea ori nu,</p>
           </sp>
@@ -622,7 +645,7 @@
             <speaker>LINTE</speaker>
             <p>Ai lui</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>N-ai oaste, nici hatman nu poţi să ai;</p>
           </sp>
@@ -638,7 +661,7 @@
             <speaker>CODAC</speaker>
             <p>I s-ar putea-ntâmpla ceva</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Şi dacă vrei să scapi nevătămat,</p>
           </sp>
@@ -646,12 +669,11 @@
             <speaker>LINTE</speaker>
             <p>Noi nu te-am întrebat,</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Ce crezi?!</p>
           </sp>
         </div>
-        <note type="title">SCENA 4</note>
         <div type="scene" n="4">
           <head>SCENA 4</head>
           <sp who="#hulpe">
@@ -676,7 +698,7 @@
             <speaker>CODAC</speaker>
             <p>Măi Barbălat, dar ce-i?</p>
           </sp>
-          <sp who="#barbălat">
+          <sp who="#barbalat">
             <speaker>BARBĂLAT</speaker>
             <p>Să vă mai prind pe-aici! Auzi, mişei?!</p>
           </sp>
@@ -688,12 +710,11 @@
             <speaker>UNA</speaker>
             <p>Nu vă lăsaţi!</p>
           </sp>
-          <sp who="#barbălat">
+          <sp who="#barbalat">
             <speaker>BARBĂLAT</speaker>
             <p>Să-i judece hatmanu-n legea lui.</p>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
           <sp who="#codac">
@@ -741,7 +762,7 @@
             <p>Ne-am dumirit pe din destul şi-aşa</p>
             <stage>(Iese.)</stage>
           </sp>
-          <sp who="#barbălat">
+          <sp who="#barbalat">
             <speaker>BARBĂLAT</speaker>
             <p>Ne-am dumirit şi-o iau pe barba mea.</p>
             <stage>(Iese.)</stage>
@@ -763,7 +784,6 @@
             <p>Va trece el? Aş vrea să-i văd luptând</p>
           </sp>
         </div>
-        <note type="title">SCENA 6</note>
         <div type="scene" n="6">
           <head>SCENA 6</head>
           <sp who="#oltea">
@@ -863,7 +883,6 @@
             <p>Eu casa mi-o păzesc, la vatră-mi stau</p>
           </sp>
         </div>
-        <note type="title">SCENA 7</note>
         <div type="scene" n="7">
           <head>SCENA 7</head>
           <sp who="#coste">
@@ -956,10 +975,8 @@
           </sp>
         </div>
       </div>
-      <note type="title">ACTUL III</note>
       <div type="act" n="III">
         <head>ACTUL III</head>
-        <note type="title">SCENA 1</note>
         <div type="scene" n="1">
           <head>SCENA 1</head>
           <sp who="#andronic">
@@ -995,7 +1012,6 @@
             <p>Mai eşti, cum e tot domnul înţelept,</p>
           </sp>
         </div>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#aron">
@@ -1043,7 +1059,6 @@
             <p>Un bolovan, din vârf de deal urnit,</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#onciul">
@@ -1071,7 +1086,6 @@
             <p>Şi mâine-l vezi căutând</p>
           </sp>
         </div>
-        <note type="title">SCENA 4</note>
         <div type="scene" n="4">
           <head>SCENA 4</head>
           <sp who="#onciul">
@@ -1091,7 +1105,6 @@
             <p>Plecăm! Acestea-s vorbe, nu dovezi.</p>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
           <sp who="#onciul">
@@ -1128,7 +1141,6 @@
             <p>Da, urgisit!</p>
           </sp>
         </div>
-        <note type="title">SCENA 6</note>
         <div type="scene" n="6">
           <head>SCENA 6</head>
           <sp who="#coste">
@@ -1144,7 +1156,6 @@
             <p>De-aceea soarta oarbă i-a împins</p>
           </sp>
         </div>
-        <note type="title">SCENA 7</note>
         <div type="scene" n="7">
           <head>SCENA 7</head>
           <sp who="#coste">
@@ -1168,7 +1179,6 @@
             <p>Aşa voim!</p>
           </sp>
         </div>
-        <note type="title">SCENA 8</note>
         <div type="scene" n="8">
           <head>SCENA 8</head>
           <sp who="#codac">
@@ -1188,7 +1198,6 @@
             <p>Aceasta, nu! căci rostul armei nu-i</p>
           </sp>
         </div>
-        <note type="title">SCENA 9</note>
         <div type="scene" n="9">
           <head>SCENA 9</head>
           <sp who="#codac">
@@ -1227,7 +1236,7 @@
             <speaker>CODAC</speaker>
             <p>Să meargă sănătoşi unde-au plecat!</p>
           </sp>
-          <sp who="#barbălat">
+          <sp who="#barbalat">
             <speaker>BARBĂLAT</speaker>
             <p>De ce să nu-i lăsăm?</p>
           </sp>
@@ -1265,10 +1274,8 @@
           </sp>
         </div>
       </div>
-      <note type="title">ACTUL IV</note>
       <div type="act" n="IV">
         <head>ACTUL IV</head>
-        <note type="title">SCENA 1</note>
         <div type="scene" n="1">
           <head>SCENA 1</head>
           <sp who="#luncanu">
@@ -1284,7 +1291,6 @@
             <p>Mai e mult? (Ridică sacul.)</p>
           </sp>
         </div>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#onciul">
@@ -1340,7 +1346,6 @@
             <p>Și nu suntem noi numai, tu și eu!</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#diacul">
@@ -1408,7 +1413,6 @@
             <p>Să viu, de pot,</p>
           </sp>
         </div>
-        <note type="title">SCENA 4</note>
         <div type="scene" n="4">
           <head>SCENA 4</head>
           <sp who="#bogdan">
@@ -1439,7 +1443,7 @@
             <speaker>BOGDAN</speaker>
             <p>Tu stai şi-aştepţi ca să ne vezi luptând.</p>
           </sp>
-          <sp who="#barbălat">
+          <sp who="#barbalat">
             <speaker>BARBĂLAT</speaker>
             <p>Ei, vezi? Atunci venim şi noi la rând.</p>
           </sp>
@@ -1447,7 +1451,7 @@
             <speaker>BOGDAN</speaker>
             <p>Veniţi. De astă grijă să n-aveţi.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Suntem cu toţii gata să murim.</p>
           </sp>
@@ -1464,18 +1468,17 @@
             <p>Să vă înfioraţi de negrul gând</p>
           </sp>
         </div>
-        <note type="title">SCENA 5</note>
         <div type="scene" n="5">
           <head>SCENA 5</head>
           <sp who="#codac">
             <speaker>CODAC</speaker>
             <p>Pst! Iată-i că vin. Dar nu sunt leşi, ci moldoveni.</p>
           </sp>
-          <sp who="#barbălat">
+          <sp who="#barbalat">
             <speaker>BARBĂLAT</speaker>
             <p>Tont mai eşti! Sunt ai lui Alexandru-vodă.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Dar, minune! Diacul ce caută în fruntea lor?</p>
           </sp>
@@ -1484,7 +1487,6 @@
             <p>Să ne strecurăm, cum a poruncit vodă.</p>
           </sp>
         </div>
-        <note type="title">SCENA 6</note>
         <div type="scene" n="6">
           <head>SCENA 6</head>
           <sp who="#un_boier">
@@ -1524,7 +1526,6 @@
             <p>Ce bun vânat! o scroafă cu purcei</p>
           </sp>
         </div>
-        <note type="title">SCENA 7</note>
         <div type="scene" n="7">
           <head>SCENA 7</head>
           <sp who="#boier">
@@ -1547,7 +1548,7 @@
             <speaker>ALT LEAH</speaker>
             <p>El a scăpat şi e pornit pe drum.</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Spurcaţilor!</p>
           </sp>
@@ -1555,7 +1556,7 @@
             <speaker>LINTE</speaker>
             <p>Să mai veniţi pe-aici!</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Şi-n mari, şi-n mici</p>
           </sp>
@@ -1563,12 +1564,11 @@
             <speaker>LINTE</speaker>
             <p>S-a dus sărmanul Barbălat!</p>
           </sp>
-          <sp who="#verigă">
+          <sp who="#veriga">
             <speaker>VERIGĂ</speaker>
             <p>Dar după ce vro zece a tăiat.</p>
           </sp>
         </div>
-        <note type="title">SCENA 8</note>
         <div type="scene" n="8">
           <head>SCENA 8</head>
           <sp who="#onciul">
@@ -1641,7 +1641,6 @@
             <p>Sărman de tine! Ce păcat! Un om</p>
           </sp>
         </div>
-        <note type="title">SCENA 9</note>
         <div type="scene" n="9">
           <head>SCENA 9</head>
           <sp who="#bogdan">
@@ -1690,10 +1689,8 @@
           </sp>
         </div>
       </div>
-      <note type="title">ACTUL V</note>
       <div type="act" n="V">
         <head>ACTUL V</head>
-        <note type="title">SCENA 2</note>
         <div type="scene" n="2">
           <head>SCENA 2</head>
           <sp who="#bogdan">
@@ -1741,14 +1738,13 @@
             <p>Înfrânt ai zis?! în luptă cu mişei</p>
           </sp>
         </div>
-        <note type="title">SCENA 3</note>
         <div type="scene" n="3">
           <head>SCENA 3</head>
           <sp who="#voce">
             <speaker>VOCE</speaker>
             <p>Ce e?</p>
           </sp>
-          <sp who="#altă_voce">
+          <sp who="#alta_voce">
             <speaker>ALTĂ VOCE</speaker>
             <p>Suntem împresuraţi!</p>
           </sp>
