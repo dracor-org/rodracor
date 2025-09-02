@@ -22,16 +22,26 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="originalSource">
-          <name/>
-          <idno type="URL"/>
-          <title>Iași</title>
+        <bibl type="digitalSource">
+          <name>Wikisource</name>
+          <idno type="URL">https://ro.wikisource.org/wiki/Chiri%C8%9Ba_%C3%AEn_Ia%C8%99i</idno>
           <availability>
             <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+              <ab>CC-BY-3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">Licență</ref>
             </licence>
           </availability>
+          <bibl type="originalSource">
+            <name/>
+            <idno type="URL"/>
+            <title>Iași</title>
+            <availability>
+              <licence>
+                <ab>public domain</ab>
+                <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+              </licence>
+            </availability>
+          </bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -82,12 +92,6 @@
           </person>
           <person xml:id="fetele">
             <persName>Fetele</persName>
-          </person>
-          <person xml:id="gugulita">
-            <persName>Gugulita</persName>
-          </person>
-          <person xml:id="guluta">
-            <persName>Guluta</persName>
           </person>
           <person xml:id="neamtul">
             <persName>Un neamț cu orgă</persName>
@@ -216,7 +220,7 @@
         <head>ACTUL I</head>
         <div type="scene" n="I">
           <head>SCENA I</head>
-          <note type="setting"> CHIRIȚA, ARISTIȚA, CALIPSIȚA, GUGULIȚĂ, ȚIGANCA, FECIORUL, SLUJITORUL DE BARIERĂ, UN SURUGIU </note>
+          <stage> CHIRIȚA, ARISTIȚA, CALIPSIȚA, GUGULIȚĂ, ȚIGANCA, FECIORUL, SLUJITORUL DE BARIERĂ, UN SURUGIU </stage>
           <sp who="#slujitorul">
             <speaker>SLUJITORUL</speaker>
             <stage> (alergând după trăsură, zice țigancei din coadă) </stage>
@@ -462,8 +466,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Ba nu, Gulița mamei... nu, drăguță; mata șezi în trăsură ca să nu răcești.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>E!... neneacă, vreau să mă cobor... na...</p>
           </sp>
           <sp who="#chirita">
@@ -478,8 +482,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Ba... să nu faci poznă, Gulița neneacăi, c-apoi s-a mânia neneaca și nu ți-a mai cumpăra minavet... știi mata... minavetu care ți l-am făgăduit...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Așa! de trei ani de când mă porți cu făgăduința...</p>
           </sp>
           <sp who="#chirita">
@@ -557,9 +561,9 @@
             <stage> (căutând în dreapta) </stage>
             <p>Haita... buf... na, c-o căzut și duducile... Ha, ha, ha... una peste alta...</p>
           </sp>
-          <note type="setting">(În vremea aceasta Guliță se coboară furiș din trăsură și începe a se da pe gheață.)</note>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <stage>(În vremea aceasta Guliță se coboară furiș din trăsură și începe a se da pe gheață.)</stage>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Uța... a... a... Bine-i de dat de-a săniușul... Uța... a... a... Neneaca s-a dus... bine-mi pare!</p>
           </sp>
           <sp who="#tiganca">
@@ -567,16 +571,16 @@
             <stage> (ghemuită în cergă lângă coada trăsurii) </stage>
             <p>Da astâmpără-te, cuconașule, că-i cădea jos și ți-i sparge capu.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Taci, coțofană... nu cârâi.</p>
           </sp>
           <sp who="#tiganca">
             <speaker>ȚIGANCA</speaker>
             <p>Haide, hai, că te-a vedea ea cucoana acuși.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Taci, îți zic, c-apoi știi...</p>
             <stage> (Către fecior.) </stage>
             <p>Măi, fecior boieresc, vin’ de te dă pe gheață cu mine.</p>
@@ -585,8 +589,8 @@
             <speaker>FECIORUL</speaker>
             <p>Ce să fac?... că doar n-am zece capete de stricat...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (mânios) </stage>
             <p>D-apoi dacă-ți poruncesc eu?... nu vrei?... Ei las’ măi bade, că te-oi drege eu.</p>
           </sp>
@@ -595,15 +599,15 @@
             <stage> (în parte) </stage>
             <p>Ba-i drege tu pe cine-ai mai dres, sfrijitule.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Uța... a... las’ că te-oi spune eu și bunicăi, și mătușicăi, și băbacăi, și neneacăi... Uța... a...</p>
             <stage> (Se aude dincolo de barieră un sunet de zurgălăi și un glas de jidov strigând: „Vio, vio.”) </stage>
           </sp>
         </div>
         <div type="scene" n="II">
           <head>SCENA II</head>
-          <note type="setting">FECIORUL (lângă oblon), ȚIGANCA (lângă coada trăsurii), GULIȚĂ (dându-se de-a săniușul pe dinaintea ei), BONDICI, PUNGESCU, un neamț cu orgă și slujitorul</note>
+          <stage>FECIORUL (lângă oblon), ȚIGANCA (lângă coada trăsurii), GULIȚĂ (dându-se de-a săniușul pe dinaintea ei), BONDICI, PUNGESCU, un neamț cu orgă și slujitorul</stage>
           <sp who="#bondici">
             <speaker>BONDICI</speaker>
             <stage> (la barieră) </stage>
@@ -665,8 +669,8 @@
             <speaker>BONDICI</speaker>
             <p>Nume voia? nume i-am dat. Să se sature.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Îra!... Iaca un minavet de canari, cum vreau eu.</p>
             <stage> (Aleargă lângă neamț, împreună cu feciorul și cu țiganca.) </stage>
           </sp>
@@ -802,7 +806,7 @@
         </div>
         <div type="scene" n="III">
           <head>SCENA III</head>
-          <note type="setting">Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA </note>
+          <stage>Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA </stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <p>Of!... îmi vin istericale grecești!... am alergat pin toate crâșmele, și surugiii... tufă... Of! cine mi-o zis să mă pornesc eu de la Bârzoieni?...</p>
@@ -996,19 +1000,19 @@
             <p>Haideți împreună</p>
             <p>Etc. etc. etc.</p>
           </sp>
-          <note type="setting">(Bondici, Pungescu, Aristița și Calipsița ies la brațetă prin dreapta. Chirița-i urmează puțin și se oprește. Neamțul, care a stat tot în fund, începe a cânta din orgă.) </note>
+          <stage>(Bondici, Pungescu, Aristița și Calipsița ies la brațetă prin dreapta. Chirița-i urmează puțin și se oprește. Neamțul, care a stat tot în fund, începe a cânta din orgă.) </stage>
         </div>
         <div type="scene" n="IV">
           <head>SCENA IV</head>
-          <note type="setting"> CHIRIȚA, GUGULIȚĂ și ceilalți </note>
+          <stage> CHIRIȚA, GUGULIȚĂ și ceilalți </stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <stage> (oprindu-se) </stage>
             <p>Da... Guliță? Kirie eleison!... că era să-mi uit odoru-n trăsură...</p>
             <stage> (Se întoarce și găsește pe Guliță lângă neamț.) </stage>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Nu pe aista, monsiu neamțule... cântă pe cellalt...</p>
             <stage>(Bate din picioare cu mânie.)</stage>
             <p>Nu pe aista, e cellalt.</p>
@@ -1023,8 +1027,8 @@
             <stage> (Aleargă la Guliță.) </stage>
             <p>Ce faci aici, diavoli?... Nu ți-am spus să nu ieși din contășul băbacăi?...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Ei, m-am săturat de contăș ca de mere acre.</p>
           </sp>
           <sp who="#chirita">
@@ -1042,8 +1046,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Și voi... chiori ați fost de l-ați lăsat să iasă dizvălit?... vină să te-mbrac, păcatule... Ei, vină azi și nu mă supăra.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Nu mă supăra nici mata.</p>
           </sp>
           <sp who="#chirita">
@@ -1052,8 +1056,8 @@
             <stage> (Îl îmbracă cu de-a sila.) </stage>
             <p>Șezi binișor... nu crâcni... țâst... să nu-ți aud gura...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (zbătându-se) </stage>
             <p>Nu vreau, nu vreau.</p>
             <stage> (Plânge.) </stage>
@@ -1062,8 +1066,8 @@
             <stage> (trăgându-l târâit) </stage>
             <p>Ce face?... Of! c-o să mă nebunească dimonu... parcă văd că iar are să m-apuce rastu... Ascultă, Gulița nineacăi: hai că ne-așteaptă țâțacele.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (trântindu-se la pământ) </stage>
             <p>Nu-mi pasă mie de țâțace... nu merg.</p>
           </sp>
@@ -1071,8 +1075,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Ei, vină că-ți cumpăr minavetu cela... știi mata...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Cumperi?... dacă-i așa... ia-mi-l pe-aista, a lui monsiu neamțu. Vină cu noi, monsiu neamțule...</p>
           </sp>
           <sp who="#neamtul">
@@ -1088,7 +1092,7 @@
         </div>
         <div type="scene" n="V">
           <head>SCENA V</head>
-          <note type="setting">Cei dinainte, văduva AFIN, sărdarul CUCULEȚ </note>
+          <stage>Cei dinainte, văduva AFIN, sărdarul CUCULEȚ </stage>
           <sp who="#afin">
             <speaker>AFIN</speaker>
             <p>Ce minune!... Cucoana Chirița?</p>
@@ -1247,9 +1251,9 @@
         <head>ACTUL II</head>
         <div type="scene" n="VI">
           <head>SCENA VI</head>
-          <note type="setting">CHIRIȚA</note>
-          <note type="setting">(șade dinaintea toaletei și-și face sprâncenele)</note>
-          <note type="setting"> ȚIGANCA</note>
+          <stage>CHIRIȚA</stage>
+          <stage>(șade dinaintea toaletei și-și face sprâncenele)</stage>
+          <stage> ȚIGANCA</stage>
           <stage>(calcă rochii în fund)</stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
@@ -1336,8 +1340,8 @@
             <stage> (Aleargă la ușa lui Guliță.) </stage>
             <p>Țâșt, diavoli, că mă bagi în ipohondrie.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (din odaie) </stage>
             <p>Las’, neneacă, că învăț mujica.</p>
           </sp>
@@ -1385,7 +1389,7 @@
             <p>De nu vrei s-ajungi chiar slugă</p>
             <p>La așa plecate slugi...</p>
           </sp>
-          <note type="setting">Se aude afară următorul dialog:</note>
+          <stage>Se aude afară următorul dialog:</stage>
           <sp who="#afin">
             <speaker>AFIN</speaker>
             <p>Acasă-i cucoana?</p>
@@ -1397,7 +1401,7 @@
         </div>
         <div type="scene" n="VII">
           <head>SCENA VII</head>
-          <note type="setting"> CHIRIȚA, AFIN, LULUȚA </note>
+          <stage> CHIRIȚA, AFIN, LULUȚA </stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <p>Auzi, tontu?</p>
@@ -1777,9 +1781,9 @@
         </div>
         <div type="scene" n="VIII">
           <head>SCENA VIII</head>
-          <note type="setting">Cei dinainte, GUGULIȚĂ</note>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <stage>Cei dinainte, GUGULIȚĂ</stage>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (alergând cu un răvaș din odaia lui) </stage>
             <p>Neneacă, neneacă... iaca un răvaș de la băbaca.</p>
             <stage> (Se oprește rușinat, văzând pe Afinoaie și pe Luluța.) </stage>
@@ -1807,8 +1811,8 @@
             <stage> (Vorbit.) </stage>
             <p>Fifița o răposat?... mare minune!...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>A crăpat!... bine-a făcut că mă mușca tot de nas.</p>
           </sp>
           <sp who="#chirita">
@@ -1827,16 +1831,16 @@
             <stage> (Citește:) </stage>
             <p>„Al triilea, te înștiințez că câșlegile se apropie de sfârșit... drept care îți poroncesc să-ți iei catrafusele și să vii înapoi îndată la Bârzoieni, ca să facem cununia cu paharnicul Brustur și cu căminarul Cociurlă, căci la dimpotrivă vin eu însumi la Iași ca să vă umflu pe sus cu nepus în masă. Al d-tale soț supus și iubit... Grigori Bârzoi ot Bârzoieni. 15 Ghenarie 1844.”</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Băbaca are să vie aici!... E! bine-mi pare!... am să-i cânt toată ziua din minavet...</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <stage> (caută la Guliță cu mirare și pe urmă îi întoarce spatele) </stage>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (Luluței) </stage>
             <p>Din minavet...</p>
           </sp>
@@ -1896,8 +1900,8 @@
             <p>Ce-o zis?... Hei, că nu ești a mea, păcatule!</p>
             <p>CHIRIȚA,</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Adio! în astă-seară</p>
             <p>Vom veni cu toți la bal</p>
             <p>Să-ngropăm în veselie</p>
@@ -1953,13 +1957,13 @@
         </div>
         <div type="scene" n="IX">
           <head>SCENA IX</head>
-          <note type="setting">CHIRIȚA, GUGULIȚĂ și pe urmă FECIORUL</note>
+          <stage>CHIRIȚA, GUGULIȚĂ și pe urmă FECIORUL</stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <p>Ei! de-acum hai degrabă la îmbrăcat... Guliță, du-te de-ți pune straiele cele de Anul Nou și te fă pupuica, sufletul meu.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Da nu pot să mă-mbrac singur, neneacă...</p>
           </sp>
           <sp who="#chirita">
@@ -1992,8 +1996,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Taci din gură... și mergi de-mbracă cuconașul. Guliță, să nu mă dai de sminteală.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Lezebon, maman... eu acuși sunt gata... cât ai bate-n palme.</p>
             <stage> (Iese cu feciorul și intră în odaia lui.) </stage>
           </sp>
@@ -2006,7 +2010,7 @@
         </div>
         <div type="scene" n="X">
           <head>SCENA X</head>
-          <note type="setting">CHIRIȚA, ARISTIȚA, CALIPSIȚA</note>
+          <stage>CHIRIȚA, ARISTIȚA, CALIPSIȚA</stage>
           <sp who="#calipsita">
             <speaker>CALIPSIȚA</speaker>
             <stage/>
@@ -2084,8 +2088,8 @@
             <p>Aud, cucoană.</p>
             <stage> (Aleargă până la ușa Chiriței și se întoarce înapoi la ușa lui Guliță; pe urmă face îndărăt și intră la Chirița.) </stage>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (din odaie) </stage>
             <p>Gheorghe... Gheorghe...</p>
           </sp>
@@ -2106,15 +2110,15 @@
             <stage> (ieșind amețită, aleargă când la o ușă, când la alta și în sfârșit intră iar la fete, care în toată vremea asta o tot cheamă) </stage>
             <p>Mare păcat!...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (încălțat cu o singură ciubotă, aleargă după Gheorghe și intră după el în odaia Chiriței) </stage>
             <p>Gheorghe... Gheorghe... da vină de-mi pune ciubota...</p>
           </sp>
         </div>
         <div type="scene" n="XI">
           <head>SCENA XI</head>
-          <note type="setting">PUNGESCU, BONDICI</note>
+          <stage>PUNGESCU, BONDICI</stage>
           <sp who="#bondicis">
             <speaker>BONDICIȘ</speaker>
             <stage> (deschizând ușa din fund, încet) </stage>
@@ -2408,7 +2412,7 @@
         </div>
         <div type="scene" n="XII">
           <head>SCENA XII</head>
-          <note type="setting">Cei dinainte, ARISTIȚA, CALIPSIȚA</note>
+          <stage>Cei dinainte, ARISTIȚA, CALIPSIȚA</stage>
           <sp who="#aristita #calipsita #bondici">
             <speaker>ARISTIȚA, CALIPSIȚA, BONDICI</speaker>
             <p>Sărutăm mânușițele și picioarele duducilor...</p>
@@ -2517,7 +2521,7 @@
         </div>
         <div type="scene" n="XIII">
           <head>SCENA XIII</head>
-          <note type="setting">Cei dinainte, CHIRIȚA</note>
+          <stage>Cei dinainte, CHIRIȚA</stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <stage> (ieșind din odaia ei și văzând scena de mai sus, vine repede și întinde mâinile deasupra lui Bondici și a lui Pungescu) </stage>
@@ -2567,9 +2571,9 @@
         </div>
         <div type="scene" n="XIV">
           <head>SCENA XIV</head>
-          <note type="setting">Cei dinainte, GUGULIȚĂ, FECIORUL</note>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <stage>Cei dinainte, GUGULIȚĂ, FECIORUL</stage>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (ieșind cu feciorul din odaia Chiriței, numai cu o ciubotă) </stage>
             <p>Neneacă... neneaca... zi feciorului să mă-mbrace.</p>
           </sp>
@@ -2585,8 +2589,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Ieși afară, tontule!... Guliță, mergi degrabă de te gătește, că se întârzie.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Lezebon, maman...</p>
             <stage> (Intră în odaia lui cu feciorul.) </stage>
           </sp>
@@ -2630,8 +2634,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Bucuros... Lipon, hai să ne pornim... Guliță... Guliță...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (din odaie) </stage>
             <p>Aud, neneacă.</p>
           </sp>
@@ -2639,8 +2643,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Gata ești, suflete?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Ca ș-un purces... iată-mă-s.</p>
             <stage> (Iese din odaie cu minavetul în spate.) </stage>
           </sp>
@@ -2648,16 +2652,16 @@
             <speaker>CHIRIȚA</speaker>
             <p>Ce-mi văzură ochii!... Cu minavetul vrei să mergi la bal?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Cu minavetul... ca să le cânt cucoanelor.</p>
           </sp>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <p>Ai nebunit?... lasă dulapul din spate...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Ei... neneacă.</p>
           </sp>
           <sp who="#chirita">
@@ -2722,7 +2726,7 @@
         <head>ACTUL III</head>
         <div type="scene" n="XV">
           <head>SCENA XV</head>
-          <note type="setting">VĂDUVA AFIN, LULUȚA, FECIORI în livrele</note>
+          <stage>VĂDUVA AFIN, LULUȚA, FECIORI în livrele</stage>
           <sp who="#feciorii">
             <speaker>FECIORII</speaker>
             <p>Las’ pe noi,</p>
@@ -2797,7 +2801,7 @@
             <speaker>AFIN</speaker>
             <p>Ce este?... cine vine la bal de pe acum?... de-abia a înserat și nici măcar nu s-au aprins policandrele.</p>
           </sp>
-          <note type="setting">Se aude glasul Chiriței, zicând: „Carnacsî!... că era să fac bâca!”</note>
+          <stage>Se aude glasul Chiriței, zicând: „Carnacsî!... că era să fac bâca!”</stage>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Maman, maman... vine mătușica...</p>
@@ -2810,7 +2814,7 @@
         </div>
         <div type="scene" n="XVI">
           <head>SCENA XVI</head>
-          <note type="setting">Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA și GUGULIȚĂ</note>
+          <stage>Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA și GUGULIȚĂ</stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <p>Of! slavă Domnului c-am agiuns cu capul teafăr... Sărut ochișorii, cucoană Nastasiică... Doamne! da rău îi pe ulița d-tale!</p>
@@ -2882,8 +2886,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Ba n-a sări, că i-a fi rușine, cu paveua asta pocită... Mi-am mușcat limba de vro șăpte ori pân-aici.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Și eu mi-am mușcat limba.</p>
           </sp>
           <sp who="#aristita">
@@ -2938,8 +2942,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Sărut ochișorii... Aristițo, Calipsițo... veniți cu mine.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>D-apoi eu, neneacă, să nu vin?</p>
           </sp>
           <sp who="#chirita">
@@ -2959,8 +2963,8 @@
             <p>Necruțat se biciuiesc!</p>
             <p>AFIN, LULUȚA,</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Mergeți, mergeți cu grăbire</p>
             <p>Etc., etc., etc.</p>
           </sp>
@@ -3007,19 +3011,19 @@
             <speaker>LULUȚA</speaker>
             <p>Mergeți, mergeți ș.c.l.</p>
           </sp>
-          <note type="setting">Chirița cu fetele ies prin fund. Afinoaia intră în stânga.</note>
+          <stage>Chirița cu fetele ies prin fund. Afinoaia intră în stânga.</stage>
         </div>
         <div type="scene" n="XVII">
           <head>SCENA XVII</head>
-          <note type="setting"> LULUȚA, GULIȚĂ </note>
+          <stage> LULUȚA, GULIȚĂ </stage>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <stage> (în parte) </stage>
             <p>Oh! la drôle de figure!</p>
             <stage> (Râde încet.) </stage>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (în parte) </stage>
             <p>Când aș avea încalte minavetul aici!... aș dura un corțent, de-ar țiui urechile.</p>
           </sp>
@@ -3029,8 +3033,8 @@
             <p>La drôle de figure! mon Dieu! la drôle de figure.</p>
             <stage> (Râde tare.) </stage>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (în parte) </stage>
             <p>Dec!... ce se tot uită la mine!...</p>
           </sp>
@@ -3039,8 +3043,8 @@
             <stage> (se apropie de Guliță) </stage>
             <p>Monsieur Guliță?... mai sunt mulți ca d-ta în provinție?... Ha, ha, ha!</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (în parte) </stage>
             <p>Râde de mine?</p>
             <stage> (Tare și mânios.) </stage>
@@ -3050,40 +3054,40 @@
             <speaker>LULUȚA</speaker>
             <p>Parcă te-ai mâniat?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Să știi că m-am mâniat. Ce ai să râzi de mine?</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Apoi dacă nu mă pot stăpâni... ce să fac?... ha, ha, ha!</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Ian ascultă... pre legea mea.</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Ce?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Acuși... mă duc acasă.</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Călătorie sprâncenată.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Cum ai zis... struncinată?</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Ei! nu te mai rățoi așa, că nu-ți șade bine. Hai mai bine să ne jucăm împreună.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (îmblânzindu-se) </stage>
             <p>De-a puia-gaia?... ori de-a babaoarba?</p>
           </sp>
@@ -3091,8 +3095,8 @@
             <speaker>LULUȚA</speaker>
             <p>Ha, ha, ha!... parcă-i la școală...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Iar râzi de mine?... mă duc acasă...</p>
             <stage> (Vrea să iasă.) </stage>
           </sp>
@@ -3109,32 +3113,32 @@
             <speaker>LULUȚA</speaker>
             <p>Ian spune-mi: știi să gioci?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Hai, hai!... m-o învățat un franțuz să gioc carcanu... Ia așa, și cu mâinile, și cu picioarele.</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Și să cânți?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Hai, hai!</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Apoi să giucăm împreună tot balul...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Da mata știi să împletești din picioare?</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Auzi întrebare... parcă n-aș fi din Iași!</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Nu te supăra... credeam că fiind mititică... poate că...</p>
           </sp>
           <sp who="#luluta">
@@ -3143,8 +3147,8 @@
             <stage> (Se înalță pe vârful picioarelor.) </stage>
             <p>Te poftesc...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Măcar... că și bunica-i mititică, și-i de vro șaptezeci de ani. Așa-i tot tremură capul... Mata de câți ani ești?</p>
           </sp>
           <sp who="#luluta">
@@ -3161,8 +3165,8 @@
             <stage> (Îi dă trei tifle.) </stage>
             <p>Cinq... dix... quinze...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (furios) </stage>
             <p>Îmi dai tifla!... Ian ascultă, mamzelă... pre legea mea...</p>
           </sp>
@@ -3171,8 +3175,8 @@
             <stage> (apropiindu-se de Guliță) </stage>
             <p>Ce? mă rog, ce?...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (domolindu-se) </stage>
             <p>Nimic...</p>
           </sp>
@@ -3180,8 +3184,8 @@
             <speaker>LULUȚA</speaker>
             <p>Ha, ha, ha!... Iar te-ai uitat drept la mine.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (în parte) </stage>
             <p>Eu, zău, mă duc acuși acasă...</p>
           </sp>
@@ -3189,16 +3193,16 @@
             <speaker>LULUȚA</speaker>
             <p>Iar te-ai supărat?... da iute ești...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Să știi că-s iute... ca hreanu...</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Hai să ne împăcăm... vrei?... dă-mi mâna-ncoace.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (îi dă mâna, în parte) </stage>
             <p>A dracului fetiță!... mă sucește ca pe-un titirez.</p>
           </sp>
@@ -3206,24 +3210,24 @@
             <speaker>LULUȚA</speaker>
             <p>Acum... fiindcă suntem prieteni, hai să cântăm și să giucăm... Vrei, monsiu Guliță?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Bucuros... dar ce să cântăm?... frunză verde?...</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Ba nu... lasă să-ți cânt eu un cântec care l-am auzit la guvernanta... cu gioc la sfârșit.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Să te văd... adică să te-aud... îmi deschid urechile-n patru.</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Dacă-s destul așa cum sunt... îs deschise cât opt.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Ha, ha, ha! m-a pâcâlit.</p>
           </sp>
           <sp who="#luluta">
@@ -3233,16 +3237,16 @@
             <stage> (Tare.) </stage>
             <p>Ascultă...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Da cum îi zic cântecului?</p>
           </sp>
           <sp who="#luluta">
             <speaker>LULUȚA</speaker>
             <p>Drin, drin, drin...</p>
           </sp>
-          <sp who="#guluta">
-            <speaker>GULUȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Drin, drin, drin?... parcă-s zurgalăi de sanie...</p>
             <stage> (În parte.) </stage>
             <p>Ce păcat că n-am minavetu aici!... i-aș trage un corțent de cele tătărești.</p>
@@ -3260,8 +3264,8 @@
             <p>Drin, diririndrin, drin.</p>
             <p>LULUȚA și</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (făcând balanse de cadril) </stage>
             <p>Drin, drin, drin, drin, drin.</p>
             <p>Etc., etc., etc.</p>
@@ -3290,8 +3294,8 @@
             <p>Drin, drin, drin, drin, drin.</p>
             <p>Etc., etc.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Îra! iaca cofeturi!</p>
             <stage> (Aleargă la tabla și-și umple buzunările.) </stage>
             <p>De cele cu fâstâci sunt?...</p>
@@ -3301,8 +3305,8 @@
             <stage> (alergând la tabla) </stage>
             <p>Da lasă-mi și mie, monsieur Guliță... nu le lua pe toate.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Pentru mata le-am luat, Luluță...</p>
           </sp>
           <sp who="#luluta">
@@ -3313,8 +3317,8 @@
             <stage> (Tare.) </stage>
             <p>Dacă-i așa, hai să giucăm ș-o polcă.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Hai ș-o polcă... eu sunt gata să fac ce ți-a plăcea...</p>
             <stage> (În parte.) </stage>
             <p>Tare mi-i dragă fetița asta!</p>
@@ -3324,7 +3328,7 @@
             <p>Polca, polca... plini de foc</p>
             <p>Vesel noi te dănțuim!</p>
           </sp>
-          <note type="setting">Ies amândoi în fund, jucând și împing pe sărdarul Cuculeț, care intră.</note>
+          <stage>Ies amândoi în fund, jucând și împing pe sărdarul Cuculeț, care intră.</stage>
         </div>
         <div type="scene" n="XVIII">
           <head>SCENA XVIII</head>
@@ -3336,7 +3340,7 @@
         </div>
         <div type="scene" n="XIX">
           <head>SCENA XIX</head>
-          <note type="setting"> CUCULEȚ, AFIN : (iese din odaia sa, zicând à la cantonade)</note>
+          <stage> CUCULEȚ, AFIN : (iese din odaia sa, zicând à la cantonade)</stage>
           <sp who="#afin">
             <speaker>AFIN</speaker>
             <p>Ziceți lui domnu Timofte să gătească limonada.</p>
@@ -3469,11 +3473,11 @@
             <stage> (În parte.) </stage>
             <p>Mai bucuros aș primi cucoanele.</p>
           </sp>
-          <note type="setting">Merg amândoi înaintea damelor și a cavalerilor, care intră prin salonul din fund.</note>
+          <stage>Merg amândoi înaintea damelor și a cavalerilor, care intră prin salonul din fund.</stage>
         </div>
         <div type="scene" n="XX">
           <head>SCENA XX</head>
-          <note type="setting"> AFIN, CUCULEȚ, POFTIȚII la bal </note>
+          <stage> AFIN, CUCULEȚ, POFTIȚII la bal </stage>
           <sp who="#poftitii">
             <speaker>POFTIȚII</speaker>
             <p>Iată-ne cu toți la bal!</p>
@@ -3498,11 +3502,11 @@
             <speaker>TOȚI</speaker>
             <p>Vivat cei care dau bal etc.</p>
           </sp>
-          <note type="setting">Damele se pun pe scaunele de lângă canapea, care rămâne slobodă. Cavalerii se pun în fund.</note>
+          <stage>Damele se pun pe scaunele de lângă canapea, care rămâne slobodă. Cavalerii se pun în fund.</stage>
         </div>
         <div type="scene" n="XXI">
           <head>SCENA XXI</head>
-          <note type="setting"> Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA, BONDICI și PUNGESCU</note>
+          <stage> Cei dinainte, CHIRIȚA, ARISTIȚA, CALIPSIȚA, BONDICI și PUNGESCU</stage>
           <sp who="#chirita">
             <speaker>CHIRIȚA</speaker>
             <stage> (intrând furioasă și făcându-și vânt cu basmaua) </stage>
@@ -3713,7 +3717,7 @@
             <p>Ha!... iaca un cavaler... dă, Doamne!... parcă cată damă de gioc?... dar... slavă ție, Doamne! c-o să-mi poftească o fată. Ba nici hâci?... vai! bată-l cucu miliord... cu orbu găinilor... Uf! iar o să facem patiserie!</p>
             <stage> (Se pune pe canapea.) </stage>
           </sp>
-          <note type="setting">(Un fecior trece cu cofeturi.)</note>
+          <stage>(Un fecior trece cu cofeturi.)</stage>
           <sp who="#pungescu">
             <speaker>PUNGESCU</speaker>
             <p>Ștos!</p>
@@ -3750,9 +3754,9 @@
         </div>
         <div type="scene" n="XXII">
           <head>SCENA XXII</head>
-          <note type="setting"> Cei dinainte, GUGULIȚĂ și LULUȚA </note>
-          <sp who="#luluta #gugulita">
-            <speaker>GUGULIȚĂ și LULUȚA</speaker>
+          <stage> Cei dinainte, GUGULIȚĂ și LULUȚA </stage>
+          <sp who="#luluta #gulita">
+            <speaker>GULIȚĂ și LULUȚA</speaker>
             <p>Polca, polca, vesel joc,</p>
             <p>Polca, polca, te iubim!</p>
             <p>Polca, polca... plini de foc</p>
@@ -3762,8 +3766,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Iaca Guliță! cum gioacă de frumusel, dragu mamei!... parcă-i un titirez!... Numai voi stați locului ca turnu Trisfetitelor... Guliță... Guliță...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Aud, neneacă...</p>
             <stage> (Vine lângă Chirița.) </stage>
           </sp>
@@ -3771,8 +3775,8 @@
             <speaker>CHIRIȚA</speaker>
             <p>Vină, Guguleo, de-ți gioacă țâțacele...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Bucuros... Hai, țâțacă Calipsițo.</p>
           </sp>
           <sp who="#calipsita">
@@ -3928,8 +3932,8 @@
             <p>Coți... coți... ginerii mei?... Valeu! am dat cinstea pe rușine... Ah! ah!</p>
             <stage> (Leșină.) </stage>
           </sp>
-          <note type="setting">(Afinoaie, Aristița, Calipsița și Guliță pun pe Chirița pe canapea și caută s-o dezleșine. Damele vin lângă canapea. Cuculeț, Bondici, Pungescu și epistații în stânga. Fundul scenei îi slobod.)</note>
-          <note type="setting">Repriză.</note>
+          <stage>(Afinoaie, Aristița, Calipsița și Guliță pun pe Chirița pe canapea și caută s-o dezleșine. Damele vin lângă canapea. Cuculeț, Bondici, Pungescu și epistații în stânga. Fundul scenei îi slobod.)</stage>
+          <stage>Repriză.</stage>
           <sp who="#corul">
             <speaker>CORUL</speaker>
             <p>Vai! ce întâmplare! etc.</p>
@@ -3949,14 +3953,14 @@
         </div>
         <div type="scene" n="XXIII">
           <head>SCENA XXIII</head>
-          <note type="setting">Cei dinainte, BÂRZOI</note>
+          <stage>Cei dinainte, BÂRZOI</stage>
           <sp who="#barzoi">
             <speaker>BÂRZOI</speaker>
             <stage> (intrând prin salonul din fund) </stage>
             <p>Care-i cucoana de gazdă aici?...</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (alergând la Bârzoi) </stage>
             <p>Băbaca!... Băbaca!... a venit băbăcuța!...</p>
           </sp>
@@ -3976,8 +3980,8 @@
             <speaker>BÂRZOI</speaker>
             <p>Eu și cu mine, cucoană dragă!... Unde mi-i Chirițușca cu puii?</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <p>Neneaca?... a leșinat, băbacă.</p>
           </sp>
           <sp who="#barzoi">
@@ -4080,8 +4084,8 @@
             <speaker>BÂRZOI</speaker>
             <p>Haide-ți zic astăzi și nu mai lungi vorba... Trăsura ne-așteaptă la scară cu lucruri, cu tot.</p>
           </sp>
-          <sp who="#gugulita">
-            <speaker>GUGULIȚĂ</speaker>
+          <sp who="#gulita">
+            <speaker>GULIȚĂ</speaker>
             <stage> (în parte.) </stage>
             <p>Și cu minavetul meu?</p>
             <stage> (Iese cu fuga.) </stage>
