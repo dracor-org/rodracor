@@ -22,16 +22,24 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="originalSource">
-          <name/>
-          <idno type="URL"/>
-          <title>Editura Librăriei N. Steinberg din Bucureşti</title>
+        <bibl type="digitalSource">
+          <name>Biblioteca Centrală Universitară</name>
+          <idno type="URL">https://bcub.ro/lib2life/Manasse_Ronetti%20Roman%20Moise_Bucuresti_1900.pdf</idno>
           <availability>
             <licence>
-              <ab>public domain</ab>
-              <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+              <ab>CC-BY-3.0</ab>
+              <ref target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">Licență</ref>
             </licence>
           </availability>
+          <bibl type="originalSource">
+            <title>Editura Librăriei N. Steinberg din Bucureşti</title>
+            <availability>
+              <licence>
+                <ab>public domain</ab>
+                <ref target="https://creativecommons.org/share-your-work/public-domain/">Licence</ref>
+              </licence>
+            </availability>
+          </bibl>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -59,8 +67,8 @@
           <person xml:id="avocatul">
             <persName>Avocatul</persName>
           </person>
-          <person xml:id="cocoana_groasa">
-            <persName>Cocoana Groasa</persName>
+          <person xml:id="cocoana_grasa">
+            <persName>O cucoană grasă</persName>
           </person>
           <person xml:id="o_dama_inalta_cu_nasul_ascutit">
             <persName>Dama Inalta Cu Nasul Ascutit</persName>
@@ -74,8 +82,11 @@
           <person xml:id="horn">
             <persName>Horn</persName>
           </person>
-          <person xml:id="intaiul_martor">
+          <person xml:id="martorul_1">
             <persName>Intaiul Martor</persName>
+          </person>
+          <person xml:id="martorul_2">
+            <persName>Al Doilea Martor</persName>
           </person>
           <person xml:id="jorj">
             <persName>Jorj</persName>
@@ -107,6 +118,18 @@
           <person xml:id="sor">
             <persName>Sor</persName>
           </person>
+          <person xml:id="ghita">
+            <persName>GHIȚĂ</persName>
+          </person>
+          <person xml:id="contabilul">
+            <persName>CONTABILUL</persName>
+          </person>
+          <person xml:id="un_batran">
+            <persName>UN BATRÂN scurt</persName>
+          </person>
+          <person xml:id="toti">
+            <persName>Toți</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -120,7 +143,7 @@
   <standOff>
     <listEvent>
       <event type="print" when="1900">
-        <desc/>
+        <desc>1900</desc>
       </event>
       <event type="premiere" when="1901-03-12">
         <desc>Teatrului Naţional din Iaşi</desc>
@@ -239,8 +262,8 @@
         <head>ACTUL I</head>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <note type="setting">LELIA, zgâiește ochii şi nu pricepe</note>
-          <note type="setting">Un salon cam prea încărcat. O ușă deschisă în fund la dreapta, dând într-o anticameră, o uşă în dreapta și o uşă în stânga. </note>
+          <stage>LELIA, zgâiește ochii şi nu pricepe</stage>
+          <stage>Un salon cam prea încărcat. O ușă deschisă în fund la dreapta, dând într-o anticameră, o uşă în dreapta și o uşă în stânga. </stage>
           <sp who="#manasse">
             <speaker>MANASSE COHEN</speaker>
             <stage> (către feciorul care intră, după el) </stage>
@@ -1601,7 +1624,8 @@
             <speaker>NISIM</speaker>
             <p>Cu tatăl meu știu că ai venit.</p>
           </sp>
-          <sp who="#nisim">
+          <sp who="#sor">
+            <speaker>ȘOR</speaker>
             <p>Spune-mi, Nisim, ai ghicit-o asta din capul d-tale ?</p>
             <stage> (Ca o taină) </stage>
             <p>Am adus un mire pentru Lelia.</p>
@@ -2178,12 +2202,12 @@
         <head>ACTUL II</head>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <note type="setting">Intră Ester, Lelia, Roza şi Nisim.</note>
-          <note type="setting">&gt; Același salon. </note>
-          <note type="setting"> NISIM, ESTER</note>
-          <note type="setting">(pe sofa)</note>
-          <note type="setting">. LELIA</note>
-          <note type="setting">(pe un scaun)</note>
+          <stage>Intră Ester, Lelia, Roza şi Nisim.</stage>
+          <stage>&gt; Același salon. </stage>
+          <stage> NISIM, ESTER</stage>
+          <stage>(pe sofa)</stage>
+          <stage>. LELIA</stage>
+          <stage>(pe un scaun)</stage>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <stage> (plimbându-se prin salon.): </stage>
@@ -3018,7 +3042,6 @@
             <stage> (Către Manasse.) </stage>
             <p>Aș vrea să te întreb ceva, tată. &lt;didascalie&gt;</p>
             <stage>(Manasse se scoală şi iese cu Nisim prin fund.)</stage>
-            <stage></stage>
           </sp>
           <sp who="#ester">
             <speaker>ESTER</speaker>
@@ -3438,9 +3461,9 @@
         <head>ACTUL III</head>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <note type="setting">Unii musafiri din anticameră se întorc</note>
-          <note type="setting"> Același salon. Flori peste tot locul. </note>
-          <note type="setting"> Nisim, Roza </note>
+          <stage>Unii musafiri din anticameră se întorc</stage>
+          <stage> Același salon. Flori peste tot locul. </stage>
+          <stage> Nisim, Roza </stage>
           <sp who="#nisim">
             <speaker>NISIM</speaker>
             <stage> (Se plimbă nerăbdător prin salon, se opreşte, scoate ceasornicul.) </stage>
@@ -5208,15 +5231,15 @@
             <stage> (către cocoana groasă.) </stage>
             <p>Spune-mi numai, cocoană dragă, mă întreb eu singur, de ce au mai poftit lume ?</p>
           </sp>
-          <sp who="#cocoana_groasa">
-            <speaker>COCOANA GROASĂ</speaker>
+          <sp who="#cocoana_grasa">
+            <speaker>COCOANA GRASĂ</speaker>
             <p>Biata Ester!</p>
           </sp>
-          <sp who="#dama_inalta_cu_nasul_ascutit">
+          <sp who="#o_dama_inalta_cu_nasul_ascutit">
             <speaker>DAMA ÎNALTĂ CU NASUL ASCUȚIT</speaker>
             <p>Ia, cocoană dragă, nu o mai plânge, De ce să ne înșelăm. Nu vreau să zic nimica, dar trebue să fie capul ei la mijloc. Parcă fără voia ei se mișcă un pai în casa asta. Mi-e milă numai de bărbatul său săracul, n-ai idee cum îl duce de nas. Aşa bunătate de bărbat!</p>
             </sp>
-            <sp who="#cei_doi_martori">
+          <sp who="#martorul_1 #martorul_2">
             <speaker>CEI DOI MARTORI</speaker>
             <stage> (către Șor) </stage>
             <p>Unde e mirele?</p>
@@ -5225,11 +5248,11 @@
             <speaker>ȘOR</speaker>
             <p>A plecat.</p>
           </sp>
-          <sp who="#al_doilea_martor">
+          <sp who="#martorul_2">
             <speaker>AL DOILEA MARTOR</speaker>
             <p>A plecat deja la primărie?</p>
           </sp>
-          <sp who="#intaiul_martor">
+          <sp who="#martorul_1">
             <speaker>ÎNTÂIUL MARTOR</speaker>
             <p>Fără noi? Nu se poate! Cum să se ducă fără martori?</p>
             </sp>
@@ -5237,7 +5260,7 @@
             <speaker>ȘOR</speaker>
             <p>Nu. A plecat la plimbare.</p>
           </sp>
-          <sp who="#al_doilea_martor">
+          <sp who="#martorul_2">
             <speaker>AL DOILEA MARTOR</speaker>
             <p>Cum la plimbare ?</p>
             </sp>
@@ -5252,7 +5275,7 @@
             <stage> (râzând) </stage>
             <p>Vezi, Aristide, n-ai noroc. Erai să vezi odată o nuntă ovreiască, și aceea s-a spart.</p>
           </sp>
-          <sp who="#intaiul_martor">
+          <sp who="#martorul_1">
             <speaker>ÎNTÂIUL MARTOR</speaker>
             <p>Atâta pagubă! Cu atât mai bine, nu pierd vreme. Hai la club.</p>
             <stage> (Matartorii ies.) </stage>
