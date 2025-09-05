@@ -1,6 +1,6 @@
 # RoDraCor
 
-This is the **Ro**manian **Dra**ma **Cor**pus. Alpha version.
+This is the **Ro**manian **Dra**ma **Cor**pus.
 
 Edited by Andrei Terian (coordinator), Ovio Olaru (deputy coordinator),
 Cristina Cojocaru (technical coordinator), Victor Cobuz, Alexandra Oprescu,
