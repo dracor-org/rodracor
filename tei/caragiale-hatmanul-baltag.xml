@@ -119,7 +119,8 @@
         <head>ACTUL I</head>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <stage>Scena I</stage>
+          <div type="scene" n="1">
+            <head>Scena I</head>
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Sculaţi! Sculaţi!</p>
@@ -555,9 +556,11 @@
             <p>Tabloul II</p>
           </sp>
         </div>
+        </div>
         <div type="scene" n="2">
           <head>Scena reprezentă pivniţa hatmanului Baltag: două bolţi mari, una în planul întâi, alta în planul II. Fundalul şi culisele arată rânduri superpuse de butii mari şi mici, toate cu inscripţii de vinuri şi provenienţa vinurilor: Cotnar Busuioc, leat 5475; Odobeşti alb, [leat] 5603; Uricani roş, leat 5246; Nicoreşti profir, leat 5325; Drăgăşani, corniţa-ruginiu, leat 5482. Interiorul pivniţei este luminat de un mare policandru spânzurat de arcul bolţei din faţă, policandrul e făcut dintr-un mănunchi de coarne de cerb, pe muchiile buţilor stau înfipte sfeşnice tot din corn, de arcul bolţei din faţă stau aninate stemele familiilor Baltag şi Stacan. Cea dintâi înfăţişează un scut împărţit în patru cartiere, care poartă de-a curmezişul un baltag de argint şi deasupra un coif cu vizieră şi cu un păunaş mare resfirat, în cele trei culori româneşti. De mânerul baltagului atârnă o panglică cu deviza: „În noaptea timpurilor“. „Totdeauna-n luptă!“ A doua stemă reprezentă un scut împărţit cu o diagonală în două jumătăţi, una albă, alta roşie. Scutul poartă în mijloc un borcan şi de-o parte şi de alta, unul sus şi altul jos, două pahare; de partea albă, un pahar roş, de partea roşie, un pahar alb, de toartele borcanului atârnă câte-o panglică cu deviza: „Totdeauna plin, totdeauna gol“. În mijlocul teatrului sub policandru o cadă rotundă, răsturnată cu fundul în sus şi de jur împrejur mai multe balerce mici, asemenea. La ridicarea perdelei, slujitorii hatmanului gătesc de masă pe cadă, aprind făcliile şi sfeşnicele care se lasă şi se ridică cu un lanţ pe scripăt şi aşază balercele de jur împrejurul căzei cu scaune. Intrarea în pivniţă este în planul din urmă la stânga pe-o scară, prin deschizătura</head>
-          <stage>Scena I</stage>
+          <div type="scene" n="1">
+            <head>Scena I</head>
           <sp who="#cor_de_slujitori">
             <speaker>COR DE SLUJITORI</speaker>
             <p>Hai copii curând la treabă,</p>
@@ -1199,25 +1202,28 @@
           <stage>(Chindie)</stage>
           <stage>(Stacan, Ciracii se prind la joc. Cortina cade după câteva măsuri ale danţului.)</stage>
           <stage>(Sfârşitul actului I) &lt;/desc&gt;</stage>
-          <stage>ACTUL II</stage>
         </div>
-        <div type="scene" n="3">
-          <head>Scena I</head>
-          <sp who="#femei">
-            <speaker>FEMEI</speaker>
-            <p>Iată-acum viteazul mire</p>
-            <p>Cu mireasa-i s-a unit,</p>
-            <p>Cu noroc şi fericire</p>
-            <p>Fie-i traiul nesfârşit!</p>
-            <p>Ensemble</p>
+        </div>
+      </div>
+        <div type="act" n="2">
+          <head>ACTUL II</head>
+          <div type="scene" n="1">
+            <head>Scena I</head>
+            <sp who="#femei">
+              <speaker>FEMEI</speaker>
+              <p>Iată-acum viteazul mire</p>
+              <p>Cu mireasa-i s-a unit,</p>
+              <p>Cu noroc şi fericire</p>
+              <p>Fie-i traiul nesfârşit!</p>
+              <p>Ensemble</p>
+              </sp>
+          <sp who="#barbati_femei">
+              <speaker>BĂRBAŢI:	                            FEMEI</speaker>
+              <p>Iată gingaşa mireasă etc.          	Iată-acum viteazul mire etc.</p>
+              <stage> (Procesiunea se pierde în stânga) </stage>
             </sp>
-        <sp who="#barbati_femei">
-            <speaker>BĂRBAŢI:	                            FEMEI</speaker>
-            <p>Iată gingaşa mireasă etc.          	Iată-acum viteazul mire etc.</p>
-            <stage> (Procesiunea se pierde în stânga) </stage>
-          </sp>
-        </div>
-        <div type="scene" n="4">
+          </div>
+        <div type="scene" n="2">
           <head>Scena II</head>
           <stage>SOTIR:  (intră prin dreapta urmărit de Stacan)</stage>
           <stage>STACAN:  (stăruie)</stage>
@@ -1317,7 +1323,8 @@
           </sp>
           <stage>SOTIR:  (îl întrerupe)</stage>
           <stage>Nu mai trebuie; iată-i vin, ascunde-te degrabă.  (Stacan s-ascunde, Sotir iese la dreapta. Baltag şi Zulnia intră.)</stage>
-          <stage>Scena III</stage>
+          <div type="scene" n="3">
+            <head>Scena III</head>
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Eşti a mea în sfârşit!</p>
@@ -1372,7 +1379,9 @@
             <p>Cu dulce s-au unit.		De ceriuri eşti trimis!</p>
           </sp>
           <stage>ZULNIA: Nobilul meu cavaler, te las singur câteva momente lungi şi grele, pentru că o să le petrec fără tine.  (iese.)</stage>
-          <stage>Scena IV</stage>
+          </div>
+        <div type="scene" n="4">
+          <head>Scena IV</head>
           <stage>STACAN:  (iese de după tufiş)</stage>
           <stage>Trebuie să mărturisesc că a avut gust berbantul, nostimă de tot: leită ex-turturica mea din tinereţe.  (înaintează sfios.)  Hatmane Baltag.</stage>
           <sp who="#baltag">
@@ -1664,7 +1673,9 @@
           </sp>
           <stage>SOTIR:  (venind din fund în stânga)</stage>
           <stage>’Aide veniţi, masa e tocmai în toiul ei, după recomandaţia mea, mesenii vă aşteaptă cu nerăbdare.  (Ies toţi pe scară.)</stage>
-          <stage>Scena VII</stage>
+          </div>
+        <div type="scene" n="7">
+          <head>Scena VII</head>
           <stage>(Duo)</stage>
           <stage>(Notă. Toată scena aceasta, până la catastrofă, se face cu brio nervos. Stacan este ameţit de la masă şi se ameţeşte din ce în ce mai mult cu înaintarea scenei, până ajunge la jocul final.) &lt;/desc&gt;</stage>
           <stage>ARGHIRIŢA:  (intră răpede prin fund şi coboară agitată în scenă)</stage>
@@ -1927,7 +1938,9 @@
           </sp>
           <stage>STACAN:  (jucând nuiaua)</stage>
           <stage>(Copiii năvălesc la dreapta şi ies încet.)</stage>
-          <stage>Scena II</stage>
+          </div>
+        <div type="scene" n="2">
+          <head>Scena II</head>
           <sp who="#stacan">
             <speaker>STACAN</speaker>
             <stage> (singur) </stage>
@@ -2058,6 +2071,7 @@
             <p>A-nceput explozia, să ne dăm la o parte până e vreme.</p>
             <stage> (ies toţi.) </stage>
           </sp>
+        </div>
         </div>
         <div type="scene" n="5">
           <head>Scena IV</head>
