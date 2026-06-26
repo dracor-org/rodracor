@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000095" xml:lang="ro">
   <teiHeader>
@@ -135,9 +135,11 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Tachiță!…</p>
-            <p>TACHI</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (venind iute de lângă piano) </stage>
-            <p>: Aud, doamna mea!</p>
+            <p>Aud, doamna mea!</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
@@ -170,19 +172,25 @@
           <sp who="#tachi">
             <speaker>TACHI</speaker>
             <p>Caii vor fi mâne până-n ziuă în curte… cai de cei noi… Zmei!</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Bravo! ești un tânăr neprețuit pentru comisioane!</p>
-            <p>TACHI</p>
+            <p>Bravo! ești un tânăr neprețuit pentru comisioane!</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (căutând pe furiș la Lina) </stage>
-            <p>: Numai pentru comisioane?</p>
+            <p>Numai pentru comisioane?</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Om vedea mai pe urmă la ce ai mai putea fi bun… O! Tăchiță, când gândesc că am să merg la București, ca să-mi petrec iarna, nu mă ține locul de bucurie… Îmi vine tot să cânt și să joc… dar tu, Lină?</p>
-            <p>LINA</p>
+            </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
             <stage> (sculându-se de la piano) </stage>
-            <p>: Și eu, maman… Dar d-ta, domnule Tachi?</p>
+            <p>Și eu, maman… Dar d-ta, domnule Tachi?</p>
           </sp>
           <sp who="#tachi">
             <speaker>TACHI</speaker>
@@ -191,16 +199,20 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Dar… ne-i face comisioane în București?</p>
-            <p>TACHI</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (în parte) </stage>
-            <p>: Iar?</p>
+            <p>Iar?</p>
           </sp>
           <sp who="#lina">
             <speaker>LINA</speaker>
             <p>Și-i fi cavalerul nostru pe la grădini, pe la teatru, pe la baluri.</p>
-            <p>LUXIȚA</p>
+            </sp>
+        <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (exaltată) </stage>
-            <p>: Baluri, teatru, grădini!… iaca viață împărătească; dar nu ca în orașele astea de provinție, unde spiritul lângezește într-o atmosferă uricioasă ce usucă inima ca un zbârciog… o! București! București!</p>
+            <p>Baluri, teatru, grădini!… iaca viață împărătească; dar nu ca în orașele astea de provinție, unde spiritul lângezește într-o atmosferă uricioasă ce usucă inima ca un zbârciog… o! București! București!</p>
             <stage> (Arie nouă) </stage>
             <p>O! București</p>
             <p>Cu magic nume!</p>
@@ -282,19 +294,25 @@
           <sp who="#tachi">
             <speaker>TACHI</speaker>
             <p>Te-a fi orbit vestea cea mare.</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (căutÂnd la Lina) </stage>
-            <p>: Ba nu, mă orbiră razele brilante și strălucitoare ce ies din ochii domnișoarei Lina!</p>
-            <p>LINA</p>
+            <p>Ba nu, mă orbiră razele brilante și strălucitoare ce ies din ochii domnișoarei Lina!</p>
+            </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
             <stage> (râzând) </stage>
-            <p>: Pune ochelari, domnul meu!</p>
+            <p>Pune ochelari, domnul meu!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
             <p>Ah!… dacă mi-aș pune geamuri, aș fi lipsit de felieitatea și de fericirea…</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (cu nerăbdare) </stage>
-            <p>: Ești nesuferit!… Spune-mi vestea, că stau pe cărbuni!</p>
+            <p>Ești nesuferit!… Spune-mi vestea, că stau pe cărbuni!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -320,16 +338,20 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Și dumneata?</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (căutând împregiur, cu sfială) </stage>
-            <p>: O novelă colosală!</p>
+            <p>O novelă colosală!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
             <p>Ca a mea?</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (după ce a ascultat pe la uși) </stage>
-            <p>: Piramidală!</p>
+            <p>Piramidală!</p>
           </sp>
           <sp who="#tachi">
             <speaker>TACHI</speaker>
@@ -422,9 +444,11 @@
             <speaker>CIUPICI</speaker>
             <p>une… Minunat!… vrea să zică, tot orașul vrea să fie împiegat.</p>
             <stage> (Vorbesc încet împreună.) </stage>
-            <p>LINA</p>
+            </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
             <stage> (încet, lui Tachi) </stage>
-            <p>: Dar d-ta, domnule Tachi?</p>
+            <p>Dar d-ta, domnule Tachi?</p>
           </sp>
           <sp who="#tachi">
             <speaker>TACHI</speaker>
@@ -531,9 +555,11 @@
             <stage> (Strigă.) </stage>
             <p>Ioane! Ioane!</p>
             <stage> (Bate în palme.) </stage>
-            <p>ION</p>
+            </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
             <stage> (iese din dreapta) </stage>
-            <p>: Aud, cucoană!</p>
+            <p>Aud, cucoană!</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
@@ -556,9 +582,11 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Dusu-te-ai azi?</p>
-            <p>ION</p>
+            </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
             <stage> (ieșind) </stage>
-            <p>: Aud, cucoană!… Îi trag!</p>
+            <p>Aud, cucoană!… Îi trag!</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
@@ -577,9 +605,11 @@
           <sp who="#lina">
             <speaker>LINA</speaker>
             <p>Vine papa!</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (intrând prin fund cu o scrisoare deschisă în mână) </stage>
-            <p>: îneca-l-ar măslinele care le mănâncă, arendașul dracului!</p>
+            <p>îneca-l-ar măslinele care le mănâncă, arendașul dracului!</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
@@ -593,9 +623,11 @@
             <p>Destulo che s-a aprinso un clae de grio, l-am stinso; destulo che s-a aprinso alta clae tot de sacară, iar l-am stinso… Ma a arso bordeio de la aria… M-a ferito Dimnezeo de vinto, che me afanisemo.</p>
             <p>Chito pentru moșia dimitale, Gusganesti, si mi iertați, che nu poto si țino mai multo la dimiaei, che a venito lezea riurala, che mi a luato boerescu, che m-a afanisito… Lipon, spun la dimiata ritos, che de astazi nu mi erta intereso si filotimia se mai fiu arendași la dimiata, ma tot remuno supuso sluga dimitale. Ma închino cu plecațune,</p>
             <p>Agamemnon Trufandas.”</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (după ce a ascultat, dând semne de mirare și de furie) </stage>
-            <p>: Ce zice grecu? Ce zice? că lasă moșia?</p>
+            <p>Ce zice grecu? Ce zice? că lasă moșia?</p>
           </sp>
           <sp who="#naie">
             <speaker>NAIE</speaker>
@@ -616,9 +648,11 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Ba nu… pune-ți pofta-n cui despre voiaj și petreceri!… Trebuie să ne închidem în casă, să nu mai primim pe nime, și să trăim cu cea mai mare economie.</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (apucând-0 istericale) </stage>
-            <p>: Ah! ah!</p>
+            <p>Ah! ah!</p>
           </sp>
           <sp who="#lina">
             <speaker>LINA</speaker>
@@ -635,9 +669,11 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Luxițo, să mă vezi pe năsălii…</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (trezindu-se, furioasă) </stage>
-            <p>: Să mă las de București!</p>
+            <p>Să mă las de București!</p>
             <stage> (umblă rapide pe scenă) </stage>
             <p>odată cu capul! de-oi ști că m-oi duce pe jos val-vârtej pân-în capitală… Nu vreu să-mi petrec iarna aci… nu vreu!… Mi-am gătit toate tualetele… orașul întreg știe că ne pornim mâne… Ce-or zice când or afla că ne-am lăsat de voiaj… or râde de noi… Prefectorița să râdă de mine?… Nu vreu, nu vreu, nu vreu!…</p>
             <stage> (Cade obosită pe canape.) </stage>
@@ -645,20 +681,25 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Luxițo, sufletul meu! înțeleg că nu vrei, dar dacă nu-s mijloace… ce să facem?… trebuie răbdare, fata mea!</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (plângând) </stage>
-            <p>: Răbdare!… de zece ani de când tot rabd, și când era să-mi împlinesc visul, să mă văd deodată osândită a zice adio la mulțămirile ce-mi făgăduia!… Ah!… simt c-am să mor de durerea asta!</p>
-            <p>LINA</p>
+            <p>Răbdare!… de zece ani de când tot rabd, și când era să-mi împlinesc visul, să mă văd deodată osândită a zice adio la mulțămirile ce-mi făgăduia!… Ah!… simt c-am să mor de durerea asta!</p>
+            </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
             <stage> (plângând) </stage>
-            <p>: Maman…</p>
+            <p>Maman…</p>
           </sp>
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Ba, ferească Dumnezeu, să nu mori, că… mor și eu, pe legea mea.</p>
             <stage> (Își suflă nasul.) </stage>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (Arie „Adio, rămîi ferice”) </stage>
-            <p>:</p>
             <p>Adio, vis de plăcere,</p>
             <p>Vis frumos și desmerdat,</p>
             <p>În cumplită, grea durere</p>
@@ -680,9 +721,11 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Dar!… Am scris de mult la un prieten din București ca să intrigarisească…</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (inspirată) </stage>
-            <p>: O slujbă?… Dar… trebuie numaidecât s-o capeți… Directorul ministerului de interne vine aci la gazdă… și printr-însul…</p>
+            <p>O slujbă?… Dar… trebuie numaidecât s-o capeți… Directorul ministerului de interne vine aci la gazdă… și printr-însul…</p>
           </sp>
           <sp who="#naie">
             <speaker>NAIE</speaker>
@@ -708,9 +751,11 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Ți-oi spune tot, mai pe urmă!</p>
-            <p>NAIE</p>
+            </sp>
+        <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (buimăcit) </stage>
-            <p>: Direct… Minist… intern… aci?… M-am buimăcit!</p>
+            <p>Direct… Minist… intern… aci?… M-am buimăcit!</p>
           </sp>
         </div>
         <div type="scene" n="6">
@@ -723,9 +768,11 @@
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
             <p>Dar! Cum i-am zărit caleașca la poartă, m-am repezit la oblon și l-am poftit aci la gazdă.</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (aiurit) </stage>
-            <p>: Pe oblon?</p>
+            <p>Pe oblon?</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -772,9 +819,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Ghiță?.</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (închinindu-se) </stage>
-            <p>: Serviescu, fost membru la tribunalul judecătoriei,</p>
+            <p>Serviescu, fost membru la tribunalul judecătoriei,</p>
             <stage> (oftind) </stage>
             <p>însă astăzi în disponibilitate!</p>
           </sp>
@@ -819,9 +868,11 @@
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
             <p>Și aceasta mă șagrină, și chiar mă… mâhnește, cu atât mai mult că… fără modestie, mă simt vrednic și demn de orice rol în sânul patriei mele.</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Nu cumva aș putea să-l angajez în trupa mea?…</p>
+            <p>Nu cumva aș putea să-l angajez în trupa mea?…</p>
             <stage> (Tare.) </stage>
             <p>Domnule Serviescu, pre cât înțeleg, ai dori să mergi la București!</p>
           </sp>
@@ -840,24 +891,32 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Prea bine!… Aveți bunătate dar a-mi răspunde… știi ceti și scrie?</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (cam atins) </stage>
-            <p>: Întrebarea e cam curioasă… domnule director … Vă spusei mai adinioarea c-am fost membru la tribunalul judecătoriei…</p>
+            <p>Întrebarea e cam curioasă… domnule director … Vă spusei mai adinioarea c-am fost membru la tribunalul judecătoriei…</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Pardon… o uitasem…</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (în parte) </stage>
-            <p>: E mucalit directorul.</p>
-            <p>MILLO</p>
+            <p>E mucalit directorul.</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Ar fi bun de jucat rolul de amorez… cam naiv.</p>
+            <p>Ar fi bun de jucat rolul de amorez… cam naiv.</p>
             <stage> (Tare.) </stage>
             <p>Domnul meu!… Încă o întrebare… Fost-ai înamorat vrodată?</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (în parte) </stage>
-            <p>: E mucalit!</p>
+            <p>E mucalit!</p>
             <stage> (Tare.) </stage>
             <p>Am fost de mai multe ori, de vreme ce mă siliți să mă spovedesc și să-mi fac confesiunea.</p>
           </sp>
@@ -903,9 +962,11 @@
             <p>Și celelalte… Minunat!…</p>
             <stage> (în parte.) </stage>
             <p>De n-a cere leafă marc, îl angagez.</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (căutând să-și aducă aminte urma) </stage>
-            <p>: Nu-mi mai aduc aminte celelalte!</p>
+            <p>Nu-mi mai aduc aminte celelalte!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -964,12 +1025,16 @@
             <speaker>CIUPICI</speaker>
             <p>Domnule directore, mă felicit că vă găsesc disponibil, căci am să vă confes un ce misterios și… oribil!</p>
             <stage> (Merge de caută pe la uși.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (îngrijit) </stage>
-            <p>: Iaca! ce are de caută pe la uși ca un trădător de melodrame?</p>
-            <p>CIUPICI</p>
+            <p>Iaca! ce are de caută pe la uși ca un trădător de melodrame?</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (apropiindu-se posomorât) </stage>
-            <p>: Domnul meu! nu mă cunoașteți?</p>
+            <p>Domnul meu! nu mă cunoașteți?</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -1053,30 +1118,38 @@
             <p>Eu voi să te îndrept!</p>
             <p>Patrie!… cu grăbire</p>
             <p>Numește-mă prefect!</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Ar fi minunat în rol de trădător… De-aș putea să-l angagez…</p>
+            <p>Ar fi minunat în rol de trădător… De-aș putea să-l angagez…</p>
             <stage> (Tare.) </stage>
             <p>Domnul meu! nu mă îndoiesc de patriotismul și de… capacele d-voastre, dar vă mărturisesc că-mi pare lucru de mirare a vedea un om ca d-voastră cu atâtea… capace! să nu aibă altă ambiție decât aceea de a deveni un simplu prefect în provinție. Talentele d-voastre cer a să dezvolta pe un teatru mai mare… mai…</p>
           </sp>
           <sp who="#ciupici">
             <speaker>CIUPICI</speaker>
             <p>Zău!… Îmi faceți onoare de a mă crede capabil!… Nu poftiți ceva bomboane, domnul meu?</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (luând bomboane) </stage>
-            <p>: Mulțămesc… dar aș dori să vă văd figurând în București pe o scenă mai înaltă.</p>
+            <p>Mulțămesc… dar aș dori să vă văd figurând în București pe o scenă mai înaltă.</p>
           </sp>
           <sp who="#ciupici">
             <speaker>CIUPICI</speaker>
             <p>Ori pe care scenă, domnul meu; eu sunt la ordinele d-voastre!</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Ori pe care scenă? Apoi e al meu!</p>
+            <p>Ori pe care scenă? Apoi e al meu!</p>
             <stage> (Scoate portofoliul și scrie.) </stage>
             <p>Stanciu Ciupici, rol de trădător, 12 galbini pe lună.</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (în parte, cu bucurie) </stage>
-            <p>: Mă înscrie între impiegații statului. O! în fine, guvernul a pus mâna pe mine!</p>
+            <p>Mă înscrie între impiegații statului. O! în fine, guvernul a pus mâna pe mine!</p>
             <stage> (Tare.) </stage>
             <p>Mai poftiți un bombon, domnule direptore?</p>
           </sp>
@@ -1191,12 +1264,16 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Merci.</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (în parte) </stage>
-            <p>: Iaca! da mie nu?</p>
-            <p>MILLO</p>
+            <p>Iaca! da mie nu?</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (sculându-se, în parte) </stage>
-            <p>: E frumușică copila; ar fi bună de amoreză pe scenă.</p>
+            <p>E frumușică copila; ar fi bună de amoreză pe scenă.</p>
             <stage> (Tare.) </stage>
             <p>Și ce mai veste pe-aici, d-lor?</p>
           </sp>
@@ -1243,9 +1320,11 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Ba sunt ca mulți de-ai noștri… și mărturisesc că retragerea arendașului de pe moșie mă pune într-o stare…</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (zâmbind) </stage>
-            <p>: Fără stare?</p>
+            <p>Fără stare?</p>
           </sp>
           <sp who="#naie">
             <speaker>NAIE</speaker>
@@ -1269,15 +1348,19 @@
             <speaker>NAIE</speaker>
             <p>Ca să-mi dea vreun post cu leafă bună.</p>
             <stage> (Se retrage lângă Luxița.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Și el?… Se vede că-i boală… ian să vedem!… ian să vedem!… Toți umblă după posturi, adică după lefi; toți aspir a să face bucureșteni… Dacă s-ar angagea în trupa mea, ar căpăta și leafă, ar merge și în capitală!…</p>
+            <p>Și el?… Se vede că-i boală… ian să vedem!… ian să vedem!… Toți umblă după posturi, adică după lefi; toți aspir a să face bucureșteni… Dacă s-ar angagea în trupa mea, ar căpăta și leafă, ar merge și în capitală!…</p>
             <stage> (Observându-i cu coada ochiului.) </stage>
             <p>Eu, asemene, aș căpăta deodată cu tata ton palera, o mamă nobilă, o amoreză, un amorez și un trădător… trupă completă! Însă trebuie mai întâi să văd dacă știu să cânte, să râdă, să plângă și să leșine etc… științi neapărate în arta dramatică. Să-i cerc!…</p>
             <stage> (În timpul acestui aparte, celelalte persoane stau grupate lângă canapea și vorbesc împreună despre director.) </stage>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (încet) </stage>
-            <p>: Oare ce pune la cale deoparte?</p>
+            <p>Oare ce pune la cale deoparte?</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -1290,9 +1373,11 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Pentru noi, ca să ne puie în slujbe!…</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Să cerc de au glas!…</p>
+            <p>Să cerc de au glas!…</p>
             <stage> (Înaintând spre canape.) </stage>
             <p>Doamnă Luxiță, salonul domniilor voastre e prea elegant și văd că aveți un piano Pleyel… iubiți muzica?</p>
           </sp>
@@ -1303,9 +1388,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Aveți mare dreptate s-o iubiți, căci armonia înălță sufletul și-l mângâie în orele cele triste ale vieții… ea e soră cu poezia, fiica cerului.</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (cătră ceialalți) </stage>
-            <p>: Frumos vorbește!</p>
+            <p>Frumos vorbește!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -1334,9 +1421,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Vă felicit… și cântați câteodată împreună?</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (cu modestie) </stage>
-            <p>: Ca în provinție… cu jumătate de glas!</p>
+            <p>Ca în provinție… cu jumătate de glas!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -1360,9 +1449,11 @@
             <p>Noi?</p>
             <stage> (Între ei.) </stage>
             <p>Dar nu știu!… N-am voce… Sunt răgușit.</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Oi să văd astfel de au glas, precum îmi trebuie la teatru!</p>
+            <p>Oi să văd astfel de au glas, precum îmi trebuie la teatru!</p>
             <stage> (Luxița înaintează în fața publicului.) </stage>
           </sp>
           <sp who="#millo">
@@ -1399,9 +1490,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Mă-i îndatora, frate Ciupici!</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (încântat, în parte) </stage>
-            <p>: Frate!… Mi-a zis frate Ciupici!…</p>
+            <p>Frate!… Mi-a zis frate Ciupici!…</p>
             <stage> (Ciupici scoate cîteva note grave, voind a imita pe un baso italian.) </stage>
           </sp>
           <sp who="#millo">
@@ -1437,9 +1530,11 @@
             <speaker>NAIE</speaker>
             <p>Ba nu!… Ce se potrivește!… Iaca încep!</p>
             <stage> (Naie începe un cântec vesel de lume cu glas răgușit.) </stage>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (oprindu-l) </stage>
-            <p>: Taci, frate!… că-ți scârție gâtul ca o roată de car… Să juri că ești Stanciu lăutarul!</p>
+            <p>Taci, frate!… că-ți scârție gâtul ca o roată de car… Să juri că ești Stanciu lăutarul!</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
@@ -1457,27 +1552,43 @@
             <stage> (Tare.) </stage>
             <p>Atențiune!… Marseilesa Ciuniscilor:.. împrovisăciune în considerăciunea ciunelui!!!</p>
             <stage> (Aria „Chiriței la Paris”) </stage>
-            <p>MILLO:</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <p>Vivat sacr-apariciune</p>
             <p>A lui Nenea ciune!</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ciune, ciune, ciune, ciune,</p>
             <p>Ciune, ciune, ciune.</p>
             <p>MILLO</p>
             <p>Ce-a adus deșteptăciune</p>
             <p>L-a noastră năciune.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ciune, ciune, ciune, ciune,</p>
             <p>Ciune, ciune, ciune.</p>
-            <p>MILLO:</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <p>E frumos ca un tăciune..</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ciune, ciune, ciune.</p>
-            <p>MILLO:</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <p>Ca un jidov c-un perciune.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ciune, ciune, ciune.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>E frumos ca un tăciune,</p>
             <p>Ciune, ciune, ciune,</p>
             <p>Ca un jidov c-un perciune,</p>
@@ -1490,9 +1601,11 @@
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
             <p>Domnul meu, primiți complimentul meu!… Aveți un glas foarte just!</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (cu modestie) </stage>
-            <p>: Așa ș-așa…</p>
+            <p>Așa ș-așa…</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -1520,13 +1633,17 @@
             <p>Cu multă plăcere… doamna mea!</p>
             <stage> (Îi dă brațul și se îndreaptă spre dreapta; în parte.) </stage>
             <p>Au destul glas cu toții, dar mai trebuie ciopliți!</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (încet, cătră Ion) </stage>
-            <p>: Ioane! iluminează salonul.</p>
+            <p>Ioane! iluminează salonul.</p>
             <stage> (Intră în dreapta, Lina intră pe urma ei.) </stage>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (cătră Serviescu și Ciupici) </stage>
-            <p>: Eeei!… Așa-i că-i trăserăm ohtoicuri și aghioase?</p>
+            <p>Eeei!… Așa-i că-i trăserăm ohtoicuri și aghioase?</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -1605,9 +1722,11 @@
             <speaker>TACHI</speaker>
             <p>Du-te naibii, prostule!</p>
             <stage> (Iese.) </stage>
-            <p>ION</p>
+            </sp>
+        <sp who="#ion">
+            <speaker>ION</speaker>
             <stage> (singur) </stage>
-            <p>: Ba du-te tu prostului, naiba… Auzi?… Eei! las’ că-i vedea tu cine-i Ion Buftea, când oi fi la carieră… asta… la barieră… Dar ce-aud?… se scoală de la masă. Aprinse-s toate lumânările?… Aprinse! Parcă-i luminăție de poronceală!</p>
+            <p>Ba du-te tu prostului, naiba… Auzi?… Eei! las’ că-i vedea tu cine-i Ion Buftea, când oi fi la carieră… asta… la barieră… Dar ce-aud?… se scoală de la masă. Aprinse-s toate lumânările?… Aprinse! Parcă-i luminăție de poronceală!</p>
           </sp>
         </div>
         <div type="scene" n="13">
@@ -1632,20 +1751,26 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Asămănarea e măgulitoare pentru pașă.</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (făcând alt compliment) </stage>
-            <p>: Domnule!…</p>
+            <p>Domnule!…</p>
             <stage> (Se duce cu Lina lângă piano.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (închinându-se) </stage>
-            <p>: Doamnă!…</p>
+            <p>Doamnă!…</p>
             <stage> (în parte, pregătindu-și o țigară.) </stage>
             <p>I-am studiat la masă pe toți și i-am găsit… a prima vista… destul de buni de pus pe scenă… Au glas mulțămitor, dar nu știu încă de au celelalte calități neapărate pentru arta dramatică… Zâmbetul, râsul, plânsul, leșinul etc. Cum aș face ca să-i cerc?</p>
             <stage> (Caută foc pentru țigară.) </stage>
             <p>naie, serviescu,</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (aprinzând chibrituri) </stage>
-            <p>: Domnule director, poftiți foc?</p>
+            <p>Domnule director, poftiți foc?</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -1665,9 +1790,11 @@
             <p>Ba eu mă frig!… aoleu!… ține curând!…</p>
             <stage> (Millo aprinde țigara la chibritul lui Naie.) </stage>
             <stage> (Ion aduce o tabla cu tase de cafe.) </stage>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (alegândotasă) </stage>
-            <p>: Cum vă place cafeua, domnule director, turcească sau nemțească?</p>
+            <p>Cum vă place cafeua, domnule director, turcească sau nemțească?</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -1681,9 +1808,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>D-apoi miros?… Asta e minunat de bine făcută.</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (pe canapea) </stage>
-            <p>: N-a fi ca cea de la București!</p>
+            <p>N-a fi ca cea de la București!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
@@ -1734,9 +1863,11 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>D-apoi eu!</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Acu-i momentul!</p>
+            <p>Acu-i momentul!</p>
             <stage> (Tare.) </stage>
             <p>Ei bine!… Ce-ați zice dac-aș închipui eu un plan care să realizeze dorința d-voastre?</p>
           </sp>
@@ -1759,9 +1890,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>E secretul meu!</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (încet, cătră ceialalți) </stage>
-            <p>: Vrea să ne puie în slujbe și în serviciuri pe toți!</p>
+            <p>Vrea să ne puie în slujbe și în serviciuri pe toți!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -1806,16 +1939,20 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Binevoiți dar a zâmbi.</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (cu mirare) </stage>
-            <p>: Aud?</p>
+            <p>Aud?</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Zâmbiți nițel, ca să văd dacă răspundeți la condițiile direcției.</p>
-            <p>SERVIESCU</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (încet, cătră ceialalți) </stage>
-            <p>: Direcția departamentului!</p>
+            <p>Direcția departamentului!</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
@@ -1908,14 +2045,18 @@
             <speaker>NAIE</speaker>
             <p>Uf! am obosit!</p>
             <stage> (Se pune pe canapea lângă Luxița.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Pân-acum merge destul de bine.</p>
+            <p>Pân-acum merge destul de bine.</p>
             <stage> (Tare.) </stage>
             <p>Bravo! bravo! râdeți foarte natural! Numai domnul Ciupici e cam lugubru, cum ar zice d-lui; râde ca un cioclu care s-ar duce singur să se îngroape.</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (cu umilință) </stage>
-            <p>: Altă dată oi fi mai gentil, domnule direptore.</p>
+            <p>Altă dată oi fi mai gentil, domnule direptore.</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -1944,12 +2085,16 @@
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Dacă-i așa, începe, domnule, că-ți făgăduiesc să și bocesc.</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (încet, cătră Naie) </stage>
-            <p>: Cum? vrei?…</p>
-            <p>NAIE</p>
+            <p>Cum? vrei?…</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (încet) </stage>
-            <p>: Luxiță! cariera noastră… Direcția ministerului… Înțelegi?… Numai așa putem merge la București!</p>
+            <p>Luxiță! cariera noastră… Direcția ministerului… Înțelegi?… Numai așa putem merge la București!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -1971,14 +2116,16 @@
             <p>De-un pui de drac și mi-l fura.</p>
             <p>Tra, la, la, la, tra, la, la, la,</p>
             <p>Tra, la, la, la, la, la, tra, la, la!</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (plîngînd) </stage>
-            <p>:</p>
             <p>O! la, la, la. O! la, la, la!</p>
             <p>O! la, la, la, la, la. O! la, la!</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (cu indignație) </stage>
-            <p>:</p>
             <p>Cel drăcușor coarne purta</p>
             <p>Și nimărui nu le-arăta;</p>
             <stage> (bis) </stage>
@@ -1986,14 +2133,16 @@
             <p>Le dărui lui Mustafa!</p>
             <p>Tra, la, la, la, tra, la, la, la,</p>
             <p>Tra, la, la, la, la, la, tra, la, la!</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (plîngînd mai tare) </stage>
-            <p>:</p>
             <p>O! la, la, la. O! la, la, la,</p>
             <p>OI la, la. Ia, la, la. O! la, la!</p>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (cu înduioșare) </stage>
-            <p>:</p>
             <p>Pașa cumplit se întrista,</p>
           </sp>
           <sp who="#zicand">
@@ -2004,18 +2153,21 @@
             <p>Poart-un crai-nou sus pe cealma.</p>
             <p>Tra, la, la, la, tra, la, la, la,</p>
             <p>Tra, la, la, la, la, la, tra, la, la</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (bocind) </stage>
-            <p>:</p>
             <p>O! la, la, la. O! la, la, la,</p>
             <p>O! la, la, la, la, la. O! la, la!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Leșin general!</p>
-            <p>TOȚI</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (leșinând, strigă) </stage>
-            <p>: Ah! Dumnezeule! leșin!… mor!</p>
+            <p>Ah! Dumnezeule! leșin!… mor!</p>
             <stage> (Naie și Luxița cad pe canape, Serviescu pe un jilț, Ciupici jos.) </stage>
           </sp>
         </div>
@@ -2030,18 +2182,26 @@
           <sp who="#ion">
             <speaker>ION</speaker>
             <p>Auleo!… A peritără boierii!</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (lui Millo) </stage>
-            <p>: Să. ne trezim, domnule?</p>
-            <p>MILLO</p>
+            <p>Să. ne trezim, domnule?</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (întorcându-se) </stage>
-            <p>: Trezi ți-vă!</p>
-            <p>TOȚI</p>
+            <p>Trezi ți-vă!</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Ah!</p>
-            <p>TACHI</p>
+            <p>Ah!</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (zărind pe Millo, vine lângă el) </stage>
-            <p>: Ce văd!… Domnul Millo aci?</p>
+            <p>Ce văd!… Domnul Millo aci?</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -2098,9 +2258,11 @@
           <sp who="#ciupici">
             <speaker>CIUPICI</speaker>
             <p>Și să plângem?</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (disperată) </stage>
-            <p>: Și să leșinăm!</p>
+            <p>Și să leșinăm!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -2115,27 +2277,35 @@
             <speaker>SERVIESCU</speaker>
             <p>Vra să zică, noi iar rămânem fără slujbă?</p>
             <stage> (Îl apucă de celălalt braț.) </stage>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (apucându-l pe Millo de guler) </stage>
-            <p>: Domnule!… satisfăciune să-mi dai!…</p>
-            <p>MILLO</p>
+            <p>Domnule!… satisfăciune să-mi dai!…</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (luptându-se) </stage>
-            <p>: Da dați-mi pace!… ați turbat? Nu mă hurducați așa, că de-abia am mâncat!</p>
+            <p>Da dați-mi pace!… ați turbat? Nu mă hurducați așa, că de-abia am mâncat!</p>
           </sp>
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Te-om învăța noi, berbantule, să ne iai în trei parale!</p>
-            <p>TACHI</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (intervenind) </stage>
-            <p>: Domnilor!… Vă puneți trei în contra unuia… E o lașitate!</p>
+            <p>Domnilor!… Vă puneți trei în contra unuia… E o lașitate!</p>
           </sp>
           <sp who="#serviescu">
             <speaker>SERVIESCU</speaker>
             <p>Fie chiar o mișelie, nu-l dau din mâinile mele!</p>
             <stage> (În luptă, cade o scrisoare din buzunarul lui Millo.) </stage>
-            <p>TACHI</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (ridicînd scrisoarea) </stage>
-            <p>: Iată o scrisoare, a cui e?</p>
+            <p>Iată o scrisoare, a cui e?</p>
             <stage> (Citește adresa:) </stage>
             <p>„Domnului Neculae Onofrescu”.</p>
           </sp>
@@ -2144,17 +2314,21 @@
             <p>Pentru mine?… Ad-o…</p>
             <stage> (Deschide scrisoarea.) </stage>
             <stage> (Toți las pe Millo și s-apropie de Naie.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Uf! Era să mă rupă ca niște haite!…</p>
+            <p>Uf! Era să mă rupă ca niște haite!…</p>
             <stage> (Își drege toaleta.) </stage>
           </sp>
           <sp who="#naie">
             <speaker>NAIE</speaker>
             <p>Ce văd? Mă cheamă la București ca să-mi dea prefectura de-aci?</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (sărind de pe canape) </stage>
-            <p>: Cine?</p>
+            <p>Cine?</p>
             <stage> (Smuncește scrisoarea și o citește.) </stage>
           </sp>
           <sp who="#naie">
@@ -2164,20 +2338,26 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Eu, domnul meu… mi-a dat-o directorul departamentului, un amic al meu, ca s-o duc în provinție domnului Neculae Onofrescu… Dumneata ești Onofre…?</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (strângând pe Millo în brațe și sărutându-l) </stage>
-            <p>: Eu! Ah! Vin’ să te sărut!</p>
+            <p>Eu! Ah! Vin’ să te sărut!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Încet… Încet… că mă înăduși…</p>
-            <p>LUXIȚA</p>
+            </sp>
+          <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (nebună de bucurie) </stage>
-            <p>: E adevărat… sunt prefectoriță… A! domnule Millo…</p>
+            <p>E adevărat… sunt prefectoriță… A! domnule Millo…</p>
             <stage> (Îl sărută.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Curioși provinciali!… Acu te strâng de gât, acu te pupă…</p>
+            <p>Curioși provinciali!… Acu te strâng de gât, acu te pupă…</p>
             <stage> (Cătră Tachi.) </stage>
             <p>Ian spune-mi, Tachi, nu cumva au nebunit gazdele?</p>
             <stage> (În timpul următorului aparte, toți ceilalți stau grupați lângă canapea și citesc scrisoarea.) </stage>
@@ -2189,9 +2369,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Am crezut că voiesc să se angageze la teatru și i-am esaminat.</p>
-            <p>TACHI</p>
+            </sp>
+          <sp who="#tachi">
+            <speaker>TACHI</speaker>
             <stage> (cu mustrare) </stage>
-            <p>: Cum?… și pe Lina?… A!</p>
+            <p>Cum?… și pe Lina?… A!</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -2204,9 +2386,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Las’ pe mine…</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (apropiindu-se de Millo) </stage>
-            <p>: Domnule Millo!… mă iertați dacă am fost cam iute mai adinioarea…</p>
+            <p>Domnule Millo!… mă iertați dacă am fost cam iute mai adinioarea…</p>
           </sp>
           <sp who="#millo">
             <speaker>MILLO</speaker>
@@ -2227,9 +2411,11 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Cununând-o cu amicul meu Tachi… care m-a scăpat din… ghearele dumnevoastre.</p>
-            <p>NAIE</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (după ce consultă pe Luxița) </stage>
-            <p>: Fie!..</p>
+            <p>Fie!..</p>
             <stage> (Strigă:) </stage>
             <p>Ioane! adă poneiul.</p>
             <stage> (Ion iese ți aduce o tabla cu ponei.) </stage>
@@ -2238,20 +2424,28 @@
             <speaker>TACHI</speaker>
             <p>A!… Domnule Naie!… Doamnă Luxiță!…</p>
             <stage> (Sărută mâna Luxiței și apoi se trage deoparte cu Lina.) </stage>
-            <p>MILLO</p>
+            </sp>
+          <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (în parte) </stage>
-            <p>: Am făcut doi fericiți… din treacăt!</p>
-            <p>NAIE</p>
+            <p>Am făcut doi fericiți… din treacăt!</p>
+            </sp>
+          <sp who="#naie">
+            <speaker>NAIE</speaker>
             <stage> (cătră Serviescu și Ciupici) </stage>
-            <p>: Cât pentru d-voastră,</p>
+            <p>Cât pentru d-voastră,</p>
             <stage> (cu un aer de protecție) </stage>
             <p>când îți avea vro nevoie… voi fi gata…</p>
-            <p>CIUPICI</p>
+            </sp>
+          <sp who="#ciupici">
+            <speaker>CIUPICI</speaker>
             <stage> (închinându-se) </stage>
-            <p>: Umilissimtis!</p>
-            <p>SERVIESCU</p>
+            <p>Umilissimtis!</p>
+            </sp>
+          <sp who="#serviescu">
+            <speaker>SERVIESCU</speaker>
             <stage> (asemeneaa) </stage>
-            <p>: Vă sărut nu numai mâinile, dar pot zice chiar…</p>
+            <p>Vă sărut nu numai mâinile, dar pot zice chiar…</p>
           </sp>
           <sp who="#luxita">
             <speaker>LUXIȚA</speaker>
@@ -2260,13 +2454,16 @@
           <sp who="#millo">
             <speaker>MILLO</speaker>
             <p>Departamentului!…</p>
-            <p>LUXIȚA</p>
+            </sp>
+        <sp who="#luxita">
+            <speaker>LUXIȚA</speaker>
             <stage> (zâmbind) </stage>
-            <p>: și al Teatrului Național!</p>
-            <p>MILLO</p>
+            <p>și al Teatrului Național!</p>
+            </sp>
+        <sp who="#millo">
+            <speaker>MILLO</speaker>
             <stage> (luând un pahar de pe tabla) </stage>
             <stage> (Arie din „Agachi Flutur”) </stage>
-            <p>:</p>
             <p>Când poneiul curge în pahare,</p>
             <p>Când ochii veseli strălucesc,</p>
             <p>Inima-mi saltă și tresare</p>

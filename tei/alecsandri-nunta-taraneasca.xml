@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000039" xml:lang="ro">
   <teiHeader>
@@ -224,7 +224,9 @@
             <p>Păsărele cîntătoare</p>
             <p>Ce mă chem la vînătoare.</p>
             <p>Atunci trag cu pușca, le culc la pămînt.</p>
-            <p>ALECU:</p>
+            </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
             <p>Și eu trag ca tine; dar trag tot în vînt!</p>
             <stage> (Chir Gaitanis strănută în culise, în stînga.) </stage>
           </sp>
@@ -354,24 +356,32 @@
           <sp who="#gaitanis">
             <speaker>GAITANIS</speaker>
             <p>Țe-a ziso?</p>
-            <p>ALECU:</p>
+            </sp>
+        <sp who="#alecu">
+            <speaker>ALECU</speaker>
             <p>Calispera, spera,</p>
             <p>Cachisu imera;</p>
             <p>File, ti mandata</p>
             <p>Psomi che salata.</p>
-            <p>GAITANIS:</p>
+            </sp>
+        <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
             <p>Am si-ți rupo to urechi</p>
             <p>Che mi-a traso cu tufechi;</p>
             <p>S-ai facuto frica mari</p>
             <p>La voinico palicari.</p>
             <stage> (împreună.) </stage>
-            <p>ALECU și FRUNZĂ:</p>
+            </sp>
+        <sp who="#alecu #frunza">
+            <speaker>ALECU și FRUNZĂ</speaker>
             <stage> (rîzînd) </stage>
             <p>Vai sărmanu dascal!</p>
             <p>Vezi-l cum pufnește.</p>
             <p>Ochii se aprinde,</p>
             <p>Nasu-i se roșește.</p>
-            <p>GAITANIS:</p>
+            </sp>
+        <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
             <p>Țe blastamația</p>
             <p>Țe enițaria</p>
             <p>Zeu, crepo de țuda,</p>
@@ -484,7 +494,9 @@
             <p>Chiparata</p>
             <p>Si sarata</p>
             <p>Cum n-ai muncat nițiodata!</p>
-            <p>TROHIN:</p>
+            </sp>
+        <sp who="#trohin">
+            <speaker>TROHIN</speaker>
             <p>Vai de mine!</p>
             <p>Vai de mine,</p>
             <p>C-a să-mi facă vro rușine!</p>
@@ -555,11 +567,17 @@
           <sp who="#trohin">
             <speaker>TROHIN</speaker>
             <p>Oameni buni, bine-ați venit!</p>
-            <p>VORNICELUL:</p>
+            </sp>
+          <sp who="#vornicelul">
+            <speaker>VORNICELUL</speaker>
             <p>Moșule, bine-am găsit!</p>
-            <p>TROHIN:</p>
+            </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
             <p>Ce vreți la bordeiul meu?</p>
-            <p>VORNICELUL:</p>
+            </sp>
+          <sp who="#vornicelul">
+            <speaker>VORNICELUL</speaker>
             <p>Să-ți agiute Dumnezeu!…</p>
             <p>Sîntem oameni călători,</p>
             <p>Călători și vînători,</p>
@@ -617,7 +635,9 @@
             <p>Vezi ce uimire</p>
             <p>De fericire,</p>
             <p>În a lor suflet acum simțesc!</p>
-            <p>ILENUȚA:</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
             <p>A fi iubită</p>
             <p>Ș-a ta ursită</p>
             <p>E tot ce-n lume de-acum doresc;</p>
@@ -628,7 +648,9 @@
             <p>Ahl în uimire</p>
             <p>De fericire,</p>
             <p>În rai, cu tine, simt că plutesc!</p>
-            <p>ȚĂRANII:</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
             <p>Vezi ce uimire</p>
             <p>De fericire,</p>
             <p>În a lor suflet acum simțesc!</p>
@@ -644,7 +666,9 @@
             <p>Hai, Ileană, la poiană,</p>
             <p>Ileano, Ileană.</p>
             <stage> (Orhestrul cîntă „Hora Ilenei”; toți se prind la gioc și cintă.) </stage>
-            <p>COR GENERAL:</p>
+            </sp>
+          <sp who="#cor_general">
+            <speaker>COR GENERAL</speaker>
             <p>Hai, Ileană, la poiană,</p>
             <p>Ileano, Ileană!</p>
             <p>Să săpăm o buruiană,</p>
@@ -716,24 +740,36 @@
             <p>De-un sărman și de-o copilă!</p>
             <p>Vezi că pling și suspin;</p>
             <p>Fie-ți milă de-al meu chin!</p>
-            <p>GAITANIS:</p>
+            </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
             <p>Ba nu, nu, sirato, bal</p>
             <p>Eu nu sint de dandana.</p>
             <p>Se me-nseli cu amori</p>
             <p>S-rapoi se-mi dai cu pițori,</p>
             <p>Si de mine tu se rîzi</p>
             <p>S-apoi se-mi fați bizi.</p>
-            <p>ILENUȚA:</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
             <p>Ah! te rog …</p>
-            <p>GAITANIS:</p>
+            </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
             <p>Fuzi, nu vreu.</p>
-            <p>ILENUȚA:</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
             <p>Ah! te giur pe Dumnezeu,</p>
             <p>Nu fi rău …</p>
-            <p>GAITANIS:</p>
+            </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
             <p>Na, na, na!</p>
             <p>Fevghe, fevghe, Satana!</p>
-            <p>ILENUȚA:</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
             <p>Of, of, of! te rog, ai milă</p>
             <p>De-un sărman și de-o copilă!</p>
             <stage> (Cade în genunchi.) </stage>
@@ -820,7 +856,9 @@
             <speaker>ALECU</speaker>
             <p>La talpe?… mie!… Întoarceți scrînciobul, flăcăi.</p>
             <stage> (Țăranii încep a întoarce scrînciobul, în vreme ce cîntă horul următor; Gaitanis se zbuciumi furios în scaun.) </stage>
-            <p>ALECU:</p>
+            </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
             <stage> (arie „Patruzeci de arnăuți”) </stage>
             <p>Uța, uța, căpitane,</p>
             <p>Uța, uța, Găitane.</p>
@@ -830,7 +868,9 @@
             <speaker>GAITANIS</speaker>
             <p>Aman, aman! che nu mai pot,</p>
             <p>Aman, aman! che mor de tot.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Uța, uța, căpitane,</p>
             <p>Uța, uța, Găitane ș.c.l.</p>
           </sp>

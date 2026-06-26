@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000031" xml:lang="ro">
   <teiHeader>
@@ -881,9 +881,11 @@
           <sp who="#itic">
             <speaker>IȚIC</speaker>
             <p>Me duc, dar se știi che am se mi-ntorc cu totă agie, ca se te ridic pe sus.</p>
-            <p>IORGU</p>
+            </sp>
+          <sp who="#iorgu">
+            <speaker>IORGU</speaker>
             <stage> (alergând după el) </stage>
-            <p>: Iaca litfa că nu iese...</p>
+            <p>Iaca litfa că nu iese...</p>
           </sp>
           <stage>IȚIC:  (fugind)  Ghevalt!...</stage>
         </div>
@@ -1060,9 +1062,11 @@
           <sp who="#iorgu">
             <speaker>IORGU</speaker>
             <p>Cât pentru d-ta, domnule, teatrul național te lasă-n pace să faci ce ți-a plăcea; cu astă condiție însă, ca și d-ta să-i dai pace ca să-și urmeze cariera, cum poate, și să nu-l critici cu ochii închiși.</p>
-            <p>ZOIȚA</p>
+            </sp>
+          <sp who="#zoita">
+            <speaker>ZOIȚA</speaker>
             <stage> (trecând între amândoi) </stage>
-            <p>: Lăsați, vă rog, vorba teatrului, că iar o să-ncepeți a vă sfădi.</p>
+            <p>Lăsați, vă rog, vorba teatrului, că iar o să-ncepeți a vă sfădi.</p>
           </sp>
           <sp who="#kiulafoglu">
             <speaker>KIULAFOGLU</speaker>
@@ -1155,9 +1159,11 @@
           <sp who="#iorgu">
             <speaker>IORGU</speaker>
             <p>Zi dintâi că mă iubești ș-apoi intru și în tartar.</p>
-            <p>ZOIȚA</p>
+            </sp>
+          <sp who="#zoita">
+            <speaker>ZOIȚA</speaker>
             <stage> (deschizând ornicul) </stage>
-            <p>: Te iubesc.</p>
+            <p>Te iubesc.</p>
           </sp>
           <stage>IORGU: Încă o dată...  (Intră în ornic.)</stage>
           <stage>ZOIȚA: Te iubesc.  (În parte.)  Am câștigat rămășagul.</stage>
@@ -1845,9 +1851,11 @@
           <sp who="#kiulafoglu">
             <speaker>KIULAFOGLU</speaker>
             <p>Nu-i vina nostra, kera mu... Ma a lui arhon Enaki, care ne-a ținuto cu de-a sila.</p>
-            <p>GAHIȚA</p>
+            </sp>
+          <sp who="#gahita">
+            <speaker>GAHIȚA</speaker>
             <stage> (vazând pe pitarul Enachi, coboară ochii) </stage>
-            <p>: Cuconu Enachi!...</p>
+            <p>Cuconu Enachi!...</p>
           </sp>
           <sp who="#damian">
             <speaker>DAMIAN</speaker>
@@ -2088,7 +2096,9 @@
             <speaker>TOȚI</speaker>
             <p>Ura!... să trăiască Moldova!</p>
             <stage> (Toți joacă hora, afară de Kiulafoglu care trage ciubuc deoparte; Gahița și Kleine Schwabe joacă valțul împrejurul horei.) </stage>
-            <p>COR FINAL:</p>
+            </sp>
+        <sp who="#cor_final">
+            <speaker>COR FINAL</speaker>
             <p>Sunt român și tot român</p>
             <p>Eu în veci voi să rămân!</p>
             <p>Țara noastră să trăiască</p>

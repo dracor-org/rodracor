@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000086" xml:lang="ro">
   <teiHeader>
@@ -323,17 +323,21 @@
             <p>Avem lipsă de ploi</p>
             <p>Și lipsă de noroc.</p>
             <stage> (bis) </stage>
-            <p>SAFTA</p>
+            </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
             <stage> (arătând pe Toma) </stage>
-            <p>:</p>
             <p>Ce-a fost verde s-a uscat,</p>
             <p>Ca și bietul meu bărbat!</p>
-            <p>TOMA</p>
+            </sp>
+          <sp who="#toma">
+            <speaker>TOMA</speaker>
             <stage> (arătând pe Safta) </stage>
-            <p>:</p>
             <p>Ce-a-nflorit s-a scuturat,</p>
             <p>Ca nevasta mea din sat.</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Ce secetă, ce foc!</p>
             <p>Amar și vai de noi!</p>
             <p>Avem lipsă de ploi</p>
@@ -399,9 +403,11 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ha! ha! ha! te-a păcălit, Tomo!</p>
-            <p>MĂRICA</p>
+            </sp>
+          <sp who="#marica">
+            <speaker>MĂRICA</speaker>
             <stage> (râzând) </stage>
-            <p>: Cred și eu că l-a păcălit, dacă jupân Macovei, bărbatul meu, știe și cerul din toacă... asta... toaca din cer.</p>
+            <p>Cred și eu că l-a păcălit, dacă jupân Macovei, bărbatul meu, știe și cerul din toacă... asta... toaca din cer.</p>
           </sp>
           <sp who="#macovei">
             <speaker>MACOVEI</speaker>
@@ -474,9 +480,11 @@
           <sp who="#taranii">
             <speaker>ȚĂRANII</speaker>
             <p>Și sămănăturile pier.</p>
-            <p>ȚĂRANCELE</p>
+            </sp>
+          <sp who="#tarancele">
+            <speaker>ȚĂRANCELE</speaker>
             <stage> (văitându-se) </stage>
-            <p>: Pier, pier, păcatele noastre! Ce-o să devenim?... O să ne moară copiii de foame!</p>
+            <p>Pier, pier, păcatele noastre! Ce-o să devenim?... O să ne moară copiii de foame!</p>
           </sp>
           <sp who="#macovei">
             <speaker>MACOVEI</speaker>
@@ -502,10 +510,14 @@
             <speaker>TOȚI</speaker>
             <p>Hai! hai!</p>
             <stage> (Repetă corul și iese prin dreapta.) </stage>
-            <p>PEPELEA</p>
+            </sp>
+        <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (trezindu-se) </stage>
-            <p>: A!... bun somn am tras!... și frumos vis am făcut!... Eu, Pepelea, băiat sărac, fără tată, fără mamă, venit în locurile acestea din Țara Românească, părea că mă-nsurasem cu fata împăratului, după ce o scăpasem din ghearele unui zmeu, care-o răpise din palatul tătâne-său. Greu m-am luptat prin somn... dar i-am venit eu de hac zmeului.</p>
-            <p>ARIE:</p>
+            <p>A!... bun somn am tras!... și frumos vis am făcut!... Eu, Pepelea, băiat sărac, fără tată, fără mamă, venit în locurile acestea din Țara Românească, părea că mă-nsurasem cu fata împăratului, după ce o scăpasem din ghearele unui zmeu, care-o răpise din palatul tătâne-său. Greu m-am luptat prin somn... dar i-am venit eu de hac zmeului.</p>
+            </sp>
+        <sp who="#arie">
+            <speaker>ARIE</speaker>
             <p>Frumoasă Sânziană,</p>
             <p>Copiliță Cosânzeană,</p>
             <p>Răpită-era d-un zmeu!</p>
@@ -560,7 +572,9 @@
           <sp who="#baba_rada">
             <speaker>BABA RADA</speaker>
             <p>Eu?... Ascultă:</p>
-            <p>ARIE:</p>
+            </sp>
+          <sp who="#arie">
+            <speaker>ARIE</speaker>
             <p>I</p>
             <p>Eu sunt de când în astă lume</p>
             <p>Românul încă n-avea nume;</p>
@@ -604,7 +618,7 @@
           <sp who="#baba_rada">
             <speaker>BABA RADA</speaker>
             <stage> (îl trage de urechi) </stage>
-            <p>: Ți-e dragă!... Hai?...</p>
+            <p>Ți-e dragă!... Hai?...</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -642,9 +656,11 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>M-au umflat... hai... nu pot sta pe loc... mi s-au aprins călcăiele...</p>
-            <p>BABA RADA</p>
+            </sp>
+        <sp who="#baba_rada">
+            <speaker>BABA RADA</speaker>
             <stage> (sare-ntr-un picior) </stage>
-            <p>: Încet, încet, nebunule, cad, ține-mă, încet, vai de mine!</p>
+            <p>Încet, încet, nebunule, cad, ține-mă, încet, vai de mine!</p>
             <stage> (Ies amândoi și intră în pădure.) </stage>
           </sp>
         </div>
@@ -661,9 +677,11 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Mâncare, mâncare, mor de foame! Unde-i ministrul meu secretar de stat la departamentul bucătăriei?</p>
-            <p>STOLNICUL</p>
+            </sp>
+          <sp who="#stolnicul">
+            <speaker>STOLNICUL</speaker>
             <stage> (închinându-se) </stage>
-            <p>: Aici, măria-ta!</p>
+            <p>Aici, măria-ta!</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -680,9 +698,11 @@
           <sp who="#stolnicul">
             <speaker>STOLNICUL</speaker>
             <p>Să trăiești, măria-ta.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (șade la masă) </stage>
-            <p>: Bune bucate!... îmi fac cu ochiul... de unde să-ncep... A!... de la curcan</p>
+            <p>Bune bucate!... îmi fac cu ochiul... de unde să-ncep... A!... de la curcan</p>
             <stage> (mănâncă) </stage>
             <p>, minunat!... am un țigan, bucătar meșter, cinci zloți pe lună, leafă...</p>
             <stage> (La suita lui.) </stage>
@@ -707,9 +727,11 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Place, place.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (lacom mâncând) </stage>
-            <p>: D-apoi mie!...</p>
+            <p>D-apoi mie!...</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
@@ -743,9 +765,11 @@
           <sp who="#stolnicul">
             <speaker>STOLNICUL</speaker>
             <p>Se-naintează o oaste mare!</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+        <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (înecându-se) </stage>
-            <p>: O! oa... o oa, oaste... or fi dușmani!... Unde mi-e paloșul? Na, l-am uitat acasă... Cu ce să mă apăr?... Ha! cu furculița astă mare. Vie de-acum chiar Pârlea-Vodă... Vitejilor, adunați-vă împrejurul meu și să muriți cu toții, apărându-mi viața și masa.</p>
+            <p>O! oa... o oa, oaste... or fi dușmani!... Unde mi-e paloșul? Na, l-am uitat acasă... Cu ce să mă apăr?... Ha! cu furculița astă mare. Vie de-acum chiar Pârlea-Vodă... Vitejilor, adunați-vă împrejurul meu și să muriți cu toții, apărându-mi viața și masa.</p>
             <stage> (Toți se grupează lângă Lăcustă, care se înarmează cu o furculiță lungă.) </stage>
           </sp>
         </div>
@@ -756,14 +780,18 @@
             <speaker>LĂCUSTĂ</speaker>
             <p>Pârlea-Vodă... Sunt platcă...</p>
             <stage> (Intră paharnicul, urmat de servitori, care poartă balerce în spinare.) </stage>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Iată vine Pârlea-Vodă</p>
             <p>Înfocat și-mbujorat;</p>
             <p>Dintre toți domnii din lume,</p>
             <p>Cel mai roș, mai însetat!</p>
             <p>PÂRLEA</p>
             <stage> (Intră repede. El e gras și aprins la față.) </stage>
-            <p>ARIE:</p>
+            </sp>
+          <sp who="#arie">
+            <speaker>ARIE</speaker>
             <p>Eu sunt Pârlea cel aprins,</p>
             <p>Care ard în foc nestins</p>
             <p>Și dau foc și mistuiesc</p>
@@ -787,11 +815,15 @@
             <stage> (Vede masa.) </stage>
             <p>A!... iaca chileală.</p>
             <stage> (Se repede la masă.) </stage>
-            <p>LĂCUSTĂ:</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <p>Semețe! un pas numai de-i face cătră masă,</p>
             <p>Cazi mort, de astă armă străpuns...</p>
             <stage> (Îl amenință cu furculița.) </stage>
-            <p>PÂRLEA:</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <p>Străpuns?... Nu-mi pasă!</p>
             <p>Mai bine mort de paloș, ca un viteaz, decât</p>
             <p>De sete, mișelește, cu iască-aprinsă-n gât.</p>
@@ -818,16 +850,20 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Lăcustă-Vodă!</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (furios) </stage>
-            <p>: Lăcustă?... dușmanul meu de moarte?</p>
+            <p>Lăcustă?... dușmanul meu de moarte?</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Tocmai.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (grațios) </stage>
-            <p>: Sunt prea fericit de cunoștință.</p>
+            <p>Sunt prea fericit de cunoștință.</p>
             <stage> (Dă mâna.) </stage>
           </sp>
           <sp who="#lacusta">
@@ -841,9 +877,11 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Da, mă rog, nu te mai fasoli.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (șade) </stage>
-            <p>: N-aș vrea să fiu indiscret.</p>
+            <p>N-aș vrea să fiu indiscret.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -852,12 +890,16 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Ba mai bine pe brațe, vere.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (vesel, ghiontind pe Pârlea) </stage>
-            <p>: Pe brațe, berbantule? Pe brațele Sânzianei?</p>
-            <p>PÂRLEA</p>
+            <p>Pe brațe, berbantule? Pe brațele Sânzianei?</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (posomorât) </stage>
-            <p>: Ba cât despre fata lui Papură-Împărat, pune-ți pofta-n cui.</p>
+            <p>Ba cât despre fata lui Papură-Împărat, pune-ți pofta-n cui.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -866,9 +908,11 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Pentru că mă duc s-o-mpețesc.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (ironic) </stage>
-            <p>: Ș-ai s-o pățești, în adevăr, vere.</p>
+            <p>Ș-ai s-o pățești, în adevăr, vere.</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -877,12 +921,16 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Fiindcă și eu mă duc la curtea Sânzianei, cu gând de-a-i face curte.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (se scoală) </stage>
-            <p>: Suntem rivali!... unul din noi dar e de prisos pe lume; trebuie să piară.</p>
-            <p>LĂCUSTĂ</p>
+            <p>Suntem rivali!... unul din noi dar e de prisos pe lume; trebuie să piară.</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (liniștit) </stage>
-            <p>: Ai dreptate; pieri tu.</p>
+            <p>Ai dreptate; pieri tu.</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -893,15 +941,21 @@
             <p>Ce face?... Să ne batem împreună?... cată-ți de treabă, omule; avem oști pentru certele noastre, ucigă-se între ele... și noi să petrecem cu voie bună... Așa-i rândul crailor ș-al împăraților.</p>
             <stage> (Strigă.) </stage>
             <p>Stolnice!... pune-te în capul armatei mele... și taie bucăți oastea lui Pârlea-Vodă; de-i scăpa teafăr... de te-i arăta leu... te-oi face „ban”.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (asemene) </stage>
-            <p>: Paharnice!... ai auzit?... Să te văd; harceaparcea în oamenii lui Lăcustă-Vodă; de-i fi învingător... te schimb din particular în general.</p>
-            <p>STOLNICUL</p>
+            <p>Paharnice!... ai auzit?... Să te văd; harceaparcea în oamenii lui Lăcustă-Vodă; de-i fi învingător... te schimb din particular în general.</p>
+            </sp>
+          <sp who="#stolnicul">
+            <speaker>STOLNICUL</speaker>
             <stage> (cu glas slab) </stage>
-            <p>: Nu putem, măria-ta, că suntem morți de foame.</p>
-            <p>PAHARNICUL</p>
+            <p>Nu putem, măria-ta, că suntem morți de foame.</p>
+            </sp>
+          <sp who="#paharnicul">
+            <speaker>PAHARNICUL</speaker>
             <stage> (asemenea) </stage>
-            <p>: N-avem vlagă, măria-ta; suntem morți de sete.</p>
+            <p>N-avem vlagă, măria-ta; suntem morți de sete.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -924,16 +978,20 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Ai umblat în bobote ca și mine; ne trebuie dar un călăuz. Stolnice, un călăuz cât oi bate-n palme.</p>
-            <p>STOLNICUL</p>
+            </sp>
+          <sp who="#stolnicul">
+            <speaker>STOLNICUL</speaker>
             <stage> (nemișcându-se) </stage>
-            <p>: Numaidecât, măria-ta.</p>
+            <p>Numaidecât, măria-ta.</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Paharnice, un călăuz.</p>
-            <p>PAHARNICUL</p>
+            </sp>
+        <sp who="#paharnicul">
+            <speaker>PAHARNICUL</speaker>
             <stage> (stă pe loc) </stage>
-            <p>: Numaidecât.</p>
+            <p>Numaidecât.</p>
             <stage> (Pepelea se ivește între copaci.) </stage>
           </sp>
         </div>
@@ -943,20 +1001,26 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Găsitu-l-ați?...</p>
-            <p>STOLNICUL</p>
+            </sp>
+          <sp who="#stolnicul">
+            <speaker>STOLNICUL</speaker>
             <stage> (zărind pe Pepelea) </stage>
-            <p>: Iaca unul, pe dânsul, voinici.</p>
+            <p>Iaca unul, pe dânsul, voinici.</p>
             <stage> (Toți se reped și-l apucă.) </stage>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Ho! țară!... ce este?... ce v-au apucat?</p>
-            <p>STOLNICUL</p>
+            </sp>
+          <sp who="#stolnicul">
+            <speaker>STOLNICUL</speaker>
             <stage> (trăgându-l) </stage>
-            <p>: Te cheamă Lăcustă-Vodă.</p>
-            <p>PAHARNICUL</p>
+            <p>Te cheamă Lăcustă-Vodă.</p>
+            </sp>
+          <sp who="#paharnicul">
+            <speaker>PAHARNICUL</speaker>
             <stage> (asemenea) </stage>
-            <p>: Te cheamă Pârlea-Vodă.</p>
+            <p>Te cheamă Pârlea-Vodă.</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -965,25 +1029,31 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Pepelea!... Ha! Ha! Ha! poznaș nume!</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (râzând) </stage>
-            <p>: Nu-i nume de calendar.</p>
+            <p>Nu-i nume de calendar.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Ca ale noastre.</p>
             <stage> (Tare.) </stage>
             <p>Pepeleo, răspunde, poți să ne duci la curtea lui Papură-Împărat?</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (aparte) </stage>
-            <p>: Or fi pețitori de-ai Sânzianei.</p>
+            <p>Or fi pețitori de-ai Sânzianei.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Ai auzit?</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (tare) </stage>
-            <p>: Poți, mă?</p>
+            <p>Poți, mă?</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -1024,7 +1094,9 @@
             <speaker>PÂRLEA</speaker>
             <p>Mă-i fi găsind... dă-mi brațul ș-aidem împreună.</p>
             <stage> (Pârlea și Lăcustă își dau brațul și încearcă a pleca odată cu piciorul stâng, dar nu nimeresc. Ies cu toții prin fund și dispar în pădure cântând.) </stage>
-            <p>COR:</p>
+            </sp>
+        <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Haideți cu toți la curtea</p>
             <p>Lui Papură-mpărat,</p>
             <p>Atrași de Sânziana</p>
@@ -1049,9 +1121,11 @@
           <sp who="#macovei">
             <speaker>MACOVEI</speaker>
             <p>O fi trecut prin văzduh un zmeu cu limbă de foc.</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (speriați) </stage>
-            <p>: Un zmeu?</p>
+            <p>Un zmeu?</p>
           </sp>
           <sp who="#macovei">
             <speaker>MACOVEI</speaker>
@@ -1090,9 +1164,11 @@
             <p>Hai, măi, să găsim o babă.</p>
             <stage> (Arătând femeile.) </stage>
             <p>Pe care din ele s-o alegem?</p>
-            <p>FEMEILE</p>
+            </sp>
+          <sp who="#femeile">
+            <speaker>FEMEILE</speaker>
             <stage> (arătându-se una pe alta) </stage>
-            <p>: Pe Catrina, pe Safta, pe Tudora, pe Tofana, pe jupâneasa dăscălița...</p>
+            <p>Pe Catrina, pe Safta, pe Tudora, pe Tofana, pe jupâneasa dăscălița...</p>
           </sp>
           <sp who="#marica">
             <speaker>MĂRICA</speaker>
@@ -1108,14 +1184,18 @@
             <speaker>BĂRBAȚII</speaker>
             <p>Pe dânsele, măi!</p>
             <stage> (Se luptă bărbații cu femeile; ele dau țipete.) </stage>
-            <p>BĂRBAȚII:</p>
+            </sp>
+        <sp who="#barbatii">
+            <speaker>BĂRBAȚII</speaker>
             <p>Degrabă, degrabă</p>
             <p>Să prindem o babă</p>
             <p>Și-n apă s-o dăm.</p>
             <p>Degrabă printr-însa</p>
             <p>De foc și de dânsa</p>
             <p>Acum să scăpăm.</p>
-            <p>FEMEILE:</p>
+            </sp>
+        <sp who="#femeile">
+            <speaker>FEMEILE</speaker>
             <p>Hoților! pieriți de-aici,</p>
             <p>Că v-om bate cu urzici,</p>
             <p>V-om zgâria ca pisici</p>
@@ -1215,9 +1295,11 @@
             <speaker>MACOVEI</speaker>
             <p>Legați-l, măi, să-l ducem la procuror. Cât pentru babă, uștiuluc în baltă.</p>
             <stage> (Țăranii leagă mâinile lui Pepelea.) </stage>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (luptând) </stage>
-            <p>: Hoților, ticăloșilor!... vă puneți o sută pe un om, ca corbii și ca judanii.</p>
+            <p>Hoților, ticăloșilor!... vă puneți o sută pe un om, ca corbii și ca judanii.</p>
             <stage> (Țăranii lasă pe Pepelea legat și se-ntorc la Baba Rada.) </stage>
           </sp>
           <sp who="#baba_rada">
@@ -1229,9 +1311,11 @@
             <speaker>PEPELEA</speaker>
             <p>Ticăloșii... ucid pe biata babă, fără vină, și pe mine m-au legat, ca să mă ducă la închisoare... s-au dus cu toții... nu-i nime, p-aici mi-e drumul.</p>
             <stage> (Fuge-n căsuță.) </stage>
-            <p>ȚĂRANII</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
             <stage> (pe malul lacului) </stage>
-            <p>: Una!</p>
+            <p>Una!</p>
           </sp>
           <sp who="#baba_rada">
             <speaker>BABA RADA</speaker>
@@ -1245,9 +1329,11 @@
           <sp who="#macovei">
             <speaker>MACOVEI</speaker>
             <p>Parapanghelos! De-acum umflați pe Pepelea și hai la procurorul.</p>
-            <p>ȚĂRANII</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
             <stage> (revenind în scenă) </stage>
-            <p>: Dar unde-i?</p>
+            <p>Dar unde-i?</p>
           </sp>
           <sp who="#taranii">
             <speaker>ȚĂRANII</speaker>
@@ -1295,15 +1381,19 @@
             <p>Ferice omul care pe ea</p>
             <p>La foc de stele o va vedea.</p>
             <stage> (Florile de nufăr se deschid, zânele ies de formează împreună un grup artistic în lumina electrică. În floarea din mijloc apare Baba Rada sub figura și sub costumul unei zâne tinere și frumoase și încununată cu plante acvatice.) </stage>
-            <p>ZÂNA:</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <p>Pepeleo, blând suflet, tu singur cu-ndurare,</p>
             <p>Ai vrut să-mi aperi viața de-a proștilor turbare.</p>
             <p>Pe tine eu din umbră te-oi scoate la lumină,</p>
             <p>Căci fosta Baba Rada de-acum e a ta zână.</p>
             <stage> (Zâna, ieșind din floare, pășește pe fața apei și vine în scenă.) </stage>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (cade-n genunchi) </stage>
-            <p>: O!... ce minune cerească.</p>
+            <p>O!... ce minune cerească.</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
@@ -1379,9 +1469,11 @@
           <sp who="#tandala">
             <speaker>TÂNDALĂ</speaker>
             <p>La umbra sceptrului părintesc.</p>
-            <p>AMÂNDOI</p>
+            </sp>
+          <sp who="#amandoi">
+            <speaker>AMÂNDOI</speaker>
             <stage> (înclinați) </stage>
-            <p>: Al augustății-sale...</p>
+            <p>Al augustății-sale...</p>
           </sp>
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
@@ -1396,9 +1488,11 @@
             <p>Care?</p>
             <stage> (Îi șoptește la ureche.) </stage>
             <p>Cel care ai câștigat rușfet de la concesionarii baloanelor.</p>
-            <p>TÂNDALĂ</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (cu mirare) </stage>
-            <p>: De unde o știi?</p>
+            <p>De unde o știi?</p>
           </sp>
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
@@ -1411,9 +1505,11 @@
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
             <p>Cum?</p>
-            <p>TÂNDALĂ</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (îi vorbește la ureche) </stage>
-            <p>: Din răscumpărarea concesiunii baloanelor.</p>
+            <p>Din răscumpărarea concesiunii baloanelor.</p>
           </sp>
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
@@ -1512,9 +1608,11 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Vine... bine vreau să zic, ne place să vă vedem aproape de tron, pentru că sunteți ageri.</p>
-            <p>AMÂNDOI</p>
+            </sp>
+          <sp who="#amandoi">
+            <speaker>AMÂNDOI</speaker>
             <stage> (închinându-se) </stage>
-            <p>: Măria-ta...</p>
+            <p>Măria-ta...</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -1619,9 +1717,11 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Numai atâtea?... le credeam mai plodoase... care au mai ieșit la maidan?...</p>
-            <p>PĂCALĂ</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
             <stage> (desfășurând o hârtie lungă) </stage>
-            <p>: Iată lista.</p>
+            <p>Iată lista.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -1750,9 +1850,11 @@
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
             <p>Zic să nu le trântim, maiestate... pentru că o asemenea trântă ar fi o măsură în incompatibilitate cu abilitatea guvernamentală.</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (aiurit) </stage>
-            <p>: Așa...</p>
+            <p>Așa...</p>
             <stage> (Aparte.) </stage>
             <p>N-am prea înțeles.</p>
             <stage> (Tare.) </stage>
@@ -1790,9 +1892,11 @@
             <speaker>AMÂNDOI</speaker>
             <p>Numaidecât, auguste...</p>
             <stage> (Ies închinându-se.) </stage>
-            <p>PAPURĂ</p>
+            </sp>
+        <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (singur) </stage>
-            <p>: Un cap încoronat trebuie să aibă caracter ferm și voință nestrămutată... altminterea se-ncurcă rău ițele politice... Eu am hotărât să fac pe voia Sânzianei... și nu mă schimb odată cu capul</p>
+            <p>Un cap încoronat trebuie să aibă caracter ferm și voință nestrămutată... altminterea se-ncurcă rău ițele politice... Eu am hotărât să fac pe voia Sânzianei... și nu mă schimb odată cu capul</p>
             <stage> (o pauză) </stage>
             <p>, și însă prudent de-a expune împărăția la cine știe ce calamități, pentru capriciul unei copile alintate... Ce-ar fi, adică, dacă n-aș mărita-o acum?... ar plânge ș-atâta tot... dar de ce s-o fac să plângă, drăguța?... Vrea să se mărite, lucru natural.</p>
             <stage> (Schimbă tonul.) </stage>
@@ -1820,9 +1924,11 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Am avut multe de pus la cale cu miniștrii.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (zâmbind) </stage>
-            <p>: Înțeleg... ați organizat ceremonialul de astăzi... Scumpul meu părinte, cât mă doare să mă despart de d-ta.</p>
+            <p>Înțeleg... ați organizat ceremonialul de astăzi... Scumpul meu părinte, cât mă doare să mă despart de d-ta.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -1871,9 +1977,11 @@
           <sp who="#sanziana">
             <speaker>SÂNZIANA</speaker>
             <p>Bunul meu părinte!... Tocmai de zmei mi-e teamă, pentru că ei fură fete de-mpărați... și mi-a spus vrăjitoarea că sunt amenințată...</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (speriat) </stage>
-            <p>: Ce?... să te răpească o dihanie de pe ceea lume?... Merg să dau porunci ca să pună străji împrejurul palatului…</p>
+            <p>Ce?... să te răpească o dihanie de pe ceea lume?... Merg să dau porunci ca să pună străji împrejurul palatului…</p>
             <stage> (Strigă:) </stage>
             <p>Păcală, Tândală... iaca, uitasem că ei sunt duși la „Trei sarmale!”</p>
           </sp>
@@ -1932,9 +2040,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Eu sunt împăratul zmeilor.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (cu groază) </stage>
-            <p>: Ești zmeu?...</p>
+            <p>Ești zmeu?...</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -1972,21 +2082,27 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Pieri, pieri îți zic.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (ridică buzduganul) </stage>
-            <p>: Se vede că vrei să legi frăție de moarte cu buzduganul meu?</p>
+            <p>Se vede că vrei să legi frăție de moarte cu buzduganul meu?</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Și tu cu fluierașul meu.</p>
             <stage> (Sună din fluier.) </stage>
-            <p>ZMEUL</p>
+            </sp>
+        <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (rămâne încremenit, vrea să-nainteze, dar nu poate; vrea să ridice buzduganul, și-i cade brațul fără putere) </stage>
-            <p>: Păcătosule!... așteaptă... Ce-am pățit?... nu pot face un pas înainte... nu pot purta buzduganul, sunt fermecat... fluierul acesta mă-nvinge...</p>
+            <p>Păcătosule!... așteaptă... Ce-am pățit?... nu pot face un pas înainte... nu pot purta buzduganul, sunt fermecat... fluierul acesta mă-nvinge...</p>
             <stage> (Se tot retrage îndărăt, împins de-o putere misterioasă, în sunetul fluierului Pepelea-l urmărește, amândoi dispar în grădină.) </stage>
-            <p>SÂNZIANA</p>
+            </sp>
+        <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (trezindu-se din buimăceală) </stage>
-            <p>: Am visat?... Era să mă răpească un zmeu?... Și m-a scăpat de el?... Cine m-a scăpat?... Poate că era Făt-Frumos. Făt-Frumos, o, dulce mire,</p>
+            <p>Am visat?... Era să mă răpească un zmeu?... Și m-a scăpat de el?... Cine m-a scăpat?... Poate că era Făt-Frumos. Făt-Frumos, o, dulce mire,</p>
             <p>Te aștept vin’ cu grăbire,</p>
             <p>Vino de mă ia... etc.</p>
             <stage> (Iese prin stânga cântând sotto voce.) </stage>
@@ -2008,7 +2124,9 @@
             <p>Poftim, vestiți și de bun neam domni, crai și împărați! În curând va sosi marele, gloriosul, mărinimosul, augustul Papură-Împărat, împreună cu frumoasa, încântătoarea, augusta sa copilă, domnița Sânziana.</p>
             <stage> (În sunetul unui marș triumfal, intră Papură cu hlamidă și cu coroană aurită, ținând pe Sânziana de mână, urmați de mai multe dame și magnați de Curte... ei fac jurul sălii, salutând pe oaspeți, ș-apoi merg de se suie pe tronuri. Steagurile se înclină în fața lor și toți oaspeții rămân extaziați, privind la Sânziana... Pârlea-Vodă dă semne de admirație grotescă.) </stage>
             <stage> (Tândală stă lângă tron.) </stage>
-            <p>COR:</p>
+            </sp>
+        <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Iată împăratul,</p>
             <p>Iată luminatul</p>
             <p>Cu Sânziana,</p>
@@ -2049,25 +2167,32 @@
             <p>Zorilă?... Am cunoscut în tinerețe pe babacu-tău; pătimea, sărmanul, de căscat, altminterea era deștept și cam... berbant.</p>
             <stage> (Râzând.) </stage>
             <p>Îmi aduc aminte că odată ne-am întârziat împreună pănă-n faptul zilei, într-o mahala!... ha! ha! ha! Stârnisem toți câinii și comisarii... ha, ha, ha!</p>
-            <p>TÂNDALĂ</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (încet, cu dezaprobare) </stage>
-            <p>: Auguste...</p>
-            <p>PAPURĂ</p>
+            <p>Auguste...</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (serios) </stage>
-            <p>: Ai dreptate, Tândală, nu iartă ighemoniconul.</p>
+            <p>Ai dreptate, Tândală, nu iartă ighemoniconul.</p>
             <stage> (Arată pe Sânziana.) </stage>
             <p>Și e sărbătoare-n casă; iaca tac, tac.</p>
-            <p>ZORILĂ</p>
+            </sp>
+          <sp who="#zorila">
+            <speaker>ZORILĂ</speaker>
             <stage> (îngenunche dinaintea tronului Sânzianei și declamă) </stage>
-            <p>:</p>
             <p>Princesă! Răsăritul e raiul pământesc;</p>
             <p>Din el răsare luna și soarele ceresc!</p>
             <p>Primește-a fi regină acelui dulce plai,</p>
             <p>Ca să privească lumea-n mirare rai în rai.</p>
             <stage> (Se scoală și se retrage.) </stage>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (lui Tândală) </stage>
-            <p>: Rarerarerai în rai? parcă aud broaștele, Tândală.</p>
+            <p>Rarerarerai în rai? parcă aud broaștele, Tândală.</p>
           </sp>
           <sp who="#tandala">
             <speaker>TÂNDALĂ</speaker>
@@ -2076,25 +2201,30 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>O fi!...</p>
-            <p>PĂCALĂ</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
             <stage> (prezentând pe Murgilă) </stage>
-            <p>: Măria-sa Murgilă, craiul Apusului.</p>
+            <p>Măria-sa Murgilă, craiul Apusului.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Murgilă?... Stăi... am cunoscut și pe babacu-tău; era cam posomorât de firea lui. Ce mai face?</p>
-            <p>MURGILĂ</p>
+            </sp>
+          <sp who="#murgila">
+            <speaker>MURGILĂ</speaker>
             <stage> (posomorât) </stage>
-            <p>: A apus...</p>
+            <p>A apus...</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>A apus!... Ce spui? A dat pielea popii? Hei!... lume, lume!... toți suntem mai mult sau mai puțin muritori.</p>
             <stage> (Își suflă nasul tare.) </stage>
             <p>Ca mâine îi apune și tu.</p>
-            <p>MURGILĂ</p>
+            </sp>
+          <sp who="#murgila">
+            <speaker>MURGILĂ</speaker>
             <stage> (asemenea și el îngenunche înaintea Sânzianei și declamă) </stage>
-            <p>:</p>
             <p>Princesă, în Apusul profund, mistuitor,</p>
             <p>Apune soare, lună, tot ce-i strălucitor,</p>
             <p>Dar jur pe-a ta frumseță, de lume admirată,</p>
@@ -2114,9 +2244,11 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>O fi!...</p>
-            <p>PĂCALĂ</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
             <stage> (prezentând pe Lăcustă) </stage>
-            <p>: Măria-sa Lăcustă-Vodă.</p>
+            <p>Măria-sa Lăcustă-Vodă.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2133,35 +2265,45 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Am stomac bun!</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (lui Tândală) </stage>
-            <p>: Stomac de Lăcustă.</p>
-            <p>LĂCUSTĂ</p>
+            <p>Stomac de Lăcustă.</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (îngenunchează dinaintea Sânzianei și declamă) </stage>
-            <p>:</p>
             <p>Frunză verde de mohor</p>
             <p>Mor de dor... zău... de dor mor,</p>
             <p>Mor... mor... mor...</p>
             <stage> (Aparte.) </stage>
             <p>Ce dracu!... am uitat restul și mi-am pierdut rostul.</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (lui Tândală) </stage>
-            <p>: Ian ascultă, Tândală... ăsta mormorosește ca un urs.</p>
-            <p>LĂCUSTĂ</p>
+            <p>Ian ascultă, Tândală... ăsta mormorosește ca un urs.</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (caută a continua) </stage>
-            <p>:</p>
             <p>Frunză verde de mohor</p>
             <p>Mor, mor, mor...</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Lăcustă... dragă Lăcustă, lasă, nu mai muri acum, fătul meu, pe altădată, pe altădată, așa să trăiești.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (retrăgându-se) </stage>
-            <p>: Curios!... mi-am uitat improvizația.</p>
-            <p>PĂCALĂ</p>
+            <p>Curios!... mi-am uitat improvizația.</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
             <stage> (prezentând pe Pârlea) </stage>
-            <p>: Măria-sa, Pârlea-Vodă.</p>
+            <p>Măria-sa, Pârlea-Vodă.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2180,16 +2322,20 @@
             <speaker>PAPURĂ</speaker>
             <p>Pompieri!... chemați pompierii... e-n stare să-mi dea foc palatului.</p>
             <stage> (S-aude afară fluierul lui Pepelea.) </stage>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (indignat) </stage>
-            <p>: Cine mă fluieră?</p>
+            <p>Cine mă fluieră?</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Ce se-aude, un fluier?</p>
-            <p>SÂNZIANA</p>
+            </sp>
+        <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (uimită, aparte) </stage>
-            <p>: Parcă-i fluierul care m-a scăpat de zmeu.</p>
+            <p>Parcă-i fluierul care m-a scăpat de zmeu.</p>
             <stage> (Apare Pepelea pe pragul ușii din dreapta.) </stage>
           </sp>
         </div>
@@ -2203,9 +2349,11 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Luminate împărate, sunt solul Zânei-Lacului!... Acea zână năzdrăvană a auzit de preaputernicul, preaînțeleptul, preamărinimosul Papură-Împărat, precum și de cereasca frumusețe a fiicei sale, care-i samănă...</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (îmblânzit) </stage>
-            <p>: Așa mai vii de-acasă... urmează.</p>
+            <p>Așa mai vii de-acasă... urmează.</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -2214,9 +2362,11 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Care? unde-s?...</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (face un semn afară; un paj intră, aducând o colivie mică de aur, în care este închisă o pasăre albastră, și alți doi servitori aduc o oglindă mare, pusă pe două picioare aurite) </stage>
-            <p>: Iată-le!... o pasăre măiastră, pentru frumoasa și încântătoarea princesă.</p>
+            <p>Iată-le!... o pasăre măiastră, pentru frumoasa și încântătoarea princesă.</p>
             <stage> (Ia colivia ș-o prezintă Sânzianei.) </stage>
             <p>Ș-această oglindă, pentru augustatea-voastră... Pasărea are grai omenesc și răspunde la toate întrebările... Oglinda arată adevărul... Zâna vă roagă să le primiți bucuroși, din parte-i.</p>
             <stage> (Servitorii așează oglinda între ambele arcade, față cu publicul.) </stage>
@@ -2286,12 +2436,16 @@
           <sp who="#tandala_pacala">
             <speaker>TÂNDALĂ-PĂCALĂ</speaker>
             <p>Minciuni, minciuni, gaiță nerușinată!... Nu o credeți, augustate.</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (sever) </stage>
-            <p>: Tăcere!... Mâine voi fi supremul vostru judecător, astăzi n-am vreme să fiu decât părinte... Sânziană, ai văzut ș-ai ascultat pe onorabilii preopinanți... asta... aspiranți... răspunde, care din dumnealor îl socoți mai demn de a-mi fi ginere mie și, prin urmare, bărbat ție?</p>
-            <p>SÂNZIANA</p>
+            <p>Tăcere!... Mâine voi fi supremul vostru judecător, astăzi n-am vreme să fiu decât părinte... Sânziană, ai văzut ș-ai ascultat pe onorabilii preopinanți... asta... aspiranți... răspunde, care din dumnealor îl socoți mai demn de a-mi fi ginere mie și, prin urmare, bărbat ție?</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Sire, sunt confuză în momentul acesta... și nu mă pot pronunța îndată... atât de mari sunt meritele dumnealor.</p>
+            <p>Sire, sunt confuză în momentul acesta... și nu mă pot pronunța îndată... atât de mari sunt meritele dumnealor.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2299,9 +2453,11 @@
             <stage> (Tare.) </stage>
             <p>Ședința e suspendată pe zece minute. Poftiți la bufet, dacă vă place.</p>
             <stage> (Se scoală.) </stage>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (aparte) </stage>
-            <p>: Am să consult pasărea despre ursitul meu.</p>
+            <p>Am să consult pasărea despre ursitul meu.</p>
             <stage> (Către pasăre.) </stage>
             <p>Păsărică dragă, cum se numește ursitul meu?...</p>
           </sp>
@@ -2355,9 +2511,11 @@
             <p>Prin ea am să cunosc firea musafirilor mei.</p>
             <stage> (Tare.) </stage>
             <p>Păcală, Tândală... ian priviți-vă mutrele în oglinda asta... ca să vedeți cât sunteți de frumoși.</p>
-            <p>PĂCALĂ-TÂNDALĂ</p>
+            </sp>
+          <sp who="#pacalatandala">
+            <speaker>PĂCALĂ-TÂNDALĂ</speaker>
             <stage> (cu sfială) </stage>
-            <p>: Auguste...</p>
+            <p>Auguste...</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2373,15 +2531,21 @@
             <p>Lupi! Miniștrii mei, secretari de stat, sunt lupi! și eu i-am rânduit păstori la oi?...</p>
             <stage> (Sever.) </stage>
             <p>Am să vă hăituiesc cu copoi, pungivorilor!</p>
-            <p>PĂCALĂ-TÂNDALĂ</p>
+            </sp>
+          <sp who="#pacalatandala">
+            <speaker>PĂCALĂ-TÂNDALĂ</speaker>
             <stage> (abătuți) </stage>
-            <p>: Ne-am dat de gol! Am pățit-o.</p>
-            <p>TOȚI</p>
+            <p>Ne-am dat de gol! Am pățit-o.</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (cu mirare) </stage>
-            <p>: O!</p>
-            <p>PAPURĂ</p>
+            <p>O!</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (aparte) </stage>
-            <p>: Acum să trecem la musafiri.</p>
+            <p>Acum să trecem la musafiri.</p>
             <stage> (Tare.) </stage>
             <p>Lăcustă- Vodă... ai idee de nurii cu care te-a înzestrat natura?</p>
           </sp>
@@ -2397,9 +2561,11 @@
             <speaker>LĂCUSTĂ</speaker>
             <p>Bucuros...</p>
             <stage> (Se pune în fața oglinzii. Oglinda reflectează o lăcustă slabă.) </stage>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (râzând) </stage>
-            <p>: A!... o lăcustă?</p>
+            <p>A!... o lăcustă?</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -2408,9 +2574,11 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Aidoma.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (râde cu hohot) </stage>
-            <p>: A pățit-o vărul.</p>
+            <p>A pățit-o vărul.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2426,18 +2594,24 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Numai bun de pus în frigare.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (furios) </stage>
-            <p>: Asta-i o insultă... cere răzbunare.</p>
+            <p>Asta-i o insultă... cere răzbunare.</p>
             <stage> (Scoate sabia ca să lovească oglinda.) </stage>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (oprindu-l) </stage>
-            <p>: Ba te poftesc să-mi lași mobilele în pace; nu poți lupta cu adevărul... Am să mă uit și eu... priviți și admirați.</p>
+            <p>Ba te poftesc să-mi lași mobilele în pace; nu poți lupta cu adevărul... Am să mă uit și eu... priviți și admirați.</p>
             <stage> (Se pune majestos înaintea oglinzii. Oglinda reflectează o broască purtând scufă.) </stage>
             <p>Ce?... un buhai de baltă? Eu?... Asta-i broscărie... boșcărie vreau să zic; sfărâmați oglinda asta obraznică în 40 de mii de bucăți. Buhai de baltă?... Pepelea, unde-i Pepelea?</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (ieșind de după oglindă) </stage>
-            <p>: Aici.</p>
+            <p>Aici.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2447,9 +2621,11 @@
             <speaker>TÂNDALĂ-PĂCALĂ</speaker>
             <p>Pe dânsul cu toții!</p>
             <stage> (Toți se reped asupra lui Pepelea, care scoate fluierul de la brâu.) </stage>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (aparte) </stage>
-            <p>: Am să te văd, fluierașule, ce poți.</p>
+            <p>Am să te văd, fluierașule, ce poți.</p>
             <stage> (Fuge spre ușa din dreapta.) </stage>
           </sp>
           <sp who="#papura">
@@ -2467,9 +2643,11 @@
             <stage> (Se reped spre ușă, fluierul se aude mai departe, dansul iar începe și continuă mai strechiat, pân’ ce fluierul tace.) </stage>
             <p>Uf! am obosit, nu mai pot, îmi dau sufletul.</p>
             <stage> (Unii cad pe scaune, alții se reazemă- mpreună, spate de spate.) </stage>
-            <p>PAPURĂ</p>
+            </sp>
+        <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (căzând pe treptele tronului) </stage>
-            <p>: Uf! am jucat fără voie ca la ușa cortului, la bătrânețe. Suntem vrăjiți.</p>
+            <p>Uf! am jucat fără voie ca la ușa cortului, la bătrânețe. Suntem vrăjiți.</p>
           </sp>
         </div>
         <div type="scene" n="11">
@@ -2479,27 +2657,35 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Zmeul!...</p>
-            <p>DAMELE</p>
+            </sp>
+          <sp who="#damele">
+            <speaker>DAMELE</speaker>
             <stage> (vin, alergând speriate, în scenă) </stage>
-            <p>: Zmeul!</p>
+            <p>Zmeul!</p>
             <stage> (Se ascund după tronuri.) </stage>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Ce zmeu? unde-i zmeul?... ce-ați pățit?</p>
-            <p>O DAMĂ</p>
+            </sp>
+          <sp who="#o_dama">
+            <speaker>O DAMĂ</speaker>
             <stage> (repede) </stage>
-            <p>: În vreme ce domnița sta departe pe terasă, grăind cu pasărea cea măiastră, soarele s-a-ntunecat ca de un nor și deodată a apărut prin văzduh un zmeu călare; el a trecut pe lângă domnița, a luat-o în brațe și s-a dus, s-a dus...</p>
-            <p>PAPURĂ</p>
+            <p>În vreme ce domnița sta departe pe terasă, grăind cu pasărea cea măiastră, soarele s-a-ntunecat ca de un nor și deodată a apărut prin văzduh un zmeu călare; el a trecut pe lângă domnița, a luat-o în brațe și s-a dus, s-a dus...</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (buimăcit) </stage>
-            <p>: S-a dus, s-a dus, unde s-a dus?</p>
+            <p>S-a dus, s-a dus, unde s-a dus?</p>
           </sp>
           <sp who="#dama">
             <speaker>DAMA</speaker>
             <p>Și s-a făcut în curând nevăzut.</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (tare) </stage>
-            <p>: Unde?</p>
+            <p>Unde?</p>
           </sp>
           <sp who="#dama">
             <speaker>DAMA</speaker>
@@ -2530,7 +2716,9 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Hai! Hai!</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>La goană, la goană, la goană,</p>
             <p>În grabă, la fugă, mereu!</p>
             <p>Să-l prindem, să-l facem tocană,</p>
@@ -2550,9 +2738,11 @@
             <speaker>STATU-PALMĂ</speaker>
             <p>Ian auzi cum se bocesc toți nenorociții prinși în codru de Mama-Pădurii!... Ce dihanie răutăcioasă!... Pe cine-l întâlnește rătăcit pe-aice, îl închide într-un copac... Chiar pe mine, uncheșul Statu-Palmă-Barbă-Cot, m-a osândit să stau în tufarul ista... și mi-a luat amanet iepurașul meu cel șchiop... De nu l-ar fi mâncat ostropăț, sărmanul... Dar iată că vine... La tufar, moșule...</p>
             <stage> (Se ascunde după tufar.) </stage>
-            <p>ZÂNA</p>
+            </sp>
+        <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (care vine prin alee) </stage>
-            <p>: Frate-meu, zmeul, a răpit pe Sânziana... și de-atunci nu l-am mai văzut... l-o fi fermecat, și-l ține legat de poalele ei... Ce proastă beție e beția amorului!... Cum ea schimbă pe om în neom... Eu disprețuiesc această slăbiciune omenească... n-am iubit, nici voi iubi vreodată, deși mulți s-au înamorat de mine și s-au rătăcit prin codru, căutându-mă. Năucii! le-am arătat eu cine-i Mama-Pădurii... i-am atras aici în desime și i-am închis în trunchii copacilor... În stejarul cel mare am pe Făt-Frumos; în salcia cea pletoasă, pe un poet bocitor; în tufa ceea de spini înveninați, pe un invidios jurnalist... în putregaiul cel de ulm, un fost ministru putred la inimă; în strâmbătura cea de lemnul-câinelui, un fals patriot; în tufarul cela am închis pe Statu-Palmă-Barbă-Cot și i-am luat zălog iepurașul lui cel șchiop, ha! ha! ha!</p>
+            <p>Frate-meu, zmeul, a răpit pe Sânziana... și de-atunci nu l-am mai văzut... l-o fi fermecat, și-l ține legat de poalele ei... Ce proastă beție e beția amorului!... Cum ea schimbă pe om în neom... Eu disprețuiesc această slăbiciune omenească... n-am iubit, nici voi iubi vreodată, deși mulți s-au înamorat de mine și s-au rătăcit prin codru, căutându-mă. Năucii! le-am arătat eu cine-i Mama-Pădurii... i-am atras aici în desime și i-am închis în trunchii copacilor... În stejarul cel mare am pe Făt-Frumos; în salcia cea pletoasă, pe un poet bocitor; în tufa ceea de spini înveninați, pe un invidios jurnalist... în putregaiul cel de ulm, un fost ministru putred la inimă; în strâmbătura cea de lemnul-câinelui, un fals patriot; în tufarul cela am închis pe Statu-Palmă-Barbă-Cot și i-am luat zălog iepurașul lui cel șchiop, ha! ha! ha!</p>
             <stage> (Corul iar se repetă.) </stage>
             <p>Ei plâng, și eu râd de bocetele lor... Dar ce zăresc? Iaca frate-meu, zmeul... posomorât e!... efectul amorului!</p>
           </sp>
@@ -2563,23 +2753,29 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Bine-ai venit, frate!... Ce-ai pățit de ești așa trist?</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (oftează) </stage>
-            <p>: Ha!</p>
+            <p>Ha!</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Ești bolnav?</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (dă din cap) </stage>
-            <p>: Ha!</p>
+            <p>Ha!</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Nu?... ai pierdut poate pe Sânziana?</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (tragic) </stage>
-            <p>: Ah!... n-am pierdut-o, soro... ea m-a prăpădit pe mine.</p>
+            <p>Ah!... n-am pierdut-o, soro... ea m-a prăpădit pe mine.</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
@@ -2632,9 +2828,11 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Lulea?</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (tragic) </stage>
-            <p>: Lulea, ascultă: După ce am răpit-o de la curtea lui Papură... am adus-o prin văzduh la palatul meu din insula cea nevăzută... Sărmana!... era leșinată de spaimă... când s-a trezit și a dat cu ochii de mine... în loc să-mi zâmbească, ca celelalte fete bine crescute, știi ce-a făcut?</p>
+            <p>Lulea, ascultă: După ce am răpit-o de la curtea lui Papură... am adus-o prin văzduh la palatul meu din insula cea nevăzută... Sărmana!... era leșinată de spaimă... când s-a trezit și a dat cu ochii de mine... în loc să-mi zâmbească, ca celelalte fete bine crescute, știi ce-a făcut?</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
@@ -2643,9 +2841,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>S-a-nfuriat ca o pisică sălbatică, și cât pe-aci să mă chiorască cu unghiile sale trandafirii... Eu am început, după obicei, a-i înșira vorbe drăgălașe... aș!... ca și când aș fi grăit politică.</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (râzând) </stage>
-            <p>: Așa efect deșănțat ai produs?</p>
+            <p>Așa efect deșănțat ai produs?</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -2826,29 +3026,39 @@
           <sp who="#macovei">
             <speaker>MACOVEI</speaker>
             <p>Măria-ta... de nu cumva am intrat în împărăția uriașilor sau în crăia piticilor, sau în domnia tricolicilor, apoi trebuie să nu fim departe de țara zmeilor.</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (cu frică) </stage>
-            <p>: Oare?</p>
+            <p>Oare?</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Cum?...să fie oare zmeul așa aproape de noi?</p>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (dând îndărăt) </stage>
-            <p>: În codrul ăsta?</p>
-            <p>PAPURĂ</p>
+            <p>În codrul ăsta?</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (se dă după ostași) </stage>
-            <p>: Ce v-ați speriat, voinicilor?... au nu vă gândiți la strămoșii voștri?! la acei eroi care sunt meniți a fi exploatați de strănepoții lor?... Păcală-Tândală, unde sunteți?</p>
-            <p>PĂCALĂ-TÂNDALĂ</p>
+            <p>Ce v-ați speriat, voinicilor?... au nu vă gândiți la strămoșii voștri?! la acei eroi care sunt meniți a fi exploatați de strănepoții lor?... Păcală-Tândală, unde sunteți?</p>
+            </sp>
+          <sp who="#pacalatandala">
+            <speaker>PĂCALĂ-TÂNDALĂ</speaker>
             <stage> (ieșind dintre ostași) </stage>
-            <p>: Prezenți.</p>
+            <p>Prezenți.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Intrați în codru și trageți cu ochiul, nu cumva îți zări zmei pe după copaci.</p>
-            <p>AMÂNDOI</p>
+            </sp>
+          <sp who="#amandoi">
+            <speaker>AMÂNDOI</speaker>
             <stage> (uimiți) </stage>
-            <p>: Noi?</p>
+            <p>Noi?</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -2865,9 +3075,11 @@
           <sp who="#amandoi">
             <speaker>AMÂNDOI</speaker>
             <p>Pornit, auguste.</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (ostașilor) </stage>
-            <p>: Până se vor întoarce din misiunea lor extraordinară, de se vor mai întoarce... voi întindeți-mi cortul sub pădurețul cel stufos, ca să mă odihnesc...</p>
+            <p>Până se vor întoarce din misiunea lor extraordinară, de se vor mai întoarce... voi întindeți-mi cortul sub pădurețul cel stufos, ca să mă odihnesc...</p>
             <stage> (Arată în dreapta, înspre culise.) </stage>
             <p>Unde-s Pârlea și Lăcustă?</p>
           </sp>
@@ -2942,9 +3154,11 @@
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
             <p>Nimic alt, decât un soi de țânțari morți de foame... să juri că-s postulanți.</p>
-            <p>TÂNDALĂ</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (apropiindu-se) </stage>
-            <p>: Hâș, dihanie... na!... m-a pișcat de mână...</p>
+            <p>Hâș, dihanie... na!... m-a pișcat de mână...</p>
             <stage> (Își trage o palmă peste mână.) </stage>
           </sp>
           <sp who="#pacala">
@@ -3011,9 +3225,11 @@
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
             <p>Poate să pierim... Tândală, să ne îmbrățișăm, pentru întâia și ultima oară... Să ne iertăm...</p>
-            <p>TÂNDALĂ</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (luându-l în brațe) </stage>
-            <p>: Multe ți-am greșit, frate.</p>
+            <p>Multe ți-am greșit, frate.</p>
           </sp>
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
@@ -3035,12 +3251,16 @@
             <speaker>PĂCALĂ</speaker>
             <p>Da! pe ceea lume.</p>
             <stage> (Se despart, apucând unul în dreapta și celălalt în stânga... ei dispar... Tremolo.) </stage>
-            <p>TÂNDALĂ</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (cu glas speriat, între culise) </stage>
-            <p>: Păcală!...</p>
-            <p>PĂCALĂ</p>
+            <p>Păcală!...</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
             <stage> (asemenea) </stage>
-            <p>: Tândală!...</p>
+            <p>Tândală!...</p>
             <stage> (Vin amândoi în scenă, plini de groază și cu nasurile bășicate.) </stage>
           </sp>
           <sp who="#tandala">
@@ -3111,7 +3331,9 @@
             <speaker>PAPURĂ</speaker>
             <p>Și v-ați războit cu dânșii... judecând după halul nasurilor voastre... Ha! ha! ha! ce frumoși sunteți!... începeți a da mugur.</p>
             <stage> (Toți râd.) </stage>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Ce nas roșcovan,</p>
             <p>Să juri că-i curat</p>
             <p>Morcov degerat</p>
@@ -3171,19 +3393,25 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Iată-l.</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (râzând) </stage>
-            <p>: Borcănosul ăsta?</p>
-            <p>TÂNDALĂ</p>
+            <p>Borcănosul ăsta?</p>
+            </sp>
+          <sp who="#tandala">
+            <speaker>TÂNDALĂ</speaker>
             <stage> (supărat) </stage>
-            <p>: Și ea râde? apoi n-are haz!...</p>
+            <p>Și ea râde? apoi n-are haz!...</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Nu căta că-i cam beteag la nas... l-au pișcat țânțarii, altminterea-i nostim.</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (râzând) </stage>
-            <p>: Mai bine vă duc degeaba... Hai!</p>
+            <p>Mai bine vă duc degeaba... Hai!</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -3193,9 +3421,11 @@
             <speaker>ZÂNA</speaker>
             <p>N-aveți grijă... i-au săturat nasul d-sale!</p>
             <stage> (Arată pe Tândală.) </stage>
-            <p>PĂCALĂ</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
             <stage> (aparte) </stage>
-            <p>: Pe mine nu m-a văzut?</p>
+            <p>Pe mine nu m-a văzut?</p>
             <stage> (Se ascunde la față.) </stage>
           </sp>
           <sp who="#zana">
@@ -3206,9 +3436,11 @@
           <sp who="#pacala">
             <speaker>PĂCALĂ</speaker>
             <p>Na.</p>
-            <p>ZÂNA</p>
+            </sp>
+        <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (aparte) </stage>
-            <p>: Au încăput pe mâna mea? am să-i schimb în dobitoace.</p>
+            <p>Au încăput pe mâna mea? am să-i schimb în dobitoace.</p>
             <stage> (Ies cu toții în codru, cântând: „Ce nas roșcovan” etc.) </stage>
           </sp>
         </div>
@@ -3222,9 +3454,11 @@
           <sp who="#statu_palma">
             <speaker>STATU-PALMĂ</speaker>
             <p>Ha!</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (mai tare) </stage>
-            <p>: Oameni mulți.</p>
+            <p>Oameni mulți.</p>
           </sp>
           <sp who="#statu_palma">
             <speaker>STATU-PALMĂ</speaker>
@@ -3255,19 +3489,25 @@
             <p>Oi să mă culc lângă el, ca să-i chiui la ceafă.</p>
             <stage> (Pus pe brânci lângă el răcnește.) </stage>
             <p>Papură, Papură-Împărat.</p>
-            <p>STATU - PALMĂ</p>
+            </sp>
+          <sp who="#statu_palma">
+            <speaker>STATU - PALMĂ</speaker>
             <stage> (sărind călare pe umerii lui Lăcustă) </stage>
-            <p>: Am auzit... ce strigi așa?...</p>
-            <p>LĂCUSTĂ</p>
+            <p>Am auzit... ce strigi așa?...</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (surprins) </stage>
-            <p>: Iaca, ce-ai pățit, uncheașule, de încaleci pe mine?</p>
+            <p>Iaca, ce-ai pățit, uncheașule, de încaleci pe mine?</p>
           </sp>
           <sp who="#statu_palma">
             <speaker>STATU-PALMĂ</speaker>
             <p>Te-am încălecat pentru ca să mă porți în spinare pe lume.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Eu să-ți fiu cal?... Nu-mi spui că ești ghiduș? Coboară de pe umeri.</p>
+            <p>Eu să-ți fiu cal?... Nu-mi spui că ești ghiduș? Coboară de pe umeri.</p>
           </sp>
           <sp who="#statu_palma">
             <speaker>STATU-PALMĂ</speaker>
@@ -3292,9 +3532,11 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Ei, apoi nu te întrece, ghiujule, că-ți trag o trânteală s-o pomenești...</p>
-            <p>STATU - PALMĂ</p>
+            </sp>
+          <sp who="#statu_palma">
+            <speaker>STATU - PALMĂ</speaker>
             <stage> (îl bate cu călcâiele) </stage>
-            <p>: Hi! hi!... jărpane!</p>
+            <p>Hi! hi!... jărpane!</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -3312,13 +3554,17 @@
           <sp who="#statu_palma">
             <speaker>STATU - PALMĂ</speaker>
             <p>Statu-Palmă-Barbă-Cot!</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (îngrozit) </stage>
-            <p>: Statu-Palmă? Aoleo!... aoleo!... ajutor!... ajutor! oameni buni!</p>
+            <p>Statu-Palmă? Aoleo!... aoleo!... ajutor!... ajutor! oameni buni!</p>
             <stage> (Aleargă nebun.) </stage>
-            <p>STATU - PALMĂ</p>
+            </sp>
+          <sp who="#statu_palma">
+            <speaker>STATU - PALMĂ</speaker>
             <stage> (râzând) </stage>
-            <p>: Hi! hi! hi! hi!... nu te-aude nime... doar numai Mama-Pădurii.</p>
+            <p>Hi! hi! hi! hi!... nu te-aude nime... doar numai Mama-Pădurii.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -3360,9 +3606,11 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Ce or buraticii ăștia?... îmi dau de știre că are să plouă... Bine, bine, vă mulțumesc că-mi anunțați ploaie, doar mi s-a mai stinge setea din piept.</p>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (cu un ton plângător) </stage>
-            <p>: Ua ca, ua ca, ua ca!</p>
+            <p>Ua ca, ua ca, ua ca!</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -3371,9 +3619,11 @@
             <p>Tio, dihănii!... la stână... să juri că-s Păcală și Tândală.</p>
             <stage> (Macovei rage ca măgarii la urechile lui Pârlea.) </stage>
             <p>Ha! urecheatule... ăsta e Macovei învățatul în picioare.</p>
-            <p>ZÂNA</p>
+            </sp>
+        <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (se arată) </stage>
-            <p>: În codru, dihăniilor!</p>
+            <p>În codru, dihăniilor!</p>
             <stage> (Papură cu ai lui dispar în pădure, reîncepând corul de buratici.) </stage>
           </sp>
         </div>
@@ -3383,12 +3633,16 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>O nevăstuică?</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (aparte) </stage>
-            <p>: Cine să fie ardeiul ăsta?</p>
-            <p>PÂRLEA</p>
+            <p>Cine să fie ardeiul ăsta?</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (aparte) </stage>
-            <p>: Frumușică... ochi plini de foc... talie plinuță... brațe de caș... îmi dau poftă de mâncare... Dacă mi-aș cerca norocul?...</p>
+            <p>Frumușică... ochi plini de foc... talie plinuță... brațe de caș... îmi dau poftă de mâncare... Dacă mi-aș cerca norocul?...</p>
             <stage> (Grațios.) </stage>
             <p>Puiculiță, de-aici ești?</p>
           </sp>
@@ -3459,18 +3713,24 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>De unde să culeg, dacă nu-i?</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (aparte) </stage>
-            <p>: E cam prostuță, dar frumoasă coz.</p>
+            <p>E cam prostuță, dar frumoasă coz.</p>
             <stage> (Tare ș-apropiat.) </stage>
             <p>Cum se poate?... un juvaer ca mata, cu o guriță așa de îmbobocită, cu niște sprâncene așa de îmbinate... cu o talie așa de rotunjoară.</p>
             <stage> (Vrea să o apuce de mijloc.) </stage>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (lovindu-l peste mână) </stage>
-            <p>: Nu pune laba.</p>
-            <p>PÂRLEA</p>
+            <p>Nu pune laba.</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (încântat) </stage>
-            <p>: Labă?... e nostimă de tot Pădureanca! vorbă multă, sărăcie... Știi una?</p>
+            <p>Labă?... e nostimă de tot Pădureanca! vorbă multă, sărăcie... Știi una?</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
@@ -3483,16 +3743,20 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Oare? dar cine ești d-ta?</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (cu emfază) </stage>
-            <p>: Pârlea-Vodă.</p>
+            <p>Pârlea-Vodă.</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Pârlea-Vodă cel vestit?</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (mândru) </stage>
-            <p>: Eu!</p>
+            <p>Eu!</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
@@ -3517,16 +3781,20 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Tot eu! văd că mă cunoști, ca și când m-ai fi făcut.</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (oftând) </stage>
-            <p>: Ah!</p>
+            <p>Ah!</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Oftezi?... oftezi după mine... găinușa tatei?... mă așteptai?...</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (coborând ochii) </stage>
-            <p>: Ah!</p>
+            <p>Ah!</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -3541,9 +3809,11 @@
             <p>Așa mi-i crasisul.</p>
             <stage> (Deschide brațele.) </stage>
             <p>Și de vreme ce m-ai îndrăgit nitam-nisam... vino-n brațele mele... eu să te schimb pe tine în zâna fericirii și tu să mă schimbi pe mine în...</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (înaintează și-l atinge cu o vărguță) </stage>
-            <p>: În curcan...</p>
+            <p>În curcan...</p>
             <stage> (Pârlea se preface în curcan.) </stage>
           </sp>
           <sp who="#parlea">
@@ -3559,9 +3829,11 @@
             <speaker>PÂRLEA</speaker>
             <p>Glu! glu! glu! glu!</p>
             <stage> (Pârlea fuge-n pădure. Deodată s-aude-n depărtare fluierul lui Pepelea.) </stage>
-            <p>ZÂNA</p>
+            </sp>
+        <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (singură) </stage>
-            <p>: Un fluier?... îl cunosc?... e fluierul lui Pepelea, dat lui de Zâna-Lacului, dușmana mea de moarte... El fură mințile și pătrunde inimile.</p>
+            <p>Un fluier?... îl cunosc?... e fluierul lui Pepelea, dat lui de Zâna-Lacului, dușmana mea de moarte... El fură mințile și pătrunde inimile.</p>
             <stage> (Ascultă.) </stage>
             <p>Ce armonie încântătoare!... Cu el, Pepelea poate realiza tot ce dorește în astă lume. Pepelea se duce să scape pe Sânziana din insula fratelui meu... Cum să-l opresc de-a merge înainte?... Cum să-i smulg arma din mână, fluierul cel vrăjit?... A!... bună idee!... să iau chipul și glasul Sânzianei, să-i ies în cale, să-l amețesc, să-l orbesc... minunat!</p>
             <stage> (Fluierul încetează.) </stage>
@@ -3584,16 +3856,22 @@
             <p>Făr-a mă-ntâlni cu ea.</p>
             <p>Sărmana copilă!... o văd pretutindeni, în flori, în stele, în zori, în umbră, dar nu e decât o nălucă ce dispare și eu rămân tot singur și nemângăiat.</p>
             <stage> (Se pune pe o rădăcină. În pădure se aude glasul Sânzianei.) </stage>
-            <p>GLASUL:</p>
+            </sp>
+          <sp who="#glasul">
+            <speaker>GLASUL</speaker>
             <p>În zadar plâng zi și noapte</p>
             <p>Cerând lumii ajutor.</p>
             <p>Nu găsesc, vai! nici un suflet</p>
             <p>De-a mea soartă-ndurător.</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (tresărind) </stage>
-            <p>: Ce-aud?... e glasul Sânzianei.</p>
+            <p>Ce-aud?... e glasul Sânzianei.</p>
             <stage> (Se scoală tulburat.) </stage>
-            <p>GLASUL SÂNZIANEI:</p>
+            </sp>
+          <sp who="#glasul_sanzianei">
+            <speaker>GLASUL SÂNZIANEI</speaker>
             <p>Viața mea se ofilește</p>
             <p>Ca un fir de iarbă-n vânt,</p>
             <p>Și eu, trista Sânziană,</p>
@@ -3671,9 +3949,11 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Ah! Pepeleo! ce mi-ar folosi un rest de viață dacă ai muri tu? N-ai înțeles că și eu, din parte-mi... te iubesc?</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (fericit) </stage>
-            <p>: Tu pe mine? O, de-acum sunt împăratul lumii!... Vie zmei, balauri, pajuri năzdrăvane, le voi combate, le voi învinge.</p>
+            <p>Tu pe mine? O, de-acum sunt împăratul lumii!... Vie zmei, balauri, pajuri năzdrăvane, le voi combate, le voi învinge.</p>
           </sp>
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
@@ -3690,9 +3970,11 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Dar tu nu cunoști puterea acestei trestioare, prin farmecul ei eu am scăpat de toate nevoile; Zâna-Lacului, care mă ocrotește, mi-a zis să nu mă despart niciodată de fluierașul ăsta, să nu-l dau nimănui, căci pe loc m-ar cuprinde moartea.</p>
-            <p>ZÂNA</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (cu glas dezmierdător) </stage>
-            <p>: Nici mie măcar?</p>
+            <p>Nici mie măcar?</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -3701,12 +3983,16 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Adevărat? adă fluierul ca să suflu în el, și el să-mi spuie de este adevărat amorul tău?</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (dându-i fluierul) </stage>
-            <p>: Ține.</p>
-            <p>ZÂNA</p>
+            <p>Ține.</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <stage> (luând fluierul și schimbând tonul) </stage>
-            <p>: A! te-am dezarmat, nemernicule, și te-am redus iar la nimicirea ta omenească.</p>
+            <p>A! te-am dezarmat, nemernicule, și te-am redus iar la nimicirea ta omenească.</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -3717,9 +4003,11 @@
             <p>Ai crezut că sunt Sânziana?... privește...</p>
             <stage> (Își scoate vălul.) </stage>
             <p>Sunt sora zmeului, Pădureanca, Mama-Pădurii, și te osândesc să intri de viu în pământ... Pieri!...</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (desperat) </stage>
-            <p>: A!</p>
+            <p>A!</p>
             <stage> (Încet intră în pământ.) </stage>
           </sp>
           <sp who="#zana">
@@ -3738,9 +4026,11 @@
           <sp who="#zana_lacului">
             <speaker>ZÂNA-LACULUI</speaker>
             <p>Stai!</p>
-            <p>ZÂNA-CODRULUI</p>
+            </sp>
+          <sp who="#zanacodrului">
+            <speaker>ZÂNA-CODRULUI</speaker>
             <stage> (înfiorându-se) </stage>
-            <p>: Zâna-Lacului, sunt pierdută!</p>
+            <p>Zâna-Lacului, sunt pierdută!</p>
             <stage> (Scapă fluierul din mână.) </stage>
           </sp>
           <sp who="#zana_lacului">
@@ -3748,12 +4038,16 @@
             <p>Pepeleo, ieși din pământ.</p>
             <stage> (Pepelea iese încet pe fața pământului.) </stage>
             <p>Iar tu, Pădureanco, Zâna-Codrului, tu care nu cunoști pe lume nici mila, nici iubirea, dispari.</p>
-            <p>ZÂNA-CODRULUI</p>
+            </sp>
+          <sp who="#zanacodrului">
+            <speaker>ZÂNA-CODRULUI</speaker>
             <stage> (retrăgându-se speriată, se apropie cu spatele de un stejar, care se deschide ș-o înghite. Dispărând) </stage>
-            <p>: A!</p>
-            <p>PEPELEA</p>
+            <p>A!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (îngenunchind) </stage>
-            <p>: O! Zână binefăcătoare, cum să plătesc binele ce mi-ai făcut?</p>
+            <p>O! Zână binefăcătoare, cum să plătesc binele ce mi-ai făcut?</p>
           </sp>
           <sp who="#zana_lacului">
             <speaker>ZÂNA-LACULUI</speaker>
@@ -3800,16 +4094,20 @@
             <speaker>TÂNDALĂ</speaker>
             <p>D-apoi eu!...</p>
             <stage> (Lăcustă intră alergând cu Statu-Palmă în spinare.) </stage>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (între culise) </stage>
-            <p>: Ajutor! Ajutor!...</p>
+            <p>Ajutor! Ajutor!...</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Ce mai este?...</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (intrând) </stage>
-            <p>: Scăpați-mă!... nu mă lăsați.</p>
+            <p>Scăpați-mă!... nu mă lăsați.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -3819,12 +4117,16 @@
             <speaker>LĂCUSTĂ</speaker>
             <p>Mi-a crescut un uncheaș, Statu-Palmă-Barbă-Cot!... Am obosit. Sunt mort!</p>
             <stage> (Cade pe pământ lângă tufari.) </stage>
-            <p>STATU-PALMĂ</p>
+            </sp>
+          <sp who="#statupalma">
+            <speaker>STATU-PALMĂ</speaker>
             <stage> (zărind un iepure lângă tufari, sare din spinarea lui Lăcustă și încalecă pe iepure) </stage>
-            <p>: Iaca iepurașul meu cel șchiop. Te las, Lăcustă; nu mai am nevoie de tine.</p>
-            <p>LĂCUSTĂ</p>
+            <p>Iaca iepurașul meu cel șchiop. Te las, Lăcustă; nu mai am nevoie de tine.</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Uf! greu e de-a fi vită.</p>
+            <p>Uf! greu e de-a fi vită.</p>
           </sp>
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
@@ -3841,7 +4143,9 @@
           <sp who="#papura">
             <speaker>PAPURĂ</speaker>
             <p>Călătorie sprâncenată.</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Cale bună, cale bună,</p>
             <p>Hai acasă împreună... etc.</p>
             <stage> (Papură cu ai lui apucă în stânga; Statu-Palmă, Pârlea și Lăcustă, în dreapta.) </stage>
@@ -3871,9 +4175,11 @@
             <speaker>PÂRLEA</speaker>
             <p>Și mie... ș-apoi eu mai am un păcat, mi-s dragi fetele și nevestele... Pentru ele sunt în stare să alerg pănă-n ceea lume... natură blestemată, ce vrei?</p>
             <stage> (Scoate o ciutură.) </stage>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (vărsând ciutura în poloboc) </stage>
-            <p>: Și iată la ce capăt ne-au adus patimile tinereții!... ah! ah!...</p>
+            <p>Și iată la ce capăt ne-au adus patimile tinereții!... ah! ah!...</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -3922,24 +4228,36 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Pușchea pe limbă-ți...</p>
-            <p>DUO LĂCUSTĂ ȘI PÂRLEA:</p>
+            </sp>
+          <sp who="#duo_lacusta #parlea">
+            <speaker>DUO LĂCUSTĂ ȘI PÂRLEA</speaker>
             <p>Fost-am domn încoronat,</p>
             <p>Ș-acum iată-mă argat,</p>
             <p>Părăsit de-al meu noroc</p>
             <p>Și legat de-un poloboc!</p>
-            <p>LĂCUSTĂ:</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <p>De nu lăsam și casă și domnie</p>
             <p>Ca să alerg după căsătorie...</p>
-            <p>PÂRLEA:</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <p>De nu lăsam și tron și bună masă</p>
             <p>Ca să alerg hai-hui după mireasă...</p>
-            <p>LĂCUSTĂ:</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <p>Eu nu pățeam așa rușine mare,</p>
             <p>S-ajung un prost în desconsiderare.</p>
-            <p>PÂRLEA:</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <p>Nici eu pățeam așa rușine,</p>
             <p>Din domn măreț s-ajung un prost ca tine.</p>
-            <p>ÎMPREUNĂ:</p>
+            </sp>
+          <sp who="#impreuna">
+            <speaker>ÎMPREUNĂ</speaker>
             <p>Fost-am domn încoronat etc.</p>
           </sp>
           <sp who="#parlea">
@@ -3967,9 +4285,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Ce-mi pasă?... doi deșelați mai mult pe lume... mare pagubă?</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (demn) </stage>
-            <p>: Nici nouă nu ne-ar păsa dac-ar fi pe spinarea altora, dar umerele noastre nu-s deprinse cu asemenea greutăți... Ele au purtat numai sarcinile statului...</p>
+            <p>Nici nouă nu ne-ar păsa dac-ar fi pe spinarea altora, dar umerele noastre nu-s deprinse cu asemenea greutăți... Ele au purtat numai sarcinile statului...</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -3994,22 +4314,30 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Îndrăznim... da!... fă cu noi ce-i voi. Ești mai tare și ne ai la mână, dar după ce ne-am înjosit a scoate apă cu ciutura, ca niște argați... să ne mai înjosim a căra poloboace, ca niște hamali? Niciodată, demnitatea și filotimia nu ne iartă.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (ridicând palma) </stage>
-            <p>: Vă mănâncă falca, se vede.</p>
+            <p>Vă mănâncă falca, se vede.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Să nu dai, că mă mânii...</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (dârz) </stage>
-            <p>: Lovește... fii brutal, cum te arată chipul. Arată-ți arama, ca să te vază Sânziana cine ești.</p>
-            <p>ZMEUL</p>
+            <p>Lovește... fii brutal, cum te arată chipul. Arată-ți arama, ca să te vază Sânziana cine ești.</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (aparte) </stage>
-            <p>: Sânziana?... are dreptate!... să mă stăpânesc, până mi-oi săvârși cununia.</p>
-            <p>LĂCUSTĂ</p>
+            <p>Sânziana?... are dreptate!... să mă stăpânesc, până mi-oi săvârși cununia.</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (lui Pârlea) </stage>
-            <p>: Ce stă pe gânduri?</p>
+            <p>Ce stă pe gânduri?</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -4018,9 +4346,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Sumeția voastră merită o pedeapsă, dar fiindcă mă-nsor mâine cu Sânziana, vă iert; și fiindcă o să-mi fiți necesari pentru ospățul cununiei, vă scutesc de căratul poloboacelor pe astăzi... Mergeți în pădure, ca să dați la pământ zece stejari de cei mai groși... Hai!</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (lui Lăcustă) </stage>
-            <p>: Hai să tragem un somn la umbră.</p>
+            <p>Hai să tragem un somn la umbră.</p>
             <stage> (Iese în dreapta.) </stage>
           </sp>
           <sp who="#lacusta">
@@ -4052,7 +4382,9 @@
           <sp who="#pasarea">
             <speaker>PASĂREA</speaker>
             <p>Da! da! da! da! da! da!</p>
-            <p>SÂNZIANA:</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <p>Peste munți și peste ape</p>
             <p>Veni-va ursitul meu,</p>
             <p>Într-o noapte, să mă scape</p>
@@ -4070,9 +4402,11 @@
             <speaker>PASĂREA</speaker>
             <p>Vine... vine... vine...</p>
             <stage> (Pe mare, în fund, se arată o barcă, cu pânzele umflate, și în barcă Pepelea. Barca dispare după stâncă.) </stage>
-            <p>SÂNZIANA</p>
+            </sp>
+        <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (zărind barca) </stage>
-            <p>: Iată-l... iată-l... el e, vine!!!</p>
+            <p>Iată-l... iată-l... el e, vine!!!</p>
           </sp>
         </div>
         <div type="scene" n="4">
@@ -4101,9 +4435,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Sânziană, tot supărată ești pe mine, care mă usuc de dragoste?</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (îi întoarce spatele) </stage>
-            <p>: Iar începi cu ahturile. Dă-mi pace, nu mă mai ameți.</p>
+            <p>Iar începi cu ahturile. Dă-mi pace, nu mă mai ameți.</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -4128,9 +4464,11 @@
           <sp who="#sanziana">
             <speaker>SÂNZIANA</speaker>
             <p>Eu, soția ta? Niciodată!</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (mâniat) </stage>
-            <p>: Așa? Ei bine, află că nu mai târziu decât mâine avem să ne cununăm... toate sunt gata... am poftit pe toți amicii și pe toate rudele mele.</p>
+            <p>Așa? Ei bine, află că nu mai târziu decât mâine avem să ne cununăm... toate sunt gata... am poftit pe toți amicii și pe toate rudele mele.</p>
           </sp>
           <sp who="#sanziana">
             <speaker>SÂNZIANA</speaker>
@@ -4158,13 +4496,17 @@
             <speaker>ZMEUL</speaker>
             <p>Așa... hai!</p>
             <stage> (Vrea s-o apuce de braț.) </stage>
-            <p>SÂNZIANA</p>
+            </sp>
+        <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (respingându-l) </stage>
-            <p>: Nu te atinge de mine.</p>
+            <p>Nu te atinge de mine.</p>
             <stage> (Intră în palat. Zmeul închide poarta cu o cheie mare.) </stage>
-            <p>ZMEUL</p>
+            </sp>
+        <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (singur) </stage>
-            <p>: Se face că-i mânioasă?... dar cine o crede?... Când a vedea mâine rochia de nuntă și beteala, o să zburde. Cu toate acestea</p>
+            <p>Se face că-i mânioasă?... dar cine o crede?... Când a vedea mâine rochia de nuntă și beteala, o să zburde. Cu toate acestea</p>
             <stage> (arată cheia.) </stage>
             <p>, paza bună nu strică... Acum hai în pădure să cărăm lemne pentru ospățul cununiei. Ha! ha! ha! Bieții Pârlea și Lăcustă doboară la copaci, fără a ști că pe unul am să-l pun în frigare și pe celalalt am să-l fierb în căldare. Ce chef!... ce chef!</p>
             <stage> (Pleacă spre dreapta.) </stage>
@@ -4249,12 +4591,16 @@
             <speaker>PEPELEA</speaker>
             <p>Ține-te bine, zmeule.</p>
             <stage> (Se apucă brățiș la trântă, se opintesc și cată să se răstoarne unul pe altul.) </stage>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (strângându-l) </stage>
-            <p>: Îți place așa?</p>
-            <p>PEPELEA</p>
+            <p>Îți place așa?</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (aparte) </stage>
-            <p>: Bată-l crucea, că rău mă strânge!</p>
+            <p>Bată-l crucea, că rău mă strânge!</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -4325,9 +4671,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Acum, fiindcă ești oaspele meu... spune-mi cum te cheamă?</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (repede) </stage>
-            <p>: Tot am zis c-am zis c-oi zice, dac-oi zice, tot oi zice, ca să zic c-am zis c-oi zice!</p>
+            <p>Tot am zis c-am zis c-oi zice, dac-oi zice, tot oi zice, ca să zic c-am zis c-oi zice!</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -4368,16 +4716,20 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Bine; numai unul?... aș vrea să duc două odată.</p>
-            <p>ZMEUL</p>
+            </sp>
+        <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (aparte) </stage>
-            <p>: Zdravăn e!</p>
+            <p>Zdravăn e!</p>
             <stage> (Tare.) </stage>
             <p>Mâine îi căra zece, acum, la treabă... te las, îți pregătește fălcile, pe mâine... Eu mă duc în pădure să aduc lemne... o să facem guleai.</p>
             <stage> (Iese în dreapta.) </stage>
             <p>Ce chef! Ce chef!</p>
-            <p>PEPELEA</p>
+            </sp>
+        <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (singur) </stage>
-            <p>: S-a dus; cum să întâlnesc pe Sânziana?... Unde să fie?... În palat?...</p>
+            <p>S-a dus; cum să întâlnesc pe Sânziana?... Unde să fie?... În palat?...</p>
             <stage> (Merge la ușa palatului.) </stage>
             <p>Ușa-i închisă cu șapte broaște... să-i dau de știre cu fluierul.</p>
             <stage> (Sună din el. Sânziana apare la fereastra de sus a turnului.) </stage>
@@ -4389,9 +4741,11 @@
           <sp who="#sanziana">
             <speaker>SÂNZIANA</speaker>
             <p>Pepeleo... Pepeleo!</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (văzând-o) </stage>
-            <p>: Iat-o! Iat-o... ea-i! Sânziană! Tu ești? Tu ești?</p>
+            <p>Iat-o! Iat-o... ea-i! Sânziană! Tu ești? Tu ești?</p>
           </sp>
           <sp who="#sanziana">
             <speaker>SÂNZIANA</speaker>
@@ -4421,9 +4775,10 @@
             <speaker>SÂNZIANA</speaker>
             <p>Ah! Pepeleo!... de m-ai scăpa de-aice, te-oi iubi toată viața mea... ia seama, vine zmeul.</p>
             <stage> (Dispare.) </stage>
-            <p>PEPELEA</p>
+            </sp>
+        <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (singur, ia hârlețul de lângă fântână și începe a săpa împrejurul ei, cântând) </stage>
-            <p>:</p>
             <p>Cine sapă</p>
             <p>Dă de apă</p>
             <p>Și s-adapă</p>
@@ -4460,9 +4815,11 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Ian privește, mișeii, nu-s în stare să ducă un stejar în spate, ei doi.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Ducă-l cine-i zmeu sau vită... noi suntem de-o altă făptură.</p>
+            <p>Ducă-l cine-i zmeu sau vită... noi suntem de-o altă făptură.</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -4529,19 +4886,25 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Ducă-se călare pe el, până s-o lovi de toarta pământului.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (ieșind) </stage>
-            <p>: Răbdare, răbdare pănă mâine.</p>
-            <p>PÂRLEA</p>
+            <p>Răbdare, răbdare pănă mâine.</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (înaintând) </stage>
-            <p>: Ce-a spus?</p>
+            <p>Ce-a spus?</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Ce-a zis?</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (ieșind după fântână) </stage>
-            <p>: A zis că o să vă facă bucate.</p>
+            <p>A zis că o să vă facă bucate.</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -4554,9 +4917,11 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Cum, și tu ai să mănânci din noi?</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (revenind) </stage>
-            <p>: Hei! Tot voi zice, umput-ai poloboacele?... Ce faci acolo cu hârlețul?</p>
+            <p>Hei! Tot voi zice, umput-ai poloboacele?... Ce faci acolo cu hârlețul?</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -4569,13 +4934,17 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Să vezi, frate zmeule; am chitit așa, decât să cărăm apă cu poloboacele, mai nimerit ar fi să iau puțul în spinare... și să-l duc în bucătărie, odată pentru totdeauna.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (uimit, aparte) </stage>
-            <p>: Bree!... adineoarea căta să mă azvâlă-n nori, ș-acum vrea să-mi care puțul?... Grozav om și primejdios!... Trebuie numaidecât să mă dezbar de el.</p>
+            <p>Bree!... adineoarea căta să mă azvâlă-n nori, ș-acum vrea să-mi care puțul?... Grozav om și primejdios!... Trebuie numaidecât să mă dezbar de el.</p>
             <stage> (Stă pe gânduri.) </stage>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (lui Pârlea) </stage>
-            <p>: Gogonată-i.</p>
+            <p>Gogonată-i.</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -4588,12 +4957,16 @@
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Nu!... Pepeleo dragă, nu te osteni, lasă puțul la locul lui, e deprins din copilărie a sta aici.</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (azvârle hârlețul) </stage>
-            <p>: Fie cum vrei, eu cătam să te îndatorez.</p>
-            <p>ZMEUL</p>
+            <p>Fie cum vrei, eu cătam să te îndatorez.</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (strângându-i mâna) </stage>
-            <p>: Mulțumesc, frățioare.</p>
+            <p>Mulțumesc, frățioare.</p>
             <stage> (Pepelea dă un răcnet de durere.) </stage>
           </sp>
           <sp who="#zmeul">
@@ -4603,9 +4976,11 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Am crezut că ți-am frânt mâna, strângând-o într-a mea.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (aparte) </stage>
-            <p>: E primejdios!</p>
+            <p>E primejdios!</p>
             <stage> (Tare.) </stage>
             <p>Dar începe a înnopta.</p>
             <stage> (Lui Pârlea și Lăcustă.) </stage>
@@ -4622,9 +4997,11 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Visuri cornorate!...</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (urmând pe Pârlea și Lăcustă, care intră în palat, zice aparte) </stage>
-            <p>: Cum o adormi, am să vin să-l ciomăgesc, până l-oi ucide.</p>
+            <p>Cum o adormi, am să vin să-l ciomăgesc, până l-oi ucide.</p>
             <stage> (Iese.) </stage>
           </sp>
           <sp who="#pepelea">
@@ -4659,9 +5036,11 @@
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
             <p>Mai bine aici, decât în frigare și în căldare.</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (oțărându-se) </stage>
-            <p>: Brrr.... Pârleo, nu zărești pe Pepelea?</p>
+            <p>Brrr.... Pârleo, nu zărești pe Pepelea?</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -4753,51 +5132,71 @@
             <speaker>LĂCUSTĂ-PÂRLEA</speaker>
             <p>Breee! breee! bree! bree!</p>
             <stage> (A înnoptat; cer cu stele.) </stage>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (sculându-se) </stage>
-            <p>: Groaznic m-a ciomăgit fratele meu de cruce! noroc c-a lovit în fluier... dar încalte și-a frânt buzduganul... minunat!... o armă mai puțin în mâinile lui... oare ce face el acum?... s-a culcat?... a adormit?...</p>
+            <p>Groaznic m-a ciomăgit fratele meu de cruce! noroc c-a lovit în fluier... dar încalte și-a frânt buzduganul... minunat!... o armă mai puțin în mâinile lui... oare ce face el acum?... s-a culcat?... a adormit?...</p>
             <stage> (Se apropie de poarta palatului și ascultă. Se aude un horăit grozav înăuntru.) </stage>
             <p>Doarme butuc... și horăiește ca o moară stricată... acu-i vremea de scăpat pe Sânziana și pe bieții voievozi, să le dau semn.</p>
             <stage> (Cuartet) </stage>
-            <p>PEPELEA:</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <p>Sânziană, te deșteaptă,</p>
             <p>Eu te chem la sânul meu.</p>
             <p>Al tău mire te așteaptă</p>
             <p>Să te scape-acum de zmeu.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (ivindu-se la fereastră) </stage>
-            <p>:</p>
             <p>Ah! Pepeleo, sunt deșteaptă</p>
             <p>Ca și viul dor al meu.</p>
             <p>A mea inimă așteaptă</p>
             <p>Ca să zbor la sânul tău.</p>
-            <p>PÂRLEA și LĂCUSTĂ</p>
+            </sp>
+          <sp who="#parlea #lacusta">
+            <speaker>PÂRLEA și LĂCUSTĂ</speaker>
             <stage> (la fereastra de jos) </stage>
-            <p>:</p>
             <p>Groază-n mine se deșteaptă,</p>
             <p>Mă frământ-amar și greu.</p>
             <p>Moartea crudă ne așteaptă</p>
             <p>În căldarea celui zmeu.</p>
-            <p>PEPELEA:</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <p>Am călcat, venind la tine,</p>
             <p>Peste nouă țări și mări.</p>
-            <p>SÂNZIANA:</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <p>Am răbdat, gândind la tine,</p>
             <p>Mii și mii de supărări.</p>
-            <p>PEPELEA:</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <p>Dar acum soarta surâde,</p>
             <p>Raiul dulce se deschide.</p>
-            <p>SÂNZIANA:</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <p>Orișiunde-oi fi cu tine</p>
             <p>Va fi raiul pentru mine.</p>
             <stage> (Împreună.) </stage>
-            <p>PEPELEA:</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <p>Sânziană, mă așteaptă</p>
             <p>Să te scap de crudul zmeu...</p>
-            <p>SÂNZIANA:</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <p>A mea inimă așteaptă</p>
             <p>Ca să zbor la sânul tău.</p>
-            <p>PÂRLEA și LĂCUSTĂ:</p>
+            </sp>
+          <sp who="#parlea #lacusta">
+            <speaker>PÂRLEA și LĂCUSTĂ</speaker>
             <p>Moartea crudă ne așteaptă</p>
             <p>La ospățul celui zmeu.</p>
           </sp>
@@ -4817,22 +5216,30 @@
             <speaker>PEPELEA</speaker>
             <p>Feriți-vă, c-am să deschid turnul prin farmecul fluierului meu.</p>
             <stage> (Pepelea sună din fluier; fațada turnului se prăbușește, formând o scară. Sânziana se coboară, Pârlea și Lăcustă ies pe sub scară.) </stage>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (sus, în capul scării) </stage>
-            <p>: Pepeleo!</p>
-            <p>PEPELEA</p>
+            <p>Pepeleo!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (coborând-o) </stage>
-            <p>: Sânziană, cobori iute.</p>
-            <p>SÂNZIANA</p>
+            <p>Sânziană, cobori iute.</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (coborând, se aruncă în brațele lui Pepelea) </stage>
-            <p>: A! scumpul meu mire!</p>
+            <p>A! scumpul meu mire!</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Scumpa mea mireasă!</p>
-            <p>LĂCUSTĂ</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (îmbrățișând pe Pepelea) </stage>
-            <p>: A! scumpul nostru liberator!</p>
+            <p>A! scumpul nostru liberator!</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -4856,26 +5263,33 @@
             <p>Pare că am auzit un vuiet neobicinuit? am simțit ca un cutremur, care m-a trezit... s-a fi prăbușit vreo stâncă în mare? ce văd?... turnul e deschis?... o scară?... Sânziana a fugit?... cum?... și Pârlea, și Lăcustă?... încotro au apucat? spre pădure, negreșit... o! de i-aș prinde, am să-i mănânc de vii.</p>
             <stage> (Aleargă spre pădure.) </stage>
             <stage> (O auroră boreală se arată pe cer. La lumina ei se zărește o barcă lunecând pe mare; în ea se află Pepelea, Sânziana, Pârlea și Lăcustă.) </stage>
-            <p>TUSPATRU</p>
+            </sp>
+          <sp who="#tuspatru">
+            <speaker>TUSPATRU</speaker>
             <stage> (cântă) </stage>
-            <p>:</p>
             <p>Pe-ale mării blânde valuri,</p>
             <p>Barcă mică, zbori departe.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (oprindu-se) </stage>
-            <p>: Ce aud?</p>
+            <p>Ce aud?</p>
             <p>Și de-aceste crunte maluri</p>
             <p>Cu grăbire ne desparte.</p>
             <stage> (Barca se depărtează spre orizont.) </stage>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (oprindu-se) </stage>
-            <p>: Ce văd?... Sânziana cu ucisul meu? unde-i buzduganul, să-l azvârl în ei?</p>
+            <p>Ce văd?... Sânziana cu ucisul meu? unde-i buzduganul, să-l azvârl în ei?</p>
             <stage> (Se împedecă de el, rupt jos.) </stage>
             <p>Iată-l, e frânt!</p>
             <stage> (Turbat de mânie.) </stage>
             <p>A!... Cum să-i prind, aripile, aripile... cu ele să-i ajung din zbor.</p>
             <stage> (Intră repede în palat și iese în curând cu aripi aninate de umeri.) </stage>
-            <p>ARIE PE MARE:</p>
+            </sp>
+          <sp who="#arie_pe_mare">
+            <speaker>ARIE PE MARE</speaker>
             <p>Am scăpat, o! veselie,</p>
             <p>Și de zmeu, și de robie!</p>
           </sp>
@@ -4893,9 +5307,11 @@
             <speaker>ZÂNA</speaker>
             <p>Stai pe loc, iasmă infernală!... Tu, care ți-ai frânt buzduganul; cadă și aripile tale!</p>
             <stage> (Aripile zmeului cad de pe umerii lui.) </stage>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (c-un răcnet de desperare) </stage>
-            <p>: A!... Zâna-Lacului! sunt pierdut!...</p>
+            <p>A!... Zâna-Lacului! sunt pierdut!...</p>
             <stage> (Cade leșinat.) </stage>
           </sp>
           <stage>Teatrul reprezintă imperiul Iernii... munți de gheață, brazi încărcați de chindie.</stage>
@@ -5032,9 +5448,11 @@
           <sp who="#crivatul">
             <speaker>CRIVĂȚUL</speaker>
             <p>Întâia dată el calcă pe locurile acestea. Oare ce caută el pe la noi?</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (intrând) </stage>
-            <p>: Caut ajutor și răzbunare!</p>
+            <p>Caut ajutor și răzbunare!</p>
           </sp>
           <sp who="#crivatul">
             <speaker>CRIVĂȚUL</speaker>
@@ -5047,21 +5465,27 @@
           <sp who="#genii">
             <speaker>GENII</speaker>
             <p>Ai pățit șotii? Spune-le, să râdem și noi.</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (posomorât) </stage>
-            <p>: Să râdeți?</p>
-            <p>GENII</p>
+            <p>Să râdeți?</p>
+            </sp>
+          <sp who="#genii">
+            <speaker>GENII</speaker>
             <stage> (speriați) </stage>
-            <p>: Ba-ba-ba-ba-ba, să-să-să plângem.</p>
+            <p>Ba-ba-ba-ba-ba, să-să-să plângem.</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
             <p>Ascultați dar... am răpit pe Sânziana, fata lui Papură- Împărat, și, când să mă bucur de prada mea, vine un hoț și mi-o fură ca din palmă.</p>
             <stage> (Furios.) </stage>
             <p>Pricepeți așa obrăznicie?</p>
-            <p>GENII</p>
+            </sp>
+          <sp who="#genii">
+            <speaker>GENII</speaker>
             <stage> (tremurând) </stage>
-            <p>: Prii-prii-pri... pri-ce-ce-ce-cepem.</p>
+            <p>Prii-prii-pri... pri-ce-ce-ce-cepem.</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -5075,9 +5499,11 @@
             <speaker>ZMEUL</speaker>
             <p>Ba pe dânsa nu... ea-i frumoasă și albă cât împărăteasa voastră, păcat numai că-i așa de rece în privirea mea.</p>
             <stage> (Stă gânditor.) </stage>
-            <p>CRIVĂȚUL</p>
+            </sp>
+          <sp who="#crivatul">
+            <speaker>CRIVĂȚUL</speaker>
             <stage> (către genii, încet) </stage>
-            <p>: Ați auzit?... frumoasă, albă și rece... tocmai ce ne trebuie nouă; poate că... cine știe? ne vine o împărăteasă nouă!...</p>
+            <p>Ați auzit?... frumoasă, albă și rece... tocmai ce ne trebuie nouă; poate că... cine știe? ne vine o împărăteasă nouă!...</p>
           </sp>
           <sp who="#zmeul">
             <speaker>ZMEUL</speaker>
@@ -5151,12 +5577,16 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Nu-i vorba de mine... mie mi-era frig, am fugit ca să mă încălzesc.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (începând a tremura de frig) </stage>
-            <p>: Și te-ai încălzit?</p>
-            <p>LĂCUSTĂ</p>
+            <p>Și te-ai încălzit?</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (tremurând) </stage>
-            <p>: Ba! Ba! Ba!... am devenit gazda fiorului și a guturaiului.</p>
+            <p>Ba! Ba! Ba!... am devenit gazda fiorului și a guturaiului.</p>
             <stage> (Strănută.) </stage>
           </sp>
           <sp who="#parlea">
@@ -5246,9 +5676,11 @@
             <speaker>CRIVĂȚUL</speaker>
             <p>Vivat!... Am prins pe Sânziana... am dus-o la palatul Iernii și, prin vrăjirea soției mele, Promoroaca, am schimbat-o la față de samană acum întocmai cu împărăteasa noastră cea fugară... În curând are să vie aicea Sânziana, pentru ca să fie încoronată... iaca, cortegiul se înaintează.</p>
             <stage> (Marș la orchestră, cortegiul intră.) </stage>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (oprindu-se) </stage>
-            <p>: Ce s-aude?</p>
+            <p>Ce s-aude?</p>
           </sp>
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
@@ -5277,34 +5709,47 @@
             <p>Dulce ca o zi senină,</p>
             <p>Mândră ca o lună plină</p>
             <p>Și cu inima virgină.</p>
-            <p>PÂRLEA:</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <p>O! ce minune încântătoare!</p>
-            <p>LĂCUSTĂ:</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <p>N-am văzut alta ca ea sub soare.</p>
-            <p>AMÂNDOI:</p>
+            </sp>
+          <sp who="#amandoi">
+            <speaker>AMÂNDOI</speaker>
             <p>Simt pentru dânsa amor ș-amoare.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (în parte) </stage>
-            <p>:</p>
             <p>Bietul Pepelea, unde-o fi oare?</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Vivat falnica regină etc.</p>
-            <p>CRIVĂȚUL</p>
+            </sp>
+          <sp who="#crivatul">
+            <speaker>CRIVĂȚUL</speaker>
             <stage> (prezentând o coroană de briliant) </stage>
-            <p>:</p>
             <p>Regină strălucită! Poporu-n fericire</p>
             <p>Ți-oferă azi coroana, rugându-te uimit</p>
             <p>Ca să-ți alegi un mire</p>
             <p>Viteaz, frumos, iubit.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (încoronându-se) </stage>
-            <p>:</p>
             <p>Coroana pe-a mea frunte o pun azi fericită.</p>
             <stage> (Aparte.) </stage>
             <p>Dar ce simt? sub coroană un frig cumplit m-a prins.</p>
             <p>În inima-mi răcită</p>
             <p>Tot focul, vai! s-a stins!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Vivat falnica regină,</p>
             <p>Dulce ca o zi senină,</p>
             <p>Mândră ca o lună plină</p>
@@ -5349,9 +5794,11 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Iaca, ba nu, că mi-a fi rușine.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (în parte) </stage>
-            <p>: Ce văd? Pârlea și Lăcustă!</p>
+            <p>Ce văd? Pârlea și Lăcustă!</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -5361,33 +5808,46 @@
             <speaker>LĂCUSTĂ</speaker>
             <p>Ah! am s-o strâng în brațe, ca să mă-ncălzesc.</p>
             <stage> (Pârlea și Lăcustă pleacă cu brațele deschise, dar cu cât se-apropie de carul Iernii, ei se cuprind de fiori, picioarele li se înțepenesc, limba li se leagă.) </stage>
-            <p>PÂRLEA:</p>
+            </sp>
+        <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <p>Mult o doresc.</p>
-            <p>LĂCUSTĂ:</p>
+            </sp>
+        <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <p>Mult îmi e dragă...</p>
-            <p>ÎMPREUNĂ:</p>
+            </sp>
+        <sp who="#impreuna">
+            <speaker>ÎMPREUNĂ</speaker>
             <p>Dar ce simțesc?</p>
             <p>Limba-mi se leagă.</p>
-            <p>CORUL:</p>
+            </sp>
+        <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Ei simt în piept</p>
             <p>Fiori de gheață,</p>
             <p>Nu calcă drept,</p>
             <p>Rău o s-o pață.</p>
-            <p>PÂRLEA ȘI LĂCUSTĂ:</p>
+            </sp>
+        <sp who="#parlea #lacusta">
+            <speaker>PÂRLEA ȘI LĂCUSTĂ</speaker>
             <p>Ah! simt în piept</p>
             <p>Fiori de gheață,</p>
             <p>Sunt eu deștept?</p>
             <p>Sunt oare-n viață?</p>
-            <p>PÂRLEA ȘI LĂCUSTĂ</p>
+            </sp>
+        <sp who="#parlea #lacusta">
+            <speaker>PÂRLEA ȘI LĂCUSTĂ</speaker>
             <stage> (lângă car, tremurând) </stage>
-            <p>:</p>
             <p>Plini de... de... foc</p>
             <p>Mă-nchin ți... ție...</p>
             <p>No... no... noroc</p>
             <p>De-acum mi... mie!</p>
             <stage> (Unul de o parte și altul de altă parte întind buzele ca să sărute obrazul Sânzianei, dar pe loc rămân încremeniți, strigând:) </stage>
             <p>Aoleo... îngheț!</p>
-            <p>CORUL:</p>
+            </sp>
+        <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Au înghețat!</p>
             <p>Iată-i zăpadă!</p>
             <p>Sunt buni de dat</p>
@@ -5401,24 +5861,30 @@
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Sânziană... Sânziană...</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (în parte) </stage>
-            <p>: Glasul lui Pepelea!</p>
+            <p>Glasul lui Pepelea!</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Unde ești?... ah! iată-te.</p>
             <stage> (Vrea să se apropie, poporul îl oprește.) </stage>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (aparte) </stage>
-            <p>: Sărmanul!... de când port coroana asta de gheață... parcă nu mai simt nimic pentru el!</p>
+            <p>Sărmanul!... de când port coroana asta de gheață... parcă nu mai simt nimic pentru el!</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
             <p>Sânziană, nu-mi răspunzi?... O! în zadar, ești schimbată la față... eu te văd cu ochii sufletului... te recunosc.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+          <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (aparte) </stage>
-            <p>: O, Doamne! Am ajuns rece ca iarna, inima mea nu mai bate!</p>
+            <p>O, Doamne! Am ajuns rece ca iarna, inima mea nu mai bate!</p>
           </sp>
           <sp who="#pepelea">
             <speaker>PEPELEA</speaker>
@@ -5441,7 +5907,9 @@
             <speaker>PEPELEA</speaker>
             <p>Eu vreau să-mi cerc norocul, chiar de-a fi să mor... tot mort sunt fără dânsa.</p>
             <stage> (Duo) </stage>
-            <p>PEPELEA:</p>
+            </sp>
+        <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <p>Dulce-mpărăteasă,</p>
             <p>Scumpa mea mireasă,</p>
             <p>Eu sunt al tău mire</p>
@@ -5450,12 +5918,15 @@
             <p>Că prin jurăminte</p>
             <p>Legat sunt de tine,</p>
             <p>Ca și tu de mine.</p>
-            <p>SÂNZIANA</p>
+            </sp>
+        <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <stage> (în parte) </stage>
-            <p>:</p>
             <p>Sărmanul Pepele! de el rău îmi pare!</p>
             <p>Că poate să moară dintr-o sărutare.</p>
-            <p>PEPELEA:</p>
+            </sp>
+        <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <p>N-am frică de moarte,</p>
             <p>Nici de rele soarte,</p>
             <p>Când inima-mi cere</p>
@@ -5466,22 +5937,28 @@
             <p>Eu cu-a mea iubire</p>
             <p>Zbor la nemurire.</p>
             <stage> (Strânge în brațe pe Sânziana și o sărută pe frunte. Coroana ei cade; atunci ea-și scoate vălul și apare sub figura ei.) </stage>
-            <p>SÂNZIANA:</p>
+            </sp>
+        <sp who="#sanziana">
+            <speaker>SÂNZIANA</speaker>
             <p>Ah! în al meu suflet simt un dulce foc.</p>
             <p>Iubesc, iubesc iară, iubesc... o! noroc!</p>
-            <p>TOȚI</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (cu mirare) </stage>
-            <p>:</p>
             <p>N-a înghețat! n-a murit!</p>
             <p>El e mirele iubit!</p>
-            <p>SÂNZIANA ȘI PEPELEA</p>
+            </sp>
+        <sp who="#sanziana #pepelea">
+            <speaker>SÂNZIANA ȘI PEPELEA</speaker>
             <stage> (îmbrățișați) </stage>
-            <p>:</p>
             <p>Zi de fericire plină!</p>
             <p>Împreună, cu uimire,</p>
             <p>După-o viață mult senină,</p>
             <p>Vom zbura la nemurire!</p>
-            <p>CORUL:</p>
+            </sp>
+        <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Vivat falnică regină!</p>
             <p>Vivat falnicul ei mire!</p>
             <p>Aibă viața mult senină</p>
@@ -5503,9 +5980,11 @@
           <sp who="#sanziana">
             <speaker>SÂNZIANA</speaker>
             <p>Pepeleo!</p>
-            <p>PEPELEA</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
             <stage> (scoțând fluierul) </stage>
-            <p>: O! fluieraș, acum să-ți văd puterea.</p>
+            <p>O! fluieraș, acum să-ți văd puterea.</p>
             <stage> (Suflă din fluier, dar nu scoate nici un glas.) </stage>
             <p>O! fluierașul e mut!</p>
           </sp>
@@ -5549,30 +6028,40 @@
           <sp who="#zana">
             <speaker>ZÂNA</speaker>
             <p>Sânziana pe pământ... iar tu, zmeule, sub pământ... dispari!</p>
-            <p>ZMEUL</p>
+            </sp>
+          <sp who="#zmeul">
+            <speaker>ZMEUL</speaker>
             <stage> (afundându-se) </stage>
-            <p>: A!</p>
+            <p>A!</p>
             <stage> (Din locul unde dispare iese o pară de foc.) </stage>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>A!...</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>A dispărut,</p>
             <p>Arzând în pară,</p>
             <p>Zmeul cumplit,</p>
             <p>Cumplita fiară!</p>
-            <p>SÂNZIANA ȘI PEPELEA:</p>
+            </sp>
+          <sp who="#sanziana #pepelea">
+            <speaker>SÂNZIANA ȘI PEPELEA</speaker>
             <p>Ah! am scăpat</p>
             <p>De cruda fiară,</p>
             <p>În dulce trai</p>
             <p>Reintru iară.</p>
-            <p>ZÂNA:</p>
+            </sp>
+          <sp who="#zana">
+            <speaker>ZÂNA</speaker>
             <p>Veți fi de-acum</p>
             <p>Ferice iară,</p>
             <p>Hai să vă duc</p>
             <p>L-a voastră țară.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Haideți cu toți</p>
             <p>În altă țară,</p>
             <p>Unde-i cer blând</p>
@@ -5590,12 +6079,16 @@
           <sp who="#lacusta">
             <speaker>LĂCUSTĂ</speaker>
             <p>Eu și cu mine.</p>
-            <p>PÂRLEA</p>
+            </sp>
+          <sp who="#parlea">
+            <speaker>PÂRLEA</speaker>
             <stage> (încă buimăcit) </stage>
-            <p>: Sunteți doi? unde-i celălalt?</p>
-            <p>LĂCUSTĂ</p>
+            <p>Sunteți doi? unde-i celălalt?</p>
+            </sp>
+          <sp who="#lacusta">
+            <speaker>LĂCUSTĂ</speaker>
             <stage> (căutând împrejur) </stage>
-            <p>: Care?</p>
+            <p>Care?</p>
           </sp>
           <sp who="#parlea">
             <speaker>PÂRLEA</speaker>
@@ -5721,14 +6214,18 @@
             <speaker>ZÂNA</speaker>
             <p>Maiestatea-ta... binecuvântează-ți copiii, căci binecuvântarea părinților face fericirea copiilor.</p>
             <stage> (Pepelea și Sânziana îngenunchează înaintea lui Papură.) </stage>
-            <p>PAPURĂ</p>
+            </sp>
+          <sp who="#papura">
+            <speaker>PAPURĂ</speaker>
             <stage> (întinzând mâinile asupra capului lor) </stage>
-            <p>: Norocul să fie vecinic cu voi, copiii mei!</p>
+            <p>Norocul să fie vecinic cu voi, copiii mei!</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ura!...</p>
-            <p>CORUL FINAL:</p>
+            </sp>
+        <sp who="#corul_final">
+            <speaker>CORUL FINAL</speaker>
             <p>Trăiască Sânziana,</p>
             <p>Minunea-mpărătească,</p>
             <p>Cu dragul ei Pepelea</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000050" xml:lang="ro">
   <teiHeader>
@@ -371,7 +371,9 @@
             <p>SCENA IV</p>
             <p>HARȚĂ, MĂRIUCA</p>
             <stage> (vine din dreapta, purtînd pe cap un val de pînză ghilită) </stage>
-            <p>MĂRIUCA:</p>
+            </sp>
+          <sp who="#mariuca">
+            <speaker>MĂRIUCA</speaker>
             <p>Frunză verde nalbă moale,</p>
             <p>Ce duci, mîndruliță, -n poale?</p>
             <p>Porumbele duc și fragi</p>
@@ -615,7 +617,9 @@
             <speaker>BURSUFLESCU</speaker>
             <p>Nu vă spărieți… Dulăul lui Harță îi în discuție politică cu motanul!</p>
             <p>Trio</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Ah! gingașă Muză!</p>
             <p>Porți raiul pe buză.</p>
           </sp>
@@ -625,7 +629,9 @@
             <speaker>BURSUFLESCU</speaker>
             <p>Ah! fragedă Muză,</p>
             <p>Lasă pe-a ta buză Să-l culeg.</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Ba, ba.</p>
           </sp>
           <stage>HARȚĂ:  (după gard)</stage>
@@ -664,7 +670,9 @@
             <p>Ah! plăcută floare,</p>
             <p>Lasă-mă cu-amoare</p>
             <p>S-o respir …</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Ba, ba …</p>
           </sp>
           <stage>HARȚĂ:  (după gard)</stage>
@@ -766,13 +774,19 @@
             <speaker>BURSUFLESCU</speaker>
             <p>Bade Harță, stăi pe loc,</p>
             <p>Eu mă-ntorc aici cu bani.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Hai! să-ți fie cu noroc,</p>
             <p>Să trăiești întru mulți ani.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Noroc! însă scump mă ține</p>
             <p>Titlul de proprietar.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Scump, însă ia seama bine</p>
             <p>C-ai ajuns a fi perjar.</p>
             <stage> (Împreună.) </stage>
@@ -1043,15 +1057,21 @@
             <p>Cu a mea faptă te-am întristat ;</p>
             <p>Tu cu blîndeță nemărginită</p>
             <p>Îmi zîmbești dulce și m-ai iertat!</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Dar, Măriucă, tu ești greșită,</p>
             <p>Cu a ta faptă m-ai întristat,</p>
             <p>Însă, copilă, îmi ești iubită</p>
             <p>Și chiar din suflet eu te-am iertat.</p>
             <stage> (Împreună.) </stage>
-            <p>MĂRIUCA:</p>
+            </sp>
+          <sp who="#mariuca">
+            <speaker>MĂRIUCA</speaker>
             <p>Bădiță dragă etc.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Dar, Măriucă etc.</p>
           </sp>
           <stage>MĂRIUCA:  (ștergîndu-și ochii)  Iaca iar îmi vine să plîng.</stage>
@@ -1319,73 +1339,131 @@
           <sp who="#harta">
             <speaker>HARȚĂ</speaker>
             <p>Ba zece mii cinci sute.</p>
-            <p>QUATUOR:</p>
-            <p>BURSUFLESCU și TARSIȚA:</p>
+            </sp>
+          <sp who="#quatuor">
+            <speaker>QUATUOR</speaker>
+            </sp>
+          <sp who="#bursuflescu #tarsita">
+            <speaker>BURSUFLESCU și TARSIȚA</speaker>
             <p>Zece mii, cinci sute de lei!</p>
             <p>Zece mii!… Ce-am auzit?</p>
             <p>Zece mii!… Pentr-un petic vrei</p>
             <p>Zece mii? … Harț, -ai nebunit.</p>
-            <p>HARȚĂ MĂRIUCA:</p>
+            </sp>
+          <sp who="#harta_mariuca">
+            <speaker>HARȚĂ MĂRIUCA</speaker>
             <p>Zece mii, cinci sule de lei,</p>
             <p>E un preț foarte potrivit.</p>
             <p>Zece mii! spune: vrei, nu vrei?</p>
             <p>Lucrul bun nu e scump plătit.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Mă Harță, vecine, să stăm la tocmală.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Tocmala-i făcută; nu-i loc de-nvoială.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Vrei două mii? Spune.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Ba nu.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Vrei trei mii?</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Nu.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Trei și cinci?</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Baiu.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Al naibii să fii!</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Mai dă, Nastasachi.</p>
-            <p>BURSUFLESCU:</p>
+            </sp>
+          <sp who="#bursuflescu">
+            <speaker>BURSUFLESCU</speaker>
             <p>Pe vrute, nevrute</p>
             <p>Îți dau cinci mii.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Baiul … Zece mii cinci sute!</p>
             <stage> (Împreună.) </stage>
-            <p>BURSUFLESCU și TARSIȚA:</p>
+            </sp>
+          <sp who="#bursuflescu #tarsita">
+            <speaker>BURSUFLESCU și TARSIȚA</speaker>
             <p>Zece mii, cinci sute de lei! etc.</p>
-            <p>HARȚĂ și MĂRIUCA:</p>
+            </sp>
+          <sp who="#harta #mariuca">
+            <speaker>HARȚĂ și MĂRIUCA</speaker>
             <p>Zece mii cinci sute de lei! etc.</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Vecine, creștine, fii om cu-omenie,</p>
             <p>Peste cinci mii, iată, adaog o mie.</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Prea puțin, cucoană.</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Opt mii nu voiești?</p>
-            <p>HARȚA:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚA</speaker>
             <p>Nu.</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Opt și cinci?</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Baiu.</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Prea mult te scumpești.</p>
-            <p>MĂRIUCA:</p>
+            </sp>
+          <sp who="#mariuca">
+            <speaker>MĂRIUCA</speaker>
             <p>Mai dă, cuconiță.</p>
-            <p>TARSIȚA:</p>
+            </sp>
+          <sp who="#tarsita">
+            <speaker>TARSIȚA</speaker>
             <p>Să dau’ pe nevăzute?</p>
             <p>Ei! … zece mii…</p>
-            <p>HARȚĂ:</p>
+            </sp>
+          <sp who="#harta">
+            <speaker>HARȚĂ</speaker>
             <p>Baiu … zece mii cinci sute!</p>
             <stage> (Împreună.) </stage>
-            <p>BURSUFLESCU și TARSIȚA:</p>
+            </sp>
+          <sp who="#bursuflescu #tarsita">
+            <speaker>BURSUFLESCU și TARSIȚA</speaker>
             <p>Zece mii cinci sute de lei! etc.</p>
-            <p>HARȚĂ și MĂRIUCA:</p>
+            </sp>
+          <sp who="#harta #mariuca">
+            <speaker>HARȚĂ și MĂRIUCA</speaker>
             <p>Zece mii cinci sute de lei etc.</p>
           </sp>
           <sp who="#tarsita">

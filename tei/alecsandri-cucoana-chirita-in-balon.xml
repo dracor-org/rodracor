@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000043" xml:lang="ro">
   <teiHeader>
@@ -295,7 +295,9 @@
             <p>La un loc cu nițel gaz,</p>
             <p>Și de-aceea, ușurel,</p>
             <p>Sus, sus, sus se urcă el.</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Și de-aceea, ușurel,</p>
             <p>Sus, sus, sus se urcă el.</p>
           </sp>
@@ -382,10 +384,14 @@
             <speaker>COR</speaker>
             <p>Chirița, Chirița, Bârzoaie,</p>
             <p>Se urcă, se urcă-n balon!</p>
-            <p>CHIRIȚA:</p>
+            </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
             <p>De ce nu? Chirița-i leoaie,</p>
             <p>Hailaifă, model de bonton.</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Vivat! bravo mii de ori,</p>
             <p>Chirița se duce-n nori!</p>
             <p>Ea, din mândră baroneasă.</p>
@@ -416,18 +422,28 @@
             <p>Nu de mult la noi ivite,</p>
             <p>Vite, vite, vite, vite, vite, vite, vite.</p>
             <p>N-are cine cumpăra.</p>
-            <p>VÂNZĂTORUL:</p>
+            </sp>
+          <sp who="#vanzatorul">
+            <speaker>VÂNZĂTORUL</speaker>
             <p>Șeapte de-o para!</p>
-            <p>CHIRIȚA:</p>
+            </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
             <p>Ei, parol, n-ar zice ba.</p>
-            <p>VÂNZĂTORUL:</p>
+            </sp>
+          <sp who="#vanzatorul">
+            <speaker>VÂNZĂTORUL</speaker>
             <p>Șeapte de-o para!</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>N-are cine cumpăra</p>
             <p>Șeapte de-o para.</p>
             <p>Ei, parol, n-ar zice ba,</p>
             <p>Șeapte de-o para.</p>
-            <p>CHIRIȚA:</p>
+            </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
             <p>Deci, Chirița exaltată</p>
             <p>Vrea în ceruri să răzbată,</p>
             <p>Bată, bată, bată, bată, bată, bată, bată,</p>
@@ -436,13 +452,21 @@
             <p>Ca să cadă rostogoală,</p>
             <p>Goală, goală, goală, goala, goală, goală, goală.</p>
             <p>Sper că toți m-or admira.</p>
-            <p>VÂNZĂTORUL:</p>
+            </sp>
+          <sp who="#vanzatorul">
+            <speaker>VÂNZĂTORUL</speaker>
             <p>Șeapte de-o para!</p>
-            <p>CHIRIȚA:</p>
+            </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
             <p>Ș-or striga voios: Ura!</p>
-            <p>VÂNZĂTORUL:</p>
+            </sp>
+          <sp who="#vanzatorul">
+            <speaker>VÂNZĂTORUL</speaker>
             <p>Șeapte de-o para!</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Dar! cu toți te-om admira,</p>
             <p>Șeapte de-o para,</p>
             <p>Și cu toții om striga:</p>
@@ -501,10 +525,14 @@
             <speaker>COR</speaker>
             <p>Chirița, Chirița, Bârzoaie,</p>
             <p>Se urcă, se urcă-n balon!</p>
-            <p>CHIRIȚA:</p>
+            </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
             <p>Adio! Chirița-i leoaie,</p>
             <p>Hailaifă, model de bonton.</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Vivat! bravo mii de ori!</p>
             <p>Chirița se duce-n nori!</p>
             <p>Ea, din mândră baroneasă,</p>
@@ -675,7 +703,9 @@
           <sp who="#despa">
             <speaker>DESPA</speaker>
             <p>Apoi de... așa i-a fost scris!... se vede...</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Ce fapt grozav și trist!</p>
             <p>Ce fapt neașteptat!</p>
             <p>Sărmanul balonist!</p>
@@ -747,7 +777,9 @@
             <speaker>CHIRIȚA</speaker>
             <p>Încet, încet... Să nu mă izbiți de pământ... Așa... domol... frumos... bine... bravo!</p>
             <stage> (Nasela ajunge pe scenă.) </stage>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Bine-ai venit înapoi!</p>
             <p>Bine-ai sosit între noi,</p>
             <p>Chirițușca lui Bârzoi,</p>
@@ -770,7 +802,9 @@
             <speaker>CHIRIȚA</speaker>
             <p>Cam... neglige?... Adevărat, monsiu Muțunache, că-s cam... desfrunzită, dar apoi ce era să fac pentru ca să-mi scap viața?... M-am despoiat... însă, apropo, nu mi-ați găsit bulendrele?... Le-ați cules?... Mersi... Acum ascultați tragedia mea:</p>
             <stage> (Arie din „Domino noir”: „Ah! quelle nuit!”) </stage>
-            <p>CHIRIȚA:</p>
+            </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
             <p>I</p>
             <p>Cum am plecat,</p>
             <p>Moghiorul, bat,</p>
@@ -897,7 +931,9 @@
             <speaker>PUBLICUL</speaker>
             <p>Uraa!</p>
             <stage> (După fanfară, corul cânta versurile următoare, pe partea întâi a marșului:) </stage>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Glorie și onori,</p>
             <p>Mândră Chiriță,</p>
             <p>Bravo zmeiță,</p>

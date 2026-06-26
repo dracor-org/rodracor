@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000085" xml:lang="ro">
   <teiHeader>
@@ -80,6 +80,9 @@
           <person xml:id="jandarmul">
             <persName>JANDARMUL</persName>
           </person>
+          <person xml:id="flacaii">
+            <persName>FLĂCĂII</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -154,7 +157,9 @@
             <p>La noi bine-ai venit.</p>
             <p>Crai-nou! Crai-nou! Crai-nou!</p>
             <p>Fă-mi dorul Împlinit.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Crai-nou! vin’ cu bine,</p>
             <p>Cu bine te du;</p>
             <p>Dar jalea din mine</p>
@@ -165,7 +170,9 @@
             <p>Pentru dragul meu.</p>
             <p>Crai-nou! Crai-nou! Crai-nou!</p>
             <p>Etc. etc. etc.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Dragul meu din munte</p>
             <p>La oaste-a plecat</p>
             <p>Și de mult pe frunte</p>
@@ -174,7 +181,9 @@
             <p>Cobori tu de sus</p>
             <p>Și-mi adă cu tine</p>
             <p>Pe dragul meu dus.</p>
-            <p>COR:</p>
+            </sp>
+        <sp who="#cor">
+            <speaker>COR</speaker>
             <p>Crai-nou! Crai-nou! Crai-nou!</p>
             <p>La noi bine-ai venit.</p>
             <p>Crai-nou! Crai-nou! Crai-nou!</p>
@@ -195,9 +204,11 @@
             <p>Româncuța mi-l iubește</p>
             <p>Și-n pept inima-i tot crește!</p>
             <stage> (Corbu se arată pe deal viind încet; el se oprește puțin de cîntă doina din cimpoi.) </stage>
-            <p>TOȚI</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (ca bucurie) </stage>
-            <p>: Iaca moș Corbu cimpoieru!… Iaca moș Corbu!</p>
+            <p>Iaca moș Corbu cimpoieru!… Iaca moș Corbu!</p>
           </sp>
           <sp who="#dochita">
             <speaker>DOCHIȚA</speaker>
@@ -210,7 +221,9 @@
           <sp who="#dochita">
             <speaker>DOCHIȚA</speaker>
             <p>Și mare bun suflet de om îi.</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Omul dacă-mbătrînește</p>
             <p>Drumu-n cale-i se lungește</p>
             <p>Și pustiu-l năpădește.</p>
@@ -263,9 +276,10 @@
             <speaker>TOȚI</speaker>
             <p>Haideți… haideți.</p>
             <stage> (Fetele și flăcăii ies cu toții: unii prin stînga, alții pe cărarea muntelui. Dochița fi Corbu rămîn singuri.) </stage>
-            <p>FETELE ȘI FLĂCĂII</p>
+            </sp>
+          <sp who="#fetele #flacaii">
+            <speaker>FETELE ȘI FLĂCĂII</speaker>
             <stage> (ieșind) </stage>
-            <p>:</p>
             <p>Haideți, haideți, haideți</p>
             <p>În codrul înverzit,</p>
             <p>Haideți, haideți, haideți</p>
@@ -316,11 +330,17 @@
           <sp who="#fetele">
             <speaker>FETELE</speaker>
             <p>Ce tainică-ntîmplare.</p>
-            <p>FLĂCĂII:</p>
+            </sp>
+          <sp who="#flacaii">
+            <speaker>FLĂCĂII</speaker>
             <p>Îi vro cucoană mare.</p>
-            <p>FETELE:</p>
+            </sp>
+          <sp who="#fetele">
+            <speaker>FETELE</speaker>
             <p>Vezi cum a leșinat?</p>
-            <p>FLĂCĂII:</p>
+            </sp>
+          <sp who="#flacaii">
+            <speaker>FLĂCĂII</speaker>
             <p>A dat de vreun păcat.</p>
             <p>TOȚI</p>
             <p>Haideți s-o ajutăm,</p>
@@ -336,24 +356,29 @@
             <p>Din cer ne privește</p>
             <p>O! Doamne! păzește</p>
             <p>Al nostru amor.</p>
-            <p>COR:</p>
+            </sp>
+          <sp who="#cor">
+            <speaker>COR</speaker>
             <p>O! Doamne preasfinte!</p>
             <p>L-a sa rugăminte</p>
             <p>Fii îndurător.</p>
             <p>Din cer îi privește,</p>
             <p>O Doamne, păzește</p>
             <p>Iubirile lor.</p>
-            <p>ANICA</p>
+            </sp>
+          <sp who="#anica">
+            <speaker>ANICA</speaker>
             <stage> (trezindu-se) </stage>
-            <p>:</p>
             <p>Ah! unde m-aflu?</p>
-            <p>LEONAȘ</p>
+            </sp>
+          <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <stage> (cătră ceialalți) </stage>
-            <p>:</p>
             <p>Vă dați într-o parte.</p>
-            <p>ANICA</p>
+            </sp>
+          <sp who="#anica">
+            <speaker>ANICA</speaker>
             <stage> (cu spaimă) </stage>
-            <p>:</p>
             <p>Ce vis plin de groază!… Departe, departe …</p>
             <p>Dușmanii m-alungă, pun mîna pe mine …</p>
             <p>Ah! dragul meu unde-i? …</p>
@@ -361,9 +386,10 @@
           <sp who="#leonas">
             <speaker>LEONAȘ</speaker>
             <p>Eu sînt lîngă tine.</p>
-            <p>ANICA</p>
+            </sp>
+        <sp who="#anica">
+            <speaker>ANICA</speaker>
             <stage> (aruncindu-se cu bucurie în brațele lui Leonaș) </stage>
-            <p>:</p>
             <p>O! fericire!</p>
             <p>Dulce simțire!</p>
             <p>Din rătăcire</p>
@@ -372,12 +398,16 @@
             <p>Inima-mi crește</p>
             <p>Și înflorește</p>
             <p>Vesel în pept.</p>
-            <p>ANICA și LEONAȘ:</p>
+            </sp>
+        <sp who="#anica #leonas">
+            <speaker>ANICA și LEONAȘ</speaker>
             <p>Ceru-mi zîmbește,</p>
             <p>Inima-mi crește</p>
             <p>Și înflorește</p>
             <p>Vesel în pept.</p>
-            <p>ANICA:</p>
+            </sp>
+        <sp who="#anica">
+            <speaker>ANICA</speaker>
             <p>Voi, soarte rele,</p>
             <p>Viscole grele</p>
             <p>A vieței mele,</p>
@@ -386,61 +416,78 @@
             <p>El ocrotește</p>
             <p>Cine iubește</p>
             <p>Păn’ la mormînt.</p>
-            <p>ANICA și LEONAȘ:</p>
+            </sp>
+        <sp who="#anica #leonas">
+            <speaker>ANICA și LEONAȘ</speaker>
             <p>Cerul păzește,</p>
             <p>El ocrotește</p>
             <p>Cine iubește</p>
             <p>Păn’ la mormînt.</p>
             <stage> (Se aude în munți o trîmbiță militară.) </stage>
-            <p>TOȚI:</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ce sunet s-aude?</p>
-            <p>ANICA și LEONAȘ:</p>
+            </sp>
+        <sp who="#anica #leonas">
+            <speaker>ANICA și LEONAȘ</speaker>
             <p>O! presimțiri mult crude!</p>
             <p>Jandarmii ne alung.</p>
-            <p>CORBU și DOCHIȚA:</p>
+            </sp>
+        <sp who="#corbu #dochita">
+            <speaker>CORBU și DOCHIȚA</speaker>
             <p>Jandarii vă ajung…</p>
-            <p>FETELE ȘI FLACAII</p>
+            </sp>
+        <sp who="#fetele #flacaii">
+            <speaker>FETELE ȘI FLACAII</speaker>
             <stage> (întorcîndu-se din fund) </stage>
-            <p>:</p>
             <p>O ceată de soldați</p>
             <p>Spre noi vin înarmați.</p>
-            <p>LEONAȘ</p>
+            </sp>
+        <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <stage> (cătră Corbu) </stage>
-            <p>:</p>
             <p>Pe noi ei ne caută!</p>
-            <p>CORBU:</p>
+            </sp>
+        <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>N-ai grijă cu mine.</p>
             <p>Hai de te ascunde, deși-i cam rușine;</p>
             <p>Dochițo, tu, dragă, ești mai pricepută…</p>
             <p>Ie pe cuconița ș-o fă nevăzută …</p>
-            <p>COR GENERAL, ANICA și LEONAȘ</p>
+            </sp>
+        <sp who="#cor_general #anica #leonas">
+            <speaker>COR GENERAL, ANICA și LEONAȘ</speaker>
             <stage> (În fața scenei) </stage>
-            <p>:</p>
             <p>O! Doamne preasfinte!</p>
             <p>L-a mea rugăminte</p>
             <p>Fii îndurător.</p>
             <p>Din cer ne privește,</p>
             <p>O! Doamne, păzește</p>
             <p>Al nostru amor!</p>
-            <p>CORBU și DOCHIȚA:</p>
+            </sp>
+        <sp who="#corbu #dochita">
+            <speaker>CORBU și DOCHIȚA</speaker>
             <p>O! Doamne preasfinte!</p>
             <p>L-a lor rugăminte</p>
             <p>Fii îndurător.</p>
             <p>Din cer îi privește,</p>
             <p>O! Doamne, păzește</p>
             <p>Iubirile lor!</p>
-            <p>FETELE și FLĂCĂII</p>
+            </sp>
+        <sp who="#fetele #flacaii">
+            <speaker>FETELE și FLĂCĂII</speaker>
             <stage> (înșirați pe cărarea muntelui) </stage>
-            <p>:</p>
             <p>Pe plaiul din munte</p>
             <p>Ostașii de frunte</p>
             <p>Aici se cobor;</p>
             <p>Hai toți cu grăbire</p>
             <p>Spre buna sosire</p>
             <p>Înaintea lor.</p>
-            <p>BUJOR și JANDARMII</p>
+            </sp>
+        <sp who="#bujor #jandarmii">
+            <speaker>BUJOR și JANDARMII</speaker>
             <stage> (ivindu-se pe deal și viind in marș) </stage>
-            <p>:</p>
             <p>Pe plaiul din munte</p>
             <p>Ostași noi de frunte</p>
             <p>Marș grabnic, ușor,</p>
@@ -461,9 +508,10 @@
             <p>Flăcăi, prietini vechi, vă văd cu bucurie;</p>
             <p>Dar unde-i draga mea?…</p>
             <p>Dochița mlndrulița.</p>
-            <p>TOȚI</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <stage> (chemînd prin munți) </stage>
-            <p>:</p>
             <p>Dochițo, fa Dochiță …</p>
             <p>Dochițo, fa Dochiță!</p>
           </sp>
@@ -478,56 +526,83 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Bujor… o venit Bujor…</p>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (văzînd pe Bujor, se aruncă veselă în brațele lui) </stage>
-            <p>: Bujor!</p>
+            <p>Bujor!</p>
           </sp>
           <sp who="#bujor">
             <speaker>BUJOR</speaker>
             <p>Dochițo!</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Ah! ce dulce fericire</p>
             <p>Dup-o lungă, despărțire</p>
             <p>Simt acum în peptul meu!</p>
-            <p>BUJOR</p>
+            </sp>
+        <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (cu dragoste) </stage>
-            <p>:</p>
             <p>D-apoi eu! d-apoi eu!</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Ian să te privesc mai bine</p>
             <p>Ce frumos mindiru-ți vine!</p>
             <p>Parcă ești un pui de zmeu.</p>
-            <p>BUJOR:</p>
+            </sp>
+        <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <p>Cred și eu, cred și eu.</p>
             <stage> (Răsucindu-și mușteața.) </stage>
             <p>De cînd am intrat la oaste,</p>
             <p>Multe fete zac pe coaste,</p>
             <p>Zac mereu de dorul meu…</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>D-apoi eu, d-apoi eu!</p>
-            <p>BUJOR:</p>
+            </sp>
+        <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <p>De cînd port arma iubită</p>
             <p>Pentru țara mea slăvită</p>
             <p>M-am făcut chiar pui de zmeu.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Cred și eu, cred și eu.</p>
-            <p>BUJOR și DOCHIȚA:</p>
+            </sp>
+        <sp who="#bujor #dochita">
+            <speaker>BUJOR și DOCHIȚA</speaker>
             <p>Ah! de-acum în fericire</p>
             <p>Dup-o lungă despărțire</p>
             <p>Ne-om iubi, iubi mereu,</p>
             <p>Tu și eu, tu și eu.</p>
-            <p>BUJOR</p>
+            </sp>
+        <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (cătră ceialalți) </stage>
-            <p>: Hora, măi, de bună sosire. Să se ducă vestea peste nouă mări și țări.</p>
+            <p>Hora, măi, de bună sosire. Să se ducă vestea peste nouă mări și țări.</p>
             <stage> (Jandarmii, fetele și flăcăii se prind la horă.) </stage>
-            <p>JANDARMII:</p>
+            </sp>
+        <sp who="#jandarmii">
+            <speaker>JANDARMII</speaker>
             <p>De cind am intrat la oaste…</p>
             <p>Etc. etc. etc.</p>
-            <p>FETELE:</p>
+            </sp>
+        <sp who="#fetele">
+            <speaker>FETELE</speaker>
             <p>Cred și eu, cred și eu.</p>
-            <p>JANDARMII:</p>
+            </sp>
+        <sp who="#jandarmii">
+            <speaker>JANDARMII</speaker>
             <p>De cînd port arma iubită etc.</p>
-            <p>FETELE:</p>
+            </sp>
+        <sp who="#fetele">
+            <speaker>FETELE</speaker>
             <p>Cred și eu, cred și eu.</p>
           </sp>
         </div>
@@ -537,31 +612,44 @@
           <sp who="#bujor">
             <speaker>BUJOR</speaker>
             <p>Ispravnicu!… ce-o pățit?</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (viind iute pe scenă, tremurînd) </stage>
-            <p>:</p>
             <p>La arme! la arme! săriți! ajutor!</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ce este? Ce este?</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Ah! tremur și mor!</p>
             <stage> (Cătră jandarmi.) </stage>
             <p>Pe urmele voastre viind cole-n vale,</p>
             <p>Din codru deodată-mi iesă în cale</p>
             <p>Două matahalei</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Două matahale!</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>O mînă-mi apasă căciula pe nas.</p>
             <p>Și groaznic deodată-mi zice un glas:</p>
             <p>„Ispravnice, moartea te paște la soare,</p>
             <p>Fugi iute acasă de șezi la răcoare.”</p>
             <p>Vai! cad de picioare</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ce să fie oare?</p>
-            <p>BUJOR</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (în parte) </stage>
-            <p>: El trebuie să fie… hoțul după care ne-am luat de două zile…</p>
+            <p>El trebuie să fie… hoțul după care ne-am luat de două zile…</p>
             <stage> (Cătră jandarmi.) </stage>
             <p>Copii, gătiți-vă armele și veniți să hăituim codrul… Dochițo fii fără nici o grijă, că mă-ntorc îndată.</p>
           </sp>
@@ -572,21 +660,27 @@
           <sp who="#bujor">
             <speaker>BUJOR</speaker>
             <p>În stîn…ga… marș înainte… marș.</p>
-            <p>COR GENERAL, BUJOR și JANDARMII:</p>
+            </sp>
+        <sp who="#cor_general #bujor #jandarmii">
+            <speaker>COR GENERAL, BUJOR și JANDARMII</speaker>
             <p>Prin codri, pe munte,</p>
             <p>Ostași noi de frunte</p>
             <p>Marș grabnic, ușor.</p>
             <p>Marș vesel cu toții</p>
             <p>Să prindem și hoții</p>
             <p>Și gazdele lor.</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Prin codri, pe munte,</p>
             <p>Jandarmi voi de frunte,</p>
             <p>Marș grabnic, ușor.</p>
             <p>Vă duceți cu toții</p>
             <p>Să prindeți și hoții</p>
             <p>Ș-averile lor.</p>
-            <p>DOCHIȚA, FLĂCĂII și FETELE:</p>
+            </sp>
+        <sp who="#dochita #flacaii #fetele">
+            <speaker>DOCHIȚA, FLĂCĂII și FETELE</speaker>
             <p>Prin codri, pe munte</p>
             <p>Ostașii de frunte</p>
             <p>Se duc de la noi,</p>
@@ -602,12 +696,16 @@
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
             <p>O româncă! Ian să-i fac dopros… Copilo… n-auzi? copilo…</p>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (oprindu-se la ușa ei) </stage>
-            <p>: Pe mine mă chemi?</p>
-            <p>ISPRAVNICUL</p>
+            <p>Pe mine mă chemi?</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (apropiindu-se de Dochița și căutînd la ea de aproape) </stage>
-            <p>: D-apoi pe cine, pe mine? Doar nu-s…</p>
+            <p>D-apoi pe cine, pe mine? Doar nu-s…</p>
             <stage> (În parte.) </stage>
             <p>Măi, că frumușică țărăncuță…</p>
           </sp>
@@ -622,17 +720,23 @@
             <p>Apoi dă…</p>
             <stage> (Tare.) </stage>
             <p>Ian spune-mi, copilo dragă, n-ai zărit cumva pe aici vreun domnișor și vreo duducă?… așa știi… cam…</p>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (în parte) </stage>
-            <p>: Degrabă ți-a fi, ispravnice…</p>
+            <p>Degrabă ți-a fi, ispravnice…</p>
             <stage> (Tare.) </stage>
             <p>Nu, cucoane, nu… da unde… că doar duducele și domnișorii nu răsar ca bozul prin satul nostru.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (căutînd de aproape la Dochița) </stage>
-            <p>: Așa să trăiești?</p>
-            <p>DOCHIȚA</p>
+            <p>Așa să trăiești?</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (rîzînd) </stage>
-            <p>: Da ce te uiți așa la mine?… parc-ai avea orbul găinilor?</p>
+            <p>Da ce te uiți așa la mine?… parc-ai avea orbul găinilor?</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
@@ -665,9 +769,11 @@
             <p>Acu… nepoata ca nepoata; dar altă bazaconie!… În ziua cînd au spălat putina Anica cu” Leonaș, am găsit lada sămișiei deschisă; broasca stricată și înauntru 40.000 lei… lipsă. Se-nțelege că tot Leonaș o furat și banii haznelei, pentru ca să aibă ce mînca cu Anica…</p>
             <stage> (Plîngînd.) </stage>
             <p>Văzuț-ai vreun ispravnic mai măhnit decît mine, fa Prohirițo?</p>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (mînioasă) </stage>
-            <p>: Haide…. acu-s și Prohiriță.</p>
+            <p>Haide…. acu-s și Prohiriță.</p>
             <stage> (Tare.) </stage>
             <p>Dochița… Dochița, auzitu-m-ai?</p>
           </sp>
@@ -684,9 +790,11 @@
             <p>Strașnic, Zoițo… știi? eu cînd mă duc la vânat, nici nu mai ieu prepelicar cu mine… Ș-așa cum îți spuneam mai dinioare… cum mă urcam singur pe potică… Kirie eleison!… Îmi iesă deodată înainte două matahale cît…</p>
             <stage> (căutînd, împrejur) </stage>
             <p>cît tine, Tarsiță… ba ceva mai mărișoare…</p>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (în parte) </stage>
-            <p>: Auzi vorbă!</p>
+            <p>Auzi vorbă!</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
@@ -706,9 +814,11 @@
             <speaker>ISPRAVNICUL</speaker>
             <p>Nu mă lăsa, Locsițo, că mă duc… mă duc…</p>
             <stage> (Tremurînd.) </stage>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (sprijinindu-l) </stage>
-            <p>: Da ține-ți firea, cucoane, că doar ești bărbat, și ți-i sînul plin de arme…</p>
+            <p>Da ține-ți firea, cucoane, că doar ești bărbat, și ți-i sînul plin de arme…</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
@@ -729,61 +839,93 @@
             <p>O înviet mortu.</p>
             <stage> (Tare.) </stage>
             <p>Șterge-te pe gură, boieriule…</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (ștergîndu-se cu mînica) </stage>
-            <p>: Da de ce?… Ha… așa vine vorba? ha, ha, ha!…</p>
+            <p>Da de ce?… Ha… așa vine vorba? ha, ha, ha!…</p>
             <stage> (Serios.) </stage>
             <p>Dar să lăsăm șaga… ascultă:</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Fă Dochițo, puică albă,</p>
             <p>Vin cu mine să-ți dau salbă.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Ba nu, nu; ba nu, nu vreu</p>
             <p>Că-mi e drag Bujorul meu.</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Ț-oi da salbă de mărgele,</p>
             <p>Și paftale, și inele.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Baiu; marfa de la voi</p>
             <p>Nu se trece pe la noi.</p>
             <stage> (Împreună.) </stage>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Ei!</p>
             <p>Nu vrei?</p>
             <p>Îți poruncesc dar apoi.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Dor</p>
             <p>De zor</p>
             <p>Nu cunoaștem pe la noi.</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Pentru tine le fac toate</p>
             <p>Ș-apoi zici că nu se poate?</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Geaba vii, geaba te duci</p>
             <p>Numai rupi niște papuci.</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Sau nu-s gingaș la privire?</p>
             <p>Sau nu-s vrednic de iubire?</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Ba ești mîndru, de diochi</p>
             <p>Și-mi ești drag … ca sarea-n ochi.</p>
             <stage> (Împreună.) </stage>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <p>Ei!</p>
             <p>Nu vrei?</p>
             <p>Îți poruncesc dar apoi.</p>
-            <p>DOCHIȚA:</p>
+            </sp>
+        <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <p>Dor</p>
             <p>De zor</p>
             <p>Nu cunoaștem pe la noi.</p>
             <stage> (În vremea acestui duo, Leonaș se arată în fund, învelit cu manta neagră, și caută cu luare-aminte împrejurul lui. La sfârșitul scenei, el se apropie de ispravnic; îl apucă de mînă și, în vreme ce acesta se trage înapoi tremurând, îi cîntă următoarele:) </stage>
-            <p>LEONAȘ:</p>
+            </sp>
+        <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <p>Ispravnice, moartea te paște la soare,</p>
             <p>Fugi iute acasă de șezi la răcoare.</p>
-            <p>ISPRAVNICUL:</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (spăriat) </stage>
             <p>Iar cad de picioare …</p>
-            <p>LEONAȘ:</p>
+            </sp>
+        <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <p>Mergi la închisoare.</p>
             <stage> (Leonaș împinge pe ispravnic in orindă și-l închide pe dinafară.) </stage>
           </sp>
@@ -818,9 +960,11 @@
           <sp who="#leonas">
             <speaker>LEONAȘ</speaker>
             <p>Lasă-l dracului… spune-mi de Anica… unde-i? ce face?</p>
-            <p>DOCHIȚA</p>
+            </sp>
+          <sp who="#dochita">
+            <speaker>DOCHIȚA</speaker>
             <stage> (arată casa ei) </stage>
-            <p>: Aici. Am schimbat-o în straie de-a noastre și cînd ai videa-o… parcă-i o porumbiță…</p>
+            <p>Aici. Am schimbat-o în straie de-a noastre și cînd ai videa-o… parcă-i o porumbiță…</p>
           </sp>
           <sp who="#leonas">
             <speaker>LEONAȘ</speaker>
@@ -939,9 +1083,11 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Ian ascultă, măi băiete… nu mai zice una ca asta, că, pe bătrânețele mele!… cât ești de jandarm, îți stric cimpoiul de cap… auzi?… un copil de ieri să mă batjocorească de la ochi!…</p>
-            <p>BUJOR</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (cătră jandarmi) </stage>
-            <p>: Țineți-l bine, să nu scape șoldanul…</p>
+            <p>Țineți-l bine, să nu scape șoldanul…</p>
           </sp>
           <sp who="#corbu">
             <speaker>CORBU</speaker>
@@ -963,20 +1109,24 @@
             <speaker>ISPRAVNICUL</speaker>
             <p>Care-i acel moș Corbu? să-l văd și eu… bujor</p>
             <stage> (arătând pe Corbu) </stage>
-            <p>: Iată-l.</p>
+            <p>Iată-l.</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
             <p>Pei drace!… Aista-i una din matahalele din pădure.</p>
             <stage> (Închide fereastra iute.) </stage>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (în parte) </stage>
-            <p>: M-o cunoscut… slut la Prut!… bujor</p>
+            <p>M-o cunoscut… slut la Prut!… bujor</p>
             <stage> (la ușa cârciumei) </stage>
-            <p>: Domnule ispravnic… Domnule… ieși afară de hotărăște ce să facem cu moșneagu!</p>
-            <p>ISPRAVNICUL</p>
+            <p>Domnule ispravnic… Domnule… ieși afară de hotărăște ce să facem cu moșneagu!</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (la fereastră) </stage>
-            <p>: Legatu-i?</p>
+            <p>Legatu-i?</p>
           </sp>
           <sp who="#bujor">
             <speaker>BUJOR</speaker>
@@ -986,10 +1136,12 @@
             <speaker>ISPRAVNICUL</speaker>
             <p>Apoi deschide-mi ușa, că nu știu cine m-o închis înauntru… din greșeală… bujor</p>
             <stage> (în parte, deschizînd ușa) </stage>
-            <p>: Așa ispravnic îi bun de tors la fuioare ca babele.</p>
-            <p>ISPRAVNICUL</p>
+            <p>Așa ispravnic îi bun de tors la fuioare ca babele.</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (ieșind) </stage>
-            <p>: Ha, ha! măi badeo, mi-ai căzut la mână acu? Te-oi învăța eu să sparii ispravnicii prin codri.</p>
+            <p>Ha, ha! măi badeo, mi-ai căzut la mână acu? Te-oi învăța eu să sparii ispravnicii prin codri.</p>
           </sp>
           <sp who="#corbu">
             <speaker>CORBU</speaker>
@@ -1044,9 +1196,11 @@
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
             <p>Minciuni spui… că erai cu un tâlhar.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (în parte) </stage>
-            <p>: Vrabia mălai visează.</p>
+            <p>Vrabia mălai visează.</p>
             <stage> (Tare.) </stage>
             <p>Apoi dă, știu eu? tâlhar a fi?… Eu nu-s ispravnic să cunosc…</p>
           </sp>
@@ -1057,18 +1211,22 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Să-l mistuiesc?… că doar nu l-am mâncat. Slavă Domnului, neam de neamu meu…</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (în parte) </stage>
-            <p>: Șiret țăran!</p>
+            <p>Șiret țăran!</p>
             <stage> (Tare.) </stage>
             <p>Ian ascultă, măi badeo… nu-mi umbla cu mâța-n sac, și-mi răspunde curat cum te-ntreb, c-apoi îți găsești Bacău cu mine.</p>
           </sp>
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Cum îi vrea d-ta, cucoane; cică vorba ceea: arțagu își găsește pârțagu.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (mînios) </stage>
-            <p>: Nu-i vorba de pârțag, mojicule… spune unde-ai ascuns tâlharul, că de nu… te-ntind jos și te fac chisăliță de bătaie.</p>
+            <p>Nu-i vorba de pârțag, mojicule… spune unde-ai ascuns tâlharul, că de nu… te-ntind jos și te fac chisăliță de bătaie.</p>
           </sp>
           <sp who="#corbu">
             <speaker>CORBU</speaker>
@@ -1081,12 +1239,16 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Ei! vorbă lungă, sărăcie-n pungă… bate-mă… schingiuiește-mă… tot am să mor odată… Nu știu nimic… mai mult vrei?</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (cătră jandarmi) </stage>
-            <p>: Umflați-l și-l puneți jos…</p>
-            <p>BUJOR</p>
+            <p>Umflați-l și-l puneți jos…</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (încet ispravnicului) </stage>
-            <p>: Degeaba umbli, cucoane, să-l sparii cu bătaia… o muri și n-o mărturisi nimică… așa-i românu.</p>
+            <p>Degeaba umbli, cucoane, să-l sparii cu bătaia… o muri și n-o mărturisi nimică… așa-i românu.</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
@@ -1100,18 +1262,24 @@
             <speaker>ISPRAVNICUL</speaker>
             <p>Bine zici.</p>
             <stage> (Vorbesc încet împreună.) </stage>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (între jandarmi) </stage>
-            <p>: Să dați seamă lui Dumnezeu… că așa batjocură n-am pățit de cînd sînt… dă… bateți-mă, zdrobiți-mă, faceți-mă fărîmi… să vă văd cât sînteți de voinici… dar… din gura mea nu-ți scoate alta decât blăstămuri; și să știți de la Corbu bătrânul, că blăstămul de la săraci nu cade pe copaci…</p>
+            <p>Să dați seamă lui Dumnezeu… că așa batjocură n-am pățit de cînd sînt… dă… bateți-mă, zdrobiți-mă, faceți-mă fărîmi… să vă văd cât sînteți de voinici… dar… din gura mea nu-ți scoate alta decât blăstămuri; și să știți de la Corbu bătrânul, că blăstămul de la săraci nu cade pe copaci…</p>
             <stage> (Jandarmii îl apuc fi vreu ca să-l puie jos.) </stage>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (lui Bujor) </stage>
-            <p>: Să mi-l faci cuc.</p>
+            <p>Să mi-l faci cuc.</p>
             <stage> (Cătră jandarmi.) </stage>
             <p>Stați… moș Corbu-i nevinovat.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (cu mirare) </stage>
-            <p>: Oare?</p>
+            <p>Oare?</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
@@ -1123,9 +1291,11 @@
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
             <p>Hai să cinstim cu toții împreună, ca să rămânem fără bănuială… Aduceți vin din cârciumă.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (în parte) </stage>
-            <p>: S-o schimbat boieriu! Mari sunt minunile tale, Doamne!</p>
+            <p>S-o schimbat boieriu! Mari sunt minunile tale, Doamne!</p>
             <stage> (În vremea aceasta jandarmii aduc câteva garafe cu vin și pahare din cârciumă.) </stage>
           </sp>
           <sp who="#bujor">
@@ -1139,9 +1309,11 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Ba toți cei bătrîni ridică nevoia… las’pe mine c-am să ți-i pui în cofă, cum om deșerta-o de vin.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (lui Bujor) </stage>
-            <p>: Cată de află tot…</p>
+            <p>Cată de află tot…</p>
             <stage> (Tare.) </stage>
             <p>Chef bun.</p>
             <stage> (Intră în cârciumă.) </stage>
@@ -1155,15 +1327,20 @@
             <p>Dați-i cep, băieți.</p>
             <stage> (Arătând garafa.) </stage>
             <p>Moș Corbule?…</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (întinzând paharul în care Bujor varsă vin) </stage>
-            <p>: Eu!</p>
-            <p>BUJOR</p>
+            <p>Eu!</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (închinînd) </stage>
-            <p>:</p>
             <p>Moș Corbu, să trăiești</p>
             <p>Așa precum dorești!</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Voinice, mulțămim; Să bem și să trăim,</p>
             <p>Că vinu-i pentru noi Și nu e pentru boi.</p>
             <stage> (Beu cu toții.) </stage>
@@ -1171,7 +1348,9 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Vivat!</p>
-            <p>BUJOR:</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <p>Să trăiască vinul,</p>
             <p>Vinul și pelinul,</p>
             <p>Cît îi el de bun,</p>
@@ -1180,19 +1359,27 @@
             <p>Cînd frumos el cântă</p>
             <p>Gîl, gîl, gîl, gîl, gîl,</p>
             <p>Gîl, gîl, gîl, gîl, gîl.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Să trăiască vinul</p>
             <p>Etc. etc. etc.</p>
-            <p>BUJOR:</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <p>Așa că-i bunișor</p>
             <p>De-ți trece chiar de dor?</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Ba, zău, buu, bunicel,</p>
             <p>Să bei mereu din el,</p>
             <p>Căci gura-i chiar un iad,</p>
             <p>Cât bea, tot zice ad!</p>
             <stage> (Beu iar.) </stage>
-            <p>BUJOR:</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <p>II</p>
             <p>Vinu-nsuflețește,</p>
             <p>Pelinu-ndulcește</p>
@@ -1202,45 +1389,58 @@
             <p>Când frumos îi cântă</p>
             <p>Gîl, gîl, gîl, gîl, gil,</p>
             <p>Gîl, gil, gil, gil, gîl.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Vinu-nsuflețește</p>
             <p>Etc. etc.</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Vivat!</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (vesel) </stage>
-            <p>: Încă o dușcă, Bujoraș dragă…</p>
+            <p>Încă o dușcă, Bujoraș dragă…</p>
           </sp>
           <sp who="#bujor">
             <speaker>BUJOR</speaker>
             <p>Și cele multe înainte.</p>
             <stage> (În parte) </stage>
             <p>începe-a prinde prepelița de coadă.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (bând) </stage>
-            <p>:</p>
             <p>Parcă mă simt întinerit …</p>
             <p>Inima-mi, zău, s-a încălzit,</p>
             <p>Și-mi vine să vă cânt un cântec bătrînesc,</p>
             <p>Un cântec vitejesc,</p>
             <p>Pe care eu îl știu chiar de la bunul meu,</p>
             <p>Care bun îl știa de la străbunul său.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Cîntă, noi te așteptăm</p>
             <p>Și pahare-ți închinăm.</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Pe când strămoșii cei bătrâni</p>
             <p>Aveau război cu mulți păgâni,</p>
             <p>Ei se duceau cântând ist cantec voinicesc,</p>
             <p>Ist cântec românesc.</p>
             <p>Și, zău, la glasul lor, păgânii tremura!</p>
             <p>Păgânii tremura, când ei cînta așa:</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Cântă, noi te ascultăm</p>
             <p>Și ca ei vrem să cântăm.</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Român verde ca stejarul</p>
             <p>Râd de dușmani și de moarte.</p>
             <p>Să-mi trăiască harmasarul.</p>
@@ -1249,44 +1449,58 @@
             <p>Ager, falnic ca un zmeu,</p>
             <p>Căci am inimă vitează</p>
             <p>Și nădejde-n Dumnezeu.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Sai, voinice, și nechează etc. etc.</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ura!</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>II</p>
             <p>Cât mi-a sta mâna voinică,</p>
             <p>Pe-a mea armă războiască,</p>
             <p>N-aibă grijă de nimică</p>
             <p>Țara mea cea românească!</p>
             <p>Sai, voinice, și nechează etc. etc.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Sai, voinice, și nechează etc. etc.</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ura! Ura!</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>III</p>
             <p>Cu-al meu suflet, cu-a mea pală,</p>
             <p>Cu-al meu șoim albit de spume,</p>
             <p>În dușmani om da năvală</p>
             <p>De s-a duce vestea-n lume!</p>
             <p>Sai, voinice, și nechează etc. etc.</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Sai, voinicc, și nechează etc. ctc.</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ura! Ura! Ura! să trăiești, moș Corbule.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (amețit) </stage>
-            <p>: Să trăiți și voi, feții mei, precum doriți… și întru mulți ani cu bine. Să v-agiute Dumnezeu ca să prindeți toți hoții din țara Moldovei.</p>
-            <p>BUJOR</p>
+            <p>Să trăiți și voi, feții mei, precum doriți… și întru mulți ani cu bine. Să v-agiute Dumnezeu ca să prindeți toți hoții din țara Moldovei.</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (în parte) </stage>
-            <p>: De-acum s-o pornit, moara.</p>
+            <p>De-acum s-o pornit, moara.</p>
             <stage> (Tare.) </stage>
             <p>Încă o dușcă, moș Corbu.</p>
           </sp>
@@ -1309,9 +1523,11 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Mai bună!… ca altmintrelea dați chiorâș de el pe stânca Șoimilor.</p>
-            <p>BUJOR</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (în parte) </stage>
-            <p>: Stânca Șoimilor!</p>
+            <p>Stânca Șoimilor!</p>
             <stage> (Tare) </stage>
             <p>. Ha, ha, ha… adică mare hâtru mai ești!… Să juri că te-o înțărcat Scaraoțchi.</p>
           </sp>
@@ -1337,9 +1553,11 @@
             <p>Hî, hî… iute român! măi, măi, măi!… Și eu am fost tânăr, și mie mi-au fost dragi fetele… măcar și acu mi-s dragi, d-apoi încă așa!… Vrea să vie numaidecât cole… Mai stăi, române… ba nu… că te-or prinde jandarmii… mai stăi, păn’ce mi-i auzi cântând din cimpoi, ca să-ți dau de știre… unde!…</p>
             <stage> (Clătinând capul.) </stage>
             <p>Aprins neam îi neamul cuconașilor.</p>
-            <p>BUJOR</p>
+            </sp>
+          <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (în parte) </stage>
-            <p>: De-a cânta moșneagu din cimpoi… el cade-n căpcană… Ian să cerc…</p>
+            <p>De-a cânta moșneagu din cimpoi… el cade-n căpcană… Ian să cerc…</p>
             <stage> (Tare.) </stage>
             <p>Știi ce, moș Corbule?… pare-mi-se că ești Pepelea.</p>
           </sp>
@@ -1364,22 +1582,30 @@
             <p>Cele cu două picioare… ian să vezi…</p>
             <stage> (Își drege cimpoiul.) </stage>
             <p>Pepelea!… dacă eu bat zece ca Pepelea.</p>
-            <p>BUJOR</p>
+            </sp>
+        <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (cătră jandarmi, încet) </stage>
-            <p>: Intrați cole-n cârciumă și vă țineți la pândă.</p>
+            <p>Intrați cole-n cârciumă și vă țineți la pândă.</p>
             <stage> (Jandarmii intră în cârciumă.) </stage>
-            <p>CORBU</p>
+            </sp>
+        <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (împreunându-se cu cimpoiul și jucând) </stage>
-            <p>: Să te văd, cimpoiule: umflă-te, dizumflă-te.</p>
+            <p>Să te văd, cimpoiule: umflă-te, dizumflă-te.</p>
             <p>Frunzi verde baraboi,</p>
             <p>Cântă Corbu din cimpoi</p>
             <p>De sar fetele la noi</p>
             <p>Înainte și-napoi.</p>
-            <p>BUJOR</p>
+            </sp>
+        <sp who="#bujor">
+            <speaker>BUJOR</speaker>
             <stage> (în parte) </stage>
-            <p>: Acuș trebuie să vie hoțu, la glasul cimpoiului. Mă duc să nu mă zărească.</p>
+            <p>Acuș trebuie să vie hoțu, la glasul cimpoiului. Mă duc să nu mă zărească.</p>
             <stage> (Intră în cârciumă.) </stage>
-            <p>CORBU:</p>
+            </sp>
+        <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Cimpoieș drăguțul meu,</p>
             <p>Sună, sună, așa mereu</p>
             <p>Să se deie fetele-n vânt</p>
@@ -1400,9 +1626,11 @@
             <stage> (Către jandarmi.) </stage>
             <p>Gătiți-vă armele și trageți oțelele la carabine!</p>
             <stage> (Jandarmii trag oțelele.) </stage>
-            <p>ISPRAVNICUL</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (în parte) </stage>
-            <p>: Mi s-o făcut mâinile ca gheața.</p>
+            <p>Mi s-o făcut mâinile ca gheața.</p>
           </sp>
         </div>
         <div type="scene" n="15">
@@ -1411,53 +1639,67 @@
           <sp who="#leonas">
             <speaker>LEONAȘ</speaker>
             <p>Hai degrabă, Anică… Hai…</p>
-            <p>JANDARMII, BUJOR și ISPRAVNICUL:</p>
+            </sp>
+          <sp who="#jandarmii #bujor #ispravnicul">
+            <speaker>JANDARMII, BUJOR și ISPRAVNICUL</speaker>
             <p>Stăi pe loc,</p>
             <p>Că dăm foc.</p>
-            <p>LEONAȘ</p>
+            </sp>
+          <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <stage> (apărând pe Anica) </stage>
-            <p>:</p>
             <p>Ce vreți voi?</p>
-            <p>ANICA</p>
+            </sp>
+          <sp who="#anica">
+            <speaker>ANICA</speaker>
             <stage> (în parte) </stage>
-            <p>:</p>
             <p>Vai de noi!</p>
-            <p>JANDARMII, BUJOR și ISPRAVNICUL:</p>
+            </sp>
+          <sp who="#jandarmii #bujor #ispravnicul">
+            <speaker>JANDARMII, BUJOR și ISPRAVNICUL</speaker>
             <p>Stăi pe loc,</p>
             <p>Că dăm foc.</p>
             <stage> (În vuietul horului, Corbu începe a să trezi, caută împrejur și nu pricepe nimic deodată… Pe urmă se deșteaptă încet, încet și, cu cât se lămuresc gândurile lui, deznădăjduirea i se arată în față.) </stage>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (arătând pe Leonaș) </stage>
-            <p>:</p>
             <p>Puneți mîna pe dânsul și-l prindeți și-l legați.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (în parte) </stage>
-            <p>:</p>
             <p>Să lege cuconașul!</p>
           </sp>
           <sp who="#jandarmii">
             <speaker>JANDARMII</speaker>
             <p>Pe dînsul, copii!</p>
-            <p>LEONAȘ</p>
+            </sp>
+        <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <stage> (scoțînd două pistoale) </stage>
-            <p>:</p>
             <p>Stați!</p>
-            <p>JANDARMII, BUJOR:</p>
+            </sp>
+        <sp who="#jandarmii #bujor">
+            <speaker>JANDARMII, BUJOR</speaker>
             <p>Stăi pe loc,</p>
             <p>Că dăm foc.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+        <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (ascunzându-se după jandarmi) </stage>
-            <p>:</p>
             <p>Stăi pe loc,</p>
             <p>Nu da foc.</p>
-            <p>LEONAȘ</p>
+            </sp>
+        <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <stage> (întinzând pistoalele) </stage>
-            <p>:</p>
             <p>Stați pe loc,</p>
             <p>Că dau foc.</p>
-            <p>CORBU</p>
+            </sp>
+        <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (alergând între jandarmi și Leonaș) </stage>
-            <p>:</p>
             <p>Copii, stați.</p>
             <p>Foc nu dați!</p>
           </sp>
@@ -1468,9 +1710,11 @@
           <sp who="#jandarmul">
             <speaker>JANDARMUL</speaker>
             <p>Ispravnicu… unde-i domnu ispravnic?</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (ascuns după jandarmi) </stage>
-            <p>: Ce este? Cine mă cheamă?</p>
+            <p>Ce este? Cine mă cheamă?</p>
           </sp>
           <sp who="#jandarmul">
             <speaker>JANDARMUL</speaker>
@@ -1505,9 +1749,11 @@
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
             <p>Și celelalte… spune-nainte.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (citind) </stage>
-            <p>: „Mă grăbesc a te înștiința că tâlharu care o furat cei 40 000 lei din lada sămișiei s-o găsit, precum și banii, însă cu părere de rău îți vestesc că furtul este tocmai fiul d-tale cel de suflet….”</p>
+            <p>„Mă grăbesc a te înștiința că tâlharu care o furat cei 40 000 lei din lada sămișiei s-o găsit, precum și banii, însă cu părere de rău îți vestesc că furtul este tocmai fiul d-tale cel de suflet….”</p>
           </sp>
           <sp who="#ispravnicul">
             <speaker>ISPRAVNICUL</speaker>
@@ -1516,31 +1762,44 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Elei!</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (voind să ia răvașul) </stage>
-            <p>: Minciuni… minciuni de-a samișului.</p>
-            <p>CORBU</p>
+            <p>Minciuni… minciuni de-a samișului.</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (țimând răvașul) </stage>
-            <p>: Mai știi poznă?… De-or afla-o la Ieși, cucoane, te poți șterge pe gură despre isprăvnicie.</p>
-            <p>ISPRAVNICUL</p>
+            <p>Mai știi poznă?… De-or afla-o la Ieși, cucoane, te poți șterge pe gură despre isprăvnicie.</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (căzând pre un scaun) </stage>
-            <p>: Valeu! că iar mă prăbușesc.</p>
-            <p>TOȚI:</p>
+            <p>Valeu! că iar mă prăbușesc.</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ce este? Ce este?</p>
             <p>Ce groaznică veste?</p>
-            <p>ANICA</p>
+            </sp>
+          <sp who="#anica">
+            <speaker>ANICA</speaker>
             <stage> (alergând lângă moșul ei) </stage>
-            <p>:</p>
             <p>Ce ai? ce te doare?</p>
-            <p>LEONAȘ</p>
+            </sp>
+          <sp who="#leonas">
+            <speaker>LEONAȘ</speaker>
             <stage> (asemene) </stage>
-            <p>:</p>
             <p>L-a lovit dambla.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (trezindu-se) </stage>
-            <p>:</p>
             <p>Pei, nerușinato!… Feuge, satana!</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Dați-vă-ntr-o parte că-i sunt popa eu.</p>
             <stage> (Arătînd scrisoarea.) </stage>
             <p>Am capcana-n mână; de-acum îi al meu,</p>
@@ -1553,38 +1812,49 @@
             <p>ISPRAVNICUL</p>
             <stage> (rugându-se) </stage>
             <p>Taci, taci, taci, taci, taci!</p>
-            <p>CORBU:</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <p>Bine! acu-ndată</p>
             <p>Pe holtei și fată</p>
             <p>Să mi-i logodești…</p>
             <p>Ce zici? nu voiești?</p>
             <p>Ascultați …</p>
             <stage> (Deschide scrisoarea.) </stage>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (speriat) </stage>
-            <p>:</p>
             <p>Ce faci?</p>
             <p>Taci, taci, taci, taci, taci!</p>
           </sp>
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Iaca tac… dar fă cum zic eu… că citesc răvașul… și, zău, îți fac rușinea.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (în parte) </stage>
-            <p>: Ghidi, hoț bătrân.</p>
+            <p>Ghidi, hoț bătrân.</p>
           </sp>
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Hai mai iute, că n-am vreme…</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (se apropie de Leonaș căutând cu frică la răvașul cu care Corbu îl amenința din urmă) </stage>
-            <p>: Leonaș, toate au fost o șagă…</p>
-            <p>CORBU</p>
+            <p>Leonaș, toate au fost o șagă…</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (încet ispravnicului) </stage>
-            <p>: Prea bine… zi după mine: Eu te iubesc…</p>
-            <p>ISPRAVNICUL</p>
+            <p>Prea bine… zi după mine: Eu te iubesc…</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (în parte) </stage>
-            <p>: Ghiuju dracului!</p>
+            <p>Ghiuju dracului!</p>
             <stage> (Lui Leonaș:) </stage>
             <p>Eu te iubesc…</p>
           </sp>
@@ -1599,14 +1869,18 @@
           <sp who="#corbu">
             <speaker>CORBU</speaker>
             <p>Și te logodesc cu nepoata mea, Anica.</p>
-            <p>ISPRAVNICUL</p>
+            </sp>
+          <sp who="#ispravnicul">
+            <speaker>ISPRAVNICUL</speaker>
             <stage> (furios) </stage>
-            <p>: Și te logodesc cu nepoata mea Anica.</p>
+            <p>Și te logodesc cu nepoata mea Anica.</p>
             <stage> (În parte.) </stage>
             <p>Ei! las, Pepeleo, că mi-i cădea tu la mână.</p>
-            <p>CORBU</p>
+            </sp>
+          <sp who="#corbu">
+            <speaker>CORBU</speaker>
             <stage> (sărind de bucurie) </stage>
-            <p>: Ura! Crai-nou să trăiască, că mi-o făcut pe gândul meu.</p>
+            <p>Ura! Crai-nou să trăiască, că mi-o făcut pe gândul meu.</p>
           </sp>
           <sp who="#dochita">
             <speaker>DOCHIȚA</speaker>
@@ -1619,7 +1893,9 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Crai-nou să trăiască!… Să trăiască Crai-nou!</p>
-            <p>COR FINAL:</p>
+            </sp>
+        <sp who="#cor_final">
+            <speaker>COR FINAL</speaker>
             <p>Crai-nou! Crai-ncu! Crai-nou!</p>
             <p>La noi bine-ai venit;</p>
             <p>Crai-nou! Crai-nou! Crai-nou!</p>

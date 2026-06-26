@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000046" xml:lang="ro">
   <teiHeader>
@@ -78,6 +78,18 @@
           </person>
           <person xml:id="frit" sex="MALE">
             <persName>FRIȚ</persName>
+          </person>
+          <person xml:id="barza">
+            <persName>BARZĂ</persName>
+          </person>
+          <person xml:id="agachi">
+            <persName>AGACHI</persName>
+          </person>
+          <person xml:id="corul">
+            <persName>CORUL</persName>
+          </person>
+          <person xml:id="coscodan">
+            <persName>COSCODAN</persName>
           </person>
         </listPerson>
       </particDesc>
@@ -344,28 +356,40 @@
           <sp who="#agachi">
             <speaker>AGACHI</speaker>
             <p>Deschideți-vă urechile și pregătiți-vă basmalele, căci o să vărsați șiroaie de lacrimi… Jalnica tragedie a unui suzeran, în trei cuplete:</p>
-            <p>AGACHI:</p>
+            </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
             <p>Cică demult era, era,</p>
             <p>Era un pașă Mustafa.</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Cică de mult era, era,</p>
             <p>Era un pașă Mustafa.</p>
-            <p>AGACHI:</p>
+            </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
             <p>În București se-namora</p>
             <p>De-un pui de drac și mi-l fura.</p>
             <p>Tra, la, la, la.</p>
             <p>Cel drăcușor coarne purta</p>
             <p>Și nimărui nu le-arăta.</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Cel drăcușor coarne purta</p>
             <p>Și nimărui nu le-arăta.</p>
-            <p>AGACHI:</p>
+            </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
             <p>Dar după ce se mărita</p>
             <p>Le dărui lui Mustafa.</p>
             <p>Tra, la, la, la.</p>
             <p>Pașa voios se bucura</p>
             <p>Zicînd: aman și mașala!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Pașa voios se bucura</p>
             <p>Zicînd: aman și mașala!</p>
           </sp>
@@ -474,8 +498,10 @@
           </sp>
           <sp who="#moisescu">
             <speaker>MOISESCU</speaker>
-            <p>BA cu 24:</p>
-          </sp>
+            </sp>
+          <sp who="#ba_cu_24">
+            <speaker>BA cu 24</speaker>
+            </sp>
           <sp who="#agachi">
             <speaker>AGACHI</speaker>
             <p>Cu 24! de ce nu cu 50?</p>
@@ -1202,7 +1228,9 @@
             <p>SCENA XI</p>
             <p>COȘCODAN. AGACHI, MATILDA, BOMBEANU, BARZĂ, NECULAE, MĂȘTI</p>
             <stage> (toți întră cu paharele in mînă) </stage>
-            <p>MĂȘTILE:</p>
+            </sp>
+          <sp who="#mastile">
+            <speaker>MĂȘTILE</speaker>
             <p>Vivat pașa Mustafa!</p>
             <p>Vivat Mustafa-pașa! etc.</p>
           </sp>
@@ -1215,9 +1243,11 @@
           <sp who="#agaci">
             <speaker>AGACI</speaker>
             <p>Ce-am văzut? Matilda! artista noastră cea iubită? Fraților căuzași, să bem în sănătatea Matildei.</p>
-            <p>MĂȘTILE</p>
+            </sp>
+          <sp who="#mastile">
+            <speaker>MĂȘTILE</speaker>
             <stage> (bînd) </stage>
-            <p>: în sănătatea Matildei!</p>
+            <p>în sănătatea Matildei!</p>
           </sp>
           <sp who="#matilda">
             <speaker>MATILDA</speaker>
@@ -2102,7 +2132,9 @@
             <p>Și eu voi fi amant fidel,</p>
             <p>Un turturel.</p>
             <stage> (Împreună.) </stage>
-            <p>COȘCODAN:</p>
+            </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
             <p>Un turturel ș-o turturică</p>
             <p>Noi amîndoi pe lume-om fi,</p>
             <p>Ca turturică și turturel</p>
@@ -2153,26 +2185,40 @@
           <sp who="#smarandita">
             <speaker>SMĂRĂNDIȚA</speaker>
             <p>A! domnule Ghiță, nu pot să-ți spun cît mă simt de mulțămită, gîndind c-am să văd țările străine și minunile civilizației… Acesta-i visul meu cel mai scump.</p>
-            <p>SMĂRĂNDIȚA:</p>
+            </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
             <p>Îmi dai cuvîntul de gentilom?</p>
-            <p>COȘCODAN:</p>
+            </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
             <p>Pe legea mea!</p>
             <stage> (bis) </stage>
-            <p>SMĂRĂNDIȚA:</p>
+            </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
             <p>Vei fi cu mine galantom?</p>
-            <p>COȘCODAN:</p>
+            </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
             <p>Pe cît îi vrea!</p>
             <stage> (bis) </stage>
-            <p>SMĂRĂNDIȚA:</p>
+            </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
             <p>Primesc a fi dar, fără frică,</p>
             <p>O turturică</p>
             <p>Și să te am barbat fidel,</p>
             <p>Un turturel.</p>
             <stage> (Împreună.) </stage>
-            <p>COȘCODAN:</p>
+            </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
             <p>Un turturel ș-o turturică</p>
             <p>Etc. etc.</p>
-            <p>SMĂRĂNDIȚA:</p>
+            </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
             <p>Un turturel ș-o turturică</p>
             <p>Etc. etc.</p>
           </sp>
@@ -2290,7 +2336,9 @@
             <p>SCENA X</p>
             <p>COȘCODAN, MOISESCU, NĂRILĂ, CAVALERI</p>
             <stage> (Mai mulți cavaleri se așează la masa de cărți.) </stage>
-            <p>CAVALERII:</p>
+            </sp>
+          <sp who="#cavalerii">
+            <speaker>CAVALERII</speaker>
             <p>Danțu-i plăcut, balu-i frumos;</p>
             <p>Însă decît să sar în joc,</p>
             <p>Mai bine voi să cerc în stos</p>
@@ -2595,7 +2643,9 @@
           <sp who="#agachi">
             <speaker>AGACHI</speaker>
             <p>Un cabazlîc de carnaval; mai mult vreți?</p>
-            <p>NĂRILĂ și CHIRILĂ:</p>
+            </sp>
+          <sp who="#narila #chirila">
+            <speaker>NĂRILĂ și CHIRILĂ</speaker>
             <stage> (furioși) </stage>
             <p>Auz? Care vrea să zică, ți-ai bătut joc de noi… Ești un catergar, un pehlivan…</p>
             <stage> (Nărilă strănută de trei ori.) </stage>
@@ -2603,7 +2653,9 @@
           <sp who="#agachi">
             <speaker>AGACHI</speaker>
             <p>A! duceți-vă la naiba, în sfîrșit, și-mi dați bună pace.</p>
-            <p>NĂRILĂ și CHIRILĂ:</p>
+            </sp>
+          <sp who="#narila #chirila">
+            <speaker>NĂRILĂ și CHIRILĂ</speaker>
             <stage> (Arie din „Baba-Hîrca” ) </stage>
             <p>Pehlivan făr’ de rușine!</p>
             <p>Tu ți-ai bătut joc de mine!</p>
@@ -2642,7 +2694,9 @@
           <sp who="#coscodan">
             <speaker>COȘCODAN</speaker>
             <p>A! Doamna mea! aștept răspunsul d-tale ca o sentință judecătorească!</p>
-            <p>COR FINAL:</p>
+            </sp>
+        <sp who="#cor_final">
+            <speaker>COR FINAL</speaker>
             <p>Curioasă întîmplare!</p>
             <p>Flutur vine-n adunare,</p>
             <p>Cere fete și dispare,</p>
@@ -3567,7 +3621,9 @@
             <p>Căci oricare chin</p>
             <p>Eu mi-l înec în vin.</p>
             <p>Pluf!</p>
-            <p>TOȚI:</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Glu, glu, glu, sufletul meu rîde etc.</p>
             <stage> (La finele cupletului, Agachi dă brațul Fespezancăi, Bombeanu dă brațul Tincăi fi toți se îndreaptă spre fund.) </stage>
             <stage> (Cortina cade.) </stage>

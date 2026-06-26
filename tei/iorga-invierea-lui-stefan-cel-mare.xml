@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000083" xml:lang="ro">
   <teiHeader>
@@ -137,12 +137,13 @@
           <stage>ȘTEFAN:, VLĂDICA TEOCTIST (în haină de călugăr)</stage>
           <sp who="#stefan">
             <speaker>ȘTEFAN</speaker>
-            <p>:</p>
             <p>Totu-i sfârşit acuma. De ce m-aţi smuls voi oare</p>
             <p>Cu sila din mulţimea celor căzuţi în jur,</p>
             <p>De ce mi-aţi luat voi cinstea de a muri 'ntre arme,</p>
             <p>Şi m-aţi mânat pe drumul învinşilor fugari?</p>
-            <p>TEOCTIST:</p>
+            </sp>
+          <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>Findcă această ţară se cere-a fi domnită</p>
             <p>Şi nu se mai găseşte ca tine un alt Domn,</p>
             <p>Şi sunt destui aceia cari dorm în morminte,</p>
@@ -151,7 +152,9 @@
             <p>Şi fiindcă, o, Doamne, cel care-a biruit</p>
             <p>În douăzeci de lupte, poate cădea o dată,</p>
             <p>Dar ca să se ridice spre-a fi biruitor.</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <stage> (aprins) </stage>
             <p>Da, da, să se ridice să biruiască iarăşi,</p>
             <p>Să curăţe pământul de-acest gunoi păgân,</p>
@@ -161,13 +164,17 @@
             <p>Să-l prind pe fiecare în braţe, să sărut</p>
             <p>Norocul care-ntr-înşiî lni-a mar păstrat puterea,</p>
             <p>Și să pornim, părinte, spre a ne răsplăti, De toată suferinţa acestei fugi grozave!</p>
-            <p>TEOCTIST:</p>
+            </sp>
+          <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>La fapta răzbunării se merge 'ncet şi-ascuns Pe drumul ce-l arată a Domnului ştiinţă</p>
             <p>Şi unde ochi de duşmani la pândă nu pătrund,</p>
             <p>Să cazi, poţi într-o clipă, dar te ridici cu vremea.</p>
             <p>Aşteaptă să-ţi sosească, trimiși de Dumnezeu,</p>
             <p>Aceia care cată porunca ta domnească.</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>S-aştept... Şi colo arde colibă şi palat,</p>
             <p>Ard mănăstirl în care se- odihnesc strămoşii Şi oasele lor sfinte-n cenuşă se prefac,</p>
             <p>Şi fug mulţimi gonite de flăcări în pădure,</p>
@@ -197,13 +204,17 @@
             <p>Fereşte-l, Doamne sfinte, de-a' cerului săgeţi,</p>
             <p>Cum l-ar ferit de crunta vrăjmaşilor năvală,</p>
             <p>Şi, prin isteața-i minte şi braţu-i de ostaş, Ne izbăveşte-odată din greaua suferinţă!</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+        <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>Aştept în chinuri care perechea nu şi-o au, Aştept rănit în gânduri mai mult decât în rane,</p>
             <p>Aştept să treacă vremea ispitelor din cer</p>
             <p>Și-n sufletu-mi zăgazul putem să se rupă...</p>
             <p>Acuma, Doamne sfinte, acum, nu mar târziu!</p>
             <p>Ori nu mai păstra omul când i-ar răpit chemarea!</p>
-            <p>TEOCTIST:</p>
+            </sp>
+        <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>Frunzişul se clăteşte cu zgomot. E un semn, Ori un pribeag ce vine cu veşti către Domnie ?</p>
           </sp>
         </div>
@@ -214,22 +225,30 @@
             <speaker>OȘTAȘUL</speaker>
             <p>Aveţi pâine, călugări, pentru ostaşi bătuţi</p>
             <p>Pentru fugari pe cari moartea nu vrea să-i vadă?</p>
-            <p>TEOCTIST:</p>
+            </sp>
+          <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>Pâine cătăm, şi-n calea cea aspră am găsit Cenuşă risipită şi praf stropit cu sânge.</p>
-            <p>OȘTAȘUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OȘTAȘUL</speaker>
             <p>Din praf şi din cenuşă o pâine se dospește</p>
             <p>Cu lacrimile celor ce n-au nimic pe lume</p>
             <p>Dectât haina stropită cu sângele din răni,</p>
             <p>Şi s-o tăiați în două: pentru păgân o parte</p>
             <p>Şi alta pentru Domnul ce ne-a adus aici!</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <stage> (cu tristeţe) </stage>
             <p>Nu mai vorbiţi de Domnul care Domn nu mai este...</p>
             <p>Şi pâinea cea mai bună, amară i-i acum,</p>
             <p>Dar vouă să vă deie Domnul o pâine albă,</p>
             <p>Căci aţi făcut ce poate voinicul în război,</p>
             <p>Stând strajă lângă steagul moşiee lui străbune...</p>
-            <p>OȘTAȘUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OȘTAȘUL</speaker>
             <p>Da, au făcut aceia ce hrana nu-şi mai cer... Eram, în lupta care ni-a nimicit oştirea,</p>
             <p>Mii de boieri de viţă, şi tineri, şi bătrâni,</p>
             <p>Din cer care-au dat ţării şi cinstea şi puterea,</p>
@@ -241,9 +260,13 @@
             <p>şi TEOCTIST:</p>
             <p>Să-l miluiască Domnul pe cei care-au căzut</p>
             <p>Ca să rămâie ţara în legea ei cea veche!</p>
-            <p>OȘTAȘUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OȘTAȘUL</speaker>
             <p>Să-i miluiască Domnul din cer, că el celălalt...</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>Celălalt poartă în suflet durerea voastră 'ntreagă.</p>
           </sp>
           <sp who="#teoctist">
@@ -254,13 +277,19 @@
             <p>Şi peste ce meleaguri își rătăceşte pasul!... Avem doar datoria ca-n ceasul cel mai greu</p>
             <p>Ce l-a trăit Moldova, să nu uităm o clipă</p>
             <p>Că pe pământ e ȘTEFAN: şi-n cer un Dumnezeu!</p>
-            <p>OȘTAȘUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OȘTAȘUL</speaker>
             <p>Să ne-ndreptăm spre Cela din cer, -care nu fuge.</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <stage> (mişcat) </stage>
             <p>Şi vulturul când are un cuib de apărat,</p>
             <p>Își părăseşte lupta şi-n stâncă se ascunde.</p>
-            <p>OSTAŞUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OSTAŞUL</speaker>
             <p>Desigur! Dar aice e cuib 'nsângerat,</p>
             <p>Şi-n el zac toţi aceia care-au crezut în vultur,</p>
             <p>Şi el şi-a strâns aripa ca un cocoş bătut</p>
@@ -271,7 +300,9 @@
             <stage> (oprind pe ȘTEFAN:) </stage>
             <p>Oare-i acuma ceasul, zadarnic să cârtim,</p>
             <p>Ori să chemăm la luptă pe cei ce pot s-o poarte?</p>
-            <p>OȘTAȘUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OȘTAȘUL</speaker>
             <p>Să mai chemăm? Pe cine? Crezi tu c-a mai rămas.</p>
             <p>Un singur om în arme sub flamura Moldovei?</p>
             <p>Crezi că se află cine ar mai putea lupta?</p>
@@ -286,10 +317,14 @@
             <stage> (către ȘTEFAN:) </stage>
             <p>.</p>
             <p>Putem ierta, părinte, căci nu mai ştiu ce spun.</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>Ba ştiu, şi adevărul prin gura lor vorbeşte O, ce fără de seamăn de straşnic adevăr!</p>
             <p>Voinice, zi-i. E bine să auzim şi-acestea...</p>
-            <p>OȘTAȘUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OȘTAȘUL</speaker>
             <p>În sufletele-acelea acum e numai dor</p>
             <p>De linişte, de pace, cu mâinile legate,</p>
             <p>Şi vreau mai bine fierul din lanţuri decât cel Care s-a rupt în ziua când ne-a perit nădejdea.</p>
@@ -315,7 +350,9 @@
             <p>Albastrul cer de vară când noi pieream sub Cruce...</p>
             <p>Ce jertfă ne mal cereţi, fricoşi înşelători,</p>
             <p>Care nu ştiţi ce este să stai în faţa morţit?</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>Grozav şi mândru este în faţa ei să stai...</p>
             <p>Şi poate-o ştim, dar gura nu e la toţi deschisă,</p>
             <p>Ca furia mâniei să freamăte prin ea,</p>
@@ -325,7 +362,9 @@
             <p>Pe cel care o dată în viaţa lui căzu,</p>
             <p>Răpus de o putere mal mare decât dânsul,</p>
             <p>De ce n-ar duce, oare, mânia lui şi-n cer?</p>
-            <p>OSTAŞUL:</p>
+            </sp>
+          <sp who="#ostasul">
+            <speaker>OSTAŞUL</speaker>
             <stage> (furios) </stage>
             <p>O duc! Pe câmpul luptei rămasu-mi-a şi tată</p>
             <p>Şi fraţii toţi, şi-aceia ce mi-e mai mult ca el: Rămasu-mi-a credinţa în ţară şi-n Domnie,</p>
@@ -362,7 +401,6 @@
           <stage>ȘTEFAN, TEOCTIST, CRAINICUL</stage>
           <sp who="#stefan">
             <speaker>ȘTEFAN</speaker>
-            <p>:</p>
             <p>Auzi? Trâmbiţa sună. Și nu-i un vers păgân, Ci cîntecul acela ce-l ştiu din vremuri bune:</p>
             <p>El zice veselie, încredere, noroc;</p>
             <p>L-am auzit odată când mi-am primit Domnia. Cântec de veste bună, ce oaste ne aduce,</p>
@@ -378,7 +416,9 @@
             <p>Cum vezi, suntem călugări. De binecuvântări</p>
             <p>Dacă doriţi, să fie belşug asupra voastră!</p>
             <p>Și poate că vreunul din noi şi-ar sufleca Aceste mâneci negre şi ar porni cu oastea Cea nouă a lul Ștefan celui Biruitor...</p>
-            <p>CRAINICUL:</p>
+            </sp>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
             <p>Eu n-am chemarea luptei, şi sabia-mi nu taie...</p>
             <p>Ci am venit aice să spun că nu-i alt Domn</p>
             <p>În paşnica Moldovă, supusă 'mpărăţiei Turceşti...</p>
@@ -387,7 +427,9 @@
             <speaker>ȘTEFAN</speaker>
             <stage> (indignat) </stage>
             <p>Ce spui, nemernic fugar şi trădător?</p>
-            <p>CRAINICUL:</p>
+            </sp>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
             <p>Spun că prin voia Celui mal tare decât toate Moldova e supusă acelui ce-a învins</p>
             <p>Şi Chesarului lasă ce-a Chesarului este.</p>
             <p>Iar, dacă este vorba de Domn, Ştefan e mort...</p>
@@ -406,20 +448,30 @@
             <stage> (oprindu-l) </stage>
             <p>.</p>
             <p>De unde ştii, părinte, ce soartă l-a ajuns? Să ascultăm pe crainic, ce veste ne aduce. Solia ţi-o urmează: noi, frate, te-ascultăm!</p>
-            <p>CRAINICUL:</p>
+            </sp>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
             <p>Aduc o veste bună: avem Domn nou şi tânăr.</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>Domn noii asupra celui ce încă n-a murit?</p>
             <p>Un Domn nou al ruşinii în zi de umilinţă?</p>
             <p>Un Domn nou prin voinţa acelui ce-a robit</p>
             <p>Moldova liberată de Ștefan părăsitul ?</p>
-            <p>CRAINICUL:</p>
+            </sp>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
             <p>Un crainic nu se prinde-n gâlceavă, ci dă veştre.</p>
             <p>Şi vestea e: Domnia cea nouă a Moldovei.</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Și cine e acela ce s-a încumetat</p>
             <p>Să ia din mâna roşă a lui Mehmet păgânul Cununa lui domnească, ce nu este a lui?</p>
-            <p>CRAINICUL:</p>
+            </sp>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
             <p>E ALEXANDRU:-Vodă, fiu blând de crunt părinte.</p>
             <stage> (Se face o îndelungată tăcere.) </stage>
           </sp>
@@ -437,7 +489,9 @@
             <p>La biruinţa care mi-a fost dată din ceruri...</p>
             <p>Şi-acum sunt viu şi totuşi de blesteme ucis,</p>
             <p>Şi el Domn viu în Scaun, -	şi să-l îngrop în suflet!</p>
-            <p>TEOCTIST:</p>
+            </sp>
+        <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>Sunt grele ceasuri, Doamne, în viaţa celor mari,</p>
             <p>Dar ei sunt mari atuncea când pot senini să treacă</p>
             <p>Prin straşnica furtună de astfel de dureri.</p>
@@ -449,7 +503,9 @@
             <p>Vei spune: Tu ia, Doamne, doar ceea ce mi-ai dat! Tu ai o ţară care odihnă vrea şi pace,</p>
             <p>Şi ai un fiu în care nădejdile ţi-ar pus</p>
             <p>Şi care-şi cere locul, deşi cam prea devreme,-Şi nu-ţi vei lua Domnia călcând pe trupul lui.</p>
-            <p>ȘTEFAN::</p>
+            </sp>
+        <sp who="#stefan">
+            <speaker>ȘTEFAN:</speaker>
             <p>O, nu, întăia oară mă recunosc învins: Învins prin mila care o am de suferinţa A</p>
             <p>celora pe cari nu pot a-i apăra,</p>
             <p>Şi nici măcar prin moartea-mi nu-l pot ţinea în viaţă;</p>
@@ -511,7 +567,9 @@
             <p>Celor ce pentru lege şi ţară au căzut.</p>
             <p>...Şi totuşi era dulce viaţa împreună</p>
             <p>Şi scurt'a mar fost vremea în care ne-am ştiut...</p>
-            <p>COPILUL:</p>
+            </sp>
+          <sp who="#copilul">
+            <speaker>COPILUL</speaker>
             <p>Sub buruiana asta culcată stă oştirea?</p>
             <p>Și tata cum se rabdă aici acoperit</p>
             <p>Şi nu aruncă ţărna ce i-a căzut pe umăr?</p>
@@ -542,7 +600,9 @@
             <stage> (plânge.) </stage>
             <p>Şi să-l vedem alături cum va sui spre noi</p>
             <p>În ceaţa sângeroasă a unei biruinţe...</p>
-            <p>JUPÂNEASA CEA BĂTRÂNĂ:</p>
+            </sp>
+        <sp who="#jupaneasa_cea_batrana">
+            <speaker>JUPÂNEASA CEA BĂTRÂNĂ</speaker>
             <p>Te-ai dus tu înainte, bătrâne; ce drum greu</p>
             <p>Mi-a fost acela care m-a apropiat de- tine,</p>
             <p>Şi ce drum greu m-aşteaptă acuma înapoi! Era prea mare casa pentru noi doi cei singuri</p>
@@ -580,41 +640,67 @@
             <speaker>UN ȚĂRAN</speaker>
             <p>Pustiu e cimitirul de fete luminate! Ruşine! Ţară-i asta în care cei căzuţi</p>
             <p>Pentru a noastră cinste şi-a noastră apărare Să n-aibă pomenire decât de la săraci?</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Unde e Vodă, 'n fruntea jălaniei să steie?</p>
             <p>Ori şi-a uitat de aceia ce zac aice jos,</p>
             <p>Ca să-i păstreze-o ţară şi-un Scaun de Domnie ?</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>În cântece de leagăn copilu-o fi dormind...</p>
-            <p>UN AL PATRULEA:</p>
+            </sp>
+          <sp who="#un_al_patrulea">
+            <speaker>UN AL PATRULEA</speaker>
             <p>Și are-n jur destule dădace ca să-i cânte!</p>
-            <p>UN AL CINCILEA:</p>
+            </sp>
+          <sp who="#un_al_cincilea">
+            <speaker>UN AL CINCILEA</speaker>
             <p>Și nu-s Vlădici pe urma lui Teoctist cel mort ?</p>
             <p>Și ce face acela ce astăzi ţine cârja?</p>
-            <p>UN AL ŞASELEA:</p>
+            </sp>
+          <sp who="#un_al_saselea">
+            <speaker>UN AL ŞASELEA</speaker>
             <p>Ce face? La Suceava sunt pivniţe de-ajuns,</p>
             <p>Și Domnii noştri, Turcii, nu beau vin după lege Decât doar din potire de aur şi argint!</p>
             <stage> (râsete.) </stage>
-            <p>UN GLAS DIN BISERICĂ:</p>
+            </sp>
+          <sp who="#un_glas_din_biserica">
+            <speaker>UN GLAS DIN BISERICĂ</speaker>
             <p>În lături... Iese popa cu slujba la morminte.</p>
             <p>Să ascultăm sfinţita rugă pentru cel morţi!</p>
             <stage> (Preotul, cu un singur dascăl după dânsul; mulţime de săteni) </stage>
             <p>Să pomenim pe Domnul nostru, pe ALEXANDRU::</p>
             <stage> (GLASURI DE MULŢIME:) </stage>
             <p>Şi să-l trezească Domnul din aţipirea lul!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Şi să-şi aduc'aminte că ţara e creştină!</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Că Turcii lui nu-s singuri...</p>
-            <p>UN AL PATRULEA:</p>
+            </sp>
+          <sp who="#un_al_patrulea">
+            <speaker>UN AL PATRULEA</speaker>
             <p>Că mai suntem şi noi, Şi n-am vândut moşia asta pe banii Turcimii...</p>
-            <p>UN AL CINCILEA:</p>
+            </sp>
+          <sp who="#un_al_cincilea">
+            <speaker>UN AL CINCILEA</speaker>
             <p>Şi poate că aicea zace şi tatăl lui.</p>
-            <p>UN AL ŞASELEA:</p>
+            </sp>
+          <sp who="#un_al_saselea">
+            <speaker>UN AL ŞASELEA</speaker>
             <p>Care ştia să deie cinste oştirii sale.</p>
-            <p>TOŢI ÎNTR-UN GLAS:</p>
+            </sp>
+          <sp who="#toti_intrun_glas">
+            <speaker>TOŢI ÎNTR-UN GLAS</speaker>
             <p>Ștefan cel Bun şi Mare, Viteaz şi Sfânt.</p>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>O, vin'</p>
             <p>Ca să ne mântu-i țara, tu, Duh senin şi straşnic! Suntem orfani de tine şi nu putem trăi!</p>
             <stage> (O lungă tăcere. Din codru se desfac, ca doi călugări, Ștefan şi Teoctist, şi se alipesc la mulţime.) </stage>
@@ -624,25 +710,39 @@
             <stage> (urmeaz:) </stage>
             <p>Să pomenim pe Domnul domn Gheorghie Vlădica.</p>
             <stage> (Nouă mişcare.) </stage>
-            <p>UN GLAS:</p>
+            </sp>
+        <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Să-l pomenim, şi poate şi-a aminti de noi!</p>
-            <p>ALT GLAS:</p>
+            </sp>
+        <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
             <p>Și de aceia care se odihnesc aice!</p>
-            <p>TEOCTIST:</p>
+            </sp>
+        <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>Sunteți creştini, ori poate v-aţi molipsit de Turci...</p>
             <p>Care-s stăpânii acestei sărmane ţări robite? Daţi glas acelui care chemat e a vorbi</p>
             <p>Și-a face rugăciunea aşa cum spune legea! Părinte, 'ndeplineşte aceea ce e scris.</p>
             <p>Mai sunt de-aceia care nu uită rânduiala.</p>
-            <p>UN GLAS:</p>
+            </sp>
+        <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Ce zice popa care din codru ne-a sosit ?</p>
-            <p>UN ALTUL:</p>
+            </sp>
+        <sp who="#un_altul">
+            <speaker>UN ALTUL</speaker>
             <p>Ce zice, zice bine. Să ascultăm, măi frate.</p>
-            <p>PREOTUL:</p>
+            </sp>
+        <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
             <p>...Să pomenim pe-aceia ce se luptă pe mări,</p>
             <p>Să pomenim pe fraţii ce şi-au pierdut viaţa</p>
             <p>De-aici, ca să câştige viaţa de apoi,</p>
             <p>Spre mântuirea legii li-i paza ţării noastre.</p>
-            <p>TOATE GLASURILE:</p>
+            </sp>
+        <sp who="#toate_glasurile">
+            <speaker>TOATE GLASURILE</speaker>
             <p>Amin; să-i pomenească Domnul din cer pe toţi,</p>
             <p>Și să-şi coboare mila și peste noi, sărmanii.</p>
           </sp>
@@ -654,18 +754,28 @@
           <sp who="#ienicerul_intaiu">
             <speaker>IENICERUL ÎNTĂIU</speaker>
             <p>Am nimerit la masă...</p>
-            <p>IENICERUL AL DOILEA:</p>
+            </sp>
+          <sp who="#ienicerul_al_doilea">
+            <speaker>IENICERUL AL DOILEA</speaker>
             <p>Colaci, colivă, vin...</p>
-            <p>IENICERUL AL TREILEA:</p>
+            </sp>
+          <sp who="#ienicerul_al_treilea">
+            <speaker>IENICERUL AL TREILEA</speaker>
             <stage> (spre jupâneasa cea tânără.) </stage>
             <p>Și florile pe masă, şi-o floare pe morminte...</p>
-            <p>JUPÂNEASA:</p>
+            </sp>
+          <sp who="#jupaneasa">
+            <speaker>JUPÂNEASA</speaker>
             <p>Nu te-apropia! În cale-ţi nu vezi nimic? Eu văd</p>
             <p>O luminoasă umbră ce stă să te străpungă...</p>
-            <p>IENICERUL:</p>
+            </sp>
+          <sp who="#ienicerul">
+            <speaker>IENICERUL</speaker>
             <p>De suliţi nevăzute doar frică nu mi-o fi,</p>
             <p>Când celelalte suliți le rup cum rupi o vargă...</p>
-            <p>JUPÂNEASA:</p>
+            </sp>
+          <sp who="#jupaneasa">
+            <speaker>JUPÂNEASA</speaker>
             <p>Şi, dacă-i o dreptate pe lume, va cădea Asupra ta pedeapsa pentru această faptă.</p>
             <stage> (către mormânt) </stage>
             <p>Tu, care de atâtea zile îmi dormi aici</p>
@@ -676,16 +786,22 @@
             <stage> (În ascunzişul său, Ștefan, prinzând un arc, săgetează. Ienicerul cade. Zvon în mulţime.) </stage>
             <p>S-a săvârşit minunea. O, Doamne-ți  mulţumesc</p>
             <p>Că ai în seamă ţara aceasta părăsită.</p>
-            <p>CEILALŢI DOI IENICERI:</p>
+            </sp>
+          <sp who="#ceilalti_doi_ieniceri">
+            <speaker>CEILALŢI DOI IENICERI</speaker>
             <p>Nu e minune. Cerul închis e pentru vor,</p>
             <p>Câini fără de credinţă şi fără de putere!</p>
             <p>Un ucigaş aici se află: să ni-l daţi!</p>
             <p>Aşa vă porunceşte şi legea ţării voastre...</p>
-            <p>CELĂLALT IENICER:</p>
+            </sp>
+          <sp who="#celalalt_ienicer">
+            <speaker>CELĂLALT IENICER</speaker>
             <p>Să cercetăm pădurea. Acolo e ascuns.</p>
             <p>De nu-l găsim, atuncea plăti-veţi toţi cu pielea!</p>
             <stage> (Se îndreaptă spre pădure. Frunzele se dau în lături. Apar cel doi călugări.) </stage>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Călugăril? Aceia să ne fi mântuit?</p>
           </sp>
           <sp who="#stefan">
@@ -702,19 +818,31 @@
             <speaker>UN IENICER</speaker>
             <stage> (tulburat) </stage>
             <p>E vrăjitor. Cu dânsul puterea nu mi-o pun.</p>
-            <p>CELĂLALT:</p>
+            </sp>
+          <sp who="#celalalt">
+            <speaker>CELĂLALT</speaker>
             <p>Ba e nebun, şi omul bătut de nebunie</p>
             <p>Cu cerurile are ascunse legături.</p>
             <p>Să mergem...</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Să nu mergeţi!</p>
-            <p>IENICERII:</p>
+            </sp>
+          <sp who="#ienicerii">
+            <speaker>IENICERII</speaker>
             <p>Cum cutezaţi să râdeţi voi de iertarea nostră?</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Fiind ei vinovaţii, să-i pedepsim aici!</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Să mângâiem pe-aceia ce dorm, cu al lor sânge!</p>
-            <p>UN AL PATRULEA:</p>
+            </sp>
+          <sp who="#un_al_patrulea">
+            <speaker>UN AL PATRULEA</speaker>
             <p>Săriţi!... Se duce fiara, şi vie n-o lăsăm... Tăieţi-i calea... Moartea să nu-i vie de-aiurea!</p>
           </sp>
           <sp who="#jupaneasa">
@@ -736,15 +864,25 @@
             <p>Şi să ştii că Acela ce ochiul nu-şi închide</p>
             <p>Loveşte şi cu mâna unui popă pribeag.</p>
             <stage> (Mulţimea încunjoară pe călugări.) </stage>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>De unde eştIi părinte? Postrigul ţi-i departe?</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Cine vă este stareţ? Ce vânt te-aduce-aici?</p>
-            <p>AL TREILEA:</p>
+            </sp>
+          <sp who="#al_treilea">
+            <speaker>AL TREILEA</speaker>
             <p>V-au scos din mânăstire sălbaticii și cruzii?</p>
-            <p>AL PATRULEA:</p>
+            </sp>
+          <sp who="#al_patrulea">
+            <speaker>AL PATRULEA</speaker>
             <p>Au prihănit şi-acolo morminte şi altar?</p>
-            <p>AL CINCILEA:</p>
+            </sp>
+          <sp who="#al_cincilea">
+            <speaker>AL CINCILEA</speaker>
             <p>Şi-acolo-s sate arse, ca-n tot cuprinsul ţării?</p>
           </sp>
           <sp who="#stefan">
@@ -766,9 +904,13 @@
             <p>Nu-s vinovaţi aceia ce spârcuie aşa</p>
             <p>O turmă părăsită de cei chemaţi s-o pască. Pe drum de siguranţă, şi nu la codru-adânc.</p>
             <p>Ci ei, păstorii, poartă. răspunderea întreagă...</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>E Vodă ce nu ştie purta grijă de noi...</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Să mergem la Suceava să-i isprăvim veleatul!</p>
           </sp>
           <sp who="#stefan">
@@ -781,9 +923,13 @@
             <p>Ce ştie el de rostul Domniei, de război, De încălcarea ţării, de suferinţa care</p>
             <p>Își află glas în orice cuvinte am rosti, Ce ştie el, săracul, în temniţa-i măreaţă?</p>
             <p>Și mai ales ce ştie când încă n-aţi vorbit Acolo lângă dânsul, încât să vă audă?</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Să ne pornim! S-audă! Să ştie ce voim! Amestecul mulţimii e şi-n datina ţării.</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Acolo mar sunt alţii, ce-au auzit de mult</p>
             <p>Dar nu pot să cuprindă în ţeasta lor cea strâmtă</p>
             <p>Ce poate fi o pace fără de înjosiri,</p>
@@ -813,15 +959,23 @@
             <p>Să nu mai fie unul spre a se 'mpotrivi</p>
             <p>Neomeniei care bărbaţii îi ucide, Femeile le-aruncă desfrâului în pat,</p>
             <p>Şi mână cătră ţărmuri păgâne copilașii?</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <stage> (furioasă) </stage>
             <p>Nu aşteptăm!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Cu toţii să mergem la judeţ!</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Şi să scăpăm pe Vodă cel tânăr de netrebnici!</p>
             <stage> (Pornesc.) </stage>
-            <p>TEOCTIST:</p>
+            </sp>
+          <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>Acela ce porneşte corabia pe mări</p>
             <p>În ceasul când se luptă cu apele furtuna, Dator e să o ducă el însuşi la liman:</p>
             <p>Eu pot să stau aice spre-a vă ruga izbândă,</p>
@@ -842,15 +996,23 @@
             <p>Văzut-aţi ce putere din cer s-a dăruit Tovarăşului nostru, acestui frate care</p>
             <p>Veni ca un călugăr şi se făcu voinic, Răsplătitor al sorţii care ne prigoneşte? Voi vă porniţi acuma, şi el rămâne-aici</p>
             <p>Pare că nu-l priveşte ce stă să se întâmplă...</p>
-            <p>UN GLAS DIN MULŢIME:</p>
+            </sp>
+          <sp who="#un_glas_din_multime">
+            <speaker>UN GLAS DIN MULŢIME</speaker>
             <stage> (înteţit) </stage>
             <p>Cu noi să vie!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Nu-l vom lăsa să fugă! Nu! Unde-am găsi pe altul atâta de- destoinic?</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Cu dânsul ducem însăşi voia lul Dumnezeu.</p>
             <p>Și biruinţa este o siguranţă astfel!</p>
-            <p>UN AL PATRULEA:</p>
+            </sp>
+          <sp who="#un_al_patrulea">
+            <speaker>UN AL PATRULEA</speaker>
             <p>Nu rămânea în cale, o, tu ce faci minuni!</p>
             <p>Nu ne lăsa pieirii când credem toţi în tine!</p>
           </sp>
@@ -859,10 +1021,14 @@
             <stage> (hotărât) </stage>
             <p>Ne pierdem dacă gându-ţi cuminte n-om avea, Gândeşte-te că Domnul a vrut să stai în frunte  Vei mântui Moldova, şi-apor tu vei găsi,</p>
             <p>Părinte, iar chilia odihnei care-o cauţi!</p>
-            <p>TEOCTIST:</p>
+            </sp>
+        <sp who="#teoctist">
+            <speaker>TEOCTIST</speaker>
             <p>S-a hotărît a merge, şi, deci, va birui... Strigaţi: noroc în lupta lui Sava Căpitanul,</p>
             <p>Care, ca Sfântul Sava, ostaş şi mucenic, Porneşte pentru Domnul acum o luptă dreaptă!</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+        <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Sava... Călugăr... Lupta pentru Moldova mea,</p>
             <p>Să dezrobim pe Domnul ce zace prins în Scaun,</p>
             <p>Şi să-i gătim Domnie cum a mai fost pe-aici!</p>
@@ -885,7 +1051,9 @@
             <p>.</p>
             <p>Acela-i bun, Sandrine!... Ba nu, Măria Ta!</p>
             <p>Aşa de multe lucruri s-au petrecut în ţară...</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>,,Măria Ta” mar las-o, măi Dragnea, mi-i destul:</p>
             <p>Parcă-mi apasă mintea aceste titluri goale...</p>
             <p>Nu mă cunosc pe mine, de mare ce-am ajuns,</p>
@@ -901,11 +1069,15 @@
             <p>Stejarul nu măsoară doar umbra ce-a lăsat, Ci drumul care duce la cerurile 'nalte.</p>
             <p>Și-am cunoscut eu tineri ce-au fost mult mal bătrâni. Decât, Sandrine tată, Măria Ta cea nouă,</p>
             <p>Care păşeşte astăzi în haine de monah.</p>
-            <p>DRAGNEA:</p>
+            </sp>
+          <sp who="#dragnea">
+            <speaker>DRAGNEA</speaker>
             <p>Ce vârstă ai tu însuţi, mărite Michiduţă., Care învârți Domnia-în degetul Mi mic</p>
             <p>Și ţi se pare încă prea slabă jucărie,</p>
             <p>Pentru toată puterea ce-o simţi în pieptul tău?</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Ce vârstă m eu, dragă purice de leu tânăr,</p>
             <p>Ce sare-a biruinţă, hrănit şi ţinuti cald</p>
             <p>În blana-mpărătească a puiulul de fiară?</p>
@@ -929,10 +1101,14 @@
             <speaker>MĂSCĂRICIUL</speaker>
             <stage> (viclean) </stage>
             <p>Ce e, copile dragă, de ai căzut din scaun? Parc' a trăsnit din ceruri, aşa te-ai spăimântat Când ai rostit în casa lui Mohammed Sultanul...</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>Ce Mohammed, tu, zdreanţă!</p>
             <stage> (îl scutură.) </stage>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Stai, nu mă scutura, Căci sunt prea slab, o, Doamne, pentr-o astfel de mână</p>
             <p>Şi, dacă-ţi este poftă să scuturi, mai sunt Turci</p>
             <p>Pentru ca să-ţi dea lucru din zori şi până-n seară,</p>
@@ -943,7 +1119,9 @@
             <p>O, nu vă temeţi, dragii bătrânului, e mort,</p>
             <p>E mort ca şi mândria acestei ţări supuse,</p>
             <p>E mort ca viitorul ce-aştepţi Măria Ta!</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <stage> (curios) </stage>
             <p>Eşti vrăjitor, pe toate le afli de'nainte... Cum ştii cele trecute, vezi tu şi-n viitor?</p>
           </sp>
@@ -955,17 +1133,23 @@
             <p>Şi ţi-au deschis cărarea stăpânii tăi şi-ai mei,</p>
             <p>Cu sabia 'nroşită de sânge-n Valea-Albă.</p>
             <stage> (ALEXANDRU: face o mişcare.) </stage>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+        <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Nu te mişca, o, Doamne, asupră-mi mânios:</p>
             <p>Aşa vorbesc nebunii, când e tăcută mintea, Şi-i auzi atâtea ca astea mai târziu,</p>
             <p>Că e păcat mânia să-ţi întrerupă jocul... Copii, a voastră-i lumea. Jucaţi-vă voioşi:</p>
             <p>Moldova este încă pe seama altor oameni</p>
             <p>Pui la-ncercare arcul? E mare, şi cam greu...</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <stage> (peipit) </stage>
             <p>.</p>
             <p>Ba nu! Aduceţi iute săgeata...</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+        <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Stai, drăguţă,</p>
             <p>Am aruncat o vorbă, ci nu mă pedepsi.</p>
             <p>Ce-s vinovat eu oare că nu eşti cum vrea ţara ?</p>
@@ -983,14 +1167,20 @@
           <sp who="#mascariciul">
             <speaker>MĂSCĂRICIUL</speaker>
             <p>Iaca şi soacra noastră. E vremea de plecare, Căci predica de care nu râd, eu n-o ascult.</p>
-            <p>MARIA:</p>
+            </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
             <p>E bucurie-aice, Măria Ta ?</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <stage> (batjocoritor) </stage>
             <p>.</p>
             <p>Atâta</p>
             <p>Cât poate-avea copilul care-a rămas orfan Şi de la care ţara aşteaptă un părinte!</p>
-            <p>MARIA:</p>
+            </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
             <p>Părinte, tu? Şi Ștefan-cel-Mare ce a fost?</p>
           </sp>
           <sp who="#alexandru">
@@ -998,7 +1188,9 @@
             <stage> (trist) </stage>
             <p>.</p>
             <p>Cât a trăit, el mie mi-a fost tată şi mamă, Şi-acum când nu trăieşte osândă mi-a ajuns.</p>
-            <p>MARIA:</p>
+            </sp>
+          <sp who="#maria">
+            <speaker>MARIA</speaker>
             <p>O, este grea Domnia când însuţi tu n-ai luat-o! Dar sufletul de tânăr se minte-așa de-uşor,</p>
             <p>Când viaţa năvăleşte 1a el cu flori în mână, Tovarăş ai pe Negrea, un mare filosof</p>
             <p>Şi pe voinicul care acu-şi luă tălpăşiţa.</p>
@@ -1017,7 +1209,9 @@
             <p>Am înţeles atuncea că, unde-a sta un om</p>
             <p>Ca acel sfânt părinte ce mi-a fost Domn și tată, Puterea lui rămâne şi că trăiește-n noi,</p>
             <p>De ne mirăm de fapta pe care-am săvârșiit-o.</p>
-            <p>MARIA:</p>
+            </sp>
+        <sp who="#maria">
+            <speaker>MARIA</speaker>
             <p>Puterea unui Ștefan în acești copilaiși?</p>
             <stage> (râde.) </stage>
             <p>Te culcă, mamă dragă, și să visezi pe urmă</p>
@@ -1077,14 +1271,20 @@
             <stage> (şiret) </stage>
             <p>.</p>
             <p>Ca să răpuie zimbru ce au rămas în codri...</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Vânaturi felurite ascunse-s în păduri.</p>
             <p>Măscăriciul: ascuțit).</p>
             <p>Dar vulpile şi lupii îşi au sălaş la Curte.</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Nebunul! S-a dus vremea când Vodă te ţinea</p>
             <p>In urşinic de aur şi cu păhare pline.</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Și capetele voastre pe gâturi tremurau</p>
             <p>La fiece mişcare a sabiei stăpâne.</p>
           </sp>
@@ -1116,7 +1316,9 @@
             <p>O nuntă? Care nuntă? Cu cine? Ai ales</p>
             <p>Tu însuţi? Şi am voie să-ntreb doar cum se cheamă</p>
             <p>Mireasa pentru Vodă, al vostru rob? Da, rob!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Măria Ta, stăpân eşti, dar şti s-asculţi povaţa.</p>
             <p>Şi fata mea podoabă ar fi şi 'ntre 'mpăraţi.</p>
           </sp>
@@ -1131,7 +1333,9 @@
             <stage> (revoltat) </stage>
             <p>.</p>
             <p>Ce zice pocitura, piticul veninos?</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Spune şi el ce ştie dintr-un basm vechi, stăpâne!</p>
           </sp>
           <sp who="#negrea">
@@ -1169,7 +1373,9 @@
             <stage> (Arcul cade;- el se dă în lături.) </stage>
             <p>Sfinte Iisuse! Arcul pare c-ar fi voit</p>
             <p>În mine să răpeadă săgeata ucigaşă...</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>...În lipsă de o ţintă ce l-ar putea cinsti.</p>
           </sp>
           <sp who="#negrea">
@@ -1180,7 +1386,9 @@
             <stage> (către Domn.) </stage>
             <p>Dar nunta ca s-o facem, se cade să-mplinim Întăi o datorie pe care-am zăbovit-o</p>
             <p>Prea mult...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Vreo umilinţă?</p>
           </sp>
           <sp who="#negrea">
@@ -1188,9 +1396,13 @@
             <stage> (cu falsă evlavie) </stage>
             <p>Cei ce s-or umili,</p>
             <p>Spune Scriptura Sfântă, vor fi mai mândri-n ceruri.</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Unde vei sta, jupâne, drept lângă Dumnezeii...</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Paza trimisă astăzi să mă întrebe: oare Te-'ai hotărât ca, până Vlădica te-a sfinţi,</p>
             <p>Cu mirul ce din Saul făcu Craiu în Iudeia, Să te arăţi în lagăr?</p>
           </sp>
@@ -1205,12 +1417,18 @@
             <stage> (liniştit) </stage>
             <p>Da, tu!</p>
             <p>Aşa e rânduiala în toată 'mpărăţia.</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>Împărăţia? Care ?</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Din cer, Măria Ta,</p>
             <p>Aceea pentru care s-a pregătit jupânul.</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Împărăţia-i una, şi îi suntem supuşi.</p>
           </sp>
           <sp who="#alexandru">
@@ -1220,12 +1438,16 @@
             <p>Şi după ce puterea ai căpătat-o tu,</p>
             <p>Ca să înalţi Moldova pe-o treaptă mai înaltă. Şi Paşa vrea... Ci spune ce vrea cu noi!</p>
             <p>Nu spui? Atâta greutate simţi să ne dai o veste?</p>
-            <p>NEGREA:</p>
+            </sp>
+        <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Vizirul nostru cere numai atât: Să vii</p>
             <p>În tabără şi-acolo să iei caftan pe umeri,</p>
             <p>Şi să primeştr cu steagul şi tuiurile trei,</p>
             <p>Semnul puterii care ţi-o dete Împăratul, Domnia cea deplină, la care ești ales Prin voia boierimii de pace iubitoare.</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>O, vin', n'aibi nicio grijă. N-o să lipsesc. Dar zi: După cuvinţa care o cere 'mpărăţia,</p>
             <p>Se îngenunche oare acolo ? Îngenuchiu! Şi se sărută poala stăpânulul? Sunt gata! Cumplit a fost acela pe care 1-aţi răpus,</p>
             <p>Şi eu vă vin acuma, bun, blând, copil de şagă...</p>
@@ -1244,9 +1466,13 @@
           <sp who="#mascariciuul">
             <speaker>MĂSCĂRICIUUL</speaker>
             <p>Acel ce-şi cere arcul a şi sosit.</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Îș țtii/</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Să astupăm urechea Iul Negrea, deocamdată!</p>
             <stage> (închide şi astupă uşile, apoi scoate o scrisoare din tureatca cizmei.) </stage>
             <p>Că el prea le știe toate de când ne e stăpân...</p>
@@ -1257,7 +1483,9 @@
             <stage> (nerăbdător) </stage>
             <p>.</p>
             <p>Solie scrisă? Care-i acela ce a scris?</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Scrisoarea se primeşte, dar nu se împrumută, Dar, de voieşti ca rostu-i s-auzi, i-l auzi: Cuvântul lui se-ndreaptă chiar şi către Domnie.</p>
           </sp>
           <sp who="#alexandru">
@@ -1266,7 +1494,9 @@
             <p>.</p>
             <p>Scrisoare către mine? Cel care avea drept</p>
             <p>Să-ml poruncească mie, stă între sfinţi acuma. Când eu doresc de sfatul lui cel bun, în zadar...</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Dar între draci şi puii de draci stă acel care</p>
             <p>Nu poruncește, însă te mână după plac,</p>
             <p>Fără de supărare, Măria Ta, copile –</p>
@@ -1274,12 +1504,16 @@
             <p>Îi vin porunci din ceruri, și Domnul își alege</p>
             <p>Ca purtător de vorbă chiar și pe-un biet sărman,</p>
             <p>Pe un călugăr care nu-și ştie mănăstirea...</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>Călugăr? Ce călugăr?</p>
             <stage> (aprins) </stage>
             <p>.</p>
             <p>Nebune, ce vorbeşti?</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Vorbesc ce nu cutează cuminţii ce te poartă.</p>
             <p>Şi nu vorbesc eu însumi -	ţi-am spus, -	şi nici acel</p>
             <p>Care se pregăteşte de săgetat duşmanii</p>
@@ -1314,7 +1548,9 @@
             <p>Boieri, unde vi-i fala din neam în neam păstrată? Preoţi, credinţa noastră în cinste-a mar rămas?</p>
             <p>Ţărani, mai este milă de sărăcia voastră?</p>
             <p>Și tu însuţi ce-n Scaun stai şi nu poţi domni...”</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>E drept. Mai zi o dată: ,,Stai şi nu poţi domni...”</p>
           </sp>
           <sp who="#mascariciul">
@@ -1367,10 +1603,14 @@
             <stage> (ruşinat.) </stage>
             <p>El îmi va da puterea care mi s-a furat,</p>
             <p>Şi ne-om întoarce iarăşi la datina lui Ştefan!</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <stage> (urmează ca şi cum n-ar fi auzit.) </stage>
             <p>,,De-aceia prin voinţa-i cerească, a pornit    Îndemnul de la mine, călugărul...”</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>A, dânsul! Călugărul, cu vraja cea bună,, spre-a sfărma. Vraja cea rea ce-apasă, asupra tuturora...</p>
           </sp>
           <sp who="#mascariciul">
@@ -1428,19 +1668,27 @@
             <speaker>MĂSCĂRICIUL</speaker>
             <stage> (răspicat) </stage>
             <p>Te-nchini la Turci, în lagăr, săruţi veşmântul Paşei.</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Mai bucuros veşmântul pieirii îl sărut!</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Noi spunem ce se poate, şi nu ce-ţi e dorinţa... Săruţi veştmântul Paşei, şi-ngenunchezi. Atunci Va sta, gata de nuntă, şi Negrea lângă tine.</p>
           </sp>
           <sp who="#alexandru">
             <speaker>ALEXANDRU</speaker>
             <stage> (prevestind) </stage>
             <p>Şi Negrea, dar şi ceasul...</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Şi ceasu-i fericit, Va fi mire el, Negrea, şi-a lui mireasă, moartea.</p>
             <stage> (Alexandru sărută pe Măscărici.) </stage>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>L-a săruta cum însuți acuma mă săruți</p>
             <p>Cu sărutarea care este făgăduinţă	'</p>
             <p>Şi jurământ. Şi-acolo vor fi ostaşi destui.</p>
@@ -1463,7 +1711,9 @@
             <stage> (face cruce) </stage>
             <p>.</p>
             <p>Şi-atunci...</p>
-            <p>MĂSCĂRICIUL:</p>
+            </sp>
+          <sp who="#mascariciul">
+            <speaker>MĂSCĂRICIUL</speaker>
             <p>Cine întreabă ce poate fi atunci?</p>
             <p>Eu simt că în acela sunt sute de arhangheli Şi nu știu nici eu singur de ce îl simt așa, - Şi Dumnezeu atuncea-și va împlini judeţul.</p>
           </sp>
@@ -1485,12 +1735,18 @@
             <speaker>O FEMEIE</speaker>
             <p>Veni şi bucuria cea mare pentru curte... Ce zi frumoasă! Domnul a binecuvântat</p>
             <p>Această legătură a stăpânului nostru...</p>
-            <p>ALTA:</p>
+            </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
             <p>Văzutu-l-ai? Aseară mergea pentru peţit : Frumos copil! Ca Ștefan de zdravăn, şi vioi!</p>
-            <p>O A TREIA:</p>
+            </sp>
+          <sp who="#o_a_treia">
+            <speaker>O A TREIA</speaker>
             <p>La el mai mult îmi place privirea; când se uită,</p>
             <p>Ai crede că-ţi pătrunde în suflet, însă simţi Că ochiu-i vedenii ciudate urmăreşte...</p>
-            <p>CEA D-INTÂI:</p>
+            </sp>
+          <sp who="#cea_dintai">
+            <speaker>CEA D-INTÂI</speaker>
             <p>De-aceea-i trist... Amurgul în nour roşu murea,</p>
             <p>Un vânt ca o părere de rău trecea prin floarea</p>
             <p>Cireşilor ce albul covor îşi așterneau</p>
@@ -1498,20 +1754,32 @@
             <p>Și în văzduh mireasma ușoară rătăcea,</p>
             <p>Ca dulcea răsuflare a cerurilor sfinte,</p>
             <p>De ne simţeam în altă lume ușor plutind...</p>
-            <p>CEA DE-A DOUA:</p>
+            </sp>
+          <sp who="#cea_dea_doua">
+            <speaker>CEA DE-A DOUA</speaker>
             <p>Aceasta se întâmplă la fetele bătrâne...</p>
-            <p>CEA DE-A TREIA:</p>
+            </sp>
+          <sp who="#cea_dea_treia">
+            <speaker>CEA DE-A TREIA</speaker>
             <p>Ba chiar și la  acelea ce-și au bătrâni bărbaţi...</p>
-            <p>CEA D-INTÂI:</p>
+            </sp>
+          <sp who="#cea_dintai">
+            <speaker>CEA D-INTÂI</speaker>
             <p>Cine-a vorbit, primească-i-l răspunsul de la dânsa!...</p>
             <p>Tinere şi bătrâne, ni-l sufletul același,</p>
             <p>Și, peste tot ce este, mai urmăreşte-un dor...</p>
             <p>Dar să venim la Vodă, la mirele de astăzi.</p>
-            <p>CEA DE-A DOUA:</p>
+            </sp>
+          <sp who="#cea_dea_doua">
+            <speaker>CEA DE-A DOUA</speaker>
             <p>-Pe care cine n-are un mire, l-ar iubi.</p>
-            <p>CEA DE-A TREIA:</p>
+            </sp>
+          <sp who="#cea_dea_treia">
+            <speaker>CEA DE-A TREIA</speaker>
             <p>O, l-ar iubi și-aceea ce-ar fi să se mărite!</p>
-            <p>CEA D-INTÂI:</p>
+            </sp>
+          <sp who="#cea_dintai">
+            <speaker>CEA D-INTÂI</speaker>
             <p>Şi cine nu-l iubeşte? Tânăr, frumos, orfan?</p>
             <p>Păcat că nu-i să-i vadă nici mama şi nici tatăl!</p>
             <p>Mergea Vodă ca-n basme un fiu de Împărat,</p>
@@ -1520,20 +1788,30 @@
             <p>N-avea ochi pentru floarea ce se-așternea în cale-i,</p>
             <p>Şi nici pentru mănunchiul ce 'ngenunchind i-am dat...</p>
             <p>Şi l-am cules pe urmă sfărmat şi plin de ţernă: Privea ţintă spre Marea de sânge din apus...</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <stage> (se desface dintr-o ceată care stă de priveşte) </stage>
             <p>.</p>
             <p>Să mă iertaţi că vorba cutez să mi-o amestec, Voi, fete din Suceava cu viu şi vesel rost...</p>
-            <p>FEMEILE:</p>
+            </sp>
+          <sp who="#femeile">
+            <speaker>FEMEILE</speaker>
             <p>I-auzi cum ştie badea bineţile s-aducă...</p>
-            <p>ŢĂRANUL:</p>
+            </sp>
+          <sp who="#taranul">
+            <speaker>ŢĂRANUL</speaker>
             <p>Ştiam, acuma altul mi-e gândul... Privea, zici, Către apusul care se isprăvea în sânge,</p>
             <p>Şi vă miraţi că ochi-i cu jale căutau, Peste mulţimea care i se-nchina zadarnic,</p>
             <p>Către nemărginirea cea roşie? Era</p>
             <p>Ca seara cea din urmă a sfântulul său tată...</p>
-            <p>TOŢI ŢĂRANII:</p>
+            </sp>
+          <sp who="#toti_taranii">
+            <speaker>TOŢI ŢĂRANII</speaker>
             <p>Să-l pomenească Domnul pe cel mare şi bun!</p>
-            <p>UN ORĂȘEAN:</p>
+            </sp>
+          <sp who="#un_orasean">
+            <speaker>UN ORĂȘEAN</speaker>
             <p>Să-l pomenească, dragă: nu zic să fie altfel.</p>
             <p>În cer e milă multă... Dar ştiţi cât am plătit</p>
             <p>Noi strălucirea care l-a-ncununat pe dânsul?</p>
@@ -1541,7 +1819,9 @@
             <p>Şi marfa noastră merse la dânșii în dobândă</p>
             <p>Şi crezi că ne-a întors-o vreodată înapoi?...</p>
             <p>Iar el stătea-n cetate încunjurat de pradă...</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Vezi zidurile astea? Nu el le-a înălţat,</p>
             <p>Ci le-a primit de-a gata, ca scumpă moştenire,</p>
             <p>De la acela care: cel Bun a fost numit.</p>
@@ -1549,21 +1829,31 @@
             <p>Prin flacările care oraşu-a mistuit.</p>
             <p>Le vezi, iată ce lasă Sucevei: zidurl rupte,</p>
             <p>Cenuşa ce odată averea noastr' a fost!</p>
-            <p>ŢĂRANUL:</p>
+            </sp>
+          <sp who="#taranul">
+            <speaker>ŢĂRANUL</speaker>
             <p>Şi crezi că e mal bine de bietele colibe?...</p>
-            <p>ORĂŞENII:</p>
+            </sp>
+          <sp who="#orasenii">
+            <speaker>ORĂŞENII</speaker>
             <p>Atunci de ce spre dânsul mai suspinaţi aşa?</p>
             <p>Vreo binecuvântare s-a dus cu el în groapă?</p>
-            <p>ŢĂRANUL:</p>
+            </sp>
+          <sp who="#taranul">
+            <speaker>ŢĂRANUL</speaker>
             <p>Averea stă în casă, dar casa-i pe pământ,</p>
             <p>Şi pot să se topească averi şi case toate, Numai pământul nostru să nu rămâie rob,</p>
             <p>Și azi e rob prin fapta cui se rosteşte astfel!</p>
-            <p>ALT ŢĂRAN:</p>
+            </sp>
+          <sp who="#alt_taran">
+            <speaker>ALT ŢĂRAN</speaker>
             <p>Și noi nu vrem păgânii să ne mai scoată robi</p>
             <p>Şi să lăsăm robia ca moştenire-a noastră,</p>
             <p>Când ne-au păstrat bătrânii slobod acest pământ.</p>
             <p>Şi lanţul cel de aur mai greu e pe grumazul...</p>
-            <p>FEMEILE:</p>
+            </sp>
+          <sp who="#femeile">
+            <speaker>FEMEILE</speaker>
             <p>Ia auziţi gâlceava ce-ntr-înşii s-a stârnit În zi de sărbătoare ce cheamă bucurie Pe ţara unde flăcăil şi sabie-au trecut,</p>
             <p>Și-abia de scurtă vreme se-ntoarse veacul păcii... Lăsaţi, jupâni, necazul pe Ștefan; Dumnezeu</p>
             <p>L-o fi iertat în ceruri pentru averea arsă,</p>
@@ -1575,18 +1865,28 @@
             <speaker>A DOUA FEMEIE</speaker>
             <stage> (uitându-se în zare) </stage>
             <p>Cela din fund e Paşa: pe jeţul lui de aur Urât e, mamă dragă... Ce mai Arap pitic!</p>
-            <p>CEA DE-A TREIA:</p>
+            </sp>
+          <sp who="#cea_dea_treia">
+            <speaker>CEA DE-A TREIA</speaker>
             <p>Cum deapănă cu mâna uscată barba-i rară!</p>
-            <p>CEA DE-A PATRA:</p>
+            </sp>
+          <sp who="#cea_dea_patra">
+            <speaker>CEA DE-A PATRA</speaker>
             <p>Ce-or fi ostaşii care stau lângă el sleiţi</p>
             <p>Sub un tufiş de pene ce vântul le clăteşte?</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Sunt Ienicerii. Albe li-s penele aici,</p>
             <p>Noi le vedem pătate cu picături de sânge.</p>
-            <p>UN ORĂŞEAN:</p>
+            </sp>
+          <sp who="#un_orasean">
+            <speaker>UN ORĂŞEAN</speaker>
             <p>Dar ce frumoasă oaste! Ce sunt bieţii ţărani</p>
             <p>Ai noştri-n potrivire cu năzdrăvani ca dânşii!</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Adevărat, jupâne. Ia, nişte bieţi zdrenţoşi,</p>
             <p>Care culeg o pâine albă la masa voastră</p>
             <p>Și cară-n largul ţării ale voastre averi.</p>
@@ -1597,13 +1897,19 @@
             <p>Dar i-am văzut adesea, înveşmântaţi în zale, Fugind de ceata noastră, ăstor puţini şi goi,</p>
             <p>Și Împăratul însuşi a trebuit să cadă</p>
             <p>Cu toat' a lui putere, din tunuri fulgerând, Ca să respingă-n codru răniţii oştii noastre.</p>
-            <p>ÎNTÂIA FEMEIE:</p>
+            </sp>
+          <sp who="#intaia_femeie">
+            <speaker>ÎNTÂIA FEMEIE</speaker>
             <p>Nu prelungiţi o vorbă zadarnică; vă ştiu:</p>
             <p>Vă e mai mândră fapta decât veşmîntul vostru,</p>
             <p>Dar cele de odată cu bine s-au sfârşit...</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Ce zici, măi frate, bine-i aşa cum e la noi?</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>E bine: doarme pruncul ucis la sânul maicei,</p>
             <p>Și-n loc de grâu culegem cenuşă şi pământ!</p>
           </sp>
@@ -1611,29 +1917,47 @@
             <speaker>TOATE FEMEILE</speaker>
             <stage> (glumeţ) </stage>
             <p>Să-i biruim cu glasul pe aceşti mânioşi.</p>
-            <p>CEA D-INTÂI:</p>
+            </sp>
+          <sp who="#cea_dintai">
+            <speaker>CEA D-INTÂI</speaker>
             <p>Auzi, răsună cântec de trâmbiţi, arii aspre!</p>
             <stage> (Se aud trâmbiţele Turcilor.) </stage>
-            <p>CEA DE-A DOUA:</p>
+            </sp>
+          <sp who="#cea_dea_doua">
+            <speaker>CEA DE-A DOUA</speaker>
             <p>Că nu-i obişnuită nici bucuria lor!</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Dar clopote nu sună la o aşa zi mare ?</p>
-            <p>UN ALTUL:</p>
+            </sp>
+          <sp who="#un_altul">
+            <speaker>UN ALTUL</speaker>
             <p>Și preoţii, Vlădica, de slujbă nu-s gătiţi?</p>
-            <p>UN APROD:</p>
+            </sp>
+          <sp who="#un_aprod">
+            <speaker>UN APROD</speaker>
             <p>Când ai stăpân în casă, ascunzi tot ce nu-i place.</p>
             <p>Veni-va rândul nunţii; de-odată-i rânduit</p>
             <p>Să se îndeplinească de Vodă închinarea.</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>O închinare? Poate la vreun trup de sfânt Adus din alte locuri aici pentru-o minune?</p>
-            <p>APRODUL:</p>
+            </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
             <p>Ce sfânt! Îl vezi pe sfântul cel negru şi buzat, Tot îmbrăcat în aur ca moaştele-n biserici: Aceluia se cere azi să ne închinăm...</p>
-            <p>ŢĂRANUL:</p>
+            </sp>
+          <sp who="#taranul">
+            <speaker>ŢĂRANUL</speaker>
             <p>Întâi robia ţării, şi-apor nunta lui Vodă.... Avea dreptate-acela ce-aice ne-a chemat!</p>
             <stage> (mânios.) </stage>
             <p>Și unde e samsarul care-a vândut Moldova?</p>
             <p>Unde-i jupânul Negrea cu sufletul hain?</p>
-            <p>ALT ŢĂRAN:</p>
+            </sp>
+          <sp who="#alt_taran">
+            <speaker>ALT ŢĂRAN</speaker>
             <stage> (ferit) </stage>
             <p>Ce te amesteci, frate, în rostul Cârmuirii?</p>
           </sp>
@@ -1646,32 +1970,56 @@
             <p>Ci mal păzeşte-ţi gura când spui despre boieri,</p>
             <p>Că Dumnezeii lucrează prin fapta lor, fârtate...</p>
             <p>Ori nu-i aşa, jupâne aprod?</p>
-            <p>APRODUL:</p>
+            </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
             <p>O fi aşa, Dar nu mi-i iertat mie să hotărăsc acestea.</p>
             <stage> (Mişcare în mulţime; un pehlivan negru ajunge-ntr-o săritură între fermei, care se împrăştie speriate.) </stage>
-            <p>O FEMEIE:</p>
+            </sp>
+          <sp who="#o_femeie">
+            <speaker>O FEMEIE</speaker>
             <p>Ia uite dracul!</p>
-            <p>ALTĂ FEMEIE:</p>
+            </sp>
+          <sp who="#alta_femeie">
+            <speaker>ALTĂ FEMEIE</speaker>
             <p>Negru-i, Hristoase, şi urât!</p>
-            <p>UN ORĂŞEAN:</p>
+            </sp>
+          <sp who="#un_orasean">
+            <speaker>UN ORĂŞEAN</speaker>
             <p>Să vezi, poate că-i Paşa. A mal rămas în scaun?</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Nu-i el, dar nu ss poate să nu fie-nrudiţi.</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Şi, când i-o creşte barbă, ajunge şi om mare.</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Eu o să-mi fac o cruce, să văd dac-o peri. Asta e crucea, drace; nu-ţi tremură tot trupul?</p>
             <stage> (Face cruce. Pehlivanul se strâmbă la dânsul, apoi îi face şi el cruce, pe burtă.) </stage>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Batjocură de cele sfinte nu vom răbda!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Şi dăm şi-n Necuratul dacă ne spurcă. legea.</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Afară, spurcăciune!</p>
-            <p>UN AL PATRULEA:</p>
+            </sp>
+          <sp who="#un_al_patrulea">
+            <speaker>UN AL PATRULEA</speaker>
             <p>Te du în Iadul tău!</p>
             <stage> (Pehlivanul piere într-un salt. Ienicerii vin cu beţele și împrăştie mulţimea, pe când din fund vine alt sunet de trâmbiţă.) </stage>
-            <p>IENICERII:</p>
+            </sp>
+          <sp who="#ienicerii">
+            <speaker>IENICERII</speaker>
             <p>Tăceţi... Vodă soseşte...</p>
             <p>Lumea pe două lături... Femeile de-o parte...</p>
           </sp>
@@ -1685,12 +2033,18 @@
             <speaker>O BABĂ</speaker>
             <stage> (către Ienicer) </stage>
             <p>Să-ţi crape ochii din cap... Să n-ai Parte de ziua asta... Satana să-ţi ia seama... Să te mănânce viermii...</p>
-            <p>UN ORĂȘEAN:</p>
+            </sp>
+          <sp who="#un_orasean">
+            <speaker>UN ORĂȘEAN</speaker>
             <p>Dar ce-s eu om de rând De dar ca într-un câine...</p>
-            <p>UN ALTUL:</p>
+            </sp>
+          <sp who="#un_altul">
+            <speaker>UN ALTUL</speaker>
             <p>La staroste să mergem;</p>
             <p>M-a îmbrâncit nebunul...</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Nu da, că te-am mâncat Tu, pui păgân de lele, născut la o răscruce.</p>
             <p>Să dăm şi noi într-înşii</p>
           </sp>
@@ -1700,13 +2054,21 @@
             <p>Acuma nu vom da. Ci stăpâneşte-ţi, frate, pornirea şi-aibi răbdare!</p>
             <stage> (de aproape; cu jumătate de glas.) </stage>
             <p>Pe-al nostru-l vezi?</p>
-            <p>ŢĂRANUL:</p>
+            </sp>
+          <sp who="#taranul">
+            <speaker>ŢĂRANUL</speaker>
             <p>Pe cine?</p>
-            <p>BĂTRÂNUL:</p>
+            </sp>
+          <sp who="#batranul">
+            <speaker>BĂTRÂNUL</speaker>
             <p>Pe cine? Pe cel sfânt?</p>
-            <p>APRODUL:</p>
+            </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
             <p>Ce sfânt vedeți voi? Unde-i? Să-l văd și eu...</p>
-            <p>BĂTRÂNUL:</p>
+            </sp>
+          <sp who="#batranul">
+            <speaker>BĂTRÂNUL</speaker>
             <p>Nimica,</p>
             <p>Avem şi noi o vorbă.</p>
           </sp>
@@ -1716,27 +2078,43 @@
             <p>Vorbiţi, băieţi, vorbiţi:</p>
             <p>E voie în Moldova orice să se vorbească,</p>
             <p>Iar fapte fac aceia ce pot.</p>
-            <p>ŢĂRANUL:</p>
+            </sp>
+          <sp who="#taranul">
+            <speaker>ŢĂRANUL</speaker>
             <stage> (râzând) </stage>
             <p>.</p>
             <p>Priveşte sus!</p>
             <stage> (Îndată mai mulţi ţărani se adună şi privesc lung. Apare în fund călugărul cuprins într-un zăbranic negru.) </stage>
-            <p>FEMEILE:</p>
+            </sp>
+          <sp who="#femeile">
+            <speaker>FEMEILE</speaker>
             <p>Hal să privim!</p>
-            <p>ORĂŞENII:</p>
+            </sp>
+          <sp who="#orasenii">
+            <speaker>ORĂŞENII</speaker>
             <p>Ce lucru este acolo-n zare</p>
             <p>De caută atâţia ţărani nerăbdători?</p>
-            <p>BĂTRÂNUL:</p>
+            </sp>
+          <sp who="#batranul">
+            <speaker>BĂTRÂNUL</speaker>
             <p>Iată, sosesc spahii în tropot de năvală.</p>
             <stage> (arată în altă parte.) </stage>
-            <p>O FEMEIE:</p>
+            </sp>
+          <sp who="#o_femeie">
+            <speaker>O FEMEIE</speaker>
             <p>Valtrapuri lungi se lasă, până-n pământ...</p>
-            <p>ALTA:</p>
+            </sp>
+          <sp who="#alta">
+            <speaker>ALTA</speaker>
             <p>Lucesc</p>
             <p>Prinse la car în frunte stele de pietre scumpe.</p>
-            <p>A TREIA:</p>
+            </sp>
+          <sp who="#a_treia">
+            <speaker>A TREIA</speaker>
             <p>Vezi blănile bogate, vezi steagul lor cel roş...</p>
-            <p>UN ORĂŞEAN:</p>
+            </sp>
+          <sp who="#un_orasean">
+            <speaker>UN ORĂŞEAN</speaker>
             <p>Nu vând eu aşa blană nici cu trei mii de galbeni!...</p>
           </sp>
           <sp who="#aprodul">
@@ -1752,7 +2130,9 @@
           <sp who="#alexandru">
             <speaker>ALEXANDRU</speaker>
             <stage> (descalecă. E îngrijorat, caută cu ochii. Lângă dânsul Negrea) </stage>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Trăiască Domnul nostru cel blând întru mulți ani!</p>
           </sp>
           <sp who="#femeile">
@@ -1760,19 +2140,29 @@
             <stage> (aruncă flori) </stage>
             <p>Prin floarea primăverii să merg spre veri bogate,</p>
             <p>Şi să-ţi sosească iarna târziu, Măria Ta!</p>
-            <p>ORĂŞENII:</p>
+            </sp>
+          <sp who="#orasenii">
+            <speaker>ORĂŞENII</speaker>
             <p>Şi zilele Domniei tot cu belşug să fie, Ca să putem norocul a-ţi binecuvânta.</p>
             <stage> (Ţăranii strânşi laolaltă stau muţi. Ei se descopăr.) </stage>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Ci 'ngenunchiaţi, prostime!</p>
             <stage> (Ţăranii rămân în picioare.) </stage>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>Bine-aţi venit, ostaşi,</p>
             <p>Care-aţi rămas să duceţi războiul nou cu mine...</p>
-            <p>ŢĂRANII:</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ŢĂRANII</speaker>
             <stage> (zgomotos) </stage>
             <p>Şi te-am găsit cu bine, Doamne şi fiu de Domn!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <stage> (se aşază între ţărani şi Domn.) </stage>
             <p>Acum a venit rîndul să vorbim noi, boierii, Cei care-n ceasul marii primejdii ce-a trecut,</p>
             <p>Te-am ridicat în Scaun de moştenire dreaptă,</p>
@@ -1840,11 +2230,17 @@
             <stage> (îngrozit) </stage>
             <p>Să ne grăbim. O, Doamne, auzi chemarea lor?</p>
             <p>Răspund eu pentru tine şi-n ziua închinării...</p>
-            <p>UN BOIER:</p>
+            </sp>
+          <sp who="#un_boier">
+            <speaker>UN BOIER</speaker>
             <p>Stau capetele noastre în mâna ta... Nu mergi?</p>
-            <p>ALT BOIER:</p>
+            </sp>
+          <sp who="#alt_boier">
+            <speaker>ALT BOIER</speaker>
             <p>Va merge! Însuşi capul lui este-n mâna noastră!</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Te-om duce înaintea lui mort, şi n-om peri.</p>
           </sp>
           <sp who="#alexandru">
@@ -1852,7 +2248,9 @@
             <stage> (către un aprod) </stage>
             <p>Un jeţ de judecată... Eu am venit să judec.</p>
             <p>Şi va ţinea gâlceava atâta cât voi eu.</p>
-            <p>UN BOIER:</p>
+            </sp>
+          <sp who="#un_boier">
+            <speaker>UN BOIER</speaker>
             <p>Pe cine? Azi? Şi unde?... Judeţele pe mâine!</p>
           </sp>
           <sp who="#alexandru">
@@ -1868,7 +2266,9 @@
             <stage> (îngrijat) </stage>
             <p>Ci să lăsăm călăii și vorbele urâte:</p>
             <p>Tu poţi a ne ucide. Noi însă nu voim...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Ba eu vă pot ucide, şi sabia stă gata.</p>
             <p>Eu nu mă tem... În lături te dai, drumul să-mi văd?</p>
             <stage> (Caută cu ochii.) </stage>
@@ -1883,14 +2283,22 @@
             <p>Ca într-o luptă dreaptă din zilele trecute...</p>
             <stage> (Trâmbiţa răsună a doua oară.) </stage>
             <p>Ne cheamă iar... Spahii încep a se mişca.</p>
-            <p>ALT BOIER:</p>
+            </sp>
+          <sp who="#alt_boier">
+            <speaker>ALT BOIER</speaker>
             <p>Şi Ieniceru cată spre noi cu îndoială.</p>
-            <p>AL TREILEA:</p>
+            </sp>
+          <sp who="#al_treilea">
+            <speaker>AL TREILEA</speaker>
             <p>Ţintesc un tun încoace... Boieri, ce facem noi ?</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (furioşi, către Domn) </stage>
             <p>Este o viclenie? Şi eşti sătul de viaţă?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <stage> (îngenunche înaintea lui Alexandru:) </stage>
             <p>Măria Ta, aibi milă... Noi nu ne-am ridicat Spre a-ţi răpi aceea ce-am dăruit odată...</p>
           </sp>
@@ -1898,7 +2306,9 @@
             <speaker>ALEXANDRU</speaker>
             <stage> (ironic) </stage>
             <p>Ce-ați dăruit?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Cuvântul nu-i bun? Am sprijinit.</p>
             <p>De-ai auzit acele cuvinte neiertate,</p>
             <p>E vinovat doar omul care te-a sfătuit</p>
@@ -1918,7 +2328,9 @@
             <speaker>NEGREA</speaker>
             <stage> (zguduit) </stage>
             <p>Erau fără de număr, şi noi puţini, stăpâne!</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Fiind fără de număr, de ce i-ai numărat? Erau o marfă oare oștirile 'ncleștate?</p>
             <p>'</p>
             <stage> (urmează.) </stage>
@@ -1941,7 +2353,9 @@
             <p>Şi toată boierimea de-aici -	nu mai puţin!</p>
             <stage> (râde cu hohot.) </stage>
             <p>Şi-aceasta-i cea din urmă fapt' a Domniei Mele!</p>
-            <p>UN BOIER:</p>
+            </sp>
+          <sp who="#un_boier">
+            <speaker>UN BOIER</speaker>
             <p>A-nebunit! Cu sila să-l luăm!</p>
           </sp>
           <sp who="#negrea">
@@ -1971,9 +2385,13 @@
             <stage> (hotărât) </stage>
             <p>Orice zăbavă însă e pentru noi sfârşitul.</p>
             <p>Mergi să ne scapi de moarte, ori însuţi vrei să mori?</p>
-            <p>UN ALTUL:</p>
+            </sp>
+          <sp who="#un_altul">
+            <speaker>UN ALTUL</speaker>
             <p>Nu coborî la fapte... E sfânt trupul lui, frate!</p>
-            <p>ALŢII:</p>
+            </sp>
+          <sp who="#altii">
+            <speaker>ALŢII</speaker>
             <p>Ce sfânt! Sfântă-i fu mama?... Ia, un biet prunc din flori!</p>
           </sp>
           <sp who="#negrea">
@@ -1983,10 +2401,14 @@
             <stage> (Se cutremură.) </stage>
             <p>Săriţi, în piept mă arde o sabie de foc,</p>
             <p>Ce inima mi-o cată, inima vinovată...</p>
-            <p>UN BOIER:</p>
+            </sp>
+          <sp who="#un_boier">
+            <speaker>UN BOIER</speaker>
             <p>În lături cu fricosul! Să-l dăm Paşei pe mort!</p>
             <stage> (Din mulţime se desface o femeie în veşmânt de mireasă, despletită.) </stage>
-            <p>MÂNDRA::</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA:</speaker>
             <stage> (se repede la Alexandru) </stage>
             <p>Măria Ta, mireasa ta astfel a venit, Cu haina sfâşiată de spaima mulţimii,</p>
             <p>Cu părul smuls de fire- de aur şi de flori, Cu inima-ngrozită de ceea ce ne-aşteaptă...</p>
@@ -2015,7 +2437,9 @@
             <speaker>ALEXANDRU</speaker>
             <stage> (cu aceeaşi uimire.) </stage>
             <p>De mine? Cine oare de mine s-a temut?</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>De tine ! Până astăzi eu nu am cutezat</p>
             <p>Să mă ivesc în cale-ţi c-un zâmbet şi c-o floare</p>
             <p>Ca orişicare fată aice în oraş.</p>
@@ -2053,10 +2477,14 @@
             <stage> (ca aiurind) </stage>
             <p>.</p>
             <p>Tu eşti fata lui Negrea?</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Sunt eu mireasa ta?</p>
             <p>Pare că-n clipa asta nu e nimica sigur...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>De ce crezi că nu-i sigur? Ori ţi-am spus eu aşa?</p>
           </sp>
           <sp who="#boieri">
@@ -2077,21 +2505,35 @@
             <p>.</p>
             <p>Tu eştr vărul Axinte? Rușine... Ce mojic!</p>
             <p>Să mergem, Alexandre: păcat de-atâta lume!</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Ce zici tu: Alexandre?</p>
-            <p>MÂNDRA:</p>
+            </sp>
+        <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Nu-ți zice-așa? zi: nu?</p>
             <p>'	'</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Ce bine sună vorba curată : Alexandru! Așa îmi zicea mie tata când mă chema: De-atunci eu sunt un altul: ,,Măria Ta.”</p>
-            <p>MÂNDRA:</p>
+            </sp>
+        <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Să mergem!</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Să mergem, însă unde?</p>
-            <p>MÂNDRA:</p>
+            </sp>
+        <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Pe drum de viitor.</p>
             <p>Mă ţii? Sunt obosită..</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+        <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <stage> (într-un glas) </stage>
             <p>Trăiască Doamna ţării!</p>
           </sp>
@@ -2124,17 +2566,23 @@
             <stage> (împăciuitoare) </stage>
             <p>.</p>
             <p>Acasă ştiu şi altfel să ne privească...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Poate.</p>
             <p>Ce zicl tu, cred. De-ai zice ce n-am mai auzit</p>
             <p>Tot cred. Şi astea toate pentru acea privire...</p>
             <p>Tu nu ţi-o schimbi. Ori vorbe de dragoste-ai rosti Când ţi le smulge ceasul din gura cea tăcută-, Ori de-ai voi, ca-n ziua aceea, să te rogi</p>
             <p>Pentru iertarea celor cari-şi gătise moartea, Aceeaşi se desface din ochii tăi mari, dulci</p>
             <p>Şi mă învăluieşte întreg ca-ntr-o lumină.</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>E numai o părere ce-ţi faci, Măria Ta,</p>
             <p>Care eşti pentru mine tot milă şi-ndurare...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>O, nu e o părere. Eu ochii îi cunosc:</p>
             <p>Din tot ce mă-ncunjoară, doar ei nu pot să mintă,</p>
             <p>Şi m-am deprins ca numai în el să mă încred, Chiar când par răi şi cată să ne înşele astfel.</p>
@@ -2145,36 +2593,56 @@
             <p>Ai fi crezut că nu e un om mai ticălos,</p>
             <p>Şi n-am avut prieten mai bun decât acela:</p>
             <p>Mi-a fost ca un părinte...</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Aş vrea să-l văd şi eu...</p>
-            <p>ALEXANDRU::</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU:</speaker>
             <p>Ţi-aş arăta cu-atâta plăcere şi-un prieten!...</p>
             <p>El pare că mă vede, dar eu nu-l pot vedea.</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>S-o fi ascuns de tine? Ori l-ai gonit?</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Pe dânsul?</p>
             <p>Da, e ascuns. Pământul cel umed i-l veşmânt!</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>A fost ucis? Şi cine ţi-a smuls acest tovarăş?</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>A fost ucis în ziua când noi ne-am cunoscut. Dar ce să-ți stric eu pacea cu-o amintire tristă!</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Eu nu am altă pace decât doar pacea ta,</p>
             <p>Și-o amintire tristă se cere mângâiată...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>O, de ţi-i spune toate, ce zile-ai mai avea!</p>
             <p>Și n-ai venit aicea ca să-mi împarţi năcazul...</p>
             <stage> (o opreşte.) </stage>
             <p>Nu, nu. Menirea noastră e alta. Mi te-a dat Părintele acelor rămaşi orfani pe lume</p>
             <p>Ca să. Mă-mpaci cu viaţa pe care o jertfesc...</p>
             <p>Şi poate nu e bine că n-o jertfi atunce: Aveam o datorie, şi mi-ai ascuns-o tu!</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Da, şi socot că-i fapta cea mai bună a mea.</p>
             <p>Eu ţi-am ascuns durerea şi moartea. Nu mă ierţi?</p>
             <p>Era o datorie, şi-aceasta-i cea mai sfântă:</p>
             <p>De a-ţi păstra Domnia şi viaţa...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Cu ce preţ!</p>
             <p>Tu ştii farmece, Mândro? Ori, fără să vrei, farmeci?</p>
             <p>Căci tu ai luat pe Domnul ce1 gata de-a lupta,</p>
@@ -2185,12 +2653,16 @@
             <p>Știai tu umilirea ce-o aruncai asupră-mi</p>
             <p>Când m-ai silit la ceea ce-n veci n-aş fi făcut,</p>
             <p>De nu m-ar fi dus ochii cei buni la fapte rele?...</p>
-            <p>MÂNDRA:</p>
+            </sp>
+          <sp who="#mandra">
+            <speaker>MÂNDRA</speaker>
             <p>Știam atâta numai că mă durea de toţi</p>
             <p>Cei ce erau să moară prin hotărârea voastră,</p>
             <p>Și ştiu atât, că astăzi te văd viu şi întreg,</p>
             <p>Și nu doresc pe lume o altă fericire.</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Atâta nu-mi ajunge. Mai sunt eu oare-un Domn,</p>
             <p>Se poate-ncrede ţara în cel ce-a stat în ţernă</p>
             <p>Și a primit caftanul de la acel păgân</p>
@@ -2251,7 +2723,9 @@
             <p>Cu inima ruptă,</p>
             <p>Fără să ştii cum,</p>
             <p>La floarea din drum?</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Tu eşti floarea din cale, dar nu pot rămânea:</p>
             <p>Sunt rob unei osânde ce nu-mi va fi iertată Decât prin fapta care menit sunt a-mplini.</p>
             <p>Şi-acel călugăr poartă desigur taina noastră.</p>
@@ -2278,16 +2752,24 @@
             <p>Să-l vadă pe acela care în beciurl</p>
             <p>i zace,</p>
             <p>Pe-nşelătoru-acela pe care l-am cruţat De aspra răsplătire care i se cuvine.</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>De ce o răsplătire? Ce a făcut?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Întrebi? Dar ţara e aprinsă de mâna lui nebună, El mişcă mii de oameni din satele pustii,</p>
             <p>Și niciun drum nu-i slobod pentru negoţul păcii,</p>
             <p>Turcii fugari aleargă aici de se-nchid, Şi boierimea piere în curţile aprinse...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>De ard aceia care pe Vodă l-au vândut,</p>
             <p>Pe-al nostru tată însuși,  ce a perit printr-înşii, Călugărul lucrează după porunci de sus!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Aşa? Domnul voieşte urgie şi păcate? Şi, de-or veni aice şi ne vor afuma,</p>
             <p>Cum vor cer cari strigă acuma sub ferestre, Oare-i găsi că fapta lor e de lăudat</p>
             <p>Şi te-i jertfi cu toată căzuta mulţămire?</p>
@@ -2307,7 +2789,9 @@
             <p>Şi-acei, ca noi, prin care s-a săvârşit păcatul,</p>
             <p>Nu sunt mai buni ca alţii care ne-ai îndemnat:</p>
             <p>Să se stingă odată acest neam fără de lege!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Aşa socoţi că-i bine, Măria Ta ? Eu zic</p>
             <p>Că rău doar e acela ce și-a întrecut vremea</p>
             <p>'</p>
@@ -2317,16 +2801,22 @@
             <speaker>ALEXANDRU</speaker>
             <stage> (mândru) </stage>
             <p>Ca Ștefan tatăl nostru!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Ca Ștefan-Vodă însuşi, care ne-a părăsit.</p>
             <p>Dar este-o bunătate mai grea decât tot răul,</p>
             <p>Aceea ce apasă viaţa dimprejur:</p>
             <p>Şi ce greu era dânsul pentru toţi cei din preajmă-i!</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Nu te uita în juru-ţi de vrei să ştii cum eşti, Ci sus priveşte. Astfel mă învăţa acela</p>
             <p>Care e mort în faptă, dar tot mai viu în gând,</p>
             <p>De când s-a dus în ceruri răsplata să-şi primească!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Pân-om ajunge-acolo, avem rost pe pământ,</p>
             <p>Şi să-l păstrăm pe-acela ne este datoria...</p>
             <p>Și, când văzui furtuna care se pregătea Să sfărâme-această Curte, cu ce-i într-însa,</p>
@@ -2338,28 +2828,40 @@
             <stage> (nerăbdător) </stage>
             <p>.</p>
             <p>Ai fost la el acolo, jos? Şi tu i-ai vorbit?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Am fost la el acolo, şi i-am vorbit...</p>
           </sp>
           <sp who="#alexandru">
             <speaker>ALEXANDRU</speaker>
             <stage> (grăbit) </stage>
             <p>Și cum e?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>E noapte-n închisoare până și-n miez de zi. Abia găsit-am drumul la el pe dibuite...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>O, ce urâte lucruri îmi spui... Nici ucigașii</p>
             <p>Nu se aruncă astfel în tainiţa grozavă.</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Tulburătoru ţării se-aruncă. Și el sta,</p>
             <p>În umbra cea adâncă, un pâlc de întuneric.</p>
             <p>Nu l-am văzut la faţă. Ce-mi pasă faţa lui!</p>
             <p>În sufletul lui singur vream să pătrund...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Și oare</p>
             <p>În tainicul lui suflet ce se închide mut,</p>
             <p>Crezi c-ai pătruns cu două, trei vorbe la iuţeală?...</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>•</p>
             <p>Cred, vârsta te învaţă drum iute... Și i-am spus</p>
             <p>În ce hal este ţara stricată de războaie, Câtă pustietate și jale e la noi,</p>
@@ -2367,7 +2869,9 @@
             <p>Cum pentru pâinea care-i culeasă-ntre dușmani</p>
             <p>Se bat copiii ăstui pământ de roadă bună:</p>
             <p>I-am pomenit de Ștefan, și s-a cutremurat...</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Îmi spun toţi că nimica nu-i tulbură simţirea...</p>
             <p>Poate-o fi fost în oastea lui, şi şi-a amintit De zilele mai bune, când biruia oştirea.</p>
           </sp>
@@ -2375,9 +2879,13 @@
             <speaker>NEGREA</speaker>
             <stage> (în silă) </stage>
             <p>Mai lasă biruinţa... Ce zile! Vai şi-amar!</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>... De cei ce vitejie n-aveau, şi-ar fi vrut cinste...</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Şi de ceilalți, pe care cosaşul îi tăia</p>
             <p>Cu miile în floare, lăsând câmpia goală...</p>
             <p>Şi tremura în umbră călugărul. Atunci</p>
@@ -2398,12 +2906,18 @@
             <stage> (preocupat; către Negrea) </stage>
             <p>Si el colo-n adâncuri, el ce făcea atunci?</p>
             <p>Lasă ce ne priveşte... Să ştiu de el... Mai iute...</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>El tremura mai tare acolo-n umbra lui,</p>
             <p>Şi auzeam cum dinţii i se ciocneau în spasmuri,</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Îl auzeai, săracul?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Îl auzeam, și-am zis,</p>
             <p>Puind toată puterea din suflet să-l înduplec:</p>
             <p>,,Părinte, fă o jertfă cum sfinţii o făceau,</p>
@@ -2427,22 +2941,32 @@
             <speaker>NEGREA</speaker>
             <stage> (rece) </stage>
             <p>Nu-i mare cutezanţa... Da, eu i le-am cerut.</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Şi ce ţi-a răspuns sfântul? Căci sfânt vrem să ucidem?</p>
-            <p>NEGREA:</p>
+            </sp>
+        <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Atunci întâia oară l-am auzit vorbind,</p>
             <p>Și-i era glasul tare ca la un ceas de luptă,</p>
             <p>Cu toată suferinţa ce a fost îndurat,</p>
             <p>Cu toată foamea, setea, nesomnul şi ruşinea, Cu toate că silinţă îşi da spre rost încet.</p>
             <p>A spus: ,,Voiu face.”</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Ceea ce i-ar cerut: să spuie</p>
             <p>Că nu-i acela care noi l-am crezut a fi ?</p>
             <p>Va recunoaşte însuşi că-i e minciună vorba Şi viclenie, fapta ?</p>
-            <p>NEGREA:</p>
+            </sp>
+        <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Tu îl vei auzi.</p>
             <p>Eu ştiu c-nsemnătate au vorbele la oameni, Şi ce spune acesta, se va îndeplini.</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+        <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Şi, dacă, stând în faţă-mi, va face mărturia,</p>
             <p>Eu voiu uita de dânsul, de mine voiu uita,</p>
             <p>Î1 voiu lăsa să piară ca pe un hoţ de drumuri.</p>
@@ -2463,28 +2987,48 @@
             <p>Sunteţi chemaţi ca martori, boieri, jupâni, ostaşi,</p>
             <p>Săteni şi toată gloata care-aţi cerut să fie Dreptate pentru cela ce-aici s-a-nfăţişa,</p>
             <p>Ca să spuie el însuşi cata i-a fost viaţa.</p>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Aici e Direptatea, al sângiurilor loc...</p>
-            <p>ALT GLAS:</p>
+            </sp>
+          <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
             <p>Nu se ucide asfel dezrobitorul.tării!</p>
-            <p>UN AL TREILEA:</p>
+            </sp>
+          <sp who="#un_al_treilea">
+            <speaker>UN AL TREILEA</speaker>
             <p>Ce caută Domnia aici, între calăi?</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Poruncă-i de la Paşă să omorâm călugări?</p>
-            <p>ALT ŢĂRAN:</p>
+            </sp>
+          <sp who="#alt_taran">
+            <speaker>ALT ŢĂRAN</speaker>
             <p>Să pedepsim pe aceia ce-au pus Turcii pe fug ?</p>
-            <p>O FEMEIE:</p>
+            </sp>
+          <sp who="#o_femeie">
+            <speaker>O FEMEIE</speaker>
             <p>Nu asculta, o, Doamne, la ceI ce te minţesc,</p>
             <p>Şi nu-ţI lua pe suflet pe-acest sfÂnt fără vină!</p>
-            <p>OSTAŞI:</p>
+            </sp>
+          <sp who="#ostasi">
+            <speaker>OSTAŞI</speaker>
             <p>În lături, mai în lături!</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Păgâni, robi la păgâni!</p>
-            <p>UN PREOT:</p>
+            </sp>
+          <sp who="#un_preot">
+            <speaker>UN PREOT</speaker>
             <p>AI întrebat Vlădica, Măria Ta? El ştie</p>
             <p>Că se ucid părinţir ieșiți din mânăstiri</p>
             <p>Ca să ni deie iarăşi cinste şi siguranţă?</p>
-            <p>UN ŢĂRAN:</p>
+            </sp>
+          <sp who="#un_taran">
+            <speaker>UN ŢĂRAN</speaker>
             <p>Zice cuminte popa! Nu: nu, noi nu-l lăsăm!</p>
             <stage> (Mulţimea se îmbulzeşte spre Domn.) </stage>
           </sp>
@@ -2494,7 +3038,9 @@
             <p>.</p>
             <p>O, m-ai adus aice ca să aud acestea,</p>
             <p>Și n-ai găsit o moarte mai bună ca să pier?</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Mulţimea asta spune că e împlinită vremea:</p>
             <p>Azi strigă pentru dânsul, mâini va uita de el.</p>
             <p>Aşa-i această fiară zadarnică: norodul!</p>
@@ -2502,15 +3048,23 @@
             <p>Călugărul să vie aici. Nu 'ntărziaţi!...</p>
             <p>Primejdie de viaţă ne-ncunjură acuma...</p>
             <stage> (După câteva clipe, Ștefan e adus îmbrăcat în cămaşa de moarte, cu zăbranicul lăsat pe faţă.) </stage>
-            <p>GLASURI:</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
             <p>Sfântul, acesta-i sfântul!</p>
-            <p>ALT GLAS:</p>
+            </sp>
+          <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
             <p>Ci nu ne osândi</p>
             <p>Pentru nelegiuirea păgânilor nemernici.</p>
-            <p>AL TREILEA GLAS:</p>
+            </sp>
+          <sp who="#al_treilea_glas">
+            <speaker>AL TREILEA GLAS</speaker>
             <p>Dacă e scris în ceruri să mergi, sfinte, ne dă</p>
             <p>O binecuvântare, acelor ce te plângem!</p>
-            <p>APRODUL:</p>
+            </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
             <p>Să ascultăm cuvântul acestul osândit Pentru vânzarea ţării şi înşelarea lumii.</p>
             <p>Stai în genunchi, părinte, şi spune tot ce ştii,</p>
             <stage> (către mulţimea.) </stage>
@@ -2526,7 +3080,9 @@
             <p>A cărora iubire o duc cu mine-n groapă,</p>
             <p>Căci v-am iubit din suflet, şi când v-am făcut rău -</p>
             <p>Şi mai ales atuncea, fiind mai mare jertfa Să mă iertaţi de toate câte le-am săvârşit Din slăbiciunea firii şi din voinţa sorţii,</p>
-            <p>GLASURI:</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
             <p>Iertat să fii, părinte, căci şi noi te-am iubit</p>
             <p>Şi-am pus nădejdea noastră în fapta-ţi îndrăzneaţă.</p>
           </sp>
@@ -2536,7 +3092,9 @@
             <p>.</p>
             <p>Te iert şi eu, părinte, eu, Domnul, c-ai făcut</p>
             <p>În suflet să-mi răsară nădejdi înşelătoare...</p>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Trăiască Vodă, Domnul cel bun şi 'ndurător</p>
           </sp>
           <sp who="#stefan">
@@ -2547,7 +3105,9 @@
             <p>Căci cu a ta voinţă niciun rău n-ai făcut,</p>
             <p>Şi vei avea în mine un rugător acolo.</p>
             <stage> (arată la cer.) </stage>
-            <p>MULŢIMEA:</p>
+            </sp>
+          <sp who="#multimea">
+            <speaker>MULŢIMEA</speaker>
             <p>Şi pentru noi, sărmane, te vei ruga în cer!</p>
           </sp>
           <sp who="#negrea">
@@ -2557,28 +3117,44 @@
             <p>Să isprăvim odată! Aştept ce mi-ai jurat,</p>
             <stage> (spre Ștefan:) </stage>
             <p>Ori nu-ţi aduci aminte de-acea făgăduinţă?</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Eu n-am minţit în viaţă un singur jurământ.</p>
-            <p>UN OSTAȘ:</p>
+            </sp>
+          <sp who="#un_ostas">
+            <speaker>UN OSTAȘ</speaker>
             <p>Ce glas! Pare că strigă să ne-ncleştăm în luptă!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Ce căpitan de oaste şi ce Domn ar fi fost!</p>
           </sp>
           <sp who="#crainicul">
             <speaker>CRAINICUL</speaker>
             <stage> (sună din trâmbiţă) </stage>
             <p>Tăcere. Își va spune călugărul  păcatul...</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Eu am fost crud cu alţii şi crud cu mine-am fost.</p>
             <p>Vărsat-am sânge, iată, şi-aici la Direptate...</p>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>La Direptate Domnii ucid pe vinovaţi.</p>
-            <p>ALT GLAS:</p>
+            </sp>
+          <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
             <p>Cine-i acesta oare de ştie rostul ţeării?</p>
-            <p>UN APROD:</p>
+            </sp>
+          <sp who="#un_aprod">
+            <speaker>UN APROD</speaker>
             <p>Nu-i voie de-ntrebare. Tăcere! S-ascultăm!</p>
             <p>Doar nu e bâlci ca fleoanca să vă răsune astfel!</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Şi, fără judecată</p>
             <stage> (se îndreaptă:) </stage>
             <p>, fără cuvânt, mi-i gândul,</p>
@@ -2593,12 +3169,18 @@
             <p>Că-i vărsător de sânge. Ce vină-i mai grozavă</p>
             <p>Pentru acela care poartă acest veşmânt?</p>
             <p>Călugăr ce ucide ca hoţii-n drumul mare!</p>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Sunt mulţi cari se cade să fie pedepsiţi, Noi de-i lăsăm în viaţă, măcar el să ucidă</p>
             <p>Sămânţa de năpârcă...</p>
-            <p>CRAINICUL:</p>
+            </sp>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
             <p>Tăceţi! Să auzim!</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Stropit-am faţa mesei ospeţelor cu sânge,</p>
             <p>Şi de aceea Domnul acum m-a părăsit,</p>
             <p>Şi mi-a dat o durere cum nu poate fi alta:</p>
@@ -2608,31 +3190,47 @@
             <p>Şi am mâncat în posturi bucatele oprite,</p>
             <p>Şi-am spus cuvinte aspre, pe sfinţi i-am blestămat,</p>
             <p>Și cel mal mare nume eu l-am luat în deşert Când mă-ncălzea mânia în încleştarea luptei.</p>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Şi te-ai luptat adesea, părinte?</p>
           </sp>
           <sp who="#altul">
             <speaker>ALTUL</speaker>
             <p>Cine-o fi De poate să însemne atâtea ceasuri grele?</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Am isprăvit. Pe-acestea pe toate le-am făcut.</p>
             <p>Și-s vrednic de pedeapsa cea mai nemilostivă.</p>
-            <p>UN GLAS:</p>
+            </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
             <p>Nu-i vrednic de pedeapsă!</p>
-            <p>ALT GLAS:</p>
+            </sp>
+          <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
             <p>O, nu, noi nu-l lăsăm!</p>
             <p>De e aici calăul, să-i dăm o altă pradă!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Ai isprăvit, părinte? Dar spune c-ai minţit, Că ai voit Domnia s-o iei fără dreptate,</p>
             <p>Că ai cătat pe-acesta</p>
             <stage> (arată pe Alexandru:) </stage>
             <p>supt sabie să-l pui, Minţind că vrei ca ţara să o scapi de robie. Vorbeşte!</p>
-            <p>UN BOIER:</p>
+            </sp>
+          <sp who="#un_boier">
+            <speaker>UN BOIER</speaker>
             <p>Ori ţi-i gura cusută?</p>
-            <p>UN OSTAŞ:</p>
+            </sp>
+          <sp who="#un_ostas">
+            <speaker>UN OSTAŞ</speaker>
             <stage> (brutal) </stage>
             <p>Ce taci, tu?</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Aşteaptă tu, măi boaită, că ţi-oi deschide viersul!</p>
             <stage> (vrea să-l 1ovească) </stage>
           </sp>
@@ -2649,15 +3247,21 @@
             <p>Şi este-n toată ţara un om ca să-l urască?</p>
             <p>Ci i-am dorit din suflet noroc, ani mulţi, izbânzi,</p>
             <p>Şi să nu aibă soarta cui i-a lăsat viaţa!</p>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <stage> (S-a coborât încet de pe jeţul său şi se apropie ca uimit.) </stage>
             <p>Părinte, o 'ntrebare mai am să-ţi pun, și-apoi, Oricare ar fi gândul ce tremură în mine,</p>
             <p>Să se-mplinească voia cui mi-i stăpân...</p>
             <p>Știi tu,</p>
             <p>Care-ai trăit atâta în zilele lui Ștefan...</p>
-            <p>GLASURI:</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
             <p>Să se tot pomenească în veci numele lui!</p>
-            <p>NEGREA:</p>
+            </sp>
+          <sp who="#negrea">
+            <speaker>NEGREA</speaker>
             <p>Grăbiţi! Se lasă seara. S-a isprăvit. Calăul!</p>
           </sp>
           <sp who="#alexandru">
@@ -2686,7 +3290,9 @@
             <stage> (uitând de sine) </stage>
             <p>O da, eram în luptă la Războienii morţii!</p>
             <stage> (un fior trece asupra mulţimii.) </stage>
-            <p>ALEXANDRU:</p>
+            </sp>
+          <sp who="#alexandru">
+            <speaker>ALEXANDRU</speaker>
             <p>Şi... dac-ai fost acolo-n măcel, spune-mi atât: Când în năvala mare se prinse boierimea,</p>
             <p>Pe tatăl nostru Ștefan, tu l-ai văzut căzând?</p>
             <p>Zi, 1-ai văzut în moarte?</p>
@@ -2707,9 +3313,13 @@
             <stage> (smulge vălul; către toţi, tare) </stage>
             <p>.</p>
             <p>Cine-a uitat pe Domnul Ștefan, Măria Sa?</p>
-            <p>GLASURI:</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
             <p>Călugărul e Ștefan! Priviţi la el... Vorbeşte!...</p>
-            <p>ŢĂRANI:</p>
+            </sp>
+          <sp who="#tarani">
+            <speaker>ŢĂRANI</speaker>
             <p>Mărire Ţie, Doamne, Moldova a-nviat, Odată cu acela care i-a dat mărirea!</p>
           </sp>
           <sp who="#alexandru">
@@ -2718,7 +3328,9 @@
             <p>.</p>
             <p>Spre jeţul tării, o, tată, mă lasă să te duc</p>
             <p>Şi, stându-ţi la picioare, să-ţi mar aştept porunca...</p>
-            <p>ȘTEFAN:</p>
+            </sp>
+        <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
             <p>Porunca mea e scurtă: eu iert, voi mă iertaţi!</p>
           </sp>
         </div>

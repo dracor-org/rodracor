@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000055" xml:lang="ro">
   <teiHeader>
@@ -128,14 +128,18 @@
             <p>Lumina se arată,</p>
             <p>Ne cheamă sus la munte, în codru-ntunecos,</p>
             <p>Mistreţul crunt şi cerbul şi ursul fioros.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Sculaţi! Sculaţi!</p>
             <p>Ciraci, vă deşteptaţi!</p>
             <p>Pe armăsari călare</p>
             <p>Aidem la vânătoare,</p>
             <p>Cu suliţa, cu arcul, în codrul cel de fag:</p>
             <p>Sculaţi! vă cheamă cornul hatmanului Baltag!</p>
-            <p>CIRACII:</p>
+            </sp>
+          <sp who="#ciracii">
+            <speaker>CIRACII</speaker>
             <p>Sculaţi! Sculaţi!</p>
             <p>Cu toţi vă deşteptaţi!</p>
             <p>Pe armăsari călare,</p>
@@ -143,7 +147,9 @@
             <p>Cu suliţa, cu arcul, în codrul cel de fag:</p>
             <p>Sculaţi! ne cheamă cornul hatmanului Baltag!</p>
             <p>Ensemble</p>
-            <p>BALTAG – STACAN – CORUL:</p>
+            </sp>
+          <sp who="#baltag_stacan_corul">
+            <speaker>BALTAG – STACAN – CORUL</speaker>
             <p>În munţi la vânătoare,</p>
             <p>Ce mândră desfătare!</p>
             <p>Cu toţi să-ncălecăm,</p>
@@ -174,7 +180,9 @@
             <p>Dându-i numele „Baltag“.</p>
             <p>Din aşa viţă-a ieşit!</p>
             <p>– Din aşa strămoş mă trag!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Eu sunt comisul Stacan,</p>
             <p>Nici eu nu sunt bădăran:</p>
             <p>Reprerestrăbunul meu</p>
@@ -196,39 +204,69 @@
             <p>Şi „Stacan“ l-a poreclit.</p>
             <p>Din aşa viţă-a ieşit!</p>
             <p>Din aşa viţă-am ieşit.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Aşa, din vremi bătrâne, trăiesc fără-ncetare</p>
             <p>Baltagii şi Stacanii în chef şi vânătoare.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cine-şi petrece-n codri viaţa lui cu drag?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Tot hatmanul Baltag!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Tot hatmanul Baltag!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Şi cine este-n pivniţi pe vinuri căpitan?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Tot comisul Stacan!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Tot comisul Stacan!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Dar şi ciraci ca dânşii, aşa buni vânători,</p>
             <stage> (arată pe ciraci) </stage>
             <p>Au fost mai rareori!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Au fost mai rareori!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Dar, nici în vremea veche, la chefuri n-au mai fost</p>
             <p>Ciraci cu-atâta rost!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Ciraci cu atâta rost!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Aurora se ridică şi cerul e senin!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Noroc la vânătoare!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Să meargă toate-n plin!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (repriză) </stage>
             <p>În munţi la vânătoare</p>
             <p>Ce mândră desfătare!</p>
@@ -245,24 +283,40 @@
           <sp who="#sotir">
             <speaker>SOTIR</speaker>
             <p>Zău, cuconiţă…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Taci! arată scrisoarea!…</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Care?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Pe cea cătră duduca Zulnia… Sotirache, nu umbla cu mofturi. Dă-mi-o numaidecât!</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Dar jur că…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Nici o vorbă… dă-o degrabă, îţi ştiu eu, meştere Sotirache, meşteşugurile d-tale de mult.</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Cred şi eu, din tinereţe.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Aud? dă-mi biletul.</p>
             <stage> (Sotir încolţit dă scrisoarea din brâu, Arghiriţa citeşte.) </stage>
             <p>„Prea graţioasei şi nobilei d-rei Zulnia… loco… Prea graţioasă şi nobilă cuconiţă! Dacă inima d-tale ar fi aşa de simţitoare, pe cât chipul şi toată fiinţa îţi sunt de fărmecătoare, un om care te adoră şi ar cuteza să ţi-o spună şi să te întrebe, ar putea el să spere vreodată a fi fericit?”</p>
             <stage> (returnela romanţei, Zulnia cântă.) </stage>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>St… Duduca…</p>
             <stage> (ei s-ascund după copac.) </stage>
             <p>Scena III</p>
@@ -274,7 +328,9 @@
           <sp who="#zulnia">
             <speaker>ZULNIA</speaker>
             <p>Mătuşica?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>N-am bucurie, te-am pierdut. Acum înţeleg eu fantasiile tale, cura d-tale cu apă neîncepută până-n ziuă.</p>
           </sp>
           <stage>SOTIR:  (iese pe furiş în dreapta, aparte)</stage>
@@ -282,18 +338,30 @@
           <sp who="#zulnia">
             <speaker>ZULNIA</speaker>
             <p>Ei da, mătuşică. De vreme ce ştii, de vreme ce nu-ţi mai pot ascunde nimica, trebuie să-ţi spun tot, să te fac să-nţelegi.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ce să-nţeleg! ce vrei să-nţeleg, decât că eşti o copilă naivă; o neroadă, o nebună!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Dacă sentimentul…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Taci cu sentimentul. Parcă numai d-ta ştii ce-i sentimentul, întreabă-mă pe mine, să-ţi spun eu ce-i sentimentul. Nu înţelegi că ai a face cu un bărbat? Ştii tu ce sunt bărbaţii?</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Mătuşică…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Să-ţi spun eu ce sunt bărbaţii, să-ţi spun eu ce-i sentimentul.</p>
             <p>Nr. 3</p>
-            <p>CUCOANA ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#cucoana_arghirita">
+            <speaker>CUCOANA ARGHIRIŢA</speaker>
             <stage> (Rondo) </stage>
             <p>I</p>
             <p>Sentimentul, nepoţică,</p>
@@ -346,66 +414,120 @@
             <p>N-ai ce-i face:</p>
             <p>Bărbatul cel mai de soi</p>
             <p>Încă e un marţafoi!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Aşa o fi fost cu paraleul d-tale, dar cu cavalerul meu nu-i tot aşa!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Eşti o copilă fără minte; toţi ca unul!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>El ca toţi! Peste putinţă! Un erou!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ca şi paraleul meu!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Un mare vânător, un Nemrod!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ca şi paraleul meu, un nerod!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Frumos!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ah!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Mândru!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ah!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Sentimental!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Brutal, senzual, desigur un marţafoi!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Delicat, duios!… O să mă iubească, o să-mi fie credincios, supus.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Credincios, supus, niciodată nu spera!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Sunt sigură…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ai să vezi!…</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Poate paraleul d-tale, dar el…</p>
             <p>Nr. 4</p>
             <stage> (Dueto) </stage>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ia dă-mi pace, nu-mi mai spune!</p>
             <p>Toţi ca unul, draga mea…</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Nu-i aşa!</p>
             <stage> (bis) </stage>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Toate fetele-s nebune…</p>
             <p>Ai să te căieşti amar!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>În zadar!</p>
             <stage> (bis) </stage>
             <p>Nu-i ca dânsul altu-n lume!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Mofturi! glume!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Mă iubeşte!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Viclenie!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Îl iubesc!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>E nebunie!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (Arie) </stage>
             <p>Domnişoara pătimeşte</p>
             <p>Pentru-un tânăr cavaler,</p>
@@ -420,7 +542,9 @@
           <stage>ZULNIA:  (Arie)</stage>
           <sp who="#zulnia">
             <speaker>ZULNIA</speaker>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+        <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>În zadar orice vei zice!	Domnişoara pătimeşte</p>
             <p>Îl iubesc cu mare dor,	         Pentr-un tânăr cavaler,</p>
             <p>Sunt răpită, sunt ferice,	Îl admiră, îl iubeşte</p>
@@ -440,39 +564,67 @@
             <p>Cornul sună, ascultaţi!</p>
             <p>Masa s-o gătim degrabă,</p>
             <p>Vin flămânzi şi însetaţi!</p>
-            <p>BUCĂTARUL:</p>
+            </sp>
+          <sp who="#bucatarul">
+            <speaker>BUCĂTARUL</speaker>
             <p>Când se-ntoarce de la munte</p>
             <p>Vânătorul obosit</p>
             <p>Are poftă de mâncare.</p>
-            <p>CHELARUL:</p>
+            </sp>
+          <sp who="#chelarul">
+            <speaker>CHELARUL</speaker>
             <p>Mai cu samă de chilit.</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Hai copii curând la treabă,</p>
             <p>Cornul sună, ascultaţi!</p>
             <p>Masa s-o gătim degrabă,</p>
             <p>Vin flămânzi şi însetaţi.</p>
-            <p>1 FECIOR:</p>
+            </sp>
+          <sp who="#1_fecior">
+            <speaker>1 FECIOR</speaker>
             <p>Sunt toate la locul lor?</p>
-            <p>2 FECIOR:</p>
+            </sp>
+          <sp who="#2_fecior">
+            <speaker>2 FECIOR</speaker>
             <p>Toate!</p>
-            <p>3 FECIOR:</p>
+            </sp>
+          <sp who="#3_fecior">
+            <speaker>3 FECIOR</speaker>
             <p>Mistreţul e fript?</p>
-            <p>BUCĂTARUL:</p>
+            </sp>
+          <sp who="#bucatarul">
+            <speaker>BUCĂTARUL</speaker>
             <p>Încă două învârtituri şi i gata. Iată azimile vin de la cuptor!</p>
-            <p>1 FECIOR:</p>
+            </sp>
+          <sp who="#1_fecior">
+            <speaker>1 FECIOR</speaker>
             <p>Halal să le fie. Dacă n-ar avea vânătorii feciori ca noi…</p>
-            <p>BUCĂTARUL:</p>
+            </sp>
+          <sp who="#bucatarul">
+            <speaker>BUCĂTARUL</speaker>
             <p>Şi bucătar ca mine…</p>
-            <p>1 FECIOR:</p>
+            </sp>
+          <sp who="#1_fecior">
+            <speaker>1 FECIOR</speaker>
             <p>Nu ştiu zău, cum le-ar merge.</p>
-            <p>BUCĂTARUL:</p>
+            </sp>
+          <sp who="#bucatarul">
+            <speaker>BUCĂTARUL</speaker>
             <p>Să te întorci ostenit de la munte şi să nu găseşti o friptură bună de mistreţ ş-o şuncă de urs, o ciosvârte de cerb pe varză, şi ca să nu fugă de pe tavă, păzită de jur împrejur de 12 cocoşi sălbateci…</p>
-            <p>CHELARUL:</p>
+            </sp>
+          <sp who="#chelarul">
+            <speaker>CHELARUL</speaker>
             <p>Toţi cerbii şi toţi cocoşii tăi n-ar plăti mai mult decât o ciorbă de borş cu ştir, dacă n-ar fi chelarul cu vinurile lui.</p>
             <stage> (Cornul sună) </stage>
-            <p>1 FECIOR:</p>
+            </sp>
+          <sp who="#1_fecior">
+            <speaker>1 FECIOR</speaker>
             <p>Aţi auzit?</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Cornul? Vin!</p>
             <stage> (Repriză Nr. 5. Slujitorii ies.) </stage>
             <p>Scena II</p>
@@ -482,48 +634,84 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Ce vrei să pricepi?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Vreau să pricep cum se poate rătăci omul într-o pădure pe care o cutreieră cruciş şi curmeziş de mic copil, toată ziulica, unde cunoaşte toate cărările, unde toţi copacii îi sunt vechi prieteni.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>De ce adică nu s-ar putea?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Şi fără asta, cum se poate pierde un vânător într-o pădure, când aude mereu cornul tovarăşilor? De câte ori nu ţi-am chiuit? De câte ori nu ţi-am sunat? Pe unde nu te-am căutat?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Dar dacă m-aş fi rătăcit într-adins?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cum să te rătăceşti într-adins?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Zic aşa într-adins, ca să nu te mai miri de ce nu m-ai putut găsi…</p>
             <stage> (pauză) </stage>
             <p>. Mai pofteşti să zici ceva!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cum nu?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Ce?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Vreau să ştiu cum se poate un vânător, – şi ce vânător! – să umble o zi de vară întreagă fără să ucidă măcar o vrabie?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>N-am ucis, fiindcă n-am tras.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cum?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>M-am rătăcit de voi, am umblat pe gânduri de colo până colo, până ce m-am pomenit la marginea pădurii, devale, de unde plecasem azi dimineaţă şi unde m-aţi găsit culcat adineaori, când v-aţi întors. Am şezut toată ziua trântit la umbră: auzeam goarna, auzeam cornul şi chiotele, dar nu v-am dat răspuns, fiindcă nu voiam nici eu să vă stric petrecerea voastră, nici voi să mi-o stricaţi pe a mea… Eu petreceam destul de bine.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Să mă sfâşie toţi mistreţii din lume, dacă pricep cât negru sub unghie!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Vrei numaidecât să pricepi?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Numaidecât.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Ascultă, comise. Nu mai sunt ce m-ai ştiut pân-acuma. Nu-mi mai place nimica din câte îmi plăceau odinioară, sunt alt om… nu-mi mai plac petrecerile, mi-e silă de tot… de tot!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ei, dar ce-ţi place?</p>
           </sp>
           <stage>BALTAG:  (sentimental)</stage>
           <sp who="#stacan">
             <speaker>STACAN</speaker>
             <p>Să te gândeşti, să te gândeşti… la ce să te gândeşti?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>La ce?</p>
             <p>Nr. 6</p>
             <stage> (Arie) </stage>
@@ -539,29 +727,47 @@
             <p>Vin’, ah! vino păsărică,</p>
             <p>Vin’ în colivioara mică</p>
             <p>Ce ţi-am pregătit!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Păsărică, colivioară?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Da!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Stigleţi?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Tu nu ştii!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ce să ştiu, am înţeles; sti…gleţi! Acu pricep eu pentru ce de câteva zile nu-ţi mai sunt boii acasă… A! dar bine c-am aflat. Poate să mor şi să nu-ţi scot stigleţii din cap!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu te-ncerca!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cum ai zis?</p>
           </sp>
           <stage>BALTAG:  (rar)</stage>
           <sp who="#stacan">
             <speaker>STACAN</speaker>
             <p>Ai să vezi d-ta. Auzi, înamorat! auzi, sentimental! D-ta n-ai trecut pe unde am trecut eu, eu am trecut pe unde treci d-ta, eu am fost amorezat, stimabile domn, de am umblat călare pe trestie trei nopţi de-a rândul prin curte, fără să-mi pot găsi casa. Auzi, amorezat? Stigleţi… mofturi. Un Baltag, floarea vânătorilor, aş! ar râde şi cerbii!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Poate râde cui îi place.</p>
             <p>Nr. 7</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cuplete</p>
             <p>I</p>
             <p>Hatmane, vino-ţi în fire,</p>
@@ -597,13 +803,21 @@
             <p>Poezia cum se curmă?</p>
             <p>Ajungi râsul mahalalei,</p>
             <p>Ajungi Vlad îmbrobodit.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Frumos cântec, dar nu se potriveşte la toţi…</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ba la toţi, şi mai cu samă la cei ce cred ca tine… Ia ascultă, hatmane, suntem prietini vechi, cu una cu două, vezi d-ta că n-am să te las eu să te dai de mal, pentru păsărele!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>O să-ţi răceşti gura degeaba!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Am să te fac de râsul ciracilor.</p>
             <stage> (Returnelă, ciracii intră.) </stage>
             <p>Scena III</p>
@@ -614,16 +828,22 @@
             <p>Haidem să ne veselim,</p>
             <p>Dup-atâta vânătoare</p>
             <p>Să bem, să benchetuim!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Staţi! Staţi! Staţi!</p>
             <p>Ciraci flămânzi şi însetaţi!</p>
             <p>Staţi ş-ascultaţi</p>
             <p>Minune,</p>
             <p>Ceea ce vă voi spune</p>
-            <p>CIRACII:</p>
+            </sp>
+          <sp who="#ciracii">
+            <speaker>CIRACII</speaker>
             <p>Minune? Ce minune?</p>
             <p>Ce zici?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Doi voinici</p>
             <p>Când unul ar căpia</p>
             <p>Şi s-ar amoreza,</p>
@@ -631,19 +851,27 @@
             <p>S-ar pleca muierilor,</p>
             <p>N-ar fi în feliul său</p>
             <p>Un mare nătărău?</p>
-            <p>CIRACII:</p>
+            </sp>
+          <sp who="#ciracii">
+            <speaker>CIRACII</speaker>
             <p>Ba zău!</p>
             <p>Un mare nătărău!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Staţi, dar staţi</p>
             <p>Ciraci flămânzi şi însetaţi,</p>
             <p>Ca s-ascultaţi</p>
             <p>Cu groază</p>
             <p>O veste caraghioază!</p>
-            <p>CIRACII:</p>
+            </sp>
+          <sp who="#ciracii">
+            <speaker>CIRACII</speaker>
             <p>O veste caraghioază?</p>
             <p>Ce spui!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Dumnealui</p>
             <p>Amicul nostru drag,</p>
             <p>Hatmanul Baltag,</p>
@@ -651,21 +879,33 @@
             <p>Floarea băutorilor,</p>
             <p>Este, pe legea mea!</p>
             <p>Amorezat lulea!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Ha! Ha!</p>
             <p>Amorezat lulea!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Ce nebunie!</p>
             <p>Şi chiar aşa să fie</p>
             <p>Vouă ce vă pasă?</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Cum ce ne pasă!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ba prea ne pasă!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Lăsaţi-l! Este iar o prostie</p>
             <p>De-a lui… haidem la masă!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>La masă! la masă! la masă!</p>
             <stage> (Repriză) </stage>
             <p>Hai cu toţi la masă mare! etc.</p>
@@ -741,7 +981,9 @@
             <p>DUŞCĂ: Pe unde a intrat?</p>
             <p>PLEAŞCĂ: Asta nu-i treaba d-tale, a luat frumuşel ce i-a trebuit şi s-a dus, foarte emoţionat, tot într-o fugă, la privighitoarea lui şi, punându-i la picioare juvaericalele dorite, n-a putut să zică decât două vorbe italieneşti: „Ah! Carapati”.</p>
             <stage> (râsete, Baltag se scoală protestând.) </stage>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>A! Asta e-o infamie.</p>
           </sp>
           <sp who="#stacan">
@@ -754,7 +996,9 @@
             <stage> (râsete.) </stage>
             <p>Ei! s-a încheiat cu jocurile de cuvinte. Tăceţi toţi şi puneţi mâna pe stacane, că am să vă cânt.</p>
             <p>Nr. 9</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>I</p>
             <p>E soarta blăstemată</p>
             <p>A celor bieţi sărmani</p>
@@ -775,10 +1019,14 @@
             <p>Umpleţi paharul meu,</p>
             <p>Să uit necazul, chinul,</p>
             <p>Să beau, să beau mereu!</p>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <p>E cântec nou, nu-mi place, dacă vreţi cântec de masă poetic, ascultaţi: l-am învăţat de la un moş al meu!</p>
             <p>Nr. 9 bis</p>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <stage> (Arieta) </stage>
             <p>Ploschiţa mea, iubit vas,</p>
             <p>Pasere cu dulce glas,</p>
@@ -790,15 +1038,23 @@
             <p>Ploschiţa mea, iubit vas!</p>
             <p>Nr. 9</p>
             <stage> (Repriză) </stage>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (Andante) </stage>
             <p>Şi nu-l mai săruta-n nas</p>
             <p>Pasere cu dulce glas!…</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Bravo!</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>Unde e moşul tău care te-a învăţat?… să trăiască!</p>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <p>A murit sărmanul, nu-i mai cântă glic! lic! lic!</p>
           </sp>
           <stage>STACAN:  (se ridică)</stage>
@@ -822,11 +1078,15 @@
             <p>Beau dar</p>
             <p>Acest pahar</p>
             <p>Pentru hătmăneasa mea!</p>
-            <p>CIRACII:</p>
+            </sp>
+          <sp who="#ciracii">
+            <speaker>CIRACII</speaker>
             <p>Haha! haha!</p>
             <p>Ce-am auzit?</p>
             <p>A nebunit!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Nu râdeţi, nu, n-a nebunit,</p>
             <p>Sărmanul! s-a prostit!</p>
             <p>Adineaori, sărac de mine,</p>
@@ -841,51 +1101,81 @@
             <p>Ce-n suflet m-ai rănit,</p>
             <p>Fii tu a mea ursită</p>
             <p>Să fiu iar fericit.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>E fărmecat, sărmanul!</p>
             <p>De nu-i mai sunt pe plac</p>
             <p>Nici arcul, nici stacanul:</p>
             <p>E boală fără leac.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Voi, ciraci desfrânaţi</p>
             <p>Ascultaţi!</p>
             <p>Şi tu, bătrân stricat, ascultă!</p>
-            <p>CIRACII:</p>
+            </sp>
+          <sp who="#ciracii">
+            <speaker>CIRACII</speaker>
             <p>Ne insultă!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Mă insultă!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Să ştiţi, v-o spun tuturor</p>
             <p>C-am pus de gând să mă-nsor!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Te-ai hotărât?</p>
             <stage> (vorbit.) </stage>
             <p>Ei! fugi că mor!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>M-am hotărât, c-aşa îmi place mie!</p>
             <p>Şi rup cu voi orice tovărăşie:</p>
             <p>Aşa e, sunt înamorat;</p>
             <p>Aşa, de voi m-am săturat!</p>
             <p>Cu dezmăţaţii nu-mi mai place</p>
             <p>Să am a face!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Eşti un fărmecat!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Eşti un renegat!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Renegat!</p>
             <stage> (bis) </stage>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Şi ca renegat,</p>
             <p>Deşi Baltag de viţă,</p>
             <p>De aici eşti alungat.</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Da, alungat!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Din propria-mi pimniţă?</p>
-            <p>STACAN – CORUL:</p>
+            </sp>
+          <sp who="#stacan_corul">
+            <speaker>STACAN – CORUL</speaker>
             <p>Din propria-ţi pimniţă!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Voi deşucheaţi</p>
             <p>Mă alungaţi,</p>
             <p>Mă maltrataţi!</p>
@@ -894,7 +1184,9 @@
             <p>Da mâne-aci</p>
             <p>Stăpân voi fi.</p>
             <stage> (bis) </stage>
-            <p>STACAN – CORUL:</p>
+            </sp>
+          <sp who="#stacan_corul">
+            <speaker>STACAN – CORUL</speaker>
             <p>Te renegăm,</p>
             <p>Te alungăm</p>
             <p>Şi maltratăm:</p>
@@ -918,7 +1210,9 @@
             <p>Cu noroc şi fericire</p>
             <p>Fie-i traiul nesfârşit!</p>
             <p>Ensemble</p>
-            <p>BĂRBAŢI:	                            FEMEI:</p>
+            </sp>
+        <sp who="#barbati_femei">
+            <speaker>BĂRBAŢI:	                            FEMEI</speaker>
             <p>Iată gingaşa mireasă etc.          	Iată-acum viteazul mire etc.</p>
             <stage> (Procesiunea se pierde în stânga) </stage>
           </sp>
@@ -955,36 +1249,54 @@
           <sp who="#sotir">
             <speaker>SOTIR</speaker>
             <p>Ce să-ţi fac, nene? Dacă s-o putea…</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>II</p>
             <p>Fă ce-i putea, jupâne,</p>
             <p>Eu trebuie să-i vorbesc</p>
             <p>Acum, chiar azi, nu mâne,</p>
             <p>Că, zău, mă prăpădesc.</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Mai stăi, să vedem. Ce zor!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>III</p>
             <p>Afară ca pe-un câne</p>
             <p>Din casa lui m-a dat:</p>
             <p>Nu mă lăsa, jupâne,</p>
             <p>Că, zău! sunt desperat!</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Dă, stimabile, poate să facem ceva, să cercăm…</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>IV</p>
             <p>Îţi mulţămesc, jupâne,</p>
             <p>Şi nu te voi uita,</p>
             <p>În sufletu-mi rămâne</p>
             <p>Neştearsă fapta ta!</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Ei! ştii ce? Te văd că eşti om de omenie, mie îmi plac oame­nii de inimă!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Asta-ţi face cinste!</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Sunt în stare să mă jertfesc pentru ei.</p>
             <stage> (scutură punga.) </stage>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Bravo, jertfeşte-te!</p>
             <stage> (aparte.) </stage>
             <p>Dezinteresată persoană!</p>
@@ -993,9 +1305,13 @@
           <sp who="#stacan">
             <speaker>STACAN</speaker>
             <p>Ce spui?</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Uite, hatmanul vine-ncoace; dar nu e singur, e cu mireasa, ascunde-te după tufiş şi pândeşte momentul când o rămânea singur: mireasa trebuie să-l părăsească câteva minute, fiindcă o aşteaptă fetele s-o gătească pentru masă.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Îţi mulţămesc, omule.</p>
             <stage> (vra să cânte iar.) </stage>
           </sp>
@@ -1005,35 +1321,51 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Eşti a mea în sfârşit!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>O! moment fericit!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Speranţa-mi strălucită</p>
             <p>Acum s-a împlinit:</p>
             <p>A ta ş-a mea ursită</p>
             <p>Cu dulce s-au unit.</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Simţire-ncântătoare,</p>
             <p>Frumos şi mândru vis!</p>
             <p>O! ceas de desfătare,</p>
             <p>De ceriuri eşti trimis!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Viaţa mea trecută</p>
             <p>De-acum o voi uita!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>În fericiri ţesută</p>
             <p>Va fi viaţa ta!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Zulnio prea iubită,</p>
             <p>A mea eşti în sfârşit!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>O! dulcea mea ursită,</p>
             <p>Moment prea fericit!</p>
             <p>Ensemble</p>
           </sp>
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Speranţa-mi strălucită		Simţire-ncântătoare,</p>
             <p>Acum s-a împlinit:		Frumos şi mândru vis!</p>
             <p>A ta ş-a mea ursită		O! ceas de desfătare,</p>
@@ -1046,15 +1378,25 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Ai! Ce e?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Nimica, ce să fie?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Comisul Stacan!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Da! el este!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Ce pofteşti?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Nu poftesc nimica, ce să poftesc?</p>
           </sp>
           <stage>BALTAG:  (aspru)</stage>
@@ -1115,18 +1457,28 @@
             <p>Nr. 4</p>
             <p>Trio:</p>
             <p>BALTAG – STACAN – ARGHIRIŢA</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu, nu te pot primi,</p>
             <p>Nu mai mă-ncred în tine.</p>
             <p>Eşti un stricat şi n-aş voi</p>
             <p>Scandal acum la mine.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Îţi jur! îţi jur!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu te mai crez!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>O! inimă de piatră, cum să te-nduioşez?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (care a apărut în fund) </stage>
             <p>Acest străin cine să fie?</p>
           </sp>
@@ -1134,7 +1486,9 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>În tine nu mai am credinţă…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Cunosc, îmi pare, glasul acestui cavaler</p>
             <p>Şi talia, şi portul… Să fie cu putinţă?</p>
             <p>Este el!</p>
@@ -1143,7 +1497,9 @@
           <sp who="#stacan">
             <speaker>STACAN</speaker>
             <p>Ea este!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (cu o reverenţă) </stage>
             <p>Domnul meu!</p>
           </sp>
@@ -1154,21 +1510,29 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Cum! ce fel! vă cunoaşteţi?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (mişcată) </stage>
             <p>O veche cunoştinţă…</p>
             <p>Ensemble</p>
-            <p>ARGHIRIŢA:	  	  STACAN:	     		BALTAG:</p>
+            </sp>
+          <sp who="#arghirita_stacan_baltag">
+            <speaker>ARGHIRIŢA:	  	  STACAN:	     		BALTAG</speaker>
             <stage> (aparte) 	  (aparte) 	  (aparte) </stage>
             <p>Este, zău!	         		Este ea,	          		S-ar putea,</p>
             <p>Mândrul paraleu,		Juna turturea,			Mătuşica mea</p>
             <p>Este Stacan al meu!		Arghiriţa mea!			De mult îl cunoştea.</p>
             <p>Da, zău!	         			Da, da!	          			Ha! ha!</p>
             <p>Este Stacan al meu!		E Arghiriţa mea.		De mult îl cunoştea.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Aşa? vă cunoşteaţi</p>
             <p>Şi mie nu-mi spuneaţi…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (mişcată) </stage>
             <p>I-am fost vecină de moşie.</p>
           </sp>
@@ -1213,7 +1577,9 @@
             <speaker>SOTIR</speaker>
             <p>A! dacă ştiţi cum se intră într-o casă cumsecade…</p>
             <stage> (Se uită în sus şi întinde mâna. Duşcă-i dă peste mână, Buduşcă asemenea.) </stage>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <stage> (dându-i brânci într-o parte) </stage>
             <p>E! apoi fii om de omenie! Nu cumva crezi că venim aici să licităm pentru vreo întreprindere publică?</p>
           </sp>
@@ -1224,42 +1590,76 @@
           <sp who="#sotir">
             <speaker>SOTIR</speaker>
             <p>Bravo! Buni i-am găsit!</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>Ei, ce zici, meştere?</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Bun, potrivit cu împrejurarea… staţi aici, mă duc să vă anunţ… cum trebuie să spun?</p>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <p>O bandă de lăutari, cea mai vestită bandă de lăutari, care…</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Lasă că ştiu… care în trecerea lor prin Rusia vor da aici…</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>Nu…</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Care trecând pe aici vor da în Rusia…</p>
-            <p>BUDUŞCĂ:</p>
+            </sp>
+          <sp who="#budusca">
+            <speaker>BUDUŞCĂ</speaker>
             <p>Nu…</p>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <p>Care în trecerea lor din Rusia vor da aici numai un concert, cel mai prima şi cel mai ultim concert.</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>Repertoriul cel mai bogat, cel mai variat şi cel mai ales…</p>
-            <p>BUDUŞCĂ:</p>
+            </sp>
+          <sp who="#budusca">
+            <speaker>BUDUŞCĂ</speaker>
             <p>Compoziţii nouă şi bucăţi de ocazie…</p>
-            <p>SOTIR:</p>
+            </sp>
+          <sp who="#sotir">
+            <speaker>SOTIR</speaker>
             <p>Cele mai indigene şi cele mai străine… Mă duc; aşteptaţi; mă întorc numaidecât.</p>
             <stage> (aparte.) </stage>
             <p>I-am găsit buni!</p>
             <stage> (iese răpede.) </stage>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <p>Doar ca lăutari să putem intra! Altfel, după nerozia care am făcut-o…</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>În propria lui pivniţă să-l maltratăm!</p>
-            <p>BUDUŞCĂ:</p>
+            </sp>
+          <sp who="#budusca">
+            <speaker>BUDUŞCĂ</speaker>
             <p>La dreptul vorbind, vina nu a fost a noastră.</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>Stricatul cela de Stacan… şi asta trebuie să i-o spunem hatmanului.</p>
-            <p>PLEAŞCĂ:</p>
+            </sp>
+          <sp who="#pleasca">
+            <speaker>PLEAŞCĂ</speaker>
             <p>Se înţelege că trebuie să i-o spunem. După ce talentele noastre de cântăreţi şi împrejurarea că el este acuma fericit ne vor ajuta să ne căpătăm iertarea, pentru că trebuie să ne ierte şi să ne ia în curtea lui… E peste putinţă să-şi fi pierdut până-ntr-atât sentimentele cele bune, încât să ne lase pe noi, ciracii lui, pe dinafară din noua combinaţie. Dacă a avut el norocul să împuşte o căprioară aşa de grasă încât să-şi îndoiască moşiile, care va să zică să-şi lase tovarăşii nemâncaţi, pe lău­tari!… E peste putinţă!</p>
-            <p>DUŞCĂ:</p>
+            </sp>
+          <sp who="#dusca">
+            <speaker>DUŞCĂ</speaker>
             <p>E peste putinţă!…</p>
           </sp>
           <stage>SOTIR:  (venind din fund în stânga)</stage>
@@ -1279,18 +1679,24 @@
             <p>De dragostea fierbinte</p>
             <p>Ce-odată ne-am jurat?</p>
             <p>Cum? Ai uitat?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Mă-ntreabă de-am uitat…</p>
             <p>Ingrat, ingrat!</p>
             <p>Dar tu ţi-aduci aminte</p>
             <p>De-acele jurăminte</p>
             <p>De-amor înflăcărat?</p>
             <p>Cum? le-ai uitat?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Nu, înger adorat,</p>
             <p>Nu, n-am uitat!…</p>
             <p>Ensemble</p>
-            <p>ARGHIRIŢA:	                		STACAN:</p>
+            </sp>
+          <sp who="#arghirita_stacan">
+            <speaker>ARGHIRIŢA:	                		STACAN</speaker>
             <p>Da, da, mi-aduc aminte		Da, da, mi-aduc aminte</p>
             <p>De dragostea fierbinte			De-acele jurăminte</p>
             <p>Ce-odată mi-ai purtat!			De-amor înflăcărat.</p>
@@ -1301,7 +1707,9 @@
             <speaker>STACAN</speaker>
             <p>Scumpă Arghiriţă,</p>
             <p>Dă neichii o guriţă!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (cu spaimă) </stage>
             <p>Ce zice?</p>
             <p>E tot brutal,</p>
@@ -1336,7 +1744,9 @@
             <p>Să-mi dovedeşti</p>
             <stage> (bis) </stage>
             <p>Că mă iubeşti!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Fugi de la mine</p>
             <p>Că n-ai ruşine,</p>
             <p>Eşti om brutal</p>
@@ -1355,10 +1765,14 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>E of…</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Uscată!</p>
             <p>Ensemble</p>
-            <p>ARGHIRIŢA:  		      STACAN:	      		BALTAG–ZULNIA:</p>
+            </sp>
+          <sp who="#arghirita_stacan_baltagzulnia">
+            <speaker>ARGHIRIŢA:  		      STACAN:	      		BALTAG–ZULNIA</speaker>
             <p>Sunt ofuscată,			Crudo! ingrato!		E ofuscată,</p>
             <p>Sunt ofensată,			N-am ofuscat-o,		E ofensată,</p>
             <p>Acest berbant			Nu sunt berbant,		Acest berbant</p>
@@ -1384,10 +1798,14 @@
             <p>Ce cutezare!</p>
             <p>Ce scandal</p>
             <p>Colosal!</p>
-            <p>PLEAŞCĂ–DUŞCĂ–BUDUŞCĂ–SOTIR:</p>
+            </sp>
+          <sp who="#pleascaduscabuduscasotir">
+            <speaker>PLEAŞCĂ–DUŞCĂ–BUDUŞCĂ–SOTIR</speaker>
             <p>Ce scandal</p>
             <p>Colosal!</p>
-            <p>CORUL–PLEAŞCĂ–DUŞCĂ–BUDUŞCĂ:</p>
+            </sp>
+          <sp who="#corulpleascaduscabudusca">
+            <speaker>CORUL–PLEAŞCĂ–DUŞCĂ–BUDUŞCĂ</speaker>
             <p>Scandal! Scandal!</p>
             <p>E trivial,</p>
             <p>E bădăran</p>
@@ -1396,7 +1814,9 @@
             <p>Şi deşucheat,</p>
             <p>Trebui’ pe dat’</p>
             <p>Afară dat!</p>
-            <p>ARGHIRIŢA:			STACAN:</p>
+            </sp>
+          <sp who="#arghirita_stacan">
+            <speaker>ARGHIRIŢA:			STACAN</speaker>
             <p>A, om brutal			Nu trivial,</p>
             <p>Şi sensual,			Sentimental</p>
             <p>Ai abuzat,			Am fost ş-oi fi</p>
@@ -1405,21 +1825,33 @@
             <p>Acum l-ai stins,		S-aprind am vrut,</p>
             <p>Dorul trecut			Un sărutat</p>
             <p>Tot l-ai pierdut!		Nu-i vrun păcat!</p>
-            <p>CORUL:</p>
+            </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
             <p>Ce scandal</p>
             <p>Colosal!</p>
-            <p>PLEAŞCĂ–DUŞCĂ–BUDUŞCĂ–SOTIR:</p>
+            </sp>
+          <sp who="#pleascaduscabuduscasotir">
+            <speaker>PLEAŞCĂ–DUŞCĂ–BUDUŞCĂ–SOTIR</speaker>
             <p>Am fost împins de sentiment…</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Impertinent!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Staţi, mă explic numaidecât!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Destul atât!</p>
             <p>Ensemble</p>
             <stage> (ameninţând pe Stacan) </stage>
             <p>Scandal, scandal etc.</p>
-            <p>ARGHIRIŢA:			STACAN:</p>
+            </sp>
+          <sp who="#arghirita_stacan">
+            <speaker>ARGHIRIŢA:			STACAN</speaker>
             <stage> (retrăgându-se ruşinat) </stage>
             <p>A! om brutal etc.		Nu trivial etc.</p>
             <stage> (Arghiriţa leşină în braţele lui Baltag şi a Zulniei, femeile caută s-o dezmeticească. Stacan se retrage ruşinat.) </stage>
@@ -1430,17 +1862,29 @@
             <p>catalogului, copiii se aşază în ordine.</p>
             <p>Scena I</p>
             <p>STACAN – COPIII</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Anibal Baltag!</p>
-            <p>ANIBAL:</p>
+            </sp>
+          <sp who="#anibal">
+            <speaker>ANIBAL</speaker>
             <p>Prezent!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Amilcar Baltag!</p>
-            <p>AMILCAR:</p>
+            </sp>
+          <sp who="#amilcar">
+            <speaker>AMILCAR</speaker>
             <p>Prezent!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Scipion Baltag!</p>
-            <p>SCIPION:</p>
+            </sp>
+          <sp who="#scipion">
+            <speaker>SCIPION</speaker>
             <p>Prezent!</p>
             <stage> (Scipion e foarte oacheş.) </stage>
           </sp>
@@ -1449,9 +1893,13 @@
             <speaker>CEI 3 COPII</speaker>
             <p>Prezent</p>
             <stage> (cel din urmă copil intră prin fund, ştergându-se cu mâneca la nas.) </stage>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Mucius, Mucea Baltag!</p>
-            <p>MUCIUS:</p>
+            </sp>
+          <sp who="#mucius">
+            <speaker>MUCIUS</speaker>
             <p>Prezent!</p>
           </sp>
           <stage>STACAN:  (mângâindu-l)</stage>
@@ -1459,16 +1907,22 @@
           <sp who="#stacan">
             <speaker>STACAN</speaker>
             <p>Pentru că pe urmă nu ai cu ce să te ştergi la nas.</p>
-            <p>MUCIUS:</p>
+            </sp>
+          <sp who="#mucius">
+            <speaker>MUCIUS</speaker>
             <p>Apoi eu nu mă şterg la nas cu mâna.</p>
           </sp>
           <stage>STACAN:  (împingându-l)</stage>
           <sp who="#mucius">
             <speaker>MUCIUS</speaker>
             <p>Nu, cu mâneca.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Bravo, curat băiat! Sunteţi toţi?</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Da! Da!</p>
           </sp>
           <stage>STACAN:  (jucând nuiaua)</stage>
@@ -1513,27 +1967,49 @@
             <stage> (El vrea să plece; ceartă între Baltag şi Zulnia – Arghiriţa intră agitată.) </stage>
             <p>Scena III</p>
             <p>ARGHIRIŢA – STACAN, apoi SOTIR</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ai auzit?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ce mai este?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Iar!…</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Sfadă!…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Sfadă la toartă! ce trai, ce trai!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Şi pentru ce?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Hatmanul e furios, cere cheile de la pivniţă, Zulnia nu vrea să i le dea, el o ameninţă, ea-i aruncă tava cu dulceaţă şi cafea în cap, ţipă, leşină, scandal. – Ce trai, ce trai!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Care vrea să zică hatmanul tot se mai ţine de jurământul pe care l-a făcut cucoanei, să nu mai bea şi să nu mai vâneze?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Vezi bine!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>E! apoi este stricat de tot sărmanul, îşi merită soarta nenorocitul!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Taci, vine cineva!</p>
           </sp>
           <stage>SOTIR:  (intră misterios)</stage>
@@ -1547,19 +2023,33 @@
             <stage> (tare.) </stage>
             <p>Ia mai bine să vedem ce-mi scrie… „Mă-nchin ţie cu frăţească dragoste, iubite comise! Mai întâi nu lipsesc a cerceta despre scumpa ta sănătate, dacă te afli bine şi mulţumit, că eu, de la mila Zidi­torului, mă aflu rău de tot. Aşa sunt de apelipsit, încât, deşi te ştiu, cu bun drept, foc şi pară asupră-mi, îmi iau inima în dinţi şi-ţi scriu această carte, mai întâi ca să-mi cer iertare că nu ţi-am ascultat sfaturile şi te-am supărat, ş-apoi ca să te rog de ceva. Stacane, necazurile căsniciei mi-au zbârlit toţi nervii, şi în curând are să mă chelească, dacă nu mă voi hotărî a-ntrebuinţa vreo doctorie. Istericalele nevestei, ţipetele copiilor, cicăliturile viespei bătrâne…</p>
             <stage> (tuşeşte.) </stage>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Cine este viespea bătrână?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ştiu eu, pesemne Sotir!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>A da, Sotir, bine zici. Sărmanul Sotirache… Citeşte mai departe!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>„Şi cicăliturile viespei bătrâne… şi mai presus de toate un jurământ nenorocit pe care l-am făcut într-un moment de slăbiciune, că adică să nu mai beau şi să nu mai vânez, m-au adus într-o stare, ce nu mai poate fi de suferit. Sunt apelipsit, peste orice închipuire. Şi m-am hotărât deci să-mi fac sama singur, după ce voi mai petrece o dată în pivniţa mea, îmi calc jurământul şi plec pe ceea lume, unde sunt cu totul oprite plăcerile şi fericirile căsniciei, şi fie ce-o fi! Aşadar, în astfel de grav minut, te rog, dacă mai trăieşti, vino mâne sară în piv­niţă să mai petrecem o dată împreună, să ne iertăm şi să ne des­părţim ca viteji, sau dacă ai murit, încalte răspunde-mi pe dată ca să ştiu, să nu te mai aştept… Al tău ca în tinereţe, Baltag.” E desperat rău!…</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Bine, toate le-nţeleg, dar ce are cu Sotirache, cu bietul Sotirache?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Aşa e-n lume, simpatie şi antipatie… Unde le mai poţi explica pe toate!… E desperat rău de tot… A venit momentul să-mi jertfesc barba şi să mă retrag din profesorat… regret că părăsesc această nobilă şi sfântă misiune, acest sublim apostolat, tocmai în ajun de-a căpăta şi eu gradaţie, dar nu mai e chip cu caracterul lui violent, atâta vreme năbuşit, după ce a fost opărit cu cafea fierbinte, omul acesta poate face explozie, să ne grăbim a-nlătura o nenorocire!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Şt… taci!</p>
           </sp>
           <stage>BALTAG:  (de-afară)</stage>
@@ -1582,13 +2072,21 @@
             <speaker>UNUL</speaker>
             <p>Aleu! m-a tras</p>
             <p>De păr, de nas!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Nu, nu te las!</p>
-            <p>UNUL:</p>
+            </sp>
+          <sp who="#unul">
+            <speaker>UNUL</speaker>
             <p>E cartea mea!</p>
-            <p>ALTUL:</p>
+            </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
             <p>Ba nu-i a ta!</p>
-            <p>UNUL:</p>
+            </sp>
+          <sp who="#unul">
+            <speaker>UNUL</speaker>
             <p>Spun lui papa!</p>
           </sp>
           <stage>UNII:  (râzând)</stage>
@@ -1597,7 +2095,9 @@
             <speaker>DASCĂLUL</speaker>
             <p>Ce nebunii!</p>
             <p>Dracii de copii!</p>
-            <p>COPIII:</p>
+            </sp>
+          <sp who="#copiii">
+            <speaker>COPIII</speaker>
             <p>Haha! haha! hihi! hi!</p>
           </sp>
           <stage>DASCĂLUL:  (vorbit)</stage>
@@ -1605,13 +2105,17 @@
             <speaker>COPIII</speaker>
             <p>Be-a-ba, be-e-be, ba, be, bi, bo, bu!</p>
             <stage> (bis) </stage>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>A! acuma înţeleg, în sfârşit, pe nenorocitul conte Ugolin. Am ajuns să deschiz la mine acasă Kindergarten, stabiliment de şcoală froebeliană. Eu, floarea vânătorilor, floarea băuto­rilor!… Stacane!… Unde eşti, să mă vezi şi să fii răzbunat! Iată în ce hal, în ce halat am ajuns! Halatul ăsta mă strânge de gât; scufia asta mă striveşte. Mă duc să-mi schimb îmbrăcămintea asta, care mă degradează, care mă înăduşă, mă duc să-mi pun vestmântul de viteaz, să mă cobor în pivniţă, şi acolo!</p>
             <stage> (s-aude corul de copii.) </stage>
             <p>Iar!…</p>
             <p>Repriză nr. 2</p>
             <stage> (Copiii ies răpede din stânga în fuga mare şi dă [sic] peste BALTAG) </stage>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>S-a sfârşit! E peste putinţă să mai merg înainte…O! jurământul meu!… Numai de mi-ar răspunde Stacan.</p>
             <stage> (iese răpede prin fund.) </stage>
             <p>Uf, mă duc să-mi schimb halatul!</p>
@@ -1622,17 +2126,29 @@
             <stage> (asemenea) </stage>
             <p>, ZULNIA</p>
             <stage> (prin fund) </stage>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>S-a dus?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>S-a dus.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Omul ăsta e în adevăr desperat.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Ei, pare că n-ar avea de ce?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Mi-e frică să nu se întâmple ceva rău!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>N-ai teamă, cheamă pe Sotir, strânge toţi oamenii din curte, pe Pleaşcă, Duşcă, Buduşcă, fără zgomot. Astă-sară trebuie să-i lămurim situaţia. Nu spune nimica Zulniei, arată-i numai că e vorba de o mare primejdie pentru Baltag, să ne urmeze şi să tacă. Mă însărcinez eu să le pun la cale toate, ca să încheiem comedia asta într-un chip aşa, încât să mulţămim pe toată lumea… St…</p>
           </sp>
           <stage>ZULNIA:  (de-afară)</stage>
@@ -1646,101 +2162,161 @@
             <speaker>ZULNIA</speaker>
             <p>A! d-ta eşti, mătuşică, nu te vedeam. A! mi-am uitat cheile.</p>
             <stage> (vrea să plece.) </stage>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Zulnio, stăi!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Pentru ce?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Momentele sunt grave, Zulnio!</p>
           </sp>
           <stage>STACAN:  (o-nlătură)</stage>
           <sp who="#zulnia">
             <speaker>ZULNIA</speaker>
             <p>Cum dascăle, soro?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Adică, voiam să zic… Cucoană Arghiriţă… Este vorba de-o… de-o surpriză.</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Ce surpriză?</p>
             <p>STACAN şi ARGHIRIŢA:</p>
             <p>E vorba de…</p>
             <p>Nr. 3</p>
             <p>Quator</p>
             <p>BALTAG – ZULNIA – ARGHIRIŢA – STACAN</p>
-            <p>ZULNIA – ARGHIRIŢA – STACAN:</p>
+            </sp>
+          <sp who="#zulnia_arghirita_stacan">
+            <speaker>ZULNIA – ARGHIRIŢA – STACAN</speaker>
             <p>Halatul şi-a schimbat!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Halatul mi-am schimbat!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Ce oare s-a-ntâmplat?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu mai sunt în halat!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Ce văz?</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Ce să cred, nu ştiu, zău!</p>
             <p>Ce ţi-a venit în gând a-ţi pune</p>
             <p>Costumul ăsta de muzeu?</p>
             <p>Unde te duci? ia spune!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Mă duc, mă duc…</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Secret! Mister!</p>
             <p>Acest costum de cavaler!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Ce e?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu spun.</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Secret! Mister!</p>
           </sp>
           <stage>BALTAG:  (aparte)</stage>
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Nu spun.</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Spune!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu spun!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Eşti nebun,</p>
             <p>Ăi fi vrând</p>
             <p>Ceartă iar! Spune curând.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Ei da! de vreţi a şti secretul,</p>
             <p>M-am dichisit, mi-am dat perdaf,</p>
             <p>Căci voi să merg la fotograf,</p>
             <p>Să-mi scot şi eu portretul!</p>
             <p>Ensemble</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>M-am dichisit, mi-am dat perdaf,</p>
             <p>Căci voi să merg la fotograf!</p>
-            <p>ZULNIA–ARGHIRIŢA–STACAN:</p>
+            </sp>
+          <sp who="#zulniaarghiritastacan">
+            <speaker>ZULNIA–ARGHIRIŢA–STACAN</speaker>
             <p>S-a dichisit, şi-a dat perdaf,</p>
             <p>Şi merge drept la fotograf.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>În halat şi în papuci,</p>
             <p>La fotograf să te duci</p>
             <p>Interzis e absolut,</p>
             <p>Ş-astfel dar cum aţi văzut.</p>
             <p>Ensemble</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>În halat şi în papuci,</p>
             <p>La fotograf să te duci</p>
             <p>Interzis e absolut,</p>
             <p>Ş-astfel dar cum aţi văzut.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Halatul mi-am schimbat!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Halatul şi-a schimbat!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu mai sunt în halat!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Nu mai e în halat!</p>
             <p>Ensemble</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>M-am dichisit, mi-am dat perdaf,</p>
             <p>Adio, merg la fotograf!</p>
-            <p>ZULNIA–ARGHIRIŢA–STACAN:</p>
+            </sp>
+          <sp who="#zulniaarghiritastacan">
+            <speaker>ZULNIA–ARGHIRIŢA–STACAN</speaker>
             <p>Te-ai dichisit, ţi-ai dat perdaf,</p>
             <p>Te du de-acu la fotograf!</p>
             <p>Tabloul V</p>
@@ -1749,51 +2325,77 @@
             <p>Ensemble</p>
             <p>ZULNIA–ARGHIRIŢA–STACAN–PLEAŞCĂ–</p>
             <p>DUŞCĂ–BUDUŞCĂ–SOTIR–CORUL</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (misterios) </stage>
             <p>Aci, aci v-apropiaţi</p>
             <p>Cu pas uşor, discret,</p>
             <p>Tot pe şoptite-naintaţi,</p>
             <p>Încet, încet, încet!</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>V-ascundeţi toţi şi aşteptaţi</p>
             <p>Să nu crâcniţi! să nu mişcaţi!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Veniţi degrabă-ncoace</p>
             <p>Pe după poloboace.</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Aidem degrabă-ncoace</p>
             <p>Pe după poloboace.</p>
             <p>Pst! pst! pst! pst!</p>
-            <p>ARGHIRIŢA–ZULNIA–STACAN:</p>
+            </sp>
+          <sp who="#arghiritazulniastacan">
+            <speaker>ARGHIRIŢA–ZULNIA–STACAN</speaker>
             <p>Şi nu uitaţi</p>
             <p>Că intrigaţi.</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Să nu uităm</p>
             <p>Că intrigăm!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (foarte misterios) </stage>
             <p>Tot pe tăcute-ncetişor</p>
             <p>Cu pas domol călcaţi:</p>
             <p>Mai uşurel, mai bineşor,</p>
             <p>Cu toţi v-apropiaţi!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>V-ascundeţi toţi pe după buţi</p>
             <p>Şi staţi ca nişte muţi.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Veniţi degrabă-ncoace</p>
             <p>Pe după poloboace!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Aidem degrabă-ncoace</p>
             <p>Pe după poloboace!</p>
             <p>Pst! pst! pst! pst!</p>
-            <p>ARGHIRIŢA – ZULNIA – STACAN:</p>
+            </sp>
+          <sp who="#arghirita_zulnia_stacan">
+            <speaker>ARGHIRIŢA – ZULNIA – STACAN</speaker>
             <p>Şi nu uitaţi</p>
             <p>Că intrigaţi!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <p>Să nu uităm</p>
             <p>Că intrigăm!</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (foarte misterios) </stage>
             <p>Repriză</p>
             <p>Aci, aci v-apropiaţi</p>
@@ -1804,7 +2406,9 @@
             <p>Nr. 5</p>
             <p>Mare scenă şi arie – BALTAG – Duo – BALTAG –STACAN –</p>
             <p>Mare ensemble final – TOŢI</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>O! ce plăcere mare</p>
             <p>În propria-mi pivniţă din nou să mă găsesc!</p>
             <p>Capu-mi se luminează, ochii-mi se limpezesc…</p>
@@ -1852,74 +2456,112 @@
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Cum?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Şi în ceriul falnic</p>
             <p>Şi-n iadul cel de foc,</p>
             <p>Petrecerea-i pocită,</p>
             <p>Nu ai deloc Cotnar:</p>
             <p>Jos, smoală clocotită,</p>
             <p>Sus, sarbădul nectar.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Nu-i bine-n ceea lume?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>E prost, de tot e prost:</p>
             <p>Nici vin, nici râs, nici glume,</p>
             <p>Nu are nici un rost.</p>
             <p>E mult mai mare hazul</p>
             <p>Să stai în lumea ta.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Dar viaţa cu necazul…</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>O poţi împreuna</p>
             <p>Cu cheful cel mai vajnic,</p>
             <p>Petreceri şi vânat…</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Dar jurământu-mi straşnic,</p>
             <p>Cu care m-am legat?</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Etern nimic nu ţine,</p>
             <p>Ia-ţi vorba înapoi:</p>
             <p>Fii soţ cum se cuvine</p>
             <p>Şi vânător de soi!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>O! umbră străvezie,</p>
             <p>Din nou curaj mi-ai dat!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Şi tu odată mie</p>
             <p>Viaţa mi-ai scăpat.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Îţi am recunoştinţă,</p>
             <p>Cât sunt de fericit!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Să-ţi fie cu priinţă,</p>
             <p>Acuma suntem chit.</p>
             <p>Ensemble</p>
           </sp>
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Pe-al vieţii drum		Pe-al vieţii drum</p>
             <p>Mă-ntorc acum.		Se-ntoarce-acum,</p>
             <p>Sunt fericit,			E fericit,</p>
             <p>Întinerit!			Şi suntem chit!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Veniţi degrabă-ncoace</p>
             <p>De după poloboace.</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (venind răpede din fund) </stage>
             <p>Pst! Pst!</p>
             <p>Venim degrabă-ncoace</p>
             <p>De după poloboace!</p>
-            <p>ZULNIA:</p>
+            </sp>
+          <sp who="#zulnia">
+            <speaker>ZULNIA</speaker>
             <p>Bărbatul meu iubit!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Iubita mea soţie!</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Leşinul e oprit.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (vorbit) </stage>
             <p>Are cine s-o ţie.</p>
-            <p>TOŢI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (Ensemble) </stage>
             <p>Ce fericire! Ce noroc!</p>
             <p>Suntem cu toţii la un loc,</p>
@@ -1929,15 +2571,25 @@
             <p>Stacan, mătuşe şi nepoţi,</p>
             <p>De-ocaziune profităm</p>
             <p>Şi stante-pede ne-mpăcăm!</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>E un vis! Zulnia! copiii mei! Arghiriţa! umbra străvezie!… Nu eşti mort.</p>
-            <p>STACAN:</p>
+            </sp>
+          <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>În toată viaţa mea n-am fost mort.</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Ce-nsemnează?</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+          <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Însemnează că dascălul nostru…</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Care dascăl?</p>
           </sp>
           <stage>STACAN:  (îşi rupe barba)</stage>
@@ -1945,34 +2597,50 @@
           <sp who="#zulnia">
             <speaker>ZULNIA</speaker>
             <p>Şi voiai, răutăciosule, să mă laşi văduvă?</p>
-            <p>BALTAG:</p>
+            </sp>
+          <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Fugi de-acolo, era o glumă.</p>
           </sp>
           <stage>ZULNIA:  (râzând)</stage>
           <sp who="#baltag">
             <speaker>BALTAG</speaker>
             <p>Asta nu se mai poate, de azi încolo, le păstrez numai eu… adică nu eu… Comise Stacan, ţine-ţi cheile: vrei să fii ca şi mai nainte, pe vinuri căpitan?</p>
-            <p>STACAN:</p>
+            </sp>
+        <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Cu bucurie.</p>
             <stage> (solemn Arghiriţei.) </stage>
             <p>Cucoană Arghiriţă, a venit în sfârşit ceasul, să ne legalizăm şi noi slăbiciunile.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+        <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <p>Arhon Comise, eu nu sunt de capul meu, cere-mi mâna de la nepotul meu!</p>
-            <p>STACAN:</p>
+            </sp>
+        <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Hatmane, îţi cer mâna.</p>
             <stage> (arată pe Arghiriţa… încet lui Baltag.) </stage>
             <p>Viespii bătrâne!</p>
-            <p>BALTAG:</p>
+            </sp>
+        <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>St… dacă mătuşica vrea… cu plăcere.</p>
-            <p>ARGHIRIŢA:</p>
+            </sp>
+        <sp who="#arghirita">
+            <speaker>ARGHIRIŢA</speaker>
             <stage> (ruşinoasă) </stage>
             <p>Eu nu am altă voinţă, decât voinţa familiei!</p>
-            <p>BALTAG:</p>
+            </sp>
+        <sp who="#baltag">
+            <speaker>BALTAG</speaker>
             <p>Zulnio, dă-i binecuvântarea ta mătuşichii.</p>
             <p>Ensemble</p>
             <p>Repriză</p>
             <p>Ce fericire! Ce noroc! etc.</p>
-            <p>STACAN:</p>
+            </sp>
+        <sp who="#stacan">
+            <speaker>STACAN</speaker>
             <p>Daţi stacanele!</p>
             <stage> (se aduc, toţi bea.) </stage>
             <p>E soarta blăstemată</p>
@@ -1983,7 +2651,9 @@
             <p>Umpleţi stacanul meu,</p>
             <p>Să uit necazul, chinul,</p>
             <p>Să beau, să beau mereu.</p>
-            <p>TOŢI:</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOŢI</speaker>
             <stage> (bând) </stage>
             <p>Trăiască vinul, vinul etc.</p>
             <p>Să bem! Să bem!</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000034" xml:lang="ro">
   <teiHeader>
@@ -226,7 +226,9 @@
             <speaker>FLORIN</speaker>
             <p>Fa, Florică, draga mea,</p>
             <p>Parcă ești o viorea!</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Măi, Florine, dragul meu,</p>
             <p>Parcă ești un paraleu!</p>
             <stage> (Împreună.) </stage>
@@ -351,9 +353,11 @@
           <sp who="#florica">
             <speaker>FLORICA</speaker>
             <p>Ba nu, am să te țin aici păn’ disară.</p>
-            <p>FLORIN</p>
+            </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
             <stage> (mînios) </stage>
-            <p>: Aici? în coarnele țăpoiului?</p>
+            <p>Aici? în coarnele țăpoiului?</p>
           </sp>
           <sp who="#florica">
             <speaker>FLORICA</speaker>
@@ -490,7 +494,9 @@
             <speaker>FLORICA</speaker>
             <p>Vreu. Dă, începe și cruce-agiută.</p>
             <stage> (Arie nouă) </stage>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Pa, vu, ga, de, ni, ghe, pa!</p>
             <p>Mult îmi place a cînta</p>
             <p>Și clopotele-a suna:</p>
@@ -833,12 +839,16 @@
             <p>Ie sama, fa, să nu strici lichimbariu.</p>
             <stage> (Arie din „Baba Hîrca”) </stage>
             <stage> (Împreună.) </stage>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Lega-s-ar dracii de tine,</p>
             <p>Nătăfleț făr’ de rușine.</p>
             <p>Am să sfărm cu ist ciubuc</p>
             <p>Capul tău cel prost de cuc.</p>
-            <p>FLORIN:</p>
+            </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
             <p>Fa, Florico, da șezi bine,</p>
             <p>Șezi, nu te lega de mine;</p>
             <p>Că muierii [-i] este dat</p>
@@ -1167,31 +1177,57 @@
           <sp who="#colivescu">
             <speaker>COLIVESCU</speaker>
             <p>Sufletu-mi varsă venin,</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florin!</p>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Fie-ți milă de-al meu chin!</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florin!</p>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Că-s un biet băiet străin.</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florin!</p>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Florico, floare de crin…</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florin!</p>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Pentru tine-amar suspin!</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florini</p>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Ah! eu ție mă închin;</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florin!</p>
-            <p>COLIVESCU:</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
             <p>Dă-mi mîna și zi: Amin!</p>
-            <p>FLORICA:</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
             <p>Sărmanul Florin!</p>
           </sp>
           <sp who="#colivescu">
@@ -1342,7 +1378,9 @@
           <sp who="#colivescu">
             <speaker>COLIVESCU</speaker>
             <p>Ba, foarte-ți mulțămesc! M-am făcut militari… militari rămîn, pentru ca să trăim tustrii la un loc, ca niște frați buni. Vreți?</p>
-            <p>FLORIN, FLORICA:</p>
+            </sp>
+          <sp who="#florin #florica">
+            <speaker>FLORIN, FLORICA</speaker>
             <stage> (dîndu-i mîna) </stage>
             <p>Vrem din toată inima.</p>
           </sp>
@@ -1366,7 +1404,9 @@
             <p>Unul chiar în contra doi.</p>
             <p>Vivat, mîndră ca o ste,</p>
             <p>Vivat țara me!</p>
-            <p>TOȚI:</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ne vom duce la război,</p>
             <p>Unul chiar în contra doi.</p>
             <p>Vivat, mîndră ca o ste,</p>
@@ -1383,7 +1423,9 @@
             <p>Rămîi, țară, cu noroc!</p>
             <p>Vivat, mîndră ca o ste,</p>
             <p>Vivat țara me!</p>
-            <p>TOȚI:</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
             <p>Ș-om striga murind în foc:</p>
             <p>Rămîi, țară, cu noroci</p>
             <p>Vivat, mîndră ca o ste,</p>
