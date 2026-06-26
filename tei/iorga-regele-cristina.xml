@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000077" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Regele Cristina</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Regele_Cristina_-_dramă_în_cinci_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1939">
+            <desc>1939</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="cristina" sex="FEMALE">
+            <persName>CRISTINA</persName>
+          </person>
+          <person xml:id="banner" sex="MALE">
+            <persName>GENERALUL BANNER</persName>
+          </person>
+          <person xml:id="torstenson" sex="MALE">
+            <persName>GENERALUL TORSTENSON</persName>
+          </person>
+          <person xml:id="wrangel" sex="MALE">
+            <persName>GENERALUL WRANGEL</persName>
+          </person>
+          <person xml:id="ministrul" sex="MALE">
+            <persName>MINISTRUL</persName>
+          </person>
+          <person xml:id="cancelarul" sex="MALE">
+            <persName>CANCELARUL</persName>
+          </person>
+          <person xml:id="ambasadorul" sex="MALE">
+            <persName>AMBASADORUL</persName>
+          </person>
+          <person xml:id="monaldeschi" sex="MALE">
+            <persName>MONALDESCHI</persName>
+          </person>
+          <person xml:id="monsignorele" sex="MALE">
+            <persName>MONSIGNORELE</persName>
+          </person>
+          <person xml:id="preotul" sex="MALE">
+            <persName>PREOTUL</persName>
+          </person>
+          <person xml:id="axel" sex="MALE">
+            <persName>AXEL</persName>
+          </person>
+          <person xml:id="scutarul" sex="MALE">
+            <persName>SCUTARUL</persName>
+          </person>
+          <person xml:id="camerista" sex="FEMALE">
+            <persName>CAMERISTA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000077"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Regele Cristina</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>CRISTINA</role>
+        </castItem>
+        <castItem>
+          <role>GENERALUL BANNER</role>
+        </castItem>
+        <castItem>
+          <role>GENERALUL TORSTENSON</role>
+        </castItem>
+        <castItem>
+          <role>GENERALUL WRANGEL</role>
+        </castItem>
+        <castItem>
+          <role>MINISTRUL</role>
+        </castItem>
+        <castItem>
+          <role>CANCELARUL</role>
+        </castItem>
+        <castItem>
+          <role>AMBASADORUL</role>
+        </castItem>
+        <castItem>
+          <role>MONALDESCHI</role>
+        </castItem>
+        <castItem>
+          <role>MONSIGNORELE</role>
+        </castItem>
+        <castItem>
+          <role>PREOTUL</role>
+        </castItem>
+        <castItem>
+          <role>AXEL</role>
+        </castItem>
+        <castItem>
+          <role>SCUTARUL</role>
+        </castItem>
+        <castItem>
+          <role>CAMERISTA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I-u</head>
+        <div type="scene" n="1">
+          <head>Scena I-iu</head>
+          <stage>GENERALII BANNER, TORSTENSON, WRANGEL</stage>
+          <sp who="#banner">
+            <speaker>BANNER</speaker>
+            <p>Sosit-au banii care-i trimite cardinalul?</p>
+            <p>TORSTENSON:</p>
+            <p>O, nu, nu cardinalul! Cu el n-avem nimic.</p>
+            <p>E Franţa care cere să-i dăm noi ajutorul,</p>
+            <p>Şi nu e pentru dânsa, ci pentru-a dărâma</p>
+            <p>Acest duşman al legii noastre, pe Ferdinand. Cât va trăi o urmă de vlagă-n acest trup</p>
+            <p>Ce şi-a lăsat pe câmpul de luptă părţile Jertfite întru cinstea credinţei-adevărate</p>
+            <p>Noi vom lupta cu dânsul, şi îl vom birui.</p>
+            <p>WRANGEL:</p>
+            <p>Frumos,	frumos ! Ce	mare-i	virtutea-ţi, camarade. Cu astfel de şefi armata ce mi s-a-ncredinţat</p>
+            <p>De cel care trăieşte în inimile noastre</p>
+            <p>Desigur va învinge. Dar, vezi, n-ajung eroi</p>
+            <p>Şi-o trupă devotată. Se cer şi bani: de unde?</p>
+            <p>Să spuie plătitorul de are înc-un rest</p>
+            <p>Ca să hrănească astă legiune sacr-a noastră!</p>
+            <p>PLĂTITORUL:</p>
+            <p>De ce-aş minţi? Din suma din urmă n-a rămas Decât ce-ar fi în stare s-aline suferinţa	.</p>
+            <p>Soldatului ce-şi cere cu zgomot dreptul lui. Francezii sunt la plată zăbavnici, cum li-i felul : Cer slujba devotată, martiriul şi-apoi</p>
+            <p>Când e ca datoria să-şî facă, uită totul.</p>
+            <p>Zadarnic scriu: departe-i acel ce ne-a momit</p>
+            <p>Să-i fim pentru izbânda lui însăşi ajutorul, Zădarnic cu unelte de-a lui ne socotim.</p>
+            <p>Asigură că-ndată primi-vom tot ce este</p>
+            <p>La dânşii rămăşiţă și-adaugă tot ce</p>
+            <p>Găsesc în limba dulce şi moale-a naţiei,</p>
+            <p>Dar casele sunt goale şi noi ne zbuciumăm Spre a găsi din pradă şi hapcă biata pâne</p>
+            <p>Cu care se nutreşte ostaşul cumpărat.</p>
+            <p>Eu nu mai pot; pe altul găsiţi să-mi ieie locul.</p>
+            <p>Mai bine rob la Turcii păgâni aş vrea să fiu Decât în legătură cu dânsul, cardinalul...</p>
+            <p>TORSTENSON:</p>
+            <p>Şi-atunci când merge totul aşa cum spune el,</p>
+            <p>Când ducem peste câmpii de-omor flămânzii noştri</p>
+            <p>Şi-i facem să-şi găsească taina în prădăciuni,</p>
+            <p>Ce fac acei ce poartă grija campaniei?...</p>
+            <stage> (către diplomaţi.) </stage>
+            <p>Eu mă îndrept spre dânşii : raportul au să-şi dea.</p>
+            <p>Suntem noi oare-n suflet mai proşti ca ei, stăpânii</p>
+            <p>Prin bani ai luptei care o ducem pentru-ai lor,</p>
+            <p>Şi nu e cu putinţă să smulgem ce se cade?</p>
+            <p>Ori vă lăsaţi cu vorbe deşarte mângâiaţi?... Atunci...</p>
+            <p>BANNER:</p>
+            <p>Atunci mai bine să nu mai dăm răspunsul.</p>
+            <p>MINISTRUL:</p>
+            <p>Eu am făcut ce este întregul nostru rost...</p>
+            <p>BANNER:</p>
+            <p>Aţi scris ceva, şi alte scrisori le-aţi luat în schimb. Ori oastea se înşală cu astfel de pecete?</p>
+            <p>TORSTENSON:</p>
+            <p>Aşa, aşa... Mai bine politica o facem</p>
+            <p>Noi înșine cu-o vorbă ce are si urmări</p>
+            <p>Decât pe-un lucru care aşa de şubred e Întreaga jertf-a nostră să o mai sprijinim.</p>
+            <p>MINISTRUL:</p>
+            <p>Politica se face cu multă socoteală,</p>
+            <p>Şi sunt şi lucruri care prea bine le ştim noi, Dar nu se strigă-n lagăr, oricine să cunoască,</p>
+            <p>Şi mâine şi duşmanul să afle-orice secret</p>
+            <p>Va fi rău cardinalul, şi nu-s dator să-l apăr, Dar, dacă legătura cu dânsul am fi rupt,</p>
+            <p>Ar fi stăpân pe toată Germania împăratul</p>
+            <p>Al lui ar fi şi Rinul şi Dunărea întreagă, Biserica romană din nou s-ar instala...</p>
+            <p>TORSTENSON:</p>
+            <p>Biserica pe care noi înşine-o ţinem,</p>
+            <p>Când stăm supuşi în faţa aceluia ce e</p>
+            <p>Un prinţ între aceia ce sunt unealta Romei</p>
+            <p>Şi purpura i-o facem din sânge suedez...</p>
+            <p>Eu nu mai vreau a noastre sărmane cotonoage</p>
+            <p>Să fie în serviciul acestui om străin</p>
+            <p>Şi fără legătură cu noi şi ţara noastră...</p>
+            <p>MINISTRUL:</p>
+            <p>Nu este om în astă sfântă Suedie</p>
+            <p>Să nu ţi se închine, o Torstenson, căci eşti</p>
+            <p>Incomparabil simbol al vitejiei noastre,</p>
+            <p>Dar rostul lumii cere şi lucruri ce nu ştii Şi, pe lângă ştiinţă, şi altă pricepere.</p>
+            <p>Mă-ntorc spre lămurirea pe care o voiţi...</p>
+            <p>Când vulturul cel negru cu-aripa răşchirată Va fi şi în Viena şi-n Praga domnitor,</p>
+            <p>Atunci în zbor de pradă ajunge-va spre ţărmul Pe care prin atâtea sforţări l-am dobândit</p>
+            <p>Şi Baltica va trece-o avântu-i de pedeapsă. Atunci va fi aice un blestem cum n-a fost</p>
+            <p>Din vremea când, oriunde, sub regele Cristian,</p>
+            <p>Ardeau pe rug ai noştri, bătrânii luterani,</p>
+            <p>Şi din palatu-n care stătut-a Gustav Vasa,</p>
+            <p>Din locul de la care a pornit războiul sfânt</p>
+            <p>Al crezului reformei, cu-al nostru Gustav Adolf, Se va rosti osânda asupra tuturor.</p>
+            <p>Se-mpiedecă de haina ce-o poartă cardinalul</p>
+            <p>Şi nu pot să găsească aceia ce-i mai sus</p>
+            <p>De oameni şi de orice mai joasă dosebire... Fiţi siguri că ostaşii nu vor muri flămânzi,</p>
+            <p>Şi este-n ei atâta încredere-n voi, şefii,</p>
+            <p>Ca să nu se desfacă, nemernici mercenari,</p>
+            <p>De steagul care este stropit cu-atâta sânge</p>
+            <p>Şi sub ai cărui falduri murir-atâţi viteji. Avântul e al nostru, şi patima aprinsă:</p>
+            <p>Cu această biruinţă o smulgeţi în războiu,</p>
+            <p>Dar noi avem în pază atâtea interese</p>
+            <p>Cu-a căror slujbă dreaptă noi ne simţim datori</p>
+            <p>Şi faţă de copila în care-i întrupată.</p>
+            <p>Suedia...</p>
+            <stage> (se ridică toţi) </stage>
+            <p>GLASURI:</p>
+            <p>Cristina trăiască-ntru mulţi ani!</p>
+            <p>MINISTRUL:</p>
+            <p>Aşa! Peste oricare a noastre osebiri,</p>
+            <p>E dânsa, e urmaşa eroului, ea însăşi, Menită să arate în lume că nu e</p>
+            <p>Legată vitejia de noi, bărbaţii, singuri,</p>
+            <p>Ci că o amazonă nouă se va ivi</p>
+            <p>În ţara-n care orice fiinţă ştie lupta.</p>
+            <p>Vă las... în ce priveşte războiul viitor,</p>
+            <p>Ce trebuie să-nceapă cu floarea primăverii</p>
+            <p>Şi poate să ne ducă la vechiul nostru scop, Zdrobind această neagră şi tristă pajure</p>
+            <p>A Casei Imperiale şi farmecele Romei, Ajunge -nţelepciunea voastr- a ostaşilor.</p>
+            <p>Iar, pentru bani, să plece acolo la Paris</p>
+            <p>Nu un casier, ca punga tot goală s-o întoarcă, Speriat de strălucirea bogatului oraş,</p>
+            <p>Ci unul chiar din ceata acelor ce ţin oastea</p>
+            <p>Şi care, când e vorba de plată, ştiu lovi</p>
+            <p>Pe-acest mâner al spadei, ce-ar şti şi alte drumuri,</p>
+            <p>Deşi ni-i hotăra.rea pe-acest-a rămânea.</p>
+            <stage> (pleacă) </stage>
+            <p>BANNER:</p>
+            <p>De ce pe-acesta singur să mai stăm părăsiţi? Degeaba ni arată primejdii viitoare</p>
+            <p>Acela ce-ndoiala cată a coborî</p>
+            <p>În noi ce-avem răspunderi ce-ntrec oricare alta.</p>
+            <p>Ci să vorbim cum cere al nostru interes:</p>
+            <p>Al vostru, al oştirii, ce este şi al ţării.</p>
+            <p>Ori nu? Întreb pe-aceia ce sunt mai apropiaţi</p>
+            <p>De sufletul cui luptă şi suferă acuma,</p>
+            <p>Eu vă întreb: nu este în gândul tuturor</p>
+            <p>Că nu se poate astfel să mergem înainte?</p>
+            <p>PLĂTITORUL:</p>
+            <p>În ce priveşte banii, eu vă răspund că nu!</p>
+            <p>Armata o ucideţi, şi pierdeţi ţara voastră.</p>
+            <p>UN OFIŢER:</p>
+            <p>Şi-atunci ce vrei tu care de mult ne amăgeşti</p>
+            <p>Cu vorba: vrei să facem pace cu Împăratul?</p>
+            <p>TORSTENSON:</p>
+            <p>Ce pace-ar fi să facem: cu el, sau fie şi</p>
+            <p>Cu oricine pe lume? Dar nu mai ştiu ce-i pacea.</p>
+            <p>A fost odinioară pe lume şi-a murit.</p>
+            <p>Iar noi suntem ostaşii ce mergem dintr-o luptă.</p>
+            <p>În alta, şi atâta: învinşi, învingători,</p>
+            <p>Cum va voi şi soarta cu noi, până la moarte.</p>
+            <p>GLASURI:</p>
+            <p>Aşa, aşa, traiască moşneagul nostru  drag!</p>
+            <p>Cu Torstenson nainte şi până-n pânze albe!</p>
+            <p>WRANGEL:</p>
+            <p>Cuvântul ce pe buze ne stă de mult la toţi</p>
+            <p>L-ai spus tu, camarade şi călăuz al nostru.</p>
+            <p>Noi, noi sântem o oaste, şi-atât. E cineva</p>
+            <p>Să. spuie că ne este mai scump orice pe lume Decât această spadă şi strigătul de-asalt,</p>
+            <p>Şi-o bucurie care să-ntreacă. biruinţa,</p>
+            <p>Da, biruinţa însăşi şi contra orişicui,</p>
+            <p>Şi-a celui care astăzi nu ni e împotrivă?</p>
+            <p>GLASURI:</p>
+            <p>Şi-acelor care mâne ar fi în locul lor!</p>
+            <p>WRANGEL:</p>
+            <p>Aşa-i ? Temeiul este acesta, unul singur.</p>
+            <p>Şi poate cel ce vine spre a ne invita</p>
+            <p>La noi isprăvi, ba poate că şi mai fericite, Aduce punga plină şi o deschide larg...</p>
+            <stage> (strigăte de mulţămire) </stage>
+            <p>Ne va lega de dânsul mai strâns ca Francia Prin oameni cu mai bună credință ca acest</p>
+            <p>Om al credinţei care ne este împotrivă,</p>
+            <p>Acest rău platnic care se cheamă Richelieu.</p>
+            <p>Suntem aici în astă cinstită adunare</p>
+            <p>Spre-a lua o hotărâre, iar domnii diplomaţi</p>
+            <p>O vor afla când vremea de luptă s-a deschide. Nu-s mai bătran şi titlu nu am spre-a prezida,</p>
+            <p>Şi Torstenson mă ierte că iau un loc ce este</p>
+            <p>Al lui...</p>
+          </sp>
+          <sp who="#torstenson">
+            <speaker>TORSTENSON</speaker>
+            <stage> (se ridică.) </stage>
+            <p>Eu am, tovarăşi, un singur loc pe lume</p>
+            <p>Acolo unde moartea se-nfruntă vitejeşte,</p>
+            <p>Un singur loc, la care eu ţin, şi voi păzi.</p>
+            <p>Dar, dacă e: ca marfă să trecem de la unul</p>
+            <p>La altul şi obrazul acesta să-l pătăm,</p>
+            <p>Pe care cu credinţă primirăm rănile.</p>
+            <p>Să vie-n fruntea oştii oricine, însă nu</p>
+            <p>Acela care-alături a fost de Gustav-Adolf, De Gustav-Adolf care la nimeni n-a vândut Onoarea suedeză şi steagu-acest al nostru.</p>
+            <p>V-o spune asta vouă cari vă târguiţi,</p>
+            <p>Un om care în viaţă-i nu a ştiut ce-i banul,</p>
+            <p>Nici orişice răsplată, ci numai rostui 1ui</p>
+            <p>De sacră datorie...</p>
+            <p>BANNER:</p>
+            <p>Aşa ai fost,  bătrâne, Şi de aceia nu e un om care n-ar vrea Să se închine ţie şi jertfelor făcute.</p>
+            <p>Dar fiecare vreme îşi are ale ei,</p>
+            <p>Şi, vezi, aşa e vremea de-acum, că ne pretinde</p>
+            <p>Să -nfrângem şi ce este în noi mai sfânt, ca să</p>
+            <p>Păstrăm această oaste, ce este moştenire</p>
+            <p>De la acela însuşi de care ai vorbit. Armata suedeză-i a noastră, şi noi înșine</p>
+            <p>Ai ei...</p>
+            <p>UN OFIŢER:</p>
+            <p>Ca Grecii care, supt vechiul Xenofont,</p>
+            <p>Rămaşi fără de ţintă, au luat în piept întreaga Barbara-mpărăţie a Perşilor şi-au mers,</p>
+            <p>Schimbând prietenia aşa cum cere timpul,</p>
+            <p>Pân ce au fost în faţa elenicei lor Mări.</p>
+            <p>Ne e departe Marea, şi noi dorim amicii</p>
+            <p>În stare să ne ţie vii până-n acel ceas</p>
+            <p>Când vom putea cu toţii, oprind isprava noastră</p>
+            <p>De multă biruinţă, să spunem: am ajuns..</p>
+            <p>ALT OFIŢER:</p>
+            <p>Şi eu prevăd şi clipa când, banii adunându-i, Frumoşii bani de aur, la care-atât râvnim,</p>
+            <p>Vom fi aduşi a spune: Traiască împăratul!</p>
+            <p>AL TREILEA OFIŢER:</p>
+            <p>Şi-atunci fără-ndoială vom fi atât de tari</p>
+            <p>Ca nimeni să nu creadă că poate să atingă Credinţa protestantă pe solul suedez.</p>
+            <p>WRANGEL:</p>
+            <p>Vă văd pe cale bună.. Nu face omul ceia Ce vrea, ci, îngrijindu-şi întreaga datorie, Se uită şi pe-alături şi, când e lămurit</p>
+            <p>Că nu-i mai sunt prieteni aceia chiar cu care Legat-a învoială, spre a se conserva</p>
+            <p>De unii şi de alţii cu tot atâta cinste,</p>
+            <p>Se-ndreaptă-n partea care-i îngăduie-a trăi,</p>
+            <p>Şi totuşi nu înseamnă că şi-a vândut credinţa.</p>
+            <p>Acuma hotărârea se cere s-o-nsemnăm</p>
+            <p>În scris, ca să se ştie din vremea cuvenită</p>
+            <p>Şi la Paris ce este voinţa tuturor...</p>
+            <p>TORSTENSON:</p>
+            <p>A mea, nu! ... Căutaţi-mi un loc spre a muri</p>
+            <p>De rănile din trupu-mi, şi de aceasta nouă.</p>
+            <p>WRANGEL:</p>
+            <p>Înseamnă., secretare: ,,Consiliul de război</p>
+            <p>Din Stockholm, după lungă, serioasă cercetare,</p>
+            <p>Găsi că nu se poate de-acum a mai lupta</p>
+            <p>Alături cu aceia ce nu-şi ţin învoiala,</p>
+            <p>Si astfel nu urmează a se mai urmări</p>
+            <p>În noua primăvară. tot pe aceeaşi cale.</p>
+            <p>S-a rupt tratatul care-i lipsit de-înţeles,</p>
+            <p>De vreme ce subsidii de mult nu mai veniră.</p>
+            <p>Dar oastea o păstrează....</p>
+            <p>GLASURI:</p>
+            <p>Da, da!</p>
+            <p>WRANGEL:</p>
+            <p>...precum a fost,</p>
+            <p>Îndeamnă pe ostaşii isprăvilor trecute</p>
+            <p>Să nu se-ndepărteze de-un steag învingător.</p>
+            <p>El este-n stare oricui să-i deie biruinţa,</p>
+            <p>O dreaptă socoteală cinstită aşteptând.”</p>
+            <p>GLASURI:</p>
+            <p>Suntem gata cu toţii să dăm iscălitura.</p>
+            <p>O, iartă-ne tu care rămâi în alte vremi: Nevoile de astăzi adusu-ne-au aice.</p>
+            <p>Pe alte căi, pe tine în inimă te-avem.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a.</head>
+          <stage>ACEIAŞI, CRISTINA</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Pe cinee oare-l vindeţi, stăpâni ai oştii mele?</p>
+            <stage> (tăcere.) </stage>
+            <p>Ori	voi, ostaşi din ceata glorioasă de pe vremi, Pierdut-aţi graiul? Nimeni nu vine să-mi arăte Cum s-a pierdut credinţa acestui brav popor,</p>
+            <p>De n-a rămas o altă grijă decât a plăţii?</p>
+            <p>Tu, Wrangel, care-n fruntea  trădării te aşezi...</p>
+            <p>WRANGEL:</p>
+            <p>Nu sufăr, Maiestate, insulta de la nimeni.</p>
+            <p>CRISTINA:</p>
+            <p>Mai sus ca orice „nimeni”, să ştii că încă stă</p>
+            <p>Coroana care fruntea mea o împodobeşte...</p>
+            <p>GLASURI:</p>
+            <p>Coroana  suedeză  rămâie -ntru  mulţi  ani!..</p>
+            <p>CRISTINA:</p>
+            <p>Coroana sacră care face dintr-un copil,</p>
+            <p>Dintr-o femeie care abia priveşte-n lume, Urmaşa celor cari au fost regi scandinavi</p>
+            <p>De-a căror vitejie s-a spăimântat o lume. Coroana asta, care mai mult e ca voi toţi,</p>
+            <p>Şi ca biruitorii celor mai mândre zile,</p>
+            <p>În care biruinţa nu aţi avut-o voi...</p>
+            <p>BANNER:</p>
+            <p>Dar rănile acestea a cui sunt, Maiestate?</p>
+            <p>CRISTINA:</p>
+            <p>Aveţi nevoie oare s-o spun la vrâsta mea? În trupul vostru rana intră; dar lovitura Căta să întâlnească însăşi Suedia,</p>
+            <p>Şi ea a fost aceia ce s-a împotrivit</p>
+            <p>Şi v-a scăpat viaţa, păstrând glorioasa urma</p>
+            <p>În care nu e alta decât pecetea ei.</p>
+            <p>E timbrul pus în carne al patriei, şi-atâta</p>
+            <p>Aşa, aşa, v-o spun eu, o, mândri condottieri...</p>
+            <p>BANNER:</p>
+            <p>Noi nu suntem vânduţii ce-i crezi, stăpân a noastră!</p>
+            <p>CRISTINA:</p>
+            <p>Şi ce vă mai lipseşte spre-a fi de fapt vânduţi? Vânzarea nu e-n mâna ce cată să iea banul,</p>
+            <p>Ci -n însăşi hotărârea ca banul să-l primiţi.</p>
+            <p>Ruşine să vă fie, o, oameni ai onoarei! Ruşine, şi zădarnic supt palmă fremătaţi!</p>
+            <p>V-o dă nu o copilă ca mine, ci acela</p>
+            <p>Ce este-n clipa asta aice, peste noi,</p>
+            <p>Plecaţi-vă -n genunche, căci dânsul vă vorbeşte. Tu, Torstenson, genunchii de mult ţi i-ai lăsat</p>
+            <p>Pe câmpul de bătaie spre care nu vrei astăzi Să te întorci în rostul urât de trădător.</p>
+            <p>Voi, ceilalţi în genunche! O cere Gustav-Adolf.</p>
+            <stage> (Fără voie cad în genunchi.) </stage>
+            <p>El este-aici de faţă. Cum nu-l simţiţi în voi, Aşa cum Alexandru cel Mare din mormântu-i Venea să presideze soborul ostăşesc</p>
+            <p>Al celor ce supt dânsul ştiură gloria?</p>
+            <p>El este-aici. O, tată, şi eu stau în genunchi.</p>
+            <p>Şi ce spun este numai ce-mi strecori tu în şoaptă:</p>
+            <stage> (ca după inspiraţia tatălui.) </stage>
+            <p>„O, şefi măreţi ai oştii ce nu-şi are egal</p>
+            <p>Pe nimeni, spada voastră păstraţi-v-o curată! Flămânzi şi goi, voi ţara să nu o pângăriţi, Nici rasa minunată care v-a dat viață.</p>
+            <p>N-aveţi un rost al vostru, nu vi-i îngăduit</p>
+            <p>Să vă gândiţi la dânsul. Cei vechi trăiau în trupul</p>
+            <p>Ce-mbracă amintirea, şi dânşii au perit,</p>
+            <p>Dar veşnic alte trupuri veni-vor s-o îmbrace. Cuvântul  vostru este neatârnat de cei</p>
+            <p>Cari,au primit odată a voastr-asigurare.</p>
+            <p>Nu vă clintiţi de vântul pasiunii şi nu daţi Onoarea voastră jertfă nevoii care trece,</p>
+            <p>Şi, dacă n-a vrut soarta să am un fiu ostaş.”</p>
+            <p>-	Ce blăstăm pentru mine să fiu doar o regină</p>
+            <p>Şi o copilă care învaţă a trăi?</p>
+            <p>,,Cobor întreaga-mi voie în singura-mi mlădiţă. Mă veţi găsi într-însa oricând mă pomeniţi</p>
+            <p>Şi mă doriţi pe mine în fruntea oştilor.”</p>
+            <p>... Şi-acum, hârtia rupe-o şi arde-o, secretare. Juraţi ca Gustav Adolf să fie-al vostru domn,</p>
+            <p>De-ar fi ca oastea-ntreagă să piară-n suferinţă!</p>
+            <p>GLASURI:</p>
+            <p>Jurăm, stăpân-a noastră, jurăm cu orice preţ!</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (sărută pe Torstenson.) </stage>
+            <p>Voinţa strămoşească în tine,  biruit-a ....</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II--lea</head>
+        <div type="scene" n="1">
+          <head>Scena I-iu.</head>
+          <stage>(PALATUL  REGAL DIN STOCKHOLM)</stage>
+          <stage>O CAMERIST Ă, SCUTARUL</stage>
+          <sp who="#camerista">
+            <speaker>CAMERISTA</speaker>
+            <p>S-a dus... Ce o aşteaptă în sala aceia mare În care-altfel de oameni au fost încoronaţi Cu o coroană care e binecuvântată</p>
+            <p>De Domnul cărui ţara-i aduce-adevărat Serviciul după norma cea evangelică, Străină de-un adaus catolic sacrileg?</p>
+            <p>Mi-a spus să stau aice, s-aştept până se-ntoarce.</p>
+            <p>Sunt tainele-i, pe care doar cei mai credincioşi</p>
+            <p>Au drept să le cunoască în ceasul de schimbare.</p>
+            <p>Şi ce-aş fi vrut ca însumi să văd acel moment</p>
+            <p>În care, din copila în sama mea lăsată, Suediei un rege glorios i se va da...</p>
+            <p>Am fost la Gustav Adolf să văd încoronarea.</p>
+            <p>Părea că-n altă lume mutată mă găseam:</p>
+            <p>Cântau din psalmi urarea domniei ce se-ncepe</p>
+            <p>Şi săbiile scoase-ntre ele se ciocneau.</p>
+            <p>Ce mândru era domnul cel nou ce cu atâta Iubite stăpânirea-i vestită o pornea!</p>
+            <p>Simţeam că biruinţa-i în steagurile sale,</p>
+            <p>Că patria mărită prin fapta sa va fi,</p>
+            <p>Dar nouri grei pe frunte-i treceau: parcă sfârşitul</p>
+            <p>Î n ziua triumfală i se înfăţişa:</p>
+            <p>Biruitor în sânge scăldat fără de vreme.</p>
+            <p>Şi-acuma ea, micuţa, sfinţită-i ca erou</p>
+            <p>Şi e datoare toate eroic să le facă...</p>
+            <p>Un	eroism ce nu e acel pentru femei,</p>
+            <p>Ce nasc şi cresc şi sufăr în fiecare clipă,</p>
+            <p>Când chinul lor şi grija din zilele ce trec, Îngăduie să fie eroici soţii, fiii.</p>
+            <p>SCUTARUL:</p>
+            <p>Dar am crescut-o astfel de poate birui</p>
+            <p>În orice încercare cel mai bărbat din oameni.</p>
+            <p>Ce mândru călăreşte, ce iute-i la vânat,</p>
+            <p>Ce sigur îi e braţul când puşca mânuieşte.</p>
+            <p>Îi este într-o nimica pe ape a-nota.</p>
+            <p>Noi vom avea un rege, un rege-nadevăr,</p>
+            <p>Şi nu o muiercuţă cum aţi voit s-o faceţi. Așa voit-a însuși acela ce a fost</p>
+            <p>Un rege cum vreun altul în veci nu se va naşte.</p>
+            <p>A spus, ţiind pe braţe copila la botez:</p>
+            <p>,,Eu vă asigur, dânsa va fi ca mine rege,</p>
+            <p>Şi-o veţi avea ca rege în frunte orişicând”,</p>
+            <p>Și cu aceasta suflet din el vărsă într-însa. Aşa, aşa, copila ce-a fost, s-a isprăvit.</p>
+            <p>Voiţi s-o plângeţi, bine, că este şi pricină,</p>
+            <p>Dar ce-aţi voit să faceţi din ea-n zădar v-a fost.</p>
+            <p>Să ştii că pe această femeie minunată</p>
+            <p>O veţi vedea şi-n luptă oştirea comandând,</p>
+            <p>Şi pentru cârma ţării e braţul ei destoinic.</p>
+            <p>CAMERISTA:</p>
+            <p>Dar armele-i le strângeţi. Căci n-o s-o mai aveţi Tovarăşă deplină, mergând la vânătoare.</p>
+            <p>Regina cere alte deprinderi, şi va fi</p>
+            <p>Şi greu în ce priveşte o viaţă ca aceasta,</p>
+            <p>Cum, poate ai dreptate, ea nu va mai găsi</p>
+            <p>În grijile domniei un ceas să ni arate</p>
+            <p>Că este-n al ei suflet un farmec femeiesc.</p>
+            <p>Ce zici? Mai bine-i parcă de noi decât de dânsa.</p>
+            <p>SCUTARUL:</p>
+            <p>Dar clopotele sună. Se pare că a luat</p>
+            <p>Sfârşit întreaga slujbă, că deci ea se întoarce.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena a II-a.</head>
+          <stage>CEI DE SUS, CRISTINA</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (către cei ce-o însoţesc.) </stage>
+            <p>Destul îmi e alaiul. Regină aţi voit</p>
+            <p>Şi aţi avut regină. Mi-oi face datoria</p>
+            <p>Aşa cum cere rostul acestui sfânt regat.</p>
+            <p>O, veţi simţi că este şi mintea să gândească</p>
+            <p>Şi braţul să domine orice împotriviri!</p>
+            <p>Acuma-s obosită... Aş vrea să fiu eu iarăşi: Eu cea care încă și ieri trăia m așa</p>
+            <p>Cum îmi cerea şi voia şi aspra-mi datorie</p>
+            <p>Şi m-ascundeam ca firea femeii s-o păstrez</p>
+            <p>În ceasurile-n care mă mai lăsam învinsă...</p>
+            <p>Lăsaţi-mă o clipă, ostaşi şi consilieri,</p>
+            <p>Şi-apoi voi fi a voastră în tot ce se cuvine.</p>
+            <stage> (Suita se depărtează. Cristina recunoaşte pe cei doi.) </stage>
+            <p>Aşa, acum a voastră pot fi, şi amândoi Mă veţi avea o clipă. Atâta: ultima.</p>
+            <p>Cu purpura pe umeri mi-au pus, nemilostivii,</p>
+            <p>Şi sarcina pe care-s da toare să o ţin</p>
+            <p>Atât de neclintită în orice-mprejurare,</p>
+            <p>3</p>
+            <p>Încât să nu se plângă acest popor al meu</p>
+            <p>Că-n fruntea lui nu are-un bărbat ca să-l conducă.</p>
+            <stage> (Spre cameristă) </stage>
+            <p>Nu ne-om vedea de astăzi, decât arare ori,</p>
+            <p>Tu care, lângă mama ce-a fost din voia sorţii Şi lânga cea pe care mi-a dat-o imperios</p>
+            <p>Această ţară care mă vrea cum îi e voia,</p>
+            <p>Mi-ai fost cea mai de-aproape şi cea</p>
+            <p>cu mai bun gând...</p>
+            <p>Reginei îi vei cere de-acum să te primească La zile hotărîte şi-n mijloc de curteni.</p>
+            <p>Acum doar sunt cea veche şi te iubesc tot astfel...</p>
+            <p>Ci zi, ce vrei să capeţi spre a te răsplăti</p>
+            <p>Din mila nesfârşită a Maiestăţii Mele?</p>
+            <p>CAMERISTĂ:</p>
+            <p>Dar n-am nicio nevoie şi nicio lipsă n-am Decât aceia care nu poate să dispară:</p>
+            <p>Te-am vrut pe tine, astăzi nu te mai pot avea Decât la ceasu-n care te-aduce-nchipuirea.</p>
+            <p>Şi-atunci, tu la războaie vei fi şi şi-n judecăţi,</p>
+            <p>Vei sta pe-un jeţ mai mare decât a noastre toate:</p>
+            <p>Suflat va fi cu aur şi-n el săpat va sta</p>
+            <p>Acel herb venerabil al ţării suedeze,</p>
+            <p>Ci tu, păşind cu pasul mărunt, dar apăsat,</p>
+            <p>Al celei fără tată, ce-şi cat-un drum în viaţă,</p>
+            <p>Te vei întoarce iarăşi aici, şi iar vei sta</p>
+            <p>În locul unde-atâta de mult mi-ai fost alături,</p>
+            <p>Şi vom vorbi de multe ce-au fost şi de atâtea</p>
+            <p>Din lucrurile care năvală dau la regi</p>
+            <p>Şi nu-i lasă cu gândul lor şi-ntre-ai lor prieteni;</p>
+            <p>Mi-i spune bucuria pe care ţi-o dorim</p>
+            <p>Şi, Domnul  te ferească!, şi câte o durere...</p>
+            <p>CRISTINA:</p>
+            <p>Dureri? Dar nu sunt oare chemată să le-nfrunt,</p>
+            <p>Aşa cu hotărâre mai mult ca bărbătească,</p>
+            <p>Eroică... Sfârşită-i simţirea care-o ştii.</p>
+            <p>Mi-i inima de piatră: nimic n-o poate-atinge, Rămâne doar gândirea ce mi-o am pregătit Şi voia ce reiese din toată-nvăţătura.</p>
+            <p>Mă veţi vedea îndată ce rege pot să fiu...</p>
+            <p>SCUT ARUL:</p>
+            <p>Aşa cum te cunoaştem de pe la vânători,</p>
+            <p>Când te-ntreceai cu cei mai cutezători la luptă</p>
+            <p>Cu fiarele cumplite.</p>
+            <p>CRISTINA:</p>
+            <p>Ce fiare? Ai să vezi !</p>
+            <p>Le simt  de-acum.  Adulmec  mirosul lor sălbatic...</p>
+            <p>SCUTARUL:</p>
+            <p>Dar nu-i aşa de lesne de-nvins, Măria Ta,</p>
+            <p>Căci nu iese-nainte cu colţii, şi cu unghii,</p>
+            <p>Ci se târăsc în faţă şi, când mai sigur eşti,</p>
+            <p>Te simţi muşcat de ele, şi fug când le iei urma.</p>
+            <p>CRISTINA:</p>
+            <p>Dar le-am deprins cu firea din cărţi...</p>
+            <p>SCUTARUL:</p>
+            <p>Nu  crede-n  cărţi!</p>
+            <p>De când s-au scris, doar lumea a mers tot înainte, Şi sunt mijloace astăzi de care n-au visat</p>
+            <p>Acei a căror slovă ţi-a stat- o, doamnă-n faţă.</p>
+            <p>Era mai bună vremea când te încumetai</p>
+            <p>Să prinzi de coadă vulpea şi să despinteci urşii.</p>
+            <p>CRISTINA:</p>
+            <p>Vă vom chema la prada ce o voi aduna...</p>
+            <p>SCUTARUL:</p>
+            <p>Doar de-ai găsi gonacii, ca  noi să-ţi fie siguri!</p>
+            <p>CAMERISTA:</p>
+            <p>Şi de ţi-ar sta aproape spre a te curăţi</p>
+            <p>De praf şi-a pune balsam pe rănile primite</p>
+            <p>O mână iubitoare cum mâna mea ţi-a fost!</p>
+            <p>CRISTINA:</p>
+            <p>Ce n-oi găsi la alţii, eu mi-oi găsi aice!</p>
+            <stage> (arată inima) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA A III-a</head>
+          <stage>ACEIAŞI, UN COPIL DE CASĂ</stage>
+          <sp who="#copilul_de_casa">
+            <speaker>COPILUL DE CASĂ</speaker>
+            <p>Afară este, doamnă, un tânăr şi-ar dori</p>
+            <p>O clipă să-ţi vorbească.</p>
+            <p>CRISTINA:</p>
+            <p>Ce vrea să-mi ceară?</p>
+            <p>Bine începe de acuma povestea celor ce</p>
+            <p>Nu te cunosc în altă priviinţă decât asta.</p>
+            <p>CAMERISTA:</p>
+            <p>Nu-i ceas de audiență la Maiestatea Sa. Aici nu se mai află copila care-o ştie</p>
+            <p>Atâta biată lume spre a se ajuta</p>
+            <p>De dânsa, ci petrece o clipă-ntre prieteni</p>
+            <p>Modeşti de-odinioară, spre a se despărţi</p>
+            <p>De ei, Cristina, care-i doamna Suediei.</p>
+            <p>Aşa să-i spui...</p>
+            <p>CRISTINA:</p>
+            <p>Dar poate-i un lucru mai grăbit...</p>
+            <p>SCUTARUL:</p>
+            <p>Oricum, să spună scopul venirii lui aice.</p>
+            <stage> (către Cristina) </stage>
+            <p>Aşa, cu pază bună, datoare eşti să fii.</p>
+            <p>Nu  eşti a ta, ci ţara stăpână e pe tine.</p>
+            <p>Tu nu poţi şti ce gânduri hrănesc cei cari-ţi vin:</p>
+            <p>Sunt minţi perverse care  pot a-ţi dori şi moartea.</p>
+            <p>Şi, dacă mori, în seama cui cade ţara ta?</p>
+            <p>CRISTINA:</p>
+            <p>Dar nu e oare vărul meu? Nu e Carol-Gustav?</p>
+            <p>SCUTARUL:</p>
+            <p>A, Carol-Gustav! Este... Şi tu îl vei simţi</p>
+            <p>El e etern pe urmă-ţi şi-aşteaptă ceasu-n care Suedia şi-a cere-un bărbat în locul tău,</p>
+            <p>Şi-atunci el va fi gata să-şi ia răspunderea.</p>
+            <p>Dar noi nu vrem! Voința părintelui rămâie-ți</p>
+            <p>O sacră datorie, şi noi te -om ajuta	-</p>
+            <p>Cu-acel puţin ce este-n mijloacele sărace</p>
+            <p>A noastre...</p>
+            <p>CAMERISTA:</p>
+            <p>Ș i cu toată iubirea ce-i în noi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena a IV-a</head>
+          <stage>ACEIAŞI, COPILUL DE CASĂ</stage>
+          <sp who="#copilul_de_casa">
+            <speaker>COPILUL DE CASĂ</speaker>
+            <p>A spus aşa acela ce-ar vrea primit să fie:</p>
+            <p>Că nu-i un domn de samă şi niciun general, Că n-a dat nicio luptă şi n-a semnat tratate,</p>
+            <p>Că n-are-nvăţătură cât Maiestatea Ta,</p>
+            <p>Că nu-l mână-ntr-acoace niciun fel de dorință. Decât să mai revadă pe-aceia ce i-a fost	- Tovarăşă odată...</p>
+            <p>CRISTINA:</p>
+            <p>I-auzi ! Şi cum îl cheamă?</p>
+            <p>COPILUL DE CASĂ:</p>
+            <p>A spus că-1 zice numai Axel şi-atât...</p>
+            <p>CAMERISTA:</p>
+            <p>Da-1 ştiu...</p>
+            <p>Băiatul care iarna mergea cu noi călare</p>
+            <p>Să caute-n zăpadă vreo floare-n ascuns?</p>
+            <p>Şi care câte-odată, din voia stăpânirii,</p>
+            <p>Era lăsat să-mpartă tainul ţărănesc Din casele pierdute în văi...</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (bate din palme) </stage>
+            <p>Axel să vie!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena a V-a</head>
+          <stage>ACEIAŞI</stage>
+          <stage>(Cristina se urcă pe tron.)</stage>
+          <sp who="#scutarul">
+            <speaker>SCUTARUL</speaker>
+            <p>Să vie, dacă voia îţi este să-l mai vezi?</p>
+            <p>Să vie ! Doar regina stăpână-i să primească, Stăpână să refuze pe oricine-ar voi.</p>
+            <p>Dar cere maiestatea ca nicio bucurie,</p>
+            <p>Cum şi nicio durere, să nu vie a-ndemna</p>
+            <p>Pe unul şi pe altul, făcând să-şi piardă firea. Mă iartă, dar prea tare parcă te-ai bucurat...</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena a VI-a</head>
+          <stage>ACEIAŞI, AXEL</stage>
+          <sp who="#axel">
+            <speaker>AXEL</speaker>
+            <p>Cristino? O, mă iartă-n genunchi îţi cad, o, doamnă</p>
+            <p>A noastră, Maiestate-a Suediei...</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (se ridică încet) </stage>
+            <p>Sunt eu...</p>
+            <p>O, nu de mult: doar ceasul de când sunt eu aceia,</p>
+            <p>Cristina-ntâiu, regina Suediei... şi tu...,</p>
+            <p>Axel, tu nu eşti rege, cum ţi-o făgăduisem.</p>
+            <p>Ce zic? În alte vremuri ce proşti eram! Ori nu?</p>
+            <p>O, da! Multă prostic şi multă fericire</p>
+            <p>Era pe-atunci... Ţii minte?.. Dar nu-mi pot aminti.</p>
+            <p>N-am voie, sunt regină... Pricepi tu... Dar te uită Că nu mai eşti tu însuţi copilul ce-l credeam.</p>
+            <p>Axel, eşti mare astăzi, şi eşti frumos...</p>
+            <p>AXEL:</p>
+            <p>O, doamnă!</p>
+            <p>SCUT ARUL:</p>
+            <p>Dar o regină n-are voie a osebi,</p>
+            <p>Între supuşi, ce daruri le a dat Dumnezeu La unul, şi la alţii n-a dat. Cu toţii sunt Frumoşi, de e nevoie, şi, dacă nu-i nevoie, Urâți. Axel nu este decât un Suedez</p>
+            <p>Ca-alţii. Câte fete mai sunt, pot să-l privească Altfel; regina însă e oarbă pentru el.</p>
+            <stage> (către Axel.) </stage>
+            <p>Şi tu ce vrei? Grăbeşte! Sunt trebi de  Stat afară.</p>
+            <p>CRISTINA:</p>
+            <p>Desigur sunt. O clipă aşa m-am furişat...</p>
+            <p>Am vrut să văd pe-aceia ce mi-au fost buni prieteni:</p>
+            <p>Pe dânsul şi pe dânsa. Atât.</p>
+            <stage> (către Axel.) </stage>
+            <p>Acum venişi</p>
+            <p>Şi tu, şi-mi pare bine, căci doar am fost alături Când nu eram pe lume decât doar doi copii,</p>
+            <p>Deşi aveam şi-atunci momente când o ţară</p>
+            <p>Vorbea prin mine. Straşnic să schimbi necontenit</p>
+            <p>Ce eşti cu ce se cere să fii...</p>
+            <p>SCUTARUL:</p>
+            <p>Noi ni aducem Aminte de momentul când ai împiedecat</p>
+            <p>O oaste să pornească  pe drumul de ruşine...</p>
+            <p>CRISTINA:</p>
+            <p>O, da, dar eu atunci nu mai eram a mea:</p>
+            <p>Puteri necunoscute-şi puseseră voinţa</p>
+            <p>În mine, şi grozavă era-ncleştarea lor.</p>
+            <p>Tu ştii c-am fost bolnavă...</p>
+            <p>CAMERISTA?</p>
+            <p>O ştim, dar a voit Din groapa-i sângerată acel ce te-ndemnase</p>
+            <p>Să ieşi peste hotarul de vârstă şi să fii</p>
+            <p>Icoana în viaţă a lui, lui Gustav-Adolf.</p>
+            <stage> (către Axel) </stage>
+            <p>Aşa, te du, băiete. Ai vrut s-o vezi: ea e, Deşi nu este astăzi amica ta Cristina!</p>
+            <p>Să n-o uiţi însă...</p>
+            <p>CRISTINA:</p>
+            <p>Însămi nu te-oi putea  uita...</p>
+            <p>SCUTARUL:</p>
+            <p>Bine-nţeles în sensul în care o regina</p>
+            <p>Iertat e să-si aducă aminte de ce-a fost</p>
+            <p>Când nu era ea însăşi decât doar o copilă.</p>
+            <p>AXEL:</p>
+            <p>Noroc şi fericire sa fie-n calea ta!</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA A VII-a</head>
+          <stage>ACEIAŞI, ALT COPIL DE CASĂ</stage>
+          <sp who="#copilul">
+            <speaker>COPILUL</speaker>
+            <p>Se cere cancelarul a fi primit îndată.</p>
+            <p>CRlSTINA:</p>
+            <stage> (se scutură) </stage>
+            <p>Să vie ! Dar ce-l poate aduce şi-n acest</p>
+            <p>Ceas pentru revederea iubirilor din vremuri?</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA a VII-a</head>
+          <stage>ACEIAŞI, CANCELARUL</stage>
+          <sp who="#cancelarul">
+            <speaker>CANCELARUL</speaker>
+            <p>Veniiu, mărită doamnă, spre-a pune în vedere Acestei minţi prin care întreci pe ceilalţi,</p>
+            <p>Acestui gând ce poate în orice să pătrundă, Acestei minunate, unice-nvăţături</p>
+            <p>Ceva din datoria cea mai apropiată,</p>
+            <p>Ce dă o chezăşie Domniei ce-a-nceput</p>
+            <p>Aşa, în ceasul care să fie-o promisiune</p>
+            <p>De mari izbânzi, de bune şi lungi înfăptuiri...</p>
+            <p>CRISTINA:</p>
+            <p>Ascult, şi datoria ce-o am voi împlini-o.</p>
+            <p>Ce vreţi să fac, în mine puterea voi găsi,</p>
+            <p>Şi voi chema să-mi vie oricând în ajutor</p>
+            <p>Acela de la care coroana am primit-o,</p>
+            <p>Cu tot ce se cuprinde într-însa  de greoi</p>
+            <p>Şi plin de-o strălucire ce nu-şi află părechea.</p>
+            <p>Eu am uitat copila ce-am fost, şi astăzi sunt</p>
+            <p>Aşa cum vreţi: regina...</p>
+            <p>CANCELARUL:</p>
+            <p>Eu  mă îndrept reginei.</p>
+            <p>Cunoşti, o doamnă, rostul atâtor filosofi,</p>
+            <p>Şi-n cărţile romane nu e un om pe lume Să fi cetit atâta şi-atât să fi-nţeles.</p>
+            <p>Tu ştii ce-a fost viaţa atâtor ţări bătrâne</p>
+            <p>Şi-ai tras învăţătură din soarta ce-au avut, Dar nu este o ţară ca alta, şi aceasta</p>
+            <p>Se cere cârmuită cu vechiu-i rost. În el</p>
+            <p>Sunt lucruri mari de care nu ne putem atinge...</p>
+            <p>CRISTINA:</p>
+            <p>Dar ce este domnia decât un simplu joc?</p>
+            <p>Şi-atunci eu vreau mai bine pe cel de pân-acuma, În care bucurie destulă am avut,</p>
+            <p>Făcând ce-mi este voia în orice, decât astă Robie aurită la ceea ce nu-mi e</p>
+            <p>Credinţa? Carol-Gustav e-aici: dacă  primeşte,</p>
+            <p>Vi-l luaţi... Sunt cărţi destule spre a mă  mângâia...</p>
+            <p>CANCELARUL:</p>
+            <p>Vi le lăsăm	pe toate: sunt bune-n orice vreme, Dar să nu credem totul ce-ntr-însele stă scris: Primejdia e mare la cine se încrede,</p>
+            <p>Şi poate că prea multe venir-asupra ta...</p>
+            <p>CRISTINA:</p>
+            <p>Cu ce drept aste vorbe le spui?</p>
+            <p>CANCELARUL:</p>
+            <p>Cu-al bătrâneţii.</p>
+            <p>CRISTINA:</p>
+            <p>Şi eu opun la dânsa voinţa-mi de-a trăi</p>
+            <p>Cum vreau, şi vreau şi alţii ca mine să trăiască.</p>
+            <p>CANCELARUL:</p>
+            <p>Frumos vorbeşti,	o doamnă, din ceea ce cunoşti, Dar este si o viață ce încă nu-i deschisă</p>
+            <p>Acestei minţi ce toate doreşte a cerceta,</p>
+            <p>Şi vei vorbi, cu anii, aşa cum fac eu astăzi. Noi toţi robim...</p>
+            <p>CRISTINA:</p>
+            <p>Si-atuncea ce fac cu libertatea-mi?</p>
+            <p>CANCELARUL:</p>
+            <p>Mai este-o conştiinţă...</p>
+            <p>Din ea?</p>
+            <p>CRISTINA:</p>
+            <p>Să-mi fac o temniţă</p>
+            <p>CANCELARUL:</p>
+            <p>Dar cine iese în  viaţă... Ce să spun?...</p>
+            <p>CRISTINA:</p>
+            <p>Eu vreau sa spm...</p>
+            <p>CANCELARUL:</p>
+            <p>Întreabă pe cei vechi. Ţi-or răspunde Adânca înţelepciune din fapte şi-au cules.</p>
+            <p>CRISTINA:</p>
+            <p>Eu n-am găsit răspunsul.</p>
+            <p>CANCELARUL:</p>
+            <p>E greu să dau un nume La ceia ce-i respectul întreg de adevăr</p>
+            <p>Şi-alegerea acelor cuvinte ce-l acopăr...</p>
+            <p>CRISTINA:</p>
+            <p>Îl ştiu, dar  nu-l vreau...</p>
+            <p>CANCELARUL:</p>
+            <p>Astăzi se cere doar atât De la regina care abia s-a-ncoronat</p>
+            <p>Şi nu poate coroana s-o lase-n ziua însăși</p>
+            <p>Când a luat cu dânsa ca dar nepreţuit</p>
+            <p>Tot ce-a lăsat acela care-a fost Gustav-Adolf.</p>
+            <p>CRISTINA:</p>
+            <p>Eu am învins prin tine şi astăzi mă învingi,</p>
+            <p>O, tată...</p>
+            <p>CANCELARUL:</p>
+            <p>Gloriosul  martir primit-a ceea</p>
+            <p>Ce-ţi cerem azi... Alături de tot ce ai jurat, Vorbeşte către lumea ce-aşteaptă colo-n piaţă,</p>
+            <p>Şi-i spune, ca să afle şi nobili şi popor</p>
+            <p>Şi clerici şi-nvăţaţii ce ştiu ce-i scris în cărţi,</p>
+            <p>Că voia ta n-atinge nimic din ce a fost</p>
+            <p>Şi trebuie să fie temeiu al ţării noastre. Priveşte: nu-i nevoie să cauţi alt cuvânt,</p>
+            <p>E cel pe care însuşi el l-a rostit atuncea.</p>
+            <stage> (Îi  dă hârtia.) </stage>
+            <p>CRISTINA:</p>
+            <p>Cum pot vorbi eu altfel decât cum a vorbit?</p>
+            <p>CANCELARUL:</p>
+            <p>Fereştile în laturi! Regina vă vorbeşte!</p>
+            <stage> (se aude.) </stage>
+            <p>,,Eu, Cristina I-iu, regina Suedezilor, Vandalilor,</p>
+            <p>Goţilor,  asigur	acest	popor	că voi	păzi neclintite</p>
+            <p>sfintele lui așezăminte. Așa să-mi dea viață Dum-</p>
+            <p>nezeu.”</p>
+            <stage> ( Aclamaţii.) </stage>
+          </sp>
+          <stage>(PALATUL REGAL DIN STOCKHOLM.)</stage>
+          <stage>UN NUMĂR DE CURTENI</stage>
+          <sp who="#consilierul_al_ii_lea">
+            <speaker>CONSILIERUL AL II-LEA</speaker>
+            <p>De-aceea nu veniră decât puţini chemaţi.</p>
+            <p>CONSILIERUL  I-iu:</p>
+            <p>Privesc întruna uşa, şi nimeni nu mai vine.</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>De n-or veni, ostaşii vor fi în locul lor.</p>
+            <p>CONSILIERUL AL IV-LEA.</p>
+            <p>Sau vor veni, alături, acei pe care-i ştim.</p>
+            <p>CONSILIERUL I-iu:</p>
+            <stage> (Se uită la uşi.) </stage>
+            <p>Tăcere! Căci aice nu se vorbeşte liber...</p>
+            <p>CONSILIERUL al V-lea:</p>
+            <p>De ce nu se vorbeşte? Sun tem cu toţii laşi!</p>
+            <p>CONSILIERUL AL II-LEA:</p>
+            <p>Eu nu, şi sunt ca mine atâţia-n ţara asta</p>
+            <p>Ce-au stat supt Gustav-Adolf în luptă, şi nu cred</p>
+            <p>Să fie-n lume oameni cu-atâta vitejie!</p>
+            <p>CONSILlERUL AL III-LEA.</p>
+            <p>Atunci de ce vitejii stau muţi, când ţara lor</p>
+            <p>E -n prada oricui vine din locuri depărtate,</p>
+            <p>Şi-ajunge hotărârea să plece de la el ?</p>
+            <p>CONSILIERUL AL II-LEA:</p>
+            <p>Cu duşmanii aceia cu care m-am luptat Rămâne jurământul, ce poate să oprească Avântul răzbunării.</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>Dar, dacă-n faţă ai</p>
+            <p>Pe cine jurământul călcatu-l-a? Atuncea</p>
+            <p>Nu e acelaşi lucru? Zi tu de nu-i aşa!</p>
+            <p>CONSILIERUL AL IV-LEA:</p>
+            <p>Eu zic că nu e bine-a vorbi astfel de chestii</p>
+            <p>În casa ce nu este a noastră...</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>Cum  nu e?</p>
+            <p>Orice se afl-aice-n Suedia al nostru-i.</p>
+            <p>Nu este-o cucerire-a Coroanei patria.</p>
+            <p>Strămoşii ni-o făcură cu lacrimi şi dureri.</p>
+            <p>Stropită-i temelia cu sângele acestei</p>
+            <p>Atât de insultate, dar mândre nobilimi,</p>
+            <p>Şi regele el însuşi nu e decât un nobil!</p>
+            <p>CONSIUERUL I-iu:</p>
+            <p>Da, regele când este un rege. Cavaler</p>
+            <p>El însuşi, el priveşte în jur ostaşi ca dânsul.</p>
+            <p>El ştie să aleagă pe cine e mai demn</p>
+            <p>Cu sfatul să ajute. El casa lui şi-o are. Copilul lui aşteaptă să vie rândul lui, Şi este în palatul acesta altă viaţă,</p>
+            <p>Ce intră de la sine cu noi în legături. Stăteai la Gustav Vasa cu dânsul la ospeţe, Ciocneai cu el paharul şi te îmbrăţişa,	- Dar Gustav-Adolf însuși era doar camaradul Cu care stai alături în ceasul sângeros...</p>
+            <p>CONSILIERUL AL V-LEA:</p>
+            <p>Aşa-i, aşa-i, când tronul un rege îl cuprinde...</p>
+            <p>CONSILIERUL AL IV-LEA:</p>
+            <p>Deci vorba despre-un rege voinic şi mândru, dar</p>
+            <p>N-avem noi în regina, - ce mulţi ani să trăiască!-, Cea mai cutezătoare la orișice avânt?</p>
+            <p>Nu este ea în stare să-nfrângă. orice piedici?</p>
+            <p>Nu-i glontele-i mai sigur decât al orişicui?</p>
+            <p>N-o vezi zburând călare la ceas adânc de noapte?...</p>
+            <p>Şi e, pe lângă asta, cuminte între toţi</p>
+            <p>Monarhii vremii noastre. Sunt oare legi mai bune Decât acelea care de dânsa ni s-au dat?</p>
+            <p>Se reazămă regatul pe ordinea cea nouă,</p>
+            <p>Pe care neschimbată ea cere s-o lăsăm.</p>
+            <p>CONSILIERUL  AL  III-LEA:</p>
+            <p>O fi, o fi... Trăit-a şi făr-acestea ţara! Ajunge-o temelie săpată în adânc</p>
+            <p>De mâinile acelor uriași ce-au ctitorit-o.</p>
+            <p>Nu-i bine-această bază să o tot scormonim</p>
+            <p>Cu degete grăbite, şi prea se face faimă</p>
+            <p>Cui este azi în frunte şi mâine ar putea</p>
+            <p>Să  nu mai fie-acolo...</p>
+            <p>CONSILIERUL AL IV-LEA:</p>
+            <p>Spui lucruri mari şi grele.</p>
+            <p>Ori n-au căzut în timpul din urmă, - şi-i păcat! -, Spre-a pedepsi cuvinte ca astea, capete</p>
+            <p>De nobili cu un nume glorios în cartea ţării? Păziţi-vă: regina nu-şi suferă vrăjmaşi,</p>
+            <p>Şi cei ce se ridică prea sus, se prăbuşesc La semnul mânii care o știi cât e de tare.</p>
+            <p>Eu zic aşa : Cristina ajunge la un ceas</p>
+            <p>De mare-ngrijorare: frumoasă e şi mândră.</p>
+            <p>Doriră să-i câştige atâţia inima,</p>
+            <p>Ea n-a vrut: i se pare coroana ei prea sus Ca să o poarte-alături de dânsa orişicine...</p>
+            <p>CONSILIERUL I-iu:</p>
+            <p>Ba nu, nu e coroana aceea ce-o opreşte. Trufia ei nu lasă pe nimeni a fi,</p>
+            <p>Prin voia ei cea dârză şi neînduplecată, Aproape de mărirea ce-o vrea numai a ei.</p>
+            <p>Nu vezi pe Carol-Gustav departe ce-l mai ţine?</p>
+            <p>E, oare, o mlădiţă şi el a regilor,</p>
+            <p>Ori  un supus spre care priveşte cu dispreţ?</p>
+            <p>Şi el e doar, cum lucrul stă azi, moştenitorul...</p>
+            <p>CONSILIERUL AL V-LEA:</p>
+            <p>O, e îndepărtată această moştenire! Puteri nebiruite de vârstă se cuprind</p>
+            <p>În straşnica femeie ce este doamna noastră.</p>
+            <p>CONSILIERUL AL IV-LEA:</p>
+            <p>Şi merită să fie... Să ştiţi: o merită! Întreaga nobilime nu face-atât cât ea.</p>
+            <p>Și eu mă-ntorc la vorba d-intâiu... Nu va fi oare, - Văzându-se ajunsă la vârsta când orice</p>
+            <p>Femeie-şi vrea alături tovarăş şi în leagăn Nădejdea moştenirii-, un ceas când s-auzim. Dorinţa ei să-ntrebe cu cine sângele</p>
+            <p>Eroic să se  poată prin  ea amesteca</p>
+            <p>CONSILIERUL  I-IU:</p>
+            <p>Mai ştii? Ar fi mai bine ce cerem de atâta</p>
+            <p>Timp, noi, o ţară-ntreagă, şi ea  ne-a tot respins...</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>Şi-atunci ar fi curată această casă sfântă...</p>
+            <p>CONSILIERUL AL IV-LEA:</p>
+            <p>Te JOCI  din nou cu capul ce nu-l ştii stăpâni !</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>Dar trebuie odată fățiș să se rostească. Altfel decât pe uliţi şi-n cârciumi ce e</p>
+            <p>Durerea ţării noastre! Străini din toată lumea, Aventurieri nemernici aici s-au încuibat :</p>
+            <p>Li-s ușile deschise acestor domni ai noștri,</p>
+            <p>Pe când cei vechi, cu drepturi, opriţi în prag rămân.</p>
+            <p>Ce caută la ceasuri ascunse-ambasadorul Frances, Ce are rosturi pe care nu le ştim,</p>
+            <p>Şi, de le-am şti, ruşinea pe toţi cuprinde-ne-ar... Să ştiu că mor, acestea le spun în faţa lumii !</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL al III-lea Scena I- iu.</head>
+        <div type="scene" n="1">
+          <head>SCENA A II-A</head>
+          <stage>ACEIAŞl, CRISTINA</stage>
+          <stage>(uşa se deschide cu zgomot)</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>În sfatul vostru iată şi cine n-aşteptaţi;</p>
+            <p>Nu vei muri... Despreţul meu te loveşte-n faţă. Pe tine şi pe-aceea ce au vorbit aşa</p>
+            <p>Ca tine...</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>Îndurare  nu cerem nimenea.</p>
+            <p>CRlSTINA:</p>
+            <p>Avea-veţi răsplătirea de care aţi visat.</p>
+            <p>Va fi de-acum mai bine-n Suedia, vedea-veţi</p>
+            <p>Şi alte vremi, - acestea de nu le-aţi înţeles.</p>
+            <stage> (către toţi) </stage>
+            <p>Credeaţi că sunt departe, la Gripsholm, şi de-aceia Grăbit-aţi ceasu-n care voiam eu să vă chem,</p>
+            <p>Şi v-aţi întins la jafuri, cum fac doar slugile.</p>
+            <p>Dar aţi uitat, cu vântul că pot să mă întrec</p>
+            <p>Şi că răsar şi unde nu mă aşteaptă nimeni</p>
+            <p>Din cei ce-n întunerec lucrează-n contra mea.</p>
+            <p>Eu v-am găsit Ia mine în casă...</p>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>În casa Ţării.</p>
+            <p>CRISTINA:</p>
+            <p>Dar cheile le ține această mân-a mea. Ea singură! Şi-i tare: adesea aţi simţit-o.</p>
+            <p>Era să fie sfatul. Atâția n-au venit.</p>
+            <p>Mai sigur le pare orice decât palatul</p>
+            <p>Lui Gustav-Adolf care îmi este-ncredinţat, Ca să nu se așeze în el tulburătorii</p>
+            <p>Şi ca să fie înt-însul ce-a fost pe vremea lui. Câțiva crezură bine s-asculte de chemarea</p>
+            <p>În  ceas de hotărâre supremă o veţi vedea.</p>
+            <p>Pe cei mai mulţi urechea-mi i-aude de departe:</p>
+            <p>Doar sunt o vânătoare vestită şi ghicesc</p>
+            <p>Din freamătul de frunze, pe unde vine fiara.</p>
+            <p>V-ați râs de truda care eu o am închinat,</p>
+            <p>Uitând că sunt femeie şi am un drept la viaţă,</p>
+            <p>Un drept şi eu ca alte femei ce-şi au un soţ</p>
+            <p>Şi leagănă copilul iubirii lor .ăţişe,</p>
+            <p>Pe când, de-a fost iubire aici în inima Eroic pregătită, păstrată tot aşa</p>
+            <p>Eroic, nime-n lume nu-mi ştie-alegerea,</p>
+            <p>Şi voi  muri cu  taina  ce-am  închis aici.</p>
+            <p>...Nemernicule, asta îmi e mărturisirea.</p>
+            <p>O fac întâia oară spre a te pedepsi.</p>
+            <p>Cura tă e si astăzi această casă sfântă,</p>
+            <p>Iar zvonurile care le duceţi, vi le arunc</p>
+            <p>În faţă. În casa voastră cătaţi de e mai bine Decât aici unde trăieşte tatăl meu,</p>
+            <p>Ca-n zilele când spada  legată-i sta de coapsă.</p>
+            <p>CONSILIERUL AL IV-LEA:</p>
+            <p>Credinţa ce trăieşte în noi, cei credincioşi,</p>
+            <p>Cei mulţi care iubirea păstrat-o-am întreagă,</p>
+            <p>Atâta e de- mare, încât tu poţi ierta</p>
+            <p>Pe cei greşiţi cu vorba, deşi în inimă</p>
+            <p>Nu-i unul să nu aibă simţiri ca ale mele.</p>
+            <p>CRISTINA:</p>
+            <p>Nu-i mult, şi ştiţi cu toţii de ce nu pot ierta. Dar totuşi mai departe el va păstra pe umăr</p>
+            <p>Un cap de nebunie ce nu-l ştie păzi.</p>
+            <p>Întoarce-te acasă, o conte, fii pe pace.</p>
+            <p>Iar locul·tău nu este unde-ai batjocurit</p>
+            <p>Pe o femeie care e doamna ţării tale !</p>
+            <stage> (sună.) </stage>
+            <p>Să vie ofiţerul de gardă.. Este-aici</p>
+            <p>Intrat din nebăgare de seamă un ticălos.</p>
+            <p>Se cere dat afară... Nu i demn nici de pedeapsă ...</p>
+            <stage> (Ofiţerul apare; se îndreaptă spre Consilierul al III-lea.) </stage>
+            <p>CONSILIERUL AL III-LEA:</p>
+            <p>N-a fost gonit din neamu-mi până acuma nimeni.</p>
+            <p>Mă apăr eu cu spada de-acest suprem afront,</p>
+            <p>Şi sângele pe care l-am dat părintelui,</p>
+            <p>Îl vărs acum în moarte în faţa fiicei sale.</p>
+            <stage> (Se ucide. Uimire. Strigăte) </stage>
+            <p>CRISTINA:</p>
+            <p>Văzui atâta sânge de fiară-n viaţa mea, Încât acesta nu e în stare să mă mişte.</p>
+            <p>Luaţi-l, căci pedeapsa el singur şi-a dat.</p>
+            <p>Şi-acuma înţelegeţi că niciun sfat nu poate</p>
+            <p>Să fie unde unul din sfetnici a pătat</p>
+            <p>Cu sângele său locul regalelor consilii.</p>
+            <p>Dar nu plecaţi: mai este ceva de-mpărtăşit</p>
+            <p>Azi vouă, mâine toată Suedia afla-va</p>
+            <p>De ce nu mai găseşte un sprijin ca acel</p>
+            <p>Ce v-a ţinut în mijloc de astfel de primejdii</p>
+            <p>Cum n-aţi ştiut voi nimeni că ne-au ameninţat.</p>
+            <stage> ( către consilierul al IV-lea.) </stage>
+            <p>Vorbit-ai, consiliere, de fapta mea. Nu-i ţară</p>
+            <p>Să fi avut atâta bine cât eu v-am dat.</p>
+            <p>Eu, cea a cărei viaţă e-n gura tuturora.</p>
+            <p>Vi s-a părut că este altfel de cum o ştiu,</p>
+            <p>Dar nimeni nu cutează să ție seama vremii. Monarhi ce tinereţa şi-au dus-o în plăceri,</p>
+            <p>Iar alţii, -	Carol-Gustav vă este o icoană-,</p>
+            <p>N-au căutat povaţă în carte şi-n trecut, Domnesc spre mulţămirea lor înşilor, şi-atâta.</p>
+            <p>Eu ca în mănăstire-am trăit şi ca în cort</p>
+            <p>De lagăr, fără nimeni să-mi fie drept tovarăş.</p>
+            <p>Şi, de-am primit la ceasuri de noapte vreun sol Străin, e ca să fie Suedia păzită</p>
+            <p>De orice întâmplare vrăjmaşă, iar, de mi-a Plăcut mai mult de vorba aleas-a altora,</p>
+            <p>Veniţi din locuri unde e cartea lutru sfânt,</p>
+            <p>De ce n-aţi fost în stare să ştiţi şi voi cât dânşii?</p>
+            <stage> (mişcare.) </stage>
+            <p>Da, da, e bună arma ce o ştiţi mânui</p>
+            <p>Ca nimeni alţii-n lume. Mă-nchin destoiniciei Ostaşilor ce-i are Suedia şi-acum,</p>
+            <p>Dar gându-i călăuza vitejilor, şi, când Lipseşte vitejia-i e o pierdere de sânge,</p>
+            <p>De vreme şi de-avere, atât, cum faceţi voi.</p>
+            <p>Dar eu în vechea Romă cătatu-mi-am modelul: Am vrut să fac din asta mulţime de soldaţi Legionarii cari, mâni, să câştige lumea</p>
+            <p>Şi-n şesuri însorite să-şi facă noul cuib.</p>
+            <p>De-aceea decretat-am aceste-aşezăminte Pe care moștenire la alte vremi le las,</p>
+            <p>Şi ele al meu nume cu binecuvântare</p>
+            <p>L-or pomeni din secol în secol: ,,s-a făcut</p>
+            <p>Pe vremea când domnit-a de-asupra vremilor întunecate încă de duhul cel obscur</p>
+            <p>Cristina care visu-şi suia până la Cezari, Iar cei de lângă dânsa nimica n-au cules Decât acele şoapte ce umblă străzile</p>
+            <p>Şi cei fără de lucru şi minte le culeg.”</p>
+            <stage> (se opreşte) </stage>
+            <p>Nu  v-am crezut destoinici să-mi daţi un sfat</p>
+            <p>la fapta</p>
+            <p>Pe care săvârşită o văd în faţa mea.</p>
+            <p>La noua Ţara noastră lucrat-am singură,</p>
+            <p>Şi singură iau astăzi în ceasul cel suprem</p>
+            <p>Această hotărâre ce-am vrut a fi şi-a voastră,</p>
+            <p>Când crainicul striga-va din Nord în Sud porunca Schimbării meritate de voi, de toţi... Destul!</p>
+            <stage> (Consilierii pleacă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena a III-a:</head>
+          <stage>CRISTINA, OFIŢERUL</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Femeia are dreptul sa intre cea dintăiu,</p>
+            <p>Iar solul să aştepte ca rândul lui să vie.</p>
+            <p>Apoi să se aducă aici neapărat</p>
+            <p>Având cu el sigiliul cel mare, cancelarul.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena a IV-a:</head>
+          <stage>CRISTINA, CAMERIERA</stage>
+          <sp who="#camerista">
+            <speaker>CAMERISTA</speaker>
+            <p>Ce graţie regală mă face a vedea</p>
+            <p>Din nou	pe-aceea care mi-a fost aşa de scumpă Copil- odinioară, în seama grijii mele,</p>
+            <p>Şi-i astăzi eroina Suediei  întregi?</p>
+            <p>CRISTINA:</p>
+            <p>Te cheam-o hotărâre ce stau s-o iau acuma.</p>
+            <p>Nu-i vreme ca la alții un	sfat să mi-l mai caut: Nici în trufaşa minte-a domnilor din juru-mi</p>
+            <p>Şi nici, iubită maică, în vremea de demult,</p>
+            <p>Ci-n inima a cărei iubire-am câştigat-o.</p>
+            <p>CAMERISTA:</p>
+            <p>Cum să cutez ca gândul să-l duc aşa de sus,</p>
+            <p>Încât sa cred că vorba-mi folos îţi poate-aduce?</p>
+            <p>CRISTINA:</p>
+            <p>Îţi mai aduci aminte când noi ne-am despărţit?</p>
+            <p>CAMERISTA:</p>
+            <p>A fost o zi de jale în cartea vieţii mele.</p>
+            <p>Şi ţi-am urat pe calea cea grea să întâlneşti Prieteni ca aceia ce noi ţi-am fost odată...</p>
+            <p>CRISTINA:</p>
+            <p>Ei bine, calea lungă şi grea s-a isprăvit...</p>
+            <p>CAMERISTA:</p>
+            <p>Nu înţeleg. Nu este Suedia supusă</p>
+            <p>6</p>
+            <p>Gândirii înţelepte a capului frumos?</p>
+            <p>N-aşteaptă de la dânsul orişice îndreptare?</p>
+            <p>CRISTINA:</p>
+            <p>Suedia? Ce este Suedia?</p>
+            <p>CAMERISTA:</p>
+            <p>O știi</p>
+            <p>Mai bine decât mine. Ea este-o datorie Şi e, de la acesta, porunca.</p>
+            <stage> (arată la portretul lui Gustav-Adolf.) </stage>
+            <p>CRISTINA:</p>
+            <p>Nu-i de-ajuns. Întreaga datorie îmi este împlinită..</p>
+            <p>Făcui o ţară care întrece pe-a oricui,</p>
+            <p>Iar celui care viaţa-mi dădu, şi-a lui osândă, Iertare-i cer acuma, aşa, stând în genunchi...</p>
+            <stage> (către portret.) </stage>
+            <p>O, iartă-mă, părinte, prea grea povara-mi este: De am purtat-o-n anii de trudă ce-i închei,</p>
+            <p>E numai ca la tine să aflu-ndreptăţire.</p>
+            <p>Eu n-am scăzut comoara ce mi-ai încredinţat,</p>
+            <p>Şi poţi să fii în lumea ta plin de mulţumire:</p>
+            <p>Tu ai voit un rege, şi rege eu am fost.</p>
+            <stage> (se ridică.) </stage>
+            <p>Şi-acuma, maică. dragă., Cristina iar te cere.</p>
+            <p>CAMERISTA:</p>
+            <p>Mă cere unde?</p>
+            <p>În lumea-n care mă pornesc.</p>
+            <p>Ce stiu eu cât de largă e lumea! Dar o iau</p>
+            <p>În piept. Ştii tu, eroic...</p>
+            <p>CAMERISTA:</p>
+            <p>Poporul ce va zice?</p>
+            <p>CRISTINA:</p>
+            <p>Poporul? Dar poporul arată-mi unde e?	. Vorbiţi de el, şi-o ceată de nobili hotărăşte. Primii a lor prostie, insulta le-o răsping.</p>
+            <p>De drum să te ţii gata şi iute, cât de iute!</p>
+            <stage> (Camerista pleacă.) (spre ofiţer.) </stage>
+            <p>Să vie-ambasadorul!</p>
+            <stage> (sardonic) </stage>
+            <p>... Iubitul meeu ascuns....</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena a V-a.</head>
+          <stage>CRISTINA, AMBASADORUL</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Eu te-am rugat aici să vii ca să-ți comunic</p>
+            <p>Că de acum înainte Suedia va fi -</p>
+            <p>Sub scutul unui rege bărbat, şi Carol-Gustav</p>
+            <p>Va duce înainte ceea ce am dorit</p>
+            <p>Să fie între ţara lui Ludovic şi-aceasta...</p>
+            <p>AMBASADORUL:</p>
+            <p>Uimit stau înaintea acestei hotărâri,</p>
+            <p>Ce stă să prăbuşească toată politica Zidită pe-alianţa ce s-a întemeiat.</p>
+            <p>CRISTINA:</p>
+            <p>Aşa e  Legătura ce ţi se datoreşte Serveşte interesul regatului şi deci</p>
+            <p>Supt orice cârmuire rămâne neschimbată,</p>
+            <p>Dar, când vei da această veste Măriei Sale, Lui Ludovic cel Mare, amicul meu, doresc</p>
+            <p>S-adaugi şi dorinţa-mi ca, dacă-n rătăcirea-mi, Ar fi s-ajung acolo în Franţa, să-mi găsesc</p>
+            <p>Nu ca o călătoare pribeagă, ca regină,</p>
+            <p>Odihna libertăţii pe care mi-o doresc.</p>
+            <p>AMBASADORUL:</p>
+            <p>N-aştept răspuns: în toată ţara Măriei Sale Vei fi încunjurată de-acelaşi datorit</p>
+            <p>Respect ca şi în ţara ce n-a ştiut să-ţi dea</p>
+            <p>Tot ceea ce se cere...</p>
+            <p>CRISTINA:</p>
+            <p>Aceasta ne priveşte Pe mine şi o ţară ce este tot a mea.</p>
+            <stage> ( Ambasadorul se închină şi pleacă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena a VI-a:</head>
+          <stage>CRISTINA, CANCELARUL</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Pecetea cea mare a Statului adus-ai?</p>
+            <p>CANCELARUL:</p>
+            <p>E drept deci că Măria Ta vrei...</p>
+            <p>CRISTINA:</p>
+            <p>Nu te-am chemat Decât să faci o formă, şi-atât. Iar hotărîrea</p>
+            <p>Am luat-o neschimbată şi astfel o menţin, Tu, scrie:</p>
+            <p>„Moştenirea ce am primit-o de la părintele meu o las întreagă, cu toată iubirea şi binecuvântarea, ca unui frate iubit, vărului Carol-Gustav, regele Suedezilor, Vandalilor şi Goţilor.”</p>
+            <p>CANCELARUL:</p>
+            <p>Atâta? Dar mulți mea afară-i adunată. Ea cere ca regina să vie-n faţa ei,</p>
+            <p>S-o vadă. Te iubeşte, Măria Ta. Nu poate</p>
+            <p>Să fie făr-o vorbă de jalnic rămas-bun....</p>
+            <p>CRISTINA:</p>
+            <p>Vă doare de această dorită despărţire?</p>
+            <p>E oare nobilimea, ce veşnic s-a luptat</p>
+            <p>S-aducă o schimbare ce-acum e săvârşită, Asa de întristată de ceea ce-a făcut</p>
+            <p>E; însăşi?... Ipocrită şi joasă comedie! Aşteaptă... Nu-i poporul afară, cum ai spus: E ceata ce se cheamă la noi că e poporul,</p>
+            <p>Acel pe care-l duceţi pe căile ce vreţi.</p>
+            <p>Vorbind spre-ei, eu vouă vă dau răspunsul ultim.</p>
+            <stage> ( Apare în balcon.) </stage>
+            <p>Trăiască noul rege! Iar eu, sunt liberă!</p>
+          </sp>
+          <stage>(O sală într-un castel francez.</stage>
+        </div>
+      </div>
+
+      <div type="act" n="4">
+        <head>ACTUL al IV-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-IU:</head>
+          <stage>DOAMNE DIN SOCIETATEA FRANCEZĂ, MONALDESCHI,  CRISTINA (îmbrăcată ca bărbat, în fund)</stage>
+          <sp who="#o_doamna">
+            <speaker>O DOAMNĂ</speaker>
+            <stage> (Vorbind tare; şi celelalte tot aşa.) </stage>
+            <p>Ne  dă în astă seară regele-o comedie?</p>
+            <p>A  DOUA DOAMNĂ:</p>
+            <p>Un nou balet. Într-însul e graţie aleasă,</p>
+            <p>Şi versul stă alături de cântul măiestrit.</p>
+            <p>ÎNTÂIA DOAMNĂ:</p>
+            <p>Pe cine vezi?</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>E toată Curtea Măriei Sale...</p>
+            <p>A  TREIA DOAMNĂ:</p>
+            <p>Afară de aceia ce ieri au fost ţinuţi</p>
+            <p>Departe de regala atenţie...</p>
+            <p>A PATRA DOAMNĂ:</p>
+            <p>La una N-a spus, trecând, o vorbă, stăpânul...</p>
+            <p>ÎNTÂIA DOAMNĂ:</p>
+            <p>Ce durere!</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Şi-acum ce vrea?</p>
+            <p>A  TREIA DOAMNĂ:</p>
+            <p>De este să fie tot aşa,</p>
+            <p>Se-ntoarce în castelul de unde mult mai bine</p>
+            <p>I-ar fi fost să nu iasă, odată ce-i era</p>
+            <p>Atâta de străină ţinuta Curţii noastre...</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Dar nu vrei ca să-i aflu şi numele? Zău, spune!</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Zadarnic. Cată însăţi şi vezi cine-a lipsit...</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>A da, şi domnişoara  de...</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Taci, c-ai nemerit-o!</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Săraca!.. Şi odată credea că s-ar putea</p>
+            <p>Ca ochii Maiestăţii Sale s-o-ntâlnească,</p>
+            <p>Şi-apoi, cum favorita a prins a-mbătrâni...</p>
+            <p>ÎNT ÂIA DOAMNĂ:</p>
+            <p>A, nu, stăpâna-i încă pe inima iubită.</p>
+            <p>Vor trece multe-n faţa lui Ludovic, crezând Că legătura-i este ceva de pregătire,</p>
+            <p>Pe când e lovitură ce cade din senin;</p>
+            <p>Şi zâna adorată-şi va fi păstrat favoarea...</p>
+            <p>A  TREIA DOAMNĂ:</p>
+            <p>De care-atâta lume vrea a se-mpărtăşi...</p>
+            <p>ÎNT ÂIA DOAMNĂ:</p>
+            <p>O, nu aşa de multă, cum dai a înţelege.</p>
+            <p>Mai sunt seniori la Curte, şi poate mai frumoşi...</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Dar nu-i la ei izvorul de graţii şi de daruri...</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Dar ce e cu regina Suediei? Ce ştii</p>
+            <p>ÎNTÂIA DOAMNĂ:</p>
+            <p>Regina? Am văzut-o. E cât un biet copil,</p>
+            <p>Dar ochii ce lumină aruncă din adâncuri!...</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Adâncuri cercetate de-atăţia favoriţi...</p>
+            <p>A PATRA  DOAMNĂ:</p>
+            <p>Să fie între dânşii şi-ambasadorul nostru?</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Şi el, şi mulţi ca dânsul. Femeie cu noroc!</p>
+            <p>Dar, iarăşi, fără gândul că pot prin ea s-ajungă Nu i-ar fi fost alcovul aşa de garnisit...</p>
+            <p>ÎNTÂIA 	DOAMNĂ:</p>
+            <p>Ba nu, e chiar frumoasă... Şi tânără ce pare</p>
+            <p>În haina bărbătească de paj pe care-o vrea</p>
+            <p>Oricând, căci îi e silă de toate-a-noastre rochii.</p>
+            <p>Venea aşa călare, un tânăr general,</p>
+            <p>Ce merge să primească oraşul cuceririi.</p>
+            <p>I-au dat aici aproape-un castel de locuit. Stă până-i ca acasă la dânsa, cu curtenii</p>
+            <p>Şi-ostaşii ei din ţară, pe care-i e permis</p>
+            <p>Să-i ţie după voia ei, şi să-i  pedepsească...</p>
+            <p>A PATRA DOAMNĂ:</p>
+            <p>Aşa e învoiala, mi-a spus-o cineva</p>
+            <p>De care nu s-ascunde nimic şi nimenea...</p>
+            <p>A  TREIA  DOAMNĂ:</p>
+            <p>Iar noi cu discreţiune nu vrem să te-ntrebăm</p>
+            <p>Nici cine-i, nici ce sarcini îi sunt încredinţate...</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Şi-acea suită mare-i? A fost stăpână doară. Pe-o ţară ce-i vestită în lume prin isprăvi</p>
+            <p>De mare vitejie, şi pentru monarhia</p>
+            <p>Aceasta, în războiul ce-abia s-a isprăvit!</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>O da, atunci când oastea ei îşi avea în frunte</p>
+            <p>Pe însuşi Gustav-Adolf, acela ce-a perit</p>
+            <p>La Liitzen cu vrăjmaşii învinşi în clipa morţii.</p>
+            <p>ÎNT ÂIA DOAMNĂ:</p>
+            <p>Nu vrea să ţie multă lume pe lângă dânsa,</p>
+            <p>Dar este unul care de ea-i nedespărţit.</p>
+            <p>E cavalerul palid ce-i stă alăturea...</p>
+            <p>A PATRA DOAMNĂ:</p>
+            <p>Şi pare că- o umbră ce-i ţine strajă ei, Cum	soţul își păzeşte soţia de primejdii.</p>
+            <p>Şi-l cheamă?</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>ÎNT ÂIA DOAMNĂ:</p>
+            <p>Învoiala-i aşa. Ei nu-s notaţi</p>
+            <p>De nimeni nici ca număr, şi-aurncă mai cu grijă,</p>
+            <p>Chiar numele rămâne în taină. Vor veni</p>
+            <p>Şi-aici şi-n, altă parte, cât va vrea ea să steie, Dar nu-s decât atâta: o doamnă, un cavaler,</p>
+            <p>Ce sunt în slujba celei ce nu vrea să primească Onorurile multe ce i s-ar cuveni.</p>
+            <p>Ca una ce îşi are puterea părăsită,</p>
+            <p>Dar titlul de regină voit-a a-şi păstra.</p>
+            <p>Cel mai vioi e însă acela chiar de care Vorbiiu... Mă prind că este pe-aici, pe undeva. Aha! Privește colo. Cu ochii caută</p>
+            <p>O societate care să poată a-l distra,</p>
+            <p>Dar nimeni nu-1 cunoaşte...</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Şi e păcat de dânsul...</p>
+            <p>A  PATR  DOAMNĂ:</p>
+            <p>Ce ochi plini de lumină! Mă jur că-i Italian...</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Vreun artist de seamă...</p>
+            <p>A PATRA  DOAMNĂ:</p>
+            <p>Vreun ostaş de frunte...</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Ştiu eu? Haidem spre dânsul.  Desigur va vorbi...</p>
+            <p>ÎNTÂIA DOAMNĂ:</p>
+            <p>Începe tu atunci. Eu mă sfiesc. Se spune</p>
+            <p>Că ea-i răzbunătoare grozav. L-ar omorî</p>
+            <p>De-ar şti că el se lasă atras de farmece</p>
+            <p>Din cele ce pe-aice tot umbl-adulmecând...</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Poftite-am fost de rege. De ce n-am merge oare Spre a schimba o vorbă cu vreun invitat,</p>
+            <p>Care-i dator răspunsul să-l dea la întrebare Şi să ni dovedească un rost de cavaler?</p>
+            <stage> (merge spre Monaldeschi) </stage>
+            <p>Mă-nşel ori sunteţi oare domnul conte d Estaing?</p>
+            <p>MONALDESCHI:</p>
+            <p>O nu, sunt, doamnă, numai un biet străin...</p>
+            <stage> (Celelalte se adună în jur.) </stage>
+            <p>ÎNTÂIA  DOAMNĂ:</p>
+            <p>Se simte.</p>
+            <p>Azi Curtea noastră strânge tot ce e mai ales Din lumea-ntreagă...</p>
+            <p>A PATRA  DOAMNĂ:</p>
+            <p>Poate Italia  vi-i ţara ?</p>
+            <stage> (Din fund, îmbrăcată bărbăteşte, cu faţa acoperită cu mâna, Cristina observă) </stage>
+            <p>MONALDESCHI:</p>
+            <p>A da, am fost pe-acolo, deşi pe mult pământ</p>
+            <p>Călcară paşii care aici se opriră.</p>
+            <p>O clipă... Doamna este...</p>
+            <p>ÎNTÂIA DOAMNĂ:</p>
+            <p>Marchisa de Vieusseux.</p>
+            <p>Văzurăm de departe distincţia de care</p>
+            <p>Daţi probă în oricare din gesturi... Pricepeam</p>
+            <p>Că v-a adus aice vreo tainică misiune...</p>
+            <p>MONALDESCHI:</p>
+            <p>O, nu doresc ta lumea eu singur s-o cunosc,</p>
+            <p>Şi dintr-un loc în altul mă duc să caut oameni</p>
+            <p>Ce pot să-mi fie-n lume de vreun ajutor.</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Aşa? Dar cine este chemat de regele</p>
+            <p>Nu	poate să nu fie de neam ales.</p>
+            <p>Doriţi Fiinţa Maiestăţii Sale s-o salutaţi?</p>
+            <p>MONALDESCHI:</p>
+            <p>Pentru atâta cinste sânt, doamnă, prea puţin, Dar nu pentru ca-n faţa acelor ce în lume Peeche n-au de mândre şi de frumoase ce-s</p>
+            <p>Să nu găsesc prilejul omagiul a-mi aduce.</p>
+            <p>Permiteţi-mi ca  mâna  umil să v-o să rut.</p>
+            <stage> (Îi sărută mâna.) </stage>
+            <p>A TREIA  DOAMNĂ:</p>
+            <p>O, în zadar v-ascundeţi! Prin orişice mişcare,</p>
+            <p>Prin vorbele pe care le-aflaţi aşa uşor,</p>
+            <p>Prin aerul de Curte ce vă deosebeşte,</p>
+            <p>Ca şi prin ce natura bogat v-a dăruit,</p>
+            <p>Ne-ați dovedit	mlădita. Un	om de  cinste mare...</p>
+            <p>Ar vrea să vă cunoască si altele de-aici. În vesela serbare a tinereţii noastre,</p>
+            <p>În jocurile care urmează rând pe rând,</p>
+            <p>Cu însăşi Maiestatea Sa Regele în frunte,</p>
+            <p>Se cere si de-aiurea să fie cavaleri</p>
+            <p>Şi rar se poate unul s-aduc-astfel de daruri Cum sunt acelea care bogate vi s-au dat...</p>
+            <p>Şi mai ales că este aici de scurtă vreme,</p>
+            <p>Desigur ca să-şi ieie şi rangul cuvenit,</p>
+            <p>Aceia care-odată a fost Minerva însăşi</p>
+            <p>În Scaun de domnie şi Venus a rămas Prin marea frumusețe ce o deosebește.</p>
+            <p>Noi am zărit-o: mândră şi sprintenă era</p>
+            <p>Cunoaşteţi pe această podoab-a monarhiei,</p>
+            <p>Cu care nu-i regină să poată concura,</p>
+            <p>Atâta-i de aleasă în tot ceea ce face?</p>
+            <p>A DOUA DOAMNĂ:</p>
+            <p>Şi lângă ea un tânăr frumos vorbea zâmbind Aceleia de care legat de mult se pare...</p>
+          </sp>
+          <sp who="#monaldeschi">
+            <speaker>MONALDESCHI</speaker>
+            <stage> (jenat.) </stage>
+            <p>Am auzit de dânsa, dar  n-o cunosc...</p>
+            <p>A TREIA DOAMNĂ:</p>
+            <p>Se poate?</p>
+            <p>Se zice că se-mbracă în haine bărbăteşti.</p>
+            <p>Pândiţi-o când se plimblă. O să simţiţi plăcere. Nu-i om care-nainte-i să nu fi stat uimit.</p>
+            <p>ÎNT ÂIA DOAMNĂ:</p>
+            <p>Mă-nşel sau în privire aveţi ca o lumină,</p>
+            <p>Când numele ei falnic vă sună în urechi?</p>
+            <p>Poate-aţi dori femeia g1orioasă s-o cunoaşteti...</p>
+          </sp>
+          <sp who="#monaldeschi">
+            <speaker>MONALDESCHI</speaker>
+            <stage> (din ce în ce mai jenat.) </stage>
+            <p>Nu, nu... Cu îndrăzneala nu merg aşa de sus, Dar sunt fiinţi a căror şi simpla pomenire</p>
+            <p>Ar face să tresară si cel mai dârz viteaz.</p>
+            <p>Dar nu-i iertat ca doamne din Curtea Franciei</p>
+            <p>Să-şi piardă astfel vremea cu mine-un biet drumeţ.</p>
+            <stage> (Cineva vine din fund şi se apropie de Cristina. Ea, care urmărea nemulţămită zăbava lui Monaldeschi, pare foarte tulburată şi, după mişcări incoerente, dă un ordin ofiţerului francez.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA A II-A:</head>
+          <stage>ACEIAŞI, OFIŢERUL</stage>
+          <stage>(Lumea se împrăştie, doamnele despărţindu-se de Monaldeschi.)</stage>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA A III-A</head>
+          <stage>CRISTINA,  MONALDESCHI</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (Se coboară, oprindu-se în faţa lui şi privindu-l lung.) </stage>
+            <p>Frumoase sunt aceste doamne-a- Curții franceze</p>
+            <p>Și vorba lor mai dulce-i decât cea de la noi.</p>
+            <p>Femei adevărate, cu toată eleganţa,</p>
+            <p>Cu toată viclenia ce e în sexul lor,</p>
+            <p>Şi ce bogate rochii pe trupurile fine! Nu afli-astfel de zâne nici în Italia</p>
+            <p>Pe care-ai părăsit-o, crezând supt cerul rece</p>
+            <p>Al patriei pe care-am  pierdut-o, să găseşti</p>
+            <p>Un har de frumuseţe mai mare, şi-ai minţit...</p>
+            <p>Nu te uita la mine! Tu ai mințit. Pe cine?</p>
+            <p>Pe-aceia ce din praful adâncii umilinţi</p>
+            <p>Făcu un om asemeni cu dânsa, cum eşti astăzi,</p>
+            <p>Şi lumea mă arată. cu degetul, văzând</p>
+            <p>Că am ajuns eu, mândra, o roabă prin iubire....</p>
+            <p>MONALDESCHI:</p>
+            <p>De ce porni furtuna aşa de-nfuriat</p>
+            <p>Din sufletul în care găsit-am îndurare</p>
+            <p>Şi, dacă nu-i prea mare curajul să ţi-o spun, Iubire...</p>
+            <p>CRISTINA:</p>
+            <p>Nu iubirea pe care ţi-o am dat</p>
+            <p>Aşa cum o femeie se-nchină celui care</p>
+            <p>Stăpân devine astfel pe -ntreagă voia ei,</p>
+            <p>Ci ordinul iubirii spre tine a plecat;</p>
+            <p>Erai dator iubirea întreagă să mi-o dai,</p>
+            <p>Să fii al meu cu trupul şi gândul, da, cu totul!</p>
+            <p>Şi orb să fii în faţa oricărei frumuseţi,</p>
+            <p>S-ajungi mort pentru lume, cum sunt, pe viaţă, moarte Femeile smerite ce-s date lui Hristos.</p>
+            <p>Cum schivnicul nu ştie de este o femeie</p>
+            <p>Pe lume decât cea la care-ngenunchind, Imploră să primească o binecuvântare.</p>
+            <p>Iar tu, tu crezi, sărmane, că te-a iubit femeia</p>
+            <p>Din mine... Dar pe-aceia de mult o am ucis.</p>
+            <p>Din pragul tinereţii oprit-am înflorirea</p>
+            <p>Pornirilor cu care mândriile se pierd,</p>
+            <p>Și eu trăiesc cu-atâta acum: mândria-aceasta</p>
+            <p>Pe care nici Acelui de sus eu n-o închin.</p>
+            <p>Şi eu ca orişicare am dreptul la bărbat.</p>
+            <p>Nu-l caut; soarta însăsi datoare-i să-l aducă</p>
+            <p>În faţă-mi, iar, odată ajuns, e omul meu; Şi, dacă este astfel, pe viaţă şi pe moarte</p>
+            <p>Pricepi tu, şi pe moarte ?... el trebuie-a simţi</p>
+            <p>Că nu-i iertat să calce porunca doamnei sale...</p>
+            <p>MONALDESCHI:</p>
+            <p>Dar n-am, Cristino,  iartă: regina mea!, vreo vină.</p>
+            <p>Eu doamnele acestea nici nu le-am cunoscut.</p>
+            <p>Veniră ele: gândul le-a fost să mă descoase</p>
+            <p>Ce sunt, şi dac-alături de tine mă găsesc.</p>
+            <p>Eu le-am lăsat să creadă ce vor şi-aştept acuma Smerit, cum totdeauna am stat în faţa ta,</p>
+            <p>Porunca după care să mă îndrept în toate.</p>
+            <p>CRISTINA:</p>
+            <p>Porunca? De atâta crezi oare c-am vorbit Cu patimă. şi ură de te-a prins spaima?</p>
+            <p>Ai vrut si tu la Curtea oricărei rătăciri</p>
+            <p>În care-un rege ce trage după dânsul</p>
+            <p>O ceată de tovarăşi uşori şi de femei,</p>
+            <p>Să te deprinzi cu toate năravuril acestea.</p>
+            <p>Eu am crezut că Franţa nu este doar atât,</p>
+            <p>Şi mâine mă voi duce aiurea, unde omul</p>
+            <p>Mai mult e ca plăcerea ce-şi poate câştiga</p>
+            <p>Şi care peste toată fiinţa lui domneşte...</p>
+            <p>Aiurea, da, aiurea îmi caut rostul meu!...</p>
+          </sp>
+          <sp who="#monaldeschi">
+            <speaker>MONALDESCHI</speaker>
+            <stage> (încurajat.) </stage>
+            <p>Si eu voi fi alături de tine-n orice drum,</p>
+            <p>Şi orişice primejdii îţi vor ieşi în cale</p>
+            <p>Sunt om ca şi pe-acelea, viteaz, să le înfrunt.</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (râzând sardonic.) </stage>
+            <p>Iar eu să am nevoie de spada ta?</p>
+            <p>Râd... Dă mi-o!</p>
+            <p>MONALDESCHI:</p>
+            <p>De ce? Am vreo greşeală? Şi mă vrei arestat?</p>
+            <p>CRISTINA:</p>
+            <p>Şi poate că mai bine-i să n-ai o armă-n mână</p>
+            <p>În  ceasul ce te-aşteaptă...</p>
+            <p>MONALDESCHI:</p>
+            <p>O, doamnă, mă-ngrozesc....</p>
+            <p>CRISTINA:</p>
+            <p>De ce? De vorba-mi însăşi, de ceea ce va fi</p>
+            <p>În scurt timp, căci porunca-mi aceiaşi se socoate</p>
+            <p>Aici ca şi în ţara pe care am domnit,</p>
+            <p>Sau de păcatul care ţi se vădeşte-acuma?..</p>
+            <p>MONALDESCHI:</p>
+            <p>Păcatul? Cine minte, pârându-mă.?</p>
+            <p>CRISTINA:</p>
+            <p>A, știi</p>
+            <p>Că poate fi o para în contra ta... Ei, afl-o,</p>
+            <p>Şi caută în tine întregul adevăr</p>
+            <p>Ce-ar face înaintea iubitei ce ţi-a fost</p>
+            <p>Să tremure acuma fiinţa ta întreagă..</p>
+            <p>Mişel, mi-e scârbă însăşi de mine pentru tot Ce-a fost odinioară între noi doi... Ascultă!</p>
+            <p>Nici Iadul nu cunoaşte mai neagră osândire</p>
+            <p>Şi nicio ispăşire n-o poate ridica</p>
+            <p>Decât ce se desface din însăşi spovedirea</p>
+            <p>Acţiunii criminale. O simţi? Stai în genunchi!</p>
+            <stage> (citeşte.) </stage>
+            <p>,,Suntem aicea liberi să facem orişice, Primirea-i strălucită, dar ea stă la o parte, Căci ştie Maiestatea Voastră ce-i felu1 ei: Ciudată şi nebună.”</p>
+            <p>MONALDESCHI:</p>
+            <p>O, cruţă-mă, stăpână, şi iartă-mă...</p>
+            <p>Ascultă!</p>
+            <p>CRISTINA:</p>
+            <stage> (citeşte mai departe) </stage>
+            <p>,,...Ciudată şi nebună. Eu fac ce pot spre a Păstra puţină cinste a mândrei dinastii</p>
+            <p>Ce a dat pe Gustav Adolf.”</p>
+            <stage> (către Monaldeschi.) </stage>
+            <p>Cutezi numele lui Să-1 iei uşor în astă scrisoare criminală?</p>
+            <stage> (urmează.) </stage>
+            <p>„ Dar nu e cu putinţă. Eu simt că zi de zi</p>
+            <p>Ea pierde din aceia ce i-a lăsat coroana... Văzută în mulţime, se pare un copil</p>
+            <p>Lipsit şi de măsură şi chiar de graţie.</p>
+            <p>O râd pe strad-aceia ce sexu-i înţeleg.</p>
+            <p>De-o fi şi mai departe, e sigur că îndată Măreţul rege care-i aici stăpân şi vrea</p>
+            <p>Ca totu-n ritm de-naltă cuviinţă să se poarte,</p>
+            <p>Ne va sili ca-n altă. parte să ne mutăm.</p>
+            <p>Dar eu...”</p>
+            <p>Ascult-acuma  ce ţi-e sentinţa morţii...</p>
+            <p>MONALDESCHI:</p>
+            <p>Îndură-te... Odată tu m-ai iubit...</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (urca.) </stage>
+            <p>Eu nu!</p>
+            <p>Ai fost unealta care-mi serveşte patima</p>
+            <p>Şi-atât. Orice-i în juru-mi supus voinţei mele Nu e nimic în sine: prin mine doar ceva.</p>
+            <p>Ce mila mea-ţi dăduse: avere, răsplătiri,</p>
+            <p>Un  loc înalt în Curtea în care gol veniseşi,</p>
+            <p>Cules din drumu-n care păreai un lăutar</p>
+            <p>Flămând... A ta iubire, dar ce fac eu cu dânsa? Erai frumos, -  acuma eşti hâd prin fapta ta -,</p>
+            <p>Şi eu te-am luat. Un altul de aflu-ţi, ţine locul..</p>
+            <p>IÎn viaţa mea întreagă, atâta am iubit:</p>
+            <p>Măreaţa amintire a tatălui - şi Roma Pe care într-o pornire sălbatecă voiiu S-o mut peste lacuna a zece secole.</p>
+            <p>Şi-acuma, ca să afli de ce tu vei muri -,</p>
+            <stage> (cu putere.) </stage>
+            <p>Regina ta rosteşte sentinţa condamnării,</p>
+            <p>Şi oameni de credință o vor executa Ascultă încă...</p>
+            <stage> (citeşte.) </stage>
+            <p>Îi	bine un capăt să se puie Ruşinii şi atâtor primejdii care pot</p>
+            <p>S-ameninţe şi tronul nou al Măriei Tale.</p>
+            <p>Cunosc un  toxic care, turnat misterios,</p>
+            <p>În hrana celei care nu-i vrednică de viaţă, Odată ce şi-o trece aşa, ar mântui</p>
+            <p>Şi ţara de primejdii şi însăşi ea de sine...”</p>
+            <stage> (sună.) </stage>
+            <p>Să vie căpitanul Axel al gărzii mele!</p>
+            <stage> (căt re Monaldeschi) </stage>
+            <p>Rămâi aşa, nevrednic să-mi stai în faţă drept, Cum stă şi osânditul când alta-i e greşeala.</p>
+            <p>De-ai fi cum îţi e haina aceasta, cavaler,</p>
+            <p>Din cei ce-odinioară stătură-n jurul nostru,</p>
+            <p>Ţi-aş da-ndărăt această sabie şi-ai şti</p>
+            <p>Ce-ţi este datoria ... Iar tremuri?... De-ai avea-o,</p>
+            <p>Ai fi în stare drumul să-ţi caţi cu ea, fugind.</p>
+            <p>O ţin în amintirea-a ce a fost odată,</p>
+            <p>Pe vremea de credinţă...</p>
+            <stage> (apare Axel) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA A IV-A</head>
+          <stage>ACEIAŞI, AXEL</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Acest om care poartă o vină care-o ştii</p>
+            <p>Căci, el s-o afle-acum, mi-ai dat dovada noua</p>
+            <p>A unei neclintite credinţi, descoperind</p>
+            <p>O intrigă infamă în contra vieţii mele,</p>
+            <p>Dator este cu moartea spre a o ispăşi,</p>
+            <p>De-ar fi om de onoare, eu sabia i-aş da-o,</p>
+            <p>Şi, cum spre-a mea icoană. privit-aţi amândoi</p>
+            <p>Cu-aceeaşi îndrăzneală, v-aţi fi cercat din săbii. Acum îţi cer o jertfă:</p>
+            <stage> (hotârât) </stage>
+            <p>îl vei executa.</p>
+            <p>Ţi-l ia şi isprăveşte cu dânsul cât mai iute!</p>
+            <stage> ( Axel târăşte pe Monaldeschi) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA A V-A</head>
+          <stage>CRISTINA:  (singură.)</stage>
+          <stage>(se aude un corp care cade. Uşa se deschide. Un preot.)</stage>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA A VI-A</head>
+          <stage>CRISTINA, PREOTUL</stage>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Căzut-a cavalerul ce sta în calea  ta,</p>
+            <p>Zdrobit, sfărmat, căci trupul în	zale-nveşmântat</p>
+            <p>Nu se lăsa de arma uciderii pătruns.</p>
+            <p>Mă iartă, doamnă: groaznic e lucrul ce-am văzut! Voit-am să-l împiedec, dar m-au oprit ostaşii...</p>
+            <p>Pierdut-ai un tovarăș fidel al vieții tale</p>
+            <p>Şi sunt dator eu, preot, să spun că s-a sfârşit</p>
+            <p>Ca fiu plin de credinţ-al Bisericii romane.</p>
+            <p>Muri făcându-şi cruce şi mi-a cerut s-aduc Solia cea din urmă stăpânei lui iubite:</p>
+            <p>A spus: ,, păcatu-i mare”, -  dar eu nu pot să-l ştiu</p>
+            <p>,,Cristina e datoare la Roma să se ducă.”</p>
+            <p>CRISTINA:</p>
+            <p>O, da, voi	merge-acolo, dar nu pentru ce crezi,</p>
+            <p>Ca să-ngenunchi, căită, la sfintele altare:</p>
+            <p>M-oi duce ca să aflu în Roma ta pe Cesar.</p>
+          </sp>
+          <stage>(Cameră într-un  palat roman.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="5">
+        <head>ACTUL AL V-LEA</head>
+        <div type="scene" n="1">
+          <head>SCENA I-IU</head>
+          <stage>UN OM DIN SUITĂ, O CAMERISTĂ</stage>
+          <sp who="#omul_din_suita">
+            <speaker>OMUL DIN SUITĂ</speaker>
+            <p>Ai fost s-o vezi?</p>
+            <p>CAMERISTA:</p>
+            <p>Nu este aceia care-a fost Acum cinci ani. Frumoasă şi mândră ce părea</p>
+            <p>În haină bărbătească pe cal înaintând.</p>
+            <p>Ce ştiu eu ? Roma veche oare-a îngăduit</p>
+            <p>Ca o Împărăteasă sa umble-aşa cum ochii</p>
+            <p>Ni se opresc şi astăzi la Cesarul de sus Din Capitoliu?</p>
+            <p>OMUL DE SUITĂ:</p>
+            <p>Nu cred să li se fi dat  voia.</p>
+            <p>Femeilor ca astfel s-apară ca voinici...</p>
+            <p>Doar Cesarii ei singuri erau stăpâni, iar -ele Aveau ca datorie să steie-n gineceu	.</p>
+            <p>Şi lâna să o toarcă spre a găti veşmântul Aceluia ce însuşi în toate hotăra.</p>
+            <p>Coroana  pentru ei era: tovaraşele</p>
+            <p>Cu cine lângă dânşii să stea nu-ngăduiau.</p>
+            <p>Dar ea... Ea e femeie aşa cum Dumnezeu</p>
+            <p>A vrut să se zidească din lutul Facerii</p>
+            <p>În clipa de greşeală şi-atâta... Nu mai mult.</p>
+            <p>Un suflet de voinţă supremă, nemiloasă., Intră în trupul care părea că e menit,</p>
+            <p>Aşa cum e frumoasă şi-acum, iubirii...</p>
+            <p>CAMERISTA:</p>
+            <p>Oare</p>
+            <p>Crezi tu că ea nu are un simţ pentru bărbaţi, Fiind bărbată însăşi în toate ale sale?</p>
+            <p>De-atâţia ani în juru-i noi stăm şi am văzut</p>
+            <p>Tot ceia ce-n palatul acesta se petrece.</p>
+            <p>Vin, ziua, învăţaţii, latina lor vorbind,</p>
+            <p>De nu-nţelege nimeni ce spun atâte oare, Vin cei ce află-n ţărnă statui şi i le vând, Arată cărţi bătrâne, de care-i stăpânită,</p>
+            <p>Iar, noaptea când se lasă, e totul zăvorât.</p>
+            <p>A doua zi călare porneşte-n largul lumii... Acuma  însă-mi  pare că totul s-a sfârşit:</p>
+            <p>O	boală nemiloasă puterea i-o distruge...</p>
+            <p>OMUL DE SUITĂ:</p>
+            <p>Dar ea se luptă încă: i-i sufletul întreg,</p>
+            <p>Grozav ca hotărâre. Un rege, ce să spunem!</p>
+            <p>Nu  te-ai	uitat la banul	de-argint  al ei? E sens:</p>
+            <p>,,Cristina”, dar  nu scrie „regină”, ci stă: ,,rege.”</p>
+            <p>CAMERISTA:</p>
+            <p>În camera ascunsă, în care adeseori</p>
+            <p>Se-nchide, este îns-o icoană de bărbat,</p>
+            <p>Un om frumos şi mândru, cu  platoşă  bogată,</p>
+            <p>Ai zice că-i în stare o lume a cuceri,	.	. Cu plete lungi, bălane şi clarii ochi albaştri.</p>
+            <p>Am vrut să ştiu ce este cu el şi o am	pândit,</p>
+            <p>Aşa ne e păcatul femeilor: ca toate</p>
+            <p>Să vrem a fi ştiute -, şi ea stă în genunchi</p>
+            <p>Şi pare că îi cere iertare. Iar, de când</p>
+            <p>Se simte-aşa slăbită, ades vine la dânsul...</p>
+            <p>I-o fi fost poate unul pe care l-a iubit...</p>
+            <p>OMUL DE SUlT Ă:</p>
+            <p>Ce spui prostii! Se vede că nu ştii cărţile,</p>
+            <p>Cu-a lor poveşti de luptă şi de triumf... Dar el</p>
+            <p>E tatăl ei. E cel mai crunt duşman al credinţei,</p>
+            <p>E cel care în luptă căzut-a biruind,</p>
+            <p>Că nu-l lăsă din ceruri să fie domn al lumii.</p>
+            <p>E însuşi Gustav-Adolf...</p>
+            <p>CAMERISTA:</p>
+            <p>Da, da, am auzit. Ea seamănă cu dânsul, dar pare aşa de mică, În haina ce odată pe el îl îmbrăca ...</p>
+            <p>Dar ştii că lângă dânsul descoperiiu şi pe-altul.. Frumos şi-acela... Ochii adânci şi calzi ce-i sunt,</p>
+            <p>Si o melancolie parcă-l încunjură...</p>
+            <p>Zăbranic negru-n juru-i de mult va fi fost pus, Căci vremea -1 vestejeşte... Cu-acela însă este</p>
+            <p>Ceva ciudat. Privirea-i și-o întoarce de la el,</p>
+            <p>Când cu mânie mare, şi când cu ochi-n lacrimi...</p>
+            <p>OMUL DIN SUITĂ:</p>
+            <p>Ce ştim  noi despre viaţa acelei ce-o servim!...</p>
+            <p>Nu ne e datoria să tot cercăm mistere.</p>
+            <p>Nu-i om să nu le aibă ascunse-aici în fund, Si e o datorie de nici a nu ghici</p>
+            <p>Ce-a fost durere-n inimi ce nu spun nimănuia</p>
+            <p>Din ce le-a fost odată iubire şi nădejdi</p>
+            <p>De bine. Deocadaată mă mir că nu ne cheamă.</p>
+            <p>Avuse obiceiul ca-n faptul chiar de zori,</p>
+            <p>Dorind să iasă, casa întreagă s-o ridice.</p>
+            <p>Ce iute vrea să-şi aibă gătit frumosul cal</p>
+            <p>Ce l-a adus - cu dânsa din ţara-i depărtată  Târziu cetea si ochii i-erau neadormiți,</p>
+            <p>Treceau câteva ceasuri şi ne chema la dânsa,</p>
+            <p>Pe căile de ziuă s-o întovărășim.</p>
+            <p>Acuma zăbovește: o ţine suf-rinţa</p>
+            <p>În loc. Mă tem ca mâine să nu fim obligaţi,</p>
+            <p>Când rostul ei pe lume s-o fi sfârşit cu truda-i,</p>
+            <p>La alt stăpân o pâine mai rea s-o câştigăm ...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA A II-A</head>
+          <stage>ACEIAŞI, U MONSIGNORE</stage>
+          <sp who="#monsignorele">
+            <speaker>MONSIGNORELE</speaker>
+            <p>Regina este gata ca să poată primi</p>
+            <p>Mesajul ce-l aducem de la Sfântul Părinte?</p>
+          </sp>
+          <sp who="#omul_de_suita">
+            <speaker>OMUL DE SUITĂ</speaker>
+            <stage> (către cameristă) </stage>
+            <p>Te du si vezi. Ea încă n-a dat un semn de viaţă...</p>
+            <p>Era prea obosită, şi frigurile-o ţin.</p>
+            <p>Acei ce vreau s-o vadă fac bine să grăbească.</p>
+            <p>O vizită de care ea se va bucura.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA A III-A</head>
+          <stage>ACEIAŞI, CRISTINA</stage>
+          <stage>(apare îmbrăcată în negru, femeieşte, foarte schimbată.)</stage>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <p>Bolnavă sunt? Se poate. Sun tem supuşi cu toţii</p>
+            <p>Osândelor vieţii, dar să le înfruntăm</p>
+            <p>E marea datorie, şi eu mă ţin de dânsa.</p>
+            <p>Nu va muri Cristina asa cum o doresc Aceia căror totul ce l-am avut îl dasem.</p>
+            <p>Dar şi-n  cel din urmă ceas voi avea puteri</p>
+            <p>Ca să întâmpin astfel cum rangul meu o cere Pe-acei ce-au fost cu mine atât de primitori</p>
+            <p>Şi celei refugiate i-au dat iluzia</p>
+            <p>Că e tot o regină, deși nu  mai domneşte...</p>
+            <p>MONSIGNORELE:</p>
+            <p>Recunoştinţa toată e doar de partea noastră. Ce-am dat  noi? Adăpostul pe care-l datorim</p>
+            <p>Oricărui din creştinii ce-ajung la pragul nostru,</p>
+            <p>Şi dacă nu se află cu noi deplin .uniţi,</p>
+            <p>Dar înc-atunci când darul măreţ ce niciodată</p>
+            <p>Nu s-a uita, ne face s-avem de la cei vechi Comori nepreţuite şi cu atât mai scumpe,</p>
+            <p>Cu cât acea gândire s-opri asupra lor</p>
+            <p>Ce-a dat orânduire romană țării sale.</p>
+            <p>Când nobila-ți scrisoare sosi-1a cel ce e Părintele acelor ce au credinţa dreaptă,</p>
+            <p>El s-a oprit din lucru-i şi ochi-i scânteiau.</p>
+            <p>A spus: ,,e cel mai falnic dar ce-am primit vreodată;</p>
+            <p>De mi-ar fi dat  atâta aur cât cântăresc</p>
+            <p>Aceste cărţi preţioase, izvor de-nţelepciune,</p>
+            <p>Nu aş fi fost atâta de recunoscător.</p>
+            <p>Îndată ce primeşte regina, mergi de-i spune Că numele-i de daru-i va fi în veci legat,</p>
+            <p>Că mulţi regi mari de astăzi trăi vor în anale,</p>
+            <p>Dar numele-i pe buzele-atâtor învăţaţi</p>
+            <p>Va fi etern ca astăzi de tânăr şi de sacru.”</p>
+            <p>CRISTINA:</p>
+            <p>Dar nu e niciun merit că am putut avea Tezaurul de care e vrednică o lume.</p>
+            <p>Păstraţi-l cu-ngrijire, că l-am iubit atâta,</p>
+            <p>Atunci când astă mână, murind, v-a dăruit Ce-a fost o mângâiere a vieţii zbuciumate.</p>
+            <p>Mi-au fost prieteni siguri aceşti mari înţelepţi:</p>
+            <p>Nu m-a minţit niciunul, chiar dacă eu în viaţă Găsit-am altă lume decât ce mi-au vestit.</p>
+            <p>Va fi o vreme, sigur va fi, când profeţia Cuprinsă-n scrisul care n-a fost îndeplinit,</p>
+            <p>Cu-o rasă mai curată va fi realitatea.</p>
+            <p>MONSIGNORELE:</p>
+            <p>Dar sarcina mea este mai gingaşă... Tu eşti Regină despărţită de-o ţară prinsă-n mreaja Credinţei rătăcite. Un suflet ce stingher</p>
+            <p>Îşi caută un sprijin la marginile vieţii.</p>
+            <p>CRISTINA:</p>
+            <p>Eu am trăit doar numai prin sprijinul de-aici.</p>
+            <stage> (îşi arată fruntea.) </stage>
+            <p>N-am căutat pe nimeni să-mi dea o îndreptare Decât la cei care prin cartea lor vorbesc.</p>
+            <p>O, nu sânt ca o navă în mijloc de furtună,</p>
+            <p>Ce -n vuietul de valuri îşi cat-un adăpost!</p>
+            <p>Nu m-ati ştiut pe mine ce sunt, ce sunt şi-acuma!</p>
+            <p>Şi aţi găsit in mine ce nu v-aţi aşteptat...</p>
+            <p>MONSIGNORELE:</p>
+            <p>Atâta aşteptare avurăm până astăzi:</p>
+            <p>Să dăm de-un suflet mare şi binefăcător,</p>
+            <p>Şi n-a fost înşelare în gându-acest-al nostru.</p>
+            <p>Dar, oricât de statornici am fi noi şi oricât</p>
+            <p>Am crede că ne-ajungem, mai sus de noi rămâne</p>
+            <p>O lume către care noi tindem...</p>
+            <p>CRISTINA:</p>
+            <p>Am atins-o.</p>
+            <p>Cu  multă suferinţă şi jertfă am ajuns</p>
+            <p>Să intru în cuprinsul acestei lumi senine.</p>
+            <p>Să nu încerce nimeni a mă îndepărta</p>
+            <p>De dânsa ce-mi ajunge de-acuma...</p>
+            <p>MONSIGNORELE :</p>
+            <p>... Noi cunoaştem</p>
+            <p>Prin ce schimbări trecut-a acest crez religios. Lăsat-ai erezia...</p>
+            <p>CRISTlNA:</p>
+            <p>O nu, eu n-am lăsat Nimic din moştenirea părintelui. Întreagă</p>
+            <p>O ţin ca moştenirea mai scumpă ce o am, Şi crezul pentru care el, regele apostol,</p>
+            <p>Muri în Luptă tânăr, martir încununat</p>
+            <p>De jertfa lui, nu  poate să fie-o erezie...</p>
+            <p>MONSIGNORELE:</p>
+            <p>Oricum, în faţa lumii întregi ai arătat Că intri-n sânul astei Biserici salvatoare. A fost o bucurie la noi când am aflat, Pierzând de multă vreme atâtea suflete, Că vine o regină şi ni se alipeşte...</p>
+            <p>CRISTINA:</p>
+            <p>O, nu cercaţi din suflet să-mi smulgeţi taina mea.</p>
+            <p>Desigur e-n această Biserică romană</p>
+            <p>Ceva ce mă atrage-nainte de orice:</p>
+            <p>E stricta disci plină şi oarba ascultare.</p>
+            <p>Le-am vrut şi eu odată. Cu ele-aş fi creat</p>
+            <p>O ţară minunată, icoan-a vechii Rome.</p>
+            <p>Dar mi-au stat înainte păreri din alte vremi, Atâtea aspiraţii spre-o falsă libertate,	.</p>
+            <p>Şi mai ales prostia umană, un vrăjmaş</p>
+            <p>Grozav, ce stă în.faţa minţii şi-o umileşte,</p>
+            <p>Căci ei sunt o mulţime şi ce pot numai eu</p>
+            <p>Cu cei a căror gânduri mi-au fost îndemn şi mie?!</p>
+            <p>De-aceia-n locul vorbei zădarnice şi a</p>
+            <p>Îngăduinţii care oricui îi dă cuvântul,</p>
+            <p>Am vrut să pun porunca... Dar nu-mi veniţi acum,</p>
+            <p>Ca de la voi porunca eu s-o primesc... Destul</p>
+            <p>Că v-am intrat în turmă; ajungă-vă că eu Mă plec către altare de artă minunată,</p>
+            <p>Că frazele latine le gust când le ascult</p>
+            <p>Şi că-ngenunchiu pe	piatra de marmură curată,</p>
+            <p>Pe când în juru-mi glasuri se suie către cer.</p>
+            <p>Credința mea-i aceasta: să nu-mi mai cereți alta!</p>
+            <p>MONSIGNORELE:</p>
+            <p>Voi duce o speranţă atunci, de nu mai mult. Stăpân e peste vreme Isus: ţi-o da povaţa</p>
+            <p>Prin care greutatea se va înlătura,</p>
+            <p>Şi dincolo nu-i merge un suflet singuratic.</p>
+            <p>CRISTINA:</p>
+            <p>Destul... Sunt obosită. De mult nu m-am simtit Aşa. Parcă mă cheamă un glas iubit aiurea.</p>
+            <p>Sunt taine care omul îl cer întreg şi singur.</p>
+            <p>Lăsați-mă cu ele... Dar ce  aud? Vorbesc</p>
+            <p>În limba mea de-acasă? Eu pare c-am uitat-o,</p>
+            <p>Dar, de-o aud, în ochii cei reci din nou ţâşnesc Aceste lacrimi care si-au fost stinchit izvorul</p>
+            <p>Demult, căci nu se cade să plâng când rege-am fost</p>
+            <p>Şi sunt şi-acuma-n suflet tot rege...</p>
+            <stage> (Face un semn. Monsignorele salută şi pleacă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA A IV-A</head>
+          <stage>CR,lSTINA, OMUL DIN· SUlTĂ</stage>
+          <sp who="#omul_din_suita">
+            <speaker>OMUL DIN SUITĂ</speaker>
+            <p>Aşteaptă, Maiestate, un om ciudat. Se pare Că vine de departe, aşa-i de istovit,	.</p>
+            <p>Şi haina lui prăfoasă şi ochii arşi de cale.</p>
+            <p>El vrea să spuie-o vorbă, şi-atât, şi va pleca, Oricare-ar  fi izbânda soliei ce-o aduce.·</p>
+            <p>Mi-a spus în latineşte aşa. Nu ştie alta.</p>
+            <p>Părea, să am iertare de văd asemănari,</p>
+            <p>Că este ca ostaşul cel mândru din cămara Ascunsă, unde ochii arareori pătrund.</p>
+            <p>S-ar spune că e însuşi acel glorios rege</p>
+            <p>Din care se coboară Măria Ta...</p>
+            <p>CRISTINA:</p>
+            <p>Și-i zice Acelui om ce vine să-mi tulbure odihna ?...</p>
+            <p>OMUL DIN SUITĂ:</p>
+            <p>Mi-a spus ca n-are nume decât în faţa ta.</p>
+            <p>CRISTINA:</p>
+            <stage> (se rezimă greu pe perna patului pe care s-a aruncat.) </stage>
+            <p>Să intre! Simt că duce ceva  neasă mănat</p>
+            <p>De sacru	şi de dulce, de trist... Si vreau să-l aflu!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA A V-A</head>
+          <stage>CRISTINA, AXEL</stage>
+          <sp who="#axel">
+            <speaker>AXEL</speaker>
+            <p>Aduc ce-ar fi o crimă de n-ai fi poruncit Tu însăţi ca trădarea să fie pedepsită,</p>
+            <p>Şi dacă n-aş fi sigur că astfel am salvat Această viaţă mie de-atâta vreme sfântă...</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (chinuită, făcând gesturi de respingere) </stage>
+            <p>Fantasmă dureroasă, în lături! Nu te vreau!</p>
+            <p>De ce-ai voit viaţa-mi s-o iei şi-am fost silită Prin moartea ta cea cruntă, să apăr viaţa mea?</p>
+            <stage> (către Axel.) </stage>
+            <p>Eu nu sunt vinovată... O, spune-o tu că nu-i</p>
+            <p>În fapta-ndeplinită decât voinţa sorţii...</p>
+            <p>AXEL:</p>
+            <p>O spun, şi înaintea lui Dumnezeu o jur...</p>
+            <p>Iar, dacă ispăşirea o ceri, o dau prin mine. Cu sabia la coapsă aice am venit:</p>
+            <p>Un semn, atât, şi spada-şi va face datoria</p>
+            <p>În contra mea, şi astfel voi merge eu să dau Întreaga socoteală a faptei fioroase...</p>
+            <p>CRISTINA:</p>
+            <p>O, nu! Axel... Ce vreme trăit-am când eram Aşa micuţi şi buna mea maic-al doilea</p>
+            <p>Era cârmuitoarea acelor paşi ai noştri</p>
+            <p>Nesiguri! Iar pe urmă ce-a fost! Ce a mai fost!</p>
+            <p>O lume-ntreagă parcă-nvie, se adună,</p>
+            <p>Se strânge împrejuru-mi, suflarea mea o ia:</p>
+            <p>Mă-năbul... Nu e nimeni s-aline suferința-mi?...</p>
+            <p>Dar eu mă uit pe mine... Nu-i voie aşa să fii</p>
+            <stage> (se  îndreaptă.) </stage>
+            <p>Eu sunt aceia care nu-mi dau astfel de voie.</p>
+            <p>Stai sus, Cristino, care menită ești să fii Regină, Și în lături oricare slă biciune!</p>
+            <p>AXEL:</p>
+            <p>Eu am venit, o, doamnă, nu ca un pelerin: Această Romă-mi este străină şi duşmană,</p>
+            <p>Dar ţara care este-amea şi-a ta...</p>
+            <p>CRISTINA:</p>
+            <p>A  fost,</p>
+            <p>Când m-asculta pe mine. Iar, dacă a voit</p>
+            <p>Ca  eu s-ascult de alţii, n-am ţară... Îs singură...</p>
+            <p>AXEL:</p>
+            <p>I-a	ta, se simte-n glasu-ţi durerea ce nu poţi</p>
+            <p>Să o ascunzi în tine. Mai tare-i, orice-ai face...</p>
+            <p>CRISTINA:</p>
+            <p>Si ce-i  cu-această șară? Grăbește-te! Eu simt</p>
+            <p>Că mintea mea	deasupra acestei lumi pluteşte...</p>
+            <p>În valuri luminoase mă pierd, şi-asupra mea</p>
+            <p>Aud cântări pe care nicio Biserică</p>
+            <p>Nu le.-a aflat vreodată ... Eu sensul le pricep,</p>
+            <p>Deși-i o limbă care nu mi-a mai fost vorbită. Vorbeşte-nţelepciunea supremă graiul ei.</p>
+            <p>Auzi? Nici Platon însuşi nu se apropie De marea-i claritate şi de lumina ei...</p>
+            <p>AXEL:</p>
+            <p>Te pierzi, regină. Nu e iertat să mai fii astfel,</p>
+            <p>Căci ţara ta te cheamă să vii spre ea. Înţelegi</p>
+            <p>Ce mare datorie de-acolo îţi soseşte?</p>
+            <p>Se-ndreaptă către tine cei fără călăuză,</p>
+            <p>Acei pe cari mintea uşoar-a regelui</p>
+            <p>Îi duce pe o cale greşită şi nu au</p>
+            <p>În ei puterea care să se împotrivească ...</p>
+            <p>CRISTINA:</p>
+            <p>O ştiu: am fost odată chemată şi-am simţit Imensa vanitate a voii populare.</p>
+            <p>Plecasem fiindcă astfel era cerinţa mea,</p>
+            <p>Şi-a fost de voi gonită fata lui Gustav-Adolf! De ce-aş căta acolo mormântul ce-l găsesc</p>
+            <p>Odată, nu-n zăpada acelor ierni cumplite,</p>
+            <p>Ci-aici, sub cer albastru, în miresmele de vânt</p>
+            <p>Ce vin de pe câmpia  isprăvilor romane.</p>
+            <p>Voi mi-aţi avut voinţa; vă trebuie-agonia?</p>
+            <p>Aceia pentru mine o ţin: de ce-ar vedea Vrăjmaşii o bătrână pe care-a sfărâmat-o Ciocnirea hotărârii ei cu prostia lumii...</p>
+            <p>AXEL:</p>
+            <p>O, nu, vei avea zile, regină, şi-i domni.</p>
+            <p>Nu poate fi atâta de aspră voia sorţii</p>
+            <p>Cu noi acei ce ţara o vrem s-ajungă iar</p>
+            <p>Pe culmea unde tatăl tău a fost aşezat-o.</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (rugătoare) </stage>
+            <p>.</p>
+            <p>O, iartă-mă, părinte iubit, n-am fost în stare</p>
+            <p>Să fiu ce-ai vrut, ce însumi mi-am fost impus să fiu.</p>
+            <p>Cum n-am ucis în mine deplin femeia care</p>
+            <p>Acum se-mpleticeşte, când  poate s-ar cădea</p>
+            <p>Să uit tot ce-i în urmă și calul meu să-ncalec</p>
+            <p>Spre-a face rânduiala ce alţii nu o pot...</p>
+            <stage> (liniştindu-se) </stage>
+            <p>Axel, ascultă.. Ochi-mi acum în depărtare</p>
+            <p>Străbat prin ceaţa vremii, pătrund în viitor.</p>
+            <p>Ce este să vă fie o faptă, vis îmi este,</p>
+            <p>Dar simt că adevărul în ele întrupat</p>
+            <stage> (privind viziunea.) </stage>
+            <p>Voi veţi avea un rege, cum nu v-am dat din trupu-mi.</p>
+            <p>Va fi un domnd de țarp grozav, tiran de lume,</p>
+            <p>Hotarele în cale-i ca iarba vor cădea,</p>
+            <p>Oștiri învingătoare sor face praf înainte-i</p>
+            <p>Monarhii cei mai mândri i se vor închina,</p>
+            <p>Și-aceste lucruri toate le-o face el sub steagul</p>
+            <p>Suediei</p>
+            <stage> (caută sub căpătâi) </stage>
+            <p>, acesta, ce nu-l putui uita...</p>
+            <stage> (fâlfâie steagul) </stage>
+            <p>Dar, vezi, aici osânda-i, aici pedeapsa voastră,</p>
+            <p>El toate le va face pe voia lui și-atât,</p>
+            <p>Nu cum am vrut eu însămi să-nalț Suedia,</p>
+            <p>Și va cădea mândria-i trăsnită drept în creștet.</p>
+            <p>Dar miile de oameni nu vor mai învia,</p>
+            <p>Pe câmpii de bătaie, și nu se vor reface,</p>
+            <p>Cetățile distruse și nici nu va suna,</p>
+            <p>Vreodată, ca în vremea-ți, părinte Gustav Adolf,</p>
+            <p>Atât de mândrul nume-al tău, Suedie...</p>
+            <p>Vă blestem eu prin dânsul, pribeagă ce sunt eu...</p>
+            <p>Un preot... vreau un preot...</p>
+          </sp>
+          <sp who="#axel">
+            <speaker>AXEL</speaker>
+            <stage> (strigă) </stage>
+            <p>Un preot nu-i pe-aproape?</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA A VI-A</head>
+          <stage>ACEIAȘI, MONSIGNORELE</stage>
+          <sp who="#monsignorele">
+            <speaker>MONSIGNORELE</speaker>
+            <p>M-oprise o voință mai tare decât mine.</p>
+            <p>Știam că o chemare spre mine s-a-ndrepta</p>
+            <p>Și, dus de suferința-ți, din nou acum m-apropiu.</p>
+          </sp>
+          <sp who="#cristina">
+            <speaker>CRISTINA</speaker>
+            <stage> (cu o ultimă sforțare) </stage>
+            <p>Te văd, și-a lui icoană o-mprăștii tu. Nu vreau</p>
+            <p>Nici milă, nici iertare... Mă duc spre zeii Romei!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

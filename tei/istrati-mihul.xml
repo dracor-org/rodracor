@@ -1,0 +1,3184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000035" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Mihul</title>
+        <author>
+          <persName>Neculai Istrati</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q18544107</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://dspace.bcu-iasi.ro/handle/123456789/69513">BCU Iași</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1850">
+            <desc>1850</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="mihul" sex="MALE">
+            <persName>MIHUL</persName>
+          </person>
+          <person xml:id="stefan_cel_mare" sex="MALE">
+            <persName>ȘTEFAN CEL MARE</persName>
+          </person>
+          <person xml:id="matei_corvin" sex="MALE">
+            <persName>MATEI CORVIN</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000035"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Mihul</titlePart>
+        </docTitle>
+        <docAuthor>Neculai Istrati</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>MIHUL</role>
+        </castItem>
+        <castItem>
+          <role>ȘTEFAN CEL MARE</role>
+        </castItem>
+        <castItem>
+          <role>MATEI CORVIN</role>
+          <roleDesc>regele Ungariei</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage>⁠ ȘOLTUZUL. HII PÂRGARI , STREJERI. ⁠</stage>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Acuma târgul Baiea se află fără arme</p>
+            <p>Deschisu toți vrăjmașii , lipsitu de apărare,</p>
+            <p>Căci și arcașii noștri la tabără s’au dusu</p>
+            <p>Chiemați cu Părcălabul pe al Sucevei șesu.</p>
+          </sp>
+          <sp who="#sultuzul">
+            <speaker>ȘULTUZUL</speaker>
+            <p>Aprodul ce viniră trimisu de la Suceava</p>
+            <p>S’adune și plăeșii la tabăra cea mare</p>
+            <p>De hatmanul de Șăndre anume ’nsărcinatu,</p>
+            <p>Au spusu că la Domnie știință au agiunsu</p>
+            <p>Că Romanul cenușă, cenușă este-acuma,</p>
+            <p>Și Regele cu Ungurii purtându din sate’nsate</p>
+            <p>Și fieru, și focu și pradă, Suceava o țintescu.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Dar mie mi se pare că Regele Ungar</p>
+            <p>El tot n’a să cuteze așa cu nepăsare</p>
+            <p>Să meargă înainte de-a dreptul la Suceava,</p>
+            <p>Ca să vâneze leul curat chiar în culcușu:</p>
+            <p>Căci știe foarte bine că Stefan este leu.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Matieși însă este, deprinsu să biruească;</p>
+            <p>Și are oaste multă, de patru ori mai multă</p>
+            <p>De cât anoastră oaste.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>El poate cuteza</p>
+            <p>În numărul cel mare, în comandiri veteji</p>
+            <p>Că va cuprinde țara și scaunul Moldovei,</p>
+            <p>Că Petru Aron earăși va di pusu în Suceava</p>
+            <p>Pe tronul de Domnie, ori însuși Beredel.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Vezi Ungurul nu uită de cându Stefan făcu</p>
+            <p>Potopu în tot Ardealul și’nțara Secuească.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>El nu uită nici astăzi că au perdutu Chiliea.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Răzbelul de la Șceea îl doar mult mai mult</p>
+            <p>Cându au perdutu pe Hroiot cu multe zeci de mii</p>
+            <p>Și fala cum că este și preste Regi el Rege.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Îl doare de ce este Erou și Stefan Vodă;</p>
+            <p>De ce s’ajutoreze pe frații Transilvani</p>
+            <p>Încontra unui Rege viteazu cum este el.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Eu credu că Ungurimea de și’i foarte vitează;</p>
+            <p>De și’ntrece la număru de patru ori pe–ai noștri,</p>
+            <p>Dar știe cine’i Stefan.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Și foarte bine știu</p>
+            <p>Că Moldovanul este în bătălii deprinsu,</p>
+            <p>Deprinsu a sta la luptă, deprinsu ca să învingă.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Să zice cum că Riga vr’o facție în țară</p>
+            <p>De mulți nemulțămiți credea că va afla,</p>
+            <p>Prodoți lui Stefan Vodă, dar foarte e ’nșălatu</p>
+            <p>Cu ast fel de părere.</p>
+          </sp>
+          <sp who="#toti_pargarii">
+            <speaker>TOȚI PÂRGARII</speaker>
+            <p>Amar se rătăcește!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>De-ar fi țara Moldovei tot a’st fel cârmuită,</p>
+            <p>De-ar fi urmașii noștri atâtu de fericiți,</p>
+            <p>Să aibă tot ca Stefan părinți pe tronul lor</p>
+            <p>Și las’apoi streinii să crează cât le place</p>
+            <p>Prodoți și fără cugetu că vor afla în țară.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Adânca bătâneață puterea ne-au secatu:</p>
+            <p>Acum în câmpul luptei amu fi noi de prisosu;</p>
+            <p>Dar tot mă trage încă magnetul la rezbele.</p>
+          </sp>
+          <sp who="#toti_pargarii">
+            <speaker>TOȚI PÂRGARII</speaker>
+            <p>Și noi simțimu totu ast fel!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Simțire vestejită.</p>
+            <p>Căci s’au sleitu vărtutea și astăzi în rezbelu</p>
+            <p>Nu amu mai fi puternici odată cum eramu,</p>
+            <p>Să înfruntămu vrăjmașii cu brațul tinereței,</p>
+            <p>Cărări să mai deschidemu prin sute și prin mii.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Acum la căruntețe a face ’n țată noi,</p>
+            <p>Alt nu ne mai remase, de câtu să fimu pârgari.</p>
+            <p>Proșesuri, ne’nțălegeri seau crime întâmplate</p>
+            <p>Aici unde județul de noi astăzi atârnă,</p>
+            <p>Cu față părintească pe toate să’ndreptămu.</p>
+            <p>Că nu va fi moldova cândva degenerată,</p>
+            <p>Încâtu să îndrăznească acel ce va fi jude</p>
+            <p>Să crează și să zică cu fală în veleagu</p>
+            <p>Că face slujbe țării?</p>
+          </sp>
+          <sp who="#toti_pargarii">
+            <speaker>TOȚI PÂRGARII</speaker>
+            <p>Ferească Dumnezeu!</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Cându astăzi chiar acela ce moare pentru țară,</p>
+            <p>Ș’acela încă strigă că n’au putut să facă</p>
+            <p>Atâta pre câtu simte că este el datoriu;</p>
+            <p>Căci multă foarte multă, noi datorie avemu</p>
+            <p>În patriea pe care și moșii și strămoșii</p>
+            <p>Cu lupte și cu sânge putut’au s’o păstreze.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>De Matieași eu tremuru, el are mulți ostași,</p>
+            <p>Și Ungurul nu’i Leahul, nici aprigul Tartaru.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Pârgare, să ții minte minte că până când ai noștri</p>
+            <p>Și țara și boerii vor fi uniți tot ast fel,</p>
+            <p>Moldova tot deauna va ride de vrăjmași</p>
+            <p>Și liberă și mândră, Moldova va trăi.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Pe Matieși se vede că vr’unu păcatu îl paște,</p>
+            <p>Căci sabiea lui Stefan nu știe să glumiască.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Curând Ungurul pierde și fală și curaju.</p>
+            <p>Vor pomeni Moldova acei ce vor scăpa</p>
+            <p>De moarte, de sclavie, întregi precum veniră.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>De n’aru vizita Baiea în mersul la Suceava</p>
+            <p>Căci, făr’ de apărare aice ne-aru afla.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>O! Matieași îi mândru și foarte-ambițiosu.</p>
+            <p>El nu se înjosește să calce târgul nostru</p>
+          </sp>
+          <sp who="#unii_pargari">
+            <speaker>UNII PÂRGARI</speaker>
+            <p>Așa ne pare noă!</p>
+          </sp>
+          <sp who="#alti_pargari">
+            <speaker>ALȚI PÂRGARI</speaker>
+            <p>Așa credemu să fie!</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Eu știu că Ungureanul îi lacomu și vicleanu,</p>
+            <p>El pradă to ce vede, nu lasă nici cotunu,</p>
+            <p>Și nu știu dacă Baiea va rămâne ferită.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Ascultăne Șoltuze ! avemu astăzi de lucru</p>
+            <p>La tribunalu aice, unde ne-amu adunatu ?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Avemu numai lui Mihul osânda să’i rostimu.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Așa, dar Mihul trebui întâi ca să se prinză</p>
+            <p>Și’n urmă tribunalul osânda să’i rostiască.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Măsurile ce astăzi în ziuă amu luatu,</p>
+            <p>Au fostu prea numerite și vrednice de noi,</p>
+            <p>Căci zioa’i albă încă și Mihul se găsește</p>
+            <p>În lanțuri la’nchisoare, mustratu de a sa crimă.</p>
+          </sp>
+          <sp who="#unii_pargari">
+            <speaker>UNII PÂRGARI</speaker>
+            <p>Sau prinsu așa în grabă?</p>
+          </sp>
+          <sp who="#alti_pargari">
+            <speaker>ALȚI PÂRGARI</speaker>
+            <p>Pututu s’au afla?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>De-arcașii noștri ageri, el nu putea scăpa</p>
+            <p>Când căile din preajmă și lunci, dumbrăvi și codri,</p>
+            <p>Pe toate chiar înpripă le înpănă de-arândul.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Îi trebue isândă de prubă înveleagu,</p>
+            <p>Ca nu cumva și alții să mai încerce ear</p>
+            <p>De a răpi copile din casa părintească.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Îi trebue pedeapsă că cuteză el încă</p>
+            <p>Sumețul să rănească pe trei dintre arași,</p>
+            <p>Turbatu să se opue să’și scape prada sa.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Firescu este ori cine să’și apere comoara,</p>
+            <p>Căci fata e comoară la celu ce-o reprește.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Dar nu uita că’nțarp, povoară este el,</p>
+            <p>Că nici chiar o izbândă în oaste n’au făcutu,</p>
+            <p>Și că e crimă mare unu nime să cuteze</p>
+            <p>La fiica lui Gligorcea, ce chiar din tinerețe</p>
+            <p>În lupte preste lupte, în arme-au cărunțitu.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Lângă cetatea Albă, în luptă, în rezbelu</p>
+            <p>Gligorcea, el, perdut’au ficiorii sei de-odată</p>
+            <p>Și singura copilă ce astăzi îi remâne,</p>
+            <p>Firește că nu poate s’o ’n curce cuunu omu</p>
+            <p>Netrebnicu pentru țară, și leneșu și mișălu.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Dar omul ce’ntr’oluptă pe trei arcași rănește,</p>
+            <p>Arcași de ai lui Stefan, Aleși tot unu, unu,</p>
+            <p>Dedați, deprinși cu lupta, și bravi ca niște lei,</p>
+            <p>Nu poate nici osânda să fie unu mișălu.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Și cum s’aru numi omul ce’l vezi pentr’o femeie</p>
+            <p>Că face ce nu face, odată pentru țară?</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Voinicul ce amanta ș’o apără ’ndrăznețu</p>
+            <p>Să știi că meritează viteazu a se numi ;</p>
+            <p>Căci este el în stare să a pere și țara.</p>
+            <p>De câte ori ai noștri, puțini, puțini la număru</p>
+            <p>Armate numeroase ușoru au biruitu,</p>
+            <p>Cându ele cutezară la prunci și la femei,</p>
+            <p>La casnicele vetre s’adunc’amenințare.</p>
+            <stage> (Unu străjăriu.) </stage>
+          </sp>
+          <sp who="#stajariul">
+            <speaker>STĂJĂRIUL</speaker>
+            <p>Vestescu că Pârcălabul ce’au fostu mai înainte</p>
+            <p>Să intre el vroește.</p>
+          </sp>
+          <sp who="#unii_pargari">
+            <speaker>UNII PÂRGARI</speaker>
+            <p>GLIGORCEA!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Se află așteptatu.</p>
+            <stage> (Strejăriul esă.) </stage>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>S’au prinsu și pe copilă cu răpitorul ei?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Ea plânge de căință acum la mine-acasă.</p>
+            <p>Ertare pentru dânsa se stăruimu a’i cere</p>
+            <p>De la al ei părinte.</p>
+          </sp>
+          <sp who="#pargarii">
+            <speaker>PÂRGARII</speaker>
+            <p>S’o erte negreșitu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage>⁠ ȘOLTUZUL, PÂRGARII, GLIGORCEA, STRĂJĂRI. ⁠</stage>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Vedeți că astăzi tremuru prieteni și de voi,</p>
+            <p>Cându alte dăți în taberi rideamu de toți vrăjmașii:</p>
+            <p>Rușinea . .   oh! rușinea mă’ncinge mă cuprinde,</p>
+            <p>Și fruntea’mi vestejită, se’nclin ’acum nevrându,</p>
+            <p>Căci amu perdutu curajul, s’au stânsu, au amorțitu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Rușine Pârcălabe? și pentru ce rușine?</p>
+            <p>Greșala unei june au poate să atingă</p>
+            <p>O frunte ce e mândră de sute de izbânzi,</p>
+            <p>O frunte de rebelicu, cum este fruntea ta?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Ușoru este Șoltuze a mângâe pe alții,</p>
+            <p>Cându inima’i senină ș’o simți indiferentă.</p>
+            <p>Dar, ori cțte cuvinte s’ajute numai potu</p>
+            <p>Părintelui ce simte în inimă veninu,</p>
+            <p>Ce’mi vede casa stinsă, copiii în cenușă;</p>
+            <p>Ce află’n a sa fiică unu șerpe-o târâtoare.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>La vârsta unde te-afli se cere cumpătu multu,</p>
+            <p>Se cere sânge rece, caracteru de barbatu.</p>
+            <p>Mâniea, mâhniciunea se eartă tinereței,</p>
+            <p>Dar nu sntu potrivite la vârsta înălbită.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Himerice rezoane îți faci în acestu punctu.</p>
+            <p>Și noi cunoaștemu cinstea și noi o prețuimu.</p>
+            <p>Avemu și noi copile, greșescu și ale noastre</p>
+            <p>Căci toți de o potrivă supuși sântem naturei;</p>
+            <p>Dar, nu perdemu curajul și nu ne diperămu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Cu trei ani înainte puteamu și eu ușoru</p>
+            <p>Păstrându’mi tot curajul să’nfruntu ori ce lovire.</p>
+            <p>Aveamu atunci cu mine toeagul cărunteței,</p>
+            <p>Și razemu și tărie, pe fiii mei aveamu;</p>
+            <p>Acum înse știți bine că fiii amândoi</p>
+            <p>Nu sântu mai mult pe lume, la Akerman periră,</p>
+            <p>Și unica me fiică se fugă cu unu nime?</p>
+            <p>O-acopere cu hulă acestu înălbitu păru?</p>
+            <p>Copilul rău, ah! vargă’i a Domnului cerescu!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Ertare Pârcălabe! rugămu să’i dai ertare !</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Ertare pentru dânsa; s’au înșălatu copila!</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Amorul nu’i o crimă, natura n’osândi,</p>
+            <p>Căci dragostea’i scântee de focu Dumnezeescu,</p>
+            <p>Ș’acel care iubește își uită de rezoane.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Ertare Pârcălabe! rugămu să’i dai ertare!</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Copila de căință se mustră ne’ncetatu,</p>
+            <p>Și plânge și se roagă, să erți greșala sa.</p>
+          </sp>
+          <sp who="#unii_pargari">
+            <speaker>UNII PÂRGARI</speaker>
+            <p>Părinte ! dăi ertare!</p>
+          </sp>
+          <sp who="#alti_pargari">
+            <speaker>ALȚI PÂRGARI</speaker>
+            <p>Gândește că’ți e fiică.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Îndurăte de dânsa, ascultă și natura,</p>
+            <p>Căci ea cere să fie părinții ertători,</p>
+            <p>Duioși, cu îndurare către copiii lor.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Așa îi prea firească ertarea la părinte;</p>
+            <p>Dar, earăși cine poate din inimă să’mi șteargă</p>
+            <p>Amara mea durere, că ea m’au părăsitu?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Căința sa, căința, și trebue s’o erți.</p>
+          </sp>
+          <sp who="#toti_pargarii">
+            <speaker>TOȚI PÂRGARII</speaker>
+            <p>Ertare Pârcălabe !</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>O ertu înse o lestemu!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Victoria să vie, aduceț’o aice.</p>
+            <stage> (Unu strejeru esă.) </stage>
+            <p>Copila’i sfiincioasă, nu fii aspru cu ea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Dar, tonu de bunătate nu merită mai multu.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Părintelui se șede să mustre cu blândeță</p>
+            <p>Pe fii săi cându lunecu și cadu în rătăcire.</p>
+            <p>Căci tonul bunătăței la tineri ce au</p>
+            <p>Și simțul, și nobleța, pătrunde mai adâncu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Strejeri! se intre Mihul, aduceți’l aice.</p>
+            <stage> (Doi strejeri esu.) </stage>
+            <p>Părinți dacă cu cale aflați și voi cu toții,</p>
+            <p>La temnița cea mare să fie pedepsitu;</p>
+            <p>Atunci Pârcălabiei el trebue trimisu,</p>
+            <p>Ca’n pază să’l trădee potariului Sucevii</p>
+          </sp>
+          <sp who="#toti_pargarii">
+            <speaker>TOȚI PÂRGARII</speaker>
+            <p>Așa voimu și noi.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Mai bine la cetate,</p>
+            <p>Mai bine’n garnizoană, căci el poate cândva</p>
+            <p>Cu timpul șu cu vârsta a fi între arcași,</p>
+            <p>Între oștenii noștri subu steagurile țării,</p>
+            <p>Cându Temnița’i știută că nu formează oameni,</p>
+            <p>Ce încă le rănește și câtu curaju mai au;</p>
+            <p>Vedeți încâtă grijă mai stă Mărirea sa</p>
+            <p>De oameni și de brațe la steagurile țării;</p>
+            <p>Vedeți Moldova noastră înce cumpănă este</p>
+            <p>Cându Matieași Corbinul, acel vrăjmașu cumplitu</p>
+            <p>Ah Domnului al, țării, al legii creștinești</p>
+            <p>Ne stă curatu încasă cu oștile de Unguri;</p>
+            <p>Vedeți părinți pre Stefan în tabără acum</p>
+            <p>C’o armie prea mică încâtu la compărare,</p>
+            <p>Vrăjmași sântu câte zece, de tot oșteanul țării!</p>
+            <p>Vedeți că nu ne lasă înpace să mai fimu;</p>
+            <p>Cându chiar și însuși frații de dincolo de Milcov</p>
+            <p>Pe rându pe rându, ne’npresurum ne răzbeleaz’adese,</p>
+            <p>Și earna ca și vara, și noaptea ca și’n zi,</p>
+            <p>Cu armele în mână pe câmpul bătăliei</p>
+            <p>Ai noștri totu deauna neîncetatu se luptă,</p>
+            <p>Cunoașteți dar că astăzi feciorii trebuescu</p>
+            <p>În oaste iar nu’n temniți</p>
+          </sp>
+          <sp who="#toti_pargarii">
+            <speaker>TOȚI PÂRGARII</speaker>
+            <p>Vorebește-adevăratu!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Așa dar, la cetate pe Mihul să’l trimitu,</p>
+            <p>Căci bine zici Pârgare, el poate ’ngarnizoană</p>
+            <p>Să fie de vr’o treabă, s’ocupe vre unu postu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage>⁠ ȘOLTUZUL, PÂRGARI, GLIGORCEA, MIHUL, STRĂJERI. ⁠</stage>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Cuteazul tău, osândă cu dreptu aru merita,</p>
+            <p>Te scapă îns’acuma a tale tinerețe;</p>
+            <p>Vei fi la o cetate trimisu a face să deprinzi,</p>
+            <p>Ca nu îndistrămare, în lene să trăești.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Ascultămă băete ! deprindete la arme,</p>
+            <p>Să fii unu oșteanu vrednicu de Domnitoriul nostru.</p>
+            <p>Și cându ear vr’o copilă te-aru îndemna s’ofuri,</p>
+            <p>Se fugi…se fugi de dânsa; căci fata ce ușoru</p>
+            <p>Se las’a fi furată, de lăcomitu nu este.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Părinți aleși în publicu vă rogu de ascultare.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Vorbește!</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Victoriea, s’ofuru nu mo’ondemnatu.</p>
+            <p>Cu sila înputere hoțește-o amu ripitu;</p>
+            <p>Nici lacrimi, nici blasteme, nimic nu mă învinse.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Așa dar nu’i greșită sermana me copilă.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Și cum gândeai băete să aibi soție tu,</p>
+            <p>Cându încă până astăzi subu steaguri n’ai servitu?</p>
+            <p>Și cându la întâmplare de luptă în resbele,</p>
+            <p>Tu n’ai pute învinge și izgoni vrejmașii,</p>
+            <p>Să’ți aperi și nevasta, și casa, și copii?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Șoltuzule ! și mișălul se face chiar erou!</p>
+            <p>Cându trebue să’și scape femeea ce iubește.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage>⁠ ȘOLTUZUL, PÂRGARII, GLIGORCEA, MIHUL, VICTORIEA,</stage>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Ai zisu cum că prin silă tu ai răpitu copila ?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Sântu vrednicu de osândă că ’n sil’o amu răpitu:</p>
+            <p>Nici lacrimi, nici blesteme, nimic n’amu respectatu.</p>
+            <p>De eartă legea țerei să fie subu osândă</p>
+            <p>Acel care iubește o liberă femee,</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Tu știi bine că trebui osânditu</p>
+            <p>Acel ce’ntrândăbie petrece timpul seu;</p>
+            <p>Că’n epoha de față cându se întrecu toți junii</p>
+            <p>A fi oșteni lui Stefan, a birui în lupte,</p>
+            <p>Ș’a frânge lânci vrăjmașe cu sute și cu mii,</p>
+            <p>E vrednicu de osândă acel ce e fugaru</p>
+            <p>De taberi și de arme, de slava vitejiei,</p>
+            <p>E vrednicu de osândă acel care cutează</p>
+            <p>Pe-ascunsu în mezu de noapte cu sila a răpi,</p>
+            <p>Copila unui viteazu și onoratu,</p>
+            <p>Deprinsu la bătălie, deprinsu ca să învingă</p>
+            <p>Ai țărei și ai noștri vrăjmași fără de număru.</p>
+            <p>E vrednicu de osândă acel ce’au îndrăznitu</p>
+            <p>Sumețu ca să rădice o armă de rebelu</p>
+            <p>Cătră arcașii noștri, ce’ascundă pentru țară.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Părinți aleși în publicu ca să păziți dreptatea,</p>
+            <p>La voi trebui ori cine să spue adevăru.</p>
+            <p>Și iată adevărul de vreți a’l asculta:</p>
+            <p>Că sângură eu meritu osândă și pedeapsă,</p>
+            <p>Și nime, altul nime cu dreptul nu se poate</p>
+            <p>Să fie subu urgie pentru greșala mea.</p>
+            <p>Căci eu în fața voastră mă juru că minte el,</p>
+            <p>Nu spune adevărul, nu m’au răpitu cu sila,</p>
+            <p>Ce sângură cu dânsul amu fostu fugitu de voe,</p>
+            <p>Și singură dar, meritu osânda a primi.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>O ! fiică de durere, să pei din ochii mei!</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <stage> (în sine.) </stage>
+            <p>Nebuna aiurează, ea ’ș’au eșitu din minte.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <stage> (în parte.) </stage>
+            <p>Se vede că iubește cu focul tinereței</p>
+            <p>Cum știu ca să iubească româncele la noi.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Să n’o crezi Pârcălabe! o vezi că s’au uimitu,</p>
+            <p>De spaimă, s’au de milă Victoriea ascunde</p>
+            <p>Urmarea mea și sila ce ’iamu făcutu să fugă.</p>
+            <p>Vă spunu încă odată curatul adevăru:</p>
+            <p>Că eu sântu vinovatul, asup’ami pice dar</p>
+            <p>A legilor asprime, asupra’mi să’și răzbune,</p>
+            <p>Acel care nu simte a dragostei putere,</p>
+            <p>Acel care nu știe că inimile-ades</p>
+            <p>Din firea lor mânte, ușoru , ușoru s’aprindu</p>
+            <p>De sfântul focu ce este a dragostei făclie.</p>
+            <p>Și care totu deauna supune, mistuește</p>
+            <p>Rezonul șu puterea din cel mai restrânsu omu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Chematu este ca predici să ție ’n tribunalu?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Strejări! d’aici luați’l și duceți’l în pază</p>
+            <p>La Hatmanul cel Mare în tabăra Sucevii,</p>
+            <p>Să’l dea în garnizoană la una din cetăți.</p>
+            <p>Să’l numere în oaste.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Părinți! dar nu e dreptu…</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Și mai cutezi tu încă copil făr de lege?!</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <stage> (însine.) </stage>
+            <p>Sermana ! se’nțelege c’au nebunitu cum trebui,</p>
+            <p>Așa este femeea… noi toate-așa sântemu</p>
+            <p>Se perdemu și rușinea de câte ori iubimu.</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Să mergi, să mergi băete, căci timpul toate șterge,</p>
+            <p>Să mergi fără cârtire să te deprinzi la arme.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Mă plecu părinți, și ție Victorio îți juru,</p>
+            <p>Că brațele aceste, seau foarte încurându</p>
+            <p>Vor face să te meritu, să fii ame soție,</p>
+            <p>Seau tot brațile-aceste vor șterge din vieață,</p>
+            <p>Pe-unu omu ce nu voește de tine despărțitu</p>
+            <p>Să mai trăească ’n lume.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Ferească Dumnezeu !</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <stage>⁠ ȘOLTUZUL, PÂRGARII, GLIGORCEA, VICTORIEA, TELIȚA ⁠</stage>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Prevădu că’n grabă Mihul va da frumoase prube,</p>
+            <p>Căci sămănă să aibă o inimă măreață,</p>
+            <p>Curaju și bărbăție de unu românu viteazu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Așa’mi pare și mie, așa prevădu și eu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <stage> (în sine.) </stage>
+            <p>Dacă prevădu ei ast feliu, de ce îl osândiră?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Ajungă mai nainte a da ast feliu de pube,</p>
+            <p>Ajungă să asude pe câmpul de resbelu,</p>
+            <p>Să’n frunte față ’nfață macar câțiva vrăjmași,</p>
+            <p>Să’și dee peptu cu moartea , și sângele să’i curgă</p>
+            <p>Pârâu ca să câștige mai multe rani d’onoare,</p>
+            <p>De care toți vetejii se vădu înpodobiți,</p>
+            <p>Și’n urmă să cuteze la în soțire el.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>De-această socotință sântemu și noi cu toții,</p>
+            <p>Căci vai! de țara unde feciorii sântu molatici</p>
+            <p>Dedați la desfătare, fricoși , afemeeați.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Și vai ! de neamul nostru cându fetele la noi</p>
+            <p>Perzindu a lor ambiții, caracteru de românce,</p>
+            <p>Aru fi înamorate de trândavi și de leneși ;</p>
+            <p>De tineri ce în țară ei altă nu producu,</p>
+            <p>De câtu se păunează, și mândri, și deșărți,</p>
+            <p>Pănușa lor cea sacă iubescu numai în lume.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>În câtă vreme legea va osândi mișăii,</p>
+            <p>Și multe tot ast feliu pe fiice vor iubi,</p>
+            <p>Tot ast feliu ca și astăzi în ele vor sedi:</p>
+            <p>Virtutea, sentimentul, amorul cătră țară,</p>
+            <p>Moldova va fi stearpă, scăpată de molatici.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Noi stămu aici în pace , cu totul amu uitatu,</p>
+            <p>Pe Matieași Corvinul și ungurimea lui,</p>
+            <p>Cându poate în minutul ce ne aflămu acuma</p>
+            <p>Ai noștri oșteni harnici să luptă cu vrăjmașii.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Deprinși sântemu Șoltuze cu lupă și răzbelu</p>
+            <p>Precum oștenii noștri să’nvingă sântu deprinși,</p>
+            <p>Căci mica noatră țară e mare ’nbătălie,</p>
+            <p>Și’nvinge tot deauna pre înpărați și regi.</p>
+            <stage> (S’audu loviturile clopotului cetății,) </stage>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ce însămnează oare al clopotului sunetu ?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Și clopotul răsună ș’unu vuetu parc’audu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage>⁠ ȘOLTUZUL, PÂRGARII, GLIGORCEA, VICTORIEA, TELIȚA,</stage>
+          <sp who="#unu_strajariu">
+            <speaker>UNU STRĂJĂRIU</speaker>
+            <p>Fugiți , haideți la munte, căci ungurii pe calcă</p>
+            <p>Ca fruza și ca earba de mulți și fără număru,</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>De unde astă veste ?</p>
+          </sp>
+          <sp who="#strajariul">
+            <speaker>STRĂJĂRIUL</speaker>
+            <p>Pe Mihul noi ducându</p>
+            <p>Abiea la stejerie eramu apropieați,</p>
+            <p>Cându luncele Moldovei le-amu auzitu cu toții</p>
+            <p>Că clocoteau de oamini, de cară și de arme.</p>
+            <p>Haideți părinți de-aice!</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dar Mihul unde este?</p>
+          </sp>
+          <sp who="#unu_strajariu">
+            <speaker>UNU STRĂJĂRIU</speaker>
+            <p>La clopotu , îi la clopotu el singuru e îmturnu.</p>
+          </sp>
+          <sp who="#toti_strajarii">
+            <speaker>TOȚI STRĂJĂRII</speaker>
+            <p>Dar ce perdeți prilejul? veniți să ne scăpămu!</p>
+            <stage> (răsunetele clopotului s’adaogu.) </stage>
+          </sp>
+          <sp who="#unu_strajariu">
+            <speaker>UNU STRĂJĂRIU</speaker>
+            <p>Târziu, nu’ncapu acuma mijloace de scăpare !</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>O! timpu al tinereței, ah! unde ești acuma?</p>
+            <p>Ca earăși brațul nostru secatu și amorțitu</p>
+            <p>Să’l întărești la luptă, și’n luptă să murimu ,</p>
+          </sp>
+          <sp who="#intaiul_pargariu">
+            <speaker>ÎNTÂIUL PÂRGARIU</speaker>
+            <p>Sântemu perduți Șoltuze ! haideți ! eșiți de-aice !</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Așa viteazul rege, eroul mare,</p>
+            <p>Să meargă la Suceava vedeți n’au cutezatu.</p>
+            <p>La noi el se abate încredințatu prea bine,</p>
+            <p>Că numai salt bătrânii, femeile și pruncii</p>
+            <p>Sântemu remași în Baiea.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Haideți, haideți la munte!</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Trimisați să dea limbă la tabără băeți?</p>
+          </sp>
+          <sp who="#unu_strajariu">
+            <speaker>UNU STRĂJĂRIU</speaker>
+            <p>S’au dusu cu repegiiune de multu unul din noi</p>
+            <p>De-adreptul peste colnicu și trebue s’agiungă</p>
+            <p>În câteva minute cu vestea la Suceava.</p>
+            <p>Dar pân’ să ne sosiască părinți vr’unu agiutoriu,</p>
+            <p>Va fi târziu și trebui, ah! terbui să fugimu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Haideți , haideți cu toții să ne scăpămu la munte !</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Străjări ! vă rogu pe Mihul dacă puteți scăpați’l.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage>⁠ ȘOLTUZUL, PÂRGARII, GLIGORCEA, VICTORIEA,</stage>
+          <sp who="#unu_glasu">
+            <speaker>UNU GLASU</speaker>
+            <p>Vrăhmașii ne’npresoară, totu târgul l’au cuprinsu !</p>
+          </sp>
+          <sp who="#altu_glasu">
+            <speaker>ALTU GLASU</speaker>
+            <p>Sântemu perduți cu toții!</p>
+          </sp>
+          <sp who="#altu_glasu">
+            <speaker>ALTU GLASU</speaker>
+            <p>Nădejdea s’au trecutu !</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Copila mea!</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Părinte !</p>
+          </sp>
+          <sp who="#mai_multe_glasuri">
+            <speaker>MAI MULTE GLASURI</speaker>
+            <p>Târziu, târziu deacuma</p>
+            <p>Sântemu calcați de unguri.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Sântemu pierduți părinte!</p>
+          </sp>
+          <sp who="#altu_glasu">
+            <speaker>ALTU GLASU</speaker>
+            <p>O luptă urieașă au fostu acuma la turnu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Și Muhul unde este?</p>
+          </sp>
+          <sp who="#altu_glasu">
+            <speaker>ALTU GLASU</speaker>
+            <p>O ! el au străbătutu</p>
+            <p>Păretele de unguri, precum stăbate-unu fulgeru</p>
+            <p>Și spintecă pe ceriuri a norilor desime.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Și unde’i oare- acuma. Oh! spuneți’mi vă rogu.</p>
+            <p>Nu’i nime să vorbiască?</p>
+          </sp>
+          <sp who="#glasuri_mestecate">
+            <speaker>GLASURI MESTECATE</speaker>
+            <p>Nici unul noi, nu știmu!</p>
+          </sp>
+          <sp who="#altu_glasu">
+            <speaker>ALTU GLASU</speaker>
+            <p>Acum fiește care de capul seu gândește,</p>
+            <p>Cându moartea și robiea ovede chiar în față.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Îi mortu seau robu el poate, și eu încă trăescu?</p>
+            <p>Aibi milă Doamne Sfinte de mine și de el!</p>
+            <stage> (S’audu dobe și trimbiți, publicul se adaoge.) </stage>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Oh! eată frați, vrăjamșii străbatu acum aice.</p>
+          </sp>
+          <sp who="#aldoile_pargariu">
+            <speaker>ALDOILE PÂRGARIU</speaker>
+            <p>Părinți de câtu la unguri, în lanțile robiei</p>
+            <p>Departe de Moldova, departe să trăescu</p>
+            <p>Mai bine multu mai bine, eu moartea o dorescu.</p>
+            <stage> (Ungurii străbatu scena, ocolescu prizonierii, muzica ezecutează, marșu maghearu.) </stage>
+            <p>⁠ Cortina cade. ⁠</p>
+            <p>⁠ LUPTA⁠</p>
+            <p>⁠ PERSOANELE ACTULUI AL II.</p>
+            <p>Niclae Banfi</p>
+            <p>Ianușu de Daroți          Generalii lui Matei Corvin.</p>
+            <p>Stefan Batoi</p>
+            <p>Berendel   pretindentu tronului Moldovii</p>
+            <p>Șoltuzul</p>
+            <p>Victoriea</p>
+            <p>Telița</p>
+            <p>Gligorcea</p>
+            <p>MIHUL</p>
+            <p>Dinga</p>
+            <p>PRIZONIERI de arbe secsele, SOLDAȚI UNGURI, UNU PAJU de curte, TORCIERI, PLĂEȘI, ARMATELE LUI STEFAN CEL MARE. ⁠</p>
+            <p>⁠</p>
+            <stage> (La închiderea actului Stefan cel Mare, Hatmanul Șăndre și alte căpetenii se vădu călari în mijlocul rezbelului.) </stage>
+            <stage> (Scenele se petrecu înoaptea de la 14-15 Dechemvrie. 1746, în peața târgului Baiea în care dau mai multe uliți; în dreapta prizonierii de ambe secse înghesuiți în una dintre uliți subu paza santinelelor regești, din astânga întrarea unui turnu privighetu de doi husari; la colțul turnului în jurul unui focu grupe de catane dormu în feliurite poziții; în fundu la o parte o căsuță proastă în care ungurii se înbulzescu la băutură și se vădu necontenitu strecurânduse pe peață, trecându scena încurmezișu amețiți seau căzându; unde și unde se vădu răzămate de ziduri steagurile regelui, și grămăzi, grămăzi de arme.) </stage>
+            <p>⁠</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL II.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage>⁠ PRIZONIERI, între care GLICORCEA și VICTORIEA, SANTINELELE, (Strigă parola privigherii) ⁠</stage>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>De-acum speranța noastră se stinge cu robiea.</p>
+            <p>Femei și princi cu toții înțara Ungurească</p>
+            <p>Înhiși învr’ocetatae, munciți de-acești tirani,</p>
+            <p>Departe de Moldova, departe vomu peri.</p>
+          </sp>
+          <sp who="#aldoile_prizonieriu">
+            <speaker>ALDOILE PRIZONIERIU</speaker>
+            <p>Au fostu de cuviință să ne scăpămu la munte,</p>
+            <p>Îndată cum pronisă de-aice Părcălabul</p>
+            <p>La tabăra Sucevei cu steagul de arcași ;</p>
+            <p>Căci numai ne remasă lipsitu de agiutoru</p>
+            <p>Și numai ave cine vrăjașii să alunge.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Amu  fi scăpatu pre lesne de nu credeamu în rege</p>
+            <p>Că’i multu mai bravu, mai mândru, mai nobilu și eoru,</p>
+            <p>Decâtu, deșărtu cu totul: de oaste și de arme.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Aducevăți aminte că eu v’amu spusu adese</p>
+            <p>De unguri că sântu foarte vicleni, amăgitori.</p>
+            <p>Și tocmai de aceea înprip’au trebuitum</p>
+            <p>Să deșărtămu totu târgul, spre munte să ne tragemu.</p>
+            <p>Pălănci , pălănci să punemu în dreapta și în stânga,</p>
+            <p>Cum amu aflatu pe rege din Roman c’au pornitu,</p>
+            <p>Căci ungurii au pizmă, au ură pre români.</p>
+            <p>Și știmu ce patu ai noștri cându au nenorocirea,</p>
+            <p>Să cază vre odată la dânșii în robie.</p>
+          </sp>
+          <sp who="#aldoile_prizonieriu">
+            <speaker>ALDOILE PRIZONIERIU</speaker>
+            <p>Așa sufăru și frații de dincolo de munți,</p>
+            <p>În locu ca niște oaspeți veniți între români</p>
+            <p>Să aibă ungurimea o dragoste spre dânșii,</p>
+            <p>Din contra pân’la unul hrănescu însufeltu ură,</p>
+            <p>Precum hrănescu mândriea cu totul singularu,</p>
+            <p>În neamul acestu foarte fălosu și egoistu;</p>
+            <p>De-aceea treuit’au să ne scăpămu la munte,</p>
+            <p>Să n’așteptămu s’ajungă vrăjmașii pân’ la noi.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Și mai ales cându Baiea era făr de arcași,</p>
+            <p>Și cându știeamu cu toții că regele’i viteazu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dar asta’i vitejie, și nu e micșurare</p>
+            <p>Din partea unui rege, ca Mateieași Corvinul?</p>
+            <p>Să’mi pue toată sila să biruească el:</p>
+            <p>Niște bătrâni de bârstă, niște femei ca noi,</p>
+            <p>Și niște prunci de țiță?</p>
+          </sp>
+          <sp who="#aldoile_prizonieriu">
+            <speaker>ALDOILE PRIZONIERIU</speaker>
+            <p>Așa e cetățano!</p>
+            <p>Înse, se știe bine că’nlume pre adese</p>
+            <p>La cei mari micșurarea să eartă mai ușoru,</p>
+            <p>De câtu precumu să eartă la cei ce sântu mai mici.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Se eartă de curtenii dedați ca să mințiească,</p>
+            <p>Dedați în slugărie, deprinși la lingușire,</p>
+            <p>Să’nșăle, să corumpă pe–ai lor stăpânitori;</p>
+            <p>Căci ast feliu e talentul, la cei făr de talentu.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Cându cineva drăguță agiunge a fi mare,</p>
+            <p>Greșalile s’acopăru de-a slavei strălucire;</p>
+            <p>Ușoru s’ascundu de publicu, oșoru se mistuescu,</p>
+            <p>Subu fermicul, subu lustrul unui deșărtu resfățu,</p>
+            <p>Și greu se potuu cunoaște de gloatele neghiobae ;</p>
+            <p>Căci gloatele ca gloate, sântu totu deauna orabe.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Oh! gloatele tătucă, de gloate nu’ți vorbescu,</p>
+            <p>Cându știu că ori ce fapte să judecă pe dosu,</p>
+            <p>Cându binele să crede de răul cel mai mare,</p>
+            <p>Și răul din potrivă ca bine să privește,</p>
+            <p>Cându albul li se pare curatu strălucitoriu</p>
+            <p>Ca soarele ’ntărire; cum ț’amu vorbit tătucă</p>
+            <p>De-acele monetruri oarbe și vecinicu rătăcite ?</p>
+            <p>ALDOILE PRIZONIERIU:m Târziu gloatele’mi pare voru înceta de-afi</p>
+            <p>Totu oarbe cum sântu ele.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Așa prevădu și eu.</p>
+            <stage> (Unu zgomotu s’aude încrămmă.) </stage>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Cu cât ne’ngrijire catanele să ’nbată.</p>
+          </sp>
+          <sp who="#aldoile_prizonieriu">
+            <speaker>ALDOILE PRIZONIERIU</speaker>
+            <p>Se vede c’alor rege, de Stefan nici gândește.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Se bizue’n mulțume și ’n eroismul seu.</p>
+          </sp>
+          <sp who="#aldoile_prizonieriu">
+            <speaker>ALDOILE PRIZONIERIU</speaker>
+            <p>Au ocolitu totu târgul cu strajă de ostași,</p>
+            <p>Ca nu cumva ai noștri să scape la Suceava,s</p>
+            <p>Să ducă vre o știre lui Șândrea și Domniei.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Străjării să trăească, căci știrea s’au trimisu,</p>
+            <p>Și trebue să fie la tabără acum.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Prepunu că poate-acuma, arcașii sântu aproapae,</p>
+            <p>Și Stefan cu lăncierii, seimenii și plăeșii.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Și eu prepunu totu astfelu.</p>
+          </sp>
+          <sp who="#prizonierii">
+            <speaker>PRIZONIERII</speaker>
+            <p>Așa prepunemu toți.</p>
+          </sp>
+          <sp who="#al_doile_prizonieriu">
+            <speaker>AL DOILE PRIZONIERIU</speaker>
+            <p>Așteptu în totu minunatul al buciumului sunetu,</p>
+            <p>Îmi pare că pre Șândrea l’auzu cum comândează.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Îmi pare că pre Stefan îl vădu cum năvălește</p>
+            <p>Întocmai ca și leul de furie cuprinsu,</p>
+            <p>În tocmai ca unu trăsnetu ce fulgeră din nori,</p>
+            <p>Întocmai ca unu geniu din alte regii.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Și mie mi se pare c’audu, că văzu pe Mihul</p>
+            <p>Încungiurându vrăjmașii cu cete de voinici,</p>
+            <p>Și târgul că să ’ncinge de-ai noștri înpregiuru,</p>
+            <p>Precum ceriul adese de-unu curcubeu se’ncinge,</p>
+            <p>Precum este pământul încinsu de oceane,</p>
+            <p>Precum câte odată în lunele ferbinți</p>
+            <p>Privimu luna încinsă, de-unu mândru țărcălanu.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Amaru și vai de unuri de’i voru afla ai noștri</p>
+            <p>În starea lor de față, turbați de băutură,</p>
+            <p>Cu toată vitejia, cu totu numărul lor</p>
+            <p>Nici unul nu rămâne!</p>
+          </sp>
+          <sp who="#toti_prizonierii">
+            <speaker>TOȚI PRIZONIERII</speaker>
+            <p>S’ajute Dumnezeu!</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Încetu să nu v’audă catanele de pază,</p>
+          </sp>
+          <sp who="#aldoile_prizonieriu">
+            <speaker>ALDOILE PRIZONIERIU</speaker>
+            <p>Eu credu cum că și mihul cum au scăpatu îndată</p>
+            <p>Va fi sburatu de-adreptul la tabără, întinsu,</p>
+            <p>Cum sboară o săgeată din arcul încordatu.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>De-aceasta nici încape s’avemu vr’o îndoeală,</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Cându Domnul ce în luptă l’au întăritu atâta,</p>
+            <p>Să’nfrunte numeroșii vrăjmași ce’l ocoliau,</p>
+            <p>Să treacă printre dânșii ca vulturul în zboru.</p>
+            <p>Când Zeul acestu mare l’a fi cruțatu tot ast feliu,</p>
+            <p>L’a fi umbritu din ceriuri să scape fără rane,</p>
+            <p>Să poată iar în luptă, măciuca învârti;</p>
+            <p>Atunci eu de la Mihul scăparea îmi așteptu ;</p>
+            <p>Atunci și voi cu toții s’aveți în el nădejde ;</p>
+            <p>Căci mult poate să facă, voință cine are.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Se poate, se prea poate, dar este de miratu</p>
+            <p>De unde să se vază la el așa curaju.</p>
+            <p>Băetu fără ’ncercare unu june cu sfieală,</p>
+            <p>Să’nfrunte, să răzbată păretele de unguri,</p>
+            <p>Să scape în putere dintre atâța inși,</p>
+            <p>Întocmai cum odată, scăpa și frații tăi.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Eu ’lamu știutu părinte că are sufletu mare.</p>
+            <p>Îi trebuea prilejul s’arate cine este.</p>
+          </sp>
+          <sp who="#glicorcea">
+            <speaker>GLICORCEA</speaker>
+            <p>Puteai însă drăgută să te-amăgești ușoru.</p>
+            <p>Amorul spunu poeții: c’au fostu și este orbu,</p>
+            <p>C’adese se înșală acei ce se închină</p>
+            <p>Acestui pruncu sburdaticu și foarte nestatornicu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Să spue ce le place smintiții de poeți,</p>
+            <p>Și crează toată lumea în visurile lor,</p>
+            <p>Dar, eu voiu crede numai a inimei dictare,</p>
+            <p>Căci inimile noastre în veci nu neînșală;</p>
+            <p>Pentru că omul are presentimentu ascunsu,</p>
+            <p>Ș’acel ce’l cultivează, nu’l ține adormitu,</p>
+            <p>Prevede tot deauna și binele și răul.</p>
+          </sp>
+          <sp who="#intaiul_prizonieriu">
+            <speaker>ÎNTÂIUL PRIZONIERIU</speaker>
+            <p>Tăcere! eată peața de torcii luminează,</p>
+            <p>Și parcă căpitenii de unguri vinu aice.</p>
+            <stage> (Prizonierii se retragu în uliță, santinelele pe rându strigă parola privigherii.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage>⁠ NICLAS BANFI, IANUȘU DE DAROȚI, BERENDEL, OSTAȘI. ⁠</stage>
+          <stage>(Doi torcieri luminează.)</stage>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Șoltuzul și pârgarii se al’ aici în turnu,</p>
+            <p>Închși cum meritează asămine minșăi.</p>
+          </sp>
+          <sp who="#ianusu_de_daroti">
+            <speaker>IANUȘU DE DAROȚI</speaker>
+            <p>Dar este cu putință să nu scoatemu o vorbă,</p>
+            <p>O zare de lumină să nu putemu descoase</p>
+            <p>În interesul nostru, de la niște moșnegi?</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Sântu îndărătnici. N’arată ei nimicu.</p>
+          </sp>
+          <sp who="#ianusu_de_daroti">
+            <speaker>IANUȘU DE DAROȚI</speaker>
+            <p>Se poate chiar ei însuși, nimică să nu știe.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Șoltuzul însă știe, căci postul ce ocupă</p>
+            <p>Îl face să cunoască de să înpacă toți,</p>
+            <p>Și țara, și oștenii cu Stefan la guvernu,</p>
+            <p>Și ce gătire este în tabăra Sucevei.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Șoltuzul nu voește nimică să ne-arate.</p>
+          </sp>
+          <sp who="#ianusu_de_daroti">
+            <speaker>IANUȘU DE DAROȚI</speaker>
+            <p>Cu auru să’l corumpemu.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Cu auru amu cercatu.</p>
+            <p>Moșneagul însă are unu sufletu înpetritu,</p>
+            <p>Își bate jocu de mine, cu unu disprețu s’arată.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Cu dânsul nu faci treabă cu auru și momele,</p>
+            <p>Căci știți că Moldovenii sântu purure nătângi,</p>
+            <p>Și nu se vându la nime pe bani și giuruinți.</p>
+            <p>Nu au cercatu zadarnicu și Leșii și chiar Turcii</p>
+            <p>Să’i cumpere cu auru, să’i poată mitui.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Așa ! dar ce mijloace era ca să cercămu?</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Cu reul, cu’n grozirea mai lesne puteți scoate</p>
+            <p>Secretul dintr’unu sufletu înțălenitu ca peatra.</p>
+            <p>Amerințați cu moarte pe amii lui nepoți.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Ești foarte ghibaciu frate ! ești vrednicu a domni.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Nu meritu complimente.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Aceasta’i adevărul.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Prea naltul nostru rege voește în persoană,</p>
+            <p>Să cerceteze însuși pe-acestu Șoltuzu nătăngu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Înalta sa mărire pe unu prizonieriu?</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>O! regele proectul ’lau aprobatu îndată.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Dar dacă și lui însuși va cuteza Șoltuzul</p>
+            <p>Să nu’i mărturisească curatul adevăru,</p>
+            <p>Și vorbe mușcătoare să mai rostească ear?</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Atunci va perde capul aici în peața asta,</p>
+            <p>Privindu întâiu sfârșitul nepoților ce are.</p>
+            <p>Ostași! deschideți ușa și scoateți’l din turnu !</p>
+            <stage> (Oștenii și unu torcieriu întră în turnu.) </stage>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Aceste’su țeremonii deșarte, de prisosu,</p>
+            <p>Au nu avemu noi oaste destul de numeroasă ?</p>
+            <p>Mai poate oare Stefan să ne însufle frică,</p>
+            <p>Cu zece mii de oamini fricoși și obosiți?</p>
+            <p>Cându noi avemu aice la patruzeci de mii,</p>
+            <p>Voinici, aleși ca unul, în stare să învingă</p>
+            <p>Ușoru într’o clipeală armatele lui Stefan ?</p>
+            <p>Noi altu feliu de puternici vrăjmași amu biruitu.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Dar Stefan îi vărjmașul acel mai șugubățu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage>⁠ CEI MAI DE NIANTE, ȘOLTUZUL, urmatu de OȘTENI. ⁠</stage>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Mai bine’i la’nchisoare de câtu în libertate ?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Asămine’ntrebare, răspunsu nu meritează.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Se vede cum că totși te afli rătăcitu?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Așa văd rătăciții pe cei ce nu’su ca ei.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Sumețu ești la răspunsuri.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Nu știu ce’i lingușirea.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Ascultămă Șoltuze, chiar regește te cere</p>
+            <p>Să’ți facă întrebare în inle privinți.</p>
+            <p>De-aceea să’ți iei sama a spune totuce știi.</p>
+            <p>Aspune adevărul, nimic a nu ascunde,</p>
+            <p>Și vorbile să’ți fe cu totul măsurate,</p>
+            <p>Ca nu cumva cu capul greșala să plătești.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Și ce nădăjfuește să afle oare el?</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>De este cum spunu alții că țara nu mai poate</p>
+            <p>Să sufere pe Stefan la scaunul Domniei,</p>
+            <p>Că toți dorescu să scape de tiraniea lui.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Noi știmu că Moldovenii nicii la Domnii lor</p>
+            <p>Nu sufăru despotismul, nu sufăru tiraniea.</p>
+            <p>Și Stefan care’nfaptă îi unu despotu de frunte,</p>
+            <p>Nu poate bine’n țară să fie priivitu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>De-aru fi în țara noastră totu ast feliu de despoți</p>
+            <p>De-aru fi domnii Moldovii tot ast feliu ca mi Stefan,</p>
+            <p>Să aibă ca și dânsul durere pentru țară,</p>
+            <p>Să aibă ca și dânsul unu sufletu părintescu;</p>
+            <p>Atunci urmașii noștri ferice vor trăi.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Se’mi spui macar Șoltuze ca ce număru de oaste,</p>
+            <p>Se află conceptrată în tabăra Sucevii?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Atât câtă poate să’nvingă pre vrăjmași.</p>
+          </sp>
+          <sp who="#ianusu_de_daroti">
+            <speaker>IANUȘU DE DAROȚI</speaker>
+            <p>Te’nșeli de păstrezi încă asemine părei.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Eu credu din înpotrivă că alții se înșală.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Din vorbile aceste se poate înțelege,</p>
+            <p>Că cugeți bum că Stefan va fi învingătoriu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Așa îmi pare mie, așa nădăjduescu.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Nădejdea îi firească la oaminii din lume</p>
+            <p>Dar dese ori înșală.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Așa’mi pare și mie,</p>
+            <p>Totu ast feliu vă potu zice și eu că vă’nșălați.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Cându fapta’i înplinită nu’ncapu înșălăciuni,</p>
+            <p>Căci iată țara voastră de noi este cuprinsă;</p>
+            <p>Și’nviitoriu Moldova se știi că nu rămâne</p>
+            <p>Espusă întâmplărei așa precum au fostu,</p>
+            <p>În stare s’ocuprinză ori care din vecini.</p>
+            <p>De-acum subu sceptrul nostru de rege atârnată,</p>
+            <p>Moldova totu deauna va fi în siguranță</p>
+            <p>De toți respectuită subu tronul ungurescu.</p>
+            <p>IANUȘU DE DAROȚI; Și voi cu toți înticnă, ferice veți trăi.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Dac’ați cuprinsu voi Baiea, unu târgu fără de arme</p>
+            <p>Vă pare toată țara, că ați supus’o voă,</p>
+            <p>Vă pare că pre Stefan de-acuma l’ați învinsu?</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Așa ne pare noă, așa nădăjduimu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Jălindu astă orbire, vă’ntrebu încă unu lucru.</p>
+            <p>Primiveți de la mine unu sfatu de bătrâneță?</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Din cuviință numai moșnege să nu’ți eși.</p>
+            <p>Să nu ne spui iar visuri, să numai aiurezi;</p>
+            <p>Să știi cum că Moldova îi țară ungurească,</p>
+            <p>Și ast feliu a sp fie pân la sfârșitul lumei.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Cu totul din potrivă, mândriea voastră chiar</p>
+            <p>Mă’nduplecă a crede că s’avide, curându</p>
+            <p>Ungariea căzândă subu o sterină casă,</p>
+            <p>Subu o streină cârmă.</p>
+          </sp>
+          <sp who="#ianusu_de_daroti">
+            <speaker>IANUȘU DE DAROȚI</speaker>
+            <p>Eați sama la cuvinte!</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Lăsați’l s’aiureze, să crează’n năluciri.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Dar trebui cătră rege să’și iae el măsuri,</p>
+            <p>De mai dorește încă să fie învieață.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>O! regele, sumeții ori cându îi pedepsește</p>
+            <p>Și trebui să’ți iei sama a spune adevăru.</p>
+            <p>Cu fruntea umilită supusu și pre plecatu,</p>
+            <p>De vrei să nu’ți perzi capul, de vrei să’ți scapi nepoții.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>O ceriule ! nepoții, dar ei ce vă greșiră?</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Voești și tălmăcire cându știi că poți scăpa,</p>
+            <p>Pre dânșii și pre tine c’unu singurel cuvântu?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Cunoscu că îndurarea lui Dumnezeu e mare</p>
+            <p>De sufere cu zile asămine ființe.</p>
+            <stage> (Unu paju.) </stage>
+          </sp>
+          <sp who="#pajul">
+            <speaker>PAJUL</speaker>
+            <p>Mărirea sa așteaptă să’i duceți chiar acum,</p>
+            <p>Pe-acel care fusesă Șoltuzu în acestu târgu.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Înalta sa poruncă acum se împlinește.</p>
+            <p>Șoltuzule, urmează. Hotnogi, luați aminte.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage>⁠ IANUȘU DE DAROȚI, BERENDEL⁠</stage>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Moșneagul a să moară, aceasta o prevădu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>De aru peri și Stefan precum nădăjduimu,</p>
+            <p>S’agiungi odată frate pe scaunul Moldovii.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Mă temu însă de rege c’aprefera pe Petru.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Cu Ianușu și cu Niclas cându ast feliu ești legatu,</p>
+            <p>Să nu aibi îngrijire că nu vei izbuti.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Mai fost’au vre’o vorbă cu regele de mine?</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Au fostu fără’ndoeală; căci chiar regele însuși</p>
+            <p>Remase în uimire de planul ce ai datu,</p>
+            <p>Și toți șefii oștirii cu cale l’au găsitu,</p>
+            <p>Încâtu mâine la ziuă v omu ocoli Suceava,</p>
+            <p>Și vai de Moldovenii ce ne vor sta încale.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Dar trebue pre Stefan să’l prindemu negreșitu;</p>
+            <p>Căci dacă el cu zile ș’acum va mai scăpa,</p>
+            <p>S’au dus’u proectul nostru, ca visul se va șterge,</p>
+            <p>Și regele atuncea nu’și va vedea’nplinite:</p>
+            <p>Dorința răzbunării și planurile lui.</p>
+            <p>Cându astăzi toată lumea privește cătră voi</p>
+            <p>Crezându c’al vostru rege va ști să pedepsască</p>
+            <p>Pe-acel ce cutează cu armele în mână,</p>
+            <p>Să calce tot Ardealul, să prade pe Secui,</p>
+            <p>Să sfarme la Chiliea pe cei ce-o apăra,</p>
+            <p>Să sfarme și pe Hroiot cu oștile de unguri,</p>
+            <p>Să’și măsure puterea cuprinsă de’ngânfare</p>
+            <p>Unu domnișor ca dânsul cu Mateiași Corvinu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Sântu de prisosu aceste, cându foarte bine știi,</p>
+            <p>Că Stefan numai scapă din cursa unde este.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Aru fi și o rușine, o mare înjosire</p>
+            <p>Și regelui și voă de aru pute scăpa</p>
+            <p>C’o oaste de strânsură, c’unu număru foarte micu</p>
+            <p>Închisu într’o cetate, în gustă ruinată,</p>
+            <p>Cum știți că e cetatea acea de la Suceava</p>
+            <p>Slăbită de vechime, de vremi și de rezbelu,</p>
+            <p>Lipsită de tărie și lesne de cuprinsu.</p>
+            <p>Au nu’ți aduci aminte că regele ori unde:</p>
+            <p>În curte și în oaste și’ntre streini adese,</p>
+            <p>Să lăuda că Stefan au fostu al său vasalu,</p>
+            <p>Și c’al Moldovei scaunu îl are de la el?</p>
+            <p>Uitata’i ce ne zice și noă și oștirei</p>
+            <p>Cându amu trecutu Oituzul în eastălaltă parte,</p>
+            <p>Că nu se va întoarce de câtu cu Stefan mortu?</p>
+            <p>Și voi toți generalii îndată ați juratu</p>
+            <p>Să fie înplinită îndata sa voință :</p>
+            <p>Să moară Stefan Vodă.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Ei bine gândești oare,</p>
+            <p>Că nu se înplinește al nostru jurământu?</p>
+            <stage> (Unu paju urmatu de unu torcieru.) </stage>
+          </sp>
+          <sp who="#pajul">
+            <speaker>PAJUL</speaker>
+            <p>Mărirea sa v’așteaptă la sfatu pe amândoi!</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Și ce urmează oare ca sfatul să lucreze?</p>
+          </sp>
+          <sp who="#pajul">
+            <speaker>PAJUL</speaker>
+            <p>Această întrebare, întrece generale</p>
+            <p>De sfera mărginită a unui simplu paju.</p>
+            <p>Eu nu știu avă spune de câtu că este sfatu.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Se vede că Șoltuzul auspusu totu adevărul?</p>
+          </sp>
+          <sp who="#pajul">
+            <speaker>PAJUL</speaker>
+            <p>Șoltuzul din potrvcă au mțnieatu pre rege,</p>
+            <p>Încâtu s’au datu poruncă să fie omorâtu,</p>
+            <p>Cu amândoi nepoții în ochii tuturor.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>O prevideamu aceasta, și’mi pare foarte bine,</p>
+            <p>Căci merita firește obraznicul să peară.</p>
+            <p>Acum pricepu și sfatul la ce e convocatu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Se vede că vr’o veste s’au prinsu de undeva?</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Ba nu credu, dar Șoltuzul prin vorbe îndrăznețe</p>
+            <p>Au pusu la îndoeală pre rege de izbândă,</p>
+            <p>Și vrea să consulteze cu generalii sei.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Să mergimu dar în grabă să nu fimu așteptați.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Haideți! nu uita însă, că Petru trebuește</p>
+            <p>Gonitu de lângă rege c’o oară mai nainte,</p>
+            <p>Ca nu cumva în urmă să fie prea târziu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Mă știi eu la curte mă bucuru de favoru,</p>
+            <p>Că regele m’ascultă mai multu de câtu pe alții;</p>
+            <p>Încâtu noi înpreună uniți cu Niclae Banfi,</p>
+            <p>Putemu preface toate așa precum voimu,</p>
+            <p>Ș’apoi, regele n’are pe altul credinciosu</p>
+            <p>De națiea română să’l pue domnu Moldovei,</p>
+            <p>Căci din streini pe scaunu nu potu ca să se urce.</p>
+            <p>Nu’i sufăru Moldovenii aceștii ambițioși,</p>
+            <p>Naționalitatea o ținu ca legea lor.</p>
+            <p>Și regele prevede că până cându Moldova,</p>
+            <p>Și țara Românească unite înpreună</p>
+            <p>N’aru fi subu ascultarea coronei ungurești,</p>
+            <p>Nu poate-avea credință nici în Transilvaneni;</p>
+            <p>Pentru că totu deauna ei au în prințipate</p>
+            <p>Unu sprijinu, o nădejde, materii de visare</p>
+            <p>Că potu să se uniască înviitoru cândva</p>
+            <p>Să surpe chiar regiea, ferească Dumnezeu!</p>
+            <p>De-acea să fii siguru că ești Domnul Moldovei.</p>
+          </sp>
+          <sp who="#berendel">
+            <speaker>BERENDEL</speaker>
+            <p>Lucrați și înpreună vomu înpărți folosul.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>⁠ MIHUL, DINGA. ⁠</stage>
+          <stage>(O ceată de plăeși se zărește în întunericul uliței, santinelele dormitează.)</stage>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Oprițivă aice în ulița aceasta.</p>
+            <p>Păziți însă tăcere să nu vă simtă nime</p>
+            <p>Și numai cându strigarea în cornu veți auzi,</p>
+            <p>Să dați năvală’ndată.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Încetu să naintămu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Cându așu putea să aflu prizonul unde este,</p>
+            <p>Unde se ținu Pârgarii, Șoltuzul și Gligorcea</p>
+            <p>Și unde este prinsă Victoriea acum?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Se vede parcă’n peață lucindu zare de focu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Așa, colo vrăjmașii în linește visază.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Așa să’i afle moartea acufundați în somnu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Dar ce zgomotu s’aude mai încolo înfundu?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Catanele să’nbată ca și în țara lor.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Beția lor ajută la planurile noastre</p>
+            <p>Precum ne-ascunde noaptea de streji și santinele;</p>
+            <p>Căci alt feliu se’nțălege că n’amu fi izbutitu,</p>
+            <p>Să curățimu strejerii, câți amu întimpinatu</p>
+            <p>Și fără să ne sâmtă aice se străbatemu.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Norocum ne agiută amoriul te’ntărește,</p>
+            <p>Căci alt feliu de robie n’ai fi pututu scăpa</p>
+            <p>N’ai fi pututu învinge vrăjmașii frurioși.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>C’ozi mai înainte, Pârgarii și Șoltuzul</p>
+            <p>Numinumă de leneșu, m’au osânditu la temniți.</p>
+            <p>Aveau însă rezoane în hotărârea lor.</p>
+            <p>Cunoscu că au fostu dreaptă și’nveci eu nu cârtescu.</p>
+            <p>Dar e răși amar vine cându suferi olovire</p>
+            <p>Și cându ace lovire te vatâmă la cinste,</p>
+            <p>Ț’aduce îngiosire, te mușcă cu desprețu,</p>
+            <p>De față cu ființa ce o iubești cu focu….</p>
+            <p>De-aceea nu potu crede mai multu să mă iuvească,</p>
+            <p>Victoriea din sufeltu cu-aceeași tinereță,</p>
+            <p>Cu totu acea căldură, cu totu acel amoru,</p>
+            <p>Cu totu acea simțire precum o știu c’au fostu,</p>
+            <p>De cându ea auziră osânda mea rostită,</p>
+            <p>De cându îmi pusă pata că sântu povoară’nțară,</p>
+            <p>Că chiar nici o izbândă subu steaguru n’amu făcutu.</p>
+            <p>Victoriea mă crede de unu mișălu fricoșu,</p>
+            <p>Și siguru că nu poate mai multu să mă iubească,</p>
+            <p>Încâtu nu voiu da prube că meritezu de dânda,</p>
+            <p>Și focul bărbăției că arde ’npeptul meu.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Au doar sociți tu frate că ea n’au auzitu,</p>
+            <p>Bravura ce’ai făcut’o cându te-au cuprinsu vrăjmașii,</p>
+            <p>Cându ai respinsu cu brațul păretele de unguri</p>
+            <p>Și ai scăpatu de-aice, lăsându în urmă morți?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>De unde se audă?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Fii siguru c’au aflatu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Dar n’au avutu de unde, căci singuru numai singuru</p>
+            <p>La turnu sunamu în clopotu cându năvăli vrăjmașii,</p>
+            <p>Ca unu potopu asupra’mi aprinși și furioși….</p>
+            <p>Ș’apoi ea chiar să știe, ce’mi poate agiuta,</p>
+            <p>Cânduea și toți ai noștri se află în robie ?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Curându agiunge Stefan și Hatmanul cel Mare.</p>
+            <p>Curându și’n curându foarte cu toți sloboți vor fi.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>De amu pe-aceia câți sântu aice prinși,</p>
+            <p>Atunci fără’ndoeală mai potu ave nădejde,</p>
+            <p>Mai potu îndrăzni iară la fiica lui Gligorcea;</p>
+            <p>Almintrele zădarnic ori care mângâeri,</p>
+            <p>Căci vecinicu pentu  dânsa așu fi unu omu căzutu.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Așteaptu cu nerăbdare pre Stefan să sosiască,</p>
+            <p>S’audu buciumul nostru că iarăș, mai resună.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Zărescu lumină’mi pare.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Sântu unguri negreșitu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Să ne ascundemu frate și să’i pândimu ce facu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage>⁠ NICLAS BANFI, IANUȘU DE DAROȚI, BERENDEL, STEFAN</stage>
+          <stage>(În uliți se ivescu prizonierii, santinelele repetează parola.)</stage>
+          <sp who="#stefan_batori">
+            <speaker>STEFAN BATORI</speaker>
+            <p>Gătește moșnege ca să întimpinii moartea.</p>
+            <p>Nu meriți să guști mila puternicului rege,</p>
+            <p>Pe care totu deauna păstrează’l Dumnezeu!</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Păstrează’l Dumnezeu! păstrează’l dar înveci!</p>
+          </sp>
+          <sp who="#batori">
+            <speaker>BATORI</speaker>
+            <p>Ostași în rândueală apropoeți aice,</p>
+            <p>Pe toți prizonierii să vază ce’i așteaptă.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Părinte-atotu puternicu ce multe lumi domnești,</p>
+            <p>Ș’a țărilor ursită o chizuești de susu,</p>
+            <p>Și care Domnii noștri îi întărești în lupte,</p>
+            <p>Și faci să fie Stefan întimpul de acuma,</p>
+            <p>Veteazul cel mai mare de pe acestu pământu;</p>
+            <p>Ajută’l Domane astăzi! umbrește’l Doamne tu !</p>
+            <p>Să cape iarăși țara, se scape iar creștinii.</p>
+          </sp>
+          <sp who="#prizonierii">
+            <speaker>PRIZONIERII</speaker>
+            <stage> (făcânduși cruce.) </stage>
+            <p>Ajută, Doamne-ajută !</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Aceștia toți peară.</p>
+            <p>Se ascuțimu într’ânșii a armelor tăișu.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Se ne deprindemu brațul a curăți români.</p>
+          </sp>
+          <sp who="#batori">
+            <speaker>BATORI</speaker>
+            <p>Părerea mea amu spus’o și voă și la rege,</p>
+            <p>Că trebui ca să piară aceștiea cu toții;</p>
+            <p>Căci n’avemu trebuință de-unu număru de mișei</p>
+            <p>Nevrednici să robească, s’avemu folosu din ei.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Părintele episcopu Ioan de la Finf-chirhen,</p>
+            <p>Cu câtă elocvență au doveditu că trebui</p>
+            <p>Uciși prizonierii, ca eriticii ce sântu.</p>
+          </sp>
+          <sp who="#batori">
+            <speaker>BATORI</speaker>
+            <p>Acestu Episcopu foarte, e foarte luminatu.</p>
+            <p>În el vede ori cine moralu Evanghelescu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Se comandămu signalul și sângele să curgă.</p>
+          </sp>
+          <sp who="#batori">
+            <speaker>BATORI</speaker>
+            <p>Păcatu că ne scăpară din mâna noastră chiar</p>
+            <p>Acel tălharu ce’acolo s’au apăratu la turnu !</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Și unde poate oare, să afle el scăpare?</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Firește că ori unde anoastră răzbunare,</p>
+            <p>Îl va afla pe dânsul curându seau mai târziu;</p>
+            <p>Căci nu poate să scape ori care îndrăznețu,</p>
+            <p>Cu armele în mână să’npotrivește nouă,</p>
+            <p>Făcându loviri de moarte în dreapta și în stânga.</p>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Și mai ales c’acela de frică buimăcitu,</p>
+            <p>Au căutatu să fugă rănindu atâta inși.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage>⁠ NICLAS BANFI, IANUȘU DE DAROȚI, BERENDEL, STEFAN BATORI, ȘOLTUZUL, MIHUL, DINGA, OSTAȘI, TORCIERI, PRIZONIERII. ⁠</stage>
+          <sp who="#prizonierii">
+            <speaker>PRIZONIERII</speaker>
+            <p>O ceriu! Mihul aice?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>O scumpul meu iubite!</p>
+            <p>Ș’ai cutezatu atâta să te espui la moarte ?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>O! Domni! ce prețu îmi ceriți pe-aceași prizonieri?</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Dar străjile de-afară cum v’au lasatu aice?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Le-amu spusu lor de soliea cu care noi venirămu.</p>
+            <stage> (Mai mulți îl ochescu) </stage>
+          </sp>
+          <sp who="#niclas_banfi">
+            <speaker>NICLAS BANFI</speaker>
+            <p>Vă dămu prizonierii în schimbu pe Stefan Vodă.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Cu gluma astă proastă ne faceți a gândi,</p>
+            <p>Că chiar cu-al vostru rege să cade să vorbimu.</p>
+            <stage> (O șoptă între unguri.) </stage>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Așa ! tu ești jupâne care-ai scăpatu cu fuga,</p>
+            <p>Rănindu voinici de-ai noștri cu lovituri de moarte?</p>
+            <p>Îți sântu datoriu că singuru aice te-ai întorsu,</p>
+            <p>Și ne-ai scutitu de munca de-a te totu căuta.</p>
+            <p>Ostași încungiurați’l !</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Nici unul nu’ndrăznească!</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>V’amu poroncitu odată, ce stați la îndoeală?</p>
+            <stage> (Ostașii se apropie, Mihul trâmbiță în cornu, plăeșii se arată în piață.) </stage>
+          </sp>
+          <sp who="#banfi">
+            <speaker>BANFI</speaker>
+            <p>Trădare ! hei! la arme!</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Oprițivă puținu,</p>
+            <p>Noi n’amu venitu să batemu nici unu rezbelu cu voi.</p>
+            <p>Vă ceremu să ne duceți aneguța la rege.</p>
+          </sp>
+          <sp who="#batori">
+            <speaker>BATORI</speaker>
+            <p>Firește se’nțălege că n’au venitu aice</p>
+            <p>Să cerce, să se lupte vre o cățiva nebuni,</p>
+            <p>Să’și facă chiar ei sânguri sfârșitu nenorocitu.</p>
+          </sp>
+          <sp who="#daroti">
+            <speaker>DAROȚI</speaker>
+            <p>Lăsați armele dară și vomu vorbi în urmă.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Noi amu crezutu că’n sinul unei oștiri veteză,</p>
+            <p>Putemu să fimu cu arme puțini precum sintemu;</p>
+            <p>Și fără bănuele, fără s’aveți prepusu,</p>
+            <p>Să ne tocmimu cu cinste de prețul cene’ți cere.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Seau dacă nu se eartă să poarte nime arme,</p>
+            <p>Au trebuitu străjării să ne fi spusu pe locu</p>
+            <p>Cându amu intratu aice.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>E în josire-acum</p>
+            <p>Să v’arătați cu fricp, și noi earăși mai bine</p>
+            <p>Vroimu să ne întoarcemu seau ne jărtfimuu cu toții,</p>
+            <p>Dar armele nu dămu.</p>
+          </sp>
+          <sp who="#plaesii">
+            <speaker>PLĂEȘII</speaker>
+            <p>O. armele nu dămu!</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Viteazu ești tu copile și ai mare curaju.</p>
+            <p>Întocmai cum odată, de multu, de multu de-atuncea</p>
+            <p>Aveamu și eu curajul să’nfruntu ori ce primejdii.</p>
+            <stage> (S’audu resunite de buciume și trâmbiți.) </stage>
+          </sp>
+          <sp who="#generalii">
+            <speaker>GENERALII</speaker>
+            <p>Ce însemnează oare?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Ai noștri au agiunsu.</p>
+            <p>Beăeți! vă puneți pânză bătrânii s’apărați,</p>
+            <p>Femeile și pruncii să’i scoatemu de aice,</p>
+            <p>Căci târgul a să arză cu unguri împreună.</p>
+            <stage> (Resunetele buciumilor se apropie.) </stage>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Vedeți grămăzi de arme, haideți să le’npărțimu,</p>
+            <p>Să facemuse cunoască vrăjmașii că la noi,</p>
+            <p>Femeile se luptă întocmai ca bărbații.</p>
+            <stage> (Prizonierii năvălescu la arme.) </stage>
+          </sp>
+          <sp who="#generalii">
+            <speaker>GENERALII</speaker>
+            <p>Trădare ne-auzită! săriți voinici la arme!</p>
+            <stage> (Unu paju călare se arată în piață.) </stage>
+          </sp>
+          <sp who="#pajul">
+            <speaker>PAJUL</speaker>
+            <p>La regele cu toții, căci Stefan ne-au călcatu!</p>
+            <stage> (De prin toate ulițele năvălescu Moldovenii cu faclii aprinse, lupta se încinge! Ungurii se retragu cu încetul de pe piață, Scena se deșartă rămâindu numai cadavre. S’audu îndepărtare răsunetele buciumilor și strigătele luptașilor. Mai târziu se rădică o perdea înfundul scenii Stefan, Șăndrea și alte căpitenii Moldovene se vădu călări în mizlocul luptei, târgul Baiea arde din toate părțile.) </stage>
+          </sp>
+          <sp who="#strigare_generala">
+            <speaker>STRIGARE GENERALĂ</speaker>
+            <p>Trăească Stefan Vodă, sântemu biruitori!</p>
+            <p>⁠ LOGODNA ⁠</p>
+            <p>⁠ PERSOANELE ACTULUI AL III.</p>
+            <p>Gligorcea								MIHUL</p>
+            <p>Victoriea								Șoltuzul</p>
+            <p>Telița									Șăndrea Umeriul</p>
+            <p>Dinga									Plăeși, lume multă.</p>
+            <stage> (Scenele se petrecu între ruinele târgului Baiea la 7 Iunie anul 1468. Ținterimul unei biserici ruinate. Câteva morminte cu iscripții în marmură, o căsuță durată între sfărâmăturile coloanelor, la picioarele Turnului bisericii, fundul Scenii se perde în dumbravă.) </stage>
+            <p>⁠</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL III.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Cunoscu că e aproape sfârșitul meu acuma,</p>
+            <p>Simțescu pe toată zioa puterea că’mi slăbește.</p>
+            <p>O ! cându va sosi oara să intru în mormântu,</p>
+            <p>Ce se va face oare copila me aici?</p>
+            <p>Cându amu putea să mergemu cu totul la Suceava,</p>
+            <p>Să fimu între prieteni, să fimu între ai noștri,</p>
+            <p>Să locuimu cu frații ce s’au mutatu de-aici ;</p>
+            <p>Să potu muri în pace, să pou fi liniștitu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage>⁠ GLIGORCEA, VICTORIEA⁠</stage>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Ești iarăși tristu tătucă ! de ce nu lași mâhnirea ?</p>
+            <p>Mai bine priivește aceste floricele,</p>
+            <p>Și vezi ce frumuseță și ce morisu mai au,</p>
+            <p>Cu câtă măestrie natura le-au produsu.</p>
+            <p>Aceste albe, eată: se cheamă Lăcrămioare;</p>
+            <p>Tradițiea vorbește de dânsele romanticu,</p>
+            <p>Se zice că odată pe lâng’unu părăoașu,</p>
+            <p>Au plânsu o fetișoară amantul ei perdutu,</p>
+            <p>Și lăcrămile-atunce în flori se prefăcură,</p>
+            <p>De-aceea toată lumea le cheamă lăcrămioare.</p>
+            <p>Și toporașii eată câtu suntu de frumușei!</p>
+            <p>Colorul lor e simbolu al vecinicei dureri,</p>
+            <p>De-aceea achiul nostru suspină și’i culege.</p>
+            <p>De dânșii se vorbește c’odată o smăoaică</p>
+            <p>Repise zioa pare fetița unui domnu,</p>
+            <p>S’oducă ’nceea lume la unu ficioru al ei,</p>
+            <p>Iar unu plăeșu de munte cum o zări în aeru,</p>
+            <p>Zvârlindu cu toporașul îi reteză o mână,</p>
+            <p>Și’ndată copilița căzu’nbrațile lui.</p>
+            <p>Atunce de mânie smăoaica au schimbatu,</p>
+            <p>Toporu’nfloricica ce Toporași îi zicemu.</p>
+            <p>Privește la aceasta albastră ca și ceriul,</p>
+            <p>Vezi steoa cea de auru ce e’n mijlocul ei;</p>
+            <p>Așa’i că’i mai frumoasă? că’ntrece foarte multu</p>
+            <p>Pe toate din buchetul acestu de floricele?</p>
+            <p>Ea trebue să aibă perfecții în morisu,</p>
+            <p>De-aceea nici odată noi nu’l putemu simți.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Frumoasă’i ca și tine, dar spune’mi cum îi zicu?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>O ! numele ce poară îi durerosu  tătucă!</p>
+            <p>Se zice că odată unu june ș’ofetiță</p>
+            <p>Frumoși ca niște îngeri la Bistriță s’au dusu</p>
+            <p>Și amândoi pe maluri îmbla culegându flori,</p>
+            <p>Iar Bistrița geloasă sorbi fără de veste</p>
+            <p>Pe june între valuri mi’l înghiți îndată,</p>
+            <p>Încâtu abiea băetul putu prin unu suspinu,</p>
+            <p>Să zică copiliței: Te rogu nu mă uita.</p>
+            <p>Acel suspinu zefirii pe mualu dacă îl duse,</p>
+            <p>Atuncea chiar în clipă se prefăcu în floarea</p>
+            <p>Ce astăzi toți în lume îi zicu: Nu-mă-uita.</p>
+            <p>Iar fara supărată plângându au blesematu</p>
+            <p>Ca Bistrița să fie unu riu de’nspăimântare,</p>
+            <p>Și’nveci spre amintire în viitoru se curgă</p>
+            <p>Lovită totu deauna de petre și de stânci;</p>
+            <p>Blestemul se’npliniră, ș’apoi muri și ea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>De unde știi aceste?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Le-amu auzitu tătucă.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Voești să’mi faci distracții cu-aceste floricele.</p>
+            <p>Ești floare ca și ele știi tu drăguța mea,</p>
+            <p>Păstreazile la tine și șezi ca să vorbimu.</p>
+            <p>N’aru fi mai bine oare să ne mutămu de-aice,</p>
+            <p>Să mergemu la Suceava unde s’au dusu ai noștri,</p>
+            <p>Ș’acolo împreună cu toții să trăimu?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Tătucă, tu aice lumina ai văzutu,</p>
+            <p>Aice este Baiea, aice sântu născută,</p>
+            <p>Din neamu în neamu aice, ne-amu petrecutu cu toții;</p>
+            <p>Totu locul ne deșteaptă unu dulce suveniru.</p>
+            <p>Precum deșteaptă numai pământul cel natalu,</p>
+            <p>Și nu trebui de-aice să mergimu noi aiurea.</p>
+            <p>Cenușa mumei mele s’opărăsimu cu totul.</p>
+            <p>Se n’aibă cine’i pune nici candelă, nici flori.</p>
+            <p>Se n’aibă căuture mormântul stremoșescu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Așa ! dar înse Baiea acum numai este,</p>
+            <p>De câtu sfărmate, deșărtul acestu mare</p>
+            <p>Nu potu decâtu durerea mai multu a o mări.</p>
+            <p>La ce ajută oare în ochi să totu avemu</p>
+            <p>Icoana astă tristă, aceste rămășițe,</p>
+            <p>Această suvenire a unei zili fatale?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Unu târgu dacă ca Baiea, ca țara de anticu</p>
+            <p>Se află azi ruine, darmatu, deșărtu, pustiiu;</p>
+            <p>Vederea astă dacă îi tristă dureroasă,</p>
+            <p>Se nu uitămu că are ș’unu suveniru de slavă,</p>
+            <p>Ce’nveacuri depărtate va spune ’nviitoriu</p>
+            <p>La toți urmașii noștri, nepoți și strenepoți</p>
+            <p>C’aice se topiră mândriea ungurească.</p>
+            <p>C’aici Matei Corvinul puținu mai nainte</p>
+            <p>Perzânduși toată fala, ostași și generali,</p>
+            <p>Rănitu de însuși Mihul cu fuga au scăpatu,</p>
+            <p>C’aici în sfârșitu tată și tu, și eu , ș’ai noștri</p>
+            <p>De moarte, de robie ne-amu mântuitu cu toții</p>
+            <p>Prin brațul și curajul vetejilor români,</p>
+            <p>Ș’aice ah! o tată, ori înotr’o mă uitu.</p>
+            <p>Eu vădu parcă pe Mihul ca cum aru fi aevea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Mai multe luni trecură și n’avemunici o știre</p>
+            <p>De dânsul unde este, de’i viuseaude e mortu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Presimtu cumcă trăește</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Atunci, el ne-au uitatu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>O ! nu’l osândi tată, cându știi că el de-aice,</p>
+            <p>Cu Stefan, cu ai noștri s’au dusu gonindu pe rege</p>
+            <p>Încâtu poate și astăzi ei undeva să batu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>De-amu merge la Suceava vr’o veste amu lua,</p>
+            <p>Amu ști ce facu ai noștri în țara ungurească.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Eu cugetamu tătucă să’ți facu o rugăminte.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Se’mi spui amea copilă, se’mi spui ori ce voești.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Voescu schimbată ’n haine subu nume de păstoru,</p>
+            <p>Să mergu singură tată se cautu eu pe Mihul.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Ce spui? tu ești nebună? voești să’mi faci sfârșitul !</p>
+            <p>Voești pesemne iarăși se mă mai părăsești?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Nu te mâhni tătucă, ascultămă să’ți spunu:</p>
+            <p>De doue ori cucoșii cântase astă noapte,</p>
+            <p>Credeamu că chiar natura să fie adormită,</p>
+            <p>Cu numai eu în lume deșteaptă privighezu.</p>
+            <p>Fără să’mi vie somnul să potu a adormi,</p>
+            <p>Și câte nopți, o ! câte, de cându somnul nu’mi vine.</p>
+            <p>M’amu dusu apoi din casă cole lângă morminte</p>
+            <p>Și ascultamu cobirea și bocetul cel tristu.</p>
+            <p>A paserilor nopții care gemeau pe turnu,</p>
+            <p>În vale curându apa c’unu vuetu de cascadă</p>
+            <p>Se îngâna în munte cu-afearelor mugire.</p>
+            <p>Pe ceriu carul cu boii mergea la astințitu,</p>
+            <p>Iar stelile derândul sălta în locul lor</p>
+            <p>Ca prin tr’unu fermicu înse amu adormitu tătucă,</p>
+            <p>Dac câtu au fostu de dulce această adormire,</p>
+            <p>Și câte frumușele vedenii amu visatu,</p>
+            <p>Căci zioa era albă cându m’amu trezitu din somnu,</p>
+            <p>Mi se părea că Mihul venise iar aice,</p>
+            <p>Și că purta pe frunte cunună înflorită,</p>
+            <p>Pe care-apoi înadă mie-au pus’o el pe capu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Se știi că să’nplinește copila visul tău.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De-aru da Dumnezeu tată să fie și aevea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <stage> (Confuzu.) </stage>
+            <p>Așa presimtu în mine că tu câtu de în grabă</p>
+            <p>Vei fi ferice ’n lume… dar soarele e susu,</p>
+            <p>Ea’nvezi de prânzul nostru.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Tributul înse dămi.</p>
+            <p>Sărutuămă tătucă.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Ești însuși mângâerea.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Se cugeți tu copilă a mă lăsa iar singuru?</p>
+            <p>Să mergi printre primejdiii, se mergi ca să te perzi!</p>
+            <p>O Doamne! schimbăi gândul alină dorul ei.</p>
+            <stage> (Se strecoară printre morminte cetindu inscripțiile.) </stage>
+            <p>Ah! eat’olume ’ntreagă cându mă credeamu eu singuriu,</p>
+            <p>Aici eată totu omul găsește mângâere.</p>
+            <p>Aici este mormântul lui Stefan de Bator</p>
+            <p>Cole iar unu Batori, din coace Berendel,</p>
+            <p>Colo mii de catane visază subu movile.</p>
+            <p>Acești generali unguri, acești oșteni cu toții,</p>
+            <p>Atunci cându se crezură că sântu biruitori:</p>
+            <p>Atuncea, chiar atuncea au fostu ei biruiți.</p>
+            <p>Acestu Berendel iarăși dorindu ca să domnească,</p>
+            <p>Venit’au în Moldova pe tronu ca să se urce,</p>
+            <p>Și’n locu de Tronu, mormântul aice ș’au aflatu.</p>
+            <p>Așa fiește care gonește năluciri,</p>
+            <p>Așa se retăcește totu omul în vieață.</p>
+            <stage> (După o pausă.) </stage>
+            <p>Lacașu al nesimțirei lacașu al veciniciei!</p>
+            <p>Productul trecătoarei viețe ominești.</p>
+            <p>Morminte! voi în care adormu ori ce nedejdi,</p>
+            <p>Adormu anoastre vise și patimi, și ambiții,</p>
+            <p>Și ori ce migăele zadarnici ca și omul:</p>
+            <p>Deschideți unu repaosu, primițivă la voi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage>⁠ GLIGORCEA, VICTORIEA. ⁠</stage>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Mâhnitu iarăși îmi pare și poate a nu fi,</p>
+            <p>Cându totu printre morminte îl vezi că să strecoară,</p>
+            <p>Amu să’l îndemnu să meargă prin codru să vâneze,</p>
+            <p>Să’i treacă mâhniciunea, să pearză gândul tristu.</p>
+            <p>Tătucă! eată arcul, voești ca să vânezi?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Prea bine copiliță, voiu încerca a merge.</p>
+            <p>Dar, unde’i securicea?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Aice’i, eat’o tată.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Curându mă’ntorcu a casă, dar până voiu veni,</p>
+            <p>Rămâi iar singurică, rămâi cu Dumnezeu!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Mâhnirea ca unu șerpe pe inimă îi șede,</p>
+            <p>Pe frunte, i s’arată trăsuri de întristare,</p>
+            <p>Și fațai e schimbată, și mersul șuvăindu,</p>
+            <p>Și vorba mi se pare că nu’i precum au fostu.</p>
+            <p>Sermanul pătimește, el sufere cu mine,</p>
+            <p>Presimte suferința și chinul ce mă darmă.</p>
+            <p>Cu toată fățăriea, cu totu surisul meu,</p>
+            <p>Cu toată presimțirea ce mintu că ași avea</p>
+            <p>De Mihul că trăește, ș’aici are să vie.</p>
+            <p>Cându inima îmi spune cu totul din potrivă</p>
+            <p>Nu potu a mă ascunde de ochiul părintescu,</p>
+            <p>Căci el pătrunde lesne a mele cugetări.</p>
+            <p>Și unde, unde oare s’aflămu noi mângâere?</p>
+            <p>Așa, în mormântu numai, în sinul nesimțirei</p>
+            <p>Repaosul ne-așteaptă și pacea vomu gusta.</p>
+            <p>Acolo omul pune dureri unu sfârșitu….</p>
+            <p>Frumosu este în lupte feciorii să trăiască ;</p>
+            <p>Frumoasu este să moară pe câmpii bătăliei</p>
+            <p>Cându apără o țară, cându apără pe-ai lor,</p>
+            <p>Căci cei ce’mi scapă țara înveci ei numai moru.</p>
+            <p>Dar, crudu ne vine nouă femei nenorocite</p>
+            <p>Cându perdemu unu prietenu, unu frate, unu părinte.</p>
+            <p>Cându perdemu pe ai noștri și rămânemu trăindu</p>
+            <p>Sermane plângătoare, în doliu văduvescu,</p>
+            <p>Să nu avemu a casă macar niște morminte,</p>
+            <p>Să plângemu peste ele, să împletimu ghirlande</p>
+            <p>Pe crucele înfipte în vre unu ținterimu,</p>
+            <p>Dulceața mângâerii și noi să o gustămu.</p>
+            <p>Căci dacă’nbătălie căzut’au acum Mihul,</p>
+            <p>Să’mi spue cine poate mormântul unde’i este?</p>
+            <p>Să presoru flori pe dânsul și candelă să’i punu.</p>
+            <p>Oh! inima’mi presimte că Mihul este mortu,</p>
+            <p>Căci alt feliu de multu încă aru fi venitu aice;</p>
+            <p>De multu aceste lacrămi de dânsul era șterse,</p>
+            <p>Și tata, mângâere de multu aru fi aflatu.</p>
+            <p>⁠  Romanță.</p>
+            <p>Amar e vieața cându piere și se tinge</p>
+            <p>Scânteea ce speranța în sufletu au aprinsu,</p>
+            <p>Și cându nu simți tărie să poți macar învinge,</p>
+            <p>Unu doru, o suvenire de care ești cuprinsu.</p>
+            <p>Cându vezi că lumea este o vatră de durere,</p>
+            <p>Pământul cându îți pare unu mare ținterimu,</p>
+            <p>Ființele lipsite de ori ce mângâere</p>
+            <p>Cându samănă că strigă: noi toate suferimu.</p>
+            <p>Amar e vieața la cel ce rătăcește</p>
+            <p>De patrie de parte, tiranii blestămându;</p>
+            <p>Dar multu e mai amară la cea care iubește,</p>
+            <p>Și care’ndesperare trăește suspinându.</p>
+            <p>Așa, amar trăește sermana turturică,</p>
+            <p>Ohtându la uscăciune, dorindu amantul seu,</p>
+            <p>Și vecinicu credincioasa, ea numai singurică</p>
+            <p>Iubește până moare: Așa iubescu și eu.</p>
+            <p>Privighetoarea dacă suspină toată noapte,</p>
+            <p>Și luncele răsună de-al ei cântecu duiosu;</p>
+            <p>Și eu înveci ca dânsa iubescu singurătatea,</p>
+            <p>Și eu facu să resune unu geamătu tânduiosu.</p>
+            <p>În miezul nopții dacă vr’unu vizitează</p>
+            <p>mormântul acestu mare, acestu fatalu pământu;</p>
+            <p>Cându totul e tăcere, cându totul dormitează,</p>
+            <p>Pe mine mă’ntâlnește adese lăcrămându.</p>
+            <p>Și luna cându cându resare totu ast felu mă găsește ;</p>
+            <p>A ei lumină stinse mi’i dragu să o privescu,</p>
+            <p>Ea simte împreună cu-acea ce pătimește,</p>
+            <p>Căci sămănă să aibă caracteru văd vescu.</p>
+            <p>La stele, la luceferi mă uitu cu întristare,</p>
+            <p>În ori care aevea unu chipu parcă zărescu;</p>
+            <p>Ș’atunci ascultu zefirii șoptindu în depărtare,</p>
+            <p>Că chipul care cautu înveci nu’l mai găsescu.</p>
+            <p>Cându soarele se culcă în nouri după munte,</p>
+            <p>Și samănă câmpiea cu unu frumosu covoru:</p>
+            <p>Eu nu vădu nici o floare să nu me-aduc’aminte,</p>
+            <p>Că numai amu în lume de câtu unu singuru doru.</p>
+            <p>Nu potu s’ascultu pârâul ce curge colo’n vale,</p>
+            <p>Căci șopta lui lovește adâncu sufeltul meu,</p>
+            <p>Nu potu s’ascultu o doină, unu buciumu, cântare,</p>
+            <p>Nu potu o rugăciune să’ndreptu lui Dumnezeu.</p>
+            <p>Nu potu să sufăru zioa, nu potu să sufăru soare;</p>
+            <p>Aceste sântu frumoase la cei ce’su fericiți;</p>
+            <p>Dar ori ce frumusețe aduce întristare,</p>
+            <p>Aduce mâhniciune la cei nenorociți.</p>
+            <p>Așa, amaru trăește sermana turturică</p>
+            <p>Gemându la uscăciune, dorindu amantul seu,</p>
+            <p>Și vecinicu credincioasă ea numai singurică</p>
+            <p>Iubește până moare: Așa iubescu și eu ! ⁠</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage>⁠ VICTORIEA, TELIȚA. ⁠</stage>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Iubita me ascultă, te rogu nu mai cânta,</p>
+            <p>Oh ! Doamne! altău cântecu în inimă strebate</p>
+            <p>E jălnicu, multu mai jălnicu decâtu, cându se voește</p>
+            <p>Unu clopotu singuraticu în mezul unei nopți.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Curându unu glasu va spune: Victoriea s’au dusu!</p>
+            <p>Ș’unu clopotu atunci soro, va resuna în aeru.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Ce vorbe de copilă, mai bine eată bogii,</p>
+            <p>Îi vineri astăzi soro și potu ca să’ți găcescu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Gâceștemi pentru Mihul de’i viu, seau de e mortu.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Ziceai că nu poți crede în farmeci și în vrajă.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Voescu să’mi facu distracții, voescu să omoru timpul.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Mineștii cum îți place, gândește ce voești</p>
+            <p>Îndreapta și în stânga amestecăi crucișu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Amestecăi tu soro cum știi că să cuvine.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Patruzeci și unu</p>
+            <p>De boghi totu ca unu,</p>
+            <p>Ce toate le știți,</p>
+            <p>Și toate gânciți,</p>
+            <p>Spunemțimi curatu</p>
+            <p>Și adevăratu</p>
+            <p>De-afi ca să fie,</p>
+            <p>De-afi ca să vie</p>
+            <p>Mihul pe la noi,</p>
+            <p>Să ne spuneți voi</p>
+            <p>Să casă în pragu</p>
+            <p>Așa cum vă tragu</p>
+            <p>Unu omu sositoriu</p>
+            <p>Ce vine cu sporiu,</p>
+            <p>Ce vine cu doru,</p>
+            <p>Cu dragu și amoru,</p>
+            <p>De-afi să nu fie,</p>
+            <p>De-afi să nu vie,</p>
+            <p>Să ne spuneți iar</p>
+            <p>Că noi înzadar,</p>
+            <p>În totu așteptămu,</p>
+            <p>Și’n boghi căutămu.</p>
+            <stage> (Telița poartă, în parte și desparte boghii.) </stage>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Ea’n spunemi mai de grabă tătuca se nu vie,</p>
+            <p>Ce cade oare soro, de bine seau de rău?</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>O! bine se arată, așteaptă să’ți spunu totu :</p>
+            <p>Acum vine o veste de mare bucurie…</p>
+            <p>Așteaptă… cel cu vestea îi unu streinu îmi parem</p>
+            <p>Așa, streinu el este, acuși vine la noi.</p>
+            <p>În pragu, în drumu, în masă toți boghii s’au închisu;</p>
+            <p>El trebue chiar astăzi aice să sosiască,</p>
+            <p>Și’n urmă vine Mihul fără doară și poate</p>
+            <p>Totu astăzi și el vine. O! astăzi negreșitu,</p>
+            <p>și cade adunare de oamini tare mulți.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Se poate oare soro ca boghii să găciască?</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Să nu’mi mai zici ce nume de nu se înplinește.</p>
+            <p>Să mai vărjăscu odată.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Pe tatăl meu audu.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Fii sigură că Mihul sosește negreșitu.</p>
+            <p>Îi să vorbești cu dânsul precum vorbești cu mine,</p>
+            <p>Ș’atuncea vei cunoaște de sântu eu gâcitoare.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De sa’nplini Teliți cu ce să’ți răsplătescu?</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Nu ceru decâtu totu bună să fii precum ai fostu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII.</head>
+          <stage>⁠ GLIGORCEA, VICTORIEA, TELIȚA ⁠ (își iea furca</stage>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Vânatai ceva tată?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Nici m’amu cercatu copilă,</p>
+            <p>Sântu obositu cu totul și nu mă prea simtu bine.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dar ce ai? ce te doare? așa’i că’ți este rău?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Oh! sufeltul mă doare, mă aflu prea mâhnitu</p>
+            <p>Gândindu la starea noatră, gândindumă la tine,</p>
+            <p>Că’i să rămâi ca mâine orfană și streină.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dorescu mai nainte de tine eu să moru.</p>
+            <p>Dar, moartea întârzie la cei ce o dorescu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>De ce să fii nebună? de ce dorești tu moartea?</p>
+            <p>Vieața, ori cum fie, să treacă ea firește</p>
+            <p>Să nu dorimu sfârșitul, căci vine, vine el.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dar, asta e vieața, cându suferi ne’ncetatu?</p>
+            <p>De mii de ori mormântul mai dulce mi se pare.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Și cum privești vieța? ea nu’i de câtu o cale,</p>
+            <p>Ce duce pe totu omul din leagănu la mormântu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Unu drumu spinosu părinte, pe care-unu călătoru</p>
+            <p>Ades găsește numai o hrană prea amară.</p>
+            <p>Puțini, puțini sântu foarte ce nimerescu o cale</p>
+            <p>Mai netidă, ușoară cu flori în locu de spini.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Dar omul se cuvine să aibă și cruju</p>
+            <p>Să treacă astă cale de-aru fi ori câtu spinoasă,</p>
+            <p>Căci în neanul vârstei vieața’i foarte scurtă.</p>
+            <p>Să lăudămu pre Domnul, să vremu a fi mai buni,</p>
+            <p>Și’n pace cu noi înșii se mergemu la mormântu</p>
+            <p>Pe ori și ce cărare, spinoasă, înflorită;</p>
+            <p>Cându știmu că totu acolo la punctu o să ajungemu</p>
+            <p>Și totu aceeași soartă cu toții o s’avemu.</p>
+            <p>Căci morții nu se’ntreabă pe unde au venitu.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Așa vieața’i scurtă, dar foarte dureroasă.</p>
+            <p>Sântu unii de părere că noi mai înainte</p>
+            <p>Dea veni în lume aiurea amu trăitu,</p>
+            <p>Și ca’ntr’unu purgatoriu sântemu aduși aci</p>
+            <p>Curați apoi să trecemu la vecinica vieață</p>
+            <p>Să fie oare dreaptă această socotință?</p>
+            <p>Să poate ca să aibă temeiu părerea lor?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>O nebunie este de-a crede acestu visu,</p>
+            <p>La rătăciți se află, asemine păreri.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De unde vine omul în lume cându se naște</p>
+            <p>Și unde merge dară cându întră în mormântu?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Desleagămi o’ntrebare, unu lucru prea ușoru,</p>
+            <p>Ș’atuncea totu misterul e spusu în doue vorbe.</p>
+            <p>Cându valurile apei purtate de furtună</p>
+            <p>Lovescu în vre o stâncă și se prăvalu mereu.</p>
+            <p>O spum’atuncea naște grozavul elementu,</p>
+            <p>Care, plutindu pe unde încetu, încetu se perde.</p>
+            <p>Să’mi spui unde-au fostu oare mărgăritarii spumei.</p>
+            <p>Pân iau produsu furtuna; ș’acum unde mai sântu?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Eu nu știu, nu potu spune.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Îi lesne de’nțălesu.</p>
+            <stage> (S’aude îndepărtare o doină în flueru) </stage>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Vre unu plăeșu de munte, seau vr’unu păstoru de turme.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>El cântă mândru, poate că este vr’unu arcașu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Vomu ști curându căci plaiul l’auduce dreptu la noi;</p>
+            <p>De-aru fi înse din oaste ne-aru spune nouă multe,</p>
+            <p>Ne-aru spune dacă Stefan au umulitu pre unguri</p>
+            <p>Totu ast feliu cu lesnire și chiar în țara lor,</p>
+            <p>VICTORIEA:Ne-aru spune și de Mihul, de’i viu seau de e mortu.</p>
+            <p>Și dacă mai gândește să vie pe aice.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Ți’amu spusu odată soro că Mihul o să vie.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Oh! ea’n auzi cum cântă de mândru doina el.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Se poate înțelege că are vre unu doru,</p>
+            <p>Căci cântecul vădește pe-acel ce pătimește.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Așa doina’i de jale, înse ori cine simte,</p>
+            <p>Că este eroismul caractizatu în ea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Gătiți ceva îndată să’l ospătămu la noi.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Telițo pune mâna, aici la inimioară,</p>
+            <p>Ea’n spune’mi soro dragă simțești cum să mai bate ?</p>
+            <p>Îmi pare c’o să sară, să easă ea din locu.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <p>Așa’i inima noastră, curatu ca unu copilu,</p>
+            <p>Se turbură în clipă și’nclipă se alină.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dar rare ori găsește deplină mângâere.</p>
+          </sp>
+          <sp who="#grigorcea">
+            <speaker>GRIGORCEA</speaker>
+            <p>Priviți, eată’l ajunge, resună pașii sei.</p>
+            <p>Telițo lasă torsul, gătiți să’l găzduimu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII.</head>
+          <stage>⁠ GLIGORCEA, DINGA, VICTORIEA și TELIȚA la oparte. ⁠</stage>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Bine-amu găsitu uncheșe!</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Bine-ai venitu voinice!</p>
+            <p>A! tu ești mi se pare ? nu te puteamu cunoaște.</p>
+            <p>De unde, până unde pe-aice te-ai luatu?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Din țara ungurească de-adreptul amu venitu,</p>
+            <p>La Baiea să te aflu pe tine Pârcălabe.</p>
+            <p>Dar câtu mai sântu de triste ruinele aceste,</p>
+            <p>O jele, o durere te prinde oarecu,</p>
+            <p>Privindu târgul cu totul pustiitu și dărâmatu,</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Să mulțemimu băete că au scăpatu Moldova,</p>
+            <p>Căci Baiea cu încetul se va clădi mai mândră,</p>
+            <p>Și falnicile turnuri s’oru înălțase iar,</p>
+            <p>Fiindu că nu se poate să fie totu pustii</p>
+            <p>Aceste mini de auru, aceste băi bogate,</p>
+            <p>Ce sântu pervile țerii în pace și rezbele.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Nu’ți e urâtu tu singuru să petreci?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Nu fetile aceste îmi trece de urâtu,</p>
+            <p>Cunoașteți voi copile c’acesta fu consoțul</p>
+            <p>Cu care-atuncea Mihul aice străbătură?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Cu greu, seau nici odată nu potu a fi uitați.</p>
+            <p>Acei ce libertatea o dau, cu jărtfa lor,</p>
+            <p>Căci dacă el atuncea nu confuză pe unguri,</p>
+            <p>Prea singuru că Șoltuzul și noi și toți ai noștri</p>
+            <p>Înnoaptea ce fatală eramu să fimu jărtfiți.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>De ori și ce primeșdii voi singuri v’ați scăpatu,</p>
+            <p>În luptă și voi însuși v’ați apăratu vieața</p>
+            <p>Cu-a ungurilor arme.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Cându noi ne înarmarămu,</p>
+            <p>Sosise Stefan Vodă și ungurii fugeau,</p>
+            <p>Călcându unul pe altul de frică spăimântați.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Cine credea de unguri așa mișei să fie?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Vetejii mișei sântu, cu mai veteji în luptă.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Acum așu vre să aflu rezbelul de’i crumatu.</p>
+            <p>Așu vre să știu de unguri, de Matieși al lor,</p>
+            <p>De sântu încă totu mândri, de mai dorescu să între</p>
+            <p>Vr’odată în Moldova să prade iarăși țara?</p>
+            <p>Așu vre să știu de Mihul de’i viu, seau de e mortu?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De multu, de multu de dânsul, nimică n’auzimu.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Se știți cum că trăește și c’au ajunsu să fie</p>
+            <p>Și el între fruntașii veteji în bătălie.</p>
+            <p>Voiți să vă spunu toate întocmai cum au fostu?</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Te rogu să spui băete căci foarte multu dorimu.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Țineți minte cându Stefan aice năvăliră,</p>
+            <p>Cum au găsitu unguri de multă băutură</p>
+            <p>Cu totu’n amegire și buimăciți de somnu?</p>
+            <p>V’aduceți iar aminte că regele-au scăpatu</p>
+            <p>Înnoaptea ce grozavă rănitu el în trei locuri,</p>
+            <p>Ș’abiea cu unu micu număru din gloata sa cea multă?</p>
+            <p>Că’n spete i se’nfipse unu fieru înveninatu,</p>
+            <p>Trimisude Mihul nostru, din arcul seu ghibaciu?</p>
+            <p>Ei bine, pe o parte plăeșii și țeranii,</p>
+            <p>Pe alta și toți Leșii trimiși de Cazimiru,</p>
+            <p>S’au așezatu prin plaiuri, s’au înpanatu prin munți,</p>
+            <p>De n’au scăpatu nici unul din ungurii fugari,</p>
+            <p>Și astăzi stau pe plaiuri, pe văi și prin zăvoae</p>
+            <p>De-alungul pe toți munții grămăzi, grămăzi de oase,</p>
+            <p>Ear noi cu Stefan Vodă pe rege amu gonitu,</p>
+            <p>Sfărmându cu arma’n mână catanele’n Ardealu,</p>
+            <p>Ș’apoi în pace iarăși ne-amu coborâtu din munte.</p>
+            <p>Era înse firește ca Stefan să învețe</p>
+            <p>Pe unguri acunoaște Românii cine sântu,</p>
+            <p>De-aceea o poruncă cătră oșteni s’au datu</p>
+            <p>Oprindu pe fiecare subu steaguri să rămâie,</p>
+            <p>Ș’ndată primăvara gătiți la noă lupte,</p>
+            <p>Noi amu trecutu iar munții cu toții în Ardealu</p>
+            <p>Gonindu regeștele-arme, zdrobindu și pe Secui,</p>
+            <p>Și țara lor cu arma, cu focul amu certat’o</p>
+            <p>De n’au rămasu cotună, unu satu seau o cetate</p>
+            <p>Scutită de pedeapsa predreptei răzbunări</p>
+            <p>Ce’au meritatu Săcuii și Ungurii nătângi.</p>
+            <p>Acum în bună pace ne’ntoarcemu ear a casă</p>
+            <p>Precum stremoșii noștri se întoarceau odată,</p>
+            <p>Cu laudă ș’onoare la Roma’nvindători.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Dar spune de Mihul de știi unde-au rămas?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Era trimisu s’ajute a pune steji pe margeni,</p>
+            <p>Și trebuea să vie de multu și el aice;</p>
+            <p>Căci ast felu ne-au fostu vorba, aici se ne’ntâlnimu.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <stage> (în parte.) </stage>
+            <p>Văzut’ai soro boghii ce bine nimerescu?</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De ’laru aduce Domnul c’o oară mai nainte,</p>
+            <p>Căci multe luni zădarnicu ’iam căutatu în cale.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Fii sigură că vine adusu de dorul seu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Tu știi că azi în lume de Matieși vorbescu</p>
+            <p>Acum îl văzurăși de-aproapae ’nbătălie,</p>
+            <p>Să’mi spui în ce întrece pe domnitoriul nostru?</p>
+            <p>Cu toate c’origina lui Matieași Corvinu</p>
+            <p>Se știi cum că ea este, curată de românu.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>De-aru fi țara Moldovei ca țara ungurească</p>
+            <p>Întinse în hotară și ast feliu populată,</p>
+            <p>Atunci zeu nu știu cine în lume s’aru găsi.</p>
+            <p>S’asamene pre Stefan cu Matieși Corvin.</p>
+            <p>Ce’i dreptu Matieși este erou ca toți eroii;</p>
+            <p>Dar Stefan îi faptă a multor, multor veacuri.</p>
+            <p>Să’l fi văzutu părinte în frunte la răzbelu,</p>
+            <p>Părea că este-unu geniu din ceriuri pogorâtu.</p>
+            <p>Simțai că trebuește s’asculți a sa comandă,</p>
+            <p>Să’ți dai chiar și vieața cu toată mulțemirea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Vor trece multe veacuri la noi pâ’nva mai fi</p>
+            <p>Unu domnu ca Stefan Vodă, veteazu și înțăleptu.</p>
+            <p>Cându glasu lui răsună, cându ’lauzimu că strigă:</p>
+            <p>„Copii! acum îi vremea să devedimu la lume</p>
+            <p>„Curajul, bărbățiea ce’nsuflă pe români!</p>
+            <p>„Haideți să dămu năvală cu brațu învingătoru!</p>
+            <p>„Aici copii cu mine și Domnul să ne-ajute !”</p>
+            <p>Atunci, precum lumina planetile’nprumută</p>
+            <p>Din soare, noi curajul din el înprumutămu;</p>
+            <p>Unu farmicupreste fire, unu electrismu cerescu</p>
+            <p>Simțești cându ești cu Stefan în lupte și răzbele,</p>
+            <p>Cându aperi cu el țara la ori ce năvălire</p>
+            <p>De Leși, de Turci, de Unguri de oarde de Tărtari.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Ajută multu la oaste cându șeful îi erou.</p>
+            <p>Dar Stefan e totu ast feliu de bunu și pentru țară</p>
+            <p>Dormirea sa se vede dormire de părinte,</p>
+            <p>Pe toți ne socotește ca înseși fiii sei.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX.</head>
+          <stage>⁠ GLIGORCEA, DINGA, VICTORIEA, TELIȚA, MIHUL, PLĂEȘI. ⁠</stage>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Primitu sântu eu aice precum doreamu de voi?</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Doritul nostru Mihul!</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Târziu ț’aduci aminte!</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Copilul meu! oh! vino să’ți dau înbrățoșare.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <stage> (în parte) </stage>
+            <p>Văzut’ai soro boghii ce bine nimerescu?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Te vinde dorul frate… prea răpede-ai ajunsu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Mai răpezi decâtu tine frumoase veți veniră</p>
+            <p>De fratele mărețe ce’ai săvârșitu, în oaste</p>
+            <p>Și noi cu bucurie pre Domnul amu măritu,</p>
+            <p>Căci numele bunu este unu haru Dumnezeescu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Ușoare prea ușoare dovezi amu datu în arme.</p>
+            <p>Cu vreme înse poate să meritu vr’o onoare.</p>
+            <p>Deprinderea multu face la ori ce meserii.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Scăpândune vieațiu’, prilejul ne-ați luatu</p>
+            <p>Să nu putemucu vorba macar o mulțămire</p>
+            <p>A face și noi; căci greu înpovorează</p>
+            <p>O facere de bine cându nu găsești prileju,</p>
+            <p>S’arăți recunoștința, să poți a te plăti.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Se mulemiți chiar voă de libertatea voastră.</p>
+            <stage> (Către plăeși.) </stage>
+            <p>Voinici chemați aice pe ceilalți s’aducă</p>
+            <p>Dobânda ce împarte și mie me-au venitu.</p>
+            <p>TELIȚA</p>
+            <stage> (în parte) </stage>
+            <p>: Văzut’ai soro bochii ce bine nimerescu?</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Nici că credeamu atâta să vii tu de îngrabă.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Eu nu credeamu din contra atâta să’ntârzie.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Mustrare nu încape cându pre bine cunoști</p>
+            <p>Că datorii mai sfinte avură a’nplini.</p>
+            <stage> (Plăeșii întră, depuindu la oparte feliurite arme și scule.) </stage>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De-ai ști cu câtă grijă noi cugetamu la tine,</p>
+            <p>Cu câtă neodihnă trăeamu în îndoeală,</p>
+            <p>Căci n’aveamu nici o știre de ești între cei vii.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>De-ai ști cu ce dorință gândeamu și eu la voi</p>
+            <p>Și câtă nerăbdare aveamu să mai viu eară,</p>
+            <p>Pe-aceste locuri scumpe, unde știeamu prea bine</p>
+            <p>Că mâna ta m’așteaptă să fimu în veci uniți.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>De multă bucurie parc’o să’nnebunescu.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Ce știri ai despre unguri, nu cugetă ei oare</p>
+            <p>Să calce iarăși țara?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Așa credeamu cu toții,</p>
+            <p>De-aceea totu hotarul cu străji s’au întăritu.</p>
+            <p>Dar Stefan la Suceava deabiea cum s’au întorsu,</p>
+            <p>Primiră chiar îndată solie de la rege,</p>
+            <p>Că Turcii spăimântează creștinătatea toată</p>
+            <p>Și trebue ca Stefan cu regele ungaru,</p>
+            <p>Să apere Evropa de-acei aprigi ostași.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Ș’apoi Matieși încă și astăzi totu păstrează</p>
+            <p>În trupul seu înfiptă săgeata de la Baiea.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Și ce sfârșitu avut’au soliea care spui?</p>
+            <p>Curmatus’au rezbelul?</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Statornicu s’au legatu</p>
+            <p>Să fie totu deauna o pace, o frăție</p>
+            <p>Între Moldova noastră și țara Ungurească</p>
+            <p>Între Stefan cel Mare și Matieși Corvinu</p>
+            <p>Luându în Ardeal Stefan și două mari cerăți;</p>
+            <p>Ciceul este una și Balta ceelantă.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Trăească Stefan Vodă !</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Trăească Domnul nostru!</p>
+            <stage> (S’audu în apropiere trimbiți și surle.) </stage>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>De unde pe aice aceste melodii?</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X.</head>
+          <stage>⁠ GLIGORCEA, DINGA, MIHUL, VICTORIEA, TELIȚA, ȘOLTUZUL, ȘENDREA, UȘERIUL, PLĂEȘI, LUME. ⁠</stage>
+          <sp who="#coru">
+            <speaker>CORU</speaker>
+            <p>Pe câmpul de luptă noi știmu să murimu,</p>
+            <p>Căci țara cu toții, cu toții iubimu.</p>
+            <p>Și cându se ivește vrăjmașul viindu,</p>
+            <p>Noi mergimu la moarte cu toții căptându.</p>
+            <p>Căci altă din lume nimic nu dorimu</p>
+            <p>Moldova trăească: atâta voimu.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Știeamu că este-aice mântuitoriul meu,</p>
+            <p>Îți mulămescu voinice că mi-ai scăpatu vieața.</p>
+          </sp>
+          <sp who="#mai_multe_glasuri">
+            <speaker>MAI MULTE GLASURI</speaker>
+            <p>Primește din preună ș’anoastră mulțemire</p>
+            <p>C’aici în piața asta de moarte ne-ai scăpatu.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Sânteți chiar însăși voue datori a mulțămi,</p>
+            <p>Cu armile în mână v’ați apăratu de unguri.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Victoriei se cade ori care mulțămire</p>
+            <p>Căci ea vă îndemnară la arme să săriți.</p>
+          </sp>
+          <sp who="#victoriea">
+            <speaker>VICTORIEA</speaker>
+            <p>Atunci era pre lesne ușoru de apăratu,</p>
+            <p>Cându Stefan adusese pe unguri în resipă.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Amu mersu noi toți Băeașii ș’amu arătatu lui Vodă</p>
+            <p>Adânca mulțămire de biruința sa;</p>
+            <p>Și totu odat’atuncea ’iamu spusu și pentru voi</p>
+            <p>Cum ați intratu înpiață și ne-ați scăpatude moarte.</p>
+          </sp>
+          <sp who="#unu_glasu">
+            <speaker>UNU GLASU</speaker>
+            <p>Și Hatmanul cel mare și chiar și însuși Vodă</p>
+            <p>V’au lăudatu curajul ce voi ați arătatu.</p>
+          </sp>
+          <sp who="#sendrea_useriul">
+            <speaker>ȘENDREA UȘERIUL</speaker>
+            <p>Eu amu venitu aice trimisu ca să’ți aducu</p>
+            <p>Acestu uricu prin care Înalta Sa Mărire</p>
+            <p>Părintele Moldovei, veteazul Stefan Vodă</p>
+            <p>Unitu cu Sfatul țărei o ocină ț’au datu.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <stage> (În parte.) </stage>
+            <p>Văzuta’i soro boghii ce bine nimerescu?</p>
+            <stage> (Șendrea Ușeriul rostește uricul, toți își descoperu capitele ascultându cu atenție.) </stage>
+            <p>„Noi Stefan Voevod, din mila lui Dumnezeu Domnu stăpânitru a toată țara Moldovei și ce. l.</p>
+            <p>„Facemu știre, pentru că bine amu voitu Domnie mea cu unirea și atotu Sfătului Nostru a mari și mici, de amu miluitu</p>
+            <p>„pre sluga Domniei mele, pre Mihul de la Ostrița, nepotul</p>
+            <p>„lui Tăbăcea Stârcea, cu obucată de pământu în țara noastră</p>
+            <p>„a Moldovei pe Brădățălu. Să’i fie lui ocină și moșie, pen-</p>
+            <p>„tru vetejiea ce și el au făcutu cându au datu Dumnezeu de</p>
+            <p>„amu fugăritu pre unguri și pre craiul lor cu toată greimea</p>
+            <p>„lui și ’lamu înfrntu la târgul Baiea precum se știe, iar</p>
+            <p>„hotarul este din drumul mare al Sucevei, pe la piscul Pancu-</p>
+            <p>„lui și prin pregiuru, precum ’lau avutu și Sergie Căpitanul</p>
+            <p>„</p>
+            <stage> (Dumnezeu pominească’l.) </stage>
+            <p>Și spre aceasta este credința a</p>
+            <p>„însuși Domniei mele de mai susu scrisu: Noi Stefan Voevod</p>
+            <p>„și credința a tuturoru celor bătrâni și acelor tineri, și</p>
+            <p>„spre mai mare tărie amu poroncitu credinciosu bieriului nostru</p>
+            <p>„lui Tăutu Logofătul să scrie și să lege și pecetea la a-</p>
+            <p>„ceastă carte a Noastră. ”</p>
+            <p>Letu 6976 Iulie 2.</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Trăească Domnul nostru!</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Trăească Stefan Vodă!</p>
+          </sp>
+          <sp who="#sendrea_useriul">
+            <speaker>ȘENDREA UȘERIUL</speaker>
+            <p>Pre tine Dingo iarăși te cheamă la Suceava</p>
+            <p>Să’ți facă răsplătire să fii între stutași.</p>
+          </sp>
+          <sp who="#dinga">
+            <speaker>DINGA</speaker>
+            <p>Trăească Stefan Vodă!</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Trăească fericitu!</p>
+          </sp>
+          <sp who="#mihul">
+            <speaker>MIHUL</speaker>
+            <p>Domnescul haru se cade ca noi cu bucurie</p>
+            <p>Să’l priimimu îndată pătrunși de mulțămire</p>
+            <p>Supunerea o cere, de și nu’l meritămu.</p>
+          </sp>
+          <sp who="#unu_glasu">
+            <speaker>UNU GLASU</speaker>
+            <p>Voimu moșu Părcălabe cu toți să serbămu</p>
+            <p>Logodna fiicei tale s’avemu înpărtășire</p>
+            <p>De-a voastră bucurie.</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Victoriea și Mihul.</p>
+            <p>Vor face Părcălabe să uiți ori care doru,</p>
+            <p>Vor alina durerea ce ai de fiii tăi.</p>
+            <p>VICTORIEA și MIHUL: Părinte ! învoește și bine cuvintează.</p>
+          </sp>
+          <sp who="#gligorcea">
+            <speaker>GLIGORCEA</speaker>
+            <p>Se fiți copii ferice, și Domnul să’ntărească</p>
+            <p>A voastră însoțire, cu darul seu cel sfântu.</p>
+            <p>Vieața voastră aibă o vârstă de stejaru,</p>
+            <p>Unirea voastră fie ca fagurul de dulce,</p>
+            <p>S’aveți la căruntețe deplină mângâere</p>
+            <p>Și răzemu și răpaosu în fii și în nepoți;</p>
+            <p>S’aveți în nuntru pace, afară nume bunu,</p>
+            <p>În cugetu curățiea, în inimă iubirea,</p>
+            <p>Să mergeți totu deauna pe cale acea dreaptă</p>
+            <p>Și Domnul să vă scape de ori și ce năpăști.</p>
+          </sp>
+          <sp who="#telita">
+            <speaker>TELIȚA</speaker>
+            <stage> (În parte.) </stage>
+            <p>Văzut’ai soro boghii ce bine nimerescu?</p>
+          </sp>
+          <sp who="#soltuzul">
+            <speaker>ȘOLTUZUL</speaker>
+            <p>Și noi urămu să fie a voastră însoțire</p>
+            <p>Ferită de totu răul, șu trăinică.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ura !!!</p>
+          </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <p>Totu așa și strenepoții</p>
+            <p>În unire să trăească.</p>
+            <p>Totu  așa și ei Moldova</p>
+            <p>De vrăjmași să o păzască.</p>
+            <p>Totu așa unii cu alții</p>
+            <p>Înfrățiți la veselie;</p>
+            <p>Totu așa bătrâni și tineri</p>
+            <p>Cu curaju la bătălie.</p>
+            <p>⁠ Finitu. ⁠</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

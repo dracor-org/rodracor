@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000067" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fata babei și fata moșneagului</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Fata_babei_și_fata_moșneagului_-_legendă_dramatică_în_5_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1927">
+            <desc>1927</desc>
+          </event>
+
+          <event type="premiere" when="1926">
+            <desc>1926, montată de către autor cu tineri actori din cadrul Universității Populare de la Vălenii de Munte.</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="baba" sex="FEMALE">
+            <persName>BABA</persName>
+          </person>
+          <person xml:id="fata_ei" sex="FEMALE">
+            <persName>FATA EI</persName>
+          </person>
+          <person xml:id="mosneagul" sex="MALE">
+            <persName>MOȘNEAGUL</persName>
+          </person>
+          <person xml:id="fata_mosneagului" sex="FEMALE">
+            <persName>FATA MOȘNEAGULUI</persName>
+          </person>
+          <person xml:id="sfanta_vineri" sex="FEMALE">
+            <persName>SFÂNTA VINERI</persName>
+          </person>
+          <person xml:id="vulpea">
+            <persName>VULPEA</persName>
+          </person>
+          <person xml:id="ursul" sex="MALE">
+            <persName>URSUL</persName>
+          </person>
+          <person xml:id="albina" sex="FEMALE">
+            <persName>ALBINA</persName>
+          </person>
+          <person xml:id="parul">
+            <persName>PĂRUL</persName>
+          </person>
+          <person xml:id="cuptorul">
+            <persName>CUPTORUL</persName>
+          </person>
+          <person xml:id="fantana" sex="FEMALE">
+            <persName>FÂNTÂNA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000067"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Fata babei și fata moșneagului</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>BABA</role>
+        </castItem>
+        <castItem>
+          <role>FATA EI</role>
+        </castItem>
+        <castItem>
+          <role>MOȘNEAGUL</role>
+        </castItem>
+        <castItem>
+          <role>FATA MOȘNEAGULUI</role>
+        </castItem>
+        <castItem>
+          <role>SFÂNTA VINERI</role>
+        </castItem>
+        <castItem>
+          <role>VULPEA</role>
+        </castItem>
+        <castItem>
+          <role>URSUL</role>
+        </castItem>
+        <castItem>
+          <role>ALBINA</role>
+        </castItem>
+        <castItem>
+          <role>PĂRUL</role>
+        </castItem>
+        <castItem>
+          <role>CUPTORUL</role>
+        </castItem>
+        <castItem>
+          <role>FÂNTÂNA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>(Într-n bordeiu sărac şi neîngrijit.)</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA I</head>
+          <stage>BABA, FATA EI</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <p>Iar n-a venit... Se poartă pe câmp după prostii...</p>
+            <p>Aşteaptă să  se lase din cer asupră-i mană</p>
+            <p>Şi râurile-n valuri să ducă aur Imn.</p>
+            <p>Neroadă-i şi zăludă... O, de-a.m sfârşi cu dânsa...</p>
+            <p>Nu-mi  cade  mămăliga  bine  când  o  zăresc...</p>
+            <p>FATA EI:</p>
+            <p>Şi mândră e, măicuţă, nu-i poţi intra în voie....</p>
+            <p>BABA:</p>
+            <p>De ce te iei atuncea bine pe lângă	ea?</p>
+            <p>De ce-i mai faci pe voie de câte ori se-mbie?</p>
+            <p>De ce nu-i stai în cale şi să-i arăţi ce eşti?</p>
+            <p>Tu  fata unei mame cu nume şi avere.</p>
+            <p>-	Ehei, ce-a fost de mine când moşul</p>
+            <p>l-am luat!...</p>
+            <p>Pe când o cerşetoare a fost mama nebunei.</p>
+            <p>FATA EI:</p>
+            <p>Nu ştiu ce este, mamă, dar când o văd mi-i frică...</p>
+            <p>Nu doar că e mai mândra ca mine; asta  nu!</p>
+            <p>Nici că-i mai de ispravă... O, dragi mâinile mele!</p>
+            <p>De m-aş pune cu dânsa, în două pot s-o fac.</p>
+            <p>Doar sângele cel vrednic îl am şi eu în vine.</p>
+            <p>Dar vezi, pleacă dintr-însa, eu nu ştiu ce puteri.</p>
+            <p>Eu o urăsc; o Doamne, ce tare o urăsc.</p>
+            <p>Aş vrea să-i văd odată proplită țeasta-n gard,</p>
+            <p>Şi cânii de la stână să-i lingă sângele,</p>
+            <p>Dar, cum îşi pironeşte spre mine ochii săi,</p>
+            <p>Mă prinde ca un tremur, deşi smerită pare,</p>
+            <p>Şi-atâta de supusă, şi-atunci de vorba ei</p>
+            <p>Ascult ca şi copilul deprins cu pedepsirea ...</p>
+            <p>BABA:</p>
+            <p>Să-i fie fetei mele frică de-aşa un fleac?</p>
+            <p>Să stea odrasla cărnii mele înmărmurită,</p>
+            <p>Când vine ciobăniţa în zdrenţe de la oi?</p>
+            <p>De ce n-ai spus? Au doară nu pot eu să te apăr?</p>
+            <p>Mai tare c moşneagul, legat de plodul lui,</p>
+            <p>Decât aceea care-i stăpân- aici pe toate?</p>
+            <p>FATA El:</p>
+            <p>Stăpână lui? Dar dânsa mi-a spus odată că</p>
+            <p>a fost aici mai mare un Craiu din vremi bătrâne,</p>
+            <p>Că l-o învins în luptă şi capul şi-a pierdut,</p>
+            <p>Şi din atâtea locuri supuse cârmei sale</p>
+            <p>Rămase atât: pădurea aceasta şi-un bordeiu</p>
+            <p>Pe care-n spiţa treia l-a luat bărbatul tău.</p>
+            <p>BABA:</p>
+            <p>Minciuni! Minciuni! Aice era  un loc sălbatic.</p>
+            <p>Ce Craiu! Cine mai ştie ce-a fost pe-acele vremi!</p>
+            <p>Dar eu am luat moşneagul golaş, desculţ -săracul,</p>
+            <p>Iar tot ce e pe dânsul şi-n jurul lui le-a dat</p>
+            <p>Doar munca mea... Şi-acuma căţeaua lui de fată</p>
+            <p>Să	puie că-n moşie  străină m-au adus</p>
+            <p>Şi stau un fel de slugă la viţa Craiului...</p>
+            <p>Ehei, aşteaptă, dragă, că-ţi face baba rost...</p>
+            <p>Ascultă, ia o traistă şi umple-o cu făină,</p>
+            <p>Şi băţul din căruță cu care umbli-n foc,</p>
+            <p>Toiag îi fă de cale... Să-i dăm pe drum o haină?</p>
+            <p>Ori poate cu cămaşa să plece-n calea ei?</p>
+            <p>Ba da, îi va ajunge şi-atâta ...</p>
+            <p>FATA EI:</p>
+            <p>Dar, când vine,</p>
+            <p>Des tul esle să-mi zică: aşa să faci, şi fac.</p>
+            <p>Chiar când mi-i foame carnea-i cu dinții mei s-o sfâşii.</p>
+            <p>BABA:</p>
+            <p>Tu  taci  şi-ascultă. Treaba  cu  moşu-o isprăvesc.</p>
+            <p>Aceasta este noaptea din urmă când mai şade</p>
+            <p>Aicea vrăjitoarea: îi fac vânt şi-o gonesc...</p>
+            <p>Să piară în pustie de trudă, frig şi foame...</p>
+            <p>Grăbește-te: moşneagul soseşte, îl aud.</p>
+            <p>Cum  târâie sărace  picioare ologite</p>
+            <p>Şi-i sună-n piept coliva de tare ce tuși...</p>
+            <p>Grăbeşte-te. Să fie dichisu-ntreg de drum</p>
+            <p>Şi-atunci coliba asta va fi ca şi o Curte.</p>
+            <p>Crăiască fără nimeni care ne-ar -slingheri,</p>
+            <p>Şi tu vei fi Domniţa cea fără de păreche...</p>
+            <p>Apropie-te, maică, mi-e dor să te sărut...</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA II</head>
+          <stage>CELE  DE SUS, MOŞNEAGUL</stage>
+          <sp who="#mosneagul">
+            <speaker>MOȘNEAGUL</speaker>
+            <p>Am prins şi eu atâta: un biet d.e iepuraş...</p>
+            <p>Sărea aşa în cale-mi de parcă-l trimisese</p>
+            <p>Anume de-o mâncare, că alta nu găsesc...</p>
+            <p>N-am vrut deocamdată să bag sama la dânsul...</p>
+            <p>Aşa o vietate n-aduce vreun noroc...</p>
+            <p>Ori nu socoţi tu, babo, că se adeverește?</p>
+            <p>BABA:</p>
+            <p>Drăguțule, dar  lasă, nu te îngrijora.</p>
+            <p>Ia uite, ce sudoare pe fruntea-ți brobonează.</p>
+            <p>Fetico, dă marama să-l şterg... aşa, aşa...</p>
+            <p>Știi că-i frumos moşneagul întors din vânătoare...</p>
+            <p>Ştrengarule, mi-i frică de tine... Cum te uiţi!...</p>
+            <p>Îmi pare că ți-i gândul, bătrâne, la prostii...</p>
+            <p>MOŞNEAGUL.:</p>
+            <p>Ei iaca... Zi mai bine că însăţi le visezi...</p>
+            <p>Şi-aşa cu iepuraşul...</p>
+            <p>BABA:</p>
+            <p>Ci lasă-l la  păcate...</p>
+            <p>C-o fi avut destule de-n cale ţi-a ieşit.</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Aşa  cu  iepuraşul  din  cale,  babo  dragă...</p>
+            <p>BABA:</p>
+            <p>Ori „babă” zi, ori  „dragă”; nu le amesteca.</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Aşa a fost, muiere dragă, cu iepuraşul.</p>
+            <p>Mai ştii ce supărare acuma ni-a veni?</p>
+            <p>O boală ori, ferească Domnul, poate vre-o moarte...</p>
+            <p>De-ar fi a mea, că umbră pământului doar fac,</p>
+            <p>Şi-atâta...</p>
+            <p>BABA:</p>
+            <p>Dar se poate să zici aşa cuvinte?</p>
+            <p>Ori vrei să plângă baba, de tot meneşti aşa?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Am vrut să-l las să treacă sărmanul mai departe,</p>
+            <p>Dar el tot înainte mi se înfăţişa.</p>
+            <p>Stătea cum stă  un  câne în faţa domnului.</p>
+            <p>Atunci mi-am zis: e vrajă şi lucru necurat,</p>
+            <p>Zvârlii cu băţu-ntr-însul şi l-am lovit aice</p>
+            <stage> (arată gâtul) </stage>
+            <p>S-a dat de-a tumba... Uite aşa ... Odată... Iar ...</p>
+            <p>Şi  l-am  cules  din  ţărnă  cald  şi însângerat.</p>
+            <p>Nici vorbă de vreo vrajă... Biet puiu de viclalc...</p>
+            <p>Găteşte-l şi vă faceţi mâncare... Eu mă simt</p>
+            <p>Sătul de-atâta umblet şi de atâtea gânduri.</p>
+            <p>Cât despre mămăligă, văd că v-aţi pregătit...</p>
+            <p>Căci iată, draga tatei, mălaiu-I răscoleşte...</p>
+            <p>Aşa, aşa, cu treaba, apucă-te de zor...</p>
+            <p>BABA:</p>
+            <p>Mălaiu?  Dar  cine scoase mălaiu  din  căpistere?</p>
+            <p>FATA EI:</p>
+            <p>Dar tu ai spus, măicuţo....</p>
+            <p>BABA:</p>
+            <p>Ei da, ce proastă sunt...</p>
+            <p>Simţeam că vine moşul cu iepurele -n traistă...</p>
+            <p>Să punem masa... Adu cel ţol de pe cuptor</p>
+            <p>Şi strachina cea spartă, şi cupa cea ştirbită...</p>
+            <p>Ce vrei? Aşa ni-i soarta cu-acestea să trăim...</p>
+            <p>Şi-acuma dă-mi vânatul să fac din el ojină.</p>
+            <p>Dar iute, iute... Fata moşului de la oi</p>
+            <p>Şi-a luat de dimineaţă ca pentru toată ziua....</p>
+            <p>I-ajunge...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>O, săraca!</p>
+            <p>BABA:</p>
+            <p>Poftim, poftim, ce-ai zis?</p>
+            <p>Mai  spune o dată ...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Lasă, de ce să fie ceartă?</p>
+            <p>BABA:</p>
+            <p>De ceartă nu mi-i frică... Ci, moşule, cutezi a plânge pe urma celei ce este o povară</p>
+            <p>Şi o  necinste  casei?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Necinste, fata mea?</p>
+            <p>BABA:</p>
+            <p>Necinste, fie fata a ta şi-a dracului!</p>
+            <p>Vai, biată de stăpână  ce-s eu aici la voi!</p>
+            <stage> (plânge.) </stage>
+            <p>Domniţa îşi petrece prin câmpuri şi poiene,</p>
+            <p>Iar eu rămân ca sluga la vatră şi cuptor</p>
+            <p>Şi vorbe ce-mi mai spune atunci când se întoarce...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>,.</p>
+            <p>De-a spus, eu sunt aice pentru-a o pedepsi...</p>
+            <p>BABA:</p>
+            <p>Pedeapsă şi pe urmă  gâlceavă şi ocară...</p>
+            <p>Nu, nu. Găteşte, fată; ia pumnul de mălai</p>
+            <p>Pe  care pentru cale l-am fost gătit, şi haide...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>L-ai fost gătit? De-aceia mălaiu-i răspândit?</p>
+            <p>BABA:</p>
+            <p>De-aceea... Să le ţie Domnul  în pază bună.</p>
+            <p>Mi-a fost de-ajuns o viaţă întreagă c-am muncit</p>
+            <p>Eram o floare-n ceasul când m-a momit bordeiul,</p>
+            <p>Acum un vreasc pe care îl poarlă vântu-n zbor.</p>
+            <p>Dar tu pe lângă tine ai o împărăteasă.</p>
+            <p>Noroc şi voie bună...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Nu, babo, stai, te rog.</p>
+            <p>BABA:</p>
+            <p>N-ajunge rugăciunea.</p>
+            <p>MOȘNEAGUL:</p>
+            <p>Vrei  lacrimi  peste  ea?</p>
+            <p>BABA:</p>
+            <p>Vreau linişte, şi-atâta...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Ce fel de linişte?</p>
+            <p>Sâunt gata, orişicare mi-i cere-o, să ți-o dau.</p>
+            <p>BABA:</p>
+            <p>Te juri?... S ă n-ai tu  parte de tot ce ți-e mai scump.</p>
+            <p>MOȘNEAGUL:</p>
+            <p>Să n-am parte de  ceea ce mi-e mai scump pe lume.</p>
+            <p>Și-aceia-s eu?</p>
+            <p>BABA:</p>
+            <p>MOȘNEAGUL:</p>
+            <p>Dar  cine mai  scump  îmi  poate fi?</p>
+            <p>BABA:</p>
+            <p>Atunci goneşte-ți fata... Nu vrreau să stau cu dânsa.</p>
+            <p>Nici ochii mei asupra ei nu se pot opri.</p>
+            <p>N-aş şti să-ți spun ce patimi eu sufăr de la dânsa.</p>
+            <p>MOȘNEAGUL:</p>
+            <p>Eu mor...  Mă  duci  în  groapă, babo...</p>
+            <p>BABA:</p>
+            <p>Ba nu-i muri</p>
+            <p>Eu te-oi ţinea, moşnege, cu tot felul de bine,</p>
+            <p>Cum n-ai mai fost vreodată, cât eu m-am chinuit...</p>
+            <p>Şi-apoi tu eşti în stare să nu-ți ții jurământul.</p>
+            <p>MOȘNEAGUL:</p>
+            <p>BA da... Dar vezi, îmi cade aşa de greu!</p>
+            <p>BABA:</p>
+            <p>Mă duc!</p>
+            <p>MOŞNEAGUL:</p>
+            <p>V ezi de aceea-n cale-mi venise iepuraşul...</p>
+            <p>Să zvârl în lumea largă copila mea... Uite-o!</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA III</head>
+          <stage>CEI DE SUS, FATA MOȘNEAGULUI</stage>
+          <sp who="#fata_mosneagului">
+            <speaker>FATA MOȘNEAGULUI</speaker>
+            <p>Eşti bolnav? Simți că-n tine viaţa s-a oprit?</p>
+            <p>Săracă de orfană ce sunt!.. N-am zis nimica,</p>
+            <p>Dar cum pot, tată dragă, să-ţi fiu de ajutor?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Nu eu sunt cel de care să plângem să cuvine...</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Dar cine?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Fato, fato!</p>
+            <p>BABA:</p>
+            <p>Ori spui, ori i-o spun eu?</p>
+            <p>MOŞNEAGU:</p>
+            <p>Opreşte-te! Mai bine s-audă de la mine!</p>
+            <p>Eu am avut, drăguţo, un vis... Mi se părea</p>
+            <p>Că draci veneau asupra acestei biete case.</p>
+            <p>Voiau s-o ardă-n flăcări şi-n foc să ardem noi,</p>
+            <p>Şi-atunci veni un înger şi zise: dacă pleacă</p>
+            <p>De-aici un suflet care s-ar şti nevinovat,</p>
+            <p>Dar, ştii, curat ca neaua în clipa ce se-aşterne.</p>
+            <p>Eu sânt chizeş că nimeni nu vă va supăra.</p>
+          </sp>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <stage> (vrea să se amestece) </stage>
+            <p>MOŞNEAGUL:</p>
+            <stage> (solemn) </stage>
+            <p>.</p>
+            <p>Tu, taci... până aice ţi-a fost... Păzeşte-te.</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Mă crezi în sltre, tată, să vă scutesc pe toţi?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Tu, tu... Tu, mângâierea şi tu nădejdea</p>
+            <p>noastră.</p>
+            <p>BABA:</p>
+            <p>Așa, așa... Ce fată cuminte!... Ți-am gătit,</p>
+            <p>Mălaiul din căpistere și-un băț ca să te aperi...</p>
+            <p>Și poți pleca și-acuma... De ce te-ai chinui</p>
+            <p>Cu lunga așteptare și cu durererea noastră?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Şi eu cred că-i mai bine... Nu te uita!... Mă pierd...</p>
+            <p>Sărut cinstita-ți frunte, copil-a tinereţii</p>
+            <p>Şi-a dragostei pierdute... Şi vreau să te întorci...</p>
+            <p>Sunt sigur că odată şi-odată....</p>
+            <p>FATA  MOŞULUI:</p>
+            <p>Să vă fie</p>
+            <p>Noroc şi voie bună în casă  Mă iertați,</p>
+            <p>De am greşit vreodată, atât de rău îmi parce</p>
+            <p>Pe cât de bine astăzi  că pot fi de folos.</p>
+            <stage> (Pleacă, moşul  se clatină) </stage>
+          </sp>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <stage> (către fata ei) </stage>
+            <p>Ia  vezi să nu se-ntâmplc ceva rău cu moșneaguș</p>
+            <p>Eu merg să văd cum	urma ei- se va pierde-n zări.</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>FATA MOŞULUl (singură).</stage>
+          <stage>(În față un măreț castel)</stage>
+          <stage>( cu mirare)</stage>
+          <stage>(se aud strigăte)</stage>
+          <stage>(se suie.)</stage>
+          <stage>(Se uită mai atent)</stage>
+          <stage>(bate la poartă)</stage>
+          <stage>(bate iar)</stage>
+          <stage>(așteaptă)</stage>
+          <stage>(Tăcere.)</stage>
+          <stage>(Porțile se deschid larg.. apare Sf. Vineri.)</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>FATA MOŞNEAGULUI, SF. VINERI</stage>
+          <sp who="#sf_vineri">
+            <speaker>SF.  VINERI</speaker>
+            <p>Mă  ştii  că-s Sfânta  Vineri? M-ai pomenit  vreoodată?</p>
+            <p>FATA:</p>
+            <p>O, nu! Cât  e de  mândru  veşmântul  care-l  porţi,</p>
+            <p>Şi simt că  e mai mândră privirea ta, o, sfântă,</p>
+            <p>Dar nu cutez spre tine privirea să-mi  îndrept,</p>
+            <p>Căci aş muri în clipa când te-ai uita la mine.</p>
+            <p>Ce vreau, tu ştii, eşti zână, şi fără a-ţi vorbi...</p>
+            <p>SF.  VINERI:</p>
+            <p>Cum? Nu postiţi. acasă voi oameni cu păcate,</p>
+            <p>Când tot la şapte zile se-ntoarce ziua mea?</p>
+            <p>FATA:</p>
+            <p>O, noi postim într-una în toate şapte zile,</p>
+            <p>Căci e sărac moşneagul, şi numai eu muncesc,</p>
+            <p>Căci şi mama şi sora sunt mândre şi frumoase,</p>
+            <p>Şi-i voia mea ca mâna curată să le-o las,</p>
+            <p>Şi faţa lor ca  luna să fie luminată.</p>
+            <p>SF.	VINERI:</p>
+            <p>Şi  ai  pornit  acuma  prin  lume  haimana?,</p>
+            <p>Ce fac cei de acasă în lipsa muncii tale?</p>
+            <p>FATA.</p>
+            <p>M-am dus, o, sfântă zână, după un sfat de înger.</p>
+            <p>Mi-au zis: ca să nu piară toţi cei din casa ta</p>
+            <p>De vraja cea drăcească, desparte-te şi du-te.</p>
+            <p>Şi eu m-am dus...</p>
+            <p>SF.	VINERI:</p>
+            <p>Şi ochii atunce nu ţi-au plâns?</p>
+            <p>FATA:</p>
+            <p>Eu  nu  plâng, zână  dragă, eu  nu  plâng de  nimica.</p>
+            <p>Nu plâng de frig, de foame, nu plâng nici de bătăi,</p>
+            <p>Căci îmi iubesc părinţii şi n-am voie a plânge.</p>
+            <p>Aşa mi-a spus măicuţa că-i datoria mea.</p>
+            <p>SF.  VINERI:</p>
+            <p>Şi ce pricepi tu oare aici într-o cetate,</p>
+            <p>Când totul pentru tine încape-ntr-un bordeiu?</p>
+            <p>N u vezi câtă mulţime de feţe minunate?</p>
+            <stage> (Toţi  urlă.) </stage>
+            <p>FATA:</p>
+            <p>Mi-a spus odată taica: să ştii că nu e om</p>
+            <p>Acel ce chibzuieşte şi-apoi începe lucrul</p>
+            <p>La	care datoria cea aspră l-a chemat.</p>
+            <p>De poate, el ajunge să aibă laudă,</p>
+            <p>De nu, acel ce moare lucrând îşi face fapta.</p>
+            <p>SF.  VINERI:</p>
+            <p>Deştept bătrân şi tatăl pe care l-ai avut,</p>
+            <p>Şi prost doar că te lasă să rătăceşti pe lume.</p>
+            <p>Nu vezi ce grozăvie de pui am eu aici?</p>
+            <p>Veni atâta lume şi toţi s-au spăimântat.</p>
+            <p>De-aceia eu o slugă nu aflu pentru dânşii,</p>
+            <p>Iar mâinile de ziuă se-ntind, dar nu ating,</p>
+            <p>Cum  nu se pleacă  iarba, când  mergem, sub picioare...</p>
+            <p>FATA:</p>
+            <p>Dar eu, mărită zână, ce sunt, în legea mea,</p>
+            <p>Decât fiară din codru, ori ciută de pe luncă?</p>
+            <p>Nu-i unul să nu ştie că sunt şi eu de-ai lor</p>
+            <p>Şi să nu înţeleagă ce gând am pentru dânşii?</p>
+            <p>Ascultă-i cum se roagă să vin să-i îngrijesc.</p>
+            <stage> (Schiaună  fiarele.) </stage>
+            <p>SF.	VINERI:</p>
+            <p>Şi, ştii, fată nebună ce eşti, că slujba ţine</p>
+            <p>Nu mai puţin ca şapte ani şi că vei ieşi</p>
+            <p>De-aici îmbătrânită şi fără frumuseţe?</p>
+            <p>FATA:</p>
+            <p>Dar eu nu sunt frumoasa casei, ci sora mea,</p>
+            <p>Iar, dacă pentru dânsa un mire n-a venit,</p>
+            <p>Cum va cădea vreunul în fața soartei mele?</p>
+            <p>SF.	VINERI:</p>
+            <p>Vei duce viaţă aspră şi fără mângâieri.</p>
+            <p>Aici nu sunt petreceri şi n-auzi vorbe bune.</p>
+            <p>Sunt rea, cum pot eu altfel pe ăştia să-i ţin?</p>
+            <p>De-i face rău, de tine va fi amar şi jale,</p>
+            <p>De-i face bine, vorba de bine n-o auzi.</p>
+            <p>FATA:</p>
+            <p>Aşa era, o, zână, şi pe la noi pe-acasă.</p>
+            <p>SF.  VINERI:</p>
+            <p>Iar singura răsplată va fi un te miri ce.</p>
+            <p>FATA:</p>
+            <p>Eu voi pleca ducându-mi în suflet fapta însăşi.</p>
+            <p>SF.  VINERI:</p>
+            <p>Pentru  întăia  oară,  deschideţi-vă,  porţi!</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL al III-lea.</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage>(Bordeiul  moşului.)</stage>
+          <stage>BABA, FATA, MOŞUL</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <stage> (către moş) </stage>
+            <p>Ci fă-te -ncolo, dragă, nu vezi cum ne încurci?</p>
+            <p>Aş vrea să fac o leacă de rost aici în casă,</p>
+            <p>Iar tu te laşi pe-o rână oriunde le aşezi.</p>
+            <p>Doar nu-i palat să-ţi afli un jeț în orice colţuri!</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Mă duc, mă duc... Vezi, babo, eu am îmbătrânit.</p>
+            <p>BABA:</p>
+            <p>Auzi, dar spune, oare te-am cunoscut şi altfel?</p>
+            <p>De când te ştiu, într-una tot gemi şi te învârţi.</p>
+            <p>Pare c-ai fi un suflet ce nu-şi află hodina.</p>
+            <p>Ia pune-te acolo şi nu mai suspina,</p>
+            <stage> (Se aşază pe oala cu laptele.) </stage>
+            <p>MOŞNEAGUL:</p>
+            <p>Dar ce este? Îmi pare că dedesupt e apă...</p>
+            <p>BABA:</p>
+            <p>Că nu m-oi duce veşnic să cat pe urmatta.</p>
+            <p>Oh, ce moşneag netrebnic: îi trebuie tot slugi!</p>
+            <p>Vezi tu, fetiţa maicăi, de ce-a mai dat acolo.</p>
+            <stage> ( către  moşneag) </stage>
+            <p>.</p>
+            <p>Căci  n-ai  simţire -n  tine atuncea  când te-aşezi.</p>
+            <p>FATA:</p>
+            <p>Mai lasă-mă cu-atâtea porunci fără sfârşit:</p>
+            <p>Hai ici şi haide colo; că doar mi se cuvine</p>
+            <p>Şi mie o clipită să stau mai linişlită.</p>
+            <p>Ce casă afurisită! Şi nimenea nu vine</p>
+            <p>De-aicea să mă scoată: să fie şchiop şi orb,</p>
+            <p>Mai bine decât ăstor hoituri să le am sama.</p>
+            <p>BABA:</p>
+            <p>Ce-ai zis?</p>
+            <p>FATA:</p>
+            <p>Nimic, îndată mă duc... Iaca acum...</p>
+            <p>Ci nu sta-n murdărie, tată, ridică-te!</p>
+            <p>N-o fi, -că nu e vremea la asta să ajungi.</p>
+            <p>MOŞNEAGUL:</p>
+            <p>M-am ridicat... Ce este acolo, uită-te.</p>
+            <p>FATA:</p>
+            <p>Ia vezi... S-a pus moşneagul  în oala cu chişleag,</p>
+            <p>BABA:</p>
+            <p>Ti, om fără simţire ce eşli şi-ai fost! Se poate să strici şi bunătatea de hrană ce-am găsit</p>
+            <p>Mai mult din dar  şi-aceea decât de pe vreo muncă?...</p>
+            <p>Acum mănâncă singur aceia ce-ai spurcat,</p>
+            <p>Şi curătă-te singur, că nu eşti prunc din leagăn,</p>
+            <p>Dar curăţă-te-afară. In casă nu e loc</p>
+            <p>Pentru damblaua care nu ştie ce-i cu dânsa...</p>
+            <p>Acuma, fată dragă, în loc ce mai gătim?</p>
+            <p>FATA:</p>
+            <p>Cc mai gătim? O coajă de pâine e rămasă</p>
+            <p>De ieri... Şi-un pumn de brânză... Un codru de mălaii</p>
+            <p>De  nu  ştiu  câte zile...</p>
+            <p>BABA:</p>
+            <p>Hai iute că se-ntoarce</p>
+            <p>Moşneagul şi, cum vede ceva, a şi-mbucat...</p>
+            <p>Grăbeşte-te odată, că-i doar şi pentru tine.</p>
+            <p>FATA:</p>
+            <p>Dar stăi, nu sunt acolo unde cred că le-am pus,</p>
+            <p>Ce naiba!... ia te uită puţin şi mă ajută.</p>
+          </sp>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <stage> (pe loc) </stage>
+            <p>.</p>
+            <p>Tu mişcă-le, fetiţo, şi eu te-ajut din ochi...</p>
+            <p>FATA:</p>
+            <p>Aşa ți-i ajutorul oricând... Biata de mine!</p>
+            <p>Şi iaca nu-i...</p>
+            <p>BABA:</p>
+            <p>Ascultă,  nu  cred  să-i  dai  de  rost.</p>
+            <p>Nu fuse pe aice cotoiul cel sălbatec?</p>
+            <p>FATA:</p>
+            <p>Ba da, cum se deschise uşa. Şi eu ţi-am spus</p>
+            <p>Să-l dai afară...</p>
+            <p>BABA:</p>
+            <p>Doamne,  dar  tu  erai  aproape...</p>
+            <p>FATA:</p>
+            <p>Şi dumneata atuncea i-ai spus atâta: câţ!,</p>
+            <p>Şi ai crezut cu asta că faci ispravă mare.</p>
+            <p>Acuma ce ne facem?...</p>
+            <p>BABA:</p>
+            <p>Uitaşi că-i zi de post...</p>
+            <p>FATA:</p>
+            <p>Ba zău e drept... Mai facem puţină rânduială.</p>
+            <p>Că uite ce-i aice... Un scaun răsturnat,</p>
+            <p>Nu-i altu-n toată casa-şi stau să mă împiedec,</p>
+            <p>Dar, findcă-i post, nu-i bine să-l tulbur cu grijilul...</p>
+            <p>BABA:</p>
+            <p>Că e şi frig. Te suie pe vatră. Strachina</p>
+            <p>Cea goală  prinde-o... Uite s-a  spart... Aşa eşti tu...</p>
+            <p>FATA:</p>
+            <p>Cum eu? Dar tu n-ai mână?</p>
+            <p>BABA:</p>
+            <p>O am, şi-ai s-o simţi tare.</p>
+            <p>FATA:</p>
+            <p>Încearcă-te...</p>
+            <p>BABA:</p>
+            <p>O, dragă fată, te-am supărat.</p>
+            <p>Că n-am pe lângă mine o altă dragoste...</p>
+            <p>Arunc-un vrej în sobă, pofteşte pe cuptor...</p>
+            <stage> (bătaie în uşă.) </stage>
+            <p>Ia vezi cine mai bale la noi; de vine unul</p>
+            <p>Să ceară, spune-i: Domnul să-ţi deie ajutor,</p>
+            <p>Şi iute întereşte-1...</p>
+            <p>FATA:</p>
+            <p>Dar dacă o fi taica....</p>
+            <p>BABA:</p>
+            <p>Nu, nu... De-i spui odată să plece, el s-a dus</p>
+            <p>Şi nu se mai întoarce decât târziu la noapte.</p>
+            <p>E bun, şi chiar atuncea, de nu-i este prea frig.</p>
+            <p>Îşi caută pe prispă un loc să hodinească.</p>
+            <p>Nu-i el... E o bătaie pe care o cunosc.</p>
+            <p>Stăi tu: e multă vreme de când n-am auzit-o.</p>
+            <p>Aşa bătea în uşă ştii, ceia ce s-a dus</p>
+            <p>Pe	drum  de  pribegie...</p>
+            <p>FATA:</p>
+            <p>Da, fata moşului:</p>
+            <p>Mai mult loc este-n  casă, dar  mai puţină treabă.</p>
+            <p>BABA:</p>
+            <p>Ce inimă! Dar bine  le poți alătura</p>
+            <p>Cu ce făcea aceia când ni mânca din pâine ?</p>
+            <p>Nu eşti tu cea mai mândră, mai de ispravă tu?</p>
+            <p>Dar vezi de cine bate....</p>
+            <stage> (Fata caută afară. Vine iute.) </stage>
+            <p>FATA:</p>
+            <p>E ea; zi: să-i deschidem?</p>
+            <p>BABA:</p>
+            <p>Cum ea?... Cea izgonită... Să vie-a cutezat?</p>
+            <p>Ori eşti nebună, fată, de-ţi vezi închipuirea?</p>
+            <p>Dar sigur c-au mâncat-o nevoile de mult,</p>
+            <p>Prin codri vechi., pe drumuri puslii, prin ape moarte...</p>
+            <p>FATA:</p>
+            <p>E ea, măicuță dragă... E ea, şi iar mă tem...</p>
+            <p>BABA:</p>
+            <p>Aşteaptă, sar de-aicea ...</p>
+            <p>FATA:</p>
+            <p>Ci sai! Eu n-am putere</p>
+            <p>S-o țin.</p>
+            <p>BABA:</p>
+            <p>O clipă, numai, şi vin...</p>
+            <p>FATA:</p>
+            <p>E prea târziu:</p>
+            <p>Aşa privea la mine de am clintit zăvorul.</p>
+            <p>BABA:</p>
+            <p>Dar eu n-o las...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a III-a</head>
+          <stage>ACELEAŞI. FATA MOŞULUl</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <p>,,,</p>
+            <p>Dar ce? Eu sunt aice pe moşul să-l păzesc?</p>
+            <p>De ce-ai plecat pe lume şi l-ai lăsat tu singură</p>
+            <p>Şi-acuma, cerşătoareo, ce vrei de te întorci,</p>
+            <p>De parcă numai zdrenţe ai prins din praf şi tină?</p>
+            <p>Priveşte-o... Casa noastră o spurci cu-aşa veşmânt.</p>
+            <p>Şi, colo, în bocceaua ce porţi, ce-ai prins din drumuri?...</p>
+            <p>FATA  MOŞULUI:</p>
+            <p>Eşti iarăşi mânioasă, măicuâț... Să mă ierţi</p>
+            <p>Dacă n-am fost în stare-s-aduc ceva pe calea</p>
+            <p>Cea lungă, dar atâta a fost norocul meu.</p>
+            <p>BABA:</p>
+            <p>Noroc? Prin care locuri norocul ţi-ai cătat,</p>
+            <p>Tu cea fără de minte, tu, toanta toantelor!</p>
+            <p>FATA MOŞULU:</p>
+            <p>Aşa am fost acasă şi-aşa am tot rămas,</p>
+            <p>Dar tot cu voie bună, cum m-aţi deprins, şi, astfel,</p>
+            <p>Ajuns-am, după cale lungă, de multe luni,</p>
+            <p>Acolo unde lumea noastră se isprăveşte</p>
+            <p>Şi unde-mpărăţia zânelor ia început...</p>
+            <p>BABA:</p>
+            <p>Ascultă cât de proastă-i. A fost ea pe la zâne...</p>
+            <p>Şi ai vorbit cu ele aşa ca pe la noi?</p>
+            <p>Și-aş vrea să ştiu răspunsul ce l-ai primit atuncea.</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Vorbeau cum este vorba aice pe la  noi,</p>
+            <p>Şi zânele sunt bune când eşti fată de muncă,</p>
+            <p>Şi am muncit...</p>
+            <p>BABA:</p>
+            <p>Mai bine decât când te ţineam?...</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Atâta, maică dragă, şi nu mai mult. Şi zâna ținutu-ma la dânsa un şir de şapte ani...</p>
+            <p>FATA BABEI:</p>
+            <p>Era frumos la zână? Mi-nchipuiu ce palate,</p>
+            <p>Ce săli clădite toate din aur şi cleştar</p>
+            <p>Şi stâlpi numai din piatră cioplită. foişoare,</p>
+            <p>Ca-n basmele pe care le spune tata, ştii?</p>
+            <p>FATA MOŞULUI:</p>
+            <p>O, basmele pe care le spune tatăl nostru...</p>
+            <p>Dar unde este tain? Mă iartă, l-am uitat.</p>
+            <p>Ce proastă sunt pe dânsul, pe dânsul chiar să nu-l cer</p>
+            <p>Ori nu cumva... O, Doamne,	înlătur acest gând...</p>
+            <p>E lungă vremea asta de şapte ani... Mă duceți.</p>
+            <p>La el, de zace-n patu-i; de nu, unde e pus...</p>
+            <p>BAB:</p>
+            <p>De -moşul să n-ai grijă, hoinara casei. noastre.</p>
+            <p>Hoinar ca tine este... Se va fi dus şi el</p>
+            <p>Să	prindă  în  pădure  sticleţi  şi  alte  cele...</p>
+            <p>Î1 vei vedea ândată, că noi tot îl vedem...</p>
+            <p>Şi, zi, ai fost la zâne şi te-au luat în casă?...</p>
+            <p>FATA MOŞULUI:</p>
+            <p>O, nu  în  casă, zâna ce-i zice Sfânta Vineri...</p>
+            <p>BABA:</p>
+            <p>Ai fost la Sfânta Vineri? Dar ştii ce este ea?</p>
+            <p>Izvoarele vieţii acolo sunt la dânsa,</p>
+            <p>Şi fetelor li este înzestrare şi liman.</p>
+            <p>Ci nu-ţi opri cuvântul... Vorbeşte... Haide, iute...</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Eu i-am slujit în cinste cum face un argat,</p>
+            <p>Şi i-am spălat copiii în fiecare seară.</p>
+            <p>FATA BABEI:</p>
+            <p>Ce minte! Şi-s copii ei trupeşi şi frumoşi?</p>
+            <p>Şi câţi sunt ei la număr? Doi-trei?</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Ce socoteală!</p>
+            <p>Cetatea ei întreagă e numai din copii...</p>
+            <p>BABA:</p>
+            <p>Fereşte Doamne... Toată cetatea?</p>
+            <p>FATA  MOŞULUI:</p>
+            <p>Chiar aşa e..</p>
+            <p>FATA BABEI:</p>
+            <p>Şi seamănă cu cine? Şi tatăl, l-ai văzu t?</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Nu vă speriaµ... Căci unul nu e depotrivă</p>
+            <p>Cu altul. Unu-i  broască şi altul este lup,</p>
+            <p>Iar ursul este frate cu şarpele, cu uliul...</p>
+            <p>BABA:</p>
+            <p>Ce spui! Ah, vrăjitoare!... Săriți de mă scăpaţi!</p>
+            <p>Aşa ai fost: de-aceia mi-a fost groază de tine.</p>
+            <p>Şi-acuma cu poveste de vrajă te-ai întors.</p>
+            <p>Dar, dacă este astfel, atunci nu-ţi dai tu samă,</p>
+            <p>Că-n toate nu-i nimica decât închipuiri,</p>
+            <p>Şi că nu ţii nimica în mână din acestea?</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Ba da, mi-a spus: o ladă din multe să aleg,</p>
+            <p>Erau atâtea, doamne, acolo în cămară!</p>
+            <p>FATA BABEI:</p>
+            <p>Erau multe şi toate frumoase! Nu-i aşa?</p>
+            <p>Tot aur pe afară şi pietre nestemate...</p>
+            <p>Doar zânele au alte unelte decât noi!</p>
+            <p>Şi tu, în grămădirea aceia de podoabe, Ce ai ales?</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Atâta cât eu m-am socotit</p>
+            <p>Că-s vrednică...</p>
+            <p>BABA:</p>
+            <p>Şi asta ce-o porţi acum în spate</p>
+            <p>Îţi este răsplătirea? Acest biet putregaiu</p>
+            <p>Din  care  se  hrăniră  atâtea  generaţii</p>
+            <p>De cari? Şi ce-o fi înăuntru? O, cât îşi va fi râs</p>
+            <p>De-a ta prostie Sfânta ca şi de  treaba-ţi  proastă?</p>
+            <p>FATA BABEI:</p>
+            <p>Deschide, o, deschide!... Că mor de când aştept!</p>
+            <p>BABA:</p>
+            <p>Că doar nu ştie dânsa că-nuntru uânt tot lucruri</p>
+            <p>De care-i fuse silă zânei şi i le-a dat...</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Mi-a spus aşa  când lada mi-am luat-o din cămară:</p>
+            <p>Eu  nu ţi-oiu spune, _ fato, de-mi place ce-ai  făcut</p>
+            <p>În  anii slujbei tale, dar	ţine minte bine:</p>
+            <p>Să nu deschizi capacul pe drum, ci-n casa ta,</p>
+            <p>Că altfel în cenuşă cuprinsul se preface.</p>
+            <p>BABA:</p>
+            <p>Ia vezi să nu se afle cenuşă şi acum.</p>
+            <stage> (Se  deschide  lada, apar	numai  pietre scumpe) </stage>
+            <p>FATA MOŞULUI:</p>
+            <stage> (în genunchi) </stage>
+            <p>Sunt vrednică aceste comori să-mi fie zestre,</p>
+            <p>Sărmană, slugă mie?</p>
+            <stage> ( Moşneagul intră.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a IV-a</head>
+          <stage>ACELEAŞI, MOŞNEAGUL</stage>
+          <sp who="#mosneagul">
+            <speaker>MOȘNEAGUL</speaker>
+            <p>Da, ţie, fata mea.</p>
+            <p>Plecăşi nevinovată din cercul casei mele.</p>
+            <p>Şi	spornica ta muncă bogată te-a făcut.</p>
+            <p>Acum  te veseleşte,  aleas-a  zânelor</p>
+            <p>Şi	iartă  pe  părinţii	nedrepți  cu  străduinţa-ţi.</p>
+            <p>FATA BABEI:</p>
+            <p>A.. tale toate-s, soro?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>A celei ce-a  muncit.</p>
+            <p>FATA MOŞULUI:</p>
+            <p>De vrai, îţi ia din ele ce cei: tu eşti frumoasă.</p>
+            <p>Şi mâna ta cea albă e vrednică de-aşa</p>
+            <p>Podoabe minunate...</p>
+            <p>BABA:</p>
+            <p>Ba nu. Opreşte-te!</p>
+            <p>Când una  ca aceasta avu astfel de daruri,</p>
+            <p>Cc daruri minunate nu	poţi tu aştepta?</p>
+            <p>Când te-o vedea această zână îndurătoare,</p>
+            <p>Va scoate din palatu-i tot ce-i mai bun şi scump.</p>
+            <p>Şi va face din ele cununa muncii tale.</p>
+            <p>Găteşte-te, copila mea, şi cât de curâud,</p>
+            <p>Porneşte...</p>
+            <p>FATA BABEI:</p>
+            <p>Dar eu calea n-o ştiu. Şi-i lungă calea...</p>
+            <p>FATA MOŞULUI:</p>
+            <p>Ti-o spun cu de-amănuntul, şi fii mai cu noroc,</p>
+            <p>Decât nevrednicia surorii...</p>
+            <p>FATA BABEI:</p>
+            <p>Sunt în stare!</p>
+            <p>..</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="4">
+        <head>ACTUL al IV-lea.</head>
+        <div type="scene" n="1">
+          <head>SCENA l-a.</head>
+          <stage>(Palatul Sf. Viner)</stage>
+          <stage>FATA BABEI ŞI DIHĂNIILE</stage>
+          <sp who="#fata_babei">
+            <speaker>FATA BABEI</speaker>
+            <p>Aşa. aşa vă-ntindeţi pe jos în fața mea.</p>
+            <stage> (Dihăniile  schiaună.) </stage>
+            <p>Că doar nu sunt făcută să fiu tot sluga voastră.</p>
+            <p>O fi ce-o fi în lada pe care o aştept,</p>
+            <p>Dar ce viaţă şi asta: să cauţi de o ceată</p>
+            <p>Urâtă şi scârboasă de fiare şi de	şerpi,</p>
+            <p>De broaşte şi de păsări din cele mai pocite...</p>
+            <p>O, biata casa noastră din codrul nepătruns;</p>
+            <p>Grijia de mine maica, şi-a mea şi lauda,</p>
+            <p>Iar moşul la picioare îmi sta în orice ceas.</p>
+            <p>Ce somn adânc de noapte şi ziua ce odihnă!</p>
+            <p>Mâncare mai puțină, e drept, bordeiul gol,</p>
+            <p>Dar ce are a face când le simţeşti stăpână:</p>
+            <p>Nicio  împărăteasă  n-avea  mândria  mea.</p>
+            <p>Acuma se răsfață acolo cea urâtă</p>
+            <p>Cu mâinile-negrite şi aspră la călcâiu</p>
+            <p>Şi cu aşa comoară adusă de aice...</p>
+            <p>Ce-o fi prin alea locuri: ce fală, cc mândreți!</p>
+            <p>În locul celor bârne de cari mâncată, piatră,</p>
+            <p>În locul unui scaun, şi-acela şchiop, minuuni</p>
+            <p>De jeţuri ca în casă de zâbă; ce perdele,</p>
+            <p>Ce moi covoare-ntinse pe jos şi pe păreți...</p>
+            <p>Mirezme se înalţă din vase rari şi scumpe,</p>
+            <p>Stă moşul drept în scaun, mai mândru ca un craiu,</p>
+            <p>Şi maica se răsfaţă în fundul patului...</p>
+            <p>Şi slugi ce-or fi acolo la orice îndemână...</p>
+            <p>Ce mai bucătăresc ce ştiu găti ales</p>
+            <p>Măiestre ciorbe, puii cei frageţi, dulci nimicuri,</p>
+            <p>Îu  casă fetişcane iuţi cată de orice,</p>
+            <p>Alături spală rufe multe spălătoreasa,</p>
+            <p>Şi hâda, tot zâmbeşte, că de la ea sunt toate.</p>
+            <p>Iar eu, privește viaţa ce duc, între aceşti</p>
+            <p>Copii cu bol şi coadă ai zânei Sfânta Vineri.</p>
+            <p>Îţi pute-n nas, şi blana, şi penele, şi tot.</p>
+            <p>Cât e de lungă noaptea se zbat şi se mănâncă:</p>
+            <p>I-o fi durând, dar bine datoare-s să-i tot spăl?</p>
+            <p>Sărace mâini, ce este de voi de-atâta vreme,</p>
+            <p>Atâta de şi sama nu pot să i-o mai ţin...</p>
+            <p>Şi-oiu fi urâtă, doamne, -	se poate şi cu mine-,</p>
+            <p>Dar nu e o oglindă s-o văd, de şapte anii</p>
+            <p>Aşa... Şi-apoi şi ziua ce mai aleg de dânsa!</p>
+            <p>De cum se luminează, încep a se prăsi,</p>
+            <p>Te-ncunjură, se freacă de tine, îţi stau în cale,</p>
+            <p>Trec unii peste alţii de se împleticesc:</p>
+            <p>O pasăre îţi sare în cap, un şarpe încearcă</p>
+            <p>Să se încolăcească în juru-ţi ca pe-un pom.</p>
+            <p>Şi, de-ar tăcea o clipă, de-ar fi măcar cu rândul:</p>
+            <p>Să zboare întăiu, pe urmă să urle şi -n sfârşit</p>
+            <p>Să croncăne, dar toate jigăniile strigă</p>
+            <p>Deodatp şi îţi vine parcă să-nebuneşti.</p>
+            <p>Ehe ! Dar bună este şi varga mea săraca!</p>
+            <p>De fier, şi, de n-ascultă vreunu-o pun în foc,</p>
+            <p>Şi arde... Ce plăcere să-i vezi că se frământă</p>
+            <p>Şi se întind în faţă-ţi de parcă s-ar ruga.</p>
+            <p>Atâta mângâiere la o astfel de trudă...</p>
+            <p>O, şapte ani! Ce mândră răsplată    s-ar cădea</p>
+            <p>Să am pentru atâta chin fără de păreche!</p>
+            <p>O văd răsplata... Proasta de-acasă ce-a ales?!</p>
+            <p>O ladă păcătoasă cu mii de boarfe-ntrânsa...</p>
+            <p>E drept că nestemate erau, dar nu destul!</p>
+            <p>Eu văd o plată care e vrednică de mine;</p>
+            <p>Cum este şi cuprinsul aşa şi lada lui:</p>
+            <p>Bătută cu rubine, topaze şi smaragde</p>
+            <p>Ori cum li se mai zice la pietrele mai rari,</p>
+            <p>Şi totul pe un aur curat căzut din  soare!</p>
+            <p>Şi-năuntru, măicuiliţă, comori fără sfârşit,</p>
+            <p>Ca florile -n cireşul de Mart al casei noastre,</p>
+            <p>Mărunte cu grămada şi unele mai mari</p>
+            <p>Cum sunt printre sleluţe mai mici	luceferiiDar vine-odată vremea? Eu nu ştiu ce ar fi,</p>
+            <p>De simt de-o vreme parcă o mână nevăzută</p>
+            <p>Mă-mpinge înainte, afară peste porţi...</p>
+            <p>Şi tot visez de drumuri lungi şi de -ntors acasă...</p>
+            <p>Şi ura mi se face mai mare de- copii,</p>
+            <p>-	Nu i-ar vedea de-acuma sfânta lor maică zâna!</p>
+            <p>Mă prinde-o nerăbdare şi-o sete de sfârşit...</p>
+            <stage> (Urlete) </stage>
+            <p>Şi am o mulţămire sa-i bat, întruna, tare,</p>
+            <p>De-aş frânge şi vărguţa ce-n ei am îndoit</p>
+            <p>Na ţie	vulpe roşă, na-ţi ţie, lup bătrân,</p>
+            <p>Primeşte de la mine, tu şarpele, o cinste,</p>
+            <p>Şi peste clonţ primeşt_e, tu, vulture, ceva.</p>
+            <p>Năpârcă, sub piciorul meeu mai suceşte-te:</p>
+            <p>Incallea de v-i pofta de zgomot, ştiu de ce!</p>
+            <stage> (Urlete înteţite. Apoi vuiet şi lumini mari.) </stage>
+            <p>Dar ce e, doamne, parcă din cer  vin sunete,</p>
+            <p>Şi  tot pământul  este să cadă în genuni.</p>
+            <p>Se rupe-ncheietura ce ţine lumea noastră.</p>
+            <p>Şi eu nu am un sprijin, nu pot găsi răspuns</p>
+            <p>La strigătul în care m, se cuprinde groaza.</p>
+            <p>Dar ce e? O lumină cum nu s-a mai văzut,</p>
+            <p>S-aprinde în cetate sus şi încoace vine.</p>
+            <stage> (bucuroasă.) </stage>
+            <p>Aha, pricep acuma. Cum, oare-i de crezui!</p>
+            <p>Mi-a spus ceia de-acasă că, anii când se-ncheie,</p>
+            <p>Cutremur e-n cetate şi sus răsar lumini,</p>
+            <p>Şi-un glas din ceruri vine spunând: te-ai izbăvit.</p>
+            <p>Mă dau în lături fără de voie. Simt ceva</p>
+            <p>Mai tare decât omul că mă învăluieşte. E zina şi întâia oar-o mai văd acum</p>
+            <p>De când întrăiu în slujba acestor dobitoace.</p>
+            <p>E ziua bucuriei! Al răsplătirii ceas!</p>
+            <p>O vargă încă-n urmă, şi zbor spre altă viaţă...</p>
+            <stage> (loveşte_în dobiloace.) </stage>
+            <p>3</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a.</head>
+          <stage>FATA BABEI, DOBITOACELE, ZÂNA</stage>
+          <sp who="#fata_babei">
+            <speaker>FATA BABEI</speaker>
+            <p>Să-i ies în cale. Îi bine ca eu să-i spun ce-a fost.</p>
+            <p>Mai ştii? Atâta ţine la ceata de jigănii</p>
+            <p>De poate i se pare că n-am grijit destul</p>
+            <p>Şi că nu sunt frumoase cum le doreşte dânsa.</p>
+            <p>Ca omul, şi o zână nu vede ce-a văzut,</p>
+            <p>Ci mai ales aceia ce i s-a spus de altul.</p>
+            <p>Doar maica totdeauna mi-a spus că mă pricep</p>
+            <p>Să -nfăşur adevărul în vorbe măiestrite</p>
+            <p>Şi să dau prin cuvinte- altfel de adevăr</p>
+            <p>la să vedem ce iese din ce vrăjesc eu zânei.</p>
+            <stage> (Către zână.) </stage>
+            <p>O tu, stăpâna noastră, a mea şi-a tuturora,</p>
+            <p>Tu care din cămara-ţi vezi toate î ,prejur</p>
+            <p>Şi care-auzi şi şoapta cea mai viclean ascunsă,</p>
+            <p>Ce pot să-ţi spun de fapta care-o am săvârşit</p>
+            <p>În anii lungi în cari avui cinstita slujbă?</p>
+            <p>SF.  VINERI:</p>
+            <p>Eşti tare în cuvinte  şi meşteră la glas.</p>
+            <p>FATA BABEI:</p>
+            <p>Îmi pare-aşa de bine că pot să-ţi plac, o sfântă,</p>
+            <p>Că n-am avut în vremea aceasta un alt dor</p>
+            <p>Decât să-mi cadă astfel de recunoaştere</p>
+            <p>Mai scumpă  decât orice  răsplăţi  cc mi-or  veni.</p>
+            <p>SF. VINERI:</p>
+            <p>Îți vor veni deigur de sama faptei tale;</p>
+            <p>La urmă nu e nimeni să plece făr-a fi</p>
+            <p>Plătit de toate cele-a gândului  şi-a faptei.</p>
+            <p>FATA BABEI:</p>
+            <p>Îmi este gândul, zână,  ca fapta de curat:</p>
+            <p>Credinţă către tine, iubire către-aceia</p>
+            <p>Din cari bunătatea-ţi făcu copiii tăi.</p>
+            <stage> (Cu mândrie.) </stage>
+            <p>Priveşte. Dacă glasul de om li-ar fi în parte,</p>
+            <p>Ţi-ar spune cum nici noaptea n-am fost fără folos,</p>
+            <p>Cum ceasuri lungi de trudă vegheam pe întuneric,</p>
+            <p>Cum nu e niciun strigăt să nu-l fi auzit,</p>
+            <p>Nicio dorinţă care să nu-şi afle împlinirea.</p>
+            <p>SF.  VINERI:</p>
+            <p>Se simte şi-n privirea-ţi şi în mişcarea lor.</p>
+            <p>(Fiarele dau s-o rupă. Fără voie e  ridică varga şi ele se</p>
+            <p>potolesc.)</p>
+            <p>Ce-i  varga  asta?...  Dă-mi-o  s-o  văd...  E  sângerată...</p>
+            <p>FATA  BABEI:</p>
+            <p>O da, mărită zână. De câte ori credeam</p>
+            <p>Că poate datoria nu mi-am făcut-o bine,</p>
+            <p>Luam în mână varga şi însumi mă loveam.</p>
+            <p>Spinarea mea doar ştie ce sânge-a curs dintr-însa,</p>
+            <p>Dar mila ta îndată la loc o prefăcea,</p>
+            <p>Căci doar tot în minune e traiul din cetate.</p>
+            <p>SF.  VINERI:</p>
+            <p>Eşti tare, fată dragă. Atât te-ai chinuit,</p>
+            <p>Şi  ai vegheat atâta, dar, harul Domnului,</p>
+            <p>Venind peste această putere-a  ta, arăţi,</p>
+            <p>De parcă zi şi noapte stătași în desfătare,</p>
+            <p>Ce faţă  odihnită, ce ochi strălucitori!</p>
+            <p>Și mânile-ţi ai zice că-s niște mâini de ziâă.</p>
+            <p>FATA BABEI:</p>
+            <p>Aşa, aşa. Şi maica tot astfel îmi vorbea.</p>
+            <p>Suntem neam bun, şi taica-i odraslă -împărătească.</p>
+            <p>Am  fost săraci, clar cinstea deodată n-am uitat,</p>
+            <p>Şi-s mândră  că aceste podoabe îţi plac, zână.</p>
+            <p>Dar	vorba  mai  departe  mi-ngădui  s-o  urmez?</p>
+            <p>SF.	VINERI:</p>
+            <p>Cum nu? Cum nu? E-un farmce să te aus vorbind.</p>
+            <p>Se vede adevărul pe buze că-nflorește.</p>
+            <p>FATA BABEI:</p>
+            <p>Acuma, dup-atâta trudă, îi poţi vedea</p>
+            <p>Pe toţi aşa cum nimeni să-i facă, nu fu-n stare.</p>
+            <p>Ridică-te, tu vulpe, stăi drept şi fă frumos.</p>
+            <p>Tu, lupule, le freacă de sfintele-i genunche.</p>
+            <p>Moș ursule, te-ntinde întreg ca un covor</p>
+            <p>Acopere, o vultur, cu aripa ta odaia,</p>
+            <p>Tu şarpe, vreun cântec mai nou şuieră-ni!</p>
+            <p>Vezi, zână, toți se mișcă doar la un semn -al meu,</p>
+            <p>Nu ţi-i aduc aproape, căci nu li se cuvine</p>
+            <p>De-o mamă care-i sfântă să fie alăturea...</p>
+            <p>SF. VINERI:</p>
+            <p>Ahi,,  aha. Se  vede că-s  bine învățați</p>
+            <p>Şi, chiar de sunt departe de de dânşii şi de tine,</p>
+            <p>Aleasa îngrijire le-am. şi descoperit.</p>
+            <p>Acuma când e ceasul de tristă despărțire,</p>
+            <p>Se cade să-ţi arăte că sunt mullţumitori.</p>
+            <p>Copii,	un  glas cu  toţii: așa, de cale bună!</p>
+            <stage> (Formidabil urlet.) </stage>
+            <p>Sunt tari de pot să strige cu-atât de cald avânt:</p>
+            <p>Se simte îngrijirea, şi vei avea răsplata,</p>
+            <p>FATA BABEI:</p>
+            <p>Eşti dreaptă, zână. Dacă purtarea-mi ţi-a plăcut,</p>
+            <p>Nu vei voi ca plata să-mi fie deo potrivă</p>
+            <p>Cu ce s-a dat pe vremuri surorii ce-a plecat:</p>
+            <p>Era aşa de bună, o ştiu, o știu, stăpână,</p>
+            <p>Dar minlta-i e puțină, ciobancă de la oi:</p>
+            <p>Pe-un trup c-al ei se cere podoabă mai puțină</p>
+            <p>Şi e deprinsă viaţa s-o ducă mai smerit.</p>
+            <p>Nu cred ca din averea cuprinsă-n lada veche</p>
+            <p>Să  fi făcut aceia ce eu aş fi ştiut</p>
+            <p>Să fac, şi de aceia, cum darul se socoate</p>
+            <p>Și după faptă, însă puţin şi după om,</p>
+            <p>Mă rog, o, sfântă, ţine ceva samă  de mine.</p>
+            <p>SF. VINERI:</p>
+            <p>Eu  judec: hotărârea ce-am luat-o, nu o spun.</p>
+            <p>Eu dau s-aleagă mâna ce-alege-i liberă.</p>
+            <p>Nu-i lumea voastr-aice să caute la ochi,</p>
+            <p>Ci fapla este faptă şi voia voie este.</p>
+            <p>Să mergem în cămara răsplăților acum.</p>
+            <stage> (Se deschide un  perete Apar rafturile cu lăzile.) </stage>
+            <p>FATA BABEI:</p>
+            <p>Ce neasămănată avere! Ce podoabă!</p>
+            <p>Tol stâlpi de marmuri rare, şi aur, pietre rari...</p>
+            <p>Să am în loc de ochii cei doi, aş vrea o sută,</p>
+            <p>Şi ca să-mi iau răsplata aş vrea atâtea mâni!</p>
+            <p>Aceaslă ladă-i bună, dar alta şi mai bună-i...</p>
+            <p>Ia uită-te la ceia din fund; ce mai de-a flori</p>
+            <p>Lucesc-n ea de parcă e raiul stelelor!</p>
+            <p>Dar aurul din asta de-alături aşa clar e!</p>
+            <p>Aş vrea-o, şi -uăuntru zău nu ştiu ce cuprind.</p>
+            <p>De aş putea cu ochiul să trec şi prin capace...</p>
+            <p>Or  fi minuni... Şi alta şi alta... Eu mă pierd...</p>
+            <p>Mai am o rugăminte, o, zână, dacă este</p>
+            <p>Şi încă o cămară, cu lăzi care întrec</p>
+            <p>Pe astea de aice, fii bun-arată-mi-o.</p>
+            <p>SF. VINERI:</p>
+            <p>Alegerea-ţi aice datoare eşti s-o faci</p>
+            <p>Nu are  lumea-ntreagă ce e închis într-însa!</p>
+            <p>FATA BABEI:</p>
+            <p>Da. da! Ori cine zice altfel-? Eu sigur nu.</p>
+            <p>Dar am văzut de-acestea ca a surorii mele</p>
+            <p>De lemn. fără podoabe, ia o hrană de cari,</p>
+            <p>Şi  văd aici atâtea  ce-s numai o mândreţă...</p>
+            <p>SF. VINERI:</p>
+            <p>Grăbeşte-te! O clipă mai ai. Pe urmă iar</p>
+            <p>Se va mişca această cetate de cutremur,</p>
+            <p>Şi-atunci nu se mai iartă o ladă să-ţi alegi,</p>
+            <p>Şi te porneşti pe cale cu ce-ai venit atuncea.</p>
+            <p>FATA BABEI:</p>
+            <p>Păcat, păcat! Căci vreme  aici ţi-ar trebui.</p>
+            <p>Le-aş lua, zău, şi pe toate. De-ar fi măcar vreo două.</p>
+            <p>Să pot să duc: pe una aş da-o îndărăt.</p>
+            <p>SF. VINERI:</p>
+            <p>Lumina din cetate acum din nou mijeşte.</p>
+            <p>O clipă, şi pe urmă amar te vei căi.</p>
+            <p>FATA BABEI:</p>
+            <p>Cum sunt frumoase toate, am luat pe cea mai mare.</p>
+            <p>SF. VINERI:</p>
+            <p>S-o duci cu îngrijire, şi iute s-o deschizi,</p>
+            <p>Afla-vei înăuntru răsplata faptei tale,</p>
+            <p>Şi-acelor de acasă ce-asemenea-ţi vor fi!</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="5">
+        <head>ACTUL al V-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-a</head>
+          <stage>MOŞUL, BABA, FATA MOŞULUI</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <stage> (în  pat) </stage>
+            <p>Să vie fata-n casă să măture-n odăi,</p>
+            <p>Să facă focu-n sobă, să fie cu-ngrijire</p>
+            <p>Ca nu cumva atunce când m-oiu scula, să fie</p>
+            <p>Un lemn ce să nu ardă, un fir de praf pe jos,</p>
+            <p>Că nu o scapă nimeni de ce i se cuvine.</p>
+            <p>Ce rele, sunt, o, doamne, mi-i scârbă să le văd.</p>
+            <p>De lene abia mişcă, parcă-s împiedecate</p>
+            <p>Şi mâna li-i oloagă de lucru când se prind.</p>
+            <p>De unde vin?, de numai la somn li este gândul</p>
+            <p>Şi la mâncare bună: O, ce neam ticălos!</p>
+            <p>N-au creştere de-acasă... Vezi, ăsta e păcatul.</p>
+            <p>Le mâni cu varga-n urmă şi tot nu se clintesc.</p>
+            <p>De-ar fi aice fata mea, ah, ce rânduială !</p>
+            <p>Dar eu ajung bătrână, nu ştiu de ce, mă-ngraş,</p>
+            <p>Şi, când eşti gras, îţi vine aşa de greu să umbli...</p>
+            <p>Mă prinde doar la gândul sculării ca un  tremur.</p>
+            <stage> (Cască şi se întinde.) </stage>
+            <p>Ba, drept să spun, nu-mi vine din pat să mă cobor.</p>
+            <p>Şi eu am drept odihna să-mi cat la bătrâneţe...</p>
+            <p>Dar moşul... Ce mai face moşul? Ia tot cel vechiu...</p>
+            <stage> (Bate din palme. Vine o fată în casă.) </stage>
+            <p>Ascultă ţu, domniţă, ce te găteşti de parcă</p>
+            <p>Ar sta să-ţi vie mire doar un fecior de craiu?</p>
+            <p>Nu ştii să-mi spui - că poate dormeai  ca totdeauna -</p>
+            <p>Ce e cu domnul casei, boierul cel cinstit.</p>
+            <p>Care este tovarăş al stăpânirii. mele...</p>
+            <p>Stă-n jeţ şi privighează cum plugurile merg?</p>
+            <p>Socoate cheltuiala cu cămăraşul nostru?</p>
+            <p>Ori joacă-n cărţi, -	degrabă-i pentru astfel de joc</p>
+            <p>Cu vreun păharnic lângă o cupă de vin vesel?</p>
+            <stage> (aparte.) </stage>
+            <p>Că tot nu se deprinde-a trăi în rostul lui!</p>
+            <p>Ţăran zi-i şi ajunge, coadă de cal, şi-atâta!</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>Cocoană ...</p>
+            <p>BABA:</p>
+            <p>Ce cocoană, aşa te-am învăţat?</p>
+            <p>Deprinse sunt cu fel de fel de crişmărese</p>
+            <p>Şi cu de alea care fac pile şi covrigi...</p>
+            <p>La casa noastră veche cu datine bătrâne</p>
+            <p>Se zice: jupâneasă şi, când vorbeşti, îmi spui:</p>
+            <p>Mărită jupâneasă...</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>Mă iartă de greşeală.</p>
+            <p>Boierul dumitale, jupânul cel</p>
+            <p>mărit,</p>
+            <p>Plecat-a de cu ziuă în codru ...</p>
+            <p>BABA:</p>
+            <p>Dar  ce  vorbă!</p>
+            <p>În codru... Vânătoare nu poţi să-spui? Şi-a luat ceva voinici cu dânsul şi cânii buni de fugă?</p>
+            <p>I-aţi dat veştmâtul  care se cere la vânat?</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>Mărită jupâneasă... Ştiţi cum e dumnealui,</p>
+            <p>S-a dus fără tovarăşi, şi zău n-a luat nici câinii.</p>
+            <p>Iar haina e cea veche, ce-o ţine în ascuns.</p>
+            <p>E firea dumisale... Noi nu avem putere.</p>
+            <p>Să-i zicem... Şi la masă a spus că n-a veni,</p>
+            <p>Că-i cade greu anta mâncare şi atâta</p>
+            <p>Silă la toate cele cum ne-am deprins aici.</p>
+            <p>BABA:</p>
+            <p>Auzi obrăznicie. Și, bine, ţi-a spus dânsul</p>
+            <p>Prostii cum sunt acestea- mă iartă Doamne, că</p>
+            <p>Li spun aşa pe nume, că, unde-i multă minte,</p>
+            <p>E şi o nebunie-, să vii să mi le spui?</p>
+            <p>Nu-i chip în lumea asta să înţeleg- odată...</p>
+            <p>Când mă gândesc la casa în care</p>
+            <p>m-am născut</p>
+            <p>Şi chiar la vremea -n care era mai tânăr moşul...</p>
+            <p>Se pierde-n vremea noastră tot bunul obiceiu,</p>
+            <p>De ce nu-i oare fata mea să vă mai înveţe?...</p>
+            <stage> (către fata în casă.) </stage>
+            <p>Ascultă, dar ce face dumneaei fiica noastră?</p>
+            <p>Că n-o fi mers şi dânsa în codru fără cânii,</p>
+            <p>Ca să vâneze fluturi şi melci şi broaşte-n baltă?</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>Dumneaei...  A, dumneae-i femeie şi bărbat</p>
+            <p>BABA:</p>
+            <p>Cum poate fi o fată, care nu-i nici femeie,</p>
+            <p>Bărbat?... Poate de-aceia nu-şi caută uu soţ!</p>
+            <p>Ci spune ce mai face aşa de dimineaţă?</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>La noi...</p>
+            <p>BABA:</p>
+            <p>Dar cari oare sunt noi? Ori tu şi eu?</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>Ea s-a sculat şi astăzi aşa cu noaptea-n cap:</p>
+            <p>Am vrut să facem casa şi ea ne-a dat în lături,</p>
+            <p>A pus mâna pe-o coadă de mătură...</p>
+            <p>BABA:</p>
+            <p>Ce  spui?</p>
+            <p>O mătură... Se vede că neamul bun lipseşte...</p>
+            <p>Degeaba spune moşul că e viţă de craiu:</p>
+            <p>Cum vede o făptură de astea mătura,</p>
+            <p>Nu poate să se ţină şi prinde-a mătură,</p>
+            <p>Şi, zi, mai face poate şi altele de slugă?</p>
+            <p>FATA DIN CASĂ:</p>
+            <p>Da, în bucătărie a pus oala pe foc,</p>
+            <p>Şi  a  muiat  şi coşul  de rufe...</p>
+            <p>BABA:</p>
+            <p>Ce ruşine</p>
+            <p>Pofteşte-o într-acoace,.. O vorbă am să-i spun,</p>
+            <p>Şi-i bine că nu-i moşul să-i ieie apărarea...</p>
+            <stage> (fata iese.) </stage>
+            <p>Acuma, vezi, e-n stare  a se alătura</p>
+            <p>Cu mine, dacă vede că stau puţin în perini.</p>
+            <p>Să zvârl pe mine-un contăş de blană de samur,</p>
+            <p>Şi s-o aştept în jeţul căzut măririi mele...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>BABA, FATA MOŞNEAGULUI</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <p>Nu te mai lăuda...</p>
+            <p>Dar eu, când erai mică, destul te-am slugărit.</p>
+            <p>FATA MOŞNEAGULUI:</p>
+            <p>Şi îţi păstrez, măicuţă, atâta mulţămire...</p>
+            <p>BABA:</p>
+            <p>Ei, iaca nu se vede... Deloc, deloc, n-o văd.</p>
+            <p>Păi bine de ce casa mi-o tulburi toată ziua?</p>
+            <p>Îți cere poate astfel de treabă cineva?</p>
+            <p>Nu vezi că  orice slugă ajunge-aici  stăpână?</p>
+            <p>FATA MOŞNEAGULUI:</p>
+            <p>Dar, maică, aşa-i de bine-i şi-atât de ușor mi-e...</p>
+            <p>BABA:</p>
+            <p>Uşor îţi e doar ţie, dar mie cât de greu!</p>
+            <p>Of, ce greu îmi mai este, de-atâta răvăşeală!</p>
+            <p>Ascultă tu: avere acuma ai, de ce</p>
+            <p>Nu cauţi ca -nainte să vie soră-ta</p>
+            <p>Cu tot ce ne aduce ca zestre minunată,</p>
+            <p>Să-ţi afli un tovarăş, să te măriţi şi tu?</p>
+            <p>FATA  MOŞNEAGULUI:</p>
+            <p>De ce vrei, mamă dragă, să mă sileşti la asta?</p>
+            <p>Vi-i greu de mine poate...</p>
+            <p>BABA:</p>
+            <p>Auzi acum: mi-i greu!</p>
+            <p>Ba nu, dar vezi femeia îşi caută o vatră,</p>
+            <p>Şi, cum nu eşti, mă iartă, frumoasă, ar fi rău</p>
+            <p>S-ajungi mai bătrâioară, căci cine-o să te ieie!</p>
+            <p>FATA MOŞNEAGULUI:</p>
+            <p>Când  mi-o  veni  un  mire...</p>
+            <p>BABA:</p>
+            <p>Da, da, cum îl vrei tu!</p>
+            <p>Un făt-frumos călare pe-o rază de la soare...</p>
+            <p>Ah, cât	mă  amărăşte  trufia  unui fleac de fată!</p>
+            <p>Ia cu tine pe moşul şi cătaţi</p>
+            <p>Un om din lumea mare ce s-o-ndura de tine...</p>
+            <p>FATA MOŞNEAGULUI:</p>
+            <p>Dar, mamă, înainte de mine-i sora mea.</p>
+            <p>Mărite-se şi-n urmă vedea-voi ce se poate...</p>
+            <p>BABA:</p>
+            <p>Dar vrei să te găsească aici când va veni?</p>
+            <p>Te ştiu, socoţi că toate-s aici din lada care</p>
+            <p>Adus-a fost de tine... dar  cine te-a trimis?</p>
+            <p>Ei, cine ți-a zis: du-te şi ţi-a făcut norocul?</p>
+            <p>Zi: cine? Nu-s aceia care le-a fericit?</p>
+            <p>O, nemulţămitoarea! Dar vezi ce se aude...</p>
+            <stage> (Afară bătăi în ușă. Fata din casă vine bătând în palme. Fata moșului privește și vine săltând.) </stage>
+            <p>FATA  MOŞNEAGULUI:</p>
+            <p>O, mamă, mamă dragă, ce ceas blagoslovit...</p>
+            <p>BABA:</p>
+            <p>Vreo nebunie iarăşi, ce ţi-a venit în minte...</p>
+            <p>FATA  MOŞNEAGULUI:</p>
+            <p>Ba nu, măicuţă dragă, nu ştii ce veste-aduc...</p>
+            <p>Afară este tata...</p>
+            <p>BABA:</p>
+            <p>Ei, da, e lucru mare</p>
+            <p>Că moşul se întoarce c-un melc în buzunar</p>
+            <p>Şi te grăbeşti să-l umpli acum, să-1 dai la masă.</p>
+            <p>Ştiu, ştiu destul îmi este de dânsul şi de voi...</p>
+            <p>FATA  MOŞNEAGULUI:</p>
+            <p>Nu-i melc, măicuţă, este ceva frumos şi mândru...</p>
+            <p>BABA:.</p>
+            <p>Nu te -mai fă, vicleano, care tot te alinți,</p>
+            <p>Deşi nu te alintă nimenea ... Ci dă-i drumul!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>ACEIAŞI, MOŞUL,  FATA  BABEI</stage>
+          <stage>(Fata babei îmbrobodită, în zdrențe, se ascunde)</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <p>Venim? O lucru mare! E moşul şi cu dânsul.</p>
+            <p>Dar, vezi, aşa se umflă de crezi c-un Împărat</p>
+            <p>Păşi cu el odată pe pragul casei noastre.</p>
+            <p>Ei ce aduci, ce lucru mare ai mai vânat?...</p>
+            <p>Vreun puiu de vietate ți-o fi căzut în palmă?</p>
+            <p>Nu slt cu el aice: covorul mi-l pătezi....</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Tot  ea, băbuţa noastră; dar ce mai bucurie;</p>
+            <p>Aduc  ca să-ţi  mai  treacă  năcazul  tău  cel vechiu!...</p>
+            <p>FATA M0ŞNEAGLUI:</p>
+            <p>-O, zău, nu ştii tu, mamă, ce mult ai să te bucuri.</p>
+            <p>BABA:</p>
+            <p>Acum, poftim şi asta... Cum tatăl şi-a văzut,</p>
+            <p>Se simte lucru mare şi are  glas în casă.</p>
+            <p>Ei ce este? Doar taina destul o aţi păzit,</p>
+            <p>Şi-o să vedem îndată că e nimic dintr-însa...</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Ascultă, babo, anii tu ţi i-ai socotit?</p>
+            <p>BABA:</p>
+            <p>-Ce ani? Socoate-ţi însuţi, că ai prea mulţi acuma!</p>
+            <p>MOŞNEAGUL:</p>
+            <p>Ei nu, câţi ani din ceasul în care a plecat...</p>
+            <p>BABA:</p>
+            <p>Fetiţa mea cea bună şi harnică?  Atâta</p>
+            <p>i-am numărat...</p>
+            <p>Sunt şapte, de mult sunt şapte ani,</p>
+            <p>Şi nu mai număr... Cine ştie ce-o fi de dânsa?</p>
+            <p>Dar va veni odată şi plină de comori...</p>
+            <p>Dacă una ca asta aduse bogăţie,</p>
+            <p>Ce poate să aducă odorul  maicei ei?</p>
+            <p>MOŞNEAGUL:</p>
+            <p>..Aice e odorul şi-aici e bogăţia!</p>
+            <p>FATA MOŞNEAGULUI:</p>
+            <p>Și mai frumoasă-i astăzi de cum era pe vremi...</p>
+            <p>Mă laşi, să se lipească o gură mai buzată</p>
+            <p>De-acest obraz în care tot nori se înfrăţesc?</p>
+            <stage> ( Sărută  pe fata  babei.) </stage>
+          </sp>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <stage> (ca  nebună) </stage>
+            <p>În lături! Voi în lături! N-aveţi un drept la dânsa!</p>
+            <p>A mea-i. A mea e numai. Ea şi averea ei...</p>
+            <stage> (Se opreşte.) </stage>
+            <p>Dar ce este cu tine? Ce este, Doamne sfinte!</p>
+            <p>Cc rochie! Picioare desculţe... Cel puţin</p>
+            <p>Ţi-s mânile curate ?... O da, mâini de domniţă ...</p>
+            <p>Înăia mângâiere o gust când le ating...</p>
+            <p>O, dă-mi-le, drăguţă, să le sărut, şi-n urmă,</p>
+            <p>Fata babei şi fata moşneagului	47</p>
+            <p>Obrazul care poartă pe dânsul chipul meu...</p>
+            <p>În lături, toţi în lături; nu vă ajunge-odată</p>
+            <p>Că aţi văzut-o?.. Mergeţi acum l-al vostru rost</p>
+            <p>Nu vreau, nu vreau pe nimeni să se amestece...</p>
+            <p>Haha, aţi vrea din zestrea fetiţei să gustaţi?</p>
+            <p>O spun cu hotărâre: vă puneţi pofta-n cuiu!</p>
+            <p>Noi două suntem casa întreagă, şi feciorul</p>
+            <p>De craiu poate să vie: domniţa e aici.</p>
+            <p>Hai, hai, plecaţi odată; de-ar fi pe totdeauna!</p>
+            <stage> (Pleacă, ruşinați, moşul şi fata lui.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a IV-a</head>
+          <stage>BABA, FATA  BABEI</stage>
+          <sp who="#baba">
+            <speaker>BABA</speaker>
+            <p>Aşa, aşa! Ce bine-i! Dar ce e acest hal,</p>
+            <p>În care mi te afli? Răspunde-ntăiu şi-n urmă</p>
+            <p>Deschide-vom lădiţa. Ce mândră e!... Ah, ce</p>
+            <p>Comori se-nchid într-însa... Îmi lasă gura apă ...</p>
+            <p>FATA  BABEI:</p>
+            <p>Comori fără păreche într-însa se cuprind,</p>
+            <p>E sigur, dar n-am voie să rup lăcatul până</p>
+            <p>Nu sunt aici în  casa noastră... Pe drum a fost</p>
+            <p>Cam greu... Ce râpi, ce dealuri, ce ape stătătoare...</p>
+            <p>Eu nu ştiu cum putuse odată sora mea</p>
+            <p>Să vie îmbrăcată ca-n zi de sărbătoare,</p>
+            <p>Şi totuşi curăţise pomii de-omizi, fântâni</p>
+            <p>Şi ce-a găsit în cale acest suflet de slugă...</p>
+            <p>Ci eu mi-am zis: durerea odată o s-o port,</p>
+            <p>Dar mâinile să-mi fie  păstrate pentru mine...</p>
+            <p>BABA:</p>
+            <p>O, mâinile mămucăi, ce albe le-ai ţinut!</p>
+            <p>FATA BABEI:</p>
+            <p>Cu ele vin acuma în ceasul răsplătirii,</p>
+            <p>Să fac să iasă toate pe care le-am muncit,</p>
+            <p>Şi să se răspândească averi nepilduite ...</p>
+            <p>BABA:</p>
+            <p>O, zi de fericire!... Stai, stai, s-ajut şi eu...</p>
+            <p>Că am şi eu o parte în binecuvântare.</p>
+            <stage> (Iese jigăniiile  si se aruncă asupra  lor) </stage>
+            <p>BABA:</p>
+            <p>Săriţi! Vin vrăji grozave! Săriţi! Ne prăpădim ...</p>
+            <p>F ATA  BABEI:</p>
+            <p>Nu  ne lăsa, o, sora mea... Vină! Mă înăbuş!</p>
+            <p>O, tată, simt sunarea din urmă că se-neacă !</p>
+            <stage> (Vuiet al fiarelor.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a V- a</head>
+          <stage>ACELEAŞI. MOŞNEAGUL ŞI FATA MOŞNEAGULUI</stage>
+          <stage>( Apar  în uşă.)</stage>
+          <stage>(Fiarele mănâncă pe babă ca şi pe fata ei.)</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

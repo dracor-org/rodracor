@@ -20,18 +20,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Centrală Universitară</name>
-          <idno type="URL">https://catalog.bcub.ro/liberty/opac/search.do?mode=BASIC&amp;openDetail=true&amp;corporation=RO_BCUB&amp;action=search&amp;anonymous=true&amp;queryTerm=uuid%3D%22732aa1bdc1e7090b3aa83d4700111df2%22&amp;editionUuid=732aa1bdc1e7090b3aa83d4700111df2&amp;operator=OR</idno>
+          <ref target="https://catalog.bcub.ro/liberty/opac/search.do?mode=BASIC&amp;openDetail=true&amp;corporation=RO_BCUB&amp;action=search&amp;anonymous=true&amp;queryTerm=uuid%3D%22732aa1bdc1e7090b3aa83d4700111df2%22&amp;editionUuid=732aa1bdc1e7090b3aa83d4700111df2&amp;operator=OR">Biblioteca Centrală Universitară</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>Edit. Librăriei Socecu &amp; Comp., București, 1883</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1883">
+            <desc>1883</desc>
+          </event>
+          <event type="premiere" when="1884-03-22">
+            <desc>Premiera piesei a avut loc în 22 martie 1884, la Teatrul Naţional</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -117,14 +125,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1883">
-        <desc>1883</desc>
-      </event>
-      <event type="premiere" when="1884-03-22">
-        <desc>Premiera piesei a avut loc în 22 martie 1884, la Teatrul Naţional</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000022" passive="http://www.wikidata.org/entity/Q25468151"/>
     </listRelation>

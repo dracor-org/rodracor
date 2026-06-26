@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.wikisource.org/wiki/Despot_Vod%C4%83</idno>
+          <ref target="https://ro.wikisource.org/wiki/Despot_Vod%C4%83">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>rev. „Convorbiri literare”, București</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1879">
+            <desc>1879</desc>
+          </event>
+          <event type="premiere" when="1879-09-30">
+            <desc>Teatrul Național din Bucureşti, 1879</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -151,16 +159,6 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listEvent>
-      <event type="print" when="1879">
-        <desc>1879</desc>
-      </event>
-      <event type="premiere" when="1879-09-30">
-        <desc>Teatrul Național din Bucureşti, 1879</desc>
-      </event>
-    </listEvent>
-  </standOff>
   <text>
     <front>
       <titlePage>

@@ -19,17 +19,25 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.m.wikisource.org/wiki/Steaua_f%C4%83r%C4%83_nume</idno>
+          <ref target="https://ro.m.wikisource.org/wiki/Steaua_f%C4%83r%C4%83_nume">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1946">
+            <desc>1946</desc>
+          </event>
+          <event type="premiere" when="1944-01-03">
+            <desc>1 martie 1944, Teatrul Alhambra, București</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -91,14 +99,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1946">
-        <desc>1946</desc>
-      </event>
-      <event type="premiere" when="1944-01-03">
-        <desc>1 martie 1944, Teatrul Alhambra, București</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000017" passive="http://www.wikidata.org/entity/Q7766291"/>
     </listRelation>

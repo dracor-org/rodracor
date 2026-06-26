@@ -19,8 +19,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Centrală Universitară</name>
-          <idno type="URL">https://bcub.ro/lib2life/Apostolii_Rebreanu%20Liviu_Bucuresti_1930.pdf</idno>
+          <ref target="https://bcub.ro/lib2life/Apostolii_Rebreanu%20Liviu_Bucuresti_1930.pdf">Biblioteca Centrală Universitară</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
@@ -31,6 +30,15 @@
            </availability>
          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1926">
+            <desc>1926</desc>
+          </event>
+          <event type="premiere" when="1926">
+            <desc>1926</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -89,14 +97,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1926">
-        <desc>1926</desc>
-      </event>
-      <event type="premiere" when="1926">
-        <desc>1926</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000019" passive="http://www.wikidata.org/entity/Q12720850"/>
     </listRelation>

@@ -20,18 +20,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Centrală Universitară</name>
-          <idno type="URL">https://restitutio.bcub.ro/storage/item/2024/Apr/vlaicu-voda-drama-in-cinci-acte-in-versuri/Dbf4mSav0nhHKjwIjmaLtjOsXsSMyxWp584wjvPx.pdf</idno>
+          <ref target="https://restitutio.bcub.ro/storage/item/2024/Apr/vlaicu-voda-drama-in-cinci-acte-in-versuri/Dbf4mSav0nhHKjwIjmaLtjOsXsSMyxWp584wjvPx.pdf">Biblioteca Centrală Universitară</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>I. V. Socecu, Bucureşti</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1902">
+            <desc>1902</desc>
+          </event>
+          <event type="premiere" when="1902-02-12">
+            <desc>scena Teatrului Național din București în 12 februarie 1902</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -185,16 +193,6 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listEvent>
-      <event type="print" when="1902">
-        <desc>1902</desc>
-      </event>
-      <event type="premiere" when="1902-02-12">
-        <desc>scena Teatrului Național din București în 12 februarie 1902</desc>
-      </event>
-    </listEvent>
-  </standOff>
   <text>
     <front>
       <titlePage>
@@ -1433,7 +1431,7 @@
             <speaker>NICODIM</speaker>
             <l n="507">Pentru taine, cea mai bună temniţă, e un mormânt.</l>
           </sp>
-          <sp who="costea">
+          <sp who="#costea">
             <speaker>COSTEA</speaker>
             <l n="508">Nu-l ucideţi!</l>
           </sp>

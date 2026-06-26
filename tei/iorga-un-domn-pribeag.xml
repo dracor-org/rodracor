@@ -1,0 +1,2211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000063" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Un domn pribeag</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Un_domn_pribeag_-_poem_dramatic_în_cinci_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1912">
+            <desc>1912</desc>
+          </event>
+
+          <event type="premiere" when="1919">
+            <desc>stagiunea 1919-1920, Teatrul Național din București</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="stefan" sex="MALE">
+            <persName>ȘTEFAN</persName>
+          </person>
+          <person xml:id="alois" sex="MALE">
+            <persName>ALOIS</persName>
+          </person>
+          <person xml:id="nunziata" sex="FEMALE">
+            <persName>NUNZIATA</persName>
+          </person>
+          <person xml:id="pater_joseph" sex="MALE">
+            <persName>PATER JOSEPH</persName>
+          </person>
+          <person xml:id="schobel" sex="MALE">
+            <persName>SCHOBEL</persName>
+          </person>
+          <person xml:id="kuhbach" sex="MALE">
+            <persName>KUHBACH</persName>
+          </person>
+          <person xml:id="wolkenstein" sex="MALE">
+            <persName>WOLKENSTEIN</persName>
+          </person>
+          <person xml:id="hanerl" sex="MALE">
+            <persName>HANERL</persName>
+          </person>
+          <person xml:id="gheorghe_hatmanul" sex="MALE">
+            <persName>GHEORGHE HATMANUL</persName>
+          </person>
+          <person xml:id="arhiducele_ferdinand" sex="MALE">
+            <persName>ARHIDUCELE FERDINAND</persName>
+          </person>
+          <person xml:id="bolea" sex="MALE">
+            <persName>BOLEA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000063"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Un domn pribeag</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ȘTEFAN</role>
+          <roleDesc>fiul lui Petru Șchiopul</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ALOIS</role>
+          <roleDesc>găzduitorul lui Ștefan</roleDesc>
+        </castItem>
+        <castItem>
+          <role>NUNZIATA</role>
+          <roleDesc>fiica lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PATER JOSEPH</role>
+        </castItem>
+        <castItem>
+          <role>SCHOBEL</role>
+          <roleDesc>îngrijitorul lui Ștefan</roleDesc>
+        </castItem>
+        <castItem>
+          <role>KUHBACH</role>
+        </castItem>
+        <castItem>
+          <role>WOLKENSTEIN</role>
+        </castItem>
+        <castItem>
+          <role>HANERL</role>
+          <roleDesc>școlar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>GHEORGHE HATMANUL</role>
+        </castItem>
+        <castItem>
+          <role>ARHIDUCELE FERDINAND</role>
+        </castItem>
+        <castItem>
+          <role>BOLEA</role>
+          <roleDesc>măscăriciul lui Petru Șchiopul</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I -u</head>
+        <div type="scene" n="1">
+          <head>SCENA I-a</head>
+          <stage>(O şcoală de Iesuiţi în Innsbruck, pe la 1600)</stage>
+          <stage>PATER JOSEPH, ŞCOLARI: KUHBACH, WOLKENSTEIN, fii de nobili tirolezi, ŞTEFAN, FIUL lui PETRU ŞCHIOPUL</stage>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <stage> (cântă) </stage>
+            <p>,,Marie, tu care izvor eşti: de milă,</p>
+            <p>Și care spre Domnul vorbeşti pentru noi, Tu, pavăză care ne aperi de silă,</p>
+            <p>Zăgaz ce scuteşti de al urii şuvoiu.”</p>
+            <p>PATER JOSEPH:</p>
+            <p>Aice cu putere suiţri... Și mai cu brio!</p>
+            <p>Acesta-i locu-n care socot să fi ajuns</p>
+            <p>Cântările bătrâne spre gloria Mariei!</p>
+            <stage> (Face cruce.) </stage>
+            <p>CORUL:</p>
+            <p>,,O, Maică, Stăpână, Regina cea bună,</p>
+            <p>Mă iartă că-n focul curatei iubiri,</p>
+            <p>Încerc din cuvinte să-ţi fac o cunună Ca de mărgăritare şi ca de trandafiri.”</p>
+            <stage> (Către copil.) </stage>
+            <p>Să-ncepem. Ţineţi ochii în sus şi nu clipiți,</p>
+            <p>Șii mâinile vă puneţi evlavios pe inimi, Pân' veţi simţi ca mine că focul s-a aprins...</p>
+            <p>CORUL:</p>
+            <p>,,E lumea un haos de patimi murdare,</p>
+            <p>Făptura 'ntreagă e prinsă-n foc viu: Cutremur în noa pte şi fulgere- n zare,</p>
+            <p>Și unde e calea, Stăpână, nu ştiu!”</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (extatic) </stage>
+            <p>Aici să vi se pară că bolta s-a deschis</p>
+            <p>Șii îngerii se lasă cu crini albi cari plouă,</p>
+            <p>Şi că miresme sfinte în juru-vă plutesc,</p>
+            <stage> (către un şcolar.) </stage>
+            <p>Închide uşa -,	trage. O, câtă nesimţire...</p>
+            <p>ŞCOLARUL:</p>
+            <p>Să-nchidem, Pater Joseph, dar aeru-i stricat...</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (nervos) </stage>
+            <p>E stricăciunea voastră care se răspândeşte:</p>
+            <p>Să izgoniţi păcatul din voi, şi veţi simţi</p>
+            <stage> (zâmbind.) </stage>
+            <p>Ca şi mine cum vântul ne-nvăluie-n parfumuri.</p>
+            <p>În care-l nostru suflet se pierde fericit...</p>
+            <stage> (Face semn să înceapă.) </stage>
+            <p>,,Acolo la tine e dulce lumină...”</p>
+            <stage> (îşi înfundă fața în mâini.) </stage>
+            <p>Să plângem... Numai lacrimi de ziuă şi de noapte</p>
+            <p>Pot să ne curăţească de ceea ce-am greşit</p>
+            <p>Şi de greşeala care am moştenit-o, până</p>
+            <p>În zilele lui Noe ce neamul ne-a scăpat</p>
+            <p>Și până la strămoşul Adam, ce-a pierdut Raiul!</p>
+            <stage> (sfios.) </stage>
+            <p>Pentru o lăcomie ce Dracul i-a stârnit...</p>
+            <p>O pocăinţă lungă să fie viaţa noastră,</p>
+            <p>Şi să luăm asupra noastră tot ce-a greşit, Prin idololatrie, minciună, furt, ucideri, Această omenire ce s-a răscumpărat</p>
+            <p>Prin sângele Acelui care-a stătut pe cruce, Dar cere-ndurerată s-o mal răscumpărăm, Jertfind orice plăcere care ne ispiteşte.</p>
+            <p>Și biruind oricare farmec de pe pământ...</p>
+            <p>CORUL:</p>
+            <p>,,Acolo la tine e dulce lumină Şi pace deplină la tine e sus: O, blândă Marie, ajută; zi &quot;Vină:</p>
+            <p>În ceruri aşteaptă, cu mila-i, Isus.”</p>
+            <p>PATER JOSEPH:</p>
+            <p>Să cercetăm acuma ce ştiţi. Spune tu, Kuhbach,</p>
+            <p>Virtuţile cu care noi toţi suntem datori,</p>
+            <p>Ca să avem în ceruri un loc frumos şi sigur.</p>
+          </sp>
+          <sp who="#kuhbach">
+            <speaker>KUHBACH</speaker>
+            <stage> (iute) </stage>
+            <p>Credinţa şi Iubirea şi Mila.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Toate trei</p>
+            <p>Sunt stelele ce-ndreaptă viaţa. Ce-i Iubirea, Când o luăm în bunul şi sfântul înţeles?</p>
+            <stage> (O pasăre se ciocneşte în geamuri cântând.) </stage>
+            <p>Spurcată lighioană, ce turbură disciplina!</p>
+            <stage> (către şcolari.) </stage>
+            <p>Nu vă uitatl la dînsa. Cel Rău se-mbracă des</p>
+            <p>În chip de</p>
+            <p>miel, de floare, de cântec şi de rază,</p>
+            <p>Ba chiar pe mine-odată vicleanul mă cercă</p>
+            <p>Prin cântecul ce-n noapte 'nălţa privighetoarea. Voi fiţi cuminţi, 1a carte vă fie gândul tot.</p>
+            <p>Isus vorbea la vârsta voastră în sinagogă</p>
+            <p>Şi biruia pe rabini prin silogismul lui.</p>
+            <p>Şi zi, Kuhbach, ce este în adevăr Iubirea ?</p>
+            <p>Dar te gândeşte bine la ceea ce-i vorbi...</p>
+          </sp>
+          <sp who="#kuhbach">
+            <speaker>KUHBACH</speaker>
+            <stage> (tot aşa de iute) </stage>
+            <p>Iubirea este, Pater, când ne gândim la Tatăl,</p>
+            <p>La Fiul şi la Sfântul Duh, când ne închinăm</p>
+            <p>Mariei-Prea-Curate cu crini albi în mână, La fericiţii care au plâns şi-au pătimit</p>
+            <p>Şi care stau în ceruri și caută spre Domnul.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Şi la părinţi, la tata şi mama, şi la  fraţi.</p>
+          </sp>
+          <sp who="#kuhbach">
+            <speaker>KUHBACH</speaker>
+            <stage> (aprobător) </stage>
+            <p>Pe care Domnul însuşi ni i-a menit tovarăși...</p>
+            <p>La el, la alte rude, şi la creştinii toţi.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Perfect. Acuma spune tu, Wolkenstein isteţul,</p>
+            <p>Cum să-nţelegem vorba adâncă din Scripturi</p>
+            <p>Că pe păgâni şi duşmani a ni-i  iubi se cade?</p>
+            <p>WOLKENSTEIN:</p>
+            <p>De ce cu ura noastră cea slabă să-i gonim</p>
+            <p>Când îi aşteaptă Iadul cu guri de foc şi ştreanguri?</p>
+            <p>PATER JOSEPH:</p>
+            <p>Desigur. Ştreang şi flăcări şi ţipete şi plâns Şi vârcoliri de trupuri ce crapă în văpaie</p>
+            <p>Şi mai înalt apare uriaşul, straşnic rug,</p>
+            <p>Din. care se ridică mustrări fără de nume...</p>
+            <p>Şi, știi tu? ard cu toţii şi -n veci ei ard din nou, Dar ochiul lor rămâne întreg ca să mai vadă,</p>
+            <p>Şi-auzul li se lasă spre a se pedepsi De chiotele celor ce se luptă cu jarul,</p>
+            <p>Şi pielea lor cea neagră simte mai dureros Decât cea mai gingaşă piele de om în viaţă.</p>
+            <p>Iar sus -	pricepeţi, dragii mei -	sus, în cer, Cuptorul groaznic pare un blând apus de soare</p>
+            <p>Şi urletele sună ca îngerii în sobor</p>
+            <p>Şi din grăsimea friptă vine miros de zmirnă Când e aşa cu dânşii, de ce să-l mai urâm?</p>
+            <p>(Ştefan stă într-un colţ; tot mat palid, el ascultă, apoi cade.</p>
+            <p>Mişcare.)</p>
+            <p>PATER JOSEPH:</p>
+            <p>Cine-a sunat acolo, va scrie de o sută De ori verbul sonare, spre a se învăţa</p>
+            <p>Să stea în clasă paşnic ca un şcolar de treabă.</p>
+            <p>KUHBACH:</p>
+            <p>Pater, a căzut Ştefan Valahul...</p>
+            <p>PATER JOSEPH:</p>
+            <p>Deci tot el!...</p>
+            <p>Sculaţi-l! I se iartă păcatul fără voie!</p>
+            <p>Vedeți cum ereticul, şi când s-a botezat</p>
+            <p>În legea mântuirii, nu sufere s-audă</p>
+            <p>De Iadul ce aşteaptă pe toţi ce-au fost aşa,</p>
+            <p>Ca dânsul, ca părinţii şi moşii fără lege:</p>
+            <p>Shismatici, Greci sălbateci, ce strică sfântul Crez... Vină aici, Valahe, şi spune catehismul!</p>
+            <p>De-atâţia ani se poate să-l fi şi învăţat....</p>
+            <p>ŞTEFAN:</p>
+            <stage> (foarte sfios, machinal) </stage>
+            <p>Viaţa noastră are ca scop gătirea morţii,</p>
+            <p>Acolo este pace pentru cei credincioşi,</p>
+            <p>Pe ceilalţi îi aștteaptă</p>
+            <stage> (se opreşte) </stage>
+            <p>.</p>
+            <stage> (râsete în clasă) </stage>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (zâmbind) </stage>
+            <p>Ci zi fără de frică:</p>
+            <p>Pe celialţi îi aşteaptă că1duri cum sunt 1a noi,</p>
+            <p>Şi chinuri ca acelea ce le dau Domnii noştri.</p>
+            <stage> (Râsete mari în clasă) </stage>
+            <p>.</p>
+            <p>Şi spune, tu, odată: de ce tremuri aşa?</p>
+            <p>Nu eşti tu fiu al Sfintei Biserici salvatoare Prin care sunt deschise şi porţile din Raiu?</p>
+            <p>Nu crezi tu că purcede Duhul cel Sfânt din Fiul,</p>
+            <p>Şi nu numai din Tatăl, cum spun Grecii nebuni?</p>
+            <p>N aştepţi să stai în locul de curăţire unde-</p>
+            <p>S-alege drumul care duce spre Raiu și Iad?</p>
+            <p>Și nu priveşti pe Sfântul Papa ca Domn al lumii?</p>
+            <stage> (Pentru el.) </stage>
+            <p>Nu strică pe aceştia ce-abia au părăsit</p>
+            <p>O veche rătăcire, să-i tot întrebi întruna,</p>
+            <p>Să li tot pui în gură curatul adevăr, Căci erezia este ca buhna de ruine,</p>
+            <p>-Ce veşnic se întoarce în colţu-ntunecat. Până ce-ar nimerit-o în inima ei neagră!</p>
+            <p>Ori nu te-ajută mintea să-i înţelegi adâncul?</p>
+            <p>Ci zi, Valahe, sfânta învăţătur-o ştii?</p>
+            <p>ŞTEFAN:</p>
+            <stage> (stă pe gânduri.) </stage>
+            <p>UN ŞCOLAR:</p>
+            <p>Îi e aiurea gândul, pater: azi a venit</p>
+            <p>Cu ochii plânşi în clasă şi ca bolnav de friguri.</p>
+            <p>UN AL DOILEA:</p>
+            <p>O fi visat de ţara sălbatecă a lui?</p>
+            <p>UN AL TREILEA:</p>
+            <p>Da, a vorbit cu sine cuvinte nenţelese.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Destul! Aţi spus acuma tot ce sunteți datori,</p>
+            <p>Mărturisind aceia ce aţi văzut la altul</p>
+            <p>Că este pentru suflet rău şi primejdios...</p>
+            <p>Să-l auzim pe dânsul.... Ba nu, întâi să zică Acele patru puncte ce ne pot mântui.</p>
+            <p>Ci spune după. mine,- că meritu-i acelaşi Sfântul Duh ce purcede din Tată şi din Fiu.</p>
+            <p>ŞTEFAN:</p>
+            <stage> (ca prin vis) </stage>
+            <p>Da, cel care purcede din Tatăl şi din Fiul...</p>
+            <p>PATER JOSEPH:</p>
+            <p>Dar poţi spune acuma ce este Sfântul Duh?</p>
+            <stage> (Ştefan stă mut.) </stage>
+            <p>PATER JOSEPH:</p>
+            <p>E mare întrebarea şi capul tău prea şubred... Acela care ştie, să-nveţe pe celălalt!</p>
+            <p>Tu, Wolkenstein, arată-i oirce este Sfântul Spirit.</p>
+          </sp>
+          <sp who="#wolkenstein">
+            <speaker>WOLKENSTEIN</speaker>
+            <stage> (pe de rost) </stage>
+            <p>El este tot ce este Tatăl şi Fiul deci: Treime de-o fiinţă şi-n vecr nedespărţită..</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (triumfător) </stage>
+            <p>Ai dovedit că mintea-ţi cuprinde orişice, Dar ce este Treimea?</p>
+          </sp>
+          <sp who="#wolkenstein">
+            <speaker>WOLKENSTEIN</speaker>
+            <stage> (pe de rost) </stage>
+            <p>.</p>
+            <p>Sunt trei şi unul sunt.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Cum zici? Aicr e nodul problemei capitale...</p>
+            <p>Zici: unul sunt, sau unul este?</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Zic: unul sunt.</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (tot mai bucuros) </stage>
+            <p>Şi pentru ce?</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Subiectul pare în singular, Teologia însă este ştiinţa 'ntăia:</p>
+            <p>Gramatica nu poate schimba un punct din Crez Căci ea-i despre cuvinte, iar Dumnezeu: Cuvântul.</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (entuziasmat) </stage>
+            <p>Aşa, aşa... Tu mare vei fi şi-n viaţa ta, Vei cugeta asupra acelor necuprinse</p>
+            <p>Şi vei întrece însuşi pe-nvăţătorul tău Care a  dat științei aceste adevăruri.</p>
+            <p>'I;:	'</p>
+            <stage> (către ȘTEFAN:) </stage>
+            <p>Iar tu, zi după mine: Şi cred în Purgatoriu</p>
+            <p>Şi, -	să sfârşim odată, -	cred în Sf</p>
+            <p>ntul Părinte.</p>
+            <p>ŞTEFAN:</p>
+            <stage> (iute) </stage>
+            <p>Cred în Sfântul Părinte şi cred şi-n Purgatoriu.</p>
+            <p>PATER JOSEPH:</p>
+            <p>De ce întorci cuvinte din legătura dreaptă? Acela care schimbă un termen, a schimbat</p>
+            <p>Mărturisirea însăși, însă iertat să-ți fie Pentru plăcerea c'are acela mi-a făc' ut!</p>
+            <stage> (cu ton apăsat.) </stage>
+            <p>Acuma datoria ta e să ne deschizi</p>
+            <p>Mintea pentru a spune ce-ai zis adinioarea.</p>
+            <p>ŞTEFAN:</p>
+            <stage> (energic.) </stage>
+            <p>Nu pot să fac aceasta...</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (iritat) </stage>
+            <p>Nu poţi... De ce nu poţi?</p>
+            <stage> (Ştefan tace.) </stage>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (privindu-l fix) </stage>
+            <p>.</p>
+            <p>Atunci mă pui pe gânduri că-i fi având vreo taină Mi-au spus că se ascunde o vrajă în ce zici?...</p>
+            <p>ȘTEFAN:</p>
+            <p>O vrajă, nu!</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (cu același foc) </stage>
+            <p>Ba vrajă... Un lucru îndrăcit, Chemarea misterioasă către duşmanii noştri.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (indignat) </stage>
+            <p>.</p>
+            <p>Nu, Pater, căci acela care ne-a învăţat</p>
+            <p>Era un om cu suflet cum îl au numai sfinţii.</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (batjocoritor) </stage>
+            <p>.</p>
+            <p>Şi cine era oare acest om?</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (scurt) </stage>
+            <p>Tatăl meu.</p>
+            <p>PATER JOSEPH:</p>
+            <p>V-am spus ce datorie aveţicătre-un părinte</p>
+            <p>Dar tatăl tău, păgânul, e cel care-a murit</p>
+            <p>În legea rătăcirii, şi-al căruia trup zace-</p>
+            <p>Afară de lăcaşul sfânt al lui Dumnezeu, -</p>
+            <p>Ca viaţa lui întreagă de adevăr afară.</p>
+            <p>Şi, de nu vrei, vom crede că legii lui te-nchini, Şi vei primi pedeapsa făţărniciei tale.</p>
+            <p>Ci zi acel descântec pe care-l mormăieşti!</p>
+            <p>ŞTEFAN:</p>
+            <stage> (liniştit şi sigur) </stage>
+            <p>Tatăl nostru carele eşti în ceruri,</p>
+            <p>Sfinţească-se numele Tău,</p>
+            <p>Vie 'mpărăţia Ta,</p>
+            <p>Facă-se voia Ta,</p>
+            <p>Precum în cer şi pre pământ.</p>
+            <p>Pâinea noastră cea de toate zilele</p>
+            <p>Dă-ne-o nouă astăzi,</p>
+            <p>Şi ne iartă nouă greşelile noastre Precum şi noi iertăm greşiţilor noştri, Şi nu ne duce pe noi în ispită,</p>
+            <p>Şi ne izbăveşte de cel viclean.</p>
+            <stage> (Plânge. Ilaritate generală.) </stage>
+            <p>PATER JOSEPH:</p>
+            <p>Tăcere!... Dar, ce-i dreptul, aşa-i de caraghios,</p>
+            <p>Că mi-ar veni şi mie a râde de ce spune: Poate-i o rugăciune, şi poate-i un blestem... Cuvintele îmi sună ca un scrâşcat de demoni!</p>
+            <p>Auzi tu? Acest cântec să nu-l mai pomeneşti,</p>
+            <p>Înaintea acestor băieţi cu gânduri bune,</p>
+            <p>Şi, dacă ţii la suflet, sileşte-te să-l uiţi.</p>
+            <p>De ţi-ai uita de toate, încă prea rău n-ai face, - Fiind afurisite de marii teologi,</p>
+            <p>Şi spre pedeapsă scrie vreo zece Pater noster.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ŞCOLARII, ȘTEFAN: HANNERI, şcolar mai în vârstă</stage>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (liniştit) </stage>
+            <p>Dacă aţi şti ce spuneţi, nu m-aţi batjocuri.</p>
+            <p>UN ŞCOLAR:</p>
+            <p>Spune aceasta, Ștefan, în limba ta de vrajă!</p>
+            <p>UN ALTUL:</p>
+            <p>Cum zici în ţigăneşte: pe azi n-am învăţat</p>
+            <p>Și-s pedepsit de Joseph a scrie Pater noster?</p>
+            <p>UN ALTUL:</p>
+            <p>Nu Pater noster, dadel,</p>
+            <p>aşa-i zice la el.</p>
+            <p>UN ALTUL:</p>
+            <p>Hai să jucăm, Valahe, n-aveți un joc al vostru?</p>
+            <p>Ca ursul din pădure ştii a te învârti?</p>
+            <p>Ci nu te da! Începe! Hari tu! Fă din picioare!</p>
+            <stage> (îl târăsc de mâini cu toţii.) </stage>
+          </sp>
+          <sp who="#hanner">
+            <speaker>HANNER</speaker>
+            <stage> (hotărât) </stage>
+            <p>O şti vreun joc sălbatec, dar unul ştiu şi eu.</p>
+            <p>Și e de-ajuns o vorbă ca să-l jucaţi cu toţii,</p>
+            <p>Când e 'ntovărăşită de ceea ce vă dau/</p>
+            <stage> (Pălmuindu-l) </stage>
+            <p>Ţie, şi-apoi şi ţie, şi ţie, -	ce mai joc!</p>
+            <p>Dar să-l jucaţi afară, că este mai larg locul.</p>
+            <stage> (Fug; către Ștefan) </stage>
+            <p>Şi te-a durut, sărace, de răutatea lor?</p>
+            <p>Tu, care n-ai nici tată, nici mamă, nicio rudă, Nici om să te-nţeleagă, nici ţernă s-o cunoști,</p>
+            <p>Nici cei de unde neamul tău să te ocrotească,</p>
+            <p>Sărace băieţele cu părul aurit.</p>
+            <stage> (Îl mângâie.) </stage>
+            <p>Ce alb îţi e obrazul, și cât de plânși ţi-s ochii! Vorbeiște, Ştefan!... Domnii aici sunt cruzi, dar eu</p>
+            <p>Sint un văcar... Acasă îţri zice...</p>
+            <p>ŞTEFAN:</p>
+            <stage> (bucuros) </stage>
+            <p>.</p>
+            <p>Ştefăniţă!</p>
+            <p>(se încruntă, apoi cu ochii ţintiţi înnainte, urmărind viziuni.</p>
+            <p>Hannerl îl netezeşte pe frunte.)</p>
+            <p>Tu ești, tată? Din ceruri credeam să te cobori,</p>
+            <p>Şi te ridici din fundul pământului spre mine.</p>
+            <p>Cununa ta de aur ce mult a ruginit!</p>
+            <p>Şi ai în plete ţernă și rădăcini în barbă,</p>
+            <p>Veșmântu-ţi de mătasă e umezit și rupt!</p>
+            <p>De ce mă sperii, tată, cu ochii reci ca gheaţa ?</p>
+            <p>Nu te-apropia de mine...</p>
+            <stage> (Cu glas tot mai tare.) </stage>
+            <p>Mi-i frig, tată, mi-i frig!</p>
+            <p>Şi mâna ta pe frunte îmi lasă dâri de sânge...</p>
+            <p>Sar, mamă, mă ucide tata, nu mă lăsa!</p>
+            <stage> (Se înseninează.) </stage>
+            <p>Tu ești? Ce dulce sună glasul tău, mamă mică:</p>
+            <p>Tu ești slabă, pământul să-l răscolești nu poţi,</p>
+            <p>Nu poţi până la mine să-tinzi mâna ta moale,</p>
+            <p>Şi glasul tău îmi sună atâta de pierdut.</p>
+            <stage> (Ascultă.) </stage>
+            <p>Da, înţeleg... Ce cîntec frumos!</p>
+            <p>Al tău e, mamă?</p>
+            <stage> (Cântă încet.) </stage>
+            <p>Foaie verde sălcioară,</p>
+            <p>Dor mal iute nu omoară,</p>
+            <p>Foc nu arde mai fierbinte</p>
+            <p>Decât dorul de părinte</p>
+            <p>Unde lumea te-a urât,</p>
+            <p>Şi izvoru-i amărât...</p>
+            <p>Dar decât dorul de ţară</p>
+            <p>Nu e apă mai amară...</p>
+            <p>Vai, inimă, vai!</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-a</head>
+          <stage>(Noapte de Crăciun. Odaie modestă de gazdă studenţească.)</stage>
+          <stage>ŞTEFAN, SCHOBEL, îngrijitorul lui</stage>
+          <sp who="#schobel">
+            <speaker>SCHOBEL</speaker>
+            <stage> (vesel, sunând bani) </stage>
+            <p>Avem venitul nostru pe trei luni: ce mar zloţi!</p>
+            <p>Să-l odihnească Domnul pe cel cu moştenirea!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (distras) </stage>
+            <p>Pe tata?</p>
+            <p>SCHOBEL:</p>
+            <p>Da, pe tata, pe Vodă cel bogat,</p>
+            <p>Care-a făcut aicea atâta fericire!</p>
+            <p>A ta, şi-a mea, şi-a celor ce ţin banii la ei</p>
+            <p>Şi-a sfintelor bisericr cu sfânta lor popime,</p>
+            <p>Cu sfânta dăscălime şi cu calicii toţi,</p>
+            <p>Şi-a domnului de Kuhbach, al nostru bun epitrop... Azi facem pomenirea, şi mâini un mare chef</p>
+            <p>De să speriem odată cetatea noastră 'ntreagă...</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (cu milă) </stage>
+            <p>.</p>
+            <p>Ce ticălos eşti, dragă Schobel, ce ticălos!</p>
+            <p>SCHOBEL:</p>
+            <p>Dacă o spui în glumă, te iert; dar ţine minte: Schobel e vesel, însă, când este insultat</p>
+            <p>De un copil pe care l-a luat sub ocrotire, Făcând o jertfă care nu poţi s-o înţelegi, Numai ca să păstreze Biserica un suflet, -</p>
+            <stage> (Face cruce.) </stage>
+            <p>El ştie ca la locu-i să puie un mucos!</p>
+            <p>Eşti supărat, măi dragă?</p>
+            <stage> (Ştefan tace.) </stage>
+            <p>SCHOBEL:</p>
+            <p>Poţi să mai rabzi, eştr tânăr.</p>
+            <p>Mă vezi ce om sunt astăzi? Ei bine, am crescut,</p>
+            <p>Tot între pumni şi palme. Şi eu aveam un tată.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (pe gânduri) </stage>
+            <p>Un tată şi o mamă...</p>
+            <p>SCHOBEL:</p>
+            <p>Da, da, pe amândoi...</p>
+            <p>Şi crezi că e de dânşii vreo scofală mare?</p>
+            <p>Aşa-i cine nu-i are, Ştefan! Dar ce alegi</p>
+            <p>Mar bine: să te bată acel ce n-are dreptul,</p>
+            <p>Şi dă mai blând, ori cela ce dă cu dreptu 'ntreg,</p>
+            <p>Şi mai pretinde-n urmă să-i porţi recunoştinţă, Să-l îngrijeştr mar bine de cum te-a îngrijit ?</p>
+            <p>Eu am ţinut pe tata, pe mama şi doi</p>
+            <p>Fraţi</p>
+            <p>Cu munca mea...</p>
+            <p>ȘTEFAN:</p>
+            <p>Cu munca?</p>
+            <p>SCHOBEL:</p>
+            <p>Să ştii tu! Da, cu munca.</p>
+            <p>Tata dădea în zodii, mama 'mpletea Ciorapi, Un frate tăia lemne şi altul cocea pâine,</p>
+            <p>Aveau tuspatru astfel un lucru mai uşor, Dar nu erau în stare să-şi facă socoteala Câştigul pe care-l aveau ei zi de zi,</p>
+            <p>De n-aş fi fost acolo eu cu învăţătura, Cu-a numerelor artă ce face dintr-un ban</p>
+            <p>O sută.</p>
+            <p>ȘTEFAN:</p>
+            <p>Cum o sută?...</p>
+            <p>SCHOBEL:</p>
+            <p>Vezi tu ce-nseamnă lenea...</p>
+            <p>Au n-ar aflat la Pater Joseph: o cifră ce-i?</p>
+            <p>E mult, şi e nimica. E punctul de plecare</p>
+            <p>Ce prin talent sporeşte, dar piere fără el. Tu nu ştii ce e lumea, măr tată...</p>
+            <p>Îi dai banul, Ea e încredinţată că eşti un biet sărac</p>
+            <p>Care numai cu plată nevoia şi-o-mplineşte.</p>
+            <p>Nu da, -	şi-o lume 'ntreagă te va încunjura.</p>
+            <p>Unul vrea să petreacă alăturea cu tine,</p>
+            <p>Un altul te aşteaptă să-i pui un nou soroc</p>
+            <p>Şi se uită la tine ca la Hristos din cadră,</p>
+            <p>Şi cel puţin o sută te-admiră că eşti om!...</p>
+            <p>Să ştii tu de la mine: cine arată banul</p>
+            <p>Şi nu-l dă, e de-o sută de ori mai înţelept</p>
+            <p>Decât acela care-şi vădeşte fundul pungii!</p>
+            <p>Şi, zi, deseară mergem la chef...</p>
+            <p>ȘTEFAN:</p>
+            <p>Merg să te văd Cum te prefaci deodată în omul cel mal straşnic!</p>
+            <p>SCHOBEL:</p>
+            <p>Şi merit, măi băiete, să fiu văzut... Mulţi cred</p>
+            <p>Că vinu-i pentru bute, nu butea pentru vinuri,</p>
+            <p>Și că menirea noastră, a celor ce avem Plecare pentru viaţă, ar fi să ţinem cheia! Prostii!... căci iată butea, ce e menit'a suge</p>
+            <p>În ea nectarul care Domnul ni l-a lăsat.</p>
+            <stage> (arată mândru burta) </stage>
+            <p>De-aceea da, să mergem. Facem o faptă bună. Venitul e prea mare pentru oameni ca noi,</p>
+            <p>Modeşti, fără pretenţii, deprinşi cu sărăcia.</p>
+            <p>ȘTEFAN:</p>
+            <p>Dar moşul ce-o să zică de-om merge amândoi,</p>
+            <p>Cum mă îndemni a face...</p>
+            <p>SCHOBEL:</p>
+            <p>Cine, moşul Alois?</p>
+            <p>Noi o pornim de-acasă, cu moşul: un pahar</p>
+            <p>E bun ca să-ncălzească un om bătrân ca dânsul:</p>
+            <p>El o dormi acasă, iar noi, noi -	vom trăi.</p>
+            <stage> (Se opreşte.) </stage>
+            <p>Căci, copilaşul tatei, avem şi-aici merinde...</p>
+            <stage> (scoate, clipind din ochi şiret, o sticlă de Chianti.) </stage>
+            <p>Eu sunt ostaş, şi arme la mine găsesc... Şi, dacă vrei ca mâine să ştii care cuvinte,</p>
+            <p>Deşi în is sfârşite, au genul masculin,</p>
+            <p>Ca să se zăpăcească atâţia buni şcolari, Întreabă pe Latinul acesta care-a fost Cumătru cu Horaţiu, dar n-a murit ca dânsul.</p>
+            <stage> (Ştefan bea, ciocnind.) </stage>
+            <p>Aşa... Si vinum bonum, beata vita est... Excepţiile, Ştefan? Nu vin?, să mai bem unul,</p>
+            <p>Fără ştiinţa cărţii nu te putem lăsa.</p>
+            <stage> (Ştefan bea din nou.) </stage>
+            <p>Acuma îţi voi spune cuvântu 'ntâiu Hai! Panis...</p>
+            <p>ȘTEFAN:</p>
+            <p>Pe urmă vine piscis...</p>
+            <p>SCHOBEL:</p>
+            <p>Perfect! Ce pedagog</p>
+            <p>Am fost născut... Pe Pater ţi-l biruiesc în lege,</p>
+            <p>Fiind şi în ştiinţă mult mai încăpător...</p>
+            <p>Acuma vine crinis. Urmează apori..</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (vesel ) </stage>
+            <p>...Finis.</p>
+            <stage> (iute.) </stage>
+            <p>Ignis, lapis, pulvis, cinis...</p>
+            <p>SCHOBEL:</p>
+            <p>Ar mar fi două versuri, dar prea eşti. somnoros.</p>
+            <p>Valahu, -	slabă rasă! Uite flăcău: adoarme!</p>
+            <p>Somn bun, Ștefane dragă, îmi voi căta alt soţ,</p>
+            <p>Căci, dacă beau eu singur, parc-aş fi un, călugăr.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ŞTEFAN, BOLEA, măscăriciul lui Petru Şchiopul, ALOIS, găzduitorul lui Ştefan, şi fiica lui, NUNZIATA</stage>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (de afară, drept lângă fereastră, cântând) </stage>
+            <p>.</p>
+            <p>Sculaţi, sculaţi, boieri mari,</p>
+            <p>Florile dalbe, lemn de mir!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (tresare puternic, apoi, visând) </stage>
+            <p>.</p>
+            <p>O, zi de bucurie, bine-ar venit din nou...</p>
+            <p>Ce lină bogăţie de flori cade din ceruri!</p>
+            <p>S-a îmbrăcat pământul în giulgiu-i alb de in,</p>
+            <p>Ca împăratul care e mort, dar o să 'nvie.</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (urmează) </stage>
+            <p>.</p>
+            <p>C-au venit colindători Florile dalbe, lemn de măr,</p>
+            <p>Noaptea pe la cântători,</p>
+            <p>Florile albe, lemn de măr...</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (acelaşi joc) </stage>
+            <p>.</p>
+            <p>Primiţi sunt şi orfanii aici a-ngenunchea... Ascultă, mamă dragă, ce cântec sub fereşti! Pare c-asupra noastră căzu un zbor de îngeri.</p>
+            <p>Da, da, sunt îngeri care în cor alb se rotesc</p>
+            <p>Peste lăcaşul unde în iesle doarme Pruncul.</p>
+            <p>Şi se închină Craii veniţr din Răsărit...</p>
+            <p>Î1 văd: Isuse Doamne, ce mic eşti, şi ce mare!</p>
+            <stage> (transfigurat.) </stage>
+            <p>Durerea noastră plânge în glasu-ţi de argint</p>
+            <p>Şi, când zâmbeşti acuma, vedem nădejdea noastră!</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (afară) </stage>
+            <p>Şi n-am venit nici c-un rău,</p>
+            <p>Florile dalbe, lemn de măr,</p>
+            <p>Ci-am venit cu Dumnezeu,</p>
+            <p>Florile dalbe, lemn de măr.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (acelaşi joc) </stage>
+            <p>O, aleluia Ţie, ce te pogori din ceruri.</p>
+            <p>Ca un copil în mijloc de alţi copii ca noi,</p>
+            <p>Căci ne e teamă, Doamne, de-a Tatălui mustrare,</p>
+            <p>Când strânge din sprâncene, când mişcă barba-n vânt</p>
+            <p>Şi-aruncă de sub gene un fulger de mânie</p>
+            <p>Ce ar putea străbate pământul nostru 'ntreg...</p>
+            <p>Ce vers răsună-n aer? Da, Precista ce cântă Lângă leagănul unde adoarme Dumnezeu,</p>
+            <p>Ca să se pregătească pentru mucenicie.</p>
+            <stage> (apar Alois şi Nunziata, miraţi.) </stage>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (urmează) </stage>
+            <p>.</p>
+            <p>Nicr Iisus nu doarme fără de maica lui:</p>
+            <p>Ce somn pot să mai aibă copiii rămaşr singuri! Mi-e frig, mi-e frig, Isuse, nu mă lăsa, mi-e frig!...</p>
+            <p>ALOIS:</p>
+            <p>Ce strigăt de durere pacea odăii rupe?</p>
+            <stage> (uitându-se împrejur.) </stage>
+            <p>Ce-i asta? Unde-i Schobel? Valahu-a adormit?</p>
+            <p>Și singur... Unde-s banii?... Ei, lasă tu, măi Schobel! S-a dus să se îmbete în noaptea de Crăciun</p>
+            <p>Cu un pungaş nemernic!.. I-am spus să merg cu dânsul, Spre a ciocni păharul ca un creştin cinstit,</p>
+            <p>Ce simte bucuria acestei sfinte zile Și el ne părăseşte: beţiv ş trădător!</p>
+            <stage> (ascultă afară.) </stage>
+            <p>Și trebuie acuma să ies pe gerul ăsta</p>
+            <p>În noaptea seacă, neagră, ca să gonesc ştrengari</p>
+            <p>Ce-n vorbe nenţelese şi-n cîntece neghioabe</p>
+            <p>Îşi râd de bietul Ștefan și de odihna lui</p>
+            <p>Ia stai tu, cântăreţe! Acuşi îţi dau eu ţie...</p>
+            <stage> (Vrea să se arunce.) </stage>
+            <p>NUNZIATA:</p>
+            <p>O, tată, cât de aspru eşti!... Să nu tulburăm</p>
+            <p>Pe-acesta care doarme şi-n -somnul lui visează...</p>
+            <stage> (se apropie încet de dânsul şi-l priveşte blând) </stage>
+            <p>.</p>
+            <p>O, tu visezi, desigur, biete copil, căci râzi, Aşa cum râde pruncul la sânul mamei sale, Și sufletul tău însuși, venind pe buze-a râs,</p>
+            <p>Și, slab şi palid, Ștefan, ce bine-ţi stă acuma...</p>
+          </sp>
+          <sp who="#alois">
+            <speaker>ALOIS</speaker>
+            <stage> (grăbit) </stage>
+            <p>.</p>
+            <p>Să isprăvim odată... Nu vezi că e târziu?</p>
+            <p>O să întindem sfaturi şi după miezul nopţii?!</p>
+            <p>NUNZIATA:</p>
+            <p>St! tată! Vorba noastră în şoapte s-o suflăm. Aici în casă cântă-şi dânsul îi aude-</p>
+            <p>Cu glasuri bucuroase soborul îngeresc,</p>
+            <p>Și lângă el veghează, desigur, maica moartă.</p>
+            <stage> (Alois tresare.) </stage>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (sigură) </stage>
+            <p>Căci cine decât mama l-ar face a zâmbi</p>
+            <p>De zâmbetul pe care nu l-am văzut la dânsul!</p>
+            <p>Și ne spunea şi nouă mama că e păcat</p>
+            <p>Şi din cele mai grele ce ne-am lua asupră.</p>
+            <p>Când umbrele vrăjite vin pe aripi de vânt</p>
+            <p>În ceas târziu de noapte de stau lângă aceia</p>
+            <p>Cu gândul căror moartea i-a prins nemilostiv,</p>
+            <p>Că e păcat prin zgomot să le goneşti de-acolo</p>
+            <p>Unde au drum odată în lungi şi dornici ani.</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (tare) </stage>
+            <p>Un Dumnezeu nou-născut,</p>
+            <p>Florile dalbe, lemn de măr!</p>
+            <p>Nunziata:</p>
+            <stage> (uimită) </stage>
+            <p>.</p>
+            <p>O, ce dumnezeieşte străinul vers răsună!</p>
+            <p>De unde vine glasul: din ceruri, din pământ?</p>
+            <p>Ori Iisus copilul plânge singur în iesle,</p>
+            <p>Fără cuvinte jalea de care suferim? Auzi, tată, cântarea...</p>
+            <p>ALOIS:</p>
+            <p>... Dar asta-ţi spun, aud,</p>
+            <p>Aud de-o jumătate de ceas că-mi sună casa,</p>
+            <p>Și e tărziu şi</p>
+            <stage> (blând) </stage>
+            <p>, fato, sunt bolnav şi bătrân.</p>
+            <p>NUNZIATA:</p>
+            <p>Cine-i bătrân în seara când Dumnezeu cel veşnic</p>
+            <p>Stă-n leagăn şi se cere să fie pus la sân?</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (afară) </stage>
+            <p>Florile dalbe, lemn de măr</p>
+            <stage> (mai tare, lovind în geam.) </stage>
+            <p>Ne daţi, ori nu ne, daţi?</p>
+            <p>ȘTEFAN:</p>
+            <stage> (se ridică, deschide ochii, dar nu recunoaştei păşeşte rar către Nunziata, care, cu o spaimă dulce, se dă înapoi) </stage>
+            <p>.</p>
+            <p>Ce lungă a fost noaptea și cât a fost de bună!...</p>
+            <p>Tu ai cântat la Curte, mărite serafim!</p>
+            <p>Şi ţie ţi-a spus tata să nu te-ntorci în ceruri, Căci e prea multă jale aice pe pământ</p>
+            <p>Şi oameni nu-s în stare s-aducă mângâiere?</p>
+            <p>Tu eşti cela ce sameni cu mama la priviri</p>
+            <p>Şi la părul de aur care-ţi cade pe umeri Tu eşti paznicul care stătea lângă Isus,</p>
+            <p>Şi-ndepărtai păgânii ca pacea să nu-i strice? La glasul tău s-ar face mai iute zori de zi... Răspunde, o, răspunde, frumos înger de pace...</p>
+            <p>Așa de tristă-i viața! Mi-i dor să te aud.</p>
+            <p>Spune ce vrei, dar spune o vorbă numai...</p>
+            <p>Nunziata:</p>
+            <stage> (mişcată) </stage>
+            <p>.</p>
+            <p>Ştefan!...</p>
+            <p>ȘTEFAN:</p>
+            <p>Da, mie îmi zic Ştefan cel leneş şi cel prost,</p>
+            <p>Ce nu poate 'nţelege nici carte și nici lege, Păgânul și Ţiganul, bolnavul, slabul: eu!</p>
+            <p>Eu sunt cel fără mamă și tată, eu cel singur.</p>
+            <stage> (Începe a se lămuri) </stage>
+            <p>.</p>
+            <p>Căci am pe lume doară o floare într-un ghiveciu,</p>
+            <p>O pasăre în cuşcă, închisă ca şi mine,</p>
+            <p>Am două chipuri şterse ce-aice le ascund,</p>
+            <stage> (Arată inima.) </stage>
+            <p>Și-aud câte odată două cuvinte bune De la o fată fără de mamă.</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (iute) </stage>
+            <p>.</p>
+            <p>Ce zicli tu?</p>
+            <p>ȘTEFAN:</p>
+            <p>De la o fată care-i asemenea cu tine!</p>
+            <stage> (Treaz cu totul.) </stage>
+            <p>Tu eşti, Nunziata?</p>
+            <stage> (sfios.) </stage>
+            <p>...Moşul... Târziu e?</p>
+            <p>Am dormit ? Sculaţi-mă! Și poate am spus cuvinte proaste?</p>
+            <p>NUNZIATA:</p>
+            <p>Ce-ar spus nu ştii -,	şi poate-s datoare să nu ştiu.</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (bate din nou la geam) </stage>
+            <p>Ne dai ori nu ne dai?</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (tremurând) </stage>
+            <p>De unde vine glasul? Ce cunoscut îmi sună!</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (către tată) </stage>
+            <p>O fi venind de-afară: mă lasă să-l deschid.</p>
+            <p>Căci a fost sol de bine cine-a vorbit acolo....</p>
+          </sp>
+          <sp who="#alois">
+            <speaker>ALOIS</speaker>
+            <stage> (foarte mişcat) </stage>
+            <p>Da, să-i deschidem, fato, e un copil, și-i frig!</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL al III-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA a III-a</head>
+          <stage>CEI DE MAI SUS, BOLEA,  Apoi numai BOLEA şi ȘTEFAN, NUNZIATA în deschizătura uşii, ascunsă.</stage>
+          <stage>(Bolea intră, fulguit pe mantie. E un pitic fără vârstă, cu gura rea şi ochii buni.)</stage>
+          <sp who="#alois">
+            <speaker>ALOIS</speaker>
+            <p>E frig afară, dragă? Şi ce cântec ziceai?</p>
+            <p>Voiai să-l faci plăcere ori te jucai din glumă?</p>
+            <p>Noi nu-nţelegem viersul şi nici aria ta.</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (ceremonios, cu afectaţie) </stage>
+            <p>La toţi acei din casa, cinstită sănătate,</p>
+            <p>Şi sfânta sărbătoare s-o mai vedeţi mulţi ani,</p>
+            <p>Şi să vă deie Domnul pace şi bucurie!</p>
+            <p>ALOIS:</p>
+            <p>Auzi ce bine-aduce vorba, şi-i un copil!</p>
+            <stage> (către BOLEA:) </stage>
+            <p>De unde eşti, băiete? Eu te cunosc pe tine,</p>
+            <p>Deşi nu-mi vine-n minte unde te-aş fi văzut...</p>
+            <p>BOLEA:</p>
+            <p>Vin de acolo unde stă în genunchi mulţimea, Iar eu privesc în faţă şi spun cuvântul drept, Şi-acela care râde mai mult, mai greu îl doare.</p>
+          </sp>
+          <sp who="#alois">
+            <speaker>ALOIS</speaker>
+            <stage> (interesat) </stage>
+            <p>Vorbeşti în parimie, şi nu te înţeleg.</p>
+            <p>BOLEA:</p>
+            <p>Mă înţeleg aceia care ştiau mai bine</p>
+            <p>Lucrul de care-i vorba, dar îl voiau ascuns.</p>
+            <p>NUNZIATA:</p>
+            <p>Bătrânii dau de rostul unei cimilituri,</p>
+            <p>Dar eu şi el, acesta, de o vârstă cu mine</p>
+            <stage> (arată spre Ştefan, care priveşte foarte atent.) </stage>
+            <p>Din vorbe nu pricepem decât ce-i lămurit;</p>
+            <p>Și, findcă-i miez de noapte şi ne vrăjeşte somnul, Dorim a şti solia cu care ai venit:</p>
+            <p>Copile înţelepte, ce ne aduci cu tine?</p>
+            <p>BOLEA:</p>
+            <p>Ce vă aduc, am spus-o chiar de la început: Aduc o mână plină de binecuvântare,</p>
+            <p>Aduc poate un sprijin dintr-un loc mai înalt...</p>
+          </sp>
+          <sp who="#alois">
+            <speaker>ALOIS</speaker>
+            <stage> (speriat) </stage>
+            <p>Loc mal înalt în Innsbruck e domnul arhiduce...</p>
+            <p>El însuşi. Și te uită la el: Parcă-i un prinţ...</p>
+            <p>Ce horbote pe dânsul şi-n brâul lui ce pietre!</p>
+            <p>Și, de te uiţi mal bine, ăsta nu-i un copil:</p>
+            <p>Are vorba adâncă, şi mai adânci i-s ochii...</p>
+            <stage> (Către dânsul, respectuos.) </stage>
+            <p>Mărite domn, din cântec păreai un băieţaş,</p>
+            <p>Ce vine la fereastră c-o ştrengărească glumă,</p>
+            <p>Dar focul din aceste pietre</p>
+            <stage> (arată brâul) </stage>
+            <p>, focul din ochi,</p>
+            <p>Focul ascuns ce zace în spusa ta cuminte</p>
+            <p>Vădesc fără-ndoială vârstă şi rang înalt...</p>
+            <p>Nu-mi lămuresc venirea-ţi, dar să te-ascult, sunt gata...</p>
+            <p>BOLEA:</p>
+            <p>Porunca e uşoară: acesta m-a adus, Nenorocirea care i-i toarsă-n firul vieţii, Singurătatea-n care să steie-i osândit,</p>
+            <p>Și trista pribegie, de ţara lui departe...</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (ca pentru sine) </stage>
+            <p>Nenorocit sunt, Doamne, şi singur, şi pribeag...</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (către Alois) </stage>
+            <p>Şi am să-i spun o vorbă ce nu primeşte martori.</p>
+            <p>ALOIS:</p>
+            <p>Da, doamne, toată voia o ai, dar el e pus</p>
+            <p>Sub paza mea, şi capu-mi răspunde pentru dânsul,</p>
+            <p>Atâta spun: că este un biet Valah păgân,</p>
+            <p>Şi nu pot şti ce vină are sau moşteneşte,</p>
+            <p>Dar sunt de-aceia care l-ar vrea mort, şi mai sunt Alţii ce-ar vrea să-l ducă la Turcii lor, acolo. Știu numal eu ce grijă purtăiu de l-am scăpat</p>
+            <p>Și de-1 păstrez, cum spune porunca 'mpărătească...</p>
+            <p>BOLEA:</p>
+            <p>Și-acum te temi că poate aş fi şi eu vreun Turc,</p>
+            <p>Vreun puiu de Turc sălbatec venit cu gânduri rele.</p>
+            <p>Ca să-l ucid, ori numai robia să i-o rup?</p>
+            <stage> (Scoate din buzunar o hârtie pecetluită.) </stage>
+            <p>Cunoşti, Alois, poate pecetii aceaata?</p>
+          </sp>
+          <sp who="#alois">
+            <speaker>ALOIS</speaker>
+            <stage> (îşi uneşte mâinile, îngrozit) </stage>
+            <p>.</p>
+            <p>Ferdinand, arhiduce şi principe-n Tirol!</p>
+            <stage> (către BOLEA:) </stage>
+            <p>Mărite domn, stăpîn eşti în casa lui Alois,</p>
+            <p>Când vei sfârşi, sunt gata să te servesc...</p>
+            <stage> (către NUNZIATA:) </stage>
+            <p>Te duci?</p>
+            <p>NUNZIATA:</p>
+            <p>Mă duc... Treci înnainte, tată.... Eu stau aice.</p>
+            <p>Hârtii pecetluite şi moartea o aduc,</p>
+            <p>Şi eu nu vreau să moară acest tânăr prieten.</p>
+            <stage> (se dă după uşă.) </stage>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (cu adânc respect) </stage>
+            <p>În graiul care-n leagăn te 'ncunjura odată,</p>
+            <p>Mă-nchin Măriei Tale ca unul Voevod</p>
+            <p>Și Domn pe amândouă ţările dunărene.</p>
+            <p>ȘTEFAN:</p>
+            <p>Mai zi o dată.. Astfel de vorbe mă întorc</p>
+            <p>La alte vremuri, care mi se păreau că-s visuri...</p>
+            <p>Cu-adevărat sunt oare Ştefan-Vodă-cel-Nou?</p>
+            <p>BOLEA:</p>
+            <p>Ştefan-Vodă cel Tânăr, cel Nou, Domn uns pe frunte</p>
+            <p>Cu mirul în Suceava, de un Mitropolit,</p>
+            <p>Şi ai rămas tu singur moştenitor de Scaun</p>
+            <p>În Ţara-Românească şi în Moldova ta ...</p>
+            <p>Şi cât de slab eşti, Doamne, şi trist şi singuratec!</p>
+            <p>Şi ce sărac e locul în care star ascuns!</p>
+            <p>Ce soartă nepătrunsă îţi urmăreşte neamul!</p>
+            <p>Ce blestem ne apasă pe noi, supuşii tăi!</p>
+            <p>ȘTEFAN:</p>
+            <p>Şi, dacă-s Domn, în care loc se găseşte cinstea-mi?</p>
+            <p>De ce nu-mi vine oastea cu miile de mii?</p>
+            <p>Ori m-au uitat boierii şi căpitanii ţării?</p>
+            <p>BOLEA:</p>
+            <p>Nu te-au uitat, stăpâne, însă aicr nu  e,</p>
+            <p>Din toată Curtea plină a lui Petru, bogatul</p>
+            <p>Părinte al Măriei Tale, decât doar,</p>
+            <p>Pierdut în lumea asta, atâta de străină,</p>
+            <p>Un biet glumeţ ca mine, un măscăriciu pitic,</p>
+            <p>Ce sunt azi jucăria cui este prinţ al ţării.</p>
+            <p>Şi am fugit în noapte spre a-ţi cânta în ajun</p>
+            <p>De sfântă serbătoare, spre a-ţi aduce darul</p>
+            <p>pe</p>
+            <p>Anul Nou şi vechea urare : 'ntru mulţi ani,</p>
+            <p>Măria Ta, şi viaţa să-ţi fie strălucită!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (bucuros) </stage>
+            <p>A, te cunosc... Eşti Bolea, cu care noi râdeam Când te porneai la sfaturi. Râdea tatăl bătrân</p>
+            <p>Şi mama urmărită de gânduri dureroase...</p>
+            <p>Iar eu râdeam din toată inima de copil,</p>
+            <p>Şi azi nu mai ştiu râde şi nici tu nu râzi, Bole:</p>
+            <p>Au râs asupra noastră duşmanii, şi tot râd,</p>
+            <p>Şi râsetele sună şi-n visuri ca un blestem!</p>
+            <p>Nu râde, Bole, râsul e numai un rânjit,</p>
+            <p>Şi el vesteşte gândul de a-ţi muşca din carne. Spune ce vrei... De-i plânge, vom plânge amândoi,</p>
+            <p>Cu gândul la aceia ce s-au trecut din viaţă.</p>
+            <stage> (sălbatic.) </stage>
+            <p>Dar să nu râzi, ascultă, de ţii la viaţa ta !</p>
+            <p>BOLEA:</p>
+            <p>E vai de vremea-n care eu sunt dator a plânge...</p>
+            <p>Şi-am plîns mult timp, o , Doamne, până ce te-am găsit,</p>
+            <p>Ca să ni se-nteţească plânsul în ceasul vesel.</p>
+            <stage> (după o pauză.) </stage>
+            <p>Dar ceasul de plecare-i aproape. Mă întorc,</p>
+            <p>De-ar fi să-mi cadă capul pentru greşeala asta,</p>
+            <p>Mă-ntorc să-ţi fiu tovarăş şi-apărător supus, Să-nfășurăm speranţe-n veşmintele ascunse!</p>
+            <p>Deodată, uite</p>
+            <stage> (desface o lădiţă) </stage>
+            <p>darul ce ţi-l înfăţişez:</p>
+            <stage> (desfășură pe rând un veşmânt cu flori de aur, un surguciu, ridică o sabie.) </stage>
+            <p>Întâi iată-ţi dulama, veşmânt cusut cu aur,</p>
+            <p>Surguciul cel cu pana de struţ, împodobit Cu pietre nestemate şi sabia ta, Ștefan...</p>
+            <p>Erau prea mari atuncea când le purtai copil: Acuma te îmbracă întreg, Domn al Moldovei!</p>
+            <p>Şi trebuie această clipă s-o încheiem.</p>
+            <p>Copil', e ceasu-n care spre ce am fost ne-ntoarcem.</p>
+            <p>Şi ne aşteaptă noaptea din care am venit,</p>
+            <p>Şi lanţurl de robie sună în preajma noastră...</p>
+            <stage> (îi pune pe trup veşmintele.) </stage>
+            <p>ȘTEFAN:</p>
+            <p>Câți ani sunt de când viaţa mi-o petreceam ca prins?</p>
+            <p>De când aveam un paznic cu cheile în mână?</p>
+            <p>De când eram pe lume un biet copil sărac? Unde e Schobel, Pater Joseph şi toţi calăii?</p>
+            <p>Să vie înainte-mi: am cu ce-i pedepsi,</p>
+            <p>Ca Domn a cărui vorbă înseamnă o poruncă!</p>
+            <p>Şi unde e aceia ce s-a milostivit</p>
+            <p>De suferinţa-n care mi se pierdea viaţa</p>
+            <p>Și a vărsat lumină în Iadu-n care stam Din ochii ei albaştri, duioşi de 'ndurerare?</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (se smulge de unde era ascunsă) </stage>
+            <p>.</p>
+            <p>Eu sunt aici, o, Doamne, Ştefane, roaba ta!</p>
+          </sp>
+          <stage>(Peste un an.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="4">
+        <head>ACTUL  al III-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu</head>
+          <stage>(O cameră la Alois)</stage>
+          <stage>ŞTEFAN, BOLEA convorbind prieteneşte</stage>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (urmând) </stage>
+            <p>.</p>
+            <p>Îți mai aduci aminte când m-au sfinţit, ştii tu?</p>
+            <p>E singura icoană, ce nu mi-a şters-o vremea Văd o lumină mare de raze şi făclii,</p>
+            <p>Veşminte de-aur, săbii şi pietre nestemate; Cutremură pereții un vers adânc şi trist,</p>
+            <p>Și mă-nfioară-n racla de-argint negrele moaşte...</p>
+            <p>BOLEA:</p>
+            <p>Și ai ţipat deodată şi lumea te râdea...</p>
+            <p>ȘTEFAN:</p>
+            <p>Mi s-a părut că tata care stătea-n genunche S-a fost schimbat cu sfântul căruia-i semăna În biata-i bătrâneţe aşa de chinuită,</p>
+            <p>Și că în flori uscate rânjea un râs de mort</p>
+            <p>Pe când mâna cea neagră a lui Ioan Martirul</p>
+            <p>Se atingea de fruntea mea, care îngheţa...</p>
+            <p>BOLEA:</p>
+            <p>Turna Vlădica mirul pe pletele de aur.</p>
+            <p>ŞTEFAN:</p>
+            <p>Şi m-am simţit pe lume întors numai atunci</p>
+            <p>Când mă-ncălzeau în cântec bun braţele de mamă,</p>
+            <p>Iar gloata bucuroasă striga: Domn nou, mulţi ani!</p>
+            <p>BOLEA:</p>
+            <p>Și-această amintire e doar o mângâiere!...</p>
+            <p>Nu te simţeai în mijloc de duşmani mai presus?</p>
+            <p>Nu-ţi mai fierbea în vine al marilor Domni sânge?</p>
+            <p>Şi fruntea-ţi miruită cu binecuvântări</p>
+            <p>Nu se 'nălţa trufaşă peste capete goale?</p>
+            <p>N-aveai tu vreodată pornirea de-a vorbi,</p>
+            <p>Spre-a le striga că mila lui Dumnezeu e-n tine!</p>
+            <p>ȘTEFAN:</p>
+            <p>Nu, chiar din clipa-n care m-am dus de la mormânt,</p>
+            <p>În care pe Măria Sa tata îl lăsasem înveșmântat în aur, cu gugiumana-n cap,</p>
+            <p>Visând Domnu şi lupte şi sărbători măreţe,</p>
+            <p>Din clipa-n care casa cea plină se goli</p>
+            <p>De lucruri şi de oameni, într-o goană de pradă, Cătând şi în adîncul pereţilor goliţi,</p>
+            <p>Şi-o slugă de la Curte, urmând poruncile sale,</p>
+            <p>Mă dezbrăcă de haina mea cea de sirasir, Îmi luă junghiul şi cuca şi lanţul de Domnie</p>
+            <p>Şi</p>
+            <stage> (se opreşte mişcat) </stage>
+            <p>.</p>
+            <p>BOLEA:</p>
+            <p>Ţi despoie cununa de plete aurii,</p>
+            <p>Pe care am trimes-o ca prinos la Suceava,</p>
+            <p>Ca să rămâie unde ai fost uns Voevod...</p>
+            <p>ȘTEFAN:</p>
+            <p>Deci mi s-a dus acolo podoaba cea domnească?</p>
+            <p>Se va fi dus cu dânsa şi gândul meu întreg, Întreaga cunoştinţă de ce am fost odată...</p>
+            <p>Căci le-am uitat pe toate, Bole; eram alt om,</p>
+            <p>Un om fără de drepturi şi nume şi menire, Mar slab decât oricare findcă nu semănam</p>
+            <p>Cu ei decât în vorbă, în port şi traiul de-astăzi Răbdam, pare că Domnul m-a fost rostit să rabd,</p>
+            <p>Mă supuneam la toate, ca 'mpovărat de blestem,</p>
+            <p>Un blestem ce-mi venise poate de la părinţi,-</p>
+            <p>Și am primit pe faţă, făr'a cârti, şi palme...</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (indignat) </stage>
+            <p>.</p>
+            <p>Nu mar rosti o vorbă, 'Doamne! I-aş omorî! Palme pe faţa care de îngeru aminteşte</p>
+            <p>Şi-n care este scrisă voia lui Dumnezeu, Pe faţa sărutată de noi ca o icoană...</p>
+            <p>ȘTEFAN:</p>
+            <p>Știam numai un lucru: că a fost un bătrân</p>
+            <p>Cucernic, blând şi mare în greaua lui răstrişte</p>
+            <p>Şi că sta lângă dânsul un chip neasemănat</p>
+            <p>De tânără iubire pierind în suferinţă</p>
+            <p>Şi că eu, cela care n-aveam decât stăpâni, Decât duşmani cu vorba şi fapta lor străină,</p>
+            <p>Că. eu despreţuitul, gonitul, eu puteam Zice: tată şi mamă acestor feţe sfinte...</p>
+            <stage> (foarte mişcat.) </stage>
+            <p>Iar dacă vreodată îmi fulgerau prin gând Crâmpeie luminoase din viaţa mea trecută,</p>
+            <p>Mi se zicea că iar pornesc să aiurez,</p>
+            <p>Că duhurile rele îmi dau păgâne visuri,</p>
+            <p>Că mă framântă iarăşi ispita cea din Iad</p>
+            <p>Şi că sunt pradă iarăşr celui Viclean, Satana;</p>
+            <p>Şi m-am deprins cu vremea pe toate să le cred:</p>
+            <p>Mă îngrozeam de orice suflare a mândriei,</p>
+            <p>Îmi închideam simţirea pentru orice dorinţi</p>
+            <p>Şi nu vedeam o altă soartă decât robia,</p>
+            <p>Ca unul care, poate, Ţigan, Valah ce sunt,</p>
+            <p>Am fost cules pe drumuri de mâini ocrotitoare„</p>
+            <p>În a căror putere mă şi găsesc de drept... Şi-au răsărit deodată, în acea noapte albă, De s-a născut în mine acel ce-a fost murit</p>
+            <p>Şi care se 'ngropase în râsetele lumii:</p>
+            <p>Io Ştefan-Vodă, Domnul cel bine-credincios</p>
+            <p>Şi iubitor de tine, Mântuitorul nostru...</p>
+            <stage> (se închină) </stage>
+            <p>Şi de atunci sunt altul, şi ceilalţi nu-nţeleg Prin ce minune-un suflet mare trăieşte-n mine,</p>
+            <p>Sufletul celor care mi-au dat zile şi rost.</p>
+            <p>Şi să vezi ce schimbare s-a petrecut într-înşii-Fricoşii... Nu mai suflau niciun singur cuvânt</p>
+            <p>Din vechile porecle... Şi Pater Joseph însuşi</p>
+            <p>Își mai aduce-aminte de mielul Iisus.</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (cu pază) </stage>
+            <p>.</p>
+            <p>Nu bănuieşte nimenr care-a fost vorba noastră Căci aş plăti cu viaţa ce ţi-am mărturisit,</p>
+            <p>Şi viaţa mea îţi este încă folositoare...</p>
+            <p>ȘTEFAN:</p>
+            <p>Numai un suflet ştie ce trebuie ascuns,</p>
+            <p>Şi încă nu-nţelege toată destăinuirea...</p>
+            <p>Aceia care-n noaptea cea mare m-a văzut În hainele de aur ca prinţu cel din basme,</p>
+            <p>Şi le ţine la dânsa ca o comoara-ei</p>
+            <p>Pe care nu ar da-o cu niciun preţ din lume...</p>
+            <p>De-atuncea lângă mine o simt în orice ceas, Păzind ca o fecioară din cele veghetoare</p>
+            <p>În aşteptarea vremii când eu voi fi ce sunt...</p>
+            <p>N-auzi nimic? Desigur aici este...</p>
+            <stage> (încet) </stage>
+            <p>Nunziata!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>CEl DE SUS, NUNZIATA</stage>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (înaintează cu flori în mână.) </stage>
+            <p>Noroc şi voie bună, copil de Voevod</p>
+            <p>Şi-n dimineaţa asta ca şi în celelalte!</p>
+            <stage> (către Bolea:) </stage>
+            <p>Şi d-ta îmi iartă că astfel îndrăznesc:</p>
+            <p>Cei mari au drept să ceară a li s-aduce daruri.</p>
+            <p>Şi eu îl pun pe dânsul printre ai mei cei mari;</p>
+            <p>Ca semn de închinare, flori nouă ţie, Doamne!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (mişcat) </stage>
+            <p>Frumoase-s ca menirea, ce mi s-a fost păstrat,</p>
+            <p>Dar veştede cădea-vor ca şi zilele mele.</p>
+            <p>Nunziata, stai... Ţi-o cere prietenul tău vechi,</p>
+            <stage> (râzând) </stage>
+            <p>Iar Domnul nou cu toată puterea-ţi porunceşte,</p>
+            <p>Având un drept mai mare ca al lui moş Alois</p>
+            <p>În stăpânirea noastră cea cu patru pereţi...</p>
+            <p>De altfel eşti trecută de mult pe lista Curţii!</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (cu încredere) </stage>
+            <p>Curtea Măriei Tale este, şi-o voi vedea,</p>
+            <p>Şi gluma ta n-ajunge să-mi sfarme siguranţa. În fiecare seară, când tata s-a culcat,</p>
+            <p>Deschid lădiţa-n care-s veşmintele de aur.</p>
+            <stage> (cu admiraţie, rezimându-şl bărbia de mână.) </stage>
+            <p>Ce mândru ţi-ar sta ţie, Ştefane, ca 'mpărat! Şi m-ai lăsa pe mine ca pe-un copil de casă Să stau schimbat de haine lângă Scaunul tău Spre a-ţi aduce-aminte de milă şi iertare,-</p>
+            <p>Căc e grozav judeţul celor cu schiptru-n mâini...</p>
+            <p>ȘTEFAN:</p>
+            <p>Ţi-aş dărui o viaţă pe zi...</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (uimită) </stage>
+            <p>.</p>
+            <p>Glumeşti, care viaţă?</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (ironic) </stage>
+            <p>Cea mai scumpă din toate. Însăşi viaţa lui!</p>
+            <p>NUNZIATA:</p>
+            <p>Să-și dăruiască viaţa ţării care-l aşteaptă: Mie-mi ajunge numai să văd stăpânitor</p>
+            <p>Pe-acela care-odată plângea cu noi, săracu,</p>
+            <p>Şi noi, crezînd că este de-o seamă-l mângâiam, Precum făcea şi dânsul când tata era aspru.</p>
+            <p>BOLEA:</p>
+            <p>De unde poţi, copilo, să ştii ce e un Domn ? Dac-ai afla, desigur, n-ai vrea să laşi aceste</p>
+            <p>Văi binecuvântate şi pline de cântări,</p>
+            <p>Aceste ape c1are şi reci fugind pe stâncă,</p>
+            <p>Acest lăcaş de pace sub codrii vechi de brad... Un Domn?... În juru-i fierbe a patimilor spumă, Minciuna otrăveşte văzduhu-n jurul lui,</p>
+            <p>Neguri meşteşugite-i împiedecă vederea,</p>
+            <p>Și se pornesc şi vânturi- -care răstoarnă tot, Făcând din tronu-i aşchii ce le' culeg săracii Zvârlind departe zdrențe de aur și pribegi...</p>
+            <p>Tu n-ai văzut pe nimeni murind de dorul ţării</p>
+            <p>În care-odinioară fusese cel d-intâi,</p>
+            <p>Ca un copac pe care s-a năpustit furtuna</p>
+            <p>Și crăcile uriaşe se veştejesc gemând,</p>
+            <p>Când seaca rădăcină nu-şi poate găsi hrana...</p>
+            <p>NUNZIATA:</p>
+            <p>Ba am văzut pe unul: nu l-oi uita uşor.</p>
+            <p>Aici la nor în Innsbruck, vreo zece am în urmă.</p>
+            <p>În faţa casei noastre era un loc pustiu:</p>
+            <p>De mult creşteau copacii ca o pădure deasă,</p>
+            <p>Noi ne temeam, copiii, acolo să intrăm:</p>
+            <p>Era atâta umbră şi până-n miezul ziler!</p>
+            <p>Şi am văzut deodată meşteri lucrând cu zor</p>
+            <p>Ca să înjghebe-o casă măruntă şi ciudată,</p>
+            <p>Cu stâlpi întinşi în faţă şi-acoperiş înalt Între copacii cari fură păstraţi cu toţii.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (ca-n vis) </stage>
+            <p>O casă albă... Prispă... Pereți spoiţi cu var. De ce se plâng copacii la coborârea serii?</p>
+            <p>NUNZIATA:</p>
+            <p>Aşa era! Copacii plângeau cu glas de om, De ne treceau fiorii când li se pornea jalea.</p>
+            <p>Şi-atunci ieşea în faţă un biet bătrân mărunt, Purtând pe plete albe un coperiş de blană,</p>
+            <p>Şi pe haina turcească sclipeau copce de-argint. Se adunau copiii, pitiţi după uluce,</p>
+            <p>Să vadă vrăjitorul păgân, iar el stătea Cu mâinile pe cârjă, privind roşia rază</p>
+            <p>Ce se pierdea pe-ncetul în noapte, şi simţeam</p>
+            <p>Că-n umbra ei cad lacrimi din ochii cei bătrâni.</p>
+            <stage> (Ştefan şi Bolea se uită lung unul la altul.) </stage>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (cu glas adânc) </stage>
+            <p>Săracul!</p>
+            <p>NUNZIATA:</p>
+            <p>Şi odată am întrebat pe tata: De ce plânge moşneagul atâta de bogat</p>
+            <p>Pe care-l slujea Curtea puindu-se-n genunche? Ori e bolnav? Ori duce dorul vreunui mort, Cum ducem noi pe-acela al dragei mele mame?</p>
+            <p>El a răspuns atâta: este un Domn străin...</p>
+            <p>Am auzit pe urmă că s-a întors acasă Cu oaste 'mpărătească, şi că s-a mîngîiat</p>
+            <p>De toată suferinţa ce la străini şi-a plâns-o...</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (ironic) </stage>
+            <p>Da, s-a întors acolo unde nu este plâns</p>
+            <p>Şi nu mai vede raza luminii ce apune;</p>
+            <p>Ci este fericirea cea fără de sfârşit.</p>
+            <p>Vreau să zic: se găseşte în Scaun şi domneşte.</p>
+            <p>NUNZIATA:</p>
+            <p>Ce bine-mi pare! Bietul era aşa de trist!</p>
+            <p>Noi ne-am mutat de-acolo, dar ştim că el plecase,</p>
+            <p>Şi-n urma lui întreagă casa s-a ruinat</p>
+            <p>Lăsând morman de pietre în care mişcă şerpil,</p>
+            <p>Şi s-aiu tăiat copacii cei vechi.</p>
+            <p>ŞTEFAN:</p>
+            <stage> (trist) </stage>
+            <p>.</p>
+            <p>Toţi s-au tăiat,</p>
+            <p>Doar un vlăstar mai este, şi-l calcă în picioare.</p>
+            <p>-O, de-ar putea s-ajungă şi el cu fruntea-n nori, Chiar de-ar cădea un trăznet, arzând inima-ntr-însul!</p>
+            <p>BOLEA:</p>
+            <p>De trăznet ne fereşte, Doamne, pe noi, pe toţi,</p>
+            <p>Şi mai ales pe-aceia care sunt mai aproape! Nunziata, azi eşti tristă de nu te mai cunosc.</p>
+            <p>Tu, rază de lumină şi vers de rândunică,</p>
+            <p>Nu vezi că domnul Ştefan plânge pe urma ta? ... Înveseleste-l fata, cu farmece curate...</p>
+            <p>'	'</p>
+            <p>NUNZIATA:</p>
+            <p>Tu, Ştefane, copile, iar ai ajuns să plângi,</p>
+            <p>Şi eu sunt proasta care am săvârşit greşeala...</p>
+            <stage> (Îl mângâie încet pe obraz.) </stage>
+            <p>ȘTEFAN:</p>
+            <p>Să nu ai vreo mustrare pentru plânsul de azi,</p>
+            <p>Îți mulţămesc mai tare ca pentr-o bucurie,</p>
+            <p>Ai înviat în mine lucruri ce-am fost uitat,</p>
+            <p>Şi viaţa-mi este astăzi cu-atâta mai bogată...</p>
+            <p>NUNZIATA:</p>
+            <p>Zici, căci eşti bun. Dar plânsul rămâne tot amar,</p>
+            <p>Şi, ca să râdă iarăşi faţa întunecată,</p>
+            <p>Dă-mi voie ca povestea s-o schimb.</p>
+            <p>Avuiu un vis...</p>
+            <p>Parcă-mi este ruşine, dar tu o să te bucuri. Nu ştiu în ce cuvinte să spun...</p>
+            <p>BOLEA:</p>
+            <p>Începe tu,</p>
+            <p>Şi-ţi vor veni cuvinte destule şi frumoase.</p>
+            <p>NUNZIATA:</p>
+            <p>Să spun deci... Înainte mi se făcea un târg Cum n-am mal văzut altul. Case ca şi aceea...</p>
+            <p>ȘTEFAN:</p>
+            <p>În care sta bătrânul care plângea-n apus...</p>
+            <p>NUNZIATA:</p>
+            <p>De unde ştii? Aceleaşi gânduri ne vin adesea.</p>
+            <p>Fiindcă ducem viaţa sb un coperemânt; Aşa-nţelege tata astfel de potrivire:</p>
+            <p>Ne încunjoar' aceeaşi taină pe amândoi,</p>
+            <p>Deşi ne este rostul pe lume aşa departe...</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (către Nunziata) </stage>
+            <p>.</p>
+            <p>Aceeaşi taină, dragă! Şi n-o puteţi numi.</p>
+            <p>NUNZIATA:</p>
+            <p>Era oştire multă, tot în veşminte scumpe,</p>
+            <p>Şi uliţile toate le străjuiau aprozi,</p>
+            <p>Şi se zbăteau în turnuri clopote bucuroase.</p>
+            <p>Şi am văzut, deodată, un aurit rădvan...</p>
+            <p>ȘTEFAN:</p>
+            <p>Cu două perechi mândre de cai albi.</p>
+            <p>NUNZIATA:</p>
+            <p>Știi și asta?</p>
+            <p>Şi tocmai patru... 'Năuntru ghici tu, cine era?</p>
+            <p>ȘTEFAN:</p>
+            <p>Cine ar vrea să fie, dar nu aşa...</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (speriată) </stage>
+            <p>.</p>
+            <p>O, Doamne,</p>
+            <p>Dar e un farmec... Toate le spui ca pe de rost...</p>
+            <p>ȘTEFAN:</p>
+            <p>Le ştiu, şi nu pot însumi să înţeleg cum visul</p>
+            <p>S-a abătut deodată către noi amândoi.</p>
+            <p>NUNZIATA:</p>
+            <p>Decr erai tu, tu, Doamne. Cât de frumos! Mă iartă.</p>
+            <p>Că îmi arăt uimirea aşa... Erai voinic,</p>
+            <p>Și blînd ca o fetiţă; zâmbeai scăldat în aur,</p>
+            <p>Și zâmbetul tău aur era, şi ceru-ntreg Ţesea beteală 'n aier ca la nuntă de îngeri,</p>
+            <p>Și lumea 'nebunită se-ngrămădea în jur</p>
+            <p>Strigînd cuvinte care n-aveau rost pentru mine...</p>
+            <p>Și-n fund stătea un cleric alb, și el te chema Țiind în minte cununa roșie de rubine.</p>
+            <p>Și-atunci...</p>
+            <p>ȘTEFAN:</p>
+            <p>Nu, te opreşte, Nunziata, e de-ajuns.</p>
+            <p>NUNZIATA:</p>
+            <p>Știu că e pentru mine o cinste neiertată....</p>
+            <p>ŞTEFAN:</p>
+            <p>Nu, nu e pentru-aceea!</p>
+            <p>NUNZIATA:</p>
+            <p>Dar pentru ce ? Atunci</p>
+            <p>Tu m-ai chemat la tine. Şi-aveam o haină albă...</p>
+            <p>ȘTEFAN:</p>
+            <p>Ţesută toată numai în crini mari de argint.</p>
+            <p>Și îţi cădea tot părul pe umeri cu beteala.</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (confuză) </stage>
+            <p>De unde să ştiu, Doamne, cum mă vedeai?</p>
+            <p>Și-am stat,</p>
+            <p>Neîndrăznind chemarea s-ascult eu, o străină!</p>
+            <p>Ce rost aveam acolo când se făcea un Domn?</p>
+            <p>Şi, când am vrut în lături să mă feresc, -	mi-e frică...</p>
+            <p>ŞTEFAN:</p>
+            <stage> (iute) </stage>
+            <p>A fost o 'nchipuire, un vis rău, o părere.</p>
+            <p>NUNZIATA:</p>
+            <p>Dar pentru ce-am visat-o atuncea amândoi?</p>
+            <p>Şi eu, murind sub roate, strigam: mărire ţie!</p>
+          </sp>
+          <sp who="#bolea">
+            <speaker>BOLEA</speaker>
+            <stage> (iute) </stage>
+            <p>Vin nişte domni. Nu plângeţi...</p>
+            <p>Nunziata!</p>
+            <stage> (îi face semn să se ascundă.) </stage>
+            <p>Cine e?</p>
+            <p>Şi pe cine doreşte să-l vadă? Pe Alois ?...</p>
+            <stage> (cu ură.) </stage>
+            <p>A, Pater Joseph, Schobel şi Kuhbach cel bătrân! Spurcată Trinitate! Poftiţr, vă rog, în casă.</p>
+            <stage> (se ascunde şi ea.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>ŞTEFAN, SCHOBEL, WOLKENSTEIN, PATER JOSEPH,</stage>
+          <stage>(în ascunzătoarea ei, NUNZIATA) &lt;/desc.&gt;</stage>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (întrând cel d-intâi, către ceilalți.) </stage>
+            <p>Lăsaţi-mă pe mine: îl fac eu să-nţeleagă.</p>
+            <stage> (către Ştefan, cu oarecare nedumerire asupra titlului şi tonului.) </stage>
+            <p>Copile, drumul şcolit cu totul l-ai uitat?</p>
+            <p>Sau crezi că ai tovarăși, că ei dascăl îţi sunt Spre a face din tine un om cu fapte bune?</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (mirat) </stage>
+            <p>Un om cu fapte bune?</p>
+          </sp>
+          <sp who="#pater_joseph">
+            <speaker>PATER JOSEPH</speaker>
+            <stage> (iritat) </stage>
+            <p>Întâi n-ai să-mi vorbeşti</p>
+            <p>Decât atunci când însumi voi fi sfârşit cuvântul:</p>
+            <p>Copilul se cuvine să tacă-ntre bătrâni,</p>
+            <p>Căci ştie că aşa scrie. în „Norma Puerorum”.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (ironic) </stage>
+            <p>Şi în Pedagogia ce-ai scris-o dumneata.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Numar la barbari poate „dumneata” e un cleric:</p>
+            <p>Sunt naţii ce nimica nu ştiu a respecta:</p>
+            <p>Ci eu sunt reverendul Pater Joseph şi rector.</p>
+            <stage> (urmând.) </stage>
+            <p>Şi-acum îţi spun, în rândul al doilea, s-asculţi</p>
+            <p>Îndemnuri de la domnul epitrop,</p>
+            <stage> (Wolkenstein se înclină.) </stage>
+            <p>precum şi</p>
+            <p>De la acest bun tânăr ce-ţi poartă zilnic grija</p>
+            <p>Şi căruia din ziua</p>
+            <stage> (grav.) </stage>
+            <p>când Duhul Rău veni,</p>
+            <p>Ca un torent sălbatec ce 'neacă 'nţelepciunea</p>
+            <p>Şi strică într-o clipă ce s-a făcut mulţi ani,</p>
+            <p>Prin sârguinţa aspră a oamenilor harnici, Lăsând numai ruină şi jale-n urma lui.</p>
+            <p>ȘTEFAN:</p>
+            <p>Ori ca un foc ce arde zidirea părintească...</p>
+            <p>PATER JOSEPH:</p>
+            <p>Cum văd, n-ar uitat încă frumoşii noştri tropi, - Deci din ziua aceea nu l-ai primit în casă</p>
+            <p>Cu ajutorul celor care te găzduiesc.</p>
+            <p>ȘTEFAN:</p>
+            <p>Eu l-am făcut pe scară s-o ia de-a berbeleacul.</p>
+          </sp>
+          <sp who="#schobel">
+            <speaker>SCHOBEL</speaker>
+            <stage> (indignat) </stage>
+            <p>.</p>
+            <p>Îl auziţi, părinte!</p>
+            <stage> (către Wolkenstein) </stage>
+            <p>.</p>
+            <p>Domnule-l, auziţi?</p>
+            <p>Eu voi vorbi pe urmă, după programul nostru.</p>
+            <p>PATER JOSEPH:</p>
+            <p>Ai fost în totdeauna modest şi-ascultător...</p>
+            <p>Să isprăvim cu punctul întâi.</p>
+            <stage> (plângător.) </stage>
+            <p>Eu îţi dau sfatul, Pornit din dorul sincer de a te cultiva...</p>
+            <p>Să uiţi orice minciună ce ţi-au băgat-o-n minte Prin vreo scrisoare fa1să de la duşmani ascunşi Cari au vrut şi viaţa ta tânără s-o ieie.</p>
+            <p>Ascultă-mă, copile, Ștefane, fiu iubit...</p>
+            <stage> (îl îmbrăţişează.) </stage>
+            <p>Erai pe cale bună, mergeai spre mântuire,</p>
+            <p>Pe cât te-ajuta mintea ce o ai moştenit, Vedeai ce-i adevărul, fugeai de-a' lumii valuri,</p>
+            <p>Spre a găsi în portul nostru un adăpost, Prielnic celor care nici nu-şr cunosc părinții.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (energic) </stage>
+            <p>I-am cunoscut, şi astăzi mai bine îi cunosc:</p>
+            <p>Și, de nu-i ştii, să afli că i-au chemat în viaţă:</p>
+            <p>Petru, Domnul Moldovel şi-al Ţării Româneşti,</p>
+            <p>Şi sfânta lui soţie ce-a fost Doamna Irina.</p>
+            <p>(mişcare între tutori. Wolkenstein înlătură pe Pater Joseph şi</p>
+            <p>trece în rândul întâi.)</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Nu! Aici e greşeala! Te-au înşelat! Nu, nu!</p>
+            <p>Tatăl era Peter Weida, pribeag în lume,</p>
+            <p>Un biet bătrân de care noi ne-am milostivit</p>
+            <p>Și i-am dat locuinţă în zilele din urmă!...</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (furios) </stage>
+            <p>Să isprăviţi odată cu vorbele acestea...</p>
+            <p>-Vor i-aţi dat locuinţa tatei?- Şi-averea lui!</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Averea? Ce avere! Zece sipete vechi, Sfărâmături de aur, puţine pietre false</p>
+            <p>Şi hainele pe care săracilor le-am dat. Asta-i averea voastră!..</p>
+            <p>ȘTEFAN:</p>
+            <p>Şi-atunci ce strici, Schobel</p>
+            <p>În crâşme şi la hanuri? Poate averea lui?</p>
+            <p>SCHOBEL:</p>
+            <p>Îl auziţi, mărite doamne? Auzi, părinte?</p>
+            <p>Eu îmi păstrez la toate să dau răspuns deplin Când îmi va veni rândul după programul nostru.</p>
+          </sp>
+          <sp who="#wolkenstein">
+            <speaker>WOLKENSTEIN</speaker>
+            <stage> (enervat) </stage>
+            <p>Tu, taci... Averea voastră?... De unde s-a adus?</p>
+            <p>Nu semăna un lucru cu altul la făptură... Vedeai bine că toate-s găsite 'ntâmplător,</p>
+            <p>Mai ştim noi în ce locuri şi-n ce împrejurare...</p>
+            <p>ŞTEFAN:</p>
+            <stage> (exasperat) </stage>
+            <p>Eu te opresc aice!... Vorbeşte lămurit!</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Și crezi tu că eu care sunt cavaler şi sfetnic Domnului arhiduce Ferdinand de Tirol,</p>
+            <p>Mă voi sfii a spune în faţa ta, odraslă</p>
+            <p>De vagabond, de Weida, cum sunt cei ţigăneşti.</p>
+            <p>ȘTEFAN:</p>
+            <p>Eşti mincinos, mărite domn, şi clevetitor!</p>
+          </sp>
+          <sp who="#wolkenstein">
+            <speaker>WOLKENSTEIN</speaker>
+            <stage> (vrea să-l lovească) </stage>
+            <p>.</p>
+            <p>Cutezi să vorbeşti astfel? Aşteaptă tu! Ce vorbe!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (scoate un junghiu scump cu mâner de aur.) </stage>
+            <p>Răspunsul e întocmar cum se cădea. Aştept!</p>
+            <p>Loveşte, ori atuncea eşti, sfetnice, mişel!</p>
+            <p>SCHOBEL:</p>
+            <p>Auzi cu ce cuvinte se-ndreaptă spre epitrop... Nu da într-însul, doamne, Valahul e nebun.</p>
+            <p>Eu am fugit de dânsul până în colţul stradal! De când l-a prins Satana, e gata de omor.</p>
+            <p>IÎ temniţă cu dânsul. Săriţi! Se varsă sânge!</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (apare) </stage>
+            <p>Mărite doamne, iartă ceia ce ţi-a greşit.</p>
+            <p>Dar, pentru apărarea ta, asta-i spada.</p>
+            <stage> (Întinde hangerul.) </stage>
+            <p>SCHOBEL:</p>
+            <p>Ăsta este hangerul turcesc... Am auzit Că-l ţine fata asta, nebună ca şi dânsul,</p>
+            <p>Noi să plecăm de-aicea!</p>
+            <p>PATER JOSEPH:</p>
+            <p>Domnule, să plecă</p>
+            <p>Unde e nebunie, şi Necuratul este,</p>
+            <p>Şi, dacă nu se duce cu groază înapoi,</p>
+            <p>Noi să fugim de dânsul, care ne pângăreşte.</p>
+            <p>ȘTEFAN:</p>
+            <p>Nu sunt nebun, dar prostul ce-am fost, nu mai pot fi:</p>
+            <p>Știu tot: cine-s părinţii şi dreptul care-mi este Şi am găsit putere să izgonesc beţivi</p>
+            <p>Ca guvernorul ăsta</p>
+            <stage> (râde) </stage>
+            <p>. Şi la orice jignire</p>
+            <p>Voi sta cu arma-n faţa celui ce m-a jignit,</p>
+            <p>Oricare i-ar fi rangul, şi vârsta, şi chemarea.</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Eu am sfârşit. Acesta-i nebun şi criminal. Din ordinul Măriei Sale eşti pus sub pază:</p>
+            <p>De astăzi înainte nu vei ieşi de-aici.</p>
+            <p>Soldaţii se aşteaptă să-şi facă datoria!</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="5">
+        <head>ACTUL al IV-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I -iu</head>
+          <stage>ŞTEFAN, NUNZIATA</stage>
+          <stage>(La fereastra casei lui moş Alois) &lt;/desc.&gt;</stage>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Ce mare e căsuţa în care m-au închis!</p>
+            <p>NUNZIATA:</p>
+            <p>Şi nu-ţi pare mai liber sufletu-n închisoare?</p>
+            <p>ȘTEFAN:</p>
+            <p>Desigur, e mai liber, dar totuşi mai legat...</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (naiv) </stage>
+            <p>Legat? De ce? De cine?</p>
+            <p>ȘTEFAN:</p>
+            <p>De-aş şti, aş rupe lanţul</p>
+            <p>Pe care-l simt. N-am oare o ţintă-n faţa mea?</p>
+            <p>Și nu mă cheamă-n altă lume o datorie?</p>
+            <p>Mai sunt eu oare-acela ce suferea plângând</p>
+            <p>Şi-n suferinţa-i însăşi găsea o mângâiere? Celăalt, care în mine făcu sălaşul său,</p>
+            <p>A izgonit deodată copilăria 'ntreagă, Cu toat' a ei durere si cu tot visul ei,</p>
+            <p>De flori îmbălsămate şi de ceruri albastre.</p>
+            <p>Acum un vultur negru în inima mea stă</p>
+            <p>Şi din aripi loveşte nerăbdător să zboare</p>
+            <p>Şi ciocul lui se-nfige în carnea mea flămând,</p>
+            <p>Şi e atâta crudă plăcere pentru mine</p>
+            <p>În rănile deschise, ce sângeră, încât</p>
+            <p>Mi-aş da viaţa toată numai să-l văd că zboară.</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (în admiraţie) </stage>
+            <p>Ce om din copilaşul plăpând a răsărit,</p>
+            <p>Ce luptător cu setea de-a birui eroic!</p>
+            <p>ȘTEFAN:</p>
+            <p>Îți mai aduci aminte povestea ce-ţi spuneam</p>
+            <p>De Făt-frumos călare pe pasărea măiastră?</p>
+            <p>NUNZIATA:</p>
+            <p>Stătui atâta vreme închisă 'n lumea ta, Încât basmele voastre sunt ca viața-mi însăși:</p>
+            <p>Am tremurat la gândul că zmeii te-or sorbi,</p>
+            <p>Cerut-am ajutorul cel bun al Sfintei Vineri,</p>
+            <p>Şi cu Mama Pădurii la harţă m-aş fi luat</p>
+            <p>Ca să scap de peire pe Făt-frumos,</p>
+            <stage> (şiret.) </stage>
+            <p>Pe tine!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (distrat) </stage>
+            <p>Tu mi-ar fost- totdeauna îngerul păzitor.</p>
+            <p>Ce-aş fi făcut şi fără această ocrotire?</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (visând) </stage>
+            <p>.</p>
+            <p>Şi câteodată parcă aş vrea să fiu mar mult...</p>
+            <p>ȘTEFAN:</p>
+            <p>Să mă întorc 1a vorba noastră cea din poveste. Departe vrea s-ajungă zoritul Făt-frumos,</p>
+            <p>Şi prin văzduh i-i calea spre celelalte ţărmuri.</p>
+            <p>Pe aripa ei largă pajerea l-ar primi,</p>
+            <p>Dar îi lipseşte hrana cea proaspătă de carne,</p>
+            <p>Dacă pe spate poartă grăbitul călător.</p>
+            <p>Şi-atunci el strânge hrană multă, pe drum să-i ţie,</p>
+            <p>Dar, când vede în preajmă-i cetatea de argint</p>
+            <p>A visurilor sale, s-a isprăvit tot viptul</p>
+            <p>Şi pasărea uriaşă a foame ţipă lung: Atunci el ia cuţitul şi fără milă taie</p>
+            <p>Din trupul său, şi astfel ajunge 'nsângerat Pe culmile spre care a fost menit s-ajungă.</p>
+            <p>NUNZIATA:</p>
+            <p>O, ce viteaz!</p>
+            <p>ȘTEFAN:</p>
+            <p>Desigur viteaz; suntem datori</p>
+            <p>A fi viteji ca dânsul în drumul spre cetate.</p>
+            <p>Desfăşură-ţi aripa, pajera: ţi-am gătit</p>
+            <p>Hrană îndelungată din trup ca şi din suflet.</p>
+            <p>Desfăşură-ţi aripa cea neagră, să zburăm!</p>
+            <p>NUNZIATA:</p>
+            <p>Și voi privi cum zborul te ia spre cele 'nalte,</p>
+            <p>Sus, tot mai sus, şi-n ceruri te vei pierde zburând,</p>
+            <p>Lăsând o picătură de sânge amintire...</p>
+            <p>Că ai mai fost aice, se va fi şi uitat...</p>
+            <p>Și-atunci va fi tăcere în casa lui Alois,</p>
+            <p>Și linişte şi pace, 'Ca 'ntr-un mormânt pustiu,</p>
+            <p>Pe când sus, în cetatea de-argint, va fi intrarea</p>
+            <p>Lui Făt-frumos în slavă şi cântec de triumf.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (încurcat) </stage>
+            <p>Ce să vorbim de-acestea ce poate n-or să fie?... Cine-a 'mpărţit amarul mai mult, va lua mai mult</p>
+            <p>Din bucuria care s-a câştigat printr-însul!</p>
+          </sp>
+          <sp who="#nunziata">
+            <speaker>NUNZIATA</speaker>
+            <stage> (speriată) </stage>
+            <p>Visul de altă dată... ceasul însângerat... Jertfa cea bucuroasă în ceasu 'ncununării...</p>
+            <p>ȘTEFAN:</p>
+            <p>Un vis... Cine gândeşte prea mult la visul lui,</p>
+            <p>Nu va trăi de viaţa celor adevărate.</p>
+            <stage> (râde silit.) </stage>
+            <p>Dar a gândi la astfel de lucruri ,a nebunie...</p>
+            <p>Eu sunt un prins, şi-aceasta este temniţa mea,</p>
+            <p>Cu-o pasăre zglobie ce la zăbrele-mi cântă,</p>
+            <p>O, păsărică mică, viers dulce-sunător!</p>
+            <stage> (vrea s-o îmbrăţişeze. Ea se dă în lături.) </stage>
+            <p>De ce fugi tu, aceea care te temi de fugă?</p>
+            <p>Oare n-am stat alături ca doi fraţi iubitori,</p>
+            <p>În umbra sur' a serii, cântând arii de munte?</p>
+            <p>NUNZIATA:</p>
+            <p>Cântând arii de munte în umbra sur' a serii!</p>
+            <p>ȘTEFAN:</p>
+            <p>Şi soarele se pierde arzând în focul lui.</p>
+            <p>Vezi în fund o steluţă albă cum îndrăzneşte</p>
+            <p>Să se înfăţişeze privirilor clipind?</p>
+            <p>NUNZIATA:</p>
+            <p>Puţin va trece încă, şi-apusul se va stinge,</p>
+            <p>Iar steaua luminoasă va 'nainta încet, Prin fiecare rază dând binecuvântare...</p>
+            <p>Ce mândru, Împărate soare, ai fost şi-i fi,</p>
+            <p>Dar fără mângâierea stelei ce-aş face, Doamne!</p>
+            <p>ȘTEFAN:</p>
+            <p>Nunziato, ştii tu oare ce spui?</p>
+            <p>NUNZIATA:</p>
+            <p>Ştiu şi nu ştiu.</p>
+            <p>Ce se aude-n ceasul acesta-i glasul nostru?</p>
+            <p>Şi ce se vede oare, :suntem noi?</p>
+            <stage> (se uită lung la dânsul) </stage>
+            <p>.</p>
+            <p>Ca un înger Eşti, Ştefane, cu ochii albaştri, părul blond,</p>
+            <p>Şi faţa ta atâta de albă, Heruvime,</p>
+            <p>Sărut fruntea pe care-i un gând dumnezeiesc.</p>
+            <stage> (ÎI sărută. El tresare şi, întorcând sărutarea.) </stage>
+            <p>ȘTEFAN:</p>
+            <p>Să fie-acesta lanţul care-mi opreşte zborul?</p>
+            <stage> (Bătaie în uşă.) </stage>
+            <p>Oaspeţi Ia mine? Oare nu sunt întemniţat? Intră, o, tu acela care-ai dorit de mine!</p>
+            <stage> (Nunziata se ascunde.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ŞTEFAN, WOLKENSTEIN, GHEORGHE HATMANUL</stage>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (ironic) </stage>
+            <p>A, bunul meu epitrop!</p>
+            <p>Ce vânt mi te-a adus?</p>
+            <p>Venit-ai ca să afli de-s viu în închisoare,</p>
+            <p>Ori de m-am dus în ceruri să spun ce-am câștigat</p>
+            <p>De la prea-învăţatul Pater Joseph din Innsbruck?</p>
+            <p>Aducr poate osânda morţii asupra mea?</p>
+            <p>Cu clauza că toată averea se confiscă Pentru nobilii care au multe datortii,</p>
+            <p>Pentru cucernici preoţi şi dascăli iubitori</p>
+            <p>Și pentru bietul Schobel, ca să nu răguşească?</p>
+            <p>WOLKENSTEIN:</p>
+            <p>N-am fost şi nu sunt alta decât un credincios Supus al celui care aicea hotăreşte.</p>
+            <p>Mi-a poruncit odată să rânduiesc străjeri</p>
+            <p>Să fac cu neputinţă legături tăinuite,</p>
+            <p>Să pedepsesc pe-acela care nu asculta, Făcut-am după ordin. Acum am o menire</p>
+            <p>Dată de-acela care este aice Domn,</p>
+            <p>Mult mai plăcută mie şi mult mai fericită Pentru 'Nălțimea Voastră.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (uimit) </stage>
+            <p>Cum zicl, scumpe tutor?</p>
+            <p>Este aici vreunul ce stă la înălţime?</p>
+            <p>Eu sunt, cum ştiţi cu toţii, numai un biet copil, Orfan şi fără rude, ţinut doară din milă</p>
+            <p>De domnul archiduce, Măria Sa; Valah, Ţigan uitat pe drumuri în rătăcirea lui; Nu e al meu nimica: nici haina ce o port,</p>
+            <p>Nici pâinea aruncată ca o pomană mie</p>
+            <p>Şi nici chiar acest nume ce mi 1-aţi dăruit</p>
+            <p>Ca să nu trec nemernic pe drumurile lumii</p>
+            <p>Ori nu răspunil nimica, nobile domn?</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Răspund</p>
+            <p>Că în cartea pe care-am primit-o de la Curte, E scris :</p>
+            <p>,,Ştefan feciorul lui Petru care-a fost</p>
+            <p>Cu drept de moştenire priucipe al Moldovei, Precum şi, înnainte, al Ţării-Româneşti”,</p>
+            <p>Şi recunosc tot ceea ce Curtea recunoaşte.</p>
+            <p>ŞTEFAN:</p>
+            <p>Înlocuiţl la uşă lanţul cel ruginit</p>
+            <p>Cu lanţul cel de aur care pe prinţii îl leagă,</p>
+            <p>Şi puneţi să păzească un Mare-Temnicer,</p>
+            <p>Care cu înălţimea Mea să se potrivească.</p>
+            <p>Ori poate că acesta</p>
+            <stage> (arată la Gheorghe Hatmanul) </stage>
+            <p>e noul</p>
+            <p>dregător</p>
+            <p>Al Curţii din Moldova şi Ţara-Românească?</p>
+          </sp>
+          <sp who="#gheorghe_hatmanul">
+            <speaker>GHEORGHE HATMANUL</speaker>
+            <stage> (mișcat) </stage>
+            <p>.</p>
+            <p>Am fost Hatman Moldovei, Măria Ta!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (uimit) </stage>
+            <p>.</p>
+            <p>Tu?</p>
+          </sp>
+          <sp who="#gheorghe_hatmanul">
+            <speaker>GHEORGHE HATMANUL</speaker>
+            <stage> (înaintând spre dânsul cu braţele deschise) </stage>
+            <p>.</p>
+            <p>Eu! Şi răposatul Petru fu frate mamei mele.</p>
+            <p>Şi-am fost şi eu cu dânsul chiar până la sfârşit!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (cu sine însuşi) </stage>
+            <p>.</p>
+            <p>Se-ntorc din groapă morţii, ori eu visez?</p>
+            <p>O, Doamne! De eşti o umbră, du-te de unde ai venit;</p>
+            <p>E mai caldă ţărâna ta decât lumea asta,</p>
+            <p>Şi ai văzut în fundul mormântului mai mult Soare decât acela al tinereţii mele.</p>
+            <stage> (Către Wolkenstein:) </stage>
+            <p>Să se curme odată acest joc ticălos:</p>
+            <p>Ia-ți umbrele cu tine și du-te la Satana!</p>
+            <p>'	'</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Împacă-te cu gândul că jalea-ţi s-a sfârşit.</p>
+            <p>Sunt viu, eu cela care te-am fost purtat pe braţe</p>
+            <p>Şi cu al cărui nume pornit-a a vorbi</p>
+            <p>În casa cea bătrânăd, e plopi încunjurată.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (visând) </stage>
+            <p>.</p>
+            <p>Aud cum sună plopii în noapte, prevestind Nenorociri şi moarte şi umilinţă lungă.</p>
+            <stage> (Ca trezit) </stage>
+            <p>Tu eşti Hatmanul Gheorghe?</p>
+            <p>Cu ce mi-o dovedeşti?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Cu faţa, -	şi cu ochii, -	cu glasul, -	şi cu-acest Inel ce-a fost pe mâna lui Petru-Vodă însuşi Până-n clipa din urmă, când te-a încredinţat Acelora pe care i-a risipit furtuna,</p>
+            <p>Lăsându-te pe lume orfan şi părăsit.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (zguduit) </stage>
+            <p>.</p>
+            <p>Da, e solia care tatăl meu o trimete.</p>
+            <stage> (Sărută inelul) </stage>
+            <p>Și, spune tu, de unde mi te-ai întors pribeag? Mai este o Moldovă şi-un Domn creştin într-însa?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Este, şi Domnul nostru-ţi doreşte sănătate.</p>
+            <p>ȘTEFAN:</p>
+            <p>Și de pe ce meleaguri la vor a rătăcit. Acela care ţine în mână schiptrul tatel,</p>
+            <p>Pe când eu stau sub pază, uitat între străini?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Oare numai pe-aice vestea n-a răzbătut De Voevodul care prin vraja biruinţei</p>
+            <p>Din Ţara-Românească luă Scaun în Ardeal, Puind pe drum de fugă a nemeşilor turmă</p>
+            <p>Şi ridicând movila sus peste cel ucişi</p>
+            <p>Cu ajutorul Celui ce nu uită dreptatea,</p>
+            <p>Și-acuma în Suceava, de unde a gonit Pe Vodă Ieremia, a Leşilor unealtă,</p>
+            <p>Stă de se odihneşte din zborul lui înalt</p>
+            <p>Ca să pornească iarăşi spre alte zări de pradă?</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (curios) </stage>
+            <p>Şi le-a făcut acestea toate un Domn valah? Vezi, Wolkenstein, ce poate să facă Ţigănimea?</p>
+            <stage> (către Gheorghe Hatmanul) </stage>
+            <p>Şi-acum te duci, desigur... Vin alte biruinți</p>
+            <p>Îţi caută în ele partea ce se cuvine...</p>
+            <p>Eu n-am aripi. Mi-s frânte din leagăn... Mi le-au rupt.</p>
+            <stage> (arată către Wolkenstein) </stage>
+            <p>Unul cum e acesta, şi popi, şi răi prieteni!</p>
+            <p>Nu pierde vremea, pleacă... Şi du-i acelui Domn... Cum îl numiţi pe omul sumeţ?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Mihai Viteazul!</p>
+            <p>ȘTEFAN:</p>
+            <p>Du lui Mihai Viteazul şi acest vechiu hanger Acest surguciu, aceste copce de nestimate</p>
+            <p>Şi acest lanţ de aur cu left...Ce să fac eu</p>
+            <p>Cu-astfel de rămășite ale măririi noastre?</p>
+            <p>'  l</p>
+            <stage> (le desface) </stage>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Păstrează-le, Măria Ta, Doamne, căci eşti Domn... Mihai îţi recunoaşte dreptul de moştenire</p>
+            <p>Şi, izgonind pe-aceia ce nu erau chemaţi,</p>
+            <p>El este gata-n locul de cinste să te-aşeze Ca să domneşti şi până la bătrîneţe-adânci</p>
+            <p>După înaintaşir tăi din acelaşi sânge.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (nesigur) </stage>
+            <p>Glumeşti, Hatmane Gheorghe, ori e un adevăr Chemarea care-mi vine prin glasul tău prieten?</p>
+            <stage> (hotărât.) </stage>
+            <p>Păzeşte-te de glume! Am suferit destul De pe urma acelor care glumeau cu mine!</p>
+            <p>Zi drept : ai tu poruncă de a-mi vorbi astfel ?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Aceasta e scrisoarea lui Vodă-Mihar însuşi, Pecetea lui cea mare te va încredinţa.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (ruşinat) </stage>
+            <p>Dar n-am văzut pecetea lui Vodă niciodată,</p>
+            <p>Şi slova românească nu pot s-o înţeleg, - Căci am ajuns aice străin de ale noastre!</p>
+            <p>Ştii, Hatmane, ce groaznic e să mă zic străin? M-ar blăstămă părinţii din groapa lor uitată!</p>
+            <stage> (cu îndoială.) </stage>
+            <p>Şi-n adevăr voinicul de care mi-ar vorbit Adusu-şi-a aminte de-un rătăcit ca mine,</p>
+            <p>Şi ar venit aice spre a-mi fi călăuz</p>
+            <p>Către Moldova noastră... O, ce departe-mi pare!</p>
+            <p>Socot că niciodată nu voi  putea s-ajung.</p>
+            <p>Şi, de-aş ajunge, cine din vor m-ar recunoaşte?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Să ascultăm cuvântul Domnului mai întâi.</p>
+            <p>,,Ştefane al lui Petru-Vodă, moştean Moldovei.</p>
+            <p>Îţi scriem cu iubire eu, Vodă-Mihail,</p>
+            <p>Şi te poftim acasă, în stăpânirea veche, Unde te-aşteaptă lumea de-atâţia ani să vii,</p>
+            <p>Iar tu rămâi acolo între străini, departe.</p>
+            <p>Ci scoală-te şi vină, căci drumul ţi-i deschis</p>
+            <p>Şi prin sabia noastră ţi s-au răpus vrăjmaşii,</p>
+            <p>Şi nu râvnim la Scaun străin: gândul ne e</p>
+            <p>Să biruim şi alte ţări cu oştirea noastră,</p>
+            <p>Unde sunt domni puternicr, sumeţi şi mândri Crai,</p>
+            <p>Până unde e voia lui Dumnezeu să mergem.</p>
+            <p>Iar tu stai în Suceava, ca fiul nostru drept,</p>
+            <p>Şi noi ca un părinte te vom feri de rele.</p>
+            <p>Iar, despre celelalte mai tainice, acest Boier al țării noastre si Hatman îti vorbeste.”</p>
+            <p>Ci să pornim, o, Doamne, cât mar curând de-aici!</p>
+            <p>WOLKENSTEIN:</p>
+            <p>Puteţi porni. Măritul nostru domn arhiduce</p>
+            <p>A luat la cunoştinţă poftirea lui Mihai,</p>
+            <p>A căruia credinţă-i este dovedită,</p>
+            <p>Fiind în slujba Curţii. un vrednic căpitan;</p>
+            <p>Şi el se învoieşte să-ţi cauţi moştenirea, Încredinţat că ceea ce a fost între noi, Învăţătură, sfaturi şi lege creştinească,</p>
+            <p>Nu le-i uita acolo unde vei stăpâni, Ci-i rămânea şi-acolo supus Împărăţiei.</p>
+            <p>ȘTEFAN:</p>
+            <p>Pentru îngăduinţă sunt recunoscător</p>
+            <p>Măriei Sale: fapta îi este milostivă:</p>
+            <p>Mă voi ruga să-i fie Domnia 'ntru mulţi ani!</p>
+            <p>Şi-atâta bucurie mi s-a lăsat pe suflet,</p>
+            <p>Încât nu vreau în urmă niciun duşman să las,</p>
+            <p>Şi iert pe toţi aceia care şi-au râs de mine.</p>
+            <p>Pater Joseph desigur numai bine mi-a vrut,</p>
+            <p>Și Schobel avea doară năravuri din născare... Plec singur cu acesta ce-mi va griji de drum</p>
+            <p>Averea mea întreagă săracili să şi-o ieie!</p>
+            <stage> (Se aude o mişcare la uşă.) </stage>
+            <p>WOLKENSTEIN:</p>
+            <p>Poate-am avut un martur la ceea ce-am vorbit?</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (stăpânindu-se) </stage>
+            <p>Nu, dar casa e veche, şi zgomote ciudate</p>
+            <p>S-aud în faptul serii de la acei ce-au fost...</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Pe cei ce-au fost, să-i ierte Domnul pentru greşale, Acuma, Doamne, vine taina ce ţi-a vestit</p>
+            <p>Mihai în cartea care poftirea o cuprinde:</p>
+            <p>-Ca semn de osebită dragoste, ca un lanţ Între ale lui putere şi 'ntre a ta dreptate</p>
+            <p>A hotărît să-ţi deie soţie fata lui,</p>
+            <stage> (scoate un left cu lanţ de aur.) </stage>
+            <p>Pe singura lui fată, frumoasă şi cuminte;</p>
+            <p>Aceasta e Florica Domniţa.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (în luptă cu sine) </stage>
+            <p>Soţul el Să fiu? A, iată carul cu roata-nsângerată...</p>
+            <p>Scăpaţi pe cine zace sfărmată pe pământ, Scăpaţi-o! Aşa suflet n-a mal trăit pe lume!</p>
+            <stage> (se opreşte.) </stage>
+            <p>Şi pasărea se 'nalţă, i-i foame... Cere vipt</p>
+            <p>Din carnea mea... Așteaptă... O dau... Oprește-ţi zborul!</p>
+            <p>S-a isprăvit! O, Doamne, iartă-mă... ce-am făcut!</p>
+            <stage> (tare) </stage>
+            <p>Mă-nchin, frumoasă fată de mândru Voevod,</p>
+            <p>Pe care mi-o îmbie slăvitul tău părinte,</p>
+            <p>Şi pentru mine este o cinste să ajung</p>
+            <p>În legături cu Casa de 'naltă obârșie!</p>
+            <stage> (Se aude un strigăt: un trup cade.) </stage>
+            <p>WOLKENSTEIN:</p>
+            <p>S-a auzit un ţipet. Aici e cineva!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (silindu-se a fi nepăsător) </stage>
+            <p>Sunt umbre dureroase care se plâng în noapte.</p>
+            <p>Mi-i luată hotărârea: primesc și vă	urmez.</p>
+            <stage> (Ies toţi; apare Moș Alois, dând într-o parte perdeaua lângă care zace Nunziata, cu deznădejde.) </stage>
+            <p>O, voi, domni mari ai lumii, de ce mi-aţi ucis fata?</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="6">
+        <head>ACTUL al V -lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-i</head>
+          <stage>ŞTEFAN, GHEORGHE HATMANUL</stage>
+          <stage>(O odaie în castelul din Innsbruck. Se face ziuă.)</stage>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (bolnav şi obosit) </stage>
+            <p>Ah, pajerea aceasta care nu vrea să zboare...</p>
+            <p>Şi eu i-am dat din carnea mea, ba i-am dat mai mult...</p>
+            <p>O, mult i-am dat acestei drumeţe prin văzduhuri!</p>
+            <stage> (Ca în vis) </stage>
+            <p>Se face ziuă... Doamne sfinte, îţi mulţămesc</p>
+            <p>C-ai ridicat perdeaua cea neagră de pe mintea-mi. Gheorghe, deschide uşa, fereastra...</p>
+            <p>Nu le vezi</p>
+            <p>Cum se zbat în grămadă umbrele dureroase?... Râvnesc către lumină, aşa cum eu râvnesc Către dreptatea care nu pot a o atinge...</p>
+            <p>Tată, cu câtă milă bătrânii ochi privesc</p>
+            <p>La fiul tău pe care s-a coborât o rază.</p>
+            <p>De ce mâna ta albă, mamă, îmi face semn?</p>
+            <p>Este vreo taină care mi-a fost rămas ascunsă? Pe drumul vieţii nouă ai să-mi dai un îndemn? Vorbeşte, de ce mută stă buza ta subţire?...</p>
+            <p>Ce Curte lungă-n urmă, o, ce frumos alai! Dar de ce în tăcere vă strecuraţi,  prieteni, Boieri ai ţării mele, clerici, ostaşi, ţărani?</p>
+            <p>Cine v-a pus pe gură pecetea fermecată?...</p>
+            <stage> (stă o clipă în tăcere privind spre fereşti.) </stage>
+            <p>Şi unul câte unul s-au împrăştiat ca neguri... Veşmintele lor albe pe dealuri se târăsc,</p>
+            <p>Topindu-se de raza soarelui ce răsare.... Ce mare e odaia, acum când s-au dus toţi</p>
+            <p>De aş putea să aflu o clipă de hodină După grozava noapte în care m-am luptat</p>
+            <p>Eu, încă vu, cu-aceia ce se trudesc în moarte..</p>
+            <stage> (Se îndreaptă spre pat.) </stage>
+            <p>Sicriu din care trupul răsare zi de zi Pentru strălucitoarea momeală a vieții</p>
+            <p>După împărtăşirea cu ce a fost şi nu-i, Lăcaş în care gândul întreg se dă învins</p>
+            <p>Și se face nimica toată puterea noastră, Primeşte-mă o clipă şi-mi dă răgaz de chin...</p>
+            <p>Cu obosite pasuri eu dibuiesc spre tine.</p>
+            <stage> (Se opreşte îngrozit, cu un strigăt.) </stage>
+            <p>E cineva aicea... Poartă un alb veşmânt</p>
+            <p>Și ca o floare roşă, pe sân are o pată.</p>
+            <p>Sunt ucigaş eu, Doamne, sunt eu un ucigaş?</p>
+            <stage> (cu capu-n mâini; îl ridică încet.) </stage>
+            <p>Pe frunte ai beteală de veselă mireasă</p>
+            <p>Și pe faţă un zâmbet blând a încremenit,</p>
+            <p>Și părul tău de aur e revărsat în valuri...</p>
+            <p>Tu, -	numele tău dulce cum l-aş putea rosti?</p>
+            <p>Tu, iartă-mă!... Acestea au fost mai tari ca mine!...</p>
+            <p>O, pajerea grozavă auzi cum strigă sus?</p>
+            <p>I-am dat, te-am dat... Ce jertfă de  sânge îmi mai cere?...</p>
+            <p>O, nu zbura, sunt gata să dau tot ce mai am,</p>
+            <p>Să-ţi satur lăcomia c-un ultim strop de sânge...</p>
+            <stage> (se ridică din genunchi. ) </stage>
+            <p>Cine-a vorbit de sânge aici, cine-a ucis?</p>
+            <p>Şi care este jertfa ce a căzut lovită?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Măria Ta, mă iartă, Ştefane, copil drag, Lasă închipuirea ce te înebuneşte, Întoarce-te în lumea noastră de pe pământ,</p>
+            <p>Unde găseşti lumină, iubire, mângâiere...</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (ca şi 'nainte) </stage>
+            <p>Când va sfârşi odată clopotul de sunat?</p>
+            <p>Văzduhu-ntreg se mişcă de plânset pentru tine...</p>
+            <p>Da, eu sunt ucigaşul, dar n-am vrut s-o ucid!</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Măria Ta, mai este o lume, lumea noastră: Eşti Domn, şi te aşteaptă o ţară s-o îndrepţi;</p>
+            <p>Te-aşteaptă mii de oameni ce nu ştiu bucuria...</p>
+            <p>Robi Turcilor şi pradă la Jidovi şi la Greci;</p>
+            <p>Nu ştii ce suferinţă se plânge în Moldova...</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (trezindu-se) </stage>
+            <p>.</p>
+            <p>Se plânge-o suferinţă, şi o pot ajuta?</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Poţi mântui întreaga suflare românească. Eşti de înaltă viţă, eşti tânăr şi eşti bun!</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (sarcastic) </stage>
+            <p>.</p>
+            <p>Eu bun, -	şi de pe mâna mea crudă curge sânge..,</p>
+          </sp>
+          <sp who="#gheorghe_hatmanul">
+            <speaker>GHEORGHE HATMANUL</speaker>
+            <stage> (hotărât) </stage>
+            <p>Nu! Cu încredinţare-ţi spun, nu, -	tu n-ai ucis!</p>
+            <p>Ci ai jertfit Moldovei fericirea-ţi întreagă</p>
+            <p>Cum viaţa ta întreagă Moldovei i-o jertfeşti.</p>
+          </sp>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <stage> (foarte mişcat) </stage>
+            <p>Gheorghe, mar spune-odată ce-ai spus...</p>
+            <p>Mar spune-odată!</p>
+            <p>Da, am voit Moldovei să-i fiu de ajutor,</p>
+            <p>Și straşnicele lucruri s-au întâmplat de-aceea...</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Fii liniştit..., adună puterile-ţi întregi, Găteşte-te de drumul spre marea-ţi datorie.</p>
+            <p>Nici nu gîndeşti ce ţară-i acolo şi ce neam!</p>
+            <p>Păduri fără de capăt, cu cerbi şi urşi în ele, Poiene înflorite ca un sălbatec rai,</p>
+            <p>Ape care se-ngână în tremurat de unde, Ogoare-mbelşugate, iazuri, prisăci de-albini O lungă primăvară şi-o sfântă iarnă albă.</p>
+            <p>Din loc în loc se 'nalţă bătrâne mânăstiri, În care dorm strămoşii mândri-ai Măriei Tale;</p>
+            <p>Şi ziduri de cetate, de unde au luptat</p>
+            <p>Cu neamurile lumii pornite să-l distrugă...</p>
+            <p>La Putna e mormântul celur ce s-a numit</p>
+            <p>Ca tine şi se zice Ştefan-Vodă cel Mare. Atârnă în firidă o candelă. de-argint,</p>
+            <p>Şi de ani mulţi cu dânsa se face o minune:</p>
+            <p>În clip-n care ţara Turcului s-a robit,</p>
+            <p>Lumina ei năprasnic s-a stins... Preoţi, egumeni,</p>
+            <p>Vlădici şi Domni de-atâtea ori s-au tot străduit</p>
+            <p>Ca să aprindă iarăși candela pomenirii,</p>
+            <p>Şi pân acum nimeni n-a izbutit. Şi, când</p>
+            <p>Ţi-au dat numele celui care doarme acolo,</p>
+            <p>Noriam hrănit nădejdea că iarăși va veni Ceasul să licărească lumina de la Putna!</p>
+            <p>ȘTEFAN:</p>
+            <p>O, de-aş avea puterea să înviez ce-a fost!</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Să înviezi, aceasta este dorinţa noastră....</p>
+            <p>Nu cerem lucruri nouă, ci numai ce-am avut: Acelaşi e pământul de bunăcuvântare,</p>
+            <p>Şi oamenii aceiaşi sunt, ca nişte stejari, Cu-adâncă rădăcină de muncă şi credinţă, Cu dreaptă înălţare şi cu avânt spre cer. Şi ne rugăm şi astăzi în sfintele biserici.</p>
+            <p>Şi-atunci Moldova noastră de ce s-a umilit?</p>
+            <p>De ce nu se ridică spre cinstea ce-a avut-o?</p>
+            <p>ȘTEFAN:</p>
+            <p>Tu ştii mai bine, Gheorghe, deşi nu vrei s-o spui: Pentru că nu-i cârmaciul care să taie valul...</p>
+            <stage> (după o clipă de gândire) </stage>
+            <p>Aş fi vrut eu acela să fiu, şi-oi încerca,</p>
+            <p>De-ar fi să-mi dau şi viaţa pentru această faptă, - Dar mâinile mi-s rupte, şi sunt rănit aici.</p>
+            <stage> (arată inima.) </stage>
+            <p>Dar ce are a face! Soarta să se-mplinească!</p>
+            <p>(S-aud trâmbiţi, strigăte bucuroase de mulţime; clopote pornesc</p>
+            <p>să sune.)</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Auzi? Ce bucurie mişcă acest oraş?</p>
+            <p>ȘTEFAN:</p>
+            <p>Vreo biruinţă poate asupra păgânimii!</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Ajută, Doamne sfinte, pe cei ce se jertfesc</p>
+            <p>Spre-a da Creştinătăţii pace şi fericire!</p>
+            <p>Ne-om ridica atuncea şi noi, şi vom fi vii!</p>
+            <p>ȘTEFAN:</p>
+            <p>Să alergăm! Mă-ndeamnă ceva să merg acolo. Este o biruinţă, dar e ceva mai mult:</p>
+            <p>Simt că viaţar-mi toată de acest ceas atârnă. Mă arde nerăbdarea... Puteri de neînvins</p>
+            <p>Mă prigonesc din urmă... Gheorghe, să mergem, vere!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>MULŢIME, UN PURTĂTOR DE STEAG, CEI DE SUS</stage>
+          <sp who="#stefan">
+            <speaker>ȘTEFAN</speaker>
+            <p>Pe duşmanii Măriei Sale i-aţi biruit</p>
+            <p>Aţi dat Creştinătăţii cinste şi apărare? Fugit-au înaintea voastră Turcii mişei?</p>
+            <p>UNUL DIN MULŢIME:</p>
+            <p>Cu ajutorul Maicei Domnului milostive</p>
+            <p>S-a sfărâmat o oaste întreagă.</p>
+            <p>UN ALTUL:</p>
+            <p>Au pierit</p>
+            <p>Zece mii din ostaşii sălbatici...</p>
+            <p>UN AL TREILEA:</p>
+            <p>Prada-i mare,</p>
+            <p>Și steagurile toate în mâna noastră sunt.</p>
+            <p>UN OSTAŞ:</p>
+            <p>Rămas-a numai unul: ni l-a furat prin fugă</p>
+            <p>Acel care şi-n clipa căderii ne-nfrunta, Acela care singur n-a fost învins în luptă,</p>
+            <p>Ci a pornit cu Duhul cel Rău ocrotitor Spre locul unde Dracul şi-a înţercat copiii.</p>
+            <p>ȘTEFAN:</p>
+            <p>Și nu s-a găsit nimeni să-i deie capul jos?</p>
+            <p>OSTAŞUL:</p>
+            <p>Eşti îndrăzneţ, o, tânăr Domn ce visezi de oaste!</p>
+            <p>O FEMEIE:</p>
+            <p>Și ce frumos îi şade când se rosteşte-astfel!</p>
+            <p>ALTA:</p>
+            <p>Dar ce plăpând e! Pare că stă să-nchidă ochii.</p>
+            <p>A TREIA:</p>
+            <p>Ferească sfântul! Ţine-l, Isuse, întru mulţi ani!</p>
+            <p>OSTAŞUL:</p>
+            <p>Să mergem înainte, căci se aduce steagul!</p>
+            <p>ȘTEFAN:</p>
+            <p>O, tu, semn al credinţei şi-al gloriei, ce duci</p>
+            <p>În ceasul când întreagă soarta se hotărăşte,</p>
+            <p>Mii de ostaşi spre duşman, pe vaduri şi spre culmi,</p>
+            <p>În soarele de vară şi-n nopţile geroase,</p>
+            <p>Prin vâjâit de gloanţe şi prin desiş de suliţi,</p>
+            <p>Și-n sângele cel tânăr scăldat, întinereşti,</p>
+            <p>Te văd întâiaşi dată, te văd prins, şi spre tine Tot sufletu-mi se înalţă, se-nchină râvnitor.</p>
+            <p>O, cum se scaldă-n soare pajerea cea de aur!</p>
+          </sp>
+          <sp who="#gheorghe_hatmanul">
+            <speaker>GHEORGHE HATMANUL</speaker>
+            <stage> (îngrozit) </stage>
+            <p>Doamne sfinte! Eu steagul acesta îl cunosc... Doar l-am ţinut în mână deunăzu! E al nostru!</p>
+            <stage> (cu durere.) </stage>
+            <p>OSTAŞUL:</p>
+            <p>Da, e steagul Moldover, şi l-a pierdut Mihai,</p>
+            <p>Ce se zicea că este Craiul ţării ardelene...</p>
+            <p>GHEORGHE HATMANUL:</p>
+            <p>Mihai, în care luptă?</p>
+            <p>OSTAŞUL:</p>
+            <p>De-acolo ne-am întors.</p>
+            <p>La Mirislău întreaga oaste-i fu nimicită,</p>
+            <p>Și Ieremia ţine Suceava, între Leşi,</p>
+            <p>Păzit de Turcii care au Dunărea întreagă!</p>
+            <p>ȘTEFAN:</p>
+            <p>În lături, toţi... Sunt Ștefan Valahul! Înapoi...</p>
+            <stage> (se dau toţi în lături, cu uimire.) </stage>
+            <p>O clipă numai steagul să-l văd... Numai o clipă:...</p>
+            <stage> (Îngenunche, un murmur de milă trece prin mulţime.) </stage>
+            <p>UN GLAS:</p>
+            <p>Ce este?</p>
+            <p>ALTUL:</p>
+            <p>Un domn tânăr care-a căzut...</p>
+            <p>AL TREILEA:</p>
+            <p>Păcat!</p>
+            <p>OSTAŞUL:</p>
+            <p>Să mergem înainte!</p>
+            <p>UN GLAS DIN MULŢIME:</p>
+            <p>Nu, staţi. Vrea să vorbească!</p>
+            <p>ȘTEFAN:</p>
+            <p>Decr tu eşti steagul care-ar plutit peste ai mei,</p>
+            <p>În aerul acelor Ţinuturi mult dorite!</p>
+            <p>Văd bourul cu steaua 'ntre coarne... Steaua mea S-a stins... În urmă moarte, şi-n faţa mea ruşine... Prăpastie se taie sub paşii mei cei slabi,</p>
+            <p>În roșia lumină apus-a viitorul...</p>
+            <p>Lăsaţi-mă..., voi, mândri, voioşi biruitori,</p>
+            <p>Să mar privesc o dată mătasea cea rănită</p>
+            <p>De gloanţe şi scăldată în sânge ca al meu...</p>
+            <p>Te aşteptam de multă vreme, o, giulgiu de cinste,</p>
+            <p>Şi, de-a fost scris ca moartea s-o am fără războiu,</p>
+            <p>Măcar mă înfășoare steagul în clipa morţii!</p>
+            <stage> (Se ridică o ultimă oară.) </stage>
+            <p>Căci dorul ţării mele aicea m-a adus,</p>
+            <p>Şi mă sfârşesc cu gândul către Moldova noastră!</p>
+          </sp>
+          <sp who="#archiducele_ferdinand">
+            <speaker>ARCHIDUCELE FERDINAND</speaker>
+            <stage> (apare pe scara palatului) </stage>
+            <p>Cu-acest steag să se ducă băiatul în mormânt</p>
+            <p>Ca să-i fie ușoară ţărâna de pe dânsul!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

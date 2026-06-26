@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000040" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Barbu Lăutariul</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Barbu_Lăutarul">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1854">
+            <desc>1854</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="barbu" sex="MALE">
+            <persName>BARBU</persName>
+          </person>
+          <person xml:id="un_glas">
+            <persName>UN GLAS</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000040"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Barbu Lăutariul</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>BARBU</role>
+          <roleDesc>lăutar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>UN GLAS</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>UN GLAS:  (dintre culise)  Lipsiți de-aici, balaurilor!</stage>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Ian lasă, jupîne vataje! Așa să trăiești, că boieriu ne-o chemat să-i cîntăm de ziua lui!</p>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Minciuni! boieriului nu-i plac țîrliiturile țigănești! Hai, cărați-vă!</p>
+            <stage> (Lăutarii se opresc.) </stage>
+          </sp>
+          <stage>BARBU:  (deschizînd ușa cu sfială)  Dee!… Dacă eu sînt Barbu lăutariu, cunoscut în toată țara Moldovii… cum o să mă dai afară?… Mai stăi să grăiesc două vorbe cu boieriu!  (întră și-și scoate ișlicul.)  Iaca!… Aice-i adunare mare I și adunare fără Barbu, starostele de lăutari, nu se poate!  (Se închină publicului.)  Așa-i, boieri d-voastră, că nu vă lasă inima să mă dați pe scări, pe mine, Barbu cel bătrîn, care am cîntat la nunțile și la mesele părinților d-voastră?  (Întorcîndu-se spre ușă.)  Ei! apoi ce mai dîrdîiește guleratu cel de ciocoi?  (Cheamă doi scripcari și un lăutar cu naiul.)  Veniți încoace, măi, cei cu scripcele și cu naiu, iar cei cu trîmbițele să meargă la paharnieu Surdulea!…  (întră lăutarii.)  Doamne sfinte și părinte!… În ce vremi am mai ajuns!… Înainte mă ruga să merg pe la casele boierești, și acum mi se mucezește cobza sub beniș!… Cine ar zice, văzîndu-mă, că eu am fost lăutarul domnilor!… Hei!… hei!…  (Cîntă:)</stage>
+          <stage>(Cîntec vechi)</stage>
+          <stage>(Cîntic vechi însoțit de lăutari)</stage>
+          <stage>(Cîntec vechi)</stage>
+          <stage>(Arie din „Rigoletto”: „La donna e mobile”)</stage>
+          <stage>(Toți lăutarii pornesc cu pas iute de încungiură salonul, sunînd o horă. Barbu, urmărindu-i cu cobza, cîntă:)</stage>
+          <stage>Stați, măi, c-am obosit!… Sărmane biete Barbule! ai agiuns cal de poștă împregiuru horii, de unde înainte le ziceai boierilor vere… fie!… Încalte mă mîngîi că m-o învrednicit Dumnezeu să înveselesc cu cobza mea o lume întreagă!  (Căutînd la cobză cu jale.)  Dragă cobzișoară!… bune zile am petrecut amîndoi… Multă vreme mi-ai ținut isonu numai într-o strună!…  (Oftează.)  De-acum ne-o venit și nouă rîndu de ducă cu cele multe obiceiuri vechi de ale țării!…</stage>
+          <stage>(Ștergîndu-și ochii.)  Hai; drăgulița mea, să mulțămim cui se cuvine, că ne-am petrecut veacul în această țară bună și mănoasă care o dezrobit țiganii!</stage>
+          <stage>(Barbu cu taraful pleacă sunînd un cîntic vechi.)</stage>
+          <stage>(Cortina cade.)</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

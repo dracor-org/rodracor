@@ -20,18 +20,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Centrală Universitară</name>
-          <idno type="URL">https://bcub.ro/lib2life/Manasse_Ronetti%20Roman%20Moise_Bucuresti_1900.pdf</idno>
+          <ref target="https://bcub.ro/lib2life/Manasse_Ronetti%20Roman%20Moise_Bucuresti_1900.pdf">Biblioteca Centrală Universitară</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>Editura Librăriei N. Steinberg din Bucureşti</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1900">
+            <desc>1900</desc>
+          </event>
+          <event type="premiere" when="1901-03-12">
+            <desc>Teatrului Naţional din Iaşi</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -131,16 +139,6 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listEvent>
-      <event type="print" when="1900">
-        <desc>1900</desc>
-      </event>
-      <event type="premiere" when="1901-03-12">
-        <desc>Teatrului Naţional din Iaşi</desc>
-      </event>
-    </listEvent>
-  </standOff>
   <text>
     <front>
       <titlePage>

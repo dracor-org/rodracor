@@ -19,17 +19,25 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.wikisource.org/wiki/Chiri%C8%9Ba_%C3%AEn_provincie</idno>
+          <ref target="https://ro.wikisource.org/wiki/Chiri%C8%9Ba_%C3%AEn_provincie">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1855">
+            <desc>1855</desc>
+          </event>
+          <event type="premiere" when="1852-01-01">
+            <desc>1852</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -94,14 +102,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1855">
-        <desc>1855</desc>
-      </event>
-      <event type="premiere" when="1852-01-01">
-        <desc>1852</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000026" passive="http://www.wikidata.org/entity/Q28821612"/>
     </listRelation>

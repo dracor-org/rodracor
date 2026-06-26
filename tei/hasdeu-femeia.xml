@@ -1,0 +1,3202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000051" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Femeia</title>
+        <author>
+          <persName>Bogdan Petriceicu Hașdeu</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q2389145</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://upload.wikimedia.org/wikipedia/commons/c/c3/Bogdan_Petriceicu_Hasdeu_-_Sarcasm_%C8%99i_ideal_-_1887-1896_%3B_Ultimii_nou%C4%95_ani_de_literatur%C4%83.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1868">
+            <desc>1868</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="domnita_rosanda" sex="FEMALE">
+            <persName>DOMNIȚA ROSANDA</persName>
+          </person>
+          <person xml:id="dimitrie_koribut" sex="MALE">
+            <persName>PRINCIPELE DIMITRIE KORIBUT</persName>
+          </person>
+          <person xml:id="milescu" sex="MALE">
+            <persName>MILESCU</persName>
+          </person>
+          <person xml:id="safta" sex="FEMALE">
+            <persName>SAFTA</persName>
+          </person>
+          <person xml:id="barbu" sex="MALE">
+            <persName>BARBU</persName>
+          </person>
+          <person xml:id="falca" sex="MALE">
+            <persName>FALCĂ</persName>
+          </person>
+          <person xml:id="codreanu" sex="MALE">
+            <persName>CODREANU</persName>
+          </person>
+          <person xml:id="trandafir" sex="MALE">
+            <persName>TRANDAFIR</persName>
+          </person>
+          <person xml:id="olimpiada" sex="FEMALE">
+            <persName>OLIMPIADA</persName>
+          </person>
+          <person xml:id="eulampia" sex="FEMALE">
+            <persName>EULAMPIA</persName>
+          </person>
+          <person xml:id="un_baiat_mut" sex="MALE">
+            <persName>UN BĂIAT MUT</persName>
+          </person>
+          <person xml:id="un_cazac" sex="MALE">
+            <persName>UN CAZAC</persName>
+          </person>
+          <person xml:id="un_cioban" sex="MALE">
+            <persName>UN CIOBAN</persName>
+          </person>
+          <person xml:id="ostasi">
+            <persName>OSTAȘI</persName>
+          </person>
+          <person xml:id="calugarite" sex="FEMALE">
+            <persName>CĂLUGĂRIȚE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000051"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Femeia</titlePart>
+        </docTitle>
+        <docAuthor>Bogdan Petriceicu Hașdeu</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>DOMNIȚA ROSANDA</role>
+          <roleDesc>fiica lui Vasile Lupul</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PRINCIPELE DIMITRIE KORIBUT</role>
+          <roleDesc>aristocrat polon</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MILESCU</role>
+          <roleDesc>mare spătar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>SAFTA</role>
+          <roleDesc>fată din casă</roleDesc>
+        </castItem>
+        <castItem>
+          <role>BARBU</role>
+        </castItem>
+        <castItem>
+          <role>FALCĂ</role>
+        </castItem>
+        <castItem>
+          <role>CODREANU</role>
+        </castItem>
+        <castItem>
+          <role>TRANDAFIR</role>
+        </castItem>
+        <castItem>
+          <role>OLIMPIADA</role>
+        </castItem>
+        <castItem>
+          <role>EULAMPIA</role>
+        </castItem>
+        <castItem>
+          <role>UN BĂIAT MUT</role>
+        </castItem>
+        <castItem>
+          <role>UN CAZAC</role>
+        </castItem>
+        <castItem>
+          <role>UN CIOBAN</role>
+        </castItem>
+        <castItem>
+          <role>OSTAȘI</role>
+        </castItem>
+        <castItem>
+          <role>CĂLUGĂRIȚE</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>Actul I și II în palatul princiar din Iași; actul III în țara căzăcească; actul IV în cetatea Sucevei; actul V într-o mănăstire femeiască la nordul Moldovei &lt;/desc.&gt;</head>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>(Odaia de primire a domniței Rosanda. O ușă în fund, alta la dreapta. La stânga o fereastră deschisă.)</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA I</head>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (singură, examinând florile așezate pe etajere) </stage>
+            <p>Flori și iarăși flori! Domnița mea s-ar potrivi mai bine să fie o fată de grădinar...</p>
+            <stage> (Uitându-se împrejur.) </stage>
+            <p>De nu m-ar auzi cineva... Măcar că eu o iubesc, zău, o iubesc de mi-aș da sufletul pentru dânsa, dar orișicum – prea s-a întrecut cu gluma. Atâta dragoste pentru niște ierburi! Toată ziulica mi se desfătează cu aceste buruieni mirositoare, ba unele chiar fără miros, pe care și le aduce de prin toate țările lumii... Ce trai o să mai fie și atunci când se va mărita? În loc să-și dezmierde bărbățelul, o să petreacă cu săduri și răsaduri până ce i se va urî și lui, vai de dânsul, după cum mi s-a urât mie. Dar ce vorbesc eu de bărbat! Domnița nici nu se gândește la una ca asta.</p>
+            <stage> (Căpitanul Trandafir scoate capul prin crăpătura ușei.) </stage>
+            <p>Tot așteaptă, pesemne, să-și găsească un bărbat trandafir...</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA II</head>
+          <stage>SAFTA și TRANDAFIR</stage>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (intrând) </stage>
+            <p>Vorbești despre mine și eu mă gândeam la d[umnea]ta. Asta se cheamă dragoste!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ba vorbeam despre trandafir și am dat peste...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Peste borș cu știr, – vorba românului. Fie și așa! Pe d[umnea]ta eu nu mă supăr, orice mi-ai zice, orice mi-ai face, că mi-ai prea căzut tronc la inimă.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Fugi, că vine Domnița...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Ași! Am zărit-o plimbându-se prin grădină și tot plecându-și capul, când în dreapta, când în stânga. Se vede că numără bobocii ce n-au înflorit încă; și fiindcă sunt cam mulți, avem destulă vreme să vorbim în liniște. Adecă ce fel de liniște? Foc! văpaie! nu mai pot răbda și pace bună! Uitat-ai tu că părinții ne-au logodit de mici? Când, oare, Doamne și Sfinte Visarioane, va ajunge odată la cununie? Mă tot mâi dintr-o zi pe alta...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (întrerupând, cu aer de supărare) </stage>
+            <p>Ai învățat grecește? Ha?</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (mânios) </stage>
+            <p>Ce-mi pasă mie de grecește sau turcește! Eu știu că te iubesc românește. Sunt român, ești româncă. Nu suntem grecotei.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Și totuși eu nu te voi lua până ce nu vei învăța grecește! Vreau să am un bărbat care să aibă drum deschis la mărire, să poată fi în mila domnească, să ajungă la Divan...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Doară sunt și eu fecior de boier, nu liude printre călărași; ba încă sunt boier de viță veche. Au fost doi vornici mari în neamul meu. Sunt rudă cu...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar din tine nu se va alege nimic, căci nu știi grecește.</p>
+            <stage> (Încet.) </stage>
+            <p>Uitat-ai că avem domn pe...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Măria Sa Vasile Vodă ce-i zic Grecu. Și ce are a face? Când un grec domnește peste mii și mii de români, este lucru firesc ca el să se facă român, iar nu românii să se facă greci pentru-un pui de... fie de vrabie! Grecește! grecește! grecește!... Ian’ lasă-mă-n pace cu greceasca ta! Vreai cu orice preț să fii... îngrecată?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ești un om pierdut! După ce nu știi grecește, apoi mai ai și o gură slobodă... parcă te văd ca mâine în pușcărie.</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>O să mă scape spătarul Milescu, că ține mult la mine. E nepot al Măriei Sale, dar e român curat...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Român-român, cu toate astea știe grecește mai bine decât grecii...</p>
+            <stage> (Speriată) </stage>
+            <p>. Se aude o ușă... Fugi iute! Vom mai vorbi altă dată...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (retrăgându-se spre ușa din dreapta) Să știi, Safto, că nu te las odată cu capul! Sau tu vei fi a mea, ori eu al tău, una din două. Și încă fără grecește! (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA III</head>
+          <stage>SAFTA (singură), apoi MILESCU</stage>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Mi-e drag băiatul; numai inimă; dar n-o să ajungă niciodată boier mare...</p>
+            <stage> (Fredonează.) </stage>
+            <p>S tò Bardari, ’s tò Bardari,</p>
+            <p>Kai ’s toà Bardapioà tòn kampou</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (intrând cu un vas de flori în mână) </stage>
+            <p>Grecește?... dar de unde ai învățat...?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (cu supărare) </stage>
+            <p>Doară nu degeaba slujesc la Curte, jupâne spătare. Am învățat de la alde d[umnea]voastră, boieri mari, cu nume pământean și cu limba străină...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Să schimbăm vorba.</p>
+            <stage> (Aparte.) </stage>
+            <p>Nu-mi vine la socoteală.</p>
+            <stage> (Tare.) </stage>
+            <p>Unde-i Domnița?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>E în florărie, boierule. S-a dus să vadă dacă au înflorit micșunelele de Țarigrad.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Cunoscut lucru! Muierile trebuie să iubească ceva. Dentâi le plac florile sau păpușele sau alte jucării; apoi încep a le place băieții; mai, în sfârșit, la bătrânețe, când nu mai găsesc flăcăi, le plac mâțele și cățeii! Nu ai ajuns, oare, la băieți, Săftico? ori tot mai ești la flori?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Atâta treabă ai și d[umnea]ta, boierule, să iei toată lumea în râs.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Și las ca alții să râdă de mine: aceasta se cheamă a fi om cumsecade, om de neam, om de Curte...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar de unde este această frumoasă oala cu flori?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ai greșit cu vorba: nu e frumoasă oală, ci florile sunt frumoase. Așadar, trebuie să știi că aceste frumoase flori eu le aduc din partea păhărnicesei, care are un copilandru voinic ca de optsprezece ani... Dar nu înțeleg, zău, de ce să ți-o spun tocmai ție? Parcă tu n-ai cunoaște pe toți voinicii cei de optsprezece ani din toată țara Moldovei!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>A!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Mărturisește singură: așa-i că-l cunoști pe băiatul păhărnicesei?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Adică l-am văzut o dată la biserică; dar ce are a face?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ce are a face? Ciudată întrebare! Ce are a face băiatul păhărnicesei cu biserica?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ba nu...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ce are a face băiatul păhărnicesei cu tine?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ba nu și nu, boierule! Nu mă mai încurca! Ce are a face băiatul păhărnicesei cu aceste flori?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Uitasem că-i vorba de flori! Apoi bine, Săftico; cum de nu înțelegi tu, fată cu minte; tu, crescută la Curte; tu, adăpată ca și noi toți cu laptele fățărniciei; cum de nu înțelegi, tu, că aceste flori, dăruite din partea păhărnicesei la o domniță, miroase</p>
+            <stage> (miroase floarea) </stage>
+            <p>, da! miroase a boierie pentru băiatul păhărnicesei? Cu alte cuvinte, păhărniceasa ar dori să-și vază băiatul în mila domnească, adică deocamdată măcar aprod la Curte, iar de la aprod nu-i departe până la mare logofat, căci numai începutul este greu pe lângă domni și, de aici, merge, merge iute, iute ca o roată pe osie... Firește, când osia se unge din când în când.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Și de ce tocmai d[umnea]ta, boierule, te-ai însărcinat a aduce Domniței această floare?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>De ce? Ai ghicit, dragă, de vreme ce mă-ntrebi. Păhărniceasa dăruiește Domniței o oală cu flori, știind că Domnița e nebună după acest fel de ierburi; iar mie, care sunt văr primar cu Domnița, mie mi-a dăruit o pereche de pistoale turcești, precum n-are, cred, nici marele vizir. Acum, Săftico, pentru ca să pui și tu vreo două-trei vorbe la urechea Domniței, căci o fată din casă, deșteaptă ca tine, este și ea mai-mai ca un văr primar, – ție-ți dăruiesc eu... las’ să pun floarea pe fereastră...</p>
+            <stage> (pune oala și scoate din deget un inel) </stage>
+            <p>. Na, acest inel, eu l-am cumpărat ieftin în Italia, unde am învățat în școale tot ceea ce nu știu...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (luând inelul) </stage>
+            <p>Acolo te-ai făcut doftor, jupân spătare? Măria Sa Vodă zice mereu că mai bun doftor ca d[umnea]ta nu se află în țara Moldovei...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Într-o zi Măria Sa sughița, și eu i-am spus să bea apă rece... Se vede că de atunci mi-a ieșit numele de mare doftor... Alminterea, dacă te doare ceva pe tine, eu am un leac, eram să zic un ac pentru orice cojoc...</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA IV</head>
+          <stage>ACEIAȘI și UN APROD</stage>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <stage> (intră prin ușa din fund) </stage>
+            <p>Prințul Koribut întreabă dacă Măria Sa Domnița...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Nu vezi, voinice, că Măria Sa lipsește?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nimica, nimica. Poftește! Domnița o să vină îndată.</p>
+            <stage> (Aprodul iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA V</head>
+          <stage>MILESCU, SAFTA</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Apoi eu mă car de pe-aicea, Saftico, căci nu-mi place nici de frică acest mândru prinț polecesc. Dumnezeu l-a plăsmuit din fum, iar nu din lut, ca pe ceilalți oameni. Închipuiește-ți că sunt două luni de zile de când eu îl rog mereu să-mi vândă calul său cel roib, și nu vrea să mi-l vândă mie, mie care plătesc totdeauna peșin, și drept dovadă ți-am dat arvuna, Saftico.</p>
+            <stage> (Iese prin ușa din dreapta, pe când Koribut intră prin ușa din fund. Safta stă cufundată în privirea inelului.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VI</head>
+          <stage>SAFTA și KORIBUT</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Putea-voi să aștept pe Domnița în această odaie?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (distrasă, cu ochii la inel) </stage>
+            <p>Da, boierule prinț, Măria Sa nu va zăbovi.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (așezându-se) </stage>
+            <p>Privești o sculă, cuconița?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Da, mi-a dăruit-o cineva... o prietenă. Dumneata cunoști prețul sculelor, boierule prinț?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (se uită cu dispreț la inel) </stage>
+            <p>Face vreo doi taleri. Fata din casă a unei Domnițe este vrednică de un dar mai de soi</p>
+            <stage> (scoate lanțul de pe piept) </stage>
+            <p>. Ține aceasta și fă-ți o salbă.</p>
+            <stage> (Safta ia lanțul cu sfială și-l ascunde iute în buzunarul scurteicei.) </stage>
+            <p>Știi, oare, dragă, că eu iubesc... adică ți-o spun dumitale numai între patru ochi... iubesc pe stăpâna dumitale? O iubesc precum n-am iubit încă nici o altă femeie, și cu toate acestea plec astăzi din Moldova, cu inima sfâșiată de necaz și de rușine că n-am putut să plac Domniței. Cel puțin așa mi se pare că nu i-am plăcut deloc. Dumneata trebuie s-o fi știind mai bine decât oricine.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (cu nedumerire) </stage>
+            <p>Nu știu, boierule prinț... dar cred... poate... n-ar fi lucru de mirare...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Ascultă! Aș dori foarte mult să aflu... dacă aseară a fost aci o vrăjitoare țigancă.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (iute) </stage>
+            <p>O, da! Vrea să zică dumneata ai trimis-o? În adevăr, nu făcuse chiar icoana dumitale! Ne-a spus că Domnița va avea un bărbat leit-leit cum ești dumneata. Ce proastă am mai fost și eu să nu ghicesc îndată!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>N-am trimis-o eu. Este o cutezare din parte-ți a cugeta măcar aceasta despre un om ca noi. Dar vrăjitoarea a trecut și pe la mine, și mi-a spus, nu știu cum, în treacăt, mă-nțelegi!</p>
+            <stage> (Se scoală.) </stage>
+            <p>Însă Domnița întârzie și eu trebuie să plec astăzi negreșit, iar mai înainte de a pleca aș vrea să iau ziua bună de pe la toți boierii...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Să nu pleci încă, boierule prinț, mai adastă vreo câteva zile...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Și ce o să iasă din aceste adăstări fără capăt? Oare îmi făgăduiești dumneata că Domnița va voi, în sfârșit, să mă bage și pe mine în seamă după șase luni de nepăsare, cu care eu unul nu sunt deprins?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (gândindu-se) </stage>
+            <p>Ai făcut rău că nu mi-ai spus mai dinainte... dar timpul nu-i pierdut... Mai bine... mai bine depărtează-te acum pentru o clipă; eu voi vorbi cu stăpâna mea, apoi vino și fă cum vei socoti.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Cuconiță! Vei mai avea cercei de mărgăritar!</p>
+            <stage> (Vrea să iasă și se întoarce de la ușă.) </stage>
+            <p>Adevărat spui, dragă; îmi pare rău și mie că n-am vorbit cu dumneata până acum; dar este vina dumitale. De ce să nu mă fi înștiințat că primești daruri? De ce să nu-mi fi arătat niciodată măcar un inel, ca să pot pricepe?</p>
+            <stage> (Cu ironie.) </stage>
+            <p>Știi că eu sunt străin; în țara mea sunt alte obiceiuri...</p>
+            <stage> (Pleacă și se oprește la ușă.) </stage>
+            <p>Cercei de mărgăritar...</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VII</head>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (singură, privind după Koribut) </stage>
+            <p>Își cam bate joc de mine...! De țară, nu de mine... Venetic...! Dar ce-mi pasă mie!</p>
+            <stage> (Scoate lanțul din buzunar.) </stage>
+            <p>Frumos! frumos! scump!</p>
+            <stage> (Ascunde lanțul.) </stage>
+            <p>Și cercei de mărgăritar...! O zestre întreagă!</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA VIII</head>
+          <stage>SAFTA și ROSANDA</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (aruncând privirea asupra vasului cu flori) </stage>
+            <p>De unde-i această floare, draga Safto? Ce frumusețe!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>A adus-o... ba nu, n-a adus-o, ci a trimis-o Măriei Tale prințul Koribut...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>A? Prințul e prea bun... Zici că a trimis-o prințul? Ziseși, pare-mi-se, că a adus?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ba a trimis, nu a adus.</p>
+            <stage> (Rosanda, distrasă, se așază pe divan cu capul plecat.) </stage>
+            <p>Ești cam tristă, scumpa mea Domniță?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Da! Sunt foarte tristă. Nu pot uita cuvintele vrăjitoarei de-aseară. Ai făcut rău lăsând-o să intre.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>E cea mai vestită vrăjitoare din toată țara Moldovei... Și apoi, ori și cum să fie, nu înțeleg de ce să te-ntristezi, frumoasa mea stăpână? Țiganca nu ți-a spus nimic rău, nimic neplăcut, nimic...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și tocmai asta mă-ntristează. Să mă fi speriat ea cu un viitor întunecat, eu m-aș sili a fi veselă. Cel puțin până atunci mi-aș zice: mâine mă așteaptă nori de vijelie, astăzi este o zi senină și frumoasă. Dar vrăjitoarea mi-a prevestit o soartă așa de dulce, încât nu vreau, nu pot răbda, așteptând până cine știe când...</p>
+            <stage> (Se gândește.) </stage>
+            <p>Oare ce mi-a spus vrăjitoarea, Safto?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ai uitat, Domniță?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>S-o uit? Niciodată! Dar tu, Safto, nu cunoști inima cea slabă a omului. Nouă ne place a auzi mereu cele dorite, a le auzi din toate gurele și la tot pasul, a le auzi chiar atunci când le cunoaștem, și de le-am cunoaște oricât de bine. Ce mi-a spus vrăjitoarea, Safto?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>A spus că bărbatul Măriei Tale va fi dintr-o țară străină, de neam mare, tânăr, frumos, viteaz de frunte...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>De neam mare, tânăr, frumos, viteaz de frunte...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Și dintr-o țară străină. Bagă seama, Domniță, că va fi dintr-o țară străină.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Vrăjitoarea a uitat însă să-mi spună dacă bărbatul meu va iubi florile.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Te va iubi pe tine, Domniță... și...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și ce...?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dacă Măria Ta mi-ai da voie...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Spune, spune, Safto.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Mi se pare că cuvintele vrăjitoarei se potrivesc întocmai cu chipul unui bărbat oarecare dintr-o țară străină, de neam mare, tânăr, frumos, viteaz de frunte, și care nu poate să nu iubească florile, de vreme ce...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu nerăbdare) </stage>
+            <p>De vreme ce...? Sfârșește!...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (arătând vasul cu flori) </stage>
+            <p>De vreme ce ți-a trimis Măriei Tale această frumoasă floare.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (sculându-se) </stage>
+            <p>Prințul?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dintr-o țară străină, tânăr, frumos, viteaz de frunte...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar de unde știi tu, Safto, că prințul îmi place mie?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Așa s-ar putea crede după spusele vrăjitoarei.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA IX</head>
+          <stage>ACEIAȘI, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (intrând prin ușa din dreapta) </stage>
+            <p>E vorba de vrăjitoare. O, nu te speria, verișoară! Numai atâta am auzit și eu, și dacă vrăjitoarea este în adevăr bună, trebuie să-ți fi spus mai dinainte că voi auzi numai atâta.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (confuză) </stage>
+            <p>Îmi pare bine, vere, că ești totdauna vesel; dar... ai venit să-mi spui ceva, jupâne spătare?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Cam așa... Te văd însă că nu ești în apele dumitale... Poate suferi... Știi că sunt cam doftor. Nu degeaba am o lungă batalama de la școala din Padova...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (rece) </stage>
+            <p>Te asigur că nu sunt bolnavă, jupâne spătare...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Fie! Cu atât mai bine... Eram să te-ntreb dacă ai primit o oală cu niște flori?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (iute) </stage>
+            <p>Da, da! Domnița a primit, boierule.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (roșind) </stage>
+            <p>Și ce te privește, vere, dacă am primit sau dacă n-am primit?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (cu mirare, uitându-se la amândouă) </stage>
+            <p>Vezi bine că mă privește... Cum, Doamne, să nu mă privească!... Acea oală este...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Este de unde este... Nu înțelegi, boierule, că Domnița e obosită după plimbare și vrea să se odihnească?...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (salutând cu respect) Dacă-i așa, mă duc... Păhărniceasa întreabă... (Auzind aceste cuvinte, Safta face o mișcare cu mâna și răstoarnă după fereastră vasul cu flori, care cade afară în grădină.) </stage>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (alergând la fereastră) Ce-ai făcut, Săftico? O, Doamne! O floare așa de frumoasă! Se va fi vătămat!... Nu înțeleg cum să nu bagi de seamă!... (Scoate capul pe fereastră, apoi se repede la ușa din fund și iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA X</head>
+          <stage>SAFTA și MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (cu mâinile în șolduri) </stage>
+            <p>Apoi bine?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (tot așa) </stage>
+            <p>Apoi bine?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Adicăte.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Iute, vulpoiaco! Ce însemnează toate astea?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ia însemnează atâta că Domnița nu vrea acuma să audă nimica. O să-i spui mai târziu de băiatul păhărnicesei dumitale; îți făgăduiesc, deși inelul nu face nici doi taleri, măcar că-i din străinătate. Numai dumneata să nu te mai amesteci.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Așa tot se mai poate. Caută să nu mă dai de rușine, Săftico. N-aș vrea, dragă, ca lumea să creadă că nu am nimic sfânt pe fața pământului, nici chiar pistoale turcești. Dar de ce, oare, îți strălucesc așa ochișorii? Știi că încep a crede că ești frumușică? Și ca să nu te îndoiești, sunt gata a-ți da o sărutare...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Păstreaz-o pentru altele, boierule!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Nu, nu, nu! E peste putință ca s-o păstrez! Cel puțin să nu aibi inelul de tot degeaba, dacă nu-mi vei face isprava pentru băiatul păhărnicesei. Vezi că te cam pricep, șireato? Așadară, prin urmare...</p>
+            <stage> (Safta se împotrivește, Milescu o sărută.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XI</head>
+          <stage>ACEIAȘI, KORIBUT</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (oprindu-se în ușa din fund) </stage>
+            <p>A! ce întâmplare!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>O nimica toată! Dacă nu vedeai dumneata, prințule, o vedeau pereții; este totuna; adică vreau să zic că nici dumneata nu vei spune nimănui, că și pereții. Aș dori să știu însă, să nu fie cu supărare, cum de-ai intrat așa de lesne în odaia Domniței, fără ca să fii femeie sau cel puțin un verișor ca mine?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Oho! mă iei prea din scurt, boierule! Nu sunt atât de vinovat precum ți se pare dumitale. N-am găsit pe nimeni la intrare, iacă totul. Dumneata înțelegi foarte bine că un om ca mine nu poate aștepta după ușă.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar unde: să fie aprozii?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (gesticulând) </stage>
+            <p>Floarea a alergat după fereastră; Domnița a alergat după floare; aprozii au alergat după Domniță... Încurcătura s-a limpezit, prințule, și te iert de asta dată că n-ai așteptat după ușă; dar nu-ți pot ierta nicidecum că nu-mi vinzi calul: singurul lucru ce-mi lipsește încă pentru ca să gust deplina fericire a unui cuget împăcat.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>În adevăr, boierule, nu-ți vând calul meu, dar te rog să-l primești în dar, ca semn de prieteșug. Este chiar acum la poartă, înfrânat și înșeuat...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Îți mulțumesc, prințule...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Roibul te așteaptă, boierule...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Cu toate astea, aș putea să-l iau și mai târziu.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Dar de ce nu acum?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (lovindu-l pe umăr) </stage>
+            <p>Te înțeleg, prințule.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Ce vrei să zici cu asta?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Vreau să zic că uneori caii iau năravurile stăpânilor și că, prin urmare, roibul dumitale nu știe nici el a aștepta după ușă. Te las dară singur cu Safta. Vezi că ne-am înțeles, prințule?... Sluga plecată!</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA XII</head>
+          <stage>KORIBUT, SAFTA</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>În sfârșit, am scăpat de Păcală! Spune-mi, Safto, ce veste?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>De minune, boierule prinț!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Zău?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Domnița te iubește, te iubește însă fără a-și da seama, fără a ști ea singură... Dar iacă mai vine cineva. Pune-te la o parte.</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA XIII</head>
+          <stage>ACEIAȘI, ROSANDA</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (fără a vedea pe Koribut) </stage>
+            <p>S-a turtit sărmana floricică! Am dat-o grădinarului s-o caute ca pe o ființă bolnavă, care-mi este dragă. N-am avut parte de darul prințului.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (c-un gest de mirare) De darul meu? Ce fel? (Safta-i face semn.) </stage>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>A! Dumneata erai aici, prințule?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (salutând-o) </stage>
+            <p>Da, Domniță, și tocmai cât p-aci era să uit de darul meu, de acea floare, pare-mi-se... o jucărie, de care nici nu-mi aduceam aminte și al cărei singurul preț este de a fi plăcut Măriei Tale.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>În adevăr, o floare atât de frumoasă... Sunt foarte mâhnită...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Lasă, Domniță, nu te mai mâhni de pierderea unei flori, căci mâine o s-o uiți, căpătând o alta. Așa se trec toate în lume</p>
+            <stage> (oftând) </stage>
+            <p>și sunt prea puțini acei nefericiți, cari n-au darul de-a uita o floare ce-au iubit odată. O așa soartă mă așteaptă pe mine... Am venit să te văd pentru cea din urmă dată, mult frumoasă domniță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (tulburată) </stage>
+            <p>Nu te-înțeleg, prințule.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Peste un ceas părăsesc Moldova.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Părăsești Moldova? Dar ce ți-a făcut, oare, biata noastră țărișoară?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Mă întrebi, Domniță? Sunt lucruri ce nu se pot spune! Sunt taine ce se citesc în ochi, în fiecare pas, în aer, dar nu se vor citi niciodată în cuvinte, căci vorba rece și măsurată este giulgiul inimii...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (la urechea Rosandei) </stage>
+            <p>Sărmanul! cum te iubește... Adu-ți aminte de vrăjitoare...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar dacă eu te-aș ruga... dacă te-aș ruga eu, ca să nu ne lași așa curând?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Prin aceasta, scumpa mea Domniță, ai rostit o osândă sau o binecuvântare, una din două.</p>
+            <stage> (Îngenunchind.) </stage>
+            <p>Mă vei osândi tu, oare, a muri d-o mie de ori în fiecare clipă, știindu-mă lângă tine, trăind cu aceeași suflare ce adie buzele tale, și silindu-mă a năbuși în mine glasul desperării care-mi strigă necontenit: ea nu te bagă în seamă... ea nu te iubește!...</p>
+            <stage> (Rosanda îi întinde mâna, Koribut o sărută.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA XIV</head>
+          <stage>ACEIAȘI, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (oprindu-se în ușa) </stage>
+            <p>În sfârșit, iată că te-am prins și eu, prințule!</p>
+          </sp>
+          <stage>(Grădina palatului domnesc, a cărui fațadă se vede la stânga.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL II</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>TRANDAFIR, BARBU, FALCĂ, CODREANU</stage>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>De ce, oare, ne va fi chemat spătarul?</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Desigur pentru nunta Domniței...</p>
+            <stage> (Suspinând aparte.) </stage>
+            <p>Când, oare, îmi va veni și mie rândul cu Săftica?</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Nunta Domniței... Vezi, tocmai asta nu-mi place... Încă un venetic pripășit în țara Moldovei!</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <p>Mai încet, măi Falcă... Zidurile au și ele urechi...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Ba să trăiești, dragă Fălcuță! Numai cu tine eu mă mai împac. Tu nu te-ai grecit, nici te-ai turcit, nici te-ai polecit... Nu era destul, oare, că pe domnița Maria a dat-o Vodă hurduz burduz după un prinț de pe ceea lume? Tot o liftă străină...</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <stage> (cu spaimă) </stage>
+            <p>Tss!</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (aprins) </stage>
+            <p>Ei da! Lasă-mă să strig că mă doare! Tot o liftă străină trebuia să aducă și pentru domnița Rosanda?... Nu era bun logofătul Gheorghiță?... I se scurgeau ochii după Domniță! Ș-apoi neam boieresc vechi, pământean din moși-strămoși.</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Și păcat! mare păcat! că-i bună româncă Domnița! Seamănă în toate cu răposata doamnă, să-i fie țărâna ușoară... N-are nimic grecesc de la tată-său!... Atâta românesc mai avem și noi la Curte...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Ba și vărul Domniței, spătarul Milescu, e bun român, n-ai ce-i zice! Cam glumeț, dar suflet românesc.</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>O, cât despre spătar, să nu cuteze cineva să cârtească... Mi-a dat o doftorie de m-a scăpat de friguri...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>M-aș jura că ți-a dat-o în glumă.</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Glumește și el, ca să uite cele de plâns...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>ACEIAȘI, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (intrând) </stage>
+            <p>Sunteți aice? Bine...</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Să trăiești, jupâne spătare!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Am să vă spui la fiecare câte o vorbă, și acela, cum mă va auzi, îndată să plece; apoi, cum va pleca, să spună și el câte o vorbă la dorobanții săi, și aceia, cum îl vor auzi, îndată și ei să plece... Ați înțeles?</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Ba n-am înțeles, jupâne spătare. Să fie cu iertare...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Vrea să zică, voi, ceilalți trei, ați înțeles?</p>
+            <p>BARBU și CODREANU: Am înțeles, jupâne spătare.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Sunteți proști. Mai bine m-a înțeles căpitanul Trandafir, de vreme ce zice verde că nu m-a înțeles, căci nici eu nu prea înțeleg ceea ce am spus...</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Eram să zic și eu, jupâne spătare, că nu înțeleg, dar...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Nu erai sigur, dacă înțelegi sau nu. Ești pe jumătate prost, căpitane Falcă.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <stage> (râzând) </stage>
+            <p>Să trăiești, jupâne spătare!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Îmi pare bine că vă văd veseli, că vă găsisem aice prea posomorâți... știu de ce... dar mutrele voastre nu-mi plăceau, măcar că... de! aveți și voi dreptate! Acuma ascultați. E nunta Măriei Sale Domniței...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (cu entuziasm) </stage>
+            <p>Buna noastră Domniță!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Tu, căpitane Barbule, cu dorobanții tăi vei face alai după trăsura preasfințitului chir Ioanichie, mitropolit de Chesaria.</p>
+            <stage> (Barbu se închină și iese.) </stage>
+            <p>Tu, căpitane Falcă, cu dorobanții tăi vei face alai după trăsura preasfințitului chir Mavrichie, arhiepiscop de Gazaria.</p>
+            <stage> (Falcă se închină și iese.) </stage>
+            <p>Tu, căpitane Codrene, cu dorobanții tăi vei face alai după trăsura preasfințitului chir... zi-i pe nume.</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <p>Chir Pavliche.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Zi Lichié, nu Liché, deși se cam potrivește. Așadar, ție-ți dau pe seamă pe preasfințitul chir Pavlichie, episcop de Nazaria.</p>
+            <stage> (Codreanu se închină și iese.) </stage>
+            <p>Tu, căpitane Trandafire, zău că nu știu ce alai să mai faci și tu! Iartă-mă, Doamne, că mulți mitropoliți, arhiepiscopi și vlădici de prin toate unghiurile țării grecești s-au mai încuibat pe la noi sub domnia Măriei Sale Vasile Vodă, unchiu-meu, fără să știe cum, pentru ce, de unde și până când! Ioanichie, Mavrichie, Pavlichie, Chesarie, Gazarie, Nazarie...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Mai ales acuma, jupâne, cu prilejul nunții, Iașul nostru s-a umplut ca ne-altădată de tot felul de sfințenii, care de care mai pocită! Aseară am văzut cu ochii mei sosind, încunjurat de vreo sută de ucenici, preasfințitul chir Macarie...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Patriarhul de Antiohia, un sfânt arăbesc, negru ca păcatul! Apoi tocmai asta, căpitane Trandafire. Du-te dar cu dorobanții tăi de-i fă alai preasfinției sale...</p>
+            <stage> (Trandafir se închină și iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III</head>
+          <stage>MILESCU (singur)</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Bre-bre-bre-bre! Să vedem și catastiful</p>
+            <stage> (scoate din buzunar o condicuță și citește.) </stage>
+            <p>Optzeci și nouă egumeni: la fiecare pe zi, de la visterie: o pâine albă de făină picluită, o pâine neagră, o litră de untdelemn, o oca de vin de Odobești... cam puțin pentru un gâtlej de călugăr; o litră de lumânări de ceară, o litră de lumânări de seu, o lămâie, patru brațe de lemne... sunt friguroși grecoteii!... o litră orez, arpacaș, linte, fasole, mei... păcat că nu le dă și ovăz!... o legătură de ceapă, două cunune de usturoi... asta, pesemne ca să nu miroase a tămâie... Sărmana țara Moldovei! Au dreptate căpitanii mei de li-s așa de urâți veneticii. Trandafir, mai cu samă, i-ar mânca pe toți fripți pârjoliți. Între noi fie vorba, logofătul Gheorghiță a spus un mare adevăr, când a cutezat să zică verde lui Vodă în fața divanului: „Măria Ta, de nu vei scoate caprele din țară, vei pierde oile...”</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <stage>MILESCU, BARBU</stage>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Jupâne spătare!...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (ascunzând condicuța) </stage>
+            <p>Ce este?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Poarta mănăstirii Tresfetiteli e închisă. Popii nu ne lasă să intrăm.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Ni s-a răspuns că părintele mitropolit Ioanichie doarme...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (cu mirare) </stage>
+            <p>Doarme?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Doarme.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Doarme acum la ameazi?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Se vede că la greci n-a intrat încă alba în sat...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (zâmbind) </stage>
+            <p>Ba poate că n-a ieșit încă alba din ietacul preasfinției sale.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>ACEIAȘI, FALCĂ</stage>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Jupâne spătare, porțile mănăstirii Sfântei Vineri sunt închise.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Și acolo?</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Călugării ne-au răspuns că părintele arhiepiscop Mavrichie...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ce face?</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Bea cafea.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Bea cafea cu porțile închise?</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Apoi de, așa sunt grecii! Nu vrea să împartă cafeaua cu musafirii...</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI</head>
+          <stage>ACEIAȘI, CODREANU</stage>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Jupâne spătare! Mănăstirea Barboi e închisă. Părintele vlădică Pavlichie...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Doarme?</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <p>Ba s-a sculat.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Bea cafea?</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <p>Ba a băut-o.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Apoi bine, ce face?</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <p>Se spală.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>De păcate!</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII</head>
+          <stage>ACEIAȘI, TRANDAFIR</stage>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Jupâne spătare!...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Vrei să-mi spui că mănăstirea Golia e închisă? O știu mai denainte.</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>O știi?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Negreșit! Patriarhul Macarie va fi făcând și el ceva, care nu se face cu porțile deschise... Sau doarme, sau bea cafea, sau se spală... Ian’ ascultați, voinicilor! Plecați câteșipatru și spargeți porțile... Ba nu, așteptați-mă la scara Divanului celui mic, ca să întreb pe însuși Măria Sa Vodă: ce-i de făcut cu presfânta lene a preasfinților greci?</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII</head>
+          <stage>ACEIAȘI, afară de MILESCU</stage>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Vorbă să fie! Parcă numai grecii ne mănâncă țara, dormind, bând cafea și trăgând din nerghelea! Oricâte neamuri, oricâte lifte, oricâte lighioi după fața pământului, toate își găsesc aice pâine și sare, culcuș și hrană, afară numai de bietul român. Nu degeaba zice zicătoarea:</p>
+            <p>Leahu-i vulpea,</p>
+            <p>Turcu-i lupul,</p>
+            <p>Rusu-i ursul,</p>
+            <p>Iar sărmanul</p>
+            <p>Moldoveanul</p>
+            <p>Când e oaie, când e vacă!</p>
+          </sp>
+          <sp who="#falca">
+            <speaker>FALCĂ</speaker>
+            <p>Ian’ tăceți, fraților! Vorba-i de lup și lupu-i la ușă. Uite că Domnița vine încoace cu iubitul său. Cum o mai drăgostește, drăgosti-l-ar... vream să zic o vorbă mare, dar las-o, că e bun Dumnezeu!</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Aidem la scara Divanului să așteptăm pe jupânul spătar... Numai dânsul ne-a mai rămas să ne înveselească.</p>
+          </sp>
+          <sp who="#codreanu">
+            <speaker>CODREANU</speaker>
+            <stage> (trist) </stage>
+            <p>Ne-nveselește zicându-ne că suntem proști...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Și are dreptate, că dacă n-am fi proști...</p>
+            <stage> (Cu furie.) </stage>
+            <p>Of, of, măicuță, ce am mai face!</p>
+            <stage> (Ies cu toții.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX</head>
+          <stage>ROSANDA și KORIBUT</stage>
+          <stage>(se apropie din fundul grădinei)</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Nu în zadar se zice, scumpa mea Domniță, că iubirea face pe om să cânte.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Să nu mi-o spui aceasta, prințule, căci cel puțin până acuma nu mi-ai făcut nici un cântec, măcar că te tot lauzi cu dragostea dumitale.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>O, dacă ar trebui numai atâta pentru ca să-ți dovedesc iubirea, apoi dovada e gata</p>
+            <stage> (scoate din buzunar o hârtie și citește) </stage>
+            <p>:</p>
+            <p>Frunză verde de granată,</p>
+            <p>Viu din țară depărtată...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Îmi place, prințule, că ai început curat românește... cu frunză verde.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Este vina dumitale. Ai știut să mă faci român și pe mine. Și apoi știi bine, Domniță, că dascălul meu de limbă românească a fost călugărul Dosoftei, omul cel mai învățat din țara Moldovei și care îmi tot spunea mereu că un cântec fără frunză verde este ca un boier fără caftan.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Vrea să zică este un cântec cu caftan?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Însă și cu inimă, ceea ce nu au toți boierii.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Citește, dară, să-l vedem și la inimă.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (citind) </stage>
+            <p>Frunză verde de granată,</p>
+            <p>Viu din țară depărtată,</p>
+            <p>Ca să-ți aduc la picioare</p>
+            <p>O inimă iubitoare...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Adevărat! Cântecul are și o inimă, ba încă iubitoare... Dar iartă-mă, prințule, că te tot opresc: mă simțesc astăzi atât de fericită, încât îmi vine să tot vorbesc și să nu las să vorbească alții. Ciudat! Ar crede cineva că tăcerea este pecetea celor nenorociți. Acuma sfârșește cântecul...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (citind) </stage>
+            <p>O inimă iubitoare</p>
+            <p>Chiar ca o rază de soare</p>
+            <p>Când se lasă pe o floare...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Aici ai vrut să mă lingușești, prințule.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Cum așa?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Credeai, desigur, că mie tot încă îmi plac florile? Nu și nu! De când am început a mă gândi la dumneata, am uitat cu totul florăria.</p>
+            <stage> (Koribut îi sărută mâna.) </stage>
+            <p>Dar mai citește cântecul.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Nu l-am isprăvit, dulcea mea Domniță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Asta-i nimica; mai citește-l de la început.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (citind) </stage>
+            <p>Frunză verde de granată</p>
+            <p>Viu din țară de...</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X</head>
+          <stage>ACEIAȘI, SAFTA</stage>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (alergând din fundul grădinei) </stage>
+            <p>Domniță, Domniță!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Ce este, soro?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Lucruri ciudate, Măria Ta... Nu mă taie capul să cred, ori să nu cred... Se zice...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Ce se zice?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Știți că astăzi a sosit la Măria Sa Vodă un sol de la hatmanul căzăcesc.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Da, un polcovnic cu nasul tăiat într-o bătălie cu oștirile noastre leșești; o bătălie, în care noi am înfrânt răzvrătitorii cazaci de a mers vestea... Trebuie să știi, scumpa mea Domniță, că acești cazaci, acești zaporojeni, cum se numesc ei, sunt o adunătură de hoți, de tâlhari, de mojici, de fugari din toate părțile lumii. Până mai deunăzi ei robeau nouă ca niște slugi supuse, însă mai în urmă s-au răsculat prin viclenia acestui potlogar de Hmelnițki și l-au ridicat ca să le fie hatman, au nesocotit cârmuirea leșească și astăzi... dar lasă că-i vom învăța noi! Apoi bine, Safto, ce are a face solul acestui hatman țărănesc? Ce poate să aibă a face cu Domnița Rosanda? cu logodnica mea?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>În adevăr, Săftico, eu nu înțeleg nimica.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Să dea Dumnezeu ca să nu fie nimica, iubita mea stăpână, dar se zice... se spune că...</p>
+            <p>ROSANDA și KORIBUT: Sfârșește odată! Ce se spune?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Mă tem să nu te superi, Domniță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Nu te teme. Sunt pusă prea sus ca să mă poată atinge vorbele sau faptele unui sol căzăcesc!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Așadară, s-a răspândit vestea că hatmanul Hmelnițki va fi trămis pe acest sol la Măria Sa Vodă, ca să ceară mâna...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu emoțiune) </stage>
+            <p>Mâna mea pentru hatmanul căzăcesc?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ba pentru fiul său Timuș.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu indignare) </stage>
+            <p>Mâna mea?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Peste puțință! Ce cutezare! Îmi vine să râz... Știi, Domniță, că acest Timuș se fălește de a fi cel mai mare bețiv în toată țara căzăcească...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (plecând capul) </stage>
+            <p>Da, Domniță, mâna Măriei Tale.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Pentru cazacul Timuș?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (apucând mânerul sabiei) </stage>
+            <p>Sângele meu fierbe... nu mă mai stăpânesc... mă duc... mă duc să tai nasul acestui sol...</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XI</head>
+          <stage>TOT ACEIAȘI, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>N-ai ce să-i mai tai, prințule! Uitat-ai că bietul om e cu nasul tăiat? Ș-apoi Măria Sa Vodă i l-a mai tăiat încă o dată peste ceea ce era, răspunzându-i verde că domnița Rosanda nu-i de nasul feciorului unui hatman căzăcesc! Ce de mai nasuri! Ha, ha, ha!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Zici, vere, că tata n-a primit cererea cazacului?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Mai încape vorba?! Firește că n-a primit-o; ba încă a înfruntat pe sărmanul polcovnic ca vai de el! Uite, frate, cât p-aci era să-mi strice o nuntă atât de frumoasă, o nuntă pentru care au venit cu tot dinadinsul o sută de mitropoliți din țara grecească. Era păcat! mare păcat, zău! Ne-ar fi afurisit patriarhul de la Țarigrad...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Dar fii bun, boierule spătar, de ne povestește cu amănuntul toată întâmplarea.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Roibul ce mi l-ai dăruit, prințule, și-a scrântit piciorul drept de dinainte; dar deocamdată nu e vorba de roib. Așadar, solul căzăcesc veni să ceară, ca Măria Sa Vodă să dea pe verișoara după Timuș, fiul hatmanului Hmelnițki. Vodă dentru-ntâi nu știa ce să răspundă; apoi porunci să cheme pe toți boierii la Divan, unde m-am întâmplat și eu, și ne întrebă sfatul: ce-i de făcut și ce-i de dres? Noi cu toții am strigat într-un glas: să nu primești, Măria Ta, să nu pleci țara sub voia unui cazac, să nu calci cuvântul ce l-ai dat prințului Koribut, să nu nenorocești pe Domnița!... Numai logofătul Gheorghiță tăcea, înghițea noduri, făcea spume la gură și nu răspundea nimica. Atunci Măria Sa Vodă îi zise cu mânie: ești mut, logofete, când te întreabă nevoia țării? Deci, logofătul s-a sculat, și-a răsucit musteața, s-a uitat roată la boierii, apoi aținti privirea drept în ochii lui Vodă, o privire de șoim – bată-l focul să-l bată – și zise cu vorba lui cea lată: – Mă gândesc și eu la nevoia țării, Măria Ta. – Ei, și care-ți este chibzuiala? zise iarăși Vodă. – Chibzuiala mea este, Măria Ta, ca să dai pe Domnița după Timuș.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu dispreț) </stage>
+            <p>Nemernicul!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (cu furie) </stage>
+            <p>Trădătorul!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Știu eu pe unde-l doare! Logofătul nu poate uita că Domnița n-a vrut să fie logofeteasă.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și ce a răspuns tata, vere?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Își încreți fruntea, își încruntă sprâncenele, lovi domnește cu pumnul în masă și zise: Nu dau pe Rosanda mea după un cazac!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Bunul meu tată!</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XII</head>
+          <stage>ACEIAȘI, UN APROD</stage>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Preasfinția sa părintele mitropolit Varlaam mă trimite să spun Măriilor Voastre, că totul este gata pentru serbarea nunții.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA XIII</head>
+          <stage>ACEIAȘI, fără APROD</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (iute) </stage>
+            <p>Apoi ce mai așteptăm, scumpa mea Domniță?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nunta-i gata.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Aidem.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (care rămăsese până acum cufundată în gânduri) </stage>
+            <p>Măi stai, vere... Ai uitat să ne spui răspunsul solului căzăcesc la cuvintele lui Vodă...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>O secătură! A zis că 30 000 de cazaci stau gata să treacă Nistrul, pentru a arăta moldovenilor cum că fiul hatmanului lor este vrednic de a lua și o fată de împărat.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (tulburată) </stage>
+            <p>Ce spui, vere?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Să treacă în bunăvoie! E lesne de intrat, dar nu știu cum vor ieși, căci mă jur pe sabia mea...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Câtă oaste avem noi, vere?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Deocamdată o nimica toată. Mai toți voinicii sunt duși pe la țară, fiind vreme de pace. Dar nu te speria, verișoară; se vor trimite porunci pe la pârcălabi ca să strângă oameni și se va mai scrie și craiului Rakoți ca să ne dea un ajutor de ungureni...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>În cât timp se poate aduna laolaltă oastea noastră moldovenească, ca să fie gata de război?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>În trei săptămâni.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Câtă vreme trebuie pentru ca să sosească ajutorul din Ardeal?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>O lună.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>În cât timp pot intra cazacii în Moldova?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Peste... peste... apoi să-ți spun drept: peste trei zile.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dumnezeule!... Du-te, vere, grăbește-te; oprește pe solul căzăcesc. Zi-i că Măria Sa Vodă și-a schimbat gândul... Spune-i că domnița Rosanda primește a fi soția cazacului Timuș!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (frângându-și mâinile) </stage>
+            <p>Sărăcan de mine! Timuș! Un muscal!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (către Koribut) </stage>
+            <p>Prințule, te iubesc, dar țara mai pe sus de toate!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (cu nedumerire) </stage>
+            <p>Dumneata glumești, verișoară, nu-i așa?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>O asemenea glumă n-ar fi la locul său, mai ales în privința unui om ca mine. Nu știu ce trebuie să zic. Nu mă domeresc dacă trebuie să cred urechilor mele.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Peste trei zile cazacii vor fi la Iași; peste trei zile focul și sabia, potopul și măcelul vor pustii Moldova; peste trei zile copiii vor rămâne orfani, nevestele văduve, părinții vor plânge fiii lor; peste trei zile... și toate astea din pricina unei nemernice ca mine! Pentru un vis de dragoste, o nălucire trecătoare, o umbră de fericire, eu să aduc pieirea țării mele! Blestemele fraților mei să cadă pe mine? Viitorul meu să fie clădit pe mormintele românilor?... O, nu! Niciodată!</p>
+            <stage> (Lui Milescu.) </stage>
+            <p>Du-te, vere! Grăbește-te; oprește pe solul căzăcesc...</p>
+            <stage> (Se apucă cu mâinile de piept.) </stage>
+            <p>O! aceasta întrece puterile mele... dar ce să fac! Ce să fac?!</p>
+            <stage> (Leșinată cade în brațele Saftei.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA XIV</head>
+          <stage>ACEIAȘI, TRANDAFIR</stage>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Cei patru vlădici greci așteaptă în biserică.</p>
+          </sp>
+          <stage>(O cameră mobilată cu lemn alb. La dreapta o fereastră deschisă, din care se vede o grădină. În fund și la stânga câte o ușă.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="4">
+        <head>ACTUL III</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>SAFTA, ROSANDA</stage>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Mi se rupe inimioara, Domniță, când mă gândesc numai cât de mult suferi.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (culcată alene pe divan) </stage>
+            <p>Mult sufăr!... Mult!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Apoi socotesc singură, dacă n-ai făcut rău de a te jertfi astfel pentru țară?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Aceasta să nu mi-o spui, Safto. Este drept că eu sufăr, dar suferințele mele, de ar fi ele și mai cumplite, tot încă sunt o nimica pe lângă suferințele unei țări întregi, suferințele țărișoarei noastre...</p>
+            <stage> (Oftând.) </stage>
+            <p>Mi-e dor de Moldova, Safto.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Și mie.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Aici, în țara căzăcească, și în starea în care mă aflu, singurul lucru ce mă mai mângâie este de a ști că, prin măritișul meu cu... cu..., bieții noștri români au dobândit o fericită pace. Cazacii, în loc de a-i turbura ca mai-nainte, îi apără; iar celelalte neamuri se tem de cazaci și lasă țara în liniște, ca să se mai odihnească.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>E rău numai atâta, Domniță, că biata Moldovă a ajuns să nu se mai poată apăra ea singură, ca în timpii cei vechi.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>În timpii cei vechi... ai spus o mare vorbă, Safto! Bine a fost în timpii cei vechi. Ș-apoi știi una? Mie mi se pare că eu n-aș putea iubi țara noastră așa cum o iubesc, să nu fi avut ea un trecut strălucit, timpii săi cei vechi, după cum zici tu. Mie mi se pare că nimic nu aprinde dragostea pentru țară, ca slava străbunilor, ca dorința de a nu fi mai pe jos de moșii și strămoșii noștri, ca râvna de a lăsa și noi o pomenire fiilor și nepoților... Trecutul este ușa viitorului!... Mi-e dragă Moldova, Safto, pentru că Moldova e țara lui Ștefan cel Mare!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (cântă) </stage>
+            <p>Ștefan, Ștefan, domn cel mare,</p>
+            <p>Seamăn pe lume nu are,</p>
+            <p>Saltă țara mea!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Așa este, Safto. Dacă astăzi mai sunt încă români ce-și iubesc țara, este numai pentru că din copilărie ei au auzit cântecul lui Ștefan Vodă; l-au auzit în toate zilele, în toate orele zilei; l-au auzit în leagăn și l-au auzit pe patul morții.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Cu toate astea, Domniță, cântecul lui Ștefan Vodă d-o bucată de vreme începe a fi uitat; nu-l mai auzi la mesele boierilor; s-au născocit alte cântece, străine, grecești, turcești, leșești.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Să nu-l uităm noi, Safto; noi, aruncate în neagra străinătate; noi, care suferim; noi, ale căror dureri le pot alina din când în când numai aducerea-aminte a țărișoarei noastre! Cântă-mi, Safto, cântă-mi cântecul lui Ștefan cel Mare.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Glasul meu, Domniță, nu mai răsună cum răsuna altădată, la noi acasă. M-a amuțit străinătatea. Dar Măria Ta ai uitat că aseară au sosit din Moldova, după porunca Măriei Tale, o ceată de călușeri de la Suceava...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (iute) </stage>
+            <p>A! Bine că mi-ai adus aminte! Ce bucurie!... Cheamă-i, Safto! Cheamă-i îndată!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (deschizând ușa) Ei sunt aici de mult... Așteaptă porunca... (Intră călușerii.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>&lt;desc. &gt;ACEIAȘI, CĂLUȘERII</stage>
+          <stage>(Călușerii execută un dans voinicesc; apoi unul cântă pe „Ștefan Vodă“ și ceilalți în cor: „Saltă țara mea!”)</stage>
+          <sp who="#caluserii">
+            <speaker>CĂLUȘERII</speaker>
+            <p>Ștefan, Ștefan, domn cel mare,</p>
+            <p>Seamăn pe lume nu are,</p>
+            <p>Saltă țara mea!</p>
+            <p>Seamăn pe lume nu are</p>
+            <p>Decât numai mândrul soare,</p>
+            <p>Saltă țara mea!</p>
+            <p>El și-a pus pieptu-n hotare</p>
+            <p>De-oprește hoarde tătare,</p>
+            <p>Saltă țara mea!</p>
+            <p>Oprește hoarde tătare</p>
+            <p>Și litfeni cu chica mare,</p>
+            <p>Saltă țara mea!</p>
+            <p>Litfenii cu chica mare</p>
+            <p>Și unguri cu ceafa tare,</p>
+            <p>Saltă țara mea!</p>
+            <p>Ungurii cu ceafa tare</p>
+            <p>Și turcii pe zmei călare,</p>
+            <p>Saltă țara mea!</p>
+            <p>Ștefan, Ștefan, domn cel mare,</p>
+            <p>La Suceava cuibu-și are,</p>
+            <p>Saltă țara mea!</p>
+            <p>La Suceava cuibu-și are</p>
+            <p>Și din cuib ades el sare,</p>
+            <p>Saltă țara mea!</p>
+            <p>Și din cuib când el îmi sare,</p>
+            <p>Se bate-n patru hotare,</p>
+            <p>Saltă țara mea!</p>
+            <p>Se bate-n patru hotare</p>
+            <p>Ș-aduce țării scăpare,</p>
+            <p>Saltă țara mea!</p>
+            <stage> (Călușerii se retrag.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III</head>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (sculându-se) </stage>
+            <p>Acum mă simt fericită, Safto! Cugetând la trecutul românilor, mă liniștește viitorul lor, și această dulce credință mă face a uita că suntem în țara căzăcească, a uita chinurile mele, a uita chiar sălbăticia lui Timuș. Mă duc, Safto, mă duc să mă culc, să adorm, să visez, nu timpul de față, ci pe Ștefan cel Mare.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <stage>ACEIAȘI, UN CAZAC</stage>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <stage> (intrând pe ușa din fund) </stage>
+            <p>Jupâneasă Safto, te caută un armean cu marfă.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (iute) </stage>
+            <p>Nu cumva vine din Moldova?</p>
+          </sp>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Nu cred, Măria Ta. Vorbește curat căzăcește.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (oftează și iese prin ușa din stânga) </stage>
+            <p>A!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>CAZACUL și SAFTA</stage>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Armeanul mă caută pe mine?</p>
+          </sp>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Tocmai pe dumneata; zice că i-ai poruncit să vină.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (cu mirare) Eu? Se înșeală foarte tare. Eu n-am văzut nici un armean. Zi-i că nu cumpăr nimic. (Cazacul iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI</head>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (singură, fredonând) </stage>
+            <p>Moldoveanul le grăia:</p>
+            <p>De-ați veni la țara mea,</p>
+            <p>Să va-mpart eu murgi d-ai mei</p>
+            <p>Să vă poarte ca și lei,</p>
+            <p>Să vă-ntreceți și cu zmei...</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII</head>
+          <stage>SAFTA și CAZACUL</stage>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Armeanul zice că ți-a adus o veste de la părinții dumitale.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (râzând) </stage>
+            <p>Eu n-am părinți, mă cazace!</p>
+            <stage> (Aparte.) </stage>
+            <p>Nu cumva căpitanul Trandafir?</p>
+          </sp>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Apoi de! Eu de unde să știu ce ai ori ce n-ai?...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dă-l afară...</p>
+            <stage> (Cazacul vrea să iasă.) </stage>
+            <p>Dar întreabă-l mai întâi, poate caută pe Domnița, nu pe mine?</p>
+          </sp>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Ba chiar pe dumneata, jupâneasă Safto.</p>
+            <stage> (Safta-i face semn să iasă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII</head>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (singură, fredonând) </stage>
+            <p>Frunză verde de cireși,</p>
+            <p>Lungu-i drumul pân’ la Ieși,</p>
+            <p>Lungu-i drumul și bătut</p>
+            <p>De la Nistru pân’ la Prut,</p>
+            <p>Nu-i bătut de car cu boi,</p>
+            <p>Ci-i bătut tot de nevoi!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX</head>
+          <stage>SAFTA, CAZACUL</stage>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Armeanul nu vrea să plece...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nu vrea? Cum? Ce fel?</p>
+          </sp>
+          <sp who="#cazacul">
+            <speaker>CAZACUL</speaker>
+            <p>Zice că să-ți aduci aminte de un lanț de aur și de niște cercei de mărgăritar.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (sculându-se tulburată) </stage>
+            <p>Lanț! Cercei! Lasă-l să intre! Mi se pare și mie că-l cam cunosc...</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X</head>
+          <stage>SAFTA, KORIBUT</stage>
+          <stage>(în costum de neguțător armean, cu un băiat cu marfa în spinare)</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (privind împrejur) </stage>
+            <p>Aci nu ne aude nimeni?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>O, Doamne! Cum te-ai prefăcut, boierule prinț! Cine te-ar mai cunoaște?</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Te-ntreb dacă nu ne aude nimeni? Nu uita primejdia în care mă aflu.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (arătând la băiat) </stage>
+            <p>Nu ne aude nimeni, afară numai...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Numai atâta? Apoi nu te sfii, Safto. Acest băiat este rob al meu și, prin urmare, tace de frică; al doilea, el este mut din naștere și, prin urmare, tace de nevoie; al treilea, el nu știe moldovenește și, prin urmare, nu ne înțelege. Așadar, spune-mi, Safto, cum merg lucrurile pe la voi?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (oftând și plecând capul) </stage>
+            <p>Rău, rău, foarte rău, boierule prinț! Mai rău n-are cum fi!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Cu atât mai bine! În cinci luni de zile a putut să-nvețe, sărmana copilă, ce vrea să zică a trăi o domniță cu un mojic...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Mi-e rușine să ți-o spun, boierule prinț. El o necinstește cu vorba, și cutează chiar, fără frica lui Dumnezeu...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Ei bine?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (aplecându-se la urechea lui Koribut) </stage>
+            <p>O bate. Crede-mă că o bate, boierule prinț; mai cu seamă când e beat, ceea ce i se întâmplă foarte des...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>O bate... Iată omul pe care Rosanda l-a pus mai presus de mine... dar lasă asta! Spune-mi, Safto, Domnița își mai aduce ea aminte de fostul său logodnic?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Mie nu mi-a vorbit niciodată nimica. Când i-o amintesc eu... nu răspunde... se face că nu aude.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Aceasta poate să fie un semn bun, dar poate să fie și un semn rău. Femeia nu vorbește de un om atunci când îl uită sau când îl iubește peste măsură, una din două... Ei bine, Safto, ei bine... eu am venit aicea să răpesc pe Rosanda, am trecut prin zece morți, mi-am pus viața în cumpănă, căci nu pot, nu sunt în stare de a lăsa pe iubita mea în brațele altuia! Vorbește cu Domnița, Safto! Înduplec-o...</p>
+            <stage> (Îi aruncă o pungă.) </stage>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (ridicând punga și dând-o lui Koribut) </stage>
+            <p>Ia-ți-o înapoi, boierule prinț. Safta nu mai este ceea ce a fost altădată. Pilda și suferințele stăpânei mele m-au îmbunătățit și pe mine. Voi stărui, voi ruga pe Domnița să fugă; însă nu voi lucra pentru bani, ci numai pentru fericirea stăpânei mele.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Ceea ce-mi spui, Safto, mă face să iubesc și mai mult pe Rosanda.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Acum ne-am înțeles, boierule prinț. Du-te dar, du-te, căci Timuș poate să se întoarcă de la vânătoare și atunci...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (iute) </stage>
+            <p>Cum? Zici că Timuș nu-i acasă? E la vânătoare? Departe?... Dar spune-mi, spune-mi, unde-i Rosanda? Nu cumva este aici? Singură? Aproape de mine?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Liniștește-te, boierule prinț. Domnița doarme, ca să-și mai uite durerile.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Ea doarme... Doarme în patul lui Timuș! Ascultă, Safto!... Fă-mă s-o văz... să-i vorbesc eu însumi. Cere cât vrei de la mine! Lasă-mă s-o smulg chiar acum, în clipa aceasta, din așternutul mojicului!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Peste putință... Pleacă, pleacă de aici, boierule prinț...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Să-i spun numai două vorbe... numai o vorbă...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Du-te, du-te, pentru mila lui Dumnezeu!</p>
+            <stage> (Se aude o mișcare la ușa din stânga.) </stage>
+            <p>O, Doamne! vine cineva... fugi, fugi!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (ieșind prin ușa din fund) </stage>
+            <p>Mă duc, dar voi aștepta răspunsul tău.</p>
+            <stage> (Băiatul iese după Koribut) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XI</head>
+          <stage>SAFTA, ROSANDA</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (intrând iute) </stage>
+            <p>De ce l-ai alungat, Safto?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (speriată) </stage>
+            <p>Cum? Ne-ai auzit, Domnița? N-ai dormit?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (tremurând de emoțiune) </stage>
+            <p>Am fost la ușă... L-am ascultat. L-am văzut prin crăpătura ușei. Aș fi dorit să-l mai privesc... Mă simțeam atât de fericită. Nu mă mai puteam stăpâni, Safto; eram cât p-aci să intru...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Vrea să zică, tot îl mai iubești, Domniță?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu extaz) </stage>
+            <p>Mai mult ca oricând!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Știi pentru ce a venit?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (pune mâna în frunte) </stage>
+            <p>O știu... vai mie... o știu!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ești gata dară a...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Niciodată, Safto! Întâlnește-l, spune-i să plece. Viața-i este în primejdie. Să nu mai aștepte... să nu nădăjduiască nimica!... Safto! Safto! sunt roaba datoriei!</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XII</head>
+          <stage>ACEIAȘI, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (intrând cu violență și izbind ușa) </stage>
+            <p>La naiba! Cât p-aci era să fac o moarte de om, vreau să zic o moarte de cazac, puțin a lipsit! Să nu mă lase să intru eu!... Bine te-am găsit, verișoară!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu bucurie) </stage>
+            <p>Bun sosit, vere!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Sărută-mă, verișoară, sărută-mă iute: este dreptul cel mai dulce și cel mai netăgăduit al verilor</p>
+            <stage> (se sărută cu Rosanda) </stage>
+            <p>. Ce mai faci, Săftico? Nu cumva te vei fi măritat?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Sărut mâinile, boierule...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>În sfârșit, ți-ai adus și tu aminte de noi, vere. Ce mai face tata?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Sănătos, foarte sănătos, sănătos ca tunul, și dumneata știi, verișoară, vorba românului: să dea Dumnezeu sănătate, că-i mai bună decât toate. Așadară, cât privește sănătatea, Măria Sa Vodă nu se plânge, slavă Domnului. Mătușica avusese o tuse. Eu i-am spus să bea un păhăruț de rachiu după masă. Mitropolitul Varlaam i-a pus la piept degetul Sfântului Prohirie, moaște aduse de la Antiohia de patriarhul Macarie... Tusea i-a trecut. De doftoria mea, sau de degetul Sfântului Prohirie, nu știu. Trebuie să fie una din două...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Tot faci pe doftorul, Milescule?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Și nu fac rău, căci în ziua de astăzi Moldova are mai mare trebuință de doftori decât de ostași. E cam bolnavă țara întreagă.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (speriată) </stage>
+            <p>Bolnavă?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Nimicuri! Va da Dumnezeu, se vor îndrepta toate.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar ce să se îndrepteze? Eu nu te înțeleg, vere. Despre ce vorbești?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Aș vrea să văd pe Timuș. Am o solie din partea Măriei Sale lui Vodă.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Nu mă speria, vere! Spune-mi, ce s-a întâmplat?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Te știu, Rosando, că ai o inimă mai mult bărbătească decât muierească. Așadară, ți-oi spune verde și pe șleau fără a ocoli. Logofătul Gheorghiță nu putea să uite...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Că Măria Sa Vodă n-a vrut să-l aibă ginere...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Fie și așa! Ei bine, acuma el și-a răzbunat...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și-a răzbunat?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ce spui, boierule?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Se ajunse cu craiul Rakotzi, aduse în țară o oaste de ungureni, apucă Iașul fără veste, răsturnă pe Măria Sa Vodă și se puse el singur domn în scaunul țării.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar țara? Cum a îngăduit țara o asemenea nelegiuire?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Țara? Vorbă să fie! Țara nu-și bate capul pe cine să aibă domn: fie Stan, fie Vlad, totuna, numai să aibă un buzdugan și o căciulă domnească. Și-apoi cată să mărturisim, că Măria Sa Vodă, unchiu-meu, avusese și el păcate; îi plăceau grecii, îi adăpa cu tot felul de slujbe, îi punea mereu la pâine: chir Iane la dreapta, chir Frangolea la stânga, oriunde vedeai un român, trebuia să găsești zece venetici alăturea. Înțelegi acum, verișoară, pentru ce țara a rămas surdă și mută la chemarea Măriei Sale. Nu ajunge ca inima domnului să fie bună, trebuie să fie bune și urechile domnești, iar urechile domnești sunt acei ce înconjoară pe un domn. Iată dar că în loc să strige: „Să trăiască Vasile Vodă! Jos Gheorghiță!“ țara striga cât putea: „Jos Vasile Vodă! Să trăiască Gheorghiță!“ Păcatele grecilor, verișoară! Eu unul o prevesteam cu mult mai dinainte, dar Măria Sa credea că-i glumă, fiindcă ieșea din gura unui om glumeț, și asculta prostiile ce i le spuneau alții fără ca să râdă...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Va să zică, țara nu vrea pe tata?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Nu, dar el o vrea, – știi vorba Lăpușneanului.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și ce face? Unde-i acuma?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Trecu Nistrul și se trase la Camenița dempreună cu toată casa și cu toți boierii, toți câți i-au mai rămas cu credință, adică doi-trei peste tot; credința noastră boierească.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Iar tu, vere?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Eu? Sănătos, mulțămim dumitale, verișoară. Vin aci la Timuș ca să luăm o oaste căzăcească și să dăm afară pe Gheorghiță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Să intrați în Moldova? Să vă bateți cu frații voștri?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Firește! Păruială frățească...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Rușine, Milescule! O, nu, tu nu vei face aceasta! În pieptul tău zvâcnește o inimă românească și această inimă nu te va lăsa să ridici brațul asupra țării tale, asupra maicei tale, asupra lui Dumnezeu! Poporul vrea pe Gheorghiță... să-i fie de bine! să domnească; așa este voia lui Dumnezeu... Poporul nu vrea pe tata... nu-l vrea Dumnezeu! Ei bine, tata trebuie să se plece la glasul poporului și să vină aicea, să-și petreacă bătrânețele în liniște, pe brațele fiicei sale, care nu-l va lăsa niciodată.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Apoi de, verișoară, vorbești frumos, dar nu pricepi cum este lumea. E dulce domnia Moldovei, după cum zicea Miron Vodă.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Este dulce când o dă dragostea poporului, e amară când nu vrea țara...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Dulce sau amară, vrea sau nu vrea, eu trebuie să-mi împlinesc solia. Unde-i Timuș, verișoară?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Nu mânia cerul, vere! Te rog la picioarele tale, nu căuta pe Timuș! Nu căuta pe Timuș! Nu supune țărișoara noastră sub sabia cazacului!</p>
+            <stage> (Cade în genunchi.) </stage>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (plângând) </stage>
+            <p>O, Doamne!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (ridicând pe Domnița și depunând-o pe divan, jumătate amețită) Nu te speria, verișoară. Eu sunt slugă domnească mai înainte de toate, și nu pot să-mi calc slujba... Safto, priveghează pe Domnița; privegheaz-o bine... Nu-i nimica. Un mic leșin. Stropește-o cu puțină apă rece... Eu merg să găsesc pe Timuș... (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA XIII</head>
+          <stage>ROSANDA, SAFTA</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (sărind în picioare după un moment de nemișcare) </stage>
+            <p>Scumpa mea Saftică! Credincioasă tovarășă a suferințelor mele! Ce să facem? Cum să scăpăm Moldova?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nu știu, stăpâna mea; nu găsesc nici o cale...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>O găsesc eu, Safto. Da! Sunt hotărâtă...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar cum? Ce fel, Domniță?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Trebuie să rumpem cu orice preț, trebuie să sfâșiem legătura lui Timuș cu tatăl meu. Trebuie să facem ca Timuș să nu mai fie ginerele lui Vasile Vodă, și astfel să nu-l mai ajute... Eu voi fugi, Safto!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (iute) </stage>
+            <p>Cu prințul? Te învoiești?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu indignare) </stage>
+            <p>Eu? Niciodată! Îmi voi împlini datoria mea către țară, datoria cea mai sfântă; dar nimica nu mă va putea face să-mi calc datoria către acela cu care m-a însoțit, dacă nu dragostea, cel puțin soarta și biserica. Iubesc pe prinț, căci în zadar mă zbucium a-l da uitării; dar această iubire va rămâne curată ca dragostea lunei cu soarele, cari se urmăresc neîncetat, fără să le fie iertat d-a se întâlni vreodată în calea lor. Prințul este pierdut pentru mine și eu sunt pierdută pentru el... Pierdută! Pierdută!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar atunci, cum, oare, vei fugi?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Am vorbit cu maica stareță de la Sfânta Caterina; i-am spus de mai multe ori dorul ce mă frământă de a muri în haina mireselor lui Christos... Acuma e seară, mănăstirea nu-i departe, mă voi ascunde acolo, și nimenea, nimenea afară de tine, Safto, nu va ști unde petrece nenorocita ființă, căreia nu i-a fost dat de a gusta fericirea lumească...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar eu, Domniță?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Tu, Safto?... Tu să rămâi aicea! Tu vei spune lui Timuș că stăpâna ta a plecat cu Milescu la tata...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar jupânul spătar nu pleacă. El va vorbi...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (gânditoare) </stage>
+            <p>Așa e... Atunci... atunci spune lui Timuș că ai văzut aici pe prințul Koribut... că nu știi ce s-a făcut cu mine... Lasă să creadă că eu am fugit cu prințul... Lasă să aibă dreptul de a mă disprețui. Cu atât mai bine! Va fi din parte-mi o nouă jertfă și mai mare pentru a scăpa Moldova... Dar timpul trece...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (plângând) </stage>
+            <p>O, nu, Domniță... Eu nu te pot lăsa! Nu pot, nu sunt în stare a mă dezlipi de iubita mea stăpână...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Aidem, aidem, Safto! Nu mai plânge! Privește singură cât sunt de liniștită... Aidem! Țara o cere de la mine! Țara mea! Țara noastră...</p>
+            <stage> (Ies amândouă pe ușa din stânga.) </stage>
+          </sp>
+          <stage>(Decorul ca în actul II.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="5">
+        <head>ACTUL IV</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>MILESCU, BARBU, BĂIATUL MUT, SAFTA</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Aicea, căpitane Barbule, poți să-mi vorbești fără sfială.</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Jupâne spătare!</p>
+            <stage> (Arătând la băiat.) </stage>
+            <p>Vezi leahul ăsta? Îl vezi? Ei bine... Umblând cu straja, a dat Dumnezeu de am pus mâna pe dânsul. Se tot învârtea pe lângă poarta cetății, îl iau din scurt, degeaba, nu răspunde nimica, se face că-i mut. Dar am găsit la dânsul în sân această țidulă</p>
+            <stage> (dă lui Milescu o hârtie.) </stage>
+            <p>N-am vrut să-l duc dinaintea lui Timuș, căci, vezi bine, eu nu am a face cu căpeteniile cazăcești. Cine știe, jupâne spătare, poate să fie în această țidulă vreun meșteșug, care să trebuiască să-l știm numai noi, moldovenii...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Te-ai purtat înțelepțește, căpitane. Lasă țidula. O voi arăta eu singur Măriei Sale lui Vodă. A mai văzut-o altul afară de tine?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Dar tu ai citit-o?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Nu știu carte, jupâne spătare.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ești un om neprețuit! A ști carte este de folos numai celora de la putere și-i stricăcios pentru cei de rând... Acuma ia pe omul ăsta de mi-l pune la cercare... mă-nțelegi... silește-te a-i dezlega limba.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Îl cunosc eu, boierule spătar... L-am văzut odată printre slugile prințului Koribut. Băiatul este în adevăr mut. Mi-o spusese chiar prințul...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (privind cu fixitate) </stage>
+            <p>Bre! Îl cunosc și eu... parcă l-aș mai fi văzut nu știu unde. Dar ce-mi pasă mie! Fie mut sau nemut, ajunge că nu-i de-ai noștri! Pune-l pe sub roată, căpitane Barbule; întinde-l voinicește, și-o să vezi cum va începe să vorbească în toate limbile. E un venetic...</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>Mai poruncești ceva, jupâne spătare?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Unde-i Timuș, căpitane? Văzutu-l-ai?</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <p>A ieșit din cetate cu cazacii săi, pesemne ca să se mai bată, după obicei, cu Gheorghiță Vodă. Nu se mai astâmpără... Zi și noapte tot călare! Eu unul nu înțeleg, zău, o astfel de petrecere. Noi românii ne batem o dată, dar ne batem vitejește: ori biruim, ori așternem câmpul cu oasele noastre, una din două; iar cazacii ăștia se bat, apoi fug, apoi iarăși se bat, apoi iarăși fug; nu se mai sfârșește jucăria!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Bine, bine, căpitane. Acuma du-te de-ți fă treaba.</p>
+          </sp>
+          <sp who="#barbu">
+            <speaker>BARBU</speaker>
+            <stage> (împingând afară pe mutul) Mișcă, mișcă, liftă străină! (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>SAFTA, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (după ce aruncă o căutătură asupra scrisorii ce luase de la Barbu) </stage>
+            <p>A! De la prinț către verișoara! Ian’ ascultă, Săftico, pentru ca să vezi că mutul tău e bun nu de roată, ci tocmai de spânzurătoare</p>
+            <stage> (citește) </stage>
+            <p>: „Scumpa mea Rosandă! De-abia astăzi am sosit în tabăra lui Gheorghiță, aducându-i un ajutor de oaste leșească. Încă pe drum am aflat toate. Știu cum Timuș te-a găsit ascunsă în mănăstire; știu cum te smulse din brațele maicelor; știu cu ce cruzime s-a purtat, deși te știa în ajun de a fi mama copilului său...”</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (oftând) </stage>
+            <p>În adevăr, ucidea pe sărmana Domniță! O ucidea, să n-o fi scos dumneata din ghearele lui!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Dar ascultă mai departe</p>
+            <stage> (Citește.) </stage>
+            <p>„Am venit cu hotărârea de a împlini, în sfârșit, visul dragostei mele, ori de nu... voi cădea mort pe câmpul bătăliei, șoptind cu buzele murinde numele tău, Rosando! Voi căuta prilejul de a întâlni pe Timuș cu sabia în mână și atunci... lupta va să dezlege, care dintre noi doi trebuie să trăiască și să fie fericit!”</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Numai atâta?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Numai atâta! Este cam puțin, ai dreptate, Safto! O adevărată dragoste e mai limbută. Așa cel puțin o crez eu; tu vei fi știind mai bine.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III</head>
+          <stage>ACEIAȘI, ROSANDA</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>A! Ești aici, vere?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (dându-i scrisoarea) </stage>
+            <p>Iubită verișoară, prințul Koribut îți trimite acest răvaș...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (aruncând jos scrisoarea) </stage>
+            <p>Răvașele prințului n-au ce căuta la mine.</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Îl scrisese cu o zi înainte de-a muri.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (emoționată, căutând un reazem) </stage>
+            <p>Cum? Prințul a murit? A murit?...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (râzând) </stage>
+            <p>Nu, deocamdată; dar eu am vrut să te descos, verișoară, pentru ca să aflu dacă respingi răvașul din inimă sau numai din buze.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Ești rău, Milescule! Este o nelegiuire de a-ți bate joc de suferința aproapelui tău, și ce suferință, o, Doamne! Atâtea dureri, atâtea chinuri, câte apasă pieptul meu, năvălind toate deodată ca pâraiele ce izbesc din vârful munților pentru a îneca câmpia... O! aceasta este prea mult pentru o sărmană ființă, pe care voi înșivă o numiți slabă, și-apoi voi înșivă râdeți de slăbiciunea ei!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (sărutându-i mâna) </stage>
+            <p>Iartă-mă, verișoară!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (continuând cu foc) </stage>
+            <p>Tu te miri că mă-ngrijește soarta prințului? Ei bine, da, mă-ngrijește, căci dragostea este spinul: nu-l simți când intră, dar te doare când îl smulgi cu sila!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Am greșit, nu te supăra, verișoară.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (înfocându-se și mai mult) Tu crezi că inima mea este sfâșiată numai de durerea prințului? O, Dumnezeule, o singură rană ar fi o fericire pentru mine! Dar inima mea este ca o peșteră, unde fiecare glas, fiecare șoaptă, fiecare freamăt își află un răsunet, își găsește o umbră ce-i răspunde. Tot ce se mișcă împrejurul meu îmi aduce câte o durere, și din unirea tuturor acestor dureri se naște o singură văpaie mare, uriașă, de care voi bărbații nu vă puteți face o icoană. Mă doare pentru prinț: mă doare știind în câte primejdii se aruncă Timuș, tatăl copilului meu; mă doare când privesc la nevinovatul meu prunc, a cărui viață va fi și ea un lanț de suferințe; mă doare pentru țara mea, unde frații se mânjesc în sângele fraților... Mă doare pentru toate, pentru toate, pentru toate...! (Pune mâna la cap.) </stage>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Liniștește-te, verișoară... Liniștește-te. Nu este nici o suferință în lume pe care să nu o răscumpere o singură zi de fericire...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (așezându-se) </stage>
+            <p>Da, vere, îți mulțumesc pentru această mângâiere. O mică lumânare gonește întunericul dintr-o mare odaie. Așa este. Voi aștepta și eu o singură zi... o oră de fericire; dar veni-va? Aprinde-se-va și pentru mine acea mică lumânare?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Va veni, scumpa mea stăpână!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Acum spune-mi, vere, ce-i nou în tabără?</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <stage>ACEIAȘI, TRANDAFIR</stage>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Jupâne spătare!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ce este?</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (cu îndoială) </stage>
+            <p>Dar Măria Sa Domnița?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Vorbește, căpitane... Eu sunt deprinsă cu vești rele...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Să trăiești, Măria Ta!... Apoi e rău, jupâne spătare. Dușmanii au înconjurat ceata hatmanului Timuș, și-i cam anevoie să scape. Măria Sa Vodă, care privește din turn, m-a trimis să-ți spun, jupâne spătare, să iei îndată pe toți lefegiii, să mergem să scoatem pe cazaci din poticală.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Grăbește, vere... merg și eu!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ce are a face! Fii cuminte, verișoară. Timuș e destul de viteaz el singur, și-apoi nici noi ăștia nu suntem de lepădat. Aidem, căpitane!...</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (aparte lui Milescu) </stage>
+            <p>Păcatul cel mare este că hatmanul e beat...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Înainte, Trandafire!</p>
+            <p>ROSANDA și SAFTA: Să vă ajute Dumnezeu!</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (Saftei, care-l însoțește până la ușă) </stage>
+            <p>Să știi, Safto, că voi muri, dar tot nu voi învăța grecește!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>ROSANDA, SAFTA.</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (îngenunchind) </stage>
+            <p>Făcătorule al cerului și al pământului!</p>
+            <stage> (Safta îngenunchează alături.) </stage>
+            <p>Ascultă ruga mea, dacă ai ascultat ruga lui Iov, pe care, ca și pe mine, l-ai trecut prin vama suferințelor! El cerea vindecarea suferințelor sale; eu nu cer nimic pentru mine, Doamne! Lovește-mă, urmează a cerca prin ispite pe roaba ta cea păcătoasă, dar îndură-te pentru țara, îndură-te pentru poporul tău, o, părinte al bunătăților! Fă ca în focul măcelului sabia să cruțe viața românilor, săgeata să nu-i atingă, glonțul să zboare deasupra capetelor! Nu voi nimic pentru mine, toate pentru frații mei!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Amin!</p>
+            <stage> (Se scoală. Afară se aude sunetul tobelor și al trâmbițelor.) </stage>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Milescu pleacă cu lefegiii. Să-i acopere scutul lui Dumnezeu! Ascultă, Safto, ascultă... Mergând la moarte, ei cântă vechiul cântec ostășesc, făcut de Ștefan cel Mare pentru vitejii săi.</p>
+            <stage> (În fundul grădinii defilează o ceată, cu Milescu în frunte, cântând:) </stage>
+            <p>Ceata</p>
+            <p>Hai, frați, hai, frați!</p>
+            <p>La năvală dați!</p>
+            <p>La năvală dați!</p>
+            <p>Steagul v-apărați!</p>
+            <p>Hai, frați, hai, frați!</p>
+            <p>La năvală dați!</p>
+            <p>La năvală dați!</p>
+            <p>Crucea v-apărați!</p>
+            <p>Hai, frați, hai, frați!</p>
+            <p>La năvală dați!</p>
+            <p>La năvală dați!</p>
+            <p>Țara v-apărați!...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu o jumătate voce) </stage>
+            <p>Săftico, să fie, oare, adevărat că prințul este aicea?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Așa zice spătarul, Domniță.</p>
+            <stage> (Zărind jos scrisoarea și ridicând-o.) </stage>
+            <p>Dar iată chiar răvașul.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Mie nu-mi este iertat... nu-mi este iertat a-l citi.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ași! De unde știi, Domniță, că spătarul n-a glumit, după obicei. Poate că această scrisoare nu este decât o născocire, ca să te ispitească.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (luând răvașul cu sfială) </stage>
+            <p>Dare-ar Dumnezeu să fie cum zici tu, Săftico...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ții scrisoarea în mână fără s-o citești?...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar dacă va fi de la dânsul...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Și chiar să fie: omul primește scrisori de la oricine... O scrisoare nu se poate respinge până ce nu știi ce cuprinde...</p>
+            <stage> (Aparte.) </stage>
+            <p>Eu una știu că mie mi-ar plăcea să știu toate scrisorile din lume.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (deschizând scrisoarea) </stage>
+            <p>Tu mă ispitești, Safto...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dacă-i așa, lasă-mă s-o citesc eu, Domniță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (aruncând o privire asupra scrisorii) </stage>
+            <p>Slova prințului!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Apoi dac-ai început, sfârșește dară.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (după ce a citit) </stage>
+            <p>Prințul este aicea în șirurile dușmanilor noștri!... El caută luptă cu Timuș... Unul din doi o să piară... Safto! Safto! O să piară prințul! Mi se rupe inima! O să piară prințul! Ce să fac?!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Îl iubești prea mult, sărmana mea stăpână!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Îl iubesc!... cu atât mai mult, cu cât se lărgește prăpastia, ce blestemul sorții a aruncat-o între mine și între dânsul!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Însă prințul poate să scape...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Să scape... Deci să scape? Este cu putință? Dar atunci... va pieri Timuș. Timuș, tatăl copilului meu! O, nu voi, nu voi aceasta, Safto!</p>
+            <stage> (Afară se aude zgomot de arme, alergări, strigate.) </stage>
+            <p>Ce este? Ce este?</p>
+            <stage> (Se repede la ușă și se întâlnește cu Milescu.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI</head>
+          <stage>ACEIAȘI, MILESCU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>A fost prea târziu. Dușmanii au intrat în cetate odată cu cazacii, pe care îi gonesc din urmă ca pe o turmă de viței speriați.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar Timuș? Bărbatul meu?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Va fi fugind și dânsul cu alții... Doară nu e cu stea în frunte. Numai de nu s-ar poticni, fiind beat...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Văzutu-l-ai?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ba nu cumva era să-l caut? Locul meu este aice lângă d[umnea]ta, Rosando! Te voi apăra cu capul meu împotriva nemernicilor ce ar cuteza să calce pragul acestei odăi.</p>
+            <stage> (Scoate sabia.) </stage>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Ce s-a făcut cu tata?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>M[ăria] Sa Vodă era pe meterezuri; desigur că-l vor fi prins dușmanii, pe [el] cel dentâi, la intrarea lor în cetate.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (frângându-și mâinile) </stage>
+            <p>Dumnezeule!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Iată, verișoară, unde ne-a adus semeția lui Timuș, vrând să facă toate numai el cu cazacii săi și respingând pe moldoveni, ca nu cumva să-i răpească cununa vitejiei!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu sfială) </stage>
+            <p>Văzut-ai, oare, pe... mă... înțelegi, vere?</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Nu; dar nu mă îndoiesc că el nu va fi rămas în bătălie cu mâinile în sân.</p>
+            <stage> (Zgomotul din afară devine extrem. Se aude spargerea câtorva uși. Milescu se pune în fața ușii din fund. Intră Koribut, în armură de fier, urmat de patru ostași, cari aduc pe o scândură cadavrul lui Timuș.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII</head>
+          <stage>ACEIAȘI, KORIBUT, OSTAȘI</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Ucis! Ucis! Sărmanul copil!</p>
+            <stage> (Își acoperă fața cu mâinile.) </stage>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (lui Milescu) </stage>
+            <p>Aruncă sabia, boierule; suntem prieteni, nu dușmani!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Ba de prieteșug n-are încotro. Îmi șade bine și cu sabia, prințule.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (către ostași) Puneți-l aice, în mijlocul odăii. (Ostașii pun jos cadavrul și ies.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII</head>
+          <stage>ACEIAȘI, FĂRĂ OSTAȘI</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (zâmbind cu ironie) </stage>
+            <p>Prințule, știi oare un lucru? Răposatul Timuș nu îmbrăca niciodată cămașa de fier... A te fereca atât de bine, nu e un semn de vitejie...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Un om ca mine, boierule, s-ar înjosi dacă ar răspunde la toți și la toate...</p>
+            <stage> (Către Rosanda.) </stage>
+            <p>Acuma ești a mea, Domniță! Nici datoria către țară, nici datoria către bărbat nu te mai împiedică a fi a mea...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (descoperind fața) </stage>
+            <p>Te-nșeli, prințule. Acum datoria mă leagă cu trecutul și cu viitorul. Sunt datoare a plânge pe mormântul lui Timuș și voi zâmbi lângă leagănul fiului meu. Sunt văduvă și mumă!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Dar voi fi eu tată copilului d[umi]tale.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu amărăciune) </stage>
+            <p>D[umnea]ta, tată copilului meu? D[umnea]ta, tată acelui nenorocit, al cărui părinte căzu mort din mâna d[umi]tale? Fiul meu nu mă va vedea niciodată în brațele ucigașului lui Timuș.</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (făcând un pas spre Rosanda) </stage>
+            <p>Dar aceasta nu se poate! Aceasta nu va fi! Ești a mea, Rosando!</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (cu un gest de amenințare) </stage>
+            <p>Mai încet, mai încet, viteazule cu cămașa de fier! Milescu nu glumește totdauna...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (scoțând din sân un pumnar) Ai ucis pe tată, prințule, vei ucide și pe mama copilului! Încă un pas, și mă vei vedea moartă lângă soțul meu! (Înaintează către cadavrul lui Timuș și îngenunchează.) </stage>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (cu disperare) </stage>
+            <p>Nici acum!</p>
+          </sp>
+          <stage>(O florărie într-o mănăstire de maici de lângă Neamț.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="6">
+        <head>ACTUL V</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>MAICA OLIMPIADA, MAICA EULAMPIA</stage>
+          <stage>(stropind florile așezate în oale)</stage>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Auzit-ai, soro, ce se vorbește? O nouă hoție!... Ieri noaptea... Dar nu uita a stropi floarea cea din fund...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Ei bine, zici că ieri-noaptea?...</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Cale de un ceas de-aicea, la armeanul Ceacâr... haiducii au spart ușile, au legat pe argați, au apucat pe bătrânul Ceacâr în așternut și l-au ars pe cărbuni până ce le-a dat toți banii; apoi l-au lăsat pe jumătate mort și au pierit fără veste... Oamenii cârmuirii au sosit, dar prea târziu.</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Ca totdauna.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>De-ar fi creștin, calea-valea; aș spune Domniței, pentru ca să-l ajute și pe dânsul cu bani și cu vorbe bune, după cum a mai ajutat pe atâția alții; dar e armean, soro, e păgân, nu e creștin; măcar că altfel se pare a nu fi om rău...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Bunătate de suflet mai este și Domnița! Mănăstirea noastră n-a pomenit încă o așa stareță. Numai un singur păcat...</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <stage> (întrerupând) </stage>
+            <p>Îi plac florile mai mult decât rugăciunea, și florăria mai mult decât biserica...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Ș-apoi mai are încă ceva, soro: niște gânduri ciudate, de pe ceea lume. Așa, de pildă, a făcut aici în mănăstire o școală pentru fete sărace.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Ce nerozie!</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>După ce ne stoarce din puteri postul și vegherea, mai avem o altă bătaie de cap cu copiii.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Mai este ceva, soro. Zilele trecute mi-a spus că Sfânta Scriptură nu învață pe cineva a fi bun român...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Ce nelegiuire!... Dar asta-i un eres!</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Și nici atâta nu-i încă tot. Mie nu-mi place deloc legătura Domniței cu acea Safta: totdauna împreună, totdauna se sfătuiesc; nu este lucru curat!...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Apoi ai uitat încă ceva, soro. Domnița nu râde niciodată; niciodată nu vezi zâmbetul pe buzele ei; trebuie să-i fi zăcând pe cuget vreun mare păcat.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Mai sunt multe, multe! Dar altfel este bună chiar ca un înger.</p>
+          </sp>
+          <sp who="#un_glas_d_afara">
+            <speaker>UN GLAS D-AFARĂ</speaker>
+            <stage> (cântând) </stage>
+            <p>Trece-un car cu patru boi,</p>
+            <p>După dânsul un ciocoi.</p>
+            <p>– Bună cale, măi române!</p>
+            <p>– Mulțumim, ciocoi de câne!</p>
+            <p>– Măi române, tu ești beat!</p>
+            <p>– Latri, ciocoi gulerat,</p>
+            <p>Că eu astăzi n-am mâncat!</p>
+            <p>Alelei pui de ciocoi!</p>
+            <p>De te-aș prinde la zăvoi,</p>
+            <p>Să-ți dau măciuci să te moi,</p>
+            <p>De piele să te despoi!...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <stage> (cu spaimă) </stage>
+            <p>Nu auzi, soro? Un cântec haiducesc!</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Nu te speria, Eu cunosc glasul. Este ciobanul Petre. Pesemne mă caută pe mine ca să-mi spună ceva.</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Cam de multe ori vorbești tu, soro, cu ciobanul Petre.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <stage> (scoțând capul pe fereastră) </stage>
+            <p>Vino! vino-ncoace, Petrică.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>ACEIAȘI, PETRE</stage>
+          <sp who="#petre">
+            <speaker>PETRE</speaker>
+            <stage> (către Olimpiada) </stage>
+            <p>Măicuțo! Aș vrea să-ți spun ceva la ureche.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <stage> (depărtându-se de Eulampia) </stage>
+            <p>Ce? Spune.</p>
+          </sp>
+          <sp who="#petre">
+            <speaker>PETRE</speaker>
+            <stage> (încet) </stage>
+            <p>Astăzi o să vă calce hoții.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <stage> (speriată) </stage>
+            <p>Aleu! Vai mie!</p>
+          </sp>
+          <sp who="#petre">
+            <speaker>PETRE</speaker>
+            <p>Nu te teme de nimic. Voi fi și eu cu dânșii. Dar să taci din gură; nu spune nimănui...</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Însă Domnița? Ce se va face cu Domnița?</p>
+          </sp>
+          <sp who="#petre">
+            <speaker>PETRE</speaker>
+            <p>O vom cununa. Iată totul.</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Dar spune-mi, spune-mi mai limpede...</p>
+          </sp>
+          <sp who="#petre">
+            <speaker>PETRE</speaker>
+            <p>N-am timp... Mă duc...</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III</head>
+          <stage>OLIMPIADA, EULAMPIA</stage>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Ei bine? Ce ți-a spus, soro?</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Nimic... Mâine ne va aduce urdă proaspătă.</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Și despre urdă ți-a șoptit el atâta la ureche?</p>
+          </sp>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <p>Lasă, soro! Aidem! Vine Domnița cu Safta... Sărmana Domniță! Sărmana...</p>
+            <stage> (Ies amândouă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <stage>ROSANDA, SAFTA</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Știi tu, Safto, povestea despre Marioara?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Zâna pe care D[umne]zeu a pedepsit-o pentru că uitase florile ce-i fuseseră încredințate?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Da, Safto. Ei bine, nu crezi tu, oare, că am fost vrednică și eu de-a primi o asemenea pedeapsă? Să-mi uit eu florile mele! Să nu mă mai gândesc la ele de atâta timp! Ani întregi! Eu, pentru care altădată singura fericire era de a le dezmierda cu dragoste, de-a mă îmbăta cu mirosul lor, de-a mă desfăta privind fețele lor cele strălucite!... Ș-apoi pentru toate aceste plăceri dumnezeiești, ele nu cereau mult de la mine: o picătură de apă și o rază de soare.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Ai avut alte griji, Domniță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Alte griji? Nu; am avut alte iubiri! Acuma însă am venit la pocăință; m-am întors la viața copilăriei mele; iubesc iarăși numai florile... de când mi-am pierdut copilașul, – o Dumnezeule! – care a fost și el o floricică.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nu-mi mai aduce aminte, Domniță. În locul acelui îngeraș, nu ți-ai adus, oare, zece copile românce, pentru ca să le crești aci sub ochii Măriei Tale?...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>O, da! zece floricele, pe care abia le pot deosebi de florile din grădinița mea...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar ele vorbesc, simt, te binecuvântează...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Le-am luat mici; le voi da țării mari, învățate a iubi țara, a se jertfi pentru țară, a pune țara mai presus de toate...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Și, la rândul lor, când le va veni timpul, vor crește copiii lor pentru iubirea țării...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Dar ce fac acum puișorii mei?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dacă vrei să-i aduc...</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>ACEIAȘI, EULAMPIA</stage>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Maică stareță! A sosit de la Iași un căpitan cu o scrisoare.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Lasă-l să intre, maică.</p>
+            <stage> (Eulampia iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI</head>
+          <stage>ACEIAȘI, TRANDAFIR</stage>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Să trăiești, M[ăria] Ta!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (aparte) </stage>
+            <p>Trandafirul meu de altădată a cam îmbătrânit.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Bine ai venit, căpitane! Ce veste de la oraș?</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Apoi, de M[ăria] Ta! Vești multe și mărunte. Gheorghiță Vodă tot încă mai domnește, dar boierii au cam început a-l urî și pe dânsul, după obicei, și cine știe cum se va sfârși. Jupânul spătar, voinic ca totdeauna, a știut să se ia bine și cu noua domnie. A ajuns mâna dreaptă a Măriei Sale. Nu știu însă cât va ține. Se zice că Poarta Împărăției ar avea de gând să trimită domn de la Țarigrad iarăși pe Vasile Vodă, tatăl M[ăriei] Tale.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <stage> (cu bucurie) </stage>
+            <p>Ce bine ar fi!</p>
+            <stage> (aparte) </stage>
+            <p>Trandafirul meu e tot slobod la gură. Nu s-a schimbat câtu-i negru sub unghie...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Alta ce se mai aude, căpitane?</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Pace bună, M[ăria] Ta. Dar uitasem că nu pot sta mult la vorbă. Jupânul spătar m-a trimis către M[ăria] Ta cu o scrisoare. Mi-a poruncit să zbor cu zborul gândului, căci peste o zi va pleca și el într-acolea. Nu-i vina mea, dacă am fost silit a cam zăbovi pe drum. Mă prinseră hoții.</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>O, Doamne! De o bucată de vreme tot de hoți se aude în toate zilele.</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>S-au cam rărit oamenii cinstiți, ce-i drept! Așadar, mă prinseră hoții; m-am luptat și eu, cum am putut, dar au fost mulți, bată-i mama pădurii; m-au despoiat, mi-au luat calul, mi-au luat punga; mi-ar fi luat și hârtiile, să nu fi fost puse bine.</p>
+            <stage> (scoate o scrisoare din tureatca cizmei.) </stage>
+            <p>A trebuit să merg pe jos o zi întreagă, până ce am dat de un sat; am cerut un cal de olac din porunca domnească, și iată-mă-s!</p>
+            <stage> (dă Rosandei scrisoarea.) </stage>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Du-te, dară, căpitane, de prânzește și te mai odihnește până să-ți dau răspuns.</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Mulțămim M[ăriei] Tale. Jupânul spătar nu mi-a spus ca să aștept răspunsul. Trebuie să plec îndată cu o poruncă la pârcălabul de la Neamț. Într-o clipă voi fi acolo. Dacă voi mai sta, mă tem să nu întâlnesc în drum pe jupânul spătar, și atunci am pățit-o...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Dar îți va fi foame, căpitane.</p>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <stage> (aparte) </stage>
+            <p>A prins milă de mine, sărmana Săftică. Cam târziu!</p>
+            <stage> (tare) </stage>
+            <p>Să fie atâta grijă pe țara Moldovei! Am la mine în sac un cașcaval și o bucată de pâine; am în ploscă o măsură de vin... Sărut mâinile Mariei Tale...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Cale bună!</p>
+            <stage> (Trandafir sărută mâna Rosandei, care-l binecuvântează.) </stage>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Să te păzești de hoți, căpitane.</p>
+            <stage> (îl însoțește până la ușă.) </stage>
+          </sp>
+          <sp who="#trandafir">
+            <speaker>TRANDAFIR</speaker>
+            <p>Asta-i cam cu anevoie în țara noastră!</p>
+            <stage> (încet) </stage>
+            <p>Tot te mai gândești, Săftico, la mine? Nici până acum n-am învățat grecește.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII</head>
+          <stage>ROSANDA, SAFTA</stage>
+          <stage>(Afară se aud clopote trăgând la biserică și o cântare.)</stage>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <stage> (d-afară) </stage>
+            <p>Omu-i ca o frunză, ce o vijelie</p>
+            <p>O rumpe și-o duce... unde? cine știe!</p>
+          </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <stage> (d-afară) </stage>
+            <p>Clopotul ne cheamă, maice și surori,</p>
+            <p>Să uităm a lumii viscole și nori!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (privind la scrisoare fără a o deschide) </stage>
+            <p>Îmi tremură mâna, Safto.</p>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Omu-i o scânteie: numai o suflare</p>
+            <p>Poate să-l prefacă în vapaie mare!</p>
+          </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <p>Clopotul ne cheamă, maice și surori,</p>
+            <p>Să uităm a lumii viscole și nori!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Mă turbură nu știu ce... o presimțire... o cobe rea...</p>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Omul este frunză, omul e scânteie!</p>
+            <p>Dar mult și mai slabă-i frageda femeie!</p>
+          </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <p>Clopotul ne cheamă, maice și surori,</p>
+            <p>Să uităm a lumii viscole și nori!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Fie ce va fi!... O, Doamne... o, Doamne, întărește-mă!...</p>
+            <stage> (Deschide scrisoarea și citește.) </stage>
+            <p>„Dragă verișoară! Îți scriu pe scurt, căci mai mult ți-oi spune din gură. Cred, căpitanul Trandafir nu va sosi la voi decât numai doară cu o zi înainte de mine. Mi-e dor să te văd. Scriu totodată la pârcălabii de la Neamț, ca să vă dea un ajutor de la pârcălăbie. Am primit știri sigure că prințul...</p>
+            <stage> (Scăpând scrisoarea din mână.) </stage>
+            <p>Safto! Safto! Auzit-ai?... prințul este aice!... Nici chiar acest sfânt locaș nu mă va apăra de el, oare, de ispitele lumii? Prințul e aice! aice! Eram să-l uit, îl uitasem, credeam că mă va uita și el pe mine! Dar, Safto, dânsul nu mă uită! Tu vezi că el tot mă iubește!... Îl iubesc, Safto!...</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Domniță, ce va zice lumea?...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Lumea?... Lumea cea oarbă... lumea cea pizmașă... mă va osândi, își va râde de mine, mă va arăta cu degetul, va târî numele meu printr-un noroi de ocară... Dar ce să-i faci inimii, Safto?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nu uita, Domniță, că ești maică...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Maică?... Eu sunt maică... Eu singură m-am înmormântat în această haină neagră!... Fiecare cuvânt, fiecare suspin, fiecare geamăt de iubire este o hulă din gura mea!... dar ce să-i faci inimii, Safto?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Prințul e ucigașul lui Timuș, Domniță!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și Timuș a fost tată copilului meu! Și copilul meu, copilașul meu, mă privește acuma din cer, fluturând cu aripioarele sale de înger, gata să arunce un grozav blestem pe capul nevrednicei sale mume!... Dar ce să faci inimii, Safto?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Te-ai luptat atâta, stăpâna mea; ai biruit iubirea în atâtea rânduri; mai luptă-te, mai biruiește-o încă o dată!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>M-am luptat! Am biruit! Nu, Safto!... Iubirea nu se biruiește! După fiecare lovire, ea se face mai tare, crește, se înalță; iar nenorocitul ce a lovit-o șovăiește, până ce, în sfârșit, uriașul sugrumă pe pitic în brațele sale!... M-am luptat! Am biruit! Dar după fiecare luptă, după fiecare biruință, mă simțeam mai slabă, mai zdrobită, iar dragostea cea călcată în picioare se ridica mai mândră și mai amenințătoare!... M-am luptat! Am biruit! Dar cum de nu înțelegi tu, că tocmai de aceea nu mă mai pot lupta astăzi, nu mai pot birui!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Te vedeam atât de liniștită, scumpa mea Domniță...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Vulturul se oprește în văzduh și pare a fi liniștit când se pregătește a năvăli asupra jertfei ce o ochise în vale. Marea tace și pare a fi liniștită în apropierea furtunei! Pământul amuțește și pare a fi liniștit în ajun de a-l zgudui cutremurul... Și eu, Safto, am fost atât de liniștită!</p>
+            <stage> (Se lasă jos, căzând în apatie.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VIII</head>
+          <stage>ACELEAȘI, EULAMPIA</stage>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Maică stareță! Stareță...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (repetând mașinal) </stage>
+            <p>Stareță...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Soborul te așteaptă în biserică...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (mașinal) </stage>
+            <p>Biserică...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Dar ești tulburată? Ești schimbată la față!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (tresărind) </stage>
+            <p>Sunt schimbată la față?</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Mă sperii, maică stareță.</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (apucând-o de mână) </stage>
+            <p>Femeie! Iubit-ai tu vreodată?</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <stage> (cu mirare) </stage>
+            <p>Ce întrebare...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și ai fost iubită?</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>O, Doamne!...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Și ai gustat din cupa dragostei? Spune! spune!</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Maică stareță...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>El te-a lăsat?... Ce-ți pasă! Ți-a rămas o aducere-aminte a zilelor de fericire!... Știi tu, oare, ce vrea să zică o aducere-aminte?</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Pentru mila lui Dumnezeu, stăpânește-te, Domniță!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <p>Aducerea-aminte este focul cel ce nu mai arde, dar te încălzește!... Eu n-am nici atâta, femeie!</p>
+            <stage> (punând mâna la cap) </stage>
+            <p>Capul mi se tulbură... mă apucă friguri... simt o flacără în pieptul meu...</p>
+            <stage> (Cade pe divan.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA IX</head>
+          <stage>ACELEAȘI, OLIMPIADA</stage>
+          <sp who="#olimpiada">
+            <speaker>OLIMPIADA</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Douăzeci de călăreți sunt la poarta mănăstirii; cer s-o deschidem; ne amenință...</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <stage> (frângându-și mâinile) </stage>
+            <p>Sunt hoții! Suntem pierdute!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Domniță!... Stăpâna mea!... Deșteaptă-te! Ce facem?</p>
+            <stage> (Se aude spargerea porții.) </stage>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Auziți!... Ei sparg poarta! Vino, Olimpiado!... Vino, iute! Ei se apropie!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nu ne lăsați, maicelor, pentru Dumnezeu!</p>
+          </sp>
+          <sp who="#eulampia">
+            <speaker>EULAMPIA</speaker>
+            <p>Să ne urcăm în pod, Olimpiado!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (d-afară) </stage>
+            <p>Rosando! Rosando!</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA X</head>
+          <stage>ACEIAȘI, KORIBUT</stage>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (împingând ușa și precipitându-se în odaie) </stage>
+            <p>În sfârșit, vei fi a mea, Rosando, și toate puterile pământului nu te vor smulge din brațele mele! Nu va fi zis că un om ca mine n-a știut să înfrângă piedicele! Nu te va scăpa această haină cernită, căci trebuie să fii a mea, Rosando!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Oprește-te! Domnița este mireasa lui Christos!</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <p>Ea este logodnica mea mai-nainte de toate! Eu am suferit pentru dânsa... am suferit privind-o pe sânul altuia! Am suferit văzându-mă respins cu nepăsare, amăgit în așteptările mele, azvârlit cu piciorul ca o jucărie! A venit și rândul meu acum. Ești a mea, Rosando!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XI</head>
+          <stage>ACEIAȘI, MILESCU urmat de TRANDAFIR, FALCĂ și BARBU</stage>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (intrând iute) </stage>
+            <p>Uf! Uf! Bine că n-am sosit prea târziu! De mult te pândesc eu, prințule!</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (sculându-se cu ochii rătăciți și privind în jur cu mirare) </stage>
+            <p>Cine sunt oamenii aceștia?... Ce vor ei de la mine?... Lăsați-mă în pace!... Eu iubesc pe prinț... Îl iubesc atât de mult!... Cine zice că-s călugăriță?... Nu este adevărat! Eu sunt logodnică!... Nunta e gata.</p>
+            <stage> (făcând un pas îndărăt cu spaimă) </stage>
+            <p>Timuș!... Timuș, fugi!... fugi, umbră grozavă!...</p>
+            <stage> (zâmbind) </stage>
+            <p>Copilașul meu!...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Verișoară! Iubită verișoară! Vino-ți în simțiri!</p>
+          </sp>
+          <sp who="#safta">
+            <speaker>SAFTA</speaker>
+            <p>Nu te speria, stăpâna mea!</p>
+            <stage> (aparte) </stage>
+            <p>Să-ncerc... Poate s-o scape copilițele...</p>
+            <stage> (Iese iute.) </stage>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu privirea pierdută în spațiu, tot zâmbind) </stage>
+            <p>Tu n-ai murit, copilașul meu... Tu dormi... Ts! ts! să nu-l deșteptați...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (cu amărăciune) Nebună!... Nebună, și tot nu-i a mea! (scoate pumnarul și vrea să se străpungă) </stage>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <stage> (oprind mâna lui Koribut) </stage>
+            <p>Oprește-te, omule! Trăiește și plângi! Unde ar fi dreptatea lui Dumnezeu, dacă o mișcare de cuțit ar putea să ne scape de durerile căinței?</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (zâmbind) </stage>
+            <p>Frunză verde de granată,</p>
+            <p>Viu din țara depărtată,</p>
+            <p>Ca să-ți aduc la picioare</p>
+            <p>O inimă iubitoare,</p>
+            <p>Iubitoare,</p>
+            <p>Iubitoare,</p>
+            <p>Iubitoare...</p>
+          </sp>
+          <sp who="#koribut">
+            <speaker>KORIBUT</speaker>
+            <stage> (cu disperare) Cântecul meu!... O… aceasta e prea mult! Iubit de dânsa, s-o văz nebună!... nebună! (printr-o mișcare repede își înfige pumnarul în piept și cade mort) </stage>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Mișelul! El nu știa să sufere, pe când această femeie, acest înger, numai eu știu cât de cumplite i-au fost chinurile sale, și totuși ea le-a răbdat bărbătește. Bărbătește? Nu! Niciodată bărbatul nu se poate urca la înălțimea femeiei! A părăsit-o mintea, mintea a părăsit-o, da; însă nu inima!</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XII</head>
+          <stage>ACEIAȘI. FETIȚELE intrând cu SAFTA  (cântă)</stage>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (începând a reveni la sine) </stage>
+            <p>Copilașii mei...</p>
+          </sp>
+          <sp who="#milescu">
+            <speaker>MILESCU</speaker>
+            <p>Cerul se îndură. Nebunia trece...</p>
+          </sp>
+          <sp who="#fetitele">
+            <speaker>FETIȚELE</speaker>
+            <stage> (cântă) </stage>
+            <p>Copilașii tăi te cheamă,</p>
+            <p>Mamă, mamă!...</p>
+          </sp>
+          <sp who="#rosanda">
+            <speaker>ROSANDA</speaker>
+            <stage> (cu duioșie) </stage>
+            <p>Veniți, veniți!...</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Centrală Universitară</name>
-          <idno type="URL">https://dspace.bcu-iasi.ro/handle/123456789/72458?show=full</idno>
+          <ref target="https://dspace.bcu-iasi.ro/handle/123456789/72458?show=full">Biblioteca Centrală Universitară</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>BUCUREȘTI. Tipărit în Tipografia lui Iosef Copainig. 1849</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1849">
+            <desc>1849</desc>
+          </event>
+          <event type="premiere" when="1848-04-28">
+            <desc>S’a representat pentru întiea dată, pe scena Română din București, la 28 Aprilie, 1848.</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -98,14 +106,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1849">
-        <desc>1849</desc>
-      </event>
-      <event type="premiere" when="1848-04-28">
-        <desc>S’a representat pentru întiea dată, pe scena Română din București, la 28 Aprilie, 1848.</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000001" passive="http://www.wikidata.org/entity/Q131983930"/>
     </listRelation>

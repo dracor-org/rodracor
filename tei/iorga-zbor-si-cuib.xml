@@ -1,0 +1,1942 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000075" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Zbor și cuib</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Zbor_și_cuib_-_Comedie_în_trei_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1937">
+            <desc>1937</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="laiu" sex="FEMALE">
+            <persName>D-NA LAIU</persName>
+          </person>
+          <person xml:id="laiu_2" sex="MALE">
+            <persName>D-L LAIU</persName>
+          </person>
+          <person xml:id="victor" sex="MALE">
+            <persName>VICTOR</persName>
+          </person>
+          <person xml:id="elena" sex="FEMALE">
+            <persName>ELENA</persName>
+          </person>
+          <person xml:id="lola_popescu" sex="FEMALE">
+            <persName>LOLA POPESCU</persName>
+          </person>
+          <person xml:id="linu_popescu" sex="MALE">
+            <persName>LINU POPESCU</persName>
+          </person>
+          <person xml:id="poetul_dormisol" sex="MALE">
+            <persName>POETUL DORMISOL</persName>
+          </person>
+          <person xml:id="criticul_bursuc" sex="MALE">
+            <persName>CRITICUL BURSUC</persName>
+          </person>
+          <person xml:id="filosoful" sex="MALE">
+            <persName>FILOSOFUL</persName>
+          </person>
+          <person xml:id="musicantul" sex="MALE">
+            <persName>MUSICANTUL</persName>
+          </person>
+          <person xml:id="boxeurul_dompsey" sex="MALE">
+            <persName>BOXEURUL DOMPSEY</persName>
+          </person>
+          <person xml:id="lina_marineanu" sex="FEMALE">
+            <persName>LINA MĂRINEANU</persName>
+          </person>
+          <person xml:id="servitoarea" sex="FEMALE">
+            <persName>SERVITOAREA</persName>
+          </person>
+          <person xml:id="scriitoarea_alma_florida" sex="FEMALE">
+            <persName>SCRIITOAREA ALMA FLORIDA</persName>
+          </person>
+          <person xml:id="ziaristul_jerpelea" sex="MALE">
+            <persName>ZIARISTUL JERPELEA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000075"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Zbor și cuib</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>D-NA LAIU</role>
+        </castItem>
+        <castItem>
+          <role>D-L LAIU</role>
+        </castItem>
+        <castItem>
+          <role>VICTOR</role>
+        </castItem>
+        <castItem>
+          <role>ELENA</role>
+        </castItem>
+        <castItem>
+          <role>LOLA POPESCU</role>
+        </castItem>
+        <castItem>
+          <role>LINU POPESCU</role>
+        </castItem>
+        <castItem>
+          <role>POETUL DORMISOL</role>
+        </castItem>
+        <castItem>
+          <role>CRITICUL BURSUC</role>
+        </castItem>
+        <castItem>
+          <role>FILOSOFUL</role>
+        </castItem>
+        <castItem>
+          <role>MUSICANTUL</role>
+        </castItem>
+        <castItem>
+          <role>BOXEURUL DOMPSEY</role>
+        </castItem>
+        <castItem>
+          <role>LINA MĂRINEANU</role>
+        </castItem>
+        <castItem>
+          <role>SERVITOAREA</role>
+        </castItem>
+        <castItem>
+          <role>SCRIITOAREA ALMA FLORIDA</role>
+        </castItem>
+        <castItem>
+          <role>ZIARISTUL JERPELEA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I-iu</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu</head>
+          <stage>DOMNUL ŞI DOAMNA LAIU</stage>
+          <sp who="#laiu">
+            <speaker>D-L  LAIU</speaker>
+            <stage> (Uitându-se la ceasornic) </stage>
+            <p>Crezi că trebuie să ne punem la masă ?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Să mai aşteptăm.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Da, dar, vezi tu, acuma  nu mai e nicio ordine-n casă. Ar trebui să suprimăm ceasornicele.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>De ce ?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Uite de ce: alţii</p>
+            <stage> (se opreşte) </stage>
+            <p>se pare că nu mai au		nevoie	de dânsele. Iar	noi.... D-NA	LAIU: Înţeleg, înţeleg:	noi simţim ceasurile...	Aşa sunt oamenii bătrâni. Ei nu mai au nevoie de chemările din afară: toate s-au ordonat înăuntru. Eu mi-aş putea împărţi ziua fără ceasuri: uite aşa	 mă	cheamă ceva tainic şi eu ştiu ce trebuie să fac.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Şi eu, poate, mai puţin. Mă urmăreşte ceasornicul din birou, când aveam şi eu un birou. Şi uite, aşa mă uit fără veste pe păreţi. Dar le-am putea suprima ceasornicele pentru altceva. Mi-e greu să ţi-o spun...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ei	spune, că doar ce-o să fie...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ceva		trist... Fiindcă pentru alţii</p>
+            <stage> (apăsat) </stage>
+            <p>ceasornicele, cu ceasurile lor cu tot, n-aduc</p>
+            <p>niciun folos...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Vezi tu, iar eşti rău... De ce vrei tu	să fii	rău ?	Lasă-i în pace. Altă vreme, altă lume, alţi oameni. Poţi să-i schimbi? Nu! Noi să-i iubim ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L  LAIU</speaker>
+            <stage> (cu amărăciune) </stage>
+            <p>. Să-i îngrijim ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Da, să-i îngrijim. Ce  plăcere!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Şi să  îi  plătim ....</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Aici, adevărat că plăcerea e  mai mică...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Mie-mi spui? Mult mai mică ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Şi apoi cine ştie unde-or fi reţinuţi... El lucrează aşa de mult la avocatul lui... Ea are atâtea cunoştinţi „Ce, crezi că acuma nu sunt necăjiţi că nu pot veni acasă ... Dar i-am învăţat harnici şi politicoşi... El nu se poate desface de la birou: cine ştie ce proces mare o fi studiind. Ea nu poate zice unei familii amabile, care o fi având alt fel de traiu, că-i e urât şi pleacă ... O fi şi invitat-o la masă. N-au telefon... Slugii li-or fi prinse... Dar ochii ei trebuie să fie numai la ceasul din brăţară, acela pe care i l-am dat de Sfânta Elena.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ceasul care l-ai dat tu? Doamne!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>De ce zici aşa? Ştii ceva?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L  LAIU</speaker>
+            <p>Ştiu, dar nu vreau să spun... D-NA LAIU:  Te rog eu să spui...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Cu niciun chip.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Te  rog eu stăruitor... Uite, am şi eu aşa o curiozitate ... Dacă ţii la mine, spune-mi...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Eu la tine ţin, dar mi-i greu să- ţi</p>
+            <p>spun...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Că nu i l-or fi furat.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>N-a	avut  cine...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA  LAIU</speaker>
+            <p>Cum să  n-aibă cine ?...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L  LAIU</speaker>
+            <p>Uite, ca să isprăvim, deşi trebuie să-ţi stric inima... L-a găsit, cum să zic: nepotrivit, neobişnuit, ne...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ne... ce ?</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU</speaker>
+            <p>Ei uite : caraghios ...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <stage> (dureros) </stage>
+            <p>A spus ea aşa, Elena ?</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU</speaker>
+            <p>Îmi pare foarte rău, dar chiar aşa. D-NA LAIU: Vai! Ce rău l-am ales atunci!... Să-l schimb... S-o întreb pe dânsa cum îi place.-..</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Nu ştiu ce i-o fi plăcând, dar n-ai ce schimba ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>S-a stricat... s-a pierdut...</p>
+          </sp>
+          <sp who="#d_i_laiu">
+            <speaker>D-I LAIU</speaker>
+            <p>Nu, 1-a dat Rosei...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Care Rosa ?</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU</speaker>
+            <p>Servitoarea ... Aceia care a plecat acum o lună...  Aceia  pe care ai dat-o afară ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA  LAIU</speaker>
+            <p>Şi era obraznică ..</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Nu,	era	prietena domnişoarei noastre...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Cum putea? Între e1e...</p>
+            <p>D-L LAIU:</p>
+            <p>Da, prietenă... Că doar trebuia să găsească pe cineva, în</p>
+            <p>casa asta, cu care să se înțeleagă...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dar, Ioane, noi ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ei, noi!  Noi suntem nişte morţi</p>
+            <p>cari încurcăm lumea, Mario. Morţi, noi. Mort, totce  cunoaştem,  tot	ce înţelegem,	tot ce</p>
+            <p>admirăm.	Tot	ce	stimăm,	tot	ce	iubim ...</p>
+            <stage> (şterge o lacrimă) </stage>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Tu plângi, Ioane... Eu nu te-am văzut plângând de mult...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Va fi fost la înmormântarea altora. Azi, vezi tu, plângem pe a noastră... Şi grozav este aceasta: că nu putem muri, n-avem curajul măcar să dorim a muri..</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA  LAIU</speaker>
+            <p>Ce  gânduri  triste,  ce  gânduri</p>
+            <p>triste!... Lasă-le pustiului!... Noi suntem vii, noi suntem tineri...</p>
+            <stage> (glumind.) </stage>
+            <p>Tineri, Ioane...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>O, dacă ar fi oameni s-o creadă! S-o spuie!... Dacă ar fi cine doream noi, cine credeam noi că aşa vor gândi şi aşa vor spune...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena a II-a</head>
+          <stage>ACEIAŞI, SERVITOAREA</stage>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Dăm la masă, vă rog?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Să mai aşteptăm puţin...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Cât să mai aşteptăm, doamnă? Sunt ceasurile z.ece... Nu mai avem vreme să spălăm vasele...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ai face bine să taci ... Nu eşti în casa ta ..</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>În a dumneavoastră sunt şi mănânc aicea o pâine. Dar, nu vă supăraţi, o mănânc pe munca mea ... Şi v-o dau toată cu dragă inimă.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Are dreptate, Mario...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (aparte) </stage>
+            <p>Da, dar de ce s-o spui înaintea ei ?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L  LAIU</speaker>
+            <stage> (tot pe jumătate de glas.) </stage>
+            <p>Ştiu, fiindcă  se obrăzniceşte ... Dar om e şi ea...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <stage> (care n-a observat; continuă) </stage>
+            <p>Când vă servesc? Când merg şi eu să mă culc? In zor de zi trebuie să fiu în picioare ... Sunt foarte mulţămită de dumneavoastră, dar aşa nu pot. Lasaţi-mă să plec. Mai bine la  oameni mai răi, dar să nu mă istovesc.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Destul, destul! Vom căuta alta. Sunt destule ... Dar copiii miei au şi ei un drept la masa părinţilor lor... Aşa cum sunteţi voi de unde veniţi şi unde aţi fost crescute, puteţi înţelege...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Iertaţi-mă, dar am venit din loc cinstit şi am fost şi eu crescută ...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Lasă, Veto,	ajunge... Doamna	e necăjită...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Doamna e cel mai	bun	suflet de pe lume. Dar se chinuieşte degeaba ...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <stage> (aparte.) </stage>
+            <p>Dar,  Ioane,  isprăveşte ...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-l Laia</speaker>
+            <p>Cum se chinuieşte degeaba? ...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Dar nici domnul tânăr, nici domnişoara, nu... Cum aş spune? ... Nu se simt bine aici. Iaca v-o spun: nu fac haz de casă, de mine... De dumneavoastră nu fac haz.</p>
+          </sp>
+          <sp who="#d_na_laia">
+            <speaker>D -NA LAIA</speaker>
+            <p>Ieşi!</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Nu, nu!  Să isprăvească ... D-ta ce vrei să zici...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Atâta că în zadar îi aşteptaţi în astă seară.... Şi în astă seară ...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Şi de ce?</p>
+            <stage> (D-na Laiu se întinde să asculte) </stage>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Iaca aşa.... Domnul  cel  tânăr	a</p>
+            <p>spus: să nu mă aştepte bătrânii. Serveşte-limasa...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>A zis aşa: bătrânii?  A zis  aşa?</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Aşa  a  zis. Dumnezeu  mă vede.</p>
+            <p>Aşa zice totdeauna... Aşa zic amândoi....</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Ioane, Ioane</p>
+            <stage> (plânge.) </stage>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>De ce te miră? E fireşte aşa. Noi suntem bătrâni... Bătrâni uitaţi de Dumnezeu pe lume.... Uitaţi prea mult...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Aşa a spus. Nu e bine că a spus aşa. Nu meritaţi vorbe ca astea. Pentru astfel de vorbe, eu n-aş ţinea în casă pe ţâncul meu. Vede-mă Dumnezeu că nu l-aş ţinea... Să trăiască de el şi pentru el!...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Şi domnişoara ... SERVITOAREA:	 A, domnişoara ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Taci!</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Dacă vrea şi domnul....</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Odată ce a deschis gura ca să spuie ce n-am auzit, ce nu ştim noi, să spuie mai departe...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Domnişoara a spus că, oricând, să n-o aşteptăm pe dumneaei, că  vine  şi  ea</p>
+            <p>când  poate...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>La zece ceasuri...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Ce ştiu eu să vă spun? ... E fata dumneavoastră, e fată cinstită, dar...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dar  ce?  spune: ce?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Are şi ea  viaţa  ei...  Nu  ţi-a spus?</p>
+            <stage> (Mai lungă tăcere.) </stage>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Şi,  acum,  servim?</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Da, servim ....</p>
+            <stage> (ia în mâini capul soției lui şi o sărută) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA A III-A:</head>
+          <stage>DOMNUL ŞI DOAMNA LAIU</stage>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <stage> (scâncind.) </stage>
+            <p>Da, grozav. Mie mi se părea aşa ceva ... Mi se părea, aşa, şters, departe, cum vezi lucrurile prin ceaţă. Dar acum le ştiu. O, cum mă doare că le ştiu!... Veta e o obraznică. A spus ce ştie, o cred. Dar de mâIne să se ducă! N-o pot vedea ..... Mi-e groază de ea... O urăsc.... înţelegi tu: o urăsc.</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Dar, Mario, fii mai înţelegătoare, fii</p>
+            <p>mai bună. Ce vină are ea? ... Dacă i-au spus aşa. A mărturisit adevăruL...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Da,  e un adevăr...  O, ce adevăr!  Dar  de  ce a pârât?</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA A IV-A</head>
+          <stage>ACEIAŞI, SERVITOAREA</stage>
+          <stage>(Aşază masa.)</stage>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>E târziu, Veto... Târziu şi mi-ai făcut un mare năcaz... Ce să mai aduci felurile unul după altul? Adu-le pe toate de-odată ...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Friptura  s-a ars....</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>De ce n-aţi îngrijit-o?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L  LAIU</speaker>
+            <p>Ad-o cum e!.... Şi ce mai este....</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ce n- o fi ars....</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU</speaker>
+            <p>Ce e ars şi ce nu e ars... E		ceva mai ars decât toate mâncările tale. Adu tot şi răpede. Şi du-te de te culcă ....</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Şi nu cumva să încui uşa de la poartă şi nici cea de la odăile lor....</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Să vreau, și dumnealor nu mă lasă. Mi-au spus să mă bat!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>În casa mea? ...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <stage> (pentru ea.) </stage>
+            <p>Că Dumnezeu ştie a cui mai este casa!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Poate că nu e departe vremea când se va şti.</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <stage> (iese) </stage>
+            <p>..</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA A  V-A</head>
+          <stage>DOMNUL LAIU, DOAMNA LAIU</stage>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Şi nu era mai bine, Mario, să nu fi venit la Bucureşti? Eram în casele noastre vechi, nu în pustiuri de acestea pe unde au trăit şi au murit, au petrecut şi au plâns, şi şi-au făcut de cap şi au ispăşit toţi oamenii de pe lume, de parcă li vezi umbrele pe ziduri şi, când vorbeşti, pare că-ţi  răspunde  glasul</p>
+            <p>lor din colţuri.  Viaţa noastră  era viaţă: toate la vremea lor şi toate la rostul lor... Porunca noastră era poruncă: pentru toţi... Şi pentru copii, până au fost mici. Până    i-am ţinut acolo pe lângă noi. O, colţuleţul acela din Baia-de-Aramă!... Târgul vechiu, lumea de ţară în porturile străbune, biserica lângă care sunt îngropaţi ai noştri. Câteva cunoştinţi. Îi stimam, ne stimau. Pe unii îi şi iubeam... Nimeni  nu căta să se ridice în capul celuilalt. Să fi murit acolo... Ce bine ar fi fost acolo să fi murit ... Şi, dacă s-ar fi putut, să fi murit  în  aceeaşi zi, în acelaşi ceas...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (plângând.) </stage>
+            <p>Ioane...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Şi tu, care plângi acuma cu mine, ai vrut altfel... Şi ne-am pustiit aici...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dar, Ioane, copiii ... Copiii la şcolile lor. În sama cui să-i lăsăm, așa prinşi cum sunt cu atâta grijă? ...</p>
+          </sp>
+          <sp who="#d_i_laiu">
+            <speaker>D-I LAIU</speaker>
+            <p>De care n-au nevoie... De care le e silă, le e groază. Nu ştiu cum să scape ....</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Ce are-a face! Cu asta suntem datori. Aşa se ţine lumea. Ioane. Aşa e când o mamă are copii. Cu durere în trup întâiu şi pe urmă cu o şi mai mare durere în suflet...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Dar să nu ne hrănim cu atât... Iată Veta ne aduce... Ne aduce ce a mai rămas... De la cei cari... cari n-au  vrut  să mănânce.</p>
+            <p>Şi nu pentru  mâncare,  ci pentru  noi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA A VI-A</head>
+          <stage>ACEIAŞI, SERVITOAREA</stage>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Domnule şi Doamnă, vă aduc nu numai mâncare bună, dar şi o bucurie mare ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ce bucurie? Tu bucurie ni arde nouă!...</p>
+            <p>eşti zăludă ... De</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Da, zău. o bucurie. Şi ştiţi care?...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ţie ţi-e de glumă ... Nu eşti în toate minţile ...</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Ba cum încă! Iaca, a venit şi domnul tânăr şi d-ra... Şi obosiţi, şi flămânzi şi însetaţi... Cer să li dăm să mănânce... Voiau fiecare, ca de obiceiu, în odaia lor... Dar eu nu i-am lăsat... V-am văzut aşa de supăraţi, fie şi pe mine, şi le-am spus aşa: ,,Eu nu vă dau. Tată aveţi, mamă aveţi, vi i-a ţinut Dumnezeu. Mulţămiţi-i şi mergeţi de mâncaţi cu dânşii.” N-au  prea  vrut, dar uite  că-i  aduc.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA A VII-A</head>
+          <stage>CEI	DE	MAI  SUS,  VICTOR,  ELENA</stage>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (înviorată.) </stage>
+            <p>Aşa, aşa... Ce bucurie!... Şi nici nu e târziu. Cum înaintează ceasornicul ăsta!... Ioane, pune</p>
+            <p>să- repare... Eu	nu-l pot suferi, că arată rău... E şi stricat de tot,</p>
+            <p>abia se ţine.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ceasornic vechiu, Mario. Dar de aceea  mi-e  drag... Ce  ceasuri  a  bătut  el  în</p>
+            <p>viaţa noastră !</p>
+            <stage> (Cei doi se uită plictisiţi unul la altul. D-na Laiu observă.) </stage>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (către d-1 Laiu.) </stage>
+            <p>Ei,	ce,	ei	ce!	Nu spune	prostii de pe vremea noastră ... Jenăm</p>
+            <p>copiii. N-au vreme să se uite în urmă. Şi apoi astea nici nu-i privesc pe dânşii.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <stage> (Se face a-i descoperi.) </stage>
+            <p>Aşa? ... Acuma vă</p>
+            <p>bag de samă. Va să zică aţi venit...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (supărat) </stage>
+            <p>Dar, tată, trebuie să-mi câştig pâinea...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>A mea, tinere, eu mi-o câştig. Şi o câştig şi pentru ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (cu grabă) </stage>
+            <p>Şi pentru mine. Iaca şi pentru mine. Am şi dulce pentru voi. Ia să vedeţi (cată prin sertare,.., Că v-am păstrat anume... Şi fructe. Şi, iaca, aveţi şi vin. Vin de Mehedinţi, de acasă ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage> (zâmbind.) </stage>
+            <p>De la	Baia-de-Aramă, ştiu...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ei  bată-te! Dar de unde ştii?...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>De la Nea Nae Roşculeţ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Tocmai de la el... Fată deşteaptă, fată deşteaptă!... Ia stai, ia staţi, ia începeţi. Să mă uit la voi cum mâncaţi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (brusc) </stage>
+            <p>Dar cui îi place să i se uite cineva în gură când mănâncă? ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Victore, tu  vorbeşti cu  mama  ta,</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Uit uneori şi eu... Aşa e viaţa.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Cât eşti aici, să n-o uiţi niciodată.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (strângând pumnii) </stage>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (mişcată.) </stage>
+            <p>Dar voi nu mâncaţi.... VICTOR ȘI ELENA:</p>
+            <stage> (într-un glas.) </stage>
+            <p>Noi am mâncat.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Unde?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Parcă mai ştiu unde?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <stage> (către Elena) </stage>
+            <p>Şi tu spui aşa?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Zău că parcă şi eu tot aşa.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <stage> (indignat) </stage>
+            <p>E imposibil!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dar  Veta spunea că sunteţi flămânzi...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>O  proastă,  o  toantă ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Merită palme....</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (priveşte lung pe soţ, care se clatină) </stage>
+            <p>St! St! Tatei nu-i e bine. Aşa e de un timp încoace. Păcat! Bună mâncare... Mergeţi şi dormiţi... Dragii mamei!</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA A VIII-A</head>
+          <stage>DOMNUL ŞI DOAMNA LAIU</stage>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Mario, îţi mulţumesc. M-ai îndatorat mult. M-ai scăpat de un mare păcat. Eu îi pălmuiam ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA  LAIU</speaker>
+            <p>Pe...</p>
+            <stage> (îngrozită) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Pe dânşii: şi pe băiat, şi pe fată.</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>De ce atunci nu şi pe mine?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <stage> (o sărută) Pentru  tine,  o sfântă, iată ce... ( Merg fiecare, privesc mâncarea, n-o ating.) </stage>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (sună ) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA A IX-A</head>
+          <stage>ACEIAŞI, SERVITOAREA</stage>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Ia mâncarea!</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <p>Neatinsă?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ce te  priveşte...? Ia-o!</p>
+          </sp>
+          <sp who="#servitoarea">
+            <speaker>SERVITOAREA</speaker>
+            <stage> (pentru ea.) </stage>
+            <p>Cu ce poftă o să mănânce ceilalţi în odăile lor!</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA A X-A</head>
+          <stage>DOMNUL ŞI DOAMNA LAIU</stage>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ioane, o să-ţi spun ceva.</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Eu am	stat şi m-am gândit. Ştii tu de ce fug ăştia de noi?</p>
+            <p>D-L LAIU:Să vedem. De ce?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ioane, lor le trebuie în jur o viaţă...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Pe care nu le-o putem da...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Aşa e... Abia ne ajunge nouă.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Şi atunci?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dacă am deschide uşile acestea, prea ferecate!...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Pentru cine?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Pentru ... Pentru amicii lor...</p>
+          </sp>
+          <sp who="#l_aiu">
+            <speaker>D-L L AIU</speaker>
+            <p>Crezi că prin aceasta? ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Îi facem fericiţi pe ei... D-L LAIU:	Eşti convinsă? ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Aşa-mi spune mie un glas înăuntru...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Bine, Mario. Vorbeşte cu dânşii. Vie!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ce bun eşti, Ioane...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Tu eşti cea bună... Deschizi casa stăpânilor noştri. Fă-o ! Ai să vezi... Noi ca şi cum am fi și plecat ... Dar...</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu</head>
+          <stage>VICTOR, ELENA</stage>
+          <stage>( Casa e complet prefăcută, bizar modernizată; paturile sunt simple, saltele. Cei doi lucrează ca să prefacă şi mai mult în acest sens.)</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Să ne grăbim ... Atâta lume o să vie 1-</p>
+            <p>Doar e ziua hotărârilor.  Altfel...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Altfel,	ştii... Vine	îndărăt	Baia-de-Aramă...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ce tari  sunteţi voi femeile! Mie,  vezi</p>
+            <p>tu, mi-e milă-de dânşii...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Desigur şi mie, dar ce vrei!... fiecare</p>
+            <p>generaţie cu drumul ei!... Şi al lor ducea prin locuri aşa de strâmte, de întunecate...  Şi lu-crurile caraghioase pe care le întâlneam în cale, şi le plăcea de dânsele, le reţineau. Se închi-nau la ele...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ia	vezi,  dragă, n-a	rămas	nimica</p>
+            <p>.de	la	dânşii? ... Că ăştia râd... Vine şi vestitul- critic de la ,,Idei vinete”.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ăla e teribil...  Te  trezeşti  c-a	doua</p>
+            <p>zi ne descrie, cu casă cu tot ...  Și cu părinâii...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Taci,  te  rog:  dacă...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Dar şi eu îi iubesc... Să ştii că-i iubesc... Dar dracul i-a pus să fie de la Baia-de-Aramă?...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Vrei să  mă duc?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu, nu. Să nu  te	duci...  Am nevoie</p>
+            <p>de tine... E încă de lucru	pentru	moment... Şi apoi ştii ce se decide...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi ai nevoie de sfatul meu? ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Dar bine, mă, şi tu eşti din generaţie...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (cu mândrie) </stage>
+            <p>Asta, da...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Să crezi !</p>
+            <stage> (se uită cu atenție într-un colţ.) </stage>
+            <p>Noi vorbim, şi ăsta era să ne scape şi să ne facă de râs....</p>
+            <p>VICTOr:  Care ăsta? Ce vezi tu?</p>
+            <p>Elena: Asta e!... Asta, tata mare... cel mai Baia-de-Arămesc, pitoresc şi carnavalesc chip care se poate închipui...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ia lasă! Cum, băcanul? Acela care a murit ca să nu dea faliment... Cel cu prăvălia părăsită în care umblau stafiile....</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Or fi umblând şi acuma... Şi nu sunt singure...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Iar îi aduci înainte... S-or fi gândind la noi.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Liber, domnule... Dar ce  vrei?  Prăpastia s-a săpat...Cine s-o umple?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (pe gânduri.) </stage>
+            <p>Ştiu eu cine... Şi poate aş ghici măcar ce...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Lăsăm sentimentele ... Pe moşul	cu, giubea şi fes care	n-a înţeles că viaţa nu e decât un şir de falimente, unele naive, altele frauduloase, îl punem în sertarul de la cămară. Ştii, acela unde sunt fotografiile ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi ale lor... şi ale noastre, când eram copii ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>De nerecunoscut ... Atunci era o vreme de rămâneai cum te-a făcut Dumnezeu ... Acuma eşti cum vrei să fii: blondă, brună, năsoasă, cârnă, rumenă, palidă, sprâncenată, bercă ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Bine, ascund şi pe tata moşul... Ei, acuma, când aşteaptă, nu masa, ca pe vremea</p>
+            <p>veche, ci bufetul în care oricine poate lua ce vrea de unde vrea: de pe masă, de sub masă, de pe marginea fereştilor, de pe poliţă, de pe sobă, telegrafiem ceva părinţilor? ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ce să le telegrafiem? ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Că  ne-am căsătorit, dragă...</p>
+            <p>Elena: Multe mai ţii tu minte!.. Ştii, capul llilt:U e aşa</p>
+            <stage> (face un semn cu mâna) </stage>
+            <p>. Mai ştiu eu ce e de azi, ce e de ieri? Nici figurile nu mi le aduc aminte. Iar numele, ca la examenele de bacalaureat. Amesteci zoologia cu istoria, pui pe tron un plesiosaur şi-i cauţi lui Carol-cel-Mare un loc în nomenclatura terţiarului...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Da, însă ei au memorie. Şi, dacă mama e aşa de bună şi uită tot  şi iartă tot,</p>
+            <p>bătrânul nu e în zădar fiul băcanului de la Baia-de-Aramă.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA.</speaker>
+            <p>Care tot a dat faliment.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dar cu socoteală, cu nobleţe şi cu sacrificiu. Iată ce e... Cum ştii, uituco...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Memoria e o prejudecată, ca şi logica şi ca şi estetica. Tot restul rămâne, dar, bineînţeles,  în  marginile celei mai largi relativități...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Cum ştii deci, ei au încercat întâi să stea cu noi: ei în legea lor, noi cu voia să trăim cum înţelegem, poftind pe oricine, petrecând cu oricine ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Aşa, aşa! Vai ce timpuri! Ce jenă! Ce ridicol!... Veneau la masă la ceasurile lor. Gătiţi ca la nuntă... Serioşi, solemni... Făceau cruce ca la liturghie... Mulţămeau servitorilor... Aveau şervete la gât ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Nu mă face să râd. Zău e păcat!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Păcat era de noi, că ne chinuiam şi primeam în  obraz ironiile băieţilor şi fetelor,</p>
+            <p>care se călcau pe picioare sub masă şi ne stri--veau	degetele...	Şi când	îi	pornea	râsul, şi nu-1 puteau opri ... Şi mama care făcea scene sentimentale: plângea...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi tata a plâns o dată, şi mi-a căzut aşa</p>
+            <p>de greu... Şi tare aş fi vrut să fiu sub pământ... ELENA:	Prejudecăţi şi fleacuri! Râzi de ce-ţi vine a râde.	Şi, dacă altul plânge, e treaba</p>
+            <p>lui. Râzi şi de plânsul lui...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Vezi, astăzi ni se hotărăşte, se cheamă, soarta vieţii.	Astăzi punem	întrebările	cele mari acelor  care au  arătat că ne vreau. Dar eu, să-ţi spun drept, n-aş lua o fată ca tine... ELENA:	Parcă	eu... Mie-mi	trebuie un spirit liber. Complet liber. Expurgat	 şi apărat de</p>
+            <p>toate resturile tradiţionale.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Aşa a fost. Grele săptămâni! Eu am crezut că ei au să moară ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Şi parcă	era	vina	noastră?	Dar şi noi o să murim ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>În	râsul  cui...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Al străinilor... Că parcă noi o să avem copii...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Hm!	Şi atunci, domnişoară,  s-a  făcut</p>
+            <p>pactul...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu ştiu care... Dacă a fost unul, îl calc... Ce, tu mai crezi că se ţin făgăduielile care n-au fost înscrise la grefă?...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Eu  cred...  Dar  mai  ales ei cred. Şi</p>
+            <p>tata ştie ce să  facă  atunci când e un drept al lui... Eu  cred  că  el  nici nu ţine la noi....</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Am avea noi un folos de la aceia?</p>
+            <p>VICTOr: Şi păcatul e acesta... Într-un an noi devenim gospodari... Aşa cum vrem noi... Cu cine  vrem,  în  ce  condiţii  vrem...  Ei  rămân</p>
+            <p>atunci la Baia-de-Aramă, unde s-au dus...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ţi-au scris?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Niciodată. N-a fost vorba de rapoarte ale noastre, de răspunsuri ale lor. S-a tras şanţul: fiecare de partea lui...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Deci nu ţi-au scris? Mie eram sigură că n-o să-mi scrie...</p>
+            <p>VICTOr:  Nu, nu mi-au scris...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Bagă de samă, Victore. Ăia te-nşală ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Cum mă înșață?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Dar dacă ei sunt aici? VICTOR:	 Unde aici?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Aici, la Bucureşti.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Stând  unde?</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Asta e: unde! Unde vor! În vreo as-cunzătoare. La cineva de pe la Baia-de-Aramă ... De la Cerneţi... Poate chiar de la Severin...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Închipuire ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Să fie închipuire!... Ei  şi?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Iar, dacă într-un an nu ne-am aflat rostul, ei vin...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Cum? Aici? După ce le-am dezinfectat casa de atâta prostie provincială şi de atâta tradiţie ca pe vremea lui Tudor?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Da, aici, ca stăpâni... Şi noi... noi intrăm la regim ...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>La regimul vechi? ... Readucem canapelele şi batem fotografiile în păreţi?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dacă vor ei...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Ar fi însă grozav...</p>
+            <p>Victor:	Dacă aşa crezi, ei bine, nu fă mofturi azi. Noi		trebuie să	batem	telegramă că tu eşti doamna lui Dracul să-l ia.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Lui... cine?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Lui Dracul să-l ia ... Oricare o fi!</p>
+            <p>ELENa:	Ce hazliu	eşti,	Victore ! Zău  aşa: să iau pe Dracul să-l ia ... Dar pe care din toţi?</p>
+            <p>căci sunt	mulţi! Dracul să-i ia	pe</p>
+            <p>toţi ai mei ! Şi să nu te superi. Victore, şi pe toate ale tale tot Dracul să le ia ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Poate nu pe toate.</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu fi slab, nu fi slab! Nu eşti tu membrul unei generaţii dinamice, active,</p>
+            <p>agresive, brutale, creatoare? Dar, dacă slăbeşti, ai şi capitulat. Eu, mă vezi, râd cu fiecare, mă premblu cu fiecare, joc cu fiecare, cânt cu fiecare, mă  bat cu fiecare. Îi  dau palme</p>
+            <p>uite aşa</p>
+            <stage> (încearcă să-i dea o palmă) </stage>
+            <p>, îi dau picioare</p>
+            <p>mă crezi tu?  picioare -  şi mi le dă şi el mie -, uite aşa ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Nu, nu, te rog, mai cu măsură ... Eşti prea bună. Renunţ la favoare...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Aşa, ne batem, ne ciupim, pricepi tu: ne ciupim. ne pişcăm. cum se zice la Baia de-Aramă. Ne și sărutăm. Ne luăm în braţe...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Oho!</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Parcă tu, nu... Dar asta e caracte-ristica vremii, asta-i e superioritatea... Dar, dacă, vezi tu, ar încerca mai mult...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Că mult a mai rămas!...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Tot a rămas... Atunci îmi aduc aminte de „Oneful” meu, ca să întrebuinţez un termen oficial, consacrat, şi-l trimit de-a berbeleacul, ca să vadă cu cine are a face. Dar, cât despre aceia, tot îl iubesc... Adecă îl iubesc atâta cât</p>
+            <p>şi pe ceilalţi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi aşa, domnişoară, noi telegrafiem la Baia-de-Aramă: d-ra Laiu a ales pe domnul</p>
+            <p>cutare... Zi-i pe nume. Şi eu însumi voi fi ales pe...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Nu te angaja ... Nu e încă vremea ... O facem de spre ziuă... E timpul să telegrafiem, cerând să se însemne exact oara... Ştii, ca să nu</p>
+            <p>se întoarcă ei de la Baia-de-Aramă</p>
+            <stage> (Se sună afară.) </stage>
+            <p>Iată-i.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA A II-A</head>
+          <stage>ACEIAŞI, POETUL DORMISOL, PUGILISTUL DOMPSEY, SCRIITOAREA ALMA FLORIDA, ZIARISTUL JERPELEA, MUSICANTUL. ALŢI TINERI Şl TINERE. CRITICUL BURSUC</stage>
+          <sp who="#poetul_dormisol">
+            <speaker>POETUL DORMISOL</speaker>
+            <p>Iubiţi prieteni, prietene adorabile. Vorbesc în numele acestui voios grup de invitaţi, ca să vă mulţumim de această adunare în care, cum aţi spus, aţi hotărât să vă alegeţi un drum în viaţă, lucru  pe care, vă spun drept, nu-l înţelegem ...</p>
+          </sp>
+          <sp who="#corul">
+            <speaker>CORUL</speaker>
+            <p>Drum bun, larg, şi înflorit... Cu noi!</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Să alegem şi în această seară ter-meni	în afară de cercul care, uzat  de atâtea-generaţii imbecile. a ajuns să dea numai uu vag contur de idei... În sfârşit ce mai încoace,</p>
+            <p>ce mai încolo:  partea  ceremonioasă  a trecut. Să ne luăm fiecare locurile și această  pereche de amfitrioni tineri, bogaţi, frumoşi, să se înfrăţească încă odată cu aceia care un an de zile au fost aici ca acasă la ei.....</p>
+          </sp>
+          <sp who="#bursuc">
+            <speaker>BURSUC</speaker>
+            <p>Aceasta e sigur... Parcă şi slugile ar fi fost ale noastre.</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Le-ai făcut curte?... Să-ţi fie ruşine!...</p>
+          </sp>
+          <sp who="#bursuc">
+            <speaker>BURSUC</speaker>
+            <p>Aici, în toate domeniile, oricine are dreptul stăpânului.</p>
+            <stage> (Se aşază fiecare. Fetele pe saltele, tinerii se adună în jurul lor. Se cântă din piano. Se caută sandviciuri şi sticle prin ascunzători, se dansează pe scaune) </stage>
+            <p>Dormisol,	poete inspirat	al	generaţiei	noastre,</p>
+            <p>Tu care legi cerul şi pământul şi uneşti vântul</p>
+            <p>cu cuvântul şi faci din tot ce înţelegem marele neînţeles, zi-ne ceva ca un prolog la această noapte care trebuie să ne rămâie neuitată ...</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Duceţi-vă  dracului ...  Mi-i  silă  de</p>
+            <p>voi... Nu vă spun nimic.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Păcat!</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Ce  păcat?  Aveţi  voi  nevoie  de mine? Fiecare sunteţi la rostul vostru  şi vă e bine. Vă e bine, secăturilor... Nu ziceţi: nu... Dacă am lăsa şi o umbră de amurg?</p>
+            <stage> (stinge câteva lămpi) </stage>
+            <p>Nu e mai bine aşa? He?</p>
+          </sp>
+          <sp who="#muzicantul">
+            <speaker>MUZICANTUL</speaker>
+            <p>În această lumină care uneşte realitatea cu visul să auzim revelaţia-supremă.</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>O vreţi numaidecât? V-o dau:</p>
+            <p>În cer şi -n ape Calde pleoape Umede cad, Umbrele scad.</p>
+            <p>De ce călătoreşte prin cer calul Sfântului Ilie? Fie!</p>
+            <p>În jur tot învie. Iar cel din urmă În ţărână scurmă.</p>
+            <p>De ce diamantele ascunse în gunoaie ?</p>
+            <p>Iar lumea întreagă arde-ntr-o văpaie?</p>
+            <p>BURSUC:- Superb.... Ţi o cer pentru foaia mea„</p>
+            <p>,,Flăcări plouate”.</p>
+          </sp>
+          <sp who="#boxerul">
+            <speaker>BOXERUL</speaker>
+            <p>Jucăm ceva?</p>
+          </sp>
+          <sp who="#muzicantul">
+            <speaker>MUZICANTUL</speaker>
+            <p>Pe  întuneric e  mai  bine...</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Te  cred!</p>
+          </sp>
+          <sp who="#filosoful">
+            <speaker>FILOSOFUL</speaker>
+            <p>Esenţialul e să nu ne plictisim</p>
+          </sp>
+          <sp who="#bursuc">
+            <speaker>BURSUC</speaker>
+            <p>Dar, ca să nu ne plictisim, trebuie minte. MUZICANTUL: Și noi?</p>
+          </sp>
+          <sp who="#bursuc">
+            <speaker>BURSUC</speaker>
+            <p>Voi o aveţi, dar uite  cum... Cum  e</p>
+            <p>şi frumuseţa femeilor într-o vreme când niciuna nu e în adevăr frumoasă, cum nici urâtă, de fapt, nu e niciuna. Fiecare avem o parte în</p>
+            <p>standardizarea generală. Mintea noastră se com-pletează de la unul la altul, de la una la alta. BURSUC:	Personal suntem idioţi, chiar şi când</p>
+            <p>e vorba de un talent, cu elemente de geniu, ca al lut Dormisol. Vechea poezie era toată în poet. Cetitorul era pasiv. Acuma activ e cititorul. Poetul e numai o sugestie, un punct de plecare. El zice ca în admirabila bucată pe care aţi auzit-o „calde pleoape”, şi fiecare din noi punem ceva în această creare. El trece înainte, jucându-se cu altă sugestie şi din nou poetizăm supt farmecul lui ceva din însăşi a noastră viaţă. Cred că aţi înţeles....</p>
+          </sp>
+          <sp who="#boxerul">
+            <speaker>BOXERUL</speaker>
+            <p>Iar cu teoriile?... Am venit aici să mâncăm şi să bem...</p>
+          </sp>
+          <sp who="#muzicantul">
+            <speaker>MUZICANTUL</speaker>
+            <p>Ca la noi acasă!</p>
+          </sp>
+          <sp who="#filozoful">
+            <speaker>FILOZOFUL</speaker>
+            <p>Şi mai mult şi mai bine! Aici nu mai e constrângere, nu mai e amestec. Genera ţia ifamă s-a curăţat... Suntem noi între noi. Legiunea imensă a standardizării... Să ne iubim!...</p>
+          </sp>
+          <sp who="#lina_marineanu">
+            <speaker>LINA MĂRINEANU</speaker>
+            <p>Dar, tu,  nu te  întrece.</p>
+          </sp>
+          <sp who="#boxerul">
+            <speaker>BOXERUL</speaker>
+            <p>Iartă-mă, dulce  amazoană...</p>
+          </sp>
+          <sp who="#lina_marineanu">
+            <speaker>LINA MĂRINEANU</speaker>
+            <p>Afară de aici cu epitetele!...</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>La  bacalaureat!  La comisiune!</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>La Facultatea de Litere!</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>La Academia Română!</p>
+          </sp>
+          <sp who="#boxerul">
+            <speaker>BOXERUL</speaker>
+            <p>Aici nu  se cugetă. Destul ni se cere</p>
+            <p>în viaţă ...</p>
+          </sp>
+          <sp who="#muzicantul">
+            <speaker>MUZICANTUL</speaker>
+            <p>De aici acolo....</p>
+          </sp>
+          <sp who="#filozoful">
+            <speaker>FILOZOFUL</speaker>
+            <p>Aici suntem în plin dinamism. Şi ne ajunge. Din acest dinamism însuşi va ieși o cugetare nesfârşit superioară celei de acum...</p>
+            <p>TOŢI: Un filosof, un filosof! Afară cu el! ... Nu vrem filosoful. Daţi-l afară.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA A III-A</head>
+          <stage>VI CTOR  ŞI ELENA  (apar.)</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Voiţi petrecerea?  Veţi avea-o.. Cum vă place. A voastră e casa...</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Trăiască Victor! Trăiască Elena!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dar trebuie să vă spun că v-am chemat aici pentru ca în mijlocul vostru să facem legătura pe care ne-o impune învoiala cu părinţii ...</p>
+          </sp>
+          <sp who="#boxerul">
+            <speaker>BOXERUL</speaker>
+            <p>Dar cine să-i asculte?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Tu nu eşti chemat să vorbeşti .. Rostul tău e altul: modest şi mare. Noi, iubiţi amici, trebuie să ne înfăţişăm în această seară- chiar mână în mână cu cine ne va întovărăşi în viaţă ....</p>
+          </sp>
+          <sp who="#boxerul">
+            <speaker>BOXERUL</speaker>
+            <p>Ce? Ce? Ăsta a înebunit....</p>
+          </sp>
+          <sp who="#muzicantul">
+            <speaker>MUZICANTUL</speaker>
+            <p>Nu glumi, prostule!</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>O, cum mă supără aceste triste rămăşiţe burgheze!</p>
+          </sp>
+          <sp who="#bursuc">
+            <speaker>BURSUC</speaker>
+            <p>Eu am înţeles... Dumnealui şi dum-neaei vreau să se căsătorească, dar vă întreb  cu cine...</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Înainte se putea  ştii uşor. Erau</p>
+            <p>iubirile pe care le glorifică o literatură detes-tabilă, pe care o înlocuim, o spun cu modestie, o înlocuim glorios... Acuma, cu standardizarea, ori unul ori altul, ori una ori alta... Comanzi</p>
+            <p>figura care-ţi place, impui felul de a	fi	care</p>
+            <p>te su pără mai puţin. Băieţi  şi  fete  ai vremii</p>
+            <p>nouă, eu vă propun un lucru: să le votăm tovarăşi: mirele uneia, mireasa altuia. În fond cred că le e tot una ....</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Aş zice şi eu....</p>
+          </sp>
+          <sp who="#bursuc">
+            <speaker>BURSUC</speaker>
+            <p>Trăiască Elena Laiu, mireasa stan-dardizată !</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Eu n-aş zice aşa: Lăsaţi-mă să vă vorbesc ca şi cum noi n-am fi fost ce-am fost. În acest nebun an din viaţa noastră în care eu v-am dat cred, totul....</p>
+          </sp>
+          <sp who="#muzicantul">
+            <speaker>MUZICANTUL</speaker>
+            <p>Da, da!  Să  te  ajute  Dumnezeu</p>
+            <p>\	să  mai dai!...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Aş da, dar trebuie să vă spun că aceste uşi nu se vor mai putea deschide  aşa de larg că e şi o tristeţă în acest ceas de nebună bucurie....</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>Şi de ce, măi prostule?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Fiindcă,  nici  sora mea n-o ştie, noi nu mai  avem  nimic... Am cheltuit tot, până la ultimul ban... Să am  măcar o licenţă... Elena ... nu mai a re o zestre...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <p>Da, însă am iubirea voastră ... A tineri lor de aici, a tuturor. O, de câte ori mi-aţi spus-o ! Şi am râs!... Ce-am mai râs! V-am înlăturat, v-am amânat, 	v-am izgonit cu o pălmuţă de evantai. Şi acuma vă vreau. Mi s-a poruncit să vă vreau. N-am cum face altfel... Părinţii ne-au	lăsat... M-ar	primi rupându-mă de voi... Şi nu vreau, nu pot ...</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Baia-de-Aramă...</p>
+          </sp>
+          <sp who="#elena">
+            <speaker>ELENA</speaker>
+            <stage> (urmează.) </stage>
+            <p>... să mă întorc la ei. Odată, într-un colţ de grădină, pe o alee de pădure, în umbra unui piano se cerea cu umilinţă de bărbaţi tari şi mândri mâna unei femei ... Acuma ne stăpânim. Ştim ce ştiţi voi. Avem puterea care era  odată numai a voastră. ,,Noi vă  voim, noi vă  peţim, noi  vă chemăm la noi. Cine vrea pe Elena Laiu?...</p>
+            <stage> (Tăcere.) </stage>
+            <p>Vă mai întreb, cine?</p>
+            <stage> (Tăcere.) </stage>
+            <p>Zdrenţe! Măgari!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ce faci, Eleno! Pentru o fată ca tine se va găsi un tovarăş... Să se arate uşa acestui domn, unora din aceşti domni.</p>
+            <stage> (Iese, io atitudini deosebite) </stage>
+            <p>Dar cei cari sânt în adevăr prieteni ai noştri vor vedea că în această decădere femeile păstrează însuşirile de caracter prin care se sprijină societă ţi1e</p>
+            <stage> (se îndreaptă către Lina Mărineanu) </stage>
+            <p>. Lina Mărineanu, după dorinţa părinţilo mei, înaintea tuturora, te cer soţie...</p>
+            <p>LINA MĂRINEANU:- O, Victore, unde e curajul drumului prin sărăcia ta? ... Ce ţi-am fost, ajunge...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (sună către servitori) </stage>
+            <p>. Pe cine vrea să mai petreacă, serviţi-i. E ultima masă, noi ne re-tragem,</p>
+          </sp>
+          <sp who="#dormisol">
+            <speaker>DORMISOL</speaker>
+            <p>S -a sfârşit comedia! Trăiască amfitrionii! Să fim veeseli, amici! Viaţa  e scurtă.</p>
+          </sp>
+          <stage>DOMNUL, LAIU, DOAMNA LAIU, LINU POPESCU, LOLA POPESCU</stage>
+          <stage>(O veche casă modestă la Baia-de-Aramă).</stage>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Aşa! Acum să-i. mulţumim lui Dum-nezeu că ne-a dat harul şi mila pentru o masă ca aceasta, un adevărat ospăţ, în cinstea acestor tineri, vrednici fraţi orfani ai celui mai bun prieten al meu din vremea când casa era casă, masa era masă şi era binecuvântare asupra tuturora. Lola, iată mama ta, Linule, iată tatăl tău...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ioane!... Nu, nimic. Sunt lucruri care nu se spun, fiindcă, dacă se spun, se împrăştie în aer ca un fum şi se duce vedenia, se duc vedeniile. Şi, dacă se duc, e păcat. Fiindcă şi noi, oamenii, ce suntem decât nişte vedenii, şi vedeniile, dacă</p>
+            <stage> (cu greutate) </stage>
+            <p>în adevăr ţii la ele, iată, sunt şi ele oameni... Tu le şi vorbeşti, atâta numai că ele nu  pot să răspundă.</p>
+            <stage> (Ca pentru el) </stage>
+            <p>O, de-ar putea să răs-pundă!</p>
+            <stage> (Către commeseni) </stage>
+            <p>Aşa, acum să ne scoatem şervetele...</p>
+            <stage> (Se uită la Linu) </stage>
+            <p>. Vai, şi nu ţi-a dat şervet ţie... Repede! Unde e Lenuţa?</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>)jenat)  Îl avea...  Să  scuzaţi...  Nu  l-am</p>
+            <p>pus,</p>
+            <stage> (Lola pune pe al ei pe furiş.) </stage>
+            <p>I</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Nu e nimic, nu e nimic. N-a fost cu gând  rău.  N-am	voit	să-ţi  fac o obser-</p>
+            <p>vaţie... Ştiu că voi sânteţi altfel ... Altă lume... Dinamică. Piei, vrajă. Nici eu nu ţineam la lu-crurile astea când eram la Bucureşti. Aşa cerea lumea şi mă supuneam şi eu. Dar, vezi, noi suntem aici la Baia-de-Arama. Şi iarăşi sunt lucruri pe care locul le cere... Se potriveşte cu vasele astea vechi, cu scaunele din timpul lui tata-moşul ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dumnezeu să-l ierte; săracul!... Ce</p>
+            <p>om cinstit</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Să-l ierte Dumnezeu, am zice, după obiceiurile de astăzi, că a fost așa de cinstit şi întru cinste a călcat voia Domnului, hotărând el însuşi sfârşitul zilelor sale, ceea ce nu este îngăduit. Se potriveşte şi cu grinzile astea negre, frumos săpate, cu ferestrele astea mici, cu velinţile aşternute pe podeaua peste care au trecut atâţia paşi care calcă acuma sus, deasupra norilor. Dar vouă nu vă spun nimic toate astea.</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Parcă	ne-am fi născut cu ele în suflet, şi n-a fost cine să le	le scoată ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Bine, ţie, dar ăstuia,	inginerului, tehnicianului, care a luat lumea în  piept,  de</p>
+            <p>s-a deprins a scormoni aici, şi cu folos!...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>A se  vedea încă ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-l Laiu</speaker>
+            <p>Cine sapă cu încredere ori în măduva pământului, ori în măduva sufletului nostru  acesta totdeauna se alege cu ceva. Dar cum se face de poate să se împace cu noi  el  care  abia  de câteva  luni  a  venit din lumea minunilor celor mari. Unde şi cerul pare a fi, să zicem, de aramă şi piciorul pare că-l pui numai pe piatră tare, nebiruită ..</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Neamţul la care m-ai îndreptat d-ta, aşa trăia...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Că nu te-ai întrebat niciodată cum el, descoperitorul cel mare, el care ne feri-ceşte pe  noi  de aici acuma, cu  descoperirea,</p>
+            <p>. lui, care face să învie minele părăsite de atâtea veacuri, cum trăia acasă la dânsul aşa ca noi, ca nişte proşti ...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Aşa ca dumneavoastră, care	trăiţi ca nişte sfinţi... Şi mai strâns încă, mult				mai strâns.... Pentru ştiinţă zările cele mai		largi, pentru casa lui, pentru	familia	lui		cea mai smerită păstrare a celor mai vechi datine. Şi el zicea că asta-l ţine, că asta-l face...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Dinamic....</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Da, dinamic. Aşa trăieşte el, cu baba lui, cu fata lui...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Are o fată?</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Are una... şi cum ţine la dânsa!..</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (Jenată.) </stage>
+            <p>Şi. .. Şi fata la .... la dânşii?</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Din toată inima. Și cu cea mai modestă iubire.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ia te uită d-ta!... Ia te uită d-ta</p>
+            <stage> (duce pe furiş batista la gură.) </stage>
+          </sp>
+          <sp who="#d_laiu">
+            <speaker>D - LAIU</speaker>
+            <p>Dar bine, tinere, dacă	o fi	fost fa ta şi frumoasă ...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Oho ! Şi ce frumoasă</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Păi, dragă tinere dinamic, cu dinam şi dinamită, de ce n-ai luat fata  Neamţului?</p>
+            <p>LINU:-	Vezi, domnule Laiu, nu se	pot spune toate lucrurile...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Ei, o fi având şi el cine ştie ce legături prin ţară ...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Îmi daţi voie să nu vă spun mai mult... Au fost lucruri	ca re se	puteau...  Şi  lucruri</p>
+            <p>care, cine știe? ... s-ar mai putea...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Să-ţi ajute Dumnezeu, căci meriţi... Dar	ia	ascultaţi...</p>
+            <stage> (ascultă.) </stage>
+            <p>A stat	ceasul din</p>
+            <p>antret... Nu-l mai aud bătând .... Mare lucru, mare lucru!... Că n-oi fi uitat să-l întorc... Ar fi întâia oară în viaţa mea, și nu mi--aş ierta-o... Că zău nu s-o fi stricat.., Mario!</p>
+            <stage> (către Linu) </stage>
+            <p>D-ta, care ştii toate, te pricepi la ceasornice...	•</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ioane, Ioane, dar dumnealui e inginer de mine.....</p>
+            <p>D-L LAIU:- Asta e, dar dacă s-ar pricepe şi la ceasornice?</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Aş fi bucuros să se fi putut aceasta ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ei, vezi !</p>
+            <stage> (se duce în antret; i se aude glasul.) </stage>
+            <p>Mario, nu e stricat ceasornicul. Eu		nu-l în-orsesem. Prost ce sunt... Uite, vezi	îmbătrânesc şi eu... Auzi ce frumos bate! E ca un om... L-a cumpărat tata de la moşul lui Linu,</p>
+            <p>şi parcă e glasul lui în el, când sună ceasurile ..</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Şi acum să jucăm o concină ...,</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Dv., tinerilor, ştiţi  ce  e aceia?</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Eu ştiu.</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>V-am văzut  jucând ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ei, vedeţi, fiecare joc își are su-fletul lui.... Asta e joc liniştit şi cu multă socoteală... Până îţi faci adunările, scurmi puţintel în mintea asta, care parcă ar vrea să adoarmă, fiindcă se face târziu. Târziu în noapte şi târziu în viaţă...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ioane, nu da afară pe oamenii aceştia voioşi şi tineri.... Ce le arde lor de ce ne paşte pe noi şi o ştim aşa de bine încât nu face să vorbim ... Aşa noi om juca o con-cină, dumnealor s-or învăţa...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Dacă le place, dacă le place..</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>După truda zilei e o odihnă. Și într-un cerc aşa de simpatic ... Ce zici, Lola?</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Eu  parcă  nu  m-aş mai  duce de aici...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Vezi, mai sunt şi oameni care zic aşa... Pentru alţii ăsta era iadul... Lumea asta ridicolă de la Baia-de-Aramă... Şi, oriunde am fi fost, o duceam cu noi...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dacă vorbeşti aşa, atunci eu nu mai joc concina, şi nu-ţi mai fac niciun chef, iată...</p>
+            <p>LOLA:- Că n-o fi având aşa de multe nenea ... D-NA Laiu: Ba are, şi ştiţi voi ce pretenţios e...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-L LAIA</speaker>
+            <p>Mario, taci! Pentru Dumnezeu taci... Ăştia-s nişte copii...</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>Copii, ce copii. Eu vreau să te spun... Şi trebuie să te spun, fiindcă, altfel, într-o zi, venind la noi, s-or cruci auzind ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Mario!...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Auzind pe o babă ca mine, cân-tându-i ... Da, cere să-i cânt... La  cincizeci de ani  trecuţi...  Şi  n-am  ce face:  bărbat  mi-e....</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Dar, ţaţă, d-ta trebuie să cânţi foarte frumos ..</p>
+          </sp>
+          <sp who="#laia">
+            <speaker>D-NA LAIA</speaker>
+            <p>E,	e! Se	potriveşte	cu vârsta mea? Uite, sta aşa, ieri seară, şi, ce i-a venit lui, mi-a spus să-i cânt: ,, Vezi rândunelele se- duc” a lui Eminescu ...</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU</speaker>
+            <p>Formal îţi interzic, Mario...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ba nu, ba nu! Dar eu nu înţeleg de ce asta, şi nu altceva... Şi, iaca, el a cerut şi eu n-am vrut: nu i-am cântat...</p>
+          </sp>
+          <sp who="#d_i_laiu">
+            <speaker>D-I LAIU</speaker>
+            <p>Aşa? Atunci iată, ai să cânţi acum. Acuma chiar! Lola,  du-te la  piano... Treceţi în salon. Aprindeţi lumânările de sperman-ţetă... Amândouă... Dar băgaţi de samă să nu curgă ... Băgaţi de samă ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Tu glumeşti ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Nu glumesc deloc. Mi-a revenit. Uite mi-a revenit. E ceva curios. Îmi  trebuie,</p>
+            <p>îmi trebuie neapărat. Îmi trebuie ca privrea voastră, ca bătaia ceasornicului... Îmi trebuie ca aerul pe care-l răsuflu,.. Când vin porunci de acestea, să nu te împotriveşti ... Uite, zău te poţi şi îmbolnăvi ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Apoi, dacă e aşa, dacă  e vorba de îmbolnăvire, las ruşinea la o parte, şi, dacă vrea şi Lola, cânt... Fac şi pozna asta de-i cânţ lui Ion... Numai să nu se supere şi, Doamne păzeşte, să se mai şi îmbolnăvească... Numai cât ne-am înţeles. Dv., domnii, rămâneţi aici. Nici prin uşă să nu vă uitaţi... Ăsta-i un secret, şi trebuie să-l respectaţi ... Iar tu, Mario, să ţi închipui că o auzi întâia oară, când noi şi totul în jurul nostru era altfel...</p>
+            <stage> (se aude din salon cântecul, cu finala, ,,de ce nu vii, de ce nu vii”. Apoi d-na Laiu se întoarce,) </stage>
+            <p>Ei vedeţi, asta a fost ... V-a fost dat s-o ascultaţi... Atât şi nimic mai mult... Dar, vă rog, vă rog din inimă să nu spuneţi la nimeni, să nu mă pârâţi..</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Frumos ai cântat, Mario. Dar, ştii,</p>
+            <p>să n-o mai cânţi... prea mă doare...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Durerile au leac, nene Ioane.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Nu toate... Şi mai ales cele care nu se spun...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Dar crezi  d-ta	că lumea nu le ştie? ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Asta o priveşte  pe dânsa...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Şi nu lucrează ca să le înlăture?</p>
+          </sp>
+          <sp who="#d_l_laiu">
+            <speaker>D-L	LAIU.</speaker>
+            <p>Ehe, tinere, prea credeţi  uşoare  lucruri prin care n-aţi trecut. Dar e bine că suntem aşa cum suntem. În seara aceasta bună ... sub lampa din tinereţe. Lângă mine e comiara vieţii mele ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Să nu ne socotim comorile.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Mai ales să nu punem în socoteală pe cele pierdute.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <stage> (se ridică.) </stage>
+            <p>Toane,  după cântecul ce 1-ai cerut,  mie  mi-a  venit. Nu  ştiu singură</p>
+            <p>cum, aşa un fel de taină ... O solie. Ioane... Ce ştiu eu? Nu înţeleg singură .. Dar deodată s-a făcut aici</p>
+            <stage> (arată inima) </stage>
+            <p>o mare căldură şi mi-a fluturat  pe frunte ca un vânt de mângâiere ... Așa, o prostie a mea... Dar, ce să-ți spun, mi-a fost dulce...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Închipuiri... Dar, dacă îţi fac bine, ţine-le. Ţine-le din răsputeri... Din ele se face, mai la urmă, temeiul însuşi al vieţii...</p>
+            <stage> (Către Linu.) </stage>
+            <p>Dar parcă d-ta spuseşi ceva?... Nu doar că te-aș crede, cum n-o cred pe dânsa, dar vorba care ai început-o e bine s-o şi sfârșeşti...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Eu zic aşa ... Că d-ta eşti un om prea bun şi dumneaei tot aşa, ca Dumnezeu să nu vă bucure la bătrâneţele d-voastră.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Se duc prea răpede ca să le poată prinde din fugă fie şi nesfârşita putere a lui Dumnezeu.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Şi atunci, după atâtea lucruri bune, tu vrei să plângem? Zi, asta o vrei?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Na, şi de aceia nu e bine să lungim vorba, când iată cărţile astea au cu ce să ne ocupe şi să ne însenineze</p>
+            <stage> (caută în ele.) </stage>
+            <p>Patru!</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Nene Ioane, pe Linu nu l-ai lăsat să vorbească ... El spune prea multe..	Că doar  e aşa de învăţat... Eu mă uit la dânsul ca la o minune şi cine spune atâtea vorbe să nu-i dai prea multă crezare...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>De aceiea nu te-i fi măritat tu, căci, frumoasă cum eşti şi deşteaptă... şi gos-podină ...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Vai!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Ei ce? Mulţi te-or fi cerut ...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Nu aşa de mulţi... Şi de ce vrei şi d-ta,</p>
+            <p>care ai taina	d-tale, să-mi furi	aşa dintr-o-dată taina mea? Aceia nu ţi-o dau aşa de uşor.</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Poate când o veni vremea ...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Dar eu nu te întreb pe tine... Acuma, tu lasă, că poate să strici ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Dar ce taină este aceasta pe care nici eu, aici, la mine, n-am dreptul s-o ştiu? LOLa:	Ia să mai fie şi lucruri pe care nu le ştii d-ta... Vei îmbătrâni mai puţin. Dar uite ce zic eu: se poate întâmpla -	eu o depăn aşa ca o poveste -  să-ţi pice în prag un om...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Fata asta vrea să se mărite şi, cum e orfană, n-are de la cine s-o ceară ăla de care e vorba şi mi-l tot îmbrobodeşte. Fiindcă suntem la Baia-de-Aramă şi; oricât    s-ar fi înţeles nişte  tineri, tot  trebuie să fie şi un bătrân care să se învoiască şi să bine-cuvânteze, iată adă-mi-l! Să-l vedem, să-l so-cotim, să-l preţuim, să nu-i dăm aşa de uşor o fată ca asta...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Dar, dragă Doamnă, dar măicuţă dragă, nici nu-mi umblă mintea la aşa ceva, eu mă gândesc la bucuria altora ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Nu înţeleg.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Că, drept să vă spun, deşi sunt femeie, nu înţeleg nici eu...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Cum: adică voi înţelegeţi mai bine?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Cu inima, să ştii tu că da...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Lăsaţi-mă cu povestea mea ... E greu de spus... Poate mă atinge şi pe mine... Dar ce închipuire! Vedeţi, dacă mă tulburaţi? Îţi pică deodată cineva aşa în casă... L-ai ştiut de mult ... Poate 1-ai preţuit, dar a trecut atâta vreme... Are voie oricine să se schimbe, ba şi la faţă... Nu l-aş fi cunoscut, să-1 fi văzut pe stradă... Da_r aşa, în  odăiţa  noastră, cu</p>
+            <p>seara care se lăsa, într-o rază de amurg, ]-am cunoscut.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>N-am spus eu că e vorba de o nuntă?... Ci zi-i mai răpede pe nume, şi s-o facem...	.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Ce grăbită eşti! Nici n-ai înţeles nimic, şi gata hotărârea! Bagă de samă că nici nu te priveşte...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Aşa sunt lucrurile pe lume astăzi, de nu ştie nimeni nici ce-l priveşte, nici ce nu-l priveşte... Şi de aceea e bine să fim cu inima deschisă către oricine.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Adevărat ca o filozoafă vorbeşte fata asta... Parcă ar fi fost şi ea acolo, la Neamţul lui Lelu...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>La Neamţul n-a fost, dar nu ştiu de unde îi vine şi ei aceleaşi gânduri... Şi ne vin la amândoi şi aceleaşi întâmplări... Asta e ciudat...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Să vă spun eu de unde: de la părinţii voştri, care au murit. Să ştii de la mine o vorbă, s-o ştiţi toţi, şi altora s-o spui... părinţii nu mor niciodată pentru copiii lor... De acolo de jos ei simt, şi ei lucrează. Nu-ţi: dai sama de unde vine ceva, ceva neaşteptat,</p>
+            <p>o minune... Să ştiţi, însă, că	e de la dânşii.</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Se poate... Eu cred, deşi abia-mi aduc aminte de  dânşii... Dar, uite, şi eu aş putea</p>
+            <p>să vă spun o poveste întocmai ca a ei. Aşa, la un -ceas de seară, supt o rază de amurg. doi ochi..., doi ochi mari, frumoşi, calzi şi buni. Doi ochi, dureroşi şi plânşi, plânşi mult şi: plini de ceaţă.</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Îţi pică aşa în prag... Nu i-ai chemat.... nu-i poţi goni... Ce faci cu ei? Ce facem noi, nişte orfani, cu cine a fost trimis  prin  puteri</p>
+            <p>nevăzute la pragul nostru curat, pe care nu l-a călcat de la nunta părinţilor noştri nicio dragoste.</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Începem concina ... E târziu şi parcă mi-ar fi şi somn... Dacă nu jucaţi, mergeţi acasă ...</p>
+          </sp>
+          <sp who="#linu">
+            <speaker>LINU</speaker>
+            <p>Asta  e,  că  nu  putem  merge  acasă ...</p>
+            <p>Casa e ocupată...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Atunci dormiţi aici...</p>
+          </sp>
+          <sp who="#lola">
+            <speaker>LOLA</speaker>
+            <p>Dar ce facem cu solia?</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Dacă n-o puteţi spune voi, s-o spuie aceia ...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Eu aud ceva de o bucată de vreme..: Ei bine, cine o fi, să intre! Intraţi! Care veniţi, intraţi. Aici e lumină, pace şi bunătate! Orice aveţi pe suflet, oricare ați fi, intraţi!</p>
+            <stage> (Apar Victor şi Elena.) </stage>
+            <stage> (Instinctiv Elena se duce spre Linu, Victor spre Lola.) </stage>
+            <p>Nu-mi ieau cuvântul înapoi... Şi aici este loc... Şi aici este de lucru...</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-NA LAIU</speaker>
+            <p>Numai	atât,	numai	atât?	Dar uite la dânşii ... Ei, bată-i să-i bată!</p>
+          </sp>
+          <sp who="#laiu">
+            <speaker>D-L LAIU</speaker>
+            <p>Că prin mare încercare au trecut ...</p>
+            <p>De-ar putea-o trece mulţi ca dânşii!...</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL AL III-IEA</head>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,3579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000046" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Agachi Flutur</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Agachi_Flutur">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1863">
+            <desc>1863</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="agachi_flutur" sex="MALE">
+            <persName>AGACHI FLUTUR</persName>
+          </person>
+          <person xml:id="ghita_coscodan" sex="MALE">
+            <persName>GHIȚĂ COȘCODAN</persName>
+          </person>
+          <person xml:id="bombeanu" sex="MALE">
+            <persName>BOMBEANU</persName>
+          </person>
+          <person xml:id="moisescu" sex="MALE">
+            <persName>MOISESCU</persName>
+          </person>
+          <person xml:id="ion_barza" sex="MALE">
+            <persName>ION BARZĂ</persName>
+          </person>
+          <person xml:id="narila" sex="MALE">
+            <persName>ȘĂTRARUL NĂRILĂ</persName>
+          </person>
+          <person xml:id="chirila" sex="MALE">
+            <persName>CHIR CHIRILĂ</persName>
+          </person>
+          <person xml:id="luxita_fespezanca" sex="FEMALE">
+            <persName>LUXIȚA FESPEZANCA</persName>
+          </person>
+          <person xml:id="tinca" sex="FEMALE">
+            <persName>TINCA</persName>
+          </person>
+          <person xml:id="smarandita" sex="FEMALE">
+            <persName>SMĂRĂNDIȚA</persName>
+          </person>
+          <person xml:id="matilda" sex="FEMALE">
+            <persName>MATILDA</persName>
+          </person>
+          <person xml:id="neculae" sex="MALE">
+            <persName>NECULAE</persName>
+          </person>
+          <person xml:id="frit" sex="MALE">
+            <persName>FRIȚ</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000046"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Agachi Flutur</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>AGACHI FLUTUR</role>
+          <roleDesc>holtei de 50 de ani</roleDesc>
+        </castItem>
+        <castItem>
+          <role>GHIȚĂ COȘCODAN</role>
+          <roleDesc>nepotul său</roleDesc>
+        </castItem>
+        <castItem>
+          <role>BOMBEANU</role>
+          <roleDesc>ofițer de artilerie</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MOISESCU</role>
+          <roleDesc>factor evreu și advocat</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ION BARZĂ</role>
+          <roleDesc>fecior</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ȘĂTRARUL NĂRILĂ</role>
+          <roleDesc>proprietar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>CHIR CHIRILĂ</role>
+          <roleDesc>lipscan bogat</roleDesc>
+        </castItem>
+        <castItem>
+          <role>LUXIȚA FESPEZANCA</role>
+          <roleDesc>văduvă</roleDesc>
+        </castItem>
+        <castItem>
+          <role>TINCA</role>
+          <roleDesc>fata Luxiței</roleDesc>
+        </castItem>
+        <castItem>
+          <role>SMĂRĂNDIȚA</role>
+          <roleDesc>fata lui Nărilă</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MATILDA</role>
+          <roleDesc>actriță</roleDesc>
+        </castItem>
+        <castItem>
+          <role>NECULAE</role>
+          <roleDesc>servitor de otel</roleDesc>
+        </castItem>
+        <castItem>
+          <role>FRIȚ</role>
+          <roleDesc>chelner neamț</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Două după mezul nopții! Balul de la teatru trebuie să fie pe sfîrșite. În curînd au să ne curgă o mulțime de flămînzi cu flămîndele lor.</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Gut, gut! Bucat est gata: șnițel, paprica, potîrnichi de pui de găină, fazani de clapon…</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Taci, neamțule, să nu te-audă cineva… De vreme ce sîntem în carnaval, bieții claponi au și ei dreptul a să costuma în fazani, ca toată lumea…</p>
+            <p>Mulți cunosc anume</p>
+            <p>Claponi și curcani,</p>
+            <p>Ce lucesc în lume</p>
+            <p>Ca niște fazani;</p>
+            <p>Însă a lor ceată,</p>
+            <p>Deși joacă rol,</p>
+            <p>Miros-a poiată</p>
+            <p>Ș-ades e răsol.</p>
+          </sp>
+          <stage>FRIȚ:  (rîzînd)  Jawohl, jawohl…</stage>
+          <stage>NECULAE:  (în parte)  Bată-l concina, că urît e cînd rîde!  (Tare.)  Friț.</stage>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Befehlen…</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Ai aprins lumînările în cabinetul domnului Agachi Flutur?</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Aprins tot policander. Aber, spune la mine, bitte, cine-i Herr von Agachi Vlutur?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Cine-i? Nu-l cunoști? Un berbant de frunte, care mînă viața cu poșta, rîde, cîntă, joacă, mănîncă cît șapte și bea cît opt. O butilcă de șampanie ți-o înghite dintr-o dușcă… Cît ai bate-n palme de trei ori, s-a dus!…</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Sapperment! Bea șampanie, cum eu bere!… Aber e tiner?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>În floare… Între 30 și 60 de ani.</p>
+          </sp>
+          <stage>FRIȚ:  (rîde)  În floare, ca ciuperca.</stage>
+          <stage>NECULAE:  (în parte)  Iar rîde șoacăța! a să mă bage în boală.</stage>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Aber e bogat?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Nu știu ce avere o fi avînd, dar știu că-i darnic cît un crai. Într-o zi mi-a dat bacșiș un galben pentr-un chibrit.</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Donnerwetter! am să-i dau un cutie întreg, cînd l-oi vedea.</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>A venit mai dinioare o scrisoare pentru d-lui, unde-i?</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Aici la mine, în buzunar din dreapta, lîngă inimă. Herr Ober…</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Ce?</p>
+          </sp>
+          <stage>FRIȚ: Știi ce socot eu?…  (În taină.)  Eu cred că ravașul ista e femeiesc, nu e bărbătesc… pentru că nu mirosă a țigară.</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Scrisoare de la vro damă?</p>
+          </sp>
+          <stage>FRIȚ: Ia, ia, de la un dam.  (Rîde)</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Piei, drace!</p>
+          </sp>
+          <stage>BARZĂ:  (intră prin fund, îmbrăcat cu o livre strîmtă)  Aice-i hanu lui Hîc?</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Aici. Ce poftești?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>M-a trimes stăpînu-meu să-i opresc o odaie cu două tacîmuri.</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Nu cumva dorește ș-o masă cu două paturi?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Nu.</p>
+          </sp>
+          <stage>FRIȚ:  (rîde)  A! schon! a! sehr schon!</stage>
+          <stage>BARZĂ:  (răsărind)  Tio dihanie, că m-ai speriat!  (Își scuipă în sîn.)</stage>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Ha, ha, ha. Odaie cu două tachimuri!… D-ta vii de la Gogomănești?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Ba nu, domnule; n-am fost încă prin țara d-tale… Eu sînt de la Prosteni.</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Se cunoaște cale de-o poștie.</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Mai așa? Dar să nu ne luăm cu vorba… Aveți odaie cu două?…</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Este cabinetul no. 3. Cum îl cheamă pe stăpînu d-tale?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Cuconu Ghiță Coșcodan.</p>
+          </sp>
+          <stage>NECULAE:  (în parte)  Ai!… prost tacîm!</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Trebuie să-l cunoști d-ta, mănîncă în toate zilele aci.</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Dar; mănîncă de-un sfanț și face gură de-un galben… Îl știu; strică pe toată ziua zece scobitori și dă bacșiș un firfirig.</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Der Teufel!</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Un firfirig! în toate zilele!… Crișu el!… Dacă-i boier, tot boier!… Mă duc să-i dau de știre ca să vie degrabă.</p>
+            <stage> (în taină.) </stage>
+            <p>E c-o duducă de la fteatru, dar să nu scoateți vorbă.</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Un duduc?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Ibovnica boierului… dar nu spuneți nimărui; mocles!</p>
+            <stage> (Iesă prin fund.) </stage>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Halal de dînsa… Sărmana!…</p>
+            <stage> (Se aude afară rîsete și chiote de veselie.) </stage>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Was ist?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Vine domnu Agachi Flutur cu tarafu lui.</p>
+            <p>SCENA II</p>
+            <p>NECULAE, FRIȚ, AGACHI, MĂȘTI, AGACHI</p>
+            <stage> (îmbrăcat în costum de pașă și purtînd pe cap o cealma mare cu o semilună în vîrf, întră adus în triumf de o bandă de măști) </stage>
+            <p>.</p>
+          </sp>
+          <stage>MĂȘTILE: Ura! ura! să trăiască Mustafa-pașa!  (Se prind de mîni, joc în rond împregiurul lui Agachi, cîntînd:)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Fraților cauzași! cer cuvîntul: Aș avea să vă arăt adînca mea recunoștință, făcîndu-vă un engomion vrednic de a voastră strălucită adunare estraordinară, dar m-ați urducat astfel de tare, de la teatru și pănă aci, că mi s-a răsuflat oratornicul. Dați-mi voie însă să mă cobor pe uscat și, drept mulțămire, v-oi cînta jalnica tragedie a lui Mustafa-pașa.</p>
+          </sp>
+          <sp who="#mastile">
+            <speaker>MĂȘTILE</speaker>
+            <p>Bravo! bravo!</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Deschideți-vă urechile și pregătiți-vă basmalele, căci o să vărsați șiroaie de lacrimi… Jalnica tragedie a unui suzeran, în trei cuplete:</p>
+            <p>AGACHI:</p>
+            <p>Cică demult era, era,</p>
+            <p>Era un pașă Mustafa.</p>
+            <p>CORUL:</p>
+            <p>Cică de mult era, era,</p>
+            <p>Era un pașă Mustafa.</p>
+            <p>AGACHI:</p>
+            <p>În București se-namora</p>
+            <p>De-un pui de drac și mi-l fura.</p>
+            <p>Tra, la, la, la.</p>
+            <p>Cel drăcușor coarne purta</p>
+            <p>Și nimărui nu le-arăta.</p>
+            <p>CORUL:</p>
+            <p>Cel drăcușor coarne purta</p>
+            <p>Și nimărui nu le-arăta.</p>
+            <p>AGACHI:</p>
+            <p>Dar după ce se mărita</p>
+            <p>Le dărui lui Mustafa.</p>
+            <p>Tra, la, la, la.</p>
+            <p>Pașa voios se bucura</p>
+            <p>Zicînd: aman și mașala!</p>
+            <p>CORUL:</p>
+            <p>Pașa voios se bucura</p>
+            <p>Zicînd: aman și mașala!</p>
+          </sp>
+          <stage>AGACHI:  (făcînd cu degetele semnul de coarne)</stage>
+          <sp who="#mastile">
+            <speaker>MĂȘTILE</speaker>
+            <p>Vivat. Mustafa-pașa!</p>
+          </sp>
+          <stage>AGACHI: Destul, că am să fac o interpelațiune…  (Cătră Neculae.)  Neculae! Vin aci și caută de te destăinuiește, ca și cînd ai fi să dai pelea popei.</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Gata sum pro confesare.</p>
+          </sp>
+          <stage>AGACHI:  (serios)  Neculae, nu-mi vorbi brașovenește, că nu-mi plac brașoavele.  (Cu sentiment.)  Viața-i scurtă, sufletul meu; ziua se duce și altele vin, fără urmă se strecor și ne lasă cu buza umflată… prin urmare n-avem timp de perdut cu palavre; că… aiure; răspunde numai cîte-un cuvînt la întrebările’ mele. Cabinetul, meu gata-i?</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Gata.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Masa?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Pusă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Icrile?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Moi.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Supa?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Ferbinte.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Friptura?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>În frigare.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Șampania?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>În gheață.</p>
+          </sp>
+          <stage>AGACHI: Ișala! să ai blagoslovenia mea… Na!  (Îi aruncă făină în obraz.)</stage>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ha, ha, ha.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Fraților cauzași!… Păn-a nu întră în sanctuarul banchetului, fiecare să-și ascuță dinții și să-și spoiască urechile. Pe la sfîrșitul mesei d-nii cavaleri vor fi îngăduiți a povesti cu glas uimit istoria amorurilor ce-au avut în frageda lor tinereță. Cît pentru dame, gingășia lor va fi liberă, în vremea asta, a să îndeletnici cu vro cetire morală, precum nasul lui Nichipercea sau foița Românului. Acum haide.</p>
+          </sp>
+          <stage>MĂȘTILE: Hai, hai.  (Întră în dreapta, sărind și cîntind:)  Tra, la, la, la.</stage>
+          <stage>SCENA III</stage>
+          <stage>FRIȚ:  (oprind pe Agachi la ușă)  Herr von Vludur, iată o scrisoare, pentru d-ta.</stage>
+          <stage>AGACHI: De unde? Ad-o degrabă că n-am vreme de perdut cu literatura.  (Deschide scrisoarea.)  Tronc! Serdarul Pipirig mă înștiințează că are să vie la soupe… Ce bondar năuc!… Cînd zice da, cînd zice ba… Niciodată nu-i hotărît la nimică.  (Cătră public.)  Dar poate că mă veți întreba de ce-l economisesc, de ce-l alint?  (În taină.)  Să rămîie între noi… Serdarul îi însurat c-o nevăstuică… coz!… Serdarul îi stricat de vărsat ca un ciur ; iar serdăreasa are niște ochi… șucada… ș-o guriță numai atîtica, ș-o talie, care merită a să înălța în grad; căci eu eram spătar, pe cînd boieriile…  (Cu mînie.)  Bată-l concina de serdar ; din pricina lui o să fim acum 13 la masă; 13! număr fatal, număr pocit!… eu poroncisem să puie numai 12 tacîmuri… Dac-a mai veni și el…  (Strigă:)  Chelner! Neculae!</stage>
+          <stage>FRIȚ: Befehlen.  (Aprinde un chibrit.)  Poftesc un chibrit?</stage>
+          <stage>AGACHI: Un chibrit?  (Stinge chibritul.)  Du-te de mai adauge două tacîmuri la masă, ca să fie 14… mai iute, schnell, geschwind.</stage>
+          <stage>FRIȚ: Gleich.  (În parte.)  Nu avut noroc ca Neculai.  (Iesă.)</stage>
+          <stage>AGACHI: Acum trebuie numaidecît să-mi caut un al 14-lea musafir… unde să-l găsesc?…  (Zărind pe Moisescu care întră.)  Ce văd? un arnăut? Un arnăut poate să mănînce la masă cu un pașă.  (Tare.)  Hei! căpitane, căpitane.</stage>
+          <stage>MOISESCU:  (costumat arnăuțește și purtînd ochelari pe nas, vine prin fund)  Pe mine mă chemi, domnule?</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Iaca pozna! Moisescu, factorul meu, îmbrăcat arnăuțește?</p>
+          </sp>
+          <stage>MOISESCU:  (apropiindu-se)  D-nul Agachi Flutur schimbat în pașă?</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bine că te-am găsit, Moisescule… știi vorba ceea, că bețivului și dracu-i iesă cu ocaua înainte?…</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cine-i dracu și cine-i bețivul dintre noi?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Alege Care ți-a plăcea… Eu unul am nevoie numaidecît de-o somă de 500 de galbini. Poți să mi-i împrumuți acu-ndată?</p>
+          </sp>
+          <stage>MOISESCU: Chiar acu? 500 de galbini. Ia să caut.  (Caută prin buzunar.)  Am trei sfanți.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bagă-ți-i în ochi. Să-mi aduci mîni dimineață banii acasă.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Bucuros.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu cît la sută? tot cu 18?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>BA cu 24:</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu 24! de ce nu cu 50?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Persoana care împrumută a găsit cu cale să mai mărească dobînda.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Vremele-s grele… A dat locustele-n țară…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce cămătar afurisit!</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Mă iartă, boierule, domnul Zarafopulos nu-i cămătar. El își speculează banii ca toată lumea.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ca toată lumea cea evreiască… Fie!… primese să plătesc și dobînda de 24.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Afară de comisionul meu?</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Fie chiar botezat, evreul tot zaraf.</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Se înțelege, bez comisionul d-tale.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Prea bine; mîni dimineață, ți-oi număra banii.</p>
+            <stage> (Voiește să iasă.) </stage>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Moisescule!</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Poroncă?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Aș vrea să-ți fac două propuneri. Primo, să-mi arăți pe hoțul de Zarafopulos, care mă mănîncă de viu.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Nu se poate; el dorește să rămîie necunoscut.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Pricep; vrea să stea la potecă, nevăzut de grija potirei. Secundo, ți-aș propune să mănînci cu mine astă-seară, știu că ești posomorit și nesuferit, dar n-am ce face; îmi trebuie un al 14-lea musafir. Primești?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Ba mi-i peste putință… foarte mulțămesc. M-am îmbrăcat arnăuțește ca să pot urmări, la bal masché, pe un datornic rău de plată, un cuconaș cu geamu-n ochi, și n-am vreme de banchetuit.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nu? Ei! apoi să-ți spun una? .</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Spune.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Să-mi pleznească ochii dacă-mi pare rău… fiindcă ești vesel ca un cioclu.</p>
+          </sp>
+          <stage>MOISESCU:  (atins)  Se poate, boierule; dar eu, vezi d-ta, sînt un om regulat, liniștit, precum se cuvine la vîrsta mea; iar nu ca d-ta, care trăiești în nebunii.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bravo, Moisachi; fă-mi morală, dă-mi bani pe miere, cît sîntem încă în carnaval… Cruceagiută, zi-nainte; te-ascult cu dragoste și cu umilință.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Poate că n-am dreptate?… Degeaba ai îmbătrînit. D-ta te crezi tot de 25 de ani, arunci banii pe fereastă și nici gîndești că ai un nepot, un clironom.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>O! cît pentru nepotul meu, nu-i duce grijă. El are stare; a clironomisit 10 000 de galbini de la biata soră-mea, de la maică-sa, și se vorbește în tîrg că ar fi întreit soma cu speculație… Crișu el! știu că profitează de plăcerile tinereților!… Cînd cheltuiește un galbin, se-mbracă în negru și bocește trei zile.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Ei! ș-apoi rău face?</p>
+          </sp>
+          <stage>AGACHI: Apoi, Moisescule, dacă nu l-aș cunoaște creștin, l-aș crede botezat ca hahambașa ta…  (Se închină.)</stage>
+          <stage>MOISESCU:  (mînios)  Sluga d-tale.  (Iesă prin fund.)</stage>
+          <stage>AGACHI:  (urmărindu-l pănă la ușă)  Hep, hep, hep.  (Vine îndărăt.)  Ha, ha, ha, s-a supărat tîrtanul!… Țîfnoasă iudă!… Ei! dar cu toate aceste n-am un al 14-lea musafir…  (Strigă:)  Chelner!</stage>
+          <stage>SCENA IV</stage>
+          <stage>FRIȚ:  (alergînd cu chibritul aprins)  Befehlen… Poftesc un chibrit, domnule?</stage>
+          <stage>AGACHI: Măi, da ce are neamțul ista cu chibriturile?  (Stinge chibritul.)  Ascultă: aleargă la ușa teatrului și-mi adă la masă pe cea întîi mască care-a ieși.</stage>
+          <stage>BOMBEANU:  (întră prin fund)’  Chelner! adă-mi un bulion, o potîrniche friptă ș-o butelcă de Bor deaux.  (Se așează la o masă.)</stage>
+          <stage>AGACHI:  (încet lui Friț)  Stăi pe loc.  (În parte, căutînd la Bombeanu.)  Un tînăr care se pare flămînd și-i singur… Iată musafirul ce-mi lipsește: ecce homo!</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Chelner, ai auzit ce ți-am poroncit?</p>
+          </sp>
+          <sp who="#frit">
+            <speaker>FRIȚ</speaker>
+            <p>Jawohl; aduc îndată.</p>
+          </sp>
+          <stage>AGACHI:  (apucînd pe Friț de mînă, încet)  Să n-aduci macar un morcov degerat, că te ucid… Hai, piei!</stage>
+          <stage>FRIȚ:  (spăriet)  Was ist? Sapperment!  (Iesă alergînd.)</stage>
+          <stage>AGACHI:  (închinîndu-se lui Bombeanu)  Domnule…</stage>
+          <stage>BOMBEANU: Domnule…  (Rîzînd.)  Mucalit pașă?</stage>
+          <stage>AGACHI:  (zîmbind)  Îți plac?… Ei! apoi, treaba merge strună.</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Ce treabă, domnule? Nu te-nțeleg.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Domnule, bunul meu, fie-i țărîna ușoară! zicea că, decît singur la masă, mai bine tatari în casă.</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Bunul d-tale avea dreptate!… Cum îl chema?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Banul Hagi Flutur…</p>
+          </sp>
+          <stage>BOMBEANU:  (închinîndu-se)  Dumnezeu să-l odihnească.</stage>
+          <stage>AGACHI:  (închinîndu-se)  Amin!… Prin urmare, îmi vine să plîng văzîndu-te c-ai să mănînci ca un cuc.</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Bunătatea d-tale, efendi… Însă nu-i vina mea… Am sosit mai dinioare în București, de unde lipsesc de doi ani, și n-am avut timp să-mi găsesc tovarăși pentru soupe.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce-mi auziră urechile?… ai avut nenorocire a te depărta de acest oraș, cuibul veseliei ș-a noroiului! Te jălesc din fundul inimei… Poate că din pricina creditorilor ai fost silit…</p>
+          </sp>
+          <stage>BOMBEANU:  (rîzînd)  Tocmai… am vro cîțiva, care-s din soiul corbilor.</stage>
+          <stage>AGACHI:  (strîngînd de mină pe Bombeanu)  A! domnule, sîntem meniți amîndoi a ne cunoaște ș-a ne aprețui. Eu am numai un creditor, dar cumpănește cît o sută. Închipuiește-ți un eleșteu plin de lipitori, și astfel îi avea fotografia lui Zarafopulos.</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Zarafopulos!… E unul din corbii mei.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>18 la sută?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Cu dobîndă plătită-nainte.</p>
+          </sp>
+          <stage>AGACHI:  (cu simpatie)  Avem amîndoi același călău.  (Strînge de mînă pe Bombeanu.)  Și de răul lui ai părăsit Parisul României?</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Dar… și din alt motiv.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Vro desperare de amor, poate?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Ai gîcit ca Nastratin Hogea.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Îmi era văr primar păn-a nu muri, căci eu sînt Mustafa-pașa.</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Ha, ha, ha, te găsesc nostim, domnule, și-mi placi.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu atît mai bine, că și eu te găsesc nurliu. Domnule, vorbă multă, deputăție… sărăcie vreu să zic; ai să faci soupe singur, lucru foarte trist!… pe de altă parte, noi sîntem 13 la masă, lucru foarte primejdios…</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>În adevăr, unul din d-voastră trebuie să moară păn’ la anul…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Despre care Dumnezeu ferească!… Prin urmare, vin de te-adauge la masa noastră, ca să fim 14… Vrei?</p>
+          </sp>
+          <stage>BOMBEANU:  (rîzînd)  Bucuros.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ișala! acum ascultă: ai stomah bun?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Cît un tun.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bei voinicește?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Cînd se-ntîmplă…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ai urechile deprinse cu glume cam răsunătoare?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Domnule, urechile mele-s deprinse cu tunul, căci am fost artilerist.</p>
+          </sp>
+          <stage>AGACHI: Minunat… Hai degrabă dar, că ne-așteaptă prietenii…  (Se îndreaptă spre ușa din dreapta și zice pănă a nu ieși.)  A! apropo… Vreu să te încredințăz că nu-s un intrigant. Mă numesc Agachi din botez; mă cobor din vechea și vestita familie a Flutureștilor și… nu umblu după domnie…</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Nici eu…</p>
+          </sp>
+          <stage>AGACHI:  (strîngîndu-l de mînă)  Dă-mi voie să te felicit… Numele d-tale?</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Bombeanu, ofițer de artilerie.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Și la mai mare… Ne cunoaștem, ca și cînd ne-am fi făcut unul pe altul. Haide la masă.</p>
+            <stage> (Iesă amîndoi la brațeti cîntînd:) </stage>
+            <p>Hai, prietene, voios,</p>
+            <p>Să mîncăm, să bem vîrtos,</p>
+            <p>Și să rîdem amîndoi</p>
+            <p>De necazuri și nevoi.</p>
+            <p>SCENA V</p>
+            <p>COȘCODAN, MATILDA, NECULAE</p>
+            <stage> (Coșcodan intră prin fund, dind brațul Matildei. El e îmbrăcat cu frac negru fi poartă numai o mănușă albi; are nas minciunos. Matilda e în costum de fantazie.) </stage>
+          </sp>
+          <stage>COȘCODAN:  (în pragul ușei)  Tontule, dobitocule, chiorule…</stage>
+          <stage>NECULAE:  (alergînd din dreapta)  Ce este?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Hemesitul cel de chelner mi-a vărsat pe frac o butelcă de untdelemn.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Mare lucru!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Poftim!… tocmai cînd eram dispus să petrec și eu, să fac cheltuială…</p>
+          </sp>
+          <stage>MATILDA: A!  (În parte.)  Nu-l credeți, că se laudă.</stage>
+          <stage>COȘCODAN:  (cătră Neculae)  Ce stai acolo înfipt ca un butuc și boldești ochii la mine? Adă un șervet de mă șterge.</stage>
+          <stage>NECULAE: Îndată, domnule.  (Șterge mintea lui Coșcodan.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Mai încet, că-mi rozi postavul… Un frac nou-noușor, numai de 5 ani. Uf! cald e aci!… Matildă, scoate-mi nasul, că mă înăduș.</p>
+          </sp>
+          <stage>MATILDA:  (dezlegîndu-i nasul)  De ce l-ai luat așa de strîmt?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ăsta era mai ieftin.</p>
+          </sp>
+          <stage>NECULAE:  (în parte)  Iaca! Domnișorul ăla care se hrănește cu ouă coapte? Prost tacîm!</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Neculae, venit-a feciorul meu să-mi oprească un cabinet?</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Venit. Cabinetul no. 3 e gata.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bine… Azi sînt hotărît să întru în cheltuială, pentru hatîrul Matildei. Ți-e foame, dragă?</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Foame, de mi s-au lungit urechile cît a tale.</p>
+          </sp>
+          <stage>NECULAE:  (în parte)  Bre! flămîndă trebuie să fie!</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Neculae, pune degrabă să ne coacă vro trei ouă.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Trei ouă?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Două pentru mata și unul pentru mine.</p>
+          </sp>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Nu-s proaspete, domnule. Bucătarul le-a aruncat pe toate, că erau clocite; dar dacă poftiți în loc de ouă o omletă cu zahar, e gata.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Unde-i carta?</p>
+          </sp>
+          <stage>NECULAE: Poftim.  (Dă carta de bucate.)</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Adă s-aleg eu.</p>
+          </sp>
+          <stage>COȘCODAN: Ba nu, ba nu; asta-i treaba mea.  (În parte.)  De-aș lăsa-o pe dînsa, cine știe ce-ar mai cere… și deodată m-aș trezi c-o notă de doi icosari…</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>Avem un ananas proaspăt… Nu poftiți, cuconiță?</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ananas? unde-i?… Mă nebunesc după ananași.</p>
+          </sp>
+          <stage>NECULAE:  (aducînd un ananas)  Iată-l.</stage>
+          <stage>COȘCODAN:  (în parte, consultînd carta)  Ananas, jumătate de icosar felia!</stage>
+          <stage>MATILDA:  (mirosind ananasul)  Ce frumos mirosă! E numai bun de mîncat!</stage>
+          <stage>COȘCODAN:  (în parte)  Jumătate de icosar!  (Tare.)  Dă-l încoaci să-l văd.  (îl mirosă.)  Nu-i destul de copt, nu-i ajuns în vîrsta legiuită.</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Da ce, ai vrea poate să se scrie la oaste?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Matildă, ananasul verde e otravă curată… Neculae! pregătește-ne o salată de ridichi.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ce face? ridichi în loc de ananas?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Stomahicon, . soro.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ridichi? ananas țigănesc? Mănîncă-le d-ta.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ei! apoi adă-ne un befteac, fără cartofe.</p>
+          </sp>
+          <stage>MATILDA:  (în parte)  Fără cartofe e mai ieftin.</stage>
+          <stage>COȘCODAN:  (consultînd carta)  10 lei biftecul! Era numai 5 lei azi-dimineață.</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>După mezul nopții prețurile-s îndoite.</p>
+          </sp>
+          <stage>COȘCODAN: Și porțiile scăzute.  (În parte.)  Altă dată am să vin ziua să fac soupe.</stage>
+          <stage>MATILDA:  (după cea consultat carta)  A!… eu mi-am găsit ce-mi trebuie.</stage>
+          <stage>COȘCODAN:  (îngrijit)  Ce-ai găsit, ce-ai găsit?</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Papagal fript!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Papagal? Unde-ai văzut papagal?</p>
+          </sp>
+          <stage>MATILDA:  (arătînd carta)  Aci, în rîndul fripturilor.</stage>
+          <stage>COȘCODAN:  (cetind)  Cașcaval fript!… auzi? papagal?  (În parte.)  Prost dascal a mai avut, sărmana!</stage>
+          <sp who="#neculae">
+            <speaker>NECULAE</speaker>
+            <p>În sfîrșit, eu mă duc s-aprind lumînările în cabinetul no. 3. Aveți bunătate d-voastră de-alegeți bucatele.</p>
+            <p>SCENA VI</p>
+            <p>COȘCODAN, MATILDA</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Du-te, du-te… Nu pot să sufăr să-mi stea un chelner în spinare… Tot te îndeamnă să iei ba una, ba alta. Mai bine s-alegem ce ne place, nu-i așa, Matildo?… doar n-am venit aci ca să mîncăm…</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ce zici?</p>
+          </sp>
+          <stage>COȘCODAN: Să ne-mbolnăvim… Am venit mai mult pentru mulțămirea de a fi singuri… ca doi porumbași.  (Consultînd carta.)  Ia să vedem… am zis un biftec…</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Fără cartofe și fără carne.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Îl vrei fără carne?… fie!</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Nu ți-e rușine obrazului!… o dată în viața ta m-ai adus la restorant și te tîrguiești pentr-o cartoafă… A! de-aș fi putut gîci că ești ceea ce ești, pe cînd îmi făceai curte…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ceea ce sînt? da ce sînt, Matildo?</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ești un… nu mă face să-ți zic pe nume… De cînd am avut slăbiciunea să te-ascult, n-ai avut galantomie să-mi faci un prezent cît de mic ; nu mi-ai dat nici macar un buchet de flori.</p>
+          </sp>
+          <stage>COȘCODAN:  (atins)  Poate să fi uitat buchetul; însă mi se pare că ți-am dat…</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ți-am dat sfaturi prietenești.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Și altă nimică… Eu știu că cavalerii sînt fericiți să dea suvenire la dame: inele, brațele, buchete… d-lui însă dă sfaturi… că nu-l țin nici o para. Vrei să-ți spun una și bună? Ești un guzgan.</p>
+          </sp>
+          <stage>COȘCODAN: Un guzgan? A! Matildo… dacă te-ar auzi cineva, ar crede că rod oase… că mă închin la bani, că sînt un om interesat… În adevăr, nu-mi place să fiu mînă spartă, ca mulți alții; dar asta nu vrea să zică că aș fi ceea ce-ai spus… A! Matildo, m-ai atins fără nici o cruțare, m-ai supărat peste măsură, și nu m-aș fi așteptat niciodată, după cîte-am făcut pentru d-ta, să mă tratezi astfel.  (Se înduioșează.)  Guzgan? Eu?  (Plînge.)  Pentru că, în loc de ananas, am cerut rîdichi!… am crezut că-ți plac mai bine…  (Consultînd carta.)  Dar, de vreme ce nu le poți suferi, să nu mai fie vorbă… Spune, vrei o porție de licorin zvîntat?</stage>
+          <stage>MATILDA:  (întorcîndu-i spatele)  Dă-mi bună pace.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Matildo…</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Poroncește ce ți-a plăcea… Eu mă duc în cabinet.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>O porție de licorin…</p>
+          </sp>
+          <stage>MATILDA:  (ieșind în stînga)  Așa mi se cade, dacă am a face cu domnișori perpeliți.</stage>
+          <stage>COȘCODAN: Perpelit! eu?… Ei! s-a trecut cu gluma… Auzi? inele, brațele? tot lucruri scumpe!… Vrea să zică ea nu mă iubește pentru mine, mă iubește pentru juvaeruri, parc-aș fi juvaergiu…  (Stă pe gînduri.)</stage>
+          <stage>SCENA VII</stage>
+          <stage>FRIȚ:  (viind prin fund)  Iar un ravaș pentru d-nu Agachi… Îmi vine a crede că-i Postmeister.  (Intră în dreapta.)</stage>
+          <stage>COȘCODAN:  (cătră public)  Oare n-aș face bine să-i dau pașport de drum jupînesei Matilda?… Cum mă sfătuiți?… Decît m-oi ruina, dîndu-i diamante și hrănind-o cu papagali fripți, mai bine… plecăciune… Nu-i așa?</stage>
+          <stage>AGACHI:  (afară)  Tronc!… altă belea acu…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Aud? vine cineva… Să nu mă cunoască.</p>
+            <stage> (Își pune nasul.) </stage>
+          </sp>
+          <stage>AGACHI:  (Întrînd cu răvașul în mînă)  Mînca-l-ar moliile să-l mănînce! Năucul cel de Pipirig îmi scrie din nou că nu poate veni la masă… și din pricina lui ne găsim iar 13… Bată-l pîrdalnicul!… cum să fac?… Am apucat de-am poftit pe Bombeanu ș-acum nu pot să-l dau afară, pentru ca să rămînem numai 12… Bombeanu mi-i drag; el mănîncă și bea ca un voinic, e vesel, mi-a istorisit amorurile lui c-o demoazelă Tinca, fata cucoanei Luxița Fespezanca, care-a fi aceea… nu pot să-i zic: prin urmare, domnule, fă-mi plăcerea dea-țicăuta de drum… Cum dracu să scap de numărul 13?  (Se primblă tulburat prin scenă.)</stage>
+          <stage>COȘCODAN:  (șezînd la o masă și oftînd)  Păcat că nu mai sînt ouă!…</stage>
+          <stage>AGACHI: Ce văd? Un nas minciunos!  (Se apropie de Coșcodan și-l bate pe umere.)  Domnule Nasoian.</stage>
+          <stage>COȘCODAN:  (răsărind)  Ha!  (Îi cade nasul.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nepotul meu!</p>
+          </sp>
+          <stage>COȘCODAN:  (cu mirare)  Moșul meu! Moșul meu în șalvari de pașă!</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Precum vezi, Ghiță dragă… Fiind în carnaval…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>La vîrsta d-tale!… un om aproape de 60 de ani!… Ce rușine! Ar trebui să-nțelegi că ți-ai trăit traiul și ți-ai mîncat malaiul de mult… Eu sînt tînăr, și nu fac nebunii ca d-ta.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Așa este; tu ai tinereță, dar fiindcă nu știi să profiți de dînsa, ți-am luat-o împrumut pentru ca să nu mucezească.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Frumos!</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce-ți folosește că ai numai 25 de ani ș-o inimă zbîrcită ca o ciupercă degerată; eu sînt cu părul sur, nu zic ba, dar încai inima mea e de 25 de ani. Ea zburdă și bate ca un clopot…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ca un clopot dogit.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mai bine așa decît să sune a gologan, ca inima ta.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu te-nțeleg; dar oricum să fie, eu știu unde merg și unde-oi s-ajung…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Tu, să-ți spun eu ce-ai s-ajungi. Toată viața ta ai să strîngi para cîte para ș-ai să trăiești sărac, ca să mori bogat. Hainele tale ai să le porți cîte zece ani, ș-o păreche de mănuși cîte șese luni. Caii tăi or să șeadă cu dinții la stele; slugile tale or să postească 365 de zile pe an, luînd pildă de la stăpînul lor, și, cînd îi închide ochii, lumea are să zică c-ai murit pentru ca să economisești cheltuielile vieții.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Prea bine; și d-ta ai s-ajungi în curînd cu cîrjă, cu trupul gîrbovit și cu tufă-n buzunar.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Fie, însă păn-atunci, fiindcă am nevoie de un al 14-lea musafir, vin de mănîncă cu noi.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba, foarte mulțămesc… Căci în astănoapte sînt hotărît să cheltuiesc o parte din averea cea care-o adun para cîte para…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Taci, nu spune una ca asta, că se cutremură pămîntul.</p>
+            <p>SCENA VIII</p>
+            <p>AGACHI, COȘCODAN, BARZĂ</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Cucoane, a început a ninge. S-aduc o birjă?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu-i nevoie, că doar nu șed peste lume… O palmă de loc.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Tocmai la barieră. Se teme să cheltuiască doi sfanți.</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Cucoane, da-i zăpada la genunchi.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ei! nu mai bodogăni.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Al tău e țopîrlanul ista?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>E lacheul meu.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Trebuie să fie flămînd. Împrumută-mi-l pe vro două ore.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Da ce vrei să faci cu el?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Vreu să-l fac al 14-lea musafir. Hai, țopîrcă, vin cu mine la masă. Oi spune prietenilor că ești un prinț costumat în lacheu.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Moșule, nu se cuvine…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>De ce ești prost? O fac în interesul tău.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cum asta?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Am să-l îndop astfel, încît să n-aibă nevoie a mînca toată ziua de mîni… O cheltuială mai puțin pentru tine.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bine zici.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Bre! înc-așa zgîrcit!  (Cătră Barză.)  Hai, mă; dar să nu cumva să deschizi gura cît îi fi la masă.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Vreu să zic, să nu vorbești.</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>N-ai grijă, cucoane, eu înghit și tac.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Rămîi sănătos, Ghiță, fătul meu, dar ia seama să nu faci cheltuieli nebunești în astă-noapte… Fii măsurat, dragul moșului, fii măsurat; suie-te păn’ la o sfânțoaică, o sfănțoaică și jumătate… nu mai mult.</p>
+          </sp>
+          <stage>COȘCODAN:  (supărat)  N-am nevoie de sfaturile d-tale.</stage>
+          <stage>(Agachi și Barzi intri în dreapta.)</stage>
+          <stage>SCENA IX</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Are noroc Barză, are să mănînce cît șepte fără să scoață o para din pungă.</p>
+          </sp>
+          <stage>MOISESCU:  (viind, prin fund)  A! Domnule Ghiță, bine că te găsesc…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Moisescu, arnăut!</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Nu băga de seamă… Am văzut astăzi dimineață pe șatrarul Nărilă; i-am vorbit de d-ta și i-am spus că dorești să-i fii ginere.</p>
+          </sp>
+          <stage>COȘCODAN: Mai încet, nu vorbi așa tare, să nu te-audă oarecine.  (Arată cabinetul din stînga.)</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>O damă?</p>
+          </sp>
+          <stage>COȘCODAN:  (în taină)  O primadonă de la opera din Paris, sosită ieri în București.</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cum?… de-abia s-a coborît din trăsură ș-ai și izbutit?… berbantule!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cine-i galantom și frumos, lesne izbutește cu actrițele… Dar spune-mi ce-ai pus la cale cu șatrarul?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>După recomandația mea, șatrarul este dispus a-ți da fata… Cît pentru duduca Smărăndița…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Grasă-i?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cine? duduca?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba… zestrea.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Șatrarul e proprietar mare.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>N-are datorii?… Nu se amestecă în politică?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Nu.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Prea bine.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Am decidat cu șatrarul ca să vă întîlniți într-o casă străină, la o cunoștință a mea, d-na Luxița Fespezanca, care dă mîni un bal.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>N-o cunosc.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Nu face nimic. Te-oi prezenta eu… Vino pe la 9 ore, împreună cu moșul d-tale.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce nevoie este să mai vie și moșul meu?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Ca un om care-i mai bătrîn, ar fi bine să între el în vorbă cu șatrarul.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Fie; mîni om veni amîndoi, negreșit.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Minunat!… A! apropo; se înțelege că, îndată după nuntă, mi-i plăti comisonul de 5 la sută din capitalul zestrei, după obicei… Adio.</p>
+          </sp>
+          <stage>COȘCODAN: Nici vorbă nu-i.  (În parte.)  Așteaptă, murgule, să paști iarbă verde.</stage>
+          <stage>SCENA X</stage>
+          <stage>NECULAE:  (ieșind din cabinetul din stînga)  Domnule, dama cea din cabinet spune că moare de foame.</stage>
+          <stage>COȘCODAN: Na, deocamdată dă-i Reforma s-o cetească.  (Neculae iesă.)  Ce dracu să-i dau să mănînce… ouă nu mai sînt, ridichi nu vrea… și celelalte bucate-s scumpe foc… Dar oare dac-aș împlini-o cu dînsa înainte de soupe n-ar fi mai nemerit? Fiindcă o să mă-nsor, nu se cade să mai am relații de mîna stîngă… Biata Ma tildă!… Ce-o să mai plîngă, ce-o să mai jălească!…</stage>
+          <stage>Dar n-am ce face, eu mă însor!  (bis)</stage>
+          <stage>Ș-acum sorocul i s-a-mplinit.   (bis)</stage>
+          <stage>MATILDA:  (întrînd furioasă)  Mă rog, d-ta mi-ai trimis Reforma pentru ca să-mi potol foamea? Na, mănînc-o friptă.  (Îi aruncă jurnalul în obraz.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ah! Matildo, nu te mînia, ci mai bine plînge-mă, bocește-mă, căci mi-a căzut un trăsnet pe cap.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ce trăsnet?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Măiculița mea! a aflat moșul meu că sîntem în legătură amîndoi.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ei ș-apoi?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A! Matildo!… nu-l cunoști pe moșul meu ce om este!… un pașă… ba nu… un bătrîn serios, morocănos, de pe vremea lui Papurăvodă, care crede că actrițele-s cu dracu. El mi-a hotărît!… Ah! Matildo, nu mă lasă inima să-ți spun ceea ce mi-a hotărît.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Da nu te mai strîmba și spune.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Matildo, să fii cu curaj… Moșul meu mi-a găsit o mireasă și mi-a poroncit să mă-nsor numaidecît păn-în trei zile, căci alminterea mă blastămă și mă desclironomisește.</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ș-apoi ce-mi pasă mie? însoară-te.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cum? nu-ți smulgi părul de desperare?</p>
+          </sp>
+          <stage>MATILDA: Nici gîndesc. Căsătorie bună! să te văd c-o claie de copii și cu floricele la urechi.  (Voiește să iasă.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Matildo…</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ce mai vrei?</p>
+          </sp>
+          <stage>COȘCODAN: Dinioarea m-ai acuzat c-aș fi un zgîrcit, m-ai poreclit guzgan… ca să-ți dovedesc că și eu am obiceiul a da suvenire la dame, te rog să primești din parte-mi, păn-a nu ne despărți, o buclă de păr.  (Voiește să taie cu un cuțit o buclă din părul lui.)</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Păstrează-l pentru mireasa d-tale ca un prezent de cununie, un adevărat prezent de perucher.</p>
+          </sp>
+          <stage>COȘCODAN: Matildo!…  (Își pune nasul.)</stage>
+          <stage>(Se aud în dreapta chiote vesele.)</stage>
+          <sp who="#mastile">
+            <speaker>MĂȘTILE</speaker>
+            <p>În sănătatea lui Mustafa-pașa!</p>
+            <p>SCENA XI</p>
+            <p>COȘCODAN. AGACHI, MATILDA, BOMBEANU, BARZĂ, NECULAE, MĂȘTI</p>
+            <stage> (toți întră cu paharele in mînă) </stage>
+            <p>MĂȘTILE:</p>
+            <p>Vivat pașa Mustafa!</p>
+            <p>Vivat Mustafa-pașa! etc.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Neculae, adă punciul aci.</p>
+            <stage> (Neculae aduce un mare vas cu punci.) </stage>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Înghite-Agachi!</stage>
+          <sp who="#agaci">
+            <speaker>AGACI</speaker>
+            <p>Ce-am văzut? Matilda! artista noastră cea iubită? Fraților căuzași, să bem în sănătatea Matildei.</p>
+            <p>MĂȘTILE</p>
+            <stage> (bînd) </stage>
+            <p>: în sănătatea Matildei!</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Domnilor… vă mulțămesc… Dați-mi voie însă să vă prezint o persoană rară în societatea românească! Un tînăr de 25 de ani, elegant, frumos ca soarele, dar zgîrcit… de se răsuflă numai pe-o nară de economie.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Unde-i?</p>
+          </sp>
+          <stage>MATILDA:  (aducînd din fund pe Coșcodan, care caută să fugă)  Iată-l!</stage>
+          <stage>AGACHI:  (în parte)  Nepotul meu!  (Tare.)  Fraților căuzași! rîdicați-l în triumf și-l puneți pe masă, ca să asculte judecata lui Solomon.</stage>
+          <stage>COȘCODAN:  (zbătîndu-se în mînile măștilor)  Domnilor! îmi boțiți hainele.</stage>
+          <stage>AGACHI: Acum, în puterea noastră de cadiu, îl osîndesc să asculte cu luare-aminte cînticul său.  (Măștile stau grupate împregiurul mesei pe care stă Coșcodan.)</stage>
+          <stage>COȘCODAN:  (furios)  Domnilor, dați-mi drumul.  (Voiește să sară de pe masă.)</stage>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Ba nu; țineți-l pe loc, că mai este un al treilea cuplet.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cîntă-l, Melpomeno!</p>
+          </sp>
+          <sp who="#matilda">
+            <speaker>MATILDA</speaker>
+            <p>Bucuros.</p>
+            <p>III</p>
+            <p>Sărmanul se socoate</p>
+            <p>Un Don Juan frumos;</p>
+            <p>Înșeală cît se poate</p>
+            <p>Și-i foarte generos.</p>
+            <p>Ca prezente de iubire</p>
+            <p>Acest tînăr galantom</p>
+            <p>Dă din păru-i două fire,</p>
+            <p>Căci e mare econom.</p>
+            <p>El trăiește calicit.</p>
+            <p>Ca să moară-mbogățit.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ha, ha, ha.</p>
+            <stage> (Coșcodan sare de pe masă și fuge prin fund, în rîsul tuturor.) </stage>
+            <p>ACTUL II</p>
+            <p>Teatrul reprezintă un salon de bal cu uși mari în fund, care se deschid în al doilea salon luminat cu policandre; ușă in dreapta; o masă de cărți în fund, în stînga.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA I</head>
+          <stage>(Arie de valț) &lt;/desc&gt;</stage>
+          <stage>TOȚI:  (jucînd valțul)</stage>
+          <stage>(Cavalerii se închin la dame și le duc în salonul din fund.)</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cucoană Luxiță, balul d-tale e minunat de frumos și de vesel!</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Așa mi se pare și mie… nu că mă laud, dar ca mine nici o damă nu are talentul să însuflețească o adunare.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Și nici că-i de mirat, cucoană. Amabilitatea d-tale încîntă pe toți cavalerii… ea-i un capital cu dobîndă de 50 la sută.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Destul, destul, Moisescule; nu-mi bombarda modestia cu complimente… Tincă!</p>
+          </sp>
+          <stage>TINCA:  (viind din fund)  Aud.</stage>
+          <stage>FESPEZANCA:  (încet)   Ce ți-a spus la urechi cavalerul tău, în vreme ce jucați valțul?</stage>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Mi-a mărturisit că-i era prea cald.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>De treabă tînăr!… Se cunoaște că-i bine crescut.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Și că se teme de căldură… Dar cum de-ai văzut, maman, că mi-a vorbit la ureche?</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ochii mei te urmăresc necontenit…</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Pentru ca să privegheze asupra nevinovăției tale.</p>
+            <stage> (Duios.) </stage>
+            <p>Tincă, tu nu știi ce vrea să zică a fi mamă.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Încă nu, maman.</p>
+          </sp>
+          <stage>FESPEZANCA:  (sărutînd-o)   Draga neneacăi!</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Iaca și șatrarul Nărilă cu duduca Smărăndița.</p>
+          </sp>
+          <stage>NĂRILĂ: Sărut mînile, cucoană Luxiță… sănă…  (strănută)  toasă?</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Mulțămesc, dar d-ta?</p>
+          </sp>
+          <stage>NĂRILĂ: Eu am prins un gutu… gutu…  (strănută)   rai de cele tătărești.</stage>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>De ce-ați venit așa de tîrziu, Smărăndiță?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Din pricina babacăi. Pune-ți în gînd că, de vro zece zile, babaca s-a îndrăgit de paseri ș-a cumpărat vro 30 de canari.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Și ce face cu dînșii?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Petrece toată ziua în societatea lor… Păn-îl scoți dintre jigănii, îți iesă sufletul.</p>
+          </sp>
+          <stage>NĂRILĂ: O mărturisesc, singura mea mulțămire e să… e să…  (Strănută.)</stage>
+          <stage>FESPEZANCA:  (rîzînd)   Să strănuți?</stage>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Ba, să aud canarii ciripind… De-acolo încolo, lumea mi-i cu totul adiafora.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Frumos compliment ne faci, arhon șatrar!</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Adică vorba vine, căci îmi plac și adunările care se isprăvesc devreme… Moisescule, sosit-a ipochimenul?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Domnul Ghiță Coșcodan? Încă nu, dar îl aștept să vie cu moșul său, ca să între în vorbă cu d-ta despre cununie.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Ce cununie?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>A Smărăndiței.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Ce-aud? Te măriți, dragă?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Așa se vede.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Și la capul d-tale, duducă Tincă.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Merci.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>O! cît pentru dînsa, avem vreme… Amatori n-or lipsi.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cred și eu; duduca Tinca are zestre de 30 000 de galbini!</p>
+          </sp>
+          <stage>NĂRILĂ: Vorba ceea: marfa să fie bună, mușterii nu lip…  (strănută)   sesc.</stage>
+          <sp who="#tinca_si_smarandita">
+            <speaker>TINCA ȘI SMĂRĂNDIȚA</speaker>
+            <p>Mușterii!</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Cu adevărat… Chiar în iarna aceasta s-au prezentat mai mulți tineri… vro șepte, foarte buni.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Mai cu seamă domnul Bombeanu… un ofițer de artilerie, recomandat de însuși moșul meu, prefectul.</p>
+          </sp>
+          <stage>NĂRILĂ: D-nul Bombeanu? îl cunosc… un tînăr cu stare și cu hristoitie… De ce nu l-ai ginerit, cucoană Luc… Luc…?  (Strănută.)</stage>
+          <stage>FESPEZANCA: Tinca e prea tînără încă… prea fragedă…  (în parte)   ș-apoi nu vreu s-ajung iacă de pe-acu.</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Lăsați-mă pe mine, cucoană, să găsesc un barbat duducăi Tincăi. Am la mînă un procuror fein, fein… Să-mi dați voie ca să vi-l prezint.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Fie; prezentează-l… Însă nu ieu nici o hotărîre… Dacă mi-a plăcea… om vedea… avem vreme.</p>
+            <stage> (Orhestra începe a cînta un cadril. Doi cavaleri vin de invită pe Tinca și Smărăndița.) </stage>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Iaca contradansul începe… Cucoană Luxiță, vrei să jucăm împreună?</p>
+          </sp>
+          <stage>FESPEZANCA: Oare… să joc?… Hai!  (Moisescu îi dă brațul.)</stage>
+          <stage>TOȚI:  (iesă cîntînd)</stage>
+          <stage>(Toți se duc în salonul din fund.)</stage>
+          <stage>SCENA II</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Da bine, unde mă duci, Ghiță?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>La bai, moșule.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>La bal?… la cine?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>La o văduvă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Se vede că face praznic de sufletul răposatului…</p>
+          </sp>
+          <stage>BARZĂ:  (rîzînd)   Hi, hi, hi, mare poznaș e cuconul Agachi.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bade Stane, te poftesc să nu te-amesteci în conversația noastră.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Da de ce-l oprești?… vorbește frumos creștinul.</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZA</speaker>
+            <p>Hi, hi, hi; mă iei în trei parale… Hi, hi, hi.</p>
+          </sp>
+          <stage>COȘCODAN: Iar te hlizești?…  (Cătră Agachi.)   Te-ai apucat de l-ai îmbătat ieri noapte, și de-atunci e nesuferit.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bietul flăcău! nu mîncase de două zile acasă la tine.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Să lăsăm vorba asta, moșule; știi pentru ce te-am rugat să mă-ntovărășești acilea?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ba.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Pentru o treabă foarte importantă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mă miram eu să cheltuiești tu degeaba doi sfanți cu birja!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>La întoarcere vei plăti d-ta.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Dar; pentru că tarifa e mai scumpă după mezul nopții.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A! moșule, cum poți crede…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cred tot, dar nu te sinchisi… fă-ți trebușoarele, că eu te studiez. Te găsesc interesat… interesant vreu să zic.</p>
+          </sp>
+          <stage>COȘCODAN:  (cătră Barză)   Du-te de-așteaptă jos la feciori; dar mai întîi adă-mi mănușile.</stage>
+          <stage>BARZĂ:  (dîndu-i două părechi de mănuși)   Poftim.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Două părechi de mănuși și cu cele din mînă trei? Ce însemnează acest lux de mănușerie?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Așa mi-i obiceiul meu… Fiecare bal mă ține trei părechi de mănuși.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bre! ce cochetărie!… schimbi de trei ori?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Întîi, cînd mă înfățișez în salon, mă arăt cu mănuși proaspete… noi…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ca toată lumea.</p>
+          </sp>
+          <stage>COȘCODAN: Peste zece minute, după ce am complimentat pe stăpînii casei, mă retrag deoparte și pun a doua păreche… pe aste.  (Arată alte mănuși.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Pe aste?… d-apoi nu-s noi, sînt purtate…</p>
+          </sp>
+          <stage>COȘCODAN: Și mai tîrziu, cînd aduc feciorii paharele cu limonadă, vine rîndul ăstorlalte.  (Arată alte părechi.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Sînt negre de tot.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Tocmai pentru asta, n-am grijă să le mai mînjesc.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Care vrea să zică, tu cu trei părechi de mănuși o duci un an, ca țiganu cu cămașa!</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Hi, hi, hi.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Tot aci ai fost, mojicule?… Ieși afară.</p>
+          </sp>
+          <stage>BARZĂ: Hi, hi, hi.  (Iesă prin dreapta.)</stage>
+          <stage>SCENA III</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Sîntem singuri?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Singuri.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Vreau să-ți dau o rețetă ca să economisești și mănușile ale purtate.</p>
+          </sp>
+          <stage>COȘCODAN:  (cu bucurie)   Care rețetă, moșule? Spune!</stage>
+          <stage>AGACHI:  (în taină)   Nu ne-aude nimeni?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nimeni.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cumpără o bucată de cridă de 5 parale și-ți freacă mînile cu dînsa, de cîte ori ești poftit undeva.</p>
+          </sp>
+          <stage>COȘCODAN:  (supărat)   Tronc!… eu crezusem că vorbești serios.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bre! ai întrecut și pe vărul meu Antohi zgîrcea.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ia lasă glumele deoparte, moșule, că nu-i aci locul de spus cabazlîcuri… Să vorbim de motivul pentru care te-am rugat să vii cu mine.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Care motiv?… A fi iar vro speculație cu folos sigur.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba nici gîndesc la speculație în bal… Te-am adus aci ca să punem la cale o cununie.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Aș! a cui?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A mea.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>A ta? Nu mă nebuni… Tu, te-ai hotărît a întra în cheltuiala unei nunți?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Eu… m-am hotărît, precum zici, a întra în cheltuiala unei nunți.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ai avea tu curajul să scoți bani din pungă ca să hrănești și să îmbraci mai multe suflete? Pun rămășag zece galbini.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Zece galbini? Țin rămășagul.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Ai! m-a prins hoțul.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Mai întîi că nevasta mea am s-o deprind cu gusturi simple, n-are să facă cheltuieli cu mătăsării, cu fleacuri de modă care ruinează familiile; cît pentru copii, cred că m-a feri Dumnezeu să am mai mult decît unul… Ș-apoi, în sfîrșit, fie ce-a fi, cînd inima iubește… cînd inima dorește…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Se vede că e bogată?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>10 000 de galbini zestre.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Numai?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Și are un tată…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ofticos?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba nu tocmai ofticos, dar cam slab. Șatrarul Nărilă, trebuie să-l cunoști.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Eu?… să-l îngrop dacă-l știu cine-i.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Șatrarul Nărilă e proprietar de moșie și mai are în București un loc întins, care în curînd are să aibă o valoare foarte mare.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cum asta?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Am aflat din izvor sigur că stăpînirea are nevoie de el ca să zidească un spital pentru nebuni… Șatrarul încă n-o știe; prin urmare, am de gînd să-l cumpăr eu, îndată după cununie, cu preț de nimic, ș-apoi să-l vînd stăpînirei cu folos de sută la sută.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce-aud? Nerușinatule, vrei să înșeli guvernul? și inima ta de cetățean te lasă să comiți o asemenea scamatorie în banii statului?… Glasul conștiinții nu te înspăimîntă? Vocea Patriei române nu te oprește pe malul abisului?…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ha, ha, ha; vorbești chiar ca un redaptore… Însă n-am vreme să-ți răspund, că treaba-i grabnică.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu atît mai bine, că și eu am o treabă importantă pe la mezul nopții.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Vrei să te culci, să te odihnești?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ferească Dumnezeu!… Am un soupe cu cîțiva prieteni și prietene.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Iar soupe. Mă mir, zău, ce mulțămire poți găsi cheltuind starea cu străinii?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mulțămirea de a n-o lăsa clironomie la nepoți ca tine.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A!… fie!… Însă ai putea-o întrebuința mai bine decît cu mesele.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Tu nu știi, nu-ți poți închipui plăcerea unui soupe cu persoane vesele care glumesc și rîd la lumina policandrelor și în sunetul paharelor de șampanie… Pentru tine-i halima.</p>
+            <p>Cînd vinul curge în pahare,</p>
+            <p>Cînd ochii vesel strălucesc,</p>
+            <p>Inima-mi saltă și tresare</p>
+            <p>De un fior dumnzeiesc.</p>
+            <p>Ridic un pahar</p>
+            <p>Plin, plin</p>
+            <p>De vin de Cotnar</p>
+            <p>Plin, plin,</p>
+            <p>Și cînt voios și mi-l închin.</p>
+            <p>Ah! ah! ah!</p>
+            <p>Glu, glu, glu, sufletul meu rîde,</p>
+            <p>Glu, glu, glu, raiul se deschide,</p>
+            <p>Glu, glu, glu, glu, glu, glu.</p>
+            <p>Și oricare chin</p>
+            <p>Eu mi-l botez cu vin</p>
+            <p>Pluf!</p>
+            <p>Viața se stinge cu grăbire,</p>
+            <p>Anii cei tineri se strecor;</p>
+            <p>Dar eu nu simt nici o măhnire,</p>
+            <p>Căci mă țin tot de urma lor.</p>
+            <p>Purtînd un pahar</p>
+            <p>Plin, plin,</p>
+            <p>De vin de Cotnar</p>
+            <p>Plin, plin</p>
+            <p>Și bînd voios lor îl închin.</p>
+            <p>Ah! ah! ah!</p>
+            <p>Glu, glu, glu, sufletul meu rîde,</p>
+            <p>Glu, glu, glu, raiul se deschide,</p>
+            <p>Glu, glu, glu, glu, glu, glu.</p>
+            <p>Și oricare chin</p>
+            <p>Eu mi-l înec în vin,</p>
+            <p>Pluf!</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)   Bine l-a numit Agachi cine l-a botezat!</stage>
+          <stage>SCENA IV</stage>
+          <stage>MOISESCU:  (viind din fund)   A! bine c-ați sosit… Vă așteptam cu nerăbdare.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Unde-i șatrarul?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>S-a dus să tragă un ciubuc în etacul gazdei.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Dar domnișoara Smărăndița, fata lui?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>E în salon, mergi de-o poftește la joc.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bucuros.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cît pentru șatrarul, îndată ce și-a face cheful și s-a întoarce aci, domnul Agachi, unchiul d-tale, ar trebui să nu peardă vreme și să-i vorbească de măritiș.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>D-apoi nu cunosc pe șatrarul.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Îl vei cunoaște, cum îl vei vedea; e îmbrăcat cu antereu și cu giubea.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ca un lăutar?… Nu cumva are și nai?</p>
+          </sp>
+          <stage>MOISESCU:  (cătră Ghiță)   Acuș are să înceapă contradansul… Vin iute.  (Iesă prin fund.)</stage>
+          <stage>COȘCODAN: Mergi înainte că te-ajung.  (Cătră Agachi, în taină.)   Unchiule, îți încred soarta mea și nu mă îndoiesc de izbîndă.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>N-ai nici o grijă, nepoate. Cît l-oi zări pe șatrarul, am să-l sucesc ca pe-un titirez.</p>
+          </sp>
+          <stage>COȘCODAN: Să te văd, unchiule, dacă ești diplomat bun… să nu-i pomenești însă de locul care vrea să-l cumpere guvernul.  (Iesă prin fund.)</stage>
+          <stage>AGACHI: Ferească sfîntul!…  (În parte.)   Nepotul meu e chiar salba dracului.</stage>
+          <stage>SCENA V</stage>
+          <stage>CHIRILĂ: Măi, măi, măi! cald îi în sală!… Musafiri sînt grămădiți ca sardelele-n putină.  (Se aerează cu o basma roșie de bumbac.)</stage>
+          <stage>AGACHI:  (examinînd pe Chirilă)   Un antereu cu giubea!… trebuie să fie șatrarul… se vede că și-a făcut cheful.  (Tare.)  Arhon…  (în parte.)  I-am uitat numele.</stage>
+          <stage>CHIRILĂ:  (în parte)  Mie-mi zice arhon?</stage>
+          <stage>AGACHI:  (apropiindu-se)  Arhon… mă închin cu plecăciune.</stage>
+          <stage>CHIRILĂ:  (închinîndu-se)  Sărut mînile, boierule.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Frumos bal, nu-i așa?</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Prea frumos, numai cam înghesuit.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Așa-i moda de astăzi. Cu cît salonul e mai mic, cu atît numărul invitaților e mai mare.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Proastă modă… drept să-ți spun… În vremea noastră oamenii știau să petreacă mult mai bine.</p>
+          </sp>
+          <stage>AGACHI: Negreșit, negreșit…  (în parte.)  A să-mi vorbească din vremea lui Caragea.</stage>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Pune-ți în gînd că de-un ceas îmi caut copila prin bal și n-o găsesc, așa de multă lume e în salon.</p>
+          </sp>
+          <stage>AGACHI: A! sînteți părinte, arhon… aveți o copilă?…  (În parte.)  El e șatrarul.</stage>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Dar, boierule; m-a învrednicit Dumnezeu să fiu tată.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nu-i vina d-tale… și eu, arhonia, sînt unchi.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Am o copilă care-mi seamănă mie bucățică tăiată… un bujor.</p>
+          </sp>
+          <stage>AGACHI: Să-ți trăiască!… Eu, arhon… am un nepot care nu-mi seamănă nicidecum…  (În parte.)  Slavă Domnului! CHIRILĂ: A! cum îl cheamă?</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ghiță Coșcodan, un tînăr cu stare, econom și numai bun de însurat.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Coșcodan?… frumos nume!… Eu mă chem chir Chirilă.</p>
+          </sp>
+          <stage>AGACHI: Chir Chirilă?… și la mai mare.  (Se închină.)</stage>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Sărut mînile… De cîți ani e nepotul d-tale?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>De 20 000 de galbini.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>20 000 de ani?… de galbini? vreu să zic!</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Da, și cu toate aceste el aspiră a să însura cu fiica d-tale, arhon…</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Ce spui, boierule?… Vrea să-mi fie ginere nepotul d-tale?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Așa se vede… S-a înamorat de domnișoara… și m-a rugat ca să întru în vorbă cu d-ta… să rupem tîrgul, cum se zice.</p>
+          </sp>
+          <stage>CHIRILĂ:  (în parte)  20 000 de galbini!  (Tare.)  Boierule, propunerea d-tale mă cinstește peste măsură și nu zic ba… Însă înțelegi că datoria mea de părinte mă silește a lua oareșicare pliroforii.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Pliroforisește-te, boierule, pliroforisește-te.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Aș vrea să știu mai întîi dacă nepotul d-tale are hristoiftie?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Are.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Dacă-i om statornic, econom?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>El?… e în stare să taie un fir de păr în patru.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Mă bucur, că și eu sînt asemenea, și copila mea tij.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Minunat! să vă caute cineva cu lumînarea, nu v-ar putea găsi mai potriviți… Cînd facem nunta?</p>
+          </sp>
+          <stage>CHIRILĂ: Nunta?… cît mai în grabă… Mă duc să dau de știre Marghioliții…  (Se îndreaptă spre fund.)</stage>
+          <stage>AGACHI:  (în parte)  Marghioliții? Credeam că se numește Smărăndița.</stage>
+          <stage>CHIRILĂ: 20 000?  (Iesă.)</stage>
+          <stage>AGACHI: Nici o para mai puțin.  (Singur.)  Miroasă a băcan șatrarul… Șmecherul cel de Ghiță l-a ales înadins ca să nu cheltuiască cu băcăniile, după ce s-a însura.  (Căutînd ceasornicul.)  Mi-am isprăvit pețitoria… mai am încă jumătate de ceas de jărtfit în folosul familiei.</stage>
+          <stage>SCENA VI</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A! unchiule, am jucat cu domnișoara Smărăndița și m-a fermecat.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Așa degrabă?</p>
+          </sp>
+          <stage>COȘCODAN: Ea mi-a mărturisit că are gusturi simple, că nu-i plac tualetele, diamantele… E un înger, unchiule, un înger… Am strîns-o de mînă.  (își scoate mănușile.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Și de-acea-ți scoți mănușile?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba nu, dar a venit rîndul să pun no. 2… Ia spune-mi, ai văzut pe socrul meu?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Pe chir Chirilă? l-am văzut.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce fel chir Chirilă?… Nărilă, vrei să zici?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cum Nărilă? Chirilă.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba Nărilă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nărilă, Chirilă, tot într-o rilă, tot doi lei ș-un ort… I-am cerut fata mai dinioarea.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ai cerut pe Smărăndița?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce fel Smărăndița?… Marghiolița.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Marghiolița?… te înșeli, Smărăndița… Da unde l-ai văzut pe șatrarul?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Chiar aci.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Aci? nu se poate… șatrarul n-a ieșit încă din etac… nu și-a isprăvit ciubucul.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Apoi dar cu cine dracul am vorbit, cu care lăutar?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cu chir Chirilă, poate?…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Tocmai; un soi de băcan cu antereu…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Te-ai înșelat, unchiule… ai făcut pozna… Iaca șatrarul Nărilă cu fiică-sa… trebuie să dregem îndată greșala.</p>
+            <p>SCENA VII</p>
+            <p>AGACHI, COȘCODAN, NĂRILĂ, SMĂRĂNDIȚA</p>
+            <stage> (viind din fund) </stage>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Smărăndiță, vin-în salonul ăsta să ne răsuflăm.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Arhon șatrar, dați-mi voie să vă prezentez pe unchiul meu, domnul Agachi Flutur, proprietar bogat și neînsurat.</p>
+          </sp>
+          <stage>NĂRILĂ: Sînt prea fericit, cucoane Agachi de a… a…  (Strănută.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Într-un ceas bun.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Amin… Guturaiul dracului nu mă slăbește.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Freacă-ți nasul c-o lumînare, că trece îndată.</p>
+          </sp>
+          <stage>NĂRILĂ: Oare?… Doftorul Flaimuc m-a sfătuit să întrebuințăz tereben…  (Strănută.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>tină… Să-ți fie de bine.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Amin.</p>
+          </sp>
+          <stage>COȘCODAN:  (încet cătră Agachi)  Deschide vorba.</stage>
+          <stage>AGACHI:  (încet)  Ce vorbă?</stage>
+          <stage>COȘCODAN:  (asemenea)  Despre căsătorie… Însă cu meșteșug.</stage>
+          <stage>AGACHI: Las’ pe mine.  (Își drege vocea.)  Arhon șatrar, în calitatea mea de unchi, am un nepot care-i în vîrstă de căsătorit și care iubește pe domnișoara Smărăndița ca un hai-hui; prin urmare dorința lui și a mea cea mai mare este ca să ne însurăm.</stage>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ca să se-nsoare cu copila d-tale; primești?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Arhon Agachi, chipul simandicos cu care mi-ai făcut această propunere îmi măgulește filotimia… dă-mi voie însă să mă gîndesc…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mă iartă, arhon șatrar, că n-am vreme; păn-în trei ori, primești?… Una, două… tr…</p>
+          </sp>
+          <stage>NĂRILĂ: Pri… pri…  (Se luptă cu stranulatul.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Dă-i, drumul, dă-i.</p>
+          </sp>
+          <stage>NĂRILĂ:  (strănută)  mesc.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A! cît sînt de fericit, arhon șatrar, de a întra în familia d-tale; dă-mi voie să vă sărut mîna, ca la un părinte.</p>
+          </sp>
+          <stage>NĂRILĂ: Vină în brațele mele, fiule.  (Strînge în brațe pe Coșcodan.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Tablou!</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Și pe d-ta, arhon Agachi.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  A să mă umple de guturai.  (Se îmbrățișează cu Nărilă.)</stage>
+          <stage>COȘCODAN:  (apropiindu-se de Smărăndița)  Credeți, domnișoară, că inima mea…</stage>
+          <stage>SMĂRĂNDIȚA:  (coborînd ochii)  Domnule…</stage>
+          <stage>NĂRILĂ: Dă-i mîna să ți-o sărute, că ai să-i fii nevastă.  (Coșcodan sărută mîna Smărăndiței.)  Noroc să dea Dumnezeu… Ghiță, fătul meu, te las cu Smărăndița; ține-o de vorbă, în vreme ce eu cu moșul tău om pune la cale despre condițiile cu… nu…nu…nu…</stage>
+          <stage>AGACHI:  (viindu-i a strănuta)  nu… nu… nu…</stage>
+          <stage>NĂRILĂ și AGACHI:  (strănutând odată)  niei.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Na, că m-am molipsit și eu… Arhon șatrar, hai să bem un pahar de ponei la bufet, ca să înecăm guturaiul.</p>
+          </sp>
+          <stage>NĂRILĂ: Bucuros, arhon cuscri.  (Merg amîndoi pănă la ușa din fund.)</stage>
+          <stage>AGACHI:  (la ușă)  Poftim, arhon șatrar.</stage>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>După d-ta, arhonda.</p>
+            <p>AGACHI și NĂRILĂ: Da mă rog… Ce se potrivește… Na, na, na.</p>
+            <stage> (Strănută.) </stage>
+            <p>Amin!</p>
+            <stage> (Ies.) </stage>
+            <p>SCENA VIII</p>
+            <p>COȘCODAN, SMĂRĂNDIȚA</p>
+          </sp>
+          <stage>SMĂRĂNDIȚA:  (în parte)  Babaca mă lasă singură cu un cavaler… mi-e frică.</stage>
+          <stage>COȘCODAN:  (în parte)  Îi frumușică de tot. Încă n-o văzusem bine păn-acum.  (Tare.)  Cuvintele părintelui d-voastră, domnișoară Smărăndiță, îmi dau curajul a vă mărturisi că inima mea simte o bucurie fără margini cînd gîndesc la fericirea ce mă așteaptă!</stage>
+          <stage>SMĂRĂNDIȚA:  (rușinoasă)  Domnule…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Aș fi însă de o mie de ori mai mulțămit, dac-aș afla din gurița d-voastră, că primiți fără displăcere a vă cununa cu mine.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Domnule, nu-mi trecea prin minte nicidecum să mă mărit așa degrabă; dar fiindcă tata a găsit de cuviință…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ah! domnișoară, credeți că oi face toate jărtfele, ca să nu vă căiți de a purta numele meu.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Nu mă îndoiesc, domnule, căci te cred un galantom.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>O! cît pentru galantomie, nime nu mă-ntrece. Îți vedea cît de plăcută este viața în căsătorie. Vom locui amîndoi într-o căsuță mică, la mahala, fără lux, fără… tereremul deșărtăciunilor lumești; căci adevărata fericire nu stă în acele secături… Priviți la cuibul turturelelor… un pic de puf și cîteva frunze, și cu toate astea nu sînt alte jigănii pe lume mai iubitoare și mai fericite…</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>O! pentru mine, gusturile mele sînt prea simple. Cît oi avea un clavir, mă-mpac lesne, oriunde aș fi.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Un clavir!… Nici vorbă nu-i că-ți avea unul… Îl veți avea pe-a d-voastră.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Al meu e cam vechi, cam hîrbuit…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>L-om da de l-a drege.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Mai bucuroasă aș fi să am unul nou, un piano Erhard.</p>
+          </sp>
+          <stage>COȘCODAN: O! Smărăndiță… domnișoară Smărăndiță, fericirea nu stă într-un piano vechi sau nou; ea izvorăște din dragoste, din amorul ce mi-ai inspirat de cum te-am văzut.  (Se pune pe canape lingă Smărăndița.)</stage>
+          <stage>SMĂRĂNDIȚA:  (depărtîndu-se în celalalt capăt a canapelei)  Domnule…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu vă temeți, că aveți a face cu un ga-, lantom.</p>
+            <p>Eu te iubesc ca gentilom,</p>
+            <p>Pre legea mea!</p>
+            <stage> (bis) </stage>
+            <p>Sînt gentilom, sînt galantom</p>
+            <p>Pe cît ai vrea.</p>
+            <stage> (bis) </stage>
+            <p>Ah! pentru mine… fără frică,</p>
+            <p>Fii turturică</p>
+            <p>Și eu voi fi amant fidel,</p>
+            <p>Un turturel.</p>
+            <stage> (Împreună.) </stage>
+            <p>COȘCODAN:</p>
+            <p>Un turturel ș-o turturică</p>
+            <p>Noi amîndoi pe lume-om fi,</p>
+            <p>Ca turturică și turturel</p>
+            <p>Neîncetat ne vom iubi.</p>
+          </sp>
+          <stage>SMĂRĂNDIȚA:  (în parte)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce zici, Smărăndiță? Așa-i că viitorul e plin de făgăduinți frumoase?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Cu adevărat. Însă, spune-mi te rog: îți plac voiajurile?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Așa ș-așa.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Eu doresc foarte mult să văd Parisul.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Unde-i scumpetea cea mare?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Și-ți mărturisesc că cea mai mare mulțămire ce mi-ai putea face ar fi, după ce ne-om cununa, să mă duci în capitala Franției.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cum nu? cum nu? cel mai lesne lucru.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Și la băile de mare, la Dieppe…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Aerul e cam sărat acolo… Umezala mărei mă supără.</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Apoi dar ne-om opri în Paris ș-om merge pe la magazii, pe la teatre, pe la concerte… om petrece iarna în plăceri de tot soiul.</p>
+          </sp>
+          <stage>COȘCODAN: Se-nțelege, pe la magazii… pe la teatru…  (În parte.)  Îmi pare cam cheltuitoare domnișoara.</stage>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>A! domnule Ghiță, nu pot să-ți spun cît mă simt de mulțămită, gîndind c-am să văd țările străine și minunile civilizației… Acesta-i visul meu cel mai scump.</p>
+            <p>SMĂRĂNDIȚA:</p>
+            <p>Îmi dai cuvîntul de gentilom?</p>
+            <p>COȘCODAN:</p>
+            <p>Pe legea mea!</p>
+            <stage> (bis) </stage>
+            <p>SMĂRĂNDIȚA:</p>
+            <p>Vei fi cu mine galantom?</p>
+            <p>COȘCODAN:</p>
+            <p>Pe cît îi vrea!</p>
+            <stage> (bis) </stage>
+            <p>SMĂRĂNDIȚA:</p>
+            <p>Primesc a fi dar, fără frică,</p>
+            <p>O turturică</p>
+            <p>Și să te am barbat fidel,</p>
+            <p>Un turturel.</p>
+            <stage> (Împreună.) </stage>
+            <p>COȘCODAN:</p>
+            <p>Un turturel ș-o turturică</p>
+            <p>Etc. etc.</p>
+            <p>SMĂRĂNDIȚA:</p>
+            <p>Un turturel ș-o turturică</p>
+            <p>Etc. etc.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  E a mea!… Am cîștigat rămășagul cu unchiul meu… 10 galbini!</stage>
+          <stage>SMĂRĂNDIȚA:  (în parte)  Păcat că nu se mărită și Tinca; am face nunțile tot într-o zi…  (Stă pe gînduri.)</stage>
+          <stage>COȘCODAN:  (în parte)  Un lucru numai mă cam îngrijește… Îi prea place, voiajul… oi duce-o la țară după ce m-oi însura.</stage>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Domnule Ghiță…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Poroncă…</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Pintre prietenii d-tale nu cunoști vrun tînăr cumsecade, cu educație și de familie bună?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Ca să-l cununăm cu o prietenă a mea, care-i foarte plăcută.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Are zestre?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Are 30 000 de galbini.</p>
+          </sp>
+          <stage>COȘCODAN:  (tresărind)  30 000 galbini, și încă nu s-a măritat! Se vede că-i urîtă, ciuntă, oloagă, cocoșată, oarbă, surdă, stafia lumei?</stage>
+          <stage>SMĂRĂNDIȚA:  (rîzînd)  Ba, din contra, e frumușică, tînără și nu-i lipsește nimic.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nimic… și are 30 000?… Cine-i?</p>
+          </sp>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Fiica cucoanei Luxiței Fespezanca.</p>
+          </sp>
+          <stage>COȘCODAN: Am văzut-o… cu adevărat e foarte plăcută…  (în parte.)  30 000!</stage>
+          <stage>(Se aude orhestra sunînd un valț.)</stage>
+          <sp who="#smarandita">
+            <speaker>SMĂRĂNDIȚA</speaker>
+            <p>Orhestra începe a cînta cotilonul… Nu joci, domnule Ghiță?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Valțul mă supără.</p>
+            <stage> (Un cavaler vine de poftește pe Smărăndița.) </stage>
+          </sp>
+          <stage>SMĂRĂNDIȚA:  (către cavaler)  Cu mulțămire, domnule.  (Îi dă brațul și zice, îndreptîndu-se spre salonul din fund.)  Gîndește la ce ți-am spus, domnule Ghiță… A revedere.  (Iesă.)</stage>
+          <stage>COȘCODAN: A revedere…  (Singur, foarte agitat.)  30 000 galbini! Este aci în casă o zestre de 30 000 galbini și Moisescu nu-mi dă de știre… El mă lasă de mă încurc cu o fată cheltuitoare, ce n-are decît 10 000!…  (Se preumblă turburat.)</stage>
+          <stage>SCENA IX</stage>
+          <stage>MOISESCU:  (viind răpide)  Domnule Ghiță, domnule Ghiță…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce este?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Am venit să-ți spun că guvernul a cumpărat pentru spital un loc străin lîngă barieră.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ei, și șatrarul rămîne cu locul lui sterp și fără preț? Dacă-i așa rămîne și cu domnișoara Smărăndița.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu-mi place… e cheltuitoare… visează cai pe păreți; și, într-un cuvînt, m-am înamorat de fata cucoanei Luxiței.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>De domnișoara Tinca?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Sînt nebun după dînsa… Ce frumoasă-i!… Ce păr negru ca pana corbului!</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Negru? Tinca e blondă… are părul galbin.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce păr galbin! parcă e aur de Olanda… Moisescule, mergi iute de vorbește cu Fespezanca.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Nu se poate, că i-am anunțat vizita unui alt ginere, domnul Ghiță Radian.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Radian, Coșcodan… tot una-i… și el Ghiță și eu Ghiță, trece-mă în locul lui… Îți făgăduiesc un comision de 6 la sută.</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Fie, însă știi că unchiul d-tale a pus toate la cale cu șatrarul Nărilă.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bine zici… o uitasem… Trebuie găsit un mijloc de a ne strica cu șatrarul.. Cum să facem?… cum să facem?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Iaca și șatrarul.</p>
+            <p>SCENA X</p>
+            <p>COȘCODAN, MOISESCU, NĂRILĂ, CAVALERI</p>
+            <stage> (Mai mulți cavaleri se așează la masa de cărți.) </stage>
+            <p>CAVALERII:</p>
+            <p>Danțu-i plăcut, balu-i frumos;</p>
+            <p>Însă decît să sar în joc,</p>
+            <p>Mai bine voi să cerc în stos</p>
+            <p>Și-n lanschenet de am noroc.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Domnule Ghiță, d-ta nu metahirisești cărțile?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Dar d-ta?</p>
+          </sp>
+          <stage>NĂRILĂ: Eu?… ferească Dumnezeu!… nu m-ating nici de ale sfinte, nici de dracul.  (Încet.)  Pentru mine un jucător de cărți sau un om vîndut diavolului tot una-i.  (Se apropie de masa de cărți.)</stage>
+          <stage>COȘCODAN:  (în taină, lui Moisescu)  O! îmi vine o idee!</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Care?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ai auzit opinia șatrarului asupra cărturarilor?</p>
+          </sp>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Dar.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ca să mă dezbăr de dînsul, oi să mă fac că-s bețiv de cărți… Du-te colo lîngă masă și pariază sume mari… Eu le-oi ținea… În glumă.</p>
+          </sp>
+          <stage>MOISESCU: Înțeleg… Vrei să-l sparii?… Minunat.  (Merge de stă în dosul bancherului.)</stage>
+          <stage>NĂRILĂ:  (viind lîngă Coșcodan)  Ghiță… cunoști pe domnișorul ăla care taie lanschenetul?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba nu.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Mare. destrămat seamănă a fi! joacă cîte un icosar odată.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Numai atîta? Sărmanul!</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Ce fel? numai atîta?</p>
+          </sp>
+          <stage>MOISESCU:  (tare)  Pun rămășag 50 de galbini că lanschenetul nu trece de-a patra oară. Cine ține?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Eu.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Aud?… d-ta, Ghiță, pui 50 de galbini pe carte?… 50?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Niciodată mai puțin, arhon șatrar.</p>
+          </sp>
+          <stage>NĂRILĂ:  (în parte)  Kirie eleison!</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Ai perdut, domnule Ghiță.</p>
+          </sp>
+          <stage>COȘCODAN:  (fără a să întoarce)  Perdut?… Nu face nimica… Așa-i soarta.  (Cîntă încet:)  Așa-i soarta… așa-i soar…ta.</stage>
+          <stage>NĂRILĂ:  (în parte, cu mirare)  Și încă are curaj să cînte!</stage>
+          <stage>FECIORUL:  (viind din fund, zice încet lui Moisescu)  Domnule Moisescu, te poftește un boier la scară.</stage>
+          <sp who="#moisescu">
+            <speaker>MOISESCU</speaker>
+            <p>Cum îl cheamă?</p>
+          </sp>
+          <stage>FECIORUL: Iată carta lui.  (Iesă.)</stage>
+          <stage>MOISESCU:  (în parte)  Ce văd?… Ghiță Radian, procurorul!… A venit ca să-l prezentez cucoanei Luxiței… Mă duc ca să-l trimit înapoi de unde-a venit.  (Iesă prin fund fără să fie văzut de Coșcodan.)</stage>
+          <sp who="#bancherul">
+            <speaker>BANCHERUL</speaker>
+            <p>Sînt 100 de galbini în caniotă… cine-i ține, domnilor?</p>
+          </sp>
+          <stage>COȘCODAN:  (neîntorcîndu-se)  Eu.</stage>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Iar?</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  S-a îngrozit șatrarul… Minunat.  (Cîntă încet:)  Mi… nu… nat.</stage>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Domnule Ghiță… să am iertăciune… Mă rog, joci ades cărțile?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba nu; cînd sînt singur nu joc niciodată.</p>
+          </sp>
+          <stage>NĂRILĂ:  (cu bucurie)  A! slavă Domnului!… Mă spăriesem.</stage>
+          <sp who="#bancherul">
+            <speaker>BANCHERUL</speaker>
+            <p>Domnule Ghiță, ai perdut.</p>
+          </sp>
+          <stage>COȘCODAN:  (vesel)  Iar am perdut? Tra, la, la la.</stage>
+          <stage>BANCHERUL:  (viind lîngă Coșcodan)  Îmi ești dator 100 de galbini.</stage>
+          <stage>COȘCODAN:  (spăriet)  Eu? d-tale?… Ce spui, domnule?</stage>
+          <sp who="#bancherul">
+            <speaker>BANCHERUL</speaker>
+            <p>Ai ținut 100 de galbini în contra mea, și ai perdut.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce fel? ce fel? Eu am ținut rămășagul în contra lui Moisescu.</p>
+          </sp>
+          <sp who="#bancherul">
+            <speaker>BANCHERUL</speaker>
+            <p>Domnul Moisescu a ieșit, în vreme ce tăiam cărțile; prin urmare ai jucat în contra mea, și-mi ești dator 100 de galbini.</p>
+          </sp>
+          <stage>COȘCODAN: A!  (Cu glasul slab.)  Prea bine, domnule… ți-oi plăti mîne; căci n-am bani asupra mea.</stage>
+          <sp who="#bancherul">
+            <speaker>BANCHERUL</speaker>
+            <p>Prea bine, domnule.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cît zici c-am să-ți dau? 20 de galbini?</p>
+          </sp>
+          <stage>BANCHERUL: Ba o sută întreagă.  (Iesă împreună cu ceilalți cavaleri.)</stage>
+          <stage>COȘCODAN:  (în Parte, cu desperare)  100!</stage>
+          <sp who="#cavalerii">
+            <speaker>CAVALERII</speaker>
+            <p>Danțu-i plăcut, balu-i frumos;</p>
+            <p>Însă decît să sar în joc,</p>
+            <p>Mai bine voi să cerc în stos</p>
+            <p>Și-n lanschenet al meu noroc.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA XI</head>
+          <stage>COȘCODAN:  (turburat)  O sută de galbini! am perdut, eu, Ghiță Coșcodan, 100 de galbini… În cărți! eu, care nu pun mîna niciodată pe un valet!… Îmi vine să amețesc!… M-am calicit… am rămas lipit pămîntului… 100 de galbini!… Cîte economii trebuie să fac pentru ca să-mi acopăr paguba.  (Scoate mănușile și pune altele mai vechi.)  Am să tai leafa lui Barză.</stage>
+          <stage>(Arie „O! dulci ochi negri”)</stage>
+          <stage>SCENA XII</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu mare greu am căpătat un păhăruț de ponci, dar m-am luptat.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A! unchiule.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce-i? ce-ai pățit de ești limoniu la față, Ghiță?</p>
+          </sp>
+          <stage>COȘCODAN:  (cu desperare)  Unchiule, am perdut 100 de galbini în cărți!</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Tu? ha, ha, ha… Pun zece galbini rămășag c-ai visat.</p>
+          </sp>
+          <stage>COȘCODAN:  (iute)  Zece galbini!… Îi țin.</stage>
+          <stage>AGACHI:  (în parte)  A!… iar m-a prins hoțul!</stage>
+          <stage>COȘCODAN:  (în parte)  Zece galbini mai puțin din pagubă.  (Tare.)  Unchiule, poți să-mi faci un mare serviciu, să nu mă refuzi.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Care, nepoate?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>M-am înamorat ca un nebun de domnișoara Tinca…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce Tincă? ce Tincă? Smărăndița vrei să zici, fata lui Nărilă?…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ba nu, Tinca… Tinca… Are 30 000 de galbini zestre, unchiule… și mi-i dragă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Măi, ai nebunit?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Unchiule, dacă mă iubești, strică tocmeala cu șatrarul.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Du-te naibei…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ești tînăr, unchiule… știi ce vrea să zică amorul… Nu mă lăsa.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Da bine, măi, ce vrei să-i spun lui Nărilă?</p>
+          </sp>
+          <stage>COȘCODAN: Iată-l vine aci. Spune-i ce ți-a trece prin minte, numai strică tocmeala.  (Iesă, în parte.)  Mă duc să amețesc pe Fespezanca.</stage>
+          <stage>SCENA XIII</stage>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Arhon Agachi, veste bună… Smărăndița e încîntată de nepotul d-tale. Porumbașii tatii!… Se vede că au vorbit împreună despre ale gospodăriei, și Ghiță a făgăduit că a duce-o la Paris, la marea…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Care mare? cea roșie?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Ba cea albă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Caută bine c-a fi cea neagră.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Fie macar și cea galbină… Copiii se iubesc și-s potriviți.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Arhon șatrar, ești proprietar?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Sînt… am o moșie. Mlăștinoasa, dată în arendă.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Prin urmare aștepți cu nerăbdare pe Sfîntul Gheorghe și pe Sfîntul Dimitrie?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Cu cea mai vie nerăbdare; o mărturisesc fără rușine.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Și cu toate aceste se întîmplă cîteodată că arendașul nu aduce banii la vadea?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Ba se întîmplă chiar ades… Însă nu pricep ce analoghie…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mă esplic… Așa precum așteptarea unui proprietar e înșelată… ades de cătră arendaș, astfel și nu mai puțin planurile cele mai bine întemeiate rămîn… ades… abrașe.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Tot nu pricep.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mă esplic… Ghiță e un tînăr cumsecade?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Un juvaer.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nu zic ba… Însă cam… știi… nici prea-prea, nici foarte-foarte… ca vinul cel mistreț… prin urmare trebuie lăsat să se învechească în bute.</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Ghiță, în bute?…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Mă esplic… adică… cum s-ar prinde…</p>
+          </sp>
+          <stage>CHIRILĂ:  (intrînd)  Domnule Agachi, primesc…</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ha?… Na și altul acum. Ce primești?</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Primesc să ne încuscrim împreună.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Noi?… fugi încolo; nu te cunosc.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Ce vorbă-i ăsta?… da nu mi-ai cerut fata mai dinioarea, acilea?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ba am cerut-o; ș-apoi?</p>
+          </sp>
+          <sp who="#narila">
+            <speaker>NĂRILĂ</speaker>
+            <p>Ce fel, ce fel?…, și pe-a mea. ai cerut-o tot acilea!</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Și pe-a d-tale.</p>
+          </sp>
+          <sp who="#chirila">
+            <speaker>CHIRILĂ</speaker>
+            <p>Ce cabazlîc e ăsta?… pliroforisește-ne, domnule.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Un cabazlîc de carnaval; mai mult vreți?</p>
+            <p>NĂRILĂ și CHIRILĂ:</p>
+            <stage> (furioși) </stage>
+            <p>Auz? Care vrea să zică, ți-ai bătut joc de noi… Ești un catergar, un pehlivan…</p>
+            <stage> (Nărilă strănută de trei ori.) </stage>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>A! duceți-vă la naiba, în sfîrșit, și-mi dați bună pace.</p>
+            <p>NĂRILĂ și CHIRILĂ:</p>
+            <stage> (Arie din „Baba-Hîrca” ) </stage>
+            <p>Pehlivan făr’ de rușine!</p>
+            <p>Tu ți-ai bătut joc de mine!</p>
+            <p>Dar de-acum te ține bine</p>
+            <p>C-a să fie rău de tine!</p>
+            <stage> (Ies prin fund.) </stage>
+            <p>SCENA XIV</p>
+            <p>AGACHI, COȘCODAN, mai pe urmă FESPEZANCA, TINCA, MOISESCU și CAVALERI</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ha, ha, ha! s-au aprins ca doi cocoși… la poiată… la poiată! Cîte ceasuri sînt?… aproape 12! Prietenii mă așteaptă la soupe; mă duc.</p>
+          </sp>
+          <stage>COȘCODAN:  (alergînd)  Unchiule, am amețit pe cucoana Luxița; cere-i fata.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Iar? d-apoi nu fac alta de cînd sînt la bal!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu mă refuza, unchiule… Gîndește că Tinca Fespezanca are 30 000 de galbini zestre.</p>
+          </sp>
+          <stage>AGACHI: Cum ai spus? Tinca Fespezanca?…  (În parte.)  Amoreza prietenului meu Bombeanu?  (Tare.)  Nu se poate… Fă-ți trebușoarele singur, fătul meu.</stage>
+          <stage>COȘCODAN: Unchiule, te rog… fericirea mea stă în mînile d-tale.  (Îi sărută mînile.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>N-am vreme… e aproape 12…</p>
+            <stage> (Damele intră prin fund.) </stage>
+          </sp>
+          <stage>COȘCODAN: Iaca damele…  (Împingînd pe Agachi.)  Nu scăpa prilejul.</stage>
+          <stage>AGACHI:  (iute)  Doamna mea, în calitate de unchi, am cinste a cere pe domnișoara Tinca, fiica d-tale, pentru nepotul meu Ghiță Coșcodan…  (Sună 12 ore.)  Mezul nopții!… M-am închinat cu plecăciune.  (Iesă alergind.)</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>A! Doamna mea! aștept răspunsul d-tale ca o sentință judecătorească!</p>
+            <p>COR FINAL:</p>
+            <p>Curioasă întîmplare!</p>
+            <p>Flutur vine-n adunare,</p>
+            <p>Cere fete și dispare,</p>
+            <p>Alergînd în fuga mare!</p>
+            <stage> (Cortina cade.) </stage>
+            <p>ACTUL III</p>
+            <p>Teatrul reprezintă un salon elegant. Ușă în fund, în dreapta și în stînga. Pe păretele din fund, portretul lui Ghiță Coșcodan în ramă poleită. În dreapta, o canape. În stînga, o masă și oglinzi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA I</head>
+          <stage>TAPIȚERII:  (lucrînd)</stage>
+          <stage>BARZĂ:  (căutîndu-se într-o oglindă)  Eu sînt oare sau nu-s eu?… Mă privesc în oglindă de azi-dimineață și nu mă cunosc… Cuconu Agachi m-a poleit din cap păn-în picere, încît nici nu îndrăznesc să mă pun jos… Ian vezi-mă, parcă-s un boț de aur… Îmi vine să mă pun în pungă… I!… măiculiță!… cînd m-ar zări fata dascălului din sat de la Prosteni, ce s-ar mai da de-a tumba de dorul meu.</stage>
+          <stage>AGACHI:  (întrînd din stînga)  Gata-i, copii?</stage>
+          <sp who="#un_tapiter">
+            <speaker>UN TAPIȚER</speaker>
+            <p>Gata, cucoane… Iaca nota.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bine… treceți mîne de dimineață pentru plată.</p>
+          </sp>
+          <stage>TAPIȚERII:  (ieșind)</stage>
+          <stage>SCENA II</stage>
+          <stage>AGACHI:  (cercetînd nota)  Trei sute șeptezeci și cinci de galbini pentru mobilarea salonului… Nu-i scump; credeam c-a fi nota mai pipărată… S-o pun în colecția celorlalte note, ca să le dau odată pe toate lui Ghiță… Ce-o să se mai minuneze bietul Coșcodan cînd s-a întoarce de unde s-a dus ș-a vedea luxul apartamentului său!… D-apoi cînd a fi să plătească prețul mobilării casei!… Mă aștept să-l aud țipînd ca în ajunul Crăciunului.</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Cucoane Agachi…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce este, Barză?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Oare nu m-a ucide boierul cînd m-a vedea ferecat în aur?</p>
+          </sp>
+          <stage>AGACHI: Mai știi, păcatul?  (Rîzînd.)</stage>
+          <stage>BARZĂ:  (scîncind)  Săracul de mine!… apoi dă, eu îs vinovat, dacă pe soare poți căta și pe mine ba?… D-ta, cucoane Agachi, te-ai apucat de m-ai schimonosit cum sînt.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ei! las’, măi Barză; nu te spăria dinainte… te-oi scăpa eu de la moarte.</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Mă rog, cucoane, să-ți faci milă și pomană… că d-ta m-ai băgat în foc.</p>
+          </sp>
+          <stage>AGACHI: Eu, dar; și nu cred c-am făcut rău să schimb tot în casa stăpînu-tău. Ghiță are să se-nsoare cu Tinca Fespezanca, o copilă cu 30 000 de galbini zestre; nu se cuvenea să-și aducă mireasa în apartamentul lui cel vechi, unde toate mobilele la un loc nu plăteau nici cît scaunul cel patriot care s-a vîndut cu 10 000 de lei. Ia privește-acum… Totul e scump și elegant… Chiar pe stăpînul tău l-am pus într-o ramă nouă…  (Arată portretul.)</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Îi șede mult mai bine așa… Însă nu prea pare vesel.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Presimte că are să plătească notele…  (Tare.)  Barză, n-ai aflat unde s-a dus stăpînul tău de-o săptămînă?</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Nu, cucoane.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Curios lucru!… s-a pornit din București făr-a da de știre nimărui. N-a venit vro scrisoare astăzi?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Ba, a adus două factorul de la poștă. Iată-le pe masă.</p>
+          </sp>
+          <stage>AGACHI: A!… asta-i pentru Ghiță, e timbrată… Astalaltă e pentru mine, nefrancată… Trebuie să fie de la nepotul meu.  (Deschide scrisoarea.)  Tocmai; a economisit un sfanț…  (Citește:)  „Iubite unchiule! Am plecat din București cam răpide, fiindcă voiam, păn-a nu mă însura, să vizitez însumi moșia de zestre a domnișoarei Tincăi. Am cercetat-o cu de-amănuntul, în lung și-n lat, și m-am încredințat că e moșie de preț.”  (Vorbit.)  Ce amorez speculant!  (Citește:)  „Pămîntul e roditor, pădurea întreagă, acareturile în bună stare.”  (Vorbit.)  Scrie ca un vatav.  (Citește:)  „Vitele frumoase… Am găsit însă vro cinci boi cam slabi, dar nu-mi pasă, căci aceștia sînt ai posesorului. Într-un cuvînt, sînt mulțămit de voiajul meu, și mă întorc chiar astăzi la București, unde oi sosi pe la vreme de masă. Poroncește lui Barză să-mi gătească vro două ouă coapte și cașcaval fript.”</stage>
+          <stage>BARZĂ: Îndată.  (Voiește să iasă.)</stage>
+          <stage>AGACHI: Așteaptă, că este un post-scriptum.  (Citește:)  „M-am răzgîndit… Spune lui Barză să nu gătească nimic… Oi mînca ce s-a găsi acasă.”</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Nu-i nimic.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Păstrează-l pe mîne; cît pentru astăzi, îi pregătesc eu o surpriză. Am comendat lui Hugues, în socoteala lui Ghiță, o masă mare, la care am poftit pe cucoana Luxița cu fiică-sa și pe prietenul meu Bombeanu.</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Ofițerul?… De treabă boier, și nicidecum mîndru.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce-o să mai rîd, ce-o să mai rîd, cînd s-a întoarce Coșcodan!</p>
+            <p>Ce-o să rîd cînd a veni</p>
+            <p>Și cînd a începe-a răcni</p>
+            <p>Tare, tare, tare, tare, tare, tare, tare.</p>
+            <p>Spăriet s-a minuna</p>
+            <p>Și gura o va căsca</p>
+            <p>Mare, mare, mare, mare, mare, mare, mare.</p>
+            <stage> (Rîzînd.) </stage>
+            <p>Ha, ha, ha, ha, ha, ha, ha.</p>
+            <p>Ce-o să mai rîd eu;</p>
+            <p>Ha, ha, ha, ha, ha, ha, ha.</p>
+            <p>Ce-o să mai rîd, zău!</p>
+          </sp>
+          <stage>AGACHI ȘI BARZĂ:  (rîzînd)</stage>
+          <stage>SCENA III</stage>
+          <stage>(Bană se privește în oglindă cîntind încet. Se aude in tindă un clopoțel.) &lt;/desc&gt;</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Cine trage clopoțelul, nu cumva-i boierul?</p>
+          </sp>
+          <stage>COȘCODAN:  (afară)  Da deschide azi.</stage>
+          <stage>BARZĂ:  (spăriet)  Vai de mine!… el îi!… Stăpînu-meu!… Mă duc să dau de știre lui cuconu Agachi.  (Fuge pănă la ușa din dreapta.)  Nu-i aci… e în aialaltă parte… să te duci, duluță.  (Iesă alergînd prin stînga.)</stage>
+          <stage>COȘCODAN:  (întrînd prin fund)  A! iată-mă-s acasă…  (Căutînd împregiur.)  Mare minune!… Nu-s la mine… M-am înșelat, se vede… m-am oprit la rîndul I-iu, în loc să mă sui la al doilea, unde șed… Bine că nu m-am întîlnit cu cineva…  (Iesă prin fund.)</stage>
+          <stage>SCENA IV</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Unde-i?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Știu eu… acușica chiar i-am auzit glasul.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Se vede c-ai visat, măi Barză… dac-ar fi sosit… ar fi aci.</p>
+            <stage> (Se aude iar clopoțelul.) </stage>
+          </sp>
+          <stage>BARZĂ: Iată-l, m-am dus!  (Fuge în dreapta.)</stage>
+          <stage>SCENA V</stage>
+          <stage>COȘCODAN:  (agitat)  Ba nu, nu m-am înșelat… aci e rîndul al 2-lea … Sînt în apartamentul meu…  (Căutînd împregiur cu mirare.)  Aparta…men… tul meu! nu se poate.  (Își freacă ochii.)  Doar n-am orbul găinilor…  (Zărind pe Agachi.)  A! unchiule, vorbește, spune ce însemnează?</stage>
+          <stage>AGACHI:  (în parte)  Are să-l prinză gălbinarea.  (Tare.)  Ce mai faci, Ghiță?… Ești sănătos?… Ai umblat bine la drum?…</stage>
+          <stage>COȘCODAN:  (nerăbdător)  Nu-i vorba de drum… Ce sînt mobilele, luxul ce văd aci la mine?</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nu înțelegi? o surpriză.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>O surpriză?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Dar; cucoana Luxița, soacră-ta, a socotit că, în poziția ta, nu se cuvenea…</p>
+          </sp>
+          <stage>COȘCODAN: A! cucoana Luxița a avut ideea…  (În parte.)  Soacră-mea a voit să-mi facă o surpriză?…  (Cu mulțămire.)  Prezentul e foarte frumos și atenția foarte delicată.</stage>
+          <stage>AGACHI:  (în parte)  Ce mormăiește ca un urs?</stage>
+          <stage>COȘCODAN:  (primblîndu-se prin salon)  Frumos… elegant… minunat… Îmi place.</stage>
+          <stage>AGACHI:  (în parte)  Iaca!… nu țipă?…  (Tare.)  Vrea să zică, nepoate, ești mulțămit de mine?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Pentru ce de d-ta?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Eu am ales mobilele și am prezidat la împodobirea apartamentului.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bravo, bravo, unchiule… Ai probat că ai gust… Îți fac compliment.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Ce-a pățit?  (Tare.)  Ia privește… M-am gîndit și la tine, te-am pus într-o ramă nouă…  (Arată portretul.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bine zici… A! unchiule; cît ești de amabil!</p>
+            <stage> (Îl strînge de mînă.) </stage>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Așa-i că e mai bine acum?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Mult, mult… Însă găsesc rama cam simplă, n-are destulă polială.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Mare minune!… Nu-mi cunosc nepotul. Mi l-a schimbat în provinție… Acu e vremea să-i dau notele.</stage>
+          <stage>BARZĂ:  (întrînd)  Cucoane, a sosit cucoana Luxița cu fiica d-sale.</stage>
+          <stage>AGACHI: Bine, mă duc să le primesc la scară.  (Iesă prin fund.)</stage>
+          <stage>COȘCODAN:  (în parte)  Cucoana Luxița la mine?.. de unde și pănă unde?  (Tare.)  Barză!</stage>
+          <stage>BARZĂ:  (cu sfială)  Aud, cucoane.</stage>
+          <stage>COȘCODAN: Ia spune-mi..;  (Văzîndu-l.)  Iaca! și tu ești pus în ramă nouă?</stage>
+          <stage>BARZĂ:  (tremurînd)  Nu-i vina mea, cucoane, mi-a pus-o în spinare cu de-a sila.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu face nimica… te prinde; parcă ești un feldmarșal. Știi tu că porți pe tine cel puțin de 15 galbini aur?</p>
+          </sp>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>O stare de om!</p>
+          </sp>
+          <stage>COȘCODAN:  (cercetînd găitanele)  Și-i am de cel bun!</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Care vrea să zică, a putea să-mi slujească toată viața mea?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce fel, să-ți slujească? Socoți poate că livreua e a ta? Te înșeli, măi badeo… Ia mai bine seama să nu rozi găitanele.</p>
+          </sp>
+          <stage>BARZĂ:  (în parte)  Dacă nu-i a mea… n-are haz.  (Iesă prin dreapta.)</stage>
+          <stage>SCENA VI</stage>
+          <stage>(Împreună ) &lt;/desc&gt;</stage>
+          <stage>AGACHI:  (închinîndu-se)</stage>
+          <stage>COȘCODAN:  (înaintînd)  A! cucoană Luxiță… domni- șoară Tincă, ce fericire pentru mine de a vă primi în apartamentul meu… Nu mă așteptam…</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Am venit, domnule Ghiță, îndată ce a sosit biletul d-tale de invitație.</p>
+          </sp>
+          <stage>COȘCODAN:  (În parte)  Aud?  (Încet cătră Agachi.)  Ce invitație?</stage>
+          <stage>AGACHI:  (încet cătră Coșcodan)  Le-am poftit la masă în numele tău… Nu te îngriji, bucatele-s comendate la Hugues.</stage>
+          <stage>COȘCODAN:  (în parte)  La Hugues?</stage>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Spune-mi, te rog, domnule Ghiță, ce te-ai făcut de opt zile de cînd nu te-am mai văzut pe la noi?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Am fost absent din București, domnișoară… Am fost… am fost la Iași.</p>
+            <p>FESPEZANCA și TINCA: Tocmai la Iași? în fundul lumei?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Dar; auzisem că acolo s-ar găsi stofe și juvaere mai frumoase decît în orașul nostru, și m-am răpezit în fosta capitalie, ca să cumpăr cele trebuincioase pentru prezentul de nuntă…</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ce galantomie!</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Gogonată minciună.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Însă n-am găsit nimică ca să fie demn de d-ta, domnișoară, și m-am întors cu mînile goale.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Adică fără mănuși… tot de economie.</stage>
+          <stage>FESPEZANCA: Nu face nimică… Îi găsi în Lipscani de toate cîte ți-a plăcea…  (Căutînd împregiur.)  Dar ce lux în apartamentul unui holtei!… ce eleganță! se cunoaște că ești gentilom…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Îmi plac lucrurile simple și elegante.</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Mai cu seamă simple.</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Toate cîte le văd sînt alese și așezate cu mult gust.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Cum își laudă singură prezentul!</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>În adevăr, mobilarea-i prea frumoasă, dar și ține cam scump.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Fie, că face; ș-apoi cine caută la bani cînd lucru-i plăcut?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Se-nțelege, cine caută la bani cînd lucru-i plăcut?</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Bre! vorbește ca un risipitor!… Acu-i vremea să-i dau notele.</stage>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Salonul acesta seamănă făcut înadins pentru muzică… e mare, nalt și ferit de zgomotul trăsurilor.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Însă nu zăresc nici un piano.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>E în celalalt salon… un piano de Erhard.</p>
+          </sp>
+          <stage>COȘCODAN:  (buimăcit)  Dar… e în celalalt salon… un Erhard de clavir.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nou, de 200 de galbini.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Nu-i scump, dacă-i bun.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Iar o surpriză de-a soacrei, se vede.</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Nu-i scump nicidecum… Al meu ține 250 de galbini.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Se-nțelege că nu-i scump… 200 de galbini… o bagatelă… unchiul meu crede că-i scump pentru că nu cîntă din clavir… Nu-i scump, unchiule.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu atîta mai bine, nepoate, dacă-l găsești ieftin… Domnișoară Tincă, nu dorești să-l vezi?</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Cum nu? vreau să-l și cerc.</p>
+          </sp>
+          <stage>AGACHI:  (dîndu-i brațul)  Dă-mi voie dar să te întovărășesc în salonaș.  (Trecînd pe lîngă Coșcodan, îi dă notele.)  Na, nepoate, ține.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce sînt astea?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Notele.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>De muzică?</p>
+          </sp>
+          <stage>AGACHI: Ba; notele de pe-la magazii.  (Iesă prin stînga cu Tinca.)</stage>
+          <stage>SCENA VII</stage>
+          <stage>COȘCODAN:  (în parte)  Notele!… De ce mi le dă mie?… A! poate ca să le reveduiesc.  (Cercetîndu-le.)  O! o!… sînt cam încărcate!… dar nu mă privesc pe mine.  (Le dă Fespezancăi.)  Cucoană Luxiță… poftim.</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ce-s astea?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Notele.</p>
+          </sp>
+          <stage>FESPEZANCA: A! vrei să le cercetez?  (Adiționînd.)  375 cu 150 fac 525 și cu 275 fac 800 și cu 134 fac 934. Tocmai 934 de galbini, pentru mobilarea întreagă a casei…  (Dînd notele lui Coșcodan.)  Poftim.</stage>
+          <stage>COȘCODAN:  (în parte)  Ce fel, poftim?… Nu cumva socoate că le-oi plăti eu?  (Tare.)  Cucoană Luxiță, mă iertați…</stage>
+          <stage>(Se aude in salonul din dreapta variații pe piano, care sună en sourdine, in tot cursul scenei următoare.)</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Taci!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ascultă cum cîntă de frumos Tinca din piano… Ce talent! ce ușurință!… ce sentiment!… A! mă simt înduioșată… Îmi vin lacrimi în ochi.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Na!</stage>
+          <stage>FESPEZANCA: Ghiță, Ghiță, sîntem singuri?… Ah!… nu mai pot opri lacrimile… lasă-mă să plîng…  (Plînge.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Să plîngi? da de ce să plîngi, cucoană?</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ah! peste trei zile ai să-mi răpești fata… să rămîn fără copilă!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Așa este… Însă notele…</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Singură, singură pe lume!… cuc! Ah! Ghiță… n-oi putea niciodată să mă deprind cu singurătatea.</p>
+          </sp>
+          <stage>COȘCODAN: Îi veni să șezi cu noi la un loc… Cît pentru cheltuială ne-om pune la cale.  (în parte.)  Oi chibzui-o să plătească tot.</stage>
+          <stage>FESPEZANCA: Ba nu, Ghiță, căci om trăi strîmtorați…  (Coborînd ochii.)  Ah! Ghiță… Am să-ți fac o destăinuire la care nu te-aștepți nicidecum.</stage>
+          <stage>COȘCODAN:  (în parte)  Ce vrea oare să-mi destăinuiască?</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ai să mă găsești negreșit foarte copilăroasă… dar ce să fac?… așa mi-i firea… Astănoapte am făcut…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Am făcut un vis poznaș… Închipuiește-ți că parcă mă găseam la bal, în rochie stacojie… Stacojiul mă prinde de minune…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu zic ba; însă notele…</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Lîngă mine se afla un cavaler cam… sur, dar încă destul de vierde… El mă mînca cu ochii de vie, și eu mă roșeam pe obraz ca o fată mare.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Iaca dracu! Nu cumva soacra are idei ciudate?</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Deodată el mă apucă de talie.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Aș!</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Și mă rîdică în văzduh ca o peană… Orhestra cînta un valț… Cavalerul mă strîngea cu dragoste la pept și-mi zicea niște cuvinte înfocate pline de amor, niște cuvinte pe care modestia nu mă iartă să le repetez.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Ce dracu să-i fi spus?</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Și cînd orhestra încetă, cînd orhestra încetă…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ei!…</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Cavalerul mă urcă într-un cupeu și mă duse la biserică, unde parcă ne cunună părintele Aftanasie.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ia lasă gluma…</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ah!… Însă n-a fost decît un vis; căci nu gîndesc să mă mărit de-a doua oară… Cu toate că, dacă s-ar prezenta un cavaler încă verde…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Pardon, pardon, cucoană soacră… să ne tălmăcim…</p>
+          </sp>
+          <stage>FESPEZANCA:  (cu sentiment)  Ah! Ghiță… n-oi putea niciodată să trăiesc singură… Visul m-a amețit, m-a exaltat, m-a rîdicat tocmai într-al 19-lea cer.</stage>
+          <stage>COȘCODAN:  (în parte)  Prea sus!… a nebunit baba.</stage>
+          <stage>(Pianul încetează.)</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ce vis frumos, ce vis ferice</p>
+            <p>Pe mine ieri m-a încîntat!</p>
+            <p>Un glas iubit, tainic îmi zice</p>
+            <p>Că el va fi realizat.</p>
+            <p>Ah! de atunci, mintea-mi se perde,</p>
+            <p>Și nencetat parcă zăresc</p>
+            <p>Un cavaler plăcut și verde</p>
+            <p>Ce-mi zice, zice: te iubesc.</p>
+            <p>Un cavaler ce-mi zice, zice:</p>
+            <p>Ah! te iubesc și sînt ferice!</p>
+            <stage> (Iesă în stingă, acoperindu-și obrazul cu batista.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA VIII</head>
+          <stage>COȘCODAN:  (își freacă urechile)  Ce-am auzit?… Îmi țiuie urechile… Baba are gînduri de măritiș!… E în stare să ia un barbat tînăr și… verde, precum zice ea; un barbat care i-a mînca toată averea cu lingura, după obicei… ș-apoi mai știi păcatul!… poate să facă și copii… S-a mai văzut de-alde astea pe lume…  (Furios.)  Ei!… și clironomia?… așa-i că-i în pericul!  (Se primblă agitat pe scenă.)  Nu-i timp de perdut… Baba s-a aprins… trebuie să fac ce-oi face ca să-i scap averea din gura lupului… O! dac-aș avea la mînă un barbat copt, vestejit, limoniu, nu verde… un om șters de pe fața pămîntului să-l dau babei… aș fi garantat despre viitor.</stage>
+          <stage>SCENA IX</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ghiță, da nu vii să asculți pe Tinca drîngănind din piano?</p>
+          </sp>
+          <stage>COȘCODAN: O! ce idee!  (Arătînd pe Agachi.)  Iaca barbatul cel copt!  (Tare și iute.)  Unchiule, unchiulică, ascultă: ești bătrîn, ostenit, batojit, ai podagră; prin urmare trebuie numaidecît să pui capăt holteiei; n-ai timp de perdut.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce să fac? Cum ai zis?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Trebuie să te-nsori.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Eu? ferească-mă Dumnezeu!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ți-am găsit o femeie plăcută, bogată și grasă, care te iubește.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Aș! cine?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cucoana Luxița.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Soacră-ta?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Caracterul d-tale vesel îi place. Mi-a vorbit de d-ta chiar acum cu entuziasm… A făcut un vis înfocat… cu rochie stacojie… În care d-ta jucai valțul și rolul de amorez. Primești? Mă duc s-o bucur pe cucoana soacră… să-i duc veste bună.</p>
+          </sp>
+          <stage>AGACHI:  (oprindu-l)  Ho, țară! Nu dau tatarii.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Unchiule, gîndește că are două moșii cu mori.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Aibă macar și zece… eu nu-s de-nsurat… De-abia am văzut-o pe Fespezanca și n-am apucat a mă îndrăgi de dînsa.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Îi iubi-o ca un nebun, cînd îi cunoaște-o mai de-aproape. Unchiule, închipuiește-ți fericirea de-a avea o soție drăgălașă… inimoasă, care te-a căuta cînd îi fi zaif, te-a freca la tîmple cu oțet de trandafir cînd te-a durea capul și ți-a purta de grijă la bătrînețe… căci bătrînețele sînt triste.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Așa este… Însă…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ș-apoi ce-i dai greș cucoanei Luxiței?… Ea-i încă hazlie, nurlie… mai cu seamă cînd e îmbrăcată-n stacojiu.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Cu adevărat, stacojiul o prinde de minune.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Și luat-ai seama ce umere albe… ce brațe rotunde are?</p>
+          </sp>
+          <stage>AGACHI:  (aprinzîndu-se)  Le-am admirat la balul ei.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ei! apoi, ce mai stai la îndoială?… primește.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Da cum, Doamne, iartă-mă, la vîrsta mea?…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce-ți pasă?… Luxița te iubește, te găsește că ești verde…</p>
+          </sp>
+          <stage>AGACHI: Oare?… dacă-i așa, mai că… mai că…  (Rîzînd.)  Știi c-ar avea haz să facem nunțile amîndoi tot într-o zi?</stage>
+          <stage>COȘCODAN:  (în taină)  Mai haz… și, astfel, în loc să cheltuim cu două mese, facem numai una și bună.</stage>
+          <stage>AGACHI:  (vesel)  A! hoțule, vrei să mă-nsori de economie?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Taci, că-ți vine mireasa… Unchiule, ara- tă-te înfocat… fii verde.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Las’ pe mine.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Adă-ți aminte că te numești Flutur… să te văd, fluturașule.</p>
+            <p>SCENA X</p>
+            <p>AGACHI, COȘCODAN, FESPEZANCA</p>
+          </sp>
+          <stage>FESPEZANCA:  (în pragul ușii din stînga)  Vă derangez, domnilor?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nicidecum, cucoană Luxiță; tocmai acum vorbeam de d-ta cu unchiul meu.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Zău?</p>
+          </sp>
+          <stage>AGACHI:  (în parte)  Face parale încă soacra.</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Și ce ziceați de mine?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Unchiul meu, sărmanul, îmi istorisea un vis încîntător ce a făcut astă-noapte.</p>
+          </sp>
+          <stage>FESPEZANCA:  (apropiindu-se)  Aș! și d-lui a visat?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Și!… pare că era la bal… lîngă o ladă cu flori se găsea o damă frumoasă, îmbrăcată cu rochie stacojie…</p>
+          </sp>
+          <stage>FESPEZANCA:  (în parte)  Ca mine?</stage>
+          <stage>COȘCODAN: Stacojie.  (Încet, cătră Agachi:)  Oftează, unchiule.</stage>
+          <stage>AGACHI: Bucuros.  (Oftează.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Acea damă era văduvă și îmbobocită ca o zarnacadea.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>O! dar, ca o zarn…</p>
+          </sp>
+          <stage>COȘCODAN:  (încet)  Oftează.</stage>
+          <stage>AGACHI:  (oftînd)  acadea.</stage>
+          <stage>COȘCODAN: Unchiul meu, sărmanul!… uimit, electrizat, se apropie de dînsa tremurînd ca frunza  (apucă pe Fespezanca de mînă)  ș-o apucă de mînă.</stage>
+          <stage>FESPEZANCA:  (uimită, în parte)  Vai de mine!… Nu știu ce-mi vine.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Și-i zise cu un glas verde: O! doamna mea! cît ești de frumoasă! cît ești de grandioasă! cît ești de maiestoasă!… cît ești de…</p>
+          </sp>
+          <stage>AGACHI:  (încet)  Destul… Fă-i propunere de cununie.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Fiecare la rîndul lui… Eu am lucrat destu pentru tine.</p>
+          </sp>
+          <stage>COȘCODAN:  (Fespezaticăi)  Și, în sfîrșit, bietul meu unchi îndrăzni să adauge:  (se pune în genunchi)  Luxiță, Luxiță! te iubesc peste măsură.</stage>
+          <stage>FESPEZANCA:  (turburată)  Pe mine?… d-ta?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce vis frumos, ce vis ferice</p>
+            <p>Pe mine ieri m-a încîntat!</p>
+            <p>Un glas iubit tainic îmi zice</p>
+            <p>Că el va fi realizat.</p>
+          </sp>
+          <stage>AGACHI:  (întrerupîndu-l)  Scoală, mă, că nu-i locul tău</stage>
+          <stage>COȘCODAN:  (sculîndu-se)  Bine zici.  (Își șterge genun. chii.)</stage>
+          <stage>AGACHI:  (îngenunchind, urmează cînticul)</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Domnule Agachi… Vai de mine! ce vorbești?… Ai nebunit?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Dar, am nebunit de amor sau de amoare, după limba cea nouă… Luxiță, ești văduvă, eu sînt văduvoi… Hai să unim văduviile noastre, ca să le prefacem într-o păreche de porumbași.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Domnule, mă confusarisești.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Luxiță… te rog… nu mă despera… spune-mi macar un cuvînt dulce; zi că primești, să nu mai fie vorbă…</p>
+          </sp>
+          <stage>FESPEZANCA: Nu acum, că-s prea sastisită… Altădată… mîni…  (În parte.)  Ah! inima mi se bate ca o toacă.  (Fuge în stînga.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>După dînsa, unchiule.</p>
+          </sp>
+          <stage>AGACHI: Las’ pe mine… Nu scapă ea cu una, cu două… Îmi place, m-a fărmecat; de-acum eu îi sînt popa.  (Întră în stînga.)</stage>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA XI</head>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ha, ha, ha, ha. L-am însurat pe unchiul meu… Mi-am asigurat clironomia… Tra, la, la, la… Îmi vine să joc polca de bucurie.</p>
+            <stage> (Aria polcăi din „Chirița în provinție”: „Ba te-oi minca”) </stage>
+            <p>L-am însurat!</p>
+            <p>Tra, la. la, la, tra, la, la, la,</p>
+            <p>L-am însurat pe bietul moș,</p>
+            <p>L-am înfocat,</p>
+            <p>Tra, la, la, la, tra, la, la, la.</p>
+            <p>De s-a aprins ca un cocoș.</p>
+            <p>Ce bine-mi pare.</p>
+            <p>Tra, la, la, la, la, la, la, la, la,</p>
+            <p>Că l-am băgat in cuib căsătoresc</p>
+            <p>Și pe-a lui stare</p>
+            <p>Tra, la, la, la, la, la, la, la, la,</p>
+            <p>Sînt sigur eu s-o clironomisesc.</p>
+            <stage> (Joacă polca cîntînd.) </stage>
+            <p>L-am însurat!</p>
+            <p>Tra, la, la, la, tra, la, la, la, la,</p>
+            <p>L-am însurat pe bietul moș,</p>
+            <p>L-am înfocat,</p>
+            <p>Tra, la, la, la, tra, la, la, la, la,</p>
+            <p>De s-a aprins ca un cocoș.</p>
+            <stage> (Jucînd, ajunge lîngă masă și rămîne cu un picior în aer.) </stage>
+            <p>Ce văd? o scrisoare pentru mine?… nefrancată?…</p>
+            <stage> (ia scrisoarea) </stage>
+            <p>ba-i francată.</p>
+            <stage> (O deschide.) </stage>
+            <p>Cine-mi scrie? Moisescu?</p>
+            <stage> (Citește:) </stage>
+            <p>„Domnule Ghiță! Mă grăbesc a te încunoștiința că averea cucoanei Luxiței e în proces… Moșiile sale i-au fost lăsate prin testament de bunul său, Tachi Craioveanu; însă testamentul se găsește atacat de mai multe persoane, sub cuvînt de oarecare lipse de forme. Pricina se caută astăzi la Curtea de Casație… Primește asigurarea înaltei stime… etc…” Tronc! altă istorie acu!… Starea soacrei e în proces… Care vrea să zică, dacă s-ar perde pricina, e ruinată… Ruinată! și eu am apucat de l-am încurcat pe unchiul meu… Destulă treabă-am făcut!…</p>
+            <p>SCENA XII</p>
+            <p>COȘCODAN, AGACHI</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ura!… am izbutit!</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Ce-ai izbutit?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Am făcut-o pe Luxița să primească… S-a cam fasolit la început, dar în sfîrșit s-a îmblînzit ca o meioară, și mi-a dat mîna s-o sărut… Am sărutat-o pănă dincolo de cot… Crișu eu!</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Ia priviți moșneagul!</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ei! măi nepoate, ce mai zici?… sînt țonțoroi, ori ba?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Bine, bine; liniștește-te… Planu-i schimbat.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce plan? Ce schimbat?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Averea cucoanei Luxiței e în proces. Chiar astăzi se tratează pricina la Curtea de Casație. De-a perde-o, nu-i rămîne nici o lețcaie.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce proces, mă?… ce lețcaie? parcă vorbești într-aiurea.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Crede-mă, unchiule; nu te grăbi cu însuratul… Lasă-te pe tînjeală.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ai nebunit, mă?… Auzi, să nu mă grăbesc, cînd m-am aprins?… Dacă doar nu-s un poponeț să m-aprind și să mă sting pe mică pe ceas.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Nici că vrea să-nțeleagă…  (Tare.)  Poate să peardă procesul.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Și ce-mi pasă?… Eu nu mă-nsor pentru banii Luxiței… Mă-nsor pentru brațele ei, pentru ochii ei, pentru nurii…</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Doamne! ce-s bătrînii, cînd li se aprind călcăile… Da gîndește, unchiule.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Du-te la naiba și dă-mi bună pace.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  A luat foc stogul de paie; nu-l mai pot potoli.</stage>
+          <stage>SCENA XIII</stage>
+          <sp who="#barza">
+            <speaker>BARZĂ</speaker>
+            <p>Cucoane, a venit d-nul Bombeanu, știi, ăla care-a mîncat cu noi la Hîc.</p>
+          </sp>
+          <stage>AGACHI: Poftește-l.  (Barză iesă.)</stage>
+          <stage>COȘCODAN:  (în parte, intrigat)  Bombeanu?</stage>
+          <stage>BOMBEANU:  (întrînd)  Domnilor…</stage>
+          <stage>COȘCODAN:  (în parte)  El e!… ai! ai!  (Se întoarce.)</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>A! bine-ai venit, prietene. Ai primit biletul meu de invitare?</p>
+          </sp>
+          <stage>BOMBEANU: L-am primit cu mulțămire și, precum vezi, m-am grăbit.  (Zărind portretul lui Coșcodan.)  Ce văd?</stage>
+          <stage>COȘCODAN:  (în parte)  Ai! ai!… m-a cunoscut.</stage>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Curios lucru!</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Cum se face de ai la d-ta în salon figura astă pocită?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>E portretul lui…</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Lui Zarafopulos, cămătarul meu.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Zarafopulos? 24 la sută?</p>
+          </sp>
+          <sp who="#bombeanu">
+            <speaker>BOMBEANU</speaker>
+            <p>Tocmai.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte, ascuzîndu-și obrazul)  Aș da bucuros un sfanț, să fiu aiurea.</stage>
+          <stage>AGACHI:  (uimit)  Zarafopulos!… A! înțeleg acum pentru ce Moisescu n-a voit niciodată să mi-l arate. Figura astă pocită, precum zici, ne-a esploatat pe-amîndoi fără nici un pic de cuget.</stage>
+          <stage>COȘCODAN:  (în parte)  Cum? și unchiul meu se împrumuta din banii mei?</stage>
+          <stage>AGACHI:  (apropiindu-se de Coșcodan, încet)  Nerușinatule!… ai ajuns a fi și cămătar?</stage>
+          <stage>COȘCODAN:  (întorcîndu-se, încet)  Să-ți spun, unchiule…</stage>
+          <stage>BOMBEANU:  (zărindu-l)  Iaca și originalul portretului… Kir Zarafopulos, adevărat e că ai de gînd să urci dobînda la 50 la sută?</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Să vă spun… Nu credeți… În adevăr… mi s-a întîmplat cîteodată să oblig prietenii, împrumutîndu-i cu opt, cu zece la sută pe an…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Minciuni.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Chiar cu 12…</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Minciuni.</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cu 15 cel mult; dar cu 24 niciodată!… Moisescu, blestematul cel de Moisescu, m-a compromitat, după cum înțeleg… Eu îi încred banii mei, și el se vede că-i speculează în folosul lui… A! n-aș fi crezut că ar fi abuzat astfel de nevinovăția mea.</p>
+          </sp>
+          <stage>AGACHI: Minciuni!  (Încet cătră Coșcodan, cu mînie.)  Ticălosule! Potlogarule! Iudă! Mi-e rușine să mă uit la tine. De azi înainte să nu zici cumva că-mi ești nepot, că te stîlcesc.</stage>
+          <stage>COȘCODAN:  (încet)  Unchiule…</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Taci, că întru în păcat pe loc… Păn-în 5 minute să renunți la mîna Tincăi, auzitu-m-ai?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Eu să perd zestrea?… Niciodată… Mai bine moartea!</p>
+          </sp>
+          <stage>AGACHI:  (căutînd la ornic)  Acum sînt 4 și cinci; la 4 și zece, de nu-i fi următor poroncii mele, spun la toți istoria lui Zarafopulos Coșcodan.</stage>
+          <stage>COȘCODAN:  (în parte)  Am pățit-o!</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Iaca Tinca cu maică-sa… Arâtă-te iscusit… Hait.</p>
+            <stage> (Bombeanu se retrage în fund.) </stage>
+            <p>SCENA XIV</p>
+            <p>Cei denainte, FESPEZANCA, TINCA</p>
+          </sp>
+          <stage>FESPEZANCA: Veste bună!… veste bună!… Am cîștigat procesul.  (Arată, o hîrtie.)</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cîștigat? Bravo!… Testamentul rămîne bun! Ce fericire!</p>
+          </sp>
+          <stage>AGACHI:  (cu ornicul în mînă)  4 și șeapte!</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>4 și șeapte? Ce ne pasă?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Am o treabă importantă la 4 și 10. D-nul Ghiță o cunoaște.</p>
+          </sp>
+          <stage>COȘCODAN:  (încet)  D-apoi a cîștigat procesul, unchiule!…</stage>
+          <stage>AGACHI:  (încet)  Tocmai de-aceea, arată-te și mai iscusit.</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Cucoană Luxiță…</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ce este, Ghiță?</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Uf! cald e!</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>4 și 8.</p>
+          </sp>
+          <stage>COȘCODAN:  (rugîndu-se încet)  Unchiulică…</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>4 și 9.</p>
+          </sp>
+          <stage>COȘCODAN: Cucoană… Conștiința mea mă obligă, în acest minut solemn, să vă fac o destăinuire…  (În parte.)  Uf!  (Tare.)  M-ați crezut negreșit un tînăr cuminte și econom?…</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Negreșit.</p>
+          </sp>
+          <stage>COȘCODAN:  (încet, cu desperare)  Unchiulică…</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>4 și 10 minute!</p>
+          </sp>
+          <stage>COȘCODAN: V-ați înșelat, cucoană…  (Iute.)  Sînt, dimprotivă, un cheltuitor, un destrămat. În loc să șăd acasă ca un bătrîn, îmi petrec zilele și nopțile pe la birturi; mă împrumut cu bani în tîrg de plătesc 18 și 24 la sută și merg la bal raaschâ! îmbrăcat în costum de Mustafa-pașa.</stage>
+          <stage>FESPEZANCA și TINCA:  (indignate)  O!…</stage>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Iată adevărul… astfel sînt!</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Se împodobește Coșcodanul.</p>
+          </sp>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Domnule Ghiță, purtarea d-tale în acest minut solemn merită o răsplată. Primește dar înalta mea considerațiune; cît pentru Tinca, șterge-te pe buze.</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Aud? Vrea să zică iar rămîn fată mare?</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ba nu, Tincă; nu te-ngriji de asta… Eu ți-am găsit un barbat, care socot că ți-a plăcea mai mult decît Zar… Coșcodan… Domnul Bombeanu, prietenul meu.</p>
+          </sp>
+          <stage>TINCA:  (cu bucurie)  A!</stage>
+          <stage>BOMBEANU:  (înaintînd)  Aș fi prea fericit, dac-aș merita favorul…</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Auzi, Tincă… cere un favor tînărul… primește, să se isprăvească comedia.</p>
+          </sp>
+          <stage>TINCA:  (coborînd ochii)  Cum a hotărî maică-mea.</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Eu primesc cu bucurie.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Bravo… și mata, Tincă?… ce zici?</p>
+          </sp>
+          <sp who="#tinca">
+            <speaker>TINCA</speaker>
+            <p>Nu știu de se cuvine.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Vrea să zică, nu primești… fie…</p>
+          </sp>
+          <stage>TINCA:  (răpide)  Ba primesc.</stage>
+          <sp who="#fespezanca">
+            <speaker>FESPEZANCA</speaker>
+            <p>Ce te mai fasoleai dar?</p>
+          </sp>
+          <stage>COȘCODAN:  (trăgînd pe Agachi la o parte)  Unchiule, mărturisește că, cu toate defectele mele, am contribuit mult la fericirea d-tale… te-am logodit c-o avere șucada…</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Nu cumva vrei să-ți plătesc comision?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Nu, dar, în sfîrșit… mai tîrziu, după moartea d-tale, tot mi-a veni și mie ceva parte.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ție?</p>
+          </sp>
+          <sp who="#coscodan">
+            <speaker>COȘCODAN</speaker>
+            <p>Tot eu am să-ți fiu clironom, căci despre copii cred că te-a iertat Dumnezeu.</p>
+          </sp>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Culcă-te pe-acea ureche. Purtarea ta m-a revoltat astfel, că, în ciuda ta, am de gînd să las în urmă-mi o jumătate duzină de fluturi.</p>
+          </sp>
+          <stage>COȘCODAN:  (în parte)  Se lăudă, unchiul, nu-i tocmai așa de… revoltat.</stage>
+          <stage>BARZĂ:  (întrînd)  Poftim la masă.</stage>
+          <sp who="#agachi">
+            <speaker>AGACHI</speaker>
+            <p>Ura! și poftă bună!</p>
+            <p>Plăcerile-s paseri ușoare</p>
+            <p>Ce-aprind a inimilor dor;</p>
+            <p>Omul prost le lasă să zboare,</p>
+            <p>Iar eu le prind vesel din zbor</p>
+            <p>Cu al meu pahar</p>
+            <p>Plin, plin</p>
+            <p>De vin de Cotnar</p>
+            <p>Plin, plin</p>
+            <p>Și cînd paharul meu închin,</p>
+            <p>Ah! Ah! Ah!</p>
+            <p>Glu, glu, glu, sufletul meu rîde,</p>
+            <p>Glu, glu, glu, raiul se deschide,</p>
+            <p>Glu, glu, glu, glu, glu, glu;</p>
+            <p>Căci oricare chin</p>
+            <p>Eu mi-l înec în vin.</p>
+            <p>Pluf!</p>
+            <p>TOȚI:</p>
+            <p>Glu, glu, glu, sufletul meu rîde etc.</p>
+            <stage> (La finele cupletului, Agachi dă brațul Fespezancăi, Bombeanu dă brațul Tincăi fi toți se îndreaptă spre fund.) </stage>
+            <stage> (Cortina cade.) </stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

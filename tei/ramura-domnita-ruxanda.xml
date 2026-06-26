@@ -1,0 +1,3418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000058" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Domnița Ruxanda</title>
+        <author>
+          <persName>Dinu Ramură</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q21062239</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://restitutio.bcub.ro/storage/item/2024/Feb/domnita-ruxandra-drama-istorica-in-trei-acte-in-versuri/R0iSunawvAIdXNh8aPKHV6uDMzhKiLs2eq3CoKB1.pdf">BCUB</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1907">
+            <desc>1907</desc>
+          </event>
+
+          <event type="premiere" when="1907-03-01">
+            <desc>1 March 1907</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="joldea" sex="MALE">
+            <persName>JOLDEA</persName>
+          </person>
+          <person xml:id="motoc" sex="MALE">
+            <persName>MOȚOC</persName>
+          </person>
+          <person xml:id="movila" sex="MALE">
+            <persName>MOVILĂ</persName>
+          </person>
+          <person xml:id="sturzea" sex="MALE">
+            <persName>STURZEA</persName>
+          </person>
+          <person xml:id="hura" sex="MALE">
+            <persName>HURA</persName>
+          </person>
+          <person xml:id="spancioc" sex="MALE">
+            <persName>SPANCIOC</persName>
+          </person>
+          <person xml:id="stefan_tomsa" sex="MALE">
+            <persName>ȘTEFAN TOMȘA</persName>
+          </person>
+          <person xml:id="trifan_ciolpan" sex="MALE">
+            <persName>TRIFAN CIOLPAN</persName>
+          </person>
+          <person xml:id="simeon" sex="MALE">
+            <persName>SIMEON</persName>
+          </person>
+          <person xml:id="darman" sex="MALE">
+            <persName>DARMAN</persName>
+          </person>
+          <person xml:id="barnovsky" sex="MALE">
+            <persName>BARNOVSKY</persName>
+          </person>
+          <person xml:id="stroici" sex="MALE">
+            <persName>STROICI</persName>
+          </person>
+          <person xml:id="revelles" sex="MALE">
+            <persName>REVELLES</persName>
+          </person>
+          <person xml:id="iosif_veverita" sex="MALE">
+            <persName>IOSIF VEVERIȚĂ</persName>
+          </person>
+          <person xml:id="damian" sex="MALE">
+            <persName>DAMIAN</persName>
+          </person>
+          <person xml:id="alexandru_lapusneanu" sex="MALE">
+            <persName>ALEXANDRU LĂPUȘNEANU</persName>
+          </person>
+          <person xml:id="elena" sex="FEMALE">
+            <persName>DOAMNA ELENA</persName>
+          </person>
+          <person xml:id="domnita_ruxanda" sex="FEMALE">
+            <persName>DOMNIȚA RUXANDA</persName>
+          </person>
+          <person xml:id="ileana" sex="FEMALE">
+            <persName>ILEANA</persName>
+          </person>
+          <person xml:id="popor">
+            <persName>POPOR</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000058"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Domnița Ruxanda</titlePart>
+        </docTitle>
+        <docAuthor>Dinu Ramură</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>JOLDEA</role>
+          <roleDesc>boier moldovean</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MOȚOC</role>
+        </castItem>
+        <castItem>
+          <role>MOVILĂ</role>
+          <roleDesc>Vornicul țărei de sus</roleDesc>
+        </castItem>
+        <castItem>
+          <role>STURZEA</role>
+          <roleDesc>Vornicul țărei de jos</roleDesc>
+        </castItem>
+        <castItem>
+          <role>HURA</role>
+        </castItem>
+        <castItem>
+          <role>SPANCIOC</role>
+        </castItem>
+        <castItem>
+          <role>ȘTEFAN TOMȘA</role>
+        </castItem>
+        <castItem>
+          <role>TRIFAN CIOLPAN</role>
+        </castItem>
+        <castItem>
+          <role>SIMEON</role>
+        </castItem>
+        <castItem>
+          <role>DARMAN</role>
+        </castItem>
+        <castItem>
+          <role>BARNOVSKY</role>
+        </castItem>
+        <castItem>
+          <role>STROICI</role>
+        </castItem>
+        <castItem>
+          <role>REVELLES</role>
+        </castItem>
+        <castItem>
+          <role>IOSIF VEVERIȚĂ</role>
+        </castItem>
+        <castItem>
+          <role>DAMIAN</role>
+          <roleDesc>omul de casă al Doamnei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ALEXANDRU LĂPUȘNEANU</role>
+        </castItem>
+        <castItem>
+          <role>DOAMNA ELENA</role>
+          <roleDesc>văduva lui Petru Rareș</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DOMNIȚA RUXANDA</role>
+          <roleDesc>fiica ei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ILEANA</role>
+          <roleDesc>nepoata Doamnei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>POPOR</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>Scena înfățișează o odae, spoită cu var, din casa domnească dela Șipote, în care stă, dela moartea lui Petru Rareș, Doamna Elena, soția lui, împreună cu Ruxanda.</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 1</head>
+          <stage>DOAMNA ELENA, RUXANDA, ILEANA.</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (privind candela) </stage>
+            <p>Mamă, candela e stinsă.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (lasă lucrul) </stage>
+            <p>S-o aprind?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Da, mai curând.</p>
+            <stage> (Ileana se duce s-aprindă candela cu lumânarea de lângă ea.) </stage>
+            <p>Ce furtună îngrozitoare; cum de nu ne-a dat în gând</p>
+            <p>Să-l oprim, când vru să plece?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Cine-ar fi putut să știe</p>
+            <p>Că cu cer senin la ziuă, fi-va seara vijelie.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Vezi, așa e și cu omul, de e blând și iubitor</p>
+            <p>Tot să nu te-ncrezi într-însul, căci ca vremea-i schimbător</p>
+            <p>Multe-mprejurări din fire ni se potrivesc în viață.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (venind spre masă) </stage>
+            <p>Ziua bună, câteodată, n-o cunoști de dimineață.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>N-o cunoști. Avut-am pilde—atât de multe-n viața mea</p>
+            <p>Încât nici în faptul zilei, nu mă mai încred în ea.</p>
+            <p>Trei băeți, creșteau în juru-mi cu credință și iubire,</p>
+            <p>Și clădind atâtea vise pentru-a țărei mântuire,</p>
+            <p>Am simțit ce-i suferința doar atunci când am văzut,</p>
+            <p>Că-mi sunt visele deșarte ca și viața ce-am avut.</p>
+            <p>Voi nu vă puteți da seama, căci durerea unei mume</p>
+            <p>N-o poți înțelege lesne, e prea mare, n-are nume.</p>
+            <p>Și-astfel visul vieței mele dărâmat fu într-un an.</p>
+            <p>Unul, cel mai mic, se află dus ostatic la Sultan;</p>
+            <p>Altul e ucis, și altul mi se leapădă de lege!...</p>
+            <p>Nu! Durerea unei mume nimeni, nimeni, n-o-nțelege,</p>
+            <p>Ea e vie și din minte nici o clipă n-o alungi,</p>
+            <p>Cât sunt zilele de scurte cât sunt nopțile de lungi.</p>
+            <p>Chiajna-n țara românească, însetată de domnie,</p>
+            <p>Uită datoria-i sfântă de copil și de soție</p>
+            <p>Și călăuzindu-și soțul și boerii precum vrea,</p>
+            <p>Se îndreaptă spre peire, târând țara după ea.</p>
+            <p>Vezi, așa mi-a fost ursita, ca să plâng o viață-ntreagă;</p>
+            <p>Numai tu-mi rămâi.</p>
+            <stage> (Îi ia mâna Ruxandei) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (Sărutând-o) </stage>
+            <p>Eu, mamă, nu-ți sunt dragă?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Tu-mi ești dragă</p>
+            <p>Ca și ochii, și lumina către care ți-i înalți,</p>
+            <p>Căci în tine se adună și iubirea celorlalți,</p>
+            <p>Însă tu ești tot mâhnită și-n privirea ta se-ascunde</p>
+            <p>Un dor tainic, gându-ți tânăr nimenea nu ți-l pătrunde,</p>
+            <p>Spune-mi, ce-ai?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>De ce ți-aș spune? Alinare nu găsesc</p>
+            <p>Nici în vorbele-ți de mamă, și-astăzi nu mă mai gândesc</p>
+            <p>Să mă mângâi.</p>
+            <p>DOAMNA:</p>
+            <p>Cum, Ruxando, nu-l iubești pe Joldea, oare?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (rece) </stage>
+            <p>Îl iubesc.</p>
+            <p>DOAMNA:</p>
+            <p>Nici n-ar fi bine de-ai putea să fii în stare</p>
+            <p>Să nesocotești iubirea unui om ca el.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Crezi tu,</p>
+            <p>Că e singurul în lume, care m-ar iubi?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Ba, nu—</p>
+            <p>Însă nu sunt mulți ca Joldea care-n inimă să poarte</p>
+            <p>Pururi, o aceeași ființă, ce-a iubit,—până la moarte.</p>
+            <p>Multe-ar vrea să-l aibă. Oameni cum e el, găsești mai rar.</p>
+            <stage> (Ploaia încetează și se luminează, încetul cu încetul) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (lasă lucru; se ridică de pe scaun; se-ndreaptă spre fereastră și apoi vine în dreptul jețului din stânga) </stage>
+            <p>Cuvântarea ți-e frumoasă; dar socot că e-n zadar.</p>
+            <p>Ce-o să-mi fie viața-ntreagă cu-n boer ce n-are nume?</p>
+            <p>Vom trăi, uitați și singuri într-un colț, pustiu de lume.</p>
+            <p>De aceea totdeauna când vorbești de frații mei,</p>
+            <p>Mă gândesc la Chiajna, doamna!, pismuind norocul ei.</p>
+            <p>Ea mi-e soră și ca dânsa coborâtă-s din neam mare</p>
+            <p>Dar pe când domnește Chiajna, eu lăsată-s în uitare,</p>
+            <p>Căci la mine-i mort norocul și-s făcută să privesc</p>
+            <p>Cum tot neamul meu domnește, numai eu să nu domnesc.</p>
+            <p>Pasărea, ce naște vultur pe un pisc vecin de soare,</p>
+            <p>Când se simte, năzuește spre-nălțimi mai mare să sboare.</p>
+            <p>Eu, știind că-s coborâtă dintr-un neam strălucitor,</p>
+            <p>Ca și vulturul din zare, spre-nălțimi aș vrea să sbor.</p>
+            <stage> (s-a apropiat de masă) </stage>
+            <p>Vreau să fiu stăpână, mamă, într-o țară-n care-am dreptul,</p>
+            <p>Pentru ce să fiu uitată? Poate crezi că înțeleptul</p>
+            <p>Care-orânduește toate pe pământul nostru, crezi,</p>
+            <p>Că nu poate să se-nșele?—Se înșeală! Dă dovezi</p>
+            <p>Chiar cu mine, părăsită și uitată de mă lasă,</p>
+            <p>Pe când eu, sunt cum e Chiajna, capeșă și dăunoasă,</p>
+            <p>Ei îi scoate-n cale-un Vodă-atot-puternic, mândru, blând,</p>
+            <p>Mie-mi dă de soț pe Joldea, un boer de rând.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (visătoare) </stage>
+            <p>De rând.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Tu, ai mult mai mult ca Chiajna-n pătimașa ei trufie.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Iubirea unui Joldea e mai mult ca o domnie.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (acelaș joc) </stage>
+            <p>E mai mult ca o domnie.</p>
+            <stage> (O clipă de liniște. Doamna care a lucrat mereu, lasă lucru și se uită pe fereastră.) </stage>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Nu mai plouă?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (mergând să vadă) </stage>
+            <p>Nu! A stat.</p>
+            <p>Cerul însă e tot negru.</p>
+            <stage> (privind afară și cu o bucurie copilărească) </stage>
+            <p>Vine Joldea.</p>
+            <stage> (Doamna s-a ridicat) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (care s-a așezat de câtăva vreme) </stage>
+            <p>Ce păcat!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (urmărind ce se petrece afară) </stage>
+            <p>Nu e singur.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (acelaș joc) </stage>
+            <p>Cine poate fi acel ce-l însoțește?</p>
+            <stage> (Ruxandei) </stage>
+            <p>Hai să le eșim în cale.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Iată-l, vine; se oprește;</p>
+            <p>Vine-ncoace</p>
+            <stage> (ese) </stage>
+            <stage> (Doamna și Ileana sunt pe pridvor cu ușa deschisă. Ruxanda nu se mișcă. Joldea și Spancioc s-au ivit numai decât. Se luminează bine.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 2</head>
+          <stage>DOAMNA ELENA, RUXANDA, ILEANA, JOLDEA și SPANCIOC în strae de vânătoare. Încep să vorbească din ușă.</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Când văzut-am c-așteptarea mi-e-n zadar,</p>
+            <p>Socotit-am că e bine să mă-ntorc.</p>
+            <stage> (Se îndreaptă spre Ruxanda. Spancioc a rămas în fund) </stage>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Firește, dar</p>
+            <p>Te-a plouat?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Văzând că-ncepe, m-am adăpostit în pripă,</p>
+            <p>La un biet țăran, și-acolo n-a trecut, cred, nici o clipă</p>
+            <p>Când veni Spancioc.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (înaintează pe la spatele mesei) </stage>
+            <p>Furtuna, risipindu-ne pe toți,</p>
+            <p>—Căci. Suntem mai mulți,—cătat-am o căsuță, unde poți</p>
+            <p>Să te-adăpostești de ploae și la marginea pădurei,</p>
+            <p>Dau și de-o căsuță bună și de Joldea-n podul șurei.</p>
+            <p>Ploaia însă care cade, cată tot a nimici.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (încă nedumerită) </stage>
+            <p>Da-n cotro vă este drumul?</p>
+            <p>SPANCIOC:</p>
+            <p>Noi, veneam cu toții-aci,</p>
+            <p>Căci boerii din Suceava, vin să-ți ceară sfat...</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (mirată) </stage>
+            <p>Sfat mie?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (acum e în față de tot) </stage>
+            <p>Să le spui, din toți pe care-l crezi mai vrednic de domnie.</p>
+            <stage> (Ruxanda a tresărit, ochii ei s-au întâlnit cu ochii Doamnei, în vreme ce Joldea s-a depărtat puțin) </stage>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Oamenii de rea credință ce-o râvnesc, avem destui,</p>
+            <p>Dar, cei buni se dau în lături, încât domn în scaun, nu-i—</p>
+            <p>Și-am ajuns în țara noastră, umilindu-ne Sultanul,</p>
+            <p>Că pe omul drept la cuget vrem să-l prindem cu arcanul.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (lui Spancioc) </stage>
+            <p>Vor veni aci boerii?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>N-avea teamă; nu sunt toți.</p>
+            <p>Ucigașii din Țuțora au alt drum, așa că poți</p>
+            <p>Să-i primești cu voie bună pe ceilalți.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Dar la Țuțora,</p>
+            <p>N-au fost toți boerii țărei?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>N-ar fi îndrăsnit la sora,</p>
+            <p>Și la mama celui, care l-au ucis, să vină cei</p>
+            <p>Ce-au călcat și jurământul și credința.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (cu mulțumire) </stage>
+            <p>Dragii mei,</p>
+            <p>De-a așa veniți la mine fără ură, rea și cruntă,—</p>
+            <p>Iar de zăboviți trei zile, veți putea să stați la nuntă.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Care?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Joldea cu Ruxanda. Nu știai?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nu, eu credeam,</p>
+            <p>Că de mult intrat-a Joldea în cinstitul vostru neam.</p>
+            <stage> (De când a început să vorbească Spancioc, se aude toaca de lemn și apoi clopotul bisericei din apropiere) </stage>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Toacă de vecernie. Mergem la biserică?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Firește,</p>
+            <p>Căci în vremuri de restriște doar credința te-ntărește.</p>
+            <stage> (S-a uitat la Ruxanda care s-a ridicat de pe scaun și a urmat-o eșind, amândouă prin ușa din dreapta. Ileana s-a dus să stingă lumânarea dela icoane și a eșit și ea, în vreme ce Joldea s-a uitat trist după Ruxanda iar Spancioc mult după Ileana) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 3</head>
+          <stage>JOLDEA, SPANCIOC, mai târziu RUXANDA</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (văzându-l că se uită după Ileana) </stage>
+            <p>O nepoată e de-a Doamnei, rămânând fără părinți</p>
+            <p>A fost luată să traiască-ntr-ale noastre suferinți.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (venind în față) </stage>
+            <p>E frumoasă!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Spune-i Doamnei. Mie...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Îi voi spune.</p>
+            <stage> (Se apropie de el, stăruitor) </stage>
+            <p>—Ascultă,</p>
+            <p>Când auzi cum plânge țara și când jalea este multă</p>
+            <p>În norod și-n boerime, pentru ce n-ai primi tu,</p>
+            <p>Să fii Domnul țărei noastre?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (mirat) </stage>
+            <p>Să fiu Domnul țărei?</p>
+            <stage> (S-a gândit puțin și-apoi cu tărie) </stage>
+            <p>Nu!—</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (cu stăruință) </stage>
+            <p>Poate crezi că nu ești vrednic sau că altuia-i iei rândul?</p>
+            <p>Eu te cred cel mai destoinic.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (a intrat la cele din urmă vorbe așa că pare să fi ascultat tot) </stage>
+            <p>Mie același mi-a fost gândul.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (auzind, se întoarce o privește multă vreme, apoi amărât) </stage>
+            <p>Sora doamnei Chiajna.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Fie, dintr-un sânge ne-am născut.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (privind-o în ochi) </stage>
+            <p>Cu aceleași năzuințe.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Laolaltă am crescut.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Însă vezi, în al meu suflet nu s-a zămislit dorința</p>
+            <p>De-a domni pe-o țară, numai pentru a fura credința</p>
+            <p>Unui biet norod.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Credința, cum s-o furi?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Nu te-nțeleg.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Cum? Făgăduind prea multe fapte unui neam întreg,</p>
+            <p>Și să nu te ții de vorbă, când la urmă el îți cere</p>
+            <p>Să-ți arăți destoinicia în a țărei priveghere.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Va să zică, nedestoinic te socoți?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Destoinic sunt;</p>
+            <p>Nu domnia mă-nspăimântă, nici de tron nu mă-nspăimânt,</p>
+            <p>Dar de vreți cu dinadinsul să aflați ce mă-nfioară,</p>
+            <p>Nu de scaun mi-este teamă, dar de cei ce-l înconjoară.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>De boeri?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>În țara noastră, nu mai poți să faci ce vrei.</p>
+            <p>Turcul, Ungurul și Leahul mi se sfâșie-ntre ei,</p>
+            <p>Și nu sunt destui atâția cu-a lor ură cunoscută,</p>
+            <p>Din chiar însuși sânul țărei, es câți-va care-i ajută.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Domnul care este destoinic îi strivește în curând</p>
+            <p>Și în jurul lui și-adună doar pe cei ce nu-s de rând.</p>
+            <stage> (De câtăva vreme se-aud cornuri de vânătoare apropiindu-se din ce în ce. Acum nu se mai aud, dar în schimb se-aude în curte glasuri de oameni și tropote de cai. Ileana intră și se duce la fereastră) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 4</head>
+          <stage>JOLDEA, SPANCIOC, RUXANDA, ILEANA, DOAMNA</stage>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Vin și ceilalți; curtea-i plină; pururi mi-oi aduce aminte.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (intrând) </stage>
+            <p>Sunt boeri din sfatul țărei, le eșim dar înainte.</p>
+            <stage> (Es cu toții afară de tot; numai Ileana a rămas la fereastră. Ruxanda e în ușă) </stage>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ia privește frumusețe; colea patru, colea trei,—</p>
+            <stage> (cu un zâmbet copilăresc) </stage>
+            <p>Însă Joldea-i tot mai chipeș și mai mândru printre ei.</p>
+            <stage> (Ruxanda se întoarce și intră în scenă, după ea vine Doamna cu Movilă și Stuzea și ceilalți boeri, vorbind între ei. Spancioc și Joldea la urmă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 5</head>
+          <stage>DOAMNA, RUXANDA, ILEANA, JOLDEA, SPANCIOC, MOVILĂ, STURZEA, DARMAN, VEVERIȚĂ, STROICI, DAMIAN</stage>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <stage> (intrând) </stage>
+            <p>Noi am așteptat în vale să se risipească norii.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (ducându-se spre jeț) </stage>
+            <p>Ia ședeți cu voie bună, să ne șeadă pețitorii.</p>
+            <stage> (Damian dă scaune) </stage>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <stage> (așezându-se obosit) </stage>
+            <p>Să ședem dacă ne-ngădui.</p>
+            <stage> (Se-așeză toți. Ruxanda e în stânga, lângă ea în picioare e Joldea, la spate Ileana. Doamna e la masă, boerii toți în jurul mesei afară de Movilă și Sturzea care sunt între Joldea și Doamna) </stage>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Pețitori suntem chiar noi,</p>
+            <p>Și porniți tocmai de-acacsă pe arșiță și pe ploi,</p>
+            <p>Subjugați, ca totdeauna, de a neamului iubire</p>
+            <p>Te rugăm să ne-arăți drumul, să putem găsi un mire,</p>
+            <p>Țărei noastre.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Am credință, că cinstită-s, mult, prea mult,</p>
+            <p>Totuși, fără îndoială ruga voastră v-o ascult.</p>
+            <p>Rog pe Dumnezeu în marea și nemărginita-i milă,</p>
+            <p>Binecuvântându-mi gândul, să-mi îngădue, Movilă,</p>
+            <p>Să numesc pe-acela care e mai vrednic; Dumnezeu</p>
+            <p>Mintea să mi-o lumineze trimițându-mi harul său.</p>
+            <p>Trebuind, ca domn al țărei, om cinstit și drept din fire,</p>
+            <p>În al cărei suflet mare, să nutrească o iubire</p>
+            <p>Fără seamăn, țărei, obștei, totdeauna, la or ce—</p>
+            <p>Eu vi-l spun pe-acela care îl cunosc și știu că e</p>
+            <p>Cum îl vreți. Vă-ndemn pe Joldea să-l alegeți.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Da, firește,</p>
+            <p>Înțelept e și destoinici.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (liniștit) </stage>
+            <p>Însă Joldea nu primește.</p>
+            <stage> (Doamna nu prea e mirată. Murmur printre boeri. Ruxanda încremenită îl privește în vreme ce Movilă după ce l-a măsurat cu privirea de sus până jos se ridică) </stage>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Te cunoști mai bine, poate, decât alții, de vorbești—</p>
+            <p>Dacă scaunul domniei dându-ți-se, nu-l primești.</p>
+            <p>Pentru-ntâia dată astăzi, pot vedea și eu în față</p>
+            <p>Omul care își dă seama decât poate; dar în viață</p>
+            <p>Întâlnești atâtea soiuri de netrebnici—înțelepți,—</p>
+            <p>Ce vorbind de rău pe alții, să cred ei cei mai deștepți,</p>
+            <p>Se cred și cei mai în stare taina firei a pătrunde,</p>
+            <p>Că-ntâlnind vre-unul care nu se laudă ci ascunde</p>
+            <p>Iscusință în smerenie, cum era și mai de mult—</p>
+            <p>Îl ghicești că-i mult mai vrednic și că poate mult mai mult.</p>
+          </sp>
+          <sp who="#darman">
+            <speaker>DARMAN</speaker>
+            <p>Omul vrednic, vrednicia totdeauna și-o ascunde.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Voi vorbiți atât de bine, că nu pot a vă răspunde.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Când vezi tu boierimea să colinde a ajuns,</p>
+            <p>Ca să caute-un destoinic să primească a fi uns</p>
+            <p>Domn, de ce nu vrei tu, Joldeo, răului să-i pui un capăt,</p>
+            <p>Vrând să mergi cu noi acuma?</p>
+            <stage> (Ruxanda s-a ridicat, luând seama la tot ce se petrece s-a apropiat de Doamna împreună cu Ileana care a urmat-o așa încât Joldea rămâne singur în stânga avându-i pe toți în față) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Ascultându-vă nu capăt,</p>
+            <p>Nici o urmă de mândrie și mă credeți că mă simt</p>
+            <p>Și cu inima închisă și cu gândul, mult mai strâmt.</p>
+          </sp>
+          <sp who="#darman">
+            <speaker>DARMAN</speaker>
+            <p>Ce te-mpedică?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (după cea a vorbit cu Ruxanda) </stage>
+            <p>Primește înaintea or și cărei</p>
+            <p>Altei îmboldiri străine, o dorință ce-i a țărei.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Cinstea care mi se face e prea mare, văd și eu,</p>
+            <p>Însă visul de mărire nu încape-n gândul meu.</p>
+            <p>Dintr-un colț, lipsite de lume, am privit cum se frământă</p>
+            <p>Mințile-ale-atâtor oameni pentr-un gând ce te-nspăimântă</p>
+            <p>Și-am citit, când-va, aevea din ceasloave, din bătrâni,</p>
+            <p>Din a neamului poveste, viața domnilor români;</p>
+            <p>Am văzut că cei mai vrednici și mai mari voevozi ai țărei</p>
+            <p>Ce luptat-au să păstreze visele neatârnărei,</p>
+            <p>Fost-au pismuiți nu numai de dușmani, cum e firesc,</p>
+            <p>Dar de chiar boerii țărei—stâlpii tronului domnesc—</p>
+            <p>Dacă ei, ce-au fost de moarte despărțiți numai de-un deget</p>
+            <p>Răsplătiți au fost cu ura ce lovește fără preget,</p>
+            <p>Ce să spunem noi, aceștia care doară năzuim</p>
+            <p>Pentru-a țârei neatârnare sau isbânzi să ne jertfim?</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Cum, în noi nu încolţeşte vitejia strămoşească?</p>
+            <p>Cum, tu crezi că azi în inimi de români n-o să-ncolţească</p>
+            <p>Dorul sfânt al biruinţei ca-n Ştefan cel bun şi drept,</p>
+            <p>Şi pornirilor duşmane, să nu poată ţine piept?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Vremea lui Ștefan cel Mare a trecut de mult; acuma</p>
+            <p>Pe ogorul ţărei noastre-n loc de rouă cade bruma,</p>
+            <p>Căci cu oamenii de astăzi perzi şi ce ţi-a mai rămas,</p>
+            <p>— Strimţi în cuget şi simţire, surzi l-al ţărei jalnic glas.</p>
+          </sp>
+          <sp who="#darman">
+            <speaker>DARMAN</speaker>
+            <stage> (lui Stroici) </stage>
+            <p>De-așa om avem nevoe.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Și de cugetați mai bine,</p>
+            <p>Veți vedea că omul vostru, nu vi l-ați găsit în mine.</p>
+          </sp>
+          <sp who="#stroici">
+            <speaker>STROICI</speaker>
+            <p>Cugetarea ți-e-ndrăsneață, năzuințele-ți sunt mari.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (cu bucurie) </stage>
+            <p>Ai dreptate! Iată Stroici mă pricepe; tu îmi pari</p>
+            <p>Că-mi pătrunzi în suflet. Iată Stroici singur mă-nţelege.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Te-nțelegem toți, n-ai grijă.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Și mă jur pe-a țărei lege,</p>
+            <p>Bună e destoinicia într-un vrednic domnitor,</p>
+            <p>Însă, nu uitaţi o vorbă: — toate sunt la vremea lor.</p>
+            <p>Voi m-alegeţi domn al ţărei cu credinţă şi iubire</p>
+            <p>Dar în, ceasuri de restriște. mă lăsaţi, în părăsire.</p>
+            <p>Stâlpii scaunului domniei se vor clătina mereu,</p>
+            <p>Putrezi sunt o sumă, trainici sunt câţi-va, aşa că eu</p>
+            <p>Nu putea-voi fi nici vouă şi nici ţărei de izbavă,</p>
+            <p>Petrecându-mi vremea-n luptă pentru însăși a mea slavă.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>C-o să lupți pentru domnie ai dreptate, bine-ai zis.</p>
+            <stage> (tuturora) </stage>
+            <p>După ce am aflat că Vodă, lângă Prut, a fost ucis,</p>
+            <p>— Totdeauna cearta pentru o domnie ne desparte—</p>
+            <p>Am pornit pe două drumuri toţi boerii. Noi, o parte,</p>
+            <p>Am venit aci, iar ceilalţi au pornit cu mare-alai,</p>
+            <p>În Polonia, să ceară, pe-un cap de-al lor, la crai.</p>
+            <p>Am venit la însăşi, doamna a lui Petru Rareş, ca să</p>
+            <p>Ne povăţuiască dânsa, ce să facem. În spre casă</p>
+            <p>Un răzeş ne spune în treacăt, că domniţa în curând</p>
+            <p>Îşi va face cununia cu-n boier. Ne-a dat prin gând</p>
+            <p>C-am ajuns la ținta noastră, pe boier de-l vom alege,—</p>
+            <p>Însăşi doamna ne îndeamnă să-l alegem. Să-nţelege,</p>
+            <p>Că noi vrem cu toţii Joldea să te luăm, dar tu te tomi;</p>
+            <p>Ești în cumpănă, fireşte ceasu-acesta ţi-l blestemi,—</p>
+            <p>N-avea grijă, domnul vrednic toate relele le-nfruntă,</p>
+            <p>Și vezi, scaunul domniei, noi ţi-l dăm ca dar de nuntă.</p>
+            <stage> (l-a privit puțin și s-a dus la Doamna, boerii ceilalți sunt împrejurul lor. După câte-va cuvinte schimbate cu Doamna, se-ntoarce la Joldea) </stage>
+            <p>Te lăsăm să te gândești.</p>
+            <stage> (Boerii de lângă uşă rămân acolo, ceilalţi împreună cu Doamna care o ia pe Ruxanda, şi cu Movilă şi Sturzea tae scena prin dosul mesei şi es prin dreapta. Damian, care a ascultat, în fund lângă fereastră, se duce după ei, crapă ușa să vază dată s-au depărtat şi vine grăbit la Joldea, care obosit sta aşezat pe jeţul dia stânga) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 6</head>
+          <stage>JOLDEA, DAMIAN</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Nu!—</p>
+          </sp>
+          <sp who="#damian">
+            <speaker>DAMIAN</speaker>
+            <p>Vai, stăpâne, ce spun ei?</p>
+            <p>Vor cu sila să te facă domn în țară, şi nu vrei?</p>
+            <p>Asta nu se poate, gluma merge până unde merge</p>
+            <p>Când cu gândul la domnie ori ce om pe bot se şterge</p>
+            <p>Neputând s-ajungă Vodă nu se poate să-ntâlneşti</p>
+            <p>Om ce nu primeşte, iată, când îl roagă toţi. Vezi, eşti</p>
+            <p>O minune-n ţara noastră-n care omul, or şi care,</p>
+            <p>Vrea s-ajungă cât de iute, tot mai mare,tot mai mare.</p>
+            <p>Iată mie de mi-ar spune, cineva de vreau să fiu</p>
+            <p>Aş închide-ndată ochii şi-aş primi fără să ştiu.</p>
+            <p>Poate, crezi că nu-ţi stă bine, tu, logodnic de domniţă,—</p>
+            <p>Că, nu eşti destoinic, poate, sau că... de.. nu ești de viţă,</p>
+            <p>Ce-are-a face, ia te uită la Damian — cel scurt și spân,—</p>
+            <p>Tata-i rus, mama-i grecoaică şi el totuşi e român.</p>
+            <p>Ce, te-ntreabă azi în ţară cine-va ce eşti? — Ce-ţi pasă?</p>
+            <p>Cap să ai şi bani—, şi capul une ori îl laşi acasă.</p>
+            <p>Mă ca domn, ce nu poţi face? — Biruri pui, parale ai,</p>
+            <p>Când te supără vre unul într-o clipă pui de-l tai;</p>
+            <p>Țara ţi se ploconeşte; eşti mai mare ca Hatmanul;</p>
+            <p>La Stumbul mergi ca un paşă şi dai mâna cu Sultanul.</p>
+            <stage> (tot spunând, s-a depărtat de Joldea și acum vine iute înapoi) </stage>
+            <p>Dar, apoi când vei fi mare -— nu lua-n seamă, că eşti mic,</p>
+            <p>Unii-s lungi cât o prăjină şi în cap tot n-au nimic;</p>
+            <p>— Au doar ifose şi-acelea la câţi-va adesea nu-s,</p>
+            <p>Dar fiind lung de… fireşte, te priveşte mai de sus.—</p>
+            <p>Uite cum mă fură vorba; iartă-mă, frumos nu-mi şade,</p>
+            <p>Ştii, aşa mi-e firea, de-altfel sunt un om prea cum se cade,</p>
+            <p>Dar trecând dintr-una într-alta, am uitat să-ţi spun ce vream</p>
+            <stage> (pe nerăsfulate) </stage>
+            <p>Fă-mă  mare peste pimniți unde-I vinul mai de neam.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se scoală; urmărind în gând o idee) </stage>
+            <p>Da, așa e! (merge spre masăĕ</p>
+          </sp>
+          <sp who="#damian">
+            <speaker>DAMIAN</speaker>
+            <stage> (crezând că e vorba de el se ia după Joldea) </stage>
+            <p>Am dreptate? Lucru mare n-o să fie.</p>
+            <p>Vezi acelaș ți-a fost gândul,—gând la gând cu bucurie.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se întoarce în stânga) </stage>
+            <p>Ia, mai lasă-mă, ce-am vreme de pierdur, stând să te ascult.</p>
+          </sp>
+          <sp who="#damian">
+            <speaker>DAMIAN</speaker>
+            <stage> (plouat) </stage>
+            <p>Eu vorbesc de-un ceas şi dânsul nu m-ascultă mai de mult.</p>
+            <p>Ne-nţeleasă fire parcă ai jura că-i din poveste,—</p>
+            <p>Eu îi vorbesc de-un ceas aproape şi el nici n-a prins de veste.</p>
+            <stage> (ușa din dreapta se deschide) </stage>
+            <p>E domnița! Vine-ncoace</p>
+            <stage> (ese prin fund, Joldea rămâne gânditor) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 7</head>
+          <stage>JOLDEA, RUXANDA</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (se apropie încet de el) </stage>
+            <p>Tu, gândește-te. Când-va,</p>
+            <p>O să vrei şi-atuncia fi-va prea târziu; în mintea ta,</p>
+            <p>Plăsmueşte cum e bine, să nu poţi avea căire,</p>
+            <p>Mai târziu, când, ca şi alţii vei fi dornic de mărire.</p>
+            <p>Alţii luptă viaţa-ntreagă pentru-ca, măcar o zi</p>
+            <p>Să stea-n rândul celor care pomeniţi pe veci vor fi,</p>
+            <p>Şi când tu, numai c-o vorbă, ai putea fără sfială,</p>
+            <p>Să urci treptele domniei, mai ai vreme de-ndoială?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Nu! Nu stau la îndoială.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>De-e așa?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Am hotărât,</p>
+            <p>Nu primesc.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Boerii pleacă.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Pot să plece, n-au decât.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (stăruitoare, se apropie din ce în ce mai mult, de el) </stage>
+            <p>Cum, când vezi că toţi boerii sunt trimeşi de ţara-ntreagă?</p>
+            <p>Cum, când vezi că însăşi mama îi îndeamnă să te-aleagă?</p>
+            <p>Cum, când vezi că doar o clipă te desparte dac-ai vrea,</p>
+            <p>Şi de tron şi de putere şi de slavă-n țara ta,</p>
+            <p>Poţi să lași, ca judecata s-o domnească îndoiala? —</p>
+            <p>Te codeșşti; n-ai hotărâre! și să ştii tu, că codeala</p>
+            <p>E-o uneltă a dosadei şi â sufletelor mici.</p>
+            <p>Te codeşti!</p>
+            <stage> (se dă câţi-va paşi înapoi) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (mâhnit; cu greutate) </stage>
+            <p>Așa e, bine, mă codescu fie cum zici.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Şi de nu vrei să faci pasul datorit azi întâmplărei,</p>
+            <p>Tot primeşte, căci Ruxanda vrea să fie doamna ţărei.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (o privește mult și-apoi se-apropie de ea) </stage>
+            <p>Pentru ce să-ţi laşi odihna şi căminul tău tăcut?—</p>
+            <p>Să nu spui la bătrâneţe, când vedea-vei c-ai avut</p>
+            <p>Traiul limpede, ca apa ce se scurge din isvoare —</p>
+            <p>C-ai trăit, lipsit de grijă, viaţa ce-o trăeşte-o floare.</p>
+            <stage> (îi ia mâna într-ale lui) </stage>
+            <p>Pentru-ce să nu stăm singuri fără nimeni prin-prejur?</p>
+            <p>Astă-i visul vieței mele şi să-l lepăd nu mă-ndur.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Care-ți este frumusețea să trăești uitat de lume?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Tot mai bună e uitarea, decât cinstea unui nume,</p>
+            <p>Ce n-aduce decât ură</p>
+            <stage> (cu dragoste) </stage>
+            <p>Cu credinţa-n prea înnaltul</p>
+            <p>Să trăim, uitând şi lumea, numai unul pentru altul,</p>
+            <p>Să ne creștem şi copii cum am fost crescuţi şi noi,</p>
+            <p>Nelăsându-i să cunoască suferința din nevoi.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (punând capul pe umărul lui) </stage>
+            <p>Dacă iei domnia, Joldeo, îi vom creşte-n dor de țară;</p>
+            <p>Pildă te vor luă pe tine şi ce bine o să-ți pară.</p>
+            <p>Când, bătrân, le vei da Sfaturi şi-ți vor sta la căpătâi,</p>
+            <p>Soarta îţi va fi aceiaşi...</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (îi lasă mâna și se depărtează) </stage>
+            <p>Ce-o avură frații tăi.</p>
+            <stage> (a ajuns în stânga în fața scenei. Privind-o) </stage>
+            <p>N-auzişi că eri boerii cu smerenie şi credinţă,</p>
+            <p>Dusu-s-au s-aleagă Vodă dup-a Craiului voinţă?</p>
+            <p>Când în ţară ei intra-vor şi vedea-mă-vor pe tron,</p>
+            <p>Au să ceară ajutoare dela Turc, dela Polon,</p>
+            <p>— Ca să sprijine domnia celui, care-l vor alege—</p>
+            <p>Vor fi lupte-ngrozitoare, pentru cine le-nţelege,</p>
+            <p>Iară luptele acestea date fără vre-un... folos</p>
+            <p>Istovi-vor mai mult ţara, coborând-o şi mai jos.</p>
+            <p>Când, la urmă şi norodul — ce se răsvrăteşte iute, —</p>
+            <p>Pe duşmanii ţărei noastre, va veni ca să-i ajute,</p>
+            <p>Când palatul, tot, în mâna răsvrătiţilor, va fi,</p>
+            <p>Ce-o să spui tu — Doamna Ţărei, — celui care te-o lovi?</p>
+            <p>Vrei s-auzi cum tot norod-'mi strigă numele pe uliţi?</p>
+            <p>Vrei să-mi vezi, de-odată, trupul plin de sânge, plin de suliţi?</p>
+            <stage> (Își întoarce privirea dela ea. Trece o clipă și Ruxanda merge spre el) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (cu dragoste, prefăcută) </stage>
+            <p>Tu mi-ai spus, adesea, Joldeo, c-ai dori să-mi dovedeşti,</p>
+            <p>Cât de mare ţi-e iubirea, cât de mult mă preţueşti,</p>
+            <p>lată dovedeşte-acuma; foloseşte-te de vreme;</p>
+            <p>Nu credeam că eşti în stare, Joldeo, tu să te poţi teme.</p>
+            <p>Și de nu vrei către slavă să pășeşti în calea ta,</p>
+            <p>Totuşi fă-o pentru mine, isbândindu-mi vrerea mea.</p>
+            <stage> (îşi înlănţue braţele împrejurul gâtului lui) </stage>
+            <p>Mâine mergem în Suceava, — care-n lupte e căruntă,—</p>
+            <p>Şi cu-a ta învestitură săvârșim a noastră nuntă,</p>
+            <p>Și punând pe cap coroana domnului moldovenesc,</p>
+            <p>Pe mireasa ta vei lua-o în alaiul tău domnesc.</p>
+            <p>Fericit vei fi, ştiind că ai făcut tot pentru mine,</p>
+            <p>Eu în semn de mulţumire voi fi pururi lângă tine</p>
+            <p>Și-ndemnându-te la bine, cu credința-n Dumnezeu,</p>
+            <p>Câmpul luptelor cu tine voi cutreera şi eu.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (cu ochii în ochii ei) </stage>
+            <p>Fi-vei mulțumită, oare, când a ta va fi mărirea?</p>
+            <p>Vei vedea, atunci Ruxando, cât de mare mi-e iubirea?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Dal Da! Joldeo, mă vei face, cea mai mândră-ntre femei,—</p>
+            <p>Joldeo, spune vorba mare, spune da,</p>
+            <stage> (cu ochii în ochii lui, aproape ne-mai răsuflând aşteaptă răspunsul) </stage>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (slab, cu privirea pierdută) </stage>
+            <p>Fie cum vrei!</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (Ia mâinile amândouă în vreme ce Joldea obosit se aşează) </stage>
+            <p>Mulţumesc!</p>
+            <stage> (Dar de câtăva vreme, boerii au început să intre; acum sunt toţi de față. Ileana a intrat şi ea, cu Spancioc. Lipseşte doamna. Ruxanda când i-a văzut, le spune cu mulţumire) </stage>
+            <p>:</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 8</head>
+          <stage>JOLDEA, RUXANDA, MOVILĂ, STURZEA. SPANCIOC, DARMAN, VEVERIŢĂ, STROICI, DAMIAN, ILEANA, mai târziu DOAMNA</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Primește Joldea.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (își trece mâna pe frunte) </stage>
+            <p>Mi se pare o poveste.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (se apropie nedumerit) </stage>
+            <p>A primit?</p>
+            <p>STURZEA</p>
+            <stage> (acelaș joc) </stage>
+            <p>Care-i pricina?</p>
+            <p>VEVERIȚĂ</p>
+            <stage> (se depărtează, după ce venise cu Movilă lângă Ruxanda) </stage>
+            <p>E-ndărătnic mult.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (intră) </stage>
+            <p>Ce este?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (merge la ea) </stage>
+            <p>Joldea spune că primește.</p>
+            <stage> (Trosnește icoana din perete) </stage>
+            <p>ILEANA:</p>
+            <p>A trosnit icoana!</p>
+            <stage> (merge în fund) </stage>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (Doamnei încă nedumerită) </stage>
+            <p>Eu,</p>
+            <p>Numai ştiu unde mi-e mintea.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (mergând după Ileana, în fund) </stage>
+            <p>A trosnit acum?</p>
+            <p>ILEANA:</p>
+            <p>Semn rău!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se ridică şi merge la Doamna, care s-a oprit lângă masă) </stage>
+            <p>Vei veni şi tu-n Suceava?</p>
+            <p>DOAMNA:</p>
+            <p>Nu! rămân în părăsire,</p>
+            <p>Voi, duceţi-vă în lume; eu, mă duc la mânăstire.</p>
+            <p>În Suceava mâine poate, două nunţi aveă-vor loc:</p>
+            <p>Joldea cu Ruxanda, una, şi Ileana cu Spancioc.</p>
+            <stage> (e mare mulţumire printre boeri) </stage>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Vino, dar şi tu la ele.</p>
+            <p>DOAMNA:</p>
+            <p>Nu! în ochii tuturora,</p>
+            <p>Am să-mi văd copilul, Joldeo, şi măcelul din Țuţora,</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (lui Sturzea, în fund) </stage>
+            <p>Dragostea de mamă-i sfântă, no-nţelegi aşa uşor.</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage> (lui Joldea) </stage>
+            <p>lubitor de-a ţărei lege şi de datini păstrător,</p>
+            <p>Cu dreptate cârmueşte.</p>
+            <stage> (Ruxandei) </stage>
+            <p>Tu ajută-i să domnească</p>
+            <p>Cu evlavie.</p>
+            <stage> (Joldea îi sărută mina) </stage>
+            <p>BOIERII:</p>
+            <p>Trăiască Joldea-Vodă.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (întinzându-i mâna) </stage>
+            <p>Să trăiască.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se duce la ea) </stage>
+            <p>Multe face omu-n viaţă şi de vrea şi de nu vrea.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (privindu-l cu mândrie) </stage>
+            <p>Eu să-ţi fiu soţie, Joldeo, şi tu domn.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (o strânge, cu dragoste la pieptul lui) </stage>
+            <p>Ruxanda rea.</p>
+            <stage> (Spancioc şi Ileana s-au apropiat prin fund de ei. Boerii răspândiţi prin odae vorbesc mulţumiţi şi Doamna făcându-şi loc printre ei se duce la icoane. Cortina cade.) </stage>
+          </sp>
+          <stage>PALATUL DIN SUCEAVA</stage>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL II</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>MOŢOC, ŞTEFAN TOMŞA, TRIFAN CIOLPAN, BARNOVSKY. SIMEON</stage>
+          <stage>(La ridicarea cortinei sunt toţi în scenă afară de Moţoc. Puțin după ce s-a ridicat, Moţoe se iveşte prin fund, ține ușa deschisă, o clipă, apoi o închide şi coboară).</stage>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (îngrijat, se-apropie) </stage>
+            <p>Ai schimbat-o?</p>
+            <p>MOŢOC: Eri spre seară.</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <p>Şi ţi-e teamă?</p>
+            <p>MOŢOC:</p>
+            <stage> (gândindu-se) </stage>
+            <p>N-ar fi chip.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <p>Dar, la urmă şi trădarea-i vorbă scrisă pe nisip,</p>
+            <p>În ce facem.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (lui Barnovskty) </stage>
+            <p>Nu e tocmai; or şi cum o iei, jupâne,</p>
+            <p>Fie albă, fie neagră, ea trădare tot rămâne,</p>
+            <p>Și în ochii tuturora noi vom trece-adesea ori,</p>
+            <p>Nu ca oameni de ispravă, dar ca nişte trădători.</p>
+            <stage> (Vorbeşte încet cu Barnovsky. Ciolpan s-a depărtat şi pe la spatele lor l-a ajuns pe Moţoc, care şi el se depărtează de Simeon) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (merge după Moţoc) </stage>
+            <p>Ce-ai făcut iscoada veche?</p>
+            <p>MOŢOC: Am trimes-o, că-i bolnavă,</p>
+            <p>Să se caute acasă, căci aci...</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <p>E, de ispravă</p>
+            <p>Omul care e acuma?</p>
+            <stage> (alcătueşte un grup în fund cu Ciolpan şi Moţoc) </stage>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (înainte lui Barnovsky) </stage>
+            <p>Eu, ades am întâlnit</p>
+            <p>Om care-a trădat pe altul,—fie poate că-i plătit,</p>
+            <p>Fie şi din voie bună, — în folosul celui care</p>
+            <p>Îl îndeamnă; iar, acesta, vezi minunea nu e mare,</p>
+            <p>Îl socoate un nimica şi mă crede că-i aşa,</p>
+            <p>De-a putut trăda pe-un altul și pe el îl va trada.</p>
+          </sp>
+          <sp who="#barnosvky">
+            <speaker>BARNOSVKY</speaker>
+            <stage> (merge spre Moţoc, care coboară) </stage>
+            <p>Nu se poate!</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (stăruitor) </stage>
+            <p>Se întâmplă.</p>
+            <p>MOŢOC:</p>
+            <stage> (urmează convorbirea cu Ciolpan) </stage>
+            <p>…Și cu zale până-n glesne,</p>
+            <p>Petre Stolnicul, e omul care nu se teme lesne,</p>
+            <p>Se aruncă în luptă aprig,</p>
+            <stage> (Ciolpan râde) </stage>
+            <p>pentru ce râzi, tu Ciolpan?</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (în zeflemea) </stage>
+            <p>De-aia-i trebue lui oameni să-i trădeze pe duşman.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOTOC</speaker>
+            <stage> (supărat) </stage>
+            <p>Cine, de-i aşa, te-ndeamnă să lucrezi cum, el, îţi cere?</p>
+            <p>Pentru ce nu-i eşti lui Joldea credincios?</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (firesc) </stage>
+            <p>Dar, bine, vere,</p>
+            <p>Poţi să-nșeli norodul, mie să nu-mi spui că e viteaz,</p>
+            <p>Petru Stolnicul e omul cum avem nevoe azi,</p>
+            <p>Când pe scaunul domniei ni se urcă fără veste,</p>
+            <p>Un boier adus cu sila, neştiindu-l cine este.</p>
+            <p>Dar să-mi spui că Lăpusneanul...</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <stage> (mirat) </stage>
+            <p>Lăpusneanul?</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (se întoarce la el) </stage>
+            <p>…N-ai aflat?</p>
+            <p>Petru Stolnicu-n Lehia numele şi l-a schimbat,</p>
+            <p>Vrea, venind domn în Moldova prin Sienovsky</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <stage> (lămurit) </stage>
+            <p>Da!</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <p>… Hatmanul,</p>
+            <p>Să nu-I se mai zică Petru, ci—Alexandru Lăpușneanul,—</p>
+            <p>După mama lui, femee din Lăpuşna.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <p>Așa dar,</p>
+            <p>Lăpuşneanul cu Lehia e unit?</p>
+            <p>MOŢOC: Și în zadar,</p>
+            <p>Joldea, ar dori Lehiei piept să-i ţie, căci norodul</p>
+            <p>Și boierii mai de seamă știu cine le e voevodui, —</p>
+            <p>Om de rând adus cu sila—</p>
+            <p>TOMŞA: De norod doar să te temi, —</p>
+            <p>Răbojite-i sunt pe trupu-i, luptele-a le-atâtor vremi</p>
+            <p>Cu schimbarea de domnie, El vrea linişte şi pace;</p>
+            <p>De-i voevodul om de viţă sau de rând, tot una face,</p>
+            <p>Om cinstit şi drept la cuget, vrea să aibă,— cei de neam,</p>
+            <p>Une-ori sunt mai de-ocară, mai stricați decât credeam</p>
+            <p>Şi o zicătoare veche, ca şi lumea ştiu, anume:</p>
+            <p>Numele şi-l face omul, dar pe om nu-l face-un nume.</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (îl bate pe umăr) </stage>
+            <p>Numele cu toate-acestea, dă şi el un ajutor,</p>
+            <p>Câţi n-ajung departe, Tomşo, cu un nume sunător.</p>
+            <p>Şi că-e bine să ai nume strălucit, mereu pe limbă,</p>
+            <p>Pildă ai, că nu degeaba Petru Stolnicul și-l schimbă.</p>
+            <p>TOMŞA:</p>
+            <stage> (tare, lui Moţoc) </stage>
+            <p>Lăpuşneanul e de viţă?</p>
+            <p>MOŢOC: Nu-i de viţă, dar a fost</p>
+            <p>Tot de auna-n rândul nostru-şi cunoaşte-al ţărei rost.</p>
+            <p>Şi pe urmă, de.. se spune că ar fi...</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>...puţin ne pasă.</p>
+            <p>MOŢOC: Petru Rareş n-a fost fiul lui Ştefan cu...</p>
+            <p>TOMŞA:</p>
+            <stage> (îi tae vorba) </stage>
+            <p>Lasă, lasă.</p>
+            <p>După mine nu-i nici unul, dintr-aceștia doi, mai bun.</p>
+            <p>Eu, am spus, de-acuma-n colo nici o vorbă nu mai spun.</p>
+            <stage> (se duce în fund; Barnosky şi Simeon îl opresc şi stau de vorbă cu el în vreme ce Moţoc şi Ciolpan au rămas în faţă) </stage>
+            <p>MOŢOC:</p>
+            <p>Totul ar fi fost mai bine, dacă mar fi mers Movilă,</p>
+            <p>Văduvei lui Petru Rareş, sfat să-i ceară, şi în silă</p>
+            <p>Să-l aducă, domn pe Joldea. Ei, fireşte îi a priit,</p>
+            <p>Căci pe Joldea şi-o nepoată, doamna şi-a căpătuit;</p>
+            <p>Nunta cu Ruxanda, încă, n-a făcut-o domnul ţărei.</p>
+            <p>Iar a lui Spancioc mireasă e în prada așteptărei.</p>
+            <p>De trei zile de când Vodă în Suceava a intrat,</p>
+            <p>Aşteptând să facă nunta, toate cele s-au schimbat,—</p>
+            <p>Obicieiul, ca şi omul, dornic e de-o viață nouă,—</p>
+            <p>Căci palatu-ntreg se află împărţit de-odată-n două,—</p>
+            <p>Colo stă Voevodul, Joldea, singur,—cuc,—colo-ntr-alt loc,</p>
+            <p>Stă Ruxanda și aşteaptă cu mireasa lui Spancioc</p>
+            <stage> (nedumerit) </stage>
+            <p>Zău, nu ştiu ce aşteaptă.</p>
+            <stage> (merge în dreapta) </stage>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (după el) </stage>
+            <p>Iacă, te amesteci şi-n iubire. Dă-le pace. Lasă-i.</p>
+            <stage> (se aude sgomot. Moţoc se întoarce cu teamă) </stage>
+            <p>MOŢOC: Vine..</p>
+            <stage> (intră Spancioc. Moţoc curtenitor) </stage>
+            <p>Iată, prea cinstitul mire.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <stage>TOMŞA, MOŢOC, SIMEON, BARNOVSKI, CIOLPAN, SPANCIOC.</stage>
+          <stage>(Frunţile boerilor s-au descreţit, sunt toți veseli ca şi cum nu s-ar întâmpla nimic. Spancioc vine în dreapta lui Ciolpan, cei din fund se apropie)</stage>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (merge în întâmpinarea lui Spancioc) </stage>
+            <p>Ce prielnică e vremea, sărbătoarei, E un dar,</p>
+            <p>Ce vi-l face firea. Când e ziua-n care la altar</p>
+            <p>Te vei duce?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Mâine.</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (încet lui Barnoski) </stage>
+            <p>Mâine!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (văzând c-au tăcut) </stage>
+            <p>Socotiţi voi, că nu-i bine?</p>
+            <stage> (se uită la toţi) </stage>
+            <p>MOŢOC:</p>
+            <stage> (curtenitor, vrând să risipească bănuiala) </stage>
+            <p>Vodă, când își face nunta?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (întunecat) </stage>
+            <p>În aceeaşi zi cu mine,</p>
+            <p>Și cu-o nuntă țărănească.</p>
+            <p>MOŢOC: Mâine, poate, e târziu.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (căutându-i privirea) </stage>
+            <p>Știi ce-va?</p>
+            <p>MOŢOC:</p>
+            <stage> (lasă ochii în jus, apoi îi ridică şi-l priveşte cu mândrie) </stage>
+            <p>Nu ştiu nimica.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (lui Ciolpan) </stage>
+            <p>Ştii ce-va?</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (prefăcându-se mirat) </stage>
+            <p>Eu ce să ştiu?</p>
+            <stage> (firesc) </stage>
+            <p>Ştiu, ce ştim cu toţii.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (lui Moţoc) </stage>
+            <p>Însă, ai aflat ce-va, de vreme</p>
+            <p>Ce i-ai spus…</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (îi tae vorba) </stage>
+            <p>Ca ori şi care dintre noi care se teme</p>
+            <p>De-o răscoală, nouă-n ţară, de-un nou chin, de-un nou blestem;</p>
+            <p>Ție, nu-ţi e teamă? omul,... de,... aşa e.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (luminat) </stage>
+            <p>Nu mă tem,</p>
+            <p>De norod, senin în cuget, cum sunt zările albastre,</p>
+            <p>Dar mă tem de vre-o urzeală şi de gândurile voastre.</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (lui Tomşa) </stage>
+            <p>A aflat ceva.</p>
+            <p>TOMŞA: Se vede.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (isbucnind) </stage>
+            <p>Ne-așteptam să fie-aşa.</p>
+            <p>MOŢOC:</p>
+            <stage> (îngrijat) </stage>
+            <p>Nu urzim nimic.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (nu mai ascultă) </stage>
+            <p>Lehia, e aproape; Craiul vrea,</p>
+            <p>Mai de mult, să aibă-n ţară un prilej să vină—iată,</p>
+            <p>I l-aţi dat chiar voi acuma.</p>
+            <stage> (tare) </stage>
+            <p>Las să vină. Niciodată</p>
+            <p>N-o să cadă Joldea, pradă uneltirilor viclene,</p>
+            <p>Te-nspăimântă când pe piscuri, vezi cum-va, câte-va pene</p>
+            <p>De vultur căzute; pare că-l şi vezi când dânsul nu-i—</p>
+            <p>Tot aşa va fi cu Joldea când vedea-veţi spada lui.</p>
+            <p>Lăpuşneanul n-o să calce în Suceava.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <stage> (înspăimântat) </stage>
+            <p>Lăpușneanul?</p>
+            <p>A aflat.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și craiul ştie cum ne ştie şi Hatmanul,</p>
+            <p>Ce ne poate pielea-n ziua când pornim în vre-un război.</p>
+            <p>Umbra lui Ştefan cel Mare rătăcește printre noi.</p>
+            <p>MOŢOC:</p>
+            <stage> (râzând curtenitor, înaintează) </stage>
+            <p>Nu-nțeleg, cum poţi credinţa să ne-o pui la îndoială;</p>
+            <p>Noi îl vrem pe Joldea.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (se dă înapoi şi-i are pe toți în faţă) </stage>
+            <p>Vorbe! am ghicit că e spoială,</p>
+            <p>Tot ce spuneţi. Bănuit-am c-o trădare are loc;</p>
+            <p>Nu credeam să fie însă iscodită de Moţoc,</p>
+            <p>Şi de Tomşa, om de frunte. Ştiu acum, din fericire</p>
+            <p>Şi trădarea şi minciuna o citeşti într-o privire.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (încet lui Simeon) </stage>
+            <p>Ce ruşine!</p>
+            <stage> (Spancioc s-a întors căci prin fund intră Movilă, Sturzea şi ceilalţi. Tomşa şi Simeon tae scena şi merg de se unesc cu grupul lui Moţoc. Spancioc merge spre eşire) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <stage>TOMŞA, BARNOVSKY, SIMEON, CIOLPAN, MOŢOC, MOVILĂ, SPANCIOC, STURZEA, STROICI, VEVERIŢĂ, DARMAN, HURA.</stage>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <stage> (boerilor ingrijaţi) </stage>
+            <p>Ce ne pasă?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (intrând, lui Spancioc) </stage>
+            <p>Sfatul ţărei e chemat,</p>
+            <p>Din a domnului poruncă să se-adune, la palat.</p>
+            <stage> (Spancioc merge spre Sturzea) </stage>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ştii, Moţoc, care spusese că s-a-ntors acum...</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (lui Moţoc) </stage>
+            <p>...ne prinde—</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (lui Sturzea) </stage>
+            <p>Din Lehia, neplăcându-i domnu-ales, cred că ne vinde</p>
+            <stage> (ese) </stage>
+            <stage> (Movilă și Sturzea înaintează. Ceilalţi amestecându-se vin în faţa scenei. Moţoc face doi paşi spre Movilă) </stage>
+            <p>MOŢOC: A trecut o zi acuma, de când Joldea e ales</p>
+            <p>Şi de-o zi vedem greşeala ce-aţi făcut-o.</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <stage> (lui Tomşa care ese) </stage>
+            <p>Ce faci?</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Es.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <stage>CEILALŢI afară de SPANCIOC ȘI TOMȘA</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Și eu credeam,</p>
+            <p>Că-ntorcându-vă în ţară fără nici un rost, Moţoace,</p>
+            <p>Aţi crezut că este vremea când pot şoarecii să joace,</p>
+            <p>Nefiind nici o pisică-să-i sfâșie,— fără noi, —</p>
+            <p>Va-nşelat credinţa însă, cum aţi înşelat-o voi.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (izbucneşte. Boerii sunt neliniştiţi) </stage>
+            <p>N-o să-ngăduim, în țară, să domnească o muere,</p>
+            <p>Căci cu sceptru şi coroană îi dăm, domnului putere</p>
+            <p>Cât de mare, însă n-are voie altuia s-o dea.</p>
+            <p>Şi de eri văd că domneşte nu ştiu cine ?—El? sau ea?—</p>
+            <p>Iată, pentru ce boerii sunt neliniştiți.</p>
+            <stage> (Movilă vrea să vorbească) </stage>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (tare) </stage>
+            <p>Domnița!</p>
+            <p>Făceţi loc să treacă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Iat-o.</p>
+            <p>Boerii se dau în lături. Ruxanda intră.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <stage>RUXANDA, MOŢOC, MOVILĂ, STURZEA, DARMAN, HURA, VEVERIŢĂ, STROICI, BARNOVSKY, SIMEON, CIOLPAN.</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (lui Movilă. Boerii se închină) </stage>
+            <p>Lăpușneanu e din viţa</p>
+            <p>Lui Ştefan cel Mare.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Fie.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Supt un astfel de cuvânt</p>
+            <p>Lesne, poate să se-aprindă tot norodul. Când e vânt</p>
+            <p>Se întinde focul iute şi de-aceea, teamă-mi este,</p>
+            <p>Nu cum-va să dea de lucru răspândindu-se-astă veste</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (liniştit) </stage>
+            <p>N-avea teamă.</p>
+            <p>MOŢOC:</p>
+            <stage> (lui Barnovsky) </stage>
+            <p>Ştie multe.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <stage> (încet) </stage>
+            <p>E-nţeleaptă.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Eu trimit.</p>
+            <p>Oastea-ntreagă la hotare. Trebue să fi venit</p>
+            <p>Lăpușneanul în Moldova. E primejdie să rămână.</p>
+          </sp>
+          <sp who="#hura">
+            <speaker>HURA</speaker>
+            <stage> (liniştit) </stage>
+            <p>Nu-ţi îndeplinim porunca; oastei nu-i eşti tu stăpână.</p>
+            <stage> (Mişcare printre boeri. Hura vorbeşte încet lui Movilă) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (cu trufie) </stage>
+            <p>Nu-s stăpâna tuturor?—Dar atuncia ce sunt eu?</p>
+            <p>Când stăpân vă este Vodă, şi când Vodă-i robul meu.</p>
+            <stage> (merge spre Moţoc) </stage>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Sturzeo nu miroase-a bine.</p>
+            <p>STURZEA:</p>
+            <p>Şi e vai de clipa aceea,</p>
+            <p>Când în treburile ţărei se amestecă femeea.</p>
+            <stage> (În fund s-a ivit Joldea, urmat de vre-o zece căpitani, S-a oprit, şi apoi coboară. Boerii din scenă sau întors cu faţa la el şi se închină. Ruxanda se razimă de masa din dreapta, lângă jeţ) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <stage>JOLDEA, RUXANDA, MOŢOC, CIOLPAN, DARMAN, SIMEON, BARNOVSKY, MOVILĂ, STURZEA, VEVERIŢĂ, HURA, STROICI, CĂPITANI.</stage>
+          <stage>(Vodă coboară. Cei care îl urmau au rămas în fund lângă armură)</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (ridicând mâna) </stage>
+            <p>Pace vouă.</p>
+            <stage> (coboară) </stage>
+            <p>A! Domnița.</p>
+            <stage> (vine spre ea. Boerilor care-i sunt în cale) </stage>
+            <p>: Bună vreme!</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (îngrijată) </stage>
+            <p>Eu am spus,</p>
+            <p>C-ar fi bine oastea-toată, să pornească azi, în sus,</p>
+            <p>În spre Prut.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Eu cred că-i bine saşteptăm.</p>
+            <p>MOŢOC:</p>
+            <stage> (înaintează) </stage>
+            <p>Și-ntăritura,</p>
+            <p>La Sultan, când mergi, stăpâne, să ţi-o ei?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (mirat) </stage>
+            <p>Eu!</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (în şoaptă lui Moţoc) </stage>
+            <p>Tacă-ți gura!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (mâniindu-se din ce în ce mai tare. Boerii îl urmăresc cu Juare aminte) </stage>
+            <p>La Sultan întăritură? Ce sunt eu? Sunt robul lui?</p>
+            <p>Eu sunt robul ţărei mele şi încolo-al nimănui,</p>
+            <p>La Sultan întăritură? Cum îţi-vin astfel de gânduri?</p>
+            <p>Oare-atârnă, domnul țărei, de Sultan? În dese rânduri</p>
+            <p>Ar fi vrut să și-o supună şi pe domn, rob l-ar fi vrut.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (căutând să-l liniştească) </stage>
+            <p>Nu-i plătim tribut şi-acuma?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Îi plătim; — dar nu tribut.</p>
+            <p>Îi plătim ca mai-nainte, însă azi ca totdeauna,</p>
+            <p>N-a-nsemnat că ţara noastră, a supus-o semiluna.</p>
+            <p>Îi plătim ca să ne-ajute când vre-o dată-n viitor</p>
+            <p>Vom aveă nevoie, poate, împotriva tuturor,</p>
+            <p>Care vin să calce ţara, cu gând rău. Aceasta oare,</p>
+            <p>Are vre-o asemănare, Vornice, cu o-nchinare?</p>
+            <p>Nu! şi ţine bine minte, că Voevodul astei ţări</p>
+            <p>E departe de-a-nţelege gândul vre-unei închinări,</p>
+            <p>Și Sultanul să-nțeleagă, că Voevodul nu se-ndură,</p>
+            <p>Țara să şi-o lase, pentru ca să-şi iea întăritură</p>
+            <p>Dela el, fiind-că Vodă este mult mai mulţumit</p>
+            <p>Când i-o dă norodul ţărei prin al său Mitropolit.</p>
+            <p>La Sultan întăritură!</p>
+            <stage> (Tomşa, a intrat şi a rămas în fund) </stage>
+            <p>MOŢOC: Gându-acesta te-nfioară,</p>
+            <p>Nimeni nu-i stăpân pe ţară.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Vodă e stăpân pe ţară.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (s-a liniştit. O priveşte pe Ruxanda, apoi pe boeri) </stage>
+            <p>Nu! nici Vodă, căci şi Vodă une-ori e străduit,</p>
+            <p>Să asculte glasul celui dintre toţi mai obidit.</p>
+            <p>Glasu-acesta de se-ncearcă cei mai mari să-l înăbușe</p>
+            <p>Or-ce stavilă sfărâmă, rupe or și ce cătuşe,</p>
+            <p>Şi ajunge pân-la Vodă, limpede în mersu-i rar,—</p>
+            <p>Glasul obștei se înalţă, ca tămâia pe altar;</p>
+            <p>El e limpede, ca cerul în senina zi de vară,</p>
+            <p>Şi de-aceea se aude din or-care colţ de ţară;</p>
+            <p>E curat, cum e lumina soarelui la răsărit,</p>
+            <p>Şi se-aude, căci e glasul omului nedreptăţit.</p>
+            <p>Rar, încearcă să vorbească, dar când spune,—spune multe!</p>
+            <p>Și dator e domnul țărei totdeauna să-l asculte</p>
+            <p>Și să facă ce i-o spune. Iată dar că nu-i stăpân.</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (cu răutate) </stage>
+            <p>Dar boerii?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (prefăcându-se c-a uitat) </stage>
+            <p>Da, aşa e! vezi, boerii cum rămân?</p>
+            <stage> (isbucneşte) </stage>
+            <p>Mai cu seamă cei netrebnici, cu-a lor ură pătimașă,</p>
+            <p>Care sug din tine sânge până când, din el se-ngrașă</p>
+            <p>Și tu rabzi privindu-i, numai, cu ochii stinşi, slabi şi cuminţi,</p>
+            <p>Drag norod, crescut din fașă, în dureri și-n suferinţi.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (în fund, printre boeri) </stage>
+            <p>Să trăești Măria-ta!</p>
+            <stage> (toţi se întorc cu faţa în fund. Mişcare printre boeri) </stage>
+            <p>MOŢOC:</p>
+            <stage> (încremenit) </stage>
+            <p>Ce? Ce faci Tomşo?</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Iată, domnul</p>
+            <p>Ce-l visam de mult, priveşte, iată el nu doarme somnul</p>
+            <p>Nesimţirei, ca şi ceilalţi ce-i avurăm.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <stage> (lui Moţoc) </stage>
+            <p>Ne-a pierdut.</p>
+            <p>MOŢOC:</p>
+            <stage> (liniştindu-l) </stage>
+            <p>Lasă, n-avea nici o grijă ştiu de-acum ce-i de făcut,</p>
+            <stage> (În vremea asta, Tomşa s-a apropiat de Vodă) </stage>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Iartă robul tău stăpâne, de ţi-a fost cu necredinţă,</p>
+            <p>Iartă-l, când îţi vine-n faţă, umilit, cu pocăință,</p>
+            <p>Iartă-l, dac-a pus vre-odată la-ndoială cinstea ta,—</p>
+            <p>Și arată-ţi îndurarea, începând prin a erta.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (blând) </stage>
+            <p>Tomşo, n-avea frică, ura nu se poate să-ncolţească</p>
+            <p>Într-un suflet care ştie ce e bun, să preţuiască.</p>
+            <p>Numai, Dumnezeu să-ţi erte de te crezi cu vre-un păcat,</p>
+            <p>Omul, n-are cum să-ţi erte, nu-i nici el nevinovat,</p>
+            <p>Și de-ai fost cu necredinţă, căci aşa găsişi cu cale,</p>
+            <p>Nu mi-ai fost față de mine, i-ai fost însăşi ţărei tale</p>
+            <p>Ei să-i ceri ertare.</p>
+            <stage> (urcă spre Ruxanda) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (dând mâna lui Joldea) </stage>
+            <p>Tomşo, omul nu e umilit,</p>
+            <p>Când ertare el îşi cere de se ştie c-a greșit.</p>
+            <stage> (Tomşa s-a-nchinat, Joldea ridică mâna. Boerii au înţeles şi se îndreaptă spre eşire, în vremea asta cei cu Moţoc vorbesc încet) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <p>Greu!</p>
+          </sp>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <p>Se ţine țeapăn.</p>
+            <p>MOŢOC: Totuşi, am nădejdea că-l voi perde.</p>
+          </sp>
+          <sp who="#ciolpan">
+            <speaker>CIOLPAN</speaker>
+            <p>Greu îl smulgi din rădăcină un stejar ce-i încă verde,</p>
+            <p>Iar ai lui, cu-astfel de vorbe toate căile-și deschid.</p>
+          </sp>
+          <sp who="#barnovsky">
+            <speaker>BARNOVSKY</speaker>
+            <p>Şi de tron se-agaţă Tomşa, ca o ederă de un zid.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Nu, nădejdea nu v0o perdeţi; în domniţa e scăpare,</p>
+            <p>Are suflet mic, cu toate că din vorbă pare mare.</p>
+            <stage> (Boerii es. Ruxanda şi, Joldea trec în stânga. Ea se așează pe jeț şi el pe scaun, lângă ea.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <stage>RUXANDA. JOLDEA</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (luându-i-imâna într-ale lui) </stage>
+            <p>Te căești acum; Ruxando c-am primit domnia ta?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (gânditoare) </stage>
+            <p>Nu!</p>
+            <p>JOLDEA:</p>
+            <p>Poate, sunt unde-mi e locul; dar mă-ntreb ce cauţi tu</p>
+            <p>Crin, fermecătoare floare, prin atâta înjosire</p>
+            <p>Şi minciună, tu făcută să trăeşti doar din iubire</p>
+            <stage> (se aşează lângă ea. Cu dragoste:) </stage>
+            <p>N-ar fi fost mai bine, spune, să rămânem părăsiţi?</p>
+            <p>Uite, nu putem nici nunta să ne-o facem liniștiți.</p>
+            <p>Cum, vrei să ne duşmănească mai mult ura rea şi cruntă,</p>
+            <p>Când ne depărtează, pururi, zi cu zi a noastră nuntă.</p>
+            <p>Am fi fost mai bine acasă, fără grijă şi nevoi,</p>
+            <p>Lângă mama, fără ura care-apasă greu pe noi,</p>
+            <p>Traiul, ne-ar fi fost ca vremea unei nopţi de primă-vară,</p>
+            <p>Liniştit, cum vezi că ese fumul din cămin spre sară,</p>
+            <p>Iar drumeţul vrând odihnă și cerându-ne-adăpost,</p>
+            <p>Ar fi dat de fericire. Cât de bine ar fi fost.</p>
+            <p>Și ne-am fi iubit, Ruxando, fără grija altor vremuri,</p>
+            <p>Da! ne-am fi iubit, așa e, te-am simţit, te simt că tremuri,</p>
+            <p>Tremuratul în iubire e-un răspuns ce nu-l poţi da—</p>
+            <p>Și acest fior ce-ţi trece pentru tine mi-a spus: — da.</p>
+            <p>Pentru noi atâția oameni perd şi urma de credinţă,—</p>
+            <p>Ce-s de vină ei, Ruxando?</p>
+            <stage> (intră Ileana) </stage>
+            <p>Ce-i de vină, o fiinţă —</p>
+            <p>Pentru noi să n-aibă parte de noroc?</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <stage>RUXANDA, JOLDEA, ILEANA</stage>
+          <stage>(intră prin dreapta și se opreşte în prag)</stage>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Norocul meu,</p>
+            <p>Simt că nu se perde lesne, am credinţă-n Dumnezeu.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se ridică, merge spre ea) </stage>
+            <p>Ce faci ziua ta întreagă?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Eu lucrez, căci o să fie,</p>
+            <p>Mâine-mi pare,da Domniţă? ziua mea. de cununie.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (visător) </stage>
+            <p>Mâine!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (speriată) </stage>
+            <p>Mâine, da!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (îi pune mâna pe umăr şi apoi se depărtează) </stage>
+            <p>Ascultă, nu mai spune nimănui</p>
+            <p>Şi lucrează înnainte, căci lucrezi norocul lui.</p>
+            <stage> (ese prin fund) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <stage>RUXANDA, ILEANA</stage>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ştie! nu se poate! Însă ei îi spun, căci sunt datoare.</p>
+            <stage> (tare) </stage>
+            <p>E-o urzeală şi pe Joldea vor câţi-va să ţi-l omoare.</p>
+            <stage> (Ruxanda se trezeşte. Începe să-şi dea seama de ce-a fost în jurul ei. Nu spune nimic) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (neliniştită) </stage>
+            <p>Ai aflat?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (se ridică) </stage>
+            <p>De mult.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>El ştie?</p>
+            <p>RUXANDA:</p>
+            <p>Nu i-am spus. Eu doar presimt. Am ghicit văzând pe Tomşa, pe cei lalţi îi ştiu ce simt.</p>
+            <stage> (cu grijă) </stage>
+            <p>Lăpuşneanu-i mai aproape şi de noi şi de domnie</p>
+            <p>De cât cum credeam.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Lui Joldea spune-i tot, să nu-ntârzie,</p>
+            <p>Şi să cadă prada urei lui Moţoc.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (vrea s-o depărteze) </stage>
+            <p>Îi spun. Şi-acum,</p>
+            <p>Du-te, tu, prin iscusinţă către ei mi-oi face drum.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Nu-l lăsa pe Joldea.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (ducându-se spre uşă) </stage>
+            <p>Nu, dar du-te.</p>
+            <stage> (Ileana ese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <stage>RUXANDA</stage>
+          <stage>(a închis uşa, apoi a coborât până în dreptul mesei din dreapta, a tăcut o clipă).</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Se-nțelege,</p>
+            <p>Între moarte și domnie, care-i calea ce-aș alege.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <stage>RUXANDA, MOȚOC.</stage>
+          <stage>(Moțoc se ivește în fund. Ruxanda când îl vede se oprește lângă jeț)</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Cine e? Moțoc!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (văzând-o) </stage>
+            <p>Domnița!</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Vornice, voi să-ți vorbesc.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (se apropie) </stage>
+            <p>Iată-mă ca tot-deauna, robul neamului domnesc.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (se așează) </stage>
+            <p>Ce fățarnic.</p>
+            <stage> (liniștită) </stage>
+            <p>Oare Joldea, crezi că n-o să mai domnească</p>
+            <p>Multă vreme?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu fățărnicie) </stage>
+            <p>Nu știu, doamnă, poate să se și-ntărească</p>
+            <p>În domnie; nu se știe ce-I aduce vremea, lui.—</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Crezi c-o să-l omoare?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Nu știu.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Știi, dar nu vrei să ne spui.</p>
+            <p>Știi, mai mult ca ori și care, știi mai mult decât pot crede,</p>
+            <p>O comoară de-i ascunsă în vre-un loc pustiu, se vede</p>
+            <p>Noaptea, flacărea de-așupra, ce se-ntinde, şi-e firesc,</p>
+            <p>Că vin oamenii să sape, o găsesc ori n-o găsesc.</p>
+            <p>Celui care sapă locul i se zice că-i zănatic,</p>
+            <p>Fie, vroi să sap ca dânsul; ochii-ţi sunt ca de jăratic,</p>
+            <p>Bănui că o taină mare se ascunde-n gândul tău,</p>
+            <p>Taina-mi e ca o comoară şi doresc să știu şi eu.</p>
+            <p>MOŢOC:</p>
+            <p>Doamnă, taina n-o s-o afli, căci o taină se păstrează,</p>
+            <p>Câtă vreme vrea, acela care ţi-o încredinţează.</p>
+            <p>Eu, ca sfetnic ştiu mai multe, însă trebue să tac,</p>
+            <p>De-l povăţuesc pe Vodă, nu m-ascultă.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Vroi să fac</p>
+            <p>Să te-asculte. Spune-mi însă tot.</p>
+            <p>MOŢOC: E greu!</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>...că Lăpuşneanul</p>
+            <p>Vine spre Suceava, poate, că-nsoţit e de Hatmanul</p>
+            <p>Oştilor rusești—Acestea le știu toate.</p>
+            <p>MOŢOC:</p>
+            <stage> (între dinţi) </stage>
+            <p>C-am târziu.</p>
+            <stage> (tare) </stage>
+            <p>Ce-ai dori să mai ştii încă?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (privindu-l în uchi) </stage>
+            <p>Înţelegi ce-aş vrea să ştiu.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Nu-nțeleg nimic.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Ascultă. Eu. nu sunt o trădătoare,</p>
+            <p>Poţi încredința Ruxandei, or şi ce; Moţoc, crezi oare</p>
+            <p>Că te-ncerc? N-avea grijă. Nu ne-aude nimeni!—Taci?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>N-am nimic de spus, Domniţă.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Ai avea, dar te prefaci</p>
+            <p>Știu din ziua-n care Joldea în palat a pus piciorul</p>
+            <p>Că Moţoc cu Lăpuşneanul prin Revelles scriitorul,</p>
+            <p>Sunt în legătură; iată ştiu mai mult decât credeai.</p>
+            <p>Începutu-i greu, acuma fără grijă spune. Hai!—</p>
+            <p>MOŢOC:</p>
+            <stage> (face câţi-va paşi spre masă) </stage>
+            <p>Dacă vrei să-ţi spun, ți-oi spune; însă ţine bine minte,</p>
+            <p>Nici o vorbă să nu-ţi scape din ce-ţi spun, de-acu nainte.</p>
+            <p>Am văzut că bietul Joldea, deşi crede că-l iubeşti,</p>
+            <p>Nu-ţi cunoaşte încă firea şi nu ştie cine eşti.</p>
+            <stage> (Prin fund s-au ivit Stroici şi Veveriţă. Văzând-o pe Ruxanda, s-au oprit. Apoi tae scena eşind prin stânga umblând încet nevrând, parcă să turbure convorbirea. Ruxanda, de cum i-a văzut s-a ridicat.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <stage>MOŢOC, RUXANDA, STROICI şi VEVERIŢĂ</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (în picioare lui Moţoc) </stage>
+            <p>Vornice, să ştii că Vodă nu se teme de-o trădare,</p>
+            <p>Vă povăţuesc, mânia-i să n-o puneţi la-ncercare,</p>
+            <p>Căci de află că se face vre-o urzeală în palat,</p>
+            <p>Vor avea ce să mănânce, corbii care i-am uitat.</p>
+            <p>Din milos se face fiară, când o vrea să se răsbune,</p>
+            <p>Nu nesocotiţi povaţa ce v’o dau.</p>
+            <stage> (Cei doi boeri au eşit. Moţoc a priceput îndată ce i-a văzut şi a aplecat capul, acum când au eşit, Ruxanda se-aşează din nou şi zâmbindu-i zice) </stage>
+            <p>:</p>
+            <p>Şi acuma, spune.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <stage>RUXANDA, MOȚOC</stage>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>M-ai uimit, și-ți spun pe cinste că eu nici n-aș fi crezut</p>
+            <p>C-o să poți atât de bine să-ții cumpătul.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Am vrut,</p>
+            <p>Să-ți arăt ce pot. Îmi pare că-ți eram necunoscută,</p>
+            <p>O femee e adesea toată viața prefăcută.</p>
+            <p>Spune! Spune, perdem vremea.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu îndrăsneală) </stage>
+            <p>Și perzând un ceas acum,</p>
+            <p>Perdem zile și o clipă ne e foarte scumpă</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (neliniștită) </stage>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Cum? E lesne, Lăpușneanul e la porțile Moldovei.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Ai aflat?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Da, prin Revelles, meșterul în ale slovei.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (cu nerăbdare) </stage>
+            <p>Și e singur?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Cu Seniovsky.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Mare e oștirea lor?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Mult mai mare ca a noastră. În Moldova, vin, că vor</p>
+            <p>Satele să le răscoale cu oştirea, căci norodul</p>
+            <p>Surd e de-astădată; poate, că se-ncrede în voevodul</p>
+            <p>Care-1 are. Oastea-ntreagă e cu Joldea, nu cu noi,</p>
+            <p>Și de-aceea ne e teamă să nu fie vre-un răsboi.</p>
+            <p>Vream pe Joldea să-l trimitem cu oştirea la hotare,</p>
+            <p>Și-acolo, într-o noapte, ca părtaşă la trădare —</p>
+            <p>Să-l ucidem. Și să spunem oastei de ne va-ntreba,</p>
+            <p>Vre-o minciună. Însă Joldea nu primeşte.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Știu, e-așa!</p>
+            <p>El s-ar duce, nu se teme, dar Spancioc îl sfătuește</p>
+            <p>Să nu meargă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (privind-o, amenințător) </stage>
+            <p>Lăpușneanu, azi sau mâine, biruește,</p>
+            <p>Și de intră în Suceava, într-un ceas—nu mai târziu,</p>
+            <p>Tu cu Joldea, în robie, veți fi duși de dânsul.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (se-ncruntă; strânge brațul jețului cu putere) </stage>
+            <p>Știu,</p>
+            <stage> (se ridică) </stage>
+            <p>Dar mă dau cu voi boerii, ca partașă a trădărei,</p>
+            <p>Dacă-mi jură Lăpușneanul că rămân eu, doamna țărei.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (luminat) </stage>
+            <p>Vei rămâne, pentru dânsul pot să jur eu.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Jură!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (după ce-a stat la îndoială) </stage>
+            <p>Jur.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (coboară) </stage>
+            <p>Și acum pe-ai tăi îi chiamă și mi-I adă împrejur.</p>
+            <p>Eu vi-l dau pe Joldea astă-zi, dacă vreți, în mâna voastră,</p>
+            <stage> (îl duce spre ușă) </stage>
+            <p>Să se țină Lăpușneanu de cuvânt.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (s-a oprit. Cu mândrie) </stage>
+            <p>E-n mâna noastră.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Spune-I deci că spre domnie îi fac drumul mai ușor;</p>
+            <p>Nici Seniovsky nu l-ar face cum îl fac. Dar ești dator,</p>
+            <p>Vornice, să-ți ții cuvântul.</p>
+            <stage> (îl oprește) </stage>
+            <p>Voi sta prada așteptărei</p>
+            <p>Până când?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Până-n deseară, vei fi doamnă.</p>
+            <stage> (ese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <stage>RUXANDA, DAMIAN</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (Rămâne puţin în fund. Apoi se întoarce cu mândrie) </stage>
+            <p>: Doamna ţărei.</p>
+            <stage> (coboară; se reazimă de masă) </stage>
+            <p>Cad Voevozii din domnie, cum cad frunzele din pom.</p>
+            <p>Vai. Cât prețueşte-o clipă în viaţa unui om.</p>
+            <stage> (merge spre uşa din dreapta. O deschide, face semn cui-va. Damian intră) </stage>
+            <p>Du-te şi lui Vodă, spune-i c-aş dori să-l văd.</p>
+          </sp>
+          <sp who="#damian">
+            <speaker>DAMIAN</speaker>
+            <p>Acum?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Da, acuma.</p>
+            <stage> (se reazimă de masă) </stage>
+          </sp>
+          <sp who="#damian">
+            <speaker>DAMIAN</speaker>
+            <p>Ce-o fi oare? mă, să ştii se-ngroaşe gluma.</p>
+            <stage> (în uşă se-ntâlneşte cu Joldea. Îl lasă să treacă şi ese) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <stage>RUXANDA, JOLDEA</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (amărât) </stage>
+            <p>Lăpuşneanul nu ne lasă să ne facem nunta. Vrea,</p>
+            <p>Zi cu zi să ne amâne, mulțumirea ta și-a mea,</p>
+            <p>Căci ce-ar spune-ntreg norodul, credincioslui Vodă oare?</p>
+            <p>De-ar vedea duşmanii-n ţară şi în Suceava sărbătoare.</p>
+            <p>Dar, la noapte Lăpuşneanul peste Prut va fi gonit,</p>
+            <p>Moldovenii merg spre dânsul.</p>
+            <stage> (luându-i mâinele) </stage>
+            <p>Mâine chiar, la răsărit,</p>
+            <p>Poate, clopotul, de-aramă, al Sucevei le vestește</p>
+            <p>Tuturora: cu Ruxanda, Vodă se căsătoreşte.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (liniştită) </stage>
+            <p>Pentru-ce n-ai mers cu oastea chiar tu Joldeo?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Aş fi vrut.</p>
+            <p>RUXANDA:</p>
+            <p>Ca s-o îmbărbătezi în luptă de se-ntâmplă…</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>N-am putut;</p>
+            <p>M-au împedecat boerii, căci Moţoc veni să-mi spună</p>
+            <p>Să pornesc şi eu cu oastea, şi-au crezut că nu-i a bună</p>
+            <p>De mă-ndeamnă, el, Suceava, azi, s-o părăsesc. Spancioc</p>
+            <p>Ma-ndemnat să stau; se spune c-o urzeală-i la mijloc.</p>
+            <p>RUXANDA:</p>
+            <p>O urzeală? Cine-ţi spune? M-am temut şi eu o clipă.</p>
+            <p>Dar acuma, văd că totu-i născocire. Du-te-n pripă;</p>
+            <p>M-am încredinţat eu însu-mi, nu-i nimic şi tu te-ncânţi,</p>
+            <p>Le e teamă; când ţi-e teamă şi de-o-umbră te-nspăimânţi.</p>
+            <p>Dac-aș şti că e primejdie te-aş lăsă sau te-aș trimite?</p>
+            <p>Du-te Joldeo, fără teamă, oştile îţi sunt pornite,</p>
+            <p>Le ajungi până-n deseară şi cu Vodă-n fruntea lor,</p>
+            <p>Fac minuni de vitejie, Moldovenii, dacă vor.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se aprinde la fiecare vorbă a ei) </stage>
+            <p>Da! mă duc, mă-ncred în tine, Totul eo născocire!</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (pune mâna pe umărul lui şi-şi apropie capul de al lui) </stage>
+            <p>Şi la porţile Sucevei te-aștept mâine ca pe-un mire.</p>
+            <stage> (îl duce spre armură. Joldea își pune spada. Hura, se iveşte în pragul uşei din fund) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <stage>RUXANDA, JOLDEA, HURA</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (lui Hura) </stage>
+            <p>Vodă vrea să plece.</p>
+          </sp>
+          <sp who="#hura">
+            <speaker>HURA</speaker>
+            <stage> (mergând la Joldea) </stage>
+            <p>Doamne, nu pleca.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (nerăbdător) </stage>
+            <p>De-acum e-n van!</p>
+          </sp>
+          <sp who="#hura">
+            <speaker>HURA</speaker>
+            <p>E-o urzeală și acela ce te-ndeamnă, ți-e dușman.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (rămâne nemișcat; apoi scos din fire) </stage>
+            <p>Cum dușman! E chiar stăpâna mea și-a voastră!</p>
+          </sp>
+          <sp who="#hura">
+            <speaker>HURA</speaker>
+            <stage> (încremenit, după ce și-a aruncat privirea spre Ruxanda) </stage>
+            <p>Cum? Stăpâna?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (beat de mânie merge spre el cu mâna ridicată) </stage>
+            <p>Eși afară! Eși afară!</p>
+            <stage> (Hura nu se mișcă. Joldea lasă mâna-n jos) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Ce faci Joldeo?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (cu graiul stins, oftând greu) </stage>
+            <p>Adu mâna.</p>
+            <stage> (Obosit, vine spre Ruxanda. Ea îi dă mâna, și cu ochii în ochii ei, Joldea se duce la jețul ded lângă masă și se-așează. Ruxanda mai stă puțin lângă el și apoi ese prin dreapta când vin boerii din fund) </stage>
+            <stage> (Hura, a eșit încet prin fund) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <stage>JOLDEA, HURA, SPANCIOC, MOVILĂ, STURZEA, VEVERIȚĂ, STROICI</stage>
+          <stage>(Boerii se-apropie încet de Joldea)</stage>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nenorocul urmărește pretutindeni, omul.</p>
+            <stage> (Joldea ridică capul) </stage>
+            <p>Da.</p>
+            <p>Vrei să pleci, ți-am spus cu toții că nu-I bine de-i pleca;</p>
+            <p>Totuși vrei. Stăpân ești, doamne, fă cum crezi de cuviință,</p>
+            <p>Dar ascultă înc-o dată, pe acei ce cu credință</p>
+            <p>Și cu drag îți vin aproape. Nu pleca.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Tu, poate crezi</p>
+            <p>Că mă vinde și Ruxanda? Îndrăsnești să spui?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Dovezi,</p>
+            <p>Nu-ți pot da. Domnița însă, de-unde știe că nu este</p>
+            <p>Vre-o urzeală?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Știe. Oare, n-ar fi prins și ea de veste,</p>
+            <p>De-ar fi fost ce-va?—Și credeți, că Ruxanda n-ar fi spus?</p>
+            <stage> (privindu-i pe toți) </stage>
+            <p>Dar nu-i văd pe toți aicea! Unde-i Tomșa?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>El s-a dus,</p>
+            <p>Nu mai vrea, părtaș, să fie nimănui, de-a fost odată,</p>
+            <p>Cu ceilalți.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Mă mir de Tomșa, fapta lui e neertată,</p>
+            <p>De s-a dus.</p>
+            <stage> (stăruitor) </stage>
+            <p>Dar, nu cred.</p>
+            <stage> (lui Spancioc) </stage>
+            <p>Du-te, de mi-l adu, vroi să-l scot</p>
+            <p>Și pe el din rătăcire, ca pe voi.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>S-a dus.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (neîncrezător) </stage>
+            <p>: De tot?</p>
+            <p>Nu vrea să ne spună planul celorlalți?</p>
+            <stage> (îi face semn să se ducă. Spancioc ese. Joldea pune brațul pe masă și se uită la Sturzea) </stage>
+            <p>Ce-i oare,</p>
+            <p>Vorba ce mi-o spuneți veșnic, vorba asta de trădare?</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Doamne, vezi, trădarea nu e doar o vorbă cum socoți,</p>
+            <p>Ea e-o faptă mișelească, de aceea nici nu poți</p>
+            <p>S-o-nțelegi, atât de lesne, însă ține minte bine,—</p>
+            <p>E să furi credința celui care s-a-ncrezut în tine.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (prefăcut) </stage>
+            <p>Ca să pot fura credința e ușor, dar e mai greu,</p>
+            <p>Să-l pot face să se-ncreadă într-un om cum aș fi eu,</p>
+            <p>Oare numă simte acela?</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Nu, căci din nenorocire,</p>
+            <p>Poți să faci ce vrei din altul, prefăcut prin lingușire.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (gânditor) </stage>
+            <p>Prefăcut prin lingușire,—Sturzeo, tu știi din belșug,—</p>
+            <p>Lingușire, lingușire, cum înveți ăst meșteșug?</p>
+            <p>STURZEA:</p>
+            <p>Linguşirea-i să spui multe, şi să nu-ţi faci datoria.</p>
+            <p>Şi din ea se naşte lesne, Doamne, prefăcătoria.</p>
+            <p>Meşterii în lingușire, meșterii din cei mai tari,</p>
+            <p>Îi găseşti în totdeauna-n preajma oamenilor mari.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (se ridică) </stage>
+            <p>Într-adins am vrut acestea să le spui acuma, —tare,—</p>
+            <p>Voi mai credeţi că Ruxanda, ar puteă să fie-n stare</p>
+            <p>Să mă vindă ? Voi, mai credeţi?</p>
+            <stage> (Movilă se apropie) </stage>
+            <p>Nu, vă mai ascult. Plecaţi.</p>
+            <p>MOVILĂ:</p>
+            <p>Doar o vorbă să-ţi mai spunem ! Una!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (nerăbdător) </stage>
+            <p>E zadarnic.</p>
+            <stage> (se duce la uşa din stânga) </stage>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (boerilor, care se-ndreaptă spre fund) </stage>
+            <p>Stați!</p>
+            <stage> (boerii se-ntoarce cu fața la el) </stage>
+            <p>Să-l urmăm!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (a ajuns la ușă și se-ntoarce) </stage>
+            <p>Movilă! Stroici! Voi puteți încăleca</p>
+            <p>Și puteți veni cu mine.</p>
+            <stage> (boerii se-nchină și es prin fund. Joldea se uită-n urma lor și vrea să iasă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <stage>JOLDEA, ILEANA</stage>
+          <stage>(Ileana intră prin fund și îi aține calea. Începe să se-ntunece)</stage>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Doamne Joldeo, nu pleca.</p>
+            <p>E Ruxanda înţeleasă cu vrășmaşii tăi. O clipă</p>
+            <p>Te desparte de peire; eu, de eri aud cum ţipă</p>
+            <p>Cucuveaua la fereastra ta, n-auzi? N-ai auzit?</p>
+            <p>Candela se stinge-ntr-una de când, Joldeo, am venit.</p>
+            <p>Nu pleca! Rămâi.</p>
+            <stage> (îi cade în genuchi plângând) </stage>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Ileano, nu-nțeleg.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>O! fie-ți milă,</p>
+            <p>Dacă nu de tine, Joldeo, dar de mine.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (blând) </stage>
+            <p>Nu, copilă!</p>
+            <p>Scoală! cine mă omoară? Nimeni nu-i atât de rău,</p>
+            <p>Chiar de-ar fi—nevinovatul e păzit de Dumnezeu.</p>
+            <p>Te-a mințit cel care-ți spune,—în ce vezi nenorocirea?</p>
+            <p>Cine te îndeamnă, cine? ca să v ii să-mi spui.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Iubirea.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (ridicând-o) </stage>
+            <p>Mă iubești tu?</p>
+            <p>ILEANA:</p>
+            <p>Da, mă iartă, te iubesc cum n-am iubit,</p>
+            <p>Cum nu te iubește nimeni. Iartă-mă de-am îndrăsnit</p>
+            <p>Să ţi-o spun, căci ţiu ascunsă de atâta amar de vreme</p>
+            <p>Suferinţa mea, în mine; o aud şi-acum cum geme;</p>
+            <p>S-o-nnăbuş am vrut, stăpâne, nu puteam era pre greu—</p>
+            <p>Tu-o iubeşti la nebunie, eu nebună plâng mereu.</p>
+            <p>Tu al alteia eşti, Joldeo, n-aveam dreptul vai! ştiu bine,</p>
+            <p>Să te am, credeam că dânsa te iubește ca şi mine,</p>
+            <p>Și de ce să-i iau norocul când e dat de Dumnezeu,</p>
+            <p>Eu cunosc nenorocirea şi mai bine sufăr eu.</p>
+            <p>Dar, acum când văd că-ntrânsa totul e, numai minciună,</p>
+            <p>Mi se cade să-ţi spun, Joldeo!</p>
+            <stage> (plânge) </stage>
+            <p>Iartă-mă, sunt o nebună,</p>
+            <p>Către tine nu pot ochii, de acum, să-i mai ridic.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (visător) </stage>
+            <p>M-ai iubit de-atâta vreme și eu n-am știut nimic.</p>
+            <p>O, te cred că suferința ți-a fost mare, fără nume,</p>
+            <p>Trebuia să-mi spui o vorbă și să te fi dus în lume.</p>
+            <p>ILEANA:</p>
+            <p>Nu, în vorbe nu poți spune,—or și cât te-ai strădui,—</p>
+            <p>Ce-ai în inimă. Simțirea nu se poate povesti,</p>
+            <p>Ea a inimei rămâne,—o citești doar în privire,</p>
+            <p>Căci privirea între inimi este singura unire.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>E târziu de-acum.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Știu.</p>
+            <stage> (ca un copil) </stage>
+            <p>Spune-mi că nu pleci.</p>
+            <stage> (Joldea tace) </stage>
+            <p>O, și să vrei.</p>
+            <p>Nu poţi spune,—atât de bine te-a coprins în mreaja ei.</p>
+            <p>Nu te duce! Nu te duce! Vor cu toţii să te-omoare,</p>
+            <p>Dacă pleci m-arunc în faţă-ţi, să mă calce în' picioare,</p>
+            <p>Calul tău, şi-atuncia, Joldeo, poți să mergi, vei fi stăpân.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (mângâind-o) </stage>
+            <p>Du-te! Du-te! N-avea grijă. Fii cuminte.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (cu teamă) </stage>
+            <p>Pleci!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (ducând-o spre uşă) </stage>
+            <p>Rămân.</p>
+            <stage> (O depărtează. Ileana se duce și ajungând la ușă se mai uită la el și ese. Joldea își trece mâna pe frunte. Ruxanda intră prin fund.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA 19</head>
+          <stage>RUXANDA, JOLDEA (mai târziu) SPANCIOC, STROICI, DARMAN</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (intrând) </stage>
+            <p>Calul te aşteaptă, par-că mergi să cucereşti o lume,</p>
+            <p>Şi e alb supt el pământul cum efrâul alb de spume;</p>
+            <stage> (intră Stroici, Spancioc şi Darman gata de plecare) </stage>
+          </sp>
+          <sp who="#stroici">
+            <speaker>STROICI</speaker>
+            <stage> (intră) </stage>
+            <p>Doamnă ţi se face voia.</p>
+            <p>SPANCIOC:</p>
+            <p>Vom pleca cu el.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Și tu?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (cu ochii la Ruxanda) </stage>
+            <p>N-o să-l las o clipă singur.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Apărați-l.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (între dinți) </stage>
+            <p>Scorpie.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Nu,</p>
+            <p>N-avem nevoe de-apărare,</p>
+            <stage> (își ia coiful pe care-l pusese pe masă din timpul scenei cu Hura) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Greu de tot o să ne treacă</p>
+            <p>Vremea; vii curând?</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <p>Firește.</p>
+          </sp>
+          <sp who="#stroici">
+            <speaker>STROICI</speaker>
+            <p>Omul știe, doar când pleacă</p>
+            <p>Dumnezeu îi știe ceasul când se-ntoarce. Dumnezeu</p>
+            <p>Să ne aibă-n grijă.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (gata) </stage>
+            <p>Haide! Suntem gata.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (merge spre el) </stage>
+            <p>Dragul meu.</p>
+            <stage> (În fund se ivește Movilă, apoi Veveriță, Hura, Sturzea, Ostași moldoveni, căpitani.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA 20</head>
+          <stage>JOLDEA, RUXANDA, MOVILĂ, STURZEA, DARMAN, SPANCIOC, STROICI, VEVERIȚĂ, SPANCIOC și alții.</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (când îl vede pe Movilă) </stage>
+            <p>Voi veniți cu mine?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Iată-I ne-am legat prin jurăminte</p>
+            <p>Să fim purerea cu tine.</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (înflăcărat) </stage>
+            <p>Da! Cu mine. Înainte.</p>
+            <stage> (Es toți. Afară se aud urale, tobe și fanfare. Ruxanda merge să privească prin ușa din fund alaiul în vreme ce Ileana intră prin dreapta) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>SCENA 21</head>
+          <stage>RUXANDA, ILEANA.</stage>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (speriată) </stage>
+            <p>A plecat Spancioc la luptă. Unde-a Joldea?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (mâhnită) </stage>
+            <p>Mi s-a dus.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ți s-a dus, și poți în urma-I să privești?</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (coboară) </stage>
+            <p>Ce? Cum ai spus?</p>
+            <p>Vrei tu poate să mă-mpiedici?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (cu durere) </stage>
+            <p>Cum nu-nebunești, văzându-l.</p>
+            <p>L-ai vândut și el nu crede și la tine e cu gândul.</p>
+            <p>Pe ce preț l-ai dat? Răspunde? Ce-ai putea în schimb să ceri,</p>
+            <p>De l-ai dat pe Joldea? Spune.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (mirată) </stage>
+            <p>L-ai iubit?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>…Și nu de er,</p>
+            <p>Ci de-atuncia de când crede că-l iubești; dar se răsbună</p>
+            <p>Când ivindu-ți-se-n vise el va plânge.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <p>Ești nebună.</p>
+            <p>ILEANA:</p>
+            <p>Sânt nebună da, aşa e cam iubit cum nu-nțelegi,</p>
+            <p>Ca-m putut: s-ascund iubirea, focul unei vieţi întregi,</p>
+            <p>Sânt nebună, da, aşa e! porunceşte să mă lege,—</p>
+            <p>Nebunie-i să pierzi mintea pentru-n om ce nu-nţelege</p>
+            <p>Că minciuna și are locul şi în suflete ce-alegi,</p>
+            <p>Să le dai iubirea toată, dragostea ce n-o-nţelegi.</p>
+            <p>Nebunie-i pentru tine ca să pot să fiu în stare</p>
+            <p>Să iubesc un om, ce pentru tine nici un farmec n-are,</p>
+            <p>Și-ai dori acum în furie, cum văzuşi de-atâtea ori,</p>
+            <p>Să mă vezi ca şi pe alţii putrezind în închisori,</p>
+            <p>Să rupi carnea după mine când vedea-vei, că nu vine</p>
+            <p>Mai curând, să-mi ia viaţa, moartea, gemenă cu tine,</p>
+            <p>Să mă vezi plângându-mi soarta cât sunt zilele de lungi,</p>
+            <p>Visul nu ţi se-mplineşte, ţinta no să ţi-o ajungi,</p>
+            <p>Eu îmi voi pune capăt vieţii, —searbădă și blestemată,—</p>
+            <p>Căci murind norocul vieţii ‘mi mor şi eu cu el odată.</p>
+            <stage> (o priveşte o clipă: apoi cu faţa luminată; cu durere) </stage>
+            <p>Tu trăieşte, să vezi noaptea printre stelele ce pier,</p>
+            <p>Într'o Lună şiLuceafăr, chipul nostru stând pe cer.</p>
+            <stage> (merge repede spre fereastra din fund, care e deschisă) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (cu spaimă) </stage>
+            <p>Unde fugi?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (la fereastră) </stage>
+            <p>Viu după tine Joldeo!</p>
+            <stage> (s-a mai auzit din când în când muzica depărtându-se, în codrii.) </stage>
+            <p>Vai! se depărtează.</p>
+            <stage> (se urcă pe fereastră și se-aruncă afară. Se-aude un vaet și murmurul celor care erau jos.) </stage>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <stage> (afară) </stage>
+            <p>A murit, căzând!</p>
+          </sp>
+        </div>
+        <div type="scene" n="22">
+          <head>SCENA 22</head>
+          <stage>RUXANDA</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (îngrozită și-a pus mâinile la ochi; acum își vine în fire) </stage>
+            <p>Nebună!</p>
+            <stage> (cu milă) </stage>
+            <p>Soarta celor ce visează!</p>
+            <stage> (Cortina cade) </stage>
+          </sp>
+          <stage>PALATUL DIN SUCEAVA</stage>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL III</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>MOVILĂ, HURA, BARNOVSKY, STROICI, CIOLPAN, DARMAN, SIMEON, STURZEA, REVELLES, VEVERIŢĂ.</stage>
+          <stage>(Boerii vorbesc între ei.)</stage>
+          <sp who="#simeon">
+            <speaker>SIMEON</speaker>
+            <stage> (puţin după ce s-a ridicat cortina) </stage>
+            <p>Trece Vodă.</p>
+            <stage> (Boerii se întorc cu faţa spre fund şi se închină. Lăpuşneanul însoţit de Seniovschi şi de Moţoc, trece; boerii părăsesc rânduiala şi-1 urmează. Pe măsură ce se depărtează, Movilă şi Sturzea micşorează pasul, aşa în cât toți ceil-alţi le iau înainte şi rămân în scenă numai ei amândoi, Movilă priveşte în depărtare alaiul.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <stage>MOVILĂ, STURZEA.</stage>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Regulat trec zilele ca tot de-auna</p>
+            <p>Și trecând cum le e rostul nu se-aseamănă nici una.</p>
+            <p>Fie-care-aduce alte mari dureri, mari de nespus</p>
+            <p>Și trecând, ne lasă-n prada grijelor ce ne-au adus.</p>
+            <p>În zadar cred că-n spre seară ziua-şi ia durerea, n-o ia;</p>
+            <p>Tu de sus priveşte, Doamne, jos cum ţi se face voia,</p>
+            <p>După vrerea ta sunt toate; omu-i slab şi umilit.—</p>
+            <p>Nu putem schimba nimica, toate ni le-ai rânduit.</p>
+            <p>Însă cred că-ţi este-adesea prea cumplită supărarea,</p>
+            <p>Când din când își uită oamenii de închinarea</p>
+            <p>Către tine; şi când, Doamne, mâna sfântă ţi-o ridici;</p>
+            <p>Prea ţi-e naltă cugetarea pentru suflete-așa mici,</p>
+            <p>L-asă-i, Doamne, să greșească, pedepseşte-i cum ţi-e gândul</p>
+            <p>Însă cruţă biata ţară, ce de ani, de ani de-a rândul</p>
+            <p>Fără vină să munceşte. Dă-i din nou un domn cucernic</p>
+            <p>S-o înalțe către slavă în avântul lui puternic;</p>
+            <p>N-a simţit de mult adierea din amurgurile serei;</p>
+            <p>Lumineaz-o tu stăpâne ca în ziua învierei;</p>
+            <p>Iart-o căci a ta-i iertarea; iart-o că tu poţi erta</p>
+            <p>Și pe noi ne lasă, Doamne, să ţi-o dăm în grija ta.</p>
+            <p>MOVILĂ:</p>
+            <p>Nu pierim atât de lesne ne e trainică tulpina</p>
+            <p>Și eşind dela întuneric mult mai mare e lumina.</p>
+            <p>Vor veni mai bune vremuri, îmbunându-se cei răi,</p>
+            <p>Dumnezeu ne are în grijă suntem toţi copii săi;</p>
+            <p>Ca un tată, pedepseşte cel ce teamă nu mai are,</p>
+            <p>Ispăşirea ne e lungă cum ne-o fi şi vina mare;</p>
+            <p>Dar nădejdea nu ţi-o perde, fă ca mine, eu. aştept—</p>
+            <p>Și nu pune la-ndoială mila lui, căci eşti nedrept.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <stage>MOVILĂ, STURZEA, TOMȘA, (care intră mai târziu) HURA, STROICI, DARMAN, VEVERIȚĂ.</stage>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (intrând prin fund) </stage>
+            <p>A căzut în cursă, Joldea, dacă n-a vrut să ne-asculte.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Trei zile, ne-au adus atât de multe.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Și e-n temniță, Movilă, datoria ni-e acum</p>
+            <p>Să-l scăpăm.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Firește.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Tomșo, m-am gândit și eu, dar cum?</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Vom găsi prilejul.</p>
+            <stage> (Se-aud clopotele la biserică. Tomșa se uită pe fereastră) </stage>
+            <p>Ce e? Văd scoțându-se o cruce</p>
+            <p>Și-un sicriu</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>O mormântează pe Ileana; azi o duce</p>
+            <p>La biserică.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (venind în față) </stage>
+            <p>Sărmana!</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Știi și tu?</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Am auzit.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <stage> (îngrozit) </stage>
+            <p>Două morți cu-o lovitură.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Joldea încă n-a murit.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>E ca mort.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Eu am nădejde că-l scăpăm.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <stage> (pe gânduri, îngrozit) </stage>
+            <p>L-a prins din goana</p>
+            <p>Calului, când vru să fugă. Știi când a trosnit icoana</p>
+            <p>Sus, la Șipote, Movilă?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Cât de mult s-a-mpotrivit.</p>
+            <p>Nu vroia de fel să vină.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Ar fi fost mai nimerit.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Nu-I era scris să domnească.</p>
+          </sp>
+          <sp who="#stroici">
+            <speaker>STROICI</speaker>
+            <stage> (intră prin fund cu Darman) </stage>
+            <p>Lăpușneanul ne vestește</p>
+            <p>Că e azi încoronarea.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Și Ruxanda.</p>
+          </sp>
+          <sp who="#darman">
+            <speaker>DARMAN</speaker>
+            <stage> (cu glasul stins) </stage>
+            <p>Se gătește.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Bietul Joldea, când Polonii l-au adus…</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Dar voi, vo toți</p>
+            <p>Unde-ați fost?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (trece și el) </stage>
+            <p>Am fost cu dânsul, Tomşo, poate tu socoţi</p>
+            <p>Că văzând primejdia mare am fugit pe el lăsându-l,</p>
+            <p>Între ei? N-aveam puterea să-l scăpăm cum ne-a fost gândul,—</p>
+            <p>Oastea toată, fu cu dânşii şi a noastră, şi a lor.</p>
+            <p>Numai noi eram cu Joldea, fără nici un ajutor,.</p>
+            <p>L-a luat, cum de prin cuiburi iei vre-un pui de rândunică</p>
+            <p>Fără nici o-mpotrivire. Ştiu ei cuibul cum se strică.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Ajutatu-i-a și-ai noștri?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Și ai noştrii l-au trădat,</p>
+            <p>Căci Moţoc, le-a spus că Joldea, de trei zile în palat</p>
+            <p>Cu-o femee își petrece vremea, şi astfel se-nțelege</p>
+            <p>Calcă cu trufie sfânta datină şi sfânta lege.</p>
+            <p>TOMȘA:</p>
+            <p>Lăpuşneanul...</p>
+            <p>MOVILĂ:</p>
+            <p>Lăpuşneanul spre Suceava întâlnind</p>
+            <p>Pe Elena, Doamna Rareș, a ucis-o.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (îngrozit) </stage>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Mânjind</p>
+            <p>Și mai mult coroana care şi-o va pune azi pe cap.</p>
+            <p>TOMŞA:</p>
+            <stage> (care nu mai ascultă) </stage>
+            <p>Iată unde duce cinstea şi dreptatea.</p>
+            <stage> (cu hotărire) </stage>
+            <p>Vroi să-l scap</p>
+            <p>HURA:</p>
+            <p>Când văzutu-m-a pe mine lângă el fără putere.</p>
+            <p>Și-a adus aminte-ndată de ce-am spus şi, cu durere,</p>
+            <p>I-am văzut brăzdându-i faţa, două lacrimi mari; m-a strâns</p>
+            <p>Colea-n inimă durerea şi-amândoi atunci am plâns.</p>
+            <p>MOVILĂ:</p>
+            <p>A mai plâns și eri ţiu minte,—ne-amintim acum de toate—</p>
+            <p>Când i-a spus, Ruxanda, mâine facem nunta. Mâine!..</p>
+          </sp>
+          <sp who="#stroici">
+            <speaker>STROICI</speaker>
+            <p>Poate</p>
+            <p>Presimțea.</p>
+            <p>STURZEA:</p>
+            <p>Şi fericirea. Lacrămile or şi când</p>
+            <p>Isvoresc din ochi tăcute, şi botează tremurând,</p>
+            <p>Fericirea sau durerea; te mângâe ele-ntâi</p>
+            <p>În necazuri, şi când poate, părăsindu-te, ai tăi</p>
+            <p>Te-or lăsă să lupţi în prada vremurilor îndoioase,—</p>
+            <p>Lacrămile, numai ele-ți vor rămâne credincioase.</p>
+            <p>TOMŞA:</p>
+            <stage> (a stat de-o parte şi-acum vine în mijlocul lor) </stage>
+            <p>.</p>
+            <p>Sântem toţi ai noștrii?</p>
+            <stage> (se încredinţează cu privirea) </stage>
+            <p>Bine, de-ne-ajută Dumnezeu</p>
+            <p>Îl putem scăpă pe Joldea.</p>
+            <p>TOŢI: Spune!</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Iată gândul meu.</p>
+            <p>Lăpuşneanul are oameni dintre-ai lui, şi închisorei</p>
+            <p>Pus-a pază credincioasă. Pân-acuma păzitorii</p>
+            <p>Nu pot şti că Tomşa nu mai e de-ai lor şi deci uşor</p>
+            <p>Furişindu-mă la Joldea, pot să-l scot şupt ochii lor.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Minunat.</p>
+            <p>TOMȘA:</p>
+            <p>Și-atuncia vede, Joldea, drumul celor care-şi</p>
+            <p>Caută scăparea singuri: — Tainiţa lui Petru Rareş.</p>
+          </sp>
+          <sp who="#darman">
+            <speaker>DARMAN</speaker>
+            <stage> (nedumerit) </stage>
+            <p>Tainița?</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Darman, n-o știe.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>De-aia-i tainică</p>
+          </sp>
+          <sp who="#darman">
+            <speaker>DARMAN</speaker>
+            <p>Or cum,</p>
+            <p>Tot puteam să aflu. Unde e zidită?</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Ești acum</p>
+            <p>Lângă ea.</p>
+            <stage> (Darman se dă la o parte și Tomșa deschide ușa tăiniței care nu se vedea până acum.) </stage>
+            <p>Acesta-i drumul celui ce-și iubeşte ţara.</p>
+            <p>E făcut de Petru Rareş când s-a-ntors dela Feldioara.</p>
+            <p>De-ar cădea Suceava-n mâna unuia dintre vrășmași</p>
+            <p>Domnul își găseşte fuga pe aici, căci la urmaşi</p>
+            <p>Le-a lăsat-o, Petru Rareş.</p>
+            <stage> (închide) </stage>
+            <p>Nici-odată Lăpuşneanul</p>
+            <p>N-o s-o afle.</p>
+          </sp>
+          <sp who="#hura">
+            <speaker>HURA</speaker>
+            <p>Chiar și-atuncia când l-o urmări dușmanul.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (se depărtează) </stage>
+            <p>E-ntuneric și e umed aerul ca-ntr-un mormânt</p>
+            <p>Duce-afară din Suceava.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Mergi un ceas pe supt pământ.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Du-te dar și-l vezi pe Joldea.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <p>Ca să fugă e-ndoelnic.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <p>Eu mă încerc să-l iau cu sila când e timpul mai prielnic.</p>
+            <stage> (ese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <stage>CEILALȚI, MOȚOC ȘI REVELLES</stage>
+          <stage>(care au intrat numai de cât după eșirea lui Tomșa)</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (după ce l-a privit cât-va pe Moțoc) </stage>
+            <p>Ți-ai ajuns acuma ținta.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ne-am ajuns-o poate toți.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Fără noi.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>De! Nu se știe</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Cum să nu să ştie? Poţi</p>
+            <p>Să-ndrăzneşti măcar o clipă să ne pui la îndoială</p>
+            <p>Cinstea noastră ce-am păstrat-o nepătată; cu sfială</p>
+            <p>Nu vorbim şi-ţi spunem verde cum ţi-am spus adesea ori</p>
+            <p>Te urâm şi ura noastră crește pân-o fi să mori</p>
+            <stage> (se depărtează) </stage>
+            <p>STURZEA:</p>
+            <p>N-am crezut că poate omul într-atâta să se vândă;</p>
+            <p>Cuveni-ţi-s-ar, Moţoace, cea mai crâncenă osândă;</p>
+            <p>Nu se poate, vine vremea ca răsplata să ţi-o iei</p>
+            <p>De-ai putut să fii unelta patimei unei femei.</p>
+            <p>HURA:</p>
+            <p>Nu păta cuvântul, Sturzeo, tot mereu spunându-l</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (vine lângă Sturzea, nedumirit) </stage>
+            <p>Ce e?</p>
+            <p>HURA:</p>
+            <p>Și Ruxandei nu-i mai spune ca şi altora,— femee,</p>
+            <p>E legat cuvântu-acesta de menirea dată lor</p>
+            <p>Și spunându-l, vezi, menirea se iveşte în gând uşor.</p>
+            <p>Căci femea e un cântec, o podoabă pe icoană,</p>
+            <p>Și precum sunt pietre scumpe aşezate pe coroană</p>
+            <p>Tot aşa și-n omenire, vezi, precum vă mai spuneam,</p>
+            <p>Că femeea-i giuvaerul şi mândria unui neam,</p>
+            <p>Oare nu-i rușine-n ţara cu-n îmbold de propăşire</p>
+            <p>Să numim femei pe-acelea ce nu ştiu a lor menire?</p>
+            <p>Cum să le numim atuncia pe acelea care vor</p>
+            <p>Să ajute la-nălţarea şi mărirea țărei lor?</p>
+            <stage> (Boerii vorbind între ei, se dau înapoi) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (zâmbind) </stage>
+            <p>Pune frâu mâniei tale, de nu știi cașa e-n lume:</p>
+            <p>Şi cei răi şi cei cu cinste, poartă toţi acelaş nume</p>
+            <stage> (merge spre ei; cu mânie) </stage>
+            <p>Şi de vreţi să fiţi cu toţii împotriva mea, mereu,—</p>
+            <p>Fiţi: și să vedem la urmă cine-nvinge:—voi sau eu?</p>
+            <stage> (se îndreaptă spre ieşire cu Revelles) </stage>
+            <p>MOVILĂ:</p>
+            <p>Te lăsăm şi stăm de-o parte: ne răzbună, însă, bunul</p>
+            <p>Dumnezeu.</p>
+            <p>MOŢOC:</p>
+            <stage> (încct, lui Revelles) </stage>
+            <p>Îi vezi pe-aceştia?</p>
+          </sp>
+          <sp who="#revelles">
+            <speaker>REVELLES</speaker>
+            <p>Da.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Toți, unul câte unul</p>
+            <p>Vor pieri pe nesimțite</p>
+            <stage> (ese) </stage>
+            <p>Slava, ce cu cinste-o porți,</p>
+            <p>Lăpușneanul și-o clădește peste capete de morți</p>
+            <stage> (Boerii, vor să iasă, prin fund se ivește Spancioc) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <stage>CEILALȚI, AFARĂ DE MOȚOC ȘI REVELLES, SPANCIOC</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (oprindu-i) </stage>
+            <p>Iată-l pe Spancioc, că vine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (cu jale) </stage>
+            <p>Mâine e înmormântarea!</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (pe gânduri lui Sturzea) </stage>
+            <p>: Am uitat-o pe Ileana.</p>
+            <p>STURZEA:</p>
+            <p>Am uitat-o-n frământarea</p>
+            <p>Multor griji.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (cu glasul stins) </stage>
+            <p>Vă miră, poate, c-aţi uitat-o; negreşit;</p>
+            <p>Ce-a făcut Ileana, ca s-o ținem minte?—A iubit!</p>
+            <p>Nu ştiţi voi? de când e lumea şi de când pe cer e lună,</p>
+            <p>De când ura cu iubirea nu-și au locul împreună,</p>
+            <p>Că fiinţi nevinovate, după moarte uiţi uşor,</p>
+            <p>Şi tâlharii multă vreme, Sunt în mintea tuturor</p>
+            <stage> (o clipă de tăcere) </stage>
+            <p>Tomşa m-a vestit că Joldea-i slsbod. Pasnicii-i înşeală</p>
+            <p>Şi-l aduce. Dar mi-e teamă să nu dăm de bănuială</p>
+            <p>Risipiţi-vă.</p>
+          </sp>
+          <sp who="#stroici">
+            <speaker>STROICI</speaker>
+            <p>Ne ducem.</p>
+            <stage> (Es toți, afară de Movilă, Sturzea și Spancioc) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <stage>MOVILĂ, STURZEA, SPANCIOC</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (cu grijă) </stage>
+            <p>Doamne de n-ar fi văzuți.</p>
+            <stage> (Prin fund intră Ruxanda. Spancioc privește pe Movilă încremenit) </stage>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (a înțeles) </stage>
+            <p>Du-te. Spune-le s-aștepte—dacă vin suntem pierduţi.</p>
+            <stage> (Spancioc ese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <stage>MOVILĂ, STURZEA, RUXANDA.</stage>
+          <stage>(Deşi este obosită de-atâtea griji şi de-atâtea frământări, păşeşte cu mândrie îmbrăcată în vederea încoronărei)</stage>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (de-odată umilită, coboară privirile) </stage>
+            <p>Nu mai pot în faţa voastră să mai viu ca altă dată,</p>
+            <p>Aţi avut dreptate.</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (căutându-i privirea) </stage>
+            <p>Doamnă, fapta-ţi este neertată,</p>
+            <p>Pentru noi eşti ne-nţeleasă, nouă inima ne-o frângi.</p>
+            <p>Și un câine când îţi moare noaptea-ntreagă stai să-l plângi,</p>
+            <p>Și pe-un om nu ţi-a fost milă, să-l ucizi. Dar ca-nainte,</p>
+            <p>Am rămas păgâni: Ochi pentru ochi, și dinte pentru dinte.</p>
+            <p>Pedepsită eşti acuma cum nu se putea mai rău.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (cu mânie) </stage>
+            <p>Cine să mă pedepsească?</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (liniștit) </stage>
+            <p>Cine Doamnă? Dumnezeu!</p>
+            <p>Căci venind în spre Suceava, Lăpuşneanu-n a lui cale</p>
+            <p>A-ntâlnit pe prea cuvioasa mamă a Măriei-Tale</p>
+            <p>Şi-n zadar i-a spus Sienowsky şi al oştilor stăpâni,</p>
+            <p>— Vai, de acela ce ridică mâna ca să dea-n bătrâni,</p>
+            <p>N-a luat în seamă sfatul celorlalţi,—ca totdeauna—</p>
+            <p>Și-a ucis-o</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (înspăimântată) </stage>
+            <p>A ucis-o? Mama!</p>
+          </sp>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (cu lacrămile-n ochi) </stage>
+            <p>Astfel a pierit şi buna</p>
+            <p>Doamnă, a lui Petru Rareș, Lăpuşneanul, o ura,</p>
+            <p>L-am ales cum știi pe Joldea, după sfatul dat de ea.</p>
+            <p>Se temea de Doamnă. Fapta-i neertată or ce-ar zice,</p>
+            <p>Par-c-ar fi putut, sărmana, să mai poată să ridice</p>
+            <p>Împotriva lui norodul,—nu putem nici noi, dar ea?—</p>
+            <p>Cine mai așcultă glasul care deslușeşti de-abea?</p>
+            <p>RUXANDA:</p>
+            <stage> (De mult nu mai ascultă. Îşi trece mâna pe frunte, trezindu-se ca dintr-un vis urât) </stage>
+            <p>Mama!</p>
+            <stage> (după o clipă de reculegere) </stage>
+            <p>Unde-i Vodă.</p>
+            <stage> (ese sub privirea lui Movilă, care o urmăreşte) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <stage>MOVILĂ, STURZEA.</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <stage> (după ce-a rămas cu Sturzea) </stage>
+            <p>Sturzeo, omului i-a bine seama—</p>
+            <p>De-i cinstit sau hoţ de codru, mama îi rămâne mamă</p>
+            <p>Îi pătrunde-n suflet lesne, locu-i nimeni nu i-l iea</p>
+            <p>Și când pierde tot, păstrează încă dragostea de ea.</p>
+            <stage> (Privind spre ușa prin care a eşit Ruxanda) </stage>
+            <p>Du-te şi lui Joldea spunei că e bine-acum de vine,</p>
+            <p>Căci Ruxanda-ntâia dată, nu-i mai ese-n cale.</p>
+          </sp>
+          <sp who="#sturzea">
+            <speaker>STURZEA</speaker>
+            <stage> (eşind) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <stage>MOVILĂ, SPANCIOC, TOMȘA, JOLDEA.</stage>
+          <stage>(Spancioc se uită în scenă să vadă de e cine-va. Movilă priveşte pretutindeni şi după ce s-a încredinţat că nu e nimeni pe-aproape)</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Nimeni.</p>
+            <stage> (Spancioc se depărtează; urmează o clipă de tăcere, apoi uşa se deschide din nou şi Joldea, şovăind, intră sprijinit de Tomșa şi Spancioc. E trist şi galben) </stage>
+            <p>JOLDEA:</p>
+            <p>Mintea mi-e pustie şi sufletul stingher.</p>
+            <stage> (Se duc spre tainiţă. Când Tomşa a deschis-o, Ruxanda, intră prin stânga pe unde eşise odinioară) </stage>
+            <p>RUXANDA:</p>
+            <p>Între Lună şi Luceafăr chipul nostru stând pe cer.</p>
+            <stage> (Îi vede; speriată, vrea să fugă, puterile n-o mai ajută şi e sdrobită de durere, când cei trei boeri îi aţine calea, vrând s-o lovească) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <stage>MOVILĂ, STURZEA, TOMȘA, JOLDEA, SPANCIOC, RUXANDA.</stage>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (isbucnind ridică mâna oprindu-i) </stage>
+            <p>E Ruxanda! Doamna ţărei.</p>
+            <p>RUXANDA:</p>
+            <stage> (La aceste cuvinte, a şovăit; vrea să se sprijine de cine-va, nimeni n-o ajută şi cade la picioarele lui murmurând) </stage>
+            <p>Joldea, cruţă-mă!</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (o priveşte, o clipă, cu durere şi apoi cu glasul stins) </stage>
+            <p>Ce-i oare? M-a mâhnit un stol de frunze aruncat în închisoare</p>
+            <p>De un vânt, crud ca şi tine.</p>
+            <p>Ia, te uită-n ochii mei,</p>
+            <p>E atâta suferinţă, câtă ură e-ntr-ai tăi.</p>
+            <stage> (către ceilalţi) </stage>
+            <p>Şi-ntre oameni, dragi pieteni, bate vântul cel de toamnă,</p>
+            <p>Frunzele îi sunt nimicuri când adie? Știţi ce-nseamnă</p>
+            <p>Ce vă spun?—E o poveste plină denţelesuri noui—</p>
+            <p>Vântul nu-i decât femeea, iară frunza suntem noi.</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (vrând să se ridice) </stage>
+            <p>Joldeo, vroi să fug și nu pot.</p>
+            <p>JOLDEA:</p>
+            <p>Vrei să fugi, dar multă vreme,</p>
+            <p>N-o să poţi, căci din mormântu-mi auzi-vei lung cum geme</p>
+            <p>Glasu-năbuşit de tine.</p>
+            <stage> (cu durere) </stage>
+            <p>Cântă lebăda.</p>
+            <stage> (Numai poate vorbi; se întoarce şi se reazimă de umărul lui Spancioc. Ruxanda s-a ridicat; a făcut câţi-va paşi dar e atât de istovită încât cade din nou, de astădată pe treptele tronului, Joldea iar o priveşte) </stage>
+            <p>Mi-e greu</p>
+            <p>S0o privesc. E așă frumoasă. E cum fi atunci, când eu</p>
+            <p>Am văzut-o-ntâia dată. Vai, în viața mea de vise</p>
+            <p>N-am ştiut nenorocitul, mi-au fost două căi deschise,</p>
+            <p>Una, jalnică, pustir—noapte, fără nici-o stea,—</p>
+            <p>Calea ta şi încă una; am ales-o pe a ta.</p>
+            <p>Cât a plâns sărmana fată!—O, iubirea mea-nţelege-o;</p>
+            <p>Nici acuma, nu ştiu bine care-i calea ce-aș alege-o.</p>
+            <p>E târziu acum,— ştiu— steaua mi s-a stins, căzând prin nori,</p>
+            <p>Inima ți se-ncrețește ca și fruntea, une ori</p>
+            <p>O brăzdează suferința mai adânc, mai cu putere</p>
+            <p>Și în fiecare brazdă se ascunde o durere.</p>
+            <stage> (liniştit şi cu glasul stins) </stage>
+            <p>Am fi fost mai bine-acasă fără grijă şi nevoi,</p>
+            <p>Lângă mama, fără ura care-apasă greu pe noi;</p>
+            <p>Traiul ne-ar fi fost ca vremea unei nopţi de primăvară</p>
+            <p>Liniştit, cum vezi că ese fumul din cămin spre seară</p>
+            <p>Iar drumeţul vrând odihnă și cerându-ne adăpost</p>
+            <p>Ar fi dat de fericire;— cât de bine ar fi fost.</p>
+            <p>Căci ne-am fi iubit Ruxando fără grija altor vremuri,</p>
+            <p>Da, ne-am fi iubit. Iubire! Te-am simţit te simt că tremuri.</p>
+            <stage> (plânge pe umărul lui Spancioc) (Ruxanda se ridică) </stage>
+            <p>Nu vorbi; nu mai deschide rana sufletului meu.</p>
+            <p>Tu, ai fost făcută-n lume numai ca să sufăr eu,</p>
+            <stage> (S-a liniştit. Merge spre Ruxanda privind-o în ochi și ea înspăimântată se dă înapoi mereu) </stage>
+            <p>Nu-nţelegi nici chiar acuma cât de mult mi-ai fost datoare,</p>
+            <p>M-ai silit să-ţi fac pe voe, să-ți pun ţara la picioare</p>
+            <p>Și în mrejele mărirei ţi-a fost ţinta să mă-ncurc,</p>
+            <p>Când tu treptele domniei străduitu-m-ai să urc.</p>
+            <p>Când văzut-ai că lui Joldea nu i-a mai rămas nimica</p>
+            <p>Și-ai văzut că nu mai poate nici să mai împrăștie frica</p>
+            <p>În dușmani, făcuți prin tine, asvârlindu-l cu dispreţ</p>
+            <p>L-ai vândut pentru aceea ce ţi-a dat el fără preţ.</p>
+            <stage> (arătând boerii) </stage>
+            <p>M-au silit să fug cu Tomșa și fugeam de voe bună,</p>
+            <p>Nu vroiam să văd, Ruxando, ceasu-n care se-ncunună</p>
+            <p>Lăpuşneanul mire-al ţărei și al tău; dar mi-ai eşit</p>
+            <p>Înnainte să mă-mpiedeci,—chiamă-i, ia-mă, n-am fugit,</p>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (cu privirea rătăcită) </stage>
+            <p>Du-te Joldeo, nu te-mpedec.</p>
+            <stage> (Tuturora li se înseninează faţa) </stage>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (trist) </stage>
+            <p>Nu ţi-aş asculta povaţa,</p>
+            <p>N-aş vroi să spui la urmă, că mi-ai dăruit tu viaţa.</p>
+            <p>Dar de faţă sunt boerii, vor cu toţii moartea ta,</p>
+            <p>— Le-ai vândut Voevodul,—însă ei de-acum te vor erta</p>
+            <p>Când vor şti că mi-ai dat drumul, fuga de mi-ai înlesnit-o,</p>
+            <p>Viaţa, Doamnă, ţine minte, robul tău ţi-a dăruit-o.</p>
+          </sp>
+          <sp who="#tomsa">
+            <speaker>TOMȘA</speaker>
+            <stage> (deschide uşa tainică) </stage>
+            <p>Haide, vremea trece</p>
+          </sp>
+          <sp who="#joldea">
+            <speaker>JOLDEA</speaker>
+            <stage> (priveşte înăuntru) </stage>
+            <p>Iată e-ntuneric şi-i pustiu</p>
+            <p>Sună lung ca din morminte glasul…</p>
+            <stage> (Dus de Tomşa şi Spancioc intră, aşa că nu se mai aud cele din urmă vorbe. Spancioc şi Tomşa îl urmează) </stage>
+          </sp>
+          <sp who="#ruxanda">
+            <speaker>RUXANDA</speaker>
+            <stage> (izbucnind în plâns) </stage>
+            <p>Joldeo!</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <stage>RUXANDA, MOVILĂ</stage>
+          <sp who="#movila">
+            <speaker>MOVILĂ</speaker>
+            <p>Prea târziu.</p>
+            <stage> (Încet, ca un om care se gândeşte mult, bătrânul vornic se îndreaptă spre tainiţă, pe urma nenorocitului Voevod) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <stage>RUXANDA, LĂPUŞNEANUL, SENIOWSKY, ALALUL.</stage>
+          <stage>(Ruxanda a rămas pironită pe loc cu ochii spre tainiţă; dar curând îşi vine în fire căci de-afară se-aude fanfara şi strigătele norodului. Uşile se deschid în fund, lăsând să se vadă afară un trist apus de soare şi norodul adunat pe privdor şi pe scări. Lumina amurgului mângâe frunzele veştejite care cad. În sală intră alaiul lui Alexandru Lăpuşneanul alcătuit din copii de casă, boerii sfetnici, oşteni moldoveni, oficeri poloni, popor, la urmă intră şi el cu Hatmanul” Sienowsky întinzând mâna Ruxandei de-acum Doamna țărei. Ea se trezeşte ca dintr-un vis urit în strigătul de ura al mulţimei şi în sunetul fanfarei şi al clopotelor oraşului în vreme ce, ca un dar al naturei, frunzele cad mereu).</stage>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000043" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cucoana Chirița în balon</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Cucoana_Chirița_în_balon">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1860">
+            <desc>1860</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="chirita" sex="FEMALE">
+            <persName>CUCOANA CHIRIȚA</persName>
+          </person>
+          <person xml:id="grigori_barzoi" sex="MALE">
+            <persName>GRIGORI BÂRZOI</persName>
+          </person>
+          <person xml:id="ellien_moghior" sex="MALE">
+            <persName>ELLIEN MOGHIOR</persName>
+          </person>
+          <person xml:id="nae_naucescu" sex="MALE">
+            <persName>NAE NĂUCESCU</persName>
+          </person>
+          <person xml:id="despa" sex="FEMALE">
+            <persName>DESPA</persName>
+          </person>
+          <person xml:id="costica_hazliul" sex="MALE">
+            <persName>COSTICĂ HAZLIUL</persName>
+          </person>
+          <person xml:id="lica_panglica" sex="MALE">
+            <persName>LICĂ PANGLICĂ</persName>
+          </person>
+          <person xml:id="un_comisar" sex="MALE">
+            <persName>UN COMISAR</persName>
+          </person>
+          <person xml:id="un_vanzator" sex="MALE">
+            <persName>UN VÂNZĂTOR</persName>
+          </person>
+          <person xml:id="public">
+            <persName>PUBLIC</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000043"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Cucoana Chirița în balon</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>CUCOANA CHIRIȚA</role>
+        </castItem>
+        <castItem>
+          <role>GRIGORI BÂRZOI</role>
+          <roleDesc>soțul ei</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ELLIEN MOGHIOR</role>
+          <roleDesc>aeronaut ungur</roleDesc>
+        </castItem>
+        <castItem>
+          <role>NAE NĂUCESCU</role>
+        </castItem>
+        <castItem>
+          <role>DESPA</role>
+          <roleDesc>soția lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>COSTICĂ HAZLIUL</role>
+        </castItem>
+        <castItem>
+          <role>LICĂ PANGLICĂ</role>
+        </castItem>
+        <castItem>
+          <role>UN COMISAR</role>
+        </castItem>
+        <castItem>
+          <role>UN VÂNZĂTOR</role>
+          <roleDesc>de alune prăjite</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PUBLIC</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>NĂUCESCU:  (într-o mirare necurmată)  Aoleo! maică!... Ce-a fost să mai fie!</stage>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>Taci, frate, nu te mai mira așa cu gura căscată, că te-or crede bucureștenii scăpat din tufe.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Ce tufe? Ce tufe, Despo?... Dar n-ai citit ziarul de astăzi?</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>Care? că-s multe de toate ca semința de ardei.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Ziarul cel cu...</p>
+          </sp>
+          <stage>VÂNZĂTORUL:  (strigă)  Alune prăjite! șeapte de o para.</stage>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Cel cu alune... asta... cel cu anonțuri prăjite...</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>Și ce mai spune el în limba lui?</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Spune că astăzi Ciubar-Vodă a să se urce în naltul cerului.</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>Care Ciubar-Vodă, cel din basme?</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Ba... nu... Balonul ăsta... Așa-i e numele, dar pentru ce și cum? Nu e treaba noastră.</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>Apoi de... s-a urca el dacă i-a fost scris.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Tronc!</p>
+          </sp>
+          <stage>MOGHIOR:  (la soldați)  Apucați de frânghii și țineți zdreavăn.</stage>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Aoleo! maică!... se mișcă balonul.</p>
+          </sp>
+          <stage>HAZLIU:  (oprindu-se)  Ce te-a apucat, boierule? Te dor ficații de țipi așa?</stage>
+          <stage>NĂUCESCU:  (închinându-se)  Plecăciune... D-ta ești doftor de ficați?</stage>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Ba... sunt doftor de năuci.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Să mă fericesc cu numele d-tale?</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Tachi Hazliul, lincenciat în mofturie și domiciliat la Rașca.</p>
+          </sp>
+          <stage>NĂUCESCU: Hazliu nume... să-l porți sănătos... și d-lui?  (Arată pe Panglică.)</stage>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Lică Panglică, candidat de paraponisire, domiciliat în Cuibul-cu-Barza.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Tocmai acolo, sus?... Bine ți-a fi mergând... când suflă viforul.</p>
+          </sp>
+          <stage>PANGLICĂ:  (păunindu-se)  Precum vezi... numai într-un picior.</stage>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Panglică!... După nume te-aș fi crezut din Lipscani.</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Și nu te-ai fi înșelat... sunt din Brăila.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Nu mă nebuni... și eu de la Gorgiu...</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Sunteți vecini... Numele d-tale?</p>
+          </sp>
+          <stage>NĂUCESCU: Nae Năucescu, proprietar... cu nevastă... Dumneaei  (arată pe Despa) , Despa Calcănstrăchini, fiica răposatului Pitar Moș, zis Cioclu.</stage>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Și ați venit în București ca să vedeți balonul?</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Să văd?... adică să vezi: am venit la Curtea de apel pentru un proces cu statul... și am să-l câștig.</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Nici vorbă nu-i... Statul n-are noroc la procesuri.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Ce-i pasă? Are de unde plăti.</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Negreșit... e bute de bani.</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Nu mai încap în el... îi crapă pielea.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Asta o să zicem cu toții și... ca patrioți… cătăm să-l mai ușurăm.</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Ce bun suflet de om! Mă rog, sunt mulți ca d-ta prin provincie?</p>
+          </sp>
+          <stage>NĂUCESCU:  (mândru)  Mulți!... și tot oameni... nu glumă!...</stage>
+          <stage>VÂNZĂTORUL:  (strigă)  Șeapte de-o para!</stage>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Domnule Hazliu, să te întreb un lucru, dar, mă rog, să mă pliroforisești ritos... Ce să fie balonul ăsta?</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Ți-oi spune bucuros... dar în taină... E o beșică de chit.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>De chit!... așa de mare!... Auzi, Despo? Cică Ciubăr-Vodă e o beșică de chit!</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>O fi, dacă așa i-a fost scris.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Tronc!... Și cu ce-i umflată, Hazliule?</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Iar între noi să rămâie...</p>
+            <stage> (Arie) </stage>
+            <p>Acest balon e umflat,</p>
+            <p>Ca să aibă ușurință,</p>
+            <p>Cu profesii de credință</p>
+            <p>De patriot răsuflat;</p>
+            <p>Cu fumuri de nerozie</p>
+            <p>Parveniților de azi;</p>
+            <p>Vorbe mari, șarlatanie</p>
+            <p>La un loc cu nițel gaz,</p>
+            <p>Și de-aceea, ușurel,</p>
+            <p>Sus, sus, sus se urcă el.</p>
+            <p>COR:</p>
+            <p>Și de-aceea, ușurel,</p>
+            <p>Sus, sus, sus se urcă el.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>O fi! Materia nu lipsește... dar cine-l poartă pe sus?... Cine-i aeronaftul?</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Un ungur... Magnatul Ellien Moghior, cel din naselă.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Care?... Cel din paneri... colo?</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Tocmai.</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Și nu-i e teamă că s-a lovi de bolta cerului și și-a face un cucui?</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Nu! el cearcă să facă joncțiune între cer și pământ... Deprindere... ce să zici?</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>A prins gust la joncțiuni, moghiarul... Vrea multe și ieftine...</p>
+          </sp>
+          <stage>VÂNZĂTORUL:  (strigă)  Șeapte de-o para!</stage>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Ha, ha, a, ha! Parc-o face înadins mitocanul.</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Iaca, nene...Unguru-i gata de plecare... Hai să ne apropiem.</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Bine zici, Lică... Vii cu noi, cucoane Nae?</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Ba, ferească Pronia!... N-ar avea decât să mă umfle șontul fără veste... și, hait! m-am dus la dracul praznic... Nu-i așa, Afrodito?</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>O fi, dacă ți-a fi fost scris.</p>
+          </sp>
+          <stage>NĂUCESCU: Tronc!  (În parte.)  Tot din Scriptură grăiește Cioacla.</stage>
+          <stage>(Se produce o mișcare pe scenă. Publicul din fund se apropie de naselă și dă semne de nerăbdare.)</stage>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Ei! Domnule Moghior, ai de gând să pleci astăzi sau te-ai pus pe clocit ouă?</p>
+          </sp>
+          <stage>MOGHIOR: No, plec, domnule, plec... sunt gata numaidecât...  (Tare, către public.)  Domnilor, doamnelor, înaltă noblețe și onorabil public... Marele balon, Ciubar-Vodă, aice pornit, are să aibă onoare a face ascensiune... Glorie României... Viitorul patriei române...</stage>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Ian lasă România-n pace, domnule... și pleacă fără să ne mai faci cuvânt...</p>
+          </sp>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Ei! dar... cu vânt sau fără vânt... Cine vroiește să facă ascensiune cu mine?</p>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Eu nu vreau, domnule, nici Despa... așa s-o știi...</p>
+          </sp>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Nime nu are curagiul?... Nime?... O dată, de două ori, de...</p>
+          </sp>
+          <stage>CHIRIȚA:  (dintr-o tribună)  Stai că eu vin.</stage>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Cine? Cine?</p>
+          </sp>
+          <stage>CHIRIȚA:  (venind în scenă)  Eu, cucoana Chirița! baroneasa! din Paris și din Viena!</stage>
+          <stage>SCENA II</stage>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Chirița, Chirița, Bârzoaie,</p>
+            <p>Se urcă, se urcă-n balon!</p>
+            <p>CHIRIȚA:</p>
+            <p>De ce nu? Chirița-i leoaie,</p>
+            <p>Hailaifă, model de bonton.</p>
+            <p>COR:</p>
+            <p>Vivat! bravo mii de ori,</p>
+            <p>Chirița se duce-n nori!</p>
+            <p>Ea, din mândră baroneasă.</p>
+            <p>Vrea s-ajungă baloneasă!</p>
+          </sp>
+          <stage>CHIRIȚA: D-apoi cum? și de ce nu?... Doară una-i Chirița pe lume, deși multe au ambiție ca să-i samene... Câte am pățit eu! prin câte am trecut de când ne cunoaștem și, slavă Domnului! iată-mă-s tot grasă și frumoasă...  (Se păunește.)  Dar mi-ți zice, poate, că balonu-i altă gâscă... mi-ți pomeni de trăsnete, de fulgere, de pericole etcetera și cele multe... Habar n-am!... Dacă nu mi-au venit de hac nici balonul meu cel galben, știți, cel troienit în Păcurari... apoi de balonul ista o să mă spariu?... Tocmai Ciubăr-Vodă o să-mi facă șotia?... Nu vă îngrijiți, suflețeilor... Eu sunt o persoană ca vestitul Baiardi, sans peur et sans reprocher. Am umblat pe apă și pe uscat, ș-acum vreau să umblu și prin văzduh ca o ciocârlie gingașă, ciripitoare...</stage>
+          <stage>PANGLICĂ:  (ascuns între public)  Cam grea ciocârlie!</stage>
+          <stage>CHIRIȚA: Aud? Cine-a spus că-i grea?... Te înșeli, domnule. M-am cântărit la spoziția de la Viena și am tras cât o peană... de... lișiță... Ș-apoi dacă ai fi un om umblat și citit, dacă mi-ai fi călătorit ca mine pe unde și-a înțărcat dracul copiii, dacă mi-ai fi văzut Parisul și Viena, dacă ai face parte din lumea cea mare, din hailaiful Bucureștilor, ai ști că sexul nostru, fie cât de gras, e tot gracios și ușurel. Așa spunea Alkibiad, palicarul din vremea grecilor vechi, după cum ne-a încredințat mosiu Șarlă, profesorul lui Guliță... dar fiindcă d-ta nu ești nici Alkibiad, nici palicar, plecăciune!  (În parte.)  Auzi, tontu! Parcă m-am îngrășat la casa lui.</stage>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Aoleo, sfinte, că strechiată-i!</p>
+          </sp>
+          <stage>CHIRIȚA:  (furioasă)  Cine-i străchiată, năucule?</stage>
+          <stage>NĂUCESCU: Nu d-ta, cocoană... Despa... Despa.  (Despa se supără.)  Taci, soro, că-i în stare să ne sară-n cap.  (Tare)  Cocoană Chirițo, ce-a zice soțul d-tale când a afla?...</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Zică ce-a vrea; am otărât să mai văd și alte lumi, nu tot asta de la noi, și m-oi ascensiunearisi chiar de-a fi să-ți cad pe cap din naltul cerului.</p>
+          </sp>
+          <stage>NĂUCESCU: Ferească Pronia!  (În parte.)  Să-mi cadă coșcogea bute pe scăfârlie... m-am topit!</stage>
+          <stage>CHIRIȚA:  (exaltat)  Dar! o să mă înalț pe unde nu s-au înălțat nici zmeii, ca să meargă vestea Chiriței peste nouă mări și nouă țări; o să mă sui în lună și în stele, ca să văd de-oi găsi și pe acolo bazaconiile ce le-am văzut pe pământ.</stage>
+          <stage>(Arie din „Chirița la Paris”)</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Am văzut amoruri multe</p>
+            <p>Ș-amorași cu pene smulte,</p>
+            <p>Smulte, smulte, smulte, smulte etc.</p>
+            <p>Și caractere-njosite,</p>
+            <p>Nu de mult la noi ivite,</p>
+            <p>Vite, vite, vite, vite, vite, vite, vite.</p>
+            <p>N-are cine cumpăra.</p>
+            <p>VÂNZĂTORUL:</p>
+            <p>Șeapte de-o para!</p>
+            <p>CHIRIȚA:</p>
+            <p>Ei, parol, n-ar zice ba.</p>
+            <p>VÂNZĂTORUL:</p>
+            <p>Șeapte de-o para!</p>
+            <p>COR:</p>
+            <p>N-are cine cumpăra</p>
+            <p>Șeapte de-o para.</p>
+            <p>Ei, parol, n-ar zice ba,</p>
+            <p>Șeapte de-o para.</p>
+            <p>CHIRIȚA:</p>
+            <p>Deci, Chirița exaltată</p>
+            <p>Vrea în ceruri să răzbată,</p>
+            <p>Bată, bată, bată, bată, bată, bată, bată,</p>
+            <p>Chiar de-a fi din a lor poală</p>
+            <stage> (coborând ochii) </stage>
+            <p>Ca să cadă rostogoală,</p>
+            <p>Goală, goală, goală, goala, goală, goală, goală.</p>
+            <p>Sper că toți m-or admira.</p>
+            <p>VÂNZĂTORUL:</p>
+            <p>Șeapte de-o para!</p>
+            <p>CHIRIȚA:</p>
+            <p>Ș-or striga voios: Ura!</p>
+            <p>VÂNZĂTORUL:</p>
+            <p>Șeapte de-o para!</p>
+            <p>COR:</p>
+            <p>Dar! cu toți te-om admira,</p>
+            <p>Șeapte de-o para,</p>
+            <p>Și cu toții om striga:</p>
+            <p>Șeapte de-o para!</p>
+            <stage> (Moghior se coboară din naselă și se apropie de Chirița.) </stage>
+          </sp>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Cucoană Chirița... când v-a fi cu plăcere, balonul e gata.</p>
+          </sp>
+          <stage>CHIRIȚA:  (întorcându-se și zărind pe Moghior)  Piei, drace!... D-ta ești balonistul?</stage>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Eu... mă recunoașteți?</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da cum, tătarii, să nu te recunosc?...</p>
+            <stage> (Scena următoare e aparte.) </stage>
+          </sp>
+          <stage>MOGHIOR:  (cu sentiment)  Ah!</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>D-ta m-ai scăpat de belea la Viena, plătindu-mi datoriile, și ai venit cu mine la București, pentru ca să capeți concesiuni și joncțiuni... Ba încă am și giucat ceardașul împreună în sala lui Bosel. Da bine, grăfușorule, cum de-ai ajuns balonist din joncționist?... măcar că bine bătând: Tot ca una, fata mea.</p>
+          </sp>
+          <stage>MOGHIOR:  (în taină)  Amorul!... El m-a metamorfozat.</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>El te-a metaformozat? Bată-l norocul, amoraș! Îi cunosc și eu drăciile și renghiurile etcetera și cele multe! Dar ce are a face cu balonul?</p>
+          </sp>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Ascultă-mă: Neputând să am parte de d-ta pe pământ, mi-am pus în gând să te răpesc în văzduh, ca să fii a mea!</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Eu? pe mine... în văzduh?... ba să-ți cați de treabă, că-ți găsești pârțagul cu Chirița.</p>
+          </sp>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Pârțag, nepârțag... nu-mi pasă! Vreau să facem joncțiune de inimi împreună.</p>
+          </sp>
+          <stage>CHIRIȚA:  (în parte)  Mititelul!  (Tare.)  Dar nu se poate una ca asta, măgnățelule. Eu sunt măritată cu Bârzoi; am fete mari cu copii și un flăcău de băiat la Senat.  (În parte.)  Cenușer...  (Tare.)  Ș-apoi, nu știi? Sunt o persoană vertuoasă... vertuoasă, de nu-mi încap în piele... sunt jurată să păzesc credință...</stage>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>A! nu face nimic... Când îi fi sus în aer, te-oi dezlega eu de toate jurămintele.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ba să nu te-mpingă păcatul, că, pre legea mea, te azvârl din naselă ca pe-o minge.</p>
+          </sp>
+          <stage>MOGHIOR:  (răsucindu-și mustața)  Om vedea... Cucoană Chirița, publicul așteaptă... Poftim.</stage>
+          <stage>(Dă brațul Chiriței și face jurul scenei, închinându-se la public, apoi se apropie de naselă.)</stage>
+          <stage>CHIRIȚA: Hai!  (În parte.)  Ar avea haz să pat vro șotie tocmai în nori... dar las’ pe mine!</stage>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Chirița, Chirița, Bârzoaie,</p>
+            <p>Se urcă, se urcă-n balon!</p>
+            <p>CHIRIȚA:</p>
+            <p>Adio! Chirița-i leoaie,</p>
+            <p>Hailaifă, model de bonton.</p>
+            <p>COR:</p>
+            <p>Vivat! bravo mii de ori!</p>
+            <p>Chirița se duce-n nori!</p>
+            <p>Ea, din mândră baroneasă,</p>
+            <p>Vrea s-ajungă baloneasă.</p>
+            <p>SCENA III</p>
+            <p>Cei dinainte, BÂRZOI, UN COMISAR</p>
+          </sp>
+          <stage>BÂRZOI:  (intră în sala teatrului pe la finele corului, se apropie de orchestră și strigă deodată)  Nu lăsați... N-o lăsați să se suie în năsăle cu ungurul... Chirițo!</stage>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ce este, ce este?</p>
+          </sp>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Chirițo... fugi de lângă naselă.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Vai de mine! bărbatu-meu?</p>
+          </sp>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Eu, dar!... și nu-ți dau voie să bați lela prin văzduh cu balonistul.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Da bine, frățioare, gândește că onorabilul public și înalta noblețe...</p>
+          </sp>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Nu știu eu de astea... Chiriță, să mă vezi mort dacă-i face asfințiune cu balonul.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Măcar să te și îngrop, sufletele, nu mă iartă filotimia să te ascult.</p>
+          </sp>
+          <stage>BÂRZOI: Așa ți-e povestea, jupâneaso?... Apoi vin eu să te-nhaț... Nu te iartă filotimia? lan să-ți arăt eu filotimie.”  (Vrea să sară pe scenă, peste orchestră.)</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Opriți-l, legați-l, duceți-l la Mărcuța, c-a turbat.</p>
+            <p>COMISARULș</p>
+            <stage> (lui Bârzoi) </stage>
+            <p>Stai, domnule, unde te duci?</p>
+          </sp>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Ce-ți pasă dumitale?</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Domnule, sunt comisar.</p>
+          </sp>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Nici nu vreau să te știu.</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Domnule, nu face scandal, c-oi fi silit să te arestez.</p>
+          </sp>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Scandal! Eu fac scandal? Iaca cine face scandal. Arestuiește-i pe dânșii.</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Ei! nu mai lungi vorba și șezi liniștit.</p>
+          </sp>
+          <stage>BÂRZOI: Cum? să tac molcu când îmi fură de la ochi pe Chirițușca mea? Mări, fugi încolo!  (Dă brânci comisarului.)</stage>
+          <stage>COMISARUL: Așa?... dar ieși afară.  (Îl apucă de guler.)</stage>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Ba n-oi ieși.</p>
+          </sp>
+          <stage>COMISARUL: Nu-i ieși? dacă doar știu să te duc și pe sus.  (Îl apucă-n brațe și-l scoate afară din sală.)</stage>
+          <stage>BÂRZOI:  (zbătându-se)  Protestarisesc în numele hristoitiei! Domnule, ești vândut ungurului.</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>L-au umflat? Aferim. D-le Moghior, hai degrabă în balon.</p>
+            <p>MOGHIORș</p>
+            <stage> (luând-o de mână) </stage>
+            <p>No, hai!</p>
+            <stage> (Cu foc.) </stage>
+            <p>De-acum ești a mea.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Pune-ți pofta-n cui!</p>
+            <stage> (Se suie amândoi în naselă.) </stage>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Strâmtă naselă! dar, încalte, solidă-i?</p>
+          </sp>
+          <stage>MOGHIOR: Cât podul de la Pesta... N-ai nici o grijă.  (La soldații care sunt împrejurul naselei.)  Acum, domnilor, luați seama bine să dați drumul frânghiilor când oi striga: Ellien Moghior!... Ați înțeles? Cucoană Chiriță, ține-te bine... plecăm...  (Scoate pălăria și o învârteste-n aer strigând.)  Ellien Moghior!</stage>
+          <stage>CHIRIȚA:  (la soldați)  Lachez tout!</stage>
+          <sp who="#publicul">
+            <speaker>PUBLICUL</speaker>
+            <p>Ura!</p>
+            <stage> (Soldații lasă frânghiile și se retrag în fund. Balonul se urcă puțin, apoi se oprește.) </stage>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Aoleo! maică... se duce, iaca... privește, Despo... se duce, ba... se oprește... s-a oprit!</p>
+          </sp>
+          <sp who="#hazliu">
+            <speaker>HAZLIU</speaker>
+            <p>Nasela e cam grea... Chirița are prea mulți nuri!</p>
+          </sp>
+          <sp who="#vanzatorul">
+            <speaker>VÂNZĂTORUL</speaker>
+            <p>Șeapte de-o para!</p>
+          </sp>
+          <stage>MOGHIOR:  (în văzduh)  Ah! Chirițo... de-acum n-ai încotro face... Trebuie să mă iubești.</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ian nu te obrăznici.</p>
+          </sp>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Ah! dă-mi un cioc, Chirițo.</p>
+          </sp>
+          <stage>CHIRIȚA: Iaca moțpanu...  (Se apără.)  Da, du-te-ncolo, nerușinatule, că te văd oamenii! Vai de mine!... mi-am găsit beleaua!... Mai bine aruncă lest ca să ne putem sui, căci s-a oprit balonul.</stage>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Bine zici!... să nu ne vadă nime de pe pământ.</p>
+            <stage> (Ridică un săcușor de nisip.) </stage>
+          </sp>
+          <stage>NĂUCESCU:  (venind în scenă și cătând în sus)  lan privește, maică!... se drăgostesc prin văzduh ca cărăbușii.</stage>
+          <stage>MOGHIOR:  (de sus)  Feriți!  (Deșartă sacul.)</stage>
+          <stage>NĂUCESCU: Aoleo! m-a chiorât!  (Se întoarce la locul lui frecându- și ochii. Publicul râde. Nasela se ridică încet. Un nour se coboară puțin din frize pentru efectul perspectivei.)</stage>
+          <sp who="#moghior">
+            <speaker>MOGHIOR</speaker>
+            <p>Ne suim, Chirițo! ne suim!... Dă-mi un cioc unguresc.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Ce să-i dau? un cioc?... du-te cioarelor.</p>
+          </sp>
+          <stage>MOGHIOR: Adică un sărutat.  (Vrea să o sărute.)</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>lan ascultă... astâmpără-te că te dau jos din trăsură.</p>
+          </sp>
+          <stage>MOGHIOR:  (cu foc)  Numai un cioc, ș-apoi să mor.</stage>
+          <stage>CHIRIȚA:  (luptându-se)  Vai!... Umfla-te-ar rusaliile!</stage>
+          <stage>(Nasela dispare după nour.)</stage>
+          <stage>CHIRIȚA:  (după nor)  Săriți! agiutor!... Pompierii!</stage>
+          <stage>(Publicul se uită în sus.)</stage>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Ce s-aude?... Chirița cere ajutor, oare ce i se-ntâmplă?</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Privește... Parcă se luptă cu ungurul... Iaca, l-a apucat de gât... l-a plecat pe marginea naselei!... Aoleo!... feriți!... Cade ungurul!... Cade!...</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Cade!… feriți!...</p>
+            <stage> (Deodată cade în mijlocul publicului un manechin ce seamănă cu Moghior.) </stage>
+          </sp>
+          <stage>PUBLICUL:  (înconjurând manechinul)  A!... sărmanul!... a murit! s-a turtit ca o plăcintă!... Un doctor!… un doctor!... să-l ducă la spital!... degrabă!  (Soldatul ridică manechinul și iese.)</stage>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Bre! ce grozăvenie!... mi s-a încrețit pielea!... Ai văzut, Despo, cum a căzut de rău?</p>
+          </sp>
+          <sp who="#despa">
+            <speaker>DESPA</speaker>
+            <p>Apoi de... așa i-a fost scris!... se vede...</p>
+            <p>COR:</p>
+            <p>Ce fapt grozav și trist!</p>
+            <p>Ce fapt neașteptat!</p>
+            <p>Sărmanul balonist!</p>
+            <p>De-a tumba a picat!</p>
+          </sp>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Dar oare unde-i balonul?... Îl vezi, Lică?</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Ba nu... a dispărut... s-a dus în naltul cerului, cu Chiriță, cu tot.</p>
+          </sp>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Sărmana!... e pierdută!... Cum o să se coboare?...</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Sărmana!...</p>
+          </sp>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Stați... iaca balonul!... colo, sus, ca o rândunică.</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Pare că se coboară...</p>
+          </sp>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Ba cade… cade cu o repejune spăimântătoare...</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>Bine zici!... Primejdie... De s-a lovi de pământ, nu sa alege nici țandără de biata Chirița.</p>
+          </sp>
+          <stage>NĂUCESCU: Aoleo! De nu mi-ar cădea pe scăfârlie!  (Își deschide cortelul.)</stage>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Iaca și Chirița... O vezi în naselă?</p>
+          </sp>
+          <sp who="#panglica">
+            <speaker>PANGLICĂ</speaker>
+            <p>O văz... face semne de desperare... se dezbracă... își aruncă mantila...</p>
+          </sp>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Și cortelul.</p>
+          </sp>
+          <stage>PANGLICĂ: Și cocul.  (Toate aceste obiecte cad pe scenă una după alta.)</stage>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Și tunica!... și... ba nu... balonul a început a se coborî mai încet... Chirița l-a ușurat azvârlind cocul... Știi una, Lică? Hai să improvizăm o orațiune cucoanei Chirițe... Mergi de pregătește cele trebuincioase.</p>
+          </sp>
+          <stage>PANGLICĂ: Bună idee... mă duc...  (Iese.)</stage>
+          <stage>(O frânghie lungă începe a spânzura de sus.)</stage>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Balonul! Balonul!… s-a apropiat!</p>
+          </sp>
+          <stage>CHIRIȚA:  (strigă de după nor)  Prindeți capătul frânghiei... prindeți frânghia...</stage>
+          <stage>(Publicul apucă de frânghie, trage, și nasela se ivește, coborându-se.)</stage>
+          <sp who="#publicul">
+            <speaker>PUBLICUL</speaker>
+            <p>Ura! să trăiască cucoana Chirița!</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Încet, încet... Să nu mă izbiți de pământ... Așa... domol... frumos... bine... bravo!</p>
+            <stage> (Nasela ajunge pe scenă.) </stage>
+            <p>COR:</p>
+            <p>Bine-ai venit înapoi!</p>
+            <p>Bine-ai sosit între noi,</p>
+            <p>Chirițușca lui Bârzoi,</p>
+            <p>Eroină-ntre eroi!</p>
+          </sp>
+          <stage>CHIRIȚA:  (fără coc, în corset, cu brațele și umerele goale)  Bine v-am găsit, oameni pământeni!  (Sare din naselă.)  Uff! slavă Tatălui și Fiului că m-am văzut iar pe uscat!</stage>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Cât ne pare de bine la toți, cucoană! că, zău! te-am crezut pierdută pentru totdeauna.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Aș! nu piere Chirița cu una, cu două.</p>
+          </sp>
+          <sp who="#hazliul">
+            <speaker>HAZLIUL</speaker>
+            <p>Dar, vă rog, spune-ne ce vi s-a întâmplat! V-ați pierdut hainele pe drum și vă întoarceți... într-o toaletă cam...</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cam... neglige?... Adevărat, monsiu Muțunache, că-s cam... desfrunzită, dar apoi ce era să fac pentru ca să-mi scap viața?... M-am despoiat... însă, apropo, nu mi-ați găsit bulendrele?... Le-ați cules?... Mersi... Acum ascultați tragedia mea:</p>
+            <stage> (Arie din „Domino noir”: „Ah! quelle nuit!”) </stage>
+            <p>CHIRIȚA:</p>
+            <p>I</p>
+            <p>Cum am plecat,</p>
+            <p>Moghiorul, bat,</p>
+            <p>De mine s-a legat,</p>
+            <p>Cerând cu mare foc</p>
+            <p>Să-i dau un cioc.</p>
+            <p>Eu îl refuz,</p>
+            <p>Și-l rog cinstit să nu facă abuz,</p>
+            <p>Iar el, numaidecât,</p>
+            <p>Îmi sare-n gât!</p>
+            <p>Zadarnic cat să-l potolesc,</p>
+            <p>Onoarea să-mi diafendefsesc;</p>
+            <p>Moghiorul meu turbat</p>
+            <p>M-apucă la pupat!</p>
+            <p>Atunci mânia m-a umflat,</p>
+            <p>Și din naselă l-am zburat.</p>
+            <p>Ca pe-un flaimuc</p>
+            <p>Ce s-a tot dus de-a tumba, huștiuliuc...</p>
+            <p>Privindu-l, am rămas,</p>
+            <p>Zău, fără glas</p>
+            <p>Ș-am zis în gândul meu:</p>
+            <p>„Ah! te rog, sfinte Dumnezeu,</p>
+            <p>Apără-l de mai rău!”</p>
+            <p>Dar, apropo… unde-i moghiorul?... Cred că s-a fi metaformozat în paprică... și s-a fi săturat de amor.</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Ba nu, cocoană... a înviat și s-a dus cu banii adunați la casă.</p>
+          </sp>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Cum?... N-a rămas lat?... tare de oțel, ungurul!... a fi căzut pe slănină... dar să nu-mi uit vorba:</p>
+            <p>II</p>
+            <p>Deodată-n sus,</p>
+            <p>Balonul dus</p>
+            <p>De duhul necurat</p>
+            <p>În aer a zburat,</p>
+            <p>S-a înălțat!</p>
+            <p>Mi se părea</p>
+            <p>Că-n ochii mei lumea pierea</p>
+            <p>Și amețeam, lulea...</p>
+            <p>Altă belea!</p>
+            <p>Ce să mă fac? și cum să scap?</p>
+            <p>M-acaț în grabă de supap</p>
+            <p>Și trag mereu cât pot</p>
+            <p>Să iasă gazul tot.</p>
+            <p>Însă deodat-am început</p>
+            <p>A coborî precum n-am vrut,</p>
+            <p>Întocmai chiar</p>
+            <p>Și mai dihai decât bietul moghiar.</p>
+            <p>Atunce am rămas</p>
+            <p>Iar fără glas</p>
+            <p>S-am zis în gândul meu:</p>
+            <p>„Ah! te rog, sfinte Dumnezeu,</p>
+            <p>Scapă-ne de mai rău!”</p>
+            <p>Și nici una, nici două, pentru ca să se ușure balonul, zvârl mantila de pe umeri, zvârl de pe cap părul meu de bașca, cocul cel de patru oca și trei litre, zvârl cortelul, zvârl tunica... Puțin a lipsit să-mi azvârl și turniura, dar noroc că balonul și-a moderat repegiunea.</p>
+          </sp>
+          <stage>HAZLIUL:  (aducând obiectele)  Ce inspirație minunată ați avut! lată obiectele d-voastră.</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Mersi, Muțunache... să-mi pun tunica... așa... mersi... cu toate că nu mi-e rușine să mă vadă soarele cum sunt!...</p>
+            <p>III</p>
+            <p>Și cum cădeam,</p>
+            <p>Pe gios vedeam</p>
+            <p>Acest oraș frumos,</p>
+            <p>Luxos, politicos,</p>
+            <p>Și... noroios.</p>
+            <p>Iar pe aici</p>
+            <p>Oamenii mari, oamenii mici</p>
+            <p>Mi se păreau pitici,</p>
+            <p>Pitici, pitici.</p>
+            <p>Câți dintr-acei fuduli măreți</p>
+            <p>Aveau aspectul de bureți!</p>
+            <p>Câți zmei, lei-paralei,</p>
+            <p>De sus, păreau pigmei!</p>
+            <p>Atunci, gândind că gioacă rol</p>
+            <p>Pân’ ce se dau frumos de gol,</p>
+            <p>De-a rostogol,</p>
+            <p>Și iar dispar, pierzându-se-n nămol,</p>
+            <p>Un râs neașteptat</p>
+            <p>M-a apucat</p>
+            <p>Ș-am zis în gândul meu:</p>
+            <p>„Ah! te rog, sfinte Dumnezeu,</p>
+            <p>Apără-ne de mai rău!”</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Bravo!... cucoană Chiriță... să trăiască cucoana Chirița!</p>
+          </sp>
+          <stage>CHIRIȚA: Sărut ochișorii...  (Își așează cocul.)</stage>
+          <stage>(Se aude zgomot în culise.)</stage>
+          <stage>SCENA IV</stage>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Prindeți-l... prindeți-l... nu-l lăsați să intre.</p>
+          </sp>
+          <stage>BÂRZOI: În lături, guleraților!...  (Intră.)  Aice? Aice-i?... Unde-i Chirița?</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>Vai de mine!... Bârzoi!... bărbatu-meu... am sfeclit-o.</p>
+          </sp>
+          <stage>BÂRZOI: A!... iată-te, jupâneaso!.... Așteaptă să-ți dau eu balonuri și nasele...  (Se repede.)</stage>
+          <sp who="#chirita">
+            <speaker>CHIRIȚA</speaker>
+            <p>La sănătoasa, Chirițo!... că-i slut la Prut...</p>
+            <stage> (Fuge primprejurul balonului, apoi sare peste lavița pe care ședea Năucescu, îl răstoarnă jos și dispare în culise.) </stage>
+          </sp>
+          <sp who="#naucescu">
+            <speaker>NĂUCESCU</speaker>
+            <p>Aoleo! maică!… m-a ucis!</p>
+          </sp>
+          <stage>COMISARUL:  (prinzând pe Bârzoi)  Stai, nebunule... Unde te socoți? la Mărcuța?</stage>
+          <sp who="#barzoi">
+            <speaker>BÂRZOI</speaker>
+            <p>Ce vrei tu cu mine?... Zapciule... N-am eu dreptul să-mi păzesc nevasta?... Chirița e a mea... Nu-i averea statului... M-am cununat cu dânsa înainte de resmiriță... Fugi încolo!</p>
+          </sp>
+          <stage>COMISARUL:  (zice soldaților)  Umflați-l pe sus... și la poliție!</stage>
+          <stage>(Soldații ridică pe Bârzoi care se luptă.)</stage>
+          <stage>BÂRZOI: Anaftema să fiți... cu tot neamul vostru!  (Iese furios.)</stage>
+          <stage>(Îndată se aude între culise fanfara din marșul operei Profetul și începe a defila pe scenă un cortegiu format de principalele roluri create de Millo. În frunte merge Panglică, purtând un stindard cu inscripția: Vivat Chirița, apoi Baba Hârca, Barbu Lăutarul, Plăcintarul, Moisi, Paracliserul... etc., având fiecare câte un steag cu numele sau pe dânsul. Chirița, culcată într-un baldachin împodobit, este adusă în triumf, pe sunetul marșului. Cortegiul face jurul scenei pe dinaintea estradelor din care sunt aruncate bucheturi Chiriței, apoi se oprește în mijlocul scenei.)</stage>
+          <stage>PUBLICUL: Ce s-aude? ce s-aude?  (Vrea sa iasă.)</stage>
+          <stage>HAZLIUL:  (oprindu-i)  Stați pe loc. Vine cucoana Chirița în triumf!!</stage>
+          <sp who="#publicul">
+            <speaker>PUBLICUL</speaker>
+            <p>Uraa!</p>
+            <stage> (După fanfară, corul cânta versurile următoare, pe partea întâi a marșului:) </stage>
+            <p>COR:</p>
+            <p>Glorie și onori,</p>
+            <p>Mândră Chiriță,</p>
+            <p>Bravo zmeiță,</p>
+            <p>Care-a zburat prin nori</p>
+            <p>Ca o porumbiță!</p>
+            <p>Hai să strigăm în cor:</p>
+            <p>Mândră Chiriță!</p>
+            <p>Acum și în viitor,</p>
+            <p>Glorie și onor!</p>
+            <stage> (Cortegiul oprindu-se în mijlocul scenei, Chirița se coboară din baldachin, salută și cântă pe partea muzicii marșului ce vine în urma corului.) </stage>
+          </sp>
+          <stage>CHIRIȚA:  (cu sentiment)</stage>
+          <stage>(Apoi ea se suie iar în baldachin și cortegiul pleacă, cântând.)</stage>
+          <sp who="#cor">
+            <speaker>COR</speaker>
+            <p>Glorie și onori,</p>
+            <p>Mândră Chiriță! etc... etc...</p>
+            <stage> (Cortina cade în strigătul de „ura” al publicului de pe scenă.) </stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
