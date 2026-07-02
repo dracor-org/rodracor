@@ -22,15 +22,23 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.m.wikisource.org/wiki/R%C4%83zvan_%C8%99i_Vidra</idno>
+          <ref target="https://ro.m.wikisource.org/wiki/R%C4%83zvan_%C8%99i_Vidra">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
-            <title>Tip. Lucrătorilor Asociați - ed. a III-a, revăzută, București</title>
-          </bibl>
         </bibl>
+        <bibl type="originalSource">
+            <title>Tip. Lucrătorilor Asociați - ed. a III-a, revăzută, București</title>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1869">
+            <desc>1869</desc>
+          </event>
+          <event type="premiere" when="1869">
+            <desc>1869</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -152,14 +160,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1869">
-        <desc>1869</desc>
-      </event>
-      <event type="premiere" when="1869">
-        <desc>1869</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000009" passive="http://www.wikidata.org/entity/Q12740251"/>
     </listRelation>

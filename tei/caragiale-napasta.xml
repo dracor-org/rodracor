@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.m.wikisource.org/wiki/N%C4%83pasta</idno>
+          <ref target="https://ro.m.wikisource.org/wiki/N%C4%83pasta">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>A apărut prima dată în revista „Convorbiri literare”, XXIII, nr.10, 1 ian. 1890. În același an apare și în volum (IG. Haimann, Librar-Editor). Retipărită în 1894, Iași, editura Librăriei Frații Șaraga.</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1890">
+            <desc>1890</desc>
+          </event>
+          <event type="premiere" when="1890-02-03">
+            <desc>Reprezentată prima oară în București, la 3 feb. 1890 pe scena Teatrului Național.</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -62,14 +70,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1890">
-        <desc>1890</desc>
-      </event>
-      <event type="premiere" when="1890-02-03">
-        <desc>Reprezentată prima oară în București, la 3 feb. 1890 pe scena Teatrului Național.</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000002" passive="http://www.wikidata.org/entity/Q12736963"/>
     </listRelation>

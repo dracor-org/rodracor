@@ -1,0 +1,372 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000042" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Păcală și Tândală</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Pâcală_și_Tândală">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1857">
+            <desc>1857</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="pacala" sex="MALE">
+            <persName>PĂCALĂ</persName>
+          </person>
+          <person xml:id="tandala" sex="MALE">
+            <persName>TÂNDALĂ</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000042"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Păcală și Tândală</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>PĂCALĂ</role>
+        </castItem>
+        <castItem>
+          <role>TÂNDALĂ</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>TÎNDALĂ:   (oftînd)</stage>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Care boală, măi Tândală?</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Boală grea și făr’ de leac</p>
+            <p>Ce de mult ne amenință!</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Dar ce boală?</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>O! trist veac!</p>
+            <p>În ce vremi au fost s-ajungem! în ce rele! în ce foc!</p>
+            <p>Auzi, frate, toți românii să fie-uniți la un loc!</p>
+            <p>Moldovanul și munteanul să-și peardă numele lor!</p>
+            <p>Să-ntrunească-a lor pămînturi! să se facă un popor!</p>
+            <p>Ba chiar nație să fie!… auzi, nație!… măi, măi,</p>
+            <p>Zău că nu credeam românii atîta de nătărăi!</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>De ce ești așa de aspru pentru neamul românesc,</p>
+            <p>Măi Tândală?… al tău suflet îl știam mai creștinesc.</p>
+            <p>Precît îmi aduc aminte, tu odinioară-ai fost</p>
+            <p>Atît de blăjîn că lumea te credea puțin cam… prost.</p>
+            <p>Cine ți-a turburat firea? Spune mie, dragul meu,</p>
+            <p>Cine din miel cu blîndețe te-a făcut leu-paraleu?</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Cine, cine… n-am nevoie ca să ți-l destăinuiesc;</p>
+            <p>Dar acela oarecine m-a făcut să-ncremenesc</p>
+            <p>Cînd mi-a spus chiar la ureche, cu glas blînd și-nduioșat,</p>
+            <p>Că Moldova, sărmănica, spre peire a plecat,</p>
+            <p>Căci de-a fi să se unească moldoveni și cu munteni,</p>
+            <p>Muntenii dintr-o sorbire au să-nghit pe moldoveni!</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Elei! frate.</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Așa, dragă!… Ascultă să te-oțărești.</p>
+            <p>Se zice de capitală c-a să fie-n București,</p>
+            <p>Cale de treizeci de poște departe de lașul meu,</p>
+            <p>De-acest tîrg frumos și mare unde trăim tu și eu!</p>
+            <p>Ei, Păcală, orice-i spune, nici că-mi vine de crezut</p>
+            <p>C-ar putea ca să ajungă lașul oraș de ținut!</p>
+            <p>Iașul, scaunul domniei, care, precum tu mi-ai zis,</p>
+            <p>Se aduce de departe cu vestitul tău Paris,</p>
+            <p>Iașul, vechea capitală unde am căsuța mea</p>
+            <p>Care, de s-ar perde lașul, mult din prețu-i ar scădea.</p>
+            <p>Înțelegi acum, măi frate?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Înțeleg că și tu vrei</p>
+            <p>Să jertfești o țară-ntreagă pentru-un ticălos bordei?</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Ș-apoi alta, altă poznă! Cică-n Statul Românesc</p>
+            <p>Să fie la stăpînire domn de neam împărătesc,</p>
+            <p>Domn străin, numit pe viață, și cu drit de moștenit!</p>
+            <p>Auzi, tron cu moștenire!… apoi nu-i de suferit!</p>
+            <p>Care-atunce, cum s-ar prinde, eu ce am hambițion,</p>
+            <p>Să-mi ridic toată speranța de-a mă acăța pe tron!</p>
+            <p>Eu ce sînt patriot mare, eu get-beget, să nu am</p>
+            <p>Prilej de a fi în țară nici măcar un caimacam!</p>
+            <p>Și, perzînd a mele drituri, să ajung chiar a videa</p>
+            <p>Sub un prinț străin, catolic, că se perde legea mea!</p>
+            <p>Nu, Păcală, niciodată!</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Ei! Tândală, te rog, taci,</p>
+            <p>Că, precît ești prost din fire, și mai prost vrei să te faci.</p>
+            <p>Ce te zbuciumi pentru lege astfel de înfuriat,</p>
+            <p>Cînd tu legea în picioare-ți de-atîte ori ai călcat!</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Eu, Păcală?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Tu, Tândală.</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <stage> (făcîndu-și cruce) </stage>
+            <p>Mă ferească Dumnezeu!</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>În zadar, căci pe-a ta urmă te paște păcatul greu.</p>
+            <p>Adu-ți bine tu aminte de țiganii ce-ai avut:</p>
+            <p>Prin mezat, ca niște vite, cîte suflete-ai vîndut?</p>
+            <p>Despărțînd fără-ndurare mumele de-ai lor copii,</p>
+            <p>Și rîzînd de a lor lacrimi ca o feară din pustii!</p>
+            <p>Spune mie, o! creștine, cîți creștini ai chinuit</p>
+            <p>Cînd erai, chiar din păcate, în slujbă orînduit?</p>
+            <p>Cîte văduve sărace, cîți orfani tu ai prădat,</p>
+            <p>Și pînea de toată ziua chiar din gură le-ai luat?</p>
+            <p>Spune-mi tu, o! stîlp a legei, ce umbli cu crucea-n sîn,</p>
+            <p>Sînt aceste fapte rele de creștin sau de păgîn?</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Bine, frate, tu mă sparii… Ce greșală-am făptuit</p>
+            <p>Pentru că, fiind în slujbă, și eu m-am schivernisit?</p>
+            <p>Așa-i obiceiul țărei…</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Taci, Tândală, nu cîrti.</p>
+            <p>Ai prădat sărmana țară, e destul, n-o mai huli!</p>
+            <p>Și de vrei ca să se ierte trecutu-ți mult păcătos,</p>
+            <p>Hotărăște-te odată a fi țărei de folos,</p>
+            <p>Iar nu umbla cu minciuna ca un șerpe cu venin,</p>
+            <p>Zicînd că s-ar perde legea de-am avea un domn străin,</p>
+            <p>Căci românu-n astă lume orice rele-ar suferi,</p>
+            <p>În legea care se naște, în ea știe a muri!</p>
+            <p>Ungurii ce în Moldova sînt ca noi locuitori,</p>
+            <p>Schimbat-au a lor credință sub românii domnitori?</p>
+            <p>Pentru ce dar pe-al tău frate mai ușor să-l socotești,</p>
+            <p>Cînd el încă tot păstrează bunurile strămoșești?</p>
+            <p>Și de ce, supus orbirei unui mîrșav interes,</p>
+            <p>Să nu vrei a înțelege lucru lesne de-nțeles:</p>
+            <p>Că-n Unire stă puterea! Că la oricare nevoi,</p>
+            <p>Decît a fi unul singur, e mai bine de-a fi doi!</p>
+            <p>Că pîraiele-adunate se prefac în rîuri mari,</p>
+            <p>Că cei slabi, cînd se-mpreună, cumpănesc pe cei mai tari,</p>
+            <p>Căci, precum zicea odată l-ai săi fii un biet moșneag:</p>
+            <p>E mai lesne-a rupe-o vargă decît un întreg toiag!</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Bine, dar ce are-a face?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Nu-nțelegi?… ascultă dar:</p>
+            <p>Pentru ce țările noastre au băut atît amar?</p>
+            <p>Pentru ce acum, de veacuri, nici că mai hălăduiesc?</p>
+            <p>Pentru ce fără sfială dușmanii le năvălesc,</p>
+            <p>Încît astăzi biet românul, ce-a ajuns a fi de jac,</p>
+            <p>Nu mai știe ce mai este: tătar, jidov sau căzac?</p>
+            <p>Și, privind îmbelșugarea holdelor din țara lui,</p>
+            <p>Se întreabă cu durere: a cui pradâ-or fi, a cui?</p>
+            <p>Știi tu pentru ce, Tândală, Dumnezeu ne-a părăsit,</p>
+            <p>De-am rămas dintr-un neam mare un neam mic și umilit?</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Pentru ce?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Pentru că vrajba între frați s-a încuibat!</p>
+            <p>Pentru că românul frate de român s-a depărtat!</p>
+            <p>Pentru că și mai-nainte s-au găsit pintre români</p>
+            <p>Oameni vînzători ca Iuda, inimi rele de păgîni</p>
+            <p>Carii, jertfind ca și tine viitorul românesc</p>
+            <p>Și sămănînd dezbinarea pe pămîntul strămoșesc,</p>
+            <p>Au scăzut, au stins Unirea, puterea neamului lor,</p>
+            <p>Și au mărit sumeția dușmanului răpitor.</p>
+            <p>Cînd e turma răzlețită, fără cîni, fără păstor,</p>
+            <p>Lupul iese de la pîndă ș-o zugrumă mai ușor!</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>Adevărat… așa este!… Însă de ce, fătul meu,</p>
+            <p>Păstorul acelei turme să nu fim sau tu, sau eu?</p>
+            <p>Pentru ce străin să fie?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Căci păstor în țara mea</p>
+            <p>Nici eu nu te-aș vrea pe tine, nici tu pe mine m-ai vrea.</p>
+            <p>Dulce e domnia, frate, și mulți vreu a se-ndulci,</p>
+            <p>Ș-acei mulți unul pe altul caută a să nimici</p>
+            <p>Prin partide, prin corupții, prin minciuni și prin vînzări,</p>
+            <p>Care toate sînt menite rău s-aducă bietei țări</p>
+            <p>Nu-i mai bine dar să-nchidem calea tronului. slăvit</p>
+            <p>Celor carii sînt în stare chiar și neamul de jertfit?</p>
+            <p>Nu-i mai bine, toți românii însuflați de-același dor,</p>
+            <p>Dintre două mici popoare să ne facem un popor?</p>
+            <p>Iar ca prinț al României un străin prinț să dorim,</p>
+            <p>Și cu tronurile-Europei pe al nostru să-l rudim?</p>
+            <p>Atunci națiile toate ne-or primi la sînul lor</p>
+            <p>Ca pe-o nație iubită și de mare viitor;</p>
+            <p>Ș-a strămoșilor țărînă tresări-va în mormânt,</p>
+            <p>C-a ajuns a lor vechi nume respectat iar pe pămînt;</p>
+            <p>Și urmașii noștri mîndri de părinții ce-au avut,</p>
+            <p>La copiii lor vor spune binele ce le-am făcut!</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <stage> (uimit) </stage>
+            <p>Ei! Păcală, frățioare, drept să-ți zic… bine vorbești,</p>
+            <p>Însă… spune-mi… capitala tot să fie-n București?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Bată-te norocu-n față! măi Tândală, ce-ai pățit,</p>
+            <p>De-ți e drag așa mult lașul?… Nu cumva te-ai jidovit?</p>
+            <p>Dar nu vezi pe toată ziua valul negru, evreiesc,</p>
+            <p>Cum se-ntinde de îneacă tot orașul creștinesc?</p>
+            <p>Încît, oricine sosește în lăuntru-i înglodat</p>
+            <p>Socoate că în</p>
+            <p>Iudeea din păcate a întrat!</p>
+            </sp>
+          <sp who="#tindala">
+            <speaker>TÎNDALĂ</speaker>
+            <p>D-apoi bine, Bucureștiul adică este mai bun?</p>
+            </sp>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Oricine ar socoti-o eu l-aș crede de nebun.</p>
+            <p>Bucureștiul, ca și lașul, este ca un vechi sucman</p>
+            <p>Care, orișicît l-ai coase, nu plătește nici un ban.</p>
+            <p>Pentru noua Românie trebuie ca să dorim</p>
+            <p>Nouă, mîndră capitală de care să ne mîndrim,</p>
+            <p>Un oraș puternic, mare, pe un rîu îmbelșugat</p>
+            <p>Și în centrul României cu tărie așezat.</p>
+          </sp>
+          <stage>TÎNDALĂ:  (aprinsîndu-se)</stage>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Pe Siret, fie.</p>
+          </sp>
+          <stage>TÎNDALĂ:  (cu ochii înflăcărați)</stage>
+          <stage>PĂCALĂ:  (zîmbind)</stage>
+          <stage>TÎNDALĂ:  (cu entuziasm)</stage>
+          <sp who="#pacala">
+            <speaker>PĂCALĂ</speaker>
+            <p>Să dea Domnul, măi Tândală.</p>
+          </sp>
+          <stage>TÎNDALĂ:  (zvîrlind căciula-n sus)</stage>
+          <stage>(Se prind de mîni și joc „Hora Unirei”)</stage>
+          <sp who="#hora_unirei">
+            <speaker>HORA UNIREI</speaker>
+            <p>Hai să dăm mînă cu’ mînă</p>
+            <p>Cei cu inimă romănă,</p>
+            <p>Să-nvîrtim hora frăției</p>
+            <p>Pe pământul României!</p>
+            <p>Iarba ră din holde peară!</p>
+            <p>Peară dușmănia-n țară,</p>
+            <p>Între noi să nu mai fie</p>
+            <p>Decît flori și omeniei</p>
+            <p>Măi muntene, măi vecine,</p>
+            <p>Vină să te prinzi cu mine</p>
+            <p>Și la viață cu unire,</p>
+            <p>Și la moarte cu-nfrățire!</p>
+            <p>Unde-i unul, nu-i putere</p>
+            <p>La nevoi și la durere.</p>
+            <p>Unde-s doi, puterea crește</p>
+            <p>Și dușmanul nu sporește!</p>
+            <p>Amîndoi sîntem de-o mamă,</p>
+            <p>De-o făptură și de-o samă,</p>
+            <p>Ca doi brazi într-o tulpină,</p>
+            <p>Ca doi ochi într-o lumină.</p>
+            <p>Amîndoi avem un nume,</p>
+            <p>Amîndoi o soartă-n lume,</p>
+            <p>Eu ți-s frate, tu-mi ești frate,</p>
+            <p>În noi doi un suflet bate.</p>
+            <p>Vin’ la Milcov cu grăbire</p>
+            <p>Să-l secăm dintr-o sorbire,</p>
+            <p>Ca să treacă drumul mare</p>
+            <p>Peste-a noastre vechi hotare</p>
+            <p>Și să vadă sfîntul soare,</p>
+            <p>Într-o zi de sărbătoare,</p>
+            <p>Hora noastră cea frățească</p>
+            <p>Pe cîmpia românească!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,2769 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000080" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cantemir Bătrânul</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Cantemir_Bătrânul_-_dramă_în_cinci_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="constantin_voda_cantemir" sex="MALE">
+            <persName>CONSTANTIN VODĂ CANTEMIR</persName>
+          </person>
+          <person xml:id="domnita" sex="FEMALE">
+            <persName>DOMNIȚA</persName>
+          </person>
+          <person xml:id="dimitrie" sex="MALE">
+            <persName>DIMITRIE</persName>
+          </person>
+          <person xml:id="regele_ioan_sobieski" sex="MALE">
+            <persName>REGELE IOAN SOBIESKI</persName>
+          </person>
+          <person xml:id="miron_costin" sex="MALE">
+            <persName>MIRON COSTIN</persName>
+          </person>
+          <person xml:id="ilie_tifeseul" sex="MALE">
+            <persName>ILIE ȚIFESEUL</persName>
+          </person>
+          <person xml:id="capuchehaiaua" sex="MALE">
+            <persName>CAPUCHEHAIAUA</persName>
+          </person>
+          <person xml:id="soliman_pasa" sex="MALE">
+            <persName>SOLIMAN-PAȘA</persName>
+          </person>
+          <person xml:id="ienachi" sex="MALE">
+            <persName>IENACHI</persName>
+          </person>
+          <person xml:id="porfirita" sex="FEMALE">
+            <persName>PORFIRITA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000080"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Cantemir Bătrânul</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>CONSTANTIN VODĂ CANTEMIR</role>
+        </castItem>
+        <castItem>
+          <role>DOMNIȚA</role>
+          <roleDesc>fiica lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DIMITRIE</role>
+          <roleDesc>fiul său</roleDesc>
+        </castItem>
+        <castItem>
+          <role>REGELE IOAN SOBIESKI</role>
+        </castItem>
+        <castItem>
+          <role>MIRON COSTIN</role>
+        </castItem>
+        <castItem>
+          <role>ILIE ȚIFESEUL</role>
+        </castItem>
+        <castItem>
+          <role>CAPUCHEHAIAUA</role>
+        </castItem>
+        <castItem>
+          <role>SOLIMAN-PAȘA</role>
+        </castItem>
+        <castItem>
+          <role>IENACHI</role>
+        </castItem>
+        <castItem>
+          <role>PORFIRITA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL 1-IU</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>(Scena se petrece într-un cort turcesc la 1685.)</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA I-a</head>
+          <stage>SOLIMAN-P AŞA, CONST ANTlN CANTEMIR</stage>
+          <sp who="#soliman_pasa">
+            <speaker>SOLIMAN-PAȘA</speaker>
+            <p>Ce veşti, tu, Constantine, ghiaurii ne mai dau,</p>
+            <p>Polonii cei cu mersul uşor ca de femeie,</p>
+            <p>Cu scumpele dulame şi copcele de- argint,</p>
+            <p>Cu caii care poartă potcoave aurite</p>
+            <p>Şi Iasă să le cadă pe uliţe cum merg...</p>
+            <p>O, ce-aş vrea ca odată să mântuirm cu dânşii,</p>
+            <p>Să întărim hotarul cel vechi precum  era!</p>
+            <p>Ce zici?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Eu zic războiul că-i lucru greu şi mare Începe cel ce visuri de glorie-a visat,</p>
+            <p>Îl mântuie acela ce nu mai are vlagă,</p>
+            <p>Dar vai de cel pe care războiul s-a  purtat!</p>
+            <p>Şi noi suntem, mărite Paşă, tocmai acela.</p>
+            </sp>
+          <sp who="#soliman_pasa">
+            <speaker>SOLIMAN PAŞA</speaker>
+            <p>Voi, dar în care vreme aţi fost scutiţi de-acest,</p>
+            <p>Răscolitor de lume grozav şi aprig vifor?</p>
+            <p>Ori nu este Moldova lăsată spre a fi</p>
+            <p>Drum larg pentru oricine în ea îşi cată hrana ?</p>
+            <p>Si ţările pe Iunie îşi au ursita lor:</p>
+            <p>Vezi tu, prin multe locuri eu m-am purtat vânând</p>
+            <p>De multe feluri fiare pentru Împărăţie,</p>
+            <p>Şi n-am aflat nici oameni care-ar putea fugi</p>
+            <p>De ce li-i scris în ceruri să-ndure pân-acuma</p>
+            <p>Şi nici pămînt al cărui rost să nu fie scris Acolo unde toate se hotărăsc: în ceruri.</p>
+            <p>E scris să fie-n sfântul împărătesc Stambul, Supt schiptrul cel de pace al Casei otomane...</p>
+            <p>Odihnă şi petreceri, trai dulce şi belşug;</p>
+            <p>E scris la Nemţi să fie gâlceavă-ntre domnii,</p>
+            <p>În ţara cea leşească dihonia să turbe,</p>
+            <p>La Frâncii de departe să fie numai spor,</p>
+            <p>Iarr voi să aveţi parte de toată vrajba lumii</p>
+            <p>Şi pentru-atita jertfă să nu primiţi nimic Decât de la prieteni şi duşmani tot ocară...</p>
+            <p>Ce vrei, Serdare, tainic e gândul luiAllah,</p>
+            <p>Şi noi ce ştim dintr-însu1 decât puţinul care</p>
+            <p>Ni dă o zi amară ori un ceas fericit?</p>
+            <p>Şi de aceia ceasul să-l prindem. Bune vinuri.</p>
+            <stage> (deschide o ladă) </stage>
+            <p>Mai dă Moldova voastră: o clipă să gustăm.</p>
+            <p>Orice ar zice cartea cea sfântă ...</p>
+            <stage> (se închină şi-şi acoperă faţa.) </stage>
+            <p>Să ne-ascundem,</p>
+            <p>Căci clipa nu se-ntoarce pe unde a trecut.</p>
+            <stage> (bea îndelung, cu sete.) </stage>
+            <p>Şi, mâine, cine ştie ce se făgădu ieşte!</p>
+            <stage> (tot mai aprins.) </stage>
+            <p>Ori am ştiut că-n clipa când turmele păşteam,</p>
+            <p>Un băietan de-o samă eu alţi copii ca mine,</p>
+            <p>Când mă plecam. în ţernă la țarcul ce trecea</p>
+            <p>Si aşteptam să sară cu calul peste mâine,</p>
+            <p>Că voi fi eu odată ca dânşii şi mai sus,</p>
+            <p>Că îmi vor zice Paşă şl domn peste oştire,</p>
+            <p>Voi spăimânta creştinii eu, fiul de creştin</p>
+            <p>Ce-am lepădat această credință a slăbiciunii.</p>
+            <p>Şi chiar tu, Constantine, visatu-te-ai Serdar?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Noi nu suntem de unde e vreme pentru visuri:</p>
+            <p>La noi atâta trudă-i, atâta chin amar</p>
+            <p>De nu putem ca fruntea s-o ridicăm din ţernă</p>
+            <p>Din care luăm şi hrana şi sufletul ni-l luăm: Se zice că-i frumoasă Moldova: ce ştiu oare</p>
+            <p>Când nu ne daţi o clipă la dânsa să privim?</p>
+          </sp>
+          <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <stage> (visând) </stage>
+            <p>.</p>
+            <p>O, da, frumoasă  ţară! Ce locuri! Ce femei!</p>
+            <p>Un rai ce prevesteşte pe sfântul rai de-acolo.</p>
+            <stage> (arată spre cer.) </stage>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Un iad pentru aceia ce-ntr-însul locuiesc.</p>
+            <p>Ce bleseăm zace oare pe-acest pământ de trudă ?</p>
+            <p>'</p>
+            <p>Să	mai visăm? Odată şi eu am încercat</p>
+            <p>Un vis... M-a dus în lume, rupându-mă de toate:</p>
+            <p>Am fost argat de oaste, am fost oştean, am dus</p>
+            <p>0 viață-n care alţii îşi află mulţumirea,</p>
+            <p>La luptă şi la pradă cu ei m-am înfruptat</p>
+            <p>Dar gândul miu acasă mi-a fost rămas de-a pururi.</p>
+            <p>Şi-acuma ce-mi mai este isprava ce-am făcut,</p>
+            <p>Ce-mi este cinstea care m-ajunge-n boierie</p>
+            <p>Ce sunt acestea toate pe care le-am avut,</p>
+            <p>Când sunt bătrân şi mâna îmi tremură pe şpagă?</p>
+            </sp>
+        <sp who="#solimanpasa">
+            <speaker>SOLIMAN-PAŞA</speaker>
+            <p>O, cine ştie! Poate atâta nu e tot!</p>
+            <p>Allah păstreaz' adesea ce e ma rău pe urmă,</p>
+            <p>Dar uneori aduce răsplata la sfârşit.</p>
+            <p>Ce cald e... Cortul arde... Mi-e sângele un foc... Mă lasă...</p>
+            <stage> (adoarme.) </stage>
+            <p>r	CANTEMIR:</p>
+            <p>Fie-ţi somnul curat ca vinul nostru!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a II-a</head>
+          <stage>CANTEMIR, DOI RĂZEŞI</stage>
+          <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Că zău că bine zice aceia, că nu ştii</p>
+            <p>Când pleci de-acasă cine îţi va ieşi în cale</p>
+            <p>Şi că, vorbind de lupu1 din codru-n uşă-l vezi.</p>
+            <p>Pe nimene pe lume n-am fi mai bucuroşi</p>
+            <p>Să-l întâlnim pe-alee decât pe tine însuţi.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Dubău cel bun de gură şi Şandru cel glumeț?</p>
+            </sp>
+          <sp who="#sandru">
+            <speaker>ŞANDRU</speaker>
+            <p>Glumeţ? Săracă gluma ce ne-a adus aici!</p>
+            </sp>
+          <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Şi vai de gura care silită-i a vorbi</p>
+            <p>Ce suntern gata numai a-ți spune de ne-asculți.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Că doar nu pentru mine e ceea ce aduceţi.</p>
+            <p>Păreţi, cum vă e portul cinstit şi luminat,</p>
+            <p>Porniţi la vreo solie spre oameni mai de cinste; Iar eu ce sunt? Odată eram ostaş la Leşi,</p>
+            <p>Acuma s-a dus cinstea cea veche de rohmistru,</p>
+            <p>Căci, după ce sub ochii-mi trecu tot ce-am văzut</p>
+            <p>Că se îndeplineşte în numele credinței,</p>
+            <p>Că sub un steag cu cruce se face nemilos</p>
+            <p>Mai rău decât cum Turcii setoşi de sânge ar face... Lăsăi pe-acela care mi-a fost stăpân şi domn,</p>
+            <p>Dar  nu-i  domn  peste-aceia  ce-i sunt stăpâni  lui</p>
+            <p>însuşi.</p>
+            <p>Şi, decât rang, dobândă şi faimă ce-am     avut,</p>
+            <p>Mai bine-am vrut să-mi capăt un drept de suferință</p>
+            <p>În locul care astăzi la dânsul m-a chemat</p>
+            <p>Cu tot ce e mai dulce în orişicare suflet.</p>
+            <p>Aici am un prieten, pe Paşa, şi nu vreau</p>
+            <p>Să văd decât iubirea ce-o poartă ţării noastre....</p>
+            </sp>
+          <sp who="#sandru">
+            <speaker>ŞANDRU</speaker>
+            <p>Si Turcul nostru este mai drept la judecăţi</p>
+            <p>Decât creştinii care ne iau pâinea din gură</p>
+            <p>Şi cer să se plătească tot lucrul ce-au furat</p>
+            <p>De chia  aceia care sunţ păgubiţi de dânşii!</p>
+            </sp>
+          <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Păgânul ştie oare ce Leşii n-au aflat:</p>
+            <p>Că nu poţi fi pe nimeni stăpânitor atunci</p>
+            <p>Când nu-i aduci nimica şi toate i le ceri?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Da, am ajuns aice ca să dorim mai bine</p>
+            <p>De unul ca acesta ce crede-n legea lui.</p>
+            <p>Şi simte că-l aşteaptă o judecat- aiurea</p>
+            <p>Decât în fraţii noştri cei mult doriţi. Şi voi</p>
+            <p>Cu_care rost aici v-aţi prilejuit acuma?</p>
+            </sp>
+          <sp who="#sandru">
+            <speaker>ŞANDRU</speaker>
+            <p>Nu e prilej aceia ce singur ai cătat,</p>
+            <p>Şi noi venim aici cu socoteală bună.</p>
+            <p>Cum eşti prieten celui mai mare peste oşti</p>
+            <p>Şi ai rămas acelaşi bun Moldovean al nostru, Ajută-ne, frăţime, la lucrul ce-l dorim.</p>
+            </sp>
+          <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Ajută-ne. Tu însuți ai pătimit odată,</p>
+            <p>Ştii ce e sărăcia supusă la străin</p>
+            <p>Şi boala ce nu poate să-şi cate-o fărămătură</p>
+            <p>De pîine şi se lasă de piere în bordeiu;</p>
+            <p>Știi ce este în inimi când vezi plângînd femeia</p>
+            <p>Că nu găseşte hrană pentra copiii goi,	-</p>
+            <p>Și ai simțit mânia ce gâtul ţi-l sugrumă.</p>
+            <p>Când vezi trecînd în saţul lor cel de dobitoc</p>
+            <p>Trufaşii care astăzi de toate ne despoaie.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Da, -	nu e suferinţă să nu o fi ştiut...</p>
+            </sp>
+          <sp who="#sandru">
+            <speaker>ŞANDRU</speaker>
+            <p>Şi noi n-am vrut să piară astfel Moldova noastră</p>
+            <p>Ne-am sfătuit cu toții: ostaşi, răzeşi, mazili,</p>
+            <p>Toți cei care-odată se  pomeneau în frunte</p>
+            <p>Şi-acum pe Dracu-1 tragem de coadă zi de zi,</p>
+            <p>Că n-avem altă treabă ori alt chip de dobândă. Am mers la boierimea cea mare, la acei</p>
+            <p>Ce n-au plecat mândria lor către altă limbă,</p>
+            <p>L-am cercetat pe Buhuş, acolo-ntre pribegi,</p>
+            <p>Jupânu1 Gavriliţă ne-a dat făgăduinţă, Avem încredinţare că Domnul munenesc...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Dar bine, voi acum v-ați ridicat în slavă,</p>
+            <p>De staţi la învoială cu cel din Împăraţi,</p>
+            <p>Cuu Vodă Şerban însuşi...</p>
+            </sp>
+          <sp who="#sandru">
+            <speaker>ŞANDRU</speaker>
+            <p>Ne-au mijlocit prieteni.</p>
+            <p>Şi iată care-i sfatul. La Poartă de lovim	'</p>
+            <p>Cu plângerile noastre, un Grec iar ni-or trimite Cum e beteagul nostru de Vodă, priceput Doar  să-şi căneaseă părul şi fetele să poarte Pe uliţe'n caruțe, - ruşine şi păcat!</p>
+            <p>Boierii vechi se mușcă de mult ce-şi poartă ură,</p>
+            <p>Şi ne-am gândit să ieie acest Paşă mărit</p>
+            <p>Pe cine-o crede dânsul din neamuri mai sărace Noi l-om vrea Domn pe-acela şi ne vom închina,</p>
+            <p>Că este mare lucru stăpânul cu durere...</p>
+            </sp>
+          <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Noi nu avem pe unul să-l cerem; cată-1 tu,</p>
+            <p>Doar eşti boier, Clucere, şi ai avut atâţia</p>
+            <p>În slujba ta de oaste de-i poţi şti ce plătesc. Să-l caute şi Paşa, ce treaba țării ştie.</p>
+            <p>Sunt oameni încă-n stare a se mai ridica</p>
+            <p>Prin faptă, nu prin nume prin ei, nu prin strămoși,</p>
+            <p>Şi mai cu osebire nu prin averi furate.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să fac eu Domn în țara unde-am muncit copil</p>
+            <p>Şi unde am fost tânăr flăcău pierdut în gloată....</p>
+            <p>Drreptate, Solimane, aveai când mi-ai vorbit...</p>
+            <p>Aveţi voi carte scrisă de la boieri şi ţară?</p>
+          </sp>
+          <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <stage> (înfăţişează hârtia) </stage>
+            <p>.</p>
+            <p>Aici sunt iscălite şi trepte mai de jos,</p>
+            <p>Vlădici, egumeni,oaste şi neamuri mai de samă.</p>
+            <p>Şerban-a pus pecetea lui pe acest răvaş,</p>
+            <p>Şi, dacă e nevoie de bani, cum e năravul,</p>
+            <p>Îi vom găsi şi-aceia în ce ne-a mai rămas...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să mergem...Cine ştie ce sarcină mă paște.</p>
+            <stage> (către stăjer.) </stage>
+            <p>S-o fi trezit măritul! Aceşti oameni săraci</p>
+            <p>Doresc să i se-nchine...	,	,.</p>
+            <stage> (către cei doi.) </stage>
+            <p>Acuma, pază bună,</p>
+            <p>Şi Turcului o vorbă nu-i spuneţi de prisos,</p>
+            <p>Căci vremea-i se plăteşte cu pungi şi pietre scumpe...</p>
+            <p>Străjerul:</p>
+            <p>Intraţi... Deschisă-i poarta înaltului judet!</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a III-a:</head>
+          <stage>CEI DE MAI SUS, SOLIMAN</stage>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Adusu-ţi-am aice, o, Doamne şi prieten.</p>
+            <p>Doi oameni din Moldova ce, singuri precum sunt</p>
+            <p>Aduct cu dtnşAduc cu dânșii ţara şi toată jalea noastră.</p>
+            <p>Nu sunt boieri de frunte şi nu i--ai cunoscut,</p>
+            <p>Dar mii şi mii de oameni vorbesc prin ei şi strig</p>
+            <p>Dreptate strigă, milă...</p>
+            <p>...</p>
+            </sp>
+        <sp who="#cei_doi">
+            <speaker>CEI DOI</speaker>
+            <p>O, da,  mărite, milă îţi cerem să ne dai,</p>
+            <p>Şi nu avem alt sprijin decât sfânta dreptate.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ce este pe la dînşii, pot spune mai pe larg</p>
+            <p>Ei înşiși. Hrana toală o-mnparte Tătărim,.ea</p>
+            <p>Şi Leşii care-n luptă cu dânsa-s încleştaţi: Sunt mame ce-şi mănâncă nebune copilaşii,</p>
+            <p>Şi lupii vin prin târguri şi spârcuie flămîâzi,</p>
+            <p>Iar Domn ul care este în Scaun, ce pricepe!</p>
+            <p>Bătrânul Grec, ce-şi trece şi cei din urmă ani</p>
+            <p>În patimi ruşinoase şi în zădărnicie.</p>
+            <p>Ei au un arz la dânşii, şi chiar Vodă Şerban</p>
+            <p>S-a pus chizeş că vorba lor e întemeiată.</p>
+            </sp>
+        <sp who="#sandru">
+            <speaker>ŞANDRU</speaker>
+            <p>O lume-ntreag-aşteaptă pe la stă pânii săi,</p>
+            <p>A cărora credință o ţin de-atâya vreme, Un ajutor în ceasul în care nu mai pot</p>
+            <p>Decât să-nalțe glasul pentru un ultim sprijin, Cu noi e orice treapta, cu noi e orice om: Nu-i nimeni să nu aibă în cuget tot acestea.</p>
+            <p>Ar fi păcat Moldova să piară când vedem</p>
+            <p>Că-n preajmă-i se găseşte oastea Măriei Tale... Ce-ar zice boierimea ce umblă la creştini	' Şi caută de-acolo un sprijin la nevoie?</p>
+            </sp>
+        <sp who="#pasa">
+            <speaker>PAȘA</speaker>
+            <p>Da, da, hiclenii voştri... îi ştiu ... Au mai crescut</p>
+            <p>La număr cei ce uita de toată mila Porţii</p>
+            <p>Voi pune-odată mâna pe-acest haitic de lupi!</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să nu vorbim de-aceia care s-au dus. Ştiu bine</p>
+            <p>Și eu ce suflet are acel ce-a fost silit</p>
+            <p>Să lase nedreptateaa când	nu poate s-o spargă</p>
+            <p>Şi să-şi cerşeaşcă-n lume un loc să stea ascuns.</p>
+            <p>Mă rog Măriei Tale s-asculte cu-ndurare: .</p>
+            <p>În inima-mi simt însumi ce spun aceşti săraci,</p>
+            <p>Şi-aş fi în stare viața să mi-o dau pentru dânşii.</p>
+            <p>Dubău.</p>
+            <p>Eu ce să spun la cel_e ce pân-acum s-au zis?</p>
+            <p>Ce spune acest tânăr e adevărul însuşi.  Şi peste cele spuse atâta adevăr!</p>
+            <p>Ani mai trecut prin multe pân-am aiuns la vârsta</p>
+            <p>În care orice lucru poţi  spune c-a mai fost</p>
+            <p>Şi la orice durere adaugi amintirea Care-ti făgăduieşte că veşnic nu va fi</p>
+            <p>Năcazul de acuma, cum n-au fost alte multe.</p>
+            <p>Dar aş dori în urrmă să nu las la nepoţi</p>
+            <p>O moştenire care nu face-a fi trăită, Mărite Paşă, numai o vorbă de-ai rosti</p>
+            <p>Şi Vodă cel nevolnic şi-ar ispăşi păcatul!</p>
+            <p>În temniţa de care aşa de vrednic e;	_</p>
+            <p>Iar noi supt altă mână am fi altfel de oameni.</p>
+            <p>Ţi-l cerem. Dă-ni-l! Fie boier, fie orice,</p>
+            <p>Un ins din lumea mare, de să nu-i ştim de nume, Dar paloşul să poată în mână-1 învârti</p>
+            <p>Şi să păstreze-n suflet ceva din alte vremuri... Noi nu avem pe nimeni să-l credem ...</p>
+            </sp>
+        <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <p>Da, aşa! De ce să vreţi ca Domnul voi singur să-i alegeţi? Pe Petriceicu! vostru nu vi l-am înghiţit,</p>
+            <p>Și, unui stâlp de Curte nu i-am lăsat puterea?</p>
+            <p>N-a stat cinstita cucă pe capul cel uşor</p>
+            <p>Şi n-a vândut la duşman oștirea împărătească?</p>
+            <p>Nu umblă el acuma la Leşi neadormit,</p>
+            <p>Cum cinele netrebnic ce-a  supt sângele turmei</p>
+            <p>Şi-a fost gonit, se-ntoarce, pândind în jur de ţarc? De-ajuns ne este nouă cu gusturile voastre!</p>
+            </sp>
+        <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Pe Vodă Petriceicu, ce Ştefan s-a numit,</p>
+            <p>Să nu-1 primească-n ceruri stăpânul ândurării</p>
+            <p>Şi trupu-i să rămâie la cioare şi la câini</p>
+            <p>Căci straşnic a fost valul ce-aduse-asupra noastră.</p>
+            <p>Şi-apoi în lumea largă cu banii strânşi s-a dus.</p>
+            </sp>
+        <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <p>O sabie se cade să cureșe Divanul O sabie şi, unde-oi găsi-o, o aleg O sabie cumplită, în veci nesăturată.</p>
+            <p>Să se sfârşeasc-odată cu toţi cei ce ne smulg</p>
+            <p>De la odihna care ne-o cere bătrâneţea</p>
+            <p>Ca să pornim pe drumuri la goana de haini</p>
+            <p>Şi la o nouă luptă cu liftele acestea...</p>
+            </sp>
+        <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Să vie şi această pedeapsă, o dorim.	. Mai mult: vom sta cu toții să-i ajutăm isprava</p>
+            <p>Sătui suntem acuma de-atâta chin şi jaf...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să-i crezi! Mi-ar fi şi mie, la vârsta ce mă aflu,</p>
+            <p>Un chef să-mi satur dorul cel vechi şi să lovesc</p>
+            <p>În ceata celor care mi-au dat aşa o soartă</p>
+            <p>Spre a fi tot el în frunte şi la belșug tot ei! O, câtă ură fierbe, din vremuri, şi în mine!</p>
+            <p>Căci n-a uitat Serdarul, Clucerul anii când Stăteam şi eu sub varga de fier a boierimii ...</p>
+            </sp>
+        <sp who="#dubau">
+            <speaker>DUBĂU</speaker>
+            <p>Şi ce-am mai spune? Este bătrânul obiceiu</p>
+            <p>Să nu venim la pragul înalt cu mâna goală,</p>
+            <p>Şi-am strâns din sărăcia noastră aceste pungi</p>
+            <p>Pe care la picioare ca un prinos le-aducem...</p>
+            </sp>
+        <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <p>Da, da... Ştiu obiceiul. Sunteţi un neam bogat,</p>
+            <p>Şi, când vorbiţi de pradă şi de obida noastră...</p>
+            <p>Să vie haznadarul spre a le număra</p>
+            <p>Aceste pungi, cu care v-aţi arătat credinţa.</p>
+            <p>Şi să venim acuma la Domnul ce va fi.</p>
+            <p>Dar nu-l pot face până naud cealaltă parte.</p>
+            <p>De ieri se află aici un Grec venit din Iașii:</p>
+            <p>Ni l-a trimes acela de care voi vă plângeţi, Bătrînul Dumitraşcu.</p>
+            <p>(către pazaic.</p>
+            <p>Ienachi e aici-'?</p>
+            <p>Să se înfăţişeze la judecata noastră.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a lV-a</head>
+          <stage>CEI DE SUS, IENACHI PORFIRIT A</stage>
+          <sp who="#ienachi_porfirita">
+            <speaker>IENACHI PORFIRITA</speaker>
+            <p>Icoanei celui care domneşte peste noi, Măritului al nostru stăpân slăvit în toate,</p>
+            <p>Acelui care poate să facă tot ce vrea,</p>
+            <p>Vărsând asupra noastră a milei lui dovadă,</p>
+            <p>Mă-nchin, eu praful care îl calcă-n mersul lui,</p>
+            <p>Sărut cu bucurie şi urma care-o lasă</p>
+            <p>Şi îi urez -  de poate să-mi fie 'ngăduit -</p>
+            <p>O viaţă 'ndelungată, noroc şi spor la fapte,</p>
+            <p>Dar să-şi aduc-aminte şi de noi, cei smeriţi,</p>
+            <p>Care trăim cu gândul să-i fim de folosinţă.</p>
+            </sp>
+          <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <p>Destu1 cu ploconeala! Ai bani? Şi ce pofteşti? De n-aş vedea tot şerpii aceştia în cale-mi, Care, cu cât se oleacă mai jos târându-şi burta;</p>
+            <p>Cu-atâta se ridică mai lacom, şuierând!</p>
+            </sp>
+          <sp who="#ienachi_porfirita">
+            <speaker>IENACHI PORFIRITA</speaker>
+            <p>Bani! Biata noastră lume săracă, oropsită, Urâtă de aceia pe cari-i luminăm</p>
+            <p>Cu şcoli de-văţătură, cu carte elinească, Ce bani poate s-aducă stăpânilor iubiţi?</p>
+            <p>Şi cu ce am fi oare în stare să plătim Atâta fericire ce-o dă Împărăţia?</p>
+            <p>Îngăduie-mi, Mărite, ca mâna să-ţi sărut</p>
+            <p>Şi să ating şi poala veşmântului de cinste...</p>
+          </sp>
+          <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <stage> (dispreţuitor, se apără) </stage>
+            <p>.</p>
+            <p>Veşmântu-i scump şi cere de mult a fi plătit.</p>
+            </sp>
+          <sp who="#ienachi_porfirita">
+            <speaker>IENACHI PORFIRITA</speaker>
+            <p>O, da-l plătim, dar mijloc spre a-l plăti să fie! Căci Domnul cel din ceruri a chibzuit aşa</p>
+            <p>Ca mândru Otomanul să aibă arma-n mână, Noi, Grecii, să aducem lumina din strămoşi...</p>
+            </sp>
+          <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <p>Lumina este una! Coranul o cuprinde!</p>
+          </sp>
+          <sp who="#ienachi_porfirita">
+            <speaker>IENACHI PORFIRITA</speaker>
+            <p>._</p>
+            <p>Într-ânsa arde gândul atâtor filosofi,</p>
+            <p>Şi nu-i obrăznicie să pomenim de dânşii.</p>
+            <p>Dar, dacă ne dai voie să ne sfârşim cuvântul,</p>
+            <p>Lăsaţi sunt bieți Românii pământu1 a-l lucra</p>
+            <p>Și, sub oblăduirea greceştii minți alese;</p>
+            <p>Să dea Împărăției şi hrană şi averi,</p>
+            <p>Iar noi, vechili de_țară, să-ntindem în genunchi</p>
+            <p>Bogatele prisoase ce le-am ştiut aduce.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Aşa? Noi robi la  dânşii?  Noi  robi din neam  în</p>
+            <p>neam?</p>
+            <p>Unelte umilite ale trufiei voastre,</p>
+            <p>Şerbi ai moşiei noastre pe care v-aţi prăsit, Guzgani de grâie coapte, la seceriş de toamnă?</p>
+            <p>Ori n-am vărsat noi sânge de ar putea rodi</p>
+            <p>Din singura lui viață pustiile de piatră,</p>
+            <p>Şi râurile noastre din lacrimi n-au sporit</p>
+            <p>Ca să stropească lanul unde-aţi căzut lăcuste?</p>
+            <p>Voi Domni în ţara  noastră şi-acum  şi-n veci de</p>
+            <p>veci?</p>
+            <p>De ce? Ce este- al vostru aici, strânsuri a' lumii?</p>
+            <p>Unde-a căzut sudoarea din trupul cel sleit?</p>
+            <p>Pe care câmp de luptă vă zac oasele voastre?</p>
+            <p>Și mintea cea măiastră ce bine-a iscălit?</p>
+            <p>Nici banul cumpărării nu-l dau pungile voastre,</p>
+            <p>Şi, dacă ban se cere, ei bine, banu-l dăm,</p>
+            <p>Îl dăm căci e al nostru, şi dăm şi vitejia, Dăm şi credința noastră, şi sufletul ni-l dăm.</p>
+            <p>Să contenească numai această umilinţă</p>
+            <p>De-a sta cu frunţi plecate în faţa unui rob...</p>
+            <p>Cât vrei, mărite Paşă? Moldova îți va da...</p>
+            </sp>
+          <sp who="#soliman">
+            <speaker>SOLIMAN</speaker>
+            <p>Dai însuţi, Constantine? Dai tu?</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (zguduit) </stage>
+            <p>De este vorba,</p>
+            <p>Din noi dă orişicare. Dau însumi dacă vrei.</p>
+            </sp>
+          <sp who="#pasa">
+            <speaker>PAŞA</speaker>
+            <stage> (către boier) </stage>
+            <p>Aveţi un Domn: acesta-i</p>
+            <stage> (către Porfirita.) </stage>
+            <p>Şi tu sărută-i mâna.</p>
+            <stage> (Porfirita o face, plecâadu-se adânc.) </stage>
+            </sp>
+          <sp who="#boierii">
+            <speaker>BOIERII</speaker>
+            <p>Întru mulţi ani, stăpâne al nostru, Constantin!</p>
+            <p>,.,.</p>
+          </sp>
+          <stage>(la Curtea din Iaşi)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu</head>
+          <stage>CANTEMIR, DRĂGAN</stage>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (către ştafetă) </stage>
+            <p>Ai dat veste că vine trufaşul Leah în ţară?</p>
+            <p>S-a adunat oştirea turcească la hotar?</p>
+            <p>Avem nădejde oare să mai păstrăm a'noastre?</p>
+          </sp>
+          <sp who="#dragan">
+            <speaker>DRĂGAN</speaker>
+            <stage> (şovăielnic) </stage>
+            <p>.</p>
+            <p>Mărite Doamne...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ce Domn și ce mărire? Sunt Domn în ţara mea</p>
+            <p>Când pot sta la hotare s-o apăr de năvală,</p>
+            <p>Şi cum pot fi eu mare când ţara mi-a scăzut?</p>
+            </sp>
+        <sp who="#dragan">
+            <speaker>DRĂGAN</speaker>
+            <p>Ai apărat-o-n ceasul cel greu de la Boian,</p>
+            <p>Când ai stătut de strajă şi-ai biruit în luptă,</p>
+            <p>Cînd Hatmanul cel mândru în faţă-ţi a fugit,</p>
+            <p>Când s-au umplut de sânge a codrilor poiene,</p>
+            <p>Și zdrenţele de steaguri rămas-au prin stejari:</p>
+            <p>Acum e altă vreme, şi Cerul ne încearcă.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>De ce să ne încerce? Cu ce-i suntem datori?</p>
+            <p>Au nu se face slujba în sfintele biserici</p>
+            <p>Ca 'n Ţarigrad pe vremea Chesarilor bătrâni?</p>
+            <p>Nu dau din banii Curţii să facem mânăstire</p>
+            <p>La Mira, între codrii de brazi de la hotar?</p>
+            <p>Nu chem Vlădici din lumea pâgânilor supusă?</p>
+            <p>Nu dau din punga noastră oricărui rugător Venit din lumi străine să cate-adăpostire?  Grecimea ce-am gonit-o din ranguri o păstrez</p>
+            <p>Când are-n mână cârja păstorilor de suflet,</p>
+            <p>Şi Locurile Sfinte se ţin din  darul meu!</p>
+            <p>Şi-n ceas adânc de noapte nu stau de rugăciune Pentru odihna ţării ce mi s-a-ncredinţat?</p>
+            <p>Ce vreau sfinţii din ceruri mai mult decât atâta?</p>
+            <p>Cu ce-s dator, ,o Doamne, de mă mai pedepseşti?</p>
+            <stage> (întorcându-se către Drăgan.) </stage>
+            <p>Şi deci nu vine nimeni din ei să mă ajute?</p>
+            </sp>
+        <sp who="#dragan">
+            <speaker>DRĂGAN</speaker>
+            <p>Am fost în lagăr. Toate pornite-s pe risipă.</p>
+            <p>Nu este-o siguranţă în ceata de mişei</p>
+            <p>Ce pradă sărăcimea mai rău decât duşmanii.</p>
+            <p>Strânsnră îngrozită. Degeaba-i mai aştepţi...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Şi am prmit Domnia de la astfel de oameni,</p>
+            <p>Le-am pus în slujbă braţul deprins a se lupta,</p>
+            <p>Am stors şi cea din urmă vlag-a Moldovei mele</p>
+            <p>Şi, banul deznădejdii întreg l-am cheltuit	'-Spre a le da credinţa că nu--s pierdute toate.</p>
+            <p>Iar ei?... Ce fac Polonii? De Craiul ce mai 'ştii?</p>
+            </sp>
+        <sp who="#dragan">
+            <speaker>DRĂGAN</speaker>
+            <p>O, iartă-mă cuvântul jigni rii să mi-l spun,</p>
+            <p>Căci, sol cum sunt, dar buza _mi-ar arde-o  vestea</p>
+            <p>tristă.</p>
+            <p>Aduc cu mine-un crainic pe care mi l-ai dat</p>
+            <p>Ca să-ți vorbească-n faţă ce vrea acest protivnic.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ci zi-i să intre.</p>
+            <stage> (singur.) </stage>
+            <p>Oare ce veste mi-a adus</p>
+            <p>Acest ostaş din rânduri creştine, glorioase,</p>
+            <p>În care tinereţa şi eu mi-am cheltuit</p>
+            <p>Când nu-mi cerea Moldova să iau povara asta.</p>
+            <stage> (cumpănindu-şi sabia.) </stage>
+            <p>Ce tremuri, fier, cu care în Turci am răzbătut</p>
+            <p>Sub steagul crucii celei încă neînchinate..?</p>
+            <p>Fiori de nerăbdare te trec când te aştepţi</p>
+            <p>Să sune înainte-ți o sabie creştină?</p>
+            <p>Ți-e dor de fappta care oprită ni-i acum?</p>
+            <p>O, zile fericite-a tinereţii mele...</p>
+            <p>Ci stâmpără-te, braţul bătrân e-nlănţuit, Zădarnic sună trâmbiţi cu glasuri cunoscute,</p>
+            <p>Zadarnic o chemare de mult vine-n auz:</p>
+            <p>Un singur drum se află în faţa mea: al fugii.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ACEIAŞI, BZOWSKI, DOMNIŢA</stage>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <stage> (intrând) </stage>
+            <p>.</p>
+            <p>Nu vin numai ca solul eroului regal,</p>
+            <p>Al lui Ioan Sobieski, ce biruie turcimea,</p>
+            <p>Şi-mparte viaţă nouă robiţilor vecini,</p>
+            <p>Ci şi ca un prieten. Mă mai cunoşti tu, cneze,</p>
+            <p>Ce-ai fost odinioară rohmistru-n polcul meu?</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (uimit) </stage>
+            <p>Tu, Bzowski, bun tovarăş.. Un vis mi te aduce?</p>
+            <p>N-ai fost cules cu morții pe câmpui din Hotin,</p>
+            <p>Nu zaci sub mușuroiul de trupuri de la Nistru?</p>
+            <stage> (mişcat.) </stage>
+            <p>Nu vii ca o mustrare că sunt azi unde sînt?</p>
+            <p>Şi sunt dator a-ţi spune ce e chemarea ţării?</p>
+            </sp>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>Sunt eu. Nu-ntâia oară m-am ridicat din morți,</p>
+            <p>Ca să plătesc la ceia ce-mi dau răvaş de iaduri</p>
+            <p>Şi oasele bătrîne tot ţin, precum mă vezi.	, Căci vlaga tinerească le pune în mişcare.</p>
+            <p>Moşneagul Bzowski are pe dracu 'n pielea lui,</p>
+            <p>Şi ca Hristos el calcă cu moartea peste moarte.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Da, tu eşti. E acelaşi cuvânt îndrăzneț,</p>
+            <p>Aceiaşi nepăsarea de toate cele sfinte.</p>
+            <p>Acelaşi suflet care stăpân nu şi-a găsit.</p>
+            <p>Ci stăi, moş Nicolae. Eu, moşul Constantin,</p>
+            <p>Te-mbiiu	ca-n vremea veche, să  mai  ciocnim</p>
+            <p>pahare.</p>
+            <stage> (bate din palme) </stage>
+            <p>Paharnicul să vie!</p>
+            <stage> (către Bzowski.) </stage>
+            <p>Și zi, mi te-au trimis.</p>
+            <p>De ce? Dorește luptă măreţul Craiu cu mine?</p>
+            <p>Vrea faima să şi-o piardă în codrii din Boian?</p>
+            <p>Ci spune. Mi-este grabă răspunsul să ti-l  aflu.</p>
+            <stage> (Paharnicul al treilea intră.) </stage>
+            <p>Ce-i, tinere? Îţi pare ciudat că mă găseşti P_e mine cu acesta stând bot la bot? Eu, Vodă,</p>
+            <p>Şi el care-n oştirea-i e simplu ofiţer?</p>
+            <p>Ce ştii tu cum se leagă prieten de prieten,</p>
+            <p>Tovarăş de tovarăş, ostaşul de ostaş, Bătrânul de acela ce-a îmbătrânit ca dânsul,</p>
+            <p>Şi mai ales când casa-i pustie ca a mea?</p>
+            <stage> (se aude glasul Domniţei cântând.) </stage>
+            </sp>
+          <sp who="#domnita">
+            <speaker>DOMNIŢA</speaker>
+            <p>E voie, tată dragă? Şi dumnealui de unde-i?</p>
+            <p>Cât de străină-i haina!</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ne lasă tu, Ruxando.</p>
+            <stage> (o netezeşte pe păr.) </stage>
+            <stage> (către Bzowski.) </stage>
+            <p>Îţi caută de joc.</p>
+            <p>Eu n-o uitam pe dânsa, dar viaţa-i fără mamă</p>
+            <p>Mai greu îmi aminteşte de ceia ce-am pierdut.</p>
+            <p>Băieţii mi-s pe-aiurea. Antioh e dus prin ţară. Dimitrie se află în Ţarigrad la carte...</p>
+            <p>Sunt ceasuri când îmi pare că stau într-un mormânt</p>
+            <p>Şi-aud cum creşte iarba prin trupul meu ce zace.</p>
+            <p>Atunci, ca să mai treacă durerea...</p>
+            <stage> (vede pc Paharnic, care s-a retras întrr-un colţ.) </stage>
+            <p>Vin  s-aducă!</p>
+            <stage> (Paharnicul pleacă.) </stage>
+            <p>Ce Domn, măi Bzowski! Vreme aceea, nu ca azi!</p>
+            <p>O Curte 'mbelşugată, boieri şi gloată multă,</p>
+            <p>În fir era 'mbrăcată mulţimea robilor</p>
+            <p>Şi la cei mari pe haine sclipeau tot pietre scumpe.</p>
+            <p>Povodnicii pe uliţi trăgeau rădvane mari,</p>
+            <p>Şi fluturau marame pe capete frumoase...</p>
+            <p>Ce mai ospeţe! Vinul curgea la colţ de uliţi,</p>
+            <p>Pe când la masa mare fruntaşii închinau</p>
+            <p>Până cădeau  sub  masă, stând  drept  numai  cu</p>
+            <p>DomnulVlădica... O, ce zile!... Acuma şi la chef</p>
+            <p>Stai singur, iar boierii îşi caută de carte Ori stau pe întunerec grămadă, şi-uneltesc.</p>
+            </sp>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>În lipsă de alti oaspeți să-ntindem noi ospăţul!</p>
+            <p>Moldova voastră-i bună de vii ca şi de grâu,</p>
+            <p>Şi de viteji e bună, pe tine când te are!</p>
+            <p>De cântece, de danţuri, de fete, ce să zic?</p>
+            <p>Când este pace-n ţară, te-ai crede-n rai cu îngeri.-</p>
+            <stage> (Paharnicul apare aducând vinul.) </stage>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Când este pace-n. ţară... Dar cine ni-o va da!</p>
+            <p>Când voi de la hotare umblaţi ca lupi la pândă în jurul bietei turme şi-a tristului păstor ?</p>
+            <p>Ce furie v-aduce asupra noastră iarăşi?</p>
+          </sp>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <stage> (bând) </stage>
+            <p>Pe mine mă aduce o furie de vin</p>
+            <p>Și furia iubirii de tine, vechiul frate...</p>
+            <p>Dar,  dacă vrei  s'-mesteci  şi-un  gând  ceva  mai</p>
+            <p>greu,</p>
+            <p>Eu vin să-ţi cer ca soarta-ţi  s-o legi de  soartă</p>
+            <p>noastră.</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (greu, după ce a băut) </stage>
+            <p>De care soart' a voastră?</p>
+            </sp>
+        <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>De soarta tuturor:</p>
+            <p>În jurul tău o viaţă creştină se găteşte.</p>
+            <p>Nu vezi că fierbe lumea contra păgânilor?</p>
+            <p>Nu simţi că ură veche în foc viu se aprinde? N-auzi un freamăt mândru de gâturi care-şi smulg</p>
+            <p>Povara de robie ce le-a pătruns în carne?</p>
+            <p>Şi strigătele celor ce cheamă la război</p>
+            <p>Nu-ţi sună în ureche cu-a slabilor doinire?</p>
+            <p>Nu înţelegi trecutul că este-acum sfârşit</p>
+            <p>Şi că răsare ziua de sfântă libertate!</p>
+            <stage> (Îi pune mâna pe umăr.) </stage>
+            <p>Şi, dacă domnul doarme, voinice, te trezesc:</p>
+            <p>La trîmbiţa de luptă dator eşti a răspunde.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>La trâmbiţa de lupta? Dar cine sunteţi voi? Puterea voastră unde-i? Nu văd averea voastră</p>
+            <p>Şi, ştii, războiul cere şi altceva decât</p>
+            <p>Zadarnica părere că toate s-or învinge, Cuvintele frumoase cu care v-aţi deprins,</p>
+            <p>Şi le cunosc prea bine ca să mă-ncred în ele.</p>
+            </sp>
+        <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>Războiul? Zeul însuşi al lui este cu noi.</p>
+            <p>Ori ai uitat ce poate eroul fără seamăn,</p>
+            <p>Acel ce c-o privire dă viaţă oştilor</p>
+            <p>Şi fulgeră Turcimea c-un semn din mâna-i tare?</p>
+            <p>N-ai fost şi tu în ziua cea mare la Hotin</p>
+            <p>Când s-a topit în faţa-i oştirea musulmană</p>
+            <p>Şi Paşa cel cu fața ca tuciul a uitat</p>
+            <p>Că în ajun da palme lui Ştefan al Moldovei...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Da, da, lui Petriceicu. O, Doamne, ce ruşini!</p>
+            </sp>
+        <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>Şi, când noi pe Sobieski în frunte îl avem, Când mergem după- steagul alesului din ceruri,</p>
+            <p>Menit creştinătăţii sa-i deie ce-a avut,</p>
+            <p>Ce stai tu la-ndoială, ostaşe vechiu al nostru?</p>
+            <p>Şi, Doamne al Moldovei, pe gânduri de ce stai?</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Dar nu-nţelegi ce lucru grozav e pentru mine S-arunc o ţară-ntreagă în ceea ce nu ştiu?</p>
+            <p>Şi nu-s un Grec ce vine aici din lumea toată,</p>
+            <p>Ci ţara asta este pământul meu cel drept.</p>
+            <p>Cu voi? dar înc-odată, puterea voastră unde-i? Un om? dar ce înseamnă acei din jurul lui?</p>
+            <p>Ce sorţi dă luntrii care, deprinsă-n scurte drumuri, Se vede azvârlită de-un braţ neîndurător</p>
+            <p>Cu pînzele-i uşoare pe luciul larg al Mării?</p>
+            <p>Nu ştii ce-i oastea voastră de care îmi vorbeşti.</p>
+            <p>Noi ştim. Şi, dacă însuţi să afli vrei, ascultă.</p>
+            <stage> (Bate din palme. Apare un copil de casă.) </stage>
+            <p>Să vie căpitanul de lefecii.</p>
+            <stage> (către Bzowski:) </stage>
+            <p>Ce crezi? Suntem noi orbi când iată prăpastia în faţă?</p>
+            <p>Pierdut-am obiceiul strămoşilor păziţi</p>
+            <p>La orişicare faptă, orice le-ar cere gândul?</p>
+            <p>Se află-n lumea toată păţiţi mai pricepuți</p>
+            <p>Decât aceia care la toţi v-au dus ei greul?</p>
+            <stage> (căpitanul de lefecii intră.) </stage>
+            <p>Arată-ne ce este cu oastea Craiului.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>ACEIAŞI, UN CĂPITAN, UN APROD,  MULŢIMEA</stage>
+          <sp who="#capitanul">
+            <speaker>CĂPITANUL</speaker>
+            <p>Măria Ta, nu-i oaste; i-o ceată de tâlhari.</p>
+            </sp>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>Ce zici tu?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Căpitane, ce ai de spus, ne spune..</p>
+            <stage> (către Bzowski) </stage>
+            <p>El e dator ca toate să zică 'ntru-adevăr.</p>
+            <p>Tu află-ţi mângîierea în sfântul vin al nostru.</p>
+            <stage> (către căpitan.) </stage>
+            <p>Creştina oaste pradă ?</p>
+            </sp>
+          <sp who="#capitanul">
+            <speaker>CĂPITANUL</speaker>
+            <p>Cum nu s-a mai văzut.</p>
+            <p>La dânşii nu-s biserici ori sfinte mânăstiri</p>
+            <p>Pe toate se azvârle nespusa lăcomie,</p>
+            <p>Potirele se umplu de vin prihănitor</p>
+            <p>Şi mâini pline  de sânge ating sfintele-odoare!</p>
+            <p>Se şterg cu antimise pe groasele mustăţi</p>
+            <p>Şi moaştele zdrobite se risipesc în țărnă!</p>
+            <p>N-a mai văzut Moldova aşa jefuitori.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Și totuşi legea noastră e lege pentru dânşii</p>
+            <p>Și crucea se ridică pe steagurile lor,</p>
+            <p>Iar Craiul duce lupta pentru creştinătate.</p>
+            <stage> (către Bzowski) </stage>
+            <p>Prietene, mai toarnă din vinul de Cotnari:</p>
+            <p>Ţi-l dau de bună voie, şi cupa nu-i sfinţită</p>
+            <p>Măcar aici la mine suntem între creştini.</p>
+            <stage> (Bzowski încearcă a vorbi.) </stage>
+            <p>Nu, taci. Căci adevărul îşi are rând Ia vorbă.</p>
+            </sp>
+          <sp who="#capitanul">
+            <speaker>CĂPITANUL</speaker>
+            <p>Şi, dacă mai departe, voieşti Doamne, să ştii,</p>
+            <p>Nu-i Curte boierească să stea întreagă-n drumul</p>
+            <p>Pe- care vin joimirii în goana cailor</p>
+            <p>Şi n-a găsit cruţare nici a Măriei T a1e:</p>
+            <p>Sfărmat e tot; căzut-a bătrânul acoperiş</p>
+            <p>În flacăti, şi argintul icoanelor topite Se-amestecă-n cenuşă cu vechile hârtii</p>
+            <p>În care sta povestea isprăvilor bătrâne.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (către Bzowski) </stage>
+            <p>Auzi? Căsuţa noastră şi ea s-a prăpădit:</p>
+            <p>Şi n-am loc pentru tine-n moşia strămoşească</p>
+            <p>Unde-au venit s-aducă salut creştin ai tăi.</p>
+            <stage> (aparte.) </stage>
+            <p>Ori nu ciocnim păhare în cinstea libertăţii?</p>
+            <stage> (către căpitan.) </stage>
+            <p>Şi e măcar oştire puternică la ei?</p>
+            </sp>
+          <sp who="#capitanul">
+            <speaker>CĂPITANUL</speaker>
+            <p>Ce-aş spune? Când ostaşii sosesc în rânduială,</p>
+            <p>E mijloc ca puterea lor să o socoteşti,</p>
+            <p>Dar ăştia? O ceată nu ştie de-altă ceata,</p>
+            <p>Se luptă între dânşii în setea lor de jaf,</p>
+            <p>Şi cine e mai mare n-ar şti nici ei să spuie.</p>
+          </sp>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <stage> (mânios) </stage>
+            <p>.</p>
+            <p>E Regele, eroul...</p>
+            </sp>
+          <sp who="#capitanul">
+            <speaker>CĂPITANUL</speaker>
+            <p>Să fie cu iertare, căci eu nu vă cunosc Dar Craiul îşi petrece departe de oştire.</p>
+            <p>Că e viteaz, se spune, şi noi o credem toţi.</p>
+            <p>Dar nu de votejie ni-i sete-n suflet nouă.</p>
+            <p>Avem, deşi adesea lipsită de noroc.</p>
+            <p>Voim-	mă lasă, Doamne, s-o spun -	o  ocrotire</p>
+            <p>Mai tare ca puterea ce înşine-o avem:</p>
+            <p>Şi nu e nici putere în oastea care vine.</p>
+            </sp>
+          <sp who="#bzowski">
+            <speaker>BZOWSKI</speaker>
+            <p>Şi totuşi va ajunge îndat' aici în Iaşi:	_ Dacă-i aşa, atuncea priveşte-aceste rânduri. Din călărime-o parte e azi la Botoşani:</p>
+            <p>Ni trebuie s-ajungem aici câteva ceasuri.</p>
+            <stage> (Cantemir face semn să plece căpitanul, uimit.) </stage>
+            <p>Şi, dacă împreună cu noi nu vei veni,</p>
+            <p>Tu vei avea aceeaşi soartă ca şi vrăjmaşii</p>
+            <stage> (Afară se aude zgomot. Cantemir se apleacă la fereastră.) </stage>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ce vuiet se aude? Ai voştri au sosit,</p>
+            <p>Se pregătesc să-mi facă făgăduita cinste? Ascultă, Bzowski, casa e plină de averi. Îţi ia ce vrei din ele; mai bine să ajungă în mână de prieten... De ce te oţereşti?</p>
+            <p>Moldova doar e țară vrăjmaşă! Căci, să ştii;</p>
+            <p>Eu nu merg cu aceia ce-aduc sabia-n ţară.</p>
+            <stage> (Se-aud sunând clopotele.) </stage>
+            <p>Aţj fi putut ca altfel să fiţi întâmpinaţi Decât cu acest sunet de clopote-ngrozite</p>
+            <p>Ce cheamă spre risipă mai rău decât sub Turci</p>
+            <p>Acest oraş de Scaun al jalnicei Moldove.</p>
+            <stage> (un aprod intră pripit.) </stage>
+            </sp>
+          <sp who="#un_aprod">
+            <speaker>UN APROD</speaker>
+            <p>Mâria Ta, mul!imea te cere, Năvălesc</p>
+            <p>Pe uliţi toţi pribegii ce văd cum zarea arde,</p>
+            <p>Femeile la pragul nostru stau în genunchi, Bărbaţii cer o pâine de la domneasca milă,</p>
+            <p>Copiii prin unghere se-ascund înspăimântaţi,</p>
+            <p>Iar clopotele sună a jale în pustiuri.</p>
+            <p>Vin Leşii. Nu-i putinţă mulțimea s-o oprim...</p>
+            <stage> (mulţimea năvăleşte.) </stage>
+            </sp>
+          <sp who="#o_femeie">
+            <speaker>O FEMEIE</speaker>
+            <p>Nu ne lăsa, o, Doamne, ne prăpădim ... Ajută!</p>
+            </sp>
+          <sp who="#un_preot">
+            <speaker>UN PREOT</speaker>
+            <p>Batjocură se face de legea noastră.</p>
+            </sp>
+          <sp who="#un_batran">
+            <speaker>UN BĂTRÂN</speaker>
+            <p>Se-mprăştie avântul strâns cu atâta trudă.</p>
+            </sp>
+          <sp who="#un_strajer">
+            <speaker>UN STRĂJER</speaker>
+            <p>ÎN vâmt</p>
+            <p>Nu mai putem tâlharii de-aicea să-i oprim,</p>
+            <p>S-au înhăitat toţi Craii nebuni din mahalale,</p>
+            <p>Şi temniţele toate s'-u spart. Umblă beţivi</p>
+            <p>Şi ucigaşi cu steaguri străine-n toată voia.</p>
+            </sp>
+          <sp who="#o_jupaneasa">
+            <speaker>O JUPÂNEASĂ</speaker>
+            <p>Măria Ta, copila domnească s-a speriat</p>
+            <p>De vălmăşagul care vuieşte-n jurul nostru.</p>
+            <p>Ce facem? De bejenii şi noi să ne gătim?</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (către Bzowski) </stage>
+            <p>.</p>
+            <p>Priveşte, frate Bzowski, la fapta ce-aţi făcut.</p>
+            <p>Ori de aceste lucruri avea nevoie șara?</p>
+            <p>Şi pe această cale creştini-i liberaţi?</p>
+            <p>În plânsetele celor sărmani intra-va Craiul?</p>
+            <p>Săracă mintea voastră, trufaşă şi nebună!</p>
+            <p>Şi să mă-nchin îmi cereţi la cei care ne dau</p>
+            <p>După atâtea veacuri de mucedă robie</p>
+            <p>La Turci, care averea măcar ne-o ocrotesc, Ştiind că din prisosu-i şi ei şi-or trage partea,</p>
+            <p>Ne dau un ceas de sama acelui ce-1 trăim?</p>
+            <p>O, nu! Găsesc eu drumul deschis spre alte lupte,</p>
+            <p>Si, dacă nu vin Turcii, ei bine eu voi şti</p>
+            <p>Să aflu în Moldova puteri de luptă nouă.</p>
+            <stage> (către aprod.) </stage>
+            <p>Să steie slujitorii gata de a porni,</p>
+            <p>Să-şi iea Mitropolitul ce poate strânge-n pripă,</p>
+            <p>Să puie negustorii ce marfă ştiu în lăzi</p>
+            <p>Şi să se-ascundă -n turnuri sub paza îngerească,</p>
+            <stage> (către mulţime) </stage>
+            <p>Iar voi, nădejdea voastră să fie 'n Dumnezeu,</p>
+            <p>Ce n'a lăsat această ţară nemângâiată</p>
+            <p>Nici în cele mai grele ceasuri din viaţa ei.</p>
+            <p>Cât despre mine, locul meu îl voi nimeri,</p>
+            <p>Şi nu va trece vremea când m'oi întoarce iarăşi, Ducînd cu mine vestea că iar s-a înălţat</p>
+            <p>Acest steag al Moldovei ce astăzi se-nfăşoară.</p>
+            <stage> (arătând spre Bzowski) </stage>
+            <p>Pe dumnealui, trimisul unui Domn milostiv</p>
+            <p>Ce arde şi ucide în ţară de prieten,</p>
+            <p>Ţineţi-l cum ne-i firea de oameni iertători</p>
+            <p>Şi-l dați în mâna celui ce va veni îndată.</p>
+            <stage> (către Bzowski.) </stage>
+            <p>Si căruia din parte-mi, ca vechiu ostaş polon</p>
+            <p>Şi ca Domn al Moldovei, să-i spui că nu aşa</p>
+            <p>Se capătă iubirea acestui neam al nostru.</p>
+            <p>..\.,</p>
+          </sp>
+          <stage>(Curtea din laşi. Sobieski la masă între ostaşi poloni.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL al III-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu</head>
+          <stage>SOBlESKI, JUPÂNEASA MARGA, JUPÂNEASA ILEANA,  JABLONOWSKI. IANI VISTIERUL, TOADER VORNICUL,</stage>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <stage> (vesel) </stage>
+            <p>Şi-acum când Iaşul este supus puterii noastre, Moldova cea bogată când ni s-a închinat,</p>
+            <p>Când oştile polone spre Dunăre sunt gata</p>
+            <p>Şi Ţarigradu-aşteaptă să fie liberat,</p>
+            <p>Un ceas cât ni-i popasul aici, să ne petrecem.</p>
+            <stage> (spre Marga.) </stage>
+            <p>În ţara asta unde-s femei de seama lor:</p>
+            <p>Nu are Răsăritul făpturi aşa de mândre</p>
+            <p>Şi vorba lor e dulce ca versul din poveşti.</p>
+            <p>Formosae sunt supernae, în graiul lui Horaţiu.</p>
+            </sp>
+        <sp who="#marga">
+            <speaker>MARGA</speaker>
+            <p>Vor fi ori ba frumoase, dar gândul lor d-intâiu</p>
+            <p>E să se-nchine celui ce-a venit s-aducă</p>
+            <p>Dumnezeiasca milă a unei dezrobiri.</p>
+            <p>Ce drept nu are-acela ce face-astfel de daruri?</p>
+            <p>Ne este dragă toată oastea creştinilor;</p>
+            <p>Ni-s dragi voinicii cari te-ncunjoară, o rege,</p>
+            <p>Dar dintre toţi acela care ne e mai drag</p>
+            <p>Eşti tu, mărite Doamne, mântuitor de neamuri...</p>
+            </sp>
+        <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ce-a fost până acuma săracă viaţa noastră!</p>
+            <p>Ţinute-n cămăruţe ascunse de străini, Păzite de privirea Ţiganilor de casă, Silite să lucreze qdn zori până-n amurg</p>
+            <p>Alăturea de roabe cu mintea mărginită: Aşa copilărie ne-a fost dat să trăim.</p>
+            <p>Pe urmă măritişul cu cine ştie cine,</p>
+            <p>Un om pe care ochii atunci întâiu îi văd, Schimbarea închisorii cu altă închisoare, Copiii ce s-adună în fiecare an</p>
+            <p>Şi grija slugăririi stă pânului: atâta Podoabele, la hramuri, la câte un oaspăţ Încolo le închide dulapul pentru molii</p>
+            <p>Şi pietrele cu focuri în umbră neagră zac. Acuma se deschide o zare-n faţa noastră</p>
+            <p>Suntem deopotrivă cu cei care-i iubim, Luăm parte la plăcerea victoriei creştine, Ciocnim pahare pline de vinul de Cotnari</p>
+            <p>Şi, de ni-i somn, sunt braţe gătite să ne prindă!</p>
+            </sp>
+        <sp who="#marga">
+            <speaker>MARGA</speaker>
+            <p>Aşa e, surioară. Şi cel mai mândru gînd Al nostru e odată să trecem de hotare,</p>
+            <p>Să mergem împreună cu voi în alte lumi,</p>
+            <p>Să fim părtaşe-a vieţii creştine fără piedeci.</p>
+            <stage> (alintându-se) </stage>
+            <p>Frumosul Crai în care nădejdile ne-am pus,</p>
+            <p>Căci are o privire pentru sfiala noastră...</p>
+            </sp>
+        <sp who="#jablonowski">
+            <speaker>JABLONOWSKI</speaker>
+            <p>Poți fi de-astfel de vorbe mândru, Măria Ta,</p>
+            <p>Femeile Moldovei ştiu bine să aleagă</p>
+            <p>Pe-acela cărui toate grăbesc a le-nchina.</p>
+            <p>În sănătatea  voastră, o dulce, scumpă  pradă!</p>
+            </sp>
+        <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>La astfel de cuvinte dator mă simt şi eu</p>
+            <p>S-adaug o regală urare mulţămită ...</p>
+            <p>Drăguţe Moldovence, în inima-mi aveţi</p>
+            <p>Un loc pe care nimeni nu poate să vi-l ieie: Frumoasa mea regină şi dânsa ar ierta</p>
+            <p>Această închinare ce se aduce vouă...</p>
+            <p>Să fie ţara voastră aşa cum o doriţi</p>
+            <p>Iar  voi să fiţi în ţara noastră soții iubite!</p>
+            </sp>
+        <sp who="#toader_vornicul">
+            <speaker>TOADER VORNICUL</speaker>
+            <p>La glasurile care spre tine îndrăznesc Mărite Craiu, ne lasă şi noi să dăm rostire</p>
+            <p>Iubirii care 'n inimi ni s-a sălăşluit</p>
+            <p>Din ceasu-n care soarta ni te-a adus aice.</p>
+            <p>Meniţi suntem alături să mergem, noi, cei mici,</p>
+            <p>Noi, micii şerbi ai celor ce ne aduc scăparea</p>
+            <p>Din jugul păgânimii supt care ne-am trudit.</p>
+            <p>Pentru frăţia noastră acest pahar, stăpâne,</p>
+            <p>De ne-i iertat în ziua cea mare să ciocnim,</p>
+            <p>Cu-acela către care abia se-nalţă ochii.</p>
+            </sp>
+        <sp who="#jablonowski">
+            <speaker>JABLONOWSKI</speaker>
+            <p>Şi tu, Iani, nimica n-adaugi de la voi,</p>
+            <p>O, Greci, care în toate ştiţi măguli puterea,</p>
+            <p>Târându-vă pe burtă spre cel mai putincios</p>
+            <p>Să auzim ce ştie găsi isteaţa minte...</p>
+            </sp>
+        <sp who="#iani_vistierul">
+            <speaker>IANI VISTIERUL</speaker>
+            <p>Noi, Doamne, ştim un lucru: bătrânii filosofii</p>
+            <p>Dau sfatul ca în toate să căutăm ideea.</p>
+            <p>Ea e aceia care ne face ce suntem,</p>
+            <p>Ea dă îndemn la faptă şi ea o cântăreşte,</p>
+            <p>Într-însa şi spre dânsa vin toate câte sunt</p>
+            <p>Şi nu suntem în viaţă decât întruchipări</p>
+            <p>Ale ideii care e veşnică şi sfântă.</p>
+            <p>Noi ne trudeam prin faptă şi nu găseam un drum</p>
+            <p>Tu ne-ai adus şi drumul cu gândul împreună.</p>
+            <p>Afară de iubirea ce-ţi dăm ca domn creştin,</p>
+            <p>Aducem şi respectul pentru ideea voastră.</p>
+            <p>Ideii întrupate în voi ne închinăm.</p>
+            <p>Destul cu chibzuială politică, destul</p>
+            <p>Cu frazele în care se-mbracă linguşire!</p>
+            <p>E ceas de veselie. Să-cepem a trăi</p>
+            <p>Aşa cum se cuvine în zi de sărbătoare.</p>
+            <p>Ce-aduce următoarea zi, cine poate spune?</p>
+            <stage> (un cântăreţ polon.) </stage>
+            <p>Măriei Tale prinos ţi-aducem de câtări,</p>
+            <p>Noi care ducem traiul sub fermecata spadă</p>
+            <p>Și care avem parte din a iubirii pradă</p>
+            <p>Când biruinţa-ţi este prilej de desfătări.</p>
+            <p>Eşti zeul Marte care petrece-ncununat</p>
+            <p>De lauri lângă zâne ce stau să-i cadă-n brațe.</p>
+            <p>Când birui tu, Olimpul saltă şi se răsfaţă,</p>
+            <p>Iar Bacchus se strecoară la Venera în pat.</p>
+            </sp>
+        <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Să vie altul. Ăsta prea mult ne-a tot purtat Prin lumile divine ale lui Jupiter!</p>
+            <p>Ceva mai cald să-mi ziceți în ziua asta mare</p>
+            <p>Când armele regale o ţară mi-au supus</p>
+            <p>Şi peste Iaşi întinde vulturul alb aripa!</p>
+            <p>Un cântec crud de lagăr să-mi ziceţi voi acum.</p>
+            </sp>
+        <sp who="#jablonowski">
+            <speaker>JABLONOWSKI</speaker>
+            <p>Să vie moşul Rawski: a fost prin lupte multe</p>
+            <p>Şi cântecele toate la el se pot găsi.</p>
+            <p>Zi-i, staroste războiul, de la Hotin cu Turcii.</p>
+            </sp>
+        <sp who="#rawski">
+            <speaker>RAWSKI</speaker>
+            <p>Dacă porunca este de la Craiul, mă-ncnin. Ce bucurie, Doamne, simţesc la amintirea Acelei zile-n care Măria Ta ai fost Biruitor, eroul creştinătății toate!</p>
+            <stage> (zice cântecul.) </stage>
+            <p>Nu te-am uitat, Hotine, şi ceasul glorios Când oştile păgâne s-au risipit în fugă, Când Paşa cel sălbatic căzu în iernă jos,</p>
+            <p>Când stau în vrafuri morţii la Nistru în văiugă.</p>
+            <stage> (cei de faţă se aprind la cântec.) </stage>
+            <p>Nu te-am uitat, cetate bătrână moldoveană, Cu ziduri zdrențuite ce-n valuri se preling: S-a. luminat acolo a biruinţei geană</p>
+            <p>Pe când a' semilunei raze pe cer se sting.</p>
+            <stage> (adunarea repetă aceste versuri.) </stage>
+            <p>Şi iarăşi niciodată nu te-om uita pe tine,</p>
+            <p>Prieten al acelor ce sufăr în nevoi,</p>
+            <p>Nu vom uita de hramul tău, o, Sfinte Martine,</p>
+            <p>Ce ai întins o mână de ajutor spre noi.</p>
+            <stage> (acelaşi joc ca mai sus.) </stage>
+            <p>Dar n-om uita pe-acela ce-n ziua minunată</p>
+            <p>A frânt dintr-o trânteală pe mândrul Musulman,</p>
+            <p>Nu vom uita eroul cu fruntea-ncununată,</p>
+            <p>Pe-nvietorul faimei creştine, pe Ioan!</p>
+            <stage> (acelaşi joc ca mai sus.) </stage>
+            </sp>
+        <sp who="#jablonowski">
+            <speaker>JABLONOWSKI</speaker>
+            <p>Să ne trăiască mândrul ostaş, regele  nostru!</p>
+            </sp>
+        <sp who="#vornicul_toader">
+            <speaker>VORNICUL TOADER</speaker>
+            <p>Moldovei să-i trăiască acest răzbunător!</p>
+            </sp>
+        <sp who="#marga">
+            <speaker>MARGA</speaker>
+            <p>Să ne trăiască nouă acel care iubeşte Femeile Moldovei supuse voii lui!</p>
+            </sp>
+        <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Să fie veşnic tânăr în glorie tot nouă,</p>
+            <p>Şi inima să-i fie tot tânără mereu!</p>
+            </sp>
+        <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Mărire ţie, Doamne, biruitor de neamuri!</p>
+            </sp>
+        <sp who="#alt_glas">
+            <speaker>ALT	GLAS</speaker>
+            <p>Dezrobitor de neamuri, mărire ţie-n veci.</p>
+            </sp>
+        <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Dar Moldovenii voştri nu ştiu un veers să-mi zică?</p>
+            <p>Pe voi şi ţara voastră eu vă cunosc de mult:</p>
+            <p>Au n-a trecut pe-aice odată tatăl nostru,</p>
+            <p>Nu ne spunea acasă comorile ce sunt Ascunse în această ţară părând săracă: Comorile de-avere, comorile de vipt, Comori de vitejie, comori de frumuseţe?</p>
+            <p>N-am cercetat eu însumi acest pământ bogat?</p>
+            <p>Văzut-am Domni cu fală pe tronul de robie,</p>
+            <p>Ce se-nşelau pe sine cu m</p>
+            <p>ndrul lor alai,</p>
+            <p>Crezând că-s de o samă cu regii libertăţii: Păpuşi înveşmântate în haine de-mprumut, Puind în fir de aur nimicnicia goală?</p>
+            <p>Gonit-am eu deunazi pe Duca cel avar,</p>
+            <p>Cu-averea lui întreagă pornitu-l-am încoace,</p>
+            <p>Să-şi treacă bătrînețea umilă în Liov</p>
+            <p>Şi-am dat prin Petriceicu Domn drept tristei Moldave</p>
+            <p>Îi ştiu în tot ce este bun, şi-n ce-i rău îi ştiu.</p>
+            <p>Îl ştiu şi pe acela ce, de frica pedepsei,</p>
+            <p>Ce sta să-l prindă-n urmă, fugi înspăimântat</p>
+            <p>Şi-acuma rătăceşte departe în pustiuri,</p>
+            <p>Unde voi merge însă şi tot îl voi găsi, Alăturea de Turcii ce i-au rămas prieteni;</p>
+            <p>Îl ştiu pe dezertorul creştinei datorii,</p>
+            <p>Pe Cantemir bătrânul, ostaş polon de cinste</p>
+            <p>Ce-a înşelat acuma credinţa-i de demult</p>
+            <p>Şi-a terfelit obrazul cel alb cu fapte negre...</p>
+            <p>O, da, eu ştiu Moldova... Şi cântecul i-l ştiu, Zglobia zicătură ce prinde-orice greşală</p>
+            <p>Şi'n două trei cuvinte o dă lumii de râs, Ştiţi voi, aş fi în stare să cânt moldoveneşte.</p>
+            </sp>
+        <sp who="#vornicul_toader">
+            <speaker>VORNICUL TOADER</speaker>
+            <p>La ce nu se pricepe un om aşa cum eşti?</p>
+            </sp>
+        <sp who="#marga">
+            <speaker>MARGA</speaker>
+            <p>Eu n-aş jura că versul de dor îți stă pe buză.</p>
+            <p>Ileana:</p>
+            <p>Ce hore minunate cu toate-am juca</p>
+            <p>La vorbele pe care le-ar da Măria Voastră!</p>
+            </sp>
+        <sp who="#iani">
+            <speaker>IANI</speaker>
+            <p>Păcat că se trudeşte un gând aşa de-nalt Să-nchege-o poezie în barbarul lor grai:</p>
+            <p>În limba latinească ar prinde mult mai bine,</p>
+            <p>Iar limba elinească şi zeii o vorbeau.</p>
+            </sp>
+        <sp who="#jablonowski">
+            <speaker>JABLONOWSKI</speaker>
+            <p>Acum deocamdat-o vorbesc linguşitorii</p>
+            <p>Aceia ce norocul şi-l caută minţind,</p>
+            <p>Spre care mi-e şi scârbă să-mi mai arunc şi ochii.</p>
+            <p>Aşa cum e, sălbatic, îmi place Moldoveanul,</p>
+            <p>De-l pun cu voi alături, neasămănat mai mult:</p>
+            <p>În limba lor răsună atâta duioşie</p>
+            <p>Şi tot aşa de bine-i pe buze de viteaz.</p>
+            </sp>
+        <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Gâlceava să-nceteze. Eu vreau să cânt aşa,</p>
+            <p>Pentru că ne este cheful să râd de caraghiosul</p>
+            <p>Vrăjmaş care se-ncrede să poată birui Oştirea creştinească, noi toţi fiind în frunte.</p>
+            <p>Să vie lăutarul spre a-ntovărăşi.</p>
+            <stage> (apar trei cobzari. Întăiul e Cantemir schimbat de haine.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ACEIAŞI, CANTEMIR</stage>
+          <sp who="#un_copil_de_casa">
+            <speaker>UN COPIL DE CASĂ</speaker>
+            <stage> (aparte.) </stage>
+            <p>E Cantemir, e Vodă!</p>
+            </sp>
+          <sp who="#alt_copil_de_casa">
+            <speaker>ALT COPIL DE CASĂ</speaker>
+            <p>O taci, căci îl ucizi!</p>
+            </sp>
+          <sp who="#cel_dintaiu">
+            <speaker>CEL D-INTÂIU</speaker>
+            <p>L-am cunoscut pe semnul de rană de pe frunte.</p>
+            </sp>
+          <sp who="#al_doilea">
+            <speaker>AL DOILEA</speaker>
+            <p>Pe lacrima ce curge din ochi-i îi cunosc.</p>
+          </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <stage> (cântă) </stage>
+            <p>Constantine,</p>
+            <p>Fugi bine, Nici ai casă,</p>
+            <p>Nici ai masă,</p>
+            <p>Nice dragă jupâneasă.</p>
+            <stage> (Cantemir priveşte fix pe rege; o strună din cobza lui pocneşte.) </stage>
+            <stage> (Adunarea râde.) </stage>
+            </sp>
+          <sp who="#marga">
+            <speaker>MARGA</speaker>
+            <p>O, dar n-avea în casă decât puţine slugi Bătrîne, care viaţa cu el şi-au fost făcut-o, Şi semăna cu ele de parcă fraţi erau.</p>
+            <p>Aşa era Domnia Moldovei cea scăzută.</p>
+            </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Pe urmă şi copiii! Domnița mucezea</p>
+            <p>În grija jupânesei netoate şi neghioabe,</p>
+            <p>Spre care şi moşneagul cu ochii căuta. Băiatul Dumitraşco citea filosofie</p>
+            <p>Cu Grecul Cacavela, un nobil preceptor,</p>
+            <p>În mijlocul mulţimii de cărţi învălmăşite.</p>
+            <p>Iar şoarecii prin casă aveau rost de curteni:</p>
+            <p>Vistiernicul cel Mare n-a vea o pungă-n mină</p>
+            <p>Şi cămăraşul vremea flămînd şi-o petrecea,</p>
+            <p>Pe când Vodă sta singur cu vinul lângă dânsul</p>
+            <p>Şi închina cu sine, calic ce mai era!</p>
+            <stage> (Cantemir scapă cobza.) </stage>
+            </sp>
+          <sp who="#un_paj">
+            <speaker>UN PAJ</speaker>
+            <p>Să mai păstrăm moşnegii ce zic moldoveneşte?</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Da, să-i păstrăm, mai este puţin până în zori</p>
+            <p>Şi cine nu se culcă devreme, dator este</p>
+            <p>Ca noaptea s-o închine plăcerilor de tot.</p>
+            <p>Pe urmă vie truda şi grija şi silinţa,</p>
+            <p>Pe urmă vie boala şi moartea şi ce-o fi!</p>
+            <p>Avem doar o viaţă, şi s-o  trăim pe-aceia!</p>
+            <stage> (către Cantemir.) </stage>
+            <p>Ascultă-mă, bătrâne, n-ai şti să zici şi tu</p>
+            <p>Un cântec din Moldova cea veche, când prieteni</p>
+            <p>Eram cu Moldovenii şi lupta o dădeam</p>
+            <p>Alături pentru cinstea creştinei legi comune?</p>
+            </sp>
+          <sp who="#vornicul_toader">
+            <speaker>VORNICUL TOADER</speaker>
+            <p>Ştii tu, moşnege, veersul luptei de la Vaslui?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Acolo am fost singuri; mă mir că n-ai  ştiut-o.</p>
+            </sp>
+          <sp who="#vornicul_toader">
+            <speaker>VORNICUL TOADER</speaker>
+            <p>Atunci spune povestea cea de la Războieni.</p>
+            <p>CANTEMIR.</p>
+            <p>La Războieni bătrânul Ştefan singur era:</p>
+            <p>Îl părăsise toată puterea creştinească.</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Ce spune?</p>
+            </sp>
+          <sp who="#iani">
+            <speaker>IANI</speaker>
+            <p>E un suflet mocnit, Măria Ta,.</p>
+            <p>Din cei ce-şi fac plăcere să fie împotrivă Atuncea când de dânşii pentr-un nimic te rogi.</p>
+            </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Mai bine pe acesta hursuzul să-l lăsăm;</p>
+            <p>Sunt alţii cari-s gata plăcere să ne facă.</p>
+            <p>Românu-aşa-i oriunde şi mai ales aici:</p>
+            <p>Îl rogi, el îţi răspunde cu vorbă-mponcişată,</p>
+            <p>Şi numai când poru nca i-o dai, eşti ascultat,</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Căţea care muşti sânul de unde ți-ai luat hrana!</p>
+            </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ce zice? De ce câine vorbeşte acest prost?</p>
+            <p>Ce se năzare ăstui lingău de la ospeţe?</p>
+            <p>Ascultă tu...</p>
+            </sp>
+          <sp who="#iani">
+            <speaker>IANI</speaker>
+            <p>Te-nşeli, n-a zis nimica decât că e flămând</p>
+            <p>Şi i-ar prii o leacă din hrana noastră bună.</p>
+            <p>Poate-un păhar din vinul cel roşu de Cotnari</p>
+            <p>Căci, zice, ca un câine a stat pe pragul uşii.</p>
+            <stage> (Ia să-i dea pâine şi icre.) </stage>
+            <p>Să-i dăm o 'mbucătură cu voia Craiului.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Nu, mulţumesc, mi-ajunge. Sătul sunt de ce văd.</p>
+            <p>Şi sufletul meu cere un singur lucru: moartea.</p>
+            </sp>
+          <sp who="#vornicul_toader">
+            <speaker>VORNICUL TOADER</speaker>
+            <p>O, moartea vei avea-o mat iute de cum crezi.</p>
+            <p>iî-i scrisă pe obrazul cel supt de orice sânge,</p>
+            <p>Ea tremură-n genunchii ce se ciocnesc de frig</p>
+            <p>Şi se ascunde-n pieptul cei scorojit de tuse.</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Dar s-auzim un cântec bătrân de la acel</p>
+            <p>Care-n curând va duce cu el o 'ntreagă lume.</p>
+            <p>Să auzim, bătrîne, am poftă de-auzit.</p>
+            <p>N-aveţi şi voi un cântec de veche vitejie?</p>
+            <p>Au n-aţi avut o clipă în care-aţi biruit,</p>
+            <p>Atunci când vlaga voastră tot nu secase încă?</p>
+            <p>N-aţi  fost odată tineri? Viteji n-ați fost atunci?</p>
+            <p>N-a stat Ştefan-cel-Mare Domn în Molo0va noastră?</p>
+            <p>Pe vremea când regatul supus şi-l număra?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să fie deci, pe voia Măriei Tale, Doamne.</p>
+            <stage> (începe.) </stage>
+            <p>Prin păduri adâqci</p>
+            <p>Pe supt negre stânci,</p>
+            <p>Cine trece oare</p>
+            <p>În scumpe odoare;</p>
+            <p>Trece înnainte</p>
+            <p>în mândre veşminte,</p>
+            <p>Trece pe furiş Sub acoperiş</p>
+            <p>De ramuri legate,</p>
+            <p>Şi încârligate, Ramuri care rup</p>
+            <p>Blana de pe trup,</p>
+            <p>Trunchiuri ce omoară Duşmănoasa fiară.</p>
+            <p>Cad, se-ngrămădesc, Oasele zdrobesc, Oastea nimicesc, Craiu-1 îngrozesc,</p>
+            <p>Craiul cel acvan Oaspete duşman:</p>
+            <p>Fir-ar locul lui</p>
+            <p>Fundul Iadului!</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>O luptă-n codri... Multe pe-aici au fost purtate,</p>
+            <p>Şi nu odată Turcii şi-au luat răsplata lor.</p>
+            <p>V-a mers faima departe, o voi păduri-morminte.</p>
+            <p>Urmează-ţi tânguirea învinşilor, bătrâne.</p>
+            </sp>
+          <sp who="#al_doilea_lautar">
+            <speaker>AL DOILEA LĂUTAR</speaker>
+            <p>Zi-i, moşnege, zi!</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>De ce plângi fierbinte,</p>
+            <p>Domn fără de. minte,</p>
+            <p>De ce plîngi duios, Omule fălos ?</p>
+            <p>Pentru toate-aceste</p>
+            <p>Vina a cui este?</p>
+            <p>Cine te-a chemat</p>
+            <p>Ca să fi cercat Ceasul cu păcat,</p>
+            <p>Ca să fi văzut</p>
+            <p>Oastea ce-ai pierdut, Ca să întâlneşti</p>
+            <p>Voinici din poveşti?</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Sunt vremi când face omul ce însuşi n-a gândit:</p>
+            <p>În urma noastră merge putere nevăzută,</p>
+            <p>Şi cine e acela ce ar putea numi</p>
+            <p>Al său ce se întâmplă cu fapta mâinii sale?</p>
+            </sp>
+          <sp who="#al_doilea_lautar">
+            <speaker>AL DOILEA LĂUTAR</speaker>
+            <p>Zi-i, moşnege, zi-i!</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Şi-acum fugi pe şleah</p>
+            <p>Voinice Craiu leah,</p>
+            <p>Ce-ţi mai este bun,</p>
+            <p>Olbrecht, Crai nebun!</p>
+            </sp>
+          <sp who="#jablonowski">
+            <speaker>JABLONOWSKI</speaker>
+            <p>Destul! Acesta spune trădarea din Cosmin,</p>
+            <p>Vânzarea ticăloasă de la Dumbrava Roşă.</p>
+            <p>Te-a învăţat vreunul acestea să le zici?</p>
+            <p>Şi cine eşti tu oare de necinsteşti cu vorba</p>
+            <p>Pe regii glorioasei Polonii, pe-acest</p>
+            <p>Erou al libertăţii cu care vrei s-amesteci, Cobind peirea noastră, păţania de-atunci! Ostaşi, să puneţi mâna pe dânsul...</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Pane, nu!</p>
+            <p>Cântarea ce-am cerut-o datori suntem acuma</p>
+            <p>S-o-ngăduim... Povestea înfrângerii ce-a fost</p>
+            <p>Îndemn este ca alta în veci să nu mai fie.</p>
+            <p>Ne învăţăm mai bine cu astfel de-amintiri</p>
+            <p>Decât cu proslăvirea ce înşine am face-o:</p>
+            <p>Aşa gândeau Romanii cei mari în orice ceas.</p>
+            <p>Să căutăm ca dânşii să fim în vremuri bune,</p>
+            <p>Căci vremea rea în  urmă pândind stă nencetat,</p>
+            <p>Trufia noastră-i este prilej să se răzbune.</p>
+            <p>Ciudat ce se petrece şi în sufletul meu...</p>
+            <p>Să ne gîndim la lupta de mine, ce-i aproape!</p>
+            <stage> (se face ziuă. Deschide fereastra.) </stage>
+            <p>Ce mândru se ridică perdeaua cerului</p>
+            <p>De noapte, şi lumina de zori roşeşte zarea!</p>
+            <p>Ce spui, dungă de sânge, ce-n faţa	mea răsari?</p>
+            <stage> (către petrecători.) </stage>
+            <p>Voi, rămâneţi în urmă. N-avem nicio nevoie</p>
+            <p>De cei care, când plânge pământul lor, primesc</p>
+            <p>Pe-acela ce cu steaguri străine vine-n ţară.</p>
+            <stage> (către Cantemir) </stage>
+            <p>Iar tu, bătrâne, cîntă urmaşilor nătângi</p>
+            <p>Isprava săvârşită de 'nnaintaşii noştri.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Cântarea mi-e sfîrşită. Măria Ta, mă-ntorc</p>
+            <p>La ceia ce m-aşteaptă aiurea ...</p>
+            </sp>
+          <sp who="#sobieski">
+            <speaker>SOBIESKI</speaker>
+            <p>Un alt cântec?</p>
+            <p>Cantemir:</p>
+            <p>Nădăjduiesc că altul şi că voi întîlni Încă odată mila Măriei Tale, Doamne. Cântările Moldovei n-au luat încă sfârşit...</p>
+          </sp>
+          <stage>(Sfatul boierilor.)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="4">
+        <head>ACTUL al IV-lea.</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu.</head>
+          <stage>MIRON COSTIN, VELIŞCU, TIFESCUL, PORPHYRITA,  UN CĂLUGĂR, ALŢI BOIERI</stage>
+          <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Ce? Nu-i bine să fie un Domn bătrân şi bun,</p>
+            <p>Ce nu ştie să spuie de-a lui bătrână viţă,</p>
+            <p>Ci vine drept din codru şi din părinți țărani?</p>
+            <p>Nu pute în palatul domnesc sfânta opincă?</p>
+            <p>Dulama nu se poartă ca un cojoc miţos?</p>
+            <p>Și, dacă nu mănâncă din talere de lemn</p>
+            <p>Şi a uitat să taie cu aţa mămăliga,</p>
+            <p>Ospețele de Curte par un.praznic de sat</p>
+            <p>Iar noi sunfem calicii ce-aşteaptă fărmătura...</p>
+            </sp>
+          <sp who="#veliscu">
+            <speaker>VELIȘCU</speaker>
+            <p>Nu-i loc de glumă astăzi, Miroane, frate, ci</p>
+            <p>S-ar cuveni prin fapte să-mpiedecăm ruşinea.</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRIŢA</speaker>
+            <p>Si drept e că ruşinea ne prinde cînd vedem</p>
+            <p>Un om fără de carte, nepriceput ca dânsul</p>
+            <p>Stând Domn pe tronu-n care Vasile a stătut</p>
+            <p>Vasile spre a cărui mărire 'mpărătească</p>
+            <p>Priveau ca spre speranţa supremă Grecii toţi</p>
+            <p>Şi-l aşteptau să intre în Sfânta Sofia,</p>
+            <p>Iar dumnealui acesta nu-şi ştie spune-un gând</p>
+            <p>Cu degetele-i groase n-a răsfoit o carte,</p>
+            <p>Îi sunt deşerte nume slăviţii filosofi</p>
+            <p>Şi poezia-i pare a fi o jucărie, Degeaba Cacavela încearcă a-i vorbi,</p>
+            <p>Isteţul Ieremia ce-i creşte beizadeaua:</p>
+            <p>La ce-ar putea ajunge c-un om de teapa lui?</p>
+            </sp>
+          <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Ienachi, lasă grija Moldovei cui o ştie</p>
+            <p>Şi cui are chemarea s-o treacă la urmaşi.</p>
+            <p>Ce-ți este ţie oare o soartă așa</p>
+            <p>străină?</p>
+            </sp>
+          <sp who="#ienachi">
+            <speaker>IENACHI</speaker>
+            <p>Credeam totuşi că dreptul acelaşi îl avem.</p>
+            <p>Acei cari alături stăm în dregătorie</p>
+            <p>Şi care din aceleaşi cărţi gândul  ni-l hrănim.</p>
+            </sp>
+          <sp who="#tifescul">
+            <speaker>ŢIFESCUL</speaker>
+            <p>Că, da, noi de aceia ne-am adunat aice</p>
+            <p>Ca să afle Românul că nu este un Grec</p>
+            <p>Şi Grecul că nu poate să simtă româneşte Avem o hotărâre de luat. S-o luăm! Acum!</p>
+            </sp>
+          <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>De este ca din vorbă la fapte să ajungem,</p>
+            <p>Nu trebuie atâtea să le mai amintim Sunt vii doară în mintea oricăruia acelea.</p>
+            <p>E om ca să nu ştie că Vodă Cantemir</p>
+            <p>Un prost a fost şi astăzi e prost ca-n totdeauna,</p>
+            <p>Că nu ştie să-şi puie un nume sub hrisov,</p>
+            <p>Ci nimereşte doară locu-alb de sub scrisoare</p>
+            <p>Şi trage peste slove săpate-un pămătuf?</p>
+            </sp>
+          <sp who="#tifescul">
+            <speaker>ŢIFESCUL</speaker>
+            <p>Că e beţiv şi vremea şi-o trece-n zăpăceală</p>
+            <p>Încremenit la masă cu vinu-n faţa lui,</p>
+            <p>Că pănă şi-n alaiuri de hram se poticneşte,</p>
+            <p>Că doarme după prânzuri la ceasul de judeţ?</p>
+            </sp>
+          <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Iar ţara ne-o apasă cu biruri grămădite, Vorbind de-o mănăstire ce n-o va mai sfârşi,</p>
+            <p>Căci pentru lăcomia-i nu trebuie sfârşită.</p>
+            <p>În codrul de la Mira se varsă bani munciţi,</p>
+            <p>Şi pietrele se leagă cu acea sudoare cruntă</p>
+            <p>Ce o văsă săracul când dă muncă de rob.</p>
+            </sp>
+          <sp who="#tifescul">
+            <speaker>ŢIFESCUL</speaker>
+            <p>Începe să se cânte prin sate versuri nouă,</p>
+            <p>Batjocură Domniei și nouă tuturor.</p>
+            <p>Îmi pare, Logofete, că nu-ţi sunt neştiute...</p>
+          </sp>
+          <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <stage> (zâmbind) </stage>
+            <p>Se poate. Când se smulge ceva din gândul tău</p>
+            <p>Şi se rosteşte-astfel ce crede orişicare,</p>
+            <p>Să-l ducă mai departe e dreptul orişicui, Căci el este acela ce a stârnit cuvântul.</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Par  minţile alese găsesc cuvân tul drept.</p>
+            <stage> (către Ţifescul.) </stage>
+            <p>Ți-aduci aminte versul ce umblă pe la sate?</p>
+            <stage> (cântă încet.) </stage>
+            <p>Cantemir era un Domn,</p>
+            <p>Altfel prea de treabă om.</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Destul. Doar pentru cântec noi n-am venit la sfat</p>
+            </sp>
+        <sp who="#tifescul">
+            <speaker>ŢIFESCUL</speaker>
+            <p>E drept, dar ce plăcere-i măcar aşa să spunem</p>
+            <p>Ce fierbe în mânia oricăruia din noi.</p>
+            <p>Se potriveşte bine sfârşitul, Logofete.</p>
+            <stage> (cântând tot aşa.) </stage>
+            <p>Cu păharul îndeseşte,</p>
+            <p>Dar cu birul mai răreşte.</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Aşa: să înceteze acele aspre dări!</p>
+            </sp>
+        <sp who="#altele">
+            <speaker>ALTELE</speaker>
+            <p>Să nu ne mai apese făr' a ne apăra!</p>
+            </sp>
+        <sp who="#un_calugar">
+            <speaker>UN CĂLUGĂR</speaker>
+            <p>Sunt cleric, dar averea luată de la săraci</p>
+            <p>Nici Dumnezeu cu faţa voioasă n-o primeşte</p>
+            <p>O ţară năcăjită nu-şi cere mănăstiri</p>
+            <p>Şi ruga cea mai bună dreptatea e şi mila.</p>
+            <p>II,</p>
+            </sp>
+        <sp who="#alte_glasuri">
+            <speaker>ALTE GLASURI</speaker>
+            <p>Şi Vodă să mai beie din sumele ascunse...</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Aşa n-o să ajungem la niciun capăt bun,</p>
+            <p>Se cere ca şi scopul să-l ştim precum se cade.</p>
+            <p>Să zicem că Domnia cea rea s-a isprăvit,</p>
+            <p>Că am scăpat Moldova de-atîtea mişelii;</p>
+            <p>Pe urmă, ce-o să facem?</p>
+            </sp>
+        <sp who="#tifeseul">
+            <speaker>ŢIFESEUL</speaker>
+            <p>Pe urmă, ne gândim.</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Să fie cu iertare - prin a gândi să-ncepem... Voim un Domn? Pe cine? Acel care-i numit Iertat îi e să fie aşa cum cere firea-i,</p>
+            <p>Şi tot aşa acela ce tronu-a moştenit, Dar Domnul cel pe care o ţară îl alese,</p>
+            <p>Acela pentru care mulţimea s-a mişcat</p>
+            <p>Şi a vărsat şi sânge puterea ca să-i deie,</p>
+            <p>Acela se cuvine să se înnalţe-aşa,</p>
+            <p>Încât nimene altul să nu-l poată întrece.</p>
+            </sp>
+        <sp who="#veliscu">
+            <speaker>VELIŞCU</speaker>
+            <p>În adevăr se cere să fie-aşa cum zici.</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Aşa gândiţi cu toţii? Dar omu-acela unde-i?</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Mai sunt încă la Poartă atâția buni mazili,</p>
+            <p>Care plângând lăsară acest pământ de hrană</p>
+            <p>Şi care-şi plâng acolo norocul ce-au avut</p>
+            <p>Şi n-au un dor mai mare decât să vină iarăşi.</p>
+            </sp>
+        <sp who="#tifescul">
+            <speaker>ŢIFESCUL</speaker>
+            <p>O, da, pare că Grecii tot nu ne-au supt destul:</p>
+            <p>Să-i mai poftim acuma din nou să se îngraşe</p>
+            <p>Din carnea cea slăbită a prostului norod!</p>
+            </sp>
+        <sp who="#veliscu">
+            <speaker>VELIŞCU</speaker>
+            <p>Un Domn nou, dar acela să fie de aice:</p>
+            <p>Să fi răbdat osânda alăture de noi,</p>
+            <p>Să fi trudit la munca tăcută pentru ţară, Crestat să-i fie trupul de fierul duşmănesc</p>
+            <p>Şi braţul lui să poată ţine o armă-n luptă.</p>
+            <stage> (Un boier grec către Porphyrita.) </stage>
+            <p>Ai înţeles, cumetre ?</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Am înţeles destul.</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Ascultă-mă tu care de două ori mi-eşti frate: Odată prin părinții noştri ce ne-au născut</p>
+            <p>Şi-al doilea prin locul ce-avem în boierime.</p>
+            <p>Un Domn? Dar ce mai poate un biet Domn moldovean?</p>
+            </sp>
+        <sp who="#tifescul">
+            <speaker>ŢIFESCUL</speaker>
+            <p>De ce nu?  Oare nu e în mână-i buzduganul?</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Nu mai vorbi zădarnic de-aceste jucării</p>
+            <p>Cu care se înşală copiii fără minte.</p>
+            <p>Domnia noastră este sfârşită...</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            </sp>
+        <sp who="#altele">
+            <speaker>ALTELE</speaker>
+            <p>Nu e drept!</p>
+            <p>Şi, de ar fi sfîrşită, în loc ce vrei să punem?</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Ce vreau? Creştinătatea o vreau stăpân' aici</p>
+            <p>Şi vreau ca şi Moldova s-ajung' a sta odată</p>
+            <p>În rînd cu altă lume în şcoli şi 'nvăţături, Vreau să nu mai petreacă fn ranguri dobitocii,</p>
+            <p>Neştiutorii cărţii să n-aibă a porunci,</p>
+            <p>Vreau să nu fie neamul la altele de-ocară,</p>
+            <p>Atâta vreau, dar astea neapărat le vreau.</p>
+            </sp>
+        <sp who="#veliscu">
+            <speaker>VELIŞCU</speaker>
+            <p>Şi-acum prin ce minune acestea se vor face,</p>
+            <p>Căci Domn ai spus că ţării nu-i mai e de folos</p>
+            <p>Şi că fără Domnie se cere-a fi domnită?</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>În faţa tuturora vorbesc făţiş, deschis, Oricare ar fi părerea acelui ce m-ascultă:</p>
+            <p>Îi trebuie Moldovei ceva mult mai solid</p>
+            <p>Decât aceste umbre ce lunecă pe Scaun.</p>
+            <p>Şi-i trebuie cu legea şi datina vechimii,</p>
+            <p>În locul celui care este vechil la Turci,</p>
+            <p>Însuşi Sobieski Craiul, pe care îl cunoaşteti.</p>
+            </sp>
+        <sp who="#veliscu">
+            <speaker>VELIȘCU</speaker>
+            <p>Aşa socoţi? Atâta cules-ai tu din cărţi ?</p>
+            </sp>
+        <sp who="#tifescul">
+            <speaker>ȚIFESCUL</speaker>
+            <p>Moşia mea în mâna joimirilor prădalnici?...</p>
+            </sp>
+        <sp who="#un_cleric">
+            <speaker>UN CLERIC</speaker>
+            <p>S-ajungem noi pe mână de biscup latinesc</p>
+            <p>Şi să mâncăm  în  posturi ou  fiert la lumânare?</p>
+            </sp>
+        <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Să facem loc la şleah ta Polonilor trufaşi?</p>
+            </sp>
+        <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Să le ajungem astfel robiţi de bună voie?</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>Aceasta mi-i părerea; de-i bună, o urmați;</p>
+            <p>De nu, să ştiţi că moartea din urmă ne pândeşte.</p>
+            <p>Când spun aşa, îmi trece prin mine un fior</p>
+            <p>Şi prevestiri se lasă asupra mea, grozave.</p>
+            <p>Ori stăm toţi împreună şi trecem de hotar,</p>
+            <p>Cerând să vie oastea creştin-a izbăvirii,</p>
+            <p>Ori grelele primejdii asupra noastră cad</p>
+            <p>Şi praf va fi din casa şi din avere	noastrăBătrînă vulpe ştie ce coacem noi aici</p>
+            <p>Şi-n somnul nostru capul cu dinţii ni-l va roade.</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Cinstiţi boieri, ne pare c-am înţeles deplin</p>
+            <p>Că buna sfătuire ce-o dete Logofătul</p>
+            <p>E bine s-o mai cernem cuminte şi-ndelung.</p>
+            <p>De-aceea altă dată să ne mai adunăm,</p>
+            <p>Şi în Mitropolii fără stăpân rămasă,</p>
+            <p>Ca-n loc de siguranţă, căci straşnic lucru vrem</p>
+            <p>Și să nu se întâmple ceva, Doamne fereşte!</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Da, da.</p>
+            <p>Ce zi alegem?</p>
+            <p>Se cere socoteală.</p>
+            </sp>
+        <sp who="#un_boier">
+            <speaker>UN BOIER</speaker>
+            </sp>
+        <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Ziua pe urmă ni-o veţi spune...</p>
+            </sp>
+        <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            </sp>
+        <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Şi graba-i de prisos.</p>
+            </sp>
+        <sp who="#veliscu">
+            <speaker>VELIŞCU</speaker>
+            <stage> (către Miron) </stage>
+            <p>Îl vezi ? Porneşte iute, Miroane, către casă.</p>
+            <p>Ascunde-te acolo între ţăranii tăi,</p>
+            <p>Eu stau aici; în stare sunt să le-nving pe toate.</p>
+            </sp>
+        <sp who="#miron_costin">
+            <speaker>MIRON COSTIN</speaker>
+            <p>De ce această fugă?</p>
+            </sp>
+        <sp who="#veliscu">
+            <speaker>VELIŞCU</speaker>
+            <p>Nu mă-ntreba, ci fugi</p>
+            <p>Nu e întâia oară când cărturarii strică</p>
+            <p>Cele mai bune planuri cu vorbăria lor Porneşte-te, atâta îţi spun, căci vom peri.</p>
+            <stage> (Iese. Miron, după o lungă îndoială, face acelaşi lucru.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>PORPHYRITA, VOINEA, COPIL DE CASĂ</stage>
+          <sp who="#porpbyrita">
+            <speaker>PORPBYRITA</speaker>
+            <stage> (dând în lături perdeaua) </stage>
+            <p>I-ai auzit? Cu astfel de gânduri sapă tronul,</p>
+            <p>Aşa gătesc Moldovei peirea ei de veci;</p>
+            <p>Pe căi cum sunt acestea, murdare, ticăloase,</p>
+            <p>Ei umblă să aducă străini în locul cui</p>
+            <p>Cu binecuvântarea cerească stă în Scaun.</p>
+            <p>Iar eu, acela care îi sunt smeritul rob,</p>
+            <p>Am potrivit ca toate să iasă la iveală,</p>
+            <p>Cum vezi, şi, dacă Vodă, vrea să puie sfârşit</p>
+            <p>Acestor nencetate mişcări de uneltire,</p>
+            <p>Acum să hotărască soarta hainilor.</p>
+            </sp>
+        <sp who="#voinea">
+            <speaker>VOINEA</speaker>
+            <p>Măria Sa se află acum în rugăciune: De-o vreme se închide aşa în paraclis</p>
+            <p>Și păn' adânc in noapte în gânduri stă cuprins:</p>
+            <p>Ştiu numai eu şi-acela ce-n· prag îi ţine strajă.</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Şi eu ştiam. Crezi, Voineo, că-mi e ceva ascuns?</p>
+            <p>De-aceea doar aice eu i-am făcut să vie:</p>
+            <p>Ademeniu vânatul; să-l prindă el acum! Să nu scape din mână pe vânzătorii țării,</p>
+            <p>Pe-acei ce vreau s-aducă din nou pe Leah în Iaşi</p>
+            <p>La capătul atâtor Domnii de lege dreaptă...</p>
+            </sp>
+        <sp who="#voinea">
+            <speaker>VOINEA</speaker>
+            <p>Dar nu-i iertat ca Domnul să-l tulbur cu ce sunt</p>
+            <p>Nimica-n faţa celui ce are sceptru-n mână.</p>
+            <p>Şi când să-l tulbur? Oîndul acuma i-i la cer...</p>
+            <p>Mă tem... Constantin-Vodă e aprig la mânie...</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>De-ar fi ca în mânie-i să-ţi puie capul jos,</p>
+            <p>Dator eşti ca acestea să faci a fi ştiute</p>
+            <p>Fără nicio zăbavă. Şi, dacă te-ndoieşti,</p>
+            <p>Ei, bine, eu voi spune Măriei Sale-odată</p>
+            <p>Că 'n Curtea lui se află altfel de trădători</p>
+            <p>Decît boierii care-1 pândesc de prin unghere.</p>
+            <p>E scurtă socoteala: mergi tu ori te socot</p>
+            <p>De-o samă cu aceea ce vreau să schimbe Domnul</p>
+            <p>Şi înţeles tu însuţi cu-acest cârd de haini.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>ACEIAŞI, CANTEMIR</stage>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (apare) </stage>
+            <p>Oare-am ajuns să-mi caut copiii mei de casă?</p>
+            <p>Ce slujbă e aceasta? Cu cine eşti aici ?</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Cu cel mai mic din robii Măriei Tale, Doamne</p>
+            <p>Şi, dacă e o vină -	şi este-, eu o port,</p>
+            <p>Dar grija de Măria Ta-mi este 'ndreptăţire.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Domnia Mea îşi are sprijin în Dumnezeu,</p>
+            <p>Şi nu văd cum de alţii aş mai avea nevoie.</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Să-mi fie cu iertare, un Domn încunjurat</p>
+            <p>De toată boierimea, în dreapta ei credinţă</p>
+            <p>Desigur că nu are nevoie de-ajutor, Dar când Domnul e singur...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Singur? Te lămureşte!</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Am îndrăznit cuvântul de-aceia chiar să-l iau</p>
+            <p>Ori nu e singur Domnul pe care-l vând hainii?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Pentru haini ştii bine că am avut hanger.</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Dar trebuie să afli ce trup scurtat se cere,</p>
+            <p>Şi iată credincioşii Măriei Tale toţi</p>
+            <p>Gândesc la alte lucruri decât la privigherea</p>
+            <p>Care se datoreşte slă vitului stăpân,</p>
+            <p>Şi-atunci e bine unul ca mine să stea treaz.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Şi în trezidia-ţi spune ce-ai găsit tu oare?</p>
+            <stage> (ÎI bate pe umăr.) </stage>
+            <p>Măi, straşnici oameni Grecii... Aveți aşa un nas</p>
+            <p>De- 1 afli- n toate cele când nimeni nu-i să-l taie.</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Păcat dacă hangerul Măriei Tale-ar şti</p>
+            <p>Să	taie numai nasuri ce miroase trădarea!</p>
+            <p>Cu cei fără de minte, cu noi fără 'de nas,</p>
+            <p>Din Scaunul Moldovei ce s-ar alege oare?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Destulă gluma... Spune ce ştii! Să isprăvim!</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Ştiu că e vorba iarăşi Polonii să ne vie...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Războiul se porneşte cu Turcii iar? O ştii?</p>
+            <p>Ţi-a scris capuchehaia noastră din Ţarigrad ?</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Măria Ta, nu-i vorba de un război cinstit:</p>
+            <p>Polonii fără lupte intra-vor în Moldova,</p>
+            <p>Căci sunt chemați...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>De cine?</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Ia,  de boierii toţi...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>E vorba deci ca iarăşi să stea străinu-n Scaun,</p>
+            <p>Ca sfintele biserici să ardă în foc viu,</p>
+            <p>Ca toat' agonisita noastră să se zvânteze,</p>
+            <p>Ca-n case părăsite să rătăcim pribegi?</p>
+            <p>E vorba ca la Curte să cânte Craiul iarăşi</p>
+            <p>Povestea mea, fugarul prin lume Constantin?</p>
+            <p>Aceasta nu se poate! Dintre haini niciunul</p>
+            <p>Nu va vedea isprava ce ni-o a pregătit.</p>
+            <p>Îi tai pe toţi...</p>
+            <p>Porphyrita.</p>
+            <p>Uşor e ca osînda s'o spui, mai greu s'o faci...</p>
+            <p>Cantemir.</p>
+            <p>Şi-mi este mie teamă de unul dintre ei? Ci spune-I care-i...</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Doamne, boierii Costineşti</p>
+            <p>Sunt</p>
+            <p>oameni de aceia ce sunt deprinşi a face Ce vreau în ţara care o socotesc a lor...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ce, iar? Velişco mîndrul cu visuri de stăpân, Miron nebunul care socoate că viaţa</p>
+            <p>Se scrie ca o carte în fugă de condei:</p>
+            <p>Ci-acestea nu se fac cu cerneală, ci cu sînge.</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Şi totuşi peste vreme de două săptămâni</p>
+            <p>De nu va fi Velişco Domn al Moldovei tale,</p>
+            <p>Va sta lângă Sobieski cu spada, iar Miron Cânta-va o poemă ftumoasă-n vers polon. Măria Ta pe drumuri...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Pe drumuri eu? Tu, taci!</p>
+            <stage> (Îl ameninţă.) </stage>
+            <p>Ori îţi fărîm eu dinţii cu teaca săbiei!</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Mă tem şi tac. Măria Ta	îi face ce-i voi.</p>
+            <p>Ştiam o datorie, şi am îndeplinit-o.</p>
+            <p>Acum să am iertare: e vremea să mă duc.</p>
+            <p>Iar, dacă-n pribegie ar fi vreo nevoie</p>
+            <p>De-un om ca mine, Doamne, la locul meu voi fi.</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (către Voinea) </stage>
+            <p>Să vie-aici străjerul...</p>
+            <stage> (Catre Porphyrita) </stage>
+            <p>Pe alţii mai poți spune ?</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Măria Ta să-i cauţi pe toţi după izvod, Afară doar de Grecii urâţi de toată lumea,</p>
+            <p>Căci ei ştiu să asculte...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Deodată, capu1 taiu.</p>
+            <stage> (Intră străjerul.) </stage>
+            <p>Ascultă. Mergi de cată pe Hatmanul Velişco:</p>
+            <p>De-1 afli-n casă, 'n cale de-l afli, unde-o fi, Dă-n el ca într-un câine, şi nu-l lăsa, ia samă,</p>
+            <p>Decât când mort - dar sigur -îl vei lăsa-n noroi.</p>
+            <p>De te-o-ntreba vreunul de ce-ai făcut, arată</p>
+            <p>Pecetea aceasta...</p>
+          </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <stage> (priveşte pe fereastă) </stage>
+            <p>Măria Ta,  îl văd.</p>
+            <p>Cantemir:</p>
+            <stage> (aprinss) </stage>
+            <p>.</p>
+            <p>Pe cine-l vezi?</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA </speaker>
+            <p>Pe însuşi Velişco. Stă pândind</p>
+            <p>În pragul porţii. Are pe el veşminte scumpe,</p>
+            <p>E îmbrăcat în aur cusut cu urşinic,</p>
+            <p>Şi sabia îi este bătută-n pietre scumpe.</p>
+            <p>Ai zice că voieşte ca Domn a se vădi,</p>
+            <p>Ca să s-obişnuiască mulțimea cu schimbarea.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Obraznicul! acuma, acuma va pieri...</p>
+            <stage> (deschide fereasta. Către străjer) </stage>
+            <p>Acesta e! Loveşte! Este porunca mea.</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Măria Ta, eşti mare când ştii să faci dovada.</p>
+            <p>Mă îngrozesc, şi totuşi aşa-s de mulţumit Când mă gândesc că soarta țării-i asigurată,</p>
+            <p>Dar  nu-ndrăznesc a spune  mai  mult -	Miron</p>
+            <p>Costin E cel care pe toate le-a pus la cale însuşi.</p>
+            <p>O faptă nimicită nu-nseamnă c-a perit Gândul acela însuşi ce-a dat naştere faptei</p>
+            <p>Şi care în vecie naşte ca Dumnezeu</p>
+            <p>Tot alte fapte care îi sunt de o potrivă. Rămâne Logofătul tot viu -	cu un răspuns.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Miron... Ce om de carte!... Dar cartea fără cinste</p>
+            <p>Ce este? Ori Moldova cu cartea s-a ţinut.</p>
+            <p>Pe vremile lui Ştefan?... Şi Grecii toţi ştiu carte,</p>
+            <p>Iar Grecia- se află la Turci sub jug... De ce</p>
+            <p>Să pun piedecă soartei ce mi l-a dat în mână?</p>
+          </sp>
+          <sp who="#strajerul">
+            <speaker>STRĂJERUL</speaker>
+            <stage> (întorcându-se) </stage>
+            <p>Măria Ta, Velişco nu mai este 'ntre vii: Aici aduc inelul ce i l-am smuls din mână...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Inelul... Sânge curge încet din vechiul aur Vorbeşte către mine... Ce vrei Hatmane, ce?</p>
+            <p>Au n-am răbdat destulă batjocură în viaţă</p>
+            <p>Când vă râdeați de mine, tu însuţi şi Miron?...</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Velişco mort, acuma ce-o zice Logofătul</p>
+            <p>Şi cei cari de dânşii ascultă?</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Am ucis</p>
+            <p>Odată, -	iartă Doamne, -	dar vina e aceiaşi</p>
+            <p>La ei, ci şi osânda aceieaşi le va fi:</p>
+            <p>Păcatul ce l-aş face lovind de două ori</p>
+            <p>E totuşi, dacă vina e una, unul singur.</p>
+            <stage> (lui Porphyrita) </stage>
+            <p>Să meargă luptătorii în fuga cailor,</p>
+            <p>Păn' la Bărboşi să facă un drum fără popasuri.</p>
+            <p>Şi-acolo...</p>
+            <p>Voia Măriei Tale.</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Şi acolo se va îndeplini</p>
+            <stage> (Cantemir stă cu capu-n mâini) </stage>
+            <stage> (aparte.) </stage>
+            <p>Iar Grecii vor domni</p>
+            <p>De-acum în țara unde domneşte dezbinarea.</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="5">
+        <head>ACTUL al V-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-iu</head>
+          <stage>( lagărul moldovenesc înaintea Sorocei)</stage>
+          <stage>CANTEMIR SINGUR</stage>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Ce greu acum cad anii pe gârboviţii umeri! În mijloc de primejdii, în ceasurile grele Simţeam că tinereţea în mine s-a păstrat</p>
+            <p>Şi mă îndeamnă încă 1a faptele de arme; Acuma bătrâneţea în braţe m-a cuprins,</p>
+            <p>În brate reci uscate, şi îmi duhneşte-n faţă.</p>
+            <p>M-atinge, şi îmi par că însumi mă usuc,</p>
+            <p>Că sângele în vine abia de mi se scurge,</p>
+            <p>Că gheaţa mă-nveleşte-n veşmânt încremenit.</p>
+            <stage> (se opreşte.) </stage>
+            <p>Şi de-aş găsi în pacea somnului alinare!</p>
+            <p>Dar umbre furioase răsar în faţa mea,</p>
+            <p>Şi glasuri zic întruna care de mult sunt mute... Velişco, în ţărâna drumului de ce stai?</p>
+            <p>Te-au ridicat pe urmă rudele iubitoare</p>
+            <p>Și-am dat voie eu însumi să aibi mormânt cinstit;</p>
+            <p>Ţi-a stat pe raclă cuşma şi sabia de Hatman,</p>
+            <p>Din cinci biserici glasul de clopote-a sunat,</p>
+            <p>Ți-au împărţit nepoţii atâtea sărindare,</p>
+            <p>Și-n fiecare slujbă şi eu acas-am plâns, Pentru clipa aceea nedemnă de iertare...</p>
+            <p>De-am fost faţă de tine cu vină, tu ai fost</p>
+            <p>De zece ori cu vină şi faţă de Domnie,</p>
+            <p>Şi faţă de Moldova ce-o vreai dată la Leşi.</p>
+            <p>De ce-mi vii înnainte cu hainele stropite</p>
+            <p>De sânge şi cu faţa mânjită de pământ?</p>
+            <p>Şi tu, Miroane, pacea de ce n-o afli încă?</p>
+            <p>De ce gura pe care crezui c-o am închis</p>
+            <p>Ameninţă şi astăzi pacea nopţilor mele?</p>
+            <p>N-avem noi Domnii oare dreptul de-a osândi</p>
+            <p>Pe-acei ce se ridică în contra țării însăşi? Suntem cu mila noastră hainilor datori?</p>
+            <p>De ce ne dai, o, Doamne, puterea, dar nu dreptul?</p>
+            <stage> (după o pauză.) </stage>
+            <p>Acum te linişteşte, săracule moşneag,</p>
+            <p>Pămîntu-abia  mai  are să-ţi poarte socoteala,</p>
+            <p>Şi Iadul însuşi este  poate ceva mai blând Decât judeţul lumii până suntem în viaţă.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>CANTEMIR, UN COPIL DE CASĂ,  IUZBAŞA</stage>
+          <sp who="#un_copil_de_casa">
+            <speaker>UN COPIL DE CASĂ</speaker>
+            <p>Măria Ta, se cere iuzbaşa de fustași.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să vie... Iar vre-o veste din tabăra turcească ?</p>
+            <p>Vreo nouă umilinţă ce ne-a căzut pe cap?</p>
+            <stage> (intră Iuzbaşa.) </stage>
+            <p>Ce este?</p>
+            </sp>
+          <sp who="#iuzbasa">
+            <speaker>IUZBAŞA</speaker>
+            <p>E o veste proastă, Măria Ta</p>
+            <p>Am mers şi azi cu oastea sub Nistru la cetate; Dădeau d-inăuntru Leşii din răsputeri în noi,</p>
+            <p>Şi mi se aprinsese tot sufletul la luptă Cerurăm să ne lase un iuruş să-ncercăm„ Ca să se vadă fapta care putem s-o facem, Şi-atunci...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Vreo mojicie iar Paşa v-a făcut?</p>
+            </sp>
+          <sp who="#iuzbasa">
+            <speaker>IUZBAȘA</speaker>
+            <p>Ne-a spus aşa: Aici voi n-aţi venit decât</p>
+            <p>Ca salahori în urma oştirii otomane.</p>
+            <p>Aveţi numai chemarea ca şanţuri să săpaţi</p>
+            <p>Şi să întindeţi poduri de lemn în calea noastră...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Voi salahori? atâta  Şi eu atunci ce sunt? Vătaf peste aceia ce nu-s ostaşi cu drepturi-Și slugă şi al celui din urmă Ienicer.</p>
+            <p>De-aceea în războaie albitu-ni-sa părul</p>
+            <p>De-aceea-mi este trupul de rane însemnat,</p>
+            <p>De-aceia Turcul însuşi m-a pus să stau la graniți</p>
+            <p>Cu sabia în mână să-l apăr de Poloni,</p>
+            <p>De-aceea... Iar acuma lupt cu creştinătatea,</p>
+            <p>Şi nu ţinând în mână o sabie a mea,</p>
+            <p>Ci pus să dau cu sapa în prundul de la Nistru...</p>
+            <stage> (către Iuzbașa.) </stage>
+            <p>Şi ce mai vrei ?</p>
+            </sp>
+          <sp who="#iuzbasa">
+            <speaker>IUZBAȘA</speaker>
+            <p>Mai este ceva, Măria</p>
+            <p>Ta.</p>
+            <p>N-a vrut să recunoască aceasta Hatmanul.</p>
+            <p>Şi-atunci...</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Atunci?</p>
+            </sp>
+        <sp who="#iuzbasa">
+            <speaker>IUZBAŞA</speaker>
+            <p>Asupră-i Paşa se răpezi Şi îl lovi în faţă cu palma lui cea groasă.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Eu îl ucid pe-acela care- a cutezat</p>
+            <p>Să deie în ostaşul care îmi stă sub steaguri. Eu îl ucid: oricare urmări ar fi, nu-l las.</p>
+            <p>Simt palma lui aici: mă doare şi nu-l iert, Să ştiu că stă şi cerul asupra mea să cadă...</p>
+            <stage> (după o pauză.) </stage>
+            <p>De ce-am mai trăit, Doamne,	pentr-un astfel 'de</p>
+            <p>_	ceas?</p>
+            <p>Şi pentru ce, o Doamne, nu mi-ai lăsat putere</p>
+            <p>Să sar pe cal acuma, cu sabia la şold.</p>
+            <p>Şi să răzbun Moldova de-atâta umilinţă?</p>
+            <p>De ce secă în mine acel mândru avânt</p>
+            <p>Prin care biruinţă am smuls în alte vremuri?</p>
+            <p>Ia, Doamne, de pe lume pe-acest nătâng moşnean... Care n-a fost în stare, zvîâlit pe 'nalte valuri,</p>
+            <p>Corabia s-o poarte spre singurul liman</p>
+            <p>Şi care în furtună stă cu vintrele rupte.</p>
+            <p>Îmi e destul atâta cât am domnit, destul!</p>
+            <p>Destul îi este țării care mă-ndură încă. Destul să-ţi fie Ţie care m-ai încercat</p>
+            <p>Şi mi-ai găsit talantu, prea slab în cumpănă...</p>
+            </sp>
+        <sp who="#iuzbasa">
+            <speaker>IUZBAȘA</speaker>
+            <p>Măria Ta, dă-mi voie a spune că nu-i om</p>
+            <p>În rândurile noastre să nu simţească cinstea</p>
+            <p>De-a fi sub o poruncă aşa cum e a ta,</p>
+            <p>Noi ştim că pentru toate e vremea încurcată...</p>
+            <p>Că nu-i în vreo putere de om a-mpiedeca Jignirea dureroasă a ceasurilor grele,</p>
+            <p>Şi ne rugăm de-atâta: acasă să pornim. N-avem îngăduinţă de la Înalta Poartă Să arătăm puterea ce este-n noi şi-acum?</p>
+            <p>Ei bine să ne lase scutiţi de-astfel de slujbe</p>
+            <p>Cu care nici strămoşii nu ni s-au învoit</p>
+            <p>Şi nici noi n-avem gândul să luăm învăţătură.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să  vă  întoarceţi?... Mândră  ispravă  am făcut!</p>
+            <p>Să	spunem de ce cinste ne-au vrednicit stăpânul,</p>
+            <p>Ce treabă mult-slăvită făcur' aceste mâini,</p>
+            <p>Ce steag stătu de-asupra 'ndeletnicirii noastre...</p>
+            <p>Şi ne-or primi prin târguri şi sate cum ni-i dat:</p>
+            <p>Bătrânii cu batjocuri, zâmbind femeile,</p>
+            <p>Iar copilaşii noştri cei fragezi vor afla</p>
+            <p>La ce li e bun neamul sub Cantemir moşneagul.</p>
+            <stage> (Zgomot la uşă.) </stage>
+            </sp>
+        <sp who="#iuzbasa">
+            <speaker>IUZBAŞA</speaker>
+            <p>Mă-ngăduie, stăpâne... Un oaspe...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Mergi de vezi.</p>
+            <p>Cine-i acela care îmi tulbură durerea.</p>
+            <p>Să plece! Nu e ceasul divanului; mi-i greu</p>
+            <p>Să văd pe-oricine-n faţă. Ce-aş fi în stare-a-i spune De-ar întreba: ce este cu slava ce-am avut</p>
+            <p>Şi -n ce noroi căzură vechile sfinte steaguri? Bolnav sunt, căpitane, şi trist până la moarte.</p>
+            <stage> (Alt zgomot, Iuzbaşa deschide şi se dă înapoi.) </stage>
+            </sp>
+        <sp who="#iuzbasa">
+            <speaker>IUZBAŞA</speaker>
+            <p>Un Turc e, şi aduce scrisoarea: Pot să-l las?</p>
+            <stage> (Turcul intră. Se pleacă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a II-a.</head>
+          <stage>CANTEMIR, UN TURC</stage>
+          <sp who="#turcul">
+            <speaker>TURCUL</speaker>
+            <p>Ţie, acelui care de Poartă eşti numit Spre-a fi cârmuitorul acestor țări supuse De sabia osmană, beiule Cantemir, Căzută închinare şi multă sănătate.</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (rece) </stage>
+            <p>Bine-ai venit în ţara încredinţată mie.</p>
+            <p>Ce  veste?</p>
+            </sp>
+        <sp who="#turcul">
+            <speaker>TURCUL</speaker>
+            <p>'mpărăţia -	trăiască 'ntru multi ani,</p>
+            <stage> (Cantemir salută.) </stage>
+            <p>Trimite către tine acest firman prin care</p>
+            <p>Ţi se vădeşte voia slăvitului stăpân,</p>
+            <p>A cărui putere se-ntinde-asupra noastră,	Iar noi faţă de dânşii suntem umilii robi</p>
+            <p>Spre orice slujbă gata, în ruptul capului.</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Soliei prea-slăvite mă plec, cum sunt dator.</p>
+            <p>(Primeşte firmanul, îl pune la</p>
+            <p>frunte,</p>
+            <p>la buze și pe mâini.)</p>
+            <p>Postelnicul să vie!</p>
+            <p>'</p>
+            <stage> (Către Turc) </stage>
+            <p>Şi altceva mai este?</p>
+            </sp>
+        <sp who="#turcul">
+            <speaker>TURCUL</speaker>
+            <p>Mai este! Ce ti-aş spune vorbe fără temeiu</p>
+            <p>Spre a vina bacşişul din punga-ți, beiule? Ştiri rele despre tine sosit-au la Stambul,</p>
+            <p>Şi Ienicerii strigă să-și frângă buzduganul</p>
+            <p>Căci te-ai unit cu Leşii, făcându-te hain.</p>
+            <p>Că nu ştiu ce-i... în cale găsit-am toate bune,</p>
+            <p>Şi n-aş gândi că omul bătrân s-ar rătăci</p>
+            <p>Pe căile pierzării ca un copil nemernic...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Să-şi caute ostaşii voştri de-ale lor,</p>
+            <p>Să nu lase vrăjmaşii să-mi bântuie în ţară,</p>
+            <p>Să-şi mai aduc' aminte cu ce ne sunt datori</p>
+            <p>În loc să poarte fleacuri pe străzi şi-n cafenele De-aceea se coboară mai jos din zi în zi</p>
+            <p>Acea Împărăţie ce-a fost minunea lumii, Fiindcă fiecare s-amestecă-ntr-un rost</p>
+            <p>Ce poate fi ca limba-i, dar nu-i şi de-a lui minte...</p>
+            <p>Hain eu? Dar n-ajunge tot ceea ce-am răbdat: N-ajung lupte purtate din ultima mea vlagă, N-ajunge rătăcirea prin codri şi pustii?</p>
+            <p>N-ajunge prada ţării, risipa casei mele?</p>
+            <p>Nu e destul că toate le-am pus ce le-am avut Ca să ajung aici, moşneag în pragul morţii, Lipsit de orice sprijin, de orice ajutor,</p>
+            <p>Slit să-mi caut însuşi un sfat în ceasuri grele.</p>
+            <stage> (se cutremură.) </stage>
+            <p>Şi mâna mi-i pătată de sânge ce-am vărsat,</p>
+            <p>Nu pentru mine însumi, ci pentru 'mpărăţie.</p>
+            <p>Se află între Grecii ce fierb la Tarigrad.</p>
+            <p>De patima Domniei, vreunul ca să poată Urni măcar aceia ce-n spate am purtat,</p>
+            <p>De am  ajuns  ca  gârbov  să-mi	văd  în  fundul</p>
+            <p>GROAPEI?</p>
+            </sp>
+        <sp who="#turcul">
+            <speaker>TURCUL</speaker>
+            <p>Ce ştiu eu? În aceste gâlcevi dintre creştini. Nu e iertat să umble un Musulman ce nu e În slujba Porţii. Alta-i menirea ce-o avem.</p>
+            <p>De-ţi place, ia aminte; de nu, fă cum te cugeţi...</p>
+            <stage> (intră Porphyrita.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a III-a</head>
+          <stage>ACEIAŞI, PORPHYRITA, COPIL DE CASĂ</stage>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Trimisul acesta nie-a adus</p>
+            <p>O prea înaltă carte de la împărăţie,</p>
+            <p>Deci, după datoria ce ai, dă-i rost s-aud</p>
+            <p>Ce se aşteaptă încă de la Domnia noastră...</p>
+          </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <stage> (sărutând cu aceeaşi etichetă firmanul, îl desfăşoară) </stage>
+            <p>Alesule între robii Împărăţiei noastre,</p>
+            <p>Fruntaşule 'ntre-aceia care cred în      Isus,</p>
+            <p>Tu, beiule-al Moldovei, moşia cucerită De sabia osmană, supunere-ţi dorim</p>
+            <p>Şi după ascultare atâta sănătate.. Aflat-am treaba care-ai făcut-o ajutând</p>
+            <p>Cu salahorii voştri războiul la Soroca,</p>
+            <p>Cetatea noastră care de Leşi s-a fost răpit...</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (aparte) </stage>
+            <p>Ce salahori? A ceasta e singura răsplată Pentru atâta jertfă de sânge care-a curs?</p>
+            <p>Nu se cuvine altă răsplată slujbei noastre?</p>
+            <p>Nici salahor ce-şi cată plata pe ce-a muncit,</p>
+            <p>Ci un calic ce-şi cere doar fărmătura milei...</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Urmează deci pe calea pe care te-ai pornit.</p>
+            <p>Nevoile oştirii, precum le ştii, sunt multe,</p>
+            <p>Şi dacă pân' acuma tu le-ai nesocotit'...</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (aparte) </stage>
+            <p>Eu? Când averea țării în punga lor e toată...</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>,,Încinge-te acuma spre a ne mulţămi.</p>
+            <p>Vei da Paşei ce face la Nistru strajă bună,</p>
+            <p>O sută mii de chile de orz şi de ovăz,</p>
+            <p>De două ori atâtea de grâu pentru oştire,</p>
+            <p>O mie două sute de boi pentru podvezi, Catarge pentru vasul care se pregăteşte...</p>
+            <p>Cantemir:</p>
+            <stage> (tare) </stage>
+            <p>Da, da... Nu se mai cere ceva?... E prea puțin!</p>
+            <p>Să dau, pe lângă orzul, ovăzul, grâul, lemnul,</p>
+            <p>Şi aurul ce zace în ultimele pungi,</p>
+            <p>Şi hrana după care aleargă flămânziţii</p>
+            <p>Şi bolnavii acestui pământ prădat de voi;</p>
+            <p>Să dau sămânța care păstrată-i pentru mine,</p>
+            <p>Paharul cel din urmă de lapte să vi-l dau Spre tabără sătulă să mân cirezi şi turme;</p>
+            <p>Şi, când din bogăţia noastră n-a rămânea Decât curtea pustie în jurul casei goale,</p>
+            <p>Atunci să vie-n turmă şi capul să  ni-l pună</p>
+            <p>Pe trunchiu... Mi-e rău... O Doamne, puterea	mi:</p>
+            <p>se duce... Eşti milostiv, o Doamne, cu mine m-ai iertat...</p>
+            </sp>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <stage> (privind către Turc.) </stage>
+            <p>Se pierde... Şi desigur nu este prea devreme.</p>
+            <stage> (către Cantemir.) </stage>
+            <p>Ca să te-nlocuiască pe tine sunt destui,</p>
+            <p>Ce au altfel de minte, sărace Moldovene!</p>
+            <stage> (către Turc) </stage>
+            <p>Efendi, Vistieria de-acum e-n sama ta,</p>
+            <p>Şi eu stau gata toate să ţi le dau pe samă, Ştiind ce mare-i mila sfintei Împărăţii.</p>
+          </sp>
+          <sp who="#copilul_de_casa">
+            <speaker>COPILUL DE CASĂ</speaker>
+            <p>(aşează capul Domnului pe colţul</p>
+            <p>patului).</p>
+            <p>Te-ai cam grăbit, jupâne. Vodă va mai trăi,</p>
+            <p>Și este cine grija să-i poarte: beizadeaua.</p>
+            <p>Prea mult pe Dumitraşco, Doamne, l-ai oropsit.</p>
+            <p>Veni acuma ziua când tot sprijine-ntr-însul.</p>
+            <stage> (Iese.) </stage>
+            </sp>
+        <sp who="#turcul">
+            <speaker>TURCUL</speaker>
+            <p>Eu n-am nicio nevoie de slujbă ca a ta. Înpărăția noastră-şi află şi singură o cale Spre cele cuvenite ei...</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Dacă-s de prisos, Mă dau în lături, însă, ca sluga credincioasă ...</p>
+            </sp>
+        <sp who="#turcul">
+            <speaker>TURCUL</speaker>
+            <p>De ce să vinzi stăpânul ce singur ți l-ai dat?</p>
+            </sp>
+        <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Spre a sluji pe altul mai mare decât dânsul.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a III-a</head>
+          <stage>ACEIAŞI, DUMITRAŞCU</stage>
+          <sp who="#porphyrita">
+            <speaker>PORPHYRITA</speaker>
+            <p>Se stinge de durerea că nu se simte-n stare</p>
+            <p>A da Împărăţiei ce i s-a poruncit.</p>
+            <p>Un om bătrân şi şubred... Nevoile-l omoară...</p>
+            <p>Întoarce-te la carte, mărite celebi:</p>
+            <p>Eu voi chema pe doftor să-i poarte îngrijirea.</p>
+            <stage> (arată spre Turc) </stage>
+            <p>Dar, când vorbim de astea, un lucru l-am uitat:</p>
+            <p>Aici e însuşi solul care-a adus firmanul.</p>
+            <p>Să-l mulţămim.</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAȘCU</speaker>
+            <p>Deodată un lucru singur ştiu: Afară cu această slugă fără priinţă;</p>
+            <p>Afară cu tâlharul, cu lupul cel jăcaş Ce-n oile Domniei făcu atâtea jertfe!</p>
+            <stage> (Porphyrita iese. Către Turc.) </stage>
+            <p>Iar tu, Efendi, care eşti om drept şi cinstit, Oricât de grea poruncă ai fi adus acestui Bătrân ce-şi trage viața aşa cum îl vedem, Lăsa-vei pe un tată murind cu fiu-alături?</p>
+            <stage> (Către Cantemir, mişcându-l) </stage>
+            <p>Măria Ta, părinte al nostru şi al ţării, Ridică-te din somnul cel greu: nu ne lăsa Prada durerii care ne sfâşie acuma.</p>
+            <p>Ce ne putem noi face când tu ne părăseşti?</p>
+            <p>Trezeşte-te, o, tată. Sunt eu, coconul tău.</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (se scutură ca din vis.) </stage>
+            <p>Păgâni, nu puneţi mâna pe mine. Eu sunt Domnul.</p>
+            <p>Şi oastea mea e gata de a vă pedepsi.</p>
+            <p>Săriţi, străjeri! Sub arme veniți, voi slujitori, Boieri, credința voastră în suflete vi-i stinsă? Velişco şi Miroane, în ce Iad mă zvârliți?</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Cei morţi sunt morţi. Când zicem ca Domnul sfânt</p>
+            <p>să-i ierte</p>
+            <p>Datori sunt cu iertare si ei către cei vii.</p>
+            <p>Boierii sunt în jurul Domniei, cum se cere, Străjerii, slujitorii în şanţuri stau gătiți,	. Moldova tot mai are un steag întins asupră-i,</p>
+            <p>Iar cel care-ţi vorbeşte, e fiul tău; sunt eu...</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (pe deplin trezit) </stage>
+            <p>Tu eşti, mezine?</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAȘCU</speaker>
+            <p>Doamne, chiar eu sunt, Dumitrașcu,</p>
+            <p>Sub ce loviri căzut-ai Măria Ta zdrobit,</p>
+            <p>Atunci când viaţa toată ţi-a fost numai o luptă?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>O luptă, da. Ci astăzi nu-i vreme de luptat. Oştirea noastră este o ceată umilită:</p>
+            <p>Oricine are dreptul de ea să-şi bată joc,</p>
+            <p>Si ce sunt eu aici decât ca un iiuzbaşă</p>
+            <p>De salahori, şi rostu-mi mai este să plătesc Lescaia cea din urmă, fărâma mesei noastre!</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <stage> (aparte) </stage>
+            <p>S-a lămurit acuma întunecatul gând,</p>
+            <p>Şi inima lui prinde cu noi să bată iarăşi.</p>
+            <stage> (către Cantemir) </stage>
+            <p>Nu te lăsa, părinte, tu care ai fost  tare.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>O, da, am fost în viaţă-mi puternic şi voinic.</p>
+            <p>Erau pe mine muşchii ca funii de corăbii,</p>
+            <p>Şi nu era în oaste hanger ca şi al meu... Acuma, vine Turcul şi poate să mă bată, Atât de slab e brațul cu care m-am trudit</p>
+            <p>Ca să câștig Moldovei o soartă mai înaltă.</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Pe o schimbare toate stau: cartea zice-aşa,</p>
+            <p>Şi ceia ce e mare azi va fi mâine o umbră.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Cartea... Iarăşi cu cartea... Odată am crezut</p>
+            <p>Că este lângă mine un fiu ce mă iubeşte, Odrasla mea ce-mi este legat cu carnea lui,</p>
+            <p>Cu trupu-i tot, şi iată tot cartea-l sţăpâneşte,</p>
+            <p>Aceea care veşnic a stat între noi doi, Răpindu-mi pe acela ce sfat putea să-mi fie.</p>
+            <p>Aruncă, Dumitraşcu, în foc tot ce e scris: Nimicnicii trufaşe, prostii sumeţe, fleacuri...</p>
+            <p>De vrei să ştii ce-i viaţa, priveşte-mă: eu sunt</p>
+            <p>În aste biete oase o Biblie întreagă</p>
+            <p>Cu sânge şi cu lacrimi, cu dor şi cu năcaz,</p>
+            <p>Cu nesfârşită râvnă şi straşnică risipă...</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Măria Ta, în carte dacă te-ai fi uitat, Înţelepciunea lumii ţi-ar fi drept călăuză</p>
+            <p>Şi-n toată greutatea ţi-ai fi găsit cărări...</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Sărace! Când odată vei fi bătrân ca mine</p>
+            <p>Şi sufletu-ţi va cere cum cere-al meu acum</p>
+            <p>Un singur lucru: pacea şi-un pumn de țârnă sfântă.</p>
+            <p>Pe frântele ciolane, când te-i sfârşi şi tu,</p>
+            <p>Atunci vei înţelege zădărnicia cărţii.</p>
+            <p>Ce-aş fi făcut eu oare de-o aş fi petrecut</p>
+            <p>Din zori şi până-n seară, cu ochii-n anii ceia</p>
+            <p>Când am pornit pe drumul doritelor isprăvi,</p>
+            <p>În loc să stau ca tine cinchit peste-o hârţoagă ?</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>De-mi este cu iertare, hârțoaga ar fi spus</p>
+            <p>Că nu-i nevoie neamul să-1 laşi că să fii mare</p>
+            <p>Şi că decât mărirea să-ţi cați între cei mari,</p>
+            <p>Mai bine este ţara s-o 'nnalţi cu tine-odată.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Un neam... Ce este oare-acest neam ticăit!</p>
+            <p>Eu l-am iubit, ştii bine, cu toată vlaga mea, Dar l-am văzut atâta de slab şi de nemernic,</p>
+            <p>De orişicine-atâta de râs şi de hulit</p>
+            <p>Şi, pe_lângă acestea, şi fără de credinţă,</p>
+            <p>Încât acum, când ochii se-nechid de obosiţi,</p>
+            <p>Nici pentru el  n-am altă icoană decât moartea!</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Dar ştii tu, oare, tată, ce-a fost poporul nostru?</p>
+            <p>Din ce culme coboară scăderea lui de azi ?</p>
+            <p>Ce răsărit vesteşte apusul ce se pare</p>
+            <p>Că e peire; însă din nou va învia,</p>
+            <p>Ca soarele ce-n noapte urmează alte drumuri?</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Închipuiri şi-acestea...</p>
+            <p>C</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAȘCU</speaker>
+            <p>Nu sunt închipuiri!</p>
+            <p>Pier neamurile-acelea ce din nimic veniră, Purtate de vântoasa norocului în sus,</p>
+            <p>Şi care n-au puterea să zboare prin văzduhuri.</p>
+            <p>Dar noi în rădăcina noastră am stat înfipţi,</p>
+            <p>Şi rădăcina merge în fund până la Roma.</p>
+            </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>La Roma, ce-i aceea Roma?</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>E vechiul Râm.</p>
+            <p>Acolo unde Papa stă azi cu schiptrul crucii.</p>
+            <p>Moşteni au fost aceia de care-a ascultat</p>
+            <p>Câtu-i de mare lumea, din pol şi până-n pol,</p>
+            <p>Din Ocean şi până la ţărmul Mării Negre.</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (mişcat) </stage>
+            <p>Frumos este băiatul! Din ochi îi ies' lumini</p>
+            <p>Şi buzele lui parcă rostesc o rugăciune.</p>
+            <p>Nu este cu putinţă să fie 'nşelăciuni</p>
+            <p>Cuvintele ce astfel pe-un om pot să-l înnalţe.</p>
+            <stage> (către Dumitraşcu.) </stage>
+            <p>Vorbeşte, Dumitraşcu. în tine parc' aud</p>
+            <p>Pe proorocii legii bătrâne... Isaia!</p>
+            </sp>
+          <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <stage> (urmândd ca răpit) </stage>
+            <p>.</p>
+            <p>N-a fost un neam pe lume de dânşii nesupus,</p>
+            <p>Și pajurile Romei înfipte-s pretutindeni,</p>
+            <p>În munte şi în vale, pe țărmuri şi-n pustii.</p>
+            <p>Trec mîndre leghioane în criţă îmbrăcate,</p>
+            <p>Şi săbiile sună lovite de pieptar,</p>
+            <p>Din coifuri pene roşii în vânt se leagănă...</p>
+          </sp>
+          <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <stage> (delirând) </stage>
+            <p>.</p>
+            <p>Le văd şi eu.. Pe cale-s. S-apropie de noi...</p>
+            </sp>
+        <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Aşa-i? Un pod se-ntirnde pe Dunărea bătrână,</p>
+            <p>Trec oşti fără de număr. De ce te plângi amar,</p>
+            <p>O, rege dac, poporu-ţi, schimbat de nume doară</p>
+            <p>Îți va trăi-va de-a valma cu-aceşti cuceritori,</p>
+            <p>Făcând un neam în stare prin veacuri să pătrundă.</p>
+            <stage> (se opreşte.) </stage>
+            <p>Din Împăraţi vin Domnii: sunt Chesari româneşti,</p>
+            <p>Şi ţara le ascultă judeţul în genunche,</p>
+            <p>De-asupra lor luceşte crucea lui Constantin.</p>
+            <p>Mărire ţie, Ştefan, Domn mare şi cucernic!</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Auzi, în Putna sună clopotul pentru morți. Cine-a murit?</p>
+            </sp>
+        <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Ce-i moartea, când trece peste dânsa Ursita celor cari în noi aflară doar</p>
+            <p>Popas pentru o clipă în drumul lor cel veşnic?</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Da, văd drumu' nainte-mi. Ici groapa. Iar în zări Vedenii luminoase se-nşiră ostăşeşte:</p>
+            <p>Au fruntea cununată cu dafini. Şi sunt mulți</p>
+            <p>Nu se sfârşeşte şirul ce veac cu veac uneşte...</p>
+            </sp>
+        <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>Aşa-i? Din slova cărții sunt raze ce pornesc.</p>
+            <p>Întreagă 'ntunecime învie şi se mişcă,</p>
+            <p>Şi mângâierea noastră se cheamă viitor...</p>
+            </sp>
+        <sp who="#cantemir">
+            <speaker>CANTEMIR</speaker>
+            <p>Am înţeles. Ce-mi dete ziua slovă de slovă</p>
+            <p>Acum se leagă 'n graiul tău binecuvântat.</p>
+            <p>De-aş fi ştiut... atâtea cruţate-ar fi fost poate</p>
+            <p>Şi ţării ca şi mie... Acum e prea târziu...</p>
+            <p>Eu mă-nfăşor în giulgiul luminii ce ne-aşteaptă.</p>
+            <p>Îţi mulţămesc, şi 'n carte, murind, crezui şi eu.</p>
+            <stage> (cade.) </stage>
+            </sp>
+        <sp who="#dumitrascu">
+            <speaker>DUMITRAŞCU</speaker>
+            <p>O, tată! Fie-ţi târna uşoară pe mormânt, Căci cel care prin faptă ca şi prin suferinţă</p>
+            <p>Ajunse să-nțeleagă al cărţilor cuvînt</p>
+            <p>E nesfârşit mai vrednic de-a cerului iertare</p>
+            <p>Decât acel ce-n carte încheie viaţa lui</p>
+            <p>Şi nu găsi el însuşi un drum spre fapte nou</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000016" xml:lang="ro">
   <teiHeader>
@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.m.wikisource.org/wiki/Luceaf%C4%83rul_(Delavrancea)</idno>
+          <ref target="https://ro.m.wikisource.org/wiki/Luceaf%C4%83rul_(Delavrancea)">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>Edit. Libr. Socec &amp; Co., București</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1910">
+            <desc>1910</desc>
+          </event>
+          <event type="premiere" when="1910-12-08">
+            <desc>1910</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -179,14 +187,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1910">
-        <desc>1910</desc>
-      </event>
-      <event type="premiere" when="1910-12-08">
-        <desc>1910</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000016" passive="http://www.wikidata.org/entity/Q25468257"/>
     </listRelation>
@@ -3161,7 +3161,7 @@
             <stage>(Se duc prin dreapta.)</stage>
             <p>Logofătul Baloș</p>
             <stage>(dintre copaci)</stage>
-            <p>: Bu-bubuuu!</p>
+            <p>Bu-bubuuu!</p>
           </sp>
           <sp who="#petru_rares">
             <speaker>PETRU RAREȘ</speaker>
@@ -5997,7 +5997,7 @@
           <sp who="#mogardici">
             <speaker>MOGÂRDICI</speaker>
             <stage>(își șterge lacrimile)</stage>
-            <p>: Poi, poi, pe mine nu mă iei?... Să se ducă ei încolo și noi încoace... Da, da, măria-ta, că tot aruncași sabia în prăpastie... Să-ți fiu eu sabie... De ce nu?... Că mie mi-a spus o țigancă din ghioc... Ei, că tu ai s-ajungi sabia domnului...</p>
+            <p>Poi, poi, pe mine nu mă iei?... Să se ducă ei încolo și noi încoace... Da, da, măria-ta, că tot aruncași sabia în prăpastie... Să-ți fiu eu sabie... De ce nu?... Că mie mi-a spus o țigancă din ghioc... Ei, că tu ai s-ajungi sabia domnului...</p>
           </sp>
           <sp who="#petru_rares">
             <speaker>PETRU RAREȘ</speaker>

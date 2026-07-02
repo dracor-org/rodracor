@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000019" xml:lang="ro">
   <teiHeader>
@@ -19,8 +19,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Centrală Universitară</name>
-          <idno type="URL">https://bcub.ro/lib2life/Apostolii_Rebreanu%20Liviu_Bucuresti_1930.pdf</idno>
+          <ref target="https://bcub.ro/lib2life/Apostolii_Rebreanu%20Liviu_Bucuresti_1930.pdf">Biblioteca Centrală Universitară</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
@@ -31,6 +30,15 @@
            </availability>
          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1926">
+            <desc>1926</desc>
+          </event>
+          <event type="premiere" when="1926">
+            <desc>1926</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -89,14 +97,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1926">
-        <desc>1926</desc>
-      </event>
-      <event type="premiere" when="1926">
-        <desc>1926</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000019" passive="http://www.wikidata.org/entity/Q12720850"/>
     </listRelation>
@@ -174,7 +174,7 @@
             <speaker>MIHAI</speaker>
             <p>Dumneaei da, este... Mi se pare că se găteşte ori se odihneşte, cum i-e obiceiul... TURTUREANU</p>
             <stage>(așezându-se)</stage>
-            <p>: Atunci să aşteptăm, ce zici, Jenică?</p>
+            <p>Atunci să aşteptăm, ce zici, Jenică?</p>
           </sp>
         </div>
         <div type="scene" n="2">
@@ -187,7 +187,7 @@
             <speaker>TURTUREANU</speaker>
             <p>Ce are a face trecutul? Omul n-a avut noroc, dar deştept a fost întotdeauna!  BRIHAC</p>
             <stage>(disprețuitor)</stage>
-            <p>: Deştept!... Mare lucru-i să fii deştept!... Adică eu nu-s deştept ?,.. Dar ruşinea amicului începe tocmai când a devenit omul ministrului...</p>
+            <p>Deştept!... Mare lucru-i să fii deştept!... Adică eu nu-s deştept ?,.. Dar ruşinea amicului începe tocmai când a devenit omul ministrului...</p>
           </sp>
           <sp who="#turtureanu">
             <speaker>TURTUREANU</speaker>
@@ -1932,7 +1932,7 @@
             <speaker>MIHAI</speaker>
             <p>Nu ştiu ce are să zică conu Mitică dacă-i lăsaţi casa goală, de... Mi se pare că aţi avut o neînțelegere că conaşul nici n-a dat pe-acasă...</p>
             <stage>(Se scarpină în cap)</stage>
-            <p>: De...</p>
+            <p>De...</p>
           </sp>
           <sp who="#coca">
             <speaker>COCA</speaker>

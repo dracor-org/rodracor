@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000049" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ion Păpușăriul</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Ion_Păpușarul">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1865">
+            <desc>1865</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ion" sex="MALE">
+            <persName>ION</persName>
+          </person>
+          <person xml:id="comisarul" sex="MALE">
+            <persName>COMISARUL</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000049"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Ion Păpușăriul</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ION</role>
+          <roleDesc>păpușăr</roleDesc>
+        </castItem>
+        <castItem>
+          <role>COMISARUL</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Stați, măi!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Da ce este?</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Nu-i voie să umblați cu păpușele și cu Irozii.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Dec!… altă bazaconie acu!</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Hai la poliție.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Nu pune mîna, guleratule!</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Haide-ți zic și nu lungi vorba.</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Atunci s-agiungi tu…</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Pe dînsul, serjenți!</p>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Nu da, măi, nu da, că te…</p>
+          </sp>
+          <sp who="#comisarul">
+            <speaker>COMISARUL</speaker>
+            <p>Pe dînsul!</p>
+            <stage> (După un mic zgomot in care s-aude căzînd și zdrobindu-se cușca cu păpuși, Ion întră iute, scărmănat, fără căciulă și cu coșciugul în mină.) </stage>
+          </sp>
+          <sp who="#ion">
+            <speaker>ION</speaker>
+            <p>Dos la față… Aici mi-e scăparea… Măi! guleratu dracului!… rău m-o zgîlțîit!… De-abia am putut scăpa coșciugu cu păpuși din ghearele lui… Cît pentru căciulă, o căzut în luptă… fie, tot era s-o dau eu de pomană de sufletu bunicăi… povestea țiganului… Auzi așa? treceam pe lîngă teatru ist mare cu teatru meu cel mic… cîșlegi nu-s?… cînd îmi iese înainte un epistat și numaidecît să mă-nchidă la poliție, zicînd că nu mai este voie de a giuca păpușele, după obiceiu vechi. Mare poznă și minune!… Oare de ce s-o mîniet păpușele cele mari pe cele mici, de le prigonesc?… poate că vreu să aibă singure dreptu de a face să rîdă lumea… Ian, mai știi?</p>
+            <p>Lumea-i plină de păpuși</p>
+            <p>De tot soiul, mari și mici.</p>
+            <p>Cu surtuce, cu mănuși,</p>
+            <p>Cu-anteriu și cu ișlici;</p>
+            <p>Și-ntre ele cît trăiesc</p>
+            <p>Se alung, se prigonesc.</p>
+            <p>Se înșel, se pismuiesc</p>
+            <p>Și chiar se batjocoresc,</p>
+            <p>Că-s păpuși, păpuși lumești</p>
+            <p>Tot să stai să le privești.</p>
+            <p>Una-i proastă și fudulă.</p>
+            <p>Alta face cît o nulă.</p>
+            <p>Alta are dinți de lup,</p>
+            <p>Alta-i chiar trîntor de stup;</p>
+            <p>Alta-i marc patriot</p>
+            <p>Cu limba, hăt, cît un cot,</p>
+            <p>Alta-i viță de ciocoi,</p>
+            <p>Alta-i coadă de strigoi,</p>
+            <p>Că-s păpuși, păpuși lumeșt</p>
+            <p>Tot să stai să le privești.</p>
+            <p>Păpuși, dar, ca Vasilachi Țiganu, ca jupînu Leiba din Tîrgu Cucului și ca toate celelalte dihănii din coșciugu ista, cu deosebire numai că unele te fac să rîzi și că celelalte te fac să și plîngi cîteodată.</p>
+            <stage> (Privind la coșciug.) </stage>
+            <p>Sărmane păpușele, frumușele, curățele!… voi ați înveselit pe moșii și strămoșii noștri, ca pe niște oameni cu bunătatea-n suflet și cu rîsu în față; dar acum lumea s-o posomorît, pare că-i tot ninge și-i plouă… Încît chiar veselia din cîșlegi este oprită!… oare de unde săi ne vie atîta spăsenie?… Om fi avînd poate multe păcate de răscumpărat… Mai știi?… Ei bine, dar pănă vom agiunge a ne sfinți ca dracu cînd îmbătrînește, ce fac eu, Ion Tătărășanu, cu betele păpuși?… doar să pun să le tragă clopotele ca la cele multe obiceiuri strămoșești. Parapanghelos, de-acum!</p>
+            <p>Am avut odinioară</p>
+            <p>Dulce și frumoasă țară.</p>
+            <p>Acum țara-i jidovită</p>
+            <p>Și amar precupețită.</p>
+            <p>Parapanghelos!</p>
+            <p>Am avut, hăt, în vechime</p>
+            <p>O vitează boierime.</p>
+            <p>Acum rîdem noi de noi</p>
+            <p>Poreclindu-ne ciocoi.</p>
+            <p>Parapanghelos!</p>
+            <p>Oamenii de mai-nainte</p>
+            <p>Cereau fapte, nu cuvinte.</p>
+            <p>Acum credem în palavre</p>
+            <p>Și ne certăm ca prin havre.</p>
+            <p>Parapanghelos!</p>
+            <p>Ei trăiau în veselie,</p>
+            <p>În belșug, în omenie.</p>
+            <p>Ce-o rămas? politichie</p>
+            <p>Și un dram de nebunie.</p>
+            <p>Parapanghelos!</p>
+            <stage> (Scoate păpușele pe rînd și le privește cu înduioșare.) </stage>
+            <p>Sărmane păpușele!… Să vă mai privesc o dată pănă a nu vă perde… Iaca Vasilachi Țiganu, care-o furat curcanu. Dabulichi șușmanda, mergi de-acum de te-ngroapă în coșciug, că nu-ți mai este învoit a te primbla noaptea pe uliți cu lăutari și a întră prin casele oamenilor să le arăți ce-i fudulia țigănească. Ai fost și tu cînd ai fost, pe cînd te hrăneai cu balamiș balmuș de la cumătră, și aveai 12 perine mari umplute cu frunzări, 12 mici umplute cu urzici și o dugheană în vîrfu Trisfetitelor. Dar acuma ți-ai nălțat neamu ca cioara-n par: te-ai făcut român de cei noi… proprietar!… Cată, doar îi fura cloșca de pe ouă și îi spînzura pe tată-tău, cetățene, c-apoi vai de penele tale!</p>
+            <p>Pe cînd tu erai țigan</p>
+            <p>Tot prindeai cîte-un curcan.</p>
+            <p>Acum ești cetățenos</p>
+            <p>Mai baros și mai chiros.</p>
+            <p>Tanda, landa, măi balane.</p>
+            <p>Ai agiuns român, țigane;</p>
+            <p>Cată să te lași de lene</p>
+            <p>Ca să nu fii smuls de pene.</p>
+            <p>Hai iute la coșciug.</p>
+            <stage> (Aruncă păpușa și scoate alta.) </stage>
+            <p>Iaca și jupînu Leiba din Tîrgu Cucului cu balabusta ; e frate cu Herșcu Boccegiu, cel din codru Herții. El vinde rachiu amestecat cu vitriol și cu ciomofai, și dacă se-mbogățește, împrumută bani cu dobîndă… ieftin, ieftin, numai o sută la unu. Rușii și nemții l-o alungat de rău din țările lor și noi l-am primit de bun. Tot noi mai cu cap! Iată-l îmbrăcat în pelea dracului, căci azi e sîmbătă… ghit șabăș; toate dughenile-s închise, orașu e pustiiu fiindcă jupînu Leiba o ieșit la primblare cu balabusta pe la gredini poblichi, ca să asculte mozichi. Ei vei! zic zeu!</p>
+            <p>— Balabustă, știi una, mă rog?</p>
+            <p>— Vuăs?</p>
+            <p>— Chind a fi tot tirgu Ieși a nostru, are se chinte muzichi jidovesc la gredina poblichi.</p>
+            <p>— Și ce a să chinti mă rog, Leibușor?</p>
+            <p>— A se chinti: Balabuști mititichi, dragu nieu, cum chintă jupînu Herșcu Boccegiu.</p>
+            <p>La baltă. Iudă, că vine dracu să te umfle…</p>
+            <stage> (Aruncă pe jidov în coșciug și scoate un drac.) </stage>
+            <p>Iată-l… are coarne ca cineva și ca oarecine, dar nu-i totdeauna negru la față, nu, el se schimbă ades ca să înșele mai lesne, ucigă-l crucea!</p>
+            <p>Cînd e un domnișor</p>
+            <p>Ce vinde la dreptate;</p>
+            <p>Cînd un privighitor</p>
+            <p>Care mereu tot bate;</p>
+            <p>Cînd e un cămătar</p>
+            <p>Care te calicește;</p>
+            <p>Cînd un prost gazetar</p>
+            <p>Ce toate le hulește.</p>
+            <p>Cînd un lingușitor</p>
+            <p>Ce te adimenește;</p>
+            <p>Cînd un moștenitor</p>
+            <p>Ce moartea îți dorește;</p>
+            <p>Cînd Iuda vînzător</p>
+            <p>Ce frații-și prigonește;</p>
+            <p>Cînd chiar un pețitor</p>
+            <p>Ce te căsătorește.</p>
+            <p>La iad, spurcatule…</p>
+            <stage> (Aruncă pe dracul și scoate șoareci cu o mîță.) </stage>
+            <p>Iaca mîța și cu șoarecii, în pilda celor mici care-și fac mendrile în țară, cînd nu-i strunește nime. Vorba ceea: lipsește mîța, șoarecii își fac de cap; lipsesc cînii de pază, te primbli prin sat fără băț, ca în satu lui Cremine.</p>
+            <stage> (Joacă șoarecii în palmă.) </stage>
+            <p>Unde-i mîța să ne vadă</p>
+            <p>Să ne vadă, să nu creadă.</p>
+            <p>Bîz-z-z-z.</p>
+            <p>Mîța-i dusă de acasă</p>
+            <p>Șoarecii se gioc pe masă.</p>
+            <p>Bîz-z-z-z.</p>
+            <p>Unde-i mîța să ne vadă</p>
+            <p>Cum am luat casa-n pradă.</p>
+            <p>Bîz-z-z-z.</p>
+            <p>Mîța-i dusă din cămară</p>
+            <p>Noi sîntem stăpîni în țară.</p>
+            <p>Bîz-z-z-z.</p>
+            <p>La coșciug, lacomilor, că vine mîța.</p>
+            <stage> (Scoate un lup și o oaie.) </stage>
+            <p>Iaca lupu și oaia… Vai! săraca oaie! bună-i vie, bună-i moartă, că-i lînoasă, lăptoasă și devreme-acasă. Ce păcat numai că o mănîncă lupu!</p>
+            <p>Hei! de n-ar îi lupi colțoși pe lume, bine-ar mai hălădui turmele! D-apoi ce să faci? așa-i poznașa astă de lume; unde-i oaia, lupu nu lipsește; unde-i slab, e și tare; unde-i român, e și lipitoare!</p>
+            <p>Vai! săracă oaie blîndă,</p>
+            <p>Cum s-ațin lupii la pîndă.</p>
+            <p>Bîr, oiță, bîr,</p>
+            <p>Să te-nșale, să te-apuce,</p>
+            <p>Să te rupă, să te-mbuce.</p>
+            <p>Bîr, oiță, bîr.</p>
+            <p>Bucălaie, vai de tine!</p>
+            <p>Tragi pe lume-ades rușine.</p>
+            <p>Bir, oiță; bîr.</p>
+            <p>Chiar de scapi să nu fii smulsă</p>
+            <p>Tot ești tunsă și ești mulsă.</p>
+            <p>Bir, oiță, bîr.</p>
+            <p>La stînă că vine lupu…</p>
+            <stage> (Scoate un turc și un cazac.) </stage>
+            <p>Iacă turcu și cazacu, Pilaf Aga și cu Moscov Ghiaur, dușmani de moarte carii luaseră deprindere a-și giuca calu pe pămîntu nostru, de cîte ori nu s-ajungeau cu tîrgu. Noi Tătărășenii care, cum o dat Dumnezeu, avem și noi o țîră de politichie și de plapomație, i-am giucat pe degite și i-am pus în cușca păpușelor; însă cînd vin rușii în țară, facem pe cazac de taie capu turcului, și dimprotivă, cînd vin turcii, Pilaf Aga descăpăținează pe Moscov Ghiaur… Ce să faci? Trebuie să urli cu lupii și să strigi la covrigi cu Covri…oții dacă vrei să încapi în lume. Hai și voi la coșciug că ne-am săturat de păpușerii. Aste-s, boieri d-voastră, păpușele cele vechi care le-am apucat de la părinți; dar au mai ieșit și altele, de cînd cu mîncarea cea de Constituție… ce-a mai fi și aceea… Noi Tătărășenii le zicem lefegii!… Cică în timpurile de mult, pe cînd aveam războaie cu vecinii noștri, era în țară o ceată de ostași viteji, nu eroi, care mîncau carne de tatar. Nu-i vorbă de dînșii. Lefegiii din ziua de astăzi se hrănesc din leafă, se îndoapă din bugedul țării, de aceea îi numim lefegii. Iacă de pildă:</p>
+            <stage> (scoate pe rînd mai multe păpuși și le arată) </stage>
+            <p>Un silvicultor de codru — lefegiu.</p>
+            <p>Un conductor de drumu mare — lefegiu.</p>
+            <p>Șosele sînt, nu sînt, dar conductori pozderie.</p>
+            <p>Un profesor de mimică… sau nimică — lefegiu.</p>
+            <p>Un inspector de profesori — lefegiu.</p>
+            <p>Un inspector de inspectori — lefegiu.</p>
+            <p>Un perceptor… priceput — lefegiu.</p>
+            <p>Un controlor de perceptori — lefegiu.</p>
+            <p>Un controlor de controlori — lefegiu.</p>
+            <p>Alt controlor de nu știu ce — lefegiu.</p>
+            <p>Un grădinar de pepinerie… Știu că o să se înmulțească de-acum pepenii în țară.</p>
+            <p>Un custode de muzeuri, pinacotece, gliptotece, bibliotece și alte tece, care nici n-au fost, nici s-au pomenit! Și ceilalți, și ceilalți, și ceilalți ca năsipu mării, și mai ales ca frunza din codru.</p>
+            <stage> (Se aude afară glasul comisariului strigînd: „ Unde s-o ascuns păpușăriul?”) </stage>
+            <p>Na! mai iată și altu… Mă caută ca să mă-nchidă. Nu mă lăsați, oameni buni, că dcar n-am făcut vreun rău că m-am ținut de obiceiurile strămoșești, jucînd păpușele în cîșlegi.</p>
+            <p>Cușca de hîrtie ce noi o purtăm</p>
+            <p>Strigînd la păpușe cu glas sunător</p>
+            <p>Este chiar teatrul micului popor</p>
+            <p>Și cu-a noastre glume noi îl desfătăm.</p>
+            <p>N-avem primadone, nu avem tenori,</p>
+            <p>Nu jucăm la drame și opere mari.</p>
+            <p>Avem păpușele în loc de actori</p>
+            <p>Și-n loc de orchestru, doi bieți lăutari.</p>
+            <p>Lăsați-ne-n pace să ne veselim</p>
+            <p>După obiceiul cel îmbătrînit,</p>
+            <p>Ca să nu ajungem noi, români, să fim</p>
+            <p>Un neam trist, cu ură, și posomorît.</p>
+            <stage> (Comisariul zgîlție ușa din fund și zice: „Aici trebuie să fie hoțul.”) </stage>
+            <p>Na! că m-ajunge păcatul… Unde să m-ascund?</p>
+            <stage> (Aleargă în dreapta și în stînga, spăriai.) </stage>
+            <p>Cole! ba cole!</p>
+            <stage> (Arătînd locul sufliorului.) </stage>
+            <p>Ba cole în bizunia asta.</p>
+            <stage> (Se bagă sub scenă.) </stage>
+            <p>În coșciug și tu, Ioane! Parapanghelos!</p>
+            <stage> (Dispare.) </stage>
+            <stage> (Cortina cade.) </stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

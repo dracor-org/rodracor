@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000012" xml:lang="ro">
   <teiHeader>
@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.wikisource.org/wiki/O_noapte_furtunoas%C4%83</idno>
+          <ref target="https://ro.wikisource.org/wiki/O_noapte_furtunoas%C4%83">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>rev. Convorbiri literare, XIII, nr. 7+8, București</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1879">
+            <desc>1879</desc>
+          </event>
+          <event type="premiere" when="1879">
+            <desc>1879</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -77,14 +85,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1879">
-        <desc>1879</desc>
-      </event>
-      <event type="premiere" when="1879">
-        <desc>1879</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000012" passive="http://www.wikidata.org/entity/Q12736975"/>
     </listRelation>
@@ -1152,7 +1152,7 @@
           <sp who="#veta">
             <speaker>VETA</speaker>
             <stage>(întorcându-se cu fața spre Chiriac)</stage>
-            <p>: Bine, domnule Chiriac, bine; zi înainte, că n-ai zis destule.</p>
+            <p>Bine, domnule Chiriac, bine; zi înainte, că n-ai zis destule.</p>
           </sp>
           <sp who="#chiriac">
             <speaker>CHIRIAC</speaker>

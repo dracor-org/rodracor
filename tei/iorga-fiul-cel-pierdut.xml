@@ -1,0 +1,2097 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000070" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fiul cel pierdut</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Fiul_cel_pierdut_-_Dramă_în_3_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1930">
+            <desc>1930</desc>
+          </event>
+
+          <event type="premiere" when="1934">
+            <desc>9 martie 1934, Teatrul Național din București</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="vasile" sex="MALE">
+            <persName>VASILE</persName>
+          </person>
+          <person xml:id="profira" sex="FEMALE">
+            <persName>PROFIRA</persName>
+          </person>
+          <person xml:id="luca" sex="MALE">
+            <persName>LUCA</persName>
+          </person>
+          <person xml:id="despina" sex="FEMALE">
+            <persName>DESPINA</persName>
+          </person>
+          <person xml:id="preotul" sex="MALE">
+            <persName>PREOTUL</persName>
+          </person>
+          <person xml:id="intaiul_zugrav" sex="MALE">
+            <persName>ÎNTÂIUL ZUGRAV</persName>
+          </person>
+          <person xml:id="al_doilea_zugrav" sex="MALE">
+            <persName>AL DOILEA ZUGRAV</persName>
+          </person>
+          <person xml:id="al_treilea_zugrav" sex="MALE">
+            <persName>AL TREILEA ZUGRAV</persName>
+          </person>
+          <person xml:id="al_patrulea_zugrav" sex="MALE">
+            <persName>AL PATRULEA ZUGRAV</persName>
+          </person>
+          <person xml:id="boulanger" sex="MALE">
+            <persName>BOULANGER</persName>
+          </person>
+          <person xml:id="mereianu" sex="MALE">
+            <persName>MEREIANU</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000070"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Fiul cel pierdut</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>VASILE</role>
+          <roleDesc>starostele breslei zugravilor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PROFIRA</role>
+          <roleDesc>soție</roleDesc>
+        </castItem>
+        <castItem>
+          <role>LUCA</role>
+          <roleDesc>fiu</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DESPINA</role>
+          <roleDesc>nepoată</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PREOTUL</role>
+        </castItem>
+        <castItem>
+          <role>ÎNTÂIUL ZUGRAV</role>
+        </castItem>
+        <castItem>
+          <role>AL DOILEA ZUGRAV</role>
+        </castItem>
+        <castItem>
+          <role>AL TREILEA ZUGRAV</role>
+        </castItem>
+        <castItem>
+          <role>AL PATRULEA ZUGRAV</role>
+        </castItem>
+        <castItem>
+          <role>BOULANGER</role>
+          <roleDesc>pictor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MEREIANU</role>
+          <roleDesc>critic de artă</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I-iu</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>(Adunare de -breslaşi la casa starostelui Vasile)</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA I-iu</head>
+          <stage>VASILE, PREOTUL, ÎNTÂIUL, AL DOILEA ŞI AL PATRULEA ZUGRAV</stage>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Să ne trăiască starostele!</p>
+            </sp>
+          <sp who="#intaiul_zugrav">
+            <speaker>ÎNTÂIUL ZUGRAV</speaker>
+            <p>Că mult e bun şi blând... şi ţine 1a noi toţi!</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA  ZUGRAV</speaker>
+            <p>Şi de la el am învăţat toţi. Ce făceam noi fără bă-trânul? Rămâneam cu ceva practică de la călugări... Făceam sfinți cu ochii cât nuca şi nasul ca frunza, de să te sperii de dânşii pe pământ până să nu-i vezi în cer...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Mai lăsaţi, mai lăsaţi! Că n-o fi chiar aşa... M-oi învăţa şi eu cu năravul de a mă crede.... Şi, băieţi, să vă spuie moșşul: odată ce-ai ajuns acolo, nu mai eşti bun de nimic... Că lucrurile bune se fac cu credinţa în ele... Cu credinţa în ele, nu în t,ne... Numai dacă le-ai făcut bine bine, de tot - şi când poţi spune că</p>
+            <p>ai izbutit să faci ceva bine,  numai atunci poţi zice, nu că e ceva de capul tău, ci numai dintre atâtea zile rele, ai avut şi o zi bună...</p>
+            </sp>
+          <sp who="#al_treilea_zugrav">
+            <speaker>AL TREILEA ZUGRAV</speaker>
+            <p>Cum e ziua de azi... Că te vedem săn ătos între noi la şaptezeci de ani. Când mă gândesc la ziua întâiu a cunoştinţii noastre... Eu nepriceput, abia în stare să fac chipul Sfântului pe linia de cărbune, strecurat prin înţepăturile conturului. Şi m-ai primit bine...</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Şi pe noi şi pe noi... Pe cine dintre noi nu ne-a primit bine starostele Vasile...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>După datoria mea, după ,datoria mea... Nu spuneţi mai mult, că ru de-or veni după voi nu s-or mai împărtăşi de bine din partea mea...</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Ei, ei, cine să te creadă, jupâne? Altă inimă ar trebui să ai.</p>
+            <p>AL  PATRULEA  ZUGRAV.</p>
+            <p>Să auzim ce zice părintele! Că Sfinţia Sa ştia mai demult de ce a fost vrednic starostele nostru.</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Să-l auzim! Cuvântul	lui Dumnezeu, cuvântul lui Dumnezeu.</p>
+          </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA ZUGRAV</speaker>
+            <stage> (către vecin) </stage>
+            <p>Toarnă-mi şi mie frate. La o zi ca asta să curgă sângele Domnului. Da, da, sângele Domnului pe gâtul omului....</p>
+            </sp>
+        <sp who="#al_treilea_zugrav">
+            <speaker>AL  TREILEA  ZUGRAV</speaker>
+            <p>Ce taci, păgânule...</p>
+            </sp>
+        <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA ZUGRAV</speaker>
+            <p>Să tac? Da' de ce să tac, frate? Facem noi vreun rău cuiva? Supărăm pe cineva? Pe nimeni. Doar pe jupânul nostru....</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>S-ar putea supăra numai dacă v-aţi îneca în vin cinstea. Cinstea noastră de zugravi, care cu cele sfinte umblăm şi apropiem cu meşteşugul nostru rugăciunea omului de puterile cele mari care, din nevăzute ce sunt, văzute se fac prin noi... Prin binecuvântarea ce este asupra mâinilor noastre.</p>
+            </sp>
+        <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA ZUGRAV</speaker>
+            <p>Binecuvântate mâinile, jupâne staroste... Binecuvân tate ale dumitale întâiu, din care au ieşit atâţia sfinţi de nu i-ar încăpea Raiul.</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Năstase, de ce vorbeşti aşa?</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Lasă-l jupâne.... Să avem şi noi un... Ştii d-ta ce este în inima lui.... Inimă curată şi plină de evlavie,</p>
+            <p>dacă a mai fost una... Dar aşa e el: gură de om pă-</p>
+            <p>cătos.. Şi mai râdem şi noi...</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Ei, zi-i, Năstase, şi cu iertare de la noi....</p>
+            <p>AL  DOILEA  ZUGRAV.</p>
+            <p>Pentru care mulţumesc... M-o ierta şi Cel de Sus, că mulţi casnici de-ai lui s-au îmbrăcat şi s-au încălţat numai cu bidineaua mea... Cu sfânta bidinea a meşterului Năstase. Şi le-am mai făcut şi ceva aur în jurul capului, aşa cum se cuvine să fie un sfânt cu capul ca un soare în faptul zorilor, numai săgeţi de foc.... Dar gâtul omului acelaşi cere plata lui... Cu ce nu l-am ars, cu ce nu l-am rănit? Toate mirosurile grele m-au chinuit, m-au uscat... Iaca, m-au uscat..... Nu mai e zeamă într-însul, deloc.... Nisip, piatră... Şi atuncea</p>
+            <stage> (ridică paharul) </stage>
+            <p>, fraţi1ar, să mai bem un pahar. După şaptezeci  de ani ai starostelui, optzeci!</p>
+            <stage> (bea odată) </stage>
+            <p>. Şi nouăzeci</p>
+            <stage> (bea a doua oară) </stage>
+            <p>!</p>
+            </sp>
+        <sp who="#intaiul_zugrav">
+            <speaker>ÎNTÂIUL ZUGRAV</speaker>
+            <p>Destul, bre, destul! S-a muiat nisipul şi s-a udat piatra... Că altfel...</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Ajung eu şi la două sute nouăzeci de ani, aşa-i? Și Năstase tot mi-ar mai da... E însă târziu, cinstiţi breslaşi, şi vârsta mea cere odihnă... Cu moartea din odihna somnului înlături cealaltă moarte care nu-ţi mai dă trezire... Dar înainte de a ne încheia sărbătoarea, v-aş spune şi eu ceva...</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Să spuie stareţul! Să spuie stareţul!</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Acuma, fraţilor, eu nu voi ţine o cuvântare cum sunt în stare a o face numai oamenii bisericii. Pe a-ceia noi îi ascultăm cu creştinească râvnă, dar asemenea cu dânşii noi nu putem face. Căci fiecare, la împărţirea de la Dumnezeu a darurilor, a luat o parte, numai una, şi aceea încă e mare lucru. Și pentru dânsa se cuvine a fi adânc recunoscători Celui care se îndură de noi şi cu răsplata lui trece peste amintirea păcatelor noastre. Ei, oamenii bisericii dinăuntru au cuvântul; noi, oamenii cei mici ai bisericii din afară, avem chipul. Chipul celor fără de chip pe care-i închipuim noi, după slaba mintea noastră, fiindcăă altfel decât cu ochii nu înţeleg aceia care şi ei au dreptul la mângâiere care încălzeşte sufletele omeneşti şi le umple de mireasma nădejdii.</p>
+            <p>De mare dar ne-am împărtăşit, fraţilor. Pe lemnul mort aşternem chitul cel alb cum trebuie să fie sufle-tul nostru când ne apropiem de cele sfinte. Aşternem apoi deasupra strălucirea aurului asemenea cu unda însufleţirii care se coboară asupra noastră, când ne gândim la îndeplinirea chemării pe care o avem. Şi pe urmă, -	se cutremură gândul numai la amintirea celor ce ne-a fost dat să facem-, pe urmă, rugăm pe Dumnezeu, pe Mântuitorul, pe Precista lui Maică şi pe sfinţii şi îngerii lui, să se coboare prin nevrednica noastră mână acolo. Şi, dacă avem în noi credinţă, iată, simţim cum o voinţă tainică dă vrajă degetelor noastre şi le mişcă spre întruparea vedeniei pe care o avem cu toţii atunci înaintea noastră. Aşa este ori nu este aşa,  fraţilor întru zugrăvie?</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Aşa este!</p>
+            <p>;</p>
+            </sp>
+        <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Vorbeşti, jupâne, cu graiul tău aşa cum până acuma numai faptele tale faţă de biserică au vorbit.</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Şi apoi, poate fi, oare, cinste mai înaltă decât aceea că zi de zi, an de an, înaintea făpturii de care ne-am învrednicit, dar care nu mai e a noastră - şi eu nu iscălesc, şi rău face acel care iscăleşte, căci iscălitura este a singurului- har al lui Dumnezeu- se închină suferinţa omenească şi p1eacă de acolo cu inima împăcată'. Buze arse de durere apasă pe unde a trecut înfiorată mâna noastră şi sărută pe ce am în-drăznit să aşternem, noi, mâinile răspânditoare de daruri ale celor fără de moarte şi ale fericiţilor.</p>
+            <p>De aceea pe noi nu ne leagă meşteşugul. Nu, ceva mai mare decât dânsul face legătura între noi. Slujbaşi ai bisericii suntem, mai jos decât preoţii, fiindcă în altar intră numai icoanele noastre, dar dincolo de pragul pe care se opreşte piciorul credinciosului. Ne zicem fraţi şi fraţi suntem, mai mult decât alte făpturi ale Părintelui nostru care este în ceruri. Şi, când stăm acuma la masă, nu credeţi că singuri suntem aici, ci este între noi voia căreia ne-am supus, când n-am luat alt drum în viaţă, care ne-ar fi dus poate departe, dar mai sus, nu.</p>
+            <p>Eu, la vârsta mea, ating acuma cu fruntea grinda care acoperă coborârea noastră în adânc, o zi ca aceea de astăzi nu cred s-o mai am. De aceea un sfat trebuie să vă dau, şi iată-l. Nu lucraţi pentru mândria care pierde, nici pentru ban, care spurcă, ci pentru porunca dinlăuntrul nostru lucraţi. Că într-însa stă binecuvântarea. Şi învăţaţi pe alţii să facă tot aşa ca şi noi, pentru ca darul să treacă din neam în neam, cum</p>
+            <p>eu îl am de la părintele meu şi am bucuria să-1 trec aşa întreg, neatins, deplin, copilului singur al însoţirii mele.</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>La mulţi ani încă, tată!. Şi să-şi vadă în ochi is-</p>
+            <p>prava feciorului  său!</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Să dea Dumnezeu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a II-a</head>
+          <stage>ACEIAŞI, PROFIRA (dând în lături o perdea)</stage>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Am auzit, Vasile, ce-ai zis. Dumnezeu trebuie să-ţi fi luminat minţile, căci frumos ţi-a fost graiul... Şi de aceea, dacă mi-ar fi îngăduit, aş cere să mă primiţi şi pe mine o clipă între voi...</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL  DOILEA  ZUGRAV</speaker>
+            <p>Să vie şi jupâneasa... Ea a fost mama noastră... Mie îmi spui... Am mâncat pâine coaptă de dânsa şi uneori m-a prins şi la oala cu vin... Parcă numai o dată, că eram copil crud şi lacom...</p>
+            </sp>
+          <sp who="#intaiul_zugrav">
+            <speaker>ÎNTÂIUL ZUGRAV</speaker>
+            <p>Cum ai rămas, Năstase.</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA ZUGRAV</speaker>
+            <p>Ce ştii d-ta cum am fost eu atunci... Numai mila lui Dumnezeu m-a făcut aşa cum sunt acuma... Dar</p>
+            <p>pentru dumneaei dau eu mărturie: femeie bună şi</p>
+            <p>miloasă, maica  noastră.... Ce? Chiar aşa, chiar aşa!</p>
+            <stage> (vine să-i sărute mâna, pe care ea o retrage) </stage>
+            <p>.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Năslase, Năstase că nu te-i faci şi tu om ca lumea...</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL  DOILEA  ZUGRAV</speaker>
+            <p>Atâla pot, măicuţă, atâta pot... Mai mult nu, ce să mă laud? Aşa e!</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Năstase, destul... Nu se primesc aşa femeile.</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA  ZUGRAV</speaker>
+            <p>.		Dacă e porunca aşa, eu tac... Jupâneasă., sărut mâna... Atâta...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Profiro, tu n-ai venit numai ca să ne vezi pe noi</p>
+            <p>și să mă auzi pe mine. Tu ai un gând... Nu-mi as-cunde... Ne cunoaştem.... Nu vii tu aşa degeaba... Dacă pot să-l audă şi ei, spune-l, dacă nu, să mă dau înlături spre tine.</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA ZUGRAV</speaker>
+            <p>Noi n-auzim, jupâneasă... N-auzi:... Noi avem de lucru... Avem, avem.... Mai avem mult.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ce să-ţi zic eu dumitale... Ia să-ţi fie de bine... Dar</p>
+            <p>ce am eu de spus, înaintea tuturora vreau să spun... Că pe toţi îi priveşte...</p>
+            <stage> (blând) </stage>
+            <p>. Eu am o dorinţă, Vasile, o dorinţă veche şi mare. Uite-o, că o şi spun. Cu măiestria la a intrat binecuvântarea în casa noastră. Am trăit tot între sfinţi şi arhangheli şi heruvimi. Ce să mai spun? Aşa m-am deprins. Toate din mâna ta, Vasile. Dar, iacă, bătrâneţile au venit asupra ta. Te văd lucrând, chinuindu-te şi - nu mă opri, nu!  - văd cum râvna ta se roagă, dar puterile nu vin. Cum a stârpit trupul meu, mâinile talc stârpesc. Şi duhul sfânt din casa noastră caută drum să iasă. Dar eu vreau să mor sub binecuvântare. Avem un băiat, Vasile, şi tu ştii că el îţi calcă pe urme. E mărişor acuma. Şi mi se pare că nu-1 ţii</p>
+            <p>în seamă de-ajuns...</p>
+            </sp>
+          <sp who="#al_doilea_zugrav">
+            <speaker>AL DOILEA ZUGRAV</speaker>
+            <p>Pe Luca? Dar cum să nu-l ţie în samă? Luca e zugrav gata ca noi. Să-l luăm cu noi! Să vie la breaslă! Dacă este loc la masă... Jupâneasă, dacă ţii la mine: că m-ai crescut, cheamă-1 şi pe LUCA:.. Să. bem şi noi un pahar, că destul ţi l-am purtat pe braţe...</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> (aspru) </stage>
+            <p>Tu, să taci! Mă auzi... Profiro, de ce aduci lucruri ca acestea înaintea oamenilor. Între noi să le vorbim, că pe noi ne privesc...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Nu, Vasile, nu. Pe noi ne priveşte hrana lui, îm-brăcămintea lui, culcuşul lui ... Dar ce priveşte breasla, a breslei este... Şi eu în breaslă aş vrea să-l văd...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Profiro, de ce-mi faci silă? Nu l-aş fi adus eu între noi? Nu m-aş fi'bucurat eu să-l văd alături de fraţii aceştia?</p>
+            <p>ÎNTÂIUL ZUGRAV?</p>
+            <p>Îl  vrem  noi,  jupâne...  Am văzut îngerul pe care</p>
+            <p>l-a făcut pentru dvera de la Sfântul Nicolae... Mâna lui e de vrâstă... Cu voia dumitale şi, măcar că te sfieşti ca părinte, eu întreb pe cei de faţă, care sunt tot sfatul breslei, dacă nu e cu ca1e să-l primim?</p>
+            </sp>
+          <sp who="#al_treilea_zugrav">
+            <speaker>AL TREILEA ZUGRAV</speaker>
+            <p>Să-l primim... Ce să-l mai 'facem învăţăcel? Ce să-l mai înaintăm callfă? N-a fost el în locu1 unde e te-meiul zugrăviei? Nu s-a născut el cu ochii pe icoane? Ce mai trebuie?</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Nimic, nimic! Una cu noi este!</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Eu vă rog să nu vă grăbiţi... Nu e vremea. Fe-</p>
+            <p>meia nu ştie... Vorbeşte cu suflet de mamă... El nu e încă matur...</p>
+            <stage> (cu sforţare) </stage>
+            <p>. În stare să scrie chipurile este, dar eu nu l-am văzut rugându-se...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Eu calc peste voia ta, Vasile, şi cer atâta lucru: să-l vadă dumnealor, câţi nu-l ştiu; da, să-l vadă.</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> (zguduit) </stage>
+            <p>Credeţi d-voastră?...</p>
+            </sp>
+        <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Nu te supăra, jupâne: o cerem toţi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a III-a</head>
+          <stage>ACEIAŞI, fără PROFIRA</stage>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>O să vedeţi voi că v-aţi grăbit. De-1 voiţi acuma,  ceea ce ar fi putut să fie mai târziu, ajutând Dumne-zeu...</p>
+            </sp>
+        <sp who="#intaiul_zugrav">
+            <speaker>ÎNTÂIUL ZUGRAV</speaker>
+            <p>Mare eşti, staroste, între noi, şi noi toţi nu sun tem mai mari decât tine. Dar suntem mai mulţi. Şi eu aş crede că niciodată tatăl nu trebuie să-şi judece copilul: îl voieşte prea sus şi-1 osândeşte prea aspru.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a IV-a</head>
+          <stage>ACEIAŞI,  PROFIRA,  LUCA</stage>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cinstiţi meşteri, iată un tânăr care a vrut să fie între d-voastră...</p>
+            </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Bine a venit între noi!</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Deocamdată se sfieşte... Poate aşteaptă să fie în-demnat... Ar fi cineva aici care ar trebui să vor-bească.</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> (după o clipă de tăcere) </stage>
+            <p>Eu, nu! Cine are ceva de cerut, acela trebuie să spuie întâiu dorinţa, lui.. Dacă este în adevăr do-rința lui....</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Luca ar dori să fie şi el unul dintre d-voastră, să aveţi încredere în el, să-i daţi de lucru, să se sfinţeascâ şi el pe un zid! de biserică... Nu e aşa, Luca?</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Aş vrea... Dar desigur că aş vrea:...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Atunci, dacă vrei, de ce n-o spui?</p>
+            </sp>
+          <sp who="#intaiul_zugrav">
+            <speaker>ÎNTÂIUL ZUGRAV</speaker>
+            <p>Nu porţi tu, oare, fiu al celui mai de frunte între noi, numele apostolului care a zugrăvit chipul Maicii Domnului? N-ai luat darul prin moştenire şi prin numele tău chemare?</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Profiro, ia-ţi copilul. De ce l-ai ai dus?</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ca să scoţi tu din el cuvântul pe care fără tine nu-1</p>
+            <p>va spune.</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Eu, femeie, nu vreau să i-l smulg. (către cei de</p>
+            <p>faţă). Fraţilor, iertaţi că ni s-a tulburat veselia. Ia, o închipuire de mamă. Luca, du-te.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Î1 dai afară, Vasile, tu? La o zi ca asta?</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>El n-are rost aici. Suntem între meşteri, zugravi, smeriţi şi cucernici.</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Nu mă goni, tată. De ce să goneşti pe cine nu-l</p>
+            <p>știi?</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Şi ce nu ştiu eu în tine?</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Ce poate să fie altfel. Şi, o spun cu hotărâre, ce poate fi mai mult.</p>
+            </sp>
+          <sp who="#intaiul_zugrav">
+            <speaker>ÎNTÂIUL ZUGRAV</speaker>
+            <p>Auzi vorbă!</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Ce poate fi mai mult, îndrăzneţule, decât adevărul în ce vezi, cinstea în ce faci şi credinţa în ce-ai înfă-ţişat.</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Eu mă sfiesc a spune. Căci nu sunt mândru, tată, şi nici n-am pierdut credinţa. Nu mă judecaţi aşa cum</p>
+            <p>citesc pe feţele voastre, meşterilor ... Dar eu nu pot fi între d-voastră, şi de aceea, nu v-am cerut cinstea breslei... eu vreau sa fiu așa ca mine însumi. dar, dacă nu voi putea, mai bine nimic!</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Femeie, omul acesta bâiguie. Ia-ţi odrasla. Meş-terul Vasile, astăzi, la şaptezeci de ani, n-are un fiu al chemării lui.</p>
+            <p>....</p>
+          </sp>
+          <stage>(O odaie dintr-o căsuţă a vechiului Bucureşti. Câteva</stage>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-a</head>
+          <stage>VASILE STAROSTELE, PROFIRA</stage>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Mai bine am fi murit de mult, Profiră.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tu zici aşa, cel care ai stat toată viaţa cu gândul la cele sfinte şi care din mâinile astea a1e tale</p>
+            <stage> (le prinde cu dragoste) </stage>
+            <p>ai făcut zi de zi dar lui Dumnezeu dragul?</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Eu. Că, dacă mi-a luat puterea, de ce mă ţine?</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Î1 chemi tu la răspundere pe Cine ne-a făcut?</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Nu mă întreba mult, Profiră. Tu mai poţi să-ți legi gândurile şi mergi pe urma lor; la mine numai</p>
+            <p>inima ştie să plângă. Şi cum n-ar plânge când, iaca, sunt un netrebnic.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar, bine, în ce-ai făcut tu o viaţă întreagă, nu afli o mângâiere? Care-i biserică de aici în care să întri şi să nu te găseşti pe tine? N-ai făcut tu tâmpla de la Sf. Nicolae? N-ai înoit sfinţii de la Sf. Gheorghe? N-ai adaus Pantocratorul la Sfinţii Apostoli? Şi nu plânge şi acuma lumea, când, în ceasul în care am pierdut pe cine am pierdut, tu ai făcut la Sf. Ilie pe Maica Domnului vărsătoarea die lacrimi?</p>
+          </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> (încet) </stage>
+            <p>Da, eu le-am făcut, când eram, din mila lui Dum-nezeu, încă eu. Eu le-am făcut. Şi ştii unde merg eu în fiecare zi, că de alta de ce m-aş ţine?</p>
+            <stage> (cu insistenţă) </stage>
+            <p>, Ştii tu?</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Sigur că ştiu. Crezi tu, Vasile, că aşa bătrân şi slab cum eşti, şi mai ales năcăjit, te-aş fi lăsat eu să umbli uliţele sprijinit în toiag, fără să-ţi iau pe urmă? Am mers după tine o dată, de două ori, şi numai când am văzut unde te duci, numai atunci m-am liniştit. Te-am văzut plângând la Maica Domnului cea făcută de tine, şi te-am lăsat în seama ei... Dar de spus, nu ţi-am spus... Credeam că, de, bărbat fiind, te ruşinezi de slăbiciunea vârstei.</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Nu e vârsta, nu, e altceva...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>N-am vrut să zic altfel....</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Zic. eu. Din multe pricini sunt eu slab şi nevolnic... Nu mi-a luat Dumnezeu mâinile, nu,. necazul meu, nu mi le-a luat, năcazul meu cel mare...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Să nu mai vorbim... Dacă-l împarţi, nu te mângâi....</p>
+            <p>Minte cine-a spus aşa... Dacă eşti om cu simţire, de două ori mai greu îţi cade; când te-ai·destăinuit cuiva... Atunci îl cântăreşti cât este. Dar de ce nu</p>
+            <p>cauţi şi tu să mai vezi ceva lume? Te-ai lua cu unul, cu altul...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Cu Năstase, în colţul străzilor unde  zace beat pe</p>
+            <p>gunoi... Cu Ion, care cerşeşte la trecători:.. Cu Gheor-ghe, care duce apă la oameni şi ascunde cine este? Dar tu de ce nu te duci la prietene?</p>
+            </sp>
+          <sp who="#profirra">
+            <speaker>PROFIRRA</speaker>
+            <p>Fiindcă. mi-e milă de ele şi fiindcă mi-e milă de mine, Vasile...</p>
+            <p>j</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Aşa-i, aşa-i! S-a schimbat vremea... Iaca, s-a scnimbat... Ea-i vie, Profiro, şi noi suntem morţi... Morţi: şi vedem şi auzim şi putem plânge, Profiro.  Morţi... şi nici măcar n-avem cui lăsa  lumea care ne 1asă ea pe noi... Şi e rea şi ticăloasă... Bisericile se golesc, se cojesc icoanele şi n-are cine le drege.  Şi, dacă ar vrea să le dreagă, cu ce, cu ce? Unde e sufletul? Sufletul pe care l-am avut noi, care mână nu mai avem,</p>
+            <stage> (se uită spre şevalet) </stage>
+            <p>. ( Profira caută</p>
+            <p>. \</p>
+            <p>să-l acopere). Dă-te în lături femeie... În lături... Ce crezi t,u că nu pot să lucrez la ce am început în ti-nereţe</p>
+            <stage> (îşi lasă faţa în mâini) </stage>
+            <p>. La ce nu pot sfârşi</p>
+            <p>eu... La ceea ce nimeni nu va putea sfârşi...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ajunge ce-ai făcut şi aici... Uite ce frumos e... Gospodarul în mijlocul agonisitei lui... Covoare scumpe îmbracă pereţii, scoarţe cu toate florile pe ele acoperă scândurile, vase de preţ stau în mijlocul mesei pline, paharele de cristal prind scânteile de lumină în unghiurile lor. Masa e întinsă... Bătrânul bogat stă în capul mesei... Ce te-ai apucat, Vasile, să mă faci şi pe mine, în băbuşca ceea de după uşă... Nu sunt vrednică, Vasile; nu mai sunt vrednică... Ce a mai rămas? Ia, pata aceea ... Orice meşter poate în-tinde o perdea şi icoana e gata...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Nu e gata, nu... Acolo e uşa...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Iacă uşa... Şi în dos o face şi el ceva pânză de albastru şi o geană de amurg, fiindcă e cină de seară...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>N-ajunge,  n-ajunge...  Ce  ştii	tu? Acolo este ce</p>
+            <p>este... Acolo e taina.... Taina cea adevărată, taina cea mare... în locul acela, trebuie făcut un om, un om</p>
+            <p>.tânăr...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Vasile, ce vrei să zici?</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Ce vreau, ce vreau... N-aş fi vrut să-ţi spun... Dar, uite, m-ai silit şi a venit ceasul... Cine este să fie acolo, nu-l pot face... Nu-1 pot, fiindcă. N-am mâini ...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ajunge, Vasile, ajunge... De ce să te tulburi... Uite ce galben te-ai făcut şi te clatini...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Fiindcă n-am mâini. Şi, dacă am ochi -  mai bine nu i-aş avea nici pa dânşii, nu este acela pe care ar treebui să-l văd</p>
+            <stage> (slab) </stage>
+            <p>. Pe care aş vrea să-l văd,... Aş vrea...</p>
+            <stage> (adunându-şi puterile) </stage>
+            <p>. Fiindcă aici - ascultă, femeie,</p>
+            <stage> (mai dulce:) </stage>
+            <p>ascultă, mamă, e povestea Fiului celui pierdut</p>
+            <stage> (se împleticeşte) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <stage> (speriată) </stage>
+            <p>Despino,  Despino!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ACEIAŞI, DESPINA</stage>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ce s-a întâmplat, tuşă? Mă iartă că nu eram 1ângă voi... Ştii că eu îl simt când are povara lui pe suflet... Şi mă tem să-l tulbur... Și-mi pare că nici el nu mă vede bucuros...</p>
+            <stage> (se uită la el:) </stage>
+            <p>. Dar, Precistă, ce are?</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>I-a venit puțin rău... Să-l ajutăm...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Unchiule!</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>A, tu eşti, tu... Atunci e bine.... Uite, mă duc; nu vă dau de lucru... Mă iartă; uite aşa sunt bătrânețile... Un semn... Slavă ţie, Doamne, că mi-1 dai... Şi fereşte-mă de moarte năprasnică,, fără mângâierile 1egii tale... Dar tu nu te osteni.... N-am nevoie...</p>
+            <stage> (caută a umbla prin odaie. Se reazimă de fereastră) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#despin_a">
+            <speaker>DESPIN A</speaker>
+            <stage> (încet) </stage>
+            <p>.</p>
+            <p>Î1 vezi? Aşa face cu mine... Eu mai bine m-aş duce odată....</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ca să ne laşi cui? Te gândeşti? Ştii bine de ce i-i drag de tine şi, fiindcă-i e drag, îl doare....</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>De dânsul, înţeleg...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Taci...  El  nu  te  poate despărţi  de dânsu1.... Vă vede aşa cum v-a visat... Î1 vede în tine şi-l doare... Pe mine mă doare ca mamă şi plâng cu tine... Ca bărbat îl doare pe dânsul Şi se mânie.... Ca stăpân... Şi -  ca meşter....</p>
+            <stage> (cătrre Vasile) </stage>
+            <p>. Nu vrei să te laşi puţintel?</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>N-am nevoie... Dar, cum stau să ies, m-aş pregăti...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Asta e... Pregăteşte-te... Noi te aşteptăm să te în-torci...</p>
+            <stage> (Vasile iese) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>PROFIRA, DESPINA</stage>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Acuma, că suntem singure  ia spune-mi, Despino,</p>
+            <p>ceva...</p>
+          </sp>
+          <sp who="#despin_a">
+            <speaker>DESPIN A</speaker>
+            <stage> (jenată) </stage>
+            <p>Am mântuit lucrul ieri... Am cumpărat stofă pen-tru  rochie de iarnă... Cum s-au scumpit toate	Şi</p>
+            <p>proaste şi urâte... Lucru de fabrică...</p>
+            <p>PROFIRA.</p>
+            <p>Eu nu mai pot lucra... Dar nu mă supăr ca Vasile... Voia lui Dumnezeu...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ştie, el, tuşă, de ce se supără... De tăiat, tai eu.... Croitorul cel vechi care ţi-a făcut rochia de cit, a murit...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>A murit Axinte... Săracul....</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ştii că n-a vrut să-ţi ia plată atunci... A zis că e pentru sărindar... Şi vezi că s-a şi împlinit..</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Să cumperi niţel untdelemn și tămâie pentru dânsul. Dar neapărat... Ştii?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Se poate? Alta n-am făcut...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tu știi că eu nu te-am întrebat de aceea_... Ştii de ce te întreb eu pe tine când vorbesc aşa...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ştiu, dar vezi d-ta...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Văd, văd... Ci spune odată...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar nu mi-a mai scris...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tu mă înşeli, fato... După ochi te văd că mă în-şeli... Dar  pe baba n-o minţi.</p>
+            <stage> (În  picioare) </stage>
+            <p>. Că nu i s-o fi întâmplat ceva...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar  ce să  i se întâmple?_ Ce putea să i se întâmple?</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tu ştii, nu eu... În rândul trecut spuneai că se gă-</p>
+            <p>tea de-un drum.:. De ce drum, unde? Că n-o fi cu</p>
+            <p>primejdie...</p>
+            <stage> (O  apasă pe umeri) </stage>
+            <p>. Zi: orice-o fi, zi...</p>
+            <p>Eu sunt tare, nu ca Vasile.. Eu răbd... Tu ştii că rabd... Am plâns eu vreodată ?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Să te văd eu, nu... Dar uite, n-are chiar nimic.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Atuci ţi-oi spune eu ce este... Că eu am aflat.....</p>
+          </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <stage> (mirată) </stage>
+            <p>.</p>
+            <p>Zău?</p>
+            <p>PROFIRRA.</p>
+            <p>Zău, ierts-mă Dumnezeu că zic aşa... Zău! Spune tu, că spun eu, şi te fac de ruşine...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ştii d-ta că el este...</p>
+          </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <stage> (cu sforţare) </stage>
+            <p>Da, că el este...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Că el este aici...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Da, că el este aici,</p>
+            <stage> (plânge în pumnii) </stage>
+            <p>. Aşa ţii tu la mine de nu mi-ai spus?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>M-ai minţit, tuşă, şi nu  frumos.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Nu e vorba de ce-am făcut eu, ci de ce este aici dânsul... Aici, aici, şi eu nu l-am văzut?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar în casa unchiului putea el să calce?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Adevărat, adevărat. L-ar omorî...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ei, vezi?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Şi tu l-ai văzut...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>N-am cutezat... Vezi, mi-e greu şi mie... Şi-mi este şi mie necaz.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ba bine că nu! După ce trebuia să fie!</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>E'.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar eu... Eu mă pot duce la dânsul...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Deocamdată, nu.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>E bolnav.....</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Bolnav înăuntru... Şi nu e singur...</p>
+            <p>PROFIRA</p>
+            <p>Cu cine?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cu cine l-a scos din minţi... Cu cine-şi râde de dânsul, cu cine-l înşală, cu cine o să-l prăpădească... Numai cu dânsa?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>O femeie...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Parcă numai ea... O  haită întreagă....</p>
+            <p>În scrisori se îndreptăţeşte, îi spală, îi laudă... Dar eu îi simt ce sunt... Îi simt...</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a IV-a</head>
+          <stage>ACEIAŞI,  VASILE</stage>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Eu mă duc... Puţin la primblare... Până la masă...</p>
+            <p>-. _,	-	•	!</p>
+            <p>E vreme bună. Aşa ca pentru noi care ne pregătim plimbându-ne pentru -drumul cel lung.</p>
+            <stage> (le priveşte) </stage>
+            <p>. Dar voi aveţi ceva... Aveţi.... Spuneţi-mi şi mie... Fata asta umblă numai cu taine:.. Numai cu şuşoteli...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Atunci, moşule, mai bine să mă duc... 	Am simțit eu că ar fi mai bine așa...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Să te duci, să te duci... Iaca vorbă... Dar baba ce face fără tine?...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar dacă d-tale nu-ţi plac...</p>
+            </sp>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Ascultă, mie de plăcere să nu-mi vorbești... Să-mi placă... Ce-am zis? Neghiob ce sunt... Şi prost... Vorbesc degeaba... Rămâneţi cu bine</p>
+            <stage> (blând) </stage>
+            <p>. Dar prin unghere să nu vă mai prind...</p>
+            <p>SCENĂ a V-a</p>
+            <p>PROFIRA, DESPINA</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Vezi aşa e el, ghiceşte... Şi-l doare... El de asta o să moară... Întâiu că nu poate lucra şi, al doilea, pentru lipsa lui... Şi, dacă l-ar vedea aşa cum este, iarăşi ar blestema. Dar eu, eu sunt tare... Eu l-am născut, eu l-am crescut; pe mine s-a sprijinit cel dintâiu pas al lui; orice vine din partea lui eu pot să rabd, eu  trebuie să rabd. Nu m. i-i frică de dânsul şi nici de mine</p>
+            <p>nu mi-i frică dacă 1-oi vedea aşa cum spui că este. Dar unde să-1 ştiu, unde să-l caut? Fato, fii bună pentru cât bine ţi-am făcut poate şi mai ales penttu cât voiam să-ţi fac. Fii bună-şi adumi-l...</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar eu însumi n-aș vrea...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Te doare şi pe tine?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>De ce mă-ntrebi? Poate! D-voastră aţi vrut..</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Şi azi?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>I-am spus-o şi lui... Azi, nu!</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Atunci ce-ţi pasă de dânsul?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ca să vă arăt că nimic, ei bine, îl chem... Dar am şi eu ceva de cerut. Îl chem ca de la mine... D-ta îl vezi, d-ta îl judeci, fără să ştie eL. Pe urmă, după ce vei şti ce este, vei hotărî ce trebuie. Mă ierţi.</p>
+            <stage> (deschide o uşă lăturalnică) </stage>
+            <p>. E cineva acolo? Tu eşti, fetiţo? Ştii domnul care se plimbla pe-aici azi dimiceaţă şi i-am spus că nu-i nimeni acasă? El ţi-a lăsat însemnare unde stă. Aici în faţă. Du-te şi-i spune că poate veni...</p>
+            <stage> (către Profira) </stage>
+            <p>.</p>
+            <p>O să vedem dacă îndrăzneşte să vie între ai lui cum era atunci...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ce vrei să zici cu asta: cum era atunci?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Era aşa încât l-am depărtat de sufletul meu şi pentru totdeauna. Îmi pare rău chiar că i-am răspuns de atâtea ori...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ştii bine că pentru mine o făceai...</p>
+          </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <stage> (şovăitoare) </stage>
+            <p>Dar cum nu? Desigur pentru d-ta.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar încă o dată, fato: cum era  el, băiatul?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cum n-ai vrea să-l ştii. Nu l-ai cunoaşte, să-1 vezi...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Slab, aşa-i? stâns la faţă... Aşa-I visezz:... De ce nu- i dă bani tată-său...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar de ce nu e el aşa cum îl vrea tată-său...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cum şi eu l-am vrut... Dar el, ştii, voia mai mult. Rău făcea că voia mai mult... Şi era slab, galben?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Era roşu şi gras, avea plete pe spate...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cine, băiatul?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Plete ca o femeie. Ca o femeie de cele re1e... Şi era una lângă dânsul tot aşa nepieptănată... Şi doi băieţi se ţineau după ei... Râdeau...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>De ce râdeau?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>De mine întâiu... Pe urmă de casă... De casă:, de pomi, de tot, parcă şi de cerul de asupra... Să le tragi palme şi muierii şi băieţilor...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ce rea eşti!</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Rea eu? Ei răi: râdeau - ce mai încolo şi încoace: râdeau de unchiul...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>De Vasile?</p>
+            <p>DESPINA</p>
+            <p>Da, din staroste şi din iconar nu-l scoteau... Şi stăruiau să-i las înăuntru, să vadă şi ei bojdeuca... Aşa ziceau: bojdeuca.... Şi s'inţişorii... Eu i-am dat afară...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Te-au văzut?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Nu, prin slugă. Aşa li se cuveeia. Casa asta sfântă...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Bine, dar el... El ce zicea? Ce făcea?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>El era ca orb şi mut.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Râdea? Râdea el? De noi?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Mai rău... Lăsa pe ceilalţi şi voia să-i bage în casă... Un mişel! Da, un mişel...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cum poţi să zici?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Întreabă-mă pe mine cum pot să zic. De alt-minterea, iată-i, vin... Toată ceata, ascunde-te. Le deschid. Fiindcă d-ta ai vrut!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a VI-a</head>
+          <stage>DESPINA,  LUCA,  D-ra  CALANDROPOL,</stage>
+          <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Des tresors, des tresors ... Unde te învârţi, dai cu o-</p>
+            <p>chii de ele... Tiens, un petit cherubin. Cherubin, herubim, heruvim... Să vie criticul de artă. Filiozof al frumosului; nobil cugetător, Mereianu, dă-ţi opinia. Ce zici, e? Parcă stă să zboare, desfăcându-se din lemn... Un putto al lui Rafael.... Nu e aşa? Lipseşte ceva...</p>
+            <p>D-ra CALANDROPOL</p>
+            <p>Il n'y manque rien,</p>
+            <p>ll  n'y manque rien.</p>
+            <p>Dis-donc, bonhomme, c'est bien?</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Mademoiselle ...</p>
+            <p>D-ra CALANDROPOL:.</p>
+            <p>Lasă-mă să joc danţul îngerilor în casa iconarului...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Care iconar...</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Vezi, scandalizezi slugile starostelui...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Ce veseli sunteţi... ce bine-mi pare că vă văd ve-seli! Doar eu cu voi şi prin voi trăiesc... Dar, ştii, Cleopatro...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Scump Antoniu al inimii me1e... Sclavii mei vor pregăti vasul cu lopeţile de aur pe care vei pluti cu mine, uite aşa</p>
+            <stage> (îl îmbrăţişează) </stage>
+            <p>pe apele Nilului ... Spre fericire, spre fericire</p>
+            <stage> (fredonează) </stage>
+            <p>.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Cum îmi placi când eşti aşa... Hazul tău e în-tr-asta... Tu eşti •a o pasăre cu ochii de diamant şi cu ciocul de aur ... Dar uite, te-aş ruga....</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Ce, mă rog?</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Ecoutez, ecoutez... Colorian are o dorinţă. Pentru</p>
+            <p>prima oară o dorinţă a lui afară de aceea de a fi întâiul în arta. sa, de a ne întrece pe  toţi.	Şi i-o spune Cleopatrei noastre... Să nu-i împlineşti dorinţa, C1eopatro, că mă supăr eu...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Ei, aş, ce-mi pasă de tine? Eşti un obraznic şi un</p>
+            <p>porc...</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Ce, fă?</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Tiens, tiens, ăştia se bat iar...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Oh, non, 0oh, non! Şi uite, mi-e  drag şi ăsta... Luca, nu te supăra... E mai tare ca mine... Uite la el, ce drăguț e!</p>
+            <p>Ptiu, nu-ţi fie de deochiu...</p>
+            <stage> (se uită în jur) </stage>
+            <p>Bine, dar aici nu este o canapea, un pat, o mobilă unde să-ţi poţi lăsa oasele... Cum trăiesc ăştia...</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Ehe, ca pe vremea veche... Ce crezi tu... Aici e la Paris?... Nu, domnişoară, aici e la Târgovişte... Tir-govesi en Valachie, pricepi?... Să-ţi explice Boulanger, el e istoric, geograf, etnograf ... Zi, mă!</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Ville de 10.000 habitants... Ispravnic, vameş, ju-decător... Târg de cai, târg de vite... Cocioabe, bise-rici... moşnegi, babe... Fetiţe ca asta</p>
+            <stage> (se apropie de Despina, vrea s-o prindă de bărbie) </stage>
+            <p>.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Las-o.</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Ei, aş! Slujnicar, amicul Colorian... Il court les petites bonnes, les petites bonnes... Cleopatră, regină, a Egiptului, Antoniu nu mă lasă să ating pe una din sclavele sale...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Permis, permis...</p>
+            <stage> (către Mereianu) </stage>
+            <p>. De l-am planta aici, dragă, pe ăsta... Mă plictisește... Un pomanagiu prost... nu destul că-l ținem noi, boierimea occidentală, dar vezi-l pe odrasla de iconar ce anost e... Uf, ce anost!</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Și când te gândeşti ce prost e ca pictor, taman tată-său, fabricantul de sfântuleţi... Ia să-i vedem pro-</p>
+            <p>ducţia...</p>
+            <stage> (către toţi) </stage>
+            <p>. Onorat public, ne găsim, fără să păreţi a băga de samă, într-un atelier. O arfă originală domneşte aici. Sfinţii au picioare de lemn.</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Şi pliscuri de cocoş...</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Fiecare dinntr-înşii are aceeaşi haină şi n-o poate schimba. Sunt cusuţi într-însa... Cusuţi de nu pot ieşi... Dar, ia staţi... E aici un tablou neterminat...</p>
+            </sp>
+        <sp who="#b0ulanger">
+            <speaker>B0ULANGER</speaker>
+            <p>Ia uite... Stil modern... Inovaţie. Fructe, flori... Spaţii albe, cuprinzând enigma...</p>
+            <p>D-ra CALANDR0P0L:</p>
+            <p>Şi uite şi o babă după uşă... Draga ei de băbuşcă...</p>
+            <p>Da urâtă e...	• •</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Moralitatea şi sfinţenia i-au creat acest-tip... Vezi tu, care...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <stage> (îi  dă peste gură) </stage>
+            <p>Pour la second fois insolent. Ce ar fi dacă am lua noi icoana asta. Doar sunt destule... Ce-am mai râde. Am câștiga bani.</p>
+            <p>•  •</p>
+            <p>0</p>
+            <p>.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Destul,  destul... Faceţi zgomot azi... Mă doar e capul... Parcă mi-e silă...</p>
+            <p>D-ra CALANDROP0L:</p>
+            <p>Ce zice ăsta? E bolnav?</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Nu, e obraznic.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Mie-mi spui?</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Ia vezi să nu-ţi fi uitat punga în buzunarul meu...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Vrei să zici...</p>
+            <p>BOULANGER.</p>
+            <p>Na, na, na, nu aşa. Fete la îndemână, petreceri, preţuii:ea unui critic de artă ca mine şi pe urmă scene... Eu nu le permit...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Stricaţi tot hazul... O să rupem noi aici la iconarul ăsta, numai 'iindcă făcând icoane proaste e tata lui Luca, o societate pe care am strâns-o în jurul meu- veselia, tinereţea - fiindcă aşa vreau eu... Mă, eu pe ăsta îl vreau... Şi pe ăsta... Ia te uită, mă împăratule, în ochii mei... E! Bată-te să te bată! Jos icoanele! Vive la vie! Şi acuma ieşim... În aer, în lumină, în civilizaţiei. Nu-ţi pare că aici miroase greu?</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Acuma bagi de seamă?</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Ce idee şi la ăsta să ne bage în bojdeucă. Nu-i  nimic original. Prostie mucedpă. Ehei, signor Luca, signor Luca, pittore... Viaţa te cheamă, viaţa te cheamă; viitorul, gloria.</p>
+            <stage> (În acest timp, Luca a rămas încremenit) </stage>
+            <p>.</p>
+            <p>.,</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>On vient, on vient! Ei, amice!</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Mai lasă-l o clipă. Îl ţin sfinţii de picioare!</p>
+            </sp>
+        <sp who="#mereianu">
+            <speaker>MEREIANU</speaker>
+            <p>Se vede că-s amicii lui tată-său...</p>
+            </sp>
+        <sp who="#boulanger">
+            <speaker>BOULANGER</speaker>
+            <p>Parcă el poate scăpa de dânşii în pictura lui... Aşa s-a născut, aşa o să moară...</p>
+            <stage> (iese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA a VII-a</head>
+          <stage>DESPINA, LUCA</stage>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>De ce nu ieşi? Ieşi!</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Cine spune?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Eu, slujnica...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>E, slujnica... Verişoara... Îţi scriam... Mi-ai scris...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>N-am ştiut cui... Dar ce stai d-ta-aici?</p>
+            <p>Auzi? Te cheamă.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Parcă nu sunt eu însumi. Mă simt încremenit. E o vrajă aici.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>., Vrajă? Vraja e afară. Ascultă</p>
+            <stage> (Se aud chiote, cântece) </stage>
+            <p>.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Mă duc, m-aş duce... Dar  eu treuie să  mă rup</p>
+            <p>de aici... Tot    rostul meu e aiurea... Mă înnăuș... Unde-i mama?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>St! E acolo. A auzit. Dacă ai fi fost altfel, ar fi ieşit... Aşa însă nu. Vrei s-o întreb? Tuşă Profiră, vrei să-l vezi?</p>
+            <stage> (tăcere) </stage>
+            <p>vrei</p>
+            <stage> (tăcere; se aude ceva căzând) </stage>
+            <p>.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>A căzut ceva.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Nimic, nimic, norocul dumitale...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Dar el e înainte...</p>
+            <p>DESPINA</p>
+            <p>Dacă l-ai fi meritat, ar fi fost aici.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Dar eu slăbesc.</p>
+            <stage> (Se aud strigăte afară) </stage>
+            <p>. Nu pot să mă dau, nu vreau. Nu! Aici mă înăbuş... Nu mă voi întoarce niciodată.	,</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Crezi d-ta? Cepr ost eşti!</p>
+            <stage> (el iese) </stage>
+            <p>. Ce stau eu de vorbă. O durere  adevărată  mă cheamă... Tuşă, tuşă!</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA a VIII-a</head>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> (intrând obosit) </stage>
+            <p>Ce neorânduială aici! Ce praf!...  Fata asta nebunește... Are și de ce... Pare că eu!...  Uf !</p>
+            <stage> (se apropie de tablou) </stage>
+            <p>. Aici ar fi cel care se întoarce.... Să încerc a mi-l închipui... Apoi penelul merge singur.... Să încerc</p>
+            <stage> (plângând) </stage>
+            <p>. Şi nu pot; nu pot! Nu pot pentru că nu-l văd...</p>
+          </sp>
+          <stage>(Aceiaşi odaie)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL al III-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-a</head>
+          <stage>PROFIRA, DESPINA</stage>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Uite aşa, viaţă fără rost... Nici nu trăim, nici nu murim... Nici noi, care după vârsta noastră ar trebui să ne împăcăm, nici t... Şi de tine mi-e milă...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Mie, ştii, tuşă, nu-mi mai e milă... Nu e om pentru un singur rost... l-ai pierdut pe unul, caută-l pe altul... Asta-i viaţa....</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tu eşti cuminte, fato... Aş fi vrut să fii cuminte pentru casa noastră... Nu s-a putut, vei fi pentru alţii... O comoară ca tine nu rămâne în drum.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ei şi d-ta... Cum îţi vine a vorbi...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>St! Taci, ascultă...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Se roagă unchiul...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Se roagă Vasile.. Niciodată aşa de tare.... Se aud cuvintele... Mare necaz trebuie să aibă... Ia ...</p>
+            <stage> (ascultă) </stage>
+            <p>. Se roagă pentru dânsul... Îl cere, cu lacrimi, îl cere... Cine ar fi putut crede... Pare aşa de tare... ÎI cere de la Dumnezeu.. IÎ cere bun, cum l-a ştiut. Dar stai, stai... Şi dacă n-ar fi bun, încă ar vrea să-l vadă...</p>
+            <p>Săracul!</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ce om sfânt!</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Vine-ntr-acoace... Să nu creadă că l-am auzit.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>ACEIAŞI, VASILE</stage>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Bună dimineaţa, bună dimineaţa... Tot mai har-nici decât mine...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Suntem şi ceva mai tineri... Şi eu pe lângă dânsa, care mă mai dezmorţeşte...</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Ţii de urât babei.... Bine faci...	Când vei fi ca dânsa să-ţi deie Dumnezeu tot atâta ajutor... Noi</p>
+            <p>între noi nu ne mai putem ajuta... Stăm aşa stingheri...</p>
+            <stage> (se uită la fereastră0. FrnmoaSă vreme... Ce lumină, ce lumină! Albă, limpede. Ce nu făceam eu pe vremuri. Ehe, ehe, pe vremuri... (Priveşte şevaletul) </stage>
+            <p>. Dă-l intr-o parte!</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Pe urmă-l ceri iarăşi la loc...</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Aşa e... Nu-l mai da! Ce să vă osteniţi! Nu, nu te supăra... N-am zis-o ca o mustraare... Aşa sunt eu... Aşa am ajuns...</p>
+            <stage> (acru) </stage>
+            <p>. Vorbeşte necazul din mine... Osânda asupra mea că trăiesc... Uite aşa azi ca azi, mâine ca mâine...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ca să mă vezi pe mine... Ce, nu-i de-ajuns. Ce</p>
+            <p>zici, Despino...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Mie mi-ar fi...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Vezi, şi ei... Ajungă-ți şi ţie, moşnege...</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Eu ştiu, mă duc... Este o icoană de mine pe care-o uitasem ... O precistă din tinereţe, la Sfinţii Împăraţi... Au afumat-o cu luminile astea proaste de acuma... Nici ceara nu mai e ceară, măcar că albinele tot aşa sunt... Şi poporul e tot aşa cum a fost, dar  şi la el</p>
+            <p>nu mai e mierea şi ceara de odinioară... Au afumat-o...  Ieri am spus s-o cureţe. Să n-o strice cumva, că la lucrurile vechi nu se mai pricep ăştia de acum...</p>
+            <p>Odată nu-mi păsa de ce-am făcut... Acuma, când nu</p>
+            <p>mai pot tace... când nu mai e după mine nimeni să mai facă...</p>
+            <stage> (necăjit:) </stage>
+            <p>Eh!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>PROFIRA, DESPINA</stage>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Vezi, la el un lucru nu-mi place... Lui nu i-o spun, dar faţă de tine trebuie să-mi descarc inima... Uite care... Noi, ştii, tot la dânsul ne gândim...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>La cel care...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Nu, fato, nu... Cum nu poţi tu deosebi un lucru de altul?... Eu pe acela la care te gândeşti tu, nici nu l-am văzut.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Zău nu? Mi s-a  părut mie ceva la uşă...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Vezi, eşti rea ... Când nu ştiu eu să fi văzut, de ce să-ţi aduci tu aminte că aş fi văzut?</p>
+            <p>.	.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Atunci, bine; e cum zici d-ta, tuşă...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Eu mă gândesc la celălalt... Crezi tu că-l poate uita cine l-a știut odată? Tânăr, blând, cu atâta râvnă de a învăţa, de a şti, de a putea..._</p>
+            <p>Și s-a dus uite aşa ca fumul... S-a dus, şi niciodată n-o să se mai întoarcă. Niciodată... Tu-l poţi uita?	•</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ei	asta, ce întrebare?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Aşa-i, aşa-i... Numai cei ce stau să moară se îndestulează cu umbrele... Tu, e! tu... Şi ziceam că la Vasile este un lucru care nu-mi plac.e... El e, vezi, tată şi zugrav... Aşa ar trebui să fie... Dar e, dimpotrivă., zugrav întâiu şi pe urmă tată... Pe urmă., numai... Şi e păcat, mare.... Ce bine e că noi femeile nu ne pricepem la lucrurile acelea mari şi frumoase... Că n-or mai -i zugravi ca Vasile au pagubă bisericile... Adevărat că şi credincioşii care pierd</p>
+            <p>o mângâiere... Pierduți noi toţi.... Dar ce-are a face</p>
+            <p>o pierdere ca asta care se împarte la atâţia, pe când eu am o pierdere care e numai a mea... Numai a mea... Aşa-i, Despino?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>De, mai sunt oameni care...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Care ce?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Care compătimesc.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Da, la asta au dreptul!... O, ce singură sunt!...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cât sunt eu aici, nu, tuşă.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cât eşti tu, cât eşti tu... Şi cât ai să fii tu? Nu, zi, cât... Tineree care nu se suferă între bătrâni... Mâine, poimâine s-a dus... La mormântul nostru era o fereastră, o ferestruică. Se închide. Ce? Cine să se uite la putreziciunea noastră!... A mai venit băiatul bogasierului?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Şi dacă a venit, ce-mi este mie?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>.	-</p>
+            <p>Nu, întreb şi eu: a venit?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ei, da, a venit... Au mai venit şi alţii... 'I'ot mai vine câte un om pe aici.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Da, vine... Numai nu vin toţi pentru ce vine el.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Că n-are de ce veni.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>I-ai spus?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>N-a întrebat nici el... Doar e băiat deştept, simte....</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>E deştept, da, şi frumos... Nu e frumos, zi?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>O fi pentru cine o fi, pentru cine l-o avea parte.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Adică?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Parcă de unde să cunosc eu câte fete sunt pe lume şi să zic: asta e!</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Adică? Nu e de pe aici.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Sigur că nu e!</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Fată, fato! St! Nu  mai zi nimic!</p>
+            <stage> (ascultă) </stage>
+            <p>. Dar ce e pe afară... Cine duduie pe scări... Că n-o fi luat foc casa cât vorbim noi de alte alea... Ia vezi...</p>
+            <p>DESPINA:.</p>
+            <p>Zău parcă s-ar petrece ceva...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Nu ţi-am -zis eu? Ascultă cum bate uşa de-afară. Vine lume străină... Cine-o fi? Ce vrea?</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a IV-A</head>
+          <stage>ACEIAȘI, D-RA CALANDROPOL</stage>
+          <sp who="#d_ra_calandropol">
+            <speaker>D-RA CALANDROPOL</speaker>
+            <stage> (către  Profira) </stage>
+            <p>.</p>
+            <p>Doamnă,  Doamnă....Onorată  Doamnă,  Chere  Madame...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cine eşti d-ta? Ce ai? Cine te-a sluţit aşa?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Cum sluţit?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Da eşti îmbrăcată ca neoamenii... Ce-i asta pe d-ta?... Despino, asta a scăpat de la circ...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>A, uite, fata din casă... Ascultă,  drăguţă...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>La casa d-tale am slujit? M-ai plătit d-ta?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>N-o certa, n-o certa... Vezi că ea, cum aş zice... aşa puţin tulburată... Ce vrei d-ta? Te mai întreb o dată.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Tuşă, dar o ştiu eu... Aşteaptă, nu-ţi strica vorba... Dumneata nu ştii ce om ai în casă... (către d-ra Ca-</p>
+            <p>Landropol).  D-ta îţi aduci aminte ce ai făcut aici? Uite, n-a trecut o lună?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>.	.</p>
+            <p>Dar d-ta ce ai să întrebi? Quelle impertinence!</p>
+            <p>Dar  în	casa d-tale am intrat eu? .Eu am intrat în casa unui ·amic, a unui vechi  amic, a unui îndatorit,</p>
+            <p>a omului nostru...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Al cui om e băiatul nostru?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Ascultă,  dragă,  nu  te  supăra!</p>
+            <stage> (către  Despina) </stage>
+            <p>.</p>
+            <p>Dar cine e dumneaei?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cine să fie? Băbuşca din icoană, bre, ai uitat?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Da, da, icoana... Ciudata icoană pe care voiam s-o iau eu... Şi am uitat... Aş lua-o acuma... Dar, vezi d-ta – că uitam de ce-am venit – n-o mai pot lua,</p>
+            <stage> (către ambele) </stage>
+            <p>. Ia uitaţi-vă d-voastră, ne-au luat pe urmă nişte mizerabili... ne persecută, vreau să ne aresteze ..</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Se poate? Nişte oameni aşa de cumsecade!</p>
+            <p>-</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Aşa-i? Şi Europeni,  Occidentali!  Ştii  d-ta  ce  ne</p>
+            <p>pune în samă... Nu, ghici....</p>
+            <stage> (se aude zgomot afară) </stage>
+            <p>.</p>
+            <p>Ia vezi, ia vezi, nu vin? Domnişoară, te rog, domnişoară, ieşi d-ta înainte.  Spune că... Spune ce vrei d-ta! Nu, zău, nu ţin să intru în temniţă la oamenii ăştia... Spune că d-ta singură eşti aici...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Nu-i nimeni... Pricepi d-ta? Nu-i nimeni. Ci stâm-pără-te odată... Nu zburătăci. Ca un cal al dracului prin livadă. Uiet, şezi acolo...</p>
+            <p>D-ra CALANDROPOL.·</p>
+            <p>Stai, că nu ştiu cum... Aşa, cum? Asta este scaun?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Scaun, scaun, aşa-i la noi.. Şezi odată	. Despino,</p>
+            <p>asta e curat nebună...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Nu-i greu s-o vezi,</p>
+            <stage> (către d-ra Calandropol) </stage>
+            <p>. Ce ai d-ta, mă rog?... Şi cu ce drept vii aici?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Nu, stai să vezi.... Stai să vezi.... Zău că-mi vine a râde... Iaca, râd.... Dar băgaţi de samă să nu vie nimeni.... Nu cumva să vie cineva!</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ori spune, ori te scot pe uşă. Scurt ! ( către Pro-</p>
+            <p>fira). Altfel nu-i scoţi ceva cuminte din gură  O ştiu eu...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Tot cu binele... Tot cu binele... Iaca spun. Noi am venit aici cu gând bun. Familiile nu dădeau bani...</p>
+            <p>Nu înţelegeau folosul...Ce să vă spun... idei noi, progres, civilizaţie... Nu înţelegeau.... Aici am trăit cum suntemcdeprinşi...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cunoaştem ...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Aşa-i? Altă viaţă... Largă, liberă.... Am jucat...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Jucaţi cărţi? Urât obiceiu....</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Dar ce joc! Ce joc! Să-l vezi numai... Ai juca şi d-ta; aşa bătrână cum eşti... Ne-au  pârât... Au spus că înşelăm... Nu-i adevărat.... Jucam pe credit... Când·ai familie... plătim... Şi pe urmă Boulanger şi cu ălalalt s-au apucat să facă  politică... Au vorbit tare de una, de alta, de unii de alţii... Şi iată: poliţia  d-voastră pe urma noastră...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Oameni cuminţi...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Aşa-i? Noi?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Nu voi, ei. Şi?...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Pe ei i-a arestat...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cum zici d-ta? I-a poprit? Pe toți?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Pe toţi, nu... Nu pe ăla, pe băiatul starostelui...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Al nostru.</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Da, aşa-i,  al d-voastră... Al bătrânului de aici, al iconarului...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Şi al d-sale: dumneaei e mama lui.</p>
+            </sp>
+        <sp who="#dra_calandropol">
+            <speaker>D-RA CALANDROPOL</speaker>
+            <p>Mamă? Da? Mamă? Asta-i băbușca? Pardon...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Da, băbuşca... Ce, fato, zice adevărat. Dar ce e cu el? Ce e cu el? Asta te întreb.</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Cu el -  nimic! Nimic! Aşa, un prost! O, nu, ier-taţi... Dar, oricum, tare deștept nu. Gândiți-vă că s-a  certat cu noi... De ce? Fiindcă mie îmi place ăla„ cum îi zice.... Prietenul lui, Boulanger.... Dar şi Boulanger, ştii. Cel mic şi oacheş... Biatul brutarului... Şi fiindcă i-a spus, i-am spus toţi că n-are talent...</p>
+            <p>PROFIRA:.</p>
+            <p>Ce e aceea ce zice dumneaei?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Adică: nu se pricepe.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>.Ascultă d-ta: la ce nu se pricepe băiatul?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Cum, la ce? La pictură...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>La zugrăvit, tuşă.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Așa? Așa? Și cine spune?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Dar noi, toţi... Dar toată lumea la Paris... Noi l-am</p>
+            <p>luat aşa, că e băiat bun...  .</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Și așa frumușel, nu?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Dar  desigur!. Ori nu? Dar nu cum nu crede el: numai el!! Ce! Şi s-a supărat că n-are talent... A sărit la bătaie...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar  atunci  de ce a plecat el de-acasă?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Ei, asta-i bună! Dar de ce am p1ecat eu? De ce-a plecat Boulanger? De ce a plecat ă1alalt? Da' parcă d-ta n-ai pleca, aşa bătrână cum eşti... Acolo e lume... Acolo... O, maică Doamne, măiculiţă! Şi ştiţi ce a :zis: a zis că mai bine face icoane... Ascultaţi batjocură... Că face icoane... El, icoane...</p>
+            <p>PROFIRA:·</p>
+            <p>A zis el aşa?</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>A zis dobitocul. O, pardon!</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>N-are a face. Atunci</p>
+            <stage> (Despina vrea s'- oprească) </stage>
+            <p>.</p>
+            <p>Nu, nu! Aici poruncesc eu.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar unchiul...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Nu, nu, eu! Vedem noi ce facem cu moşul.. Atunci zi-i să vină încoace, aşa, pentru o vorbă... Spune că mă-sa îl chamă...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Asta nu-i greu, căci închipuiţi-vă că s-a băgat la dascălul bisericii din faţă... Dar dacă mă arestează?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Te-ai speriat degeaba... Unde se minună lumea la d-ta... Mai sunt nebune pe aici, mă iartă că-ți spun.</p>
+            <p>De unde să te nemerească pe d-ta... Băiatului să-i spui însă așa...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Şi cu ce mă aleg eu?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Cu bani de cheltuială; ca să te întorci unde e de</p>
+            <p>d-ta. Eu ţi-i dau.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a V-a</head>
+          <stage>PROFIRA,  DESPINA</stage>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>O întâmplare...</p>
+            <p>PROFIRA:,</p>
+            <p>Crezi tu că e numai atâta... Spune-mi adevărat, dar</p>
+            <p>ştii: adevărat, că aşa crezi!</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>/</p>
+            <p>Dar eu l-am văzut, dar l-am auzit, dar am vorbit cu dânsul... Dar de două ori am avut în faţă pe muierea asta... Tuşă, asta este femeia lui. A lui şi a  tuturor celorlalți.</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Mai este a lui?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Fiindcă ea l-a dispreţuit, 1-a lepădat; după ce atâta vreme, ani de zile, şi-a râs de dânsul... Prostul!</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Zici ca dânsa.</p>
+          </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Şi tot cu  atâta  dreptate.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar nu vezi că Dumnezeu ni L-a apărat, că l-a</p>
+            <p>scăpat de ruşine pentru inima lui bună...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Inima lui! Inima lui, dar  cine-o vede...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Şi n-ai auzit-o când vorbea de hotărârea lui cea nouă... Că se cere la meşteşugul tătâne-său... Că-şi caută aşa drumul spre casă, drumul spre noi.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cu sufletul ce-l are?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Drumul..., drumul spre tine.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Eu râd...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>În inima ta, râzi?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Tușo, lasă-mă.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA a VI-a</head>
+          <stage>ACELEAȘI, LUCA, D-RA CALANDROPOL</stage>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <stage> (pe	prag) </stage>
+            <p>.</p>
+            <p>Cleopatro,  te  rog, lasă-mă!</p>
+            </sp>
+        <sp who="#dra_calandropol">
+            <speaker>D-RA CALANDROPOL</speaker>
+            <p>Ei asta-i... Eu  îl împlic cu ăştia, eu î1 aduc... Şi</p>
+            <p>.el  mă... Dar  ce?  câinele  tău sunt... mojicule... Mal</p>
+            <p>eleve!</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Te mai rog o dată,, lasă-mă. Uite al tău sunt...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Auzi?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>E pentru dânsa numai... Îi e e de-a scăparea... Nu</p>
+            <p>pricepi...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Al tău sunt... Când vrei,  cât	vrei... Voi vorbi ·şi pentru tine... Mi-ai spus ce-ţi trebuie.</p>
+            <p>..</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Vezi să nu uiţi...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Mă vând eu, şi-o fac... Că nu mă vând întâiaşi dată...</p>
+            <p>D-ra CALANDROPOL:</p>
+            <p>Eu te aştept; ştii? Uite aici stau! Să nu-mi ieşi pe aiurea... Că te găsesc eu.</p>
+            <stage> (Iese!) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA a VII-a.</head>
+          <stage>ACEIAŞI, fără D-ra CALANDROPOL</stage>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <stage> (stă  pe loc) </stage>
+            <p>.</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ai dorit să vii... Nu te-am chemat eu... Uite cine</p>
+            <stage> (arată către Profira) </stage>
+            <p>.</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Să îndrăznesc?</p>
+            </sp>
+          <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cum te simţi...</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Uite, mamă...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>►</p>
+            <p>Nu, nu, încă nu: mamă. Întâiu să ştiu al cui eşti...</p>
+            <p>Da, da, So ştiu... Altfel...</p>
+            </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Sunt iarăşi al meu...</p>
+            </sp>
+          <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar al cui ai fost până acuma?</p>
+          </sp>
+          <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <stage> (cu un  gest) </stage>
+            <p>.</p>
+            <p>Al lor.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Ai văzut: al lor. Al lor e şi acuma... Nu te apăra... Al lor eşti... Nici mort nu scapi din mâinile lor... Ai mai văzut om să-şi capete înapoi sufletul pe care l-a pierdut?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>N-m văzut, dar  îl caut.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Stai.Te simţi	tu acasă?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Nu mint: încă nu.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar de ce-ai făcut ce-ai făcut?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Dar de ce m-aţi lăsat, de ce m-aţi izgonit, de ce m-aţi rupt de la voi?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tată-tău a vrut. L-ai ascultat tu pe dânsul?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Puteam să ascult? Când alt glas mă chema aiurea?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Să-l lăsăm să meargă după dânsul.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Tu taci... Tu nu-l urăști... Iubirea ta pentru dânsul țipă din tine, femeie.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Să fie adevărat?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Nu, nu! Până acuma nu!</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Dar pe urmă? Mă ascultaţi? Am plecat de aici fără voia voastră, fără ajutorul vostru, am plecat în lume...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ai fugit... O lume ne-a râs!</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Ce-ar fi CĂzut în genunchi dacă le-aş fi arătat eu ce mă întorc...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Mi-e jale să aud. Zi înainte... zi iute....</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Am căzut între tinerii aceştia... I-aţi văzut, i-aţi au-zit. Am înţeles cât v-au jignit... Îmi era ruşine... O! ce ruşine-mi era... Încremenisem... Dar ce puteam face? Ce puteam zice? Mi-i crede, mamă, şi dumneata, care... În sfârșit, mi-ți crede, dar nu sunt răi...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Fata asta nebună?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Nebun e oricare om ce nu e la locul lui... Şi eu am fost nebun... Sunt încă şi...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Şi?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Acuma, obosit, lovit de soartă, dar cu sufletul viu în mine, îmi caut locul meu...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ţie-te Dumnezeu într-însul !</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Nu-s răi... Aşa par .... Este o lume întreagă. ca dânşii... O să mai fie.... Multă vreme o să mai fie. Până or veni și ei la pragul ispăşirii. Căci eu ispăşesc... Dar de umilit, nu mă umilesc... Nu vin aici de silă, nu vin de foame, vin de voie...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Când ea te-a ţinut, te-a hrănit,· te-a târât cu lanţul de gât după, după... prietenii ei....</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Mi-au dat o pâine... Altfel muream... De ce nu mi-aţi dat-o voi?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Bătrânul...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Da, bătrânul... Dar fără voia lui cum stau eu ai-ci?.... Acuma însă oriunde voi sta am în mine ce trebuie cât să plătesc trecutul şi ca să-mi fac un viitor...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Cu ce?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Cu ce pot... Cu ce am făgăduit că voi putea!..</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar  n-ai talent... Ţi-o spun ei.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Dar eu nu pentru ei vreau să trăiesc...</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Îl cunosc, fato, e al meu, a1 meu e... Şi, numai dacă vrei, şi al tău poate să fie...</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Si ceilalţi? Cealaltă?</p>
+            <p>I</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Să nu-i vorbim de rău. Au murit.</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Ce zici?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Eu nu-s mamă să uit... Vom vedea...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Îmi ajunge. Vei vedea.</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Dar bine, unchiul? Acela care, cum spuneai, tuşo, nu e tată, întâiu, ci e întâiu meşter ... Crezi d-ta că el primeşte?</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Pe fiul lui?</p>
+            </sp>
+        <sp who="#despina">
+            <speaker>DESPINA</speaker>
+            <p>Starostele Vasile, plângând asupra breslei lui, n-are fiu de mult.</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Când nu pot da sfat oamenii; lucrurile îl dau... Mamă-ţi, sărut mâna</p>
+            <stage> (îi sărută mâna) </stage>
+            <p>; pentru cât ai dat până acuma îţi mulţumesc, Despino. Lăsaţi-mă o clipă.</p>
+            <p>5</p>
+            </sp>
+        <sp who="#profira">
+            <speaker>PROFIRA</speaker>
+            <p>Dar Vasile stă să vină...</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Dacă m-o izgoni, nu m-eţi mai vedea.</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA a VIII-a</head>
+          <stage>LUCA, singur</stage>
+          <stage>(Se scutură). Dar şi eu pot aşa! Pot! Pot mai bine! Cu acelaşi suflet, dar cu a1t gând, şi cu alte mânii... Cu mâini nouă şi tari.</stage>
+          <stage>(Se opreşte la tabloul neisprăvit). Ia te uită... Neisprăvit... Şi de mult... Colorile se întunecă... Ani or fi trecut de când nu s-a lucrat la dânsul... S-a is-tovit bătrânul... Săracul!</stage>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA a IX-a</head>
+          <stage>(Intră Vasile).</stage>
+          <stage>LUCA, VASILE</stage>
+          <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> ( obosit) </stage>
+            <p>Au curăţAt icoana... Cu chiu, cu vai s-a făcut... Ce</p>
+            <p>obosit sunt... Nu i-am lăsat o clipă singuri... Ar fi stricat... Ce lucruri bune făceam atunci... Ce-o fi fost în sulfletul meu! Stai, stai... Ba da, aşa-i. Profira era tinerică şi ţinea în braţe pe întâiul ei născut... Era bolnav şi se temea penţru viaţa lui... Aşa de duios se uita la prunc... Atunci am făcut pe Maica Dom-nului.., Lumea spune că e făcătoare de minuni. Era şi de ce, Doamne iartă-mă...</p>
+            <p>Să mai pot acum, să mai pot!</p>
+            <stage> (Se lasă pe scaun) </stage>
+            <p>. Uite aici la icoana asta... Să mai văd pe cine lipseşte... Căci până nu-l vezi, nu poţi... Să-l văd, mâna mea ar învia...</p>
+            <stage> (Se uită mai de-aproape) </stage>
+            <p>. Dar ce e asta? Visez eu? Sunt nebun? Apără-mă, Doamne. Casa nu e curată! Ori  poate cine ştie, o mână care nu e de ţărân! Sunt eu vrednic de atâta·?</p>
+            <stage> (cade în genunchi) </stage>
+            <p>. Fiul cel pierdut e pe prag... Şi seamănă, Doamne, seamănă cu dânsul... E1 e! Şi ce 'rumos, ce frumos! Se știe oare şi în cer ce frumos e băiatul meu... O fi acolo?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Nu, tată, e aici.</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <stage> (Clătinându-se) </stage>
+            <p>. Tu, aici? Tu? Cu ce drept, cu ce rost?</p>
+            </sp>
+        <sp who="#luca">
+            <speaker>LUCA</speaker>
+            <p>Cu rostul celui care a isprăvit icoana, cu dreptul	', cui vrea să te urmeze. Să te urmeze aici... Zugrav,. iconar, meşter, fiu!</p>
+            </sp>
+        <sp who="#vasile">
+            <speaker>VASILE</speaker>
+            <p>Profiră, Despină, oameni buni, lume întreagă, câtă. eşti: Vasile zugravul nu mai e singur şi fiul cel pier-dut e acasă!</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

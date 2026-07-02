@@ -1,0 +1,967 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000039" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Nuntă țărănească</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Nunta_țărănească">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1852">
+            <desc>1852</desc>
+          </event>
+
+          <event type="premiere" when="1848">
+            <desc>3 February 1848</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="alecu_leonescu" sex="MALE">
+            <persName>ALECU LEONESCU</persName>
+          </person>
+          <person xml:id="gaitanis_loghiotatos" sex="MALE">
+            <persName>CHIR GAITANIS LOGHIOTATOS</persName>
+          </person>
+          <person xml:id="mos_trohin_pacala" sex="MALE">
+            <persName>MOȘ TROHIN PÂCALĂ</persName>
+          </person>
+          <person xml:id="ilenuta" sex="FEMALE">
+            <persName>ILENUȚA</persName>
+          </person>
+          <person xml:id="frunza" sex="MALE">
+            <persName>FRUNZĂ</persName>
+          </person>
+          <person xml:id="un_vornicel_de_nunta" sex="MALE">
+            <persName>UN VORNICEL DE NUNTĂ</persName>
+          </person>
+          <person xml:id="un_privighitor" sex="MALE">
+            <persName>UN PRIVIGHITOR</persName>
+          </person>
+          <person xml:id="tarani">
+            <persName>ȚĂRANI</persName>
+          </person>
+          <person xml:id="tarance" sex="FEMALE">
+            <persName>ȚĂRANCE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000039"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Nuntă țărănească</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ALECU LEONESCU</role>
+        </castItem>
+        <castItem>
+          <role>CHIR GAITANIS LOGHIOTATOS</role>
+        </castItem>
+        <castItem>
+          <role>MOȘ TROHIN PÂCALĂ</role>
+          <roleDesc>fruntaș</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ILENUȚA</role>
+          <roleDesc>fata lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>FRUNZĂ</role>
+          <roleDesc>pușcaș</roleDesc>
+        </castItem>
+        <castItem>
+          <role>UN VORNICEL DE NUNTĂ</role>
+        </castItem>
+        <castItem>
+          <role>UN PRIVIGHITOR</role>
+        </castItem>
+        <castItem>
+          <role>ȚĂRANI</role>
+        </castItem>
+        <castItem>
+          <role>ȚĂRANCE</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>N-o lăsa, Frunză!… n-o lăsa să scape.</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Ce să nu las, cuconașule?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Prepelița.</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Ce prepeliță?… Prin sat vrei să ucizi prepeliți?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ei… măi badeo! se vede că de azi-dimineață ai prins prepelița de coadă, dacă n-ai zărit-o mai dinioare cînd ne-a zburat înainte!</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Ian lasă, cuconașule! că doar n-am orbul găinelor.</p>
+            <p>Știu că prepelițe</p>
+            <p>Sînt multe prin sat,</p>
+            <p>Albe, drăgălașe,</p>
+            <p>Bune de vînat.</p>
+            <p>Dar acele paseri,</p>
+            <p>Nu s-ascund, nu zbor,</p>
+            <p>Ci stau făr’ de frică,</p>
+            <p>De-ți insuflă dor;</p>
+            <p>Și-n loc de-a le prinde,</p>
+            <p>Bietul vinător</p>
+            <p>Deseori se vede</p>
+            <p>Prins în lațul lori</p>
+          </sp>
+          <stage>ALECU:  (supărat)  Ei, ai vorbit de te-ai pripit.</stage>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>D-apoi vezi că bine zice moș</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>vrabia malai visează!… Așa și d-ta, cuconașule, de cînd ai scăpat de la dascalu Găitan, tot vînat vezi pe toate cărările.</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Mări, nu-mi mai pomeni de cațaonul cel de dascal, lua-l-ar năbădăicele! că m-am săturat de dînsul ca de mere acre.</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Că mare ciof îi, bată-l crucea!… Cît ți-i ziulica de mare, îl auzi răcnind prin ogradă: Mo Frunza! mo pușcași, nu mi lasa ta curcania si fuga pe porta, mo!… Parcă eu sînt pușcaș, ca să păzăsc curcanii lui! mînca-i-ar fripți să-i mănînce!</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>D-apoi eu, măi Fhinză, ce mai pățesc cu el de cînd mi l-a pus pe cap tatăl meu ca să mă procopsească!</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Ce să facă?… Să te pricopsească?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Toată ziua mă silește să zic: tipto, tiptis, tipti.</p>
+            <p>Ce necaz pe minei Ah, ce supărare!</p>
+            <p>Să zic toată ziua, tot în gura mare:</p>
+            <p>Tipto, tiptis,</p>
+            <p>Tiptis, tipti;</p>
+            <p>Pipto, piptis,</p>
+            <p>Piptis. pipti.</p>
+            <p>Ardă-l focu dascăli cum mă năcăjește</p>
+            <p>Ca să mă învețe greco-păsărește!</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Tipto, tiptis? ha, ha, ha! pare că se bat calicii în gură. Tipto, tiptis… ha, ha, ha.</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Apoi… pas de nu iubi mai bine vînatul la păsări, decît limba păsărească…</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Că ai și dreptate, cuconașule. Ce este mai frumos decît vînatul? O! ce bucurie</p>
+            <p>Simt în pept deodată,</p>
+            <p>Cînd văd pe cîmpie</p>
+            <p>Că mi se arată:</p>
+            <p>Căprioare fugătoare,</p>
+            <p>Prepelițe zburătoare,</p>
+            <p>Păsărele cîntătoare</p>
+            <p>Ce mă chem la vînătoare.</p>
+            <p>Atunci trag cu pușca, le culc la pămînt.</p>
+            </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Și eu trag ca tine; dar trag tot în vînt!</p>
+            <stage> (Chir Gaitanis strănută în culise, în stînga.) </stage>
+          </sp>
+          <stage>ALECU:  (răsărind)  Ai auzit, Frunză?</stage>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Ce?</p>
+          </sp>
+          <stage>ALECU: O prepeliță zburînd?  (Face cîteva pasuri spre fund și caută între culisele din stînga.)</stage>
+          <stage>FRUNZĂ:  (urmînd pe Alecu)  Zburînd?… ba strănutînd, vrei să zici.</stage>
+          <stage>ALECU: Oare ce dihanie se vede colo, dindosul gardului?… am s-o hultuiesc cu ploaie.  (Întinde pușca și trage.)</stage>
+          <stage>(Chir Gaitanis țipi între culise și zice „Amant me scotosen! Aman!”)</stage>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Na! c-ai făcut moarte de grec!</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Moarte de grec? ha, ha, ha. L-am lovit pe Gaitanis! ha, ha!… tipto, tiptis, ton elipsa.</p>
+            <p>SCENA II</p>
+            <p>ALECU, GAITANIS. FRUNZĂ</p>
+          </sp>
+          <stage>GAITANIS:  (întrînd prin stînga)  Ah! vah! me scotosan!  (Văzînd pe Alecu.)  A! esi, catergari, mi a traso cu tufechi la ipochimeno a me?</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Nu-i vina mea, chir dascale… Te-am luat de o capră sălbatică.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Capra, crapa! Se crapi me to capra su, me olo.</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Jupîne dascale…</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Zupine esti tu, mozicule; ego sinto loghiotatos! auzitu mu, mo?</p>
+          </sp>
+          <stage>ALECU:  (strîmbînd pe Gaitanis)  Auzitulu mo?</stage>
+          <stage>GAITANIS: Lasa, lasa, cateramene, că v-oi dreze eu pe amundoi chind a veni cuconul Leonescu, babacato dimitale de la Iasi… am si ți… am si ți…  (Strănută.)</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ișala!</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Și la mulți ani!</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Merzi la diavolo cu isala, che nu știu ține mi a mestecato piperi mesa is to tabacheri.</p>
+          </sp>
+          <stage>ALECU:  (încet, lui Frunză)  Eu i-am vărsat aseară o solniță întreagă.</stage>
+          <stage>FRUNZĂ:  (încet, lui Alecu)  Să-i fi pus și un pipăruș de cei roși.</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe ziți?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Cum? Zău, dascale, ți-a pus piper?</p>
+          </sp>
+          <stage>GAITANIS: Fă-te che nu stii, moțpanopulos țe esti… Da, a veni el tatato dimitale la moșia aițe…  (În parte.)  Am si-i trago un falanga ca la dascalo Chiriacos.</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Mări, hai, Frunză, la vînat, că iar i-au venit toanele ghiujului.</p>
+          </sp>
+          <stage>GAITANIS:  (furios)  Ghiuzi!… mi a ziso ghiuzi!  (Vrea să alerge după Alecu, dar se oprește văitîndu-se de șale.)  Aștepta si te ghiuzuesco eu, berbanti.</stage>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Nu te da, cașcaval!</p>
+          </sp>
+          <stage>GAITANIS: Cascavali!…  (Se răpede după Frunză.)</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Iuruș, palicari!… ha!</p>
+          </sp>
+          <stage>GAITANIS:  (cu deznădăjduite, in parte)  Kirie eleison! mi vine se turbezo!</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Hai, Frunză, mergi cu mine?</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Ba, nu pot, cuconașule, că-s vornicel de nuntă astăzi.</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Da cine se mărită?</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Fata lui moș Trohin, Ilenuța.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>I Ilenuța si marita?</p>
+          </sp>
+          <sp who="#frunza">
+            <speaker>FRUNZĂ</speaker>
+            <p>Dar, jupîne șiret; o ie Trotușan Mocanul.</p>
+          </sp>
+          <stage>GAITANIS: Chir Gaitanis, mozicole, nu sireto.  (În parte.)  Si marita!</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ei bine, Frunză, rămîi tu la nuntă, că oi veni și eu mai pe urmă să gioc o horă.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ba si merzi acasa, si înveți to țeaslovisu. Auzitu-mu?</p>
+          </sp>
+          <stage>ALECU: Auzitu-mu…  (în parte.)  Culcă-te pe acea ureche.</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Oriste?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>O priză de tabac… se paracalo.</p>
+          </sp>
+          <stage>GAITANIS: Taba… a…  (Strănută.)</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Megas postelnicos!</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe-a ziso?</p>
+            </sp>
+        <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Calispera, spera,</p>
+            <p>Cachisu imera;</p>
+            <p>File, ti mandata</p>
+            <p>Psomi che salata.</p>
+            </sp>
+        <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Am si-ți rupo to urechi</p>
+            <p>Che mi-a traso cu tufechi;</p>
+            <p>S-ai facuto frica mari</p>
+            <p>La voinico palicari.</p>
+            <stage> (împreună.) </stage>
+            </sp>
+        <sp who="#alecu #frunza">
+            <speaker>ALECU și FRUNZĂ</speaker>
+            <stage> (rîzînd) </stage>
+            <p>Vai sărmanu dascal!</p>
+            <p>Vezi-l cum pufnește.</p>
+            <p>Ochii se aprinde,</p>
+            <p>Nasu-i se roșește.</p>
+            </sp>
+        <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe blastamația</p>
+            <p>Țe enițaria</p>
+            <p>Zeu, crepo de țuda,</p>
+            <p>Crepo de mînia.</p>
+            <stage> (Alecu iesă rîzînd prin fund in dreapta; Frunză în stînga.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA III</head>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ghidi, ghidi, puschi nerusinato… Mi a scoso din țiținia! uf!… In țe vremi am azunso!… I puschi de baeți se ie la riso pe loghiotati!</p>
+            <p>I</p>
+            <p>S-a dus vremea țea frumosa</p>
+            <p>Chind un dascalos grecos</p>
+            <p>Inarmat cu-o varga grosa</p>
+            <p>Paradosa faneros:</p>
+            <p>Aritmetichi,</p>
+            <p>Me gramatichi,</p>
+            <p>Che istorichi</p>
+            <p>Ap’edo ‚p echi.</p>
+            <p>Ma acum lumea se stricai</p>
+            <p>Si de rîs noi am remas;</p>
+            <p>Câți baeții, fara frica,</p>
+            <p>Ne dau nouă piste nas!</p>
+            <stage> (Inainte chind intramo in scola cu sprințenele sburlite, toți baeții tremura ca varga… ca varga țe se clătină pe capa a lor; si chind zițeam odata: sopate diavole! nu auziai niți chirc. Pe urma chind chemamo vro unu ca se-si spuie matima, intra saptezeți de drați in el. (Făcînd ca un dascal grec în școală.) </stage>
+            <p>— Bre, Burduzane, ela do.</p>
+            <p>—</p>
+            <stage> (Făcînd ca școlarul.) </stage>
+            <p>Oriste didascale.</p>
+            <p>— Ela do; pes mu: Posa ine ta meri tu logu?</p>
+            <p>— Ta meri tu logu?. .. decapente!</p>
+            <p>— Decapente?… decapente fores na scasis, anoite. Și înțepeam se-l croiesc cu varga; che dos tu, che dos tu… păn’țe învața posa ine ta meri tu logu! Căți atunți:</p>
+            <p>II</p>
+            <p>Atunți varga pe spinare</p>
+            <p>Tipto, tiptis arata;</p>
+            <p>Si falanga la pițoare</p>
+            <p>Chiar din talpă-i învața</p>
+            <p>Aritmetichi,</p>
+            <p>Me gramatichi,</p>
+            <p>Che istorichi</p>
+            <p>Ap’edo ‚p echi.</p>
+            <p>Ma acum lumea se strica,</p>
+            <p>Si de ris noi am remas!</p>
+            <p>Căți baeții fara frica,</p>
+            <p>Ne dau nouă piste nas!</p>
+            <p>De ațeea vino lăcuste in țeara! de ațeea nu creste grio che papușoi. Ma țe stau eu de vorbesco de păpușoi, chind si marita Ilenuța! ah, kirie eleison! ea si marita cu altu țineva de prost, si eu remuni cu lacrime pe mustăți! Eu care o iubesco ca matia mu!… Eu care m-am calițito hranind-o cu roșcovi si cu halvas indirnetico!… Ama! o hi, bade Trohine… o hi, zupinesa Ilenuța!… n-a fi cum socotiți voi… mai sint si eu pe aițe… si nu laso se mi sufla niște țărănoi is to borsi mesa! Ohi, bade Trohine! mi esti dator cu 500 de lei, de asta iarna, si daca nu mi-i plați paraluți, tora, tora, gligora, peșin, pesin, am se-ți puno ecsecuția, si se-ți opresco nunta.</p>
+            <stage> (Bate la ușa lui Trohin.) </stage>
+            <p>Trohine, moi, Trohine, bre! ela do!</p>
+            <p>SCENA IV</p>
+            <p>GAITANIS, TROHIN</p>
+            <stage> (ieșind din casă) </stage>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Aud?… Cine mă cheamă?</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ia vino-ncoațe, mo.</p>
+          </sp>
+          <stage>TROHIN:  (în parte)  Găitanul m-o prins în laț…</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ma rog, zupune bade Trohine, cum îndrăznești se fați nunta, păn-a nu-mi plati ței ținți sute de lei?… ha?…</p>
+          </sp>
+          <stage>TROHIN:  (in parte)  M-o strîns cu ușa grecu, dar oi să mă fac surd.</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Auzitu-mu, ha?</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Cine? țapul cel mare care te-o împuns astă iarnă de-ai picat pe gheață?… o murit săracu! d-ta să fii sănătos!</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe țap?… Eu ți vorbesco de bani.</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Așa, așa! bietul Balaban… el săracu!…</p>
+          </sp>
+          <stage>GAITANIS: Ei! apoi să nu te fați zaratico?… Eu i zico bani, si el mi raspundi Balabani.  (Tare.)  Ținți sute de lei!…</stage>
+          <stage>TROHIN:  (în parte)  Zbeară tu, grecule, cît ți-a ținea gura…  (Tare.)  Aud?</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Unde-s banii mei?… Unde-i Ilenuța?</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Măriuța? baba Măriuța?</p>
+          </sp>
+          <stage>GAITANIS: Na tos! acum mi pomenește de baba Mariuța! Ma chind ai asurzito asa, bre, hondrochefale?  (Strigă tare la urechea lui Trohin.)  Ilenuța… Ilenuța… surdole!</stage>
+          <stage>TROHIN:  (răsărind)  Ho! că m-ai spăriet.</stage>
+          <stage>GAITANIS: Ho!…  (În parte.)  Mi a ziso ho, ca la vodia!…  (Furios.)  Esi, ise ho, bovole! ma ego ime loghiotatos, apo to Tenedosit auzitu-mu?… apo to Tenedosi! si am se-ți puno ecsecuția ca se-mi plătești datoria! auzitu-mu? Ma duco s-aduco aițe pe privighitori… Auzitu-mu?… Privighitori!…</stage>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Că privighitorile. nu mai cîntă acum, jupîne.</p>
+          </sp>
+          <stage>GAITANIS: Ba chinta, chinta.  (Bătînd în pumni.)  Si ai se chinta si tu, acus… Acus!</stage>
+          <stage>TROHIN:  (în parte)</stage>
+          <stage>GAITANIS:  (bătînd în pumni)</stage>
+          <stage>(Împreună.)</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ai se chinta,</p>
+            <p>Ai se chinta</p>
+            <p>Si se maninți o plaținta</p>
+            <p>Chiparata</p>
+            <p>Si sarata</p>
+            <p>Cum n-ai muncat nițiodata!</p>
+            </sp>
+        <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Vai de mine!</p>
+            <p>Vai de mine,</p>
+            <p>C-a să-mi facă vro rușine!</p>
+            <p>Ce păcate!</p>
+            <stage> (bis) </stage>
+            <p>Ce păcate,</p>
+            <p>Vai de mine-mi cad în spate!</p>
+            <stage> (Gaitanis iesă furios prin dreapta.) </stage>
+            <stage> (Se aud chiote de nuntași, în stînga.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA V</head>
+          <stage>TROHIN: Iaca și nuntașii!… Săracul de mine! am pățit-o tocmai astăzi, cînd îmi mărit fata!… și din păcate n-am nici un ban ca să mă pot plăti de grec, că am pus tot ce-am avut în zestrea Ilenuței. Doamne, Doamne! adică să te ferească Dumnezeu de holeră, de locuste și de… Găitani!  (Întră în casa lui.)</stage>
+          <div type="scene" n="6">
+            <head>SCENA VI</head>
+          <stage>(Doi vornicei de nuntă, cu pălăriile împodobite cu flori, intră din stînga, înainte, fiind în mini cîte un baston alb, cîte un colac și cîte un buchet de flori. După ei vine mirele încungiurat de fărani carii chiuiesc. Toți se opresc în mijlocul scenei, în fața casei lui Trohin. În vreme ce întră nuntașii, orhestrul cîntă aria nunții.) &lt;/desc&gt;</stage>
+          <stage>VORNICELUL:  (cătră mire)  Ei, măi Trotușane!… Iată-ne agiunși la casa Ilenuții!… Dar păn-a nu bate la ușa ei, să ne cînți un cîntic de cele bătrînești, de care ai auzit de la tată-tău.</stage>
+          <sp who="#trotusan">
+            <speaker>TROTUȘAN</speaker>
+            <p>Bucuros… Să vă cînt cînticul tătarului.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Dar, dar!</p>
+          </sp>
+          <sp who="#trotusan">
+            <speaker>TROTUȘAN</speaker>
+            <p>Apoi, zice că, pe cînd năvălea tătarii în țară, strămoșii noștri, care erau pui de viteji, le cînta așa, de pe ist mal a Nistrului:</p>
+            <p>I</p>
+            <p>Măi tătare, ține-ți calul!</p>
+            <p>Măi tătare, strînge-i frîul!</p>
+            <p>Măi tătare, lasă malul,</p>
+            <p>Nu cerca a trece rîul;</p>
+            <p>Că, pe crucea sfintei lege!</p>
+            <p>De voi doi, peste hotare.</p>
+            <p>Nimic, zău! nu s-a alege,</p>
+            <p>Măi tătare, măi tătare!…</p>
+            <p>Dacă tătarii era oameni de cuvînt și se întorcea înapoi, românii îi lăsa în pace; iar de nu, apoi strămoșii noștri le vorbea încă o dată cu binele și le zicea:</p>
+            <p>I</p>
+            <p>Mâi tătare, dă-ne pace!</p>
+            <p>Măi tătare, stăi, nu trece!</p>
+            <p>Măi tătare, nu mă face</p>
+            <p>Să-ți fărîm capul tn zece.</p>
+            <p>Că, de sus, de pe movilă,</p>
+            <p>De-oi zvîrli ghioaga cea mare,</p>
+            <p>Singur ți-oi plînge de milă,</p>
+            <p>Măi tătare, măi tătare!</p>
+            <p>După asta, dacă-l împingea păcatul pe dușman să treacă în țara noastră, apoi îl videa Dumnezeu! Românul perdea răbdarea, ridica ghioaga, și-l turtea pe tătar la pămînt, și-l da la corbi! Pe urmă-l prohodea așa:</p>
+            <p>III</p>
+            <p>Măi tătare, unde-ți e pala?</p>
+            <p>Măi tătare; unde-ți e calul?</p>
+            <p>Măi tătare, unde-ți e fala?</p>
+            <p>Nu ți-am spus să nu treci malul?</p>
+            <p>Nu știai tu, măi vecine,</p>
+            <p>Ce-i românul în turbare?…</p>
+            <p>Corbul mușcă-acum din tine,</p>
+            <p>Măi tătare, măi tătarei</p>
+          </sp>
+          <stage>TOȚI:  (chiuiesc vesel)  Să trăiești, Trotușane.</stage>
+          <sp who="#trotusan">
+            <speaker>TROTUȘAN</speaker>
+            <p>Noroc să deie Dumnezeu, ca să ne facem și noi ca strămoșii noștri!</p>
+          </sp>
+          <stage>TOȚI: Ura!… vornicelul: Hai de-acum să începem nunta.  (Se apropie de casa lui Trohin împreună cu cellalt vornicel și bate la ușă.)</stage>
+          <stage>(Orhestrul cîntă în surdină.)</stage>
+          </div>
+        <div type="scene" n="7">
+          <head>SCENA VII</head>
+          <stage>NUNTAȘII, TROHIN (ieșind pe pragul ușei)</stage>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Oameni buni, bine-ați venit!</p>
+            </sp>
+          <sp who="#vornicelul">
+            <speaker>VORNICELUL</speaker>
+            <p>Moșule, bine-am găsit!</p>
+            </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Ce vreți la bordeiul meu?</p>
+            </sp>
+          <sp who="#vornicelul">
+            <speaker>VORNICELUL</speaker>
+            <p>Să-ți agiute Dumnezeu!…</p>
+            <p>Sîntem oameni călători,</p>
+            <p>Călători și vînători,</p>
+            <p>Și cătăm o căprioară</p>
+            <p>Tinerică, sprintioară,</p>
+            <p>Cu-ochișori de porumbele,</p>
+            <p>Cu cosițele-n inele</p>
+            <p>Și cu salbă de mărgele.</p>
+            <p>Și-i frumoasă, vorbitoare,</p>
+            <p>De trup gingaș ca o floare,</p>
+            <p>Păsărică cîntătoare</p>
+            <p>Care cîntă, făr’ să zboare…</p>
+            <p>Rogu-te, moșule, spune:</p>
+            <p>N-ai văzut așa minune?…</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Ba am văzut-o, feții mei. Mai dinioare trecea pe aici și o intrat în casa mea. Așteptați să v-o aduc.</p>
+            <stage> (Întră înîntru și se întoarce aducînd o babă scurtă și urîtă.) </stage>
+            <p>Asta vă e minunea ce cătați?</p>
+          </sp>
+          <stage>TOȚI:  (rîzînd)  O!…</stage>
+          <sp who="#trotusan">
+            <speaker>TROTUȘAN</speaker>
+            <p>Ba, ferească Dumnezeu!… asta-i Știrba-Baba-Cloanța!…</p>
+          </sp>
+          <stage>TROHIN:  (rîzînd)  Vezi poznă! în loc să pun mîna pe-o căprioară, am pus mîna pe-o bufnișoară.  (Întrînd iar în bordei.)</stage>
+          <sp who="#vornicelul">
+            <speaker>VORNICELUL</speaker>
+            <p>Da mare hîtru-i moș Trohin! Ha, ha, ha!…</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Mare hîtru-i!</p>
+            <p>SCENA VIII</p>
+            <p>NUNTAȘII. TROHIN, ILENUȚA, ȚĂRANCE</p>
+          </sp>
+          <stage>TROHIN:  (ieșind inainte)  Iaca, măi flăcăi, căprioare sprintioare, păsărele cîntătoare, floricele frumușele… Pe care o cătați voi?</stage>
+          <stage>TROTUȘAN:  (alergînd la Ilenuța)  Pe Ilenuța, pe Ilenuța!</stage>
+          <stage>ILENUȚA:  (cu bucurie)  Trotușan!  (Vin amîndoi in fața scenei.)</stage>
+          <stage>(Împreună.)</stage>
+          <stage>(Aria „Căruța poștei”) &lt;/desc&gt;</stage>
+          <sp who="#trotusan">
+            <speaker>TROTUȘAN</speaker>
+            <p>Dulce iubită,</p>
+            <p>A mea ursită,</p>
+            <p>De-acum cît lumea vreu să trăiesc;</p>
+            <p>Căci în uimire.</p>
+            <p>De fericire,</p>
+            <p>În rai, cu tine, simt că plutesc!</p>
+            <stage> (Împreună.) </stage>
+            <p>Ah în uimire</p>
+            <p>De fericire,</p>
+            <p>În rai, cu tine, simt că plutesc! țăranii</p>
+            <p>Vezi ce uimire</p>
+            <p>De fericire,</p>
+            <p>În a lor suflet acum simțesc!</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
+            <p>A fi iubită</p>
+            <p>Ș-a ta ursită</p>
+            <p>E tot ce-n lume de-acum doresc;</p>
+            <p>Căci în uimire</p>
+            <p>De fericire,</p>
+            <p>În rai, cu tine, simt că plutesc!</p>
+            <stage> (Împreună.) </stage>
+            <p>Ahl în uimire</p>
+            <p>De fericire,</p>
+            <p>În rai, cu tine, simt că plutesc!</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vezi ce uimire</p>
+            <p>De fericire,</p>
+            <p>În a lor suflet acum simțesc!</p>
+          </sp>
+          <stage>VORNICELUL:  (dispărțindu-i)  Bine, bine; lasă că vă veți drăgosti mai pe urmă. Acum, hai să tragem o horă de nuntă.</stage>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Hora, hora! vornicelul: Vino, moș Trohine, de gioacă cu noi; hai, doar ți-i mai scutura din cele bătrînețe.</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Bucuros, feții mei! Hai sâ giucăm hora Ilenuței… știți ceea:</p>
+            <p>Hai, Ileană, la poiană,</p>
+            <p>Ileano, Ileană.</p>
+            <stage> (Orhestrul cîntă „Hora Ilenei”; toți se prind la gioc și cintă.) </stage>
+            </sp>
+          <sp who="#cor_general">
+            <speaker>COR GENERAL</speaker>
+            <p>Hai, Ileană, la poiană,</p>
+            <p>Ileano, Ileană!</p>
+            <p>Să săpăm o buruiană,</p>
+            <p>Ileano, Ileană!</p>
+            <p>Buruiana macului,</p>
+            <p>Ileano, Ileană!</p>
+            <p>Ca s-o dăm bărbatului,</p>
+            <p>Ileano, Ileană!</p>
+            <p>SCENA IX</p>
+            <p>Cei dinainte</p>
+            <stage> (jucînd) </stage>
+            <p>, GAITANIS, PRIVIGHITORUL</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ha, ha! voi chintați si zucați?</p>
+          </sp>
+          <stage>TROHIN:  (văzînd pe Gaitanis)  Na; c-am pățit-o, săracul de mine!</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Chintați tin Ileana is tin poiana… Ma nu trebui si chintați asa, dar ia asa:</p>
+            <p>Hai, țerane, la-nchisore,</p>
+            <p>Bade Trohine!</p>
+            <p>Cu butuți la pițore.</p>
+            <p>Bade Trohine!</p>
+            <p>Păn’ țe-i plați paraluți,</p>
+            <p>Bade Trohine!</p>
+            <p>A lui chir Gaitanuți,</p>
+            <p>Bade Trohine!</p>
+            <stage> (Hora se strică.) </stage>
+          </sp>
+          <stage>TOȚI:  (spărieți)  La închisoare!</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Neschi, la închisore sau la groso, cum ți-a plățea mai bine. Moi, privighitori, pune muna la gît a lui!</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Mă rog, jupîne dascale…</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Loghiotatos, bre!…</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Fie și ghiotatos… Nu-mi face o rușine ca asta, tocmai dinaintea satului.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Sat, mat, che pasat… nu mi pasa. Pune muna la gît a lui.</p>
+            <stage> (Privighitorul apucă pe Trohin de braț.) </stage>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Lasă macar pănă mîne, cucoane Găitane… pănă după ce s-a sfîrși nunta Ilenuței.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Nunta Ilenuții!. .. Oht!… De o suta de ori oht!… auzitu-mu? Plătești peșin indata? ori te puno la butuco.</p>
+          </sp>
+          <stage>TROHIN:  (în parte)  Butuc să te faci!  (Tare.)  Da-i păcat de Dumnezeu să strici bunătate de nuntă ca asta… Fă-ți milă macar de biata fată, dacă nu ți-i milă de bătrînețele mele… Ilenuțo, vino de-l roagă și tu, fata mea, doar s-a îndupleca.  (În parte.)  îndupleca-l-ar dracii!…</stage>
+          <stage>ILENUȚA:  (viind lîngă Gaitanis)  Chir Gaitanis, mă rog d-tale, nu te-ndura, fii cum te-arată chipul.</stage>
+          <stage>GAITANIS:  (în parte)  Acus sirata?  (Tare.)  Ohi, necredințosa șerpoaica țe esti; nu vreu! nu vreu se fiu ca obraz a mea.</stage>
+          <stage>(Arie „Of, of, of! ce supărare”, din „Peatra din casă”)</stage>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
+            <p>Of, of, of! te rog, ai milă</p>
+            <p>De-un sărman și de-o copilă!</p>
+            <p>Vezi că pling și suspin;</p>
+            <p>Fie-ți milă de-al meu chin!</p>
+            </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ba nu, nu, sirato, bal</p>
+            <p>Eu nu sint de dandana.</p>
+            <p>Se me-nseli cu amori</p>
+            <p>S-rapoi se-mi dai cu pițori,</p>
+            <p>Si de mine tu se rîzi</p>
+            <p>S-apoi se-mi fați bizi.</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
+            <p>Ah! te rog …</p>
+            </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Fuzi, nu vreu.</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
+            <p>Ah! te giur pe Dumnezeu,</p>
+            <p>Nu fi rău …</p>
+            </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Na, na, na!</p>
+            <p>Fevghe, fevghe, Satana!</p>
+            </sp>
+          <sp who="#ilenuta">
+            <speaker>ILENUȚA</speaker>
+            <p>Of, of, of! te rog, ai milă</p>
+            <p>De-un sărman și de-o copilă!</p>
+            <stage> (Cade în genunchi.) </stage>
+          </sp>
+          <stage>GAITANIS: Deziaba te culți la pamunto, che nu me mai inseli. Privighitori, unfla pe dimialui.  (Arată pe Trohin.)</stage>
+          <stage>(Privighitorul apuci pe Trohin ți vrea să-l ducă.)</stage>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Cucoane Găitane…</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Sopa, bre! La ispravniție!</p>
+            <stage> (Ilenuța rămîne plîngînd în dreapta. Trotuțan stă lîngă dînsa de o mîngîie. Gaitanis stă în stînga, în fața scenei, ți face senin privighitorului ca să ducă pe Trohin.) </stage>
+            <p>SCENA X</p>
+            <p>Cei dinainte, ALECU</p>
+            <stage> (în costum bogat de țăran, vine din fund și se întîlnește cu țăranii, în mijlocul scenei) </stage>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ce este, oameni buni?… Ce ați pățit?</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Ce văd? cuconașul!… Dumnezeu te-o trimis!</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Da ce este?</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Ce să fie, cuconașule? Ia, păcate! Jupînu Găitan vrea să ne strice nunta.</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Pentru că-i sînt dator cu 500 de lei.</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Auzi Găitanu dracului! Ia stați, stați, oameni buni.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe?… ține îndrăznește se poronțasca aițe?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>O dulosas tapinos.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Alecu!… me strae țărănești! Țe cauți aițe, catergari? ha?</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Am venit să gioc la nuntă, în ciuda mataluți.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Acus?… Mo, mo Frunza, pune muna pe dimialui si-l adă acasă cu de-a sila ca să învețe to matimatu.</p>
+          </sp>
+          <stage>ALECU:  (furios)  Auzi țapu!  (Cătră țărani.)  Pe dînsul, flăcăi!… Eu vă poroncesc!… Umflați-l pe sus și-l puneți în scrînciobul ista, de-l învîrtiți păn’ ce-a zice aman.</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe, țe?… bre!… țe puschi!</p>
+          </sp>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Dacă poroncește stăpînu… pe dînsu, copii!</p>
+            <stage> (Țăranii se arunc asupra lui Gaitanis, îl umflă pe sus ți-l pun cu de-a sila în scrînciob.) </stage>
+          </sp>
+          <stage>GAITANIS:  (zbuciumîndu-se furios)  Cum indrazniți, moi?… pe mine!… pe chir Tenedosi apo to Gaitani… Cacohrononachi mozițe…</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ha, ha, ha… Nu te da, palicari… Ela more… ha!</p>
+          </sp>
+          <stage>GAITANIS:  (în scrinciob)  Lasa, lasa, che a veni el babacato dimitale apo to Iasi… Auzito așa catergari!… Enas loghiotatos is to scrințobo?… Am se-ți trago țințizeți la. talpe.</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>La talpe?… mie!… Întoarceți scrînciobul, flăcăi.</p>
+            <stage> (Țăranii încep a întoarce scrînciobul, în vreme ce cîntă horul următor; Gaitanis se zbuciumi furios în scaun.) </stage>
+            </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <stage> (arie „Patruzeci de arnăuți”) </stage>
+            <p>Uța, uța, căpitane,</p>
+            <p>Uța, uța, Găitane.</p>
+          </sp>
+          <stage>TOȚI:  (bis)</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Aman, aman! che nu mai pot,</p>
+            <p>Aman, aman! che mor de tot.</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Uța, uța, căpitane,</p>
+            <p>Uța, uța, Găitane ș.c.l.</p>
+          </sp>
+          <stage>GAITANIS:  (răcnind)  Stați, che mi sfirsesco de zile.</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Opriți scrînciobul puțintel.</p>
+            <stage> (Țăranii opresc scrînciobul) </stage>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Uf, aman!</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ei! chir Gaitanis! mai vrei să strici nunțile oamenilor?</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Nu mai vreu se strico nimica… lasa se mi scoboru, che mi-a venito virtizelu la capo.</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Da’ banii lui moș Trohin îi mai ceri?</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ta pentacosia grosia?… Malista, malista îi țer, si acum peșin îi țer…</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Așa?… Ei! flăcăi, mai dați-l puțintel în scrînciob, că încă nu s-a săturat.</p>
+          </sp>
+          <stage>GAITANIS:  (turbat)  Blastamați… Diavoli… Enițari!…  (Țăranii tncep iar a-l intoarce, cîntînd ca mai înainte: „Uța, uța, căpitane” ș.c.l. Se aude în stînga, în fund, un răcnet de surugiu și pocnete. Țăranii opresc scrînciobul. Frunză iesă prin stînga.)</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Oare ce poștă s-aude?</p>
+          </sp>
+          <stage>GAITANIS: Țe posta?… Ha, cacoriziche! ți-i frica acumu che vine babacato de la Iasi.  (Frecindu-și mînile de bucurie.)  Ha, ha! a venito vremea se mi rasplatesco de toți. Am se vi aratu eu uța, uța.</stage>
+          <stage>ALECU:  (în parte)  Că de-a venit tată-meu… am pățit-o!</stage>
+          <stage>FRUNZĂ:  (întrînd)  Iaca, cuconașule, un răvaș de la Ieși.</stage>
+          <stage>ALECU:   (luînd răvașul)  Da… cine l-a adus? Ce văd?… Tatăl meu mă cheamă la Iași ca să mă trimită la Paris!… Vivat!… am scăpat de Gaitanis!… la Paris!… la Paris!…</stage>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Țe, țe?… la Pariso?… a nebunito che tataso!</p>
+          </sp>
+          <stage>ALECU:  (plin de bucurie)  Oameni buni! nu mai aveți nici o grijă de nimic, că eu mă fac nunul Ilenuții, și-i dau 2000 de lei zestre.</stage>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Să trăiești, cuconașule! și să-ți deie Dumnezeu sănătate și bucurie… Hura! strigați hura, copii! țăranii: Hura!</p>
+          </sp>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Cît pentru chir Gaitanis, fiindcă a îndrăznit a pomeni de bătaie la talpe… Îl osîndesc să steie în vîrful scrînciobului, păn’ce s-a sfîrși nunta.</p>
+          </sp>
+          <stage>GAITANIS:   (furios)  Satana!…</stage>
+          <sp who="#trohin">
+            <speaker>TROHIN</speaker>
+            <p>Ba nu, cuconașule; dacă socoți, să-l întoarcem în scrînciob pănă ce mi-a ierta cei 500 de lei.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Hai să-l dăm! hai să-l dăm!</p>
+          </sp>
+          <stage>GAITANIS:  (spăriet)  Ohi, ohi, stați, bre, varvari, che iertu tot.</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Așa mai vii de-acasă… dar să gioci cu noi.</p>
+          </sp>
+          <sp who="#gaitanis">
+            <speaker>GAITANIS</speaker>
+            <p>Ma nu stiu decît to piperi.</p>
+          </sp>
+          <stage>TROHIN: Lasă că te-oi învăța eu… Acuș, așteaptă!  (Ilenuța se apropie de Trohin și-i șoptește, arătînd pe Alecu.)</stage>
+          <stage>GAITANIS:   (vine în fața publicului)  Piperi cu tabaco am traso! nasu mi s-a rosito! ranito de pușca la ipochimeno am fost! în scrințobo m-am dațo! paraluți am prapadito! pe Ilenuța am prapadito, si acum se mai zoco si la nunta ei!… Eu! Gaitanis, loghiotatos, apo to ostrovi Tenedosi!… Bine zițe un filosofos, nu stiu care: mateotis mateotiton, ta panta mateotis!  (Se trage mai in fund.)</stage>
+          <stage>TROHIN:  (țiind pe Ilenuța de mînă, vine lingă Alecu)  Cuconașule! iaca hina d-tale care vrea să-ți facă o răgea.</stage>
+          <sp who="#alecu">
+            <speaker>ALECU</speaker>
+            <p>Ce dorești, hinișoară dragă? ilenuța: Să gioci cu mine, cuconașule.</p>
+          </sp>
+          <stage>ALECU: Din toată inima, dragă Ilenuță.  (În parte.)  Îi bine ca boierii să-și deie mîna și să lege frăție cu țăranii!</stage>
+          <stage>(Alecu ie pe Ilenuța ie mini și o aduce în fața publicului.)</stage>
+          <stage>ILENUȚA:  (cătră public)</stage>
+          <stage>(Jocul se începe. Alecu joacă cu Ilenuța, Trotușan cu o fată din sat, Trohin cu Gaitanis.)</stage>
+          <stage>(Cortina cade.) &lt;/desc&gt;</stage>
+        </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

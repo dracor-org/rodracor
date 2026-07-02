@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000005" xml:lang="ro">
   <teiHeader>
@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Wikisource</name>
-          <idno type="URL">https://ro.m.wikisource.org/wiki/Apus_de_soare</idno>
+          <ref target="https://ro.m.wikisource.org/wiki/Apus_de_soare">Wikisource</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>Publicat în 1909, la Editura Librăriei Socec &amp; Co</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1909">
+            <desc>1909</desc>
+          </event>
+          <event type="premiere" when="1909-02-04">
+            <desc>Premiera a avut loc pe 4 februarie 1909, la Teatrul Național din București.</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -221,14 +229,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1909">
-        <desc>1909</desc>
-      </event>
-      <event type="premiere" when="1909-02-04">
-        <desc>Premiera a avut loc pe 4 februarie 1909, la Teatrul Național din București.</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000005" passive="http://www.wikidata.org/entity/Q23747521"/>
     </listRelation>
@@ -2042,7 +2042,7 @@
             <speaker>OANA</speaker>
             <p>Împotriva lui Bogdan... ȘTEFAN</p>
             <stage>(sare în sus)</stage>
-            <p>: Ce?</p>
+            <p>Ce?</p>
           </sp>
           <sp who="#oana">
             <speaker>OANA</speaker>
@@ -3419,7 +3419,7 @@
             <speaker>OANA</speaker>
             <p>Se vede că tata cine-o fi fost a fost ostaș. ȘTEFAN</p>
             <stage>(se scoală într-o rână)</stage>
-            <p>: Da... și ce ostaș!</p>
+            <p>Da... și ce ostaș!</p>
           </sp>
           <sp who="#oana">
             <speaker>OANA</speaker>

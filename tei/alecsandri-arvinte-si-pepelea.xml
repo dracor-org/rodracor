@@ -1,0 +1,1483 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000087" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Arvinte și Pepelea</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Arvinte_%C8%99i_Pepelea">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1882">
+            <desc>1882</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="mandica">
+            <persName>MĂNDICA</persName>
+          </person>
+          <person xml:id="pepelea">
+            <persName>PEPELEA</persName>
+          </person>
+          <person xml:id="mandita">
+            <persName>MĂNDIȚA</persName>
+          </person>
+          <person xml:id="arvinte">
+            <persName>ARVINTE</persName>
+          </person>
+          <person xml:id="pepeplea">
+            <persName>PEPEPLEA</persName>
+          </person>
+          <person xml:id="pepele">
+            <persName>PEPELE</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000087"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Arvinte și Pepelea</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>MĂNDICA</role>
+        </castItem>
+        <castItem>
+          <role>PEPELEA</role>
+        </castItem>
+        <castItem>
+          <role>MĂNDIȚA</role>
+        </castItem>
+        <castItem>
+          <role>ARVINTE</role>
+        </castItem>
+        <castItem>
+          <role>PEPEPLEA</role>
+        </castItem>
+        <castItem>
+          <role>PEPELE</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>PEPELEA, MĂNDICA (după ușă)</stage>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Cine-i acolo?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>EU... Pepelea... Ursitul tău, Măndică!</p>
+            <p>Eu, Pepelea din poveste,</p>
+            <p>Eu, românul drăgălaș,</p>
+            <p>Cum n-a fost și nici nu este</p>
+            <p>Altu-n sate și-n oraș!</p>
+            <p>Eu, nepotul lui Pâcală,</p>
+            <p>Care-n orice timp și loc</p>
+            <p>Râd de proști, râd de Tândală</p>
+            <p>Și de dracul îmi bat joc.</p>
+            <p>Multe fete după mine</p>
+            <p>Zac pe coaste și oftez;</p>
+            <p>Dar eu numai pentru tine</p>
+            <p>Inimioara mi-o păstrez.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Tu ești, Pepeleo?... Ce cați?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Am venit să-ți spun că-mi ești drăguță ca ochii din cap.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Așa să trăiești?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Să n-am parte de moșu-tău, giupânu Arvinte, de-ți spun gugoși... Da deschide ușa, Măndico, să ne vedem la față.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Nu pot, că m-o închis moșu-meu cu cheia...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Elei!... și de ce te-o închis?</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Cică să nu mă fure zmeii.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Mânca-1-ar zmeoaicele, ghiuj afurisit!... Și ce faci tu acolo singurică?</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Cos!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Rochița ta de nuntă?</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Ba nu, antereu lui moș Arvinte...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Iar îl cârpești?... De când te știu, alta nu faci... Mai dăunăzi i-ai scos mânicile ca să-i pui spete.</p>
+          </sp>
+          <sp who="#mandita">
+            <speaker>MĂNDIȚA</speaker>
+            <p>Acum i-am scos spetele ca să-i fac poale.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ha, ha, ha!... O s-agiungă vestit în țară antereu lui Arvinte, mânca-1-ar guzganii!</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Pe cine?... pe antereu?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba! pe moșu-tău, că mare zgârcit îi! Îi în stare să taie un fir de mălai în opt... MĂNDICA</p>
+            <stage> (râde) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Măndică!... Știi una?</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Te-am cerut ieri dimineață la dânsu.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Elei! și ce ți-o răspuns ?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>M-o trimes dracului pomană.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Da pentru ce?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cică nu-s de neam mare.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Auzi!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>De-aceea am hotărât să-i gioc una și bună...</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ce m-a sfătui dracu.</p>
+            <stage> (Se aude afară tușind și strănutând.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Iaca vine strigoiu.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Fugi iute, să nu te găsască aici!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>M-am dus... Să ne videm cu bine, Măndica! Pe unde să ies ca să nu mă-ntâlnesc cu el? Ha! pe fereastă... dos la față.</p>
+            <stage> (Sare pe fereastă, în timp ce Arvinte întră prin fund.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <stage>(Strănută.)</stage>
+          <stage>(Strănută.) Ha !... ian așa... și la anu cu bine!... (Își suflă nasul.) Măndică!... (Se apropie de ușa din dreapta.) Măndică!... Nu răspunde, drăcoaica... Se vede că-i mânioasă c-am închis-o, în odaie... Apoi dă!... cu fetele... vorba ceea... paza bună ferește primejdia ră... Dumneei, giupâneasa Măndica, era în plecare să se deie în dragoste cu pușchiu cel de Pepelea... un târâie-brâu, care-și bate gioc de toată lumea!... Atunci s-agiungă... (Se depărtează de ușă.) L-am întâlnit mai dăunăzi și i-am zis să-mi vândă casa asta, în care șăd acu de doi ani... îi casa lui, hoțu! Cum aș face să i-o ieu pe nimica?... Să-1 port cu vorbe, că l-oi însura cu Măndica, pană ce-oi mântui târgu... ș-apoi, de spate și pe uș-afară. Ha!... iată-1... cică, când vorbești de lup, lupu cât cole!...</stage>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <stage>ARVINTE și PEPELEA</stage>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bună dimineața, giupâne Arvinte!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ha! ha!... ai vinit, berbantule, ca să sfârșim tocmala pentru casă?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Așa, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Fie!... cu toate că n-am nevoie mare de bordeiu tău... însă fiindc-am fost bun prietin cu tată-tău...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>De-aceea ai vre să-mi iei casa pe nimic?...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Las’ nu mai lehăi, după cum ți-i obiceiu!... Cât cei pe hardughia asta?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cât dai d-ta?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cât să-ți dau? Casa-i dărăpănată... are trebuință de meremet... streșina-i putredă...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Vra să zică, nu-ți place?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Să ne-nțălegem, fătul meu... Eu primesc să fac o jertfă, cheltuind cu meremetu; însă banii ce-oi cheltui să fie socotiți drept prețu casei... Te primești așa?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bună tocmală!... Dar ceva adalmaș?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>O baniță de nuci uscate... hai, treacă de la mine; unde-o mers mia, meargă și suta...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bunătatea d-tale!... însă un lucru strică...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Care?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu-mi plac nucile !...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Nu fi prost, măi!... O baniță de nuci vechi, de șase ani... Nu scăpa chilipiriu din mână.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba nu așa, giupâne!... Almintire... Dă-mi pe Măndica adalmaș!... Vrei?</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (în parte) </stage>
+            <p>Auzi hâtru!... Să-i dau bunătate de fată, nouă-nouță, pe-o hardughie veche...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ce zici, giupâne? Ne lovim cu târgu?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ți-i dragă fata, hain?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Dragă, de mor... Mi-o dai de nevastă?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Om vide... om vide... Hai să facem zdelca mai întâi.</p>
+            <stage> (Scoate hârtie și călămări din saltarul mesei.) </stage>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (în parte) </stage>
+            <p>Umblă cu mâța-n sac, ghiujul... Aține-te, Pepeleo!...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Iaca tot ce trebuie pentru scris!... Unde mi-am pus ochelarii ?...</p>
+            <stage> (Îi caută peste tot locul.) </stage>
+            <p>Unde mi-am pus ochelarii?</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (râzând) </stage>
+            <p>Nu-i mai căta degeaba, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>I-ai găsit?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ce să-i găsesc, că-i ai pe nas.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Oare?... Se vede că de mult ce-am strănutat...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ai prins orbu găinilor...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cine? eu?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba! ochelarii!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (în parte) </stage>
+            <p>Ghidi, obraznic !...</p>
+            <stage> (Tare.) </stage>
+            <p>Pepelaș dragă, știi carte?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Știu.</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (în parte) </stage>
+            <p>Păcat!...</p>
+            <stage> (Tare.) </stage>
+            <p>Facem zdelca?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Facem!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Prea frumos! Iaca scriu.</p>
+            <stage> (Scrie.) </stage>
+            <p>„Să fie știut, prin acest zapis de vecinică vânzare, că eu, Pepelea, am vândut d-sale, giupânului Arvinte, casa mea ce-o am de la părinți și că am priimit toți banii...”</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ce bani? N-am luat nici o para...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Așa-i forma, fătu meu!</p>
+            <stage> (scrie) </stage>
+            <p>„și că am priimit toți banii, în galbini împărătești, cu zimți, fără ca să-mi mai rămâie cuvânt de-a întoarce vrodată tocmala făcută”.</p>
+            <stage> (Vorbind.) </stage>
+            <p>Bun e așa?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bun!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Vin' dar de iscălește!</p>
+          </sp>
+          <sp who="#pepeplea">
+            <speaker>PEPEPLEA</speaker>
+            <p>Bucuros! însă...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Să vezi d-ta, giupâne! Bietu răposatu tată-meu mi-a lăsat cu limbă de moarte că, de-a fi să-mi vând casa vrodată, să-mi păstrez în stăpânire cuiu ist mare din părete.</p>
+            <stage> (Arată cuiul de lângă ușă.) </stage>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce vorbă-i asta!...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Poronca tatii... n-am ce face!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ei! ș-apoi ?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Apoi mai adauge d-ta în zdelcă ce ți-oi zice eu... scrie...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Da bine, măi, la ce-a să-ți folosască ție un cui în părete?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>La nimic... doar numai să am unde să-mi anin căciula când oi vini la d-ta.</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (în parte) </stage>
+            <p>Prostu-i, sărmanu!</p>
+            <stage> (Râde încet.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ei! scrii?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Scriu, scriu... spune.</p>
+            <stage> (Pufnește de râs.) </stage>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (dictând) </stage>
+            <p>„D-lui, giupânu Arvinte, se leagă cu giurământ de afurisenie...”</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (în parte) </stage>
+            <p>Giurământ!!... de afurisenie!!...</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (dictează) </stage>
+            <p>„să lase în stăpânirea me cuiu cel mare din păretele din dreapta, fără ca d-lui să se poată atinge de el și fără ca să se împotrivească vrodată la orice aș vra eu să fac cu pomenitul cui”. Ai scris?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Am... Na! iscălește!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bucuros!...</p>
+            <stage> (Ia condeiul.) </stage>
+            <p>Dar îmi dai pe Măndica?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ți-o dau!... Pune-ți talpa gâștei pe zdelcă.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba nu! Cheam-o aici pe Măndica...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>N-ai încredere în mine?... Eu, om bătrân, cu frica lui Dumnezău... și care am fost prietin cu răposatul?...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ei, fie! dacă-i așa... Iaca iscălesc.</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (examinând hârtia) </stage>
+            <p>Minunat!... Ai o slovă mai citeață chiar decât a dascălului Pricochi din Podu-Iloae.</p>
+            <stage> (Strânge hârtia în sân.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Acum, zi Măndicăi să vie!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Vrei numaidecât s-o iei?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Vreu!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Și ți-i dragă de tot?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>De tot!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Fără șagă?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Fără!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Dacă-i așa, adă mâna-ncoaci, să te duc la Măndica...</p>
+            <stage> (Ia pe Pepelea de mână și-l duce spre ușa din fund.) </stage>
+            <p>Da făgăduiești că-i ține-o bine!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ca pe-o floare!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ei, aferim, fătu meu!... Primește blagoslovenia me!</p>
+            <stage> (Ajungând la ușa din fund.) </stage>
+            <p>Și să ieși afară, hoțule! că-ți rup ciolanele!...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ce-ai pățit, giupâne?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>A! pușchiule!... ai chitit că ți-oi da bunătate de fată, nouă-nouță, în schimb pe-o hardughie veche ca bordeiu tău!... Ai chitit să întri în neamuri, mojâcule ?... Afară!...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Așa ți-i povestea, gârbovitule?... Ei! lasă, că eu ți-s popa tău de-acu-nainte... M-ai înșălat cu minciuni, păn' ce m-ai pus la mână, șafer bătrân ce ești...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Afară!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Am să-ți fac zile fripte, ca să pomenești de Pepelea cât îi mai trăi!...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Afară!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Oi ieși dacă mi-a place... Am drept să viu aici oricând... să-mi pun căciula-n cui, ș-am să viu zi și noapte... auzi tu, oftigosule? Ține-te bine de-acu... atâta-ți zic.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <stage>ARVINTE și MĂNDICA</stage>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Gata-i antereu?</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Gata!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Adă să-1 îmbrac, doar m-oi mai încălzi, c-am înghețat.</p>
+            <stage> (Ia antereul și închide iar ușa.) </stage>
+            <p>Ian să videm, bine-i cusut?</p>
+            <stage> (Îl dezvălește.) </stage>
+            <p>I-o scos spetele, de i-o făcut poalele... Minunat!... Spetele-s de prisos... Nu se văd... Ian să-1 îmbrac...</p>
+            <stage> (Trece după paravan și-l îmbracă.) </stage>
+            <p>Pepelea dracului... l-am pus la mână. Atâta numai mă îngrijăsc... cuiu cel din părete... pare-mi-se că-i un cârcioc...</p>
+            <stage> (Iese îmbrăcat cu antereul.) </stage>
+            <p>Îi dres cât se poate de bine... și mă prinde...</p>
+            <stage> (îmbracă giubeua.) </stage>
+            <p>Iaca cuiu cel cu pricina... dacă l-aș scoate din părete?... Nu se poate, că-s legat cu giurământ de afurisenie!...</p>
+            <stage> (Se scarpănă în cap cu ciudă.) </stage>
+            <p>Măi, măi, măi... să nu-mi fi pus opinca, berbantu cel de Pepelea?... Ian să merg să mă sfătuiesc cu popa Macovei din sat... El, om cu carte... știe multe... poate să mă dezlege de giurământ... Hai! bunu-i Dumnezeu, meșter îi Arvinte.</p>
+            <stage> (Își ia șapca și iese prin fund, în timp ce Pepelea întră pe fereastă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <stage>PEPELEA și ARVINTE</stage>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ține-te bine să nu dai rău!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Tu ești, antihârțule? Ce câți aici?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu băga de samă, giupâne!... Îmi întind rufele ca să se usuce.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce face? Strențele tale în casa me... Da aici îi spălătorie?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu știu eu... Cuiu meu...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cuiu tău, căpcăunule?</p>
+            <stage> (Arătând celalalt cui din fund.) </stage>
+            <p>Dar aista tot al tău îi? ha? Cum de-ai îndrăznit să te-atingi de el?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ascultă, giupâne!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (furios) </stage>
+            <p>Iaca ascult, Pasvantoglu ce ești!</p>
+            <stage> (Smuncește frânghia din cui și o azvârle afară.) </stage>
+            <p>Da ce te socoți tu?... Să-mi întinzi frânghii pin casă, ca într-un șopron... să-mi sparg capu la vârsta me?... Afară, pehlivanule!...</p>
+            <stage> (Îl împinge de spete.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu pune mâna că te afurisesc!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Afurisi-te-ar Zarzavela, să nu te mai văd în ochii mei!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (rezistând pe pragul ușii din fund) </stage>
+            <p>Îmi dai pe Măndica?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ian așteaptă să-ți dau eu o Măndică de corn peste cap.</p>
+            <stage> (Apucă un băț. Pepelea fuge râzând.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Sus, părinte, că se udă cărțile!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Anaftima să fii!</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <stage>(Arie din „Fra-Diavolo”: „Allons, mafemme, il faut dormir”)</stage>
+          <stage>(cască)</stage>
+          <stage>(În timp ce cântă, se gătește de culcat, se întinde pe pat îmbrăcat în antereu, se acopere cu giubeua, își trage o cergă pe deasupra, își vâră capul în perină și începe a horăi.)</stage>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <stage>ARVINTE și PEPELEA</stage>
+          <stage>(PEPELEA bate la ușă).</stage>
+          <stage>(ARVINTE tresare).</stage>
+          <stage>(PEPELEA bate mai tare).</stage>
+          <stage>(ARVINTE se întoarce în pat cu fața la părete).</stage>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Giupâne Arvinte!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cine-i acolo?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Eu, Pepelea!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Iar? Ce câți noaptea, tricoliciule?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Deschide-mi să ieu traista din cui!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Bată-te pârdalnicu, ș-ai agiunge în traista goală!... Auzi! să mă trezască din bunătate de vis!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Deschizi ușa azi?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Du-te naibei!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Dă-mi drumu, că stric ușa... Am treabă la cuiul meu.</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (sculându-se) </stage>
+            <p>Ei stai, spânzura-te-ai în el!</p>
+            <stage> (Se scoală numai în antreu și merge de deschide ușa.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bine-am găsit, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Hai! ie-ți degrabă strențele și piei, că răcesc!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (luându-și traista) </stage>
+            <p>Iaca!... frumos antereu porți... Ian întoarce-te puțin... Ha, ha, ha!... n-are spete... antereu de spătari... cată să și asuzi în el, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ieși! nu lungi vorba.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba nu, zău, când a face pui antereu, să-mi dai și mie unu de sămânță.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ieși! îți zic, obraznicule!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Îmi dai pe Măndica?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Măndica?</p>
+            <stage> (Scoate un papuc din picior.) </stage>
+            <p>Na ! Măndica, Strâmbă-lemne ce ești!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Parcă ești ciofu cel din bortă, c-un papuc și c-o...</p>
+            <stage> (Fuge râzând.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <stage>(Începe a horăi.)</stage>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <stage>ARVINTE și PEPELEA</stage>
+          <stage>(PEPELEA bate la ușă).</stage>
+          <stage>(ARVINTE urmează a dormi).</stage>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Giupâne Arvinte!... hei, giupâne Arvinte!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (cu spasmuri prin somn) </stage>
+            <p>Nu lăsa, măi!... nu lăsa!... prinde-1!...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>N-auzi, somnorosule?</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (deșteptându-se) </stage>
+            <p>Na!... Ce-i? foc?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Deschide ușa!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Iar tu ești, hurezule?... Ce vrei?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Dă-mi drumu să-mi pun căciula-n cui!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Du-te pârlei!</p>
+            <stage> (Se întoarce la părete.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu deschizi?... Te afurisesc! Te faci că dormi?... Ei! las' că-ți vin eu de hac!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (visând) </stage>
+            <p>Frânghie... spânzurătoare... Nu... da șăzi binișor, că mă gâdel... Zapis?... A!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (deschide fereasta) </stage>
+            <p>Ba că să zici... doarme, povârnitu... Acu-i vremea să-mi întind rufele.</p>
+            <stage> (Sare în odaie, trăgând o frânghie lungă după el, și merge de leagă un capăt de cui, celalalt capăt e legat afară de un copac. Fereastra rămâne deschisă.) </stage>
+            <stage> (ARVINTE dă semne că-i este frig și se ghemuiește în așternut) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Să-mi întind bine frânghia... așa... Acu să-mi spânzur averea...</p>
+            <stage> (Ia traista de pe fereastă și anină rufe albe pe frânghie de-a lungul scenei.) </stage>
+            <p>Iaca basmalele boieriului; iaca ștergarele boieriului; iaca năframa de vornicel de nuntă...</p>
+            <stage> (ARVINTE strănută) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Să-i fie de bine!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce dracu, vine un vânt de cele muscălești... iar m-o prins gutunariu.</p>
+            <stage> (Strănută.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Pe brațe, și la mulți ani!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Aud?</p>
+            <stage> (Se întoarce.) </stage>
+            <p>Piei, drace!... ce-mi văzură ochii?... fereasta-i deschisă!... Ce bulendre-s aiste?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ale mele!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Tu! iar?... tu!... ale tale!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Eu, iar eu, ale mele!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Pe unde-ai intrat, potlogariule?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Pe fereastă...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ș-ai lăsat-o dischisă în mez de iarnă!</p>
+            <stage> (Se scoală iute.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu cerca s-o închizi, că trece frânghia!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce frânghie?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Asta cu rufele... Am legat un capăt de copacu vecinului.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Breee!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Precum zici.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Breee! care vra să zică, tu ești stăpân aici, și eu îs de haimana?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cetește zdelca... cea cu cuiul... știi?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ghidi, șuier viclean !</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>N-o scoți în capăt cu mine, giupâne!... din două, una: ori rupem zapisu de vânzare, ori îmi dai pe Măndica... Alege!...</p>
+            <stage> (Se depărtează spre ușa din dreapta.) </stage>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (în parte, pe gânduri) </stage>
+            <p>Să rup zapisu?... nu-mi vine la socoteală!... să-i dau pe Măndica?... nu-mi vine la kerem!... Cum să fac?... Dac-aș găsi vrun tertip ca să schimb zdelca și să scot cuiu din ea... Dar ce tertip ?... Hoțu de Pepelea îi cârciocar de frunte... doar numai să-l îmbăt, să-i fur mințile... omul la chef multe face... Minunată idee... Ia să cerc!...</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (în parte, observându-l) </stage>
+            <p>Oare ce mormorosește ursu?</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (sculându-se) </stage>
+            <p>Pepelaș dragă!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Aud, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ție nu ți-i frig, fătu meu?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba-ncă cum frig!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Apoi dar... în loc de-a ne certa împreună, n-ar fi mai nimerit să ne-nțălegem ca doi oameni de treabă, încălzindu-ne c-o stacană de vin? Ce zici tu, Pepelaș dragă?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Zic că ai dreptate, giupâne! Dar unde să găsim vin la ceasu aista? Jidanii sunt în sărbători și crâșma-i închisă.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Unde să găsim vin?... Așteaptă... am un pui de Cotnari, care face cu ochiul...</p>
+            <stage> (în parte.) </stage>
+            <p>Am să-l fac cuc!</p>
+            <stage> (Scoate de sub pat un ulcior și două pahare.) </stage>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (în parte) </stage>
+            <p>Are gând rău, digeratu!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Iaca toiagu bătrâneților și nebunia tinereților!... vin' cole la masă, să înecăm ura în ulcioru ista și să închiem pace!</p>
+            <stage> (Se așează la masă și toarnă vin în pahare.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bucuros!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Da nu închidem fereastă, fătu meu?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba închidem, să nu ne zărească luna.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Luna? Ha, ha, ha !... Luna-i o șârată bătrână... Multe vede, multe știe și tot spăsită se pare.</p>
+            <stage> (Pepelea închide fereastă; apoi vine de se pune la masă în față cu Arvinte.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ei, giupâne! Îmi dai pe Măndica?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Nici vorbă nu-i... dar mai întâi să ciocnim câteva pahare!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Să ciocnim, giupâne! Noroc și într-un ceas bun.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Amin!</p>
+            <stage> (Bea.) </stage>
+            <p>A!... bun îi.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bun... c-a fi din bute.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce plătește mii și sute... Vezi tu, măi băiete!... omul căruia nu-i place vinu îi om rău... să fugi de el păn' la Odobești!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ș-acolo să te oprești.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Și să nu te mai urnești!... Eu unu, când beu, îmi vine tot să cânt.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cântă, giupâne, că trebuie să fi având glas bun!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cum nu?... Am fost dascăl la sfântu Pantilimon. Ascultă!</p>
+            <stage> (Râdică un pahar și cântă:) </stage>
+            <stage> (Arie din „Agachi Fluture”) </stage>
+            <p>Când vinul curge în pahare,</p>
+            <p>Când ochii vesel strălucesc,</p>
+            <p>Inima-mi saltă și tresare</p>
+            <p>De un fior dumnezeiesc.</p>
+            <p>Râdic un pahar</p>
+            <p>Plin, plin,</p>
+            <p>De vin de Cotnar</p>
+            <p>Plin, plin</p>
+            <p>Și mie vesel mi-1 închin.</p>
+            <p>Ah! ah! ah!</p>
+            <p>Glu, glu, glu, sufletul meu râde,</p>
+            <p>Glu, glu, glu, raiul se deschide,</p>
+            <p>Glu, glu, glu, glu, glu, glu</p>
+            <p>Și oricare chin Eu mi-1 înec în vin.</p>
+            <p>Chiu!</p>
+            <stage> (Chiuie și bea.) </stage>
+            <stage> (Împreună.) </stage>
+            <p>Glu, glu, glu, sufletul meu râde,</p>
+            <p>Glu, glu, glu, raiul se deschide,</p>
+            <p>Glu, glu, glu, glu, glu, glu</p>
+            <p>Și oricare chin</p>
+            <p>Eu mi-1 înec în vin.</p>
+            <p>Chiu!</p>
+            <stage> (Beu împreună.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Merge la inimă, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Meargă sănătos, că eu nu i-oi zice ho!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (în parte) </stage>
+            <p>Pare-mi-se că se cârpește moș neagu!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (cam amețit, în parte) </stage>
+            <p>Am să-1 fac să prindă prepelița de coadă. Las' pe mine!... Eu sunt Arvinte cel cu minte... Arvinte Crișu!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Giupâne, știi una?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Spune băiete, spune, c-apoi ți-oi răspunde!</p>
+          </sp>
+          <sp who="#pepele">
+            <speaker>PEPELE</speaker>
+            <p>Să trăiască moș Noe, cel care-o discoperit via!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Să trăiască... dar... tata Noe... să trăiască!... el o fost odată român... Cică el avea în corabia sa vreo zece antale de Cotnari de pe vremea lui Ștefan-Vodă... Crișu el!... Potopu îl boteza cu apă, el se boteza cu vin, de dimineață păn-în sară... ian așa...</p>
+            <stage> (Bea.) </stage>
+            <p>Be și tu, măi Pepeleo!... be, dă-i gât, că te lovesc cu ulcioru-n cap!... Ha, ha, ha!... mare înțălept om mai era tata Noe! El zicea așa: că numai trii lucruri pe lume sunt bune...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Care, giupâne?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Pânea cât de proaspătă, vinu cât de vechi și nevasta cât de tânără... Crișu el!... zăce antale de Cotnari! Avere, măi... comoară, băiete...</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (prefăcându-se că-i amețit) </stage>
+            <p>Hei! căci n-am fost și eu cu dânsu în corabie!...</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce-ai fi făcut, Pepelaș dragă?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Eu?... l-aș fi dat huștiuliuc! În baltă pe moș Noe, ca să-mi rămâie mie tot vinu!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (beat) </stage>
+            <p>Iaca!... bun!... huștiuliuc, tată Noe, huștiuliuc... știobâlc!... s-o dus!</p>
+            <stage> (Privește în jos.) </stage>
+            <p>Ian privește cum se duce-n fund... s-o duuus!... parapanghelos... ș-am rămas noi stăpâni pe corabie...</p>
+            <stage> (Se scoală și șovăiește.) </stage>
+            <p>Măi, că tulburată-i marea! Nu mă ține picioarele.</p>
+            <stage> (Se lovește cu capul de rufe.) </stage>
+            <p>Bate vântul în pânze... de aceea...</p>
+            <stage> (Cătră Pepelea.) </stage>
+            <p>Moș Noe... Ian ascultă, moș Noe!...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ce-i, nepoate?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Așa să trăiești... strânge-ți pânzele, că se pre clatină corabia!</p>
+            <stage> (Se sprijină de Pepelea.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Mergi de te razămă de-un catarg!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Iaca... m-am răzămat... moș Noe... Ian ascultă, moș Noe!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Aud, nepoate!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cunoști pe Pepelea?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Îl cunosc, îi un șiret de frunte !</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Șiret el, dar eu și mai și... pune-ți în gând, moș Noe, că i-am întors un șurub... Ha, ha, ha !...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>I-am luat casa pe nimica... ș-apoi mi ți l-am chefăluit frumos, de-am prifăcut zapisu cu cuiu...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cucui?... Unde ai cucui, nepoate?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Eu?... cucui...</p>
+            <stage> (Se pipăie.) </stage>
+            <p>Nu se află... Eu știu una și bună... Are înscris? bine! n-are? și mai bine! Vorba ceea: Cârc Frangoleo... huștiuliuc... s-o dus...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Bietu Frangolea!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Nu-1 mai căina... un blăstămat!... știi d-ta, moș Noe, că Frangolea mi-o cerut pe Măndica?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>O avut obraz?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Cică are un cui în păretele ista... spune-i să-și puie pofta-n cui!... Ha, ha, ha !...</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>I-am spus-o de mult... dar știi ce mi-o răspuns?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ba!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Mi-o răspuns că are de gând să se spânzure în cuiu lui, dacă nu-i vei da pe Măndica.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Spânzure-se sănătos!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba, ferească sfântul!... A zice lumea că l-ai ucis d-ta, în casa d-tale, și-i cade în criminal!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (buimăcit) </stage>
+            <p>Criminal!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ș-apoi, haite-n ocnă.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ocnă!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ș-apoi haite-n ștreang...</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (cam trezindu-se) </stage>
+            <p>În ștreang? eu? hait!</p>
+            <stage> (Rămâne încremenit.) </stage>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nepoate, nepoate!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Ce-i?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ia-n privește colo, la părete!... Iaca Pepelea... El își pregătește lațul să se spânzure... Nu lăsa!...</p>
+            <stage> (Se depărtează de Arvinte și merge de anină un laț în cuiul din păretele din dreapta.) </stage>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (frecându-și ochii) </stage>
+            <p>Se spânzură!... Cine se spânzură? Criminal! Ocnă!...</p>
+            <stage> (Dă cu ochii de Pepelea.) </stage>
+            <p>Piei, drace! Iaca!... Ce dihanie-i acolo?... Moș Noe?... Frangoleo!... Pepeleo!...</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (Lângă cui) </stage>
+            <p>Aud, cine mă cheamă?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Tu ești, Pepelaș! Ce faci acolo?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Nu băga de samă !... Mă spânzur!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (trezindu-se) </stage>
+            <p>Te spân... te spânz...?... Nu face una ca asta, că te-i căi mai pe urmă!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>N-am grijă!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Măi creștine!... da nu te-or îngropa!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Puțin îmi pasă!</p>
+            <stage> (Își pune lațul în gât.) </stage>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Da mă bagi pe mine-n belea... Mergi încalțe de te spânzură aiurea... nu în casa mea!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ba... aici îmi vine la socoteală... în cuiul meu... Rămâi sănătos, giupâne!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Da stai, măi nebunule!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Să ne videm cu bine în căldarea lui Scaraoțchi!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (oțerindu-se) </stage>
+            <p>Căldarea cea cu smoală clocotită!... Brrr! Nu da drumu lațului, pehlivanule... Spune, ce vrei?</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (cu glas slab) </stage>
+            <p>Îmi dai pe Măndica?</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Pe Măndica?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Răspunde, că mă duc pe ceea lume.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Stai, nu muri, că ți-o dau!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Cheam-o aici dar!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Iaca o chem, o chem... Măndico! Măndico!</p>
+            <stage> (În parte.) </stage>
+            <p>Bată-1 crucea, antihârț.</p>
+            <stage> (Tare.) </stage>
+            <p>Măndico! Măndico!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <stage>ARVINTE, PEPELEA, MĂNDICA</stage>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Vin' iute, că se spânzură Pepelea de doru tău!</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Vai de mine!... Pepeleo!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Aud, Măndică!</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Dacă mă iubești, nu te ucide!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Fie!... dar vin-aici să ne logodim!</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Nu pot vini, că-s dizbrăcată.</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Apoi dă inelu tău pintre ușă și primește pe-a meu.</p>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Na-ți-1!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Giupâne Arvinte, deschide ușa și-mi adă inelu!</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Eu să ți-1 aduc?</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Iute, iute, că strâng lațu!</p>
+            </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <stage> (deschizând ușa, în parte) </stage>
+            <p>Ce i l-aș strânge eu însumi, de nu mi-ar fi teamă!</p>
+            </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <stage> (mergând la ușă) </stage>
+            <p>Măndico, na inelu meu.</p>
+            <stage> (Îi dă inelul pintre ușă și ia inelul Măndicăi.) </stage>
+          </sp>
+          <sp who="#mandica">
+            <speaker>MĂNDICA</speaker>
+            <p>Ține și tu pe-a meu!</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Noroc bun! Logodna-i făcută... de-acum, moș Arvinte, să te văd c-o claie de nepoței.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Pepeli ca tine? Mă ferească Dumnezeu !</p>
+          </sp>
+          <sp who="#pepelea">
+            <speaker>PEPELEA</speaker>
+            <p>Ian las', moș Arvinte!... nu mai fi supărat, că după ce m-oi însura, prifac zapisu cum ți-o place... Acu hai să mai tragem o dușcă în sănătatea Măndicăi.</p>
+          </sp>
+          <sp who="#arvinte">
+            <speaker>ARVINTE</speaker>
+            <p>Fie, fătu meu!... de-acu, noroc și veselie!</p>
+            <stage> (Ia un pahar cu vin și chiuie:) </stage>
+            <p>Viața se trece cu grăbire,</p>
+            <p>Anii cei tineri se strecor;</p>
+            <p>Dar eu nu simt nici o mâhnire,</p>
+            <p>Căci mă țin tot pe urma lor.</p>
+            <p>Cu al meu pahar</p>
+            <p>Plin, plin</p>
+            <p>De vin de Cotnar</p>
+            <p>Plin, plin</p>
+            <p>Și mie vesel mi-1 închin.</p>
+            <p>Ah! ah! ah!</p>
+            <p>Glu, glu, glu, suiletul meu râde</p>
+            <p>etc. etc. etc.</p>
+            <stage> (Împreună.) </stage>
+            <p>Glu, glu, glu, sufletul meu râde</p>
+            <p>etc. etc. etc.</p>
+            <stage> (Ciocnesc împreună paharele și chiuiesc.) </stage>
+            <p>Cortina cade.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

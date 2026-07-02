@@ -19,18 +19,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Metropolitană Bucureşti</name>
-          <idno type="URL">http://digitool.bibmet.ro:8881/R/IH85DK942LLTKVSCH51LBUME9H576VP819MPYBIN3CBATN7EEC-06300?func=results-jump-full&amp;set_entry=000064&amp;set_number=000723&amp;base=GEN01</idno>
+          <ref target="http://digitool.bibmet.ro:8881/R/IH85DK942LLTKVSCH51LBUME9H576VP819MPYBIN3CBATN7EEC-06300?func=results-jump-full&amp;set_entry=000064&amp;set_number=000723&amp;base=GEN01">Biblioteca Metropolitană Bucureşti</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>1888, București</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1888">
+            <desc>1888</desc>
+          </event>
+          <event type="premiere" when="1888-03-11">
+            <desc>Premieră: 11 martie 1888, Teatrul Național București</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -113,14 +121,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1888">
-        <desc>1888</desc>
-      </event>
-      <event type="premiere" when="1888-03-11">
-        <desc>Premieră: 11 martie 1888, Teatrul Național București</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000006" passive="http://www.wikidata.org/entity/Q131984262"/>
     </listRelation>

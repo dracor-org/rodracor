@@ -1,0 +1,1455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000034" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Paracliserul</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Paracliserul_sau_Florin_și_Florica">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1849">
+            <desc>1849</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="florin" sex="MALE">
+            <persName>FLORIN</persName>
+          </person>
+          <person xml:id="florica" sex="FEMALE">
+            <persName>FLORICA</persName>
+          </person>
+          <person xml:id="colivescu" sex="MALE">
+            <persName>COLIVESCU</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000034"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Paracliserul</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>FLORIN</role>
+          <roleDesc>tânăr țăran</roleDesc>
+        </castItem>
+        <castItem>
+          <role>FLORICA</role>
+          <roleDesc>tânără orfană</roleDesc>
+        </castItem>
+        <castItem>
+          <role>COLIVESCU</role>
+          <roleDesc>paraclisier</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>FLORICA:  (iese din căsuță aducind un paner cu de-ale mîncării)  Florine! măi Florine!  (Chiuie:)  Florine, hăi!…</stage>
+          <stage>FLORIN:  (scoate capul pe bageacă)  Ce este, fa Florică? Te-o mușcat lupu, de țipi așa?</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce faci tu acolo de azi-dimineață, ca un lăstun?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Așăd fînu în podu șurii.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Da cu ce-l așăzi, măi bădică?… cu gura?… că țăpoiul îi gios.</p>
+          </sp>
+          <stage>FLORIN: Cu gura? Iaca, mă! m-o pîcîlit drăcoaica!  (Rîde prostește.)  Ha, ha, ha, m-ai pîcîlit, fa, mînca-ți-aș ochii!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Vezi mîncău, tot ar vre să-mbuce cîte ceva.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>D-apoi cum? doar eu nu-s fată mare, ca tine, să mă hrănesc cu răbdări prăjite.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ei! dacă nu ești fată mare, cobori iute, că ți-am adus papă. Ian cată colea, cîșșșș…</p>
+          </sp>
+          <stage>FLORIN:  (supărat)  Dec! mă cășăiești acu, ca pe lăstuni?… Așteaptă să-ți arăt eu cîș…  (Se coboară pe scară.)</stage>
+          <stage>FLORICA:  (în parte)  Se face că s-o mîniet, doar i-oi mai aduce ceva de sus, ca să-l împac.</stage>
+          <stage>FLORIN:  (viind pe scenă)  N-auzi, fa! știi tu că te prea întreci cu gluma?</stage>
+          <stage>FLORICA: Ce face, bădică?  (Arătînd panerul.)  Ia… malai și lapte dulce…</stage>
+          <stage>FLORIN:  (îmblînzindu-se)  Ba mă pîcîlești, ba mă cășăiești, ba mă… parc-aș fi agiuns în doaga palamariului de la sfîntul Onofrei.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Și vro două costițe de…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Costițe? de care?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>De cela… știi tu, care-i bălan la păr și grăiește ca tine.</p>
+          </sp>
+          <stage>FLORIN: Unde-s?  (Caută în paner.)  I! Doamne! Fa, Florico, știi una?</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba nici două.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Nici că se află pe fața pămîntului altă lighioaie de fată mai bună ca tine! Dar puțintică chileală adus-ai?</p>
+          </sp>
+          <stage>FLORICA:  (scoțînd o garafă din paner)  Așa-mi pare.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>I! Doamne! Florică, știi două?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba nici trii.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Cînd aș fi Pori-împărat, pe crucea me că te-aș lua giupîneasă-n casă. Dar ceva mere dat-ai după persic?</p>
+          </sp>
+          <stage>FLORICA:  (scoțînd mere din sin)  Numai vro șăse.</stage>
+          <stage>FLORIN:  (întinzînd mîna)  Las’ să le culeg eu.</stage>
+          <stage>FLORICA:  (lovindu-l peste mînă)  Nu pune laba.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>I! Doamne! Florică, știi trii?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba nici patru.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Mult îmi mai ești drăguță, fa hăi!… și, zău, mare dor mi-i să mă-nsor cu tine.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>D-apoi mie, Florine.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Dacă-i așa povestea, știi patru?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba nici cinci.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Hai să ne… punem la masă și să facem prînz de logodnă.</p>
+          </sp>
+          <stage>FLORICA: Bucuros. Vin’ cole, la umbra istui păr.  (Se așează amîndoi sub copac și întind masa pe iarbă.)</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Pe iarbă verde, ca la zi-ntîi mai…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Numai privighitori ne lipsesc…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ba nu, că ești tu aici, Florică.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Eu îs privighitoare? da tu?</p>
+          </sp>
+          <stage>FLORIN:  (cu mîndrie)  Eu? privighitor!  (Rîd.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Iaca masa, poftim la dînsa, cucoane…</p>
+          </sp>
+          <stage>FLORIN: I! ce de mai bielșug, mămulica me! Ian privește: mălai din rai, lapte dulce, ochii ți se duce…  (Strigînd ca laptarii:)  Lapte, lapteee!</stage>
+          <stage>FLORICA:  (dîndu-i un pumn)  Taci, mă, și mănîncă azi.</stage>
+          <stage>FLORIN: D-apoi coaste fripte! inima le-nghite!  (Bocind:)  Vai! săracu bălăel! mult era el frumușel! Cum l-o pîrlit pe spinare, și mi l-o pus în frigare, de strigă în gura mare: coviț, coviț, rău mă doare!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Lasă bocitul, mă, că-mi vine-a plînge. Parcă îngropi pe frate-tău.</p>
+          </sp>
+          <stage>FLORIN:  (atins)  Ce face?</stage>
+          <stage>FLORICA:  (tornîndu-i vin)  Zic să bei un pahar de vin, ca să nu te îneci.</stage>
+          <stage>FLORIN: Mulțămim, puiculiță, și poftă bună.  (Bea.)</stage>
+          <stage>(Hora „Arde-mi, frige-mi”) (Împreună.) &lt;/desc&gt;</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Fa, Florică, draga mea,</p>
+            <p>Parcă ești o viorea!</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Măi, Florine, dragul meu,</p>
+            <p>Parcă ești un paraleu!</p>
+            <stage> (Împreună.) </stage>
+            <p>Poftă bună, poftă bună!</p>
+            <p>Etc. etc. etc.</p>
+          </sp>
+          <stage>FLORIN:  (închinînd)  Ei! să trăiești, Florico, după cum dorești! și la anu cu bine să deie Dumnezeu.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Mulțămim, bădică.</p>
+          </sp>
+          <stage>FLORIN: Să te văd cu bujori în față și cu copil în brațe.  (Bea)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Înghite-Agachi, vîrtos.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Na și ție! Bea de te răcorește!</p>
+          </sp>
+          <stage>FLORICA:  (bînd)  Noroc bun, Florine! să te văd cu flori la ureche.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Pușche pe limbă-ți… Așa că-i bun, fa? Lunecă pe gît ca un șărpe. Să-l tot bei și să mai cei.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>A fi, că doar îi de cel de Cotnâr cu cercuri de fer.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>De Cotnar?… I! că nu mă pot face și eu o bute, să mă cercuiești tu cu brațele tale!</p>
+          </sp>
+          <stage>FLORICA:  (sculîndu-se)  Bute, tu?… Da nu vezi că-ți lipsește o doagă.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Că de-acu poți zice tu cîte ți-o plăcea. Am ospătat de-agiuns, slavă Domnului!… Cine mi-o dat azi să-mi deie și mîni.</p>
+          </sp>
+          <stage>FLORICA:  (strîngînd masa)  Ei! acu ce mai facem? că sîntem chiar de capu nostru, de cînd o murit biata cucoana Tudosia, stăpîna noastră, Dumnezău s-o ierte!</stage>
+          <stage>FLORIN: Așa sărmana!… De-o săptămînă de cînd am îngropat-o, am rămas noi doi stăpîni în casa ei, și, zău, de cînd nu mai am pe nime în capu meu, ca să mă silească la treabă, m-o apucat o sfîntă de lene, de mi se rup fălcile. Ca… a…asc toată. ziulica și do…o…orm toată nopticica.  (Cască.)</stage>
+          <stage>FLORICA:  (cu jale)  Sărmana cucoană! mare bună o fost cu noi cît o trăit! .</stage>
+          <stage>FLORIN:  (întinzîndu-se)  Dumnezeu s-o odihnea…a… scă!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ea ne-o crescut de mici și ne-o îngrijit ca pe copiii ei. Acu am rămas cuc și nu știm ce să facem cu averea ei.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Da n-o lăsat-o nimărui cu limbă de moarte?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Nu. Tot ce știu îi că, după moartea ei, o vinit de la giudecătorie de-o ridicat din casă cîte hîrtii s-o găsit. Poate să fie ceva scris în ele de stăpîna noastră.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>A fi, n-a fi, nu ne privește pe noi. Treaba noastră îi să ne-ngrijim de toate și să le păstrăm în bună stare, păn’ ce-a vini vro rudă de-a răposatei ca să ieie averea. Helbet! s-a găsi el cineva pe lume care s-o clironomisască.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Bani să fie, mușterii nu lipsesc.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Vorba ceea: la stupu de miere, roi de muște.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ei! da păn-atunci ce facem noi, Florine?</p>
+          </sp>
+          <stage>FLORIN: Pănă cînd? Păn’ la ziua cununiei noastre?  (Se apropie de Florica.)  Ia… ne dismierdăm, fa, ne sărutăm ca să ne deprindem cu măritișu.</stage>
+          <stage>FLORICA:  (depărtîndu-se)  Degrabă ți-a fi?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>D-apoi cum? N-o hotărît răposata ca să-mi fii nevastă?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Așa este, nu zic ba, dar…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ce dar, ce dar?… tocmala sfîrșită, nu se mai încape vorbă. Vin-încoaci, nevastă, de mă pupă.</p>
+          </sp>
+          <stage>FLORICA:  (rîzînd)  Iaca, mă! poroncește parc-ar fi Ciubăr-Vodă.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Nu vrei? Nu te supui de bună voie? Vrei poate cu de-a sila?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Cearcă, dacă poți.</p>
+          </sp>
+          <stage>FLORIN: Dacă pot? Ian așteaptă, leliță.  (Se răpede ca să prindă pe Florica.)</stage>
+          <stage>FLORICA: Șăzi binișor, măi.  (Fuge primpregiurul copacului.)</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ba nu, te-oi învăța eu…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Atunci s-agiungi tu cînd mă-i prinde.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Degeaba fugi, că n-ai să scapi.</p>
+          </sp>
+          <stage>FLORICA:  (apucînd țepoiul)  Să nu vii, că te ieu în țăpoi.</stage>
+          <stage>FLORIN:  (oprindu-se)  Lasă țăpoiu, fa.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba nici gîndesc.</p>
+          </sp>
+          <stage>FLORIN: Nu? nu? Ce? socoți poate că mă tem?  (Se răpede.)  Ghidi, șopîrlă ce ești…</stage>
+          <stage>FLORICA:  (împungând cu țepoiul pe Florin)  Ha, ho, ha, ho, bălan, ho…</stage>
+          <stage>FLORIN: Încet, fa, că mă gîdili.  (Se lipește rîzînd de copac.)</stage>
+          <stage>FLORICA:  (înfige coarnele țepoiului în copac și prinde pe Florin între ele)  Na că te-am prins eu, în loc să mă prinzi tu. Te mai lauzi acu? Mai poroncești, măi badeo?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Nu mai zic nimica… dă-mi bună pace.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba nu, am să te țin aici păn’ disară.</p>
+            </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <stage> (mînios) </stage>
+            <p>Aici? în coarnele țăpoiului?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Așa, ie-mă și tu în coarne, dacă poți.</p>
+            <stage> (Se aude pe după zaplaz glasul lui Colivescu cîntînd: „Pa, vu, ga, de, ni, ghe, pa”.) </stage>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Auzi? Vine pălămariulde la Sfîntu Onofrei… Dă-mi drumu, Floricuță dragă, că mă giur să fac ce-i vra.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Să n-ai parte de bunică-ta?</p>
+          </sp>
+          <stage>FLORIN: Să n-am!  (În parte.)  Tot îi moartă.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ei bine. Te prinzi să-mi torci un fuior păn’ disară?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Un fuior? eu? Ferească sfîntu!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Nu vrei? Dacă-i așa, șăzi aici să te vadă pălămariu.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ei, mă prind.</p>
+          </sp>
+          <stage>FLORICA:  (dîndu-i drumul)  Acu mai vii de-acasă. Na, du paneriul ista sus și să mi te-htorci cu fuioru la brîu. Auzi?</stage>
+          <stage>FLORIN:  (rușinos)  Aud…  (Ia panerul.)  Ei! las’, leliță, că mi-i fi tu nevastă într-o zi…</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Hai degrabă la furcă.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Iaca mă duc, mă duc… Încet, că nu dau tătarii.</p>
+          </sp>
+          <stage>FLORICA:  (mînîndu-l cu țepoiul)  Hăis, tălășman… ța, bourean.</stage>
+          <stage>FLORIN:  (suindu-se în cerdac)  Te-oi tălășmăni eu cînd mi-i cădea la mînă.  (Întră în casă.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ha, ha, ha, ha; o pățit rușinea flăcău! Ha, ha, ha, are să toarcă ca babele. Ha, ha. ha.</p>
+            <p>SCENA II</p>
+            <p>FLORICA, COLIVESCU</p>
+            <stage> (intrînd pe portița din fund) </stage>
+          </sp>
+          <stage>COLIVESCU:  (gîngav)  Iaca! ce-mi văzură ochii! Florica cu țăpo… poiu-n mînă? Ce-ai pă-pățit, Florico?</stage>
+          <stage>FLORICA:  (îngînîndu-l)  N-am pă-pățit nimica, Colivescule.  (Razimă țepoiul de copac.)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Am crezut că faci războ-boi cu, cu, cu, cu…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Cu cine? cu cucu? N-ai gîcit.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ei! iar ai început a-ți ba-bate gioc de mine.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Eu?… să-mi ba-bat gioc?… Nu se află.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Da, da… Mă îngîni pentru că mi se leagă limba cînd te văd… Dragostea mă gîngăvește, și tu n-ai nici un pi-pic de milă de-un pă-păcătos care se usucă pentru tine.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ești păcătos? Dumnezău să-ți ierte păcatele și să nu mai fie vorbă.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Da de ce să nu mai fi-fie vorbă? că doar nu-s gîngav totdeauna… Numai cînd sînt cu tine mă apucă.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce te-apucă? gîngăvia, ori cepeleagu?</p>
+          </sp>
+          <stage>COLIVESCU:  (supărat)  Na și alta acu!… cică-s cepeleag… ș-apoi?… Nu-s și eu ficior de oa-oa…</stage>
+          <stage>FLORICA:  (rîzînd)  De oa-oa?</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>De oameni. Nu-s și eu bun de însurat?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Însoară-te, cine te oprește?</p>
+          </sp>
+          <stage>COLIVESCU:  (oftînd)  Ah! Florico, cînd ai vra tu să fii pa-pa-pa-la-ma-ma…</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Pa-pa-la-ma-ma? Ce mîncare-i aceea?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Palamareasă.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Da ce? Ai agiuns acu palamar? Parcă erai numai clopotar.</p>
+          </sp>
+          <stage>COLIVESCU:  (cu mîndrie)  M-am suit în gard.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>în gard, ca curcanu?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ba, ba în grad… Acu învăț psaltichia, ca să mă fac psalt la biserică la Sfîntu Onofrei.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Psalt! și la mai mare!</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Amin!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Da bine, ai glas?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Am!… Psaltul Chiriac mi-o spus că am un ohtoic de cele zdravene. Vrei să-l asculți?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Vreu. Dă, începe și cruce-agiută.</p>
+            <stage> (Arie nouă) </stage>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Pa, vu, ga, de, ni, ghe, pa!</p>
+            <p>Mult îmi place a cînta</p>
+            <p>Și clopotele-a suna:</p>
+            <p>Tanda, tanda, tanda, la.</p>
+            <p>Dacă moare-un boier mare,</p>
+            <p>Pun clopotele-n mișcare</p>
+            <p>Și fac mare dandana:</p>
+            <p>Danda, danda, danda, na.</p>
+            <p>Iar cînd mor oameni mai mici,</p>
+            <p>Trag clopotul de calici,</p>
+            <p>Care sună ca telinca:</p>
+            <p>Linca, linca, linca, linca.</p>
+            <p>Pa, vu, ga, de, ni, ghe, pa!</p>
+            <p>Dac-ai vra, Florico, fa,</p>
+            <p>Toată ziua ți-aș cînta:</p>
+            <p>Tanda, linca, danda, na!</p>
+          </sp>
+          <stage>FLORICA:  (în parte)  Parcă-i clopotu cel țigănesc.</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ei! ce zici, Florico, îți place?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Frumos! să giuri că se bat calicii îngură-ți.</p>
+          </sp>
+          <stage>COLIVESCU:  (mulțămit)  Așa-i? Apoi ce mai stai la gîn duri, Florică! Spune că te primești să fii pa-palamareasă; încalțe să te înalți odată cu mine.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Unde?… În clopotniță?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ian, lasă glu-gluma. Vrei, ori ba?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Apoi dă, cum n-aș vra, păcatele mele?… Auzi, s-agiung deodată cucoană, pălămăreasă…. să amiros tot a tămîie și să mă hrănesc tot cu colivă… Mai frumoasă viață unde se dă?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Nu-i așa?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Mai așa!… decît un singur lucru ne stingherește pe-amîndoi.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Care?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Că nu te iubesc pe d-ta și că iubesc pe Florin.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Florin?… un mojîc?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Mojîc, da voinic.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Elei! Florico, prost gust ai mai avut!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Prost, neprost, aista-i, dacă-ți place, cucoane pălămariule.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Da ascultă, copilă hăi! Florin nu-i de tine; nu-ți întuneca zilele cu dînsu.</p>
+            <stage> (Se aude între culise clesonurile vînătorilor sunînd un marș militar compus pe aria: „Pasere cu galben cioc.) </stage>
+            <p>”</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce s-aude?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Trec soldații care merg la lagăr.</p>
+          </sp>
+          <stage>FLORICA: Soldații?… I! tare mi-s dragi soldații!… Mă duc să-i privesc.  (Aleargă spre fund.)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Florico, stăi, nu te duce făr’ să-mi dai un răspuns ca oamenii.</p>
+          </sp>
+          <stage>FLORICA:  (pe pragul portiței)  Întră la oaste dacă vrei să-mi placi.  (Iese.)</stage>
+          <stage>COLIVESCU:  (singur)  Să mă scriu la oaste? eu? Să-mi las eu clopotele și pălămăria?… ferească sfîntu Onofrei!… Mai bine… ian să cerc a presăra chiper între Florin și Florica… vorba ceea: chiper între voi, să rîdem și noi… Mi-o spus azi-dimineață ficioru protopopului, care-i scriitor la giudecătorie, că s-o cercetat hîrtiile lăsate de răposata, cucoana Tudosia, și că ea ar fi lăsat starea ei unuia din copiii crescuți de dînsa. Care să fie oare? Florin ori Florica?  (Stă pe gînduri.)</stage>
+          <div type="scene" n="3">
+            <head>SCENA III</head>
+          <stage>FLORIN:  (cîntă fără acompanement de muzică)</stage>
+          <stage>COLIVESCU:  (în parte)  Ce-mi văzură ochii!… Florin cu furca la brîu?… Ei! apoi, netotul ista de însurat îi?</stage>
+          <stage>FLORIN:  (smuncind fuiorul)  Ardă-l focu fuior, că încîlcit îi!</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Măi Floriție… da… cine te-o fărmăcat să torci ca baba Rada?</p>
+          </sp>
+          <stage>FLORIN:  (ascunzînd furca după spate, zice în parte)  M-o zărit pălămariu dracului.</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Pun rămășag că iar Florica și-o bătut gioc de tine, sărmane!</p>
+          </sp>
+          <stage>FLORIN:  (coborîndu-se în scenă)  De unde știi? Ea ți-o spus-o?</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ea. Zicea așa mai dinioare că nu ești bun decît să paști bobocii și să încîlcești fuioare.</p>
+          </sp>
+          <stage>FLORIN:  (mîniindu-se)  Așa o zis? așa?… Dacă-i așa povestea…  (Scarmănă fuiorul.)  Na fuior… na furcă, na tors!  (Aruncă furca jos ș-o calcă în picioare.)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Nu face poznă, măi, că te-a bate Florica.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Pe mine? că doar am și eu o păreche de pumni ca să mă apăr.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ei! bravo! Acu văd și eu că ești bărbat, om verde, colea, care rupe mîța-n două.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Da cum m-ai socotit?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Apoi dă, ce să-ți spun?… Cînd-te-am văzut torcînd, am chitit, în gîndu meu, că-i păcat de un voinic ca tine să fie de rîsu fetelor, mai cu samă ca tu, Florine, nu ești făcut să-ți mănînci viață c-o țăranca ca Florica.</p>
+          </sp>
+          <stage>FLORIN:  (intrigat)  Cum asta, Colivescule?</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Cum?… Da n-ai aflat că răposata, cucoana Todosia, ți-o lăsat ție toată averea ei?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Elei!</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Tu, de azi înainte, ești bogat și poți să-ți înalți neamu ca ciocîrlia.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Elei!… care vra să zică, mă pot îmbrăca și eu ca ciocoii cu surtucă și cu giretcă?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Se-nțălege.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Și cît pentru nevastă, pot să-mi aleg una chiar dintre negustori, chiar o fată de făclier?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ba ș-o fată de boier, dacă-i vra.</p>
+          </sp>
+          <stage>FLORIN:  (sărind de bucurie)  I! mămulica me! că bine-mi pare! îmi vine tot să sar și să cînt:</stage>
+          <stage>(Florin cîntă, jucînd țărănește)</stage>
+          <stage>(Colivescu și Florin joc împreună)</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Alerg degrab’ în tîrg, să-mi cumpăr haine nemțăști… Unde-aș găsi haine nemțăști, Colivescule?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>în colț, la giupîn Herșcu.</p>
+          </sp>
+          <stage>FLORIN: M-am dus.  (Iese alergind și chiuind:)  Sus, Florine, sus!</stage>
+          <stage>COLIVESCU:  (singur)  Ian vezi, ce-i mîndria? cum orbește pe om!… Pănă și Florin, un argat necioplit, cît l-ai încălecat pe-o minciună, se duce pîrle de nu-l mai poți ține!… Meargă, păn’ la măru roș, că eu nu l-oi chema înapoi… Ha, ha, ha, ha, are haz că de-ăcu n-a sa. mai cate la Florica, și Florica de ciudă a să se deie în dragoste cu mine. Bravo, Colivescule! Se vede, cînd te-ai născut tu, c-o strănutat dracu!</stage>
+          </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Doamne! Mare mîndri-s la privit soldații noștri!… Știi? ți se duc ochii cînd îi vezi trecînd cu muzica și cu steagu întins… D-apoi vivandiera! … mi-o rămas inima la uniforma ei… I! cînd aș fi de capu meu, pre legea me, m-aș face vivandieră.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Florico!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>A! tot aici ești?</p>
+          </sp>
+          <stage>COLIVESCU:  (oftînd)  Tot, tot, păcatele mele, că nu mă lasă inima să mă depărtez de căsuța ta.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Iar ai început ohtoicul cel de dragoste? Nu ți-i greu să-ți perzi vremea de flori de cuc!… mai bine te-ai duce să căști gura pe uliță, privind la soldați; și dacă ai fi om în toată mintea, în loc să umbli după cai verzi, te-ai face oștean de-a țării, ca să tragi cu pușca, iar nu să tragi clopote.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>D-apoi cum? eu? Ești coșcoge român, cît un butoi… ți-ar șidea de-o mie de ori mai bine cu mindir în spinare, decît cu antereu ist’ de lăutar.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Oare?… dar… ian spune-mi, Florico, dacă ți-aș urma sfatu, mi-ai îndeplini și tu dom?</p>
+          </sp>
+          <stage>FLORICA: Om videa atunci ce-a mai fi.  (Zărind furca jos.)  Iaca! ce furcă-i asta? Cine-o împrăștiet fuioru pin ogradă?</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Florin.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>El? și de ce?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>S-o schimbat flăcău! Nu mai e cum îl știi.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce vrei să zici?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Las’ că-i videa acuș.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce-oi videa?…</p>
+          </sp>
+          <stage>COLIVESCU: Îi videa, atîta-ți spun, îi videa.  (Iese prin fund.)</stage>
+        </div>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA V</head>
+          <stage>FLORICA: Vorbește în bobote pălămariul. Se vede că l-o amețit dragostea; aibă parte de ea, și ea de dînsu!  (Stă pe gînduri.)  Mare poznă și minune! De cînd am văzut vivandiera regimentului, nu-mi mai pot aduna gîndurile pe-acasă. Ce frumoase haine purta!… Am întrat în vorbă cu dînsa ș-am aflat că-i de-aici din tîrg și că vre să se lase de oaste, pentru ca să se mărite… Auzi treabă! să se facă iar mireancă, de unde era oșteancă?… Doamne! dacă eu nu m-aș lăsa odată cu capu.</stage>
+          <stage>(Aria vivandierei)</stage>
+          <stage>(Ia țepoiul drept pușcă și face marș întrînd în căsuță.)</stage>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA VI</head>
+          <stage>FLORIN:  (vine pe portiță, îmbrăcat ridicul cu surtuc verde, giletcă roșie, pantaloni galbini de nanchin, pălărie naltă cu mărginite strimte și guler de cămașă, care-i ascunde urechile. El poartă metanii și un ciubuc)  Bonjur monsu… Iată-mă-s cu tot șartul boieresc!… M-o îmbrăcat giupînu Herșcu chiar de mondă, ca la Ieși. Se vede că mă prinde de minune, că se uită oamenii la mine ca la un comediant și m-arată pe uliți cu degitu. În sfîrșit, îs boier!… cu ciubucu meu, cu giretca me, cu surtuca me… Crișu eu! știu că am să mi-o scot în pele de-acu-nainte!</stage>
+          <stage>(Cîntă aria de la scena III, jucînd astă-dată cu aer serios, voind să-și dea aer de boier.)</stage>
+          <div type="scene" n="7">
+            <head>SCENA VII</head>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce văd? Florin? Ha, ha, ha, ha, ha!</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Cine chicotește cînd gioacă boieriu?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Da ce-ai pățit, Florine, de te-ai schimosît așa? Ha, ha, ha! parcă ești Flaimuc ciubotariu.</p>
+          </sp>
+          <stage>FLORIN:  (supărat)  Ian ascultă, fa, ie-ți sama cum grăiești și cu cine grăiești… Auzi tu?</stage>
+          <stage>FLORICA:  (viind în scenă)  Iaca, mă! Nu cumva s-o boierit țopîrca?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Țopîrcă ești tu, obraznico. Eu de azi înainte sînt boier, așa să știi. Cucoana Todosia mi-o lăsat mie averea ei.</p>
+          </sp>
+          <stage>FLORICA: Cucoana te-o lăsat pe tine clironom? I! tare-mi pare bine, Florinaș dragă.  (Se apropie veselă de Florin.)</stage>
+          <stage>FLORIN:  (respingînd-o)  Ce Florinaș dragă? Ce Florinaș? Da mai cucoane nu poți să-mi zici?</stage>
+          <stage>FLORICA:  (rîzînd)  Bată-te cucu, că poznaș mai ești!</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Și te poftesc, giupîneaso, să nu te hlizești așa dinaintea me, că doar nu sîntem de-o samă amîndoi.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ha, ha, ha… bine se mai priface a boier!</p>
+            <stage> (Îi dă un pumn.) </stage>
+          </sp>
+          <stage>FLORIN:  (mînios)  Ian ascultă, fa, acuș o împlinești cu mine.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Dec!… ce te-o apucat?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Nu se cade să glumești cu mine, că ți-am mai spus-o o dată… nu sîntem de-o samă.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Măi, cu tot dinadinsul grăiești?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>D-apoi cum?… Eu sînt cu stare, sînt boier, sînt stăpîn aici în casă, și tu ești o biată țărancă… Vezi că sîntem departe unu de altu, ca ceriu de pămînt.</p>
+          </sp>
+          <stage>FLORICA:  (cu lacrimi in ochi)  Așa?… pentru că ți-o dat Dumnezău cîteva parale, ai și uitat c-am fost crescuți împreună, că sîntem amîndoi niște bieți orfani culeși de stăpîna noastră?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Eu nu știu ce-am fost, știu ce sînt.</p>
+          </sp>
+          <stage>FLORICA: Ce ești? Vrei să-ți spun eu ce ești, Florine? Ești un nerecunoscători, un om fără nici un pic de suflet, dac-o putut banii să te schimbe astfeli într-o clipală.  (Plînge.)  Auzi? Nu mai sîntem de-o samă! eu, care i-am fost ca o soră și l-am iubit ca ochii din cap!…</stage>
+          <stage>FLORIN:  (în parte)  Mi-i milă de dînsa, dar n-am ce-i face; eu boier, ea țărancă… nu ne potrivim.</stage>
+          <stage>FLORICA:  (plingind)  Cine s-ar fi așteptat la una ca asta? Sărmana biata cucoană! unde-i să vadă ce blăstem și-o făcut cu banii, lăsînd în urmă-i sămînță de vrajbă…</stage>
+          <stage>FLORIN:  (cu blîndețe)  Ei taci, Florico, nu mai plînge, că nu te-oi lepăda eu pe drumuri… Dacă-i fi cuminte, te-oi lua fată-n casă la mine.</stage>
+          <stage>FLORICA:  (zîmbind)  Zău!</stage>
+          <stage>FLORIN:  (cu un aer protector)  Și dacă te-i purta cum se cade, te-oi mărita cu palamariu de la Sfîntu Onofrei.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce face? să mă dai lui Colivescu? Da ai uitat că sîntem logodiți împreună și c-am făcut azi-dimineață prînzul logodnei?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Așa este! d-apoi gîndește tu singură, Florico… eu acum nu mă iartă pojîjia să mă-nsor decît c-o fată de boier… și tu…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Să iei pe alta? Ba să nu te-mpingă păcatu, că-ți scot ochii, auzi tu?… Îți scot ochii cei de boier perpelit.</p>
+          </sp>
+          <stage>FLORIN:  (atins)  Perpelit? eu?… Florico, pune-ți gard la gură, că, pe crucea me…</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce?… Ce mi-i face?…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ian te-oi lua frumos de spate și te-oi da afară.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Tu, pe mine?… Că doar n-o agiuns o fată ca mine de rîsu curcanilor.</p>
+          </sp>
+          <stage>FLORIN:  (furios)  Curcan? eu?… Ieși de-aici, pe loc, nerușinato… obraznico…</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Vai! mînca-te-ar moliile, Flaimucule… Na…</p>
+            <stage> (Trage o palmă lui Florin.) </stage>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Valeu!</p>
+          </sp>
+          <stage>FLORICA: Na, țărancă… na, obraznică… A! mangositule, te-ai fudulit? Na, na, na… boieriule.  (Îi dă pumni.)</stage>
+          <stage>FLORIN: Șăzi binișor, fa… Valeu!… Nu te-atinge de boierie, fa!  (Fuge pe după copac și scapă ciubucul din mînă.)</stage>
+          <stage>FLORICA:  (rîdicînd ciubucul)  Las’ să-ți măsor eu boieria pe spinare cu ciubucu ista…</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ie sama, fa, să nu strici lichimbariu.</p>
+            <stage> (Arie din „Baba Hîrca”) </stage>
+            <stage> (Împreună.) </stage>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Lega-s-ar dracii de tine,</p>
+            <p>Nătăfleț făr’ de rușine.</p>
+            <p>Am să sfărm cu ist ciubuc</p>
+            <p>Capul tău cel prost de cuc.</p>
+            </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Fa, Florico, da șezi bine,</p>
+            <p>Șezi, nu te lega de mine;</p>
+            <p>Că muierii [-i] este dat</p>
+            <p>Să se teamă de barbat.</p>
+            <p>SCENA VIII</p>
+            <p>FLORIN, FLORICA, COLIVESCU</p>
+            <stage> (îmbrăcat cu uniformă de muzicant recrut, aduce cu dînsul un trombon de cele mari) </stage>
+          </sp>
+          <stage>COLIVESCU:  (alergând)  Florico, . Florico, veste bună!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce veste?</p>
+          </sp>
+          <stage>COLIVESCU: Bucură-te… M-am scris la paste, după cum ai dorit… Ian privește, m-am și îmbrăcat… așa-i că-mi șăde bine?  (Se întoarce într-un picior.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>N-ai fi de diochi… Da ulucu ist de aramă ce-i?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Să vezi… d-nu căpitan o chitit c-aș fi bun de trîmbițaș și mi-o dat trîmbițoiu ista, ca să mă diprind a cînta la mojică…ian ascultă…</p>
+            <stage> (Suflă din trombon.) </stage>
+          </sp>
+          <stage>FLORICA:  (astupîndu-și urechile)  Ho, că m-ai spăriet.</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ei! acu nu mai ai ce zice, Florico… M-am lăsat de pălămărie și m-am dat la miliție de dragostea ta… mă. iei?</p>
+          </sp>
+          <stage>FLORICA: Poate…  (În parte.)  Să-i viu de hac lui Florin:</stage>
+          <stage>COLIVESCU: Poate? Ah! Florico…  (Cîntă:)  Pentru tine le fac toate, ș-apoi, tu zici numai: poate!</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Colivescule!…</p>
+          </sp>
+          <stage>COLIVESCU: Taci, mă!… Florico… unde-i mai găsi așa bujor de trîmhițaș ca mine?… trupeș și cu pept de buhai? Ian ascultă…  (Suflă iar din trombon)</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Destul! că ne rupi urechile.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Taci, mă! Ei! Florico, spune: vrei, nu vrei?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Apoi știu eu ce să fac?… o biată fată săracă ca mine…</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Tu; săracă?… Elei! da nu ți-am spus încă vestea cea bună? Nu știi cum s-o întors roata norocului?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Nu!</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ești bogată, Florico, bogată!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ea?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Dan!… Iaca o hîrtie de la giudecătorie… mi-o dat-o ficioru protopopului ca să ți-o aduc.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce hîrtie?</p>
+          </sp>
+          <stage>COLIVESCU:  (deschide o coală de hârtie)  O copie de pe testameatu cucoanei; Todosia, prin care te lasă pe tine clironoama averii sale.</stage>
+          <stage>FLORICA:  (uimită)  Pe mine?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Pe dînsa? D-apoi eu?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Tu, te spală pe buze despre avere! Pe tine te lasă argat Floricăi.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Minciuni spui, hoțule, ca să înșăli pe Florica.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Nu crezi? Hai la giudecătorie să afli adevăru!</p>
+          </sp>
+          <stage>FLORIN: Hai! Auzi? argat?  (Iese prin fund.)</stage>
+          <stage>COLIVESCU: Florico, mă duc și vin îndată ca să batem mîna împreună… crede-mă, fa, nu scăpa chilipiriu de la mînă; așa pept!  (Suflă tare în trombon și apoi iese.)</stage>
+        </div>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IX</head>
+          <stage>FLORICA: Eu bogată?… nu-mi vine-a crede o fericire așa de mare… bogată!… Care vra să zică, giupînu Florin nu se mai poate fuduli cu mine, și dacă s-o schimbat el în haine boierești, și eu pot să-mi pun rochie de cucoană… A! bădică Florine, ai zis că mă-i lua fată-n casă și că ți-i face milă și pomană să mă măriți cu altu?… Ei, lasă, moțpane, că ți-oi arăta eu fudulie… Mă duc să mă împodobesc cu straie de-a cucoanei Todosia… cînd m-a videa Florin, să-și scoată căciula dinaintea me… Haide, cucoană Florică, la tauletă… Ha, ha, ha, cucoană Florică… tare-mi pare deșanț!… cucoană Florică… Ha, ha, ha, ha…  (întră în căsuță.)</stage>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA X</head>
+          <stage>FLORIN:  (se întoarce abătut cu pălăria pe ochi)  Am pățit-o… Cenușerii de la giudecătorie o rîs de mine cu hohot și m-o tiuit ca pe-un dulău cu tingirea-n coadă, cînd le-am cerut averea răposatei! Nu mai am nimică pe fața pămîntului!… Hoțu cel de pălămari m-o luat în trii parale, cînd m-o făcut să cred cai verzi pe păreți… I! de l-aș prinde la largu meu, ce colivă de sufletu bunicăi i-aș trage la ceafă… El îi pricina că m-am stricat cu Florica.. Ce-oi să mă fac de-acu, săracu de mine?… Florica-i mînioasă pe mine… ea-i cucoană în locul meu și are sa mă deie afară, s-agiung pe uliți, fără căpătâi.  (Dîndu-și .pumni peste -pălărie.)  Na, tontule! na, prostule! fudulie-ți trebuia ție? boierie-ți lipsa?..-, la grajdi, nătărăule… acolo ți-i locu… În podu șurii cu țăpoiu-n mînă, dar nu țu ciubuc!</stage>
+          <stage>(Arie veche „Pom, pom eram eu, pom”)</stage>
+          <div type="scene" n="11">
+            <head>SCENA XI</head>
+          <stage>FLORICA:  (veselă)  Tra, la la, tra, la, la, la.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Aud glasul Floricăi.</p>
+          </sp>
+          <stage>FLORICA:  (ieșind în cerdac)  Tra, la, la, tra, la, la, la.</stage>
+          <stage>FLORIN:  (în parte)  I! ce bine-i șăde cu capelă!</stage>
+          <stage>FLORICA:  (cu mîndrie, strigă)  Loc, loc, faceți loc, mâi, că trece cucoana Florica, cucoana Florica… Ha, ha, ha…  (Se coboară în scenă, se împedecă în poalele rochiei.)  Na! că era să dau alivanta peste cap… Marlacofu îmi gioacă feste… mă tot bate peste glezne… Fie! că-i frumos— Ian privește. parcă-s umflată cu țevia; am talie de modă, cît o bute, ș-o oboroacă de capelă cu streșină…  (Se primbla îngîmfată.)  Vai de mine! Cine mă gîdilă la picioare?… Marlacofu?  (Sare bătînd cu palma peste rochie.)  Da șăzi binișor, blăstămatule!</stage>
+          <stage>FLORIN:  (în parte)  Are și malac? of!  (Oftează.)</stage>
+          <stage>FLORICA:  (își drege toaleta)  Ia așa, să mă fac pupuică, cu fesfesele boierești, ca să nebunească flăcăii după mine.  (Se primblă, imitînd mersul damelor.)</stage>
+          <stage>(Arie din „Scara mîței”: „Ca să fii cucoană mare” )</stage>
+          <stage>(Împreună.)</stage>
+          <stage>FLORIN:  (cu mirare)  Na, na, na, na, Na, na, na, na!</stage>
+          <stage>FLORIN:  (scăpînd ciubucul jos)  Tronc!</stage>
+          <stage>FLORICA:  (zărind pe Florin, în parte)  Aice-i hîtru.  (Tare.)  Ce este? Cine-i acolo?</stage>
+          <stage>FLORIN:  (cu sfială)  Eu!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Care eu?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Florin.</p>
+          </sp>
+          <stage>FLORICA:  (mîndră)  Ce vrei?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Aș vre, dacă n-ar fi cu supărare, să rămîn argat la măria ta, Florico.</p>
+          </sp>
+          <stage>FLORICA:  (atinsă)  Florico?… Florico!… parc-aș fi de-o samă cu dînsu!… parc-am fi păscut bobocii amîndoi!… Da cucoană Florică nu poți să zici, giorlane?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ba pot, Florico!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Bine. Și de-acu-nainte să-ți torci pe limbă cînd îi dischide gura ca să vorbești cu mine, auzi tu?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Mi-oi toarce, cucoană!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Iaca!… Da căciula de ce ți-o ții pe cap dinaintea me, năucule?… gios cușma!</p>
+          </sp>
+          <stage>FLORIN:  (scoțîndu-și pălăria)  Mă iartă, cucoană!…</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Fie, pentru astă-dată. Acu spune, ce vrei?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Apoi, dacă s-ar putea, aș dori să rămîn aici la curte, că pe cînd trăia biata cucoana Todosia, stăpîna noastră…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba stăpîna ta, nu a me. Mie mi-o fost mamă.</p>
+          </sp>
+          <stage>FLORIN:  (buimăcindu-se)  Așa vroiam să spun, stăpîna ta, nu a me… adică stăpîna me, nu a ta…</stage>
+          <stage>FLORICA:  (rîzînd, în parte)  S-o buimăcit…  (Tare.)  Vrei să întri în slujbă la mine? Fie! te primesc cu leafă de 50 de lei pe an, un suman și trii părechi de opinci.</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Suman și opinci? Apoi eu îs diprins cu straie de iste ciocoiești!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Da de cînd te-ai diprins, măi badeo? De gioi păn’ mai apoi?… Mie-mi trebuie argat, nu ciocoi.</p>
+          </sp>
+          <stage>FLORIN:  (oftînd)  Bine, cucoană, oi purta și opinci, cinstită fața dumnitale.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Să porți dar, că, după cum zicea răposata, opinca-i talpa țării; ea se lipește bine de pămîntu țării, iar nu ciubota nemțască, nici papucu grecesc. Hai, du-te sus de-mi adă un scaun ca să mă mai odihnesc!</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Îndată, Florico!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Iar?</p>
+          </sp>
+          <stage>FLORIN: Ba, ba nu… cucoană Florică.  (întră în casă.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ha, ha, ha… bietu Florin!… Nu mă pot stăpîni de rîs cînd mă uit la el… samănă cu o găină smulsă.</p>
+          </sp>
+          <stage>FLORIN:  (aducînd un scaun)  Iaca scaunu, cucoană!</stage>
+          <stage>FLORICA:  (așezîndu-se pe scaun)  Bine; aleargă acu de-mi adă un scăueș de pus sub picioare.</stage>
+          <stage>FLORIN:  (alergînd)  M-am dus.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Am să-l obosăsc ca pe-un cal de poștă.</p>
+          </sp>
+          <stage>FLORIN:  (vine iute)  Iaca și scăueșul.  (Îl așează sub picioarele Floricăi.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Așa! Du-te de-mi adă ș-o pernă să mi-o pun la șele, că-i pre tare scaunu.</p>
+          </sp>
+          <stage>FLORIN: M-am dus!  (Iese alergînd.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>L-oi vindeca eu de boala fuduliei.</p>
+          </sp>
+          <stage>FLORIN:  (aducînd o perină)  Unde s-o așăd, cucoană?</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Cole, la spate.</p>
+          </sp>
+          <stage>FLORIN:  (așezînd perina)  Poftim.</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Încet, mă, că mă gîdili… bine… acu mergi de-mi adă dulceți.</p>
+          </sp>
+          <stage>FLORIN: Alerg.  (În parte.)  Multe-i mai trebuie!  (Iese.)</stage>
+          <stage>FLORICA:  (răzimîndu-se pe perină)  I! că bine-i în puf! te încălzește la șele și-ți aduce o sfîntă de lene… De asta poate unii oameni sînt așa de somnoroși… trăiesc cu pufușor.  (I se rîdică malacoful.)  Pei drace!…  (Își drege rochia.)  Poznașă modă… de nu-i lua sama, te dă de rușine.</stage>
+          <stage>FLORIN:  (aduce o tabla cu dulceți și două pahare cu apă. El calcă cu sfială și se cumpănește cînd în dreapta cînd în stînga, de frică să nu verse tablaua)  Iaca dulcețile, cucoană!</stage>
+          <stage>FLORICA:  (în parte)  Ian vezi-l cum se clatină… parcă-l bate vîntu.  (Luînd dulceți.)  Da nu te băga așa în sufletu meu, că doar n-ai să mă-nghiți… stăi cole… drept… și te diprinde a sluji cum se cade, că de m-oi mărita, poate să te ieu ficior în casă…</stage>
+          <stage>FLORIN:  (mâhnit)  Ai să te și măriți, Florică… cucoană Florică?…</stage>
+          <stage>FLORICA:  (bînd apă)  D-apoi cum? Să rămîn fată mare?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ba ferească sfîntu de-așa rușine!…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Am să-mi ieu de bărbat un om de treabă, care să nu se sparie de bani, să nu-l farmece ochiu dracului, un suflet bun, recunoscători, fără fudulie, fără prostie… ca alții.</p>
+          </sp>
+          <stage>FLORIN:  (scîncind, în parte)  Adică ca mine… bate șăua…</stage>
+          <stage>FLORICA:  (mai luînd dulceți)  Da bune dulceți!… Pălămariu de la Sfîntu Onofrei îi băiet cu inimă, frumos, voinic, îi militar și moare de doru meu…  (Bea.)</stage>
+          <stage>FLORIN:  (scîncind)  Pălămariu, frumos!… Pe Colivescu vrei să-l iei?</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Și ce-ți pasă ție?</p>
+          </sp>
+          <stage>FLORIN:  (plîngînd cu bocit)  Elei!… să nu faci una ca asta, Florico, că mă dau în fîntînă!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ce face?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Fusese vorba să ne cununăm împreună; dar de vreme ce nu se mai poate, nu vreu să fii pălămăreasă, Florico… nu-ți dau voie.</p>
+          </sp>
+          <stage>FLORICA:  (sculîndu-se)  Tu?… Ian lipsești de-aici, păcătosule, și nu te mai scînci, că ești slut ca păcatu cînd te bocești.</stage>
+          <stage>FLORIN:  (pune tablaua pe scaun)  Ascultă, Florică! Am fost un ticălos mai dinioare… m-am purtat cu tine ca un mișăl și nu mai sînt vrednic nici să-ți sărut mîna… dar nici pot suferi ca să te faci Colivească.  (Plînge.)  Nu pot, da!… apoi dacă nu pot, nu poț!</stage>
+          <stage>FLORICA:  (în parte)  Sărmanu Florin!  (Tare.)  Și de ce nu poți, mă rog?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Pentru că mi-ești dragă… na… și mă giur pe-o lege care-o am, că, de nu mă-i asculta, întru în păcat!…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Mare-i lauda la casa omului!</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Nu glumesc, Florico… Mă giur, să mă duc pe lume, să nu mai auzi de mine cît îi trăi.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Și ce-mi pasă mie de te-i duce?… doar nu sîntem de-o samă… Călătorie sprîncenată…</p>
+          </sp>
+          <stage>FLORIN: Așa!…. Apoi să dai samă, fa, de ce s-a întîmpla.  (Desperat.)  Merg să mă scriu la oaste, ca să mă duc la bătălie… să mor de mîna dușmanului… În ciuda ta…</stage>
+          <stage>FLORICA:  (în parte, îngrijită)  Ce zice?</stage>
+          <stage>FLORIN: Și cît pentru pălămariu, am să-l îngrop de viu în trîmbițoiu cel gros.  (Se răpede spre portița din fund și se lovește de Colivescu, care întră.)</stage>
+          </div>
+        <div type="scene" n="12">
+          <head>SCENA XII</head>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ho, mă!</p>
+          </sp>
+          <stage>FLORIN: Tu ești?… Na!  (Îi dă un pumn.)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Valeu! Nu da, mă!</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Și mai na!…</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Măi, șăzi binișor că scot satîru și te hă… hăcuiesc!</p>
+          </sp>
+          <stage>FLORIN: Satîru?… Na satin..  (Îi mai dă un pumn și apoi iese alergînd.)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Florine!…</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ian mai dă unu, fricosule, ș-apoi să vezi… o fugit mișălu.</p>
+          </sp>
+          <stage>FLORICA:  (la portiță)  Florine!…</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Bre!… da ce l-o apucat de cărăbănește cu pumnii în oameni? Nu cumva l-o mușcat vro cucoană chiftiriță?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba l-o pișcat zulia de inimă, sărmanu!</p>
+          </sp>
+          <stage>COLIVESCU:  (zîmbind cu mulțămire)  Dacă-i zulia, îl iert. Bietu flăcău! îi zuliar de norocu meu… o și aflat c-o să ne cununăm împreună, Florico, și asta-l roade!</stage>
+          <stage>FLORICA:  (în parte)  L-am pre întrecut cu didiochiu și mă tem să nu-și facă samă…</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Vezi că el te iubea de miilt, Florică, și-i mergea gîndu la măritiș… Vorba ceea: Vre broscoiu să se lipească de floare.</p>
+          </sp>
+          <stage>FLORICA:  (în parte, fără să-l asculte)  Cum aș face să-l aduc înapoi… unde să-l găsăsc?</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Dar să-l lăsăm dracului pomană… Am vinit, Florico, să-ți spun, că poimîne pleacă regimentu și că-i vreme să ne cununăm.</p>
+          </sp>
+          <stage>FLORICA:  (în parte, tristă)  Sărmanu Florin!</stage>
+          <stage>(Aria horei)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Frunză verde rozmarin!</p>
+          </sp>
+          <stage>FLORICA:  (în parte)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Sufletu-mi varsă venin,</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florin!</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Fie-ți milă de-al meu chin!</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florin!</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Că-s un biet băiet străin.</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florin!</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Florico, floare de crin…</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florin!</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Pentru tine-amar suspin!</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florini</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ah! eu ție mă închin;</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florin!</p>
+            </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Dă-mi mîna și zi: Amin!</p>
+            </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sărmanul Florin!</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Aud?</p>
+          </sp>
+          <stage>FLORICA:  (în parte)  Nu mai pot sta locului. Mă duc în tîrg după el…</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Așteaptă-mă aici, , că viu îndată să-ți dau răspuns…</p>
+            <stage> (Iese prin fund alergînd.) </stage>
+          </sp>
+          <stage>COLIVESCU: Da unde te duci?… Încotro?… Haid’! o zburat rîndunica… mi-o zis s-o aștept cu răspunsu… halal de .tine, Colivescule!… ți se clocește norocu și are să scoată pui… Oi să capăt o nevăstuică frumușică și cu avere… Ce de mai colivi… iaca… vreu să zic, ce de mai bencheturi… de-acu-nainte!… Asta-i casa Floricăi… ian s-o cercetez puțin pe dinîntru, că ea o să-mi fie cuibu.  (Întră în casă cîntînd fără acompanement de muzică.)</stage>
+        </div>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA XIII</head>
+          <stage>FLORIN:  (în uniformă de vînători, întră prin fund)  Iaca și eu!, .. M-am scris la oaste ș-am intrat la vînători, ca să-mi alung aleanu… Unde-i Florica? Am venit să-mi ieu ziua bună de la dînsa, păn-a nu pleca cu regimentu… oi să merg tocmai… hăt… la București… să mi se peardă urma… Las’, Florico, că mă-i plînge tu în lipsa me… .te-a mînca el doru de Florinaș, și Florinaș unde? Nu-i!… s-o dus peste nouă mări și țări… pe unde-o cu trierat Alexandru Machedon.</stage>
+          <stage>(Arie nouă)</stage>
+          <stage>(Imitînd cleronul.)</stage>
+          <div type="scene" n="14">
+            <head>SCENA XIV</head>
+            <sp who="#colivescu">
+              <speaker>COLIVESCU</speaker>
+              <p>Înghite-Agachi!… </p>
+              <stage>(Bea.)</stage>
+            </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Iaca pălămariu! dracu mi l-o scos în cale.</p>
+          </sp>
+          <stage>COLIVESCU:  (coborînd în scenă)  Halal de gospodărie bună… Încă o dușcă, băiete.  (Voiește să mai bea.)</stage>
+          <stage>FLORIN:  (smuncindu-i sticla)  Ian mai stăi, badeo, că ai treabă cu mine.  (Bea.)</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ce? iar tu?… Ce vrei, măi, cu mine?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ai să-mi dai samă de pehlivăniile tale, șonțîtule.</p>
+          </sp>
+          <stage>COLIVESCU:  (îngrijit)  Care pehlivănii, nebunule?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>A! ți-ai bătut gioc de mine?… A! pușchiule, m-ai făcut să cred că-s clironom?… Ai cercat să mă strici cu Florica, pentru ca să tragi cenușa pe turta ta?</p>
+            <stage> (Scoate sabia.) </stage>
+          </sp>
+          <stage>COLIVESCU:  (cu frică, bîiguind)  Ce tur-tur-turtă?</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Apără-te! sfrijîtule, c-am să-mi răzbun… să te tai bucățele, bucățele ca pe-o ciupercă…</p>
+          </sp>
+          <stage>COLIVESCU:  (spăriet)  Ciu-per-per-percă?</stage>
+          <stage>FLORIN:  (răpezindu-se)  Scoate-ți sabia, oblojîtule, că întru-n păcat!…</stage>
+          <stage>COLIVESCU:  (apărîndu-se cu trombonul)  Măi, nu face pozna… măi, vină-ți în fire…  (Fuge primpregiurul copacului, alungat de Florin.)</stage>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ba nu, hemesitule, am să te-nvăț eu a umbla cu satana-n sîn!</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Sfinte Onofrei! scapă-mă…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Te-oi învăța eu să umbli după Florica…</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Da ascultă, Florinașule…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>N-ascult nimic… Te lepezi de satana?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Mă lepăd!</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Te lași de Florica?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ce face?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Te lași de Florica?</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ba nici gîndesc!</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Ei! apoi, mori de mîna me, păcătosule!…</p>
+            <stage> (Luptă între sabia lui Florin și trombonul lui Colivescu.) </stage>
+            <p>SCENA XV</p>
+            <p>FLORIN, COLIVESCU</p>
+            <stage> (luptîndu-se) </stage>
+            <p>. FLORICA</p>
+            <stage> (în uniformă de vivandieri se arată la portiță) </stage>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ram, pa, ta, plan, pa, ta, plan… etc.</p>
+            <p>FLORIN, COLIVESCU: Ce văd? Florica, vivandieră?</p>
+            <stage> (Încremeniți.) </stage>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Vivat! M-am făcut vivandieră, ca să urmez regimentu în care ai întrat tu, Florine!</p>
+          </sp>
+          <stage>FLORIN: Zău?…  (Cu dragoste.)  Ah! Florico!… ești un bujor de fată!… Dar cum ai aflat?…</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Cînd ai fugit de-aici mînios și deznădăjduit, m-am luat după tine ca să te cat pin tîrg… și te-am zărit ieșind din casa căpitanului cu uniformă de vînător… atunci am înțăles tot… și făr-a mai sta la gînduri, m-am dus degrabă de m-am alcătuit cu vivandiera ca să-i ieu locu. Ea rămîne aici și mi-o vîndut uniforma sa… așă-i că mă prinde bine?</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Parcă ești Ileana Cosînzana…</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Cea din poveste, cu păru de aur…</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Care vra să zică, plecăm împreună de-aici?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Împreună! c-așa o lăsat cucoana Todosia cu limbă de moarte… să nu ne dispărțim niciodată.</p>
+          </sp>
+          <sp who="#florin">
+            <speaker>FLORIN</speaker>
+            <p>Apoi ca să nu ne dispărțim… Florico… trebuie mai întîi să fim cununați… ce zici, Florico?… vrei să uiți că ți-am greșit?</p>
+          </sp>
+          <stage>FLORICA:  (dîndu-i mina)  Uit tot… și noroc să deie Dumnezău… mîni ne-a cununa căpitanu.</stage>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Iaca!… d-apoi eu?… d-apoi eu cum rămîn?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>D-ta, dacă vrei, te răscumpăr eu de la oaste, ca să tot pălămărești cît îi trăi.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ba, foarte-ți mulțămesc! M-am făcut militari… militari rămîn, pentru ca să trăim tustrii la un loc, ca niște frați buni. Vreți?</p>
+            </sp>
+          <sp who="#florin #florica">
+            <speaker>FLORIN, FLORICA</speaker>
+            <stage> (dîndu-i mîna) </stage>
+            <p>Vrem din toată inima.</p>
+          </sp>
+          <sp who="#colivescu">
+            <speaker>COLIVESCU</speaker>
+            <p>Ura! să trăiască Florica!…</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ba mai bine să strigăm: Vivat! să trăiască oastea română!</p>
+          </sp>
+          <stage>TOȚI:  (cu entuziasm)  Vivat!</stage>
+          <stage>(Arie „Pasăre galbenă-n cioc”)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Bravi ostași de-ai României,</p>
+            <p>Vivat țara me!</p>
+            <p>Floare mîndr-a vitejiei.</p>
+            <p>Vivat țara me!</p>
+            <p>Ne vom duce la război,</p>
+            <p>Unul chiar în contra doi.</p>
+            <p>Vivat, mîndră ca o ste,</p>
+            <p>Vivat țara me!</p>
+            </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ne vom duce la război,</p>
+            <p>Unul chiar în contra doi.</p>
+            <p>Vivat, mîndră ca o ste,</p>
+            <p>Vivat țara me!</p>
+          </sp>
+          <stage>FLORIN:  (ia în brațe pe Florica, o sărută și o pune în picioare pe scaun, strigînd)  Vivat puica me!</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Românași voinici de frunte,</p>
+            <p>Vivat țara me!</p>
+            <p>Ne vom face punte, munte.</p>
+            <p>Vivat țara me!</p>
+            <p>Ș-om striga murind în foc:</p>
+            <p>Rămîi, țară, cu noroc!</p>
+            <p>Vivat, mîndră ca o ste,</p>
+            <p>Vivat țara me!</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ș-om striga murind în foc:</p>
+            <p>Rămîi, țară, cu noroci</p>
+            <p>Vivat, mîndră ca o ste,</p>
+            <p>Vivat țara me!</p>
+            <stage> (Cortina cade.) </stage>
+          </sp>
+        </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

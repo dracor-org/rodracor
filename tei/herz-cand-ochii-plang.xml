@@ -1,0 +1,949 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000060" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Când ochii plâng</title>
+        <author>
+          <persName>A. de Herz</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q21062239</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://dspace.bcu-iasi.ro/static/web/viewer.html?file=https://dspace.bcu-iasi.ro/bitstream/handle/123456789/66506/BCUIASI_CARTE_IB-11.481_1911.pdf?sequence=2&amp;isAllowed=yy">BCU Iași</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1911">
+            <desc>1911</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="grigore" sex="MALE">
+            <persName>GRIGORE</persName>
+          </person>
+          <person xml:id="irina" sex="FEMALE">
+            <persName>IRINA</persName>
+          </person>
+          <person xml:id="riteanu" sex="FEMALE">
+            <persName>D-NA RITEANU</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000060"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Când ochii plâng</titlePart>
+        </docTitle>
+        <docAuthor>A. de Herz</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>GRIGORE</role>
+          <roleDesc>moșier</roleDesc>
+        </castItem>
+        <castItem>
+          <role>IRINA</role>
+          <roleDesc>soția lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>D-NA RITEANU</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA I.</head>
+          <stage>Grigore Sima. — Irina Sima. — D-na Riteanu</stage>
+          <stage>Irina stă la masa din față și, cu capul în mâini, citește. În stânga mesei stă D-na Riteanu, care își aruncă ochii pe un ziar. Grigore Sima, cu o lulea între dinți, coboară din fund.</stage>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (uitându-se în ziar) </stage>
+            <p>. Crezi că și la mine recolta să fie tot atât de bună ?</p>
+            <stage> (pune ziarul la loc pe masă) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>N’avea nicio grijă, administratorul pe care îl ai, e nu se poate mai cum se cade. De l-aș avea eu, nu m’aș mai îngriji de nimic.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>E bun, pentru că-l îndrumezi D-ta. Ia să-l lași singur, cine știe ce năsbâtii ar fi în stare să facă.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nici una ! Te încredințez. Firește, omul are nevoie de o îndrumare, — dar uită-te la noi, ticălosul pe care îl am, n’are cea mai mică pricepere, sânt silit să fac eu ce s’ar cuveni să facă el, chiar fără știrea mea!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (râdică în sus capul) </stage>
+            <p>. Mi se pare că multe face el, fără știrea ta.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nu mă ’ndoesc! Tu n’ai, însă, dreptul să vorbești: de câte ori am vrut să-l iau din scurt, te-ai împotrivit.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Mi-e frică să nu găsești ceva și să fii silit să-l dai afară.</p>
+            <stage> (se scoală; D-nei Riteanu) </stage>
+            <p>. E sărac, patru copii — doi la școală!...</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (se așează în dreapta) </stage>
+            <p>. Plătesc eu pentru ei...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Alți doi acasă, haine, ghete...</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Și e șiret, lucru mare; când era bietul Sandu, și simțea că vreau să-l dau afară, se ruga de el să intervie.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ți-aduci aminte, într’o zi? „Cum? pleacă Vasile? Eu nu mai stau la țară, dacă pleacă Vasile; cine îmi mai face smeu și cine…”</p>
+            <stage> (nu mai poate urmă din pricina lacrămilor) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (ca să schimbe vorba) </stage>
+            <p>. Vrei s’o ducem pe Dumneaei acasă ? câteva minute cu automobilul ți-ar face bine!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (trece la mijloc) </stage>
+            <p>. Nu! nu es!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Ți-ar face bine!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (urcă în fund spre ușă) </stage>
+            <p>. Nu!</p>
+            <stage> (se întoarce urmărită de aceeași idee) </stage>
+            <p>. Și acum că nu-i copilul și simte că ar vrea Grigore...</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Intr’o bună zi, tot o să i-o fac!...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Vin copiii lui și se roagă așa frumos de mine! Tot mi se pare că în plânsul lor aud glasul lui Sandu care se roagă pentru ei!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (ca să schimbe vorba din nou) </stage>
+            <p>. Prin urmare să n’ai nici-o grijă; când s’o apropia treeratul mai dau o raită pe la D-ta.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Îți mulțumesc. Nu știu, zău, ce m’aș face de n’ai fi atât de bun cu mine. Mi-ar fi frică să dau moșia pe mâna vre-unui strein.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Cu toate astea D-ta te pricepi atât de bine. Se poate spune c’o administrezi singură.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Singură, vorba vine; de n’ar fi D-l Sima...</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>De n’ar fi D-l Sima, tot așa ar merge; atât numai că oamenii de te-ar ști singură pe D-ta s’ar purta altfel de cum se poartă acum când știu că sunt și eu care îți port de grijă. Atât!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Atât?! și nu e mult?</p>
+            <stage> (Grigore se înclină. Irina care era în fund pe prag, se depărtează încet pe terasă și rămâne în scenă Grigore și D-na Riteanu) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II.</head>
+          <stage>Grigore. — D-na Riteanu.</stage>
+          <stage>(Grigore o urmărește pe Irina. D-na Riteanu se scoală).</stage>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Iar e tristă ? De ași fi în locul tău aș duce-o în străinătate.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Și eu?</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (vine spre el râzând cu drăgălășie) </stage>
+            <p>. Aici!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Crezi că s’ar duce singură ? — Să ’ncerc!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Nu, acum nu! E prea curând. N’o să vrea cu niciun preț; mai târziu, poate! Și te-ai putea duce, tu, din când în când.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Am făcut rău de am lăsat să îngroape copilul aci, în parc, ce vrei, ar fi fost în stare să înnebunească de nu-i îplineam dorința.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Ai făcut foarte bine! E o mângăere pentru dânsa; îngrijește mormântul cum l-ar fi îngrijit pe el dacă trăia.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Câtva timp, mai târziu, o să uite.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Sânt sigură și eu! Să vezi că mai târziu nici n’o să mai dea pe acolo.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (aducându-și aminte) </stage>
+            <p>. A! Da asta vream să-ți spun adineaurèa. A pus pe mormânt trandafiri, — într’adevăr au crescut minunat, și nu lasă pe nimeni să se apropie și să ia vre-unul. Vasile, administratorul, a prins de veste că Irina ține așa de mult la ei, în cât îi dă a înțelege că și el îi îngrijește. Ce vrei? Sânt unii oameni cari dibuesc până găsesc mijlocul să-ți intre în suflet, și odată ce au isbutit, nu te mai poți lipsi de ei. Irinei i se pare, unde se îngrijește tipul de mormânt, nu numai că-i împărtășește grija, dar că îi împărtășește și durerea, — și, vezi, foarte greu te lipsești de oamenii ce s’au folosit de o durere, ca să-ți intre în suflet.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Mai bănuești ?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Din zi în zi mai mult!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Crezi c’a aflat ceva de noi și să-i fi spus?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Să-i fi spus ? Nu cred! Dar în ziua când l-oi da afară, se răsbună, și spune tot; de aia îl țin... știu că mă fură, dar îl țin.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>La urma urmei nici el n’are de unde să știe!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nu te ’ncrede! Oamenii ăștia siliți să te slujească, au tocmai din pricina asta o ură neîmpăcată pentru tine. Cei pe care îi plătești, îți sunt cei mai înverșunați dușmani; și dacă se ia bine pe lângă Irina, bănuiesc că se pune la adăpostul oricărui neajuns ce i s’ar părea că-i fac! El caută ceva cu care să-mi lege mâinile.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (care se uită pe fereastră, o vede pe Irina, întorcându-se) </stage>
+            <p>Sst!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (banal, D-nei Riteanu) </stage>
+            <p>. Vrei să pleci ?</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage>Grigore. — Irina. — D-na Riteanu.</stage>
+          <stage>(Irina vine de afară și are în brațe câteva ramuri de trandafiri proaspeți smulși din pământ).</stage>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>De ce nu ieșiți ? E așa de răcoare!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (cu amabilitate prefăcută) </stage>
+            <p>. Te-ai îndurat în cele din urmă să tai ?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Câțiva! Vor fi singurii! prea mi s’au părut frumoși. Și nu știu... poate pentru că își sorb ceva din pământul unde doarme Sandu, mi se pare că e ceva de-al lui care trăește în ei</p>
+            <stage> (se duce de-i pune într’un vas, pe birou) </stage>
+            <p>. Veniți afară! Nu veniți ? — Liniștea asta are în ea misterul unei rugăciuni.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Imi pare rău, dar sunt nevoită să plec</p>
+            <stage> (se uită pe fereastră) </stage>
+            <p>. Unde-o fi Puiu ?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Se joacă. „Chauffeur”-ul îi arată mecanismul mașinei.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (punându-și pălăria) </stage>
+            <p>. Copilul ăsta mă omoară cu automobilul.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Iată un nou mijloc de a omorî pe cineva cu automobilul.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (râde) </stage>
+            <p>. Da! de dimineață până seara îmi scoate sufletul să cumpăr o mașină. Măcar, — una mică, să umble cu ea prin casă.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ar putea fi copilul lui Grigore. Grigore are o patimă pentru automobile.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nu e singura patimă pe care o am.</p>
+            <stage> (îi sărută mâna, Irina nici nu-l ia în seamă) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (la fereastră) </stage>
+            <p>. Puiu! Puiu!</p>
+          </sp>
+          <sp who="#glasul_lui_puiu">
+            <speaker>GLASUL LUI PUIU</speaker>
+            <stage> (afară) </stage>
+            <p>. Poftim!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <p>Hai, că mergem! Vino!</p>
+          </sp>
+          <sp who="#puiu">
+            <speaker>PUIU</speaker>
+            <stage> (afară) </stage>
+            <p>. Indată! Viu îndată!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (șoferului) </stage>
+            <p>. Ștefane, ești gata!</p>
+          </sp>
+          <sp who="#glasul_lui_stefan">
+            <speaker>GLASUL LUI ȘTEFAN</speaker>
+            <p>Gata! Să viu ?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Sigur, ce mai aștepți</p>
+            <stage> (se aude uruitul mașinei care se apropie și se oprește la scară) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (punându-și vălul) </stage>
+            <p>. Mâine e rândul D-v. să veniți la mine, veniți de la 10.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu cred să pot veni. Sunt așa de obosită în cât simt nevoia unei zile întregi ca să mă odihnesc!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Poate să trec numai eu pe la D-ta!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Și eu rămân singură?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (plictisit) </stage>
+            <p>. Dragă, închipuește-ți că m’aș duce pe câmp, la mine, n’ai rămâne singură ?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>N’am spus nimic! Du-te, ai dreptate!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (enervat) </stage>
+            <p>. Nu! dar asta are haz! Singură!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Grigore, n’am spus nimic! De ce te superi.</p>
+            <stage> (D-nei Riteanu) </stage>
+            <p>. Vine! tocmai poate să și vadă....</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (brusc) </stage>
+            <p>n’am să văd nimic!...</p>
+            <stage> (D-nei Riteanu) </stage>
+            <p>. De nu pot veni îți telefonez.</p>
+            <stage> (Ese pe terasă) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (încurcată) </stage>
+            <p>. Zău, încearcă de vino și D-ta!</p>
+          </sp>
+          <sp who="#glasul_lui_puiu">
+            <speaker>GLASUL LUI PUIU</speaker>
+            <p>Mamă, ei haide!... prăpădim benzina... lui nenea Grigore.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Lasă, broască! nenea Grigore o să-ți cumpere ție zece butoae cu benzină</p>
+            <stage> (coboară în parc) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (înaintea Irinei) </stage>
+            <p>. La revedere, îți mulțumesc, și să știi că nu te las, mâine îți telefonez.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Telefonează. Așteaptă-l pe Grigore, sigur. Ți’l trimit negreșit!</p>
+          </sp>
+          <sp who="#d_nei_riteanu">
+            <speaker>D-NEI RITEANU</speaker>
+            <p>Dacă rămâi singură, să nu vie.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Crezi că-l pot ține acasă când e vorba să vie la D-ta!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (cu prietenie) </stage>
+            <p>. Imi telefonezi când pleacă, și nu’l primesc!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Dacă vrei îți telefonez și când pleacă.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (se ’ntoarce) </stage>
+            <p>. Hai? coniță, și-a pierdut copilul răbdarea!</p>
+          </sp>
+          <sp who="#riteanu">
+            <speaker>D-NA RITEANU</speaker>
+            <stage> (Irinei) </stage>
+            <p>. La revedere!</p>
+            <stage> (lui Grigore) </stage>
+            <p>. La revedere</p>
+            <stage> (ese pe terasă) </stage>
+            <p>. Vin, vin, uite am venit! Nu, nu e voe în față, vino înăuntru lângă mine</p>
+            <stage> (coboară și nu se mai vede) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (din ușă) </stage>
+            <p>. Da! da! Puiule... ești cu o cucoană,—vai ce fel de domn ești tu ?... lași o cucoană singură; așa, vezi... nu e mai bine ? La revedere! La revedere D-le Chauffeur</p>
+            <stage> (!) </stage>
+            <p>.... să nu-m strici mașina.</p>
+          </sp>
+          <sp who="#glasul_lui_puiu">
+            <speaker>GLASUL LUI PUIU</speaker>
+            <p>N’o stric, dar nu ți-o mai trimeț înapoi.</p>
+            <stage> (motorul se pune în mișcare; au plecat; se-aude sirena depărtându-se. Grigore coboară, vine până în dreptul mesei unde, în picioare, aruncă ochii pe ziare. Irina urcă, se reazămă și se uită din ușă, cu privirea rătăcită în parc. Deodată începe să plângă. Grigore se întoarce, merge spre ea; Irina fuge, dar el o prinde pe terasă și cu multă duioșie o mângâe și o aduce înapoi până ’n dreptul sofalei) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage>Irina. — Grigore.</stage>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (fugind după ea) </stage>
+            <p>. Ce înseamnă asta? Rino? Ce faci? Ce faci? Rino?</p>
+            <stage> (o prinde afară și aducând-o înapoi) </stage>
+            <p>. Se poate să mă sperii așa? Haide, haide înnăuntru! Fii cuminte! Cine e fata asta neastâmpărată care mă supără?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (în picioare, lângă canapea) </stage>
+            <p>. Mă simt așa de singură; mă simt așa de singură!</p>
+            <stage> (cade pe sofă cu capul în mâini) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Singură? frumos îți șade. Vino! uite stai aci! — Iartă-mă, uite adineaore am fost prea brusc cu tine, dar știi că nu-mi place să se amestece cineva în treburile mele!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (plânge) </stage>
+            <p>. Grigore...</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Vezi! ți-am spus eu! E rău c’am venit la țară. Ți-a spus și doctorul, ție îți trebuie viața sbuciumată de oraș. Iți trebuie petreceri, teatre.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nimic... nimic!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (cu un genunchiu pe canapea, aplecat spre dânsa, caută să-i ridice capul) </stage>
+            <p>. Aicea stai mereu în casă, n’ai pe nimeni, nu vrei să vezi pe nimeni.... uite! o să-mi iau inima ’n dinți și, or ce s’ar întâmpla, te iau... da, da! te iau cu sila; să ne ’ntoarcem în București și plecăm în străinătate! nu mai plânge!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (își revine, ridică în sus capul) </stage>
+            <p>. Să plecăm, da acuma vreau să plecăm...</p>
+            <stage> (plânge din nou) </stage>
+            <p>. Nu! nu se poate, cum să plec eu din casa asta, din odaia asta, pe păreții căreia s’au oprit cele din urmă priviri ale copilului meu!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (luptă din nou) </stage>
+            <p>. Hai să eșim? Vrei? Cum s’o întoarce automobilul, mergem spre luncă! da? ori nu vrei? vrei să mergem în oraș? poate avem ceva la poștă!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu! nu! Grigore...</p>
+            <stage> (se ’ntoarce și-i ia mâna) </stage>
+            <p>prea multe, prea multe... de te-aș perde și pe tine n’aș mai putea îndura viața; eu pentru tine mai trăesc... pentru tine!...</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Da’ ce sunt astea, pentru Dumnezeu, vino-ți în fire, nu vezi că sunt aicea, lângă tine...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu, nu mai ești aicea, ești acolo, gândul tău urmărește acuma goana automobilului.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Dar îți jur...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (cade din nou) </stage>
+            <p>. Și eu te iubesc atâta! Și te’am iubit atâta!!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Ințeleg să fii tristă, să suferi, bine, nici că s’ar putea, dar nu primesc ca în durerea ta să născocești lucruri care nu sunt și să mi le însușești mie, când niciodată nu mi-au trecut prin gând.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ba, da! Ești al ei... dacă nu ești încă, ai să fii! Am văzut, am simțit. Poți nici să nu fii în acelaș loc... să fii departe... și tot afli, se simte, e ceva, un sentiment vag care străbate spațiul și ți se ’ncuibă în suflet cu toată cruzimea.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>N’ai tu încredere în mine?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>N’am. Ba, am! tu ești atât de bun, nu’i așa? nu ’mi poți pricinui o durere atât de mare, care m’ar sdrobi, care m’ar omorî. Ce m’aș face!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Vezi!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Dar te-ai schimbat! Te-ai schimbat mult. Bine nici eu nu mai sunt ca înainte... știu, poate nu-ți mai plac... dar nu mă jicni să știu că tot ce simți pentru mine e un sentiment, e compătimire și că toată dragostea ta de odinioară a trecut la ea!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Irino ești un copil! Știi bine că eram prieten cu bărbatul ei, eram prieteni din copilărie, am învățat împreună, — mă ’ngrijesc de moșia ei, acuma, pentru că suntem vecini, pentru că m’a rugat, și pentru că n’are pe nimeni: nici rudă, nici frate... nimic. Un strein ar înșela-o și ar rămâne copilul pe drumuri!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Totdeauna ai ținut la dânsa, știu foarte bine. Se și spunea pe vremuri că bărbatul său s’ar fi omorît din pricina ta.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Mofturi!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Bine, cred! Inainte nici n’o mai vedeai, și acuma de câtăvă vreme o! și mă silești și pe mine s’o văd, eu care o urăsc, pentru că văd cum mi te ia... cum mi te rupe de lângă mine. Grigore, dacă ții la mine, dacă vrei să mă întremez, să n’o mai primim, să nu te mai duci pe la dânsa!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Asta nu se poate!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (se ’ndepărtează, dreapta) </stage>
+            <p>. Pentru că nu se poate!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Pentru ce nu se poate?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>I-am făgăduit să mă ocup totdeauna, de averea ei, n’o pot lăsă de capul ei acuma!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (resemnată) </stage>
+            <p>. Bine!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nu’mi poți cere lucruri imposibile cere-mi orice, asta nu!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Pentru ce? Pentru c’o iubești!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Pentru că i-am făgăduit.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Cât de legați vă simțiți, câteodată, voi bărbații, de unele făgădueli fără nici un temei. I-ai făgăduit: bine! — spune-i că din pricina mea nu te mai poți ține de făgădueală. De ți-ar fi indiferentă așa ai face! Dar pentru că ții la dânsa te folosești de-o făgăduială cu totul copilărească, ca de un paravan în dosul căruia poți face ce vrei. Bine! Să nici nu-ți mai aduci aminte, îți făgăduesc și eu să nu-ți mai pomenesc nimic... dar nici tu să nu îndrăsnești să te mai îngrijești de mine! Trăim sub acelaș acoperământ, ca doi cunoscuți cari locuesc acelaș otel. Sunt, dragul meu, sentimente, cari te pot despărți de un altul mai bine ca zidurile cele mai groase și depărtările cele mai mari.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nu!— Voi aștepta până când te vei convinge că totul e rodul închipuirei tale.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu te’ncrede în vreme! Vremea e perfidă. Crezi că vremea mă va face să uit? O nu! Mi-e și groază; sunt sigură că vremea îmi va dă dreptate și cu cât e mai târziu, cu atât e mai dureros. Sunt bolnavă; moartea lui Sandu vezi în ce stare m’a adus! Cruță-mă! nădăjduesc să ne despărțim mai curând decât o doriți amândoui și atunci... ne vom duce fiecare lângă cine ne e drag.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (înduioșat, se apropie și-o ia în brațe) </stage>
+            <p>. Nu vorbi copilării, Rino!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (liniștită) </stage>
+            <p>. Sunt săptămâni întregi de când văd ce se petrece, și dacă nu ți-am spus nimic până astăzi e că mă gândeam cu groază la clipa când voi sta în fața ta și-ți voi spune, tare, aceea ce de-atâta vreme gândesc singură, noaptea, când mă frământ de insomnie!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Văd că e de prisos, orice ți-aș spune în astfel de împrejurări nu te-ar putea convinge.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Pentru-că nu poți! Omul când are dreptate nu trebuie să vorbească mult; o vorbă, o privire, un gest e de-ajuns! Tu te temi și de vorbe și de priviri,—vorba te-ar trăda, ochii ar minți!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Pe femeea asta am cunoscut-o fată, înainte să-l ia pe Riteanu.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Fată? mă mir. Sunt femei dragul meu, cari n’au avut vreme să fie fete mari!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Ești rea și mă superi! Or ce-ai avea împotriva ei, n’ai dreptul s’o vorbești de rău; merită stima noastră pentru că a avut multe necazuri.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>De care s’a mângâiat totdeauna așa de bine încât nu i-a rămas nici o urmă. Când te uiți la ea, n’ai crede c’a suferit, și de multe ori îți dau dreptate. Intre ea și mine e o mare deosibire; ea e frumoasă, inteligentă, are atracții, e veșnic înconjurată de bărbați și asta e o mare calitate. Pe voi vă momesc femeile astea pentru că biruința are mai mult farmec. O biruiți și pe ea și pe cei care nădăjduiau în jurul ei! Eu?—sunt o biată femee care n’a știut nici odată să iasă resemnată dintr’o nenorocire. Ea e femeea care trece și te chiamă, eu sunt veșnica femee, legată de tine, pe care o găsești totdeauna când te întorci acasă. Ea e femeia pe care o găsești totdeauna cum îți place, eu, de multe ori, sunt altfel pentru că nu totdeauna ochii mei îți sunt pe plac, împăienjeniți de lacrămele unor suferințe de care ești străin! Și de-aia îți spun: nu te mai gândi la mine. Trăește cum vrei! Fă ce vrei! Du-te la dânsa, dar să nu știu eu! Vedeți-vă zilnic dar să nu bănuiesc eu! Du-te! dar ea să nu mai vie! Or ce vorbă, oricât de nevinovată, pe care v’o spuneți unul altuia mi se pare că e o batjocură aruncată mie!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Dar cine ți-a putut dă asemenea bănueli. Cine a putut fi atât de ticălos.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (mândră) </stage>
+            <p>. Nimeni! Eu! V’am văzut vorbind; uitându-vă unul la altul. Mă crez atât de jos încât să pot ascultă ce-ar spune unul și altul? Nimeni n’ar îndrăsni, pentru-că n’ași îngădui nimănui să pătrundă cea mai curată taină a sufletului meu: dragostea mea pentru tine!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (plictisit) </stage>
+            <p>. In cazul ăsta, draga mea...</p>
+            <stage> (sună telefonul de pe birou) </stage>
+            <p>. Poftim, trebuie să fie dânsa... vorbește-i ca să vezi...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nădăjduesc că e atât de iscusită să nu-ți spue cine știe ce prin telefonul la care m’ar puteă găsi pe mine!</p>
+            <stage> (telefonul sună din nou) </stage>
+            <p>. Nu te sfii! Poftim...</p>
+            <stage> (se depărtează în stânga; Grigore merge, dreapta, la aparat) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Allo! — Da! — Sofia?</p>
+            <stage> (Irinei) </stage>
+            <p>. E femeea din casă</p>
+            <stage> (în aparat) </stage>
+            <p>Ce e!</p>
+            <stage> (speriat) </stage>
+            <p>Cum? — Ce spui? Acuma? — Și?...</p>
+            <stage> (Irinei) </stage>
+            <p>Vai ce nenorocire!</p>
+            <stage> (în aparat) </stage>
+            <p>Și? — Da! — Sigur, vin! — Bine!— Și-a perdut cunoștința? — Bine!... bine!</p>
+            <stage> (închide) </stage>
+            <stage> (Irinei) </stage>
+            <p>. Și-a perdut cunoștința!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Puiu. Inchipuește-ți că băiatul, sburdalnic cum e, a căzut din automobil; are o leziune la cap și și-a perdut cunoștința. Vine șoferul să mă ia.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ar face mai bine să se ducă după un doctor. Ce ajutor poți să-i dai tu?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>S’a dus după doctor, și când o trece mă ia și pe mine. Ori poate cum îți închipuești toate, ești în stare să-i crezi că e o înscenare.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu, du-te! Să-mi și telefonezi cum îl găsești; mi-e drag copilașul ăsta... ași fi bucuroasă să-i poți fi de folos!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (căutându-și pălăria prin casă) </stage>
+            <p>. Ce nenorocire. Totdeauna i-am spus să ia seama de el!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu se gândeă, pe semne! Lor copilul în loc să le fie o ocupație le e o povară!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Las-o, trebuie să fie într’o stare... știi cât ține la el!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Știu!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (nerăbdător și enervat se uită afară apoi se ’ntoarce din nou) </stage>
+            <p>. Și nu mai vine...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Te ’ntorci curând?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Numai decât. Mă duc numai să văd ce e, și vin! femeea e singură... trebuie să te gândești</p>
+            <stage> (după o tăcere, în care el ascultă dacă vine mașina) </stage>
+            <p>. Iți repet, fii fără grijă. Intre ea și mine nu va fi nici odată nimic. I-am vândut lui Riteanu o parte din moșia mea și-așa se face că avem moșiile alături, altfel nici nu ne-am vedeă! Tu! Tu ești o femee neprețuită, nici să nu-ți treacă prin gând... dar vezi, ești într’o surescitare nervoasă, aicea, la țară, monotonie;... cu florile astea pe care le îngrijești și de care să nu se apropie nimeni:... din zi în zi ești mai rău. Trebuie să plecăm, mergem câteva luni în streinătate. Ce vrei mai mare dovadă... aha!... iată-l</p>
+            <stage> (se aude automobilul care intră și se apropie) </stage>
+            <p>. E și doctorul!</p>
+            <stage> (își ia pălăria) </stage>
+            <p>viu, imediat...</p>
+            <stage> (ese) </stage>
+            <p>La revedere, sunt așa de nervos... cred să nu fie nimic...</p>
+            <stage> (afară) </stage>
+            <p>. Ți-a supus, Doctore; ce s’a întâmplat? ai tot ce-ți trebuie? Ia, Ștefane, povestește-mi și mie cum s’a întâmplat?... Când?... Cum?</p>
+            <stage> (mașina a pornit din nou, se depărtează și glasul se perde. Liniște) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V.</head>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage>Irina. — Grigore.</stage>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (aruncându-și pălăria) </stage>
+            <p>. S’a sfârșit!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (îngrozită) </stage>
+            <p>. A murit!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (nu poate răspunde; apoi) </stage>
+            <p>. Vrei să ieșim?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Așa de iute? povestește-mi cum s’a întâmplat.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Nenorocire! S’a aplecat să vadă ce face roata când își schimbă viteza. Sdruncinătura a fost puternică și copilul s’a rostogolit, a căzut cu capul în jos și s’a izbit de bolovanul care arată chilometrul pe marginea șoselei.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (își pune mâna la ochi) </stage>
+            <p>. Vai, ce nenorocire!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Un sfert de ceas! Când am sosit cu doctorul era prea târziu; murise...</p>
+            <stage> (se așează pe jețul din stânga mesei și fără să vrea începe să plângă) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Ce trebuie să fie pe ea!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Pe cine?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Pe mama!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>A, da! ei bine, înțelegi!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>De ce n’ai rămas acolo, trebuie să fie singură.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>A mai rămas doctorul, — eu îți făgăduisem să mă întorc, poate te-ai răsgândit, vrei să ieșim; nu vream să te las să aștepți prea mult.</p>
+            <stage> (îi ia mâna în amândouă mâinile lui) </stage>
+            <p>. Nu știu cum, dar în fața copilului care murise și cu care mă jucasem două ceasuri mai de vreme, mă cuprinsese un dor nebun de tine și vream să te văd... mă durea...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (speriată, se așează în genunchi lângă el) </stage>
+            <p>. Grigore</p>
+            <stage> (ii ia mâinile) </stage>
+            <p>. Ce ai?... ți-e frig!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (se stăpânește; deodată începe să plângă) </stage>
+            <p>. Nu, nu e nimic, emoția... mi-am adus aminte de Sandu... mi-am...</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Grigore! Grigore!... ce e?... ce e? uită-te la mine!</p>
+            <p>Grigore se uită în ochii ei și spune un: da, care de-abia se aude; apoi îi dă drumul, cade cu capul în mâinile resimate pe genunchi. Irina, ca trăsnită șovăe și cade aproape pe jos; nu mai poate scoate o vorbă; se uită în gol.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Iartă-mă, nu-mi spune nimic... sînt destul de vinovat față de tine, ai priceput, ochii mei nu te-au mai mințit! — Nu mă mustra, nu-mi imputa nimic, sufăr în deajuns... ce vinovat sunt față de tine!...</p>
+            <stage> (îi ia mâinile și i le sărută) </stage>
+            <p>iartă-mă... mi-am luat pedeapsa... nu mă mai leagă nimic de dânsa... nimic, s’a sfârșit tot... și de ce a trebuit să isprăvească el? de ce?... Irino sufar, sufar mai mult ca altădată pentru că mi se pare că ai murit și tu!</p>
+            <stage> (cade din nou cu capul în mâini) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu! Nu!</p>
+            <stage> (cu o putere supranaturală caută să-și revie și se ridică de jos, din starea de prostrație în care se găsea. Stă în picioare lângă Grigore, îi ia capul în mâini și i-l reazimă la pieptul ei) </stage>
+            <p>. Nu! nu plânge, n’am nimic!... sunt așa de liniștită... dacă aflam eu... era mai rău... așa mi-ai spus tu; nu, n’a ispășit nimic... nimic... nu mai spune așa pentru că aș avea copilul ăsta pe conștiință. Nu plânge! ce să facem noi, femeile, în fața nenorocirilor dacă voi nu vă puteți stăpâni și nu le puteți îndura,... mângâerea și tăria, să înfruntăm soarta și zilele de mâine trebuie să ne-o dați voi.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>O! ce mic! ce mic mă simt față de tine. In nenorocirea care ne lovise acum câtăva vreme, sufeream, împreună cu tine, și nu eram în stare să găsesc un singur cuvânt de mângâiere cu care să-ți împac durerea. Și acuma... vorbele tale sînt atât de de dulci, în glasul tău e atâta seninătate. Irino, ce suflet ai ca în astfel de împrejurări tocmai să-mi aduci alinarea?</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Voi nu găsiți adevăratul cuvânt de mângâere. Numai femeilor le e dat să mângâe. Nu suferi... uitemă pe mine... o să plecăm... o să trăim o viață nouă... liniștită... Grigore nu suferi... nu plânge... să nu crezi că suferința ta mă doare, pentru că-ți plângi copilul care nu era și al meu... ci, mă doare pentru că suferi... și pentru că te înțeleg!</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (sărutându-i mâinile) </stage>
+            <p>Irino! Irino! tu? tu? știam ce suflet ai... știam. — Dac’ai ști cât m’am sbătut între voi două... dar Puiu mă ținea la dânsa... era o datorie, era o legătură... acum, acum, sînt al tău, înțelegi... te iubesc!... te înțeleg!... în fața morței lui am simțit nevoia să te știu lângă mine, am fugit de acolo și nu mai ajungeam la tine... vroiam să intru să-ți spun tot... și m’am oprit... pentrucă, pentrucă... o! îți mulțumesc că m-ai ajutat să-ți spun... îți mulțumesc că mi-ai ușurat durerea. Ce vrei? în câteva luni de zile... de două ori am adăpostit moartea în casa mea! Am stat acolo pe pragul ușei: mi se părea că e Sandu... și nu te vedeam pe tine.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Dar ea?</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Ea?... ea plângea... și când am făcut deosebirea între plânsul tău și plânsul ei, mă uitam și nu înțelegeam,... și mi-am dat seama, mai târziu, când veneam spre casă... că în viața asta unde nimic nu se aseamănă, clipă cu clipă, om cu om, suflet cu suflet, n’a putut nici dragostea de mamă să fie aceiaș la toate, ci a trebuit și de la o mamă la alta... să suspine plânsul deosebit.</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Nu! N’o învinui pe nedrept, sunt lăcrămi care vin mai târziu... și sunt poate cele mai dureroase. Vino! uite să eșim... pe terasă, e răcoare, o să-ți facă bine.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <stage> (se scoală) </stage>
+            <p>Fetițo dragă, ce nenorocită ești tu, cât te-am făcut să suferi!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Pe mine? Nu. Sufăr pentru că te văd mâhnit. Hai, nu te mai gândi. Fii tare! Uite, încercând să te mângăi, mă mângăi pe mine și parcă întâia dată înțeleg și eu că altul e rostul în viață, în urma celor care se duc! Acuma du-te, du-te acolo, n’o lăsă singură.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Irino!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <p>Suferința ei trebuie să fie mare... poate nu și-o arată</p>
+            <stage> (ia florile pe care le adusese la început în vasul de pe birou) </stage>
+            <p>. Lui să-i duci florile astea.</p>
+          </sp>
+          <sp who="#grigore">
+            <speaker>GRIGORE</speaker>
+            <p>Irino!</p>
+          </sp>
+          <sp who="#irina">
+            <speaker>IRINA</speaker>
+            <stage> (ii dă mâna) </stage>
+            <p>Și ei să-i spui că-i împărtășesc durerea ca una care a suferit și încearcă să găsească alinarea.</p>
+            <stage> (Grigore îi sărută mâna, ea îl duce către ușe în vreme ce cade cortina) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

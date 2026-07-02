@@ -1,0 +1,2107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000084" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Piatra din casă</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Piatra_din_cas%C4%83">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1847">
+            <desc>1847</desc>
+          </event>
+
+          <event type="premiere" when="1847">
+            <desc>Teatrul Național din Iași, la 3 mai 1847</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="ioana">
+            <persName>Ioana</persName>
+          </person>
+          <person xml:id="zamfira">
+            <persName>Zamfira</persName>
+          </person>
+          <person xml:id="frant">
+            <persName>Franț</persName>
+          </person>
+          <person xml:id="zmafira">
+            <persName>Zmafira</persName>
+          </person>
+          <person xml:id="marghiolita">
+            <persName>Marghiolița</persName>
+          </person>
+          <person xml:id="marhiolita">
+            <persName>Marhiolița</persName>
+          </person>
+          <person xml:id="sa_cant_tot_asa">
+            <persName>Să cânt tot așa</persName>
+          </person>
+          <person xml:id="leonil">
+            <persName>Leonil</persName>
+          </person>
+          <person xml:id="feciorul">
+            <persName>Feciorul</persName>
+          </person>
+          <person xml:id="palciu">
+            <persName>Pâlciu</persName>
+          </person>
+          <person xml:id="nicu">
+            <persName>Nicu</persName>
+          </person>
+          <person xml:id="paciu">
+            <persName>Pâciu</persName>
+          </person>
+          <person xml:id="si_imi_zicea">
+            <persName>Și îmi zicea</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000084"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Piatra din casă</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>Ioana</role>
+        </castItem>
+        <castItem>
+          <role>Zamfira</role>
+        </castItem>
+        <castItem>
+          <role>Franț</role>
+        </castItem>
+        <castItem>
+          <role>Zmafira</role>
+        </castItem>
+        <castItem>
+          <role>Marghiolița</role>
+        </castItem>
+        <castItem>
+          <role>Marhiolița</role>
+        </castItem>
+        <castItem>
+          <role>Să cânt tot așa</role>
+        </castItem>
+        <castItem>
+          <role>Leonil</role>
+        </castItem>
+        <castItem>
+          <role>Feciorul</role>
+        </castItem>
+        <castItem>
+          <role>Pâlciu</role>
+        </castItem>
+        <castItem>
+          <role>Nicu</role>
+        </castItem>
+        <castItem>
+          <role>Pâciu</role>
+        </castItem>
+        <castItem>
+          <role>Și îmi zicea</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>Cucoana Zamfira (pe canapea), Ioana.</stage>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Cum, Doamne iartă-mă, cucoană? că de azi dimineață le țin pe foc. De le-oi mai pune pe jăratic, mă tem că din belte s-or priface în balmuș.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ea, taci, dobitoaco, că nu știi ce zici. Du-te de le mai dă o fiertură pană s-or lega cum se cade.</p>
+            <p>Ioana</p>
+            <stage> (în parte, voind să iasă prin stânga) </stage>
+            <p>Ardă-le focu dulceți, că-mi scot sufletul!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ascultă... ce face Marghiolița?</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Duduca?.. drăngănește din ghitardă.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Dascalu de joc o fost azi după masă?</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Care? Cel uscat ca un țîr?.. o fost.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Și cel de franțuzește?</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Ș-acel pleșuv... Sărmana duducuță!.. toată ziua o necăjesc fel de fel de șonți!.. în calte de s-ar mărita o dată, să scape...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ei, nu mai clențeni, cioară, și ieși afară.</p>
+            <p>Ioana</p>
+            <stage> (ieșind prin stânga, în parte) </stage>
+            <p>Crapă de ciudă cucoana, că nu-și poate mărita fata.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <stage>Zamfira, Her Franț (intră prin fund)</stage>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>M-am închinat cu sărut mâna, cucoană Zamfiriță. Cum merge sănătatea?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ah! nu prea bine, monsiu Franț.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Nu bine?..</p>
+            <stage> (pipăindu-i mâna) </stage>
+            <p>Cu adevărat, tulburare mare... Scoate limba puțintel.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Că doar nu-s bolnavă cum socoți d-ta.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Da cum?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Am boala grijei.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Boala grijei?.. Nu cunosc...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Nu înțelegi că sînt îngrijită pentru Marghiolița?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>A! ha, ha, ha. Eu mă spăriesem că ai friguri.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Mai bine aș avea friguri, lungoare, gălbănare, de cât fată mare!.. Ah, monsiu Franț, nu știi ce sarcine-s fetele la casa omului!</p>
+            <p>Franț</p>
+            <stage> (oftând) </stage>
+            <p>Ah! cucoană Zamfiriță, cum se nu știu!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ce zici?.. Ai și d-ta vreo Marghioliță?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Ba m-a ferit Dumnezeu! Dar, știi că mi-ai poruncit să aștept până s-a mărita mademuasel Mari, și mi-ai făgăduit că atunci te-i cununa cu mine...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Cu adevărat, monsiu Franț, ți-am făgăduit... dar cine știe dacă s-a înplini vreodată!</p>
+            <p>Franț</p>
+            <stage> (cu foc) </stage>
+            <p>A!.. de ce nu? Nu ți-am spus că te iubesc de douăzeci ș-atâți de ani?.. tocmai din vremea volintirilor?.. De ce să nu-ți fie milă de patima mea?..</p>
+            <p>Eu, vestitul doctor Franț,</p>
+            <p>Care-n târg vând sănătate,</p>
+            <p>De când m-ai prins mata-n lanț,</p>
+            <p>Sufăr boale-nfricoșate!</p>
+            <p>La ochi simt o tulburare,</p>
+            <p>În piept ferbințeală mare,</p>
+            <p>La suflet melanholie</p>
+            <p>Și la crieri nebunie!</p>
+            <p>Zău, sînt vrednic de-a ta jale,</p>
+            <p>Vindecă-mi patima grea...</p>
+            <p>Eu sînt doftorul matale,</p>
+            <p>Ah! fii doftoroaea mea!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Cum n-aș vrea să fiu doftoroae, monsiu Franț!.. Dar, ce folos, dacă nu pot găsi un bărbat Marghioliței!.. D-ta mai căutat-ai prin târg?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Am umblat toate ulițele, toate casele, toate...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Și ai găsit ceva?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>He, he...</p>
+            <stage> (ie tabac) </stage>
+            <p>Poftești cucoană Zamfiră?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <stage> (luând tabac) </stage>
+            <p>Foarte-ți mulțemesc... Ș-așa zici că ai găsit?..</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>He, he...</p>
+            <stage> (strănută) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Să-ți fie de bine!</p>
+            <stage> (strănută) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Foarte-ți mulț... Să-ți fie de bine.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Amin, și într-un ceas bun!.. Da ia spune-mi mai degrabă...</p>
+            <p>Franț</p>
+            <stage> (în taină) </stage>
+            <p>Cunoști pe Cuconu Grigori Pâlciu?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Căminarul Grigori?.. Cum să nu-l cunosc? Era bun prietin cu răposatu socrul meu, Dumnezeu să-l ierte!</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Știi că are un băet?</p>
+          </sp>
+          <sp who="#zmafira">
+            <speaker>Zmafira</speaker>
+            <p>Îl știu... Nicu... îi cam tăcut... cam prostuț.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Prostuț... dar holteiu!..</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Bine zici... și are stăricică bună tată-său.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Și-l-a făcut Comis mai dăunăzi.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Almintrele seamănă a fi cam de treabă tânăr.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Cu atât mai de treabă, că-i bun de însurat.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Trebue să fie de vreo 22 de ani?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>I-a înplinit la Crăciun.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Dar... socoți că a vrea?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Dacă n-a vrea el, tată-său vrea.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ce zici, dragă monsiu Franț?.. I-ai și vorbit?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Mă mai întrebi, când știi că te iubesc de douăzeci ș-atâți de ani?.. tocmai din vremea...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Și ce-a răspuns Căminarul?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Mi-a zis că a veni deseară cu feciorul său să petreacă aici câteva ceasuri și să se înțeleagă cu d-ta asupra foaiei de zestre.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ah, monsiu Franț! și nu-mi-o spui mai degrabă?.. Îmi vine să te sărut de bucurie.</p>
+            <p>Franț</p>
+            <stage> (cu dragoste) </stage>
+            <p>Fă-ți pomană, că te iubesc de douăzeci ș-atâți...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Oare?.. Mări, tot o să ne cununăm împreună...</p>
+            <stage> (îl sărută) </stage>
+            <p>.</p>
+            <p>Franț</p>
+            <stage> (în parte) </stage>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Du-te acum degrabă Frănțișorule în târg și-mi cumpără o oca de zaharicale pe deseară.</p>
+            <p>Franț</p>
+            <stage> (cu foc) </stage>
+            <p>Ș Ori ce-i dori... poroncește-mi, că eu de-acum sunt a matale de veci.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Și eu a matale, tij, scumpul meu Franț!</p>
+            <p>Franț</p>
+            <stage> (în parte) </stage>
+            <p>Ș Scumpul meu!.. A, Birman, Birman!.. Du bist ain hunțgemainer Don Jian!</p>
+            <stage> (iese îngâmfat prin fund) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>În sfîrșit am să scap de-o grijă!.. am să mă cotorosesc de fată! Slavă ție Doamne, că-mi urnești piatra din casă!</p>
+            <stage> (strigă la ușa din stânga) </stage>
+            <p>Marghiolițo, Marghiolițo... vin’ degrabă sufletul meu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <stage>Zamfira, Marghiolița (se arată la ușă cu o chitară în mână).</stage>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ce vrei neneacă?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Vină-ncoaci.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Acuș... numai să leg o strună la chitară.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Da lasă-ți cobza la o parte și vină azi când te chem.</p>
+            <p>Marghiolița</p>
+            <stage> (intră mânioasă și aruncă chitară pe un jilț) </stage>
+            <p>Of! iată-mă c-am venit... ce vrei?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Dec!.. ce te răstești așa la mine, jupâneasă?.. Ai uitat cu cine vorbești?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Cine să răstește?.. Îți spun c-am venit.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Te văd eu, că doar nu-s chioară; dar te poftesc să-ți mai ții clanțul, c-apoi...</p>
+            <p>Marghiolița</p>
+            <stage> (cu mânie, în parte) </stage>
+            <p>Apoi ce?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ascultă-mă... Deseară au să vie să petreacă aici, cuconu Grigori Pâlciu cu feciorul său... cu feciorul său... mă-nțelegi?</p>
+          </sp>
+          <sp who="#marhiolita">
+            <speaker>Marhiolița</speaker>
+            <p>D-apoi bine... deseară mi-ai făgăduit să mergem la teatru.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Vom merge altă dată, că nu piere lumea.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Altă dată, altă dată... Tot așa mă porți cu vorbe.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Lasă, fata mea, că după ce te-i mărita, tot teatru îi videa.</p>
+            <p>Marghiolița</p>
+            <stage> (în parte) </stage>
+            <p>Măcar de-ar da Dumnezeu să mă mărit, ca să scap de-aici!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Bucură-te dar și te veselește, dragă Marghioliță, că în curând ai să ieși și tu în lume... ai să fii cucoană.</p>
+            <p>Marghiolița</p>
+            <stage> (rușinoasă) </stage>
+            <p>Să fiu cucoană?..</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ei, las’... nu-ți mai cârni nasul, că știu că-ți pare bine. Vină mai bine de-mi sărută mâna, că ți-am găsit un bărbat.</p>
+            <p>Marghiolița</p>
+            <stage> (veselă) </stage>
+            <p>Zău?.. care, dragă nenecuță?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Nicu... feciorul Căminariului Pâlciu?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Nicu?.. Nu-l cunosc... dar mi-a spus văru Leonil, că-i prost de tot.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Vărul tău Leonil îi un nebun și un obraznic, și dacă l-oi mai videa pe-aici, am să-i rup urechile.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Vorbește încai franțuzește?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Nicu?.. A fi rupând și el vreo două vorbe ca toată lumea.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Dar... la balurile de la Curte merge?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Cum nu?.. îi Comis!</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Merge! Cât-mi pare de bine! Vrea să zică oi juca și eu la Revelion?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ba încă și la sfântu Neculae.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Și mi-a lua și lojie la teatru, la benuar?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ce la benuar?.. la răndul întăi.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Și mai bine, ca să moară de-ciudă celelalte fete... Ah, nenecuță, cât ești de bună!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Vezi cum mă îngrijesc de soarta ta?.. De aceea și tu trebuie să faci ce te-oi sfătui eu.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ori ce mi-i porunci, nenecuță...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Să te gătești, dintăi frumos: să te strângi în corset și când va veni Nicu, să-i dai pricină de vorbă... însă franțuzește! Să te uiți la el cu ochi galeși, să-i zâmbești, să-i cânți din chitară marșul lui Napoleon, și în sfîrșit să faci ori ce-i ști, pentru ca să-l amețești.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Las pe mine, nenecuță, că m-oi pricepe eu.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Haide, apucă-te de-ți fă părul, că acuș însărează. Eu mă duc în târg ca să-ți cumpăr o rochie de nunta... dar caută să fii gata când m-oi întoarce.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Bine... dragă nenecuță.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>A!.. să nu uiți ca să aduci aici ghergheful cel cu turcu călare, pentru ca să-l vadă Nicu.</p>
+            <stage> (iese prin fund) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <sp who="#sa_cant_tot_asa">
+            <speaker>Să cânt tot așa</speaker>
+            <p>Tra, la, la, la, la.</p>
+            <p>II.</p>
+            <p>Am să-mi cumpăr șaluri</p>
+            <p>După gustul meu;</p>
+            <p>Să mă duc la baluri</p>
+            <p>Și să joc mereu.</p>
+            <p>Iară, când la Curte</p>
+            <p>Îmi va face curte</p>
+            <p>Vr-un tânăr frumos...</p>
+            <p>Dacă bărbățelul,</p>
+            <p>Dacă suflețelul</p>
+            <p>Va fi mânios,</p>
+            <p>Tra, la, la, la, la,</p>
+            <p>Și m-a descânta...</p>
+            <p>I-oi răspunde-așa:</p>
+            <p>Ha, ha, ha. ha, ha.</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <stage>Marghiolița, Leonil (intră prin fund pe furiș, se apropie de Marghiolița ș-o sărută pe umăr).</stage>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Am mai pățit-o și altă dată... Nu-mi pasă, măcar să-mi și rupă urechile... Mă jertfesc pentru mata!</p>
+            <stage> (trage de ușă) </stage>
+            <p>.</p>
+            <p>Marghiolița:Da lasă ușa în pace, nebunule.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ba nu... am s-o scot din țâțâni, cum m-ai scos și mata din sărite.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Apoi cearcă, de vrei să vezi pe dracu.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Dar... vreau să-l văd cu coarnele în papiliote, și să-l sărut și să-i spun că-l iubesc peste măsură.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ha, ha, ha, cât îi de obraznic!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Obraznicu mănâncă praznicu... Deschizi, ori stric ușa?.. Pân’ în trei ori... una... două... două și jumătate...</p>
+            <p>Marghiolița:Ba te rog, Leonițule, nu te-apuca de pozne.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ei, dacă te rogi, se schimbă. Te las, însă cu condiție să-mi dai o guriță.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ai înnebunit?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ba nu mai e mult... și drept dovadă, mă jur să n-am parte de mătușica, dacă nu dau peretele jos.</p>
+            <stage> (împinge tare ușa) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Of, Doamne, ce necaz... Ei, șezi binișor că-ți dau... întinde botul.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>L-am întins.</p>
+            <stage> (Ușa se deschide pe jumătate. Obrazul Ioanei se ivește... și Leonil îl sărută, fără a lua de seamă. Îndată după aceasta, ușa se închide iute și se aud râsuri înauntru) </stage>
+            <p>.</p>
+            <p>Marghiolița</p>
+            <stage> (râzând) </stage>
+            <p>Să-ți fie de bine, verișorule.</p>
+            <p>Ioana</p>
+            <stage> (asemenea) </stage>
+            <p>Și la mulți ani, cuconașule.</p>
+            <p>Leonil</p>
+            <stage> (depărtându-se de ușă furios) </stage>
+            <p>Am pățit-o!</p>
+            <p>O! ce foc</p>
+            <p>M-a trăsnit</p>
+            <p>Stau pe loc împietrit!</p>
+            <p>Iubeam un înger, o porumbiță</p>
+            <p>Și de la dânsa ceream guriță;</p>
+            <p>Când vai! în ciudă</p>
+            <p>Soarta mea crudă</p>
+            <p>Schimbă pe înger într-o țigancă,</p>
+            <p>Pe porumbiță în trup de stancă;</p>
+            <p>Și-n loc de miere</p>
+            <p>Ah! gustai fiere!</p>
+            <p>Și-n loc de buze de verișoară</p>
+            <p>Sărutai gingaș... un plisc de cioară!</p>
+            <p>O! ce foc</p>
+            <p>M-a trăsnit!</p>
+            <p>Stau pe loc</p>
+            <p>Înpetrit!</p>
+            <p>Ce să fac?.. Să stric ușa și să dau năvală în odaie ca să-mi răzbun, cu șaptezeci de mii de milioane de sărutări... Dar... alta nu-mi mai rămâne.</p>
+            <stage> (se repede spre ușă, dar de o dată se oprește, auzind glasul Zamfirei afară) </stage>
+            <p>. Săracul de mine! ce-am auzit? glasul mătușicăi?.. De m-a găsi baba aici, apoi chiar că rămân făr’ de urechi! mai ales că mi-a hotărât să nu-i mai calc în casă, de când i-am zis că se dă cu roș... unde să fug? unde să m-ascund?.. A!.. în dulapul ist cu rochii.</p>
+            <stage> (intră în dulap) </stage>
+            <p>Nu-s călcate rochiile, dar le-oi călca eu.</p>
+            <stage> (le calcă în picioare) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <stage>Leonil (în dulap), Zamfira (aducând o rochie albă), Her Franț (cu o hârtie de cofeturi).</stage>
+          <stage>(Până a nu intra pe scenă, Zamfira și Franț zic următoarele cuvinte tocmai când vrea Leonil să se arunce asupra ușei ca s-o strice).</stage>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>D-ta ești, Her Franț? dă-mi brațul să sui scările.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Poftim pe cel din stânga că-i din partea inimei.</p>
+            <p>Zamfira</p>
+            <stage> (intrând) </stage>
+            <p>Of?.. bată-le cucu marșan-de-mode, că mare scumpe-s!.. Auzi d-ta, opt sute de lei pentru o rochie gata de nuntă?.. Nu face mireasa cât rochia.</p>
+            <p>Leonil</p>
+            <stage> (în parte, deschizând puțin dulapul) </stage>
+            <p>O rochie de nuntă!</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>După cum îi și mireasa... dar când mireasa se numește Zamfira, nu-i nimic destul de scump pe la jidani.</p>
+            <p>Zamfira</p>
+            <stage> (zîmbind) </stage>
+            <p>Berbantule! tot așa mă ademenești cu vorbe dulci.</p>
+            <p>Franț</p>
+            <stage> (dându-i cofeturile) </stage>
+            <p>Și cu zaharicale, ca pe un canaraș.</p>
+            <p>Zamfira</p>
+            <stage> (luându-le) </stage>
+            <p>Taci, dimoni, că mă scoți din minți.</p>
+            <stage> (merge spre dulap) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Auzi-i cum se ciugulesc?</p>
+            <stage> (văzând pe Zamfira, închide iute ușa) </stage>
+            <p>. O!</p>
+            <p>Zamfira</p>
+            <stage> (încercând să deschidă dulapul) </stage>
+            <p>Ce dracu are dulapul ista de nu vrea să se deschidă?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Da ce vrei să faci?</p>
+            <p>Zamfira</p>
+            <stage> (întorcându-se către Franț) </stage>
+            <p>Vreau să închid rochia de nuntă a Marghioliței.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Ia să cerc eu, că-s vîrtos.</p>
+            <stage> (cearcă, dar nu poate să deschidă) </stage>
+            <p>.</p>
+            <p>Zamfira</p>
+            <stage> (râzând) </stage>
+            <p>Ei; monsiu Franț, așa mi te lauzi? Ha, ha, ha...</p>
+            <stage> (imitând pe Franț) </stage>
+            <p>Ia să cerc eu, că-s vîrtos! Ha, ha, ha...</p>
+            <p>Franț</p>
+            <stage> (necăjindu-se în zadar) </stage>
+            <p>Tertaifel!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ia să-ți ajut și eu, că ți-ai uitat virtutea acasă.</p>
+            <stage> (Feciorul intră) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>Feciorul</speaker>
+            <p>Cucoană; o venit o trăsură cu doi boieri.</p>
+            <p>Franț</p>
+            <stage> (depărtându-se de dulap) </stage>
+            <p>Negreșit că-i cuconu Grigori Pâlciu cu fiul său.</p>
+            <p>Zamfira</p>
+            <stage> (întorcând spatele la dulap) </stage>
+            <p>Cuscrul și ginerele? Poftește-i sus și adă lumânări degrabă, că-i întuneric.</p>
+            <stage> (Feciorul iese.) </stage>
+            <p>Leonil</p>
+            <stage> (furios) </stage>
+            <p>Pâlciu ginere! O!</p>
+            <stage> (Zamfira pune rochia și cofeturile pe un scaun lângă dulap și se apropie de Franț. În vremea asta Leonil deschide ușa dulapului și fură cofeturile) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Acum îi acum, dragă monsiu Franț.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>N-ai nici o grijă, cucoană Zamfiriță.</p>
+            <p>Zamfira</p>
+            <stage> (alergând la ușa din stânga) </stage>
+            <p>Marghioliță, ești gata?</p>
+            <p>Marghiolița</p>
+            <stage> (din odaie) </stage>
+            <p>Numai pantofii să mi-i leg.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Caută să întri în salon când oi tuși.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Bine, nenecuță.</p>
+            <p>Leonil</p>
+            <stage> (mâncând zaharicale) </stage>
+            <p>Verișoara să fie Pâlcioae! O!</p>
+            <stage> (Feciorul intră aducând lumânări aprinse) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#feciorul">
+            <speaker>Feciorul</speaker>
+            <p>Boierii se suie pe scări.</p>
+            <stage> (pune lumânările pe masă și iese) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <stage>Cei dinainte, Căminarul Grigori. Pâlciu, Nicu.</stage>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Cu plecăciune.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Sluga d-tale, cucoane Grigori... Da de unde și până unde pe la noi?.. De atâta vreme de când nu ne-ai mai dat obraz...</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Mă iartă, cucoană dragă, c-am fost tot cam bolnav.</p>
+            <p>Zamfira</p>
+            <stage> (arătând pe Nicu) </stage>
+            <p>D-lui îi cuconașul d-tale?.. Nicușoru?</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Dar... nu-l cunoști?</p>
+            <stage> (lui Nicu) </stage>
+            <p>Sărută mâna cucoanei.</p>
+            <stage> (Nicu sărută mâna cucoanei Zamfirei, care îl sărută pe frunte) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ba că bine zici, cucoane Grigori... Ia privește-l cum o crescut de mare! S-o făcut holtei.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Hei!.. așa crescu bobocii.</p>
+            <p>Leonil</p>
+            <stage> (în parte cu gura plină) </stage>
+            <p>Bobocii!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Da... ia poftim de șezi, cucoane Grigori, să mai vorbim de vremile noastre.</p>
+            <p>Pâlciu</p>
+            <stage> (șezând pe canapea lângă Zamfira) </stage>
+            <p>Sărut mâna... Iată și domnul Franț, prietinul nostru. Unde nu gândești, acolo-l găsești.</p>
+            <p>Franț</p>
+            <stage> (șezând pe un jilț) </stage>
+            <p>Eu sunt ca buruiana cea rea.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Ba nu, Birmănașule dragă, ești ca burueana cea de leac.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Pentru că-i doftor? Ha, ha, ha... Tot vesel ești, Cucoane Grigori!</p>
+            <stage> (râde tușind și căutând spre odaia din stânga) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Hei!.. cum dă Dumnezeu și cel codru verde, cucoană Zamfiră. Noi, bătrânii căutăm să veselim ceasurile câte ne mai rămân de trăit, pentru ca să ne mângâiem de cele care au trecut.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Și bine faceți, bine faceți.</p>
+            <p>Pâlciu</p>
+            <stage> (luând pe Zamfira de mână) </stage>
+            <p>Bine facem cu adevărat, cucoană dragă, pentru că cine știe?.. mâni, poimâni poate... alivanta-n groapă.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Fără voia doftorilor?</p>
+            <p>Pâlciu</p>
+            <stage> (râzând) </stage>
+            <p>Ba cu toată împuternicirea lor.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ha, ha, ha.</p>
+            <stage> (tușește) </stage>
+            <p>Da ce nu șezi, cucoane Nicule?</p>
+            <stage> (Nicu se pune pe un scaun) </stage>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Mări, nu-l mai tot cuconi, că s-a diochia.</p>
+            <p>Zamfira</p>
+            <stage> (râzând și tușind mai tare) </stage>
+            <p>Bate-te norocu că poznaș mai ești.</p>
+            <stage> (în parte) </stage>
+            <p>Nici c-a veni drăcoaica.</p>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <stage>Cei dinainte, Marghiolița.</stage>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Hei!... iată și duduca Marghiolița, fata moșului cea frumoasă.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Vezi cât o crescut?</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Ba ce crescut!.. bre, bre! când era nu-mai de-o șchioapă.</p>
+            <p>Leonil</p>
+            <stage> (în parte furios) </stage>
+            <p>Șchioapă... verișoara!</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Vin’ încoaci, fata mea, să te sărute moșu.</p>
+            <stage> (Marghiolița se apropie de Pâlciu, care o sărută pe frunte. Zamfira și Franț își fac semne de bucurie. Nicu se scoală pe picioare și se uită pe furiș la Marghiolița) </stage>
+            <p>.</p>
+            <p>Marghiolița</p>
+            <stage> (în parte) </stage>
+            <p>Of!.. că m-o înghimpat cu mustățile.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Îți aduci aminte, Marghiolițo, când îmi ziceai mosu Pâlsiu, mosu Pâlsiu?.. Parcă nu-mi vine-a crede că-i ea, cucoană Zamfira. Dintr-atâtica, s-o făcut coșcoge fătoiul.</p>
+            <p>Leonil</p>
+            <stage> (cu gura plină, furios) </stage>
+            <p>Fătoiul!</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Iată și Nicu, fiul meu, dragă Marghioliță... Nu-ți aduci aminte când te jucai cu dânsul de-a Babaoarba?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Ba nu babacă... de-a Puia-gaia.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Vin de-i sărută mâna, Nicule.</p>
+            <stage> (Nicu sărută mâna Marghioliței ș-apoi se întoarce la locul lui și stă tot în picioare) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Îi pupă mâna prostu... O!</p>
+            <stage> (Marghiolița se uită cu ochi galeși la Nicu în toată scena asta. Nicu se tulbură) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Ce mai zici și d-ta, mosiu Franț?.. Așa-i că de-acum o venit vremea să dăm rândul copiilor?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Așa-i pravila Naturei, cucoane Grigori. Bătrânii împreună și tinerii iarăși împreună... mai ales când se găsesc doi cari se potrivesc...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Adevărat grăiești, monsiu Franț... Nimic nu-i mai nostim de cât doi hulubași... pereche.</p>
+          </sp>
+          <sp who="#paciu">
+            <speaker>Pâciu</speaker>
+            <p>Atunce-i fericire-n casă.</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Ba în hulubărie.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Cui o spui, cucoane Grigori?.. Iată-mă-s eu... am trăit 17 ani cu răposatul soțu meu, Dumnezeu să-l ierte!... și nici odată nu ne-am sfădit... Sărmanu! ce bujor de om era! Cât oi trăi, l-oi tot boci!</p>
+            <stage> (plânge) </stage>
+            <p>.</p>
+            <p>Sărmanu bărbățelu!</p>
+            <p>Sărmanu suflețelu.</p>
+            <p>Ce om, ce om era!</p>
+            <p>Supus l’ a mea voință,</p>
+            <p>Plecat l’ a mea dorință</p>
+            <p>În veci el s-arăta!</p>
+            <p>Eu îl numeam Luluță,</p>
+            <p>El mă numea Mumuță</p>
+            <p>Cu glasu-i drăgălaș,</p>
+          </sp>
+          <sp who="#si_imi_zicea">
+            <speaker>Și îmi zicea</speaker>
+            <p>„Firiță!</p>
+            <p>Tu ești o porumbiță,</p>
+            <p>Și eu un porumbaș.”</p>
+            <p>Ah, vai ș-amar de mine!</p>
+            <p>Ah, dragul meu bărbat!</p>
+            <p>Mumuța după tine</p>
+            <p>Va plânge ne-ncetat!</p>
+            <stage> (Marghiolița și Franț își șterg ochii. Nicu trage din buzunar, o basma lungă și-și suflă nasul tare) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Așa și eu cu biata răposata, Dumnezeu s-o ierte!.. Ah, ce femeie scumpă și iconoamă!.. Of, of!</p>
+            <p>Sărmănica</p>
+            <p>Mititica!</p>
+            <p>Cât de mult ea mă iubea!</p>
+            <p>Sărmănica</p>
+            <p>Mititica!</p>
+            <p>Ce dulceți bune făcea!</p>
+            <p>Ce locmale</p>
+            <p>Baclavale,</p>
+            <p>Învărtite și bohaciu!</p>
+            <p>Ce vutci bune,</p>
+            <p>De minune,</p>
+            <p>Cu miros de odogaciu!</p>
+            <p>Amar mie!</p>
+            <p>Ce soție,</p>
+            <p>Ce comoară-am prăpădit!</p>
+            <p>Ah! ce viață.</p>
+            <p>Ce dulceață,</p>
+            <p>Moartea crudă mi-a răpit!</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Bre!.. c-au să înece mahalaua.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Of, of!.. Marghiolițo, du-te de zi s-aducă dulceți de cele care ai făcut tu astăzi.</p>
+            <stage> (Marghiolița iese prin stânga) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Cucoane Grigori, am să-ți dau să guști dulceți de-a Marghioliței.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>De i-or semăna ei, trebuie să fie foarte plăcute. Așa-i Nicule?</p>
+            <p>Nicu</p>
+            <stage> (răsărind) </stage>
+            <p>Dar babacă; îmi plac.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Da ce nu șezi, cucoane Nicule?</p>
+            <p>Nicu</p>
+            <stage> (se pune pe scaun) </stage>
+            <p>Mersi.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Trebue să știi, cucoane Grigori, că nu se află mai bună gospodină pe fața pământului. De-i nevoie în casă de dulceți, de pânză, de păstrămuri, de ori ce în sfîrșit. Marghiolița poartă de grijă de toate. Ea dă de bucate; ea ține cheile de la cămară și de la pivniță, încât eu sunt silită a sta cu mâinile legate.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Halal de bărbatul ce-a avea!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Halal, zău! Și să vezi cum coasă la gherghef, să te minunezi...</p>
+            <stage> (strigă) </stage>
+            <p>Marghiolițo, trimite-ți ghergheful aici.</p>
+            <p>Leonil</p>
+            <stage> ( în parte) </stage>
+            <p>Auzi telălița, cum își laudă marfa?</p>
+            <stage> (Ioana aduce ghergheful, îl dă lui Pâlciu și iese) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Aferim... frumos de tot!.. Da cine-i, mă rog, turcul ist călare?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Îi Ali-Pașa.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Cel care o tăiat volintirii?.. bre, bre!..</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Tocmai... Poftești să vezi și d-ta, cucoane Nicule?</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Iar îl cuconești?.. Eu văd c-ai să-mi diochi flăcăul.</p>
+            <stage> (Nicu ia ghergheful și rămâne cu el în mână) </stage>
+            <p>.</p>
+            <stage> (Intră Marghiolița și după dânsa Ioana, purtând tablaua cu dulceți) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Adă aici, Ioano.</p>
+            <stage> (Ioana merge cu tablaua dintâi la Pâlciu, pe urmă la Nicu și în sfârșit la Franț, care nu ie dulceți. Marghiolița o urmează și dă paharele cu apă) </stage>
+            <p>.</p>
+            <p>Pâlciu</p>
+            <stage> (gustând dulcețile) </stage>
+            <p>Cu adevărat că-s minunate... Așa belte!</p>
+            <stage> (amestecând greu) </stage>
+            <p>Așa... bel... te.</p>
+            <stage> (în parte) </stage>
+            <p>Văleu, că mi s-o încleiat fălcile.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Să-ți fie de bine.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Să... rut... ochișo... orii.., fata... mea.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Poate că n-au coardă destulă!</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Da cum, Doamne iartă-mă! că de azi dimineață le fierb pe foc.</p>
+            <p>Zamfira</p>
+            <stage> (căutând s-acopere vorba Ioanei, tușește) </stage>
+            <p>Poftești, cucoane Nicule?</p>
+            <stage> (în parte) </stage>
+            <p>Ei lasă, cioară, că-ți-oi rupe eu pliscul.</p>
+            <stage> (Când vine tablaua dinaintea lui Nicu, el se scoală, pune ghergheful pe scaun și ia dulceți multe) </stage>
+            <p>.</p>
+            <p>Marghiolița</p>
+            <stage> (dându-i paharul) </stage>
+            <p>A vo suhe, monsiu Nicu.</p>
+            <p>Nicu</p>
+            <stage> (înecându-se cu dulceți) </stage>
+            <p>Mersi...</p>
+            <stage> (tușește) </stage>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Ce dracu! iar te-ai înecat, măi tălălău.</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Moașa-n pod.</p>
+            <stage> (Nicu turburat, se pune peste gherghef și răsare îndată) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Na, c-ai spart ghergheful? Ei, da m-ai rușinat urât, măi badeo!</p>
+            <p>Zamfira</p>
+            <stage> (sculându-se) </stage>
+            <p>Nu-i nimica, nu-i nimica.</p>
+            <stage> (Marghiolița râde) </stage>
+            <p>.</p>
+            <p>Nicu</p>
+            <stage> (uitându-se la gherghef) </stage>
+            <p>Numai nasu-i spart, babacă.</p>
+            <p>Pâlciu</p>
+            <stage> (sculându-se foarte supărat) </stage>
+            <p>Și poate că nu-i destul să spargi nasu lui Ali-Pașa?</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Nu te supera, cucoane Grigori, că Marghiolița mai face și alți turci în ceealaltă odaie.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Zău?.. Hai să-i videm. Nu poți crede cât mi-s de dragi Turcii... de lână.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Poftim, cucoane Grigori. Vii cu noi, monsiu Franț?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Bucuros.</p>
+            <stage> (Pâlciu întră în stînga) </stage>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Marghiolițo, șezi cu cuconu Nicu.</p>
+            <stage> (încet Marghioliței) </stage>
+            <p>Nu uita să-i cânți marșul lui Napoleon.</p>
+            <stage> (se duce spre ușa din stânga și, până a nu ieși, zice încet lui Franț) </stage>
+            <p>. Acum îi vreme de pus la cale... Să dai pricină de vorbă, monsiu Franț.</p>
+            <stage> (iese) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Las’ pe mine, cucoană Zamfiră.</p>
+            <stage> (iese) </stage>
+            <p>.</p>
+            <p>Leonil</p>
+            <stage> (În parte) </stage>
+            <p>Se duc să deschidă iarmarocul.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <stage>Leonil (în dulap), Marghiolița, Nicu.</stage>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Je vu pri... reste pe canape.</p>
+            <p>Nicu</p>
+            <stage> (se pune pe un jilț) </stage>
+            <p>Pardon.</p>
+            <p>Marghiolița</p>
+            <stage> (în parte, șezând pe canapea) </stage>
+            <p>Parcă nu prea știe franțuzește.</p>
+            <stage> (mică tăcere) </stage>
+            <p>.</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Ce pardon i-aș trage la ceafă.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Monsiu Nicu, îți aduci aminte de notr anfans?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Cheschevu?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>De notr anfans.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Pardon.</p>
+            <p>Marghiolița</p>
+            <stage> (în parte) </stage>
+            <p>Se vede că alte vorbe nu mai rupe.</p>
+            <stage> (tare) </stage>
+            <p>Vu parle franse, monsiu Nico?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Parle, madmuasel.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>E bien... parlon înpreună.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Parlon.</p>
+            <stage> (Mică tăcere. Marghiolița se uită cu dragoste la Nicu, care coboară ochii, se sucește pe scaun și-și suflă nasul tare) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>N-ai fost la Paris, monsiu Nicu?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Nu, dar cât pe ce era să mă trimeată babacă.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Și de ce nu te-o trimis?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>S-o temut să nu-mi pierd legea și să mă-ntorc înapoi păgân.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Numai pentru atâta?..</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>I-o mai fost frică că m-oi face și eu ca Iorgu de la Sadagura.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Păcat că te o giudecat așa de rău!.. Dacă mergeai la Paris, videai teatruri... învățai să gioci polca; auziai opere frumoase... marșul lui Napoleon... Cunoști marșul lui Napoleon, monsiu Nicu?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>L-am auzit odată din cobza lui Barbu.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Îi tare frumoși Eu îl știu.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Din cobză?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ba din ghitara... Ha, ha, ha!.. auzi?.. din cobză?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Barbu te-o învățat?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Cine?.. Barbu?.. Ha, ha, ha!..</p>
+            <p>Nicu</p>
+            <stage> (în parte) </stage>
+            <p>Am scăpat vreo gogomănie... Ia s-o dreg.</p>
+            <stage> (tare) </stage>
+            <p>Mata, duducă, trebue să-l cânți negreșit mai bine decât Barbu, și dacă ai vrea...</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Vrei să-l auzi?</p>
+            <stage> (se scoală și merge să ia chitara) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Ce se potrivește!.. pardon madmuazel.</p>
+            <stage> (se repede s-aducă chitara, o ia în mână și o încearcă) </stage>
+            <p>Da... bună ghitară!</p>
+            <stage> (rupe o strună) </stage>
+            <p>Tronc!</p>
+            <stage> (rămâne împietrit) </stage>
+            <p>.</p>
+            <p>Marghiolița</p>
+            <stage> (supărată) </stage>
+            <p>Na!.. Pas acum de-i mai cântă marșul lui Napoleon.</p>
+            <p>Nicu</p>
+            <stage> (după o mică tăcere) </stage>
+            <p>Să-mi plesnească ochii, dacă am vrut s-o rup... Pardon de iertăciune, duducă.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ba nu; nu vreu să te iert, pană nu-i face ce ți-oi zice eu.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Ce poroncești?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Poroncesc să-mi cânți o romanță.</p>
+            <p>Nicu</p>
+            <stage> (rușinându-se) </stage>
+            <p>Da... zău! nu știu să cânt.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Nu te cred.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Doar să-ți cânt de dragoste.</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Auzit-ai Pâlciu cum se obrăznicește!</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Să-ți cânt de dragoste, duducă?</p>
+            <p>Marghiolița</p>
+            <stage> (coborând ochii) </stage>
+            <p>Cântă.</p>
+            <stage> (Nicu își drege glasul; începe dar nu nimerește tonul. După câteva încercări el cântă pe aria: Cumetriță dragă, ș.c.l.) </stage>
+            <p>Ori cine trăește</p>
+            <p>Pe Amor slăvește;</p>
+            <p>Ori care jivină</p>
+            <p>De amor suspină!</p>
+            <p>Gâscășoara gâgâește,</p>
+            <p>Rățișoara hăcăește,</p>
+            <p>Stăncușoara cârâește,</p>
+            <p>Harmasarul nechezește</p>
+            <p>Motănașul miorlăește,</p>
+            <p>Cucoșul codcodăcește...</p>
+            <p>Și eu, plin de jale, iți rostesc matale:</p>
+            <p>Duducuță dragă,</p>
+            <p>S-a trecut de șagă!</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ha, ha, ha.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ha, ha, ha.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Dec!..</p>
+            <stage> (se uită cu mirare la Marghiolița ș-apoi începe și el a rîde tare) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <stage>Cei dinainte, Pâlciu, Zamfira, Franț.</stage>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Pot să te roage; dar flăcău ca al meu nu se prea găsesc pe toate ulițele.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ei! dragă cucoane Grigori; tot țiganu-și laudă ciocanu.</p>
+            <p>Pâlciu</p>
+            <stage> (atins) </stage>
+            <p>Care vrea să zice... eu sînt țigan și Nicu ciocan?.. Foarte-ți mulțămesc.</p>
+            <p>Franț</p>
+            <stage> (căutând să-i împace) </stage>
+            <p>Aber nu-i așa, cucoane...</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Ian las’ neamțule... nu te-amesteca unde nu-ți fierbe oala... Cât pentru d-ta, cucoană Zamfiră, fiind că te scumpești pentru două sălașe de țigani, pune-ți pofta-n cui despre cuscrie cu mine... Mă duc...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Călătorie sprâncenată!</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Auzi, țigan!.. ciocan!</p>
+            <stage> (lui Nicu) </stage>
+            <p>Hai cioc... Nicule de aici. Hai cu tătuca, că-ți-oi găsi eu neveste aiurea... Auzi, țigan, ciocan!..</p>
+            <stage> (iese prin fund, furios) </stage>
+            <p>.</p>
+            <p>Nicu</p>
+            <stage> (jalnic Marghioliței) </stage>
+            <p>Bonsuar madmuazel.</p>
+            <stage> (iese după tatăl său) </stage>
+            <p>.</p>
+            <p>Leonil</p>
+            <stage> (cu bucurie) </stage>
+            <p>Se vede că nu s-au ajuns cu târgul.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <stage>Leonil, Zamfira, Marghiolița, Franț, (și mai pe urmă Ioana.) – (mică tăcere).</stage>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Of! of! am rămas iar cu piatra-n casă! Of!.. amețesc... leșin...</p>
+            <stage> (leșină în brațele lui Franț) </stage>
+            <p>.</p>
+            <p>Franț</p>
+            <stage> (speriat) </stage>
+            <p>Vas ist?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Eu, piatră în casă!.. Ah! mor.</p>
+            <stage> (leșină asemenea în brațele lui Franț) </stage>
+            <p>.</p>
+            <p>Franț</p>
+            <stage> (și mai spăriet) </stage>
+            <p>Vas ist?</p>
+            <p>Tertaifel! Vas ist das?</p>
+            <p>Main Got, main Gott! ah vai!</p>
+            <p>Îmi vine să le las,</p>
+            <p>Să cade ale zvai.</p>
+            <p>Cucoană Zamfiriță</p>
+            <p>Duducă Marghioliță</p>
+            <p>Am obosit de tot</p>
+            <p>Și, zău! că nu mai pot.</p>
+            <p>Cucoană Marghioliță,</p>
+            <p>Duducă Zamfiriță</p>
+            <p>Treziți-vă că zău!</p>
+            <p>Leșin pe loc și eu...</p>
+            <p>Tertaifel! vas ist das?</p>
+            <p>Main Got, main Got! ah vai!</p>
+            <p>Îmi vine să le las</p>
+            <p>Să cadă ale zvai.</p>
+            <stage> (Strigă) </stage>
+            <p>Ioană, Ioană, adă degrabă oțet, colonie... ce-i găsi, că au leșinat cucoanele.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Marghiolița leșinată! Hei, că nu sunt în locul șoacăței.</p>
+            <p>Franț</p>
+            <stage> (strigă iar) </stage>
+            <p>Ioană, Ioană.</p>
+            <p>Ioana</p>
+            <stage> (alergând cu un șip) </stage>
+            <p>Săracan de mine!.. ce au pățit?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Dă-le iute la nas... Tonerveter!... grele-s!</p>
+            <stage> (Ioana le pune șipul sub nas) </stage>
+            <p>.</p>
+            <p>Zamfira</p>
+            <stage> (răsărind) </stage>
+            <p>Pi! ce putoare!</p>
+            <p>Marghiolița</p>
+            <stage> (asemenea) </stage>
+            <p>Fi! chel orior!</p>
+            <p>Franț</p>
+            <stage> (scăpând) </stage>
+            <p>Uf!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ce șip îi aista?</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Colonie.</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Ba terpentină.</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Terpentină? Ah! iar leșin.</p>
+            <p>Marghiolița</p>
+            <stage> (alergând lângă Zamfira) </stage>
+            <p>Nu o lăsa, monsiu Franț.</p>
+            <p>Zamfira</p>
+            <stage> (furioasă) </stage>
+            <p>Tu ești? stahio! lipsești din ochii mei să nu te mai văd;... că-mi otrăvești zilele!</p>
+            <p>Franț</p>
+            <stage> (voind s-o liniștească) </stage>
+            <p>Cucoană Zamfiriță...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Fugi și d-ta; dă-mi pace.</p>
+            <stage> (țipând) </stage>
+            <p>Dați-mi pace cu toții... Nu mai vreu să văd pe nime; nu vreu să mă mai mărit, nici să caut gineri... ardă-i focu să-i arză!.. Mă duc de mâni la călugărie cu fată cu tot.</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>La călugăriei Ah! amețesc!</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ba să lipsești, îți zic, că ți-oi da acuș niște marghiolii de nu le-ai putea duce.</p>
+            <stage> (Marghiolița intră plângând în stânga) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>A apucat-o istericale pe babă.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Cucoană Zamfiră, liniștește-te... Ce vrea să zică...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Mări, caută-ți drumu și mă lasă-n pace...</p>
+            <stage> (țipă) </stage>
+            <p>Of!.. mi-o ieșit peri albi de când am fată mare!</p>
+            <stage> (intră furioasă în stânga) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Fa, Ioană, du-te de-o împacă și-i fă apă caldă de picioare. Auzi, fa, Ioană?</p>
+            <p>Ioana</p>
+            <stage> (luând luminările) </stage>
+            <p>Ian nu prea fa, și mai jupâneasă... Auzitu-m-ai sucitule?</p>
+            <stage> (iese după Zamfira) </stage>
+            <p>.</p>
+            <p>Franț</p>
+            <stage> (prin întuneric) </stage>
+            <p>Saperment ain mal!.. toată casa-i cu capu-n jos... Cum să dreg trebile?</p>
+            <stage> (gândește) </stage>
+            <p>Tonerveter!.. nu-mi vine nici o ideie.</p>
+            <stage> (deodată se oprește și se bate cu palma peste frunte ca când ar fi găsit vreun chip) </stage>
+            <p>A!..</p>
+            <stage> (schimbând ideea) </stage>
+            <p>Ba nu așa.</p>
+            <stage> (se bate încă odată și mai tare) </stage>
+            <p>O! am găsit!.. Mă duc să mă tălmăcesc cu cuconu Grigori.</p>
+            <stage> (iese prin fund lovindu-se de mobile) </stage>
+            <p>Tertaifel! Că întuneric îi!</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <stage>(întuneric).</stage>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+          <stage>Leonil, Marghiolița (iese încet din odaia din stânga).</stage>
+          <stage>(Stă tristă cu batista la ochi).</stage>
+          <stage>(Marghiolița deschide dulapul. Deodată Leonil o ridică în brațe fără veste și o închide în întru).</stage>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Să nu cârcnești, cioară, că te-am prăpădit,</p>
+            <stage> (depărtăndu se de dulap) </stage>
+            <p>Ișala!.. am închis baragladina! și de-acum pot, fără nici o frică, să trec prin iatacul babei. Acum chiar că m-a lua de Ioana,</p>
+            <stage> (se pornește în stânga râzând încet) </stage>
+            <p>A dracului mai sunt!</p>
+            <stage> (ajungând la mijlocul scenei, se oprește) </stage>
+            <p>Cine mai vine?</p>
+            <stage> (Ușa din fund se deschide și Nicu vine bâjbâind prin întuneric) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <stage>Leonil, Nicu.</stage>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ba-o tocmai șoacăța!</p>
+            <stage> (se depărtează în dreapta) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Ba-i tocmai duduca!</p>
+            <stage> (fuge în stânga) </stage>
+            <p>Îmi vine să fug.</p>
+            <stage> (stau puțin amândoi și ascultă) </stage>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Cum dracu să mă disbăr de dânsul?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Hei! de-aș avea curaj... ce i-aș mai spune prin întuneric!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>O!.. să mă prefac că-s baba!</p>
+            <stage> (lui Nicu, încet) </stage>
+            <p>Pst!</p>
+            <p>Nicu</p>
+            <stage> (în parte, cu mirare) </stage>
+            <p>Aud?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Pst, Pst.</p>
+            <p>Nicu</p>
+            <stage> (asemenea) </stage>
+            <p>Parcă mă chiamă?</p>
+            <stage> (lui Leonil) </stage>
+            <p>Pst.</p>
+            <p>Leonil</p>
+            <stage> (cu glas schimbat) </stage>
+            <p>D-ta ești?</p>
+            <p>Nicu.</p>
+            <stage> (încet) </stage>
+            <p>Eu.</p>
+            <p>Leonil</p>
+            <stage> (cu dragoste) </stage>
+            <p>Ah!</p>
+            <p>Nicu</p>
+            <stage> (asemenea) </stage>
+            <p>Oh!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Dragul meu...</p>
+            <p>Nicu</p>
+            <stage> (apropiindu-se de Leonil) </stage>
+            <p>Scumpa mea!..</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Mâncate-ar moliile!..</p>
+            <p>Nicu</p>
+            <stage> (prinzând curaj, tare) </stage>
+            <p>Scumpa mea duducă Marghioliță!..</p>
+            <p>Leonil</p>
+            <stage> (cu mirare, în parte) </stage>
+            <p>Ce-am auczit! glasul lui Pâlciu?.. Ce caută prostu!</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>N-ași fi îndrăznit niciodată să mă apropii de mata, duducă, dar de vreme ce mi-ai făcut pst, nu te mânie dacă ți-oi spune că sunt a matale pre plecată și supusă slugă, căci din ceasul cum te-am văzut, duducuță Marghioliță, m-ai agiuns la inimă... fiind inima mea matale drept care și eu asemene v-oi fi tot de-a una fericit de a mă supune matale, căci...</p>
+            <stage> (tot frasul acesta îl zice dintr-o suflare) </stage>
+            <p>.</p>
+            <p>Leonil</p>
+            <stage> (imitând glasul Mairghioliții, îi taie vorba) </stage>
+            <p>Destul, monsiu Nicu, că te-i înăduși.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Nu te îngriji, duducuță, că eu așa sunt... Când mă pornesc odată nu mai oprește nici dracu.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ce zici?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Pre legea mea!.. Nu căuta că-s rușinos dinaintea oamenilor... îs tare cu duh când sunt singur, sau cu altul... și mai ales cu alta.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Atunci ești obraznic?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Poroncă?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Vreu să zic că atunci îți arăți arama?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Dar; atunci mă disvălesc; și drept dovadă, iau îndrăzneală a-ți spune că te iubesc peste măsură.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Cheschevu?</p>
+            <p>Nicu:Pre legea mea.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Tu mă-nșeli... ah! taci din gură.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Eu?.. pardon.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Vreman?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Jame!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ah! și eu te iubesc foarte.</p>
+            <p>Nicu:Cheschevu?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Parol; mă jur.</p>
+            <p>Nicu:Ah! de-acum pană la moarte sunt al tău.</p>
+            <p>Leonil:Vreman?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Tujur.</p>
+            <p>Nicu</p>
+            <stage> (cu foc) </stage>
+            <p>Duducuță, să-mi sară ochișorii dacă se află un alt om mai fericit decât supusa sluga matale, drept care, hai să fugim împreună, fiindcă părinții noștri se scumpesc pentru două sălașe de țigani.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ce zici? Vrei să mă furi?</p>
+            <stage> (în parte) </stage>
+            <p>Auzi prostu?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Fără doar și poate... Ah! fie-ți milă, duducuță, de flacăra unui muritor care-i... înflăcărat! Spune-mi, fugi cu mine, ori... ori fug singur?</p>
+            <p>Leonil</p>
+            <stage> (în parte) </stage>
+            <p>Du-te dracului!</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Aud? primești?.. Ah! duducă, îți sărut mânele</p>
+            <stage> (sărută mânele lui Leonil) </stage>
+            <p>.</p>
+            <stage> (Se aude strănutând în stânga) </stage>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Poroncă?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ai auzit?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Vine neneaca.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Elei!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Și de ne-a găsi împreună, suntem prăpădiți.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Elei!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ascunde-te degrabă.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Unde?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>În dulapul ista până ce s-a duce neneaca, că oi veni eu să-ți deschid mai pe urmă.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Și după ce mi-i deschide, îi fugi cu mine?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Te mai îndoiești, tiranule?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Ba-ți sărut mânușițile.</p>
+            <p>Leonil</p>
+            <stage> (cu dragoste) </stage>
+            <p>Sărută și pei!..</p>
+            <stage> (îi dă mâna și Nicu o sărută de multe ori) </stage>
+            <p>.</p>
+            <p>Nicu</p>
+            <stage> (mergând spre dulap) </stage>
+            <p>M-am dus.</p>
+            <stage> (intrând în dulap) </stage>
+            <p>Ah! duducuță, cred că m-ai băgat în rai.</p>
+            <p>Leonil</p>
+            <stage> (închizăndu-i) </stage>
+            <p>Ba în dulap, prostule, și să nu crâcnești, că ești mort.</p>
+            <stage> (Aceste cuvinte le zice cu glas firesc) </stage>
+            <p>.</p>
+            <p>Nicu</p>
+            <stage> (din dulap spăriet) </stage>
+            <p>Elei!</p>
+            <p>Leonil</p>
+            <stage> (viind în mijlocul scenei) </stage>
+            <p>Hup și altul,</p>
+            <stage> (rîde) </stage>
+            <p>L-am închis pe prostu cu Ioana țiganca! Ha, ha, ha... Aibă parte unul de altul. Acum ceasul fericirei a sunat pentru mine. Dragă verișoară! am să te scap, pentru ca să-ți dovedesc cât te iubesc de mult... Haide!..</p>
+            <stage> (face câțiva pași spre ușa din stânga și se oprește spăriet) </stage>
+            <p>. Iar o dihanie!</p>
+            <stage> (Se deschide ușa și Zamfira intră prin întuneric) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Am hotărât să te fur în astă noapte, pentru ca să te scap de babă și de călugărie.</p>
+            <p>Zamfira</p>
+            <stage> (în parte, supărată) </stage>
+            <p>Babă!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Nu-i e rușine băborniței să nebunească la bătrânețe, și se vrea să-și face un blestem ca aista... să te călugărească!.. Îi bună, zău, de închis la Golia.</p>
+            <p>Zamfira</p>
+            <stage> (în parte, cu mânie) </stage>
+            <p>La Golia, eu?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Gândește cât îi de rea cu tine! parcă n-ai fi copila ei, ci o țigancă!.. Gândește că ești socotită de dânsa ca o sarcină, ca o piatră în casă!.. și hai să fugim împreună, până nu se trezește stahia.</p>
+            <p>Zamfira</p>
+            <stage> (în parte, furioasă) </stage>
+            <p>Stahia!</p>
+            <stage> (apucând pe Leonil de urechi) </stage>
+            <p>A! blestematule... sunt stahie, eu?</p>
+            <p>Leonil</p>
+            <stage> (spăriet) </stage>
+            <p>Valeu!.. am pățit-o.</p>
+            <p>Zamfira</p>
+            <stage> (trăgându-l de urechi) </stage>
+            <p>A! berbantule, vrei să-mi furi fata?.. Zici că-s băborniță, că-s stahie, că-s bună de închis la Golia?.. Ei, las’ moțpane, că te-oi învăța eu.</p>
+            <stage> (strigă) </stage>
+            <p>Ioană, Ioană, adă lumânări.</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Mătușică, dragă mătușică...</p>
+            <stage> (în parte) </stage>
+            <p>Oi să rămân făr de urechi...</p>
+            <stage> (se luptă cu Zamfira; scapă și vrea să fugă) </stage>
+            <p>La fugă, băete.</p>
+            <stage> (aleargă la ușa din fund, dar deodată se oprește auzind glasul lui Pâlciu și a lui Franț, zicând afară următoarele cuvinte:) </stage>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Degeaba-ți bați capul, monsiu Franț.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Fă-mi hatârul de vină cu mine.</p>
+            <stage> (Zicând aceste, Pâlciu și Franț intră prin fund) </stage>
+            <p>.</p>
+            <stage> (Leonil se întoarce iute înapoi și fuge spre ușa din stânga; dar aici întâlnindu-se cu Ioana, care vine cu lumânări, aleargă la dulap, îl deschide și caută să între în întru; însă Nicu îl împinge cu picioarele și vrea să tragă ușa dulapului. Luptă comică între ei) </stage>
+            <p>.</p>
+            <p>Zamfira</p>
+            <stage> (În toata vremea asta, alungă pe Leonil) </stage>
+            <p>Așteaptă tălharule, că ți-oi da eu stahie, ți-oi da eu băborniță, ți-oi da eu fete de furat.</p>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA 14</head>
+          <stage>Zamfira, Leonil, Pâlciu, Franț, Marghiolița, Nicu, Ioana (aducând lumânări).</stage>
+          <stage>(Se apropie cu toții de dulap, care stă deschis).</stage>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ce-mi văzură ochii!</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Verișoara cu Pâlciu!</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Închiși într-un dulap!</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Prin întuneric!</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Și cuconașu Leonil în rochie de nuntă? Ha, ha, ha.</p>
+            <stage> (Stau cu toții încremeniți în fața dulapului, unde Marghiolița și Nicu se ascund cu mânele la ochi) </stage>
+            <p>.</p>
+            <p>Leonil</p>
+            <stage> (venind în fața scenei) </stage>
+            <p>Mare poznă am făcut!</p>
+            <p>Zamfira</p>
+            <stage> (furioasă) </stage>
+            <p>Ce cauți în garderob, diavoloaico?</p>
+            <p>Pâlciu</p>
+            <stage> (furios) </stage>
+            <p>Ce-mi boscorosești prin dulap, măi tălălău?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Neneacă...</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Babacă...</p>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Ce?</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Ha?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Văru Leonil m-o închis aici, neneacă.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Și pe mine tot el, babacă.</p>
+            <p>Zamfira, Pâlciu</p>
+            <stage> (împreună) </stage>
+            <p>Leonil!</p>
+            <stage> (Se reped și apucă pe Leonil de brațe) </stage>
+          </sp>
+          <sp who="#zamfira">
+            <speaker>Zamfira</speaker>
+            <p>Tu, blestematule?</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Tu, berbantule?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ho țeară!.. încet... Vreți să-știți ce caută Marghiolița și Nicu în dulap?.. Ei caută să găsească cele două sălașe de țigani, pentru care d-voastră ca niște părinți buni, nu v-ați putut agiunge cu târgu... Ați înțeles acum?</p>
+            <stage> (Zamfira și Pâlciu îl las de mână și se întorc spre Franț) </stage>
+            <p>.</p>
+            <p>Zamfira, Pâlciu</p>
+            <stage> (împreună) </stage>
+            <p>O nebunit?</p>
+          </sp>
+          <sp who="#leonil">
+            <speaker>Leonil</speaker>
+            <p>Ba nici de cum... Și mai bine decât să fie țiganii o pricină de neunire între familii... mai bine, ca niște creștini adevărați, ați da iertare robilor!.. și ca niște părinți buni, ați face fericirea copiilor!</p>
+          </sp>
+          <sp who="#ioana">
+            <speaker>Ioana</speaker>
+            <p>Să trăiești, cuconașule!</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Bravo, Leonil!</p>
+            <stage> (cătră Zamfira și Pâlciu) </stage>
+            <p>Ați auzit?.. faceți cum vă zice el.</p>
+            <stage> (silindu-i să-și dea mânele) </stage>
+            <p>Dați-vă mânele și ziceți: Noroc să dee Dumnezeu!</p>
+            <p>Zamfira</p>
+            <stage> (căutând cu dragoste la Franț) </stage>
+            <p>Fie cum vrei, monsiu Franț.</p>
+            <stage> (lui Pâlciu) </stage>
+            <p>Noroc să dea Dumnezeu!</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Amin!</p>
+            <p>Leonil</p>
+            <stage> (venind iute între amândoi) </stage>
+            <p>Întocmai ca la iarmaroc. Iată dar și o rochie de nuntă drept aldamaș.</p>
+            <stage> (cătră Marghiolița și Nicu) </stage>
+            <p>Săriți acum din cuib, hulubașilor! și veniți de-mi mulțămiți mie pentru fericirea voastră,</p>
+            <stage> (în parte) </stage>
+            <p>Cu toate că, de-ași fi știut...</p>
+            <stage> (Nicu sare din dulap și dă mâna Marghioliței ca să se scoboare) </stage>
+            <p>.</p>
+            <p>Marghiolița</p>
+            <stage> (coborându-se) </stage>
+            <p>Monsiu Nico.</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Cheschevu?</p>
+          </sp>
+          <sp who="#marghiolita">
+            <speaker>Marghiolița</speaker>
+            <p>Ești contan?</p>
+          </sp>
+          <sp who="#nicu">
+            <speaker>Nicu</speaker>
+            <p>Je.</p>
+            <stage> (Vin amândoi lângă Pâlciu și Zamfira) </stage>
+            <p>.</p>
+            <p>Zamfira</p>
+            <stage> (în parte) </stage>
+            <p>În sfîrșit sunt slobodă să mă mărit și eu!</p>
+            <stage> (cătră public) </stage>
+            <p>.</p>
+            <p>Mi-am urnit piatra din casă,</p>
+            <p>Am scăpat de displăceri,</p>
+            <p>Și la nuntă-mi și la masă</p>
+            <p>Vă poftesc cinstiți boeri.</p>
+            <p>Leonil</p>
+            <stage> (tăindu-i cântecul) </stage>
+            <p>Taci, mătușica, că te aude lumea, și-i rușine! În ochii părinților, fetele trebuie să fie ca pietre scumpe, iar nu ca petre-n casă.</p>
+            <stage> (cătră public) </stage>
+            <p>Eu primesc făr’ de rușine,</p>
+            <p>Dacă spun acum minciuni,</p>
+            <p>S-aruncați cu petre-n mine</p>
+            <p>Aici, în loc de cununi.</p>
+            <p>Pâlciu</p>
+            <stage> (curmându-i cântecul) </stage>
+            <p>Da’ vorbă-i?.. s-arunce aici cu pietre ca să ne sparge capetele! Nu-i destul cât ne le-am stricat în astă seară cu căsătoria copiilor?..</p>
+            <stage> (cătră public) </stage>
+            <p>Cu adâncă plecăciune</p>
+            <p>Mă închin, cinstiți boeri.</p>
+            <p>Mai întâi...</p>
+            <stage> (răgușește și nu mai poate urma înainte) </stage>
+            <p>.</p>
+            <p>Franț</p>
+            <stage> (dându-l de o parte) </stage>
+            <p>Destul, cucoane Grigori, c-ai răgușit; mai bine du-te de bea ceaiu de soc.</p>
+          </sp>
+          <sp who="#palciu">
+            <speaker>Pâlciu</speaker>
+            <p>Dec! că mare obraznică-i șoacăța!</p>
+            <p>Franț</p>
+            <stage> (cătră public) </stage>
+            <p>Eu sunt doftor cu știință.</p>
+            <p>Cunoscut de mult în Iași, ș.c.l.</p>
+            <p>Pâlciu</p>
+            <stage> (luându-l de braț și trăgăndu-l în fund) </stage>
+            <p>Dacă ești doftor, vin’ de mă tămăduiește de răgușeală și le dă pace boerilor.</p>
+          </sp>
+          <sp who="#frant">
+            <speaker>Franț</speaker>
+            <p>Aber das ist aine incovenentișes...</p>
+            <stage> (se sfădesc încet amândoi în fund) </stage>
+            <p>.</p>
+            <stage> (Nicu înaintează, rușinându-se, cătră public, și ținând cu o mână pe Marghiolița, iar cu cealaltă sucindu-și pălăria) </stage>
+            <p>.</p>
+            <p>Nicu:</p>
+            <p>Dacă scumpa mea mireasă</p>
+            <p>Ca și mie v-a plăcut...</p>
+            <p>Marghiolița:</p>
+            <p>Dacă Piatra cea din casă</p>
+            <p>Spaimă chiar nu v-a făcut...</p>
+            <p>Nicu:</p>
+            <p>Primiți cu bucurie,</p>
+            <p>Domnilor, să ne fiți nuni.</p>
+            <p>Marghiolița:</p>
+            <p>Pentru-a noastră cununie</p>
+            <p>Aruncați două cununi.</p>
+            <p>Toți în cor:</p>
+            <p>Primiți cu bucurie,</p>
+            <p>Domnilor, să le fiți nuni.</p>
+            <p>Și pentru-a lor cununie</p>
+            <p>Aruncați două cununi.</p>
+            <stage> (Cortina cade) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

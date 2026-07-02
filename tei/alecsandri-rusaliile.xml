@@ -1,0 +1,2297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000091" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Rusaliile</title>
+        <author>
+          <persName>Vasile Alecsandri</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/Rusaliile">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+                  <listEvent>
+              <event type="print" when="1863">
+                <desc>1863</desc>
+              </event>
+            </listEvent>
+</sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="tarancele">
+            <persName>ȚĂRANCELE</persName>
+          </person>
+          <person xml:id="o_taranca">
+            <persName>O ȚĂRANCĂ</persName>
+          </person>
+          <person xml:id="catrina">
+            <persName>CATRINA</persName>
+          </person>
+          <person xml:id="suzana">
+            <persName>SUZANA</persName>
+          </person>
+          <person xml:id="toate">
+            <persName>TOATE</persName>
+          </person>
+          <person xml:id="toader">
+            <persName>TOADER</persName>
+          </person>
+          <person xml:id="jandarmul">
+            <persName>JANDARMUL</persName>
+          </person>
+          <person xml:id="galuscus">
+            <persName>GALUSCUS</persName>
+          </person>
+          <person xml:id="taranii">
+            <persName>ȚĂRANII</persName>
+          </person>
+          <person xml:id="veverita">
+            <persName>VEVERIȚĂ</persName>
+          </person>
+          <person xml:id="veverita_2">
+            <persName>VEVERIȚA</persName>
+          </person>
+          <person xml:id="gheorghe">
+            <persName>GHEORGHE</persName>
+          </person>
+          <person xml:id="razvratescu">
+            <persName>RĂZVRĂTESCU</persName>
+          </person>
+          <person xml:id="suzana_si_toader">
+            <persName>SUZANA și TOADER</persName>
+          </person>
+          <person xml:id="galuscus_si_razvratescu">
+            <persName>GALUSCUS și RĂZVRĂTESCU</persName>
+          </person>
+          <person xml:id="toti">
+            <persName>TOȚI</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Comedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q40831</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000091"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Rusaliile</titlePart>
+        </docTitle>
+        <docAuthor>Vasile Alecsandri</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ȚĂRANCELE</role>
+        </castItem>
+        <castItem>
+          <role>O ȚĂRANCĂ</role>
+        </castItem>
+        <castItem>
+          <role>CATRINA</role>
+        </castItem>
+        <castItem>
+          <role>SUZANA</role>
+        </castItem>
+        <castItem>
+          <role>TOATE</role>
+        </castItem>
+        <castItem>
+          <role>TOADER</role>
+        </castItem>
+        <castItem>
+          <role>JANDARMUL</role>
+        </castItem>
+        <castItem>
+          <role>GALUSCUS</role>
+        </castItem>
+        <castItem>
+          <role>ȚĂRANII</role>
+        </castItem>
+        <castItem>
+          <role>VEVERIȚĂ</role>
+        </castItem>
+        <castItem>
+          <role>VEVERIȚA</role>
+        </castItem>
+        <castItem>
+          <role>GHEORGHE</role>
+        </castItem>
+        <castItem>
+          <role>RĂZVRĂTESCU</role>
+        </castItem>
+        <castItem>
+          <role>SUZANA și TOADER</role>
+        </castItem>
+        <castItem>
+          <role>GALUSCUS și RĂZVRĂTESCU</role>
+        </castItem>
+        <castItem>
+          <role>TOȚI</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA 2</head>
+          <stage>SUZANA, ȚĂRANCE (mergând la fântână cu cofe)</stage>
+          <sp who="#tarancele">
+            <speaker>ȚĂRANCELE</speaker>
+            <p>La fântâna dintre flori</p>
+            <p>Fetele se duc în zori</p>
+            <p>Să-și umple cofițele,</p>
+            <p>Să-și scalde gurițele.</p>
+            <p>La puțul fărtatului</p>
+            <p>Merg babele satului,</p>
+            <p>Merg, sărind ca ielele,</p>
+            <p>Să-și scalde zbârcelile.</p>
+          </sp>
+          <sp who="#o_taranca">
+            <speaker>O ȚĂRANCĂ</speaker>
+            <p>Bună ziua, Catrină.</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Mulțumim d-tale, lele Safto.</p>
+            <p>ÎNTÂIA Ce-ți mai face bărbatul?</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>A ieșit la boieresc cu noaptea-n cap.</p>
+            <p>ÎNTÂIA Adevărat oare să fie, lelică, c-o să se ridice boierescul?</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Dumnezeu știe! dar, de-o bucată de vreme-ncoace, românii noștri s-o amețit de cap, parcă i-o umflat rusaliile.</p>
+            <p>ÎNTÂIA Mai știi păcatu? De câtva timp urlă câinii toată noaptea- n sat.</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Or fi zărind vreun duh necurat pi-ntuneric.</p>
+            </sp>
+          <sp who="#toate">
+            <speaker>TOATE</speaker>
+            <stage> (făcându-și cruce) </stage>
+            <p>Ferească sfântu!</p>
+            </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <stage> (apropiindu-se de Suzana) </stage>
+            <p>Fa, Suzană, de ce șezi așa dusă pe gânduri?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Duc dorul lui Toader, lele Catrino.</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Vai de mine!... de-abia însurat ș-o și uitat cărărușa casei?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Apoi, de când poruncile aieste nouă care curg pe nică, pe ceas, nu mai are cap omu să-și mai vadă bordeiul. Când îi la subprefecătură, când la cășărie...</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>La cășărie?... la stână?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ba nu, fa, la sameșu cel cu cășăria. Ia păcate!</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Și tu rămâi cuc pe prispa casei.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Și torc pân’ ce nu mai văd bine; dar voi?</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Noi? Nu mai înțelegem ce-o pățit oamenii noștri, că nu mai sunt ca mai-nainte veniți de-acasă. Spun lucruri de pe ceea lune. Mai ieri, bărbatu-meu era cu chef și se lăuda că mi-o cumpăra malote de covenție. Ce să fie aceea, Suzano?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Cică-i o materie țesută nu știu unde... în doi peri.</p>
+            <stage> (Se aud chiote și lăutari în crâșmă.) </stage>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Ian auzi hoții de bărbați cum se veselesc făr’ de noi. Știți una, fa?</p>
+          </sp>
+          <sp who="#toate">
+            <speaker>TOATE</speaker>
+            <p>Ce, lele Catrino?</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Hai să ne-ntoarcem pe-acasă și să ne facem bolnave, ca să nu găsească ei de mâncat când s-or întoarce de la crâșmă.</p>
+          </sp>
+          <sp who="#o_taranca">
+            <speaker>O ȚĂRANCĂ</speaker>
+            <p>Dar dac-om păți vro șotie?</p>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Șotie? să nu-i împingă păcatul, c-or da peste rusalii! Haide, haide.</p>
+            </sp>
+        <sp who="#tarancele">
+            <speaker>ȚĂRANCELE</speaker>
+            <stage> (ieșind) </stage>
+            <p>Ardă-i focul de bărbați!</p>
+            <p>Să-i lăsăm azi nemâncați.</p>
+            <p>De nimică nu ne pasă,</p>
+            <p>Că suntem stăpâne-n casă.</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA 3</head>
+          <stage>SUZANA, TOADER</stage>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Haide, hai; parcă le văd cum or să mănânce păpara... Le-au intrat și lor gărgăuni în cap.</p>
+            <stage> (Se pune iar pe prispă și toarce. Cântă:) </stage>
+            <p>Toderică, Toderel,</p>
+            <p>Tare mult mi-e dor de el!</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (ieșind din crâșmă, se oprește pe prag) </stage>
+            <p>Măi, ieșiți azi la boieresc, ori ba?... Ba?... faceți cum vreți. Să nu ziceți că nu v-am dat de știre. Voi îți împărți cu dracu ce-a fi de împărțit.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Toadere, Toadere.</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (venind în scenă) </stage>
+            <p>Aud, Suzănică.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Da ce mai este?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Apoi, ce să fie, dragă nevastă? Îi că, de când a venit pe moșie vechilul ist nou, cuconu Ion Gălușcă, dascălul satului; de când le vorbește sătenilor tot din carte și le spune că-s strănepoți de împărați, că se trag din Troian, țăranii au luat-o de bună... Dacă-i îndemni la lucru, îți răspund râzând că împărații nu lucrează.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Dar ce fac ca să-și hrănească copiii?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ș-apoi nu-i destul atâta. A mai venit și domnul Răzvrătescu, subprefectul, și le-a poruncit ca să nu mai asculte de nime decât numai de dânsul, ș-acum dacă strig în sat: Hai la culesul păpușoiului, mă!... ei îmi răspund: du-te dracului pomană, mă!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Carevrasăzică, satul ista-i bine numit satu lui Cremene?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Bine; și eu vornic de haimana.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Mări, omule, ce nu te lepezi și tu de beleaua cea de vornicie, bat-o pârdalnicu!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Cum nu m-aș lepăda de dânsa, ca de Satana, păcatele mele! dar apoi știi povestea țiganului cu ursul din pădure: Săriți, oameni buni, c-am prins ursu! — Adu-l încoace, țigane, dacă l-ai prins! – L-aș aduce, frățico, dar nu mă lasă din labe, dihania!</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (cu dragoste) </stage>
+            <p>Sărmanu bietu bărbățel!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Că, zău, sunt de jelit! M-am buimăcit de istov de-o bucată de vreme. Nu-i zi lăsată de Dumnezău în care să nu cadă câte-o poruncă, când cu coroieriu, când cu teleaga dracului.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Care teleaga dracului?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Cea pe sârmă, prin văzduh. Ș-apoi ce porunci! scrise în limba păsărească... numai cioarele să le-nțeleagă! Noroc de mine că mi le tălmăcește în românește domnul Ion Gălușcă, care-i dobă de carte.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Dar, parcă și el grăiește cam de peste deal.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Apoi dă, ce să-i faci? A învățat carte la Brașov.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>De-aceea vorbește brașovenește?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Nu știu, că eu nu-l înțeleg. Dar să vezi, nevastă, altă belea! Mai deunăzi vine jăndaru c-o hârtie în care se poruncea să serbăm cu solenitate ziua onomastică a lui sfântu... nu știu care. Las’ că sosise porunca a treia zi după sărbătoare, d-apoi ne-am dus vro trei oameni a târg ca să cumpărăm solenitate și mastic... Mastic am găsit la băcălie, dar solenitate, mânca-o-ar cine-o iscodit-o! n-am putut găsi nici măcar la spițerie; ne-am pierdut numai ziua degeaba.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Și cum ați făcut?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Am trimis masticu la isprăvnicie ca să-l ducă la Ieși.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Da bine, bărbate, din toate satele o cerut mastic?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Din toate, pe cât am auzit.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Și oare ce-or să facă boierii cu-atâta mastic?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Spunea vătavu de la Pepeleni c-au să prunduiască cu el soșelele cele nouă.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Pare c-a mai venit o hârtie și azi-dimineață?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>A vinit, da. Cică să ne-apucăm de durat o casă comunală. Dnu Gălușcă ne-a vorbit un ceas întreg de costituți... una, de covenți... una, fac două; de Patrie, de amoare...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ce moare, bărbate?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Poate că moare de curechi, fiindcă s-apropie postul.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Bine, dar, ce-are a face?...</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>El o fi știind, că ne-a mai spus să fim de azi înainte cetățeni.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Cum, cetățeni? să vă-nchidă la cetate?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Dracu să-i descurce!</p>
+            <stage> (Scapă jos condicele ce ține subsuoară.) </stage>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Da aieste ce sunt, Toadere?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Condice de însemnat toți trecătorii prin sat; tabloane de gâște, rățe, pui de găină, ouă, toate! Cică-s potrocale de recesemință.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Elei! bărbate, leagă vornicia de gard, că eu nu mai am parte de tine și-ți duc dorul.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>D-apoi eu, nevăstuică dragă? Când ai ști cum mă trage inima la căsuța mea, lângă suflețelul meu ist drăgălaș, că mi-i și grijă să te tot las singură, Suzano.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>De ce, Todirel?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>De ce? pentru că ești tinerică, mândrulică; ai vin-încoace.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (îl împinge râzând) </stage>
+            <p>Iaca vorbă! nu cumva mi-i și teme acu?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ba, zău, nu-ți face cruce. Om sunt și eu și-mi ești drăguță, foc.</p>
+            <p>SUZANA:Așa să trăiești?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Așa să trăiesc!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Că tu mă iubești?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Că eu te iubesc!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Și, zău, nu glumești?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Și, zău de glumesc!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Așa să trăiești?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Așa să trăiesc!</p>
+            <stage> (Împreună.) </stage>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ah! ce dulce foc</p>
+            <p>În suflet simțesc!</p>
+            <p>Nu pot sta pe loc,</p>
+            <p>Așa să trăiesc!</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ah! ce mare foc</p>
+            <p>În suflet simțesc!</p>
+            <p>Mă topesc pe loc,</p>
+            <p>Așa să trăiesc!</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (căutând împrejur) </stage>
+            <p>Suzano...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ce-i, bărbățele?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Nu mă-i lăsa să mă-nfrupt c-o sărutare?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ba te-oi lăsa, Toderică, că doar nu suntem în post.</p>
+            </sp>
+        <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (ștergându-și buzele) </stage>
+            <p>Drăgulița mea...</p>
+            <stage> (Când voiește s-o sărute, intră jandarmul.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA 4</head>
+          <stage>TOADER, SUZANA, JANDARMUL (intră prin fund, în dreapta)</stage>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Bade Toadere!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Tronc!... Ce-i, jăndarule?</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>O hârtie de la subprefectură. Nați-o.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Iar o buleandră de hârtie? Măi, măi, măi! N-are chip cineva să-și sărute nevasta. Să vedem ce mai scrie?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Da tu știi să citești, Toderică?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ba cât hăciu. Mă duc la domnul Gălușcă să mi-o tălmăcească.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Stai pe loc, că iată-l!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA 5</head>
+          <stage>TOADER, SUZANA, GALUSCUS (iese din casa boierească citind o gazetă)</stage>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Admirabil! Redaptorul acestui ziar a bine meritat de la patrie! El critică tot, fie bun, fie rău... Admirabil!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Domnule Gălușcă!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Pe mine me chemi, Teodore?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Așa, domnule Gălușcă. Te-aș ruga...</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Faci eroare, amice. Eu me numesc din străbuni Galuscus, nu Gălușcă. Sunt roman din Dacia Transcarpatină și me cobor dintr-un general roman ce a ținut resbel cu Gaulia pe timpul lui Cezar, din care motiv el a fost supranumit Galuscus de Senatul Romei. În consecință, binevoiește, amice, a nu me porecli Gălușcă, mai cu seamă că nu pot suferi găluscele... nu-mi priesc.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Fie ș-așa, cucoane Gălușcă.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Iar cucoane? V-am spus la toți aice, de când me aflu ca profesor în sat, se nu-mi mai ziceți cucoane, pentru că astăzi nu mai esist boierii, nu mai sunt boieri. Zi-mi frate Caluscus, fiindcă toți romanii sunt frați.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ți-aș zice frate, cucoane, d-apoi nu-i obiceiu de astfel pe la noi. Numai călugării își zic frați.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Bine; dacă uzul nu iartă, zi-mi domnule. Acest cuvânt e latin, și ascendinții nostri, precum scii, Teodore, erau de viță latină. Strămoșul meu, generalul Galuscus, care era ver primare cu Trifonius Petringelus și cu nu mai puțin celebrul roman Bostanus Coptus, ce se rudea cu oficiliatul și mult sapientul Cartofilus Cesarus Craescus...</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ian las’, domnule, cartofele și bostanii deoparte și m-ascultă...</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Fie. Acum că ți-am dat esplicăciunile necesarii, spune, ce voiesci?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Te-aș ruga, dacă nu ți-ar fi cu supărare, să-mi citești porunca asta de la subprefecătură.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ai primit iar vrun ordin?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ba nu, o poruncă.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Cum ai zis? O poruncă? Rău pronunți, frate; debe se zici uă poruncă.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>E trăsnit cu leuca, pe legea mea! ha, ha, ha!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Cine râde? O femeie?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ba nu, domnule, uă femeie.</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (zâmbind) </stage>
+            <p>A! bela Suzană?... Doamna mea, primesce asigurăciunea înaltei mele considerăciuni cu care am onoare a fi a domniei-voastre devotat serb.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>Ian auzi-l acu, cică vre să fie cerb.</p>
+            <stage> (Râde și se așează torcând pe prispă.) </stage>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Nu te potrivi, domnule, și citește-mi porunca; poate că-i grabnică.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Consimt cu plăcere. Adă.</p>
+            <stage> (Ia hârtia și citește deoparte:) </stage>
+            <p>„Se ordonă vornicului din satul lui Cremene, ca îndată să scoată toți sătenii și să-i pornească la căratul lemnului necesariu pentru casa de arest ce este a se dura în acest sat. Orice lucru ar avea de făcut locuitorii, fie a lor, fie a proprietarului, îl vor părăsi pe loc, pentru ca să grăbească căratul materialului menționat. Subsemnat Răzvrătescu, subprefect.”</p>
+            <stage> (În parte.) </stage>
+            <p>Acest ordin e arbitrar! e uă mesură despotică, uă... uă... uă idee monstruoasă!... Tocmai acum când e timpul de strâns pâinea de pe câmp, se o lase ca se putrezească, pentru ce? pentru construirea unei temniți!... O! înțeleg; asta provine din inimicițiunea lui Răzvrătescu. El vrea se me ruineze, fiindcă opiniunele noastre politice sunt contrarii. Ce este de făcut?...</p>
+            <stage> (Stă pe gânduri.) </stage>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ai citit hârtia, cucoane Gălușcă?... Ce năzbutii mai cuprinde?</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte, cu veselie) </stage>
+            <p>O! ce idee!</p>
+            <stage> (Tare.) </stage>
+            <p>Frate Teodore, subprefectura ordonă ca fără nici o întârziere se iasă tot satul pentru ca se-mi culeagă pâinea de pe câmp.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Oare? Dacă-i așa, cucoane, grăiește d-ta cu românii, că eu degeaba m-am cercat să-i scot azi la lucrul boierescului.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Unde sunt frații romani?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Fac cislă colea-n crâșmă.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Învită-i se vie aice ca se parlamentăm împreună.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Îndată, cucoane Gălușcă.</p>
+            <stage> (Se duce în crâșmă.) </stage>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>L-oi învăța eu pe Răzvrătescu, să scrie vornicului cu litere latine.</p>
+            <stage> (Suzana cântă încet.) </stage>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (o întrerupe) </stage>
+            <p>Suzano, belă Suzană...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Aud, domnule Gălușcă.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ce faci acolo singurică?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Torc.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Torci?... Felice e fuiorul ce-l atingi cu degetele și cu buzele!</p>
+            <stage> (Oftând.) </stage>
+            <p>Căci nu sunt eu în locul lui!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ai vrea să te torc?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Aș!...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Nu se poate.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>De ce?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ești prea nescărmănat.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ah! Suzană.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (imitându-l) </stage>
+            <p>Ah! Gălușcă.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>De ce nu vrei se citesci în anima mea? De ce nu vrei se me capisci?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Eu?... ba să te piște rusaliile mai bine, da nu eu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA 6</head>
+          <stage>GALUSCUS, SUZANA, TOADER, ȚĂRANII (ieșind din crâșmă)</stage>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Veniți încoace, că vă cheamă vechilul moșiei.</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Domnul Gălușcă acum ne cheamă;</p>
+            <p>Haideți cu toții, hai, fără teamă</p>
+            <p>Să-i vedem fața cea pricopsită,</p>
+            <p>S-auzim vorba-i cea procopsită.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Bine-ați venit, fraților! Ve salut, salve!</p>
+          </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Bine-am găsit, cucoane.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ve invit se-mi pretați toată atențiunea.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ce să facem, cucoane?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>V-am luminat de demult asupra sorgintei voastre, sunteți romani, strănepoți a imperatului Traian, anticii dominatori a lumei! Așa este?</p>
+          </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>O fi, cucoane.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>În consecință, ve indemn, conform cu ordinul acesta de la subprefectură, se alergați la câmp pentru ca să-mi culegeți popușoiul. Dixi!</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚA</speaker>
+            <p>Bucuros am merge, cucoane, dar nu ne dă mâna.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Și pentru care motiv, frate Veveriță?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ne temem de rusalii.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Rusalii!... sunt rusalii pe moșie?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Sunt, sunt, ardă-le focul! Mai alaltaieri ele au furat boii lui Terinte prisăcariu, și chiar astă-noapte le-a zărit Gheorghe a Saftei, trierând satu. Așa-i, Gheorghe?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Așa, cumătre Vasile. Erau numai două în catrință și se furișau pe sub zăplazul curții boierești.</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (pe gânduri) </stage>
+            <p>Rusalii! Aceasta e un ce grav! uă... uă... uă... calamitate publică! Vechii romani, ascendinții nostri, pre cât îmi aduc aminte din istorie, se apărau de dânsele cu chipul întrebuințat de zeul Vulcan când a voit se prindă pe Venus cu Apolon în flagrante delictum, adică cu mreje.</p>
+            <stage> (Tare.) </stage>
+            <p>Fraților romani! cunoașteți voi pe Venus și Apolon?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ba nu, cucoane. N-au venit niciodată pe-aici prin sat.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Serman popul!... cum a uitat tradițiunele antice!... Fraților romani! strămoșii nostri prindeau rusaliile cu nevodul și apoi le înecau într-o baltă. Astfel debe se facem și noi. Luați un nevod și o pușcă cu voi și mergeți la lucru; iar dacă le veți zări cumva, zvâr și poc!... m-ați înțeles?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Înțeles, cucoane. Hai, măi!</p>
+          </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Hai!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Dar căutați bine, fraților romani, se nu lăsați păpușoii in strujeni!</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ferească sfântul! Hai, fraților romani!</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <stage> (mergând spre crâșmă) </stage>
+            <p>Hai ca strămoșii, cu vitejie,</p>
+            <p>Să stăm la pândă colo-n câmpie,</p>
+            <p>C-un năvod mare și cu o pușcă,</p>
+            <p>Precum ne-nvață dnul Gălușcă.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Toadere, încotro apucă frații romani?</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (la țărani) </stage>
+            <p>Ei, măi! încotro, încotro? Acolo-i lanul de păpușoi?</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (pe prag) </stage>
+            <p>Mergem să cătăm năvodul.</p>
+            <stage> (Țăranii intră râzând în crâșmă.) </stage>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (deschide jurnalul și se adâncește în citire) </stage>
+            <p>Ce stil! ce espresiuni energice! ce logică invincibile! admirabil ziar! admirabil redaptor! Cine-i subsemnat?</p>
+            <stage> (Caută la sfârșitul foaiei.) </stage>
+            <p>Clevetici! îl ghicisem de la început.</p>
+            <stage> (Citește:) </stage>
+            <p>„Douăzeci și patru de ore au trecut de când s-a format noul Cabinet, și încă nu vedem inovate și aplicate reformele promise de programa sa! Conchidem dar că și acest minister a pus sub salte promisiunile sale! Încă o ilusiune pierdută! Sermană Patrie! infelice Națiune! etc.”</p>
+            <stage> (Vorbit.) </stage>
+            <p>Sublim! Iaca accente patriotice!... În trei rânduri de tipar numai o singură greșeală de ortografie. Redaptorul a scris națiune în loc de năciune. Păcat!</p>
+            <stage> (Citește.) </stage>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (venind lângă Suzana) </stage>
+            <p>Suzană...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Aud, bărbate.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Nu ne vede nime acu. Țăranii au intrat în crâșmă, dnul Gălușcă s-a îngropat în hărtia cea mânjită cu cerneală... Nu mă-i lăsa să mă-nfrupt c-o sărutare?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Bucuros, Toderică.</p>
+            <stage> (Întinzând obrazul.) </stage>
+            <p>Na, înfruptă-te degrabă!</p>
+            </sp>
+        <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (ștergându-și buzele) </stage>
+            <p>Iaca...</p>
+            <stage> (Când voiește s-o sărute, intră jandarmul.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA 7</head>
+          <stage>GALUSCUS, TOADER, SUZANA, JANDARMUL</stage>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Bade Toadere!</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (supărat) </stage>
+            <p>Iar! mânca-l-ar cioarele de jăndar!</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Bade Toadere!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ce este, măi hemesitule?</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Te cheamă domnul subprefect ca să-i aduci banii birului.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ce să-i duc?... n-am putut strânge încă nimica. Deabia ieri mi-a venit porunca ca să scot de la săteni două șferturi și banii șoselei, colac peste pupăză!... N-am ce-i duce.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Nu te supăra pe bietul jăndar, Toderică, că el nu-i vinovat, sărmanul!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Cum nu m-oi mânia, dacă tot mă stingherește!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Mai bine du-te de te tălmăcește cu subprefectul.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Fie, mă duc; dar vin îndată îndărăt ca să nu rămân toată ziulica ne-nfruptat...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ha, ha, ha, că poznaș mai ești, bărbate!</p>
+            <stage> (Toader iese, alergând împreună cu jandarmul.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA 8</head>
+          <stage>GALUSCUS, SUZANA și, mai pe urmă, TOADER</stage>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ce lucru să fie oare?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ascultă.</p>
+            <p>Suzană, ești belă, ești chiar florelinte,</p>
+            <p>Ș-a tale belețe mă scoate din minte!</p>
+            <p>Ești belă! și chipu-ți treptat se belesce,</p>
+            <p>Și anima-mi, belo, amând vestezesce!</p>
+            <p>Te am cu pășiune, te am cu ardoare</p>
+            <p>Ș-amoarea-mi vibrează lâng-a ta pudoare,</p>
+            <p>Te am, și de-acuma viața mea toată</p>
+            <p>Va fi pentru tine oficiolată!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Nu te-nțeleg, domnule, ce vrei să-mi spui... Tot zici că m-ai... tot pomenești de pășune, de flori de linte, de moare, de putoare... Ce limbă grăiești, că parcă se bat calicii în gura d-tale?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ah! nu m-ai cumprins?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Nici te-am prins, nici te-am înțeles, că doar n-am învățat tătărește.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Cum?... Suzană, n-ai priceput că deja un incendiu volcanic arde în anima mea?</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>Așteaptă, mangositule!... păsărește vrei?</p>
+            <stage> (Tare.) </stage>
+            <p>Stivini, ivini, căvănă, evene, stivini, nevene, buvunu, nuvunu?</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (cu mirare) </stage>
+            <p>Buvunu, nuvunu? Ce jerg e acesta? În van îmi tortur inteligința ca să capisc buvunu, nuvunu. Aceste sclămăciuni nu aparțân idiomului năciunei noastre. În consecință mă găsesc în pusăciune a nu le putea da o interpretăciune rățională.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>N-o înțeles?... Să-i vorbesc în limba lui.</p>
+            <stage> (Tare.) </stage>
+            <p>Baciune, tăciune, teciune, pârciune, dalciune, niciune, cuciune, naiciune, minciune, teciune... Ai priceput acum?</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (cu mulțumire) </stage>
+            <p>Acu mai vii de-acasă, dar n-am priceput nici acum bine de tot, căci vorbesci prea iute.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ha, ha, ha, greu ai mai fost de cap!... Ian ascultă, domnule Gălușcă, dacă vrei să vorbești românește ca să te înțeleagă românii, bine; iar de nu, du-te, omule, de unde-ai venit, că nu ți se trec brașoavele pe la noi.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ei apoi, Suzano, de vreme ce mă condamni să-ți vorbesc în limba vulgară a părinților mei, îți spun curat, pe șleah, că-mi ești drăguță și că mă usuc de dorul tău.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>Iaca, iaca! s-a aprins tăciunele.</p>
+            <stage> (Toader se arată în fund.) </stage>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (în parte) </stage>
+            <p>Oare ce pune la cale Suzana cu domnul Gălușcă?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Suzano, răspunde-mi și tu pe șleah, vrei să te dai în dragoste cu mine?</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (în parte) </stage>
+            <p>Auzi Gălușca dracului?</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>Îmi vine să i-o joc bună stropșitului.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>De primești, ai dat peste noroc!... Nu-ți pomenesc de onoarea ce ar fi pentru tine ca să fii în relăciune cu un om învățat cum sunt eu!... Ești femeie pricepută ș-o înțelegi; dar apoi, gândesce, Suzano, că pusăciunea mea de plenipotinte mă face destul de potinte, ca să fiu de mare folos sau de mare pagubă prostului cel de Toader, bărbatul tău...</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (în parte, furios) </stage>
+            <p>Prost!... ghidi, sparge casă!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>La ce te hotărăști, Suzănică?... Răspunde fără sfială, nici rușine, draga mea, căci pudoarea nu-i inimică amoarei.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Apoi dă, domnule... știu eu ce să fac?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Să te-nvăț eu. Când a înnopta, oi găsi o treabă lui Toader ca să-l depărtez, și-n lipsa lui, oi veni pe furiș la tine. Vrei?</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (în parte) </stage>
+            <p>O! îmi vine să-l toropesc.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Să vin pe furiș, Suzano? Sclamă, dragă, sclamă că vrei să vin. Nu-ți etufa simțiciunea.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Dar dacă te-a vedea cineva?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Asta-i uă considerăciune gravă!... Cum să facem dar?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Știi una? Aștept să vină soră-mea mai într-amurg. Îmbracă-te-n haine femeiești, și dacă te-a și zări cineva, a crede că-i Ileana.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Perfect! Sublim! Suzano, am să mă prefac în zină, în Venus.</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (în parte) </stage>
+            <p>Așa vă-i tocmala?</p>
+            <stage> (Vine în scenă.) </stage>
+            <p>Domnule Gălușcă...</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (tresărind) </stage>
+            <p>Ha?... Teodor?... Ce voiești, amice?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ce vreau?... Vreau să-ți spun verde-n ochi...</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (încet, lui Toader) </stage>
+            <p>Stăpânește-ți gura, Toderică.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Aștept, vornice, să-mi spui verde-n ochi... Ce?</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (pișcând pe Toader) </stage>
+            <p>Taci, bărbate.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Că... că te-așteaptă subprefectul.</p>
+            </sp>
+        <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>O cam sfeclisem!</p>
+            <stage> (Tare.) </stage>
+            <p>Mă așteaptă domnul Răzvrătescu? Bine, mă duc să-l găsesc. Suzano, nu uita ce te-am rugat... Adio, salve!</p>
+            <stage> (Iese prin fund.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA 9</head>
+          <stage>TOADER, SUZANA</stage>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Dar de aste mi-ai fost, lele Suzană?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>De care, bădică?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Vrei să-mi pui flori după urechi cu sfrijitul cel de Gălușcă?</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (râzând) </stage>
+            <p>Cum ai aflat-o, bărbățele?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ș-încă râzi, muiere nerușinată!... Râzi, și nu-i nici o săptămână de când te-am luat!</p>
+            <stage> (Începe a plânge.) </stage>
+            <p>Ce păcate-am avut să mă-nsor!... De unde eram om teafăr, s-ajung de batjocura satului!... Alei, Suzano, mi-aș fi pus capu-n foc că tu nu ești ca altele.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Nu fi copil, omule. Ce, Doamne, iartă-mă! te scâncești numai pentru-atâta?</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (bocindu-se) </stage>
+            <p>Auzi, atâta?... Da ce-mi trebuie mai mult?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Liniștește-te, dragă, c-a fost numai o glumă.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Glumă?... să-l înveți chiar tu pe Gălușcă ca să se-mbrace femeiește, pentru ca să vie la tine!...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Dacă, doar n-am orbul găinilor, ca să mă-ndrăgesc de-un șoldan ca dânsul. Am vrut numai să-mi bat joc de el.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ian, las, parcă n-am văzut eu, n-am auzit eu...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Nu crede ce vezi cu ochii, bărbate; crede ce-ți spun eu.</p>
+            <p>Bărbate, bărbate,</p>
+            <p>Nu crede ce vezi,</p>
+            <p>Închide-ți tu ochii</p>
+            <p>Ș-orbește mă crezi.</p>
+            <p>De-auzi vorbe rele</p>
+            <p>Tu, surd să te faci.</p>
+            <p>Astupă-ți urechea,</p>
+            <p>Te culcă și taci.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Să tac, să tac când știu că vechilul umblă după tine ca lupul după oaie.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Lasă-l să umble și, dacă ești om, ia-l la hăituit când s-o primbla noaptea prin sat.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Iaca! bine zici, nevastă.</p>
+            <stage> (Râde.) </stage>
+            <p>Ha, ha, ha, că mare pricepută ești!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Vezi?... și tu mă credeai o rea.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Iartă-mă, Suzană dragă, că de-acum mă jur să fiu orb și surd. Mă ierți, puiculiță?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Te iert, bărbățele.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Și... îmi dai voie să ma-nfrupt c-un sărutat?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ba și cu două, Toderică.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Găinușa badei.</p>
+            <stage> (Când voiește s-o sărute, intră jandarmul.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA 10</head>
+          <stage>TOADER, SUZANA, JANDARMUL</stage>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Bade Toadere!</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (furios) </stage>
+            <p>Bată-l pârdalnicul de jăndar!... parc-o face întradins.</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Bade Toadere...</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ce este, măi?</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>A poruncit subprefectul s-aduni toți sătenii aici în piață, că are să le grăiască!</p>
+            <stage> (Iese.) </stage>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Bine.</p>
+            <stage> (Suzanei.) </stage>
+            <p>Dă degrabă, Suzano, pân’ ce nu mai vine cineva.</p>
+            <stage> (Voiește s-o sărute.) </stage>
+            </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <stage> (întorcându-se) </stage>
+            <p>Bade Toadere, aleargă iute, că iaca vine subprefectul.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Of! mă duc, că văd că n-oi să am parte azi de înfruptat.</p>
+            <stage> (Intră în crâșmă.) </stage>
+            </sp>
+        <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (singură) </stage>
+            <p>Bietul Toader! mare frică i-a fost de șotie! Bine c-o știu.</p>
+            <stage> (Intră în casă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA 11</head>
+          <stage>GALUSCUS, RĂZVRĂTESCU (intră prin fund certându-se)</stage>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ba n-oi plăti.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ba-i plăti.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ba n-oi plăti, domnule subprefect, că ar fi o vexăciune intolerabilă.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Domnule, ia-ți măsurile cum vorbești!... Cum îndrăznești a numi vexațiune, după limba d-tale, o lege votată de Cameră?... D-ta, care citești toată ziua gazete, trebuie să fii negreșit informat că toți proprietarii au să plătească statului câte 5 la sută din venitul lor; prin urmare împotrivirea d-tale o considerez ca o opoziție guvernului.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ba, mă iartă, nu fac opusăciune; însă eu nu-s proprietarul acestei moșii; sunt numai vechil, după limbajul d-tale, și legea specifică clar că proprietarul debue să plătească contribuciunea fonciară. În consecință, salve!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Așa?... te împotrivești poruncilor mele?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Nici vreau să te bag în seamă.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Nu?... se vede că nu știi cine sunt și ce pot eu?...</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>D-ta?... ești domnul Răzvrătescu; atâta tot și lada-n pod.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Sunt subprefect, domnul meu!... adică a 57-ea parte din guvern!</p>
+            <p>Sunt subprefect de un ocol,</p>
+            <p>Și-n țara mea joc mare rol!</p>
+            <p>Eu cercetez, eu hotărăsc,</p>
+            <p>Judec, condamn și împlinesc.</p>
+            <p>De mine toți se tem aici,</p>
+            <p>Că-s mare peste cei mai mici.</p>
+            <p>Sunt subprefect, sunt subprefect,</p>
+            <p>Ș-aici produc grozav efect!</p>
+            <p>Prefectul meu stă nevăzut,</p>
+            <p>De ținutași necunoscut.</p>
+            <p>El în oraș șede pe loc</p>
+            <p>Vara-n grădini, iarna la foc.</p>
+            <p>Dar, crișul eu! toți mă râvnesc,</p>
+            <p>Și ca de-un drac toți se feresc,</p>
+            <p>Că-s subprefect de un ocol,</p>
+            <p>Și-n țara mea joc mare rol!</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>Infelice țară!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>M-ai auzit, domnule?... prin urmare îți poruncesc, în numele Convenției, să te supui îndată la plata contribuției, căci la dimpotrivă, te voi împlini cu execuție.</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (speriat) </stage>
+            <p>Cu execuciune?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Dar; îți trântesc jandarmi în casă, așa încât să nu fii liber nici să dormi.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ce-aud? ma asta-i uă... uă... uă inquisiciune!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Nici să mănânci.</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (furios) </stage>
+            <p>Ești un Neron!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Nici să ieși din casă.</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (exasperat) </stage>
+            <p>Ești un Caligul!... Vrei să-mi ataci libertatea individuală?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Plătește.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Să-mi violezi domiciliul?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Plătește.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ești un Caracal!... Mă duc să-ți aduc banii, dar să știi c-am să dau peticiune ministeriului.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Plătește, și dă peticiuni chiar dracului.</p>
+            </sp>
+        <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (intră în casa boierească, strigând) </stage>
+            <p>O! abominăciune! violăciune! execrăciune!</p>
+            </sp>
+        <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (singur) </stage>
+            <p>Strigă tu la crăciuni cât ți-a ținea gura, pedantule, că nu te slăbesc.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA 12</head>
+          <stage>RĂZVRĂTESCU, TOADER, ȚĂRANII (ieșind din crâșmă), mai pe urmă GALUSCUS</stage>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Da haide, măi, azi, c-așteaptă subprefectul.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Iaca venim, venim; mai încet, vornice, că nu dau tătarii.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ha, ha! Iaca și sătenii; am să-i dăscălesc, după cum am citit în gazetă.</p>
+            <stage> (Tare.) </stage>
+            <p>Oameni buni!... v-ați adunat cu toții?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ne-am strâns, cucoane; am lăsat lucrul ș-am alergat la chemarea vornicului.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Bine... Vornice!</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Aud, cucoane.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ai mai strâns ceva din banii birului?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Te miri ce și mai nimică, vorba ceea, că oamenii îs lipiți pământului.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Așa, așa, săracii de noi!... lipiți pământului!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Pâră veche, badeo, pâră veche... Vornice, să te pornești acu-ndată cu banii câți ai adunat și să-i duci la sămișie.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Îra! cucoane, nu s-ar putea să lăsăm pe mâine?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Nu... hai; pornit-ai?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Pornit, pornit; numai să zic două vorbe nevestei.</p>
+            <stage> (Se duce la casa lui.) </stage>
+            <p>Suzano!</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (pe pragul ușii) </stage>
+            <p>Aud, bărbate.</p>
+            <stage> (Vorbesc încet.) </stage>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (zărind pe Suzana) </stage>
+            <p>Iaca, mă! da frumușică vorniceasă are vornicul!... Bună idee am avut să-l espeduiesc.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (încet) </stage>
+            <p>Și, zău, iar te duci, Toadere?</p>
+            </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <stage> (încet) </stage>
+            <p>Mă duc pân’ în capătul satului și mă-ntorc îndărăt pe după țarină.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Da nu te-ai mai dus azi?</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Iaca mă duc... Ard-o focul vornicie!... Rămâi sănătoasă, nevastă.</p>
+            <stage> (Iese prin stânga.) </stage>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Mergi cu bine, bărbate.</p>
+            <stage> (Se închide în casă.) </stage>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (în parte) </stage>
+            <p>Îi frumușică coz.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Cucoane, vornicul ne-a spus că ai să ne grăiești câte ceva.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Da.</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (către țărani) </stage>
+            <p>Tăceți, mă!</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (arătându-se la portiță cu o pungă în mână) </stage>
+            <p>Ce are să le spuie?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Oameni buni! v-am adunat pentru ca să vă spun vorbe mari și late, cum n-ați mai auzit de când trăiți. Eu vă sunt prieten, frate, tată!... vă vreau binele, și dar vă întreb: Cum ați petrecut păn-în ziua de astăzi?... bine, ori rău?...</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Apoi, dă, cucoane... cum a dat târgul și norocul, vorba ceea.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Rău!... Ați fost lipsiți de toate, și de libertate, și de egalitate, și de fraternitate, și de legalitate, și de inviolabilitate... și de...</p>
+            <stage> (Scoate un jurnal din buzunar.) </stage>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>Ce zice? ce zice?...</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (la țărani) </stage>
+            <p>Ce-or fi, măi, acele toate?</p>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (citind jurnalul) </stage>
+            <p>„Și de drepturi cetățenești, și de drepturi comunale, și de drepturi municipale, și de drepturi civile, și de drepturi politice, și de sufragiul universal.”</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (lui Gheorghe) </stage>
+            <p>Ce-i sufragiu cela, mă Gheorghe?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Sofragiu, cumătre, ca la boieri.</p>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (citind) </stage>
+            <p>„Dar, în fine, a unsprezecea oră a sunat pentru voi! Cel proletar va scăpa de proletariat! Cel mic se va face mare, și viceversa, cel mare se va face mic! Cel slab va fi putinte, și cel putinte neputinte!”</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>Propagă anargia, nebunul!</p>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (citind) </stage>
+            <p>„De-acum fiecare locuitor debue a fi proprietar de patru fălci de pământ, căci acel pământ e a lui Dumnezeu, și precum glasul poporului este glasul lui Dumnezeu, asemenea pământul lui Dumnezeu este pământul poporului.”</p>
+            <stage> (Vorbit.) </stage>
+            <p>Vă vine la socoteală așa, oameni buni?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Cum, cucoane?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Să aveți fiecare partea voastră, câte 4 fălci, și să nu mai faceți boieresc?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ne-ar veni, cucoane; dar să-mi dai voie a face o întrebare, dacă nu ți-a fi cu bănat.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Grăiește, moș Veveriță, că dumneata ești om priceput.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Patru fălci de pământ sunt bune acu deocamdată; dar mai târziu, când ne-or crește copiii, li s-a da oare și lor câte patru fălci?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ba nu, moș Veveriță; copiii vor împărți frătește locul părintesc, că așa-i cu dreptul.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Carevrasăzică, dac-aș avea patru însurăței, să le vie parte numai câte-o falce?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Măi, proștilor, voi nu înțelegeți toate avantajele unei asemene reforme.</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (lui Gheorghe) </stage>
+            <p>Ce-a fi acea răformă, Gheorghe?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Ce să fie, cumătre? Răformă, adică formă ră.</p>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (citind) </stage>
+            <p>„Acele avantage sunt: primul că vă faceți cetățeni liberi; al doilea, că vă faceți liberi cetățeni; al treilea, că fiind liberi cetățeni, o să dobândiți demnitatea de cetățeni liberi; să agiungeți a fi și voi o Nație.”</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>Auzi, Nație!... zi Năciune, ignorantule!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>O nație mare, cultivată, florisantă.</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>Florelinte, nu florisantă...</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Să aveți și voi școli și comune, și temniți în sate, ca toate națiile civilizate. De aceea vă poruncesc acum să lăsați orice lucru a câmpului baltă și să vă duceți ca să cărați lemn de durat o temniță aici. Sunteți liberi, bătaia este ridicată; prin urmare, aveți nevoie de-o casă de arest.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Temniță la noi?... doar nu suntem scăpați din ocnă!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Așa; și să mai cărați lemn pentru clădirea unei case comunale; pentru că toate satele au să fie organizate în comune.</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (lui Gheorghe) </stage>
+            <p>Ce să fie cumuna ceea, Gheorghe?</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Adică, cum una, cum alta; tot ca una, fata me.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Și să mai cărați lemne pentru duratul unei școli sătești, în care copiii voștri să învețe carte, ca să se facă învățați. Bune-s toate aceste, oameni buni?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Bune, cucoane. Numai cât, toate-odată... ne vine cam greu; n-avem mijloace, suntem săraci, și de-a fi să lăsăm pâinea pe câmp, poate, Doamne ferește! să putrezească! și cu ce ne-om hrăni la iarnă?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Iaca leneșii!... Hai, nu mai lungiți vorba și vă porniți acu-ndată la lemne.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>D-apoi, cucoane, îi păcat să ne pierdem tot lucrul anului.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ei, măi badeo, nu mă faceți să-mi întorc cojocul pe dos, că, deși sunteți oameni liberi, v-oi face acum s-alergați iepurește.</p>
+            </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <stage> (pe gânduri) </stage>
+            <p>Sărmanii de noi!... cică vor să ne facă bine!...</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Pornit-ați azi?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ne ducem, că doar suntem oameni liberi, cum zici d-ta. Hai, măi.</p>
+          </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Hai.</p>
+            <stage> (Iese prin fund în stânga.) </stage>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (cu aer de triumf) </stage>
+            <p>Așa să face educațiunea populului!</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (venind în fața lui Răzvrătescu) </stage>
+            <p>Domnule, am ascultat toate aberăciunile câte le-ai debitat fraților romani, și fac aici declărăciune că ești un perturbator! Dumneta nu urmezi instrucciunilor guvernului... urmezi inspirăciunei unor utopiști, carii te port de nas ca pe-un nătărău... Mă duc să espedez o depeșă telegrafică la dnul ministru, ca să te demasc ca pe un oficiolat incapace și fatal.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ai adus banii contribuției?</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Las’ că ți-oi da eu contribuciune.</p>
+            <p>Ești pentru năciune</p>
+            <p>O perturbăciune,</p>
+            <p>Abominăciune,</p>
+            <p>Și execrăciune!</p>
+            <p>Om făr’ de răciune,</p>
+            <p>Plin de-aberăciune,</p>
+            <p>Duci la perdiciune</p>
+            <p>Pe biata năciune.</p>
+            <stage> (Intră furios în casa lui.) </stage>
+            </sp>
+        <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ciune, ciune, ciune,</p>
+            <p>Du-te-n năibăciune!</p>
+            <p>Ești o scăpăciune</p>
+            <p>Din balamuciune.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA 13</head>
+          <stage>RĂZVRĂTESCU, SUZANA, mai pe urmă CATRINA și SAFTA</stage>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ha, ha, ha, bată-l dracul c-un tăciune, că poznaș îi!</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Oare unde-i cloșca cu puii?</p>
+            <stage> (Caută primprejurul casei.) </stage>
+            <p>Puii mamii, pui, pui, pui...</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Iaca vorniceasa cea frumoasă. Să-mi cerc norocul în privirea înaintirei neamului.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (venind în scenă) </stage>
+            <p>Nu-i găsesc. Puii mamii, pui, pui, pui...</p>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (înaintând) </stage>
+            <p>Mă chemi, drăguță? Iată-mă-s.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Eu te chem pe d-ta?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Nu strigi de-un ceas, pui, pui? Am crezut că mă chemi pe mine ș-am alergat numai într-o fugă.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Iaca! nu-mi spui că ești glumeț?... Dacă te-aș chema pe d-ta, n-aș striga pui, pui, pui; aș zice: na, mălac, na, ne, ne, ne.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>M-ai pâcâlit, leliță; dar vorba ceea: Pâcâlire de leliță, cere plată o guriță.</p>
+            <stage> (Caută s-o sărute.) </stage>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (respingându-l) </stage>
+            <p>Da cată-ți de drum, omule; doar nu-i țara-n jac.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Țara nu-i de jac, dar tu-mi ești pe plac, pe legea mea!...</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ți-oi fi, d-apoi știi povestea lui Ivan: Măi Ivane, dragi ți-s fetele? — Dragi. — Dar tu, lor? — Și ele mie...</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>N-auzi, leliță?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Aud, bădiță.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Cum te cheamă?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Suzana, să ierți.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Suzana, știi una?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ba nici două.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Îmi vine să mă prind argat la voi.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Pentru ce?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Pentru vorba ceea: Decât a bărbatului, mai bine-a argatului.</p>
+            <stage> (Catrina și o altă țărancă vin la fântână și ascultă.) </stage>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>Umblă ș-aista după colaci calzi. Îmi vine să i-o joc și lui.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Aud?... cum ai zis, leliță?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Am zis așa, că de te-ar împinge păcatul să fii argatul meu, te-aș pune să paști gâștele.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Dar m-ai hrăni bine?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Te-aș hrăni cu răbdări prăjite.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Și cu alivenci?... Carevrasăzică, tocmala-i sfârșită. Intru chiar acu-ndată în argăție.</p>
+            <stage> (Voiește să intre în casă.) </stage>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ho, țară!... că te-or vedea oamenii și m-or face de vorbă-n sat.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Bine zici; încă n-a înnoptat de tot. Dar mai târziu, leliță, să vin?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Apoi, dă... știu eu? Dac-a veni bărbatu-meu?</p>
+            </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <stage> (către țărancă) </stage>
+            <p>Elei! Auzi, Safto?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Bărbatul tău? N-ai nici o grijă, că l-am trimis la târg.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Sărmanul Toader!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Nu-l mai căina, drăguță, că un mojic ca dânsul de atâta-i bun.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <stage> (în parte) </stage>
+            <p>Las’ că te-a mojici el, mangositule.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ei, Suzano, ce zici?... Să vină bădița?... Să-ți aducă bădița șiraguri de mărgele?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Adă, că văd eu, păcatele mele, că nu pot scăpa de d-ta... dar cum să facem ca să nu te zărească nime?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Știi una?... Aștept pe soră-mea în astă-noapte. Îmbracă-te femeiește și vină, de te-a întâlni cineva, a crede că-i Ileana.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Minunată idee!... Așî-și chiar mă duc să-mi pun catrință... Ha, ha, ha!... oi să par că-s Ileana Cosânzeana.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Cu mustăți?... ha, ha, ha!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Mă duc ca vântul și mă-ntorc ca gândul.</p>
+            <p>Mă duc ca vântul, dragă Suzană,</p>
+            <p>Și vin în haine de moldovenci.</p>
+            <p>Tu-mi pregătește ceva de hrană</p>
+            <p>Și mă așteaptă cu alivenci.</p>
+            </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Du-te ca gândul, te fă țărancă,</p>
+            <p>Și te întoarce vesel, gigât,</p>
+            <p>Că-i găsi gata o alivancă...</p>
+            <stage> (În parte.) </stage>
+            <p>Care-ți va merge cam greu pe gât.</p>
+            <stage> (Răzvrătescu iese alergând prin fund, în dreapta.) </stage>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Ha, ha, ha. Atunci s-ajungi tu, sfrijitule, când îi mânca alivenci de la mine... O să am ce râde acuși, numai de-ar sosi Toader mai curând... Da unde, Doamne, iartă-mă, s-a vârât cloșca cu puii?... Puii mamii, pui, pui...</p>
+            <stage> (Intră în casă.) </stage>
+          </sp>
+          <sp who="#catrina">
+            <speaker>CATRINA</speaker>
+            <p>Ai auzit, Safto, așa poznă și minune?... Suzana s-a dat în dragoste cu privighitoriul!... Hai, fa, să dăm de știre nevestelor din sat.</p>
+            <stage> (Ies amândouă în stânga.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA 14</head>
+          <stage>ȚĂRANII (venind din fund și aducând un năvod)</stage>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Iaca năvodul lui Costantin Păscariu. Veniți încoace, măi, să ne punem la pândă...</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Da nu mergem la lemne, cumătre?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Mări, cată-ți de treabă, Gheorghe. Dac-a fi să ne potrivim noi la câte ne-nșiră cei gulerați, om căpchia de tot... Hai noi să ne cătăm de nevoi.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Vasile, măi frate, d-apoi cică-i pentru binele nostru...</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Se poate, cumătre, însă vina noastră-i dacă nu-i pricepem?... Ei ne grăiesc într-o limbă străină, parcă noi am fi pricopsiți ca dânșii... Ce-ai zice tu, Gheorghe, dacă te-aș povățui în limba nemțască?... ai căsca gura?... Așa pățim și noi cu cei ce zic că ne vor binele.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Oricum să fie, nu te juca cu dracu. Îi privighitor, măi, îi subprefect domnul Răzvrătescu!... are putere, frate.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Las’, cumătre, că de-alde Răzvrătescu se schimbă pe toate lunile. Ca mâine a veni altul și ne-a zice alte povești... Hai la pândă, doar om pune mâna pe rusalii.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Unde să ne punem la pândă, moș Veveriță?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Cole-n crâșmă. Rusaliile se primblă noaptea prin sat; cum le-om zări, amandea pe ele.</p>
+          </sp>
+          <sp who="#gheorghe">
+            <speaker>GHEORGHE</speaker>
+            <p>Dar dac-or da ele busta la noi?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Le-om înhăța cu năvodul ista. Hai, măi, c-a început a înnopta.</p>
+          </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Hai.</p>
+            <stage> (Intră cu toții în crâșmă și se pun de pândă la fereastă.) </stage>
+            <stage> (Începe a înnopta.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>SCENA 15</head>
+        </div>
+        <div type="scene" n="16">
+          <head>SCENA 16</head>
+          <stage>(Se ascund pintre copacii de primprejurul fântânii.)</stage>
+        </div>
+        <div type="scene" n="17">
+          <head>SCENA 17</head>
+        </div>
+        <div type="scene" n="18">
+          <head>SCENA 18</head>
+          <stage>ȚĂRANII (ieșind din crâșmă stau pe prag), TOADER și SUZANA (la fereastra casei lor)</stage>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Iacă una din rusalii, măi; gătiți năvodul.</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Toadere, ian privește ce bine-i șade catrința!... Ha, ha, ha.</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>O! amoare! amoare! fi-mi propice!... O! Galuscus; invoacă pe strămoșul tău și, curagiu, amice!...</p>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>SCENA 19</head>
+          <stage>Cei dinainte, RĂZVRĂTESCU (îmbrăcat ca o țărancă, vine din fund, prin dreapta)</stage>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Ațineți-vă, măi, că iată-le-s amândouă rusaliile.</p>
+            <stage> (Țăranii pregătesc năvodul.) </stage>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (apropiindu-se) </stage>
+            <p>Pst...</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Pst...</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ea-i!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Ah!</p>
+            <stage> (Răzvrătescu și Galuscus se reped și se îmbrățișează.) </stage>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Dragă vorniceasă!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Cară Suzană!</p>
+            <stage> (Se sărută.) </stage>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (în parte) </stage>
+            <p>Are barbă!</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (în parte) </stage>
+            <p>Are mustăți!</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Acu-i vremea să ne-apropiem pe furiș.</p>
+            <stage> (Țăranii se apropie cu năvodul gata.) </stage>
+            </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (strângând tare pe Galuscus în brațe) </stage>
+            <p>Cine ești? Spune, că te sfărâm!</p>
+            </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (schimbându-și glasul) </stage>
+            <p>Rusalie! dar tu?</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Și eu.</p>
+            </sp>
+          <sp who="#galuscus #razvratescu">
+            <speaker>GALUSCUS și RĂZVRĂTESCU</speaker>
+            <stage> (speriați) </stage>
+            <p>Rusalie!... piei, drace!</p>
+            <stage> (Voiesc să fugă.) </stage>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Odată, copii!... acu, să nu ne scape.</p>
+            <stage> (Țăranii aruncă năvodul peste Galuscus și Răzvrătescu.) </stage>
+          </sp>
+          <sp who="#suzana_si_toader">
+            <speaker>SUZANA și TOADER</speaker>
+            <p>Ha, ha, ha, ha!</p>
+          </sp>
+          <sp who="#galuscus_si_razvratescu">
+            <speaker>GALUSCUS și RĂZVRĂTESCU</speaker>
+            <p>Ce-i asta?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Strângeți bine năvodul, c-am prins rusaliile.</p>
+            </sp>
+          <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <stage> (împleticind năvodul) </stage>
+            <p>Le-am prins, le-am prins, le-am prins!</p>
+            <p>Haideți ca să le dăm</p>
+            <p>În foc, în foc nestins,</p>
+            <p>Sau să le înecăm.</p>
+            </sp>
+          <sp who="#galuscus #razvratescu">
+            <speaker>GALUSCUS și RĂZVRĂTESCU</speaker>
+            <stage> (zbătându-se) </stage>
+            <p>Ajutor! ajutor!</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Degeaba vă zbateți, rusalii pocite ce sunteți, c-ați căzut pe mâna moșului. Umflați-le pe sus, copii, și huștiuliuc! în fântână.</p>
+            <stage> (Țăranii voiesc să-i ridice.) </stage>
+          </sp>
+          <sp who="#galuscus_si_razvratescu">
+            <speaker>GALUSCUS și RĂZVRĂTESCU</speaker>
+            <p>Ajutor! ajutor!</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>SCENA 20</head>
+          <stage>Cei dinainte, JANDARMUL, TOADER, SUZANA (Jandarmul aduce un fănar)</stage>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Unde-i subprefectul?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Da ce este?</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>O depeșă de la telegraf.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Depeșă de la Iași? ad-o-ncoace.</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Ce-mi văzură ochii! Subprefectul în năvod?</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Vai de mine! Subprefectul era?... Am pățit-o!</p>
+          </sp>
+          <sp who="#jandarmul">
+            <speaker>JANDARMUL</speaker>
+            <p>Ba n-ați pățit nimică, că domnul Răzvrătescu îi dat afară din slujbă.</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Eu?</p>
+            <stage> (Deschide depeșa și rămâne încremenit.) </stage>
+            <p>O! ce nedreptate!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Destituat?... bravo! Depeșa mea a avut acțiune.</p>
+          </sp>
+          <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>Iaca!... Da aistalalt cine-i?... Cuconul Gălușcă? mare minune!... Da bine, cum de vă găsiți amândoi în catrințe?</p>
+          </sp>
+          <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>Să vă spun eu, oameni buni. Dumnealor au vrut să vă vindece de spaima rusaliilor.</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Aș!</p>
+          </sp>
+          <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <p>Ghidi, șârată!</p>
+          </sp>
+          <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <p>Am pățit-o ca Apolon cu Venus. Eu sunt Apolon; asta-mi dă consolăciune.</p>
+          </sp>
+          <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Dacă-i așa povestea, hai, români, să ne veselim c-am scăpat de rusalii.</p>
+            </sp>
+        <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <stage> (veseli) </stage>
+            <p>Haide, haide.</p>
+            </sp>
+        <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vivat, vivat, minunat,</p>
+            <p>De rusalii am scăpat!</p>
+            </sp>
+        <sp who="#toader">
+            <speaker>TOADER</speaker>
+            <p>Ard-o focul vornicie</p>
+            <p>De când e Constituție,</p>
+            <p>N-am parte de însurat...</p>
+            <p>Chiar rusalii m-au umflat!</p>
+            </sp>
+        <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vivat, vivat, minunat,</p>
+            <p>De rusalii am scăpat!</p>
+            </sp>
+        <sp who="#veverita">
+            <speaker>VEVERIȚĂ</speaker>
+            <p>De când e prefecătură,</p>
+            <p>Noi, sărmanii cască-gură,</p>
+            <p>Câmpii, zău, am apucat...</p>
+            <p>Chiar rusalii ne-au umflat!</p>
+            </sp>
+        <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vivat, vivat, minunat,</p>
+            <p>De rusalii am scăpat!</p>
+            </sp>
+        <sp who="#razvratescu">
+            <speaker>RĂZVRĂTESCU</speaker>
+            <stage> (arătând pe Galuscus) </stage>
+            <p>De când țara, din păcate,</p>
+            <p>Are capete-nvățate,</p>
+            <p>Biată limbă s-a zvântat...</p>
+            <p>Chiar rusalii ne-au umflat!</p>
+            </sp>
+        <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vivat, vivat, minunat,</p>
+            <p>De rusalii am scăpat!</p>
+            </sp>
+        <sp who="#galuscus">
+            <speaker>GALUSCUS</speaker>
+            <stage> (arătând pe Răzvrătescu) </stage>
+            <p>De când cu liberalismul</p>
+            <p>Și convenționalismul</p>
+            <p>Multe capete-au secat...</p>
+            <p>Chiar rusalii le-au umflat!</p>
+            </sp>
+        <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vivat, vivat, minunat,</p>
+            <p>De rusalii am scăpat!</p>
+            </sp>
+        <sp who="#suzana">
+            <speaker>SUZANA</speaker>
+            <p>N-auzi astăzi decât forme;</p>
+            <p>Toți cer forme și reforme,</p>
+            <p>Eu nu cer nimic și tac;</p>
+            <p>Dar cer numai să vă plac.</p>
+            </sp>
+        <sp who="#taranii">
+            <speaker>ȚĂRANII</speaker>
+            <p>Vivat, vivat, minunat,</p>
+            <p>De rusalii am scăpat!</p>
+            <p>Cortina cade</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

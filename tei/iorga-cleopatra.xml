@@ -1,0 +1,3139 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000068" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cleopatra</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Cleopatra_-_Piesă_în_5_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1928">
+            <desc>1928</desc>
+          </event>
+
+          <event type="premiere" when="1934">
+            <desc>9 martie 1934, Teatrul Național din București</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="cleopatra" sex="FEMALE">
+            <persName>CLEOPATRA</persName>
+          </person>
+          <person xml:id="apameia" sex="FEMALE">
+            <persName>APAMEIA</persName>
+          </person>
+          <person xml:id="arsinoe" sex="FEMALE">
+            <persName>ARSINOE</persName>
+          </person>
+          <person xml:id="cesarion" sex="MALE">
+            <persName>CESARION</persName>
+          </person>
+          <person xml:id="marc_antoniu" sex="MALE">
+            <persName>MARC-ANTONIU</persName>
+          </person>
+          <person xml:id="megastene" sex="MALE">
+            <persName>MEGASTENE</persName>
+          </person>
+          <person xml:id="porfiriu" sex="MALE">
+            <persName>PORFIRIU</persName>
+          </person>
+          <person xml:id="fronto" sex="MALE">
+            <persName>FRONTO</persName>
+          </person>
+          <person xml:id="murena" sex="MALE">
+            <persName>MURENA</persName>
+          </person>
+          <person xml:id="treboniu" sex="MALE">
+            <persName>TREBONIU</persName>
+          </person>
+          <person xml:id="menesicle" sex="MALE">
+            <persName>MENESICLE</persName>
+          </person>
+          <person xml:id="chilon" sex="MALE">
+            <persName>CHILON</persName>
+          </person>
+          <person xml:id="un_eunuc" sex="MALE">
+            <persName>UN EUNUC</persName>
+          </person>
+          <person xml:id="phormion" sex="MALE">
+            <persName>PHORMION</persName>
+          </person>
+          <person xml:id="memnon" sex="MALE">
+            <persName>MEMNON</persName>
+          </person>
+          <person xml:id="eudoxia" sex="FEMALE">
+            <persName>EUDOXIA</persName>
+          </person>
+          <person xml:id="marele_preot" sex="MALE">
+            <persName>MARELE PREOT</persName>
+          </person>
+          <person xml:id="al_ii_lea_preot" sex="MALE">
+            <persName>AL II-LEA PREOT</persName>
+          </person>
+          <person xml:id="livius" sex="MALE">
+            <persName>LIVIUS</persName>
+          </person>
+          <person xml:id="romanul" sex="MALE">
+            <persName>ROMANUL</persName>
+          </person>
+          <person xml:id="preotul_roman" sex="MALE">
+            <persName>PREOTUL ROMAN</persName>
+          </person>
+          <person xml:id="isidor" sex="MALE">
+            <persName>ISIDOR</persName>
+          </person>
+          <person xml:id="strajerul" sex="MALE">
+            <persName>STRĂJERUL</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000068"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Cleopatra</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>CLEOPATRA</role>
+        </castItem>
+        <castItem>
+          <role>APAMEIA</role>
+        </castItem>
+        <castItem>
+          <role>ARSINOE</role>
+        </castItem>
+        <castItem>
+          <role>CESARION</role>
+        </castItem>
+        <castItem>
+          <role>MARC-ANTONIU</role>
+        </castItem>
+        <castItem>
+          <role>MEGASTENE</role>
+        </castItem>
+        <castItem>
+          <role>PORFIRIU</role>
+        </castItem>
+        <castItem>
+          <role>FRONTO</role>
+        </castItem>
+        <castItem>
+          <role>MURENA</role>
+        </castItem>
+        <castItem>
+          <role>TREBONIU</role>
+        </castItem>
+        <castItem>
+          <role>MENESICLE</role>
+        </castItem>
+        <castItem>
+          <role>CHILON</role>
+        </castItem>
+        <castItem>
+          <role>UN EUNUC</role>
+        </castItem>
+        <castItem>
+          <role>PHORMION</role>
+        </castItem>
+        <castItem>
+          <role>MEMNON</role>
+        </castItem>
+        <castItem>
+          <role>EUDOXIA</role>
+        </castItem>
+        <castItem>
+          <role>MARELE PREOT</role>
+        </castItem>
+        <castItem>
+          <role>AL II-LEA PREOT</role>
+        </castItem>
+        <castItem>
+          <role>LIVIUS</role>
+        </castItem>
+        <castItem>
+          <role>ROMANUL</role>
+        </castItem>
+        <castItem>
+          <role>PREOTUL ROMAN</role>
+        </castItem>
+        <castItem>
+          <role>ISIDOR</role>
+        </castItem>
+        <castItem>
+          <role>STRĂJERUL</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA 1</head>
+          <stage>(O odaie în palatul din Alexandria)</stage>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA I</head>
+          <stage>CLEOPATRA, APAMEIA, ARSINOE</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (obosită) </stage>
+            <p>S-a dat mulțimii ceia ce mi-a cerut?</p>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <p>E greu!</p>
+            <p>Ce nu cere mulțimea din această cetate?</p>
+            <p>În orice daruri vede o parte din tot ce</p>
+            <p>S-ar cuveni imensei ei sete de plăcere.</p>
+            <p>Și-s schimbători! Dorința de azi, mâini e dezgust:</p>
+            <p>Ar vrea ca într-o clipă să-i fi gâcit tot gândul....</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Gândul de mâni, nu gândul de azi ...</p>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <stage> (râzând) </stage>
+            <p>Ba chiar așa!</p>
+            <p>Și știu ce vor? Atâta cât știe apa mării</p>
+            <p>De ce se face neagră ca noaptea-n miez de zi...</p>
+            <p>Și în adânc de noapte lucește ca oglinda...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (pe gânduri) </stage>
+            <p>Ca marea-i omul. Așa ești tu, - da, tu,</p>
+            <p>Sfătuitoarea-n care mă încred mai mult ca-n mine,</p>
+            <p>Bătrâna cugetare în tânăr, fraged trup,</p>
+            <p>Așa-s și eu... Dar Marea, schimbându-se, ascultă,</p>
+            <p>De tot ceia ce trece în cer asupra ei,</p>
+            <p>Așa și noi... Asupra noastră se mișcă soarta...</p>
+            <p>Bărbatul împotrivă îi stă, granit de stânci,</p>
+            <p>Iar noi de bucuria altui suflet zâmbim</p>
+            <p>Și ne-ncruntăm de ceia ce fierbe-n alte inimi...</p>
+            <p>E	drept,  dar, când nu este pe cer nici stea, nici nor,</p>
+            <p>Ci negură-'nfășoară ce este să mai vie</p>
+            <p>Și între bălți și valuri nu mai deosebești,</p>
+            <p>Atunci...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Atunci ca tine împarți altora sfaturi.</p>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <p>Dar dacă o regină se află- n starea mea?</p>
+            <p>Daca nu-i un luceafar în cer s-arate calea</p>
+            <p>Și nici de o furtună nu are-a se feri,</p>
+            <p>Ci trece-o zi ca alta, cu-aceleași seci plăceri?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (visătoare) </stage>
+            <p>... Aceiași robi ce ziua și-o -ncep în adorare,</p>
+            <p>Aceleași fețe care s-apleacă spre pământ</p>
+            <p>Și ling cu limba praful ce-ți sare supt picioare,</p>
+            <p>Aceiași soli din toată lumea ce-ai moștenit,</p>
+            <p>Cu darurile-n mână, ce tremura de frică:</p>
+            <p>Aur nubian și pietre scumpe din munți pustii</p>
+            <p>Și fildeșul ce vine adus de caravane,</p>
+            <p>Mărgăritare prinse în funduri de abis,</p>
+            <p>Gazele îmblânzite și lei ținuți în lanțuri,</p>
+            <p>Și multele mantale din purpura de Tir</p>
+            <p>Și juvaiere-asupra căror  trudit-au anii</p>
+            <p>Și zei căzuți din slava lor prin voinâa mea ...</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Voința ta divină, o fiică a Isidei,</p>
+            <p>Icoan-a frumuseții zânelor din Olimp,</p>
+            <p>Simbol al tinereții ce nu se veștejește,</p>
+            <p>Mister ce treci prin  lume,  sfințind în cale tot:</p>
+            <p>Mă-nchin măririi tale, zeiță și regină...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (ironic) </stage>
+            <p>Uitam și lingușirea din buze de amici:</p>
+            <p>Ori nu mi-e dat și mie să aflu adevărul?...
+Mint toți ...	Nu, taci! .. Nu-i unul în față-mi să nu mintă.</p>
+            <p>Mint ca să mă înșele și ca să-mi placa mint,</p>
+            <p>Și mint și ca sa-și facă doar numai obiceiul,</p>
+            <p>Ca tine ...</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Dar, regina, cutez a te iubi</p>
+            <p>Și-o vei vedea și până la ceasul morții mele ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>De ce ar fi să fie a ta mai timpurie?</p>
+            <p>Doar zei ca noi în Orcul cel negru merg și ei</p>
+            <p>Și Cerber îi așteaptă lătrând și mai cu poftă.</p>
+            <p>În cumpăna lui Minos coroanele nu trag</p>
+            <p>Mai greu la căntăreală decat un pumn de țernă...</p>
+            <p>Urât mi-e, Apamee! 0,	cat mi-e de urât!</p>
+            <p>O,	vechiul rege care trecu prin foc cetatea:</p>
+            <p>I-au zis nebun, dar poate că n-a fost vinovat</p>
+            <p>Decât pentru	pasiunea	care-i fierbea în suflet,</p>
+            <p>De-a da lumii o faptă cum alta n-a mai fost</p>
+            <p>Ori de-a vedea în juru-i priveliști fără samăn...</p>
+            <stage> (se aude vuiet afară) </stage>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <p>Iar strigă... Nu li-ajunge tot ceia ce li-ai dat? Spectacole de fiare ce se rupeau în dinți,</p>
+            <p>Întreceri de galere pe Nilu-aprins de focuri,</p>
+            <p>Negrii târâți în lanțuri alăturea de câni,</p>
+            <p>Rostogoliri de țeste țâșnite supt secure ...</p>
+            <p>N-ajung atâtea daruri venind din mâna ta? N-ajunge revărsarea de milă nesfârșită? ...</p>
+            <stage> (același vuiet) </stage>
+            <p>Să dau de Știre strajii să-i faca a tăcea?</p>
+            <p>S-arunc arcașii Curții asupra-nvălmășelii?</p>
+            <p>Să-i fac să-nvețe cinstea care ți-o datoresc?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Nu, nu, lasă-i în pace... Ce sunet grav și-adânc!</p>
+            <p>În șuierul furtunii nu este-o maiestate</p>
+            <p>Ca asta... Dacă stânca în stâncă s-ar lovi</p>
+            <p>Supt trăsnetul ce munții i-ar sfărâma în două,</p>
+            <p>Așa ar fi... Putere nu este ca a lor.</p>
+            <p>Când sufletele strigă supt biciul patimii,</p>
+            <p>Nu-s ei acei ce unda de urlete-o ridică:</p>
+            <p>Mai mulți vorbesc printr-nșii, toți cari-au suferit</p>
+            <p>De	pe urma  puterii  ce-i  prină-n  acest semn.</p>
+            <stage> (arata pșentul de pe fruntea ei) </stage>
+            <p>Și, cum nicio durere nu trece pe deplin,</p>
+            <p>S-adună rămășița atâta de puternic,</p>
+            <p>De trebuie, și-n clipa când mori, să o admiri...</p>
+            <p>Voinică e mulțimea din draga mea cetate!</p>
+            <p>Ce mândri-s la mânie acești Alexandrini!</p>
+            <p>Perdelele în lațuri !.. Să-i  tot  ascult ! Să-i văd !</p>
+            <stage> (strigătele cresc) </stage>
+          </sp>
+          <sp who="#armeia">
+            <speaker>ARMEIA</speaker>
+            <p>Mă tem, regină... Ura nu știe ce-i respectul,</p>
+            <p>De-atâtea ori și temple au ars de mâna lor,</p>
+            <p>Nu s-au sfiit să-și facă din zeii vechi, odoare.</p>
+            <p>Să ne dam într-o parte... Ascultă ce-ți doresc...</p>
+            <stage> (indignată) </stage>
+            <p>Moarte zeiței noastre? Moarte? O,  câni</p>
+            <p>nemernici!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ce știi tu de primejdii? Dar eu am îndurat</p>
+            <p>Copilă încă alte lucruri și mai grozave...</p>
+            <p>De tată și de mamă orfană am rămas,</p>
+            <p>Fiind zeiță, zeul mi-a fost fratele tânăr:</p>
+            <p>Am stat în fața astei fiare doi bieți copii,</p>
+            <p>Și n-am găsit pe nimeni, un sfat bun să ni deie.</p>
+            <p>M-au izgonit din țară apoi sfetnicii răi</p>
+            <p>Și m-au vânat din urmă ca pe un puiu de ciută:</p>
+            <p>Au curs atâtea lacrimi din acești ochi ai miei</p>
+            <p>De-ar fi 'nverzit nisipul pustiei după mine.</p>
+            <p>Pe urmă, ah! pe urmă... De ce m-aș mai gândi?</p>
+            <p>Rușine, ce rușine! Și, pentru tron, robie.</p>
+            <p>Făr'a iubi se rupse trupu-mi, și am fost mamă,</p>
+            <p>Apoi trecuiu captivă- prin barbara cetate:</p>
+            <p>Zâmbiam acelor cari de mine își râdeau,</p>
+            <p>Căci nu vedeau în mine decât	 doar o femeie,</p>
+            <p>Uitând divinitatea pe care-o întrupez.</p>
+            <p>Vai! Vai! Ce sânge-n urmă!... Ce sânge!... Cesare</p>
+            <stage> (Glasuri și mai puternice) </stage>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <stage> (În genunchi) </stage>
+            <p>. Să căutăm, regină, un adăpost. Nu-i vezi</p>
+            <p>Cum stau să ne ucidă? Soldați, săriți! Mulțimea</p>
+            <p>Aruncă pietre-n sala sacrilor Ptolomei.</p>
+            <stage> (pietre cad) </stage>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Nu, nu, sa nu Încerce nimeni cu ei puterea</p>
+            <p>De brațe, și de arme, de strigăt și porunci!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA II</head>
+          <stage>ACEIAȘI, SOLDAȚII</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (cĂtre soldaȚi) </stage>
+            <p>Ori	aȚi  uitat  cĂ  singur'  aice poruncește Regina și că, moartea de și-ar dori-o, voi n-aveți altă chemare decât să adorați</p>
+            <p>Zeița ce coboară supt orizontul lumii?</p>
+            <stage> (soldații se retrag) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA III</head>
+          <stage>ACEIAȘI, CESARION</stage>
+          <sp who="#cesarion">
+            <speaker>CESARION</speaker>
+            <stage> (îngrozit) </stage>
+            <p>Mamă, asupra noastră  vin oamenii cei răi.</p>
+            <p>Ei au ucis alături de mine - grozăvie!  -</p>
+            <p>Eunucii cari-asupră-mi din voia ta veghiau.</p>
+            <p>Privește ce stropită de sânge mi-e hlamida...</p>
+            <p>Credeam că n-oiu ajunge a te îmbrățișa:</p>
+            <p>Mi-i frig de parcă moartea tot mă cuprinde-n brațe.</p>
+            <stage> (aiurit) </stage>
+            <p>Îi vezi? Stau să m-ajungă ...</p>
+            <stage> (fuge) </stage>
+            <p>Ma lași,</p>
+            <p>mamă, să mor?</p>
+            <stage> (se-mpiedecă din fugă și cade) </stage>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (Către	Apameia) </stage>
+            <p>Pe dansul nu-l păzește puterea zeilor.</p>
+            <p>Odrasla omenească, în el nu e mister,</p>
+            <p>Și furia nu află într-însu-mpotrivire.</p>
+            <p>Dar eu, aceia care adânc m-am umilit</p>
+            <p>Dând naștere acestui fiu al robiei mele,</p>
+            <p>Eu am de datorie să stau în față-i scut,</p>
+            <p>Și-așa voiu sta. Sunt mamă numai din faptul cărnii,</p>
+            <p>Însă eternitatea mea îl va apăra.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA IV</head>
+          <stage>Cei de sus. EUNUCI, ROBI, FEMEI</stage>
+          <sp who="#un_eunuc">
+            <speaker>UN EUNUC</speaker>
+            <p>MulȚimea ne-mpresoară tot mai aproape, doamnă,</p>
+            <p>Pe scările-nroșite stă trupul lânga trup:</p>
+            <p>Din noi perir-atâția pe pragul casei tale!</p>
+          </sp>
+          <sp who="#un_strajer">
+            <speaker>UN STRĂJER</speaker>
+            <p>În ganguri nu se află decât puțini ostași:</p>
+            <p>O clipă, și mulțimea s-a-nfățișa aice.</p>
+            <stage> (iese) </stage>
+          </sp>
+          <sp who="#un_sfetnic">
+            <speaker>UN SFETNIC</speaker>
+            <p>Adu-ți aminte ceasul când fratele-ți peri,</p>
+            <p>În crunta bucurie a gloatei înfuriate,</p>
+            <p>Care striga pe maluri, când încă se sbătea</p>
+            <p>Cu-o ultimă sforțare în spumele înroșite.</p>
+          </sp>
+          <sp who="#o_femeie">
+            <speaker>O FEMEIE</speaker>
+            <p>Luntrași pătrund acuma în sacrul gineceu,</p>
+            <p>Rânjind se zvârl asupra femeilor speriate:</p>
+            <p>Răsună-ntreg palatul de îngrozirea lor.</p>
+            <p>Mai este - un drum ce duce la port și la corăbii...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Suflete păcătoase!... Proaste făpturi de lut!</p>
+            <p>Unde n-ajung atâția, ajung eu singură.</p>
+            <stage> (Face un gest, și perdelele se trag către mulțime) </stage>
+            <p>Ce zei ai rătăcirii azi v-au înebunit?</p>
+            <stage> (strigăte) </stage>
+            <p>Va zbuciumă puterea Iadului și Typhon</p>
+            <p>În inimile voastre coboară întunerec?</p>
+            <p>Ori vreți să se ridice puterile cerești</p>
+            <p>Asupra mișeliei ce-o săvârșiti în contra</p>
+            <p>Lăcașului ăn care dorm sacrii Ptolomei?</p>
+            <p>Supt pasuri criminale nu tremura pământul?</p>
+            <p>Și vântul din pustie nu s-a pornit din zări</p>
+            <p>S-acopere rușinea supt galbena-i mocirla?</p>
+            <p>Eu vă vorbesc: au nimeni n-are glas de răspuns ?</p>
+            <p>Și din-atâta zgomot v-a-ncremenit teroarea?</p>
+            <p>Cine-i stăpân aice? De cine ascultați?</p>
+            <stage> (tăcere) </stage>
+            <stage> (solemn:) </stage>
+            <p>În numele puterii pe care-o simt în mine,</p>
+            <p>Al tainelor pe care le-nchid în pieptul mieu,</p>
+            <p>Al regilor din cari eu mă cobor cu trupul,</p>
+            <p>Vă poruncesc pe-acela acuma să mi-1 dați,</p>
+            <p>Căci în adâncul  apei peștii din Nil cer  hrană!</p>
+            <stage> (se aud strigăte) </stage>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>El ne-a dus în peire . . . Loviți în el!</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>Pe dânsul!</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>El ni-a furat voința!</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>De el am fost momiți!</p>
+            <stage> (mulțimeaea zdrobește, în fundul zării, pe instigator) </stage>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>S-a isprăvit, regină. E mort sfătuitorul.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (liniștit) </stage>
+            <p>Să se coboare iarăși pacea zilelor bune !</p>
+            <p>Întoarceți-vă iarași la traiul fără griji:</p>
+            <p>Puterile divine păzesc asupra voastră,</p>
+            <p>Și, din mormântu-n care veghiază peste noi,</p>
+            <p>Ridice Alexandru o binecuvântare!</p>
+          </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Lui Alexandru zeul, eternă glorie!</p>
+          </sp>
+          <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
+            <p>Glorie Cleopatrei, ce din zei se coboară!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Dacă a fost vreunul care-a uitat de voi</p>
+            <p>Și a lăsat să fie circul fără priveliști</p>
+            <p>Și n-a dat pâne buna și-uleiul cel curat</p>
+            <p>Acestor fii ai Sfintei noastre Măriri, ei bine</p>
+            <p>Să-l aruncați din turnul osandelor chiar azi !</p>
+            <stage> (urlete de mulțime) </stage>
+            <p>Și voi, cei buni, cu toții, din ziua chiar de mâne,</p>
+            <p>Să aratați că nu e în lume un oraș</p>
+            <p>Asemeni în mandria lui cu Alexandria,</p>
+            <p>Și nu e o Regină cu mai frumos noroc</p>
+            <p>Decât mult iubitoarea de voi, eu, Cleopatra.</p>
+          </sp>
+          <sp who="#arsinoie">
+            <speaker>ARSINOIE</speaker>
+            <p>O, cât e de frumoasă!</p>
+          </sp>
+          <sp who="#un_eunuc">
+            <speaker>UN EUNUC</speaker>
+            <p>Ce rost dumnezeiesc!</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Lucesc În noapte ochii-i ca niște diamante</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>St! Nu e o femeie ca sa vorbiti așa!</p>
+          </sp>
+          <sp who="#altul">
+            <speaker>ALTUL</speaker>
+            <p>Nu, ci e încarnarea puterilor din ceruri!</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>Serapis, zeul mistic, printr-însa a vorbit.</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>Și Osiris revarsă aureolă-n juru-i</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA V</head>
+          <stage>CLEOPATRA, APAMEIA, CESARION</stage>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <p>Te-ai mai vădit o dată zeiță domnitoare.</p>
+          </sp>
+          <sp who="#cesarion">
+            <speaker>CESARION</speaker>
+            <stage> (uimit) </stage>
+            <p>Ce mândră erai, mamă, când li vorbiai. Părea</p>
+            <p>Că-n juru-ți zboara raze. Ți se-nalță statura</p>
+            <p>Deasupra-nvălmășelii de  parcă sprijineai</p>
+            <p>Cu fruntea bolta nopții și parul tau prin stele</p>
+            <p>Se-mpiedeca, iar noaptea de tine asculta.-</p>
+            <p>O uriașă fiară ținută în cătușe!</p>
+            <p>Eu am văzut pe unul care-a îngenuncheat</p>
+            <p>De la întâia vorbă, stând jos până la urmă,</p>
+            <p>Și-ar fi dorit asupră-i, strivind capu-i, să calci.</p>
+            <p>Plângeau atâția-n lumea  pornita  spre  omoruri,</p>
+            <p>Și se uitau la tine femeile așa</p>
+            <p>Cum în templul Isidei rugându-se se uită.</p>
+            <p>Tu nu mai erai mama cea buna, și acum</p>
+            <p>Abia să mă apropiu de tine  mă încumet.</p>
+            <p>Nu te uita la mine așa...</p>
+            <stage> (Își acoperă ochii ca orbiți de soare) </stage>
+            <p>. Tu ești zeița!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ești tulburat de groaza prin care ai trecut... Întoarce-te-n cămară și-ncearcă somnul păcii.</p>
+            <p>Ce-a fost aici, tu uită, căci ai visat prea rău.</p>
+            <p>Nu mai veni de-acuma când stăpânesc poporul,</p>
+            <p>Căci muritorii cari n-au sângele cel sfânt</p>
+            <p>Nu pot să ție ochii deschiși spre strălucirea</p>
+            <p>Acestor ceasuri care-s a lumilor de sus...</p>
+          </sp>
+          <sp who="#cesarion">
+            <speaker>CESARION</speaker>
+            <p>Dar nu sunt oare fiul tău și al celui care...</p>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <stage> (grăbit) </stage>
+            <p>Destul, destul ! Nu-i place de dânsul să-i vorbești.</p>
+          </sp>
+          <sp who="#cesarion">
+            <speaker>CESARION</speaker>
+            <stage> (naiv) </stage>
+            <p>Au n-a fost omul care a întrecut pe oameni</p>
+            <p>Și lumea n-a stat mută în fața voii lui?</p>
+            <p>N-a stăpânit pământul ca la un semn din deget?</p>
+          </sp>
+          <sp who="#apameia">
+            <speaker>APAMEIA</speaker>
+            <p>Cine ți-a spus acestea?</p>
+          </sp>
+          <sp who="#cesarion">
+            <speaker>CESARION</speaker>
+            <p>Dar cine nu? Oriunde</p>
+            <p>E urma lui, și-aice, în față-mi însăși, cum</p>
+            <p>E-n inima ta, mamă...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>V-am spus să-1 luați. E ora</p>
+            <p>Culcării... Umbra roșă de ce o am trezi?</p>
+            <p>N-au fost de-ajuns acele treizeci de răni în carnea-i,</p>
+            <p>Ca să se isprăvească oriunde rostul lui</p>
+            <p>Pe scaunul măririi și-n sufletu-mi acesta?</p>
+            <p>Ori n-a venit și timpul să fiu eu doamn-aici,</p>
+            <p>Să nu mai văd străinul și barbarul în fruntea</p>
+            <p>Acestor țări pe care domnim din neam în neam?</p>
+            <p>Nu-i ceasul să se miște-n sepulcru-i Alexandru,</p>
+            <p>Să iasa Faraonii din fund de piramizi</p>
+            <p>Și sfânta Monarhie în scaun să se vada,</p>
+            <p>Așa cum i-a fost rostul în miile de ani,</p>
+            <p>Și să se împlinească voința zeilor?</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VI</head>
+          <stage>Aceiași, UN STRĂJER</stage>
+          <sp who="#strajerul">
+            <speaker>STRĂJERUL</speaker>
+            <p>Regină, solul Romei s-a coborât în port.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Un sol? Cine-l trimite? Nu-i	Roma sfâșiată?</p>
+            <p>Nu stau să se ucidă copilul adoptat</p>
+            <p>Și-acel sutaș cu firea salbatecă, Antoniu?</p>
+            <p>Cand ei se rup acasă, la noi mai pot gândi?</p>
+          </sp>
+          <sp who="#strajerul">
+            <speaker>STRĂJERUL</speaker>
+            <p>Porfiriu eunucul poate să vă raspundă.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Sa între!</p>
+            <stage> (Străjerul iese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA VII</head>
+          <stage>CLEOPATRA, PORFIRIU</stage>
+          <sp who="#porfiriu">
+            <speaker>PORFIRIU</speaker>
+            <p>E-adevărată vestea, Regină. A sosit</p>
+            <p>Solul de la Antoniu și cere să-ți vorbească.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (cu pasiune) </stage>
+            <p>Dar eu nu-l vreau, în lupta lor n-am</p>
+            <p>un rost.</p>
+            <p>Și tulburile valuri romane nu-mi ling țara.</p>
+          </sp>
+          <sp who="#porfiriu">
+            <speaker>PORFIRIU</speaker>
+            <p>Regină, amintească-și divinitatea ta</p>
+            <p>De vremea când, copilă, vazut-ai pe Popiliu</p>
+            <p>Făcând în juru-i cercul cu bățul și zicând</p>
+            <p>Că nu iese de-acolo fără răspuns un rege,</p>
+            <p>Al tău părinte însuși...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Dar ce era atuncea</p>
+            <p>Roma, și ce-i acuma?</p>
+          </sp>
+          <sp who="#porfiriu">
+            <speaker>PORFIRIU</speaker>
+            <p>Este aceiași forță</p>
+            <p>Deși în altă mână. Antoniu stăpân</p>
+            <p>Este la Tars acuma, și el îți cere -	Doamne,</p>
+            <p>Ce greu să spun îmi vine . . .</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (cu despreȚ) </stage>
+            <p>Un tribut mai crescut,</p>
+            <p>Ori darURI ca acelea care-mblânzesc pe barbari?</p>
+          </sp>
+          <sp who="#porfiriu">
+            <speaker>PORFIRIU</speaker>
+            <p>O nu, gÂndind la Cesar, el te chiamă pe tine.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ha, ha! Rândașul ăsta de oaste crede că</p>
+            <p>Ceia ce a fost Cesar se naște-a doua oară</p>
+            <p>Și că sunt jucăria care odat-am fost</p>
+            <p>Când m-au adus în pânza de sac și m-au dat roabă</p>
+            <p>Romanului? Ei bine, eu voiu gasi un rob.</p>
+            <stage> (se ridică dreaptă) </stage>
+            <stage> (poruncitor) </stage>
+            <p>Să se găteasca pompă cum n-a mai fost vreodată:</p>
+            <p>Cătați în Vistieria cea veche, sfărâmați</p>
+            <p>Morminte milenare, și luati tot aurul:</p>
+            <p>Podoabele din temple pe trup mi le voiu pune,</p>
+            <p>Zeiței celei nouă doar ele se cuvin,</p>
+            <p>Și va vedea cu cine are-a face Antoniu.</p>
+            <stage> (CORTINA cade încet.) </stage>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL II</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>ANTONIU, MEGASTENE (istoriograf), CHILON, ISIDOR</stage>
+          <stage>(În palatul din Alexandria)</stage>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Astfel de fapte însă, o Chilon, nu se pot Uita. O lume-ntreagă așteaptă să le știe</p>
+            <p>Și dintr-o carte-n alta ele s-or veșnici:</p>
+            <p>Din neam în neam ostașii s-or îndemna prin ele.</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>Ostașii ?... Dar ei numai au oare datoria</p>
+            <p>Să știe epopeia cea plinĂ de minuni?</p>
+            <p>Ori străbătu vreodată alt căpitan de oaste</p>
+            <p>Prin locurile unde poveștile trăiesc?</p>
+          </sp>
+          <sp who="#isidor">
+            <speaker>ISIDOR</speaker>
+            <p>Nu mai vorbiți de oameni și fapta omenească.</p>
+            <p>Ori ar putea vreodată să facă un alt om</p>
+            <p>Aceia ce-n pustie făcu Marcu Antoniu? ...</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>L-au dus zeii desigur ...</p>
+          </sp>
+          <sp who="#isidor">
+            <speaker>ISIDOR</speaker>
+            <p>Ce zei!... E însuși zeu!...</p>
+            <p>În el se întrupează divina maiestate.</p>
+            <p>Priviți-1: în făptura-i e numai un erou,</p>
+            <p>Ori se răsfrânge-ntr-însa perfecția cerească?</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <stage> (către Isidor) </stage>
+            <p>Evreu șiret ! Tu toate  le spui.  Și</p>
+            <p>pentru noi</p>
+            <p>Ce mai rămâne oare?</p>
+          </sp>
+          <sp who="#isidor">
+            <speaker>ISIDOR</speaker>
+            <stage> (tare) </stage>
+            <p>Spun numai adevărul:</p>
+            <p>Cât ce privesc la dânsul, eu mă simt înălțat,</p>
+            <p>Îmi ies din biata fire la singura-i vedere.</p>
+            <p>Ce este Marc'Antoniu? Dar ce nu e ? E tot!</p>
+            <p>E tot și pentru mine . . . Și ce-s eu? . . . Pentru</p>
+            <p>tine ...</p>
+            <p>Nu te-ndoi ...</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>Dar, bine, nu mă-ndoiesc deloc.</p>
+          </sp>
+          <sp who="#isidor">
+            <speaker>ISIDOR</speaker>
+            <p>Ne-am înțeles atuncea, de și ești în zabavă,</p>
+            <p>Și pentru noi și pentru acest istoriograf</p>
+            <stage> (arată la Megastene) </stage>
+            <p>Al cărui scop e  numai  să  proslăvească	omul.</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Dar nu e omul oare, când se chiamă ca el,</p>
+            <p>T ovarăș de putere al zeității înseși?</p>
+          </sp>
+          <sp who="#isidor">
+            <speaker>ISIDOR</speaker>
+            <p>Așa, așa . . . Cu toții în el zeul vedem</p>
+            <p>Și eu îmi plec genunchii întâiu. Mărire ție!</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (care până atunci se juca cu un papagal) </stage>
+            <p>Evreul să se scoale ! .. Mi-e scârbă ...	Auzi tu?</p>
+            <p>Am câni cari-nainte-mi știu face sluj mai bine.</p>
+            <p>Și-s credincioși... Afară cu tine!.. Ai înțeles!</p>
+            <p>Să vie o femeie cu smirnă după dânsul.</p>
+          </sp>
+          <sp who="#isidor">
+            <speaker>ISIDOR</speaker>
+            <stage> (retrăgându-se) </stage>
+            <p>Sunt răi zeii pe ziua de astăzi, dar</p>
+            <p>ei sunt</p>
+            <p>Tot zei ... Să am eu parte  de ce pot ei să-mi</p>
+            <p>deie !</p>
+            <stage> (iese) </stage>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (către Chilon) </stage>
+            <p>Și tu ce faci, eunuce? Aici cin' te-a</p>
+            <p>chemat?</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>Eu sunt, divine Marce, eunucu-aparitor,</p>
+            <p>Și n-am altă misiune decât să fiu de față,</p>
+            <p>Smerit, lânga perdeaua unde pot să dispar</p>
+            <p>De câte ori stăpânul, stăpâna face semnul,</p>
+            <p>Și, oricând vrea sa deie porunci, eu le transmit.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Și ai tu datorie-a vorbi când nu te-ntreabă?</p>
+            <p>Poți tu să judeci fapte de care ești străin?</p>
+            <p>Ai fost tu la vreo luptă să știi ce e războiul?!</p>
+            <p>Ci spune, stârpitură, urâtule ...</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>Te văd,</p>
+            <p>Și văd pe Alexandru eel Mare, și în față.</p>
+            <p>Și citesc lucruri pe care în cărți nu le pricep,</p>
+            <p>Dar din a ta privire se-nalță luminoase.</p>
+            <p>Chilon nu e, Antoniu, un om: el e aici</p>
+            <p>Ureche care-ascultă și braț ce împlinește,</p>
+            <p>E ca încălțămintea ce-o porți, ca  și hlamida...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Și sabia . . . Ori poate te temi de ea? . . . O vezi?</p>
+            <stage> (îi arată sabia) </stage>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>Păzește-mă, Osiris, de acest instrument! ...</p>
+            <p>Văd sângele pe dânsul și nu doresc s-amestec</p>
+            <p>Pe-al	mieu...	Chilon	s'ascunde, eroule... Și</p>
+            <p>uită-1 ...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>De este rânduiala  palatului așa,</p>
+            <p>Rămâi . . . Eu sunt aice . . .</p>
+            <stage> (pentru sine) </stage>
+            <p>Sunt oas-</p>
+            <p>pete, -aș fi soț.</p>
+            <p>Mai sunt Roman eu oare ? . . . Mai sunt ! Și sabia</p>
+            <stage> (o cântărește) </stage>
+            <p>Nu e prea grea când brațul dorit e a cuprinde</p>
+            <p>Pe	cine, sacră  Venus? Pe cine?</p>
+            <stage> (Către Chilon) </stage>
+            <p>Du-te tu</p>
+            <p>Și spune ... Nu, te roaga ... Știi tu cum se vorbește</p>
+            <p>La Curte . . . de aceia: de ...</p>
+          </sp>
+          <sp who="#chilon">
+            <speaker>CHILON</speaker>
+            <p>De Sacra Maiestate.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Pe buzele-ți un nume cum e al ei nu-l las! ...</p>
+            <p>O roagă... în cuvinte, cum cere obiceiul,</p>
+            <p>Să vie... Nu, să-mi faca favoarea de-a veni.</p>
+            <p>Căci - să n-audă asta! -	mi-e sufletul tot plin</p>
+            <p>De dorul întâlnirii cu cea mai mândră zână...</p>
+            <p>Așa, așa . . . Chiar aste cuvinte să le spui :	-</p>
+            <p>,,De dorul întâlnirii cu cea mai mândră zâna”,</p>
+            <p>Apoi latră pe-alături grecește ce mai știi.</p>
+            <stage> (Chilon iesc) </stage>
+            <p>O, de-ar putea ca tine Antoniu să vorbească!</p>
+            <p>Antoniu, care-odată ... Parcă mai știu ce-a fost?...</p>
+            <p>Demult, demult: odată... Dar e mai bine-acuma...</p>
+            <p>Cu mult mai bine. . . Unde mai bine poate fi?</p>
+            <stage> (privește împrejur) </stage>
+            <p>.</p>
+            <stage> (vede pe Megastene) </stage>
+            <p>Ce scrie-acolo ăsta? ... Ascultă!</p>
+            <p>Cum te cheamă?</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>MĂ știe Marc'Antoniu, eroul neÎnvins.</p>
+            <p>Sunt Megastene. Rostul îmi e să scriu istorii.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Cin' te-a chemat aice? Eu nu te-am mai vazut.</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Dar îmi vorbeai acuma de luptele-n pustie.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (adunându-și cu greu amintirile) </stage>
+            <p>Acuma, chiar acuma? Se</p>
+            <p>Poate... Luptele...</p>
+            <p>Da, da, pustia mare... Mulțimea Parților...</p>
+            <p>Trista umbr-a lui Crassus cerându-și răzbunarea...</p>
+            <p>Săgetțle ce-n juru-mi ca ploaia se-nmulțeau,</p>
+            <p>Nisipul care morții îi îngroapă în sânu-i,</p>
+            <p>Vedeniile care 'nainte mă vrăjeau, -</p>
+            <p>Și mai presus de toate ochii lui Alexandru.</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Regina însăși cere povestea de la tine.</p>
+            <p>Ori nu-ți aduci aminte?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (voios) </stage>
+            <p>Ba da, ba da! Cum nu!</p>
+            <p>De-ar cere azi ca lupta s-o iau iar de la capăt,</p>
+            <p>Eu aș porni cu dânsa, măcar cu gândul ei,</p>
+            <p>Și-aș coborî-n nisipuri și o armată-ntreagă,</p>
+            <stage> (extatic) </stage>
+            <p>Ca să aud cuvântul: ,,Antoniu, ești viteaz !”,</p>
+            <p>Și: ,,Te iubesc Antoniu...”</p>
+            <stage> (murmurând) </stage>
+            <p>,,Da, te</p>
+            <p>iubesc, Antoniu.”</p>
+            <stage> (către Megastene) </stage>
+            <p>Deci	scrie...	Dar  de	unde să-ncep?...</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Din clipa când</p>
+            <p>În drumul catre Carrhae pierdut-ai o legiune.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Nu, nu, eu n-am pierdut-o!. .. Vor fi căzut câțiva...</p>
+            <p>Eu nu-mi omor ostașii pentru o închipuire.</p>
+            <stage> (cu o curiozitate naivă) </stage>
+            <p>Ci scrie!... Și cetește Regina ce ai scris?...</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>În fiecare seară mă cheamă și cetește...</p>
+            <p>Se înroșește-adesea, și-odată a și plâns...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Așa, așa... Frumoasa	mai e când se-nroșește ...</p>
+            <p>Și lacrima-i, - nu este niciun mărgăritar</p>
+            <p>Mai limpede ca dânsa și	mai	frumos... (se raz</p>
+            <p>zimă de tron) Ascultă:</p>
+            <p>,,Când Parții î1 văzură, din nourul fugar</p>
+            <p>Al cetei călărețe se desf ăcu un singur</p>
+            <p>Ostaș și către-Antoniu veni, spuind cuvinte</p>
+            <p>În limba lor, din care atât se-nțelegea</p>
+            <p>Că-l cheamă la o luptă ce-ar fi hotărâtoare</p>
+            <p>Și fără de alt sânge războiul 1-ar sfârși.</p>
+            <p>Atunci Antoniu zise: îmi pari a fi un rege,</p>
+            <p>Și el răspunse: Ceia ce spui e adeăar,</p>
+            <p>Dar vrednic ești ca regii în fața ta să steie.</p>
+            <p>Și dintr-o lovitură eu l-aș fi despicat,</p>
+            <p>De n-ar fi pus furtuna nisipul între noi.”</p>
+            <p>Scrie: ,,Și-atunci furtuna,	geloasă de izbânda</p>
+            <p>Romanului, nisipul și-l puse între ei:</p>
+            <p>Așa putură Parții să fugă de Antoniu.”</p>
+            <stage> (curios) </stage>
+            <p>Și ce spune Regina când află ce-am făcut?</p>
+            <p>Vorbește de războiul purtat, -	ori și de mine?</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Ea crede -	îmi îngădui să nu ascund nimic? –</p>
+            <p>Că ești între vitejii acestei vremi întâiul,</p>
+            <p>Că nu se află nimeni să steie-n fața ta,</p>
+            <p>Că-i o copilărie ce râvnește Octaviu,</p>
+            <p>Jucându-se c-un nume de Cesar, pe când tu</p>
+            <p>Ești ca și Cesar însuși...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (îl prinde de mână) </stage>
+            <p>A zis așa? A zis ?</p>
+            <stage> (extatic) </stage>
+            <p>Ca însuși Cesar, Doamne, ce mare fericire!</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Dar e păcat că ... Oare cum aș putea să-ți spun?</p>
+            <p>Că Roma-i încă simplă-n moravuri și în carte</p>
+            <p>Și că, nutrit într-însa, tu n-ai putea râvni</p>
+            <p>La ce ți se cuvine-n țara lui Alexandru...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Dar, bine, Cesar însuși, el nu era Roman?</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Ce pot spune·de Cesar decât că-n alte vremuri,</p>
+            <p>Regina, o copilă, fiind o roab-a lui,</p>
+            <p>El îi vorbea de Iulii, de Venere, străbuna-i....</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (mânios) </stage>
+            <p>Ce Venere! Poveste! Niște lingușitori...</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <p>Și-apoi îl știi cu câtă artă prindea femei,</p>
+            <p>Ce vrajă sta în fața vrăjilor de aici...</p>
+            <p>Căci tu află, Antoniu,- ți-o spune-un priceput –</p>
+            <p>Aici e loc de vrajă, și Circe stăpânește.</p>
+            <p>Ca să n-ajungi în urma-i un leu fără de dinți,</p>
+            <p>Un urs fără de labă, un șarpe făr-otravă,</p>
+            <p>Se cere ca în tine să ai un antidot</p>
+            <p>Misterios și, iată, tu nu-l posezi, Antoniu.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (pe gânduri) </stage>
+            <p>Grecul este obraznic, dar e adevărat,</p>
+            <p>Eu nu am antidotul, și vraja mi-i stăpână.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>Aceiași, UN STRAJER, CLEOPATRA</stage>
+          <sp who="#strajerul">
+            <speaker>STRĂJERUL</speaker>
+            <p>Regina...</p>
+          </sp>
+          <sp who="#megastene">
+            <speaker>MEGASTENE</speaker>
+            <stage> (voinic) </stage>
+            <p>Ține-ți firea, viteazule Roman!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (în veșmântul lui Isis) </stage>
+            <p>Când Isis se coboară din nourii cerești,</p>
+            <p>Ea caută să afle un zeu, și ce zărește?</p>
+            <p>Ostașule, ascultă! Lupta s-a isprăvit.</p>
+            <p>Trimite-ți legionarii în lagăr sau acasă.</p>
+            <p>Iar tu, privește-n juru-ți: nu-i un palat roman,</p>
+            <p>Cu lucruri cumpărate ori prinse la o pradă,</p>
+            <p>Și nici o imitare sărac'a Greciei.</p>
+            <p>Au locuit aice zeii în mii de ani.</p>
+            <p>De vrei să treci o clipă-n divina locuință,</p>
+            <p>Rămâi ce-ai fost, iar, daca vrei altceva să fii,</p>
+            <p>Dezbracă-te de aste piei crude ale luptei,</p>
+            <p>Aruncă arma care nu-ți poate folosi,</p>
+            <p>Și-apoi, de poți, învață... învaț-a fi asemeni</p>
+            <p>Cu sacrele icoane ce s-au purtat la noi,</p>
+            <p>Din vremile acelea atâta de batrâne</p>
+            <p>Încât nu mai pricepe nimeni povestea lor .. .</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Eu ma închin, Regină, la farmecele tale .. .</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Eu n-am un farmec însăși ... E farmec împrejur ...</p>
+            <p>Tot e aici un farmec ... El m-a crescut pe mine,</p>
+            <p>Pe mine mă îndreaptă, din el nu pot ieși.</p>
+            <p>Ce pot face cu tine, străin de-ale lui taine?</p>
+            <p>Străinule, cu tine ce pot sa fac? . . . Zi: ce?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Ce ai voi, ce-n mine poți să cobori c-un zambet.</p>
+            <p>Vezi, nu aflu cuvinte să spun ce-ar trebui...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ce-ar trebui, dar mie nimic nu-mi trebuiește...</p>
+            <p>Ce-mi ești, Romane? Ordin mi-ai dat, Și am venit</p>
+            <p>Îți trebuie Egiptul. Cearcă de-l stăpânește.</p>
+            <p>Să știi însă că-n cripta-i Alexandru e viu,</p>
+            <p>Și-n fund de piramide veghează Faraonii...</p>
+            <p>Te-ncumeți? O sărace!... Adu ostași câți vrei,</p>
+            <p>Încearcă-ți meșteșugul, și să-ți vedem isprava!</p>
+            <p>Aici mai mari sunt morții și nu-i pot birui</p>
+            <p>Cei vii, puțini la număr pe langa ce-s aceia.</p>
+            <p>Să-i cumperi? Să mă  cumperi pe mine cu vre-</p>
+            <p>un dar?</p>
+            <p>Ascunse-s în morminte comori fără de numar,</p>
+            <p>Și nu le-atingem nimeni, atât avem de mult...</p>
+            <p>De ce-ți lungești șederea aici când cere Roma</p>
+            <p>Barbatul care luptă s-o deie c-un copil ?...</p>
+            <p>Te-ntoarce-n sărăcia Romei, și luptă-te !</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Să  nu glumești, Regină, cu  Roma.  Roma e ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Cuib de ciobani odată, haos de parveniți</p>
+            <p>Astăzi. Atât! În Roma am fost, și le știlu toate...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (indignat) </stage>
+            <p>Eu voiu chema ostașii cari au  cucerit</p>
+            <p>O ume, voiu înfige aice acvila,</p>
+            <p>Și cine-a mai fost roabă, va fi roabă din nou.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (hotărât) </stage>
+            <p>Privește-mă! Îți pare că eu însemn robia?</p>
+            <p>Și cată-te pe tine!... Cine e rob, Antoniu?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (uimit) </stage>
+            <p>Nu te uita la mine, frumos monstru uman...</p>
+            <p>Fiica dumnezeiască, dă-te-n lături, mi-i groază</p>
+            <p>De farmecele tale și li cad în genunchi.</p>
+            <p>Iartă-mă, o Regină, iartă-mă, Cleopatră.</p>
+            <p>Tovarașul lui Cesar am f ost...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>O, nu-mi vorbi</p>
+            <p>De Cesar... E insultă și însușii acest nume:
+Insultă și durere... Iar, când îl  pomenești,</p>
+            <p>Eu mă întorc cu ochii la tine...</p>
+            <stage> (batjocoritor) </stage>
+            <p>Tu,</p>
+            <p>Și Cesar!</p>
+            <p>O, doamne, tu și Cesar!... Poate și Alexandru?...</p>
+            <p>Ridică-te... Genunchii ce-ncep a-mbătrâni</p>
+            <p>Ușor prind o răceală pe marmurile scumpe...</p>
+            <p>Nu, nu, du-te acasă și uită-mă: atât!</p>
+            <p>Ori, dacă vrei, lovește în zei, lovind în mine</p>
+            <p>Și pradă, ca și hoții din neamul tău roman,</p>
+            <p>Palatu-n care morții divini au stăpânirea...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (indignat) </stage>
+            <p>Nu  mă  jigni, Regină. Nu  mă jigni...</p>
+            <p>O fac!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (liniștită) </stage>
+            <p>O faci? Crezi  c-o  poți  face?	Atunci</p>
+            <p>nu zăbovi!</p>
+            <p>Dar, de n-o faci, nici glasul să nu-l ridici, căci, iată,</p>
+            <p>Aici lumea-i deprinsă cu alte-apucături...</p>
+            <p>Pier regii în iatace unde nu-i știe nimeni</p>
+            <p>Și sângele se spală pe marmuri și porfir,</p>
+            <p>Jar cei ce-s în afară nu văd decât figura</p>
+            <p>Transformată de moarte a stăpânului lor.</p>
+            <p>Iubirile Reginei? Ele rămân ascunse...</p>
+            <p>Cine se-nvrednicește dator e a uita,</p>
+            <p>Iar cine amintește, face un sacrilegiu...</p>
+            <p>La voi se strigă viața oricui pe pieți și uliți</p>
+            <p>Și creșterea grecească nu face din Roman</p>
+            <p>Ce nu e dat să fie prin veacuri de-ngrijire.</p>
+            <p>Ești mare și puternic, Antoniu. Dar nu ești</p>
+            <p>Frumos, și nici frumoase purtările mâniei...</p>
+            <p>Mă iartă... Dac-atâta avut-ai să-mi arăți:</p>
+            <p>Că farmecul Reginei te-a prins, ce-s vinovată?</p>
+            <p>Eu nu omor. Omoară ce-n mine e ascuns.</p>
+            <p>De mori aici, Octaviu-ți va face pomenirea</p>
+            <p>În Roma depărtată, iar tu vei putrezi</p>
+            <p>În cimitirul celor străini și fără rude.</p>
+            <p>E ceasul când pe pragu-mi vin soli din alte țări,</p>
+            <p>Ca să vadă splendoarea Monarhiei eterne.</p>
+            <p>Li sunt datoare fața-mi, ce-i aurora lor.</p>
+            <p>Dar până la plecare ne-om  revedea,  Antoniu.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Și, deci, n-am rost la Curtea-ți, regină? Tu nu vrei</p>
+            <stage> (violent) </stage>
+            <p>Să ni legăm viața?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>SĂ o legam: De ce?</p>
+            <p>Ai tu o descendeță divină neștiuta?</p>
+            <p>Pot asocia cu tine pe zeii întrupați</p>
+            <p>În mine? Ori prin minte îți trece; o nebune,</p>
+            <p>Că eu pot fi amanta unui soldat pribeag,</p>
+            <p>Că sunt o curtesană a taberei romane?</p>
+            <p>Că trec de la stăpânul de ieri la cel de mâni?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>M-ai umilit, Regină, cu atâta cruzime...</p>
+            <p>Eu mă răzbun pe tine când vreau  să te înalț.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Cu ce să-nalți pe-aceia care poartă pe frunte</p>
+            <p>Cununi pe care nimeni altul nu le-a purtat?</p>
+            <p>Am Memfisul cu stânca pătrunsă de morminte,</p>
+            <p>Alături de pustie, am munții funerari,</p>
+            <p>Am zecile de veacuri de stăpânire sfântă,</p>
+            <p>Mă sprijină din urmă treizeci de dinastii</p>
+            <p>Bătrâne, și pe urmă trei încă pân' la mine.</p>
+            <p>Comori sunt în adâncuri, comori răsar la Nil,</p>
+            <p>Doua pustiuri mie-mi trimit daruri imense.</p>
+            <p>De-mi faci un semn, în apă topesc pietre de preț</p>
+            <p>Și ard zece palate pentru-a-ți face plăcere.</p>
+            <p>Și tu vreai să mă cumperi? Cu ce? Cu tine, nu!</p>
+            <p>Atunci cu ce podoabe, ori cu ce stăpânire ?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (trezit) </stage>
+            <p>Vorbești de stăpânire? Aceia ți-ar plăcea?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (cald) </stage>
+            <p>Ce mi-ar plăcea? Doar lumea-ntreagă supt</p>
+            <p>picioare...</p>
+            <p>Visul lui Alexandru din nou îndeplinit...</p>
+            <p>Siria-ngenuncheată ca supt Ramses bătrânul...</p>
+            <p>Povestea lui Sesostris din nou adusă-n fapt...</p>
+            <p>Corabiile mele să aiba Marea-ntreagă...</p>
+            <p>Și la un semn din mâna aceasta eu să mișc</p>
+            <p>Din Ocean și până în Ocean mulțimea...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Ai inviat cu-aceste cuvinte celălt om,</p>
+            <p>Romanul. Lumea toata eu ți-o pot dărui.</p>
+            <p>De la Cirene pân'la Nisibis în pustie</p>
+            <p>Vei fi singura doamnă. Pe regi î'i stăpâni,</p>
+            <p>Și, dacă e vreunul să nu te recunoască,</p>
+            <p>El va peri de însăși mâna ce ți-o întind.</p>
+            <p>Iar alte părți a lumii le-om avea împreună.</p>
+            <p>Voiu frânge pe Octaviu ca pe-o biată nuia</p>
+            <p>Înmugurită, care se crede trunchiu cu vlagă,</p>
+            <p>Și, când n-or mai fi dușmani, atunci te-oiu-asculta:</p>
+            <p>Voiu lepăda veșmântul de-ostaș, stropit cu sânge,</p>
+            <p>În purpura violetă mă voiu înveșmânta,</p>
+            <p>Vei coborî coroana de aur peste fruntea-mi</p>
+            <p>Și 'n Roma cea supusă orișicaror porunci,</p>
+            <p>A'tale și a'mele, ni vom face intrarea</p>
+            <p>În pompa cuvenita părechii 'mpărătești</p>
+            <p>Care își cercetează averea cucerită.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (ca înnebunită) </stage>
+            <p>Așa, așa, acolo unde m-au umilit</p>
+            <p>Să fiu stăpâna, ochii cei mândri să se pilce,</p>
+            <p>Când vom privi la dânșii, și care nu, voiu da</p>
+            <p>Poruncă să simțească pe gât ce-i ascultarea...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Și, fiindcă eu astfel în inimă-ți pătrund,</p>
+            <p>Și pot vorbi de lucruri care mi-au fost	oprite,</p>
+            <p>De dragostea smerita ce ți-o am fost purtat,</p>
+            <p>Va fi ca o odraslă a noastră pruncul tău...</p>
+            <stage> (Cleopatra vrea să-1 oprească) </stage>
+            <p>Ascultă, o Regină. Fiu-ți Cesarion</p>
+            <p>Va fi rege. Alături de noi el va serba</p>
+            <p>Deplina biruința a domniilor noastre.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Oprește-te aice... Nu, taci....</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>De ce oprirea,</p>
+            <p>De-a duce pân' la capăt un vis ce va fi fapt?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (cu îndoială) </stage>
+            <p>Destul... Dar cine-mi spune ca poți</p>
+            <p>să faci aceasta?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (hotărât) </stage>
+            <p>Din cei veniți cu mine, pe Fronto îl</p>
+            <p>cunoști?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>E cel care de-atâtea ori îmi scuti tronul.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Ei bine, ascultă-1. Oastea rămase-n sama lui</p>
+            <p>Cât eu am stat supt farmec, nevrednic a o duce;</p>
+            <p>Cât eu stăteam în lanțuri, el a rămas Roman.</p>
+            <p>Întreaba-1 tu: ți-a spune câți oameni am supt mine</p>
+            <p>Și care e credința pe care ei mi-o țin.</p>
+            <stage> (deschide ușa) </stage>
+            <p>Să vie Marcus Cneius Fronto. Să vie singur!</p>
+            <stage> (către Cleopatra, pierdut) </stage>
+            <p>Și, dacă adevarul întreg</p>
+            <p>ți-am spus, atunci</p>
+            <p>Atunci, Regină...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (rece) </stage>
+            <p>Fronto îmi va răspunde-ndată.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (cu încredere) Să-l așteptăm. (Fronto apare) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III</head>
+          <stage>ACEIAȘI, FRONTO</stage>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Se poate să te mai vad Antoniu,</p>
+            <p>Cel mort în strălucirea deplin-a gloriei?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Cel viu în clipa asta. Mai mult ca orișicand.</p>
+            <p>Dar te-a chemat Regina pentru o întrebare.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Fronto, spune-mi cu toată credința-ți de Roman</p>
+            <p>Aveți o oaste care să poată duce lupta?</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Zece legiuni așteaptă. Dar nu avem un șef.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Și dac-ar fi Antoniu?</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <stage> (entuziast) </stage>
+            <p>Cu dânsul luăm lumea.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Destul. Va fi aceasta.</p>
+            <stage> (Fronto pleacă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <stage>ANTONIU, CLEOPATRA</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Pentru întâia oară</p>
+            <p>Ți se deschide-Antoniu, sfințitul gineceu,</p>
+            <p>Și te așteapă locul iubirilor divine.</p>
+            <stage> (CORTINA) </stage>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL  III</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>(Un lagăr la Actium.)</stage>
+          <stage>SEXTUS MURENA, TREBONIUS ARBITER</stage>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Noi biruim. Antoniu are lumea întreagă.</p>
+            <p>Ostaș bătrân, în viața-mi eu n-am văzut atât</p>
+            <p>Freamăt de oaste nouă și-atâta strălucire.</p>
+            <p>E Asia întreagă aici. Privește numai:</p>
+            <p>Din funduri libiene cămile și-elefanți,</p>
+            <p>Negri-n mantale roșii cu arcele în mână,</p>
+            <p>Blemii de prin pustia Egiptului culeși,</p>
+            <p>Înfățișări ciudate din oazele pierdute ...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Îi vad, dar mi se pare atâta de străin</p>
+            <p>Tot acest fel de oaste...</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Străin? Dar oare e</p>
+            <p>Astăzi străin de Roma ceva pe scoarța-ntreagă?</p>
+            <p>Ce sunt ei? Lut în care pecetia ni-o punem,</p>
+            <p>Toiag în care-nfigem același vultur dârz,</p>
+            <p>Pânza pe care scriem cuvintele latine.</p>
+            <p>Ai noștri sunt cu toții...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Nu oare noi ai lor?</p>
+            <p>Atâta-nvălmășeală mă îngrijește...</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Bine,</p>
+            <p>Dar iată că-și dau partea largă regii amici...</p>
+            <p>Nu-i fund de vale, nu e cetate, nu-i pustiu</p>
+            <p>Din care să nu vie forță ajutătoare:</p>
+            <p>O tabără se-ntrece cu alta în mulțime</p>
+            <p>Și'n gloria gătirii, în pompă și în lux:</p>
+            <p>Din Caucas aleargă muntenii ca săgeata,</p>
+            <p>Armenia răsfață străjerii ei regali,</p>
+            <p>Comagenea și Pontul sunt mândre-a fi aice,</p>
+            <p>Din Bosfor vin barbarii cu aur pe-umeri goi,</p>
+            <p>Sunt Sciți și Traci ce viața o țin întru nimica</p>
+            <p>Și'n zborul către ceruri zic imnul triumfal:</p>
+            <p>Nu te uita că haina săracă li-i și ruptă,</p>
+            <p>Și cel din urmă-și are un suflet de-mparat;</p>
+            <p>Eu simt cum nerăbdarea în inimi li se bate.</p>
+            <p>Și'n fund stau ca un nour negru gata de ploi,</p>
+            <p>În pâlcuri mici, ușare, gloatele beduine.</p>
+            <p>Învingem, o învingem, Treboniu. Te-ndoiești?</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Nu de soldați, ci numai de cela ce-i comandă.</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Antoniu?... Poți tu spune că-ntâiul general</p>
+            <p>Din vremea noastră are să aib-oșovăială,</p>
+            <p>Că nu ar fi în stare ca pe acest mucos,</p>
+            <p>Pe galbenul Octaviu, la patu-i să-1 trimeată?</p>
+            <p>Ori nu ești veteranul care cu el ai mers</p>
+            <p>Până la Parți în fundul Mesopotamiei?</p>
+            <p>Nu 1-ai văzut pe dânsul de-a valma ostenind</p>
+            <p>Prin arșita de soare, prin munții de nisip,</p>
+            <p>Mâncând și el o ceapă și-o bucată de pâne?</p>
+            <p>Ori n-ai găsit la dânsul cuvântul milostiv</p>
+            <p>Cand sufereai, și'n luptă vorba de-mbărbătare?</p>
+            <p>Nu-i el, Antoniu, ceia ce suntem înșiși noi?</p>
+            <p>Și-n biruința-i nu e însăși ființa noastră?</p>
+            <p>Poate... Poate, Treboniu, primiși pe cineva</p>
+            <p>De dincolo... Și poate momirea-i...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <stage> (ridică capul și-1 privește drept în ochi) </stage>
+            <p>Nu te las</p>
+            <p>S-arunci peste credința-mi umbră de banuială.</p>
+            <p>Eu nu-l trădez pe dânsul, ci lui eu mă jertfesc.</p>
+            <p>Caci azi, Murena-i ziua cea de pe urm-a noastră...</p>
+            <p>Închină-te la zeii glorioasei dimineți,</p>
+            <p>Căci te vor- lua în poala lor neagră zeii nopții...</p>
+            <stage> (face un gest de rugăciune) </stage>
+            <p>Apollon luminosul și roșie-Auroră,</p>
+            <p>Ni este rugăciunea de azi un rămas-bun.</p>
+            <stage> (către Murena) </stage>
+            <p>Și, știi, dacă se-ntâmplă să zac rănit în luptă,</p>
+            <p>Nu mă lăsa pe mâna aspră a unui Gal,</p>
+            <p>Pentr-un inel de aur să-mi taie degetul,</p>
+            <p>Ci spintece-se pieptu-mi de-o mâna de prieten!</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Vom spinteca noi piepturi de barbari, și-om trai,</p>
+            <p>Iar la căderea serii, ne-om întâlni noi iarăși</p>
+            <p>Și, curățind de sânge veșmântul prăfuit,</p>
+            <p>Vom înălâa peanul izbandei, zeilor...</p>
+            <p>Auzi, și-acuma-1 cântă la noi ca prevestire:</p>
+            <stage> (ascultă și repetă) </stage>
+            <p>Venit-am și-am învins :</p>
+            <p>Pe câmpul cel întins</p>
+            <p>Dușmanul zace-n sânge,</p>
+            <p>Cetatea lui îl plânge.</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Te-ai intrebat ce face Antoniu acum?</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Nu l-am vazut și nimeni nu mi-a vorbit de dânsul...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Așa-i? Și-n ceia parte Octaviu, necurmat, Merge din veghe-n veghe și-și recunoaște-ostașii.</p>
+            <p>Privește grupul care, supt acvile plutind,</p>
+            <p>E când aici, când colo: Octaviu e-ntre dânșii.</p>
+            <p>Cu el e tinereța, care se-ncumetă;</p>
+            <p>Asupra noastră cade valul vremii ce moare.</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Mă zgudui și pe mine... Zău, șeful unde e?</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Eu 1-am zarit... Își face toaleta dimineții.</p>
+            <p>Stau sclavii împrejuru-i gătindu-1 așa cum</p>
+            <p>Cere dumnezeiasca datină orientală.</p>
+            <p>Va fi frumos Antoniu, fii sigur; însă noi</p>
+            <p>Vom frământa pământul cu acest sânge-al nostru...</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>Aceiași, STRAJERI EGIPTENI</stage>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Dar ce-i această ceată de robi și de eunuci?</p>
+            <p>Ce vor de fac cu bățul un semn spre noi? Te uită</p>
+            <p>Câtă obrăznicie... Dar noi suntem soldați</p>
+            <p>Și Roma cu mândria ei între noi se află...</p>
+          </sp>
+          <sp who="#strajer_egiptean">
+            <speaker>STRAJER EGIPTEAN</speaker>
+            <p>Roma? Roma-i cu Antoniu, iar noi suntem ai lui,</p>
+            <p>Ai lui și ai Reginei...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Ah! Regina aceasta!</p>
+            <p>De gât aș apuca-o și aș zvârli-o-n Mare.</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Taci ... Nu știi unde-ajunge o vorbă care-o spui</p>
+            <p>Așa la o mânie . . . Și ăștia ascultă.</p>
+            <p>Urechile li-s bune și ăsta e rostul	lor:</p>
+            <p>S-audă și să spuie și ce nu li s-a spus.</p>
+          </sp>
+          <sp who="#trbboniu">
+            <speaker>TRBBONIU</speaker>
+            <p>S-audă tot! Mi-i silă ... Pentru acești murdari Oameni să se înnece gloria noastră-ntreagă</p>
+            <p>Și pentru o femeie pe care-o țin pe rând</p>
+            <p>Toți cei cari puterea	au  căpătat-o-n  gheare? !</p>
+          </sp>
+          <sp who="#strajer_egiptean">
+            <speaker>STRĂJER  EGIPTEAN</speaker>
+            <p>Lumea mai la o parte! . . . Zeul Antoniu vine ...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Auzi? Zeul Antoniu... Divinitatea sa</p>
+            <p>Mânca pită de lagăr în tinerețea noastră,</p>
+            <p>Și-mi pare că odată eu am împrumutat</p>
+            <p>Sacrei sale persoane vreo două, trei sesterții.</p>
+            <p>Mă simt, Mars să mă ierte, și eu un f el de zeu,</p>
+            <p>Așa încât deseară ne vom întoarce-acasăâ</p>
+            <p>La zei...</p>
+          </sp>
+          <sp who="#strajer_egiptean">
+            <speaker>STRĂJER EGIPTEAN</speaker>
+            <p>Dar la o parte!... Ca doar nu v-a chemat</p>
+            <p>Să stați la sfat cu dânsul ...</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>De-am fi sclavi, ar fi altfel ...</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>Să-l respectăm pe dânsul, findcă a poruncit Așa... Dar din privirea-i aș prinde un alt suflet.</p>
+            <p>Sa mergem spre corabii... Ce minunată flotă!</p>
+            <p>Stau sutele de vase ca un zăgaz de fier</p>
+            <p>Trireme uriașe în platoșe-mbrăcate</p>
+            <p>Și ce frumos se-mbină străinele culori !</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <stage> (privind lung la dânsul) </stage>
+            <p>Să le privim cu grijă, dragă</p>
+            <p>comilitone,</p>
+            <p>Căci în curând se poate ca noi să ne sfârșim în fața Mării goale, iar flota să plutească</p>
+            <p>Spre gloria de mâne ...</p>
+          </sp>
+          <sp who="#murena">
+            <speaker>MURENA</speaker>
+            <p>O, cobe rea. Destul!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III</head>
+          <stage>STRĂJERUL, SUITA SPLENDIDĂ.</stage>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (confuz) </stage>
+            <p>Și zici că toate-s gata?... Deci  voi îmi cereți lupta?</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Mă îngrozești, Antoniu... Ori tu n-o vrei?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>De ce</p>
+            <p>N-aș vrea-o?... Nu sunt oare și-acum ca altă dată</p>
+            <p>Marcu Antoniu? ...</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Daca n-ai fi, te-am părăsi.</p>
+            <p>Da, cum mă vezi, eu însumi, bătrânul tău prieten,</p>
+            <p>Te-aș părăsi ...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (apăsat) </stage>
+            <p>Te-ai duce poate la celă lalt?</p>
+            <p>E magnanim Octaviu, măcar pentru trădare.</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Eu nu trădez... Dar  omul acel ce ar  trăda</p>
+            <p>Nu are drept pe nimeni să și-1 ceară complice.</p>
+            <p>Unde m-aș duce? Moartea nu-i oare adăpost</p>
+            <p>Pentru speranța noastră, pentru credinți învinse?</p>
+            <p>Da, m-aș duce în moarte și-aș regasi pe Cesar,</p>
+            <p>Pe Cesarul cel mare, pe cel adevărat,</p>
+            <p>Nu  pe acesta care se-mbracă- n a lui haină</p>
+            <p>Și se arată-ntr-însa  cu atâta mai mic.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Tu nu  trădezi, dar  soarta...  Vezi	tu,  Fronto.,.</p>
+            <p>și soarta-i...</p>
+          </sp>
+          <sp who="#mnesicle">
+            <speaker>MNESICLE</speaker>
+            <p>Soarta?. . Dar ea nu este decât ceva din noi,</p>
+            <p>Antoniu... Din voința noastră trece 'nainte</p>
+            <p>Puterea care nouă ni pare a veni</p>
+            <p>De-aiurea ...	Cugetarea pierdut-a minții noastre</p>
+            <p>Pân' la Olimp se-nalță, s-afundă în Infern</p>
+            <p>Și ne-ngrozim de dânsa, pe când ea nu e alta</p>
+            <p>Decât curajul  nostru ori lașitatea ...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (gânditor) </stage>
+            <p>Da.</p>
+            <p>Ori lașitatea noastră... Dar cine-i vinovat</p>
+            <p>De lașitatea care îi vine de la altul? ...</p>
+            <p>Ori, stoice, îți pare că e un laș Antoniu?</p>
+            <stage> (vehement; se aruncă) </stage>
+            <p>Să mergem unde lupta începe! Vreau să fiu,</p>
+            <p>Între aceia cari azi vor muri, întâiul.</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Te pierzi, Antoniu. Unde ți-i gandul? Dar tu ești,</p>
+            <p>Nu jertfa între jertf e, ci șef de biruință.</p>
+            <p>Ostașii tăi așteaptă de mult a te vedea, și n-ai venit.</p>
+            <p>Atâta vreme în așteptarea ta, obosită-i oastea ...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Că-i obosit-o simt,</p>
+            <p>Asupra mea sosește, și eu sunt obosit.</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Dar nu-i iertat s-o știe nimenea decât tine: La singura-ți vedere se vor trezi ceilalți</p>
+            <p>Și vei vedea ce suflet se mai păstrează-ntr-înșii.</p>
+            <p>Sunt toți acei pe cari i-ai dus până-n deșert</p>
+            <p>Și s-a	umplut întregu-i gol numai cu ființa-ți.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (pe gânduri) </stage>
+            <p>Atunci zici tu să mergem?. . .</p>
+            <p>Doar știi ce teama am: Oare m-ar recunoaște?</p>
+            <p>Zi tu, m-ar recunoaște?</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Ce vorba e aceia? Vei fi îmbătrânit ...</p>
+            <p>Li-ar fi rușine oare să-ți vada cărunțeala</p>
+            <p>Și dungile durerii săpate în obraz?</p>
+            <p>Dar nu era și Cesar un om bătrân, și cine</p>
+            <p>Ar fi văzut într-însul alta decât un foc</p>
+            <p>Care arde în cale tot ce se-mpotrivește ?...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (trist) </stage>
+            <p>Mi-s grei ochii, amice, Și-n ei focul s-a stins.</p>
+            <stage> (îndoielnic) </stage>
+            <p>Și zici să mergem? ...</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Sigur, și să vorbești în felul</p>
+            <p>Cum lânga mortul Cesar tu ai vorbit, atunci</p>
+            <p>Când Roma-ntreagă crima o a-nțeles prin tine ...</p>
+            <p>Sa li vorbești !. . . Octaviu vorbește cu ai săi.</p>
+            <p>Să ne suim pe dâmbul acesta. 'L vezi de-aici?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (furios) </stage>
+            <p>Îl văd! Parcă distanța nu mai e între noi...</p>
+            <p>Îl văd pe ticălosul ce și-a călcat cuvântul,</p>
+            <p>Pe Șarpele ce-n sânul credinți-mi lunecând,</p>
+            <p>Mi-a smuls țara mea însăși, neamul de unde vin</p>
+            <p>Și tot prestigiul Romei din care-și face toga</p>
+            <p>Războiului de astazi ...</p>
+            <stage> (visând) </stage>
+            <p>și-a gloriei de mâni.</p>
+            <p>Eu mă arunc	asupră-i... Îl sfășiu eu cu mâna</p>
+            <p>Aceasta, care 'încă-i 'în stare-i a lupta...</p>
+            <p>Veniți, veniți! prieteni... Legiunile 'nainte!</p>
+            <p>Să sară călăreții arabi 'în faâa lor !</p>
+            <p>Aripile să steie gata de-mpresurare!</p>
+            <p>Unde sunt elefanții spre a 'înspăimânta</p>
+            <p>Această-ngrămădire de ticăloși ce pot</p>
+            <p>S-aleagă 'între mine, Marcu Antoniu, și</p>
+            <p>Acel ce nu e-n stare o armă să atingă?</p>
+          </sp>
+          <sp who="#mnesicle">
+            <speaker>MNESICLE</speaker>
+            <p>OpreȘte-te-n pornirea-Ți, suflete chinuit!</p>
+            <p>Nu se câștigă astfel victoria, ci numai</p>
+            <p>Când intră-n lupta gândul viteaz și	cumpănit.</p>
+            <p>Fronto, îndeplinește-ți întreaga datorie.</p>
+            <stage> (privind departe) </stage>
+            <p>Nu-i vreme de manie	Și nici de</p>
+            <p>cugetare.</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Nu-i vremea cumpănirii încet și 'în răgaz</p>
+            <p>Asupra celor care se cade a se face.</p>
+            <p>Noi am pierdut momentul.... Ceilalți au început.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV</head>
+          <stage>Aceiași, UN TRIBUN</stage>
+          <sp who="#tribunul">
+            <speaker>TRIBUNUL</speaker>
+            <stage> (fără a observa pe  Antoniu) </stage>
+            <p>Comilitoni, pornește lupta și n'avem șef.</p>
+            <p>Octaviu stă 'în fruntea Oștirii apusene.</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <stage> (grăbit.) </stage>
+            <p>Adevărat că toate legiunile-s cu el?</p>
+          </sp>
+          <sp who="#tribunul">
+            <speaker>TRIBUNUL</speaker>
+            <p>Toate, și sunt și Galii, Iberii, o armată</p>
+            <p>Cum doar Cesar avuse luptând la Philippi.</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Rău augur ăst nume în ceasul de acum...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (melancolic) </stage>
+            <p>Desigur.. Nu sunt oare Pompeiu?</p>
+          </sp>
+          <sp who="#tribunul">
+            <speaker>TRIBUNUL</speaker>
+            <p>Aici, Antoniu?</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Mă tem că nu-i Antoniu, ci numai umbra lui.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (ca singur) </stage>
+            <p>Pompeiu... Văd visul... Seara pe Mare se lasă. Venia Pompeiu pe luntre, învins, în desperare.</p>
+            <p>Și valuri zbuciumate parcă-1 înștiintau</p>
+            <p>Să nu caute terenul unde pândia trădarea.</p>
+            <p>Dar el mergea, căci soarta-1 ducea. Vezi, soarta iar!</p>
+            <p>Și malul de la Pharos în soare strălucia:</p>
+            <p>Tot portocalii-n floare și mirți cu raze-n frunză,</p>
+            <p>Și cântecele toate pe dânsu-1 salutau,</p>
+            <p>Și lumea bucuroasă striga: Ave Pompei!</p>
+            <p>Râzând călca pe piatra de marmură. Și-atunci,</p>
+            <stage> (scuturându-se) </stage>
+            <p>.</p>
+            <p>Pe Jupiter, mi-e frică, mie, Marcu Antoniu.</p>
+            <p>L-a-mbrățișat dușmanul cel rau și l-a străpuns...</p>
+            <p>M-am deșteptat c-un strigăt și mă durea în coastă</p>
+            <p>Pe mine. Dar departe un râset răsuna,</p>
+            <p>Un râset în urechea-mi; rămas din vis, sau poate</p>
+            <p>Un râset care-alături suna în adevar,</p>
+            <p>Un râset dulce-n care s-aduna armonie,</p>
+            <p>Și n-am voit Regina s-o scol ca s-o întreb</p>
+            <p>Dacă n-a râs ea însași...</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>Aceiași, ALT TR1BUN (desperat)</stage>
+          <sp who="#tribunul">
+            <speaker>TRIBUNUL</speaker>
+            <p>Să apară Antoniu !</p>
+            <p>Se clatină întâiul șir al oștirilor...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Așa-i? Începe ceia ce așteptam... Vedeți ?...</p>
+            <stage> (hotărât) </stage>
+            <p>Ori nu este Labienus acolo pentru mine?</p>
+            <p>Să-i spuneți ca Antoniu e-aici și a văzut</p>
+            <p>Tot ceia ce pe câmpul de luptă se petrece,</p>
+            <stage> (cu sforțare) </stage>
+            <p>Că are siguranța izbânzii, c-a gătit</p>
+            <p>Întregul plan atâta de până-n amănunt,</p>
+            <p>Încat nici zeii înșiși nu pot a mai schimba</p>
+            <p>Din soarta bătăliei...</p>
+            <stage> (pierzându-se din nou în reverie) </stage>
+            <p>Regina?</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Pe corăbii...</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Sunt multe Și frumoase... Norocul e cu ea.</p>
+            <p>Oriunde-i ea, norocul	merge cu flori în mână,</p>
+            <p>Nu-i om care să poata a i se-mpotrivi.</p>
+            <p>Cunosc eu de aceia cari aveau  credință</p>
+            <p>Sa ducă dupa sine în cel mai scump triumf</p>
+            <p>Pe Cleopatra... Astăzi ce mai sunt ei ?... O umbră!</p>
+            <stage> (către Mnesicle) </stage>
+            <p>Ce zici tu care Curtea o știi ?...</p>
+          </sp>
+          <sp who="#mnesicle">
+            <speaker>MNESICLE</speaker>
+            <p>O	osândesc.</p>
+            <p>Și caut ca în inimi să intre adevărul,</p>
+            <p>Mântuitor și aspru.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (fără sa observe) </stage>
+            <p>Spune, nu s-ar putea</p>
+            <p>S-o văd?.... O, înc-odată s-o văd... Și-apoi, de este</p>
+            <p>Să mor de-aceiași moarte ca marele Pompeiu...</p>
+          </sp>
+          <sp who="#fronto">
+            <speaker>FRONTO</speaker>
+            <p>Dar eu mă duc: rușine pe numele roman!...</p>
+          </sp>
+          <sp who="#mnesicle">
+            <speaker>MNESICLE</speaker>
+            <p>Ba eu rămân... Acela ce-n suflete cetește,</p>
+            <p>Lăsând deoparte mila, simte un interes</p>
+            <p>Mare, văzând cum piere omul prin patimă</p>
+            <p>Și cum</p>
+            <stage> (rânjind) </stage>
+            <p>aceia care patima a trezit</p>
+            <p>Menită e să piara de patima ei însăși!</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA VI.</head>
+          <stage>ACEIAȘI, UN GRUP DE STRĂJERI EGIPTENI, UN CRAINIC</stage>
+          <sp who="#crainicul">
+            <speaker>CRAINICUL</speaker>
+            <stage> (de afară) </stage>
+            <p>Romane  Marc'Antoniu,  și  voi ceilalți, aflați</p>
+            <p>Că veți avea în față, cuâand, pe doamna noastră.</p>
+            <p>Regina se coboară pentru-a sacrifica</p>
+            <p>Zeului  Alexandru,  ocrotitorul  oștii.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (desperat) </stage>
+            <p>În fața bătăliei pierdute... ea aici!</p>
+            <p>Moartea-mi stă înainte... Mântuitoarea vine.</p>
+            <p>Eu nu mă pot desface din dulcea vraj'a ei.</p>
+            <p>S-o așteptăm.</p>
+            <stage> (se uită împrejur) </stage>
+            <p>Nu-i nimeni? S-au dus în luptă toți?</p>
+            <p>Și eu aici?... Eu încă aici?... Lângă acest</p>
+            <p>Grec cu filosofie în cap și iî piept - golul,</p>
+            <p>Iar eu în cap, o ,Doamne, cu ea, numai cu ea.</p>
+            <p>O, Romă mustrătoare, îți voiu urma porunca</p>
+            <p>De moarte, dar o clipă s-o văd și s-o	aud...</p>
+            <stage> (apare Cleopatra cu un întreg cortegiu de femei, de preoți, de sclavi și de ostași. Antoniu se dă după un desiș.) </stage>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să stea întreaga flotă cu pânzele întinse!</p>
+            <p>Să nu se miște nimeni decât spre-a-mpiedeca</p>
+            <p>Atacul care poate să vie-asupra noastră!</p>
+            <p>Ați înțeles?</p>
+            <stage> (către soldați, apăsat) </stage>
+            <p>. Asupra noastră de pe corabii.</p>
+            <p>Ce se petrece-acolo pe teren nu-i pentru noi.</p>
+            <p>Acei cari în luptă nu știu să ție pieptul,</p>
+            <p>Acei cari la-ntâia ciocnire se clintesc,</p>
+            <p>Nu-s vrednici ca zeița să-i sprijine-n  cădere.</p>
+            <p>Și mai ales nu-i vrednic acel care, atunci</p>
+            <p>Când tot se hotărăște, zace bolnav și singur,</p>
+            <p>Mojic fără de vlagă; pribeag fără noroc.</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (care n-o vede) </stage>
+            <p>O, scorpie...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Dar, findcĂ cele-ome-neȘti se schimbă,</p>
+            <p>Veniți în juru-mi, preoți, și, ca să nu greșim</p>
+            <p>Pentru romana luptă, cercați rituri romane:</p>
+            <p>Cătați în măruntaie al luptelor sfârșit!</p>
+          </sp>
+          <sp who="#preotul_egiptean">
+            <speaker>PREOTUL EGIPTEAN</speaker>
+            <p>Oracolele noastre de mult ți-au dat Știinta</p>
+            <p>Că omul, de departe când se întoarce iar</p>
+            <p>La cele părăsite, peire și rușine</p>
+            <p>Găsește... Și Antoniu, el este acest om...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Am auzit și glasul lui Cesar, care-n visu-mi</p>
+            <p>Îl dojenea pe-acesta care nu este aici...</p>
+            <p>Dar vreau ca-n sacrificiu Roma să-mi  dea răs-punsul.</p>
+          </sp>
+          <sp who="#preot_roman">
+            <speaker>PREOT. ROMAN</speaker>
+            <p>N-au  vrut sa mânce  puii  astăzi  niciun  grăunt,</p>
+            <p>Și m-am speriat de zvonul păsărilor.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Cercatț...</p>
+            <stage> (Preotul așază victima tăiată pe altar și caută măruntaiele.) </stage>
+          </sp>
+          <sp who="#preot_roman">
+            <speaker>PREOT. ROMAN</speaker>
+            <p>Regină, semnul este grozav...</p>
+            <p>Negru-i ficatul, Putreziciunea verde începe-n măruntai -</p>
+            <p>Să ne grabim... Din urmă poate vine destinul...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să ne grabim!... Ce oare ne-ar mai opri pe loc?</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA VII</head>
+          <stage>Aceiași, ANTONIU</stage>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (grav) </stage>
+            <p>Eu te opresc. Acela care ți-am dat coroane</p>
+            <p>Câte nicio femeie pe lume n-a purtat</p>
+            <p>Și te-a făcut stăpâna pe Asia întreagă,</p>
+            <p>Și din copiii altei iubiri, ca dintr-a mea,</p>
+            <p>Dăduiu regi la popoare supuse-n al mieu nume.</p>
+            <p>Eu te opresc: această flotă este a mea,</p>
+            <p>Și ești a mea tu însăți cu tot ce ai.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (surprinsă) </stage>
+            <p>Antoniu?</p>
+            <stage> (gânditoare) </stage>
+            <p>Să fiu a lui eu oare ?... Dar  el  este al lui ?</p>
+            <p>Norocu-1 ridicase, norocul îl coboară.</p>
+            <stage> (către el) </stage>
+            <p>Ce vrei tu de la mine?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (supus) </stage>
+            <p>Eu aș voi...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (imperios) </stage>
+            <p>Ce vrei?</p>
+            <stage> (mânioasa) </stage>
+            <p>Fugar al oștii tale, în cine te mai sprijini?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>În cea care puterea mi-a luat...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ori  ți-am cerut</p>
+            <p>S-o dai ?</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>Aste corăbii atârnă doar de mine.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>De tine? Te Încearca a Li face un semn!</p>
+            <stage> (cĂtre cei din juru-i) </stage>
+            <p>Al cui este Egiptul și Asia întreagă?</p>
+          </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Sunt ale zeității regine...- A Cleopatrei!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să mergem!</p>
+            <p>Luntrea poate înc-a ne mântui:</p>
+            <p>Să se ridice semnul de grabnică plecare!</p>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <stage> (în genunchi) </stage>
+            <p>Și eu rămân în urma singur.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Cu soarta ta!</p>
+            <p>(Cleopatra coboara cu întreaga-i suita, se suie-n luntre și</p>
+            <p>prinde scara corabiei. În stanga se îngrămădesc  fugari.)</p>
+          </sp>
+          <sp who="#treboniu">
+            <speaker>TREBONIU</speaker>
+            <p>Cine o spadă are, în trânsa-i libertatea!</p>
+            <stage> (iese) </stage>
+          </sp>
+          <sp who="#antoniu">
+            <speaker>ANTONIU</speaker>
+            <p>S-a dus... Pierdute-s toate. Dar eu sunt încă viu. Cu sabia în mână afla-voiu drum la... Dânsa!...</p>
+            <stage> (CORTINA) </stage>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="4">
+        <head>ACTUL  IV</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>(În fața sălii mormântului lui Alexandru)</stage>
+          <stage>PHORMION,  EUDOXIA, MEMNON,  DOI PREOȚI</stage>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>ACi sunt mistagogii? Și au gatit tot ce</p>
+            <p>Se cere spre a face slujba lui Alexandru?</p>
+            <p>Adus-au candelabrul cu douăsprezece ramuri ?</p>
+            <p>Cu smirnă și tămâie suntem îndestulați?</p>
+            <p>Uleiul sfânt aprins e în candelele sfinte?</p>
+            <p>Cimbalele de-aramă ni sunt la îndemână?</p>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>E totu'-n rânduială, tovarășe. Putem</p>
+            <p>Să încercăm o faptă mai grea ca orice alta:</p>
+            <p>Sa întrebăm măreața umbră ce-i de făcut</p>
+            <p>În apriga urgie ce ni-a cazut asupra:</p>
+            <p>De ni-ar da îndurarea-i marele veșnicit!</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>M-am inchinat de-atâta vreme eroului,</p>
+            <p>Din fragedele-mi zile până astăzi, când sunt</p>
+            <p>Zdrobit de oboseala anilor miei din urmă,</p>
+            <p>Incat, daca vre unul in lume ar râvni</p>
+            <p>Să capete cuvantul lui, voiu fi eu acela!</p>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <stage> (curios) </stage>
+            <p>A mai vorbit vreodată zeul mare și nou?</p>
+            <p>A spus soarta ce-așteaptă urmașii faptei sale?</p>
+            <p>A scos din greutate pe vreun Faraon</p>
+            <p>Din ceștia de-acuma, ce alte nume poartă</p>
+            <p>Și se înveșmântează într-un străin veșmânt,</p>
+            <p>De-ai zice că minunea nu merge pân'la dânșii?</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Odată Sirienii stăteau să ne doboare:</p>
+            <p>Era cuprinsă Marea de îmbulzirea lor,</p>
+            <p>Pe Istm soseau Arabii în lanț de caravane:</p>
+            <p>Părea ca ne încalcă întreaga Asie,</p>
+            <p>Că va fi iar stăpână ca supt regii păstori,</p>
+            <p>Iar oamenii de-aicea îi vor sta în genunche.</p>
+            <p>Nu mai era în inimi un gând de viitor.</p>
+            <p>Unii ziceau: și dacă un alt stăpân sosește,</p>
+            <p>Aceiași e robia sărmanului supus</p>
+            <p>Și sângera subt biciul schimbat aceiași piele,</p>
+            <p>Cum lacrima ce cade e din acelați ochiu.</p>
+            <p>Altii, cei din Oștirea grecească, gandeau astfel:</p>
+            <p>Ori nu e moștenirea aceiași pentru toți?</p>
+            <p>N-am stat noi supt aceleași steaguri în lupta mare</p>
+            <p>Și n-am luat împreună întreg acest pământ?</p>
+            <p>Se va preface-un nume, dar e aceiași faptă.</p>
+            <p>Atuncea neuitatul, gloriosul nostru domn,</p>
+            <p>Întâiu-al dinastiei marilor Ptolomei,</p>
+            <p>Veni către mormantul acesta, și-ntrebarea</p>
+            <p>O puse cu întreaga desperarea din noi :</p>
+            <p>,,Răspunde, Alexandre, al cui este Egiptul ?”</p>
+            <p>Și pietrele imense s-au zguduit așa</p>
+            <p>De-ai fi crezut că templul întreg o să se dărme,</p>
+            <p>Și-un glas parca ieșise din fundul de mormânt,</p>
+            <p>Iar frunzele de aur de-asupra așternute</p>
+            <p>Se-ntinseră asupra celui îngenuncheat</p>
+            <p>De ai fi zis că lasă o binecuvântare.</p>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>Atunci domnea asupra țerii noastre-un erou,</p>
+            <p>Și-acuma o femeie ...</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Nu zice: O  femeie !</p>
+            <p>Regina întrupează toate  puterile</p>
+            <p>Umane și divine. . . Ea este-un zeu de fapt,</p>
+            <p>Ca și aceia cari au dus din unu-n altul,</p>
+            <p>În viața schimbătoare, misterul milenar,</p>
+            <p>Tot așa de puternic și azi ca-n ziua-n care</p>
+            <p>Coroanele-amândoua s-au strâns tot într-un pșent.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA II</head>
+          <stage>Aceiași, PHORMION, EUDOXlA, MEMNON</stage>
+          <stage>(zgomot mare afară)</stage>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Ce este îmbulzeala aceasta?</p>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>Ce batjocuri?</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Nu s-a  văzut vreodată mulțimea năvălind!</p>
+          </sp>
+          <sp who="#iii_preot">
+            <speaker>III PREOT</speaker>
+            <p>Ori nu-s ostași s-oprească această profanare?</p>
+          </sp>
+          <sp who="#iv_preot">
+            <speaker>IV PREOT</speaker>
+            <p>Privește cum de-avalma aleargă către noi:</p>
+            <p>Parc-ar vroi să prade locul de adorare...</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Veniți spre apărarea templului, credincioși!</p>
+          </sp>
+          <sp who="#phormion">
+            <speaker>PHORMION</speaker>
+            <p>Ce s-apărăm? Egiptul cel sfânt sfârșește-acuma,</p>
+            <p>Din cellele bătrâne fug zeii spre pustiu:</p>
+            <p>E plin de duhuri rele acum tot aerul.</p>
+          </sp>
+          <sp who="#memnon">
+            <speaker>MEMNON</speaker>
+            <p>De ce-am lăsat atâta avere dupa noi?</p>
+            <p>A noastră-i bogăția ascunsă-n subterane:</p>
+            <p>Sudoarea milenară ce s-a acumulat</p>
+            <p>Aici, e pref ăcută în pietre nestimate.</p>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Dacă nu e Regina spre a ne apăra!</p>
+            <p>Să căutăm noi singuri și arme și merinde!</p>
+            <stage> (Vuietul mulțimii crește) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Să se roage mai bine către divul Antoniu....</p>
+          </sp>
+          <sp who="#memnon">
+            <speaker>MEMNON</speaker>
+            <p>Către învinsul care aduce către noi</p>
+            <p>Toata rușinea, toată primejdia căderii</p>
+            <p>Din înalțimea unor sperante de nebuni ?...</p>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Să-și iea copiii cari nu-s zei Și să se ducă</p>
+            <p>Alăturea cu dânsul!</p>
+          </sp>
+          <sp who="#alt_glas">
+            <speaker>ALT GLAS</speaker>
+            <p>Afară cu ei totț!</p>
+            <p>Daca s-a stins întreaga rasă a zeilor,</p>
+            <p>Sa proclamăm aicea republica....</p>
+          </sp>
+          <sp who="#un_centurion">
+            <speaker>UN CENTURION</speaker>
+            <p>Ieșiți!</p>
+            <p>Sau sabia va face din voi topor de oase.....</p>
+            <stage> (Mulțimea se retrage) </stage>
+          </sp>
+          <sp who="#un_glas">
+            <speaker>UN GLAS</speaker>
+            <p>Jos roaba lui Antoniu!...</p>
+          </sp>
+          <sp who="#memnon">
+            <speaker>MEMNON</speaker>
+            <p>Jos hoții de Romani!...</p>
+            <p>Să se sfârșeasc-odată cu ăști străini nemernici!</p>
+          </sp>
+          <sp who="#phormion">
+            <speaker>PHORMION</speaker>
+            <p>Decât să se prăvale asupra-ni din nou</p>
+            <p>Avida'ngrămădire a cetelor romane,</p>
+            <p>Decat din nou un Cesar să ne prade pe noi,</p>
+            <p>Să dărâmăm întreaga clădire-a vremii moarte</p>
+            <p>Și să-mpărțim ce zace într-însa adunat</p>
+            <p>Prin truda celor cari ni-au dat viața nouă:</p>
+          </sp>
+          <sp who="#eudoxia">
+            <speaker>EUDOXIA</speaker>
+            <p>Să dezbrăcăm ușorii de aurul cel greu!</p>
+          </sp>
+          <sp who="#memnon">
+            <speaker>MEMNON</speaker>
+            <p>Sa scoatem din păreții de marmură smaragdul!</p>
+            <stage> (scot cutțtele) </stage>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Nu e nimeni aice spre a împiedeca</p>
+            <p>Ierosilia asta, în veci neauzită?</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA III.</head>
+          <stage>Aceiași, SOLDAȚI</stage>
+          <sp who="#un_centurion">
+            <speaker>UN CENTURION</speaker>
+            <p>Afară ! Toți afară ! Afară, căci lovim!</p>
+            <p>Gloata fără rușine ce te arunci spre templu,</p>
+            <p>În clipa când poporul întreg este chemat</p>
+            <p>Să întovărășească solemna invocare</p>
+            <p>A divei Cleopatra spre divul Alexandru.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA IV.</head>
+          <stage>CLEOPATRA, MARCUS LIVIUS, ARSINOE, SUITĂ</stage>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <stage> (stăruitor) </stage>
+            <p>Nu-i nicio îndoială ca va veni Antoniu. ARSINOE: Regina-i stăpânita acuma de alt gând.</p>
+            <p>Să o lăsăm în pace ...</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>Dar, dacă siguranța</p>
+            <p>Există că îndată el se va înturna,</p>
+            <p>Făcând din asta țară temeiul gloriei</p>
+            <p>Ce nu se va mai stinge? ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (preocupată) </stage>
+            <p>Venit-a ceasul greu și mare.</p>
+            <p>Sunt în stare să-nfrunt a lui mărire?</p>
+            <p>N-aduc cu mine urma vieții ce-am dus,</p>
+            <p>Praf de iubiri vulgare și sânge de înfrângeri!</p>
+            <p>Așa de greu mi-i mersul și n-am decât doi pași</p>
+            <p>Ca să-ngenunchiu în f ața grandiosului sepulcru..</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>De ce se-nverșunează Regina a cerca</p>
+            <p>Farmece-asupra căror domnesc vrăji neștiute?</p>
+            <p>O va scăpa acela care-a dus-o-n triumf</p>
+            <p>De la un colț la altul al Asiei supuse,</p>
+            <p>Acel ce, din învinsă, din roaba ce a fost,</p>
+            <p>Făcu împarateasa atâtor țări înfrânte.</p>
+            <p>Ce poate Alexandru mort, cand Antoniu-i viu?</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <stage> (îngrozită) </stage>
+            <p>Ci eu	îți spun, oprește...	Oprește</p>
+            <p>profanarea!</p>
+            <p>El e aici în toate. . . Și-acesta nu-i un ceas</p>
+            <p>În care să se-atingă, nemernic, zeul nostru!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (ca din vis) </stage>
+            <p>Ce vă nelinițtește? Cine sunteți aici?</p>
+            <p>În lături toata lumea, și numai mistagogii</p>
+            <p>Să-nceapă curățirea lăcașului divin ...</p>
+            <p>Toti ceilalți la o parte! . ..  Mă auziți? Cu toții!</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Romane, împlinește dorința ei! Te  du!</p>
+            <p>Ne-om întâlni aiurea, dacă dat ni mai este</p>
+            <p>După ziua aceia ...</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>De Actium vorbești!</p>
+            <p>De fuga noastră care ni-a-ntipărit rușinea?</p>
+            <p>Ori a mai fost Antoniu învins până atunci?</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Zeița noastr-aduce doar binecuvântarea,</p>
+            <p>Dar într-un leneș cine mai poate deștepta</p>
+            <p>Puterea care-ntr'însul  s-a  stins de  mult? Zi :</p>
+            <p>Cine?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (care a prins ultimele cuvinte) </stage>
+            <p>Un om vorbi, sau zidul a prins deodată glas,</p>
+            <p>Ca să mă lămureasca asupra sorții mele?</p>
+            <p>Puterea care-n mine s-a stins ... O  da, s-a stins,</p>
+            <p>Și de aceea caut în jur sprijin la alții ...</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Regina șovăiește? Mă duc să-i spun că e</p>
+            <p>Clipa mai potrivită pentru oracol... Cerul</p>
+            <p>E calm ca primăvara, și stele se-ntâlnesc,</p>
+            <p>Care de luni  așteaptă să fie împreună...</p>
+            <stage> (tare) </stage>
+            <p>Toți cei de altă lege, afara! Nici femei</p>
+            <p>Să nu rămâie-n clipa misterului ieratic ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (ca visând) </stage>
+            <p>Da, mergeți toți în laturi ... Doar preoții,</p>
+            <p>Și eu ...</p>
+            <p>Nu-s de prisos eu oare?</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Cum ai fi tu, Regină?</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>Dar nu pot de aice să plec, făr'a fi spus</p>
+            <p>Solia ce cu mine-i trimeasă de Antoniu,</p>
+            <p>De soț către soție, de domn  spre doamna lui.</p>
+            <stage> (se îndreaptă spre dânsa) </stage>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>Ce caută păgânul acesta chiar atuncea</p>
+            <p>Cand stă ceremonia să'nceapă? . . . 'N lături tu</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>În lături voi, o, preoți ai unei lumi pierdute!</p>
+            <p>Nu faceți încercarea a vă împotrivi!</p>
+            <stage> (dârz) </stage>
+            <p>Regină și zeiță, ascultă ce-ți aduc.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Zeiță, nu! Regină poate mai sunt... Și cine-</p>
+            <p>Mi vorbește? E un preot? Sau poate un ostaș?</p>
+            <p>Nevoie am de sfatul oricui în clipa tainei...</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>Nu este-aici o taină, ci te vestesc cum ca</p>
+            <p>Antoniu-i viu și strânge acum o oaste nouă,</p>
+            <p>Că-i gata să alerge spre a te mântui</p>
+            <p>Mai sigur decât toată lumea de zei și zâne</p>
+            <p>Ce n-au glas de când gura li-i plină de păâant...</p>
+            <p>Lasă-i în pace! Vine viața și iubirea!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Păgâne, pân'aice încă mă urmărești ?</p>
+            <p>Ori n-am răbdat rușinea atingerii profane</p>
+            <p>Și jugul prefăcutei iubiri l-am pus pe gât</p>
+            <p>Și am mușcat cu dinții zdrobiți frâul de aur?</p>
+            <p>N-am suferit alături de mine un rândaș</p>
+            <p>Zăcând în patul care dă zeilor odihnă?</p>
+            <p>Beat și nebun de pofte spurcate l-am ținut</p>
+            <p>Acolo unde'n tronul de aur Faraonii</p>
+            <p>Dădeau o judecată sacră supușilor?</p>
+            <p>Se-nfiora întreaga mea carne când punea</p>
+            <p>Pe gura-mi tremurândă umeda-i sărutare?</p>
+            <p>Victoria odată singura îl scuza</p>
+            <p>C-a îndrăznit s-așeze aice putregaiul</p>
+            <p>Cîrciumelor de lagăr și-al lupanarelor?</p>
+            <p>Acum soarta-1 aruncă în sânge și în praf.</p>
+            <p>Și eu îl voiu culege și-1 voiu spăla de toate,</p>
+            <p>Și voiu lega o soartă ce încă n-a apus</p>
+            <p>De soarta-i ce nu poate în veci să se ridice?</p>
+            <p>Când gându-mi se înalță smerit spre Alexandru,</p>
+            <p>Și cer, ca o urmașă a lui, ultimul sfat,</p>
+            <p>Ce vine-acest nemernic să-mi mai răsară-n cale?</p>
+            <p>Pe-această zdreanță, preoți, afară-1 izgoniți!</p>
+            <p>Ostași ai mei, pe-ostașul înfrângerii și-al fugii</p>
+            <p>Petreceți-1 în locul unde nu va-ndrăzni</p>
+            <p>Să mai vorbească astf el precum odinioară!</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>Eu îți vorbesc, Regină, ce mi s-a-ncredințat:</p>
+            <p>Se va-ntoarce-Antoniu din nou în aste locuri,</p>
+            <p>Î1 vei vedea, și iarăși te vei înfiora,</p>
+            <p>Nu de desgust: de frica unui om ca acesta.</p>
+            <p>Și-1 vei iubi, ca roaba, din nou îl vei iubi.</p>
+          </sp>
+          <sp who="#glasuri">
+            <speaker>GLASURI</speaker>
+            <p>Afară ticălosul ce-a jignit pe Regină!</p>
+          </sp>
+          <sp who="#m_livius">
+            <speaker>M. LIVIUS</speaker>
+            <p>Și-ti mai spun și aceasta: Chiar dacă ar voi</p>
+            <p>O soartă pătimașă peirea lui, ei bine</p>
+            <p>N-ar fi nepedepsită purtarea ta, căci e</p>
+            <p>Cine să pedepseasca pe toți insultătorii</p>
+            <p>Republicei romane: e Roma ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>'Nchipuiri !</p>
+            <p>Poporul îl așteaptă afara: dați-i-!</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA V</head>
+          <stage>(Preotii și mistagogii duc pe Cleopatra în fața sepulcrului)</stage>
+          <sp who="#i_ul_mistagog">
+            <speaker>I-UL MISTAGOG</speaker>
+            <p>Misteru-i adevărul; viața închipuire:</p>
+            <p>E trecător aceea ce-aievea o vedem</p>
+            <p>Și numai  nevăzutul este divin și veșnic.</p>
+          </sp>
+          <sp who="#al_doilea">
+            <speaker>AL DOILEA</speaker>
+            <p>Noi ne mișcăm, și credem că-i de la noi mișcarea,</p>
+            <p>Dar pașii cari-i facem vin din adâncul mut</p>
+            <p>Și mergem către scopul pe care nu-l cunoaștem.</p>
+          </sp>
+          <sp who="#al_treilea">
+            <speaker>AL TREILEA</speaker>
+            <p>Nu are sens o viață, ci toate la un  loc,</p>
+            <p>Și-n dosul lor mai este ceva ce nu trăiește,</p>
+            <p>Dar de acolo pleacă viețile ce curg.</p>
+          </sp>
+          <sp who="#al_patrulea">
+            <speaker>AL PATRULEA</speaker>
+            <p>Viața care moare e moartea care trece,</p>
+            <p>Și numai când o undă se-ntoarce la izvor,</p>
+            <p>Recapătă întreaga putere-a nemuririi.</p>
+          </sp>
+          <sp who="#al_cincilea">
+            <speaker>AL CINCILEA</speaker>
+            <p>Cei vii văd numai lucruri care cad în lumina Clipei ce se strecoară, și mortii singuri știu</p>
+            <p>Întregul șir al celor care au început.</p>
+          </sp>
+          <sp who="#al_saselea">
+            <speaker>AL ȘASELEA</speaker>
+            <p>Și, pe aceia dacă i-ajunge jertfa noastra,</p>
+            <p>Din tot ceea ce clipa, trecând, ne-a dăruit</p>
+            <p>Noi cerem deslușirea celor ce-or fi pe urmă.</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Învie Alexandre; biruitorule</p>
+            <stage> (Mistagogii tămâie mormântul) </stage>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>Tu, cel care știi toate, găsește un cuvânt!</p>
+            <p>Îndreptător de țară, păzește-ți moștenirea!</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Nu	ne lăsa, o, Doamne, bătuți și părăsiți!</p>
+            <p>Înlătură păgânul, străinul, prădătorul!</p>
+            <p>Reginei și zeitei, rege și zeu, îi spune</p>
+            <p>Ce cale să apuce în viforul cumplit</p>
+            <p>Care se năpustește asupra-mpărăției!</p>
+            <p>Păstrează legea buna prin cei ce o servesc!</p>
+            <p>Ajută Monarhia de cinci ori milenară!</p>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>Zeule Alexandre, fie-i de  ajutor!</p>
+          </sp>
+          <sp who="#i_preo">
+            <speaker>I PREO</speaker>
+            <p>Și-acuma, cand tot ritul sacru s-a împlinit,</p>
+            <p>Când vechea litanie a tămâiat mormântul,</p>
+            <p>Când s-a sfârșit întreaga vrajă a imnului,</p>
+            <p>Răîai, o, Cleopatră, singură spre-a vorbi</p>
+            <p>Acelui care singur poate un sfat să-ți deie,</p>
+            <p>Acelui care singur ajunge-a ne scăpa:</p>
+            <p>Noi vom uni de-afară doar rugăciunea noastră.</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA  VI</head>
+          <stage>CLEOPATRA singură</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ajută-mă-n durerea mea mare, Alexandre!</p>
+            <p>Nu te uita la mine, la ceia ce am fost, -</p>
+            <p>O, cu atâtea lacrimi am fost, cu-atâta silă!</p>
+            <p>Nu te uita la mine ce sunt: o frunză-n vânt:</p>
+            <p>O veștejește frigul și-o sfarâma furtuna;</p>
+            <p>Nu te uita la bieții copii nevinovați</p>
+            <p>Ce mi i-a dat iubirea pe care n-am voit-o</p>
+            <p>Și cari au în vine un sânge de amestec,</p>
+            <p>Care împuțineaza divinitatea mea;</p>
+            <p>Nu te uita la toate cele ce sunt acuma:</p>
+            <p>La țara peste care Romanii au domnit,</p>
+            <p>La oamenii ce viața și-au dus-o în robie,</p>
+            <p>La preoții tăi cari trăit-au umiliți,</p>
+            <p>Pe când uzurpatorii veneau cu-altare nouă.</p>
+            <p>Primești acestea toate, zeule, le primești?</p>
+            <p>Lași fără de-apărare pe fiii voii tale?</p>
+            <stage> (Tăcere. Regina sună din trambița de argint; afară, imnul) </stage>
+            <p>Ci uită-te la fapta ce o ai săvârșit,</p>
+            <p>La lumile supuse unui gând nou și mare,</p>
+            <p>La viitorul care prin tine s-a găsit,</p>
+            <p>La aurora care-ai deschis-o omenirii</p>
+            <p>Și fără de amiază s-apleacă spre amurg.</p>
+            <p>Ce să fac eu, părinte divin, mărturisește-mi!</p>
+            <stage> (Tăcere. Regina sună din trâmbița de argint; afară imnul) </stage>
+            <p>Oricărui om îi este iertat să-și uite fapta,</p>
+            <p>S-o  lase-n părăsire și s-o	vada murind,</p>
+            <p>De și a ta-i o faptă cum n-a mai fost o alta</p>
+            <p>Și cum n-a fi o alta ca dânsa în etern.</p>
+            <p>Poți să jertfești și ceia ce ți-au dat singuri zeii,</p>
+            <p>Deși nu jucărie ți-au fost încredințat.</p>
+            <p>Dar uită-te ce este să piar'acum: o lume,</p>
+            <p>O lume care astăzi se ține de acest</p>
+            <p>Pământ sfințit, de mine ce port diadema asta,</p>
+            <p>Pe care pe mormântul tău o depun astfel.</p>
+            <stage> (pune diaderma pe mormânt) </stage>
+            <p>Nu e faptă de oameni această Monarhie</p>
+            <p>Ce s-a 'nălțat ca focul altarelor spre cer,</p>
+            <p>Pierzându-se în raza luminilor eterne :</p>
+            <p>Din Ur cel vechiu, din Larsa, din vechiul Babilon,</p>
+            <p>De la Asur cu sânge hrănit și cu durere,</p>
+            <p>De la întâii care purtara dublul semn</p>
+            <p>Al țării egiptene unite-n Teba, 'n Memphis</p>
+            <p>Ei pân'la ce paătrează Alexandria ta,</p>
+            <p>Șste peste popoare o singură idee :</p>
+            <p>Tot ce-i mai bun pe lume prin ea se săvârși:</p>
+            <p>Temple și piramide, mastabe, obelisce,</p>
+            <p>Alei de sfinți, palate, picturi și sacre cărți,</p>
+            <p>Fără de dânsa spune ce-ar fi: încă o fiară!</p>
+            <p>Și-acum peste mania aceasta vine-un vânt,</p>
+            <p>Un vânt de nimicire, un vânt de profanare:</p>
+            <p>Pe marmorele albe, pe aur și pe-argint</p>
+            <p>Mitul sălbăticiei începe-a se prelinge.</p>
+            <p>Se mai pot face-odată cele cinci mii de ani?</p>
+            <p>Ajută-ne comoara să o pastram întreagă!</p>
+            <stage> (Tăcere. Regina sună din trâmbiță; imnul.) </stage>
+            <p>Tu nu răspunzi? Atâta e prețul care-l pui</p>
+            <p>Pe opera mulțimii de ani ce înspăimântă?</p>
+            <p>Să se sfârșească toate atunci, și eu întâiu!</p>
+            <stage> (pe gânduri) </stage>
+            <p>Ori poate eu sunt vina ca tace glasul tău?</p>
+            <p>Eu am chemat asupra lumii urgia asta?</p>
+            <p>Prin fapta silniciei eu am dezonorat,</p>
+            <p>Cu trupul meu acesta, coroana Monarhiei?</p>
+            <p>Este o ispășire a mea, numai a mea?</p>
+            <p>Peste oasele mele veni-va mântuirea?</p>
+            <p>Prin alții decât mine poate fi tot salvat?</p>
+            <p>Coroana nu-i de vină, ci capul care-o poartă.</p>
+            <p>Eu ți-l aduc: primește-l, eram mândră de el,</p>
+            <p>Dar mai mândră de ceea ce-nfățișez pe lume.</p>
+            <p>Mai mare sacrificiu nu pot a-ți dărui.</p>
+            <p>Ascultă-mă, și scapă-ți, zeule, moștenirea!</p>
+            <stage> (Tăcere. Regina sună din trâmbiță; imnul.) </stage>
+            <p>Ori sângele meu însuși îl vrei, îl vrei întreg?</p>
+            <p>Păcatul care-asupra fiilor a trecut</p>
+            <p>Să ceara și jertfirea fără vinovăție</p>
+            <p>A lor? Tu care fiii tăi nu i-ai apărat</p>
+            <p>Și au murit de arma crunt' a dușmanului,</p>
+            <p>Pe-ai mei îi vrei? Zi, doamne, și pe dânșii îi vrei?</p>
+            <p>De vrei, ți-i dau. Să piară sângele ptolomeic,</p>
+            <p>Dar Monarhia sfântă să treacă la alt neam.</p>
+            <p>Ce pot să-ți dau, o rege sacru,  mai scump  pe lume?</p>
+            <stage> (Tăcere. Regina sună  din trambiță; imnul.) </stage>
+            <p>Răspunzi?</p>
+            <stage> (Un vuiet cutremură mormântul.) </stage>
+            <p>Eu știu acuma ce mai am de făcut.</p>
+            <stage> (CORTINA) </stage>
+          </sp>
+          <stage>CLEOPATRA, ARSINOE</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>În mÂna celor care mă cer: a zeilor.</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Zeii sunt morți, odată ce tu te-ai dus la ei.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (se ridică) </stage>
+            <p>Nu blăstăma! Prin  blăstăm	ajungem toți aice:</p>
+            <p>Stau două legi în urma noastră, și le-am călcat.</p>
+            <p>Am pus în loc o biată șubredă cugetare</p>
+            <p>A noastră, și într-însa aflat-am ajutor?</p>
+            <p>Niciunul, da, niciunul, și de aceia astăzi</p>
+            <p>Pornesc să dau solie celui mare și sfânt,</p>
+            <p>Lui Alexandru, care vă va întinde scutul</p>
+            <p>Și din năvălitorii de azi, din cei de mâni,</p>
+            <p>Se va alege praful și fumul. Da, atâta!</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Dar ce e Alexandru însuși fără de cea</p>
+            <p>În care întrupată e azi divinitatea?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Zeii se-ntorc la zeii din care au venit</p>
+            <p>Atuncea când pământul e prada dracilor!</p>
+            <p>Arsinoe, ascultă, voi veți trăi mai mult.</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>O	nu, regină dragă...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ba da, voi veți trăi</p>
+            <p>Și veți vedea cum toate se-mpacă fără mine.</p>
+            <p>Cerută sunt aiurea, și acolo mă duc,</p>
+            <p>Precum pe rug soția brahmanului se suie</p>
+            <p>Și'n focul care-o arde, păcatele-i se pierd,</p>
+            <p>Luând odată cu ele și-a'lumii celeilalte...</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Dar, daca e zeița legată de-ai săi zei,</p>
+            <p>Acest pământ își cere Regina....</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (Se ridică) </stage>
+            <p>. Ți se pare?</p>
+            <p>Dar s-a mișcat o frunză de când eu pătimesc?</p>
+            <p>Își poarta Nilul unda mai iute ca-nainte?</p>
+            <p>Privește: Este-n soare o pată? Niciun nor</p>
+            <p>Nu tulbură albastrul cel limpede al zilei.</p>
+            <stage> (deschide fereasta) </stage>
+            <p>Ascultă catârarul care trece cântând</p>
+            <p>Și zvonul de ciocane lucrând la piramida</p>
+            <p>Celui dintâiu	din neamul meu care va peri.</p>
+            <p>Copiii râd și mame îi prind cu brațe-ntinse,</p>
+            <p>Bătrânii stau pe prispă cu gândul la trecut,</p>
+            <p>Un vultur îmi arată drumul ce merge-n ceruri....</p>
+            <p>Nu te'nșela, copilă. Mâne, când nu voiu fi,</p>
+            <p>Vedea-vei pe mormântu-mi flori, raze, bucurie,</p>
+            <p>Iar eu din înalțimea supremă voiu veghea</p>
+            <p>Asupra celor care nu m-au urmat pe mine.</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <stage> (care a fost la fereastră) </stage>
+            <p>,</p>
+            <p>Regină, dar o lume așteaptă de demult</p>
+            <p>Să-ți spuie-o vorbă ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Cine-s?</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Vino aici aproape!</p>
+            <p>Nu vezi arhonți în haine grele de fir de aur?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Mișeii!. .. Unde-i arma cu care au luptat</p>
+            <p>Pentru onoarea astei țări și a seminției ?</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Așa i-a făcut vremea. De ce i-am osândi?</p>
+            <p>Dar iată negustorii bătrâni proptiți în cârje.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să deie ce mai este în punga lor ascuns</p>
+            <p>Romanului de mâne, ce va veni să-i prade... Ce fac cu ei?</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Cerut-ai vreodată jertfa lor,</p>
+            <p>Așa, fățiș, cum este datina?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să pierd vremea?</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Iată, țărani ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ah, robi ce nu-s buni de nimic,</p>
+            <p>Cu buzele lipite de urma pașilor</p>
+            <p>Celui mai nou din ceia cari-și fac râs de dânșii!</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Și preoții, regină, preoții, iată-i totț:</p>
+            <p>Li scânteie în soare hainele de mătasă,</p>
+            <p>Și aurul aruncă lumini care orbesc:</p>
+            <p>Iată întâiu aceia ai lui Zeus Ammon, stăpânul.</p>
+            <p>Pe urmă ai Isidei, apărătoarea noastră,</p>
+            <p>Ai lui Typhon și ai lui Apis și ai lui Hor;</p>
+            <p>Se-nșiră mistagogii înfășurați în văluri ...</p>
+            <p>Mulțimea îngenunche uimită-n fața lor...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să vie înăuntru preoții! . . Am nevoie</p>
+            <p>De înc-o rugăciune până nu voiu pleca.</p>
+            <stage> (Arsinoe face un semn) </stage>
+            <p>.</p>
+            <p>Să vie, spre urarea de bine, preoții!</p>
+          </sp>
+        </div>
+      </div>
+
+      <div type="act" n="5">
+        <head>ACTUL V</head>
+        <div type="scene" n="1">
+          <head>SCENA II</head>
+          <stage>ACELEAȘI,  PREOȚI, MISTAGOGI</stage>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>S-a auzit, Regină, un zvon neînchipuit:</p>
+            <p>Că dupa inchinarea la zeul Alexandru</p>
+            <p>Egiptul nu mai are stăpână, ca nu vrei</p>
+            <p>Sa mai primești pe nimeni, că vrei-o,  Doamne</p>
+            <p>sfinte ...</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>Păzește-ne de ceasul când ne va părăsi!</p>
+          </sp>
+          <sp who="#glas">
+            <speaker>GLAS</speaker>
+            <p>Și să te ție Ammon ani lungi de fericire</p>
+          </sp>
+          <sp who="#i_mistagog">
+            <speaker>I MISTAGOG</speaker>
+            <p>Plecarea ta de-aice nu este scrisă-n stele.</p>
+          </sp>
+          <sp who="#ii_mistagog">
+            <speaker>II MISTAGOG</speaker>
+            <p>În carțile bătrâne nu este un cuvânt</p>
+            <p>Despre-o Regină care... Cum aș spune cuvântul?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Care, fără s-aștepte ceasul cel mai grozav,</p>
+            <p>Când i s-ar pune gâtul supt jug și-ar fi târâtă,</p>
+            <p>Priveliște mulțimii romane, ar voi</p>
+            <p>Mai bine să se ducă lângă ai săi în ceruri ...</p>
+          </sp>
+          <sp who="#i_mistagog">
+            <speaker>I MISTAGOG</speaker>
+            <p>La ceruri nu se duce nimeni decât chemat.</p>
+            <p>Și noi știm prin ce semne se cheam-acolo viii.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Dar eu sunt o zeiță, și mor pe voia mea.</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>E hotărârea asta a ta fără întors?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ori s-a	schimbat pe lume ceva spre a mă-ntoarce?</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Da, și, de vrei dovadă, acuma ți-o aduc.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Închipuiri deșarte, vorbe fără temeiu!</p>
+            <p>Demult îmi stă aproape veninul; dacă sfărm</p>
+            <p>Ușoara-nvelitură, sunt liberă și tare:</p>
+            <p>Nu e nicio putere ce m-ar împiedica</p>
+            <p>De a-mi face intrarea-n Olimpul ce m-așteaptă.</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Aruncă-nvelitoarea  veninului, căci azi</p>
+            <p>Nu mai e nicio frică de-nvingător: Antoniu...</p>
+          </sp>
+          <sp who="#cleopara">
+            <speaker>CLEOPARA</speaker>
+            <p>Antoniu se gătește să cadă în genunchi</p>
+            <p>În fața celui care nu	 poate să-1 mai ierte.</p>
+            <p>Și, findcă țara noastră de el s-a alipit,</p>
+            <p>Va fi războiu aice și sânge, lacrime.</p>
+            <p>În urmă biruința cea nouă va veni</p>
+            <p>Și veți fi robi cu toții,- dar nu și Cleopatra.</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Nu vom fi robi, ci omul care va stăpâni</p>
+            <p>Nu mai are nevoie să biruie pământul</p>
+            <p>Acestei țări . . . Antoniu ? . . .  Cetește scrisul lui.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (înlătura hârtia) </stage>
+            <p>Arsinoe, ridică scrisoarea lui Antoniu.</p>
+            <p>De mai are nevoie să fie ajutat,</p>
+            <p>Nu voiu fi eu aceea ce-ntârziindu-mi moartea,</p>
+            <p>Spre-o nouă umilință cu dânsul voiu zbura.</p>
+            <p>S-a isprăvit cu viața noastra, Arsinoe,</p>
+            <p>El va trai, căci unul care s-a ridicat</p>
+            <p>De jos ca dânsul, are puteri să se smereasca:</p>
+            <p>Dar cine-a fost ca mine nu poate altceva</p>
+            <p>Decât pe tron în slavă, ori jos în fundul groapei.</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>De ce nu ai răbdare, Regină?, caci au vrut</p>
+            <p>Zeii să fie altfel : tu să domnești, iar dânsul ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Simt cum mă-ndeamnă-n urmă puteri mai sus de mine:</p>
+            <p>Să isprăvim cu-această ultima comedie!</p>
+            <p>De n-ați știut în ceasul luptei să m-ajutați,</p>
+            <p>De ce-mi sunteți povară în ceasul liberării? Arsinoe, cetește ...</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Regina mea, nu pot.</p>
+            <p>Sunt lucruri ca acelea pe care nicio limbă</p>
+            <p>Străină nu le spune unui stăpânitor.</p>
+            <p>E scrisă soarta lumii întregi în aste rânduri!</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (smulge scrisoarea) </stage>
+            <p>Ce poate fi? Ori credeți voi încă în minciuni?</p>
+            <p>Dar e a suta oară de când roagă cu lacrimi</p>
+            <p>Să se întoarcă unde victoria 1-a pus</p>
+            <p>Și unde niciodată înfrânt nu s-a întoarce:</p>
+            <p>Doar i-am spus că de astăzi cu mine s-a sfârșit.</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Și tocmai de aceea tu 1-ai ucis pe dânsul.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (Mirată și cu emoție) </stage>
+            <p>Pe dânsul? Pe Antoniu? Săr-</p>
+            <p>Manul! Voi visați?</p>
+            <p>Eu nu-l iubesc: de dânsul mi-e silă! Cât de silă!...</p>
+            <p>Dar el a stat alături de mine-n bucurii</p>
+            <p>Și a fost bun odată. . . Odată bun, dar laș...</p>
+            <p>Laș fără-nchipuire și fără de iertare ...</p>
+            <p>Dar el e viu ... Să-și cate singur de soarta lui!...</p>
+            <p>Ori ce i-am spus?... Aceia ce trebuiam a-i spune,</p>
+            <p>Ca să nu se târască pe lespezi în zadar,</p>
+            <p>Ca să nu-mi îmbăleze buzele lui piciorul, ...</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Cetește, o, Regină, și te-i încredința.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Dar eu mă tem. . . O, Doamne, ori dintre	zei</p>
+            <p>fac parte?</p>
+            <p>O știu, o simt, dar suflet mi-a fost dat de femeie...</p>
+            <stage> (decisă) </stage>
+            <p>Ori nu, decât prin alții să aflu ce a fost</p>
+            <p>Cu acești ochi ceti-voiu osânda ce m-așteaptă...</p>
+            <stage> (cetește) </stage>
+            <p>,,Cleopatrei,Regina pe care-o am iubit”-</p>
+            <p>-Dar eu nu! Către dânsul făcut-am un pas oare?</p>
+            <p>Ce am știut în- ceasul când el s-a-nfățișat</p>
+            <p>Ca Herakles de tare și ca Ares de mândru?-</p>
+            <p>,,De-aceia-n clipa-n care te mai ține aici</p>
+            <p>Cât de slaba simțire a celor pământene,</p>
+            <p>Află că înaintea ta am pornit la drum</p>
+            <p>Și că de-un singur lucru îmi pare rau: că nu e,</p>
+            <p>Aiurea, loc în care să ne putem vedea,</p>
+            <p>Căci eu mă duc în Tartar, iar tu te-nalți la ceruri.”</p>
+            <stage> (îngrozită) </stage>
+            <p>Deci s-a sfârșit?... C-o vorbă eu însumi</p>
+            <p>l-am ucis?</p>
+            <p>Și nu era Antoniu atâta de mișel,</p>
+            <p>Și-l chinuia atâta iubire-adevărată</p>
+            <p>Încât, la gândul morții mele, a cutezat</p>
+            <p>Să-și puie capăt vieții?... Și, spuneți, pe ce cale...</p>
+            <p>Ori nu, nu spuneți... Moartea lui singură-i destul</p>
+            <p>Ca să pornesc pe suflet cu-atât de grea povară.</p>
+          </sp>
+          <sp who="#un_preot">
+            <speaker>UN PREOT</speaker>
+            <p>S-a aruncat în spada-i și-ndată s-a și stins:</p>
+            <p>Acum înalță rugul sclavii să-i ardă trupul ...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Grozav! grozav !</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <stage> (către al doilea) </stage>
+            <p>Să-i spunem ce mai avem de spus?</p>
+          </sp>
+          <sp who="#ii_preot">
+            <speaker>II PREOT</speaker>
+            <p>Ci spune-i-o... Prin vestea asta o să se-ndemne</p>
+            <p>La viață și la faptă. . . Vârsta nu i-a trecut</p>
+            <p>Și-i atât de frumoasă, cum  n-a  mai fost zeiță.</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Regină, o, Regină, m-asculți?</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ascult. Ce vreți?</p>
+          </sp>
+          <sp who="#i_preot">
+            <speaker>I PREOT</speaker>
+            <p>Cum nu-i nicio durere etern nemângâiată,</p>
+            <p>Ți s-a trimis din ceruri spre-a te îmbuna</p>
+            <p>Solie de-mpăcare și multă bucurie.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ce bucurie? Cine? Sărmanul capul meu!</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Este-un Roman...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Ajunge; nu vreau să-1 văd în față!</p>
+          </sp>
+          <sp who="#preotul">
+            <speaker>PREOTUL</speaker>
+            <p>Primește-1, căci o cere neaparat: altfel...</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>O, înțeleg... căci altfel el intră fără voie.</p>
+            <p>Sunt roabă... De acuma sunt  biata  roab-a  lor !</p>
+            <p>Să între!... Arsinoe, eu mă ucid acuma...</p>
+          </sp>
+          <sp who="#arsinoe">
+            <speaker>ARSINOE</speaker>
+            <p>Te liniștește... Cine poate descoperi</p>
+            <p>Ce-aduce solul?.. Zeii adesea ne cufundă</p>
+            <p>Adânc ca să ne-nalțe îndată și mai sus..</p>
+            <p>Căci numai astfel mila lor o putem cunoaște....</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Sa intre!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA III</head>
+          <stage>Aceiași, UN ROMAN</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <stage> (se zguduie) </stage>
+            <p>Spune iute solia ce-o aduci!</p>
+          </sp>
+          <sp who="#romanul">
+            <speaker>ROMANUL</speaker>
+            <p>Solie? N-am solie, ci numai o poruncă.</p>
+            <p>Caius Iulius Cesar trimete-acest cuvânt:</p>
+            <p>Aceea care pe Cesar cel  mare-l  puse-n lanțuri</p>
+            <p>Și dete lui Antoniu o viață de rușini</p>
+            <p>Este chemată-n fața lui și în fața Romei:</p>
+            <p>Corabia așteaptă a o primi în port.</p>
+            <p>Triumful se gătește: ea  are-un  rost  într-însul.</p>
+          </sp>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Triumf? Eu roab'alături, de Greci și de Sirieni...</p>
+            <p>Această' frumuseță să sature mulțimea</p>
+            <p>Setoasă de petreceri a Romei? Asta nu!</p>
+            <p>Așteaptă tu... Coboară în port cu ceialalți :</p>
+            <p>Veți auzi cu toții răspunșul meu.</p>
+            <stage> (Arsinoe cearcă sa se apropie) </stage>
+            <p>Nici tu, Nici nimene.. Tu du-te acolo la a  mei</p>
+            <p>Și spune-li că liberi sunt să-și armeze mâna,</p>
+            <p>Că nu-i bine să piară în cuib puii de lei</p>
+            <p>Când a pătruns săgeata în înșiși trupul mamei.</p>
+            <p>Sst ! sst ! Destul... Puterea zeilor stăpânește.</p>
+            <stage> (Cei de față se retrag.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA IV</head>
+          <stage>singură CLEOPATRA</stage>
+          <sp who="#cleopatra">
+            <speaker>CLEOPATRA</speaker>
+            <p>Să-mi pregatesc odihna dupa rostul bătrân;</p>
+            <p>Nu trebuie Regina să se-njosească-n moarte.</p>
+            <p>Ai fost altar, cămară, acuma tu vei fi</p>
+            <p>Sepulcru..: Dar m-așteaptă încă o datorie.</p>
+            <p>Mulâimii ce zvonește jos, am înc-un cuvânt</p>
+            <p>De spus ca să se știe cum moare Cleopatra.</p>
+            <stage> (Pe terasa spre popor) </stage>
+            <p>Sunați un ultim sunet, trâmbițe de argint !</p>
+            <stage> (trâmbițele sună) </stage>
+            <p>Vă apropiați voi cari-ați  trăit supt stăpânirea,</p>
+            <p>Cu zile luminoase și zile de dureri,</p>
+            <p>A ultimei zeițe care ocupa tronuL ..</p>
+            <stage> (strigăt de durere) </stage>
+            <p>De când trăiau alături puterile cerești,</p>
+            <p>Și oamenii, de-atâtea mii de ani, toată lumea</p>
+            <p>A fost supt sceptrul sacru al fiilor de zei;</p>
+            <p>Acum se prăbușește cerul peste mărirea</p>
+            <p>Cea sfânt-a Monarhiei. Pământu-i profanat.</p>
+            <stage> (strigăt de durere) </stage>
+            <p>Din colțurile cele mai pline de-ntunerec,</p>
+            <p>Din codri și din tainiți, din mlaștini și din stânci,</p>
+            <p>Vin cei asupra căror nu-i binecuvântarea:</p>
+            <p>Cu simplele lor rituri vreau a înlocui</p>
+            <p>Ce-a fost mare și sacru de la un neam la altul...</p>
+            <p>Cu aspra lor putere ei sfarmă-n calea lor</p>
+            <p>Și templele divine și-acest templu-al puterii,</p>
+            <p>Ce este Monarhia. Coroane zac în lut</p>
+            <p>Și purpura se rupe în spinii-nfrângerii,</p>
+            <p>Cu sceptrele sfărmate copii scobesc în praf:</p>
+            <p>Nu este niciun mijloc ca să oprim potopul.</p>
+            <stage> (strigăt de durere) </stage>
+            <p>Nu mă doare de mine: mi-a fost milă de voi.</p>
+            <p>M-am coborât în cripta marelui Alexandru</p>
+            <p>Și l-am rugat să cruțe poporul egiptean:</p>
+            <p>El a stat mut și rece la rugăciunea noastră.</p>
+            <stage> (strigăt de durere) </stage>
+            <p>Și-atuncea, în durerea cea mare-am înțeles .</p>
+            <p>Că el cere o jertfă spre-a-mpiedica destinul:</p>
+            <p>Jertfa cea mai prețioasă a sângelui divin, -</p>
+            <p>Și i-am întins pe-aceia a seminției mele.</p>
+            <stage> (înghite otrava. Cu sforțare) </stage>
+            <p>El o primește-acuma, căci ma sfârșesc, mă duc.</p>
+            <stage> (strigăt de durere) </stage>
+            <p>Să mi se ardă trupul; căci nu vreau nici cenușa-mi</p>
+            <p>Să o atingă pasul celui d'întâiu Roman</p>
+            <p>Ce-și va înfige arma pe pragul tronului</p>
+            <p>Lui Alexandru. Preoți, cântați imnul suprem</p>
+            <p>Către strămoși: se-nalță liberă Cleopatra.</p>
+            <stage> (cade) </stage>
+            <stage> (CORTINA) </stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

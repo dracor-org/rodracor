@@ -1,0 +1,1456 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000033" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cârlanii</title>
+        <author>
+          <persName>Constantin Negruzzi</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q868839</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://ro.wikisource.org/wiki/C%C3%A2rlanii,_vodevil_%C3%AEntr-un_act">Wikisource</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1849">
+            <desc>1849</desc>
+          </event>
+
+          <event type="premiere" when="1849">
+            <desc>Reprezentat pe Teatrul Național în folosul emigraților din Transilvania la 1849.</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lionescu" sex="MALE">
+            <persName>LIONESCU</persName>
+          </person>
+          <person xml:id="miron" sex="MALE">
+            <persName>MIRON</persName>
+          </person>
+          <person xml:id="terinte" sex="MALE">
+            <persName>TERINTE</persName>
+          </person>
+          <person xml:id="domnica" sex="FEMALE">
+            <persName>DOMNICA</persName>
+          </person>
+          <person xml:id="vochita" sex="FEMALE">
+            <persName>VOCHIȚA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Vaudeville</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q186286</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000033"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Cârlanii</titlePart>
+        </docTitle>
+        <docAuthor>Constantin Negruzzi</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>LIONESCU</role>
+          <roleDesc>fiul boierului proprietar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MIRON</role>
+          <roleDesc>țăran fruntaș</roleDesc>
+        </castItem>
+        <castItem>
+          <role>TERINTE</role>
+          <roleDesc>țăran fruntaș</roleDesc>
+        </castItem>
+        <castItem>
+          <role>DOMNICA</role>
+          <roleDesc>femeia lui Miron</roleDesc>
+        </castItem>
+        <castItem>
+          <role>VOCHIȚA</role>
+          <roleDesc>femeia lui Terinte</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>Scena I</head>
+          <stage>Miron, Terinte</stage>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce ai, nene Terinte, de ești așa de posomorât? nu ț-ai adunat fânul? Nu ț-ai cules păpușoii?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ba, i-am cules.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Apoi de ce ești zborșit?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Nu știu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Cum nu știi? Ien nu mai îmbla și-mi spune ce ai. știi că eu ție îți spun tot ce am pe inimă, că tu ești bun de sfat. Poate ț-oi da și eu vrun sfat care ț-a veni la socoteală. știu că n-a fi vrun lucru de spăriat. Ien spune, dă.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Da dacă nu-mi e voia să-ți spun? Da dacă n-am nevoie de sfat? ce-ți pasă ție?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Bre ! așa faci tu cu cumătru tău? Bine!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>E, nu-i aceea, omule! Da uneori are cineva poftă să tacă; n-are totdeauna chef să spuie toate cele.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Zău, cumătre, n-am gândit că-i fi tu așa cu mine. îmi pare rău.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Da după ce-ți spui, măi române, că n-am chef de vorbă ce nu-mi dai pace?</p>
+            <p>Terinte! Terinte!
+N-am socotit niciodată
+Că tu-i fi așa cu mine,
+Când de-o vreme-ndelungată
+Eu-sunt prietin cu tine.
+Cumătru tău au fost gata
+Ori la ce să te slujească,
+Numai sapa și lopata
+Gândem să ne despărțească.
+Spune ce vrei? boii, carul,
+Punga? Cere tot ce-ți place.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Oh, nu știi, cumătre, amarul Care dragostea ne face.</p>
+            <stage> (bis) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ce spui? Dragostea! Nu cumva ți s-au aprins călcăile după vro lelică?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ba, ba.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu-i de șagă, ien las.</p>
+            <stage> (Cheamă:) </stage>
+            <p>Nevastă! Nevastă!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Tacă-ți gura. Doar te-i apuca să spui femeii tale. S-audă tot satul.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu, nu. — Nevastă! Nevastă!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>Scena II</head>
+          <stage>Domnica, și cei de sus</stage>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>E, ce este? Ce strigi așa tare, parcă-i cineva surd.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ia, cumătrul, nevastă, nu știu ce are; parcă nu i-s boii acasă. Vrea să-mi spuie ceva. Avem de vorbit. Du-ta de ne adă o oală de vin.</p>
+          </sp>
+          <sp who="#dominica">
+            <speaker>DOMINICA</speaker>
+            <p>Acuș,</p>
+            <stage> (în parte) </stage>
+            <p>Oare ce are să-i spuie?</p>
+            <stage> (intră în casă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>Scena III</head>
+          <stage>Terinte, Miron</stage>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Adecă ce nevoie era să-i spui? Asta-i treaba femeilor? Nu știi tu că au niște limbi — niște limbi ia așa de...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>țâs! De te-auzi vruna, vai de urechile tale !</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>Scena IV</head>
+          <stage>Cei de sus, Domnica (aducând o oală și două pahare)</stage>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Iaca vinul; cătați de nu vă chefăluiți cum ve-i obiceiu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Taci tu, nevăstuică; știi că vinu îmi dă chef să fac niște lucruri... și...</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>și — vă-mbătați și treaba rămâne.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>N-ai nici o grijă. Du-te de ne gătește ceva de mâncat. Avem de vorbit cu cumătrul.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Mă duc.</p>
+            <stage> (în parte:) </stage>
+            <p>Nu vrea s-aud ce-a să-i spuie Terinte; bine; o să mă pui de pândă.</p>
+            <stage> (intră și să dă în dosul ușei.) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage> (turnând în pahare.) </stage>
+            <p>Na, cumătre, bea și începe.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>N-am poftă nici de băut, nici de vorbit,</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Acu-i s-aștepți și rugat! Ien lasă marafeturile, deschide-ți inima. Dacă ai vrun necaz, l-om împărți amândoi ca doi frați. Da, spune: ai vro datorie de plătit?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ba nu-i aceea.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Apoi dar ce-i?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ia cuconașu nostru nu-mi pre vine la socoteală.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Feciorul boieriului care vine în toate diminețile de citește sub răchițile aieste?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Tocma, pentru că ce-l face, măi, pe dânsul să vie chiar în dreptul casii noastre și nu se duce, dacă-i trebuie umbră, în grădina curții?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ha, am înțăles. îți temi nevasta</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Eu? Ba nici gândesc. Dar judecă tu singur, ce cată el aice? Nu vine, măi, de flori de cuc, ș-aș pune rămășag că ș-au pus ochiu pe ceva.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Zău se poate. Dar adecă de ce-ți bați capul? Parcă-i numai Vochița în tot satul?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Vochița, femeia mea! Ba că chiar. Zi mai bine Domnica, dar Vochița...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Domnica zici? Visezi, fârtate! Domnica-i cuminte. Eu i-s drag. Vezi tu?</p>
+            <p>Când la boieresc eu, vara,
+Am muncit mereu,
+Și mă-ntorc ostenit, seara,
+La bordeiul meu,
+Să vezi tu, nene Terinte,
+Nevăstuica mea,
+Cum îmi sare înainte,
+Ca o turturea.
+Hopa, țupa, țupa, lupa,
+Amândoi cântăm,
+Hopa, țupa, țupa, lupa,
+Râdem și jucăm.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Așa! Apoi dar n-am ce mai zice.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Bine, măi române, dacă n-ai nici o grijă, pentru ce ești așa de zborșit?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Pentru ce? — Pentru tine, dacă vrei s-o știi!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Pentru mine? Mări ce spui?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Așa s-o știi, pentru tine, sărmane omule! Am văzut ieri pe cuconașu vorbind cu Domnica, și ea unde-l asculta, și unde-i râdea...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nevasta mea, ba că chiar! N-ai văzut bine, cumetre. Nevasta mea au fost fată în curte, nu-i de acele care socoți tu. Dar pentru Vochița nu m-apuc. Am văzut-o dăunăzi șoptind cu cuconașul, și zău m-aș apuca că dacă...</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Te-nșeli, cumătre! Ba eu m-aș apuca că dacă cuconașul îmbla, Domnica...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Domnica! E, cerce d-lui, și-i videa cum mi ți l-a lua cu o prăjină. Dar Vochița... ha, ha, ha.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (îngânându-l) </stage>
+            <p>Ha, ha, ha. Dacă ți-i așa povestea, pun rămășag că dacă cuconașul s-a lega de nevasta ta, pățești pozna. Iar de Vochița, ca mai ba.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Bine. Eu pun cinci cârlani rămășag.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Fie. adă mâna.</p>
+            <stage> (își dau mâna) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>îi să perzi cârlanii, cumătre!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Da, ce are a face. Domnica ta îi cuminte. Doamne ferește! He, he, he!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <stage> (în parte) </stage>
+            <p>Așa, bade Terinte? Te-oi face eu de-i da cârlanii. Așteaptă.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Om videa, om videa.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Bine zici.—Da unde să ne ducem?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Vin' cu mine. ți-oi spune eu ce gând am.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Haidem, cumetre.</p>
+            <stage> (Iese) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>Scena V</head>
+          <stage>Domnica (singură)</stage>
+        </div>
+        <div type="scene" n="6">
+          <head>Scena VI</head>
+          <stage>Vochița, Domnica</stage>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Ce vrei, cumătră?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Nu știi, Vochițo? Mangosiții noștri de bărbați ne tem de cuconașul.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Zău, cam au dreptate. Cuconașul îl tânăr și frumos; Mi se pare că d-ta i-ai cam luat seama.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Nu știu, eu ori tu ai jucat duminică la horă cu dânsul?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Nu-i vina mea dacă joc mai bine decât altele.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ce are a face! — Da ien las, nu-i vorba să ne sfădim. Trebui să ne întoarcem ciuda pe bărbații noștri, pentru că n-au încredere în noi.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Bucuroasă. Cum să facem?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Terinte zice că eu ascult șăgile cuconașului, și barbatu-meu zice că tu-i ești dragă.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Auzi nătărăii! pentru că mi-e drag să șăd la vorbă, hop! li se nazare nu știu ce. Sărmanilor bărbați, sunteți buni de legat la gard!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Nătărăi, fa, și nătângi, nătângi!</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Cei mai gingași se arată</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Zău, bine zici, cumătră.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Da ce să facem noi, spune?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ei au pus rămășag cinci cârlani că ori tu, ori eu, ne-om pleca la vorbele cuconașului. Or să se facă că se duc la târg, ca să ne poată pândi mai lesne. știi ce? Noi să ne arătam scârbite că se duc. ș-apoi, ca să-i năcăjim, să ne facem c-ascultăm pe cuconașul, îi să-i vezi cum or să crape de ciudă,</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Bine. A! dumnealor vor să se joace cu noi? Săracii ! N-au văzut încă pe dracu!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Iacătă-i vin. Să intrăm în casă, și nu uita ca tu-i să-ncepi.</p>
+            <stage> (Intră.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>Scena VII</head>
+          <stage>Terinte, Miron</stage>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Așa! tocmai așa. Nici visează ele de asta.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>E! ce zici? Ai văzut cum am pus lucru la cale? Vezi ,eu, eu-s lup bătrân, bre.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ce are a face! parcă eu nu m-aș fi priceput, dacă aș fi vrut. Dar să începem. Să vezi pe Vochița cum are să se scârbească. Vochițo! Vochițo!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Dacă și Domnica s-o vezi. Domnico! Domnico!</p>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>Scena VIII</head>
+          <stage>Cei dinainte, Vochița și Domnica</stage>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Cum îi bădică? Iată-mă-s,</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Vrem să-ți spui, nevăstuică, că eu și cu cumătru ne ducem păn' la târg c-avem treabă.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Cum! vrei să te duci și să mă lași singură. Hi, hi, hi!</p>
+            <stage> (Se face că plânge.) </stage>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (încet lui Miron) </stage>
+            <p>Vezi, Miroane! știi ce? Dă cei cinci cârlani, și nu mai zice nimic.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Așa! asta nu va să zică nimic. Domnico! Domnico! Da nu-i să vii acu?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Dar ce-ai pățit az! Ce este?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ia, Domnico, o să ne ducem la târg cu cumătru...</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Cum? te duci și mă lași? Nu știi, bădicuță, că nu pot șidea un ceas far' dumneta? Hi, hi, hi!</p>
+            <stage> (Făcându-se că plânge.) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage> (cătră Domnica) </stage>
+            <p>Nu plânge, fata mea, om îmbla degrabă! Rămâi sănătoasă, puică!</p>
+            <stage> (O sărută, ea se face că plânge.) </stage>
+            <p>Vezi tu Terinte, cum i-s de drag? Asta nu-i prefăcătorie, Crede-mă, nu te mai pune de pricină, și dă cârlanii.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ba, ba, păn-acu-i tot una. Să te găsesc sănătoasă, Vochițo, și pe dumneta, cumătriță. Vin, Miroane.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Să mergi sănătos, bădică. Păzește-te pe drum. Nu te osteni; și dumneta, cumătre Terinte!</p>
+            <stage> (Bărbații ies.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>Scena IX</head>
+          <stage>Vochița și Domnica   (bufnesc de râs)</stage>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Sărmanii proști! socot că ne-nșală.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Gândea că plâng.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Era cât pe ce să se mântuie rămășagu!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>țs! iacătă-i se pun la pândă în clopotniță. Vin.</p>
+            <stage> (întră amândouă în casă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>Scena X</head>
+          <stage>Terinte și Miron   (în clopotniță)</stage>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>De aicea putem videa bine. Dar știi tu că ești tare îndărătnic? ai văzut cum mă iubește nevasta mea, ce-ți mai trebui? Crede-mă, dă cârlanii.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Mai avem treabă, nenișorule. A! iaca merloiu. Teci că videm acu.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>Scena XI</head>
+          <stage>Țăranii   (în clopotniță),   Lionescu</stage>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce osândă pentru mine să fiu silit a șidea la blăstămata astă de țară, unde mor de urât. Eu nu știu ce i-au abătut tătâni-meu să vie să șeadă toată vara aice? Zău, dacă n-ar mai fi Vochița și Domnica m-aș usca pe picioare.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Auzi tu? o zis Domnica.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ba o început cu Vochița.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <stage> (puindu-se jos) </stage>
+            <p>Tot cărți și iar cărți, ce dracu! vor să mă facă dobă de carte! când aș putea videa pe Vochița, care-i așa de frumușică!...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Na! te pricepi acu? — După Vochița îmblă.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ori pe Domnica. Tare-mi place nevasta aceea.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>E, ce zici acu? Tare-i place nevasta ta!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Sărmanile femei! câtu-s de nenorocite să aibă niție bărbați așa gogomani!</p>
+            <p>TERINTE și MIRON: Bun! — Mulțămim, cuconașule!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce s-aude!</p>
+            <stage> (Bărbații s-ascund.) </stage>
+            <p>Așa, pre legea mea, chiar de mila lor ar trebui să le mângăi.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Mai bine ar fi să le dai pace.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce dracu! parcă este un eho aice.</p>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>Scena XII</head>
+          <stage>Cei doi sus, Vochița   (ieșind)</stage>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>A, iaca Vochița. Te aștept de o grămadă de vreme; nu mai putem de dor să te văd.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Dă-mi pace, cuconașule; am treabă.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ia stai puțintel, dragă Vochițo.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Bai, bai, nu se poate. Când ai ști câtu-s de scârbită!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Mata scârbită ! cum se poate? și de ce, sufletul meu?</p>
+            <p>VOCHIȚA; Bărbatul meu s-au dus la târg.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ha, ha, ha, ce norocire! te jăluiești de cea mai bună treabă. Bărbatu-tău îi un țărănoi, un prost, un...</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>E, destul, cuconașule; nu-l lăuda așa tare,</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Mări, las. Omul acela nu-i făcut să aibă o floricică ca mata. îi un păcat că ți-e bărbat.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>î! cățelule! când n-ai fi ficiorul boierului...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>țs! taci. Ai răbdare.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Ce-i drept, aș fi putut găsi mai bine;</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Auzi, spurcăciunea!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ești așa de frumușică, așa de bunișoară, ca...</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Da las, las. Dumneavoastră cuconașii așă sunteți deprinși a zice la toate.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Să fiu nu știu cum, dacă nu-ți spun drept.</p>
+            <stage> (O sărută.) </stage>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Astâmpără-te, cuconașule. Ce ar zice bărbatul meu te-a videa?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Dă-l încolo pe bărbatul tău.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Las-că te-oi da eu încolo, moțopane!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu-i să taci, măi creștine?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Vin, Vochițo să șidem pe laița asta.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Așa! Da ce a zice de mine lumea? Bărbatul meu ar face un calabalâc...</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Nu mai gândi la nătărăul acela.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Bun!</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Apoi dă, dacă mi-i bărbat. Mă tem de Domnica să nu umple satul.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>N-ai nici o grijă, drăguță.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Da-i ședea binișor, așa-i? și nu-i mai zice nimic de bărbatul meu?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Nu, nu.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Iaca, se duce , se duce. Nu mă lăsa cumetre!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Așa-i Vochițo, că-i veni în toate zilele să ședem de vorbă?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>și ce-i să te-ncălzeștâ dintr-asta? Mai bine ai face să-ți gați de cărți.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Cărți:! Ba că chiar. Nu vrea să mai învăț de acum. Nu gâdeac decât la mata, te visez când mă culc și când mă scol și dacă nu te văd, mor.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Măăăă! O turbat, nu-I de șagă.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>a zice babacă d-tale și dascalu?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Zice ce le-i voia.</p>
+            <p>De cu ziuă păn-în seară
+Dascalu mă năcăjește.
+Cu latina și greceasca
+Capu hojma-mi amețește,
+
+El tot spune, spune, spune,
+Dârdâiește cât de mult,
+El tot spune, spune, spune
+Iar eu casc și nu-l ascult
+
+Când mi-ai fi tu dăscăliță
+Ai videa cum m-aș sili,
+De mine-ai fi mulțămită
+Și-n curând m-aș procopsi.
+
+O, cu ce dulce plăcere
+Lângă tine-aș învăța!
+Lecțiile le-aș culege
+Pe dulce gurița ta.
+
+Ș-aș tot spune, spune, spune,
+Răzămat de al tău sân;
+ț-aș tot spune, spune, spune
+Lecția mea prin suspin,
+
+Când mi-ai fi tu dăscăliță
+Ai videa cum m-aș sili,
+De mine-ai fi mulțămită
+Și-n curând m-aș procopsi.</p>
+            <p>TERINTE Las-că te-oi pricopsi eu, papă-lapte.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu-i să taci, mă!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Crap de mânie!</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Nu te-nțăleg. Spune, ce vrei de la mine, cuconașule?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Când babacă la neneaca</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Când tătuca cu mămuca</p>
+            <p>LIONESCU și VOCHIȚA: Când babacă la neneaca Când tătuca cu mămuca ș.c.l. ș.c.l,ș.c.l. ș.c.l</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Bre ! abia mă răsuflăi. Măi, cum o luasă de iute!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Cât pe ce era s-o pățești, cumătre,</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Zi ce vrei, nu te las dacă nu mi-i făgădui că-i veni aici în toate zilele.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Fugi de aici, cuconașule. Iaca mi se pare că ne-au văzut Domnica.</p>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>Scena XIII</head>
+          <stage>Domnica și cei de sus</stage>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Brava! frumos! ce vă pasă? bărbatul nu-i acasă.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Dacă-i așa, na.</p>
+            <stage> (O sărută.) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Iaca bre! se leagă de nevasta mea acu.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ei, ia să-ți spui, nu te pre, pre...</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce! te mânii? E bine, să-ți dau înapoi sărutarea ce ț-am luat-o.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ba mă rog.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Fie ș-așa dacă vrei. Dar măcar primește inelușul ista.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>I! câtu-i de frumușel.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Vezi tu, cumătre, tâlhariul îmblă cu nadă; te-i mira Se nu l-a lua nevasta ta.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>ține, Domnico, nime nu te vede.</p>
+            <p>DOMNICA Bai, bai.</p>
+            <stage> (Intră în casă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>Scena XIV</head>
+          <stage>Ceilalți, afară de Domnica</stage>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Domnico! Domnico! am scapat-o. Na-ți-l matale, Vochițo !</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHITA</speaker>
+            <p>Vorbă-i! să ieu eu ce-o lepădat altele.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce gândei c-o să i-l dau ei ? Nu știi că numai mata îmi ești dragă ?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Ien dă-mi pace. îs mânioasă.</p>
+            <stage> (Iese.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="15">
+          <head>Scena XV</head>
+          <stage>Lionescu, bărbații   (în clopotniță)</stage>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Na! că mi-au fugit amândouă, dar nu mă desnădejduiesc eu așa lesne. Sărmanilor bărbați! Trebui să vă slujesc când nu sunteți acasă ; almintrile nevestele voastre n-ar ști ce face de urât.</p>
+            <p>MIRON și TERINTE: Foarte mulțămim de slujbă.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Vine Domnica. Să te văd, Lionescule !</p>
+          </sp>
+        </div>
+        <div type="scene" n="16">
+          <head>Scena XVI</head>
+          <stage>Cei de mai sus, Domnica</stage>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Mata ești, Domnico. De ce-ai fugit adinioarea și m-ai ăsat?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>îmi pare c-aveai cu cine vorbi.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ei, ești mânioasă. Vin' de șezi colea lângă mine, să facem pace.</p>
+            <p>DOMNICA Bine, dar cu tocmală că-i fi cuminte.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Să fiu cuminte?</p>
+            <p>Îmi cei un lucru piste putință,
+Domnico dragă, căci de-aș și vrea
+Să țin această făgăduință,
+Mă jur pe ochi-ți că n-aș putea.
+Pot fi cuminte stând lângă tine,
+Când pentru tine amor simțesc !
+Amorul este stăpân pe mine
+Și lui viața îmi hărăzesc.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Dacă-i așa fug.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ba, ba, ascultă-mă Domnico, numai o vorbă.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ei, bine, ce vrei?</p>
+            <stage> (Se pun jos.) </stage>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>ține inelușul ista.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Așa! Da dacă m-a videa Vochița?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Nu te teme, nimeni nu te vede.</p>
+            <stage> (îi pune inelu) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nime! A tigoare!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Taci! că merge treaba bine!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Doamne! când m-at videa bărbatul meu!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce-ți mai bați capul cu gogomanul acela?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Mulțămim.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Acu-i să-mi dai o guriță, așa-i?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Degrabă ți-i!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>și asta au fugit; nu-i nimica. Acu să pândesc vreme oi găsi pe Vochița a singură.</p>
+            <stage> (Iese) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="17">
+          <head>Scena XVII</head>
+          <stage>Terinte, Miron</stage>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (râzând) </stage>
+            <p>Ha, ha, ha. E, cum îți pare, cumătre!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Dă-mi pace, n-auzi tu? — A, țolina, auzi ce-mi face? Las' c-oi dobzăla-o eu.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Nu mai gândi, cumătre, și trimite argatul la stână s-aducă cârlanii.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Cârlanii! E, mai avem treabă.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Cum n-ai pierdut rămășagu?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Așa-i, am perdut, am perdut, dar — n-am perdut.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Cum n-ai perdut? N-ai văzut chiar cu ochii tăi?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Așa-i, am văzut, am văzut, dar n-am văzut destul.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Da ce vrei să mai vezi, omule?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Vreu să văd și pe Vochița singură cu cucunașu, ș-atunci om videa.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Bine, bine, ai cuvânt. Femeia mea n-o fost fată-n curte, așa este.</p>
+            <stage> (Râde.) </stage>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Râde, râde de mine. Să videm.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (îngânând pe Miron) </stage>
+            <p>Nevasta mea? ba că chiar. N-ai văzut bine, cumătre; nevasta mea a fost fată-n curte; nu-i de acele care socoți tu. Ha, ha, ha, ha.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage> (îngânându-l și el) </stage>
+            <p>Ha, ha, ha, ha. Du-te la naiba și nu mă năcăji! Zău, a să mă facă să intru-n păcat muierea dracului!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Nu te-amărâ degeaba. O fată crescută în curte! Ha ha ha, ha.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Du-te la dracu!</p>
+            <stage> (Se primblă mânios.) </stage>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ce are a face? Cuconașu ș-o pus ochiul pe Vochița, nici gândește la Domnica. Ha, ha, ha! Mă, vrei să mă faci să dau într-o poznă cu râsu tău.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (îngânând pe Domnica) </stage>
+            <p>Doamne! când m-ar videa bărbatu-meu; Doamne, când...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Când... când... când... iaca și fimeia ta; să videm acum.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Așa, așa, ai cuvânt. Femeia mea n-o fost fată-n curte, și...</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>și, și, și... tacă-ți gura și haide: la pândă.</p>
+            <stage> (Ies amândoi.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="18">
+          <head>Scena XVIII</head>
+          <stage>Vochița, Domnica</stage>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Vochițo, Vochițo, vin' degrabă.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Iacă-ma-s, ce-i?</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Bărbații noștri s-o pus iar la pândă. Iaca vine cuconașul, să faci cum te-am învățat.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Ei, bine.</p>
+            <stage> (Domnica intră-n casă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="19">
+          <head>Scena XIX</head>
+          <stage>Vochița, Lionescu, Terinte și Miron  (în clopotniță)</stage>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <stage> (făcându-se că iese de la Domnica) </stage>
+            <p>Rămâi sănătoasă, cumătră; viu acuș.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ien stă, Vochițo. Ce? fugi de mine?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Te-nșeli, cuconașule. Poate gândești că vorbești cu Domnica?</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ah, Vochițo! ce-ți trece prin gând? nu știi că eu numai la mata gândesc?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Ce se potrivește!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Zău așa! și ca să facem pace, na-ți inelușul ista.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Bai, te-a videa Domnica și s-a mânia,</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ce-mi pasă mie de Domnica, când eu numai pe Vochița iubesc.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Pe mine? ti se pare, cuconașule; mai bine dă-mi pace și mă lasă să mă duc.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ah, de ce ești mânioasă?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Cuconașule, dă-mi pace!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Frumuseța ta îmi place.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Lasă-mă! mi-i drag bărbatul, Eu lui i-am jurat credință.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Ieu asupra mea păcatul, De-a-nșăla așa ființă.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Eu vreu să fiu credincioasă,</p>
+            <p>VOCHIȚA și LIONESCU: Eu vreau să fiu credincioasă. Ah! de ce ești mintoasă ! ș.c.l. ș.c.l. ș.c.l. ș.c.l.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Vochițo! nu știi cât de mult te iubesc,</p>
+            <stage> (îi dă inelul.) </stage>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Zău, nu știu să te cred ori ba.</p>
+          </sp>
+        </div>
+        <div type="scene" n="20">
+          <head>Scena XX</head>
+          <stage>Vochița, Lionescu, Terinte și Miron</stage>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (cătră Vochița) </stage>
+            <p>A, jupâneasă, de aste îmi ești d-ta? a, țolină!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Ia las' cumătre, nu te năcăji.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Cum să nu mă năcăjesc, bre? — N-ai auzit ce poznă vrea să-mi facă?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu-ți bate capul, cumătre și hai la joc.</p>
+            <stage> (îl ia de mână și-l face să joace.) </stage>
+            <p>Sub potcoava cizmei mele,
+Buf, mocane, buf.
+Șede dracu ș-o muiere,
+Buf, mocane, buf,
+Și mă-nvață-a face rele,
+Buf, mocane, buf,</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (apărându-se) </stage>
+            <p>Lasă-mă, lasă-mă, lasă-mă, bre ; nu-nțălegi?</p>
+          </sp>
+        </div>
+        <div type="scene" n="21">
+          <head>Scena XXI</head>
+          <stage>Cei din urmă, Domnica   (ieșind)</stage>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ce huiet ? Ce sfadă-i aice ? Ați sculat satul în gura voastră,</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Mai ai încă obraz de vorbă,</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ce vorbă-i asta, cumătre, nu-ți aduci aminte ce-mi zicei ?</p>
+            <p>Când la boieresc eu, vara,
+Am muncit mereu,
+Și mă-ntorc acasă sară,
+La bordeiul meu,
+Să vezi tu, nene Terinte,
+Nevăstuica mea,
+Cum îmi sare înainte,
+Ca o turturea.
+Hopa, țupa, țupa, lupa,
+Amândoi cântăm,
+Hopa, țupa, țupa, lupa,
+Râdem și jucăm.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <stage> (cătră Domnica) </stage>
+            <p>Am aflat eu trebile tale, leleo!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Nebunit-ai ori nu ți-i mult?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Nu te mai fățarnici, tigoare veninoasă ce ești, îmi vine să te...</p>
+            <stage> (O amenință.) </stage>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <stage> (îl ia de mină și-l silește să gioace) </stage>
+            <p>Sub potcoava cizmei mele,</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Dă-mi pace, dă-mi pace, mă! n-am chef de joc!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Bărbățele, drăguță!</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Lipsește, scorchie! că întru-ntr-un păcat!</p>
+            <stage> (O amenință.) </stage>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Iartă-mă, bădicuță, am greșit și ca să-ți arăt, ține,</p>
+            <stage> (îi dă o palmă.) </stage>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Puf! așa ai deprins-o tu de când ai luat-o din curte!</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <stage> (cătră Terinte) și eu, bădica, te rog să nu bănuiești. (îi dă și ea o palmă.) </stage>
+            <stage> (Terinte și Miron se uită unul la altul.) </stage>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Iar d-ta, cuconașule, ia-ți incelușul și te du de-nvață carte. Nu îmbla după nevestele oamenilor,</p>
+            <stage> (îi dă inelu.) </stage>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <stage> (dându-i și ea pe al ei) </stage>
+            <p>Nu te juca cu femeile, că-i păți ce nu-i gândi.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Cum! ce va să zică!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Va să zică că altă dată nu trebui să vă temiți femeile și să vă-ndoiți de dânsăle.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>și mai ales să v-ascundeți mai bine, dacă vreți să vă cercați nevestele, ca să nu vă audă.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Va să zică ne-ați auzit?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Negreșit, și v-am pedepsit cum vi se cade.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Uf! acu mă răsuflu.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Da să vă spui, tare ne-ați spăriat!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Adecă dumneavoastră v-ați bătut joc de mine?</p>
+            <p>VOCHIȚA și DOMNICA: Cam așa!</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Vă foarte mulțămesc de lecția ce mi-ați dat.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Mă ierți, Vochițo?</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Cum? o femeie necredincioasă, o țolină... ba, ba, badeo, ba.</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Vochițico, drăguță</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Domnico, ia Terinte îi pricina, eu nici gândeam, puică, iartă-mă.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Ce face? Să te iert? Eu, o tigoare, o scorchie.</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Iartă-mă, Domnico, m-o luat gura pe dinainte!</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Vochițo, iartă-mă!</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Pune-te în genuchi.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <stage> (lui Terinte) </stage>
+            <p>și d-ta, jupâne.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Acu sărută-mi mâna.</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>și dumneata, badeo.</p>
+            <stage> (Bărbații fac ce le zic.) </stage>
+            <p>DOMNICA Nu-i mai face?</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Doamne ferește.</p>
+            <p>VOCHIȚA Da dumneta?</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Să fiu a dracului de oi gândi măcar.</p>
+            <p>DOMNICA și VOCHIȚA: Bine, sculați-vă.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Acum spuneți-mi care-i pedeapsa mea, căci eu sunt cel mai vinovat.</p>
+          </sp>
+          <sp who="#domnica">
+            <speaker>DOMNICA</speaker>
+            <p>Te iertăm, pentru că, fără să știi, ne-ai agiutat să dăm o bună învățătură bărbaților noștri.</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Dacă-i așa, primiți inelușile aste, nu ca de la un amorez, ci ca de la un bun prietin. Cred că și dumnealor s-ar învoi la aceasta.</p>
+            <p>TERINTE și MIRON: Bucuroși,</p>
+            <p>Vodevil</p>
+          </sp>
+          <sp who="#lionescu">
+            <speaker>LIONESCU</speaker>
+            <p>Dacă brudnica junie</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Dulce, blândă, liniștită,</p>
+          </sp>
+          <sp who="#terinte">
+            <speaker>TERINTE</speaker>
+            <p>Ne-am făcut închipuire</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Aibă ceriul mulțămită</p>
+          </sp>
+          <sp who="#miron">
+            <speaker>MIRON</speaker>
+            <p>Voi ce-aveți gogomănie</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Ea de cer îi osândită</p>
+          </sp>
+          <sp who="#vochita">
+            <speaker>VOCHIȚA</speaker>
+            <p>Autorul az vă roagă,</p>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <p>Așteptarea lui dorită,</p>
+            <stage> (Perdeaua cade.) </stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

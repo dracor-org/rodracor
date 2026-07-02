@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000021" xml:lang="ro">
   <teiHeader>
@@ -20,18 +20,26 @@
       </publicationStmt>
       <sourceDesc>
         <bibl type="digitalSource">
-          <name>Biblioteca Metropolitană Bucureşti</name>
-          <idno type="URL">http://digitool.bibmet.ro:8881/R/ATMVTFHRUFFL61XYD1EKBIRG1MRG15M8A5HITEJMVVDGU3VJJD-07904?func=results-jump-full&amp;set_entry=000003&amp;set_number=000793&amp;base=GEN01</idno>
+          <ref target="http://digitool.bibmet.ro:8881/R/ATMVTFHRUFFL61XYD1EKBIRG1MRG15M8A5HITEJMVVDGU3VJJD-07904?func=results-jump-full&amp;set_entry=000003&amp;set_number=000793&amp;base=GEN01">Biblioteca Metropolitană Bucureşti</ref>
           <availability>
             <licence target="https://creativecommons.org/licenses/by/3.0/ro/legalcode">CC-BY-3.0</licence>
           </availability>
-          <bibl type="originalSource">
+        </bibl>
+        <bibl type="originalSource">
             <title>La Cantora Foaiei Sătești, Iași, 1840</title>
             <availability>
               <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
             </availability>
-          </bibl>
         </bibl>
+
+        <listEvent>
+          <event type="print" when="1840">
+            <desc>1840</desc>
+          </event>
+          <event type="premiere" when="1840-11-18">
+            <desc>la deschiderea Teatrului Național din Iași, luni, 18 noiembrie 1840</desc>
+          </event>
+        </listEvent>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -93,14 +101,6 @@
     </profileDesc>
   </teiHeader>
   <standOff>
-    <listEvent>
-      <event type="print" when="1840">
-        <desc>1840</desc>
-      </event>
-      <event type="premiere" when="1840-11-18">
-        <desc>la deschiderea Teatrului Național din Iași, luni, 18 noiembrie 1840</desc>
-      </event>
-    </listEvent>
     <listRelation>
       <relation name="wikidata" active="https://dracor.org/entity/ro000021" passive="http://www.wikidata.org/entity/"/>
     </listRelation>
@@ -190,7 +190,7 @@
           <sp who="#garofa">
             <speaker>GAROFA</speaker>
             <stage>(mirându-se și uitându-se la portret)</stage>
-            <p>: Bra!... duduca... da tare îți samănă... sărăcuța de mine... numa cât nu vorbește.</p>
+            <p>Bra!... duduca... da tare îți samănă... sărăcuța de mine... numa cât nu vorbește.</p>
           </sp>
           <sp who="#aglaita">
             <speaker>AGLĂIȚĂ</speaker>
@@ -1103,12 +1103,12 @@
           <sp who="#pestrit">
             <speaker>PESTRIȚ</speaker>
             <stage>(spăriet)</stage>
-            <p>: Da... da... ce... ce... sun... sunteti?</p>
+            <p>Da... da... ce... ce... sun... sunteti?</p>
           </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <stage>(asămine)</stage>
-            <p>: Draci.</p>
+            <p>Draci.</p>
           </sp>
           <sp who="#pestrit">
             <speaker>PESTRIȚ</speaker>
@@ -1362,7 +1362,7 @@
           <sp who="#titirez">
             <speaker>TITIREZ</speaker>
             <stage>(schimbându-și glasul)</stage>
-            <p>: Ai sosit în cele mai adânci măruntaie a pământului... poți să ieși din trăsura ta.</p>
+            <p>Ai sosit în cele mai adânci măruntaie a pământului... poți să ieși din trăsura ta.</p>
           </sp>
           <sp who="#pestrit">
             <speaker>PESTRIȚ</speaker>
@@ -2292,7 +2292,7 @@
           <sp who="#frant">
             <speaker>FRANȚ</speaker>
             <stage>(oprindu-l)</stage>
-            <p>: Suguiești, domnule? socoti că m-oi mulțumi cu atâta?</p>
+            <p>Suguiești, domnule? socoti că m-oi mulțumi cu atâta?</p>
           </sp>
           <sp who="#pestrit">
             <speaker>PESTRIȚ</speaker>
@@ -2352,7 +2352,7 @@
           <sp who="#comisariul">
             <speaker>COMISARIUL</speaker>
             <stage>(trăgându-l în partea lui)</stage>
-            <p>: Vin de te bate.</p>
+            <p>Vin de te bate.</p>
           </sp>
         </div>
         <note type="title">SCENA X</note>

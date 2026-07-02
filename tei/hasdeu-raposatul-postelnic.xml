@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000045" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Răposatul postelnic</title>
+        <author>
+          <persName>Bogdan Petriceicu Hașdeu</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q2389145</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://books.google.ro/books/about/Din_Moldova_Lumina.html?id=yHUyAQAAMAAJ&amp;redir_esc=y">Google Books</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1862">
+            <desc>1862</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="serpe" sex="MALE">
+            <persName>ȘERPE</persName>
+          </person>
+          <person xml:id="ileana" sex="FEMALE">
+            <persName>ILEANA</persName>
+          </person>
+          <person xml:id="iancu_motoc" sex="MALE">
+            <persName>IANCU MOȚOC</persName>
+          </person>
+          <person xml:id="petrica_spancioc" sex="MALE">
+            <persName>PETRICĂ SPANCIOC</persName>
+          </person>
+          <person xml:id="ardeleanul" sex="MALE">
+            <persName>ARDELEANUL</persName>
+          </person>
+          <person xml:id="chiucuruzopulos" sex="MALE">
+            <persName>CHIUCURUZOPULOS</persName>
+          </person>
+          <person xml:id="suchinsanusichin" sex="MALE">
+            <persName>SUCHINSÂNUSICHIN</persName>
+          </person>
+          <person xml:id="florica" sex="FEMALE">
+            <persName>FLORICA</persName>
+          </person>
+          <person xml:id="aprodul" sex="MALE">
+            <persName>APRODUL</persName>
+          </person>
+          <person xml:id="armasul" sex="MALE">
+            <persName>ARMAȘUL</persName>
+          </person>
+          <person xml:id="trecatorul_i" sex="MALE">
+            <persName>TRECĂTORUL I</persName>
+          </person>
+          <person xml:id="trecatorul" sex="MALE">
+            <persName>TRECĂTORUL</persName>
+          </person>
+          <person xml:id="ghioaga" sex="MALE">
+            <persName>GHIOAGĂ</persName>
+          </person>
+          <person xml:id="itic" sex="MALE">
+            <persName>IȚIC</persName>
+          </person>
+          <person xml:id="cloanta" sex="FEMALE">
+            <persName>CLOANȚA</persName>
+          </person>
+          <person xml:id="paiazzo" sex="MALE">
+            <persName>PAIAZZO</persName>
+          </person>
+          <person xml:id="maciuca" sex="MALE">
+            <persName>MĂCIUCĂ</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Tragedy</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q80930</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000045"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Răposatul postelnic</titlePart>
+        </docTitle>
+        <docAuthor>Bogdan Petriceicu Hașdeu</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>ȘERPE</role>
+          <roleDesc>vel-postelnic</roleDesc>
+        </castItem>
+        <castItem>
+          <role>ILEANA</role>
+          <roleDesc>femeia lui</roleDesc>
+        </castItem>
+        <castItem>
+          <role>IANCU MOȚOC</role>
+          <roleDesc>orfan</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PETRICĂ SPANCIOC</role>
+        </castItem>
+        <castItem>
+          <role>ARDELEANUL</role>
+          <roleDesc>vânător</roleDesc>
+        </castItem>
+        <castItem>
+          <role>CHIUCURUZOPULOS</role>
+          <roleDesc>făclier</roleDesc>
+        </castItem>
+        <castItem>
+          <role>SUCHINSÂNUSICHIN</role>
+          <roleDesc>ciubotar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>FLORICA</role>
+        </castItem>
+        <castItem>
+          <role>APRODUL</role>
+        </castItem>
+        <castItem>
+          <role>ARMAȘUL</role>
+        </castItem>
+        <castItem>
+          <role>TRECĂTORUL I</role>
+        </castItem>
+        <castItem>
+          <role>TRECĂTORUL</role>
+        </castItem>
+        <castItem>
+          <role>GHIOAGĂ</role>
+          <roleDesc>cioban</roleDesc>
+        </castItem>
+        <castItem>
+          <role>IȚIC</role>
+          <roleDesc>cămătar</roleDesc>
+        </castItem>
+        <castItem>
+          <role>CLOANȚA</role>
+          <roleDesc>precupeață</roleDesc>
+        </castItem>
+        <castItem>
+          <role>PAIAZZO</role>
+          <roleDesc>alchimist-doftor</roleDesc>
+        </castItem>
+        <castItem>
+          <role>MĂCIUCĂ</role>
+          <roleDesc>arcaș bătrân</roleDesc>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL I</head>
+        <div type="scene" n="1">
+          <head>SCENA I</head>
+          <stage>IANCU MOȚOC și PETRICĂ SPANCIOC (în odaie);</stage>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Pesemne, vânătoarea o să se prelungească pân’ mâine. Să trăiască Măria Sa Vodă!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu capul rezemat pe mână, adâncit în gânduri) </stage>
+            <p>Vezi bine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>D-aș vede-o bine, adică să știu că postelnicul nu se va întoarce deseară, apoi, zău, parcă m-aș mai repezi la Marghiolița.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vezi bine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Of! n-o văd bine, sărmana fată, cam de un ceas.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vezi bine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Bre! ești papagal.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vezi bine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Momiță.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vezi bine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Măgar.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cum am zis.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vezi bine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>O văd foarte bine.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (după o pauză) </stage>
+            <p>Ziua se trece.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (imitând glasul lui Moțoc) </stage>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Și doamna Ileana nici că se întoarce.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>S-ar fi dus la mătușa-sa.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Mai de un ceas.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Zici că de două?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Or fi.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vântul suflă de la crivăț.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Poate să răcească.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Așa-i?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Cu bună seamă?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Cu bună seamă.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (trist) </stage>
+            <p>Hm!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ha, ha, ha!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ce este?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ia nemica.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu dispreț) </stage>
+            <p>Am înțeles!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>O, preanțeleptule! De vreme ce poți înțelege chiar nemica, nemica toată, apoi cu cât mai vârtos trebuie să înțelegi ceva. Așadar, prostimea crede că... Ai înțeles?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Urmează.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Că ar fi un dobitoc, care nu moare... Ai înțeles?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Mai departe?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și care, adică dobitocul neumuritor, se cheamă... Ai înțeles?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Sfârșește!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Se cheamă „șerpe”</p>
+            <stage> (Moțoc se posomorăște) </stage>
+            <p>, „șerpe”, auzi? Se cheamă ca și boierul postelnic, bărbatul doamnei Ilene... Ai înțeles?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (iute) </stage>
+            <p>N-am nevoie!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și dacă Șerpele, bărbatul Șerpoaicei, ar fi nemuritor...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (răsit) </stage>
+            <p>Și dacă?...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Apoi ai să pățești rău, ai să pățești cândva, Moțoace!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Am să pățesc?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Te-a prinde Șerpele.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>M-a prinde?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și te-a ciomăgi.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ciomăgi?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și ți-a rumpe coastele.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Rumpe coastele?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și ți-a tăia...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Mi-a tăia...?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nasul și urechile.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Urechile?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Și vai de a ta...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>De a mea...?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Pu...?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Pu...?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Tot nu pricepi?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu furie) </stage>
+            <p>Pu? Pu?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Puicuță.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Puicuța?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Vai de... doamna Ileana!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (aprins) </stage>
+            <p>Ascultă, Petrică!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ascult, Iancule.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>De ți-s scumpe zilele...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Pe cinste, nopțile mi-s mai scumpe!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>De nu vrei ca tată-tu să-și plângă singurul fiu...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nici el știe de i-s singur fiu; nici eu nu prea știu de mi-i singur tată.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Apoi în veci să nu mai pomenești numele meu...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Alăturea cu al naibei?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Cu al doamnei Ilene!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ți-am ghicit gândul.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (după o pauză) </stage>
+            <p>Ascultă, Șerpe!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Eu, Șerpe?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Am greșit. Ascultă dar, Spancioace.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ascult, ascult, Moțoace.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Moartea ta nu mi-ar folosi.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>A mea, nu, ce-i dreptul; dar a ta te-ar scăpa, poate, de mai mare rău.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ajutorul tău va fi scump pentru mine.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Dorești, dară, ca să-ți deschid porțile raiului?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Nu fac taină, fiindcă ai ghicit însuți împrejurările...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ia urma, Iancule Moțoace! Iancule Moțoace, ia urma! Taina-ți e nu numai a ta și, deci, mai-nainte de a mi-o dezveli mie, cată să capeți învoirea tovarășei tale, pentru a mă putea băga și eu părtaș la cele ascunse ale voastre. Judecă singur. Poți tu vinde moșia întreagă, când nu stăpânești</p>
+            <stage> (gesticulând cu mâna) </stage>
+            <p>, în trupul ei, decât o biată răzășie cu nedrept împresurată, un tufar, vreo grunjoasă râpă, vreo păcătoasă moară, vreun glodos iaz sau vreo bucată de pământ, stârpită prin o îndelungată lucrare?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Află că iubesc pe Ileana și că sunt iubit.</p>
+            <stage> (Spancioc face chip de a-și astupa urechile.) </stage>
+            <p>Spovăduirea simțirilor mele îmi va ușura durerea...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nu te aud, nu... urmează.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu foc) </stage>
+            <p>Dragostea noastră nu mai poate suferi valul întunericului...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nu ne potrivim: dragostea mea caută totdauna s-o învălească întunericul... dar fugi cu dânsa... nu mă năuci!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Să fugim? Încotro fugi-vom? La Iași? La unguri? la nemți? la tătari? la turci? la muscali? la munteni? la... la sârbi? Brațul lui Șerpe ne va ajunge peste nouă mări și nouă țări. Totu-i degeaba! Ca postelnic, iată de douăzeci de ani, sub trei domni, toate trebile cu țările străine se află pe seama lui; el face și desface cu toți megieșii Moldovei. Care e locul unde un nenorocit fugar s-ar putea ascunde de fermecătoarele sale mreji? Care e locul?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>După ce te putuși ascunde chiar în așternutul lui?... Ducă-va dracul la cazaci... dă-mi buna pace!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>La cazaci? Cazac  primesc voinici, iar nu muieri! La dânșii  norodul se numără nu după capete, nu după suflete, nu după fumuri sau acoperișuri; ci după săbii ... după săbii! Câte sunt săbiile, atâția-s oameni! Pricep ceea ce vrei să-mi întâmpini, Petrică. Lumea știe că nu sunt fricos. Țara a văzut cum din bătălia cu tătar  m-am înturnat acasă cu șase sângeroase căpățâni păgâne... Ei bine, Spancioace; ei bine, cu toate astea... dar, cu toate acestea, războiul nu-mi place, crede-mă! Pe sânul Ilenei aș vrea de acum înainte a mă odihni în mijlocul liniștii...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Auzi, hoțul! să se odihnească tocmai în mijlocul cela... Moară Șerpe... mă prea necăjești!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Taman la aceea, sufletele, gândeam și eu! Sunt mai multe chipuri pentru a ne mântui de nesuferitul postelnic...</p>
+          </sp>
+          <stage>SCENA II
+ Cei de mai-nainte și TRECĂTORUL I (în uliță)</stage>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <stage> (intrând în uliță și apropiindu-se de dugheana ciubotarului) </stage>
+            <p>Rusule!</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <stage> (fără a se uita) </stage>
+            <p>Ivan Osipa Stepanovasîna sin Suchinsînusichin.</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Fă-mi o pereche de ciubote.</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>O pereche?</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Doar nu o ciubotă desperecheată!</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Ciubote?</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Ți-i de mirare?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Zici ciubote?</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Măi, văzutu-m-ai vreodată desculț, de te minunezi așa?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <stage> (ridicând ochii și ochindu-l de la cap până la picioare) </stage>
+            <p>Acum te văd; adică nu că te-aș vedea desculț, dar... un om încălțat pentru ce să aibă el nevoie de ciubote?</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Pogorî-te de ia măsura.</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Să-ți fac papuci?</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Ce fel de papuci! Ți-am spus ciubote.</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Ciu-bo-te! De acelea nu pot.</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Cum să nu poți, bată-te cucul să te bată?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Încalte de ți-ar trebui papuci...</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Iarăși cu papuci?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Papuci negri...</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Doar’ nu-s mort, căpchiatule!</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Păcat!</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Cum așa?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Astăzi lucrez numai pentru cei morți.</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Stârnit-u-s-a vreo ciumă?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>S-a stârnit vânătoarea domnească.</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Și-apoi?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Și-apoi vânătorile domnești dau de hrană... țării...</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <p>Nu cumva ai fi făcând papuci pentru iepurii morți?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Mi le plătesc iepurii cei teferi.</p>
+          </sp>
+          <sp who="#trecatorul_i">
+            <speaker>TRECĂTORUL I</speaker>
+            <stage> (depărtându-se) </stage>
+            <p>Trăsnească-te trăsnetul să te trăsnească, veneticule!</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <stage> (reîncepând treaba) </stage>
+            <p>S-ar putea peste vreo două zile.</p>
+          </sp>
+          <stage>SCENA  III
+ Cei din Scena I și TRECĂTORUL (în uliță)</stage>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <stage> (intrând în uliță și apropiindu-se de dugheana făclierului) </stage>
+            <p>Bre, cum te cheamă, făcliere?</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <stage> (topind ceara într-un cazan) </stage>
+            <p>Ca și pe bunicul meu, împărat de la Țarigrad.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Poală-lungă? Ca-câte-coaje?</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Chiucuruzopulos.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Așadar, kirie Chiu... chiu...</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Curu...</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Zopu... zopu...</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Pulos.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Tocmai! Apoi, kirie, am trebuință de niște lumânări de nuntă.</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Cum ai zis?</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Niște lumânări de nuntă.</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Bine.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Numaidecât pe mâine.</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Cum ai zis?</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Pe mâine, lua-te-ar năbădaicele!</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Așa degrabă nu se poate.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Nu se poate să te ieie năbădaicele?</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Nu m-ai înțeles... Dacă ai vrea toiegi?</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Să te toiegesc...</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Tot nu m-ai înțeles...? Toiegi de ceară...</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Muri-ți-ar limba, prostule! Nu vezi că-s viu?</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Îmi pare rău! Rău îmi pare!</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Cum?</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Astăzi numai cei morți mi-s stăpâni.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>O să-ți plătesc.</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Vrei lumânări de nuntă?</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Mă mai întrebi?!</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Lumânări de nuntă... lumânări de nuntă... nu fac! Cele de moarte îs mai scumpe, și fiindcă Măria Sa a făcut o mare vânătoare.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Ei bine!</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Apoi va da Dumnezeu de n-a fi fără ca să moară vreo câțiva vânători...</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <p>Te tocmești?</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Sau prin cruzimea oamenilor, sau prin greșeala dobitoacelor.</p>
+          </sp>
+          <sp who="#trecatorul">
+            <speaker>TRECĂTORUL</speaker>
+            <stage> (depărtându-se) </stage>
+            <p>Mânca-te-ar câinii, dihanie!</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Poimâine, bucuros.</p>
+          </sp>
+          <stage>SCENA IV
+ Cei din scena I; FLORICA și APRODUL (în uliță)</stage>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <stage> (intrând iute, urmărită de Aprod) </stage>
+            <p>Ce să fac, sărăcan de mine! Se leagă ca năpasta! Și-apoi ce vrei, ce-mi tot ații drumul?</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Ce vreau, mândruță? Te faci că nu știi?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Parcă ți-am spus că-s fată mare...</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Despre mărinime vom vorbi mai pe urmă.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Sunt fecioară...</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Mă bucur! Cu atât mai bine!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Lasă-mă, te rog.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>N-am ce-ți face, nătângo! Pupă-mă și te las.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Niciodată.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Vrei să zici că, singură, nu mă lași?</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Ei fie, doar m-oi mântui! Ține fruntea.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <stage> (sărutând-o în gură) </stage>
+            <p>Fruntea-i domnească, buzele-s ale mele.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Acum șezi binișor!</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Tocmai acum nu.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Dar ce mai vrei?</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <p>Mă duc la tine, cucuto.</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <p>Să dai peste bărbatul meu?</p>
+            <stage> (fuge) </stage>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <stage> (alergând după ea) </stage>
+            <p>D-apoi ești fecioară cu bărbat?</p>
+          </sp>
+          <stage>SCENA V
+ Cei din scena I</stage>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Halal de Florica!</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>O cunoști, kirie ciubotare?</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>Îi o nevastă de la Huși.</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Îi adusă de departe... s-a stricat în drum!</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <p>A luat-o un negustor de-aice...</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Un nătărau de la Hârlău!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (aruncând prin fereastră o monedă lui Chiucuruzopulos) </stage>
+            <p>Ha, ha, ha! Ia banul, Grecule, și strigă-n gura mare că-s doi nătărai la Hârlău!</p>
+            <stage> (către Moțoc) </stage>
+            <p>Tu cunoști pe cel al doilea.</p>
+            <stage> (Moțoc șede neclintit, acufundat în gânduri.) </stage>
+            <p>O, lume, lume! Ori că mă uit în stânga, sau că privesc în dreapta, lumea-i tot aceea. Ce de mai ciubotari! Ce de mai făclieri! Ce de mai aprozi și Florice! Numai copilul crede că omul nu dorește moartea aproapelui său! Numai în ochii unui prunc sunt sfinte legăturile dintre părinți și feciori, dintre soți, dintre frați și prieteni! Ai dreptate, Moțoace. De n-om fi tâlhari, alții ne-or prăda; de n-om fi hoți, alții ne vor ucide! Cei prădați și cei uciși sunt totdauna batjocura lumii! Deci, trebuie să fim tâlhari și hoți!</p>
+            <stage> (Face semnul crucii.) </stage>
+            <p>Iartă-mă, Doamne!</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA VI</head>
+          <stage>Cei din scena I și ARDELEANUL (în odaie)</stage>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <stage> (intrând repede) </stage>
+            <p>Pot... uf... să mă răsuflu!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ridică-ți cușma din cap; te-i răsufla mai ușor. Capacu-i de prisos la o oală deșartă.</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Oală? Eu-s oală? O! furia, asemenea ursului, ca o botniță, mă nădușește, îmboldindu-m-a sparge, asemenea clonțului, ca un ou, temel le pământului...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Fără glumă! Te-nădușă botnița și dorești a-ți sparge clonțul?</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Părul mi se zburlește, ca codrul Her!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Sub cușmă?</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Să fi ascultând în ăst minut, plin de săgețile mâniei, glasul sângelui, ce arde în pieptul meu, ca-n adâncimea munților, ți-aș săpa o prăpastie în fundul sânului, mai mare decât lacul Brateșului, de s-ar îneca lumea toată...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Frunză verde buburuz! Lumea se-neacă-n Brateș; Brateșu-i în sânul meu, glasul arde, sângele în adâncimea munților, un minut plin de săgeți... nu te născuși cumva de când duhul se purta pre deasupra apelor?</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <stage> (gesticulând) </stage>
+            <p>Să te stâlcesc sau nu? Să te zdrobesc sau nu! Să te sfarm sau nu? Să te pisez sau nu? Să te frâng sau nu?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (închinându-se ironic) </stage>
+            <p>Milostivește-te.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (strânge pe Ardelean de braț) </stage>
+            <p>Spune ce-ai de spus sau du-te naibei.</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Liniștește-te, liniștește-te, liniștește-te! Furia mea trece, precum cerul se-nseninează, după ce a vărsat șiroi de ploaie.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Lăsând după sine glodărie.</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Sloboade-mă. Nu mă strânge, nu mă strânge, frățică, așa de tare. D-ai ști câte vitejii neauzite și nevăzute am făcut eu astăzi, d-ai ști; apoi ai da credere că brațul meu, brațul cel strâns, nu degeaba a ostenit, sfâșiind ca oaia, asemenea vulturului, trupul postelnicului</p>
+            <stage> (Moțoc face un pas înapoi între picioarele unui zimbru, spre scăparea lui Vodă, mai comos decât clopotnița Sucevei și mai nalt decât grădina domnească) </stage>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Ha, ha, ha!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Nenorocitule! Vorbește numai despre postelnic, sau, mă jur pe Sfântul Nichita...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Care trage cu clește nasul lui Iscariotchi.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>De mi-i pomeni despre tine...</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Ticăloșilor! Stricaților! Blestemaților! Mișeilor!...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (descingându-se) </stage>
+            <p>Ian’ să-l spânzurăm, Spancioace!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Lasă-l! Îi afumat de viu!</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Eu să-mi tac numele? Să mi-l tac tocmai eu? Să nu pomenesc despre mine?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cu furie) </stage>
+            <p>Turb!</p>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA VII</head>
+          <stage>Cei de mai-nainte și GHIOAGĂ (în odaie)</stage>
+          <sp who="#ghioaga">
+            <speaker>GHIOAGĂ</speaker>
+            <stage> (intrând) </stage>
+            <p>V-am adus o rea veste, boierilor. Postelnicul...</p>
+            <stage> (Zărind pe Ardelean.) </stage>
+            <p>D-apoi tu, muiere, ce faci aice?</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Sănătos, mulțămim, bădiță...</p>
+            <stage> (se pune deoparte) </stage>
+          </sp>
+          <sp who="#ghioaga">
+            <speaker>GHIOAGĂ</speaker>
+            <p>Întâmplarea a fost iată cum. Un zimbru, gonit de vânători, era să dea buzna peste Măria Sa Vodă. Fricosul ista</p>
+            <stage> (arătând la Ardelean) </stage>
+            <p>, care se afla alăture, cum a ochit-o, cum a rupt-o la fugă!</p>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <p>Hi! hi! tare șăgalnic mai ești, bădiță!</p>
+          </sp>
+          <sp who="#ghioaga">
+            <speaker>GHIOAGĂ</speaker>
+            <p>Atunci postelnicul s-a aruncat orbiș, ca fulgerul, asupra fiarei... Halal de viteaz... l-am văzut sub picioarele zimbrului și-am alergat în pripă să vă dau de știre.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA VIII</head>
+          <stage>Cei de mai-nainte și IȚIC (în odaie)</stage>
+          <sp who="#itic">
+            <speaker>IȚIC</speaker>
+            <stage> (intrând și plecându-se până la pământ) </stage>
+            <p>Sărut dosul talpelor Domniilor-Voastre.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Avem alte dosuri mai lesne de găsit.</p>
+          </sp>
+          <sp who="#itic">
+            <speaker>IȚIC</speaker>
+            <stage> (ridicând capul) </stage>
+            <p>Of! prietenul meu a murit... of... a murit dator...</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA IX</head>
+          <stage>Cei de mai-nainte și CLOANȚA (în odaie)</stage>
+          <sp who="#cloanta">
+            <speaker>CLOANȚA</speaker>
+            <stage> (intrând) </stage>
+            <p>Pentru răposatul, ca să treacă-n împărăția cerului, mulți cocoși?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Fugi d-acolea; ai nimerit tot între cocoși!</p>
+          </sp>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <stage> (arătându-și capul prin fereastra din stânga) </stage>
+            <p>Am un toiag gata... măsura postelnicului!</p>
+          </sp>
+          <sp who="#suchinsinusichin">
+            <speaker>SUCHINSÎNUSICHIN</speaker>
+            <stage> (arătându-și capul din fereastra din dreapta) </stage>
+            <p>Am papuci negri gata... măsura postelnicului!</p>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA IX</head>
+          <stage>Cei de mai-nainte și PAIAZZO (în odaie)</stage>
+          <sp who="#paiazzo">
+            <speaker>PAIAZZO</speaker>
+            <stage> (intră gesticulând) </stage>
+            <p>Am adus o băutură sculătoare...</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Nu pentru noi.</p>
+          </sp>
+          <sp who="#paiazzo">
+            <speaker>PAIAZZO</speaker>
+            <p>Piro-etero-hidro-cthono-fumo-vidogetică.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Adecă az-buchi-vede-glagol-dobrojivetică.</p>
+          </sp>
+          <sp who="#paiazzo">
+            <speaker>PAIAZZO</speaker>
+            <p>Mult-puternică pentru învierea morților...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (apucă pe Paiazzo de mijlocul trupului și-l aruncă prin fereastra din stânga, peste capul lui Chiucuruzopulos, care striga: Kirie eleison!) </stage>
+            <p>Iaca ți-i învierea morților! Iaca ți-i învierea morților!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (apucă pe Ițic de mijlocul trupului și-l aruncă prin fereastra din dreapta, peste capul lui Suchinsînusichin, care strigă: Gospodi pomilui!) Iată-ți datoria! (Ghioagă și Cloanța fug pe ușă, țipând: Omor! omor!) </stage>
+          </sp>
+          <sp who="#ardeleanul">
+            <speaker>ARDELEANUL</speaker>
+            <stage> (cu mâna pe ușă) </stage>
+            <p>Și pe mine mă bateți? Și pe mine? Mine?</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (împingându-l afară) </stage>
+            <p>De-o fi țara-n primejdie, o să te chemăm de olac, ca s-o scapi cu minciuni, precum se obișnuiește.</p>
+            <stage> (se pune călare pe fereastră) </stage>
+            <p>„Șerpe a murit, murrrit! Veselește-te, Moțoace... aflând că Vodă a scăpat de perire... prin moartea postelnicului, a cărui faptă, mă-nțelegi, a cărui faptă trebuie să umple de bucurie pe credincioasele slugi ale domniei... mai vârtos, mai vârrtos pe tine!”</p>
+            <stage> (sare în uliță) </stage>
+            <p>Mă duc la Marghiolița mea.</p>
+            <stage> (Dispare cântând) </stage>
+            <p>Știți voi fata cum se ține?</p>
+            <p>Cu stafide și alune,</p>
+            <p>Cu covrigi de la pitari</p>
+            <p>Și cu vin de la crâșmi...</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA X</head>
+          <stage>MOȚOC (singur)</stage>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (închizând ferestrele și încuind ușa din fund) A lipsit nebunul! Nebun, nebun, nu-i vorbă; dar îi un nebun moldovean: șiret pân' și-n nebun le sale! Și-apoi îi foarte desfrânat... fără frica lui Dumnezeu... nu-i nici de o treabă! (se pune în mijlocul odăii, zâmbește și-și freacă mâinile) Bucură-te, Moțoace! Șerpe nu mai ființează, deși mâna ta a rămas nescăldată-n sângele-i! Ar trebui să fac o capiște pentru înțeleptul zimbru, care a priceput că viața postelnicului e de prisos în lume. De prisos! Ha, ha, ha! Acum îmi vine a râde și mie! ceea ce mi se-ntâmplă numai la Paști! Ha! ha! ha! (se așază pe scaun, într-o poză măreață) Minunat lucru! O să lingușesc pe mitropolit, doară mi-a da voie de a mă cununa mai degrabă. Ileana-i nepoata hatmanului Arbure... Peste un an, cel mult peste doi... peste un an și jumătate, voi fi rânduit vel-vistiernic, o să-mi cumpăr șase moșii, două sute case de țigani; apoi voi răsturna pe domn, voi pune în scaun un alt vodă, un vodă din mâna mea, un vodă care să asculte toate poruncile mele! După aceea mi-oi mai cumpăra zece moșii și trei sute de case de țigani... (se scoală și aruncă scaunul) Ți s-a împlinit visul, Moțoace! Unde-i Ileana, ca să mă vadă cum sunt, nu cum am fost! De acuma ești a mea, a mea pentru totdauna, mândro copilă cu plete de aur. (pășește înspre ușă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="8">
+          <head>SCENA XI</head>
+          <stage>MOȚOC și ILEANA</stage>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (intrând prin ușa lăturalnică) </stage>
+            <p>A ta pentru totdeauna? Ochi-ți strălucesc cu-un foc neobișnuit...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Trădător ochi! Trebuie să mi-i scot, pentru ca tainicele urziri ale cugetului să nu străbată  niciodată prin vicleana oglindă a inimii! Dar, vai! femeia are darul de a ghici cu simțul, ceea ce bărbatul poate să pătrundă numai cu mintea!</p>
+            <stage> (face un pas înapoi) </stage>
+            <p>Stai acolo, Ileano! Stai să te privesc pentru cea întâi dată cu liniștita mulțumire a unui stăpân, nebântuit în drepturile sale! Să te privesc, fără a mă sfii, fără a tremura... pentru tine! O, acum îmi pari o mie de ori mai frumoasă, mai drăgăstoasă, mai fermecătoare! Ce ochi... ce sprâncene... ce buze... și aceste buze le-a sărutat un altul! Și acest sân a adăpat pofta unui...</p>
+            <stage> (pune mâna pe sabie) </stage>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>O, cât de mândru ești acuma, Iancule! Lasă, lasă mâna pe sabie... un braț înarmat aprinde dorul femeiei.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (apropiindu-se și punând mâna pe umărul Ilenei) </stage>
+            <p>Iubito! De azi înainte să nu mai aud numele lui Șerpe; o slugă, care va cuteza să-l rostească înaintea mea, nu va mai rosti nici un alt cuvânt în viață... Ieșit din gura ta, acest nume va fi-n stare să mă turbe! O dată pentru totdauna, el... el nu mai trăiește.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Ucisu-l-ai?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ce-ți pasă?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Dar prepusul...? Judecata?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ce-ți pasă!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Osânda...?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ce-ți pasă!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <stage> (aruncându-se în brațele lui) Cu tine nu-mi pasă de nimic! Fără tine... n-oi mai fi! Fără tine tot nu-mi pasă de nemic! (S-aude în uliță apropiindu-se și apoi depărtându-se corul:) </stage>
+            <p>Zimbri-n coame învăliți,</p>
+            <p>Cerb-n coarne înfloriți,</p>
+            <p>Umblă fără teamă:</p>
+            <p>Vânătorilor-copii!</p>
+            <p>La păduri mereu pustii</p>
+            <p>Buciumul vă cheamă!</p>
+            <stage> (bis) </stage>
+            <p>Om de treabă-ntr-un oraș</p>
+            <p>Giaba-și caută lăcaș,</p>
+            <p>Vicleni-i ciuma!</p>
+            <p>Cel vârtos pe cel slăbuț,</p>
+            <p>Cel deștept pe cel prostuț</p>
+            <p>Vinde și sugrumă!</p>
+            <stage> (ter) </stage>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Cântecul vânătorilor domnești. Vodă se-ntoarce. Du-te în cămara-ți, Ileano. Pregătește-te a plânge... a plânge din ochi, așa-i obiceiul! Și eu... și eu încă voi plânge!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Un cuvânt, Iancule!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Spune.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Întorcându-mă de la mătușa mea, întâlnii pe mama Marghioliței... așa-i zic oamenii; alt nume nu-i cunosc; aceea care-mi tocmește slujnicele...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Spune-mi pe scurt.</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Mai pe scurt... O, Iancule! Aș vrea să-nconjur: cuvântul e greu de rostit...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ce are a face cu tine mârșava mamă a ibovnicei lui Spancioc? Muiere fără nume, fiind fără cinste! Târâtura ulițelor, a cărei meserie e de a duce femei la bărbați și bărbați la femei, stricând casele gospodarilor?</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Vodă o trimisese la mine...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Vodă!</p>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Vodă vrea...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Nu sfârșește! nu sfârșește, Ileano! căci îmi vine a te străpunge, pentru ca să fii nici a mea, nici a altuia! Vodă! O, vei avea a face cu mine...</p>
+            <stage> (cineva bate la ușa din fund) </stage>
+          </sp>
+          <sp who="#ileana">
+            <speaker>ILEANA</speaker>
+            <p>Cine să fie?</p>
+            <stage> (se uită în uliță prin geamul ferestrei) </stage>
+            <p>Strigoiul! Aleu, Iancule!</p>
+            <stage> (cade leșinată în momentul când ușa se sparge sub o lovitură) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="9">
+          <head>SCENA XIII</head>
+          <stage>Cei de mai-nainte și COSMA ȘERPE</stage>
+          <stage>(pe prag, cu mâna stângă legată)</stage>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <p>Glasul ei! striga: Iancule!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (făcând semnul crucii) </stage>
+            <p>Piei, drace!</p>
+          </sp>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <p>Aa! sugarule!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (scuipându-l) </stage>
+            <p>Piei, satano!</p>
+          </sp>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <stage> (ștergându-și fața) Ți-a veni-ndată rândul, fecior de lele! (scoate pumnarul și face un pas spre trupul Ilenei) O vezi? Nu eu, tu o ucizi! (ridică pumnarul asupra Ilenei) </stage>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (se repede la el, înalță sabia și apoi o lasă în jos; iarăși o ridică și lovește pe Șerpe în piept) </stage>
+            <p>Fie ce-a fi.</p>
+          </sp>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <stage> (căzând în creștet) </stage>
+            <p>Să trăiești, fiastre... Doamne, primește sufletul meu.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (cercând trupul lui Șerpe cu piciorul) Trup... trup, nu stafie! Tu m-ai luat orfan, tu m-ai crescut, tu m-ai învățat a purta arma... eu te-am ucis! (își ascunde fața în mâini) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="10">
+          <head>SCENA XIV</head>
+          <stage>Cei de mai-nainte și MĂCIUCĂ</stage>
+          <sp who="#maciuca">
+            <speaker>MĂCIUCĂ</speaker>
+            <p>Măria Sa Vodă vrea să știe despre starea sănătății...</p>
+            <stage> (zărește trupul lui Șerpe și al Ilenei) </stage>
+            <p>Doi morți!</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Starea sănătății... hm!</p>
+            <stage> (arătând cu mâna trupul lui Șerpe) </stage>
+            <p>Vezi câtu-i de sănătos! E roșu de sănătate!</p>
+            <stage> (către Ileana) </stage>
+            <p>Așteaptă-mă, dimonule meu! Nu mă vei aștepta mult! Cerul sau iadul, unul din două, trebuie să mă ajute!</p>
+            <stage> (vrea să iasă) </stage>
+          </sp>
+          <sp who="#maciuca">
+            <speaker>MĂCIUCĂ</speaker>
+            <p>Stai, hoțule! Nu vei ieși de acolea.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Și cine m-ar opri să ies?</p>
+          </sp>
+          <sp who="#maciuca">
+            <speaker>MĂCIUCĂ</speaker>
+            <p>Eu.</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Tu? Lipsește, mojice! Mâna deprinsă a sfâșia leii nu se pogoară pe un păcătos de iepure! Două omoruri într-o zi, va fi prea mult! Dă-mi drumul!</p>
+          </sp>
+          <sp who="#maciuca">
+            <speaker>MĂCIUCĂ</speaker>
+            <p>Ia-l, dacă poți, boierule! Cearcă, dacă poți, virtutea mojicului! Un ucigaș de oameni nu e om, dar boier poate să vă fie! Ești boier, și cu toate astea nu-i fugi de aice! Sunt bătrân de zile, slab ca frunza, dar...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <p>Ești prea vorbăreț! Ți-e greu de trăit în lume?</p>
+            <stage> (îl întinde mort) </stage>
+            <p>Dracul mi-a venit în sprijin! Ce gând mântuitor! De-acum înainte nu mai am nevoie de a fugi!</p>
+            <stage> (pune sabia lângă Măciucă, se uită la sine) </stage>
+            <p>Nici o picătură de sânge!</p>
+            <stage> (deschide fereastra și strigă) </stage>
+            <p>Arcașul Măciucă a ucis pe vel-postelnicul Cosma Șerpe.</p>
+          </sp>
+        </div>
+        <div type="scene" n="11">
+          <head>SCENA XV</head>
+          <stage>Cei de mai-nainte, CHIUCURUZOPULOS, SUSCHINSÎNUSICHIN, FLORICA, APRODUL</stage>
+          <stage>(în uliță)</stage>
+          <sp who="#chiucuruzopulos">
+            <speaker>CHIUCURUZOPULOS</speaker>
+            <p>Arcașul Măciucă a tăiat capul postelnicului.</p>
+          </sp>
+          <sp who="#suschinsinusichin">
+            <speaker>SUSCHINSÎNUSICHIN</speaker>
+            <p>Arcașul Măciucă a sugrumat pe postelnic cu toată casa!</p>
+          </sp>
+          <sp who="#florica">
+            <speaker>FLORICA</speaker>
+            <stage> (trecând repede) </stage>
+            <p>Arcașul Măciucă a ars de viu pe postelnic cu doamna și slugile și s-a făcut nevăzut.</p>
+          </sp>
+          <sp who="#aprodul">
+            <speaker>APRODUL</speaker>
+            <stage> (urmărind pe Florica) </stage>
+            <p>Arcașul Măciucă a înecat pe postelnic, a furat pe doamna sa și a fugit la turci!</p>
+          </sp>
+          <sp who="#mai_multe_glasuri">
+            <speaker>MAI MULTE GLASURI</speaker>
+            <stage> (în ulițele învecinate) </stage>
+            <p>Arcașul Măciucă cu zece tovarăși a spintecat pe postelnic, a spânzurat pe doamna sa...</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (închizând fereastra) Sunt curat înaintea oamenilor. Oameni! (ia pe Ileana în brațe și iese repede, prin ușa lăturalnică) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="12">
+          <head>SCENA XVI</head>
+          <stage>ȘERPE (singur)</stage>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <stage> (ridicând capul) Strigoiul... aleu, Iancule! piei, drace! piei, satano!... Aceste cuvinte îmi sunt adânc săpate în inimă; dar de unde le-aș fi luat, – nu știu. (vrea să se scoale și se apucă de piept) Vai pieptul! O mie de ace... of! Unde-i zimbrul? Unde-i codrul? Unde-i Vodă? (pune mâna pe frunte) Strigoiul... valeu, Iancule... Iancule... nu-mi aduc aminte! Cum să nu-mi aduc aminte...? Zimbrul-i oborât, mâna mi-i legată, hai acasă; te-așteaptă Ileana... O, Doamne! Ileana-Moțoc, Moțoc Ileana, Moțoc-Ileana... văd totul! Trupul nu mă mai doare! Durerea sufletului e prea mare, pentru ca să se simtă o zgârietură! Adevărul se descoperă înaintea ochilor mei în toată a sa golitate. Bat la ușă; aud „strigoiul! aleu, Iancule” stric ușa; ea leșinată; el alăture... cum a fost mai departe? Ucis-o-am? Zdrobitu-l-am! Ah, rană! Simt cum sângele se-ncheagă pe trup și fierul zalei se face piele! Mântuitorule! Acel Cosma Șerpe, pe care Ștefan cel Bătrân îl numea floarea voinicilor; acel Cosma Șerpe, al cărui singur numele fugărea sute de dușmani; acel Cosma Șerpe, al cărui braț niciodată nu s-a sfiit de a lovi d-a dreptul zimbrul, împăratul codrilor; acel Cosma Șerpe... azi îl înșeală o muiere, îl ucide un copil! Și ce muiere? Soția lui! Și ce copil? Fiastrul său! O! să mă vadă acum cineva... ei m-ar face babă! Mă doare... mă schingiuie... mă rupe! Iadul avea-va el îndestule munci pentru pedepsirea unei astfel nedumnezeiri? Oamenii găsi-vor ei vrednică osândă pentru o așa fărădelege? Încotro fugi-vor ticăiții denaintea judecății omenești? Denaintea răsplatei cerești? Cum ascunde-vor ei fapta lor? Ard... pieptule! Îndură-te... ah! mă-năduș... îngheț! (se uită împrejur și zărește trupul lui Măciucă) Ce văd? Trăsnitu-l-a fulgerul? Răsplătitu-l-a așa curând mânia cerului? (se târâie până la Măciucă) Un arcaș! Un moșneag! Îmi pierd mințile! Oare nu cumva... (se uită la sabia lui Măciucă) Ah! încep a înțelege. Morții nu grăiesc; ei sunt vinovați! Adeseori ucisul se pare a fi ucigaș! Sărmana jertvă! Tu ai căzut pentru a șterge pata adevăratului hoț! Lumea era să zică că tu mi-ai răpit viața; tu care erai c-un picior în groapă! Numele tău, ajuns curat până la bătrânețe, era să fie afurisit în aducere-aminte! Învechitele-ți rămășițe erau să fie aruncate hrană corbilor! Numai bunul Dumnezeu ar fi cunoscut curățenia inimii tale! Asta mi-i mai ușor. (pleacă capul pe pieptul arcașului) </stage>
+          </sp>
+          <stage>SCENA XVII
+ ȘERPE și SPANCIOC</stage>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (se aude cântând în uliță) </stage>
+            <p>Frunză verde de răchită!</p>
+            <p>Marghiolița mea iubită!</p>
+            <p>Sprâncenele-i închinate</p>
+            <p>Gândurile-s ale mele toate;</p>
+            <p>Ochi-ți gemeni-cărbunei</p>
+            <p>Ard, uitându-se-n ai mei;</p>
+            <p>Al guriței tale rai</p>
+            <p>Soarele-i al meu de mai;</p>
+            <p>Ale tale negre plete</p>
+            <p>Strigă: „Vino-ncoace, băiete,</p>
+            <p>Că-n umbraticul meu cort</p>
+            <p>Hazuri mii ascunse port!“</p>
+            <p>Trupușoru-ți mic și sprinten,</p>
+            <p>Pentru mine-i chiar un pinten,</p>
+            <p>Ce mă-npinge la păcat,</p>
+            <p>La păcat de sărutat,</p>
+            <p>De tot beau fără să mă-mbat!...</p>
+            <stage> (Intrând) </stage>
+            <p>Ba m-am îmbătat; n-am ce zice! M-am îmbătat pentru ușurarea sufletului răposatului Șerpe, blago, blago... go... goslovească-l toți sfinții!</p>
+            <stage> (zărind trupurile) </stage>
+            <p>Brrr! Un țintirim! N-am ce zice! Morții sunt culcați unul pe altul... prin urmare, așadar, fără îndoială, morții fiind culcați unul pe altul, am nimerit în rai. Pe cine să mă culc oare? Ce prost sunt! Ce go... go... gogoman! N-am ce zice! Să intru eu în rai fără Margo... go... go... golița mea! Bre! D-apoi mai năzuiește cineva.</p>
+            <stage> (se uită la ușă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="13">
+          <head>SCENA XVIII</head>
+          <stage>Cei de mai-nainte și ARMAȘUL</stage>
+          <sp who="#armasul">
+            <speaker>ARMAȘUL</speaker>
+            <p>Viu cu porunca Măriei Sale, lui Vodă.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Poruncile domnești, auzi, nătărăule, nu se primesc în rai.</p>
+          </sp>
+          <sp who="#armasul">
+            <speaker>ARMAȘUL</speaker>
+            <p>Arcașul Măciucă a omorât pe boierul postelnic.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Măi! Tu ești beat! Ești beaat cumsecade!</p>
+          </sp>
+          <sp who="#armasul">
+            <speaker>ARMAȘUL</speaker>
+            <p>Măria Sa mi-a poruncit de a aduce la curtea domnească pe soția răposatului, doamna Ileana.</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <p>Hi! hi! Bun gust are Măria Sa! N-am ce zice!</p>
+          </sp>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <stage> (se ridică repede; Spancioc și Armașul retrogradează, făcând cruci) </stage>
+            <p>Pe Moțoc l-am îmbrățișat și el m-a ucis; lui Vodă i-am scăpat viața și el... Doamna Ileana nu este a mea; s-o ia Vodă de la Moțoc!</p>
+          </sp>
+        </div>
+        <div type="scene" n="14">
+          <head>SCENA XIX</head>
+          <stage>Cei de mai-nainte, MOȚOC și ILEANA (moartă)</stage>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (înaintând) </stage>
+            <p>S-o ia de la mormânt; ea a murit de spaimă!</p>
+          </sp>
+          <sp who="#serpe">
+            <speaker>ȘERPE</speaker>
+            <stage> (către Moțoc) </stage>
+            <p>Tu! Apropie-te; uită-te drept în ochii mei... așa... nu te ucid ochii mei?</p>
+          </sp>
+          <sp who="#motoc">
+            <speaker>MOȚOC</speaker>
+            <stage> (plecând capul) </stage>
+            <p>D-ai fi tu sabie, Postelnice, – te-aș privi drept în față!</p>
+          </sp>
+          <sp who="#spancioc">
+            <speaker>SPANCIOC</speaker>
+            <stage> (făcând din mână) Sunt bieți, sunt prăpă... pă... pădiți cu toții! N-am ce zice! (În uliță se aude din depărtare o muzică de nuntă.) </stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

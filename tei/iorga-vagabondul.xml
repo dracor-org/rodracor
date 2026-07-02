@@ -1,0 +1,1481 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="https://dracor.org/schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ro000078" xml:lang="ro">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vagabondul</title>
+        <author>
+          <persName>Nicolae Iorga</persName>
+          <idno type="wikidata">https://www.wikidata.org/entity/Q313581</idno>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher xml:id="dracor">DraCor</publisher>
+        <idno type="URL">https://dracor.org</idno>
+        <availability>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://commons.wikimedia.org/wiki/File:Nicolae_Iorga_-_Vagabondul_-_dramă_în_trei_acte.pdf">Wikimedia Commons. Dacoromanica. Biblioteca Digitală a României</ref>
+          <availability>
+            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</licence>
+          </availability>
+        </bibl>
+        <bibl type="originalSource">
+            <availability>
+              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+            </availability>
+        </bibl>
+
+        <listEvent>
+          <event type="print" when="1940">
+            <desc>1940</desc>
+          </event>
+        </listEvent>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="lina_firescu" sex="FEMALE">
+            <persName>LINA FIRESCU</persName>
+          </person>
+          <person xml:id="chiriachita" sex="FEMALE">
+            <persName>COCOANA CHIRIACHIŢA</persName>
+          </person>
+          <person xml:id="politaiul" sex="MALE">
+            <persName>POLIŢAIUL</persName>
+          </person>
+          <person xml:id="viorica_haruz" sex="FEMALE">
+            <persName>VIORICA HARUZ</persName>
+          </person>
+          <person xml:id="victor_firescu" sex="MALE">
+            <persName>VICTOR FIRESCU</persName>
+          </person>
+          <person xml:id="oarba" sex="FEMALE">
+            <persName>OARBA</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <textClass>
+        <keywords>
+          <term type="genreTitle">Drama</term>
+        </keywords>
+        <classCode scheme="http://www.wikidata.org/entity/">Q25372</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <standOff>
+    <listRelation>
+      <relation name="wikidata" active="https://dracor.org/entity/ro000078"/>
+    </listRelation>
+  </standOff>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Vagabondul</titlePart>
+        </docTitle>
+        <docAuthor>Nicolae Iorga</docAuthor>
+      </titlePage>
+      <castList>
+        <castItem>
+          <role>LINA FIRESCU</role>
+        </castItem>
+        <castItem>
+          <role>COCOANA CHIRIACHIŢA</role>
+        </castItem>
+        <castItem>
+          <role>POLIŢAIUL</role>
+        </castItem>
+        <castItem>
+          <role>VIORICA HARUZ</role>
+        </castItem>
+        <castItem>
+          <role>VICTOR FIRESCU</role>
+        </castItem>
+        <castItem>
+          <role>OARBA</role>
+        </castItem>
+      </castList>
+    </front>
+    <body>
+      <div type="act" n="1">
+        <head>ACTUL 1-iu</head>
+        <div type="scene" n="1">
+          <head>SCENA a 1-a</head>
+          <stage>(O modestă casă de provincie.)</stage>
+          <stage>LINA FIRESCU. COCOANA CHIRIACHIŢA. POLIŢAIUL.</stage>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Te supăr, fetiţo, te supăr... Iaca am venit şi eu... Cum te ştiu singură... Singură şi tristă. Tot tristă, tot tristă... Uite aşa cu nevoile... Toate pe spinarea ta, fetiţo... Şi cu bătrâna</p>
+            <stage> (se bate peste gură) </stage>
+            <p>. Doamne fereşte! Doamne fereşte! Aşa nenorocire, pe dânsa şi pe d-ta....</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Pe mine nu. Eu îmi fac datoria. Şi atâta fericire am şi eu: că o pot îngriji... Dacă nu mă. siliai</p>
+            <stage> (se reiea) </stage>
+            <p>, dacă nu aduceai vorba, aşa cum eşti d-ta, - de milă. de sigur... Şi de iubire, iubire pentru mine, nu ţi-o spuneam ...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Da, scumpa mamei, dragă ce-mi eşti, că aşa singură, cum sânt şi eu: nici bărbat, nici copii,  nici rude, ci tot aşa, de la casă la casă...</p>
+            <stage> (Lina zâmbeşte.) </stage>
+            <p>Te-am prins, te-am prins... Râzi... Râzi de mine... Lasă, lasă, ne-om socoti noi... Că, vezi d-ta, ce să facă şi omul?... Ar mai trăi aşa o viaţă pustie ca a mea, dacă  n-ar  vedea că şi alţii?...</p>
+          </sp>
+          <sp who="#una">
+            <speaker>UNA</speaker>
+            <p>Şi alţii sufăr...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Ei da, aşa e... Se vede că Dumnezeu a lăsat aşa: că omul se întristează de bucuria altuia şi de necazul al-tuia se bucură. Se întristează când bucuria e la casa altuia şi nu la casa noastră, de şi năcazul împărtăşit tot mai slăbeşte puţin. Dar cum  ne-am  luat cu vorba, şi uite unde am ajuns... Judecăm ale soartei, care sânt mai sus de noi...</p>
+            <p>Ai să mă întrebi acuma {cu aparentă naivitate) de ce am venit... Dar de ce-ţi vin toată ziua? Ia aşa,  ca o vecină... Se văd şi se aud toate peste ulucile noastre, parc-ar fi o singură casă. Şi, dacă nu vii d-ta la mine, vin eu la d-ta.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar judecă d-ta, cocoană, cum trăiesc eu, ce aş avea să-ţi aduc? Ce aş avea să-ţi spun? Ce folos, ce plăcere aş avea să-ţi spun, să-ţi împărtăşesc?... O zi ca alta...</p>
+          </sp>
+          <sp who="#chiriachit_a">
+            <speaker>C. CHIRIACHIŢ A</speaker>
+            <p>Dar nu şi o viaţă ca alta. Aşa cum trăieşti d-ta, numai Sfintele din Vieţile de la Neamţ vor fi trăit... Ce risipă de tinereţă, ce risipă de tinereţă!... Şi iaca trece o lume întreagă: te vede şi nu te preţuieşte, nu te poate preţui... Şi rămâi aici, legată, închisă... Ca la temniţă, ca la temniţă ...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Mă superi tare, cocoană... Dar cheia temniţei eu o am, şi nu mă folosesc de dânsa... Fiindcă aici se cere să fiu... O putere pe care n-o înţelegi d-ta, n-o înţelege nimeni, poate nici eu n-o înţeleg, mă ţine aici... Mă ţine pănă...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Înţeleg : până...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu zi, nu zi! Pănâ va vrea Dumnezeu ... Şi să vrea Dumezeu cât de târziu!...</p>
+          </sp>
+          <sp who="#chiria_chit_a">
+            <speaker>C. CHIRIA CHIŢ A</speaker>
+            <p>Ce frumos, ce frumos!... Iaca eu n-aş putea!... Şi ştii d-ta ce inimă bună am... Că tot inima bună mă face să bat drumurile, să mă uit în gospodăriile altora, să li aduc o vorbă bună, de la mine, de la alţii... Că de vorbe rele mă feresc ca de foc... N-am purtat niciuna de la o casă la alta... Mă vede Cel-de-Sus, şi de aceia mă apără, mă ocroteşte...</p>
+            <stage> (după o clipei de tăcere) </stage>
+            <p>. Şi iaca aşa birui d-ta, o fetiţă...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Mi-au trecut anii când  meritam să mi se zică aşa...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Ei, ei, aşa sânt toate fetele tinere... Că doar aş zice aşa... Dar nu zic, şi d-ta înţelegi ce aş zice... Le birui toate... Şi cum aş zice?, îngustarea de avere, că, nu poate fi vorba de sărăcie într-o casă unde toate sUnt aşa de frumos la locul lor, spălate, curăţate, drese, rostite, de n-ai crede că sUnt moştenite de la părinţi, de la...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Şi de la dânsa? Dar ale ei sunt. Toate sunt ale ei... Şi eu a ei sunt...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Da, însă, dacă este dreptate pe lume, şi alţii ar trebui să se intereseze... Alţii, altul...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Acuma nu te înţeleg...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Dacă te superi, nu mai zic nimica. Numai cât aşa mi-a venit şi mie în minte o icoană... O icoană veche, veche... Răsare tocmai din fundul vremurilor... Şi uite îmi vin lacrimi în ochi; parcă m-aş întoarce înapoi şi l-aş vedea aievea... Un tinerel nalt, cu ochii mari negri... Sprinten şi vioiu... O zvârlugă ... Un om al zărilor, aşa-i ziceam noi... Noi, fetele, că pe atunci eram şi eu fată...</p>
+            <p>O fată ca d-ta, da' mai tânără... O, ce-am zis!... Aşa, puţintel mai tânără... Eram o codană... Şi, drept să-ţi spun... Dar ce fleacuri, mai bine tac din gură...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Ţii mult să vorbeşti de asta?</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Dar dacă mi-a plăcut şi mie pe vremuri!... Şi mult... Pe urmă l-au furat zările...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Te doare ceva? Aşa se întâmplă fetelor de la o vreme.. Le doare... Le doare de ce n-a fost... Dar pe urmă li trece... Nu mi-a trecut mie?...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu mă doare nimic... Îţi place gheranicul din fereastră?... Cât   mi-e de drag să privesc la dânsul!</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Şireata, şireata... Vrei să-mi închizi altă fereastră... Spre ce ar fi putut să fie... Dar aşa s-a dus... Ca un fum... Ca un fum s-a dus, fetiţo... Şi cine ştie dacă s-o mai întoarce... Şi mare nevoie ar fi de dânsul. Şi, pentru dânsul, mare datorie... Nu zi: nu, nu zi: nu, mucenico!... Aşa o dreptate, dreptatea de sus a lui Dumnezeu, la care ne închinăm şi pe care o chemăm în ajutorul nostru...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Am şi eu rugăciunile mele, dar nimănui nu le spun...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Bine faci, fetiţo, bine faci... Aşa e frumos, aşa e nobil... Dar noi ne rugăm pentru alţii: pentru d-ta</p>
+            <stage> (apă-sând pe cuvinte) </stage>
+            <p>. Pentru dânsa... Şi pentru dânsul... (după</p>
+            <p>9</p>
+            <p>o mai lungă tăcere). Şi ce-ar fi, Doamne, să-l vezi aşa deodată înaintea d-tale... Aşa cum ţi-a fost el, fratele, atunci când l-a luat valul. Dar ce vorbesc eu: sunt ani de-atunci: zece ani, cincisprezece, poate douăzeci... Poate nici nu l-aş cunoaşte... Nu l-ai cunoaşte nici d-ta.... Nici cine ar vrea mai mult, dar i s-au luat ochii...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Aşa-i că-mi vrei binele? De ce mă chinuieşti?</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Ei aşa ! Te-ai şi supărat... Dar cum să nu vorbeşti de cine e între noi? Cum să nu te doară de dânsa... Ci zic eu aşa: să-l vezi, să-l vedem: Cum a fost, cum o fi, cum va fi ajuns... Că mult doresc eu de dânsul... Atâta: să-i văd faţa în treacăt, şi alta nimic. Ştii: am să-ţi spun ceva...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Tot ca până acum ?</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Nu, nu, ceva nou, foarte nou... O să te intereseze, o să te atingă... Poate ai să plângi, dar ai să mă ierţi... Că din gând bun fac eu toate... Lumea zice, proastă cum e lumea, că el a venit, că e aici, că l-au văzut...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Pe...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <stage> (hotărât) </stage>
+            <p>Iaca, pe Victor...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (se zbuciumă) </stage>
+            <p>Ce ştiu eu, în casa mea, de ce ştie lumea de-afară?... Şi ce-i pasă ei de ale noastre?... Dar, mă ierţi...</p>
+            <stage> (Se face a asculta.) </stage>
+            <p>Da, e dumneaei... Mă strigă... Ştii că simte pe oricine a venit, şi, de la o vreme, o oboseşte... Atunci mă cheamă... Nu vreau să te las singură ...</p>
+          </sp>
+          <sp who="#chiriachita">
+            <speaker>C. CHIRIACHIŢA</speaker>
+            <p>Ei da, să mă duc ... Mi s=a mai întâmplat... Aşa te chinuieşte... Dar ce sfântă eşti, ce sfântă!... Nu poţi sta</p>
+            <p>o clipă cu cine te iubeşte mai mult... Dar eu m-am dus.</p>
+            <stage> (Se întoarce din prag.) </stage>
+            <p>Şi, zi, n-a venit?...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (nerăbdătoare) </stage>
+            <p>Nu, nu, nu! Iartă-mă, te rog, nu...</p>
+          </sp>
+          <sp who="#chiriachlta">
+            <speaker>C. CHIRIACHlŢA</speaker>
+            <p>Bine dar: să fie cum zici d-ta.</p>
+            <stage> (Ieşind, întâlneşte pe poliţaiu.) </stage>
+            <p>Dar, uite, pe semne că şi pe altul îl interesează zvonul, - căci, după ce-mi spui, numai zvon poate să fie -, că-ţi cade în casă d. Florescu, poliţaiul.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a</head>
+          <stage>LINA, POLIŢAIUL</stage>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>D-ta, d-le poliţaiu?... Dar ce te poate aduce aici?</p>
+            <p>POLIŢAIUL: Datoria... O neplăcută datorie, dacă-ţi face supărare... Dar n=am încotro... Cum mi se cere, - şi aşa mi se cere, - aşa trebuie să fac...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu înţeleg... Ce poate fi in legătură. cu chemarea d-tale, când aici ştii cine stă... Două fiinţi nenorocite, care nu fac rău nimănui şi care, urmărite încă de curiozitatea bolnavă a unuia şi a altuia, a uneia şi a alteia, se cer numai să fie uitate...</p>
+          </sp>
+          <sp who="#politaiul">
+            <speaker>POLIȚAIUL</speaker>
+            <p>De ce vrei să-mi ascunzi, d-ră, ce s-a petrecut de două zile în această casă, spre care ne uităm cu compătimire toţi oamenii de bine?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar n-o  priveşte...</p>
+          </sp>
+          <sp who="#politaiul">
+            <speaker>POLIȚAIUL</speaker>
+            <p>Şi nici n-o poţi împiedIca... S-a petrecut, ţi-o spun sigur, - şi, de altfel, o ştie o bună parte din oraş, -</p>
+            <p>acel lucru neobişnuit că d. Victor Firescu s-a întors şi este aici...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (energic) </stage>
+            <p>Şi dacă ar fi?</p>
+          </sp>
+          <sp who="#politaiul">
+            <speaker>POLIȚAIUL</speaker>
+            <p>Este, şi, când apare  cineva  după  optsprezece ani... După împrejurările în care a plecat...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (în acelaşi ton) </stage>
+            <p>Care împrejurări? Să le aud!</p>
+          </sp>
+          <sp who="#politaiul">
+            <speaker>POLIȚAIUL</speaker>
+            <p>Le suferi, le suferi, în viitorul d-tale pe care l-a ucis...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>N-am cerut niciodată pentru mine un viitor...</p>
+            <p>POLIŢAIUL: Ţi se datora... Din vina d-tale viitorul ţi-a fost diStrus. Şi dă-mi voie să urmez: Când atâtea s-au spus despre vjaţa lui în toate părţile lumii: amestec în răscoale, în lupte, în aventuri cum nu le-a mai cunoscut acest liniştit oraş...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (hotăirât, cu apăsare) </stage>
+            <p>Nu le ştiu, şi nu privesc pe nimeni decât pe dânsul.</p>
+            <p>POLIŢAIUL: Da, aşa e... Ce avem noi să judecăm ce s-a petrecut aiurea, pe sama altor oameni? Dar d-ta ştii în ce vreme trăim... Ameninţări din afară, dintr-o lume tulburată... Conspiraţii pretutindeni... Legături între revoluţionarii din toate ţările... D. Firescu a venit cu un paşaport? Ce paşaport, că nu i s-a dat de aici unul când a fugit... Da, a fugit, lăsându-vă cum sunteţi: o fată încă nevârstnică... Eu am datoria să informez... Nu pot scăpa de dânsa. Desigur că el se va putea îndreptăţi... Şi voiu fi cel d-intâiu care să mă bucur, căci mi-a fost totdeauna un sincer prieten... Dar eu tebuie să-l văd... Neapărat să-l văd!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar, dacă ar fi aici, dacă în adevăr ar fi aici, - şi în acest moment te asigur că nu este în casă -, ce putere am eu faţă de un om ca dânsul, un om care cunoaşte toată lumea, un om mândru şi hotărît, un om, domnule Florescu, care ne întrece pe noi pe toţi... Caută-l, dacă-ţi trebuie... Iar mie, mie, te rog, - da, te rog, - dă-mi o clipă de pace...</p>
+            <p>POLIŢAIUL: Îl voiu căuta şi, dacă va fi de  nevoie, vom  reveni.</p>
+            <stage> (pleacă.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a</head>
+          <stage>LINA, VIORICA HARUZ</stage>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <stage> (intrând) </stage>
+            <p>Am auzit... Ce nenorocire!... Ce nenorocire nouă!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>De ce nenorocire vrei să vorbeşti, tu, singura mea prietenă, pe care Dumnezeu însuşi mi te-a scos înainte în acest ceas de primejdie, de ameninţare...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar oraşul tot ştie că Victor Firescu s-a întors... Vuiesc de vestea aşa de neobişnuită taifasurile oamenilor fără ocupaţie, cari devin răi tocmai pentru că ocupaţia li lipseşte... Am înţeles de la început ce poate să însemne pentru tine acest eveniment aşa de neaşteptat şi pe care eu, cum ţi-aş zice, îl judec providenţial şi fericit... Ţi-am făcut strajă la poartă...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Tu?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu mă crezi capabilă? Atunci nu mă cunoşti... Adecă nu ştii cum iubesc eu pe cine iubesc... Da, am fost de dimineaţă tot pe aici, în aşteptare... Nu voiam să te nemulţămesc cu veştile mele, dar eram hotărâtă să te apăr... Şi... Şi. ţi-aş spune ceva...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Să aud...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar mi-e greu... Ai să-mi spui că-s indiscretă... Dar te asigur că n-a fost cu voia mea... Eu nu stau la pândă...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar nu înţeleg, nu înţeleg...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Iată... E o jumătate de ceas de atuncea... Era încă aici acel suflet bun, în care se perindă toate zvonurile şi toate calomniile, toate intrigile şi toate pârile, Chiriachiţa, şi nu se înfăţişase poliţaiul ca să ceară pa-şaportul pe care Victor, d. Victor poate... poate nu-l are, - şi pricepi urmările -, când, uşor, de la părăsita odaie de oaspeţi, în care nimeni n-a întrat în cei optsprezece ani de părăsire şi de jale, s-a deschis şi a ieşit, cu fire de păr alb în părul rărit, cu cearcăne adânci in jurul ochilor luminoşi, în atitudinea care înfruntă războiu, cu încredere că e în stare să-l poarte...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Victor... Îmi închipuiam ...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Ce om frumos, Lino! Şi ce păcat să nu rămâie aici! Încremeneşti în faţa lui. Încremeneşti şi, aş cuteza să spun, totuşi nu ţi-e frică... Și acuma te întreb: venit aşa cum a venit, ce facem cu dânsul?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>El ştie şi, pe lângă dânsul, singur Dumnezeu...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar iată-l, să plec...</p>
+            <stage> (își ia de samă) </stage>
+            <p>. Crezi tu că eu trebuie să plec?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Odată ce ştii tot, şi odată ce-ţi place să-l vezi, poţi să rămâi. Poate chiar că şi pentru mine e mai bine să rămâi.</p>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a IV-a</head>
+          <stage>LINA,  VICTORIA, VICTOR</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (fără să observe pe Viorica) </stage>
+            <p>M-am întors. Un oraş mort, mutre de nimica toată. Cum nu v-ați putut face o stradă la douăzeci de mii de locuitori în douăzeci de ani? Şi atâta ridicul în tot, în faţada caselor, în vitrina cafenelelor, în figura oamenilor... Şi ziarele! Ce presă! Aparţineţi altui secol...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Mi-o spui ca şi cum aş fi vinovată eu... Dar, dacă sunt aşa, e pentru că i-au bătut atâtea nenorociri. Şi-i iert, uite: îi iert, pentru câ sunt ai miei, ai noştri.</p>
+            <stage> (Tare.) </stage>
+            <p>Şi ai tăi!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ai miei? Dar ce am eu cu dânşii?... Doar i-am părăsit, şi, atâţia ani de zile, până mi-a înălbit părul de osteneli şi de năcazuri, nu m-am gândit la dânşii...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (calm) </stage>
+            <p>Şi nici la noi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Nici... De ce sunteţi de aice? De ce trăiţi cu ei? Eu, eu eram om de lumea toată...</p>
+            <p>LlNA: Dacă în adevăr ai iubit lumea toată., ai putut măcar să fii fericit, şi aceasta mi-e mângâierea ...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Fericirea mea? Dar m-aş fi întors eu, aşa, dintr-o curiozitate nesănătoasă, ca animalul care trage să moară</p>
+            <p>în culcuşul naşterii sale, m-aş fi întors singur, sărac şi bătrân, dacă aş fi aflat fericirea ?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Şi, atunci,  odată ce n-o afli aici, cum am aflat-o eu...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Tu? Între aceste mobile putrede, supt aceste caraghioase portrete, în acest miros de praf şi de muced ? Doamne, Doamne!...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar tu, să-mi spui acuma, de ce n-ai aflat-o aiurea...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ce ştiu eu!... Unde n-am fost!... În balurile cartierelor studenţeşti ale Parisului, în uzine din Londra, pe corăbii pornite spre alt continent, în case de bancă americane, în colonii de artişti, în funduri africane cu Legiunea străină a Francezilor... Am luat lumină şi orizont, am iubit femei cum nu le are toată ţara noastră, - auzi tu!- am fost bogat, am suferit mult, am trecut prin ceasuri de mare voluptate şi de adânci desperări, şi m-am ales... m-am ales cu dezgustul de oameni...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (încet) </stage>
+            <p>Nu şi de tine?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Nu, în mine e ceva viu care-şi aşteaptă şi acuma ceasul..</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (hotărât) </stage>
+            <p>Şi-l vei găsi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Cine ştie când!... Poate niciodată... Dar trebuie să-l caut...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Şi... Şi, frate Victore...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <stage> (fâră voie) </stage>
+            <p>Domnule Firescu...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Cine e fata asta? Ce costum? Ce figură? Şi ce rost are în destăinuirile sufleteşti pe care mi le-aţi furat?... Da, furat!... Prostia voastră mi le-a furat. Mă înăbuş aici. Vreau aer... Daţi-mi-l!... Dar ce vă cer cu, în asfixia voastră ?... Lino, mi-e milă de tine, dar mâni, pe furiş, să nu ştie nimeni, - fereşte-mă şi de prieteni, de prietene de poliţie! -, fă-mi geamantanul. Geamantanul veşnicei despărţiri... Dacă aţi avea bani...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (indignată) </stage>
+            <p>Noi... Şi acum ?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Da, da, n-aveţi: se vede. Dar daţi-mi libertatea ... M-am prins singur... Vreau să fug... Undeva, oriunde... Ştiu eu de ce?... Pentru neliniştea din mine...</p>
+            <stage> (pleacă) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a V-a</head>
+          <stage>LINA, VIORICA</stage>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (plângând) </stage>
+            <p>Ăsta e...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar ce om care nu seamănă cu alţii!... Ce lucru mare ar fi să-l prindă din zbor cineva...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu-l cunoşti... Nu e om pe lume să-l poată prinde... Nici om, nici femeie... Nimene, nimene... Şi va fi aşa până la moarte.... Iar, nouă, ni moare mâni... Aşa de curând; după atâta uimire şi bucurie....</p>
+          </sp>
+          <stage>(Salonul casei Firescu)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="2">
+        <head>ACTUL al II-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA 1-iu</head>
+          <stage>VICTOR FIRESCU, LINA (făcând bagajul)</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>M-aţi schimbat de odaie. De ce?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>E mai mult aier. E mai largă vedere...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Vedere? O cârciumă de drumul mare, câteva grădini pustii, o ţărancă în zdrenţe, uneori şi beţivi...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (urmează) </stage>
+            <p>Mai largă vedere. Aici venim să ne îngânăm urâtul...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ce mai urât... Ce mai urât... Cum poate trăi cineva aici ?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Aşa cu Dumnezeu... Şi cu datoria noastră.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ştiu, ştiu... Viaţa pentru datorie... Nu, nu, fată proastă. Datoria pe lângă viaţă şi pentru dânsa... Azi una, mâne alta, şisă te ţii! Ca să înaintezi ... Ca să te distrezi... Ca să te joci cu viaţa...</p>
+            <p>•</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>De aceia nu-ţi afli aşezare.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi aici vă adunaţi, cum văd, tesaurele de artă... Plini păreţii... Toate vechi. Galerie a fotografilor veniţi de la I870... Ia să vedem...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu, nu, domnule... Victore... Ba, domnule!... Nu, nu, ar fi o profanare.</p>
+            <stage> (întoarce fotografiile pe dos) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Aşa, păzeşte-i bine... Păzeşte-i bine, ca altfel fug...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Fug alţii</p>
+            <stage> (fixându-l) </stage>
+            <p>. Ei nu... Ei stau pe loc şi păzesc. Păzesc şi mustră...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Asta o cred, dar nu cred altceva</p>
+            <stage> (se apropie de dânsa) </stage>
+            <p>nu cred că răsplătesc.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>N'am nevoie de răsplata lor şi nu cer pedeapsa lor asupra nimănuia...</p>
+            <stage> (Tare) </stage>
+            <p>Înţelegi tu? Îmi ajunge că ei îmi dau o familie...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Mare familie, e drept... Şi mai ales familie  bogată...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Tu o ştii mai bine</p>
+            <stage> (nerăbdătoare) </stage>
+            <p>. Că nu se mai mântuie odată cu împachetatul ăsta!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ţi-i de plecarea mea?</p>
+            <p>LINA:De venirea ta mi-a fost... Mi-a fost ani mulţi. Am îmbătrânit asupra lor</p>
+            <stage> (plânge) </stage>
+            <p>. Te-am aşteptat... Şi n-ai venit... Pleacă azi acela care tot n-a venit...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Eu nu vin, eu trec... Eraţi în drumul mieu... Am avut şi eu o curiozitate... Îmi pare rău de dânsa. Te-am deranjat... Eu deranjez totdeauna... Dar nu mult timp... Aşa-i?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Şi pe cine vei deranja mâne?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Pe cine? Parcă eu ştiu... Unde m-o fi chemând... Eu aud glasuri...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Fie cât mai  iubitoare!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Asta nu!... N-am nevoie... M-am deprins aşa... Asta mă ţine. Mă ţine liber şi tare...</p>
+            <stage> (Uitându-se la bagaj.) </stage>
+            <p>Nu uita panglicile mele...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Ce sunt?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Farmece... Farmece de la o lume simplă şi sălbatecă... Ce ştiu eu... Dar mi-au spus să nu mă despart de ele, şi iată o fac!... Aşa în neştire... Ca tot ce fac...</p>
+            <stage> (Se uită pe fereastră.) </stage>
+            <p>Dar cine e tipul cela în uniformă care Încunjură palatul nostru. S-ar zice o sentinElă care păzeşte pe Suveran...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (se uită şi ea) </stage>
+            <p>A da! Poliţaiul... A venit şi ieri... A fost aproape indiscret. Îndărătnic şi poruncitor... S-a interesat de tine... A aflat că ai venit... Te bănuieşte... Pretinde că are răspundere ... Ţi-a cerut hârtiile.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Mare caraghios şi ăsta, într-o lume destul de caraghioasă... Hîrtiile mele sunt multe şi de tot felul, dar le ţin pentru mine... Pentru mine singur.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Da, însă, fără să aibă o dovadă, el te poate și opri...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Asta ar fi, zău, interesant.,. Victor Firescu reţinut în cetatea sa de naştere... Aştept... Dat în judecată... Proces zgomotos pentru... Pentru vagabondagiu ... Prezenţa domnişoarelor curioase din localitate... Condamnare... Materie pentru jurnalul urbei... Ha, ha, ha!... Ştii că are, că aveţi haz...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar, Victore, eu stăruiu... E vorba şi de liniştea acestei case... Nu vreau să spun mai mult.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>A, dacă e vorba de asta, mă supun, capitulez... Închisoare am făcut în multe locuri: şi la rebelii din Maroc, din munţii Rif... Ştii tu?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Unde sunt şi cum sunt, nu ştiu și nu vreau să ştiu nimic...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Să nu stric toată liniştea acestei case, ospitalieră, pentru o singură noapte....</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>...Victore!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Aduc dovadă. Ce n-am fost eu ? Am cărat  mărfuri în toate porturile lumii, am fost primit în audienţă de prinţi... Am luptat cu barbarii  deşertului... Am</p>
+            <p>cerşit... Am vrut să mor... Mi-am călcat pe inimă şi am trăit... Tot profesii care nu dau certificate... Am fost şi locotenent în Legiunea Străină franceză... M-am bătut... M-am bătut bine... Aşa cum se bat aceia cari n-au, cari nu vreau să aibă nimic pe lume... M-au decorat, şi cred că nu din greşeală ... Şi, când am plecat, fiindcă şi de acolo a trebuit să plec - eu am simţit nevoia să nu fiu în-chis în acele margini, - mi-au dat acest certificat, care, cu paşaport, pe care-l am, sau şi fără, poate linişti pe orice poliţaiu din lume... Dă-i-1... Sau nu, în halul în care te-a pus împachetatul mieu, nu poţi... Să vie cineva pentru asta... Voi slugi n-aveţi...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Eu mătur...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Am măturat şi eu... Dar singur nu i-l duci... E, nu e nimeni pe aici ?</p>
+            <stage> ( Viorica apare.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a lI-a.</head>
+          <stage>ACEIAȘI, VIORICA</stage>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Sunt eu...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (care n-o vedea întâiu) </stage>
+            <p>Eu? ... Cine eu ?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>O prietenă...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (tot cu capu-ntors) </stage>
+            <p>O  prietenă a cui ?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>A cui n-are pe nimeni în lume... A d-rei Lina  Firescu...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (tot întors, căutând  prin hârtii) </stage>
+            <p>Da, uite-te dumneata... Dar ştii că e frumos... Să nu fii slujnică, şi să slujeşti... Să stai în aşteptarea unui ordin... Aşa faci d-ta, cine-ai fi şi cum îţi zice?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Aşa, oricând e nevoie de mine...</p>
+          </sp>
+          <sp who="#v_ictor">
+            <speaker>V ICTOR</speaker>
+            <stage> (în aceiaşi atitudine) </stage>
+            <p>Uite, ia hârtia aceasta şi dă-o domnului care tot aşteaptă la poartă.... Şi adauge din partea mea că poate să-i ajungă. Eu personal nu doresc să-i fac cunoştinţa ...</p>
+            <stage> (Viorica pleacă) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="3">
+          <head>SCENA a III-a.</head>
+          <stage>VICTOR, LINA</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Serviciu prompt... Sprinten curier!.. Îi plăteşti ceva?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Victore, ce vorbeşti? Dar e prietena noastră Viorica... Fiica fostului prefect...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Mare demnitate! Fost prefect în România... Inspiră respect...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>E un suflet fără pereche.</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Se vede... Pentru a te servi astfel..</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar tu o cunoşti...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Eu?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Tu însuţi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dar  unde?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Acasă a fost cu noi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Mare minune!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>A fost şi te-a ascultat în tot ce ai spus... Ai speriat-o...</p>
+            <p>VlCTOR: Parcă numai pe dânsa ...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Şi te-a admirat...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Au mai fost oameni...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>E foarte interesantă... Dar cine să vorbească în faţa ta? A tăcut în colţul ei, dar ţi-a judecat orice cuvânt...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Vreme pierdută...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar nu vei fi uitat pe unde ai fost toată politeţa a-estei case ca să nu spui un cuvânt de mulţămită cui te-a servit pe tine, un străin, cum  numai o servitoare ar fi făcut-o....</p>
+            <stage> ( Viorica se întoarce.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="4">
+          <head>SCENA a IV-a</head>
+          <stage>ACEIAȘI, VIORICA</stage>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Poliţaiul a văzut certificatul d-lui Firescu şi s-a înclinat adânc. Nu cere altă dovadă. Regretă că nu l-a putut cunoaşte...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (se întoarce: pentru sine) </stage>
+            <p>. Frumoasă fată şi sprintenă... Se vede rar una ca . dÂnsa... Şi glas frumos... Un	gând către dânsa la plecare... Apoi altele, altele... Toate rasele, toate colorile...</p>
+            <stage> (Către Viorica:) </stage>
+            <p>N-aş fi crezut că am o aşa de distinsă mesageră ...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Am gâcit că Linei îi e de nevoie să fac aşa...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi d-ta ţii aşa de mult la dânsa ?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Parcă I-aş fi soră...</p>
+            <stage> (se reia) </stage>
+            <p>. Nu  te supăra, domnule...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dar d-ta nu poţi trăi numai pentru alta, oricare ar fi ea...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Ea m-a învăţat, Lina...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ciudate legături... Aşa sUnt rare oR fetele... Dar d-ta Îţi visezi, desigur, o viaţă...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>S-o caut n-am vreme, s-o întâmpin sunt gata...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ca un ostaş?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Fiindcă mă întreabă un glorios ostaş: ei bine, da, ca un ostaş...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Îţi urez un demn adversar...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>S-ar putea să-l şi fac prizonier...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Da, sunt mulţi oameni proşti cari se lasă...</p>
+            <stage> (După o pauză) </stage>
+            <p>. Şi unii chiar cari nu sunt proşti...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Şi, d-le Firescu, fiindcă văd că nu eşti numai omul aspru şi, mă ierţi, şi neînţelegător, de aseară, fiindcă văd că poţi râde, dă-mi voie să te întreb ceva: d-ta ai fost prin multe locuri...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Unde nu? Unde nu?</p>
+            <p>VIORlCA: Şi bune şi rele...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi primejdia e un farmec... Cel mai mare...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Şi te duci iar...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Putem întreba: unde:</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dar tocmai îi spuneam Linei: undeva ... Undeva peste hotar... Peste alte hotare... Tot altele... Până la nesfârşit, - până la sfârşit...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>E lucru mare ce faci d-ta...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Pentru întâia oară mi se spune aceasta. Dar acum te întreb eu pe d-ta: de ce?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Ştiu eu? Poate pentru că umbli după ce nu se poate avea...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Vezi, asta e. Şi d-ta înţelegi.</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Poate că şi eu aş fi făcut aşa...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ciudat, ciudat!... Cine ştie unde, în lumea largă, ne-om mai vedea...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>De ce nu? Viaţa însăşi nu e o minune?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (se zguduie) </stage>
+            <p>. Nu, nu, aşa spun fetele de vrâsta d-tale... Numai ele... Eu însă ştiu... Nu e o minune, nu; e o vrajă, o vrajă rea, şi o vrajă grozavă...</p>
+            <stage> (Către Lina) </stage>
+            <p>. Uitam ceva... Uite, în legiunea noastră din Africa, neştiind nimeni din noi când şi unde va muri, ni facem crucea singuri... O lăsăm, vii fiind, cui va s-o împlânte... El adauge ceva, după numele nostru... Şi</p>
+            <stage> (mişcat) </stage>
+            <p>iată eu am tot purtat aceasră cruce a lui Victor Firescu din popas în popas, de la o luptă la alta, şi nu m-am •putut hotărî să o las</p>
+            <p>în mânile nimănui ... Iată, ţi-o las ţie... Unde oiu muri n-o să ştii, dar atunci când, destul de târziu, vei afla-o, pune-o în cimitirul... în cimitirul vostru...</p>
+            <stage> (Către Viorica) </stage>
+            <p>. D-ta plângi ?... Sentimentalitate de copilă !... Ce ai d-ta cu mine!... Uite ce bărbăteşte o ia asupră-şi Lina...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Mi-ai dat ceva să mă lege de tine?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Nu, nu, nici nu trebuie... Aşa să fie... Aşa trebuie să fie, ca o sarcină cu răspundere... Faţă de...</p>
+            <stage> (se opreşte mişcat) </stage>
+            <p>. Ea, tot nu mă primeşte ?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>S-o întreb</p>
+            <stage> (trece în fund) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="5">
+          <head>SCENA a V- a.</head>
+          <stage>VICTOR, VIORICA</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Nu întreba, nu întreba nimica. Ce te priveşte pe d-ta? Taci! Taci</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Voiu tăcea şi fiindcă ştiu...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Atunci, ştii toate tainele acestei case...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Prin devotament le-am câştigat pe toate... Pe una însă nu...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>ŞI pe aceia ?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Cine ştie dacă prin acelaşi devotament nu voiu ajunge s-o aflu?...</p>
+            <stage> (Lina revine.) </stage>
+          </sp>
+        </div>
+        <div type="scene" n="6">
+          <head>SCENA a VI-a</head>
+          <stage>ACEIAŞI, LINA, OARBA</stage>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (Pe şoptite, foarte tulburată) </stage>
+            <p>Vine!</p>
+            <stage> ( Bătrâna oarbă apare, într-o veche rochie neagră, pipăind) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Să ne retragem noi... Aici un lucru grozav stă să se petreacă. El întrece omenirea noastră de toate  zilele...</p>
+          </sp>
+        </div>
+        <div type="scene" n="7">
+          <head>SCENA a VII-a.</head>
+          <stage>OARBA, VICTOR (vrea s-o ajute)</stage>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>E cineva care vrea să mă ajute... Nu e nevoie... Tu eşti, Lino?... Nu, pe tine, nu te simt... E altcineva... E acolo... Acolo spre fund... De ce se duce în lături?... Te ştiu că tu eşti, dumneata...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Maică bătrână...</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Bătrână, da, foarte bătrână... Bătrână, oarbă, săracă, singură. Dar maică, nu. A cui să fiu maică?... Eu n-am copii... Voi, ce ? Lina, săraca... Ea moartă... A ucis-o cineva... Tu, de-acolo, taci; tu ştii cine a ucis-o... Uită-te la dânsa... Dacă îndrăzneşti, uită-te la dânsa... La mine nu! De ce să te uiţi la mine? Eu nu te văd... Eu nu te ştiu, nu te cunosc...</p>
+            <stage> (Tot mai tare) </stage>
+            <p>Ce cauţi d-ta aicea? Ai lumea largă înainte... Lume a lui Dumnezeu</p>
+            <stage> (face cruce) </stage>
+            <p>, şi mai ajută. Satana... Aici e un mormânt...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Da, un mormânt...</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Dar dintr'însul se ridică un glas... Stăi, şi-l auzi!... O clipă numai, şi pe urmă te duci... Cine să ţie un om ca d-ta?... Cine?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dacă am greşit - şi nu pot decât să greşesc, e mai tare decât  mine, - iartă-mă ... Poate mă duc la moarte.</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <stage> ( apăsat) </stage>
+            <p>Te duci la moarte, desigur. Eu ţi-o spun... Eu, care văd altfel... Văd lung, adânc, văd ce a fost... Văd ce va trebui să fie...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Să mor? De ce? Fiindcă viaţa îmi place... O, cum îmi place! Oriunde...</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>D-ta urmezi o poruncă... Şi o vei urma până la capăt...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Poruncă a cui?</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Vină între cele două fereşti din faţă ... Vezi o femeie şi un bărbat?...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ce chipuri dureroase... Nişte străini ...</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Nu sunt străini. Pe părinţii d-tale îi vezi ?... Colo, colo în faţă...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Da, da, nu 1-am uitat...</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Sunt douăzeci de ani de atunci... Nu i-ai uitat... Dar vezi mai bine: cu cine semeni d-ta : cu dânşii sau cu ceilalţi?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (uimit) </stage>
+            <p>O Doamne, cu aceia!</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Da, da... Cu dânsul  care şi-a luat lumea în cap ca</p>
+            <p>tine, cu dânsa care a murit de durere...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>O, vai!</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Ascultă. A venit ceasul să ţi-o spun... Că de-acuma nu ne-om mai întâlni. Dar trebuie să ştii.. Să ştii de ce n-am vrut să te văd, de ce, în suferinţa noastră, a copilei de acolo şi a mea, eu te iert. Fiindcă te înţeleg... Ascultă! Eu am mai avut şi alt fiu decât pe tatăl Linei. Pe fiul care ţie ţi-a fost tată. Frumos, deştept şi bun. Dar din ce fund de stră-moşi i-a venit, în casa aceasta liniştită, în oraşul acesta paşnic, în ţara aceasta bună, blăstărnul? Un blăstăm din afund, grozav, neiertător. A plecat în lume, fără a-mi spune un cuvânt... Fără milă! De turbat ce era. A plecat, şi    n-am mai auzit nimic despre dânsul. Şi deodată, o Doamne, l-am văzut aici. Atunci vedeam... L-am văzut, cum nu te văd acuma. Era un bătrân, un bătrân zdrobit. Lumea toată o cutreierase şi nu căpătase nimic. Iubise o femeie - o vezi: aceia de acolo : samănă, bună, nobilă, - şi a lăsat-o. A lăsat-o singură pe străzi, cu un copil... Şi ea a murit... Iar el, murind a venit să-mi aducă acel copil, tu... Şi, cu dânsul, acelaşi blăstărn...</p>
+            <stage> (Pripită) </stage>
+            <p>Şi, acuma, fugi, fugi!... Se ţine de tine... Fugi şi du-te la moarte... Ispăşeşte păcatele neştiute.</p>
+            <stage> (Se clătină.) </stage>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Săriţi! Bătrâna moare...</p>
+          </sp>
+          <sp who="#oarba">
+            <speaker>OARBA</speaker>
+            <p>Nu mor eu; moare iertarea pe care voiam să ţi-o dau.</p>
+          </sp>
+          <stage>(Aceiaşi casă)</stage>
+        </div>
+      </div>
+
+      <div type="act" n="3">
+        <head>ACTUL al III-lea</head>
+        <div type="scene" n="1">
+          <head>SCENA I-a.</head>
+          <stage>LINA, VIORICA</stage>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Ce goală-mi pare casa!...  Şi e totuşi  aşa de  mică... Şi ea ţinea aşa de puţin loc într-însa...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu, ea era casa... Ea, aşa puţintică, şi bătrână, şi oarbă... Noi  nu suntem nimic pe lângă dânsa...  Şi era aşa pentru că într-însa era închisă taina... Şi fiecare casă, pentru a trăi, trebuie să cuprindă o taină... Bună, rea, n-are a face! Taină să fie!...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Mă pui pe gânduri... Dar  în mine, atâta cât sunt, nu e nicio taină... Şi eu nu pot crea una ca să umplu golul... Atâta gol cât l-a lăsat ea, ducându-se acolo unde e acuma... E mai mult mormânt aici la noi decât acolo unde este ea... Pentru întâia oară, de când mi-o aduc aminte, mulţămită...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>E bun Dumnezeu, şi el, care face şi desface toate tainele, şi care, cine ştie pentru ce păcate, v-a trimes cândva o taină atât de rea, va găsi acuma, ca sănătate pentru tine, şi una care să fie bună...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Fiindcă ai adus vorba de taină, tu, care n-ai avut niciodată una...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu se ştie... Nu se ştie!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Fie atunci uşoară taina pentru tine şi pentru viaţa ta! Că o meriţi... Ţi-o urez acuma, când, odată cu cea care s-a dus, încetează, nu prietenia, căci aceia va dura o viaţă întreagă, cât mi-ar fi de lungă, ci sarcina grea pe care, din nesfârşita-ţi bunătate şi milă de oameni...</p>
+            <p>VIORICA:Dar cum poţi vorbi tu aşa?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Da, da, mare şi nesfârşită milă de oameni „ De aceea, stând ani de zile lângă nenorocirea mea şi marea mea datorie, ţi-ai primejduit şi tu rostul Ia care aveai dreptul...</p>
+          </sp>
+          <sp who="#vi_orica">
+            <speaker>VI ORICA</speaker>
+            <p>Întâiu, că nu se ştie dacă l-am primejduit... Poţi tu prevedea ce poate să se mai întâmple?... Eu nu prevăd, nu cer, dar, fireşte, nici nu răsping...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Aşa să fie! Ceasul ce-l doreşti să-ţi vie cât mai curând. Iar eu...</p>
+            <stage> (Plânge) </stage>
+            <p>Eu mă simt aşa de parc-aş fi dincolo din viaţă... Parcă şi eu aş fi murit în ceasul acela...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>I-auziţi-o numai cum vorbeşte... Tristeţea pentru ce-ai pierdut o înţeleg şi... o împart cu tine, dar nu pot înţelege de unde-ţi vine această credinţă a închiderii unei vieţi care-ţi poate da încă aşa de mult...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Vorbe...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar ce-am auzit eu, vorbe erau? Tu nu ştii, în oraşul acesta închis, amorţit şi care s-ar părea nesimţitor, ce sentimente au pornit, aşa deodată către tine, când a ieşit înaintea tuturora, petrecut numai de rochiţa ta neagră, sicrieşul în care dormia, în sfârşit împăcată, aceia care, atunci, la despărţirea de lume, s-a învederat ca sfânta oraşului întreg...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu vorbi... Nu vorbi... Îmi faci rău...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar îţi voiu fi făcut bine când vei afla ce frumoasă ai apărut atunci tuturora în marea durere care te înobila... Era în tine o măreţie care a impus tuturora. Ar fi impus şi duşmanilor, dacă un suflet ca tine îi poate avea, iar la tineri cari şi ei îşi caută rostul în viaţă a produs una din acele simţiri care încălzesc, dar şi onorează pe aceia către care se îndreaptă... Vei avea peţitori, Lino... Crede-mă că o să-i ai...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Fugi de-acolo!... Mă superi şi, mai mult decât atâta, mă jigneşti adânc...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Şi cum? Nu crezi tu că această casă goală, întunecată, tristă, ar putea să învie?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>S-o cred? Cu ce drept şi pe ce temeiu? Dar o doresc... O doresc pentru alţii...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Faţă de cari ai avea o datorie? Dar vremea aceasta s-a trecut... A venit aceia în care, mai mult decât oricând, alţii trebuie să aibă o datorie faţă de tine... Şi, iată, eu pe a mea o păstrez...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Tu ai datoria unei fericiri care să fie numai a ta... Şi, Doamne, sunt mai multe zile de când, peste grijile ce le mai am şi care sunt destul de grele, eu parcă aş zări o fericire...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Să nu mi-o spui, să nu mi-o spui... Mi-ar face rău... Are şi sufletul mieu cele ascunse ale lui, şi nici ţie nu-ţi dau voie să le atingi...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (urmând) </stage>
+            <p>Aş zări o fericire, dar nu cutez... Nu cutez fiindcă de dânsa şi restul zilelor ce le mai am, se ţine...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Ştii ce? Atunci mai bine profeţiile acestea cu multă îndoială să le lăsăm în sama viitorului... Deodată îngăduie-mi să te ajut in tot ce mai aşteaptă de la tine, ori: şi de la tine, o resolvire... Şi pe urmă... Pe urmă ce-o fi!...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (tresare) </stage>
+            <p>Ah!</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Te-a trecut un fior? Ai auzit ceva? Te-ai speriat de ceva?...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (ca în vis, merge spre uşa care dădea la odaia oarbei) </stage>
+            <p>.</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Ce faci? Ce faci? Dar ce te poate chema la locul de care, dimpotrivă, ar trebui, măcar un timp, să te fereşti mai mult.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (continuă a înainta, ca o somnambulă) </stage>
+            <p>Dar, Lino, fii cuminte! Ce e cu tine, Lino! Fato, trezeşte-te!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <stage> (zguduindu-se) </stage>
+            <p>Da, tu eşti... Mulţămesc... Mi-ai făcut un mare bine, trezindu-mă... Când se întâmplă să fiu singură - o, ce grozav e să rămâi singură!...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar ...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Victor? Victor nu e un om... E şi el o umbră... O umbră care rătăceşte şi nu-şi poate afla locul... E când ici, când colo... Nici n-a plecat, nici nu e acasă... Îl poartă aşa puteri nevăzute.</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Poate... Poate mai puţin decât înainte... Dar ce-mi vine mie să mă amestec în ce nu mă priveşte?... Mă priveşte numai pentru cât de mult te priveşte pe tine.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Te rog spune-mi... Din  toată inima te rog să-mi spui... Nu-ţi dai samă de cât bine mi-ai putea face...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu, nu... Nu pot să spun... De câte ori e vorba de domnul acela frumos şi mândru, şi... şi aşa de străin de toate, mi se opresc. cuvintele în gât...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Nu-l suferi?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Cum  poţi să întrebi? Şi ce pot să-ţi răspund?·</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Atunci ţi-e frică de dânsul?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Grozav!... Cum nu mi-a fost frică până acum de nimeni pe lume...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar e un om bun ... Foarte bun şi foarte nenorocit... Înţeleg şi una şi alta... Aş înţelege însă mai bine dacă aş fi îndrăznit, în ceasul acela pe care nu-l bănuiam aşa de hotărâtor şi nu credeam că vreodată acele subţiri buze vinete, din care putea să iasă şi blăstăm şi binecuvântare, nu-mi vor mai vorbi niciodată ca să-mi dau samă de ce trebuie să fie, de ce trebuie să fac în lucrurile care stau să vie, dacă aş fi îndrăznit să uit şi să respect şi bunăcuviinţă şi discreţie şi aş fi ascultat la uşă ce s-a petrecut între cele două fiinţi care de aproape douăzeci de ani nu-şi mai stătuseră în faţă şi între care stătea acum să se strecoare moartea ...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Ceas de spaimă, de sigur, dar poate...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>De spaimă, numai de spaimă!... Mă înfior şi acuma     gândindu-mă... Şi de aceia mi se pare că mă cheamă cineva acolo în odaie, că în acel gol întunecat pluteşte încă în cuvinte nerostite o hotărâre care este şi pentru mine... Şi pentru mine, ca să ştiu ce să fac şi cu mine însumi şi cu altul... Şi poate chiar cu alţii... O, Doamne, cum nu pot vorbi morţii!...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar în odaia aceia nu era numai bătrâna, neuitata noastră bătrână...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Acel ce a mai fost n-a deschis buzele, şi eu nu pot îndrăzni să-l întreb...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Lino, te-ai uitat tu la faţa moartei?...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Pentru nimica în lume n-aş fi făcut-o... În biserică-mi strângeam pleoapele de mă dureau, numai să n-o văd...</p>
+            <p>Pe de o parte, voiam să-mi rămâie în mine cum era în atâţia ani de când am slujit pe aceia căreia i se luaseră vederile... Măreaţă în jeţul ei cel vechiu, cu acea faţă neclintită nici de priveliştile din afară, nici de răsfrângerile din lăuntru şi cu acei ochi mari, limpezi, senini, cari se uitau aiurea, în ceva foarte adânc, în ceva foarte departe... Printr-un farmec al ei şi la una şi la alta... Dar n-am vrut să mă uit, ca să nu culeg din urmele acelui vechiu chin un blăstăm pentru omul care, el însuşi, înţeles în toată nenorocirea, în toată fatalitatea lui, nu-l merită...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Şi iată, Lino, tu te înşeli... Eu m-am uitat la dânsa... M-am uitat lung, cu multă grijă... Şi cu strângere de inimă şi eu...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar de ce erai s-o faci?  Cc te privia pe tine dacă era acest blăstăm sau nu?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu mă întreba, nu mă întreba... Fie-ţi milă de mine!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>De tine?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>O să ştii, o să ştii... Dar nu e vremea ... O, nu e ! N-o sili... Poate chiar să nu vie niciodată... Dar nu mă întreba.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Şi zici că te uitai mult, îndelung, stăruitor...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu mi-am luat ochii de la dânsa ... Nu puteam să-1 iau... Şi pentru ce vream să ştiu... Da, am voit, şi am aflat... Dar şi pentru puterea nebiruită ce se desfăcea din acel obraz de ceară... Ea voia să-mi vorbească ... Eram sigură de aceasta... Voia să-mi vorbească mie, pentru că tu n-ai vrut s-o întrebi, şi atunci a vorbit şi ea cui ştie că e mai aproape de tine... Şi, prin tine, chiar...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Chiar, cine?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <stage> (izbucnind nervos) </stage>
+            <p>Dar cine stătea mai aproape de dânsa, după tine însuţi...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Am înţeles... Şi spune: din faţa aceia ce s-a desfăcut ca hotărâre nerostită pe care o aşteptai?...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>S-a făcut deodată o schimbare în ea, pe care nimeni altul n-a băgat-o de samă... Vei spune că sunt puterile ascunse care ne fac şi ne desfac după voia lor... Se poate, dar eu nu cred... S-a făcut o seninătate pe care până în clipa aceia n-o avea... Şi hotărârea ei era... Era – iertare!</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Slavă ţie, Doamne, că aşa a fost! Este, va să zică, o milă şi pentru oamenii nevinovaţi?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Da, în acest giulgiu de iertare s-a înmormântat ca...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar ce se aude? Ce zgomot... Pare că vine de aici, de aproape...</p>
+            <stage> (Tare, speriată) </stage>
+            <p>. E cineva acolo? Care e? Răspunde! Ajută-mă, Viorico!... Cine este ?</p>
+            <stage> (Victor apare în prag) </stage>
+            <p>.</p>
+          </sp>
+        </div>
+        <div type="scene" n="2">
+          <head>SCENA a II-a.</head>
+          <stage>ACELEAŞI, VICTOR</stage>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Mă ierţi,  soro... Mă ierţi,  Lino... Totuşi, orice ar fi, sora mea...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Dar te îndoieşti?...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Eu? Nu!</p>
+            <stage> (pune mâna la gură, arătând odaia oarbei) </stage>
+            <p>. De ce m-aş îndoi? De ce m-aş întreba? Doar acuma suntem pe pământ.</p>
+            <stage> (Face o cruce mare.) </stage>
+            <p>Pe pământ suntem... Şi ...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Domnul Victor are ceva de spus... De şi mă bucur că-l văd, - că-mi este iertat şi mie să mă bucur că-l văd aşa...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Cum?</p>
+            </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar de ce mă întrebi?...</p>
+            <stage> (nervos) </stage>
+            <p>. Ce drept ai d-ta să mă întrebi?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Dreptul cui este şi el cu  un  rost în această  casă..</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar d-tale ce-ţi este această casă! D-ta eşti acel care pleacă...</p>
+            <stage> (mai nervos) </stage>
+            <p>. Găteşte-i bagajul, Lino... Ce, că s-a întâmplat la mijloc o nenorocire?... O bătrână uitată!... Bolnavă... I s-au împlinit zilele şi i s-au isprăvit năcazurile... Lumea e largă: largă şi frumoasă... Sunt oameni fără aripi... Şi de cei cu aripile pe care nu le pot ţinea înfăşurate... Zboară, domnule Victor, zboară ! Şi nu sta lângă noi, lângă noi acestea, înrădăcinatele până la veştejire... Nu sta lângă noi şi...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <stage> (atent) </stage>
+            <p>Și?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Nu ne chinui...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Pe d-ta?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Pe dânsa întâiu...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Pe mine nu... Nu, orice ar fi!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Şi poate nu va fi...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <stage> (urmează) </stage>
+            <p>Şi chiar pe mine...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Cum vorbeşti așa? Şi de ce ?</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Parcă eu ştiu, de ce?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>E bine să n-o ştii d-ta, dar eu... Eu o ştiu... Eu trebuia s-o ştiu... Şi iată, fără voie, auzindu-vă adinioarea ...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>De ce ai auzit?... Iartă-mă!</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Eu sunt de certat... Şi din  cc a  spus  dânsa</p>
+            <stage> (se întoarce spre Viorica) </stage>
+            <p>eu ştiu că am fost certat... De unde nu îndrăznisem a cere o iertare pe care credeam că maica bătrână, - da: maica bătrână: acuma îi pot zice aşa, - a luat-o cu dânsa.</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Tu te-ai temut de blăstăm?</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Văd că nu l-a luat cu dânsa. Şi acuma vă rog să ascultaţi... Eu nu mai pot pleca... Ştii, Lino, crucea pe care·ţi-o lăsam ca s-o împlânţi în cimitir... Am luat-o înapoi... Acuma un ceas, am luat-o... Am dus-o eu însumi în cimitir... Era acolo o seninătate, o mireasmă... Şi cerul albastru, sus, ca o iertare. Şi în genunchi am dus-o până la un mormânt proaspăt, şi, încet, încet, ca să nu-i fac rău ei, am închinat-o acolo. Când am plecat, eram uşor ca un fulg... Mi se părea</p>
+            <p>că m-am uşurat de toate păcatele... Din fund de acolo ea mi le-a luat... Mă simţeam ca un copil... Ca unul care n-a văzut mai departe decât gardul casei părinteşti şi se simte bine acolo... Aveam credinţa că în mine am biruit pe Satana...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Dar el n-a putut fi niciodată într-o inimă ca aceasta...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>Ba a fost, a fost... De el am suferit... Vie, ea nu l-a putut izgoni... După ce a trecut prin taina vieții, a izbutit... Dar mă întrebam în cale  Pc pământul acesta cine mă ţine?</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Mai este iubire pe lume...</p>
+          </sp>
+          <sp who="#victor">
+            <speaker>VICTOR</speaker>
+            <p>A ta desigur că aşteaptă pc cine are a o primi... Dar nu la o astfel de iubire, fie cât de dovedită, mă gândeam... Sunt şi cu un om care simte nevoie de o mângâiere... Şi iată n-am găsit înaintea cui m-ar putea lega, m-ar putea ajuta în lupta care se poate întoarce din nou şi pentru care şi acum eu, cel iertat, mă simt prea slab... Cineva care mi-ar întinde peste acest cap cărunt un acoperemânt şi care,- iertaţi-mi -, mi-ar putea pune cândva în braţe pruncul nevinovat, el primul nevinovat în lanţul blăstămului... El, pruncul iubirii mele... Şi spune d-ta, domnişoară, am fost cu nebun visând de aceasta?...</p>
+          </sp>
+          <sp who="#lina">
+            <speaker>LINA</speaker>
+            <p>Fie-ţi milă de el şi, pentru ce mi-ai fost până acuma, răspunde-i...</p>
+          </sp>
+          <sp who="#viorica">
+            <speaker>VIORICA</speaker>
+            <p>Cui a fost iertat de sfântă, cine nu i-ar putea întinde mân</p>
+          </sp>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
