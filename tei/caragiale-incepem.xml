@@ -107,7 +107,11 @@
         <head>ACTUL I</head>
         <div type="scene" n="1">
           <head>SCENA 1</head>
-          <stage>DIRECTORUL:  (agitat)  Nu și-a terminat conferința d. profesor?</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(agitat)</stage>
+            <p>Nu și-a terminat conferința d. profesor?</p>
+          </sp>
           <sp who="#regizorul">
             <speaker>REGIZORUL</speaker>
             <p>Aș!... are încă un teanc de note.</p>
@@ -120,9 +124,23 @@
             <speaker>REGIZORUL</speaker>
             <p>D-ta l-ai chemat să facă artiștilor o conferință despre piesa cu care debutăm.</p>
           </sp>
-          <stage>DIRECTORUL: Ce era să fac, dragă... Dacă se vâră.  (oftând.)  Ei! tu ești tânăr... nu cunoști încă speța asta: Epitropii și ctitorii intelectualității române...  (se uită la ceas.)  Iacă, mai avem o jumătate de ceas, și nu e nimic așezat, nimeni nu-i gata.</stage>
-          <stage>UN SECRETAR:  (intră cu o tavă plină de scrisori)</stage>
-          <stage>DIRECTORUL:  (către secretar)  Bine dragă! am eu acuma vreme de corespondență? Lasă-mă-n pace...</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Ce era să fac, dragă... Dacă se vâră.</p>
+            <stage>(oftând.)</stage>
+            <p>Ei! tu ești tânăr... nu cunoști încă speța asta: Epitropii și ctitorii intelectualității române...</p>
+            <stage>(se uită la ceas.)</stage>
+            <p>Iacă, mai avem o jumătate de ceas, și nu e nimic așezat, nimeni nu-i gata.</p>
+          </sp>
+          <sp who="#un_secretar">
+            <speaker>UN SECRETAR</speaker>
+            <stage>(intră cu o tavă plină de scrisori)</stage>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(către secretar)</stage>
+            <p>Bine dragă! am eu acuma vreme de corespondență? Lasă-mă-n pace...</p>
+          </sp>
           <sp who="#secretarul">
             <speaker>SECRETARUL</speaker>
             <p>Nu se poate, d-le director, vă rog: măcar câteva... urgente... așteaptă răspuns la moment, sunt de la persoane foarte importante.</p>
@@ -131,13 +149,42 @@
             <speaker>DIRECTORUL</speaker>
             <p>A?</p>
           </sp>
-          <stage>SECRETARUL:  (dându-i o scrisoare)  De la un domn senator, (alta) de la un domn deputat, (alta) de la un domn secretar general,  (alta)  de la o damă venerabilă...  (altele)  vedeți! vedeți!</stage>
-          <stage>DIRECTORUL: Fie!... ia să vedem ce dorește d-nu senator...  (deschide plicul.)  Să angajăm pe o tânără debutantă...  (aruncă scrisoarea, deschide alta.)  D. deputat?... altă debutantă... d. secretar general?... altă debutantă... Să vedem acuma doamna venerabilă... doi debutanți.  (aruncă pe rând scrisorile, luând repede altele.)  Lojă în stânga... gratis; lojă în dreapta... gratis; două fotoliuri aproape de scenă... șapte galerii... gratis... Gratis! gratis!! gratis!!!  (aruncând scrisorile)  ’Aide, pleacă.</stage>
+          <sp who="#secretarul">
+            <speaker>SECRETARUL</speaker>
+            <stage>(dându-i o scrisoare)</stage>
+            <p>De la un domn senator,</p>
+            <stage>(alta)</stage>
+            <p>de la un domn deputat,</p>
+            <stage>(alta)</stage>
+            <p>de la un domn secretar general,</p>
+            <stage>(alta)</stage>
+            <p>de la o damă venerabilă...</p>
+            <stage>(altele)</stage>
+            <p>vedeți! vedeți!</p>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Fie!... ia să vedem ce dorește d-nu senator...</p>
+            <stage>(deschide plicul.)</stage>
+            <p>Să angajăm pe o tânără debutantă...</p>
+            <stage>(aruncă scrisoarea, deschide alta.)</stage>
+            <p>D. deputat?... altă debutantă... d. secretar general?... altă debutantă... Să vedem acuma doamna venerabilă... doi debutanți.</p>
+            <stage>(aruncă pe rând scrisorile, luând repede altele.)</stage>
+            <p>Lojă în stânga... gratis; lojă în dreapta... gratis; două fotoliuri aproape de scenă... șapte galerii... gratis... Gratis! gratis!! gratis!!!</p>
+            <stage>(aruncând scrisorile)</stage>
+            <p>’Aide, pleacă.</p>
+          </sp>
           <sp who="#secretarul">
             <speaker>SECRETARUL</speaker>
             <p>Citiți-o și p-asta.</p>
           </sp>
-          <stage>DIRECTORUL:  (citind)  „Domnule director, deoarece toate administrațiunile publice fără excepțiune au locuri gratuite și permanente la teatru, vă rog să nu ne uitați.”  (vorbind.) / De la cine mai e și asta ?</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(citind)</stage>
+            <p>„Domnule director, deoarece toate administrațiunile publice fără excepțiune au locuri gratuite și permanente la teatru, vă rog să nu ne uitați.”</p>
+            <stage>(vorbind.)</stage>
+            <p>/ De la cine mai e și asta ?</p>
+          </sp>
           <sp who="#secretarul">
             <speaker>SECRETARUL</speaker>
             <p>De la Muntele de pietate.</p>
@@ -150,17 +197,38 @@
             <speaker>SECRETARUL</speaker>
             <p>Dar răspunsurile? Așteaptă răspunsurile.</p>
           </sp>
-          <stage>DIRECTORUL: Ieși.  (secretarul iese, către regizor.)  Sună, d-le! nu mai avem vreme de pierdut cu mofturi! Trebuie să începem.  (regizorul sună; apar artiștii; în mijlocul lor, Profesorul cu servieta la subțioară.)</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Ieși.</p>
+            <stage>(secretarul iese, către regizor.)</stage>
+            <p>Sună, d-le! nu mai avem vreme de pierdut cu mofturi! Trebuie să începem.</p>
+            <stage>(regizorul sună; apar artiștii; în mijlocul lor, Profesorul cu servieta la subțioară.)</stage>
+          </sp>
           <sp who="#profesorul">
             <speaker>PROFESORUL</speaker>
             <p>Da, doamnelor și domnilor, precum am plăcerea să vă demonstrez de o oră și jumătate, știința frumosului este tot așa de exactă ca și matematica. Precum când zic două plus două egal patru și patru minus una egal trei, fac o afirmare care obligă pe orice subiect să-i dea fără rezervă confirmarea.</p>
           </sp>
           <stage>D-na ALEXANDRESCU:  (cască cu mare zgomot) (Râsete)</stage>
-          <stage>PROFESORUL: Să mi se permită o mică digresiune. Nu voi să spun malițiozități asupra acelor persoane care, din nenorocire, orele destinate repauzului nopturn și le consumă în petreceri mai mult sau mai puțin per-nicioase pentru sănătatea corpului și a spiritului, fiindcă aici  (subliniind ironic, în pofida d-nei Alexandrescu)  după toate aparențele, nu poate fi caz de bănuială...  (Alexandreasca, mutră.)  Sper însă că doamna care a căscat acum a treia oară...</stage>
+          <sp who="#profesorul">
+            <speaker>PROFESORUL</speaker>
+            <p>Să mi se permită o mică digresiune. Nu voi să spun malițiozități asupra acelor persoane care, din nenorocire, orele destinate repauzului nopturn și le consumă în petreceri mai mult sau mai puțin per-nicioase pentru sănătatea corpului și a spiritului, fiindcă aici</p>
+            <stage>(subliniind ironic, în pofida d-nei Alexandrescu)</stage>
+            <p>după toate aparențele, nu poate fi caz de bănuială...</p>
+            <stage>(Alexandreasca, mutră.)</stage>
+            <p>Sper însă că doamna care a căscat acum a treia oară...</p>
+          </sp>
           <stage>D-na ALEXANDRESCU:  (înțepată)  Ei ce? De trei ori... la fiecare jumătate de ceas o dată  (către camarazi)  ca doftoriile de insomnie...  (râsete.)</stage>
-          <stage>PROFESORUL:  (o privește cu desconsiderare o clipă, apoi urmează)  Doamnelor și domnilor, se înșeală cine crede că Estetica este un cuvânt pe care l-am avea moștenire de la filozofia antică. Nu! el este de dată relativ foarte recentă; e un cuvânt forgé, un cuvânt creat de celebrul filozof german Baumgarten, discipolul ilustrului Wolf, mort în 1762...</stage>
+          <sp who="#profesorul">
+            <speaker>PROFESORUL</speaker>
+            <stage>(o privește cu desconsiderare o clipă, apoi urmează)</stage>
+            <p>Doamnelor și domnilor, se înșeală cine crede că Estetica este un cuvânt pe care l-am avea moștenire de la filozofia antică. Nu! el este de dată relativ foarte recentă; e un cuvânt forgé, un cuvânt creat de celebrul filozof german Baumgarten, discipolul ilustrului Wolf, mort în 1762...</p>
+          </sp>
           <stage>D-na ALEXANDRESCU:  (stăpânindu-se să nu caște)  Dumnezeu să-l ierte.</stage>
-          <stage>PROFESORUL:  (fără să-i dea vreo atenție)  E destul să spunem că Estetica este acea ramură a științelor înalte, care are de obiect vastul imperiu al Frumosului.</stage>
+          <sp who="#profesorul">
+            <speaker>PROFESORUL</speaker>
+            <stage>(fără să-i dea vreo atenție)</stage>
+            <p>E destul să spunem că Estetica este acea ramură a științelor înalte, care are de obiect vastul imperiu al Frumosului.</p>
+          </sp>
           <stage>D-na ALEXANDRESCU: Nu mai pot! Trebuie să iau o doză.  (cască foarte zgomotas, râsete generale.)</stage>
           <sp who="#profesorul">
             <speaker>PROFESORUL</speaker>
@@ -183,9 +251,27 @@
             <speaker>PROFESORUL</speaker>
             <p>Estetica, fiind o știință exactă, arta nu poate fi lăsată pe mâna celor nepreparați științificește... Nu știi dreptul, nu poți fi avocat, ori magistrat; nu știi medicina, nu o poți exercita; nu știi Estetica nu poți profesa o artă. Arta are nevoie de controlul, de solicitudinea, de protecția Statului...</p>
           </sp>
-          <stage>DIRECTORUL:  (reintră urmat de un frizer; arătând pe profesor)  Uite d-le! uite cap! uite ce-mi trebuie...  (Frizerul consideră și studiază de aproape capul Profesorului.)</stage>
-          <stage>PROFESORUL:  (către frizer)  Pardon...  (către artiști.)  Încă două cuvinte și termin. De aceea eu am fost totdeauna pentru monopolizarea artelor și mai ales a teatrului de către stat... și cum s-a schițat un proiect de lege... Dați-mi voie  (scoate din buzunar note)  să vă citesc articolele fundamentale. Art. întâi...  (toți se uită la ceas.)</stage>
-          <stage>DIRECTORUL:  (foarte plictisit)  Domnule Profesor, mă iertați... e de prisos... Trebuie să-ncepem!</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(reintră urmat de un frizer; arătând pe profesor)</stage>
+            <p>Uite d-le! uite cap! uite ce-mi trebuie...</p>
+            <stage>(Frizerul consideră și studiază de aproape capul Profesorului.)</stage>
+          </sp>
+          <sp who="#profesorul">
+            <speaker>PROFESORUL</speaker>
+            <stage>(către frizer)</stage>
+            <p>Pardon...</p>
+            <stage>(către artiști.)</stage>
+            <p>Încă două cuvinte și termin. De aceea eu am fost totdeauna pentru monopolizarea artelor și mai ales a teatrului de către stat... și cum s-a schițat un proiect de lege... Dați-mi voie</p>
+            <stage>(scoate din buzunar note)</stage>
+            <p>să vă citesc articolele fundamentale. Art. întâi...</p>
+            <stage>(toți se uită la ceas.)</stage>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(foarte plictisit)</stage>
+            <p>Domnule Profesor, mă iertați... e de prisos... Trebuie să-ncepem!</p>
+          </sp>
           <sp who="#profesorul">
             <speaker>PROFESORUL</speaker>
             <p>Înțeleg, dar în orice caz, ca să facă cineva artă îi trebuie...</p>
@@ -213,12 +299,20 @@
             <p>CEI DE SUS — UN SERVITOR.— UN TÂNĂR AUTOR</p>
           </sp>
           <stage>SERVITORUL:  (vrând să anunțe)  D-le director, este aici un tânăr autor.</stage>
-          <stage>TÂNĂRUL:  (intră îmbrâncind pe servitor, poartă un ghiozdan greu de piele)  De prisos, amice, să mă anunți...</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(intră îmbrâncind pe servitor, poartă un ghiozdan greu de piele)</stage>
+            <p>De prisos, amice, să mă anunți...</p>
+          </sp>
           <sp who="#directorul">
             <speaker>DIRECTORUL</speaker>
             <p>Na! altu acum!</p>
           </sp>
-          <stage>TÂNĂRUL:  (cu dezinvoltură către director și ceilalți)  Doamnelor și domnilor, mă iertați că intru așa sans façon! într-un templu al Melpomenei și al Taliei române, intru totdeauna ca la mine acasă.</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(cu dezinvoltură către director și ceilalți)</stage>
+            <p>Doamnelor și domnilor, mă iertați că intru așa sans façon! într-un templu al Melpomenei și al Taliei române, intru totdeauna ca la mine acasă.</p>
+          </sp>
           <sp who="#directorul">
             <speaker>DIRECTORUL</speaker>
             <p>Uf!... Ce dorește domnul ?</p>
@@ -227,7 +321,11 @@
             <speaker>TÂNĂRUL</speaker>
             <p>Mai întâi, d-le director, o scrisoare de la tanti!</p>
           </sp>
-          <stage>DIRECTORUL:  (distrat)  Tanti? care tanti?</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(distrat)</stage>
+            <p>Tanti? care tanti?</p>
+          </sp>
           <sp who="#tanarul">
             <speaker>TÂNĂRUL</speaker>
             <p>Tanti Ema.</p>
@@ -236,7 +334,11 @@
             <speaker>UN ARTIST</speaker>
             <p>Tantiema! mă prinz că sunteți autor dramatic!</p>
           </sp>
-          <stage>TÂNĂRUL:  (naiv)  De unde știi?</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(naiv)</stage>
+            <p>De unde știi?</p>
+          </sp>
           <sp who="#artistul">
             <speaker>ARTISTUL</speaker>
             <p>Melpomena... Talia... Tantiema!</p>
@@ -249,10 +351,28 @@
             <speaker>ARTISTUL</speaker>
             <p>Delicioasă!</p>
           </sp>
-          <stage>DIRECTORUL: Pe doamna Parigoriu? se poate să nu o cunoaștem?  (deschide scrisoarea.)</stage>
-          <stage>TÂNĂRUL:  (zărind pe Profesor face o mișcare de plăcută surpriză, se duce la el și cu multă căldură)  A! ilustrul meu profesor?</stage>
-          <stage>PROFESORUL:  (încântat de revedere)  A! scumpul meu elev!  (Toți se grupează împrejurul profesorului și elevului, vorbind încet, pe când directorul citește scrisoarea.)</stage>
-          <stage>DIRECTORUL: „Mon cher directeur, vous savez combien la littérature roumaine m’intéresse... C’est ce qui m’engage a vous recommander chaleureusement notre neveu Virgile, un poete de grand talent que vous devez connaître dejă! Je suis sure qu’il trouvera aupres de vous un accueil empresse. Comptez, je vous prie, mon cher directeur, sur l’affection de votre excellente amie...” A! da, mi-aduc aminte  (către tânăr)  Da! d-ta ești junele poet care ne-a citit astă-primăvară, la doamna Parigoriu, o comedie...</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Pe doamna Parigoriu? se poate să nu o cunoaștem?</p>
+            <stage>(deschide scrisoarea.)</stage>
+          </sp>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(zărind pe Profesor face o mișcare de plăcută surpriză, se duce la el și cu multă căldură)</stage>
+            <p>A! ilustrul meu profesor?</p>
+          </sp>
+          <sp who="#profesorul">
+            <speaker>PROFESORUL</speaker>
+            <stage>(încântat de revedere)</stage>
+            <p>A! scumpul meu elev!</p>
+            <stage>(Toți se grupează împrejurul profesorului și elevului, vorbind încet, pe când directorul citește scrisoarea.)</stage>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>„Mon cher directeur, vous savez combien la littérature roumaine m’intéresse... C’est ce qui m’engage a vous recommander chaleureusement notre neveu Virgile, un poete de grand talent que vous devez connaître dejă! Je suis sure qu’il trouvera aupres de vous un accueil empresse. Comptez, je vous prie, mon cher directeur, sur l’affection de votre excellente amie...” A! da, mi-aduc aminte</p>
+            <stage>(către tânăr)</stage>
+            <p>Da! d-ta ești junele poet care ne-a citit astă-primăvară, la doamna Parigoriu, o comedie...</p>
+          </sp>
           <sp who="#tanarul">
             <speaker>TÂNĂRUL</speaker>
             <p>Da, d-le; dar afară de aceea mai am o piesă nouă.</p>
@@ -285,7 +405,11 @@
             <speaker>SUFLORUL</speaker>
             <p>Mă prind că a treia e în 7.</p>
           </sp>
-          <stage>TÂNĂRUL:  (curios)  De unde știi?</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(curios)</stage>
+            <p>De unde știi?</p>
+          </sp>
           <sp who="#suflorul">
             <speaker>SUFLORUL</speaker>
             <p>Ghici!</p>
@@ -294,7 +418,14 @@
             <speaker>TÂNĂRUL</speaker>
             <p>A! eu scriu foarte ușor. Dați-mi voie să vă citesc.</p>
           </sp>
-          <stage>DIRECTORUL:  (distrat)  Mă iartă, un moment!... Machauer!  (arătând pe tânăr.)  Uite, d-le! uite cap! uite cap... Studiază-l bine!... Uite-te bine!  (Frizerul studiază capul tânărului din față și din spate cu atențiune.)</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(distrat)</stage>
+            <p>Mă iartă, un moment!... Machauer!</p>
+            <stage>(arătând pe tânăr.)</stage>
+            <p>Uite, d-le! uite cap! uite cap... Studiază-l bine!... Uite-te bine!</p>
+            <stage>(Frizerul studiază capul tânărului din față și din spate cu atențiune.)</stage>
+          </sp>
           <sp who="#tanarul">
             <speaker>TÂNĂRUL</speaker>
             <p>Dați-mi voie să vă citesc.</p>
@@ -303,17 +434,47 @@
             <speaker>DIRECTORUL</speaker>
             <p>Mă rog, sunt lungi actele?</p>
           </sp>
-          <stage>TÂNĂRUL:  (scoate din ghiozdan un caiet gros)  Veți vedea.</stage>
-          <stage>SUFLORUL: Dă-mi voie! asta e atribuția mea, a suflerului.  (ia caietul; îl deschide.)  E scris mărunt.</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(scoate din ghiozdan un caiet gros)</stage>
+            <p>Veți vedea.</p>
+          </sp>
+          <sp who="#suflorul">
+            <speaker>SUFLORUL</speaker>
+            <p>Dă-mi voie! asta e atribuția mea, a suflerului.</p>
+            <stage>(ia caietul; îl deschide.)</stage>
+            <p>E scris mărunt.</p>
+          </sp>
           <sp who="#tanarul">
             <speaker>TÂNĂRUL</speaker>
             <p>A! eu scriu foarte mărunt.</p>
           </sp>
-          <stage>SUFLORUL:  (cântărind în mână caietul)  Trebuie să fie lungi actele.  (trece directorului caietul.)</stage>
-          <stage>DIRECTORUL:  (același joc)  Destul de lungi!  (trece unui artist caietul.)</stage>
-          <stage>ARTISTUL:  (același joc)  Foarte lungi!  (îl trece unei artiste.)</stage>
+          <sp who="#suflorul">
+            <speaker>SUFLORUL</speaker>
+            <stage>(cântărind în mână caietul)</stage>
+            <p>Trebuie să fie lungi actele.</p>
+            <stage>(trece directorului caietul.)</stage>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(același joc)</stage>
+            <p>Destul de lungi!</p>
+            <stage>(trece unui artist caietul.)</stage>
+          </sp>
+          <sp who="#artistul">
+            <speaker>ARTISTUL</speaker>
+            <stage>(același joc)</stage>
+            <p>Foarte lungi!</p>
+            <stage>(îl trece unei artiste.)</stage>
+          </sp>
           <stage>ARTISTA:  (același joc)  Grozav de lungi!</stage>
-          <stage>PROFESORUL:  (care a observat jocul lor)  Știam că se cântărește hârtia brută; dar că se poate cunoaște după greutatea hârtiei și spiritul unei opere — nu știam...  (râde.)  Ei! lungi! dacă sunt frumoase...</stage>
+          <sp who="#profesorul">
+            <speaker>PROFESORUL</speaker>
+            <stage>(care a observat jocul lor)</stage>
+            <p>Știam că se cântărește hârtia brută; dar că se poate cunoaște după greutatea hârtiei și spiritul unei opere — nu știam...</p>
+            <stage>(râde.)</stage>
+            <p>Ei! lungi! dacă sunt frumoase...</p>
+          </sp>
           <sp who="#tanarul">
             <speaker>TÂNĂRUL</speaker>
             <p>Cum?</p>
@@ -326,12 +487,20 @@
             <speaker>DIRECTORUL</speaker>
             <p>În sfârșit, să vedem. Vom hotărî un ceas când d. autor să ne citească tragedia d-sale, și, dacă se va potrivi cu mijloacele, cu necesitățile noastre...</p>
           </sp>
-          <stage>TÂNĂRUL:  (nervos și hotărât)  Trebuie să se potrivească!</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(nervos și hotărât)</stage>
+            <p>Trebuie să se potrivească!</p>
+          </sp>
           <sp who="#directorul">
             <speaker>DIRECTORUL</speaker>
             <p>De ce numaidecât „trebuie”?</p>
           </sp>
-          <stage>TÂNĂRUL:  (tonul din ce în ce mai sus)  Fiindcă aveți aci un teatru românesc; am aci două piese românești... trebuie să le primiți!</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(tonul din ce în ce mai sus)</stage>
+            <p>Fiindcă aveți aci un teatru românesc; am aci două piese românești... trebuie să le primiți!</p>
+          </sp>
           <sp who="#profesorul">
             <speaker>PROFESORUL</speaker>
             <p>Firește!</p>
@@ -368,19 +537,58 @@
             <speaker>D-na ALEXANDRESCU</speaker>
             <p>Numai atâtea?</p>
           </sp>
-          <stage>TÂNĂRUL:  (solemn)  D-le director, eu aci nu vorbesc numai în numele meu, vorbesc în numele unui principiu și în numele unei întregi pleiade de talente, gata să pornească o formidabilă campanie dacă nu deschideți largi porțile d-v. noilor producțiuni dramatice naționale...</stage>
-          <stage>DIRECTORUL: Domnul meu! acela căruia noi gândim mai întâi de toate să-i deschidem porțile noastre largi, este publicul. Și d-ta nu știi cât de exigent și de dificil e publicul nostru. Ei! d-ta nu-l cunoști ca noi.  (toți dau din cap.)  Nu e așa de zadarnică vorba că Bucureștii sunt un mic Paris al Orientului.  (se uită la ceas.)  Pentru Dumnezeu! mai sunt zece minute. Fiecare la locul său, domnilor!... Începem! Începem!  (se aude afară zgomot, un râs de femeie. Toți ascultă.)</stage>
+          <sp who="#tanarul">
+            <speaker>TÂNĂRUL</speaker>
+            <stage>(solemn)</stage>
+            <p>D-le director, eu aci nu vorbesc numai în numele meu, vorbesc în numele unui principiu și în numele unei întregi pleiade de talente, gata să pornească o formidabilă campanie dacă nu deschideți largi porțile d-v. noilor producțiuni dramatice naționale...</p>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Domnul meu! acela căruia noi gândim mai întâi de toate să-i deschidem porțile noastre largi, este publicul. Și d-ta nu știi cât de exigent și de dificil e publicul nostru. Ei! d-ta nu-l cunoști ca noi.</p>
+            <stage>(toți dau din cap.)</stage>
+            <p>Nu e așa de zadarnică vorba că Bucureștii sunt un mic Paris al Orientului.</p>
+            <stage>(se uită la ceas.)</stage>
+            <p>Pentru Dumnezeu! mai sunt zece minute. Fiecare la locul său, domnilor!... Începem! Începem!</p>
+            <stage>(se aude afară zgomot, un râs de femeie. Toți ascultă.)</stage>
+          </sp>
           <div type="scene" n="3">
             <head>SCENA III</head>
-          <stage>DIRECTORUL: Dar asta!  (întâmpinând-o cu toții.)  Cu cine avem onoare, doamnă?</stage>
-          <stage>DOAMNA: Cine sunt ce vă pasă. Mulțumiți-vă a ști ce sunt.  (foarte volubil.)  Sunt o ființă foarte complexă! Caprițioasă și statornică; impresionabilă ca un copil incult, blazată ca un filozof istovit, mahalagioaică și aristocrată; aci primitivă, aci ultra-rafinată, iau în glumă împrejurările cele mai grave, și sunt gravă față cu cine știe ce nimicuri. Mă înnebunesc după evenimentele de senzație, vesele sau funebre, parade, accidente, crime, sinucideri, scandaluri... Ah!  (cu voluptate.)  Calomniile, cancanurile, scandalurile! Un scandal cât de puțin monstruos face pentru mine mai mult decât un sinistru cât de îngrozitor! îmi trebuiesc dimineața cum deschid ochii știri palpitante, dacă nu adevărate, măcar... altfel. Dezmințirea lor seara mă mâhnește peste măsură și nu mă pot mângâia decât a doua zi cu o născocire și mai și.</stage>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Dar asta!</p>
+            <stage>(întâmpinând-o cu toții.)</stage>
+            <p>Cu cine avem onoare, doamnă?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Cine sunt ce vă pasă. Mulțumiți-vă a ști ce sunt.</p>
+            <stage>(foarte volubil.)</stage>
+            <p>Sunt o ființă foarte complexă! Caprițioasă și statornică; impresionabilă ca un copil incult, blazată ca un filozof istovit, mahalagioaică și aristocrată; aci primitivă, aci ultra-rafinată, iau în glumă împrejurările cele mai grave, și sunt gravă față cu cine știe ce nimicuri. Mă înnebunesc după evenimentele de senzație, vesele sau funebre, parade, accidente, crime, sinucideri, scandaluri... Ah!</p>
+            <stage>(cu voluptate.)</stage>
+            <p>Calomniile, cancanurile, scandalurile! Un scandal cât de puțin monstruos face pentru mine mai mult decât un sinistru cât de îngrozitor! îmi trebuiesc dimineața cum deschid ochii știri palpitante, dacă nu adevărate, măcar... altfel. Dezmințirea lor seara mă mâhnește peste măsură și nu mă pot mângâia decât a doua zi cu o născocire și mai și.</p>
+          </sp>
           <sp who="#alexandrescu">
             <speaker>D-na ALEXANDRESCU</speaker>
             <p>Ciudată persoană! parc-aș cunoaște-o!</p>
           </sp>
-          <stage>DOAMNA: Pedanții mă nesocotesc, fiindcă le par ușuratecă, șarlatanii mă curtează, crezându-mă naivă; oamenii de merit mă respectă, știind că adesea judec foarte just. Modeștii mă lasă indiferentă, îndrăzneții mă fascinează, bravii mă cuceresc. Am uneori momente de adâncă și limpede conștiință, alteori îmi lipsește cel mai elementar bun-simț. Îmi place să protejez și să persecut, și tiranisesc mai mult pe cei protejați decât pe cei persecutați. Da, îmi place să tiranisesc, căci am putere superlativă.  (Se oprește deodată și oftând adânc.)</stage>
-          <stage>TOȚI:  (o admiră)  A!</stage>
-          <stage>DOAMNA: A! și cu toate astea, am și eu o stăpână, o tirană, contra căreia peste putință să mă revolt, ale cărei capriții, cât de absurde, sunt pentru mine sfinte porunci... De mi-ar porunci să umblu iarna în dril și vara în blană; de mi-ar porunci să port un ciorap la gât și cravate la picioare, să umblu acum ca un kanguroc  (joc) , pe urmă ca o căprioară  (iar joc) , trebuie să o ascult. Această crudă tirană a mea se cheamă...</stage>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>Pedanții mă nesocotesc, fiindcă le par ușuratecă, șarlatanii mă curtează, crezându-mă naivă; oamenii de merit mă respectă, știind că adesea judec foarte just. Modeștii mă lasă indiferentă, îndrăzneții mă fascinează, bravii mă cuceresc. Am uneori momente de adâncă și limpede conștiință, alteori îmi lipsește cel mai elementar bun-simț. Îmi place să protejez și să persecut, și tiranisesc mai mult pe cei protejați decât pe cei persecutați. Da, îmi place să tiranisesc, căci am putere superlativă.</p>
+            <stage>(Se oprește deodată și oftând adânc.)</stage>
+          </sp>
+          <sp who="#toti">
+            <speaker>TOȚI</speaker>
+            <stage>(o admiră)</stage>
+            <p>A!</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <p>A! și cu toate astea, am și eu o stăpână, o tirană, contra căreia peste putință să mă revolt, ale cărei capriții, cât de absurde, sunt pentru mine sfinte porunci... De mi-ar porunci să umblu iarna în dril și vara în blană; de mi-ar porunci să port un ciorap la gât și cravate la picioare, să umblu acum ca un kanguroc</p>
+            <stage>(joc)</stage>
+            <p>, pe urmă ca o căprioară</p>
+            <stage>(iar joc)</stage>
+            <p>, trebuie să o ascult. Această crudă tirană a mea se cheamă...</p>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Se cheamă?</p>
@@ -393,11 +601,51 @@
             <speaker>TOȚI</speaker>
             <p>Moda?</p>
           </sp>
-          <stage>DOAMNA:  (schimbând deodată tonul, foarte veselă, cu mult humor)  Da! Moda!... Uite ce mi-a poruncit să port.  (arată pălăria; către o artistă.)  Așa-i că-i șic? Superbe, ma chére.  (către Profesor.)  N’est-ce pas, mon professeur?  (făcând o mișcare, îl lovește cu bordul pălăriei; el se retrage și privește pălăria curios.)  Ce te uiți? Știu că e prea mică... Nu mi-a gătit-o încă p-a de toamnă.  (către autor arătându-și fundele de la pantofi.)  Uite! ce zici?... o porumbiță moțată și încălțată, n’est-ce pas, mon cher?  (îl ciupește de bărbie.)  Așa sunt eu. Astăzi voi sunteți la modă, îmi placeți și vă îmbrățișez cu drag, dar feriți-vă de moda de mâine, o voi urma fără judecată și fără regret. Astăzi îmi poruncește să cânt un cântec favorit al ei... Dimineața, când mă deștept, peste zi, seara la culcare, trebuie să-l cânt!  (începe a fredona cântecul en vogue. Toți împreună fac răspunsul, ea încântată către Profesor.)  Vezi că-l știi!  (devine iar serioasă și schimbând brusc tonul.)  Și nu vă puteți închipui câte griji mă zdrobesc și ce plăcere pentru mine să le uit din când în când măcar câteva momente. De aceea îmi place cu deosebire muzica și teatrul. A! teatrul!... Dar un teatru ca să-mi placă mie...  (cu mult avânt și elevație crescândă)  trebuie să fie viu, cald, fierbinte! Să dogorească viață de aci până colo sus în fundul galeriei; actorii... când ies pe scenă, să fie niște posedați; să aibă un demon în ei; prin ochi, prin sprâncene, prin gură, prin vârful degetelor, prin toți porii, să scoață pe demonul acela și să-l sufle asupra mea. O clipă să nu-l ierte pe spectator a-și veni în fire, a-și da seama de ce vor cu el: să-l ia repede, să-l zguduie, să-l amețească, să-l farmece, să-l vrăjească, mai știu eu cum să zic? Când or ieși din teatru, nici doi ochi să nu fie uscați și siguri: toți să fie împăienjeniți de emoție, umezi de plâns ori de râs.  (aplauze unanime.)</stage>
-          <stage>DIRECTORUL: Vom face, doamnă, din toată inima tot ce-i cu putință spre a vă da un teatru cum doriți. Și acum  (uitându-se la ceas și hotărât)  să ne iertați d-v., dar trebuie să începem!</stage>
-          <stage>DOAMNA:  (cu entuziasm)  Curaj, doamnelor și domnilor, și noroc! Merg să vă ascult.  (Doamna pornește spre fund.)</stage>
-          <stage>DIRECTORUL:  (oprind-o)  Cu pălăria asta?</stage>
-          <stage>DOAMNA:  (râzând)  De hatârul d-v. am s-o scot.  (Toți îi mulțumesc petrecând-o.)</stage>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage>(schimbând deodată tonul, foarte veselă, cu mult humor)</stage>
+            <p>Da! Moda!... Uite ce mi-a poruncit să port.</p>
+            <stage>(arată pălăria; către o artistă.)</stage>
+            <p>Așa-i că-i șic? Superbe, ma chére.</p>
+            <stage>(către Profesor.)</stage>
+            <p>N’est-ce pas, mon professeur?</p>
+            <stage>(făcând o mișcare, îl lovește cu bordul pălăriei; el se retrage și privește pălăria curios.)</stage>
+            <p>Ce te uiți? Știu că e prea mică... Nu mi-a gătit-o încă p-a de toamnă.</p>
+            <stage>(către autor arătându-și fundele de la pantofi.)</stage>
+            <p>Uite! ce zici?... o porumbiță moțată și încălțată, n’est-ce pas, mon cher?</p>
+            <stage>(îl ciupește de bărbie.)</stage>
+            <p>Așa sunt eu. Astăzi voi sunteți la modă, îmi placeți și vă îmbrățișez cu drag, dar feriți-vă de moda de mâine, o voi urma fără judecată și fără regret. Astăzi îmi poruncește să cânt un cântec favorit al ei... Dimineața, când mă deștept, peste zi, seara la culcare, trebuie să-l cânt!</p>
+            <stage>(începe a fredona cântecul en vogue. Toți împreună fac răspunsul, ea încântată către Profesor.)</stage>
+            <p>Vezi că-l știi!</p>
+            <stage>(devine iar serioasă și schimbând brusc tonul.)</stage>
+            <p>Și nu vă puteți închipui câte griji mă zdrobesc și ce plăcere pentru mine să le uit din când în când măcar câteva momente. De aceea îmi place cu deosebire muzica și teatrul. A! teatrul!... Dar un teatru ca să-mi placă mie...</p>
+            <stage>(cu mult avânt și elevație crescândă)</stage>
+            <p>trebuie să fie viu, cald, fierbinte! Să dogorească viață de aci până colo sus în fundul galeriei; actorii... când ies pe scenă, să fie niște posedați; să aibă un demon în ei; prin ochi, prin sprâncene, prin gură, prin vârful degetelor, prin toți porii, să scoață pe demonul acela și să-l sufle asupra mea. O clipă să nu-l ierte pe spectator a-și veni în fire, a-și da seama de ce vor cu el: să-l ia repede, să-l zguduie, să-l amețească, să-l farmece, să-l vrăjească, mai știu eu cum să zic? Când or ieși din teatru, nici doi ochi să nu fie uscați și siguri: toți să fie împăienjeniți de emoție, umezi de plâns ori de râs.</p>
+            <stage>(aplauze unanime.)</stage>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <p>Vom face, doamnă, din toată inima tot ce-i cu putință spre a vă da un teatru cum doriți. Și acum</p>
+            <stage>(uitându-se la ceas și hotărât)</stage>
+            <p>să ne iertați d-v., dar trebuie să începem!</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage>(cu entuziasm)</stage>
+            <p>Curaj, doamnelor și domnilor, și noroc! Merg să vă ascult.</p>
+            <stage>(Doamna pornește spre fund.)</stage>
+          </sp>
+          <sp who="#directorul">
+            <speaker>DIRECTORUL</speaker>
+            <stage>(oprind-o)</stage>
+            <p>Cu pălăria asta?</p>
+          </sp>
+          <sp who="#doamna">
+            <speaker>DOAMNA</speaker>
+            <stage>(râzând)</stage>
+            <p>De hatârul d-v. am s-o scot.</p>
+            <stage>(Toți îi mulțumesc petrecând-o.)</stage>
+          </sp>
           <stage>(Cortina)</stage>
         </div>
         </div>
