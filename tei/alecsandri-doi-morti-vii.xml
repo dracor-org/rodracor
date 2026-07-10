@@ -7,7 +7,7 @@
         <title>Doi morți vii</title>
         <author>
           <persName>Vasile Alecsandri</persName>
-          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+          <idno type="wikidata">Q352004</idno>
         </author>
       </titleStmt>
       <publicationStmt>
@@ -25,19 +25,19 @@
           </availability>
         </bibl>
         <bibl type="originalSource">
-            <availability>
-              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
-            </availability>
+          <availability>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+          </availability>
         </bibl>
-                  <listEvent>
-              <event type="print" when="1852">
-                <desc>1852</desc>
-              </event>
-                      <event type="premiere">
+        <listEvent>
+          <event type="print" when="1852">
+            <desc>1852</desc>
+          </event>
+          <event type="premiere">
             <desc>Reprezentat pe Teatrul Național din Iași, în beneficiul artiștilor români, la 1851.</desc>
           </event>
         </listEvent>
-</sourceDesc>
+      </sourceDesc>
     </fileDesc>
     <profileDesc>
       <particDesc>
@@ -90,6 +90,18 @@
           <person xml:id="carcioc">
             <persName>CĂRCIOC</persName>
           </person>
+          <person xml:id="acrost">
+            <persName>ACROST</persName>
+          </person>
+          <person xml:id="ceialalti">
+            <persName>CEIALALTI</persName>
+          </person>
+          <person xml:id="ceilalti">
+            <persName>CEILALTI</persName>
+          </person>
+          <person xml:id="corul">
+            <persName>CORUL</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -100,12 +112,6 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <standOff>
-
-    <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ro000089"/>
-    </listRelation>
-  </standOff>
   <text>
     <front>
       <titlePage>
@@ -176,8 +182,8 @@
             <speaker>ION</speaker>
             <p>Ian auzi boierii cum se veselesc de ziua stăpânu-meu, d-nu Ghiftui!… O poftit tot Târgu-Frumos aici la moșie, la Ghiftuieni, pe banul Hagi-Flutur, pe d-nu Acrostihescu, pe d-nu Zgârcilă… și alții; și acum, de trei zile, o țin tot una cu mesele și cu lăutarii..</p>
             <stage> (Se aude în salonul cel mic ciocnete de pahare și chiote de veselie: „Să trăiască Ghiftui!… în sănătatea lui Ghiftui!… vivat!…”) </stage>
-            </sp>
-        <sp who="#ion">
+          </sp>
+          <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (căutând pe fereasta ușei salonului) </stage>
             <p>Gâl, gâl, gâl… înghite-Agachi… dușcă, băiete!…</p>
@@ -224,7 +230,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Niet Ion, niet Ivan?… a cito?</p>
-            </sp>
+          </sp>
           <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (cu mândrie) </stage>
@@ -243,7 +249,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Cito? ciocoi?</p>
-            </sp>
+          </sp>
           <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (mânios) </stage>
@@ -295,7 +301,7 @@
           <sp who="#ion">
             <speaker>ION</speaker>
             <p>Ie sama bine să nu cazi.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (ieșind pe balcon) </stage>
@@ -305,7 +311,7 @@
             <speaker>ION</speaker>
             <p>Să mai văd ce fac boierii.</p>
             <stage> (Merge la ușa salonului celui mic și privește înantru.) </stage>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (în balcon, bocănește tare și cântă) </stage>
@@ -317,7 +323,7 @@
             <p>Palajiti barin vrucicu,</p>
             <p>Zniaiu varajiti.</p>
             <stage> (bis) </stage>
-            </sp>
+          </sp>
           <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (alergând la ușa balconului) </stage>
@@ -330,7 +336,7 @@
           <sp who="#ion">
             <speaker>ION</speaker>
             <p>Ei, las’ dar, pănă s-or scula boierii de la masă.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (venind în scenă) </stage>
@@ -339,7 +345,7 @@
             <p>Prietini buni, să bem și să mâncăm.</p>
             <p>Căci poate mâni vom dă de ceas amar!</p>
             <p>Etc. etc. etc.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (căutând pe fereasta ușei salonului) </stage>
@@ -351,8 +357,8 @@
             <p>Îndată, cucoane.</p>
             <stage> (Deschide ușa salonului și intră în el.) </stage>
             <stage> (Se zărește în salonul cel mic o masă încunjurată de Ghiftui Hagi-Flutur, Acrostihescu etc.) </stage>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (vine pe gânduri în fața scenei) </stage>
             <p>Uvîi! uvîi! dacă n-aș fi pățit ce-am pățit, acum aș ave și eu casă și masă! aș ave și eu cai și trăsură… ca mai înainte. Aș fi tot birjar… iar nu negustor de harbuji și de ferării în Tâgu-Frumos!</p>
@@ -424,7 +430,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Dacă nici eu nu-l cunosc… nu l-am văzut niciodată… Dar se vede că i-o mers bine lui pan Talpă-Lată, cu orzu și ovăsu… s-o îngrășet?</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (rîzînd) </stage>
@@ -441,7 +447,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>La masă… Ai vro treabă cu dânsu?</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în taină) </stage>
@@ -454,7 +460,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Să mă tem?… de ce?… nu știi cât e de bun cuconu Ghiftui… Cât bine face locuitorilor… cum îl iubesc toți!… Ș-apoi când ai ști cum s-o îngrijit de copilăria me… cum mă dismerda când eram mititică… cum îmi aducea păpuși și cofeturi… parc-aș fi fost copila lui… D-lui o cheltuit cu dăscălii care m-o învățat… și pot zice că-i sunt datoare cu toate.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (uimit) </stage>
@@ -471,25 +477,25 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Ba nu… așa-i zic eu pentru că-i bătrân… E! să fi fost atunci aici cuconu Dumitrachi, sunt sigură că nu m-ar fi lăsat pe mâna altora!… Doamne! tare-i bun la suflet!… și tare mi-i drag!… Când am aflat că s-o întors din străinătate… știi?… de mi-ar fi căzut din cer un logodnic cu păru de aur, nu m-aș fi bucurat așa de mult!…</p>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (în parte, ștergându-și ochii) </stage>
             <p>Ce suflețel de hulubiț!.</p>
             <stage> (Oftează.) </stage>
             <p>A! Panchiț! Panchiț!</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în taină) </stage>
             <p>I-am cusut un călăf de ciubuc cu mărgele ș-am vinit să i-l aduc.</p>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (cu dragoste) </stage>
             <p>Dușincal…</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cântă) </stage>
             <stage> (Arie din „Baba Hîrca”: „Tata mi-a zis fată, fată”) </stage>
@@ -501,8 +507,8 @@
             <p>Mă rog seara, dimineața.</p>
             <p>Și zic, Doamne, Dumnezeu,</p>
             <p>Ține-l tot pe dorul meul</p>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (plângând) </stage>
             <p>A!…</p>
@@ -514,7 +520,7 @@
           <sp who="#ion">
             <speaker>ION</speaker>
             <p>Hai, hai, cărați-vă că s-o sculat boierii de la masă ș-o să vie aici.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (veselă) </stage>
@@ -531,12 +537,12 @@
           <sp who="#ion">
             <speaker>ION</speaker>
             <p>Negreșit… du-te-acu de te primblă în grădină, păn’ ce și-or trage ciubucele boierii…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (apropiindu-se de Ion și căutând la el cu ochi dulci) </stage>
             <p>Da mi-i da de știre când a fi vreme, domnișorule?</p>
-            </sp>
+          </sp>
           <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (în parte) </stage>
@@ -549,7 +555,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Tița.</p>
-            </sp>
+          </sp>
           <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (în parte) </stage>
@@ -558,7 +564,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Da eu ce fac cu balconu, pan Ivan?</p>
-            </sp>
+          </sp>
           <sp who="#ion">
             <speaker>ION</speaker>
             <stage> (mânios) </stage>
@@ -583,11 +589,11 @@
             <p>Eu, trăind în veselie,</p>
             <p>Păn’ la moarte-oi chiui</p>
             <p>Hai, hai…</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Haideți, frați… etc. etc.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu tristeță) </stage>
@@ -596,7 +602,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Da ce?… iar te-o apucat năbădăicile, vere Ghiftui?… iar ți s-o înecat corăbiile?…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (apropiindu-se de ceialalți) </stage>
@@ -617,7 +623,7 @@
             <p>Nu știm?… Ia așteaptă…</p>
             <stage> (Scoate din buzunar un volum manuscris și caută filele.) </stage>
             <p>Aurora… La mormântul ei!… Odă la împăratul… Odă la șahul… Odă la craiul…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (încet lui Ghiftui) </stage>
@@ -636,7 +642,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Și celelalte… bravo, Acrostihescule!… de când faci ode pe la cei mari, n-ai nimerit niciodată așa de bine…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (încet lui Ghiftui) </stage>
@@ -678,7 +684,7 @@
             <p>„Ce este bogăția? un vis, o nălucire!</p>
             <p>Chiar o nimică toată… un fulger, o lucire,</p>
             <p>O himeră…”</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (împingând pe Acrostihescu) </stage>
@@ -755,7 +761,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Iaca, mă! da aista de unde-o sărit cu poeziile lui cele șchioape?</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (supărat) </stage>
@@ -772,12 +778,12 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Apoi dacă-i o fiică cerească, n-o face să umble cu colinda la sărbătorile unora și altora… m-ai înțăles?…</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (în parte) </stage>
             <p>Bestie incapace!</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (in parte) </stage>
@@ -810,7 +816,7 @@
             <p>Auzi, bătrîn de 36 de ani!…</p>
             <stage> (În parte.) </stage>
             <p>Îi cam smintit.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (desperat) </stage>
@@ -826,12 +832,12 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>De mirare?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Nicidecât…</p>
             <p>Ci de somn și de urât.</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (furios) </stage>
@@ -892,7 +898,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Foarte mulțămesc.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (cu explozie) </stage>
@@ -905,7 +911,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Mi-o vinit o idee.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (căutând lung și cu mirare la Acrostihescu) </stage>
@@ -918,7 +924,7 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Bravo… bună idee.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (după puțină tăcere) </stage>
@@ -939,14 +945,14 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Semn bun, vere…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Într-un noroc! de-acum ce-a fi să fie!</p>
             <p>Cu ochi închiși voi astăzi să mă-nsor.</p>
             <p>Nici mă-ngrijesc de fac o nebunie,</p>
             <p>Căci de urât tot era ca să mor.</p>
-            </sp>
+          </sp>
           <sp who="#ceilalti">
             <speaker>CEILALȚI</speaker>
             <p>Într-un noroc! de-acum ce-a fi să fie!</p>
@@ -1035,8 +1041,8 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Vivat!… Noroc bun, vere!…</p>
-            </sp>
-        <sp who="#toti">
+          </sp>
+          <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Într-un noroc! de-acum… etc. etc.</p>
             <stage> (Ies prin fund cu toții, afară de Ghiftui.) </stage>
@@ -1083,7 +1089,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Vrei să șuguiești, domnule?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (serios) </stage>
@@ -1104,7 +1110,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Aș!… și eu îs cunoscut de patriot?… mare poznă!… nici prin gând nu-mi trecea… Se vede c-o început a fi belșug în țară despre tagma patrioților?… Slavă ție, Doamne! că mare secetă o mai fost vro cîțiva ani!…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu entuziasm) </stage>
@@ -1173,7 +1179,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Care vra să zică, d-ta ești cât se poate de fericită de-a fi văduvă.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu entuziasm) </stage>
@@ -1210,7 +1216,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ba, zău, nici chiar păn’ la măsură… Bietu Ferchezanu era bătrân, uscat și scurt ca Statu-Palmă… adică, să nu bănuiești…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (zâmbind) </stage>
@@ -1231,7 +1237,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Vreu să zic, că-n veacul nostru… nu se cere zestre de nuri… ci zestre de bani.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (oftând) </stage>
@@ -1288,7 +1294,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Pașport de voiaj?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (zâmbind) </stage>
@@ -1297,7 +1303,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Vezi ce de treabă soț!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu mulțămire) </stage>
@@ -1312,12 +1318,12 @@
             <p>În lipsa răposatului, mi-am pus trebile la cale… am vândut răzășia și, păn-a nu mă-ntoarce de istov la Iași, caut să câștig dragostea ținutașilor de Roman, făcând bine pe cât pot.</p>
             <stage> (Sculându-se.) </stage>
             <p>De aceea sunt prea fericită, domnul meu, că vizita mea te-o hotărât a subscrie în folosul locuitorilor săraci.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (dând o pungă) </stage>
             <p>Din toată inima, doamna mea. Poftim 100 de galbini din partea me.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
@@ -1326,7 +1332,7 @@
             <p>Îți mulțămesc, domnul meu, în numele sărmanilor care te vor binecuvânta cu toată recunoștința ce meritezi.</p>
             <stage> (Închinându-se.) </stage>
             <p>Cu plecăciune.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -1336,7 +1342,7 @@
             <stage> (Ducând-o pănă la ușă.) </stage>
             <p>sunt pre fericit c-am făcut cunoștința d-tale…</p>
             <stage> (Se închină unul la altul. Ferchezanca iese.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (singur, venindîn fața scenei) </stage>
@@ -1345,7 +1351,7 @@
             <p>Cucoană… cucoană!… d-ta… ia, mă rog…</p>
             <stage> (Vine în scenă.) </stage>
             <p>Curios lucru!… parcă-mi trecuse de urât cu dânsa…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (venind înapoi) </stage>
@@ -1354,12 +1360,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Am uitat să-ți spun un lucru foarte însămnat… Știi că ești încă destul de plăcută?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu modestie) </stage>
             <p>Ce se potrivește…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (serios) </stage>
@@ -1388,12 +1394,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>M-am născut cu șăse ani înaintea răzmiriței.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu mirare) </stage>
             <p>Care?… cea de anțărț?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (zâmbind) </stage>
@@ -1403,7 +1409,7 @@
             <speaker>FERCHEZANCA</speaker>
             <p>Vra să zică ai…</p>
             <stage> (Numără pe degete.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (oprind-o) </stage>
@@ -1416,7 +1422,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Dar.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (in parte) </stage>
@@ -1429,12 +1435,12 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Cam galbân… dar almintere destul de vioi.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (trist) </stage>
             <p>Doamna mea… am un haracter foarte trist!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (zâmbind) </stage>
@@ -1443,7 +1449,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Ba mă iartă… Îs trist din firea mea… Viața-mi pare o comedie giucată de oamenii cei cu minte în benefițiul celor nebuni…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
@@ -1456,22 +1462,22 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>De cine?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (posomorât) </stage>
             <p>De viață… făcusem un testament în folosul a câțiva prietini care se găsesc acum în grădină, fiindcă m-o ferit Dumnezeu de rude.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu mirare) </stage>
             <p>Un testament! da ce vroiai să faci?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (tragic) </stage>
             <p>Să mă-mpușc!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (speriată) </stage>
@@ -1498,7 +1504,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>D-ta… ascultă: Am în Iași o păreche de case cu două rînduri… am moșia Ghiftuieni cu locuitori… care-mi aduce opt mii de galbini… am dugheni, vii și trăsuri… cu cai… Averea mea să suie la 10.000 de galbini venit.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
@@ -1507,12 +1513,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Vrei să împărțești cu mine?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (răsărind) </stage>
             <p>Eu? să împărțeșc?… Ian lasă șaga… vai de mine, că poznaș mai ești!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (serios) </stage>
@@ -1525,29 +1531,29 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Ba nici n-am gândit… dar în loc de-a mă-mpușca, am hotărât să mă-nsor… Vrei?… primești?. .. Gândește și te hotărăște ori așa… ori așa… eu nu silesc pe nime.</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (privind vesel la Ghiftui) </stage>
             <p>Când îți spun că ești mucalit… fie! Te socot un om cumsecade…</p>
             <stage> (Ghiftui zâmbește) </stage>
             <p>cam tuieș… dar sunt sigură că ești în stare a face fericirea unei femei.</p>
             <stage> (Arie din „Nișcorescu”: „Lăcustele”) </stage>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (vesel) </stage>
             <p>De-i așa, cucoană dragă,</p>
             <p>La-ndoială nu mai sta,</p>
             <p>Căci voiesc, zău, fără șagă</p>
             <p>Să mă-nsor cu dumneta.</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Cum?… voiești acum îndată?</p>
             <p>Dar nu crezi că ne-om căi?…</p>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Hai să ne-nsurăm deodată</p>
             <p>Ș-apoi… ne-om tot pocăi.</p>
@@ -1563,23 +1569,23 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Eu îs, cucoane… Tița…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (mergând la Tița) </stage>
             <p>A! tu ești, dragă Tițulică?… de mult nu te-am văzut… Ia vezi cum o crescut, de unde era numai cât o păpușă…</p>
             <stage> (O dismeardă.) </stage>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
             <p>Ce copilă să fie asta?</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cu dragoste) </stage>
             <p>Doamne! cucoane, tare-mi era dor să te văd!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
@@ -1612,7 +1618,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Da ieși azi, soro dragă, cînd îți poroncește boieriu… Nu-nțelegi că are treabă?…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cu lacrimi în ochi) </stage>
@@ -1623,7 +1629,7 @@
             <p>Da să vii peste-un ceas, Tiță… ai auzit?…</p>
             <stage> (Cătră Ferchezanca.) </stage>
             <p>îți dau zece minute ca să te hotărăști de vrei a te numi de-acum Ghiftuianca în loc de Ferchezanca.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (coborând ochii) </stage>
@@ -1633,30 +1639,30 @@
             <speaker>GHIFTUI</speaker>
             <p>Ei, fie 12… Îți dau toată vremea.</p>
             <stage> (Merge spre salonul cel mic și se întoarce înapoi.) </stage>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Ce-am auzit!</p>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (întorcându-se, se apropie de Ferchezanca și zice apăsat) </stage>
             <p>Trăsurile mele-s cu cai…</p>
             <stage> (intră în salonul cel mic.) </stage>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
             <p>Ei!… pas de te mai fasolește, dacă poți, giupîneasă Panchiță…</p>
             <stage> (Se pune pe scaun.) </stage>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (deschizînd ușa salonului) </stage>
             <p>Cu cai!</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (răsărind) </stage>
             <p>Carnacsî!…</p>
@@ -1688,17 +1694,17 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Și-l iubesc din tot sufletul…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (in parte) </stage>
             <p>Iaca… oare nu cumva i-o picat vrun tronc la inimă copilei?…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (după mică tăcere) </stage>
             <p>Cucoană…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (scul#ndu-se) </stage>
@@ -1707,7 +1713,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Mă rog, mă iartă dacă îndrăznesc… aș vroi să-ți fac o întrebare…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (mirată) </stage>
@@ -1720,14 +1726,14 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Așa-mi pare.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte, cu înduioșare) </stage>
             <p>Se-nsoară!… curios lucru!… nu știu ce simțesc… bucurie negreșit… dar, parcă-mi vine-a plânge…</p>
             <stage> (Cătră Ferchezanca.) </stage>
             <p>Și cu cine se-nsoară, cucoană… știi d-ta? …</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (fără a să uita la Tița) </stage>
@@ -1740,13 +1746,13 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ce-ai zis?</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte, plângând) </stage>
             <p>Na, că-ncep a plânge…</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
             <p>Doamne! că proaste-s fetele de la țară!</p>
@@ -1761,7 +1767,7 @@
             <p>Ei! vere Ghiftui, sfârșit-ai?…</p>
             <stage> (Văzînd pe Ferchezanca.) </stage>
             <p>Ce-mi văzură ochii!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (văzînd pe Flutur) </stage>
@@ -1770,24 +1776,24 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Panchița!</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte; cu mirare) </stage>
             <p>Panchița!</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (deschizând brațele) </stage>
             <p>Panchița! foasta stăpână a inimei mele… foasta prima actriță de la teatru național!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (râzând) </stage>
             <p>Hagi-Flutur!… fluturul cel mai bătrân din Iași!</p>
             <stage> (Aria „Baletului umbrelor”, din opera „Robert le diable”) </stage>
             <p>Ha, ha, ha, ha, ha.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
@@ -1805,7 +1811,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
@@ -1822,29 +1828,29 @@
             <stage> (Împreună, jucînd cancan.) </stage>
             <p>Hai dar să jucăm;</p>
             <p>Hai dar să cîntăm.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
             <stage> (Împreună.) </stage>
             <p>Ce-mi văzură ochii!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Tu?</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Tu?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Ha, ha, ha, ha, ha.</p>
@@ -1858,7 +1864,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Nu!</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
@@ -1867,12 +1873,12 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Da ce dracu te-ai făcut, suflețelule, de-un an de zile de când ai perit din ochii mei?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (veselă) </stage>
             <p>Eu, puiule?… m-am sfădit cu directorii teatrului și de diznădăjduire m-am măritat…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (în mare mirare) </stage>
@@ -1924,7 +1930,7 @@
             <p>Ba-ncă ce?… să fi mai trăit păn-în vremea baracilor… Îl dobora pojarnicii… dar și-o luat tălpășița mai înainte…</p>
             <stage> (Oftând.) </stage>
             <p>Ah! Fluturaș dragă, când ai ști cât l-am jălit!…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (zâmbind) </stage>
@@ -1934,7 +1940,7 @@
             <speaker>FERCHEZANCA</speaker>
             <p>Te mieii ce și mai nimic.</p>
             <stage> (Râd amîndoi.) </stage>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
@@ -1947,7 +1953,7 @@
             <p>Ce zici de asta, moș Flutur?…</p>
             <stage> (Lovindu-l peste pântece.) </stage>
             <p>Așa colac!…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (râzând) </stage>
@@ -1989,7 +1995,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Acrostihescu?… care?… Odobașa?</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (râzând) </stage>
@@ -2022,16 +2028,16 @@
             <p>Să ne rătăcim,</p>
             <p>Și cu-ai mei prietini</p>
             <p>Să ne întâlnim.</p>
-            </sp>
-        <sp who="#flutur">
+          </sp>
+          <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (galant) </stage>
             <p>N-ai frică-n grădină de te-i rătăci,</p>
             <p>Printre, flori.</p>
             <p>Îndată eu te-oi și găsi.</p>
             <stage> (bis) </stage>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Vezi-l dacă-i flutur, flori în veci vânează...</p>
             <p>Vrabia bătrână tot mălai visează.</p>
@@ -2069,7 +2075,7 @@
             <p>Ah! ti coțcar… te port două luni de zile cu droșca, ș-apoi, când îi la plată, speli putina?…</p>
             <stage> (Îl ia de guler.) </stage>
             <p>Davai parale.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (căutând să-i despartă) </stage>
@@ -2088,7 +2094,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Nima?… No, hai cu mine amanet la Târgu Frumos.</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (în parte) </stage>
@@ -2116,30 +2122,30 @@
             <speaker>EGOR</speaker>
             <p>A cito ti tam post?… No, eu postit destul un an de zile… davai parale că-ți ieu surtucu…</p>
             <stage> (Vrea să-l dezbrace.) </stage>
-            </sp>
-        <sp who="#acrostihescu">
+          </sp>
+          <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (furios) </stage>
             <p>Ce face?… să nu cumva… că te sfărâm în bucăți, de nu te-a putea drege nici un carâtaș…</p>
             <stage> (Îl împinge, departe de el.) </stage>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (repezindu-se) </stage>
             <p>Tu?… Așteaptă…</p>
-            </sp>
-        <sp who="#acrostihescu">
+          </sp>
+          <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (fugind pe ușa cea ascunsă) </stage>
             <p>Ba nici gândesc…</p>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (alungându-l) </stage>
             <p>A… hti… padleț!…</p>
             <stage> (Iesw.) </stage>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (alergând după ei) </stage>
             <p>Pan Egor… Pan Egor… stăi…</p>
@@ -2159,7 +2165,7 @@
             <p>Eu din suflet vă doresc.</p>
             <p>Dragii mei, cu bucurie</p>
             <p>Vă poftesc la cununie…</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Să trăiești în veselie,</p>
@@ -2169,7 +2175,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Să trăiască stăp#na moșiei Ghiftuieni!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (închinându-se) </stage>
@@ -2178,7 +2184,7 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Să trăiască doamna Ghiftuianca.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (închinându-se) </stage>
@@ -2200,7 +2206,7 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Doarme!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (supărată) </stage>
@@ -2209,15 +2215,15 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Negreșit c-o adormit înadins ca să viseze la iubita lui mireasă.</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (mânioasă) </stage>
             <p>Flutur bătrîn… acuș îți smulg aripile… Hai, cărați-vă de-aici… lăsați-mă singură cu domnul Horăilă ista… căci am să-i grăiesc…</p>
             <stage> (în parte.) </stage>
             <p>Frumoasă impresie i-am făcut se vede!</p>
-            </sp>
-        <sp who="#toti">
+          </sp>
+          <sp who="#toti">
             <speaker>TOȚI</speaker>
             <stage> (ieșind închinându-se) </stage>
             <p>Să petreci în veselie</p>
@@ -2244,12 +2250,12 @@
             <p>Dar… mi-ai spăriet un vis cît se poate de plăcut … Pune-ți în gând că visam că erai lângă mine…</p>
             <stage> (Ferchezanca zâmbește și coboară ochii) </stage>
             <p>și că-mi ziceai, c-un glas de înger, că nu mă poți suferi… știi?… parcă mă ungeai cu miere la inimă.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cochetând) </stage>
             <p>Adeseori visurile-s minciunoase.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (trist) </stage>
@@ -2281,7 +2287,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Găsești că-i lucru de mirare?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (scoțând țigarete din buzunar) </stage>
@@ -2299,7 +2305,7 @@
             <p>Nu băga de samă…</p>
             <stage> (Dându-i o țigaretă.) </stage>
             <p>Poftești?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (supărată, se depărtează de canapea) </stage>
@@ -2309,8 +2315,8 @@
             <speaker>GHIFTUI</speaker>
             <p>a!</p>
             <stage> (Cască.) </stage>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (in parte) </stage>
             <p>Iar cască!… curioasă lighioaie!… de n-ar fi om, aș crede că-i somn…</p>
@@ -2322,29 +2328,29 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Panchiț!… În sfârșit te-am găsit și pe d-ta!… azi în ziua lui sfeti Mina.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte, cu sânge rece) </stage>
             <p>Se vede că mireasa mea are cunoștinți prin lipovenime.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (cu durere) </stage>
             <p>A! Panchiț! Panchiț! cum ți-ai făcut râs de bietu Egor!.. .A! tam niet frumos… niet hristian.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
             <p>Vai de mine! c-a să mă comprometeze dinaintea boieriului…</p>
             <stage> (Tare.) </stage>
             <p>Eu?… nu te-nțeleg … nu știu ce vrei să spui… nu te cunosc…</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (furios) </stage>
             <p>Nu mă cunoști?… A! ai uitat pe Egor birjariu care te-o purtat cu droșca trii luni de zile pe datorie… ai uitat că te-am scăpat de la nevoie?… că m-am calicit pentru ca să te scap de execuție?… Nu mă cunoști?… dar când ți-am adus cei o sută de galbini, cum de mă numeai Egoraș?… cum de-mi săreai în gât?… cum de mă sărutai?… Mă cunoșteai atunci?…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
@@ -2354,12 +2360,12 @@
             <stage> (Cătră Ghiftui.) </stage>
             <p>Și d-ta suferi una ca asta în casa d-tale?… ah… ah!</p>
             <stage> (Se face că leșină.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu sânge rece) </stage>
             <p>Ba că bine zici… Lasă, cucoană… nu mai leșina că-l dau eu afară pe bețivul ista.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (mânios) </stage>
@@ -2382,7 +2388,7 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Nu vreu… să-mi plătească dintâi 100 de galbini.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cam mânios) </stage>
@@ -2393,7 +2399,7 @@
             <p>Dar… bate mai iute… slavă Domnului!</p>
             <stage> (Cătră Egor.) </stage>
             <p>Încă n-ai ieșit?</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (punându-se pe un scaun, în fund) </stage>
@@ -2406,28 +2412,28 @@
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <p>Tu? ha, ha, ha. Vin, dacă vrei să te hârbuiesc ca pe-o droșcă veche.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Auzi!… acu m-am mâniet de tot.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (suflecîndu-și mânecile) </stage>
             <p>No; paidi suda…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (scoțându-și surtucul) </stage>
             <p>Așteaptă, Marojna… că te-oi topi eu acuș.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
             <p>Vai de mine! c-or să se bată!… Iaca pozna.</p>
             <stage> (Aria călușeilor din „Nunta țărănească”) </stage>
-            </sp>
+          </sp>
           <sp who="#egor #ghiftui">
             <speaker>EGOR și GHIFTUI</speaker>
             <stage> (împreună) </stage>
@@ -2436,17 +2442,17 @@
             <p>Cată de te ține bine;</p>
             <p>Cu mânie și cu ură</p>
             <p>Am să-ți sfărm dinții din gură.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (alergând între amândoi) </stage>
             <p>Stați pe loc … nu luptați… șede rău …</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui #egor">
             <speaker>GHIFTUI și EGOR</speaker>
             <stage> (împreună) </stage>
             <p>Nu vreu!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cătră Ghiflui) </stage>
@@ -2456,13 +2462,13 @@
             <speaker>GHIFTUI</speaker>
             <p>Nu vreu!</p>
             <stage> (Împreună.) </stage>
-            </sp>
+          </sp>
           <sp who="#egor #ghiftui">
             <speaker>EGOR și GHIFTUI</speaker>
             <p>Vai de tine,</p>
             <p>Vai de tine!</p>
             <p>etc. etc.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
@@ -2484,12 +2490,12 @@
             <speaker>GHIFTUI</speaker>
             <p>Am să te-nvăț polca… ia așa…</p>
             <stage> (Tot întorcându-se în luptă, ajung pe balcon.) </stage>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (speriată) </stage>
             <p>Stați, stați, pentru numele lui Dumnezeu!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în balcon) </stage>
@@ -2504,8 +2510,8 @@
             <speaker>GHIFTUI</speaker>
             <p>Ține, mă… ține, mă…</p>
             <stage> (Se aud amândoi răcnind și căzând în iaz) </stage>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (răcnind cu spaimă, caută pe fereastra balconului) </stage>
             <p>Vai de mine!… c-o căzut în iaz din balcon!… nu se mai zăresc… poate că nu știu să-noate!…</p>
@@ -2521,7 +2527,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Ce este? ce este?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (pierdută) </stage>
@@ -2535,8 +2541,8 @@
             <speaker>FERCHEZANCA</speaker>
             <p>Hai să ridicăm satu…</p>
             <stage> (Arie din „Scara mîței”: „Tîlharii”) </stage>
-            </sp>
-        <sp who="#ferchezanca #tita">
+          </sp>
+          <sp who="#ferchezanca #tita">
             <speaker>FERCHEZANCA și TIȚA</speaker>
             <stage> (deschizînd ușele din fund) </stage>
             <p>Prietini, săriți, ajutori</p>
@@ -2551,36 +2557,36 @@
             <speaker>TOȚI</speaker>
             <p>Ce este? ce vuiet? ce zor?</p>
             <p>Cui trebui aici ajutor?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Egor și Ghiftui…</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ce spui?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Bătându-se aici …</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Ce zici?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>În iaz au dat, zău.</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Valeu!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu deznădejde) </stage>
             <p>Ca doi bivoli grei.</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Elei!</p>
@@ -2594,7 +2600,7 @@
             <p>S-o înecat!</p>
             <stage> (Răm#n încremeniți toți.) </stage>
             <stage> (Ghiftui acoperit cu o manta se arată întovărășit de Tița la o ușă din fund. Cînd aude cuvântul „s-o înecat”, se oprește înspăimântat. Nime nu-l vede.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în fund) </stage>
@@ -2604,23 +2610,23 @@
             <speaker>TIȚA</speaker>
             <p>Țîst… vin cu mine… că te scap eu.</p>
             <stage> (Ghiftui și Tița se fac nevăzuți în stânga. Ceialalți de pe scenă caută tot pe fereastra balconului.) </stage>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (pe fereastră) </stage>
             <p>Nu mai este nici o nădejde, Odobașa?</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (sub balcon) </stage>
             <p>Nu… Îs perduți!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu disperare) </stage>
             <p>Perduți!… or să se mureze ca crastaveții în iaz… aleluia… am rămas iar văduvă… ah!</p>
             <stage> (Leșină.) </stage>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Vai, ce întâmplare!</p>
@@ -2633,7 +2639,6 @@
           <stage>Teatrul reprezintă o odaie mare și simplă mobilată. Ușă în fund; și de-a stânga ei o scară care duce la rândul de sus.  În capătul scării, o altă ușă. În stînga, o fereastră ce dă în grădină, în dreapta, o sobă și dinaintea ei o masă pe care se văd o oglindă mică și un sfeșnic cu un căpețel de luminare. Scaune pe lângă păreți. O ușă dincolo de sobă, care duce în odăile lui Talpă-Lată.</stage>
         </div>
       </div>
-
       <div type="act" n="2">
         <head>ACTUL II</head>
         <div type="scene" n="1">
@@ -2691,7 +2696,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>D-ta ești posesorul moșiei Ghiftuieni?</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (închinându-se) </stage>
@@ -2702,14 +2707,14 @@
             <p>D-ta să fii sănătos…</p>
             <stage> (Mergând la ușa din fund.) </stage>
             <p>Poftim în casă, suflețele…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (intrând repede în costum de amazoană) </stage>
             <p>Uf! bine c-am mai dat de uscat!… ce fugă!… ce primblare de olac… cale de-o poștă călare… de la Târgu-Frumos, păn-aici!… Dați-mi degrabă un pahar de apă… sau de vin, că mi s-o făcut gâtița iască.</p>
             <stage> (Tița merge în odaia din dreapta și aduce un pahar cu apă.) </stage>
             <stage> (Aria „Galopului de la bal-masqué”) </stage>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Hop, hop, hop,</p>
@@ -2729,21 +2734,21 @@
             <p>Câteodată, alivanta pe spinare,</p>
             <p>Dar nu-mi pasă… eu de șotii n-am habar.</p>
             <p>Hop, hop, hop etc.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (în parte) </stage>
             <p>Parcă văd maștele, la bal-masché…</p>
             <stage> (Imitând muzica militară.) </stage>
             <p>Tă… nă… nă… nă… dînă… dînă… bum, bum, bum…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (aducând apă) </stage>
             <p>Iaca apă, cucoană…</p>
             <stage> (În parte.) </stage>
             <p>Ce văd? Ferchezanca!</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (ia paharul și be) </stage>
@@ -2770,12 +2775,12 @@
             <p>Dumnezeu să-i ierte!…</p>
             <stage> (Cătră Tița.) </stage>
             <p>Ia ascultă, drăguță… n-ai o odaie mai curată unde să mă pot odihni puțintel, că mi-o zdrobit calu toate oasele-n mine… știi? parcă-s făcăluită.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Altă bele acu!… a să deie boieriul cu ochii de dânsa.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (În parte) </stage>
@@ -2811,7 +2816,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Când îi pofti, cucoană… odaia-i gata.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (pe gânduri) </stage>
@@ -2820,7 +2825,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Ha, ha, ha., copila-ți spune una și tu răspunzi alta… ha, ha, ha.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (răsărind) </stage>
@@ -2829,7 +2834,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Ba nu… ha, ha, ha… Da copila-ți spune alta și tu îi răspunzi una… vorba ceea: Buna ziua, măi fărtate… șepte pui de rață, frate… măi fărtate, tu ești surd… ba c-acu trecur-un cârd.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (puțin supărată) </stage>
@@ -2844,7 +2849,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Da bine, soro… așî-și te duci și mă lași cu lacrimile pe obraz?</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (oprindu-se pe scară) </stage>
@@ -2867,57 +2872,57 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Atâtica?… ei, apoi mă duc să mă culc puțintel… Cu sara bună…</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Vai de mine!… c-acu vre să și doarmă aici!</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (suind scările) </stage>
             <p>Da bine, soro… nu cumva mă duci în hulubărie?</p>
-            </sp>
-        <sp who="#flutur">
+          </sp>
+          <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (jos în capătul scării) </stage>
             <p>Acolo ți-i locu matale, porumbițo…</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în capătul de sus a scărei) </stage>
             <p>Hâș… Flutur bătrân…</p>
             <stage> (Împreună.) (Arie din „Chirița”: „Adio! în astă-seară”) </stage>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (pe scară) </stage>
             <p>Adio, rămâi aice…</p>
             <p>En mă duc să m-odihnesc.</p>
             <p>Adio, mă simt ferice</p>
             <p>De-a putea să horăiesc.</p>
-            </sp>
-        <sp who="#flutur">
+          </sp>
+          <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Adio, rămâi aice,</p>
             <p>Eu la curte mă pornesc.</p>
             <p>Adio, -n curând ferice</p>
             <p>Oi veni să te găsesc.</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Vai mie! cu groaz-aice</p>
             <p>Eu pe dânsa o privesc.</p>
             <p>Cât aș fi, zău, de ferice</p>
             <p>De-aș putea s-o mătrășesc!</p>
-            </sp>
-        <sp who="#flutur">
+          </sp>
+          <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Suflețele… nu uita</p>
             <p>Prin somn dulce-a mă visa.</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ba, zău, nu; că n-am de gând</p>
             <p>Să prind friguri chiar visând.</p>
@@ -2935,7 +2940,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Veselă cucoană se vede!… Îi cucoana d-tale?</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (îngâmfându-se) </stage>
@@ -2974,12 +2979,12 @@
             <p>L-o ferit Dumnezeu… după cum spunea el, sărmanu!… Mă duc să fiu față la lucrarea comisiei, ca martur… însă, păn’ te m-oi întoarce, te poftesc să porți de grijă cucoanei celei de sus…</p>
             <stage> (Cu un aer de protecție.) </stage>
             <p>Te-oi mulțămi…</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (închinându-se) </stage>
             <p>Bunătatea d-tale, cucoane.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (la ușa din fund) </stage>
@@ -2997,7 +3002,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Las’ pe mine.</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (deschizând ușa) </stage>
@@ -3029,7 +3034,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Un om ascuns în coșări!… a fi vrun tâlhar… cine-i?… Îl cunoști tu, măi Fedeleș?</p>
-            </sp>
+          </sp>
           <sp who="#fedeles">
             <speaker>FEDELEȘ</speaker>
             <stage> (râzând prostește) </stage>
@@ -3051,22 +3056,22 @@
             <speaker>FEDELEȘ</speaker>
             <p>M-am dus.</p>
             <stage> (Iese alergând, și lăsînd ușile deschise.) </stage>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (singur) </stage>
             <p>Să fie vrun tâlhar… nu cred c-ar vini ziua meaza mare… a fi poate vrun bejănar care vra să între argat la mine… fără leafă.</p>
-            </sp>
+          </sp>
           <sp who="#fedeles">
             <speaker>FEDELEȘ</speaker>
             <stage> (afară) </stage>
             <p>Boieriu-i singur… Întră-nuntru.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (dând busta în casă, se aruncă peste Talpă-Lată și-l îmbrățișează) </stage>
             <p>Scapă-mă, jupâne Talpă-Lată!</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (spăriet) </stage>
@@ -3097,7 +3102,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Sărmanu!… or fi făcut lăsat de săc cu dânsu…</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (cu deznădăjduire) </stage>
@@ -3155,7 +3160,7 @@
             <speaker>TALPĂ</speaker>
             <p>De spânzurătoare?…</p>
             <stage> (Tremură.) </stage>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (tremurând) </stage>
@@ -3166,13 +3171,13 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>O știu… n-ai nici o grijă, Egor… din casa mea nici dracu nu te-a putea scoate…</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (strângând în brațe pe Talpă) </stage>
             <p>A! bogdaprosti… bogdaprosti.</p>
             <stage> (Se aude afară un fluier de cioban.) </stage>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (spăriet) </stage>
@@ -3181,7 +3186,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Vine Stan ciobanu… hai degrabă… ascunde-te… fă-te nevăzut.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (căutînd împrejur) </stage>
@@ -3199,7 +3204,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Este.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (coborând în pivniță) </stage>
@@ -3234,7 +3239,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Taci, prostule… știi numai să răspunzi dobitocii.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cam supărat) </stage>
@@ -3243,7 +3248,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Ce?…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3266,7 +3271,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Le-am dat d-lui polițmaistru… nu muștru.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (în parte) </stage>
@@ -3281,7 +3286,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Ce face? meșînă?… Ce pomenești tu de meșînă, măi?… Te-ai îmbătat se vede, lepșitule.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (râzând) </stage>
@@ -3290,7 +3295,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Da nu cumva ai vra acu să-ți dau și vin?… când nu ești bun nici de-o treabă… leneș, prost, tuieș, mangosit…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3312,12 +3317,12 @@
             <stage> (Tare.) </stage>
             <p>Măi… deschide-ți ochii în patru, auzitu-m-ai?… atîta-ți spun.</p>
             <stage> (Iese prin fund.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (urmărindu-l) </stage>
             <p>În patru?… doar să-mi pun ochelari.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (deschizând ușa) </stage>
@@ -3394,12 +3399,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Taci, nu mă cuconi, că-mi faci șotia, Tițo dragă… Zi-mi Stan sadea.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (râzând) </stage>
             <p>Fie și Stan… De mult ai vinit, bade Stane?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (imitând țăranii) </stage>
@@ -3408,7 +3413,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Cum nu, bade Stănică?… ți-am păstrat borș…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (iute) </stage>
@@ -3418,19 +3423,19 @@
             <speaker>TIȚA</speaker>
             <p>De care-ți place… și mă duc să ți-l aduc…</p>
             <stage> (intră în odaia din dreapta.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (singur) </stage>
             <p>Iar borș cu știr!… De-aș fi împărat, aș trage 500 la talpe cărui ar mai îndrăzni să mai samene știr pe fața pămîntului.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (aducând o oală, o lingură, un pahar de vin și o bucată de pâine) </stage>
             <p>Iaca, bade Stane, am furat pentru d-ta un pahar de vin de cole din pivniță…</p>
             <stage> (Arată trapa.) </stage>
             <p>Că moș Talpă-Lată îi zgârcit ca un cârlig de vie.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (luând oala) </stage>
@@ -3485,12 +3490,12 @@
             <p>dincolo… Mă primblu cu dânsu la brațetă… mă culc cu dânsu alăturea… mănânc cu dânsu…</p>
             <stage> (Aduce la gură o lingură de borș și se oprește căutând cu spaimă dincolo de masă… Pe urmă apucă o lingură cu mâna stângă, având ochii tot țintiți în preajmă-i, și cu mâna dreaptă ia paharul, bea vinul pe jumătate ș-aruncă ce mai rămâne în obrazul spectrului ce i se pare că zărește.) </stage>
             <p>Slutu-i, bată-l crucea!</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (speriată) </stage>
             <p>Vai de mine! ce-i?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (deznădăjduit) </stage>
@@ -3522,7 +3527,7 @@
             <stage> (Căzând cu deznădăjduire pe un scaun.) </stage>
             <p>Am agiuns în halul morților!</p>
             <stage> (Se cufundă în gânduri.) </stage>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (În parte) </stage>
@@ -3544,12 +3549,12 @@
             <p>Și la glas de mângâiere,</p>
             <p>Ah, alung-a ta durere</p>
             <p>Că ești, zău, nevinovat!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (venindu-și în simțire, încet) </stage>
             <p>Ce glas dulce!… numai ea poate să-mi împrăștie gândurile cele triste…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (apropiindu-se cu sfială de Ghiftui) </stage>
@@ -3562,14 +3567,14 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Ei… dacă-i așa, știi ce te-aș sfătui?… ca să nu-ți mai vie afionu cela… cum îl numești d-ta… bine-ai face să începi iar vro călătorie prin lume…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (exaltat) </stage>
             <p>Să fac voiajuri?…să mă duc de-aici?… să-mi las oile? să mă depărtez de tine, Tițo… de tine?</p>
             <stage> (Cu glas firesc.) </stage>
             <p>Luat-ai sama că mai dăunăzi te-am strîns de mână?…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cu nevinovăție) </stage>
@@ -3582,7 +3587,7 @@
             <p>Și de n-aș fi așa de ostenit, te-aș mai strânge o dată.</p>
             <stage> (Exaltat.) </stage>
             <p>Să mă duc de-aici, unde-s scăpat de toată primejdia… unde-s căutat, grijit ca un cănăraș!…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (râzând) </stage>
@@ -3611,7 +3616,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Hai degrabă… degrabă…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (departându-se de Tița) </stage>
@@ -3628,7 +3633,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Știu eu?… or fi clironomii cuconului Dumitrachi Ghiftui.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (tare și cu mirare) </stage>
@@ -3637,7 +3642,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Ho! tontule… ce te-o apucat de răcnești așa?… Nu știi că s-o înecat boieriu?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu durere) </stage>
@@ -3646,18 +3651,18 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Ei! apoi?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (liniștit) </stage>
             <p>Nimic… nimic…</p>
             <stage> (Vrea să iasă.) </stage>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (oprindu-l) </stage>
             <p>încotro, moțpane… vrei să speli putina?… stăi aici că ai treabă.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3667,12 +3672,12 @@
             <speaker>TALPĂ</speaker>
             <p>Ghidi, ghidi, leneșule.</p>
             <stage> (Merge spre ușa din fund.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (punându-și pălăria pe ochi) </stage>
             <p>Ia așa… Încalțe nu m-or zări…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (încet lui Ghiftui) </stage>
@@ -3698,7 +3703,7 @@
             <p>Și lucrarea s-o sfârșim</p>
             <p>Pe Ghiftui să-l răfuim;</p>
             <p>Testamentul să-i cetim…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3711,17 +3716,17 @@
             <speaker>PRIETENII</speaker>
             <p>Haideți etc. etc.</p>
             <stage> (În vremea corului, Ghiftui se leagănă ușor ca și când ar voi să înceapă polca și, făcând deodată un gest de mânie, se duce spre ușa din fund… Talpă iar îl oprește.) </stage>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (oprind pe Ghiftui) </stage>
             <p>Iar?… dă… dă…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Mare păcat c-un posesor…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (către boieri) </stage>
@@ -3746,7 +3751,7 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Socotința me este că prietinul d-voastră ar fi figurat în iarmaroc cu ștreangu de gât…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3755,7 +3760,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Sărmanu! poate că i-ar fi trecut urâtul în spânzurătoare.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3764,7 +3769,7 @@
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <p>Și fiindcă era cam fudul… s-ar fi fudulit în ștreang, ca cioara-n par…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3785,7 +3790,7 @@
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <p>Cam trăsnit.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3798,7 +3803,7 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Dar, dar.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3811,7 +3816,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Mă… Stane… dă scaune boierilor.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3829,7 +3834,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Ia colo și colo, mangositule… Nu băgați de samă, boierilor, că-i un biet cioban necioplit…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3838,7 +3843,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Cînd nu-i cu oile, nu plătește nici doi bani… îi diprins cu ele… ș-ar vra să le vadă zi și noapte.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3847,53 +3852,53 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Poftim, boieri, să cetim testamentul răposatului.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Răposatului de față.</p>
-            </sp>
+          </sp>
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <stage> (așezându-se pe scaune) </stage>
             <p>Ia să videm.</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (cetind) </stage>
             <p>„Acesta este testamentul meu!… Eu sub-iscălitul, Dimitrie Ghiftui, din mila lui Dumnezeu fiind lipsit de rude, numesc drept clironomi averei mele, pe prietinii mei: Banul Hagi-Flutur…”</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (răsărind) </stage>
             <p>Ce zici?…</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (citind) </stage>
             <p>„Și pe d. Acrostihescu… Odobașa…”</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (răsărind) </stage>
             <p>Ce spui?…</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (citind) </stage>
             <p>„Fiind amândoi capitaliști…”</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>N-au para-n pungă, da-s din capitalie.</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (citind) </stage>
             <p>„Fiind amândoi capitaliști și prietini pe care îi prețuiesc… Iar spre a curma tot soiul de neînțelegeri între ei… las anume satul Ghiftuieni lui Hagi-Flutur și satul Sătula lui Acrostihescu… iscălit, Dimitrie Ghiftui. 20 mai… 1849.”</p>
             <stage> (Toți se scoală de pe scaune.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3914,7 +3919,7 @@
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <p>Ce suflet nobil!… am să-i fac o odă…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3929,7 +3934,7 @@
             <speaker>ACROSTIHESCU</speaker>
             <p>Așa om cu geniu!…</p>
             <stage> (Își șterge ochii.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3942,12 +3947,12 @@
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <p>Așa înger!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Na… ce v-am spus?</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (lui Acrostihescu) </stage>
@@ -3961,12 +3966,12 @@
             <speaker>FLUTUR</speaker>
             <p>a!…</p>
             <stage> (Se îmbrățișează împreună plângând.) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Ia auzi-i cum se mai fasolesc!… să nu-i iei cu toropala?</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (lui Talpă) </stage>
@@ -3975,7 +3980,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Scump, cucoane… foarte scump… cât nu face. Cuconu Dumitrachi Ghiftui, Dumnezău să-l ierte!… Îmi făgăduise că m-a mai scăde din câștig… dar n-am avut parte…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -3997,13 +4002,13 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Cine? el?… da cunoaște el ceva, tontu?… vin eu cu d-voastră.</p>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Haida! cică este-o vorbă: Hai, tată, să-ți arăt hotarăle…</p>
-            </sp>
-        <sp who="#corul">
+          </sp>
+          <sp who="#corul">
             <speaker>CORUL</speaker>
             <p>Haideți, haideți să grăbim</p>
             <p>Și lucrarea să sfârșim,</p>
@@ -4053,8 +4058,8 @@
             <speaker>FERCHEZANCA</speaker>
             <p>Auzi gust?… Vai de mine!… doar nu-s stridie!… Mă umflă spaima din tălpi… mă duc să mă-nchid în casă…</p>
             <stage> (intră în odaie.) </stage>
-            </sp>
-        <sp who="#egor">
+          </sp>
+          <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (arătându-se) </stage>
             <p>No, harașo! i-am vinit de hac… ha, ha, ha… de-acum știu că mi-a plăti.</p>
@@ -4104,7 +4109,7 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Ce vă spune Timofti Cîrcioc… helbet!… doar nu-s candidat de flori de cuc… vă sfătuiesc prietinește…</p>
-            </sp>
+          </sp>
           <sp who="#flutur #acrost">
             <speaker>FLUTUR, ACROST</speaker>
             <stage> (împreună) </stage>
@@ -4114,7 +4119,7 @@
             <speaker>CÎRCIOC</speaker>
             <p>Ei! știți una?… hai să mai cetim testamentu… poate că ne-om lămuri asupra pricinii.</p>
             <p>FLUTUR, ACROST: Foarte bine.</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (luând testamentul de pe masă) </stage>
@@ -4125,7 +4130,7 @@
             <speaker>CÎRCIOC</speaker>
             <p>Pe ceealaltă față a testamentului este o adăugire care-mi scăpase din videre.</p>
             <p>FLUTUR, ACROST: Cetește-o!</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (în parte) </stage>
@@ -4133,7 +4138,7 @@
             <stage> (Tare, cetind:) </stage>
             <p>„Fiindcă se poate întîmpla ca să mă înec mâni, îmi schimb hotărârea de mai-nainte și-mi las toată averea Țiței…”</p>
             <p>FLUTUR, ACROST: Ce face?</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (citind) </stage>
@@ -4142,7 +4147,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>Mare minune!</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (citind) </stage>
@@ -4154,21 +4159,21 @@
             <p>Ba mă iertați, că-i scris cu mâna răposatului.</p>
             <p>FLUTUR, ACROST</p>
             <stage> (cu deznădăjduite) </stage>
-            </sp>
-        <sp who="#talpa">
+          </sp>
+          <sp who="#talpa">
             <speaker>, TALPĂ</speaker>
             <stage> (cu mirare) </stage>
             <p>Breee!</p>
             <stage> (Aria „Vai! ce este? ce-ntâmplare?” din „Baba-Hirca”) . (Împreună.) </stage>
-            </sp>
-        <sp who="#flutur #acrostihescu">
+          </sp>
+          <sp who="#flutur #acrostihescu">
             <speaker>FLUTUR ȘI ACROSTIHESCU</speaker>
             <p>De se poate-așa rușine</p>
             <p>Să pățim noi amândoi,</p>
             <p>A o crede, zău, nu-mi vine,</p>
             <p>El și-o bătut joc de noi!</p>
-            </sp>
-        <sp who="#talpa #ceialalti">
+          </sp>
+          <sp who="#talpa #ceialalti">
             <speaker>TALPĂ ȘI CEIALALȚI</speaker>
             <p>Ce rușine, ce rușine!</p>
             <p>Au pățit-o amândoi!</p>
@@ -4182,22 +4187,22 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Ce este? ce este, de răcniți așa?</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (în parte) </stage>
             <p>Ce văd? Tița! ea-i clironoamă… bună partidă!</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (în parte) </stage>
             <p>He, he… copilița-i frumușică… he… he… și are zestre bună… he… he… mai că de-ar vra să fie Fluturoaie…</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (în parte) </stage>
             <p>Îs văduvoi… Tița-i diprinsă cu mine… știi că s-ar putea?… Pravila dă voie epitropilor să se cunune cu…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (Țiței) </stage>
@@ -4206,7 +4211,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Ce dihanie-i aceea?</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (Tiței) </stage>
@@ -4223,7 +4228,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Iaca mă uit… ș-apoi?…</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (în parte) </stage>
@@ -4248,27 +4253,27 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Duduca are dreptate. Iaca eu, de pildă, am împlinit 45 de ani la Crăciun… Îs numai bun de însurat.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (trecând lîngă Tița) </stage>
             <p>Dacă-i treaba pe-aceea, apoi eu îs și mai bun, c-am împlinit 50 la Ispas.</p>
-            </sp>
+          </sp>
           <sp who="#acrostihescu">
             <speaker>ACROSTIHESCU</speaker>
             <stage> (trecând lîngă Tița) </stage>
             <p>Atâta ar mai trebui… să se cunune o copilă tânără cu giumătăți de veacuri!… Nu te potrivi, duducă… eu am numai 25 de ani…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (îndesându-se) </stage>
             <p>Crede-mă pe mine, că Acrostihescu nu știe ce spune…</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (asemenea) </stage>
             <p>Ascultă pe moșu, că d-nu Flutur aiurează.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚĂ</speaker>
             <stage> (veselă, către Cîrcioc) </stage>
@@ -4277,7 +4282,7 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Ce să aibă?… un lucru de nimic… Banu Flutur și d-nu Acrostihescu îs depărtați din clironomie, și-n locul lor, răposatu te lasă pe d-ta clironoama averei sale…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cu bucurie) </stage>
@@ -4323,7 +4328,7 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>D-apoi eu nu-s pe-aici?</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (pe gînduri) </stage>
@@ -4350,15 +4355,15 @@
             <p>Auzi!… ce-ar agiunge lumea, dacă fetele de boier s-ar da în dragoste cu ciobanii!</p>
             <stage> (Arie din „Baba-Hîrca”: „Vai! ce este? ce-ntîmplare?”) </stage>
             <stage> (Împreună.) </stage>
-            </sp>
-        <sp who="#corul">
+          </sp>
+          <sp who="#corul">
             <speaker>CORUL</speaker>
             <p>Unde-i, unde-i țopârlanul</p>
             <p>Să-l măsor peste cojoc.</p>
             <p>Unde-i, unde-i Stan ciobanul</p>
             <p>Să-l zdrobesc aici pe loc.</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Vai de bietul Stan ciobanul</p>
             <p>C-or să-l lasă mort pe loc!</p>
@@ -4373,7 +4378,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Un cioban care-i urât…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -4382,7 +4387,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Necioplit.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -4391,7 +4396,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Grosolan.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -4404,7 +4409,7 @@
           <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>Bravo, Tițo!…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte, trist) </stage>
@@ -4417,27 +4422,27 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Nici vorbă nu-i…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
             <p>Cum? și el umblă după-nsurat?… putregaiu dracului!., .</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (încet Tiței) </stage>
             <p>De-i vre să fii Fluturoaie… te fac cucoană și te duc la Ieși.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Așteaptă, murgule, să paști iarbă.</p>
-            </sp>
+          </sp>
           <sp who="#acrohistescu">
             <speaker>ACROHISTESCU</speaker>
             <stage> (încet Tiței) </stage>
             <p>De-i primi să fii Acrostihească… ți-oi turna patru ode…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (în parte) </stage>
@@ -4452,8 +4457,8 @@
             <p>Rezon…</p>
             <stage> (Cătră ceialalți.) </stage>
             <p>Haideți, boieri, și ne-om întoarce peste-un ceas…</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Să vă-ntoarceți când s-a întoarce bunica din ceea lume…</p>
@@ -4494,12 +4499,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Ce-mi pasă?… ascultă… să nu cumva să te-mpingă păcatu să faci una ca asta… m-ai auzit? că te șterg de pe fața pământului…</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (furios) </stage>
             <p>Tu… eu… pe mine… tu?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu sânge rece) </stage>
@@ -4528,7 +4533,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Apoi… de-i îndrăzni să gândești la Tița… te-apuc la umblăcit ca pe oi… brrr, oaie… brrr, Talpă.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (furios) </stage>
@@ -4545,7 +4550,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Hoț, nehoț… ia sama că suntem singuri aici.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (în parte, cu frică) </stage>
@@ -4554,7 +4559,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Și-s mai tare decât tine… îs cioban.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (dârz) </stage>
@@ -4617,12 +4622,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>De tinerețe?… auzi mofluzu!… Nu așa: să te mănânce lăcustele?</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (în parte) </stage>
             <p>Mă, mă, mă!… ce blăstămat!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (strângîndu-l tare de mână) </stage>
@@ -4644,7 +4649,7 @@
             <speaker>GHIFTUI</speaker>
             <p>Nu-i treaba me.</p>
             <stage> (Îl strânge de mână.) </stage>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (strâmbându-se) </stage>
@@ -4669,12 +4674,12 @@
             <p>Ia lasă, hoțule, că te-oi drege eu!</p>
             <stage> (Tare și cu glas blând.) </stage>
             <p>Rămâi sănătos, bădică.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (umblând turburat) </stage>
             <p>Sara bună.</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (întorcându-se de la ușă) </stage>
@@ -4702,7 +4707,7 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Bine-ai făcut c-ai disclironomisit pe ceilalți.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (asemenea) </stage>
@@ -4804,31 +4809,31 @@
             <speaker>TIȚA</speaker>
             <p>Iaca!… da n-o știai?…</p>
             <stage> (Duo din „Scara mâței”) </stage>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Tițico!</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Cucoane? …</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>O! înger ceresc!</p>
             <p>Iubești pe Stănică?</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Dar, zău, îl iubesc!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu Joc) </stage>
             <p>Ah, spune-mi, dragă,</p>
             <p>Că nu e șagă,</p>
             <p>Nu-ți fie frică, nu te sfii.</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Eu să am frică?</p>
@@ -4854,7 +4859,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Ha, ha, ha!… așa minune încă n-am văzut… ha, ha, ha… Ciobanii fac declarații de amor, ca la teatru!… ha, ha, ha.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (ridicându-se) </stage>
@@ -4870,7 +4875,7 @@
             <p>Ferchezanca!</p>
             <stage> (în parte.) </stage>
             <p>Am sfeclit-o.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (scoborându-se răpede) </stage>
@@ -4907,7 +4912,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Cum ai zis?… Ia mai zi o dată…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (tare) </stage>
@@ -4932,7 +4937,7 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Obrăzniciile… a!… nu-ți plac?… a!… d-sale boieriului îi plac fetele de la țară, copilele nevinovate și proaste?… d-lui boieriu se ascunde în haine ciobănești, ca să tractarisească amoruri câmpenești cu lapte dulce și cu borș cu știr?… ha, ha, ha, ha, ha!</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cu ochii plini de lacrimi) </stage>
@@ -4967,12 +4972,12 @@
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <p>Iată-l.</p>
-            </sp>
+          </sp>
           <sp who="#flutur #acrostihescu">
             <speaker>FLUTUR și ACROSTIHESCU</speaker>
             <stage> (văzându-l) </stage>
             <p>Ghiftui! mare minune!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (energic) </stage>
@@ -4981,7 +4986,7 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>N-ai murit, scumpul meu prietin?… Nu te-o m#ncat broaștele?…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (asemene) </stage>
@@ -4990,22 +4995,22 @@
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <p>Cine putea ghici că te-i ascunde, vere Dumitrachi?</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu mândrie) </stage>
             <p>Să știți că m-am ascuns! dar de ce m-am ascuns? pentru că mi-era frică.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (cu tânguire) </stage>
             <p>Voinicelu mamei!</p>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (venind lângă Ghiftui) </stage>
             <p>Ian mă rog… d-ta ești d-nu Ghiftui? avem două vorbe împreună.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (luând pe Cîrcioc de braț și împingându-l de ceealaltă parte) </stage>
@@ -5013,7 +5018,7 @@
             <stage> (Cătră Flutur și Acrostihescu.) </stage>
             <p>Periți din ochii mei, și să vă văd de azi înainte când mi-oi videa ceafa… Plecăciune…</p>
             <stage> (Voiește să iasă prin fund.) </stage>
-            </sp>
+          </sp>
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <stage> (aducându-l napoi) </stage>
@@ -5034,7 +5039,7 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Candidat de giudecătorie…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (schimbându-și glasul) </stage>
@@ -5059,7 +5064,7 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Pentru moartea lipovanului.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (răcnind) </stage>
@@ -5084,7 +5089,7 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Următoarele: „Fiindcă să poate întâmpla să mă-nec mîni…” Asta dovidește mult înaintea pravilelor.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (obosit) </stage>
@@ -5093,14 +5098,14 @@
           <sp who="#circioc">
             <speaker>CÎRCIOC</speaker>
             <p>Cu mare părere de rău te înștiințăz că te arestuiesc, și păn’a nu te duce la leș, vei fi închis în odaia asta.</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (căzând pe scaunul de lângă masă) </stage>
             <p>Îs fript de-acum!</p>
             <stage> (Tiței, care se apropie de el.) </stage>
             <p>Îs fript… ce vrei?… Îs fript.</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (apropiindu-se de Ghiftui) </stage>
@@ -5109,35 +5114,35 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Piei din ochii mei, Papalugă…</p>
-            </sp>
-        <sp who="#toti">
+          </sp>
+          <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>O! ce-ntâmplare!</p>
             <p>Ce rău îmi pare!</p>
             <p>În belea mare</p>
             <p>El a intrat.</p>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (abătut) </stage>
             <p>O! ce-ntâmplare!</p>
             <p>Groaza-mi e mare;</p>
             <p>În belea mare</p>
             <p>Eu am intrat.</p>
-            </sp>
-        <sp who="#ferchezanca">
+          </sp>
+          <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (în parte) </stage>
             <p>Ce bine-mi pare…</p>
             <p>M-am răzbunat!</p>
-            </sp>
-        <sp who="#tita">
+          </sp>
+          <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (în parte) </stage>
             <p>Nici o scăpare</p>
             <p>Nu-i de-așteptat!</p>
-            </sp>
-        <sp who="#toti">
+          </sp>
+          <sp who="#toti">
             <speaker>TOȚI</speaker>
             <p>O! ce-ntîmplare… ș.c.l.</p>
             <stage> (Ies cu toții prin fund.) </stage>
@@ -5208,34 +5213,34 @@
             <p>Nu pot scăpa de-acel draci etc.</p>
             <stage> (Vine în fața scenei.) </stage>
             <p>Da n-oi să scap de dânsul nici pe fața pămîntului, nici în fundul pămîntului?… oriîncotro m-oi întoarce, trebuie să dau cu ochii de dânsul?…</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (rîdicând o trapă și scoțînd capul) </stage>
             <p>A!… iaca oblonu…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (repezindu-se și sărind pe trapă) </stage>
             <p>Iaca… iar!</p>
             <stage> (Tremurând.) </stage>
             <p>Săracan de mine, că parcă-s pe ceea lume!…</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (rîdicând a doua trapă) </stage>
             <p>Pe-ăici oi putea să ies…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (se aruncă din nou și o închide cu picioarele, și zice cu deznădăjduire) </stage>
             <p>Unde mă găsăsc? vai de mine! pe un vulcan de lipoveni?…</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (ridicând trapa cea dîntâi) </stage>
             <p>Mare minune! că nu dau de ușă…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (asemene) </stage>
@@ -5270,17 +5275,17 @@
             <p>Ce cabazlâc îi aista?… lor le vine-a giuca mazurca când eu mă aflu în ceasul morții?… dați-mi bună pace… n-am chef de gioc.</p>
             <stage> (Se scoală, ia scaunul pe care ședea, îl anină de braț și pe urmă, ridicînd masa, se întoarce cu ea, o așează între dânsul și țărani și se pune iar pe scaun, plecându-și capul pe masă.) </stage>
             <p>De-acum, parapanghelos! … am răposat!…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (alergând cu bucurie) </stage>
             <p>Cucoane Dumitrachi… cucoane Dumitrachi…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu glas stins) </stage>
             <p>Mortos, cortos… nu vorbiți cu morții!…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (cu mirare) </stage>
@@ -5289,17 +5294,17 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Ce este?</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (uitându-se la dânsul speriată) </stage>
             <p>Vai de mine! ce-ai pățit?… ești alb de tot!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (ștergându-și mâneca, se scoală și vine în scenă) </stage>
             <p>Alb?… se vede că m-am atins de vrun părete…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (aducând degrabă oglinda de pe sobă) </stage>
@@ -5308,12 +5313,12 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Păru?…</p>
-            </sp>
+          </sp>
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <stage> (punându-i oglinda sub ochi) </stage>
             <p>Ian privește!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (văzându-se) </stage>
@@ -5347,18 +5352,18 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Scăpat?</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (deschizând trapa) </stage>
             <p>Da… da… Egor scapat!… Egor zdaro!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (voind să se arunce pe trapă) </stage>
             <p>Nu lăsați… nu lăsați… dați-i în cap…</p>
             <stage> (Arată pe Egor.) </stage>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (oprind pe Ghiftui) </stage>
@@ -5371,12 +5376,12 @@
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <p>L-am ascuns eu în pivniță, pentru că te socotea înecat.</p>
-            </sp>
+          </sp>
           <sp who="#egor">
             <speaker>EGOR</speaker>
             <stage> (ieșind din trapă) </stage>
             <p>A!… nime nu-i murit?… gospodi pomilui!</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu sfială) </stage>
@@ -5397,12 +5402,12 @@
             <p>Doamne! mult am mai gândit la d-ta…</p>
             <stage> (În parte.) </stage>
             <p>De-oi mai îneca lipoveni de azi înainte, să-mi ziceți cuțu…</p>
-            </sp>
+          </sp>
           <sp who="#flutur">
             <speaker>FLUTUR</speaker>
             <stage> (viind la Ghiftui) </stage>
             <p>Da bine… pe noi nu ne vezi, vere Ghiftui?…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu o bucurie minciunoasă) </stage>
@@ -5415,7 +5420,7 @@
             <speaker>GHIFTUI</speaker>
             <p>Scumpii mei prietini… numai voi puteați înțălege fericirea me, și de aceea nădăjduiesc că-ți binevoi să mi-o faceți deplină…</p>
             <p>FLUTUR, ACROST: Poroncește, vere Ghiftui… și noi suntem gata…</p>
-            </sp>
+          </sp>
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu dragoste) </stage>
@@ -5489,7 +5494,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>Să întri iar în trupa teatrului național, ca să câștigi aplaudele publicului…</p>
-            </sp>
+          </sp>
           <sp who="#ferchezanca">
             <speaker>FERCHEZANCA</speaker>
             <stage> (întinzând mâna lui Ghiftui) </stage>
@@ -5498,7 +5503,7 @@
           <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <p>N-ai nici o îndoială… Ei! moș Talpă-Lată… ce mai zici?… tot prost sunt?… tot mojîc îs?…</p>
-            </sp>
+          </sp>
           <sp who="#talpa">
             <speaker>TALPĂ</speaker>
             <stage> (plecându-se) </stage>
@@ -5512,8 +5517,8 @@
           <sp who="#tita">
             <speaker>TIȚA</speaker>
             <p>Las’ pe mine, Stănică…</p>
-            </sp>
-        <sp who="#ghiftui">
+          </sp>
+          <sp who="#ghiftui">
             <speaker>GHIFTUI</speaker>
             <stage> (cu multă mulțămire) </stage>
             <p>Slavă ție, Doamne!… mi-o trecut urâtul… l-am înecat! și din doi morți, ne-am ales amândoi vii!…</p>

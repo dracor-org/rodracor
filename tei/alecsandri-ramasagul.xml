@@ -7,7 +7,7 @@
         <title>Rămășagul</title>
         <author>
           <persName>Vasile Alecsandri</persName>
-          <idno type="wikidata">https://www.wikidata.org/entity/Q352004</idno>
+          <idno type="wikidata">Q352004</idno>
         </author>
       </titleStmt>
       <publicationStmt>
@@ -25,11 +25,10 @@
           </availability>
         </bibl>
         <bibl type="originalSource">
-            <availability>
-              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
-            </availability>
+          <availability>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+          </availability>
         </bibl>
-
         <listEvent>
           <event type="print" when="1845">
             <desc>1845</desc>
@@ -58,6 +57,15 @@
           <person xml:id="un_lacheu" sex="MALE">
             <persName>UN LACHEU</persName>
           </person>
+          <person xml:id="feciorul">
+            <persName>FECIORUL</persName>
+          </person>
+          <person xml:id="lacheul">
+            <persName>LACHEUL</persName>
+          </person>
+          <person xml:id="toti">
+            <persName>TOTI</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -68,11 +76,6 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ro000032"/>
-    </listRelation>
-  </standOff>
   <text>
     <front>
       <titlePage>
@@ -243,90 +246,90 @@
           <stage>(Sărută pe Smărăndița Și iesă prin fund.)</stage>
           <div type="scene" n="2">
             <head>SCENA II</head>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Verișoară, ce i-a abătut bărbatului tău să-ți propuie un astfel de rămășag?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Nu știu; dar… lasă-l că l-oi învăța eu cum să judece femeile.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Da bine… ce fel ai să-l înșeli?…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(zîmbind)</stage>
-            <p>îi videa.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Cum? ți-ai și închipuit planul?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Nu ți-am spus că femeile au cîte un drăcușor care le povățuiește?</p>
-            <stage>(Sună clopoțelul.)</stage>
-            <stage>(Întră un fecior.)</stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Du-te de poftește pe madam Franț, guvernanta, să vie sus.</p>
-            <stage> (Feciorul iesă.) </stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Spune-mi și mie, verișoară, ce ai să faci? Mă rog matale.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Am să-l fac pe bărbatu meu să se înamoreze de mine.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Cum se poate?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Îți pare greu lucru?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ba nu… D-apoi…</p>
-            <p>SCENA III</p>
-            <p>SMĂRĂNDIȚA. TINCA, madam Franț</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Ce poftești, cuconiță?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Dragă madam Franț, am să te rog să-mi faci o slujbă.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Poroncește-mi ce ți-a plăcea.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Să ai bunătate ca să te duci pănă peste drum, la croitorul ce vinde costumuri de balmasqué, și să-mi iei un domino negru de catife; dar să zici că-i pentru d-ta. madam Franț Dar eu n-am fost de cînd sînt la balmasqué.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Că nici cer de la d-ta ca să te trudești pe la bal, ci, dimpotrivă, voi să merg eu însămi.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Așa? Foarte bine. Mă duc îndată la croitor,</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Dar să nu întîrzii!</p>
-            <stage> (Madam Franț iesă.) </stage>
-          </sp>
-        </div>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Verișoară, ce i-a abătut bărbatului tău să-ți propuie un astfel de rămășag?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Nu știu; dar… lasă-l că l-oi învăța eu cum să judece femeile.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Da bine… ce fel ai să-l înșeli?…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(zîmbind)</stage>
+              <p>îi videa.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Cum? ți-ai și închipuit planul?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Nu ți-am spus că femeile au cîte un drăcușor care le povățuiește?</p>
+              <stage>(Sună clopoțelul.)</stage>
+              <stage>(Întră un fecior.)</stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Du-te de poftește pe madam Franț, guvernanta, să vie sus.</p>
+              <stage> (Feciorul iesă.) </stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Spune-mi și mie, verișoară, ce ai să faci? Mă rog matale.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Am să-l fac pe bărbatu meu să se înamoreze de mine.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Cum se poate?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Îți pare greu lucru?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ba nu… D-apoi…</p>
+              <p>SCENA III</p>
+              <p>SMĂRĂNDIȚA. TINCA, madam Franț</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Ce poftești, cuconiță?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Dragă madam Franț, am să te rog să-mi faci o slujbă.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Poroncește-mi ce ți-a plăcea.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Să ai bunătate ca să te duci pănă peste drum, la croitorul ce vinde costumuri de balmasqué, și să-mi iei un domino negru de catife; dar să zici că-i pentru d-ta. madam Franț Dar eu n-am fost de cînd sînt la balmasqué.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Că nici cer de la d-ta ca să te trudești pe la bal, ci, dimpotrivă, voi să merg eu însămi.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Așa? Foarte bine. Mă duc îndată la croitor,</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Dar să nu întîrzii!</p>
+              <stage> (Madam Franț iesă.) </stage>
+            </sp>
+          </div>
         </div>
         <div type="scene" n="2">
           <head>SCENA IV</head>
@@ -439,752 +442,752 @@
           </sp>
           <div type="scene" n="7">
             <head>SCENA VII</head>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(intrînd)</stage>
-            <p>Iată-mă-s gata.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(în parte, ascunzind răvașul)</stage>
-            <p>Verișoara!…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(apropiindu-se de Tinca, o sărută pe frunte)</stage>
-            <p>Cu seara bună, verișoară.</p>
-            <stage>(Încet.)</stage>
-            <p>Ce-ți mai scrie Nicu?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Nicu?…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Ha, ha, ha!… Nu ți-am spus că știu tot?</p>
-            <stage> (Feciorul intră.) </stage>
-          </sp>
-          <sp who="#feciorul">
-            <speaker>FECIORUL</speaker>
-            <p>Trăsura-i la poartă.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Bine… Să te duci acum îndată la Miculi, să ceri un șal negru și să-l aduci aici.</p>
-            <stage> (Feciorul iesă.) </stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(în parte)</stage>
-            <p>A! Teodorene!… pui rămășag cu femeile, cînd îi treaba pe înșelat?… Bine, bine!…</p>
-            <stage>(Tare.)</stage>
-            <p>Seara bună, madam Franț… Tinco, nu uita ce ți-am spus.</p>
-            <stage>(Iesă prin fund.)</stage>
-          </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(intrînd)</stage>
+              <p>Iată-mă-s gata.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(în parte, ascunzind răvașul)</stage>
+              <p>Verișoara!…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(apropiindu-se de Tinca, o sărută pe frunte)</stage>
+              <p>Cu seara bună, verișoară.</p>
+              <stage>(Încet.)</stage>
+              <p>Ce-ți mai scrie Nicu?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Nicu?…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Ha, ha, ha!… Nu ți-am spus că știu tot?</p>
+              <stage> (Feciorul intră.) </stage>
+            </sp>
+            <sp who="#feciorul">
+              <speaker>FECIORUL</speaker>
+              <p>Trăsura-i la poartă.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Bine… Să te duci acum îndată la Miculi, să ceri un șal negru și să-l aduci aici.</p>
+              <stage> (Feciorul iesă.) </stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(în parte)</stage>
+              <p>A! Teodorene!… pui rămășag cu femeile, cînd îi treaba pe înșelat?… Bine, bine!…</p>
+              <stage>(Tare.)</stage>
+              <p>Seara bună, madam Franț… Tinco, nu uita ce ți-am spus.</p>
+              <stage>(Iesă prin fund.)</stage>
+            </sp>
           </div>
-        <div type="scene" n="8">
-          <head>SCENA VIII</head>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Ei, duducă, ce-ți mai scrie cuconașu Nicu?… Dar pare că ești supărată?… Ce ai…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ce să am, dragă madam Franț?… Am, că nu știu ce să fac.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Cum?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Nicu mă roagă ca să-i dau voie să vie să mă vadă singură!… și nu știu de se cuvine…</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Numai atîta-i?… Da primește-l să vie, că n-are să te mănînce.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Zău?… pot să-l primesc, dragă madam Franț?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Poți, duducă, pentru că cuconul Nicu îi tînăr de treabă și vrea să te ieie… Hei! să mă fi văzut pe mine cînd eram tînără, cum mă întîlneam cu bietul Franț, Dumnezeu să-l ierte!… pe fereastă… Sărmanul! cum mă iubea!… În toate serile mi-aducea chipfe proaspete… A!</p>
-            <stage>(Plînge.)</stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Nu mai plînge, dragă madam Franț.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>A!… De ce n-am murit și eu?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Dar dacă mureai, cine mi-ar fi fost guvernantă mie?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Bine zici, duducă Tincă.</p>
-            <stage>(O sărută.)</stage>
-            <p>Nu băga-n seamă cele ce spun… Ia, o babă nebună și eu… Mai bine să vorbim de cuconașul Nicu.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>El ți-a dat scrisoarea?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Dar; l-am întîlnit la poartă, cînd mă duceam să ieu costumul cuconiței, și cînd ai ști cît m-a rugat ca să te fac să-l primești!…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Oare cum să-i dăm de știre?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>D-lui mi-a zis că va cînta din flaut pe sub fereastă, și că dacă va videa o lumînare pe la geamuri, atunci s-a sui; iar de nu, s-a duce acasă măhnit.</p>
-            <stage> (Se aude un flaut sub fereastă.) </stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ia auzi, madam Franț…</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>El îi, duducă.</p>
-            <stage> (Stau amîndouă de ascultă.) </stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Sărmanul Nicu!… va îngheța afară.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Cred și eu, că-i tare frig.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ce să facem, dragă madam Franț? madam Franț</p>
-            <stage>(luînd o lumînare și purtînd-o pe la fereastă)</stage>
-            <p>Iaca ce să facem.</p>
-          </sp>
-          <stage>(Flautul tace.)</stage>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ah! cum îmi bate inima de tare.</p>
-            <stage>(Se pune pe un jilț.)</stage>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Nu fi copilă, duducă Tincă, că nu te-oi lăsa singură.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Să șezi cu mine, madam Franț.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Bine, bine; nu te teme.</p>
-            <stage>(În parte.)</stage>
-            <p>Draga duducă!… cum s-a îngălbenit!… Ia așa tremuram și eu… În vremea lui Franț.</p>
-          </sp>
+          <div type="scene" n="8">
+            <head>SCENA VIII</head>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Ei, duducă, ce-ți mai scrie cuconașu Nicu?… Dar pare că ești supărată?… Ce ai…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ce să am, dragă madam Franț?… Am, că nu știu ce să fac.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Cum?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Nicu mă roagă ca să-i dau voie să vie să mă vadă singură!… și nu știu de se cuvine…</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Numai atîta-i?… Da primește-l să vie, că n-are să te mănînce.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Zău?… pot să-l primesc, dragă madam Franț?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Poți, duducă, pentru că cuconul Nicu îi tînăr de treabă și vrea să te ieie… Hei! să mă fi văzut pe mine cînd eram tînără, cum mă întîlneam cu bietul Franț, Dumnezeu să-l ierte!… pe fereastă… Sărmanul! cum mă iubea!… În toate serile mi-aducea chipfe proaspete… A!</p>
+              <stage>(Plînge.)</stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Nu mai plînge, dragă madam Franț.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>A!… De ce n-am murit și eu?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Dar dacă mureai, cine mi-ar fi fost guvernantă mie?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Bine zici, duducă Tincă.</p>
+              <stage>(O sărută.)</stage>
+              <p>Nu băga-n seamă cele ce spun… Ia, o babă nebună și eu… Mai bine să vorbim de cuconașul Nicu.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>El ți-a dat scrisoarea?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Dar; l-am întîlnit la poartă, cînd mă duceam să ieu costumul cuconiței, și cînd ai ști cît m-a rugat ca să te fac să-l primești!…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Oare cum să-i dăm de știre?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>D-lui mi-a zis că va cînta din flaut pe sub fereastă, și că dacă va videa o lumînare pe la geamuri, atunci s-a sui; iar de nu, s-a duce acasă măhnit.</p>
+              <stage> (Se aude un flaut sub fereastă.) </stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ia auzi, madam Franț…</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>El îi, duducă.</p>
+              <stage> (Stau amîndouă de ascultă.) </stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Sărmanul Nicu!… va îngheța afară.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Cred și eu, că-i tare frig.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ce să facem, dragă madam Franț? madam Franț</p>
+              <stage>(luînd o lumînare și purtînd-o pe la fereastă)</stage>
+              <p>Iaca ce să facem.</p>
+            </sp>
+            <stage>(Flautul tace.)</stage>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ah! cum îmi bate inima de tare.</p>
+              <stage>(Se pune pe un jilț.)</stage>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Nu fi copilă, duducă Tincă, că nu te-oi lăsa singură.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Să șezi cu mine, madam Franț.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Bine, bine; nu te teme.</p>
+              <stage>(În parte.)</stage>
+              <p>Draga duducă!… cum s-a îngălbenit!… Ia așa tremuram și eu… În vremea lui Franț.</p>
+            </sp>
           </div>
-        <div type="scene" n="9">
-          <head>SCENA IX</head>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(se închină și stă lîngă ușă cu ochii în jos)</stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(se scoală, se închină și se pune iar pe jîlț neuitîndu-se la Nicu)</stage>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <stage>(Îi privește pe amîndoi cu dragoste)</stage>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(făcînd cîteva pasuri, zice încet)</stage>
-            <p>Mademuazelă…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(arătînd un jîlț lui Nicu)</stage>
-            <p>Poftim, monsiu Nico.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(șezînd)</stage>
-            <p>Mademuazela-i sănătoasă?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(Încet)</stage>
-            <p>Mersi.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(sucindu-și pălăria în mînă)</stage>
-            <p>Da vara d-tale-i sănătoasă?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(sucindu-și basmaua)</stage>
-            <p>Sănătoasă.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Se vede că a ieșit de-acasă.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Dar… mai dinioare.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>S-a fi dus poate la bal-masqué…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Nu cred… poate.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <stage>(în parte)</stage>
-            <p>Văd că eu sînt de prisos.</p>
-          </sp>
-          <stage>(Se furișează și iesă.)</stage>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(văzînd-o că se duce)</stage>
-            <p>madam Franț…</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <stage>(de afară)</stage>
-            <p>Vin acuș…</p>
-          </sp>
+          <div type="scene" n="9">
+            <head>SCENA IX</head>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(se închină și stă lîngă ușă cu ochii în jos)</stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(se scoală, se închină și se pune iar pe jîlț neuitîndu-se la Nicu)</stage>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <stage>(Îi privește pe amîndoi cu dragoste)</stage>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(făcînd cîteva pasuri, zice încet)</stage>
+              <p>Mademuazelă…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(arătînd un jîlț lui Nicu)</stage>
+              <p>Poftim, monsiu Nico.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(șezînd)</stage>
+              <p>Mademuazela-i sănătoasă?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(Încet)</stage>
+              <p>Mersi.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(sucindu-și pălăria în mînă)</stage>
+              <p>Da vara d-tale-i sănătoasă?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(sucindu-și basmaua)</stage>
+              <p>Sănătoasă.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Se vede că a ieșit de-acasă.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Dar… mai dinioare.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>S-a fi dus poate la bal-masqué…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Nu cred… poate.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <stage>(în parte)</stage>
+              <p>Văd că eu sînt de prisos.</p>
+            </sp>
+            <stage>(Se furișează și iesă.)</stage>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(văzînd-o că se duce)</stage>
+              <p>madam Franț…</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <stage>(de afară)</stage>
+              <p>Vin acuș…</p>
+            </sp>
           </div>
-        <div type="scene" n="10">
-          <head>SCENA X</head>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Ce frigu-i afară!</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>A fi înghețat pe ulițe.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>A înghețat, dar… De abia pot merge caii… lunecă, Doamne ferește!</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Săracii! cît îi mai chinuiesc!</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Calul unui droșcar și-a rupt piciorul, în colț la Petrea bacalul.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Sărmanul!</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Ce mai plîngea bietul lipovan!</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Cum n-a plînge?</p>
-            <stage>(Mică tăcere.)</stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>N-ai fost astă-seară la bal-masque, monsiu Nicule?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Nu, mademuazelă.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Dar ai de gînd să mergi mai tîrziu?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Ba, nu cred.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Pentru ce?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Nu-mi plac balurile unde…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Cum să nu-ți placă d-tale… care joci?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Vreu să zic că nu-mi plac soarelele unde… nu ești d-ta.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>a!…</p>
-            <stage>(Coboară ochii.)</stage>
-          </sp>
-          <stage>(Mică tăcere. Nicu și Tinca sînt foarte turburați.)</stage>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Ai fost mai dăunăzi la teatru, mademuazelă?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Am fost de am văzut Iașii în carnaval.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Și cum ți-a plăcut?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Am rîs foarte mult.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Am auzit că s-a mîniet un comisar asupra autorului?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Pentru ce?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Din pricina șatrarului Săbiuță.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ha, ha, ha!</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Zice că de ce să numească pe comisar șatrarul Săbiuță și nu șatrarul Sabie.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ha, ha, ha!… Ce nebun ești, monsiu Nicule.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(prinzînd la curaj)</stage>
-            <p>Cu adevărat sînt nebun, duducă… dar cînd ai ști…</p>
-            <stage>(Văzînd pe madam Franț, in parte.)</stage>
-            <p>Tronc!… cînd era să mă declar și eu…</p>
-          </sp>
+          <div type="scene" n="10">
+            <head>SCENA X</head>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Ce frigu-i afară!</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>A fi înghețat pe ulițe.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>A înghețat, dar… De abia pot merge caii… lunecă, Doamne ferește!</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Săracii! cît îi mai chinuiesc!</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Calul unui droșcar și-a rupt piciorul, în colț la Petrea bacalul.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Sărmanul!</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Ce mai plîngea bietul lipovan!</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Cum n-a plînge?</p>
+              <stage>(Mică tăcere.)</stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>N-ai fost astă-seară la bal-masque, monsiu Nicule?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Nu, mademuazelă.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Dar ai de gînd să mergi mai tîrziu?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Ba, nu cred.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Pentru ce?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Nu-mi plac balurile unde…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Cum să nu-ți placă d-tale… care joci?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Vreu să zic că nu-mi plac soarelele unde… nu ești d-ta.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>a!…</p>
+              <stage>(Coboară ochii.)</stage>
+            </sp>
+            <stage>(Mică tăcere. Nicu și Tinca sînt foarte turburați.)</stage>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Ai fost mai dăunăzi la teatru, mademuazelă?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Am fost de am văzut Iașii în carnaval.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Și cum ți-a plăcut?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Am rîs foarte mult.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Am auzit că s-a mîniet un comisar asupra autorului?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Pentru ce?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Din pricina șatrarului Săbiuță.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ha, ha, ha!</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Zice că de ce să numească pe comisar șatrarul Săbiuță și nu șatrarul Sabie.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ha, ha, ha!… Ce nebun ești, monsiu Nicule.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(prinzînd la curaj)</stage>
+              <p>Cu adevărat sînt nebun, duducă… dar cînd ai ști…</p>
+              <stage>(Văzînd pe madam Franț, in parte.)</stage>
+              <p>Tronc!… cînd era să mă declar și eu…</p>
+            </sp>
           </div>
-        <div type="scene" n="11">
-          <head>SCENA XI</head>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Iaca șalul de la Miculi, duducă Tincă.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(sculîndu-se)</stage>
-            <p>Ia să-l văd.</p>
-          </sp>
-          <stage>(Nicu se scoală asemene și se apropie de masa unde madam Franț a așezat șalul.)</stage>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Ce frumos șal!… Trebuie să facă vro sută de galbeni.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Tare-i elegant! Cum îți pare, monsiu Nicule?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Îmi pare minunat… dar aș dori să-l văd pe umerile unei dame, pentru ca să judec ce efect face!</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Ia, cearcă-l d-ta, duducă Tincă!</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Bine zice madam Franț… Cearcă-l d-ta, ca să știm de se prinde pe o talie elegantă…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Dacă vreți numaidecît, bucuros.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Vină de-mi ajută, monsiu Nicule, ca să-l întindem.</p>
-            <stage> (Nicu și madam Franț s-apucă de întins șalul, dar Nicu se greșește și-l întoarce pe dos.) </stage>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Nu așa, că-l dai pe dos.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Da cum?… Nu-i bine?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Dă la mine, monsiu Nicu, să-l strîng eu, că d-ta nu știi.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Poftim; dar cu astă condițiune, că să ți-l pun eu pe umeri.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Bine.</p>
-            <stage> (După ce madam Franț și Tinca au îndoit șalul cum se cuvine, Nicu ie șalul și-l pune pe umerile Tincăi.) </stage>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(în parte, puind salul Tincăi)</stage>
-            <p>Ce talie!…</p>
-            <stage>(Oftează.)</stage>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>A!… Ce frumos îți șede, duducă Tincă. Doamne!… cînd ai ști cît ești de frumușică!… Nu-i așa, cucoane Nicule?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(cu jumătate de glas)</stage>
-            <p>Dar.</p>
-            <stage>(Oftează.)</stage>
-          </sp>
-          <stage>(Tinca se primblă cu cochetărie pe dinaintea lui Nicu.)</stage>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Cît de bine are să-i pară verișoarei!… și ce bine are s-o prindă!</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Dac-a prinde-o așa de frumos ca pe d-ta, mademuazelă, cred că i-a părea foarte bine.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Mai ales la Copou, trebuie să facă un efect minunat.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Știți ce? Hai să ne închipuim că sîntem la Copou și că ne primblăm cu toții pe iarbă verde… d-voastră la brațetă amîndoi și eu în urmă.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ha, ha, ha!… Ce idei poznașe ai cîteodată, madam Franț.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Da, zău!… Hai să mai rîdem puțintel.</p>
-            <stage>(Luînd pe Nicu de mină.)</stage>
-            <p>Vină încoaci, monsiu Nicule.</p>
-            <stage>(Se apropie de Tinca.)</stage>
-            <p>Dă brațul duducăi… Așa… acum hai să ne primblăm.</p>
-          </sp>
-          <stage>(Nicu și Tinca se primblă rîzînd. Madam Franț îi urmează.)</stage>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Doamne!… ce nebună ești, madam Franț!</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Ia uitați-vă ce de mai dame frumoase, ce de mai cavaleri plăcuți se uită la d-voastră… De nu v-ar deochia!…</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Da bine, că-i veselă de tot Madam Franț!</p>
-            <stage>(Rîzînd.)</stage>
-            <p>Ne face de rîdem ca nebunii.</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Ei, primblați-vă împreună, că eu sînt cam ostenită și trebuie să mă odihnesc puțin; dar să luați seama la trăsuri.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Ce?… iar te duci, Madam Franț?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>N-ai nici o frică, că. ai un cavaler cu d-ta.</p>
-            <stage>(În parte.)</stage>
-            <p>Iar încep a fi de prisos… mă duc să mă culc.</p>
-            <stage>(Iesă.)</stage>
-          </sp>
+          <div type="scene" n="11">
+            <head>SCENA XI</head>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Iaca șalul de la Miculi, duducă Tincă.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(sculîndu-se)</stage>
+              <p>Ia să-l văd.</p>
+            </sp>
+            <stage>(Nicu se scoală asemene și se apropie de masa unde madam Franț a așezat șalul.)</stage>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Ce frumos șal!… Trebuie să facă vro sută de galbeni.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Tare-i elegant! Cum îți pare, monsiu Nicule?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Îmi pare minunat… dar aș dori să-l văd pe umerile unei dame, pentru ca să judec ce efect face!</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Ia, cearcă-l d-ta, duducă Tincă!</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Bine zice madam Franț… Cearcă-l d-ta, ca să știm de se prinde pe o talie elegantă…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Dacă vreți numaidecît, bucuros.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Vină de-mi ajută, monsiu Nicule, ca să-l întindem.</p>
+              <stage> (Nicu și madam Franț s-apucă de întins șalul, dar Nicu se greșește și-l întoarce pe dos.) </stage>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Nu așa, că-l dai pe dos.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Da cum?… Nu-i bine?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Dă la mine, monsiu Nicu, să-l strîng eu, că d-ta nu știi.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Poftim; dar cu astă condițiune, că să ți-l pun eu pe umeri.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Bine.</p>
+              <stage> (După ce madam Franț și Tinca au îndoit șalul cum se cuvine, Nicu ie șalul și-l pune pe umerile Tincăi.) </stage>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(în parte, puind salul Tincăi)</stage>
+              <p>Ce talie!…</p>
+              <stage>(Oftează.)</stage>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>A!… Ce frumos îți șede, duducă Tincă. Doamne!… cînd ai ști cît ești de frumușică!… Nu-i așa, cucoane Nicule?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(cu jumătate de glas)</stage>
+              <p>Dar.</p>
+              <stage>(Oftează.)</stage>
+            </sp>
+            <stage>(Tinca se primblă cu cochetărie pe dinaintea lui Nicu.)</stage>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Cît de bine are să-i pară verișoarei!… și ce bine are s-o prindă!</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Dac-a prinde-o așa de frumos ca pe d-ta, mademuazelă, cred că i-a părea foarte bine.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Mai ales la Copou, trebuie să facă un efect minunat.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Știți ce? Hai să ne închipuim că sîntem la Copou și că ne primblăm cu toții pe iarbă verde… d-voastră la brațetă amîndoi și eu în urmă.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ha, ha, ha!… Ce idei poznașe ai cîteodată, madam Franț.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Da, zău!… Hai să mai rîdem puțintel.</p>
+              <stage>(Luînd pe Nicu de mină.)</stage>
+              <p>Vină încoaci, monsiu Nicule.</p>
+              <stage>(Se apropie de Tinca.)</stage>
+              <p>Dă brațul duducăi… Așa… acum hai să ne primblăm.</p>
+            </sp>
+            <stage>(Nicu și Tinca se primblă rîzînd. Madam Franț îi urmează.)</stage>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Doamne!… ce nebună ești, madam Franț!</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Ia uitați-vă ce de mai dame frumoase, ce de mai cavaleri plăcuți se uită la d-voastră… De nu v-ar deochia!…</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Da bine, că-i veselă de tot Madam Franț!</p>
+              <stage>(Rîzînd.)</stage>
+              <p>Ne face de rîdem ca nebunii.</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Ei, primblați-vă împreună, că eu sînt cam ostenită și trebuie să mă odihnesc puțin; dar să luați seama la trăsuri.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Ce?… iar te duci, Madam Franț?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>N-ai nici o frică, că. ai un cavaler cu d-ta.</p>
+              <stage>(În parte.)</stage>
+              <p>Iar încep a fi de prisos… mă duc să mă culc.</p>
+              <stage>(Iesă.)</stage>
+            </sp>
           </div>
-        <div type="scene" n="12">
-          <head>SCENA XII</head>
-          <stage>(Îndată după ce se duce madam Franț, tinerii iar se turbură, tac, caută intr-o parte, dar nu incetează de a să primbla.) &lt;/desc&gt;</stage>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(peste puțin)</stage>
-            <p>Nu găsești, mademuazelă, că sînt lucruri în lume care n-ar trebui să aibă sfîrșit?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Care lucruri?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>De pildă… primblarea asta care o facem împreună.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Da nu te temi c-ai osteni?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>O! mademuazelă… cu d-ta m-aș primbla toată viața mea.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(zîmbind)</stage>
-            <p>Pe jos?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Și pe jos… și-n trăsură… și cu vaporul… Numai să fiu cu d-ta.</p>
-            <p>De-ar fi cu putință,</p>
-            <p>De-aș avea noroc</p>
-            <p>Cu a ta ființă</p>
-            <p>Să fiu la un loc,</p>
-            <p>De-orice-mprotivire</p>
-            <p>Eu mi-aș bate joc</p>
-            <p>Și cu-a ta iubire</p>
-            <p>Aș trece prin foci</p>
-            <stage> (Se aude o trăsură.) </stage>
-            <p>SCENA XIII</p>
-            <p>NICU, TINCA,. MADAM FRANȚ</p>
-            <stage> (viind iute) </stage>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Fugi, duducă, că vine cuconița.</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <stage>(aruncînd șalul pe canape)</stage>
-            <p>Vai de mine!… dar Nicu?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Trebuie să se ascundă undeva, pănă se vor culca boierii, ș-apoi va ieși.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Unde să m-ascund?</p>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>A! aici, în cabinetul ista… Întră degrabă că-i aud suind scările.</p>
-            <stage>(Îl împinge pe Nicu în cabinetul din dreapta.)</stage>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Să stingem lumînările.</p>
-            <stage>(Le stinge.)</stage>
-          </sp>
-          <sp who="#madam_frant">
-            <speaker>MADAM FRANȚ</speaker>
-            <p>Hai degrabă, să nu te găsască aici!</p>
-            <stage>(Iesă amîndouă iute prin stînga.)</stage>
-          </sp>
+          <div type="scene" n="12">
+            <head>SCENA XII</head>
+            <stage>(Îndată după ce se duce madam Franț, tinerii iar se turbură, tac, caută intr-o parte, dar nu incetează de a să primbla.) &lt;/desc&gt;</stage>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(peste puțin)</stage>
+              <p>Nu găsești, mademuazelă, că sînt lucruri în lume care n-ar trebui să aibă sfîrșit?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Care lucruri?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>De pildă… primblarea asta care o facem împreună.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Da nu te temi c-ai osteni?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>O! mademuazelă… cu d-ta m-aș primbla toată viața mea.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(zîmbind)</stage>
+              <p>Pe jos?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Și pe jos… și-n trăsură… și cu vaporul… Numai să fiu cu d-ta.</p>
+              <p>De-ar fi cu putință,</p>
+              <p>De-aș avea noroc</p>
+              <p>Cu a ta ființă</p>
+              <p>Să fiu la un loc,</p>
+              <p>De-orice-mprotivire</p>
+              <p>Eu mi-aș bate joc</p>
+              <p>Și cu-a ta iubire</p>
+              <p>Aș trece prin foci</p>
+              <stage> (Se aude o trăsură.) </stage>
+              <p>SCENA XIII</p>
+              <p>NICU, TINCA,. MADAM FRANȚ</p>
+              <stage> (viind iute) </stage>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Fugi, duducă, că vine cuconița.</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <stage>(aruncînd șalul pe canape)</stage>
+              <p>Vai de mine!… dar Nicu?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Trebuie să se ascundă undeva, pănă se vor culca boierii, ș-apoi va ieși.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Unde să m-ascund?</p>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>A! aici, în cabinetul ista… Întră degrabă că-i aud suind scările.</p>
+              <stage>(Îl împinge pe Nicu în cabinetul din dreapta.)</stage>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Să stingem lumînările.</p>
+              <stage>(Le stinge.)</stage>
+            </sp>
+            <sp who="#madam_frant">
+              <speaker>MADAM FRANȚ</speaker>
+              <p>Hai degrabă, să nu te găsască aici!</p>
+              <stage>(Iesă amîndouă iute prin stînga.)</stage>
+            </sp>
           </div>
-        <div type="scene" n="14">
-          <head>SCENA XIV</head>
-          <stage>(Întuneric.) &lt;/desc&gt;</stage>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(cu ochii legați)</stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(în domino)</stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(trăgîndu-l de mînă, zice cu glasul schimbat)</stage>
-            <p>Iată-ne în sfîrșit!… am ajuns!</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>A! slavă Domnului, că s-a sfîrșit acest voiaj prin întuneric, ce facem acum de vrun ceas!</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Îți pare rău că l-ai făcut?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ba nu, scumpul meu domino… dar aș voi să știu ce idee ai avut ca să-mi legi ochii în tinda teatrului și pentru ce m-ai silit să jur că n-oi face nici un chip de a afla cine ești?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Ți-am spus, domnule Teodorene, la balmasqué, că de mult eu am un capriciu pentru d-ta… că de mult mi-ai plăcut, și că de mult doream să am o întîlnire cu d-ta… Însă o întîlnire astfel, ca d-ta să nu poți ști cine sînt… De aceea ți-am și legat ochii în tinda teatrului, pentru ca să nu vezi în ce trăsură aveai să te sui… prin care uliți erai să treci și în care casă erai să întri… D-ta, ca un cavaler bine crescut, ai primit toate condițiile și mi-ai jurat că te-i supune la toate voințile mele, în vreme cît vom fi împreună.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Toate aceste sînt adevărate; dar de ce să mă lipsești de fericirea de a te privi, pentru că… sînt sigur că ești prea frumoasă.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Dar; sînt destul ele frumușică… și nu cred că te-i căi c-ai venit cu mine, dacă m-ai cunoaște.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Auzi d-ta?… și să fiu eu silit a fi cu ochii legați dinaintea unei frumuseți!… asta-i de nesuferit… și, zău, mai că-mi vine să-mi calc jurămîntul.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Adu-ți aminte că mi-ai dat parola de onoare.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ard-o focu parolă!… Încai fie-ți milă de mine… mă mîngîie de orbirea la care m-ai osîndit.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(luîndu-l de mînă, îl duce lîngă canape, unde se pun unul lîngă altul)</stage>
-            <p>Am multe de spus… Vin să ne punem pe canape.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(în parte)</stage>
-            <p>Ce fericire!…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Purtarea me trebuie să ți se pară foarte curioasă.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Dimprotivă…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Dar… ce mă mîngîie este că sîntem amîndoi vinovați.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Tot astfel de vinovății să-mi deie Dumnezeu!</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Cum?… nu te mustră cugetul că ești necredincios femeiei d-tale?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Femeia me?… Dar bărbatul d-tale? Ha, ha, ha…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Bărbatul meu? Ha, ha, ha. Oare… ce-or fi făcînd acum amîndoi?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Smărăndița?… Sînt sigur că-și închipuie planuri ca să mă înșele.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Cum?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Am pus rămășag amîndoi pe un șal.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Și în loc să te înșele ea… tu o înșeli, berbantule… ha, ha, ha.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ha, ha, ha. Așa sîntem noi!… ai dracului.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Nu toți.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>De pildă, bărbatul tău.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Bărbatul meu e bun la suflet, dar se socoate prea cu cap.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Sînt sigur că trebuie să fie camprostuț.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>A! Teodorene, nu-mi ocărî soțiorul.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Eu nu-l ocărăsc, dar nu pot tăgădui adevărul… Sînt încredințat că-i prostuț, sărmanul!</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Ha, ha, ha… ce n-aș da să te audă.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Nu-i așa? Vezi c-am gîcit?… Unde se află el acum?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>S-a dus de zece zile la moșie..</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Bine-a făcut… Ce ziceam eu că-i prost?… Dimprotivă, el îi foarte isteț, de vreme ce te-a lăsat singură… cu mine… și lîngă mine… scumpa mea mască.</p>
-            <stage>(Vrea să o ieie de talie.)</stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(sculîndu-se)</stage>
-            <p>N-ai auzit o trăsură?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Unde?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>în ogradă.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Nu… ți s-a părut.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Ba nu… Ia să mă duc să văd… Șezi aici că vin acuș.</p>
-            <stage>(Iesă prin stînga.)</stage>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Stăi, iubita mea, nu te duce…</p>
-          </sp>
-        </div>
+          <div type="scene" n="14">
+            <head>SCENA XIV</head>
+            <stage>(Întuneric.) &lt;/desc&gt;</stage>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(cu ochii legați)</stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(în domino)</stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(trăgîndu-l de mînă, zice cu glasul schimbat)</stage>
+              <p>Iată-ne în sfîrșit!… am ajuns!</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>A! slavă Domnului, că s-a sfîrșit acest voiaj prin întuneric, ce facem acum de vrun ceas!</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Îți pare rău că l-ai făcut?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ba nu, scumpul meu domino… dar aș voi să știu ce idee ai avut ca să-mi legi ochii în tinda teatrului și pentru ce m-ai silit să jur că n-oi face nici un chip de a afla cine ești?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Ți-am spus, domnule Teodorene, la balmasqué, că de mult eu am un capriciu pentru d-ta… că de mult mi-ai plăcut, și că de mult doream să am o întîlnire cu d-ta… Însă o întîlnire astfel, ca d-ta să nu poți ști cine sînt… De aceea ți-am și legat ochii în tinda teatrului, pentru ca să nu vezi în ce trăsură aveai să te sui… prin care uliți erai să treci și în care casă erai să întri… D-ta, ca un cavaler bine crescut, ai primit toate condițiile și mi-ai jurat că te-i supune la toate voințile mele, în vreme cît vom fi împreună.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Toate aceste sînt adevărate; dar de ce să mă lipsești de fericirea de a te privi, pentru că… sînt sigur că ești prea frumoasă.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Dar; sînt destul ele frumușică… și nu cred că te-i căi c-ai venit cu mine, dacă m-ai cunoaște.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Auzi d-ta?… și să fiu eu silit a fi cu ochii legați dinaintea unei frumuseți!… asta-i de nesuferit… și, zău, mai că-mi vine să-mi calc jurămîntul.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Adu-ți aminte că mi-ai dat parola de onoare.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ard-o focu parolă!… Încai fie-ți milă de mine… mă mîngîie de orbirea la care m-ai osîndit.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(luîndu-l de mînă, îl duce lîngă canape, unde se pun unul lîngă altul)</stage>
+              <p>Am multe de spus… Vin să ne punem pe canape.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(în parte)</stage>
+              <p>Ce fericire!…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Purtarea me trebuie să ți se pară foarte curioasă.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Dimprotivă…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Dar… ce mă mîngîie este că sîntem amîndoi vinovați.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Tot astfel de vinovății să-mi deie Dumnezeu!</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Cum?… nu te mustră cugetul că ești necredincios femeiei d-tale?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Femeia me?… Dar bărbatul d-tale? Ha, ha, ha…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Bărbatul meu? Ha, ha, ha. Oare… ce-or fi făcînd acum amîndoi?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Smărăndița?… Sînt sigur că-și închipuie planuri ca să mă înșele.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Cum?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Am pus rămășag amîndoi pe un șal.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Și în loc să te înșele ea… tu o înșeli, berbantule… ha, ha, ha.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ha, ha, ha. Așa sîntem noi!… ai dracului.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Nu toți.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>De pildă, bărbatul tău.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Bărbatul meu e bun la suflet, dar se socoate prea cu cap.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Sînt sigur că trebuie să fie camprostuț.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>A! Teodorene, nu-mi ocărî soțiorul.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Eu nu-l ocărăsc, dar nu pot tăgădui adevărul… Sînt încredințat că-i prostuț, sărmanul!</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Ha, ha, ha… ce n-aș da să te audă.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Nu-i așa? Vezi c-am gîcit?… Unde se află el acum?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>S-a dus de zece zile la moșie..</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Bine-a făcut… Ce ziceam eu că-i prost?… Dimprotivă, el îi foarte isteț, de vreme ce te-a lăsat singură… cu mine… și lîngă mine… scumpa mea mască.</p>
+              <stage>(Vrea să o ieie de talie.)</stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(sculîndu-se)</stage>
+              <p>N-ai auzit o trăsură?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Unde?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>în ogradă.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Nu… ți s-a părut.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Ba nu… Ia să mă duc să văd… Șezi aici că vin acuș.</p>
+              <stage>(Iesă prin stînga.)</stage>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Stăi, iubita mea, nu te duce…</p>
+            </sp>
+          </div>
         </div>
         <div type="scene" n="4">
           <head>SCENA XV</head>
@@ -1195,330 +1198,330 @@
           </sp>
           <div type="scene" n="16">
             <head>SCENA XVI</head>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>A! parcă aud foșăind un domino… D-ta ești?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(tot cu glasul prefăcut)</stage>
-            <p>Țist… Taci, pentru numele lui Dumnezeu! că a venit bărbatul meu de la țară.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ce zici?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Trăsura care am auzit-o mai dinioare a fost a lui.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ei, și vrea să zică, trebuie să mă duc?…</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Negreșit… Ah, ce nenorocire!</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(smulgîndu-și batista de pe ochi)</stage>
-            <p>Pe unde să fug, că nu văd nimic?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Nu fugi încă… Așteaptă aici în salon pănă s-or liniști oamenii din ogradă, ș-apoi oi veni eu să-ți dau drumul.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Dar dac-a veni bărbatu d-tale aici?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Nu te teme, că-i trudit de pe drum și are să se culce îndată.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Și nu și-a rupt încai gîtul pe drum?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Ah, Teodorene, cît îmi pare de rău!… Sărută-mă macar o dată păn-a nu ne despărți…</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(în parte)</stage>
-            <p>Nu pre am gust de sărutat, cu bărbatul la spate.</p>
-            <stage>(O sărută.)</stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Stăi pe canape și nu face vuiet, că sîntem perduți… Adio, scumpul meu!… Adio, sufletul meu!…</p>
-            <stage>(Iesă prin stînga.)</stage>
-          </sp>
-          </div>
-        <div type="scene" n="17">
-          <head>SCENA XVII</head>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(pe canape)</stage>
-            <p>Scumpul meu, sufletul meu!… Foarte mulțămesc de dragoste… Mai bine făceam eu de mă întorceam binișor acasă; încai acum n-aș fi cu frica-n spate… Da mîncal-ar moliile de bărbat!… tocmai acum și-a găsit să vie? Nu putea să se prăvale pe drum și să-și rupă un picior?… Ia, așa sînt bărbații… cînd nu te aștepți nicidecum, țop, îți cad în cap… Ce să fac acum?… Cu întunericul ista nu pot vide nici cît o palmă dinaintea mea… De-oi căuta să găsesc ușa, pot să dau vrun scaun jos, să fac vuiet și să deștept bărbatul. Mai bine s-aștept… dar pănă cînd s-aștept?… Și eu ziceam că-i întîmplare plăcută!… ba că chiar!…</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(deschizînd ușa cabinetului, în parte)</stage>
-            <p>Nu se mai aude nimic.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(auzind ușa cabinetului deschizîndu-se, se aruncă în fundul canapelei și zice în parte)</stage>
-            <p>Parc-am auzit că s-a deschis o ușă… Oare nu-i el?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(auzind canapeua scîrțiind)</stage>
-            <p>O scîrțiit ceva…</p>
-            <stage>(Întră degrabă în cabinet.)</stage>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>De cînd sînt nu mi s-a bătut inima așa de tare…</p>
-            <stage>(Căutînd împrejur.)</stage>
-            <p>Nu se zărește nimic… să vede că mi s-a părut…</p>
-            <stage>(Auzind ușa.)</stage>
-            <p>Iar?</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(deschizînd ușa)</stage>
-            <p>Oare să fie cineva în salon? Ia s-ascult…</p>
-            <stage>(Ascultă.)</stage>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ce să fie?</p>
-            <stage>(Ascultă)</stage>
-          </sp>
-          <stage>(Mică tăcere.)</stage>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>A fi vro mîță culcată pe canape.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Negreșit că-i vrun șoarec… Uf!… m-am săturat de șezut… Ia să cerc să găsesc ușa.</p>
-            <stage>(Se scoală de pe canape, merge încet și pipăind prin casă.)</stage>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Acum socot că mă pot duce.</p>
-            <stage>(Se pornește asemene spre ușă.)</stage>
-          </sp>
-          <stage>(Bojbăind amîndoi prin întuneric, se ating cu mînile și stau încremeniți.)</stage>
-          <sp who="#teodoreanu #nicu">
-            <speaker>TEODOREANU, NICU</speaker>
-            <stage>(în parte)</stage>
-            <p>Parc-am atins o mînă de om!</p>
-          </sp>
-          <stage>(Împreună, în parte.)</stage>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Am asudat</p>
-            <p>Ș-asud mereu,</p>
-            <p>Parc-am intrat</p>
-            <p>În feredeu!</p>
-            <p>Simt că slăbesc,</p>
-            <p>Mă-ngălbenesc,</p>
-            <p>Și mă topesc;</p>
-            <p>Valeu, valeu!</p>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>A! parcă aud foșăind un domino… D-ta ești?</p>
             </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Am înghețat</p>
-            <p>Și-ngheț mereu,</p>
-            <p>Parc-am intrat</p>
-            <p>În gheață, zău.</p>
-            <p>Mă oțăresc,</p>
-            <p>Mă-nvinețesc,</p>
-            <p>Mă-nțe penesc;</p>
-            <p>Valeu, valeu!</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Astfel asud, că pare că mă topesc.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Mi s-au tăiet picioarele de tot.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(preste puțin)</stage>
-            <p>N-aud nimic… poate a fi fost vro mobilă.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(asemene)</stage>
-            <p>Ce mai stau pe gînduri?… Haide într-un noroc.</p>
-          </sp>
-          <stage>(Se pornesc iar amîndoi și, ajungînd lîngă ușa din fund, se lovesc și se apucă de guleri.)</stage>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(tare)</stage>
-            <p>Să nu dai, că dau de tot.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(asemene)</stage>
-            <p>Că și eu dau de moarte.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Da nu strînge așa de tare, că te gîtul pe loc.</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Ori tu pe mine, ori eu pe tine.</p>
-            <stage> (Se zgîlție amîndoi.) </stage>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Nu strînge, îți zic, că să n-am parte…</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Îți spun că nu-s vinovat… A! luptă vrei?…</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Măi omule, n-am venit aici pentru ce socotești tu… A! vrei să mă trîntești?…</p>
-            <stage>(Se luptă grozav.)</stage>
-          </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(tot cu glasul prefăcut)</stage>
+              <p>Țist… Taci, pentru numele lui Dumnezeu! că a venit bărbatul meu de la țară.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ce zici?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Trăsura care am auzit-o mai dinioare a fost a lui.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ei, și vrea să zică, trebuie să mă duc?…</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Negreșit… Ah, ce nenorocire!</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(smulgîndu-și batista de pe ochi)</stage>
+              <p>Pe unde să fug, că nu văd nimic?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Nu fugi încă… Așteaptă aici în salon pănă s-or liniști oamenii din ogradă, ș-apoi oi veni eu să-ți dau drumul.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Dar dac-a veni bărbatu d-tale aici?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Nu te teme, că-i trudit de pe drum și are să se culce îndată.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Și nu și-a rupt încai gîtul pe drum?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Ah, Teodorene, cît îmi pare de rău!… Sărută-mă macar o dată păn-a nu ne despărți…</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(în parte)</stage>
+              <p>Nu pre am gust de sărutat, cu bărbatul la spate.</p>
+              <stage>(O sărută.)</stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Stăi pe canape și nu face vuiet, că sîntem perduți… Adio, scumpul meu!… Adio, sufletul meu!…</p>
+              <stage>(Iesă prin stînga.)</stage>
+            </sp>
           </div>
-        <div type="scene" n="18">
-          <head>SCENA XVIII</head>
-          <stage>(Cu lumînări în mînă.) &lt;/desc&gt;</stage>
-          <sp who="#toti">
-            <speaker>TOȚI</speaker>
-            <p>Ce este? Ce vuiet îi aici?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ia bărbatu d-tale…</p>
-            <stage>(Cunoscînd pe SMĂRĂNDIȚA.)</stage>
-            <p>Ce văd?… Smărăndița!</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Ha, ha, ha… Smărăndița, care te-a adus de la teatru, acasă la tine..</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Smărăndița!…</p>
-            <stage>(În parte.)</stage>
-            <p>Frumoasă mi-ai jucat-o, și mare gogoman sînt!</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Mai pui rămășag cu mine, Teodorene?</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(văzînd șalul pe canape)</stage>
-            <p>Iaca și șalul!…</p>
-            <stage>(Ia șalul și-l pune pe umerile Smărăndiței.)</stage>
-            <p>Ai cîștigat, dragă Smărăndița… Proverbul are dreptate.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Femeia hotărăște și Satan împlinește.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(În parte)</stage>
-            <p>Și bărbatul plătește.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(veselă)</stage>
-            <p>Mîngîie-te, Teodorene, că tu ai fost înșelat cu ochii legați, cînd mulți alții sînt înșelați cu ochii deschiși.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <stage>(văzînd pe Nicu)</stage>
-            <p>Da bine, domnu Nicu Tolinescu ce caută aici?</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Cu adevărat.</p>
-            <stage>(Cătră Ținea, zîmbind.)</stage>
-            <p>Răspunde tu…</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Verișoară…</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <p>Domnule Teodorene, ani venit aici ca să cer mîna duducăi.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Prin întuneric?… Ha, hă, ha… asta-i modă nouă.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Nu face nimic; noi primim cu bucurie… Să videm Tinca dacă vrea?…</p>
-            <stage>(Cătră Tinca.)</stage>
-            <p>Tu primești?</p>
-          </sp>
-          <sp who="#tinca">
-            <speaker>TINCA</speaker>
-            <p>Dacă primiți d-voastră…</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Ei, nu mai coborî ochii și zi că vrei, să se sfîrșească comedia.</p>
-            <stage>(Luînd-o de mînă.)</stage>
-            <p>Nicule, iată mîna Tincăi… Dar să iei seama la rămășaguri…</p>
-          </sp>
-          <sp who="#nicu">
-            <speaker>NICU</speaker>
-            <stage>(cu bucurie)</stage>
-            <p>Tinco!… noaptea asta îi ziua cea mai fericită pentru mine.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(în parte)</stage>
-            <p>Ș-a perdut calendariul, bietul băiet!…</p>
-          </sp>
-          <stage>(Intră lacheul.)</stage>
-          <sp who="#lacheul">
-            <speaker>LACHEUL</speaker>
-            <p>Poftim la masă.</p>
-          </sp>
-          <sp who="#teodoreanu">
-            <speaker>TEODOREANU</speaker>
-            <p>Iaca venim. Nicule, dă brațul Tincăi… Smărăndițo…</p>
-            <stage>(Îi prezentează brațul.)</stage>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <p>Acuș… Să dau mai întîi un sfat prietinilor.</p>
-          </sp>
-          <sp who="#smarandita">
-            <speaker>SMĂRĂNDIȚA</speaker>
-            <stage>(cătră public)</stage>
-          </sp>
-          <sp who="#toti">
-            <speaker>TOȚI</speaker>
-            <p>Dar, de vreți să cîștigați,</p>
-            <p>V-arătați</p>
-            <p>Delicați… ș.c.l.</p>
-            <stage> (Ușele din fund se deschid și se zărește o masă bogată cu candelabre aprinse.) </stage>
-            <stage> (Cortina cade.) </stage>
-          </sp>
-        </div>
+          <div type="scene" n="17">
+            <head>SCENA XVII</head>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(pe canape)</stage>
+              <p>Scumpul meu, sufletul meu!… Foarte mulțămesc de dragoste… Mai bine făceam eu de mă întorceam binișor acasă; încai acum n-aș fi cu frica-n spate… Da mîncal-ar moliile de bărbat!… tocmai acum și-a găsit să vie? Nu putea să se prăvale pe drum și să-și rupă un picior?… Ia, așa sînt bărbații… cînd nu te aștepți nicidecum, țop, îți cad în cap… Ce să fac acum?… Cu întunericul ista nu pot vide nici cît o palmă dinaintea mea… De-oi căuta să găsesc ușa, pot să dau vrun scaun jos, să fac vuiet și să deștept bărbatul. Mai bine s-aștept… dar pănă cînd s-aștept?… Și eu ziceam că-i întîmplare plăcută!… ba că chiar!…</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(deschizînd ușa cabinetului, în parte)</stage>
+              <p>Nu se mai aude nimic.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(auzind ușa cabinetului deschizîndu-se, se aruncă în fundul canapelei și zice în parte)</stage>
+              <p>Parc-am auzit că s-a deschis o ușă… Oare nu-i el?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(auzind canapeua scîrțiind)</stage>
+              <p>O scîrțiit ceva…</p>
+              <stage>(Întră degrabă în cabinet.)</stage>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>De cînd sînt nu mi s-a bătut inima așa de tare…</p>
+              <stage>(Căutînd împrejur.)</stage>
+              <p>Nu se zărește nimic… să vede că mi s-a părut…</p>
+              <stage>(Auzind ușa.)</stage>
+              <p>Iar?</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(deschizînd ușa)</stage>
+              <p>Oare să fie cineva în salon? Ia s-ascult…</p>
+              <stage>(Ascultă.)</stage>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ce să fie?</p>
+              <stage>(Ascultă)</stage>
+            </sp>
+            <stage>(Mică tăcere.)</stage>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>A fi vro mîță culcată pe canape.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Negreșit că-i vrun șoarec… Uf!… m-am săturat de șezut… Ia să cerc să găsesc ușa.</p>
+              <stage>(Se scoală de pe canape, merge încet și pipăind prin casă.)</stage>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Acum socot că mă pot duce.</p>
+              <stage>(Se pornește asemene spre ușă.)</stage>
+            </sp>
+            <stage>(Bojbăind amîndoi prin întuneric, se ating cu mînile și stau încremeniți.)</stage>
+            <sp who="#teodoreanu #nicu">
+              <speaker>TEODOREANU, NICU</speaker>
+              <stage>(în parte)</stage>
+              <p>Parc-am atins o mînă de om!</p>
+            </sp>
+            <stage>(Împreună, în parte.)</stage>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Am asudat</p>
+              <p>Ș-asud mereu,</p>
+              <p>Parc-am intrat</p>
+              <p>În feredeu!</p>
+              <p>Simt că slăbesc,</p>
+              <p>Mă-ngălbenesc,</p>
+              <p>Și mă topesc;</p>
+              <p>Valeu, valeu!</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Am înghețat</p>
+              <p>Și-ngheț mereu,</p>
+              <p>Parc-am intrat</p>
+              <p>În gheață, zău.</p>
+              <p>Mă oțăresc,</p>
+              <p>Mă-nvinețesc,</p>
+              <p>Mă-nțe penesc;</p>
+              <p>Valeu, valeu!</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Astfel asud, că pare că mă topesc.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Mi s-au tăiet picioarele de tot.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(preste puțin)</stage>
+              <p>N-aud nimic… poate a fi fost vro mobilă.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(asemene)</stage>
+              <p>Ce mai stau pe gînduri?… Haide într-un noroc.</p>
+            </sp>
+            <stage>(Se pornesc iar amîndoi și, ajungînd lîngă ușa din fund, se lovesc și se apucă de guleri.)</stage>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(tare)</stage>
+              <p>Să nu dai, că dau de tot.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(asemene)</stage>
+              <p>Că și eu dau de moarte.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Da nu strînge așa de tare, că te gîtul pe loc.</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Ori tu pe mine, ori eu pe tine.</p>
+              <stage> (Se zgîlție amîndoi.) </stage>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Nu strînge, îți zic, că să n-am parte…</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Îți spun că nu-s vinovat… A! luptă vrei?…</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Măi omule, n-am venit aici pentru ce socotești tu… A! vrei să mă trîntești?…</p>
+              <stage>(Se luptă grozav.)</stage>
+            </sp>
+          </div>
+          <div type="scene" n="18">
+            <head>SCENA XVIII</head>
+            <stage>(Cu lumînări în mînă.) &lt;/desc&gt;</stage>
+            <sp who="#toti">
+              <speaker>TOȚI</speaker>
+              <p>Ce este? Ce vuiet îi aici?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ia bărbatu d-tale…</p>
+              <stage>(Cunoscînd pe SMĂRĂNDIȚA.)</stage>
+              <p>Ce văd?… Smărăndița!</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Ha, ha, ha… Smărăndița, care te-a adus de la teatru, acasă la tine..</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Smărăndița!…</p>
+              <stage>(În parte.)</stage>
+              <p>Frumoasă mi-ai jucat-o, și mare gogoman sînt!</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Mai pui rămășag cu mine, Teodorene?</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(văzînd șalul pe canape)</stage>
+              <p>Iaca și șalul!…</p>
+              <stage>(Ia șalul și-l pune pe umerile Smărăndiței.)</stage>
+              <p>Ai cîștigat, dragă Smărăndița… Proverbul are dreptate.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Femeia hotărăște și Satan împlinește.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(În parte)</stage>
+              <p>Și bărbatul plătește.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(veselă)</stage>
+              <p>Mîngîie-te, Teodorene, că tu ai fost înșelat cu ochii legați, cînd mulți alții sînt înșelați cu ochii deschiși.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <stage>(văzînd pe Nicu)</stage>
+              <p>Da bine, domnu Nicu Tolinescu ce caută aici?</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Cu adevărat.</p>
+              <stage>(Cătră Ținea, zîmbind.)</stage>
+              <p>Răspunde tu…</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Verișoară…</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <p>Domnule Teodorene, ani venit aici ca să cer mîna duducăi.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Prin întuneric?… Ha, hă, ha… asta-i modă nouă.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Nu face nimic; noi primim cu bucurie… Să videm Tinca dacă vrea?…</p>
+              <stage>(Cătră Tinca.)</stage>
+              <p>Tu primești?</p>
+            </sp>
+            <sp who="#tinca">
+              <speaker>TINCA</speaker>
+              <p>Dacă primiți d-voastră…</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Ei, nu mai coborî ochii și zi că vrei, să se sfîrșească comedia.</p>
+              <stage>(Luînd-o de mînă.)</stage>
+              <p>Nicule, iată mîna Tincăi… Dar să iei seama la rămășaguri…</p>
+            </sp>
+            <sp who="#nicu">
+              <speaker>NICU</speaker>
+              <stage>(cu bucurie)</stage>
+              <p>Tinco!… noaptea asta îi ziua cea mai fericită pentru mine.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(în parte)</stage>
+              <p>Ș-a perdut calendariul, bietul băiet!…</p>
+            </sp>
+            <stage>(Intră lacheul.)</stage>
+            <sp who="#lacheul">
+              <speaker>LACHEUL</speaker>
+              <p>Poftim la masă.</p>
+            </sp>
+            <sp who="#teodoreanu">
+              <speaker>TEODOREANU</speaker>
+              <p>Iaca venim. Nicule, dă brațul Tincăi… Smărăndițo…</p>
+              <stage>(Îi prezentează brațul.)</stage>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <p>Acuș… Să dau mai întîi un sfat prietinilor.</p>
+            </sp>
+            <sp who="#smarandita">
+              <speaker>SMĂRĂNDIȚA</speaker>
+              <stage>(cătră public)</stage>
+            </sp>
+            <sp who="#toti">
+              <speaker>TOȚI</speaker>
+              <p>Dar, de vreți să cîștigați,</p>
+              <p>V-arătați</p>
+              <p>Delicați… ș.c.l.</p>
+              <stage> (Ușele din fund se deschid și se zărește o masă bogată cu candelabre aprinse.) </stage>
+              <stage> (Cortina cade.) </stage>
+            </sp>
+          </div>
         </div>
       </div>
     </body>

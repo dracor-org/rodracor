@@ -7,7 +7,7 @@
         <title>Take, Ianke și Cadâr</title>
         <author>
           <persName>Victor Ion Popa</persName>
-          <idno type="wikidata">https://www.wikidata.org/entity/Q7926026</idno>
+          <idno type="wikidata">Q7926026</idno>
         </author>
       </titleStmt>
       <publicationStmt>
@@ -25,16 +25,18 @@
           </availability>
         </bibl>
         <bibl type="originalSource">
-            <availability>
-              <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
-            </availability>
+          <availability>
+            <licence target="https://creativecommons.org/share-your-work/public-domain/">public domain</licence>
+          </availability>
         </bibl>
-
         <listEvent>
           <event type="print" when="1932">
             <desc>1932</desc>
           </event>
         </listEvent>
+        <bibl type="wikidata">
+          <idno>Q23711949</idno>
+        </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -64,6 +66,9 @@
           <person xml:id="doi_copii">
             <persName>DOI COPII</persName>
           </person>
+          <person xml:id="anke">
+            <persName>ANKE</persName>
+          </person>
         </listPerson>
       </particDesc>
       <textClass>
@@ -74,11 +79,6 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <standOff>
-    <listRelation>
-      <relation name="wikidata" active="https://dracor.org/entity/ro000074" passive="http://www.wikidata.org/entity/Q23711949"/>
-    </listRelation>
-  </standOff>
   <text>
     <front>
       <titlePage>
@@ -221,7 +221,7 @@
             <speaker>IANKE</speaker>
             <p>Ei așa! Dai un ban, dar face!</p>
             <stage> (Cadâr începe să sforăie iar.) </stage>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (râde) </stage>
@@ -344,7 +344,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Dacă nu dai imediat, te pun la dobândă!</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (zvârle banii) </stage>
@@ -994,17 +994,17 @@
             <speaker>IANKE</speaker>
             <p>Buna ziua!</p>
             <stage> (Iese în prag și șade iar pe scaun.) </stage>
-            </sp>
+          </sp>
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <stage> (intră în prăvălie după babă) </stage>
             <p>Stafide? Tată, cât dai stafidele?</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (de dincolo) </stage>
             <p>O sută douăzeci și opt, tată.</p>
-            </sp>
+          </sp>
           <sp who="#baba_safta">
             <speaker>BABA SAFTA</speaker>
             <stage> (încet lui Ionel) </stage>
@@ -1021,7 +1021,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>Tată, bomboane n-ai?</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (de dincolo) </stage>
@@ -1071,12 +1071,12 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Unde-i maică-ta să te vadă...</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (înduioșată) </stage>
             <p>Papa!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Ionel) </stage>
@@ -1093,7 +1093,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Ce vorbești? Ce complimente! Astea nu-s complimente... ești așa de frumoasă... ești mai frumoasă decât era maică-ta când eram eu logodit cu ea...</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (înduioșată) </stage>
@@ -1102,7 +1102,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Frumoasă! Și ea era așa de frumoasă. Nu era alta mai frumoasă că ea... și-așa un copil am eu?.. O fată așa frumoasă... Spune! Tu ești a mea? A mea? Chiar a mea? Un ovrei bătrân și urât ca mine are o fată așa de frumoasă? Un biet negustor, care vinde măsline într-o mahala, a făcut așa o frumusețe... așa o comoară?</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (înduioșată la culme) </stage>
@@ -1112,7 +1112,7 @@
             <speaker>IANKE</speaker>
             <p>Așa o comoară? Apoi atunci ce milionar? Gata! Capra s-a făcut aeroplan. Aeroplan s-a făcut!</p>
             <stage> (și plânge și râde și-i săruta mâinile, stând istovit pe scaun.) </stage>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (mângâindu-l) </stage>
@@ -1187,7 +1187,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Hahaaa! Halal mă Ianke, asta nu e fata ta, cum nu-i a mea.</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Ionel) </stage>
@@ -1238,7 +1238,7 @@
           <sp who="#ana">
             <speaker>ANA</speaker>
             <p>Las-o așa, numai s-o vopsești.</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Take) </stage>
@@ -1684,7 +1684,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>Apoi, poți să mă crezi!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Take) </stage>
@@ -1697,7 +1697,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>Nici un bucluc, tată. E foarte simplu. Noi am hotărât să ne căsătorim.</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (sare în sus) </stage>
@@ -1804,7 +1804,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>E o greșeală care nu rezolvă nimic! Ne amărâm degeaba toți și ne puneți bețe în roate așa, Dumnezeu știe pentru ce, poate că nu mai puteți să vă mândriți că ați ales dumneavoastră... Ei bine, trebuie să ne înțelegeți un lucru. De hatârul chefurilor și nazurilor ce faceți, n-o să ne ucidem noi viața noastră. Scurt!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Take) </stage>
@@ -1817,7 +1817,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Dar eu nu discut!</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (foarte categorică) </stage>
@@ -1826,7 +1826,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Dar de ce să nu discutăm?</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (categorică) </stage>
@@ -2054,8 +2054,8 @@
           <sp who="#ilie">
             <speaker>ILIE</speaker>
             <p>Apoi dacă nu se botează, ce face? El creștin și ea evreică? Așa o calculație faină faci tu?</p>
-            </sp>
-        <sp who="#ianke">
+          </sp>
+          <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (rămâne împietrit) </stage>
             <p>Iotete, iotete...</p>
@@ -2157,7 +2157,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>Atunci vino încoace să vorbim mai departe...</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (mai încet) </stage>
@@ -2475,7 +2475,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Mersi, și fetele mie o să mi le dați?</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (zâmbind și în lacrimi) </stage>
@@ -2491,7 +2491,7 @@
           <sp who="#ana">
             <speaker>ANA</speaker>
             <p>Ei bine, să știi că nu glumesc, papa!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (ridicând glasul) </stage>
@@ -2500,8 +2500,8 @@
           <sp who="#ana">
             <speaker>ANA</speaker>
             <p>Va să zică, nu vrei să răspunzi...</p>
-            </sp>
-        <sp who="#ianke">
+          </sp>
+          <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (o clipă vrea să spuie ceva, apoi se supără pe el însuși că nu găsește o vorbă. Violent) </stage>
             <p>Ei, lasă-mă în pace că mă duc să mă îmbrac.</p>
@@ -2615,7 +2615,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Și mă rog de ce plânge? De ce trebuie să plângă? Fata asta parcă-i maică-sa! Așa o nenorocire pe capul meu... Take! Take!</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (vine) </stage>
@@ -2659,7 +2659,7 @@
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <p>Asta tot așa de mare durere estem ca atunci când Cadâr avut mare durere la inima... și asta tot durere estem și moarte estem, și tot degeaba estem!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Take) </stage>
@@ -2720,7 +2720,6 @@
           <stage>(Se petrece într-o seară, după aprinderea lămpilor. Vezi spatele caselor lui Ianke și Take – tot așa de asemuitoare și pe aci că și prin față. E un fel de prispă foarte largă și acoperită. Nu are balustradă, ci numai stâlpi subțiri de lemn. Aci se mănâncă vara pesemne, căci de la început se văd puse mesele. Pe stânga masa lui Ianke, în dreapta masa lui Take. Granița dintre cele două case o formează un fel de geamlâc cu ușile deschise. Și scaunele și mesele și tacâmurile sunt la fel, o simetrie perfectă. De la prispă până în față mai este puțin loc, atât cât să se vadă că aici sunt straturi de flori și că cele două curți sunt despărțite printr-un gărduleț de șipci, înalt până la jumătatea coapsei unui om. Dar imediat de lângă prispă e o portiță în gărduleț și portița e deschisă. Cele două curți sunt mărginite spre dreapta de un fel de spate al magaziei de scânduri din curtea alăturată și spre stânga de zidul întunecat al curții lui Cadâr. Au trecut numai câteva zile de la întâmplările de mai înainte).</stage>
         </div>
       </div>
-
       <div type="act" n="2">
         <head>ACTUL II</head>
         <div type="scene" n="1">
@@ -2771,7 +2770,7 @@
           <sp who="#ana">
             <speaker>ANA</speaker>
             <p>Da, dar cum? Și cu ce bani? N-avem nimic și nici papa n-are să ne dea, nici nenea Tache n-are să-i dea bani lui Ionel, Atunci? Cu ce bani?</p>
-            </sp>
+          </sp>
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <stage> (oftând) </stage>
@@ -2932,7 +2931,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>Și cum? Tu... uită-te în ochii mei... ai putea să mori fără mine?</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (izbucnind în hohote de plâns) </stage>
@@ -2984,7 +2983,7 @@
           <sp who="#ionel">
             <speaker>IONEL</speaker>
             <p>Fiindcă m-ar asculta numai când i-ar da voie lumea să mă asculte în toate! Și cum așa ceva nu-i posibil, nici nu pot să-i cer să mă asculte.</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (enervat, desface jurnalul) </stage>
@@ -3045,7 +3044,7 @@
             <stage> (Strigă.) </stage>
             <p>Take!</p>
             <stage> (Toți stau la masă.) </stage>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (intră posomorât) </stage>
@@ -3106,7 +3105,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Ce vrei să fac? Așa-i omul vădan! Când trăia nevasta vorbea și ea. Acum trebuie să vorbesc pentru doi.</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (s-a uitat la mâncările de la masa lui Ianke) </stage>
@@ -3273,7 +3272,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Dar de ce te-ai supărat? Ce-ai înțeles tu?</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (nici nu ascultă) </stage>
@@ -3648,12 +3647,12 @@
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <p>A! Asta nu! Asta numai Take putem spune!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (lui Take) </stage>
             <p>Acu ce stai? Spune!</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (supărat) </stage>
@@ -3674,17 +3673,17 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Ei poftim jur.</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (domolit o clipă, dar imediat) </stage>
             <p>Și chiar dacă a fost ceva tu ai să juri...</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (foarte serios, luându-l de brațe) </stage>
             <p>Mă, Ianke! Uită-te ici în ochii mei... mă uit cu treizeci de ani de prietenie, înțelegi tu? Să mă trăsnească Dumnezeu în clipa asta, de-i adevărat o vorbă!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (o clipă, apoi răzbunător, violent, lui Cadâr) </stage>
@@ -3745,7 +3744,7 @@
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <p>Lasam fata, luat Ionel! Bre Ianke, bre! Cadâr iubeștem la voi. La toți voi iubeștem! Ca viața lui iubețem. Asta tot gluma fost... asta încercare fost. Vrem arătam la Ianke: creștin, ovrei, turc totuna estem... Acum nici Ianke, nici Take nu spus... o dată măcar... ăla creștin, ala ovrei. Acum gândit supărare făcut, înșelat copil pierdut... Ascultam vorba la Cadâr: unde lacrima picat, unde inima tare bătut, unde nuca dinlăuntru la viața este... om este bre, nu ovrei, nu creștin, nu turc... Asta coaja estem... buna estem. Dar nu nuca estem!... Cadâr știm vorba de la Allah: nu păcat nuca ala fără coaja... păcat ala coaja fără nuc... Ianke bre! Pricepem inima de la bătrân Cadâr?</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (trezit din gânduri) </stage>
@@ -3939,7 +3938,7 @@
             <speaker>TAKE</speaker>
             <p>Dar fie și-așa.</p>
             <stage> (Așază foițele în fes.) </stage>
-            </sp>
+          </sp>
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <stage> (arătând) </stage>
@@ -3960,7 +3959,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Hai mă de trei ori!</p>
-            </sp>
+          </sp>
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <stage> (scoate bilețelul) </stage>
@@ -3985,7 +3984,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Ei haide, să nu zici că nu vreau eu!</p>
-            </sp>
+          </sp>
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <stage> (scoate biletul) </stage>
@@ -4104,7 +4103,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Ei, taci odată din gură!</p>
-            </sp>
+          </sp>
           <sp who="#baba_safta">
             <speaker>BABA SAFTA</speaker>
             <stage> (încet) </stage>
@@ -4267,7 +4266,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Da, dar tot ai izbutit să faci un copil cu el.</p>
-            </sp>
+          </sp>
           <sp who="#baba_safta">
             <speaker>BABA SAFTA</speaker>
             <stage> (jignită) </stage>
@@ -4325,7 +4324,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Eu le-am spus, dar mi se pare că tu le-ai și făcut...</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (scos din fire) </stage>
@@ -4692,8 +4691,8 @@
           <sp who="#ilie">
             <speaker>ILIE</speaker>
             <p>Ei, stai că plec... poftim plec!</p>
-            </sp>
-        <sp who="#ianke">
+          </sp>
+          <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (în urma lui) </stage>
             <p>Și să știi că n-am nevoie de voi... și puțin îmi pasă dacă nu cumpărați... și puteți să-mi dați și foc, păcătoșilor! Și știi tu, să-ți spun una: să vă ferească Dumnezeu să mă fac și eu antisemit!</p>
@@ -4740,7 +4739,7 @@
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <p>Ionel nu copil de la Take estem!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (uluit) </stage>
@@ -4951,7 +4950,7 @@
             <p>Și dobitocul cela de Take stă în casă! Să vezi că încurcă lucrurile și nu pot copiii să fugă... și nu au decât un sfert de ceas...</p>
             <stage> (Strigă.) </stage>
             <p>Take! Take!</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (ieșind) </stage>
@@ -5083,7 +5082,7 @@
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <p>Afară la trăsură, încolo plecat! Ei asta scrisori dat, la tine Ianke... la tine Take.</p>
-            </sp>
+          </sp>
           <sp who="#take #ianke">
             <speaker>TAKE și IANKE</speaker>
             <stage> (citesc scrisorile și joacă teatru) </stage>
@@ -5175,12 +5174,12 @@
           <sp who="#cadar">
             <speaker>CADÂR</speaker>
             <p>Lăsam, bre! Nu mai plângem bre! Copiii torcem fericit... și voi fericiți și ei fericiți și eu fericit...</p>
-            </sp>
+          </sp>
           <sp who="#take #ianke">
             <speaker>TAKE și IANKE</speaker>
             <stage> (amândoi deodată) </stage>
             <p>Și tu?</p>
-            </sp>
+          </sp>
           <sp who="#ianke #take">
             <speaker>IANKE și TAKE</speaker>
             <stage> (odată amândoi) </stage>
@@ -5284,7 +5283,6 @@
           <stage>(Ar fi tot decorul din actul al doilea, dacă toate câte se vedeau acolo n-ar fi date foarte în fund și nu li s-ar fi pus în față un gard. Este de fapt o vedere a celor două curți, din cărăruia care trece prin spatele lor, despărțindu-le de calea ferată, de care s-a tot vorbit până acum. Firește, fiecare curticică își are portița ei, de-a dreapta și de-a stânga unui copac mare și bătrân – sădit pe linia gardurilor, în preajma și la umbra lui o laviță rudimentară de lemn. Dar curțile au ajuns până aici îngustându-se. Parcă ar porni toate – chiar și a lui Cadâr – din rădăcina copacului bătrân. Astfel și copacul, și banca aparțin celor trei curți deopotrivă. Va fi trecut o lună, două de la întâmplările povestite mai înainte. Pe dinafară nimic nu se vede schimbat. Doar bătrânii cei doi – Ianke și Take – care fumează și stau pe bancă, par ceva mai obosiți, pe gânduri și parcă mai triști. Poate unde se simt ceva mai singuri, de când le-au plecat copiii și, mai ales, de când au rupt prietenia cu Cadâr. E seara lăsată, și cu ea o dată, liniștea aceea cuminte, caldă și primitoare a târgurilor noastre, în care inima se topește că o apă și se prefiră încet-încet de tot în larg, în cer, în noapte. Bătrânii, cu ochii dosi, cântă ceva, destul de încet și de amărât, cum ar fi – știu eu? – poate acel dureros cântec ce este „Ada-ida-vavala”)...</stage>
         </div>
       </div>
-
       <div type="act" n="3">
         <head>ACTUL III</head>
         <div type="scene" n="1">
@@ -5293,7 +5291,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Nu te duci să mănânci?</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (dă din cap) </stage>
@@ -5346,7 +5344,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Nu mai mănânci, nu mai dormi...</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (ca un ecou) </stage>
@@ -5367,7 +5365,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Ce vorbești? Așa o vizită plăcută aștepți tu? Du-te la dracul cu ea de gât! Așteapt-o tu și pentru mine...</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (blând) </stage>
@@ -5716,7 +5714,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Și ție-ți scrie la mașină?</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (vag) </stage>
@@ -5747,7 +5745,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Cum și? Dobitocule! Nu vezi că-s tot scrisorile acelea! Dumnealor pun două foi și trag două exemplare și iscălesc amândoi și pun la două plicuri! Ei, așa o economie și la dragoste prea e modern, prea e civilizație.</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (comparând scrisorile) </stage>
@@ -5954,7 +5952,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Nu mai țin minte bine...</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (decis) </stage>
@@ -6139,7 +6137,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>I-am dat lui Cadâr – pentru asta mi-a cerut împrumut!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (amețit) </stage>
@@ -6184,7 +6182,7 @@
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <p>Dar de ce să te treacă pe tine – că tu știai?...</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (exasperat) </stage>
@@ -6300,14 +6298,14 @@
             <p>Și ce? Crezi că nu-l omor și eu? Eu îl omor în orice caz! Să mă bată Dumnezeu de nu-l leg de șină, la tren. Încaltea să-mi folosească și mie trenul la ceva.</p>
             <stage> (încet, amețit.) </stage>
             <p>Turc ne-a trebuit, turc am găsit!</p>
-            </sp>
+          </sp>
           <sp who="#take">
             <speaker>TAKE</speaker>
             <stage> (hotărât) </stage>
             <p>Orișice-ar fi, trebuie!</p>
             <stage> (Strigă.) </stage>
             <p>Cadâr!</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (îngrozit) </stage>
@@ -6712,7 +6710,7 @@
           <sp who="#ana">
             <speaker>ANA</speaker>
             <p>Are dreptate, papa, are dreptate! Cere iertare...</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (către Cadâr) </stage>
@@ -6769,7 +6767,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Dar nu vreau...</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (râzând) </stage>
@@ -6817,12 +6815,12 @@
             <speaker>ANA</speaker>
             <p>Ba da, papa, ba da! Sunt a ta, sunt fata ta, nu te mai îndoi... ești papa al meu, fiindcă te am aici în inima, înțelegi tu, fiindcă ești bun și vesel și fiindcă... fiindcă ești papa al meu și eu vreau să fii papa al meu, gata...</p>
             <stage> (Sunt îmbrățișați.) </stage>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (îi pare ceva curios and a luat-o de talie, o îndepărtează, se uita la ea) </stage>
             <p>Dar ce? Tu te-ai îngrășat...</p>
-            </sp>
+          </sp>
           <sp who="#ana">
             <speaker>ANA</speaker>
             <stage> (astupă ochii) </stage>
@@ -6831,7 +6829,7 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Măi copii...</p>
-            </sp>
+          </sp>
           <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (face ochii mari și-i dau lacrimi de bucurie) </stage>
@@ -6906,8 +6904,8 @@
           <sp who="#take">
             <speaker>TAKE</speaker>
             <p>Ei, Ianke, cine știe! Băiatul cel mic crește... fetița asta uite, uite ce frumușică s-a făcut...</p>
-            </sp>
-        <sp who="#ianke">
+          </sp>
+          <sp who="#ianke">
             <speaker>IANKE</speaker>
             <stage> (îi dă peste mână) </stage>
             <p>Du-te la dracul! Ce ești nebun? Abia s-a terminat! Iar începi?</p>
